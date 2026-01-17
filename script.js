@@ -138,6 +138,59 @@ const translations = {
         legal: "Deze site bevat affiliate links. Als partner kan ik een commissie verdienen zonder extra kosten voor u. De site is niet verantwoordelijk voor aankopen op partnerplatforms."
     }
 };
+const homeIntro = {
+  fr: {
+    title: "Recettes halal authentiques et gourmandes",
+    p1: "Salam Aleykoum et bienvenue sur Cuisine du Monde Halal, un site dédié aux recettes halal traditionnelles et modernes, inspirées de différentes cuisines du monde.",
+    p2: "Vous trouverez ici des plats faits maison, préparés sans porc, sans alcool et sans ingrédients contenant de l’alcool, afin de respecter les principes de l’alimentation halal.",
+    p3: "Ce site s’adresse aux familles musulmanes, aux personnes ayant des restrictions alimentaires ainsi qu’à toute personne curieuse de découvrir une cuisine saine et savoureuse.",
+    p4: "Chaque recette est expliquée simplement avec les ingrédients, le matériel nécessaire et des étapes claires pour réussir vos plats à la maison.",
+    p5: "De nouvelles recettes sont ajoutées régulièrement : plats marocains, orientaux, desserts traditionnels et spécialités internationales revisitées en version halal."
+  },
+
+  en: {
+    title: "Authentic and delicious halal recipes",
+    p1: "Welcome to Cuisine du Monde Halal, a website dedicated to traditional and modern halal recipes inspired by cuisines from around the world.",
+    p2: "All recipes are homemade, without pork, without alcohol and without ingredients containing alcohol.",
+    p3: "This website is intended for Muslim families, people with dietary restrictions and anyone curious to discover healthy and flavorful cuisine.",
+    p4: "Each recipe is clearly explained with ingredients, required equipment and easy-to-follow steps.",
+    p5: "New recipes are added regularly, including Moroccan dishes, oriental cuisine and traditional desserts."
+  },
+
+  ar: {
+    title: "وصفات حلال أصلية ولذيذة",
+    p1: "مرحباً بكم في موقع مطبخ العالم الحلال، المخصص للوصفات الحلال التقليدية والعصرية من مختلف مطابخ العالم.",
+    p2: "جميع الوصفات منزلية وخالية من لحم الخنزير والكحول والمكونات التي تحتوي على الكحول.",
+    p3: "الموقع موجه للعائلات المسلمة وللأشخاص ذوي القيود الغذائية ولكل من يحب اكتشاف مطبخ صحي ولذيذ.",
+    p4: "كل وصفة مشروحة بطريقة بسيطة مع المكونات والأدوات والخطوات الواضحة.",
+    p5: "نضيف وصفات جديدة بانتظام تشمل أطباقاً مغربية وشرقية وحلويات تقليدية."
+  },
+
+  nl: {
+    title: "Authentieke en smakelijke halal recepten",
+    p1: "Welkom bij Cuisine du Monde Halal, een website met traditionele en moderne halal recepten uit keukens over de hele wereld.",
+    p2: "Alle recepten zijn huisgemaakt, zonder varkensvlees, zonder alcohol en zonder ingrediënten die alcohol bevatten.",
+    p3: "Deze website is bedoeld voor moslimgezinnen, mensen met voedingsbeperkingen en nieuwsgierige fijnproevers.",
+    p4: "Elk recept wordt eenvoudig uitgelegd met ingrediënten, benodigd materiaal en duidelijke stappen.",
+    p5: "Er worden regelmatig nieuwe recepten toegevoegd, waaronder Marokkaanse en oosterse gerechten."
+  }
+};
+function renderHomeIntro(lang) {
+  const container = document.getElementById("home-intro");
+  if (!container || !homeIntro[lang]) return;
+
+  const t = homeIntro[lang];
+
+  container.innerHTML = `
+    <h2>${t.title}</h2>
+    <p>${t.p1}</p>
+    <p>${t.p2}</p>
+    <p>${t.p3}</p>
+    <p>${t.p4}</p>
+    <p>${t.p5}</p>
+  `;
+}
+
 
 
 
@@ -238,8 +291,14 @@ function applyTranslations(lang) {
 
 /* Écouteur pour changement de langue */
 document.getElementById("language").addEventListener("change", (e) => {
-    applyTranslations(e.target.value);
+    const lang = e.target.value;
+    applyTranslations(lang);
+    renderHomeIntro(lang);
 });
+const defaultLang = "fr";
+applyTranslations(defaultLang);
+renderHomeIntro(defaultLang);
+
 
 /* =========================
    BOUTIQUE
