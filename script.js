@@ -358,10 +358,7 @@ document.querySelectorAll('a[href*="amazon.com"]').forEach(link => {
 
 
 
-/* =========================
-   INITIALISATION
-========================= */
-applyTranslations("fr"); // langue par défaut
+
 
 
 
