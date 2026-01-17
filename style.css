@@ -126,6 +126,23 @@ footer a {
     margin-top: 10px;
 }
 
+/* MENU EN BAS (footer) */
+.footer-nav {
+    margin-bottom: 10px;
+}
+
+.footer-nav a {
+    color: #c1272d; /* rouge marocain */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+
+
 /* UTIL */
 .hidden {
     display: none !important;
