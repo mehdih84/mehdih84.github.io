@@ -3550,7 +3550,7 @@ recipesData.dessert.chebakia = {
 };
 recipesData.dessert.kaabElGhazal = {
     country: "maroc",
-    image: "images/kaab-el-ghazal.jpg",
+    image: "images/kaab.jpg",
     fr: {
         title: "Kaab el Ghazal (cornes de gazelle)",
         equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 four", "1 planche à découper"],
