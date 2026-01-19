@@ -1,4 +1,5 @@
 /* =========================
+
    DICTIONNAIRE MULTILINGUE
 ========================= */
 const translations = {
@@ -141,7 +142,7 @@ const translations = {
 const homeIntro = {
   fr: {
     title: "Recettes halal authentiques et gourmandes",
-    p1: "Salam Aleykoum et bienvenue sur Cuisine du Monde Halal, un site dédié aux recettes halal traditionnelles et modernes, inspirées de différentes cuisines du monde.",
+    p1: "Salam Aleykoum, bonjour et bienvenue sur Cuisine du Monde Halal, un site dédié aux recettes halal traditionnelles et modernes, inspirées de différentes cuisines du monde.",
     p2: "Vous trouverez ici des plats faits maison, préparés sans porc, sans alcool et sans ingrédients contenant de l’alcool, afin de respecter les principes de l’alimentation halal.",
     p3: "Ce site s’adresse aux familles musulmanes, aux personnes ayant des restrictions alimentaires ainsi qu’à toute personne curieuse de découvrir une cuisine saine et savoureuse.",
     p4: "Chaque recette est expliquée simplement avec les ingrédients, le matériel nécessaire et des étapes claires pour réussir vos plats à la maison.",
@@ -374,10 +375,18 @@ const recipesData = {
     patisserie: {}
 };
 
-// Exemple recette : Harira (Maroc)
-recipesData.entree.harira = {
+
+recipesData.entree.harira_maroc = {
     country: "maroc",
     image: "images/harira.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "45 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Harira marocaine traditionnelle (4 personnes)",
         equipment: [
@@ -404,8 +413,24 @@ recipesData.entree.harira = {
             "1,5 litre d’eau"
         ],
         preparation:
-            "Cette recette est prévue pour 4 personnes. Égoutter les pois chiches trempés. Rincer les lentilles à l’eau froide. Éplucher et hacher finement l’oignon. Laver le céleri et la coriandre puis les hacher finement. Mettre la marmite sur feu moyen. Ajouter l’huile d’olive et attendre 1 minute. Ajouter l’oignon, le céleri et la coriandre. Faire revenir pendant 5 minutes en remuant. Ajouter les tomates concassées, les pois chiches et les lentilles. Ajouter le gingembre, le curcuma, le paprika, le sel et le poivre. Mélanger soigneusement. Verser 1,5 litre d’eau. Couvrir et laisser cuire à feu moyen pendant 45 minutes. Remuer de temps en temps. Vérifier la cuisson des pois chiches et des lentilles avant de servir bien chaud."
+            "1. La veille, faire tremper les pois chiches dans un grand bol d’eau froide pendant 12 heures.\n" +
+            "2. Égoutter les pois chiches et rincer les lentilles à l’eau froide.\n" +
+            "3. Éplucher l’oignon puis le hacher finement.\n" +
+            "4. Laver le céleri et la coriandre puis les hacher finement.\n" +
+            "5. Mettre une grande marmite sur feu moyen.\n" +
+            "6. Ajouter l’huile d’olive et laisser chauffer 1 minute.\n" +
+            "7. Ajouter l’oignon, le céleri et la coriandre.\n" +
+            "8. Faire revenir pendant 5 minutes en remuant.\n" +
+            "9. Ajouter les tomates concassées, les pois chiches et les lentilles.\n" +
+            "10. Ajouter le gingembre, le curcuma, le paprika, le sel et le poivre.\n" +
+            "11. Mélanger soigneusement.\n" +
+            "12. Verser 1,5 litre d’eau.\n" +
+            "13. Couvrir et laisser cuire à feu moyen pendant 45 minutes.\n" +
+            "14. Remuer de temps en temps.\n" +
+            "15. Vérifier la cuisson des pois chiches et des lentilles.\n" +
+            "16. Servir bien chaud."
     },
+
     en: {
         title: "Traditional Moroccan Harira (Serves 4)",
         equipment: [
@@ -424,16 +449,32 @@ recipesData.entree.harira = {
             "1 celery stalk (50 g)",
             "1 bunch fresh coriander (30 g)",
             "3 tablespoons olive oil (45 ml)",
-            "1 level teaspoon ground ginger (2 g)",
-            "1 level teaspoon turmeric (2 g)",
-            "1 level teaspoon paprika (2 g)",
-            "1 level teaspoon salt (5 g)",
+            "1 teaspoon ground ginger (2 g)",
+            "1 teaspoon turmeric (2 g)",
+            "1 teaspoon paprika (2 g)",
+            "1 teaspoon salt (5 g)",
             "1/2 teaspoon black pepper",
             "1.5 liters water"
         ],
         preparation:
-            "This recipe serves 4 people. Drain soaked chickpeas. Rinse lentils under cold water. Peel and finely chop the onion. Wash and finely chop celery and coriander. Heat the pot over medium heat. Add olive oil and wait 1 minute. Add onion, celery, and coriander. Cook for 5 minutes, stirring. Add crushed tomatoes, chickpeas, and lentils. Add ginger, turmeric, paprika, salt, and pepper. Mix well. Pour in 1.5 liters of water. Cover and cook over medium heat for 45 minutes, stirring occasionally. Check that chickpeas and lentils are tender before serving hot."
+            "1. Soak the chickpeas in cold water for 12 hours.\n" +
+            "2. Drain the chickpeas and rinse the lentils.\n" +
+            "3. Peel and finely chop the onion.\n" +
+            "4. Wash and finely chop the celery and coriander.\n" +
+            "5. Heat a large pot over medium heat.\n" +
+            "6. Add the olive oil and heat for 1 minute.\n" +
+            "7. Add the onion, celery and coriander.\n" +
+            "8. Cook for 5 minutes, stirring.\n" +
+            "9. Add the crushed tomatoes, chickpeas and lentils.\n" +
+            "10. Add ginger, turmeric, paprika, salt and pepper.\n" +
+            "11. Mix well.\n" +
+            "12. Pour in 1.5 liters of water.\n" +
+            "13. Cover and cook for 45 minutes.\n" +
+            "14. Stir occasionally.\n" +
+            "15. Check that chickpeas and lentils are tender.\n" +
+            "16. Serve hot."
     },
+
     nl: {
         title: "Traditionele Marokkaanse harira (voor 4 personen)",
         equipment: [
@@ -452,16 +493,32 @@ recipesData.entree.harira = {
             "1 stengel selderij (50 g)",
             "1 bos verse koriander (30 g)",
             "3 eetlepels olijfolie (45 ml)",
-            "1 afgestreken theelepel gemalen gember (2 g)",
-            "1 afgestreken theelepel kurkuma (2 g)",
-            "1 afgestreken theelepel paprikapoeder (2 g)",
-            "1 afgestreken theelepel zout (5 g)",
+            "1 theelepel gemberpoeder (2 g)",
+            "1 theelepel kurkuma (2 g)",
+            "1 theelepel paprikapoeder (2 g)",
+            "1 theelepel zout (5 g)",
             "1/2 theelepel zwarte peper",
             "1,5 liter water"
         ],
         preparation:
-            "Dit recept is voor 4 personen. Laat de kikkererwten uitlekken. Spoel de linzen af met koud water. Schil en snipper de ui fijn. Was en hak selderij en koriander fijn. Verhit de pan op middelhoog vuur. Voeg de olijfolie toe en wacht 1 minuut. Voeg ui, selderij en koriander toe en bak 5 minuten. Voeg tomaten, kikkererwten en linzen toe. Voeg kruiden toe en meng goed. Giet 1,5 liter water erbij. Laat 45 minuten koken en roer af en toe. Serveer heet."
+            "1. Week de kikkererwten 12 uur in koud water.\n" +
+            "2. Laat de kikkererwten uitlekken en spoel de linzen.\n" +
+            "3. Schil en snipper de ui fijn.\n" +
+            "4. Was en hak de selderij en koriander fijn.\n" +
+            "5. Verhit een grote pan op middelhoog vuur.\n" +
+            "6. Voeg de olijfolie toe en verwarm 1 minuut.\n" +
+            "7. Voeg de ui, selderij en koriander toe.\n" +
+            "8. Bak 5 minuten en roer regelmatig.\n" +
+            "9. Voeg tomaten, kikkererwten en linzen toe.\n" +
+            "10. Voeg de kruiden, zout en peper toe.\n" +
+            "11. Meng goed.\n" +
+            "12. Giet 1,5 liter water erbij.\n" +
+            "13. Laat 45 minuten koken.\n" +
+            "14. Roer af en toe.\n" +
+            "15. Controleer of alles gaar is.\n" +
+            "16. Serveer warm."
     },
+
     ar: {
         title: "الحريرة المغربية التقليدية (تكفي 4 أشخاص)",
         equipment: [
@@ -488,9 +545,25 @@ recipesData.entree.harira = {
             "1.5 لتر ماء"
         ],
         preparation:
-            "هذه الوصفة تكفي 4 أشخاص. صفِّ الحمص المنقوع. اغسل العدس بالماء البارد. قشر البصل وقطعه ناعماً. اغسل الكرفس والكزبرة وقطعهما ناعماً. ضع القدر على نار متوسطة. أضف زيت الزيتون وانتظر دقيقة. أضف البصل والكرفس والكزبرة وحرّك 5 دقائق. أضف الطماطم والحمص والعدس. أضف التوابل وامزج جيداً. أضف 1.5 لتر ماء. غطِّ القدر واتركه يطهى 45 دقيقة مع التحريك أحياناً. قدمه ساخناً."
+            "1. انقع الحمص في الماء البارد لمدة 12 ساعة.\n" +
+            "2. صفِّ الحمص واغسل العدس.\n" +
+            "3. قشر البصل وقطعه ناعماً.\n" +
+            "4. اغسل الكرفس والكزبرة وقطعهما ناعماً.\n" +
+            "5. سخّن قدراً كبيراً على نار متوسطة.\n" +
+            "6. أضف زيت الزيتون واتركه يسخن دقيقة.\n" +
+            "7. أضف البصل والكرفس والكزبرة.\n" +
+            "8. قلّب لمدة 5 دقائق.\n" +
+            "9. أضف الطماطم والحمص والعدس.\n" +
+            "10. أضف التوابل والملح والفلفل.\n" +
+            "11. امزج جيداً.\n" +
+            "12. أضف 1.5 لتر ماء.\n" +
+            "13. غطِّ القدر واتركه يطهى 45 دقيقة.\n" +
+            "14. حرّك من وقت لآخر.\n" +
+            "15. تأكد من نضج المكونات.\n" +
+            "16. قدّمها ساخنة."
     }
 };
+
 recipesData.entree.zaalouk = {
     country: "maroc",
     image: "images/zaalouk.jpg",
@@ -589,6 +662,7 @@ recipesData.entree.zaalouk = {
             "7. زيّن بالأعشاب وقدّم دافئًا."
     }
 };
+
 recipesData.entree.taktouka = {
     country: "maroc",
     image: "images/taktouka.jpg",
@@ -46969,6 +47043,9 @@ function updateRecipeList() {
 
     // On récupère toutes les clés de recettes pour ce type
     let allKeys = Object.keys(recipesData[type]);
+    console.log("Recettes détectées :", allKeys);
+
+
 
     // Si type = dessert, on ajoute aussi les pâtisseries
     if (type === "dessert" && recipesData["patisserie"]) {
@@ -46986,6 +47063,8 @@ function updateRecipeList() {
         recipeContainer.classList.add("hidden");
         return;
     }
+    recipeSelect.innerHTML = "";
+
 
     // Création des options dans le menu déroulant
     filteredRecipes.forEach(key => {
@@ -46998,7 +47077,14 @@ function updateRecipeList() {
 
     recipeSelect.classList.remove("hidden");
     recipeContainer.classList.add("hidden");
+    // Sélection automatique de la première recette
+if (filteredRecipes.length > 0) {
+    recipeSelect.value = filteredRecipes[0];
+    let recipeType = recipesData[type][filteredRecipes[0]] ? type : "patisserie";
+    displayRecipe(filteredRecipes[0], recipeType);
 }
+}
+
 
 /* --------- AFFICHAGE D'UNE RECETTE --------- */
 recipeSelect.addEventListener("change", () => {
@@ -47018,6 +47104,19 @@ function displayRecipe(recipeKey, type) {
 
     recipeTitle.textContent = data.title;
     recipeImage.src = recipesData[type][recipeKey].image;
+const metaDiv = document.getElementById("recipeMeta");
+
+if (recipesData[type][recipeKey].meta) {
+    const meta = recipesData[type][recipeKey].meta;
+
+    metaDiv.textContent =
+        "👥 " + meta.servings +
+        " | ⏱ Préparation: " + meta.prepTime +
+        " | 🔥 Cuisson: " + meta.cookTime +
+        " | ⭐ Difficulté: " + meta.difficulty;
+} else {
+    metaDiv.textContent = "";
+}
 
     recipeEquipment.innerHTML = "";
     data.equipment.forEach(item => {
@@ -47037,58 +47136,9 @@ function displayRecipe(recipeKey, type) {
 
     homeImage.classList.add("hidden");
     recipeContainer.classList.remove("hidden");
+    document.getElementById("home-intro").classList.add("hidden");
+
 }
-
-
-
-
-/* --------- AFFICHAGE D'UNE RECETTE --------- */
-recipeSelect.addEventListener("change", () => {
-    // cacher boutique quand on choisit une recette
-    shopContainer.classList.add("hidden");
-
-    const type = typeSelect.value;
-    const recipeKey = recipeSelect.value;
-    if (!recipeKey) return;
-    
-    // afficher la recette
-    displayRecipe(recipeKey, type);
-
-    // scroll automatique vers la recette (mobile-friendly)
-    const recipeContainer = document.querySelector('.recipe');
-    if (recipeContainer) {
-        recipeContainer.scrollIntoView({ behavior: 'smooth' });
-    }
-});
-
-
-
-function displayRecipe(recipeKey, type) {
-    const data = recipesData[type][recipeKey][currentLang];
-
-    recipeTitle.textContent = data.title;
-    recipeImage.src = recipesData[type][recipeKey].image;
-
-    recipeEquipment.innerHTML = "";
-    data.equipment.forEach(item => {
-        const li = document.createElement("li");
-        li.textContent = item;
-        recipeEquipment.appendChild(li);
-    });
-
-    recipeIngredients.innerHTML = "";
-    data.ingredients.forEach(item => {
-        const li = document.createElement("li");
-        li.textContent = item;
-        recipeIngredients.appendChild(li);
-    });
-
-    recipePreparation.textContent = data.preparation;
-
-    homeImage.classList.add("hidden");
-    recipeContainer.classList.remove("hidden");
-}
-
 /* --------- INITIALISATION --------- */
 setLanguage("fr");
 setCountry("all");
