@@ -567,41 +567,63 @@ recipesData.entree.harira_maroc = {
 recipesData.entree.zaalouk = {
     country: "maroc",
     image: "images/zaalouk.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "15 min",
+        cookTime: "20 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Zaalouk – Salade marocaine d’aubergines",
         equipment: [
             "1 casserole",
             "1 poêle",
-            "1 cuillère en bois",
             "1 couteau",
-            "1 planche à découper"
+            "1 planche à découper",
+            "1 cuillère en bois"
         ],
         ingredients: [
             "2 grosses aubergines",
             "3 tomates mûres",
-            "2 gousses d’ail, hachées",
+            "2 gousses d’ail",
             "3 cuillères à soupe d’huile d’olive",
-            "1 cuillère à café cumin",
-            "1 cuillère à café paprika",
+            "1 cuillère à café de cumin",
+            "1 cuillère à café de paprika",
             "Sel selon goût",
             "Persil ou coriandre fraîche"
         ],
         preparation:
-            "1. Faire cuire les aubergines à l’eau jusqu’à ce qu’elles soient tendres.\n" +
-            "2. Égoutter, peler et écraser grossièrement.\n" +
-            "3. Dans une poêle, chauffer l’huile d’olive et faire revenir l’ail.\n" +
-            "4. Ajouter les tomates râpées, cumin, paprika et sel.\n" +
-            "5. Laisser mijoter 10 minutes.\n" +
-            "6. Ajouter les aubergines et cuire encore 5 minutes.\n" +
-            "7. Parsemer de persil ou coriandre et servir tiède."
+            "1. Laver les aubergines et les couper en gros morceaux.\n" +
+            "2. Les faire cuire dans une casserole d’eau bouillante pendant 15 minutes jusqu’à ce qu’elles soient bien tendres.\n" +
+            "3. Égoutter les aubergines, les peler puis les écraser grossièrement à la fourchette.\n" +
+            "4. Laver les tomates, les couper en deux et les râper ou les écraser.\n" +
+            "5. Éplucher et hacher finement l’ail.\n" +
+            "6. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "7. Ajouter l’ail et faire revenir 1 minute sans le brûler.\n" +
+            "8. Ajouter les tomates, le cumin, le paprika et le sel.\n" +
+            "9. Laisser mijoter 10 minutes en remuant.\n" +
+            "10. Ajouter les aubergines écrasées.\n" +
+            "11. Bien mélanger et laisser cuire encore 5 minutes.\n" +
+            "12. Rectifier l’assaisonnement si nécessaire.\n" +
+            "13. Parsemer de persil ou de coriandre.\n" +
+            "14. Servir tiède ou froid."
     },
+
     en: {
         title: "Zaalouk – Moroccan Eggplant Salad",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 knife", "1 cutting board"],
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "2 large eggplants",
             "3 ripe tomatoes",
-            "2 garlic cloves, chopped",
+            "2 garlic cloves",
             "3 tablespoons olive oil",
             "1 teaspoon cumin",
             "1 teaspoon paprika",
@@ -609,21 +631,35 @@ recipesData.entree.zaalouk = {
             "Fresh parsley or coriander"
         ],
         preparation:
-            "1. Boil eggplants until tender.\n" +
-            "2. Drain, peel and mash.\n" +
-            "3. Heat olive oil and sauté garlic.\n" +
-            "4. Add grated tomatoes, cumin, paprika and salt.\n" +
-            "5. Simmer 10 minutes.\n" +
-            "6. Add eggplants and cook 5 more minutes.\n" +
-            "7. Garnish with herbs and serve warm."
+            "1. Wash the eggplants and cut them into large pieces.\n" +
+            "2. Boil them in water for 15 minutes until very soft.\n" +
+            "3. Drain, peel and roughly mash them with a fork.\n" +
+            "4. Wash and grate or crush the tomatoes.\n" +
+            "5. Peel and finely chop the garlic.\n" +
+            "6. Heat the olive oil in a pan over medium heat.\n" +
+            "7. Add the garlic and sauté for 1 minute.\n" +
+            "8. Add the tomatoes, cumin, paprika and salt.\n" +
+            "9. Simmer for 10 minutes, stirring.\n" +
+            "10. Add the mashed eggplants.\n" +
+            "11. Mix well and cook for 5 more minutes.\n" +
+            "12. Adjust seasoning if needed.\n" +
+            "13. Garnish with parsley or coriander.\n" +
+            "14. Serve warm or cold."
     },
+
     nl: {
         title: "Zaalouk – Marokkaanse auberginesalade",
-        equipment: ["1 pan", "1 koekenpan", "1 houten lepel", "1 mes", "1 snijplank"],
+        equipment: [
+            "1 pan",
+            "1 koekenpan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
             "2 grote aubergines",
             "3 rijpe tomaten",
-            "2 teentjes knoflook, gehakt",
+            "2 teentjes knoflook",
             "3 eetlepels olijfolie",
             "1 theelepel komijn",
             "1 theelepel paprika",
@@ -631,21 +667,35 @@ recipesData.entree.zaalouk = {
             "Verse peterselie of koriander"
         ],
         preparation:
-            "1. Kook de aubergines tot ze zacht zijn.\n" +
-            "2. Laat uitlekken, schil en prak grof.\n" +
-            "3. Verhit olijfolie en fruit knoflook.\n" +
-            "4. Voeg tomaten, komijn, paprika en zout toe.\n" +
-            "5. Laat 10 minuten sudderen.\n" +
-            "6. Voeg aubergines toe en kook 5 minuten.\n" +
-            "7. Garneer met kruiden en serveer warm."
+            "1. Was de aubergines en snijd ze in grote stukken.\n" +
+            "2. Kook ze 15 minuten in water tot ze zacht zijn.\n" +
+            "3. Laat uitlekken, pel ze en prak grof.\n" +
+            "4. Was en rasp of plet de tomaten.\n" +
+            "5. Pel en hak de knoflook fijn.\n" +
+            "6. Verhit olijfolie in een pan op middelhoog vuur.\n" +
+            "7. Voeg de knoflook toe en bak 1 minuut.\n" +
+            "8. Voeg tomaten, komijn, paprika en zout toe.\n" +
+            "9. Laat 10 minuten sudderen en roer regelmatig.\n" +
+            "10. Voeg de aubergines toe.\n" +
+            "11. Meng goed en kook nog 5 minuten.\n" +
+            "12. Breng op smaak indien nodig.\n" +
+            "13. Garneer met peterselie of koriander.\n" +
+            "14. Serveer warm of koud."
     },
+
     ar: {
         title: "الزعلوك – سلطة الباذنجان المغربية",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "سكين", "لوح تقطيع"],
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "2 باذنجان كبير",
             "3 طماطم ناضجة",
-            "2 فص ثوم مفروم",
+            "2 فص ثوم",
             "3 ملاعق كبيرة زيت زيتون",
             "ملعقة صغيرة كمون",
             "ملعقة صغيرة بابريكا",
@@ -653,41 +703,74 @@ recipesData.entree.zaalouk = {
             "بقدونس أو كزبرة طازجة"
         ],
         preparation:
-            "1. اسلق الباذنجان حتى يصبح طريًا.\n" +
-            "2. صفِّه، قشره واهرِسه.\n" +
-            "3. سخّن زيت الزيتون وقلِّ الثوم.\n" +
-            "4. أضف الطماطم، الكمون، البابريكا والملح.\n" +
-            "5. اتركه يطهى 10 دقائق.\n" +
-            "6. أضف الباذنجان واطهه 5 دقائق إضافية.\n" +
-            "7. زيّن بالأعشاب وقدّم دافئًا."
+            "1. اغسل الباذنجان وقطّعه إلى قطع كبيرة.\n" +
+            "2. اسلقه في الماء لمدة 15 دقيقة حتى يصبح طريًا.\n" +
+            "3. صفِّه وقشّره واهرِسه بالشوكة.\n" +
+            "4. اغسل الطماطم واطحنها أو ابشرها.\n" +
+            "5. قشّر الثوم وافرمه ناعمًا.\n" +
+            "6. سخّن زيت الزيتون في المقلاة على نار متوسطة.\n" +
+            "7. أضف الثوم وقلِّه دقيقة واحدة.\n" +
+            "8. أضف الطماطم والكمون والبابريكا والملح.\n" +
+            "9. اتركه يطهى 10 دقائق مع التحريك.\n" +
+            "10. أضف الباذنجان المهروس.\n" +
+            "11. اخلط جيدًا واتركه 5 دقائق إضافية.\n" +
+            "12. عدّل التتبيل حسب الذوق.\n" +
+            "13. زيّن بالبقدونس أو الكزبرة.\n" +
+            "14. قدّم دافئًا أو باردًا."
     }
 };
-
 recipesData.entree.taktouka = {
     country: "maroc",
     image: "images/taktouka.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "15 min",
+        cookTime: "20 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Taktouka – Salade marocaine de poivrons",
-        equipment: ["1 poêle", "1 couteau", "1 planche à découper", "1 cuillère"],
+        equipment: [
+            "1 poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
             "3 poivrons",
             "3 tomates",
             "2 gousses d’ail",
-            "3 cuillères à soupe huile d’olive",
-            "1 cuillère à café paprika",
+            "3 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de paprika",
             "Sel selon goût"
         ],
         preparation:
-            "1. Griller les poivrons, les peler et les couper.\n" +
-            "2. Couper les tomates en petits dés.\n" +
-            "3. Chauffer l’huile et faire revenir l’ail.\n" +
-            "4. Ajouter poivrons, tomates, paprika et sel.\n" +
-            "5. Laisser mijoter 10 minutes.\n" +
-            "6. Servir tiède ou froid."
+            "1. Laver les poivrons.\n" +
+            "2. Les faire griller au four, à la poêle ou sur une flamme jusqu’à ce que la peau noircisse.\n" +
+            "3. Mettre les poivrons dans un sac ou un bol couvert pendant 10 minutes.\n" +
+            "4. Les peler puis les couper en petits morceaux.\n" +
+            "5. Laver et couper les tomates en petits dés.\n" +
+            "6. Éplucher et hacher finement l’ail.\n" +
+            "7. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "8. Ajouter l’ail et faire revenir 1 minute.\n" +
+            "9. Ajouter les tomates, le paprika et le sel.\n" +
+            "10. Laisser mijoter 10 minutes.\n" +
+            "11. Ajouter les poivrons.\n" +
+            "12. Bien mélanger et cuire encore 5 minutes.\n" +
+            "13. Rectifier l’assaisonnement.\n" +
+            "14. Servir tiède ou froid."
     },
+
     en: {
         title: "Taktouka – Moroccan Pepper Salad",
-        equipment: ["1 pan", "1 knife", "1 cutting board", "1 spoon"],
+        equipment: [
+            "1 pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "3 bell peppers",
             "3 tomatoes",
@@ -697,16 +780,30 @@ recipesData.entree.taktouka = {
             "Salt to taste"
         ],
         preparation:
-            "1. Roast peppers, peel and chop.\n" +
-            "2. Dice tomatoes.\n" +
-            "3. Heat oil and sauté garlic.\n" +
-            "4. Add peppers, tomatoes, paprika and salt.\n" +
-            "5. Simmer 10 minutes.\n" +
-            "6. Serve warm or cold."
+            "1. Wash the peppers.\n" +
+            "2. Roast them until the skin is blackened.\n" +
+            "3. Place them in a covered bowl for 10 minutes.\n" +
+            "4. Peel and chop the peppers.\n" +
+            "5. Wash and dice the tomatoes.\n" +
+            "6. Peel and finely chop the garlic.\n" +
+            "7. Heat the olive oil in a pan over medium heat.\n" +
+            "8. Add the garlic and sauté for 1 minute.\n" +
+            "9. Add the tomatoes, paprika and salt.\n" +
+            "10. Simmer for 10 minutes.\n" +
+            "11. Add the peppers.\n" +
+            "12. Mix well and cook for 5 more minutes.\n" +
+            "13. Adjust seasoning if needed.\n" +
+            "14. Serve warm or cold."
     },
+
     nl: {
         title: "Taktouka – Marokkaanse paprikasalade",
-        equipment: ["1 pan", "1 mes", "1 snijplank", "1 lepel"],
+        equipment: [
+            "1 pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
             "3 paprika’s",
             "3 tomaten",
@@ -716,116 +813,221 @@ recipesData.entree.taktouka = {
             "Zout naar smaak"
         ],
         preparation:
-            "1. Rooster paprika’s, pel en snijd.\n" +
-            "2. Snijd tomaten fijn.\n" +
-            "3. Verhit olie en fruit knoflook.\n" +
-            "4. Voeg paprika, tomaten en kruiden toe.\n" +
-            "5. Laat 10 minuten sudderen.\n" +
-            "6. Serveer warm of koud."
+            "1. Was de paprika’s.\n" +
+            "2. Rooster ze tot de schil zwart is.\n" +
+            "3. Laat ze 10 minuten afgedekt rusten.\n" +
+            "4. Pel en snijd de paprika’s.\n" +
+            "5. Was en snijd de tomaten.\n" +
+            "6. Pel en hak de knoflook fijn.\n" +
+            "7. Verhit de olijfolie in een pan.\n" +
+            "8. Voeg de knoflook toe en bak 1 minuut.\n" +
+            "9. Voeg tomaten, paprika en zout toe.\n" +
+            "10. Laat 10 minuten sudderen.\n" +
+            "11. Voeg de paprika’s toe.\n" +
+            "12. Meng goed en kook nog 5 minuten.\n" +
+            "13. Breng op smaak.\n" +
+            "14. Serveer warm of koud."
     },
+
     ar: {
         title: "تكتوكة – سلطة الفلفل المغربية",
-        equipment: ["مقلاة", "سكين", "لوح تقطيع", "ملعقة"],
+        equipment: [
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "3 فلفل",
             "3 طماطم",
             "2 فص ثوم",
-            "3 ملاعق زيت زيتون",
+            "3 ملاعق كبيرة زيت زيتون",
             "ملعقة صغيرة بابريكا",
             "ملح حسب الذوق"
         ],
         preparation:
-            "1. اشوِ الفلفل وقشره وقطّعه.\n" +
-            "2. قطّع الطماطم.\n" +
-            "3. سخّن الزيت وقلِّ الثوم.\n" +
-            "4. أضف الفلفل والطماطم والتوابل.\n" +
-            "5. اتركه يطهى 10 دقائق.\n" +
-            "6. قدّم دافئًا أو باردًا."
+            "1. اغسل الفلفل جيدًا.\n" +
+            "2. اشوه حتى تسود القشرة.\n" +
+            "3. ضع الفلفل في وعاء مغطى لمدة 10 دقائق.\n" +
+            "4. قشّره وقطّعه إلى قطع صغيرة.\n" +
+            "5. اغسل الطماطم وقطّعها.\n" +
+            "6. قشّر الثوم وافرمه ناعمًا.\n" +
+            "7. سخّن زيت الزيتون في المقلاة.\n" +
+            "8. أضف الثوم وقلِّه دقيقة واحدة.\n" +
+            "9. أضف الطماطم والبابريكا والملح.\n" +
+            "10. اتركه يطهى 10 دقائق.\n" +
+            "11. أضف الفلفل.\n" +
+            "12. اخلط جيدًا واتركه 5 دقائق إضافية.\n" +
+            "13. عدّل التتبيل حسب الذوق.\n" +
+            "14. قدّم دافئًا أو باردًا."
     }
 };
 recipesData.entree.briouatesLegumes = {
     country: "maroc",
     image: "images/briouates-legumes.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "15 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Briouates aux légumes",
-        equipment: ["1 poêle", "1 saladier", "1 pince", "1 couteau"],
+        equipment: [
+            "1 poêle",
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 pince de cuisine"
+        ],
         ingredients: [
             "Feuilles de brick",
             "1 carotte râpée",
             "1 courgette râpée",
             "1 oignon haché",
-            "2 cuillères à soupe huile d’olive",
-            "Sel et poivre"
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "1. Faire revenir l’oignon dans l’huile.\n" +
-            "2. Ajouter carotte et courgette.\n" +
-            "3. Assaisonner et cuire 5 minutes.\n" +
-            "4. Garnir les feuilles de brick et plier.\n" +
-            "5. Cuire à la poêle jusqu’à doré.\n" +
-            "6. Servir chaud."
+            "1. Éplucher et hacher finement l’oignon.\n" +
+            "2. Râper la carotte et la courgette.\n" +
+            "3. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "4. Ajouter l’oignon et faire revenir 3 minutes.\n" +
+            "5. Ajouter la carotte et la courgette.\n" +
+            "6. Saler et poivrer selon le goût.\n" +
+            "7. Laisser cuire 5 minutes en remuant.\n" +
+            "8. Retirer du feu et laisser tiédir.\n" +
+            "9. Couper les feuilles de brick en deux.\n" +
+            "10. Déposer une cuillère de farce sur chaque feuille.\n" +
+            "11. Plier en forme de triangle.\n" +
+            "12. Chauffer un peu d’huile dans la poêle.\n" +
+            "13. Faire dorer les briouates de chaque côté.\n" +
+            "14. Égoutter sur du papier absorbant.\n" +
+            "15. Servir chaud."
     },
+
     en: {
         title: "Vegetable Briouates",
-        equipment: ["1 pan", "1 bowl", "1 tongs", "1 knife"],
+        equipment: [
+            "1 pan",
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 pair of tongs"
+        ],
         ingredients: [
             "Brick pastry sheets",
             "1 grated carrot",
             "1 grated zucchini",
             "1 chopped onion",
             "2 tablespoons olive oil",
-            "Salt and pepper"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "1. Sauté onion in oil.\n" +
-            "2. Add vegetables.\n" +
-            "3. Season and cook 5 minutes.\n" +
-            "4. Fill pastry and fold.\n" +
-            "5. Cook until golden.\n" +
-            "6. Serve hot."
+            "1. Peel and finely chop the onion.\n" +
+            "2. Grate the carrot and zucchini.\n" +
+            "3. Heat olive oil in a pan over medium heat.\n" +
+            "4. Add the onion and sauté for 3 minutes.\n" +
+            "5. Add the vegetables.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Cook for 5 minutes, stirring.\n" +
+            "8. Remove from heat and let cool slightly.\n" +
+            "9. Cut the pastry sheets in half.\n" +
+            "10. Place filling on each sheet.\n" +
+            "11. Fold into triangles.\n" +
+            "12. Heat oil in the pan.\n" +
+            "13. Fry until golden on both sides.\n" +
+            "14. Drain on paper towels.\n" +
+            "15. Serve hot."
     },
+
     nl: {
         title: "Briouates met groenten",
-        equipment: ["1 pan", "1 kom", "1 tang", "1 mes"],
+        equipment: [
+            "1 pan",
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 tang"
+        ],
         ingredients: [
             "Brickdeeg",
             "1 geraspte wortel",
             "1 geraspte courgette",
-            "1 ui, gesnipperd",
+            "1 fijngesneden ui",
             "2 eetlepels olijfolie",
-            "Zout en peper"
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "1. Fruit ui in olie.\n" +
-            "2. Voeg groenten toe.\n" +
-            "3. Breng op smaak en bak 5 minuten.\n" +
-            "4. Vul deeg en vouw.\n" +
-            "5. Bak goudbruin.\n" +
-            "6. Serveer warm."
+            "1. Pel en snijd de ui fijn.\n" +
+            "2. Rasp de wortel en courgette.\n" +
+            "3. Verhit olijfolie in een pan.\n" +
+            "4. Fruit de ui 3 minuten.\n" +
+            "5. Voeg de groenten toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Bak 5 minuten en roer regelmatig.\n" +
+            "8. Haal van het vuur en laat afkoelen.\n" +
+            "9. Snijd het deeg in twee.\n" +
+            "10. Vul met het mengsel.\n" +
+            "11. Vouw tot driehoekjes.\n" +
+            "12. Verhit olie in de pan.\n" +
+            "13. Bak goudbruin.\n" +
+            "14. Laat uitlekken op keukenpapier.\n" +
+            "15. Serveer warm."
     },
+
     ar: {
         title: "بريوات بالخضار",
-        equipment: ["مقلاة", "وعاء", "ملقط", "سكين"],
+        equipment: [
+            "مقلاة",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملقط"
+        ],
         ingredients: [
             "أوراق البريك",
             "جزرة مبشورة",
             "كوسة مبشورة",
             "بصلة مفرومة",
-            "2 ملاعق زيت زيتون",
-            "ملح وفلفل"
+            "2 ملاعق كبيرة زيت زيتون",
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "1. شوّح البصل في الزيت.\n" +
-            "2. أضف الخضار.\n" +
-            "3. تبّل واطهه 5 دقائق.\n" +
-            "4. احشُ ولفّ البريك.\n" +
-            "5. اطهه حتى يذهب اللون الذهبي.\n" +
-            "6. قدّم ساخنًا."
+            "1. قشّر البصل وافرمه ناعماً.\n" +
+            "2. ابشر الجزر والكوسة.\n" +
+            "3. سخّن زيت الزيتون في المقلاة.\n" +
+            "4. أضف البصل وقلِّه 3 دقائق.\n" +
+            "5. أضف الخضار.\n" +
+            "6. تبّل بالملح والفلفل.\n" +
+            "7. اطهُ لمدة 5 دقائق مع التحريك.\n" +
+            "8. ارفع من النار واتركه يبرد قليلاً.\n" +
+            "9. قطّع أوراق البريك إلى نصفين.\n" +
+            "10. ضع الحشوة داخل الأوراق.\n" +
+            "11. لفّها على شكل مثلث.\n" +
+            "12. سخّن الزيت في المقلاة.\n" +
+            "13. اقلي حتى تصبح ذهبية اللون.\n" +
+            "14. ضعها على ورق ماص للزيت.\n" +
+            "15. قدّمها ساخنة."
     }
 };
 recipesData.entree.briouatesPoulet = {
     country: "maroc",
     image: "images/briouates-poulet.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "15 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Briouates au poulet",
         equipment: [
@@ -833,29 +1035,46 @@ recipesData.entree.briouatesPoulet = {
             "1 saladier",
             "1 couteau",
             "1 planche à découper",
-            "1 pince"
+            "1 pince de cuisine"
         ],
         ingredients: [
             "Feuilles de brick",
             "300 g de poulet coupé finement",
             "1 oignon haché",
-            "2 cuillères à soupe huile d’olive",
-            "1 cuillère à café cumin",
-            "1 cuillère à café paprika",
-            "Sel et poivre"
+            "2 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de cumin",
+            "1 cuillère à café de paprika",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "1. Chauffer l’huile et faire revenir l’oignon.\n" +
-            "2. Ajouter le poulet et les épices.\n" +
-            "3. Cuire jusqu’à évaporation du jus.\n" +
-            "4. Laisser tiédir.\n" +
-            "5. Garnir les feuilles de brick et plier.\n" +
-            "6. Cuire à la poêle jusqu’à doré.\n" +
-            "7. Servir chaud."
+            "1. Éplucher et hacher finement l’oignon.\n" +
+            "2. Couper le poulet en petits morceaux.\n" +
+            "3. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "4. Ajouter l’oignon et faire revenir 3 minutes.\n" +
+            "5. Ajouter le poulet dans la poêle.\n" +
+            "6. Ajouter le cumin, le paprika, le sel et le poivre.\n" +
+            "7. Mélanger soigneusement.\n" +
+            "8. Laisser cuire jusqu’à évaporation du jus.\n" +
+            "9. Retirer du feu et laisser tiédir.\n" +
+            "10. Couper les feuilles de brick en deux.\n" +
+            "11. Déposer une cuillère de farce sur chaque feuille.\n" +
+            "12. Plier en forme de triangle.\n" +
+            "13. Chauffer un peu d’huile dans la poêle.\n" +
+            "14. Faire dorer les briouates de chaque côté.\n" +
+            "15. Égoutter sur du papier absorbant.\n" +
+            "16. Servir chaud."
     },
+
     en: {
         title: "Chicken Briouates",
-        equipment: ["1 pan", "1 bowl", "1 knife", "1 cutting board", "1 tongs"],
+        equipment: [
+            "1 pan",
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 pair of tongs"
+        ],
         ingredients: [
             "Brick pastry sheets",
             "300 g finely chopped chicken",
@@ -863,247 +1082,441 @@ recipesData.entree.briouatesPoulet = {
             "2 tablespoons olive oil",
             "1 teaspoon cumin",
             "1 teaspoon paprika",
-            "Salt and pepper"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "1. Heat oil and sauté onion.\n" +
-            "2. Add chicken and spices.\n" +
-            "3. Cook until liquid evaporates.\n" +
-            "4. Let cool slightly.\n" +
-            "5. Fill and fold pastry.\n" +
-            "6. Pan-fry until golden.\n" +
-            "7. Serve hot."
+            "1. Peel and finely chop the onion.\n" +
+            "2. Cut the chicken into small pieces.\n" +
+            "3. Heat olive oil in a pan over medium heat.\n" +
+            "4. Add the onion and sauté for 3 minutes.\n" +
+            "5. Add the chicken to the pan.\n" +
+            "6. Add cumin, paprika, salt and pepper.\n" +
+            "7. Mix well.\n" +
+            "8. Cook until the liquid evaporates.\n" +
+            "9. Remove from heat and let cool slightly.\n" +
+            "10. Cut the pastry sheets in half.\n" +
+            "11. Place filling on each sheet.\n" +
+            "12. Fold into triangles.\n" +
+            "13. Heat oil in the pan.\n" +
+            "14. Fry until golden on both sides.\n" +
+            "15. Drain on paper towels.\n" +
+            "16. Serve hot."
     },
+
     nl: {
         title: "Briouates met kip",
-        equipment: ["1 pan", "1 kom", "1 mes", "1 snijplank", "1 tang"],
+        equipment: [
+            "1 pan",
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 tang"
+        ],
         ingredients: [
             "Brickdeeg",
             "300 g fijngesneden kip",
-            "1 ui, gesnipperd",
+            "1 fijngesneden ui",
             "2 eetlepels olijfolie",
             "1 theelepel komijn",
             "1 theelepel paprika",
-            "Zout en peper"
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "1. Verhit olie en fruit ui.\n" +
-            "2. Voeg kip en kruiden toe.\n" +
-            "3. Bak tot het vocht verdampt.\n" +
-            "4. Laat even afkoelen.\n" +
-            "5. Vul en vouw het deeg.\n" +
-            "6. Bak goudbruin.\n" +
-            "7. Serveer warm."
+            "1. Pel en snijd de ui fijn.\n" +
+            "2. Snijd de kip in kleine stukjes.\n" +
+            "3. Verhit olijfolie in een pan.\n" +
+            "4. Fruit de ui 3 minuten.\n" +
+            "5. Voeg de kip toe.\n" +
+            "6. Voeg komijn, paprika, zout en peper toe.\n" +
+            "7. Meng goed.\n" +
+            "8. Bak tot het vocht verdampt.\n" +
+            "9. Haal van het vuur en laat afkoelen.\n" +
+            "10. Snijd het deeg in twee.\n" +
+            "11. Vul met het mengsel.\n" +
+            "12. Vouw tot driehoekjes.\n" +
+            "13. Verhit olie in de pan.\n" +
+            "14. Bak goudbruin.\n" +
+            "15. Laat uitlekken op keukenpapier.\n" +
+            "16. Serveer warm."
     },
+
     ar: {
         title: "بريوات بالدجاج",
-        equipment: ["مقلاة", "وعاء", "سكين", "لوح تقطيع", "ملقط"],
+        equipment: [
+            "مقلاة",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملقط"
+        ],
         ingredients: [
             "أوراق البريك",
-            "300 غ دجاج مفروم",
+            "300 غ دجاج مقطع",
             "بصلة مفرومة",
-            "2 ملاعق زيت زيتون",
+            "2 ملاعق كبيرة زيت زيتون",
             "ملعقة صغيرة كمون",
             "ملعقة صغيرة بابريكا",
-            "ملح وفلفل"
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "1. سخّن الزيت وقلِّ البصل.\n" +
-            "2. أضف الدجاج والتوابل.\n" +
-            "3. اطهه حتى يتبخر السائل.\n" +
-            "4. اتركه يبرد قليلاً.\n" +
-            "5. احشُ ولفّ البريك.\n" +
-            "6. اطهه حتى يذهب اللون الذهبي.\n" +
-            "7. قدّم ساخنًا."
+            "1. قشّر البصل وافرمه ناعماً.\n" +
+            "2. قطّع الدجاج إلى قطع صغيرة.\n" +
+            "3. سخّن زيت الزيتون في المقلاة.\n" +
+            "4. أضف البصل وقلِّه 3 دقائق.\n" +
+            "5. أضف الدجاج.\n" +
+            "6. أضف الكمون والبابريكا والملح والفلفل.\n" +
+            "7. امزج جيداً.\n" +
+            "8. اطهه حتى يتبخر السائل.\n" +
+            "9. ارفعه من النار واتركه يبرد قليلاً.\n" +
+            "10. قطّع أوراق البريك إلى نصفين.\n" +
+            "11. ضع الحشوة داخل الأوراق.\n" +
+            "12. لفّها على شكل مثلث.\n" +
+            "13. سخّن الزيت في المقلاة.\n" +
+            "14. اقلي حتى تصبح ذهبية اللون.\n" +
+            "15. ضعها على ورق ماص للزيت.\n" +
+            "16. قدّمها ساخنة."
     }
 };
 recipesData.entree.briouatesFruitsMer = {
     country: "maroc",
     image: "images/briouates-fruits-mer.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "10 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Briouates aux fruits de mer",
-        equipment: ["1 poêle", "1 saladier", "1 couteau", "1 pince"],
+        equipment: [
+            "1 poêle",
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 pince de cuisine"
+        ],
         ingredients: [
             "Feuilles de brick",
-            "200 g crevettes décortiquées",
-            "100 g calamars coupés",
+            "200 g de crevettes décortiquées",
+            "100 g de calamars coupés",
             "1 gousse d’ail hachée",
-            "2 cuillères à soupe huile d’olive",
-            "Persil haché",
-            "Sel et poivre"
+            "2 cuillères à soupe d’huile d’olive",
+            "Persil frais haché",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "1. Chauffer l’huile et faire revenir l’ail.\n" +
-            "2. Ajouter crevettes et calamars.\n" +
-            "3. Assaisonner et cuire 5 minutes.\n" +
-            "4. Ajouter le persil et laisser tiédir.\n" +
-            "5. Garnir les feuilles de brick et plier.\n" +
-            "6. Cuire à la poêle jusqu’à doré.\n" +
-            "7. Servir chaud."
+            "1. Éplucher et hacher finement la gousse d’ail.\n" +
+            "2. Couper les calamars en petits morceaux.\n" +
+            "3. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "4. Ajouter l’ail et faire revenir 1 minute.\n" +
+            "5. Ajouter les crevettes et les calamars.\n" +
+            "6. Saler et poivrer selon le goût.\n" +
+            "7. Laisser cuire environ 5 minutes.\n" +
+            "8. Ajouter le persil haché et mélanger.\n" +
+            "9. Retirer du feu et laisser tiédir.\n" +
+            "10. Couper les feuilles de brick en deux.\n" +
+            "11. Déposer une cuillère de farce sur chaque feuille.\n" +
+            "12. Plier en forme de triangle.\n" +
+            "13. Chauffer un peu d’huile dans la poêle.\n" +
+            "14. Faire dorer les briouates de chaque côté.\n" +
+            "15. Égoutter sur du papier absorbant.\n" +
+            "16. Servir chaud."
     },
+
     en: {
         title: "Seafood Briouates",
-        equipment: ["1 pan", "1 bowl", "1 knife", "1 tongs"],
+        equipment: [
+            "1 pan",
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 pair of tongs"
+        ],
         ingredients: [
             "Brick pastry sheets",
             "200 g peeled shrimp",
-            "100 g sliced squid",
+            "100 g chopped squid",
             "1 garlic clove, chopped",
             "2 tablespoons olive oil",
             "Chopped parsley",
-            "Salt and pepper"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "1. Heat oil and sauté garlic.\n" +
-            "2. Add shrimp and squid.\n" +
-            "3. Season and cook 5 minutes.\n" +
-            "4. Add parsley and cool slightly.\n" +
-            "5. Fill and fold pastry.\n" +
-            "6. Pan-fry until golden.\n" +
-            "7. Serve hot."
+            "1. Peel and finely chop the garlic.\n" +
+            "2. Cut the squid into small pieces.\n" +
+            "3. Heat olive oil in a pan over medium heat.\n" +
+            "4. Add the garlic and sauté for 1 minute.\n" +
+            "5. Add the shrimp and squid.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Cook for about 5 minutes.\n" +
+            "8. Add chopped parsley and mix.\n" +
+            "9. Remove from heat and let cool slightly.\n" +
+            "10. Cut the pastry sheets in half.\n" +
+            "11. Place filling on each sheet.\n" +
+            "12. Fold into triangles.\n" +
+            "13. Heat oil in the pan.\n" +
+            "14. Fry until golden on both sides.\n" +
+            "15. Drain on paper towels.\n" +
+            "16. Serve hot."
     },
+
     nl: {
         title: "Briouates met zeevruchten",
-        equipment: ["1 pan", "1 kom", "1 mes", "1 tang"],
+        equipment: [
+            "1 pan",
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 tang"
+        ],
         ingredients: [
             "Brickdeeg",
             "200 g gepelde garnalen",
-            "100 g in ringen gesneden inktvis",
+            "100 g gesneden inktvis",
             "1 teentje knoflook",
             "2 eetlepels olijfolie",
-            "Peterselie",
-            "Zout en peper"
+            "Gehakte peterselie",
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "1. Verhit olie en fruit knoflook.\n" +
-            "2. Voeg zeevruchten toe.\n" +
-            "3. Kruid en bak 5 minuten.\n" +
-            "4. Voeg peterselie toe.\n" +
-            "5. Vul en vouw deeg.\n" +
-            "6. Bak goudbruin.\n" +
-            "7. Serveer warm."
+            "1. Pel en snijd de knoflook fijn.\n" +
+            "2. Snijd de inktvis in kleine stukjes.\n" +
+            "3. Verhit olijfolie in een pan.\n" +
+            "4. Fruit de knoflook 1 minuut.\n" +
+            "5. Voeg de garnalen en inktvis toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Bak ongeveer 5 minuten.\n" +
+            "8. Voeg peterselie toe en meng.\n" +
+            "9. Haal van het vuur en laat afkoelen.\n" +
+            "10. Snijd het deeg in twee.\n" +
+            "11. Vul met het mengsel.\n" +
+            "12. Vouw tot driehoekjes.\n" +
+            "13. Verhit olie in de pan.\n" +
+            "14. Bak goudbruin.\n" +
+            "15. Laat uitlekken op keukenpapier.\n" +
+            "16. Serveer warm."
     },
+
     ar: {
         title: "بريوات بالمأكولات البحرية",
-        equipment: ["مقلاة", "وعاء", "سكين", "ملقط"],
+        equipment: [
+            "مقلاة",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملقط"
+        ],
         ingredients: [
             "أوراق البريك",
             "200 غ روبيان مقشر",
             "100 غ حبار مقطع",
             "فص ثوم مفروم",
-            "2 ملاعق زيت زيتون",
+            "2 ملاعق كبيرة زيت زيتون",
             "بقدونس مفروم",
-            "ملح وفلفل"
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "1. سخّن الزيت وقلِّ الثوم.\n" +
-            "2. أضف المأكولات البحرية.\n" +
-            "3. تبّل واطهه 5 دقائق.\n" +
-            "4. أضف البقدونس واتركه يبرد قليلاً.\n" +
-            "5. احشُ ولفّ البريك.\n" +
-            "6. اطهه حتى يصبح ذهبيًا.\n" +
-            "7. قدّم ساخنًا."
+            "1. قشّر الثوم وافرمه ناعماً.\n" +
+            "2. قطّع الحبار إلى قطع صغيرة.\n" +
+            "3. سخّن زيت الزيتون في المقلاة.\n" +
+            "4. أضف الثوم وقلِّه دقيقة واحدة.\n" +
+            "5. أضف الروبيان والحبار.\n" +
+            "6. تبّل بالملح والفلفل.\n" +
+            "7. اطهُ لمدة 5 دقائق.\n" +
+            "8. أضف البقدونس وامزج جيداً.\n" +
+            "9. ارفع من النار واتركه يبرد قليلاً.\n" +
+            "10. قطّع أوراق البريك إلى نصفين.\n" +
+            "11. ضع الحشوة داخل الأوراق.\n" +
+            "12. لفّها على شكل مثلث.\n" +
+            "13. سخّن الزيت في المقلاة.\n" +
+            "14. اقلي حتى تصبح ذهبية اللون.\n" +
+            "15. ضعها على ورق ماص للزيت.\n" +
+            "16. قدّمها ساخنة."
     }
 };
 recipesData.entree.saladePoisChiches = {
     country: "maroc",
     image: "images/salade-pois-chiches.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "10 min",
+        cookTime: "0 min",
+        difficulty: "Très facile"
+    },
+
     fr: {
         title: "Salade marocaine de pois chiches",
-        equipment: ["1 saladier", "1 couteau"],
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
-            "300 g pois chiches cuits",
+            "300 g de pois chiches cuits",
             "1 tomate",
             "1 oignon rouge",
-            "2 cuillères à soupe huile d’olive",
-            "Cumin",
+            "2 cuillères à soupe d’huile d’olive",
+            "1/2 cuillère à café de cumin",
             "Sel"
         ],
         preparation:
-            "1. Couper tomate et oignon.\n" +
-            "2. Mélanger avec pois chiches.\n" +
-            "3. Ajouter huile, cumin et sel.\n" +
-            "4. Bien mélanger.\n" +
-            "5. Servir frais."
+            "1. Égoutter et rincer les pois chiches.\n" +
+            "2. Couper la tomate en petits dés.\n" +
+            "3. Éplucher et émincer l’oignon rouge.\n" +
+            "4. Mettre les pois chiches dans un saladier.\n" +
+            "5. Ajouter la tomate et l’oignon.\n" +
+            "6. Verser l’huile d’olive.\n" +
+            "7. Ajouter le cumin et le sel.\n" +
+            "8. Bien mélanger.\n" +
+            "9. Laisser reposer 5 minutes.\n" +
+            "10. Servir frais."
     },
+
     en: {
         title: "Moroccan Chickpea Salad",
-        equipment: ["1 bowl", "1 knife"],
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
             "300 g cooked chickpeas",
             "1 tomato",
             "1 red onion",
             "2 tablespoons olive oil",
-            "Cumin",
+            "1/2 teaspoon cumin",
             "Salt"
         ],
         preparation:
-            "1. Chop tomato and onion.\n" +
-            "2. Mix with chickpeas.\n" +
-            "3. Add oil, cumin and salt.\n" +
-            "4. Mix well.\n" +
-            "5. Serve fresh."
+            "1. Drain and rinse the chickpeas.\n" +
+            "2. Dice the tomato.\n" +
+            "3. Peel and slice the red onion.\n" +
+            "4. Place the chickpeas in a bowl.\n" +
+            "5. Add the tomato and onion.\n" +
+            "6. Pour in the olive oil.\n" +
+            "7. Add cumin and salt.\n" +
+            "8. Mix well.\n" +
+            "9. Let rest for 5 minutes.\n" +
+            "10. Serve fresh."
     },
+
     nl: {
         title: "Marokkaanse kikkererwtensalade",
-        equipment: ["1 kom", "1 mes"],
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
             "300 g gekookte kikkererwten",
             "1 tomaat",
             "1 rode ui",
             "2 eetlepels olijfolie",
-            "Komijn",
+            "1/2 theelepel komijn",
             "Zout"
         ],
         preparation:
-            "1. Snijd tomaat en ui.\n" +
-            "2. Meng met kikkererwten.\n" +
-            "3. Voeg olie, komijn en zout toe.\n" +
-            "4. Meng goed.\n" +
-            "5. Serveer koel."
+            "1. Laat de kikkererwten uitlekken en spoel ze af.\n" +
+            "2. Snijd de tomaat in blokjes.\n" +
+            "3. Pel en snijd de rode ui fijn.\n" +
+            "4. Doe de kikkererwten in een kom.\n" +
+            "5. Voeg tomaat en ui toe.\n" +
+            "6. Voeg olijfolie toe.\n" +
+            "7. Voeg komijn en zout toe.\n" +
+            "8. Meng goed.\n" +
+            "9. Laat 5 minuten rusten.\n" +
+            "10. Serveer koel."
     },
+
     ar: {
         title: "سلطة الحمص المغربية",
-        equipment: ["وعاء", "سكين"],
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
             "300 غ حمص مطبوخ",
-            "طماطم",
+            "حبة طماطم",
             "بصلة حمراء",
-            "2 ملاعق زيت زيتون",
-            "كمون",
+            "2 ملاعق كبيرة زيت زيتون",
+            "نصف ملعقة صغيرة كمون",
             "ملح"
         ],
         preparation:
-            "1. قطّع الطماطم والبصل.\n" +
-            "2. اخلط مع الحمص.\n" +
-            "3. أضف الزيت والكمون والملح.\n" +
-            "4. اخلط جيدًا.\n" +
-            "5. قدّم باردًا."
+            "1. صفِّ الحمص واغسله جيداً.\n" +
+            "2. قطّع الطماطم إلى مكعبات صغيرة.\n" +
+            "3. قشّر البصل وقطّعه ناعماً.\n" +
+            "4. ضع الحمص في وعاء.\n" +
+            "5. أضف الطماطم والبصل.\n" +
+            "6. أضف زيت الزيتون.\n" +
+            "7. أضف الكمون والملح.\n" +
+            "8. اخلط جيداً.\n" +
+            "9. اتركه 5 دقائق.\n" +
+            "10. قدّم بارداً."
     }
 };
 recipesData.entree.saladeConcombreTomate = {
     country: "maroc",
     image: "images/salade-concombre-tomate.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "10 min",
+        cookTime: "0 min",
+        difficulty: "Très facile"
+    },
+
     fr: {
         title: "Salade marocaine de concombre et tomate",
-        equipment: ["1 saladier", "1 couteau"],
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
             "2 concombres",
             "3 tomates",
-            "2 cuillères à soupe huile d’olive",
+            "2 cuillères à soupe d’huile d’olive",
             "Persil frais",
             "Sel"
         ],
         preparation:
-            "1. Couper concombres et tomates en dés.\n" +
-            "2. Mettre dans un saladier.\n" +
-            "3. Ajouter huile d’olive et sel.\n" +
-            "4. Mélanger délicatement.\n" +
-            "5. Parsemer de persil et servir frais."
+            "1. Laver les concombres et les tomates.\n" +
+            "2. Couper les concombres en petits dés.\n" +
+            "3. Couper les tomates en dés.\n" +
+            "4. Mettre les légumes dans un saladier.\n" +
+            "5. Ajouter l’huile d’olive.\n" +
+            "6. Saler selon le goût.\n" +
+            "7. Mélanger délicatement.\n" +
+            "8. Ciseler le persil.\n" +
+            "9. Parsemer la salade de persil.\n" +
+            "10. Servir bien frais."
     },
+
     en: {
         title: "Moroccan Cucumber and Tomato Salad",
-        equipment: ["1 bowl", "1 knife"],
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
             "2 cucumbers",
             "3 tomatoes",
@@ -1112,15 +1525,26 @@ recipesData.entree.saladeConcombreTomate = {
             "Salt"
         ],
         preparation:
-            "1. Dice cucumbers and tomatoes.\n" +
-            "2. Place in a bowl.\n" +
-            "3. Add olive oil and salt.\n" +
-            "4. Mix gently.\n" +
-            "5. Garnish with parsley and serve fresh."
+            "1. Wash the cucumbers and tomatoes.\n" +
+            "2. Dice the cucumbers.\n" +
+            "3. Dice the tomatoes.\n" +
+            "4. Place the vegetables in a bowl.\n" +
+            "5. Add the olive oil.\n" +
+            "6. Season with salt.\n" +
+            "7. Mix gently.\n" +
+            "8. Chop the parsley.\n" +
+            "9. Sprinkle over the salad.\n" +
+            "10. Serve fresh."
     },
+
     nl: {
         title: "Marokkaanse komkommer-tomatensalade",
-        equipment: ["1 kom", "1 mes"],
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
             "2 komkommers",
             "3 tomaten",
@@ -1129,190 +1553,346 @@ recipesData.entree.saladeConcombreTomate = {
             "Zout"
         ],
         preparation:
-            "1. Snijd komkommer en tomaat in blokjes.\n" +
-            "2. Doe in een kom.\n" +
-            "3. Voeg olie en zout toe.\n" +
-            "4. Meng voorzichtig.\n" +
-            "5. Bestrooi met peterselie en serveer fris."
+            "1. Was de komkommers en tomaten.\n" +
+            "2. Snijd de komkommers in blokjes.\n" +
+            "3. Snijd de tomaten in blokjes.\n" +
+            "4. Doe de groenten in een kom.\n" +
+            "5. Voeg olijfolie toe.\n" +
+            "6. Voeg zout toe naar smaak.\n" +
+            "7. Meng voorzichtig.\n" +
+            "8. Hak de peterselie fijn.\n" +
+            "9. Strooi over de salade.\n" +
+            "10. Serveer fris."
     },
+
     ar: {
         title: "سلطة الخيار والطماطم المغربية",
-        equipment: ["وعاء", "سكين"],
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
             "2 خيار",
             "3 طماطم",
-            "2 ملاعق زيت زيتون",
+            "2 ملاعق كبيرة زيت زيتون",
             "بقدونس طازج",
             "ملح"
         ],
         preparation:
-            "1. قطّع الخيار والطماطم.\n" +
-            "2. ضعهم في وعاء.\n" +
-            "3. أضف الزيت والملح.\n" +
-            "4. اخلط بلطف.\n" +
-            "5. زيّن بالبقدونس وقدّم باردًا."
+            "1. اغسل الخيار والطماطم جيداً.\n" +
+            "2. قطّع الخيار إلى مكعبات صغيرة.\n" +
+            "3. قطّع الطماطم إلى مكعبات.\n" +
+            "4. ضع الخضار في وعاء.\n" +
+            "5. أضف زيت الزيتون.\n" +
+            "6. أضف الملح حسب الذوق.\n" +
+            "7. اخلط بلطف.\n" +
+            "8. فرم البقدونس.\n" +
+            "9. رشّه فوق السلطة.\n" +
+            "10. قدّمها باردة."
     }
 };
 recipesData.entree.batboutLegumes = {
     country: "maroc",
     image: "images/batbout-legumes.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "15 min",
+        cookTime: "10 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Batbout farci aux légumes",
-        equipment: ["1 poêle", "1 couteau", "1 planche"],
+        equipment: [
+            "1 poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
-            "Batbouts (pain marocain)",
+            "4 batbouts (pain marocain)",
             "1 poivron",
             "1 oignon",
             "1 courgette",
-            "2 cuillères à soupe huile d’olive",
-            "Sel et poivre"
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "1. Couper les légumes en fines lamelles.\n" +
-            "2. Faire revenir dans l’huile.\n" +
-            "3. Assaisonner.\n" +
-            "4. Couper le batbout en deux.\n" +
-            "5. Garnir avec les légumes.\n" +
-            "6. Servir chaud."
+            "1. Laver tous les légumes.\n" +
+            "2. Couper le poivron en fines lamelles.\n" +
+            "3. Émincer l’oignon.\n" +
+            "4. Couper la courgette en fines rondelles.\n" +
+            "5. Chauffer l’huile d’olive dans la poêle.\n" +
+            "6. Ajouter l’oignon et faire revenir 2 minutes.\n" +
+            "7. Ajouter le poivron et la courgette.\n" +
+            "8. Faire revenir 5 à 7 minutes.\n" +
+            "9. Saler et poivrer.\n" +
+            "10. Couper les batbouts en deux.\n" +
+            "11. Garnir avec les légumes chauds.\n" +
+            "12. Servir immédiatement."
     },
+
     en: {
         title: "Vegetable Stuffed Batbout",
-        equipment: ["1 pan", "1 knife", "1 cutting board"],
+        equipment: [
+            "1 pan",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
-            "Batbout bread",
+            "4 batbout breads",
             "1 bell pepper",
             "1 onion",
             "1 zucchini",
             "2 tablespoons olive oil",
-            "Salt and pepper"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "1. Slice vegetables thinly.\n" +
-            "2. Sauté in oil.\n" +
-            "3. Season.\n" +
-            "4. Cut batbout open.\n" +
-            "5. Fill with vegetables.\n" +
-            "6. Serve hot."
+            "1. Wash all the vegetables.\n" +
+            "2. Slice the bell pepper thinly.\n" +
+            "3. Slice the onion.\n" +
+            "4. Cut the zucchini into thin slices.\n" +
+            "5. Heat olive oil in the pan.\n" +
+            "6. Add the onion and cook for 2 minutes.\n" +
+            "7. Add pepper and zucchini.\n" +
+            "8. Cook for 5–7 minutes.\n" +
+            "9. Season with salt and pepper.\n" +
+            "10. Cut the batbout breads open.\n" +
+            "11. Fill with hot vegetables.\n" +
+            "12. Serve immediately."
     },
+
     nl: {
         title: "Batbout gevuld met groenten",
-        equipment: ["1 pan", "1 mes", "1 snijplank"],
+        equipment: [
+            "1 pan",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
-            "Batbout brood",
+            "4 batbout broden",
             "1 paprika",
             "1 ui",
             "1 courgette",
             "2 eetlepels olijfolie",
-            "Zout en peper"
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "1. Snijd groenten fijn.\n" +
-            "2. Bak ze in olie.\n" +
-            "3. Kruid.\n" +
-            "4. Snijd batbout open.\n" +
-            "5. Vul met groenten.\n" +
-            "6. Serveer warm."
+            "1. Was alle groenten.\n" +
+            "2. Snijd de paprika in reepjes.\n" +
+            "3. Snijd de ui fijn.\n" +
+            "4. Snijd de courgette in plakjes.\n" +
+            "5. Verhit de olijfolie in de pan.\n" +
+            "6. Bak de ui 2 minuten.\n" +
+            "7. Voeg paprika en courgette toe.\n" +
+            "8. Bak 5–7 minuten.\n" +
+            "9. Breng op smaak met zout en peper.\n" +
+            "10. Snijd de batbout open.\n" +
+            "11. Vul met de warme groenten.\n" +
+            "12. Serveer direct."
     },
+
     ar: {
         title: "بطبوط محشو بالخضار",
-        equipment: ["مقلاة", "سكين", "لوح تقطيع"],
+        equipment: [
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
-            "خبز البطبوط",
+            "4 خبز بطبوط",
             "فلفل",
             "بصل",
             "كوسة",
-            "2 ملاعق زيت زيتون",
-            "ملح وفلفل"
+            "2 ملاعق كبيرة زيت زيتون",
+            "ملح",
+            "فلفل أسود"
         ],
         preparation:
-            "1. قطّع الخضار شرائح.\n" +
-            "2. شوّحها في الزيت.\n" +
-            "3. تبّل.\n" +
-            "4. افتح البطبوط.\n" +
-            "5. احشُ بالخضار.\n" +
-            "6. قدّم ساخنًا."
+            "1. اغسل جميع الخضار جيداً.\n" +
+            "2. قطّع الفلفل شرائح رفيعة.\n" +
+            "3. قطّع البصل.\n" +
+            "4. قطّع الكوسة شرائح.\n" +
+            "5. سخّن زيت الزيتون في المقلاة.\n" +
+            "6. أضف البصل وقلِّه دقيقتين.\n" +
+            "7. أضف الفلفل والكوسة.\n" +
+            "8. اطهِ لمدة 5–7 دقائق.\n" +
+            "9. تبّل بالملح والفلفل.\n" +
+            "10. افتح خبز البطبوط.\n" +
+            "11. احشُه بالخضار الساخنة.\n" +
+            "12. قدّم فوراً."
     }
 };
-recipesData.entree.maakouda = {
-    country: "maroc",
+recipesData.entree.maakouda_maroc = {
+    country: "maroc", 
     image: "images/maakouda.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "15 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Maakouda – Galettes marocaines de pommes de terre",
-        equipment: ["1 casserole", "1 poêle", "1 saladier"],
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 saladier",
+            "1 presse-purée ou fourchette",
+            "1 cuillère"
+        ],
         ingredients: [
-            "500 g pommes de terre",
-            "2 cuillères à soupe farine",
-            "Persil",
-            "Sel et poivre",
-            "Huile pour cuisson"
+            "500 g de pommes de terre",
+            "2 cuillères à soupe de farine",
+            "1 bouquet de persil haché",
+            "Sel",
+            "Poivre",
+            "Huile pour la cuisson"
         ],
         preparation:
-            "1. Cuire les pommes de terre.\n" +
-            "2. Écraser en purée.\n" +
-            "3. Ajouter farine, persil, sel et poivre.\n" +
-            "4. Former des galettes.\n" +
-            "5. Cuire à la poêle jusqu’à doré.\n" +
-            "6. Servir chaud."
+            "1. Éplucher les pommes de terre.\n" +
+            "2. Les couper en morceaux.\n" +
+            "3. Les cuire dans de l’eau salée pendant 15 minutes.\n" +
+            "4. Égoutter les pommes de terre.\n" +
+            "5. Les écraser en purée.\n" +
+            "6. Ajouter la farine.\n" +
+            "7. Ajouter le persil.\n" +
+            "8. Saler et poivrer.\n" +
+            "9. Bien mélanger.\n" +
+            "10. Former des petites galettes.\n" +
+            "11. Chauffer l’huile dans la poêle.\n" +
+            "12. Faire frire les galettes jusqu’à ce qu’elles soient bien dorées.\n" +
+            "13. Égoutter sur du papier absorbant.\n" +
+            "14. Servir chaud."
     },
+
     en: {
         title: "Maakouda – Moroccan Potato Fritters",
-        equipment: ["1 pot", "1 pan", "1 bowl"],
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 bowl",
+            "1 masher or fork",
+            "1 spoon"
+        ],
         ingredients: [
             "500 g potatoes",
             "2 tablespoons flour",
-            "Parsley",
-            "Salt and pepper",
-            "Oil for cooking"
+            "Chopped parsley",
+            "Salt",
+            "Pepper",
+            "Cooking oil"
         ],
         preparation:
-            "1. Boil potatoes.\n" +
-            "2. Mash them.\n" +
-            "3. Add flour, parsley, salt and pepper.\n" +
-            "4. Shape patties.\n" +
-            "5. Pan-fry until golden.\n" +
-            "6. Serve hot."
+            "1. Peel the potatoes.\n" +
+            "2. Cut them into pieces.\n" +
+            "3. Boil in salted water for 15 minutes.\n" +
+            "4. Drain the potatoes.\n" +
+            "5. Mash them.\n" +
+            "6. Add the flour.\n" +
+            "7. Add the parsley.\n" +
+            "8. Season with salt and pepper.\n" +
+            "9. Mix well.\n" +
+            "10. Shape small patties.\n" +
+            "11. Heat oil in a pan.\n" +
+            "12. Fry until golden.\n" +
+            "13. Drain on paper towels.\n" +
+            "14. Serve hot."
     },
+
     nl: {
         title: "Maakouda – Marokkaanse aardappelkoekjes",
-        equipment: ["1 pan", "1 kom"],
+        equipment: [
+            "1 pan",
+            "1 kom",
+            "1 pureestamper",
+            "1 lepel"
+        ],
         ingredients: [
             "500 g aardappelen",
             "2 eetlepels bloem",
-            "Peterselie",
-            "Zout en peper",
+            "Gehakte peterselie",
+            "Zout",
+            "Peper",
             "Olie om te bakken"
         ],
         preparation:
-            "1. Kook aardappelen.\n" +
-            "2. Prak ze fijn.\n" +
-            "3. Voeg bloem en kruiden toe.\n" +
-            "4. Vorm koekjes.\n" +
-            "5. Bak goudbruin.\n" +
-            "6. Serveer warm."
+            "1. Schil de aardappelen.\n" +
+            "2. Snijd ze in stukken.\n" +
+            "3. Kook ze 15 minuten in gezouten water.\n" +
+            "4. Giet ze af.\n" +
+            "5. Prak de aardappelen.\n" +
+            "6. Voeg bloem toe.\n" +
+            "7. Voeg peterselie toe.\n" +
+            "8. Breng op smaak met zout en peper.\n" +
+            "9. Meng goed.\n" +
+            "10. Vorm kleine koekjes.\n" +
+            "11. Verhit olie in de pan.\n" +
+            "12. Bak goudbruin.\n" +
+            "13. Laat uitlekken op keukenpapier.\n" +
+            "14. Serveer warm."
     },
+
     ar: {
         title: "معقودة – كريات البطاطس المغربية",
-        equipment: ["قدر", "مقلاة", "وعاء"],
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "وعاء",
+            "أداة هرس أو شوكة",
+            "ملعقة"
+        ],
         ingredients: [
             "500 غ بطاطس",
             "2 ملاعق دقيق",
-            "بقدونس",
-            "ملح وفلفل",
+            "بقدونس مفروم",
+            "ملح",
+            "فلفل",
             "زيت للقلي"
         ],
         preparation:
-            "1. اسلق البطاطس.\n" +
-            "2. اهرسها.\n" +
-            "3. أضف الدقيق والتوابل.\n" +
-            "4. شكّل كريات.\n" +
-            "5. اطهه حتى يصبح ذهبيًا.\n" +
-            "6. قدّم ساخنًا."
+            "1. قشّر البطاطس.\n" +
+            "2. قطّعها إلى قطع.\n" +
+            "3. اسلقها في ماء مملح لمدة 15 دقيقة.\n" +
+            "4. صفِّ البطاطس.\n" +
+            "5. اهرسها جيدًا.\n" +
+            "6. أضف الدقيق.\n" +
+            "7. أضف البقدونس.\n" +
+            "8. تبّل بالملح والفلفل.\n" +
+            "9. اخلط جيدًا.\n" +
+            "10. شكّل كريات صغيرة.\n" +
+            "11. سخّن الزيت في المقلاة.\n" +
+            "12. اقْلِها حتى تصبح ذهبية.\n" +
+            "13. ضعها على ورق ماص.\n" +
+            "14. قدّمها ساخنة."
     }
 };
+
+
+
 
 recipesData.plat.tajinePouletLegumes = {
     country: "maroc",
     image: "images/tajine-poulet.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "60 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Tajine de poulet aux légumes (4 personnes)",
         equipment: [
@@ -1336,8 +1916,23 @@ recipesData.plat.tajinePouletLegumes = {
             "500 ml d’eau"
         ],
         preparation:
-            "Cette recette est prévue pour 4 personnes. Éplucher et couper les carottes en bâtonnets. Éplucher les pommes de terre et les couper en quartiers. Éplucher et émincer l’oignon. Mettre le tajine sur feu moyen. Ajouter l’huile d’olive puis l’oignon. Faire revenir 5 minutes. Ajouter les morceaux de poulet, les épices, le sel et le poivre. Mélanger. Ajouter les légumes autour du poulet. Verser 500 ml d’eau. Couvrir et laisser cuire à feu doux pendant 1 heure. Vérifier la cuisson avant de servir chaud."
+            "1. Éplucher les carottes et les couper en bâtonnets.\n" +
+            "2. Éplucher les pommes de terre et les couper en quartiers.\n" +
+            "3. Éplucher et émincer l’oignon.\n" +
+            "4. Mettre le tajine sur feu moyen.\n" +
+            "5. Ajouter l’huile d’olive.\n" +
+            "6. Ajouter l’oignon et faire revenir 5 minutes.\n" +
+            "7. Ajouter les morceaux de poulet.\n" +
+            "8. Ajouter le gingembre, le curcuma, le paprika, le sel et le poivre.\n" +
+            "9. Mélanger soigneusement.\n" +
+            "10. Disposer les carottes et les pommes de terre autour du poulet.\n" +
+            "11. Verser 500 ml d’eau.\n" +
+            "12. Couvrir le tajine.\n" +
+            "13. Laisser cuire à feu doux pendant 1 heure.\n" +
+            "14. Vérifier la cuisson du poulet et des légumes.\n" +
+            "15. Servir bien chaud."
     },
+
     en: {
         title: "Moroccan Chicken and Vegetable Tagine (Serves 4)",
         equipment: [
@@ -1361,8 +1956,23 @@ recipesData.plat.tajinePouletLegumes = {
             "500 ml water"
         ],
         preparation:
-            "This recipe serves 4 people. Peel and cut carrots into sticks. Peel potatoes and cut into quarters. Peel and slice the onion. Heat the tagine over medium heat. Add olive oil and onion. Cook for 5 minutes. Add chicken pieces, spices, salt, and pepper. Mix well. Arrange vegetables around the chicken. Pour in 500 ml water. Cover and cook on low heat for 1 hour. Serve hot."
+            "1. Peel the carrots and cut them into sticks.\n" +
+            "2. Peel the potatoes and cut them into quarters.\n" +
+            "3. Peel and slice the onion.\n" +
+            "4. Heat the tagine over medium heat.\n" +
+            "5. Add the olive oil.\n" +
+            "6. Add the onion and cook for 5 minutes.\n" +
+            "7. Add the chicken pieces.\n" +
+            "8. Add ginger, turmeric, paprika, salt and pepper.\n" +
+            "9. Mix well.\n" +
+            "10. Arrange the carrots and potatoes around the chicken.\n" +
+            "11. Pour in 500 ml of water.\n" +
+            "12. Cover the tagine.\n" +
+            "13. Cook on low heat for 1 hour.\n" +
+            "14. Check that the chicken and vegetables are cooked.\n" +
+            "15. Serve hot."
     },
+
     nl: {
         title: "Marokkaanse kip-tajine met groenten (voor 4 personen)",
         equipment: [
@@ -1386,8 +1996,23 @@ recipesData.plat.tajinePouletLegumes = {
             "500 ml water"
         ],
         preparation:
-            "Dit recept is voor 4 personen. Schil en snijd de wortelen in stukken. Schil de aardappelen en snijd in parten. Schil en snipper de ui. Verhit de tajine op middelhoog vuur. Voeg olie en ui toe en bak 5 minuten. Voeg kip en kruiden toe. Voeg groenten toe. Giet 500 ml water erbij. Laat 1 uur zachtjes koken. Serveer warm."
+            "1. Schil de wortelen en snijd ze in stukken.\n" +
+            "2. Schil de aardappelen en snijd ze in parten.\n" +
+            "3. Schil en snipper de ui.\n" +
+            "4. Verhit de tajine op middelhoog vuur.\n" +
+            "5. Voeg de olijfolie toe.\n" +
+            "6. Voeg de ui toe en bak 5 minuten.\n" +
+            "7. Voeg de kip toe.\n" +
+            "8. Voeg gember, kurkuma, paprika, zout en peper toe.\n" +
+            "9. Meng goed.\n" +
+            "10. Leg de wortelen en aardappelen rond de kip.\n" +
+            "11. Giet 500 ml water erbij.\n" +
+            "12. Doe het deksel op de tajine.\n" +
+            "13. Laat 1 uur zachtjes koken.\n" +
+            "14. Controleer of alles gaar is.\n" +
+            "15. Serveer warm."
     },
+
     ar: {
         title: "طاجين الدجاج بالخضار (يكفي 4 أشخاص)",
         equipment: [
@@ -1411,46 +2036,86 @@ recipesData.plat.tajinePouletLegumes = {
             "500 مل ماء"
         ],
         preparation:
-            "هذه الوصفة تكفي 4 أشخاص. قشر الجزر وقطعه. قشر البطاطس وقطعها. قشر البصل وقطعه. ضع الطاجين على نار متوسطة. أضف الزيت والبصل وحرّك 5 دقائق. أضف الدجاج والتوابل. أضف الخضار. أضف الماء. غطِّ واتركه يطهى ساعة كاملة. قدمه ساخناً."
+            "1. قشر الجزر وقطّعه إلى عيدان.\n" +
+            "2. قشر البطاطس وقطّعها إلى أرباع.\n" +
+            "3. قشر البصل وقطّعه شرائح.\n" +
+            "4. ضع الطاجين على نار متوسطة.\n" +
+            "5. أضف زيت الزيتون.\n" +
+            "6. أضف البصل وقلِّه 5 دقائق.\n" +
+            "7. أضف قطع الدجاج.\n" +
+            "8. أضف الزنجبيل والكركم والبابريكا والملح والفلفل.\n" +
+            "9. حرّك جيدًا.\n" +
+            "10. ضع الجزر والبطاطس حول الدجاج.\n" +
+            "11. أضف 500 مل ماء.\n" +
+            "12. غطِّ الطاجين.\n" +
+            "13. اتركه يطهى ساعة على نار هادئة.\n" +
+            "14. تأكد من نضج الدجاج والخضار.\n" +
+            "15. قدّمه ساخنًا."
     }
 };
 recipesData.plat.tajinePouletOlives = {
     country: "maroc",
     image: "images/tajine-poulet-olives.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "50 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Tajine de poulet aux olives et citron confit",
         equipment: [
             "1 tajine ou cocotte",
             "1 couteau",
-            "1 planche à découper"
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 verre doseur"
         ],
         ingredients: [
             "1 poulet découpé",
             "1 oignon émincé",
             "2 gousses d’ail",
             "1 citron confit",
-            "150 g olives vertes",
-            "3 cuillères à soupe huile d’olive",
-            "1 cuillère à café gingembre",
-            "1 cuillère à café curcuma",
+            "150 g d’olives vertes",
+            "3 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de gingembre",
+            "1 cuillère à café de curcuma",
             "Sel et poivre",
-            "Coriandre fraîche"
+            "Coriandre fraîche",
+            "250 ml d’eau"
         ],
         preparation:
-            "1. Chauffer l’huile dans le tajine.\n" +
-            "2. Faire revenir l’oignon et l’ail.\n" +
-            "3. Ajouter le poulet et les épices.\n" +
-            "4. Ajouter un verre d’eau et couvrir.\n" +
-            "5. Cuire à feu doux 40 minutes.\n" +
-            "6. Ajouter olives et citron confit.\n" +
-            "7. Poursuivre la cuisson 10 minutes.\n" +
-            "8. Parsemer de coriandre et servir chaud."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Éplucher et écraser les gousses d’ail.\n" +
+            "3. Couper le citron confit en quartiers et retirer les pépins.\n" +
+            "4. Mettre le tajine sur feu moyen.\n" +
+            "5. Ajouter l’huile d’olive.\n" +
+            "6. Faire revenir l’oignon et l’ail pendant 5 minutes.\n" +
+            "7. Ajouter les morceaux de poulet.\n" +
+            "8. Ajouter le gingembre, le curcuma, le sel et le poivre.\n" +
+            "9. Mélanger soigneusement.\n" +
+            "10. Verser 250 ml d’eau.\n" +
+            "11. Couvrir le tajine.\n" +
+            "12. Laisser cuire à feu doux pendant 40 minutes.\n" +
+            "13. Ajouter les olives vertes et le citron confit.\n" +
+            "14. Poursuivre la cuisson 10 minutes.\n" +
+            "15. Parsemer de coriandre fraîche.\n" +
+            "16. Servir bien chaud."
     },
+
     en: {
         title: "Chicken Tagine with Olives and Preserved Lemon",
-        equipment: ["1 tagine or pot", "1 knife", "1 cutting board"],
+        equipment: [
+            "1 tagine or pot",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 measuring cup"
+        ],
         ingredients: [
-            "1 whole chicken, cut",
+            "1 whole chicken, cut into pieces",
             "1 sliced onion",
             "2 garlic cloves",
             "1 preserved lemon",
@@ -1459,24 +2124,40 @@ recipesData.plat.tajinePouletOlives = {
             "1 teaspoon ginger",
             "1 teaspoon turmeric",
             "Salt and pepper",
-            "Fresh coriander"
+            "Fresh coriander",
+            "250 ml water"
         ],
         preparation:
-            "1. Heat oil in the tagine.\n" +
-            "2. Sauté onion and garlic.\n" +
-            "3. Add chicken and spices.\n" +
-            "4. Add water and cover.\n" +
-            "5. Simmer 40 minutes.\n" +
-            "6. Add olives and lemon.\n" +
-            "7. Cook 10 more minutes.\n" +
-            "8. Garnish and serve."
+            "1. Peel and slice the onion.\n" +
+            "2. Peel and crush the garlic cloves.\n" +
+            "3. Cut the preserved lemon into wedges and remove the seeds.\n" +
+            "4. Heat the tagine over medium heat.\n" +
+            "5. Add the olive oil.\n" +
+            "6. Sauté the onion and garlic for 5 minutes.\n" +
+            "7. Add the chicken pieces.\n" +
+            "8. Add ginger, turmeric, salt and pepper.\n" +
+            "9. Mix well.\n" +
+            "10. Pour in 250 ml of water.\n" +
+            "11. Cover the tagine.\n" +
+            "12. Simmer on low heat for 40 minutes.\n" +
+            "13. Add the olives and preserved lemon.\n" +
+            "14. Cook for 10 more minutes.\n" +
+            "15. Garnish with fresh coriander.\n" +
+            "16. Serve hot."
     },
+
     nl: {
         title: "Kiptajine met olijven en ingelegde citroen",
-        equipment: ["1 tajine of pot", "1 mes", "1 snijplank"],
+        equipment: [
+            "1 tajine of pot",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 maatbeker"
+        ],
         ingredients: [
             "1 kip in stukken",
-            "1 ui",
+            "1 ui, gesneden",
             "2 teentjes knoflook",
             "1 ingelegde citroen",
             "150 g groene olijven",
@@ -1484,416 +2165,720 @@ recipesData.plat.tajinePouletOlives = {
             "1 theelepel gember",
             "1 theelepel kurkuma",
             "Zout en peper",
-            "Koriander"
+            "Verse koriander",
+            "250 ml water"
         ],
         preparation:
-            "1. Verhit olie.\n" +
-            "2. Fruit ui en knoflook.\n" +
-            "3. Voeg kip en kruiden toe.\n" +
-            "4. Voeg water toe en laat sudderen.\n" +
-            "5. Kook 40 minuten.\n" +
-            "6. Voeg olijven en citroen toe.\n" +
-            "7. Laat 10 minuten koken.\n" +
-            "8. Serveer warm."
+            "1. Schil en snijd de ui.\n" +
+            "2. Pel en plet de knoflook.\n" +
+            "3. Snijd de ingelegde citroen in stukken.\n" +
+            "4. Verhit de tajine op middelhoog vuur.\n" +
+            "5. Voeg de olijfolie toe.\n" +
+            "6. Fruit de ui en knoflook 5 minuten.\n" +
+            "7. Voeg de kip toe.\n" +
+            "8. Voeg gember, kurkuma, zout en peper toe.\n" +
+            "9. Meng goed.\n" +
+            "10. Giet 250 ml water erbij.\n" +
+            "11. Doe het deksel op de tajine.\n" +
+            "12. Laat 40 minuten zachtjes koken.\n" +
+            "13. Voeg de olijven en citroen toe.\n" +
+            "14. Laat nog 10 minuten koken.\n" +
+            "15. Garneer met koriander.\n" +
+            "16. Serveer warm."
     },
+
     ar: {
         title: "طاجين الدجاج بالزيتون والليمون المصير",
-        equipment: ["طاجين", "سكين", "لوح تقطيع"],
+        equipment: [
+            "طاجين أو قدر",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "كوب قياس"
+        ],
         ingredients: [
             "دجاجة مقطعة",
-            "بصلة",
+            "بصلة مفرومة",
             "2 فص ثوم",
             "ليمون مصير",
             "150 غ زيتون أخضر",
             "3 ملاعق زيت زيتون",
-            "زنجبيل",
-            "كركم",
+            "ملعقة صغيرة زنجبيل",
+            "ملعقة صغيرة كركم",
             "ملح وفلفل",
-            "كزبرة"
+            "كزبرة طازجة",
+            "250 مل ماء"
         ],
         preparation:
-            "1. سخّن الزيت.\n" +
-            "2. شوّح البصل والثوم.\n" +
-            "3. أضف الدجاج والتوابل.\n" +
-            "4. أضف الماء وغطي.\n" +
-            "5. اطهه 40 دقيقة.\n" +
-            "6. أضف الزيتون والليمون.\n" +
-            "7. اطهه 10 دقائق إضافية.\n" +
-            "8. قدّم ساخنًا."
+            "1. قشّر البصل وقطّعه.\n" +
+            "2. قشّر الثوم واطحنه.\n" +
+            "3. قطّع الليمون المصير وأزل البذور.\n" +
+            "4. ضع الطاجين على نار متوسطة.\n" +
+            "5. أضف زيت الزيتون.\n" +
+            "6. شوّح البصل والثوم لمدة 5 دقائق.\n" +
+            "7. أضف قطع الدجاج.\n" +
+            "8. أضف الزنجبيل والكركم والملح والفلفل.\n" +
+            "9. حرّك جيدًا.\n" +
+            "10. أضف 250 مل من الماء.\n" +
+            "11. غطِّ الطاجين.\n" +
+            "12. اتركه يطهى 40 دقيقة على نار هادئة.\n" +
+            "13. أضف الزيتون والليمون المصير.\n" +
+            "14. اتركه يطهى 10 دقائق إضافية.\n" +
+            "15. زيّنه بالكزبرة الطازجة.\n" +
+            "16. قدّمه ساخنًا."
     }
 };
 recipesData.plat.tajineBoeufPruneaux = {
     country: "maroc",
     image: "images/tajine-boeuf-pruneaux.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "1h20",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Tajine de bœuf aux pruneaux",
-        equipment: ["1 tajine", "1 couteau"],
+        equipment: [
+            "1 tajine ou cocotte",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 verre doseur"
+        ],
         ingredients: [
-            "700 g bœuf",
-            "1 oignon",
-            "2 cuillères à soupe huile d’olive",
-            "1 cuillère à café cannelle",
-            "1 cuillère à café gingembre",
-            "200 g pruneaux",
+            "700 g de bœuf en morceaux",
+            "1 gros oignon",
+            "2 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de cannelle",
+            "1 cuillère à café de gingembre",
+            "200 g de pruneaux",
             "Sel",
-            "Amandes (optionnel)"
+            "Amandes (optionnel)",
+            "500 ml d’eau"
         ],
         preparation:
-            "1. Faire revenir l’oignon dans l’huile.\n" +
-            "2. Ajouter la viande et les épices.\n" +
-            "3. Couvrir d’eau et cuire 1h.\n" +
-            "4. Ajouter les pruneaux.\n" +
-            "5. Cuire encore 20 minutes.\n" +
-            "6. Garnir d’amandes et servir."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Mettre le tajine sur feu moyen.\n" +
+            "3. Ajouter l’huile d’olive.\n" +
+            "4. Faire revenir l’oignon pendant 5 minutes.\n" +
+            "5. Ajouter les morceaux de bœuf.\n" +
+            "6. Ajouter la cannelle, le gingembre et le sel.\n" +
+            "7. Mélanger soigneusement.\n" +
+            "8. Verser 500 ml d’eau.\n" +
+            "9. Couvrir le tajine.\n" +
+            "10. Laisser cuire à feu doux pendant 1 heure.\n" +
+            "11. Ajouter les pruneaux.\n" +
+            "12. Poursuivre la cuisson 20 minutes.\n" +
+            "13. Ajouter les amandes si souhaité.\n" +
+            "14. Servir bien chaud."
     },
+
     en: {
         title: "Beef Tagine with Prunes",
-        equipment: ["1 tagine", "1 knife"],
+        equipment: [
+            "1 tagine or pot",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 measuring cup"
+        ],
         ingredients: [
-            "700 g beef",
-            "1 onion",
+            "700 g beef chunks",
+            "1 large onion",
             "2 tablespoons olive oil",
             "1 teaspoon cinnamon",
             "1 teaspoon ginger",
             "200 g prunes",
             "Salt",
-            "Almonds (optional)"
+            "Almonds (optional)",
+            "500 ml water"
         ],
         preparation:
-            "1. Sauté onion in oil.\n" +
-            "2. Add beef and spices.\n" +
-            "3. Add water and cook 1 hour.\n" +
-            "4. Add prunes.\n" +
-            "5. Cook 20 minutes more.\n" +
-            "6. Garnish and serve."
+            "1. Peel and slice the onion.\n" +
+            "2. Heat the tagine over medium heat.\n" +
+            "3. Add the olive oil.\n" +
+            "4. Sauté the onion for 5 minutes.\n" +
+            "5. Add the beef pieces.\n" +
+            "6. Add cinnamon, ginger and salt.\n" +
+            "7. Mix well.\n" +
+            "8. Pour in 500 ml of water.\n" +
+            "9. Cover the tagine.\n" +
+            "10. Simmer for 1 hour on low heat.\n" +
+            "11. Add the prunes.\n" +
+            "12. Cook for 20 more minutes.\n" +
+            "13. Add almonds if desired.\n" +
+            "14. Serve hot."
     },
+
     nl: {
         title: "Rundertajine met pruimen",
-        equipment: ["1 tajine", "1 mes"],
+        equipment: [
+            "1 tajine of pot",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 maatbeker"
+        ],
         ingredients: [
             "700 g rundvlees",
-            "1 ui",
+            "1 grote ui",
             "2 eetlepels olijfolie",
-            "Kaneel",
-            "Gember",
+            "1 theelepel kaneel",
+            "1 theelepel gember",
             "200 g pruimen",
-            "Zout"
+            "Zout",
+            "Amandelen (optioneel)",
+            "500 ml water"
         ],
         preparation:
-            "1. Fruit ui in olie.\n" +
-            "2. Voeg vlees en kruiden toe.\n" +
-            "3. Voeg water toe en kook 1 uur.\n" +
-            "4. Voeg pruimen toe.\n" +
-            "5. Laat 20 minuten koken.\n" +
-            "6. Serveer warm."
+            "1. Schil en snijd de ui.\n" +
+            "2. Verhit de tajine op middelhoog vuur.\n" +
+            "3. Voeg de olijfolie toe.\n" +
+            "4. Fruit de ui 5 minuten.\n" +
+            "5. Voeg het rundvlees toe.\n" +
+            "6. Voeg kaneel, gember en zout toe.\n" +
+            "7. Meng goed.\n" +
+            "8. Giet 500 ml water erbij.\n" +
+            "9. Doe het deksel op de tajine.\n" +
+            "10. Laat 1 uur zachtjes koken.\n" +
+            "11. Voeg de pruimen toe.\n" +
+            "12. Laat nog 20 minuten koken.\n" +
+            "13. Voeg amandelen toe indien gewenst.\n" +
+            "14. Serveer warm."
     },
+
     ar: {
         title: "طاجين اللحم بالبرقوق",
-        equipment: ["طاجين", "سكين"],
+        equipment: [
+            "طاجين أو قدر",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "كوب قياس"
+        ],
         ingredients: [
-            "700 غ لحم",
-            "بصلة",
+            "700 غ لحم بقر",
+            "بصلة كبيرة",
             "2 ملاعق زيت زيتون",
-            "قرفة",
-            "زنجبيل",
+            "ملعقة صغيرة قرفة",
+            "ملعقة صغيرة زنجبيل",
             "200 غ برقوق",
-            "ملح"
+            "ملح",
+            "لوز (اختياري)",
+            "500 مل ماء"
         ],
         preparation:
-            "1. شوّح البصل.\n" +
-            "2. أضف اللحم والتوابل.\n" +
-            "3. اطهه ساعة.\n" +
-            "4. أضف البرقوق.\n" +
-            "5. اطهه 20 دقيقة.\n" +
-            "6. قدّم ساخنًا."
+            "1. قشّر البصل وقطّعه.\n" +
+            "2. ضع الطاجين على نار متوسطة.\n" +
+            "3. أضف زيت الزيتون.\n" +
+            "4. شوّح البصل 5 دقائق.\n" +
+            "5. أضف قطع اللحم.\n" +
+            "6. أضف القرفة والزنجبيل والملح.\n" +
+            "7. حرّك جيدًا.\n" +
+            "8. أضف 500 مل من الماء.\n" +
+            "9. غطِّ الطاجين.\n" +
+            "10. اتركه يطهى ساعة كاملة.\n" +
+            "11. أضف البرقوق.\n" +
+            "12. اطهه 20 دقيقة إضافية.\n" +
+            "13. أضف اللوز إذا رغبت.\n" +
+            "14. قدّمه ساخنًا."
     }
 };
 recipesData.plat.tajineKeftaOeufs = {
     country: "maroc",
     image: "images/tajine-kefta-oeufs.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "30 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Tajine de kefta aux œufs",
-        equipment: ["1 tajine"],
+        equipment: [
+            "1 tajine ou poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 saladier",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "500 g viande hachée",
-            "2 tomates",
-            "1 oignon",
+            "500 g de viande hachée",
+            "2 tomates mûres",
+            "1 oignon moyen",
             "2 œufs",
-            "Persil",
-            "Paprika",
-            "Cumin",
-            "Sel"
+            "Persil frais",
+            "1 cuillère à café de paprika",
+            "1 cuillère à café de cumin",
+            "Sel",
+            "2 cuillères à soupe d’huile d’olive",
+            "100 ml d’eau"
         ],
         preparation:
-            "1. Former des boulettes.\n" +
-            "2. Préparer une sauce tomate.\n" +
-            "3. Ajouter les keftas.\n" +
-            "4. Cuire 20 minutes.\n" +
-            "5. Ajouter les œufs.\n" +
-            "6. Couvrir jusqu’à cuisson.\n" +
-            "7. Servir chaud."
+            "1. Mettre la viande hachée dans un saladier.\n" +
+            "2. Ajouter le cumin, le paprika, le sel et le persil.\n" +
+            "3. Mélanger et former des boulettes de kefta.\n" +
+            "4. Éplucher et hacher l’oignon.\n" +
+            "5. Râper les tomates.\n" +
+            "6. Chauffer l’huile dans le tajine.\n" +
+            "7. Faire revenir l’oignon 5 minutes.\n" +
+            "8. Ajouter les tomates et laisser mijoter 10 minutes.\n" +
+            "9. Ajouter les boulettes de kefta.\n" +
+            "10. Verser 100 ml d’eau.\n" +
+            "11. Couvrir et cuire 20 minutes.\n" +
+            "12. Casser les œufs sur la sauce.\n" +
+            "13. Couvrir jusqu’à cuisson des œufs.\n" +
+            "14. Servir bien chaud."
     },
+
     en: {
         title: "Kefta Tagine with Eggs",
-        equipment: ["1 tagine"],
+        equipment: [
+            "1 tagine or pan",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "500 g ground meat",
-            "2 tomatoes",
-            "1 onion",
+            "2 ripe tomatoes",
+            "1 medium onion",
             "2 eggs",
-            "Parsley",
-            "Paprika",
-            "Cumin",
-            "Salt"
+            "Fresh parsley",
+            "1 teaspoon paprika",
+            "1 teaspoon cumin",
+            "Salt",
+            "2 tablespoons olive oil",
+            "100 ml water"
         ],
         preparation:
-            "1. Shape meatballs.\n" +
-            "2. Prepare tomato sauce.\n" +
-            "3. Add kefta.\n" +
-            "4. Cook 20 minutes.\n" +
-            "5. Add eggs.\n" +
-            "6. Cover until set.\n" +
-            "7. Serve hot."
+            "1. Place the ground meat in a bowl.\n" +
+            "2. Add cumin, paprika, salt and parsley.\n" +
+            "3. Mix and form meatballs.\n" +
+            "4. Peel and chop the onion.\n" +
+            "5. Grate the tomatoes.\n" +
+            "6. Heat the oil in the tagine.\n" +
+            "7. Sauté the onion for 5 minutes.\n" +
+            "8. Add the tomatoes and simmer for 10 minutes.\n" +
+            "9. Add the meatballs.\n" +
+            "10. Pour in 100 ml of water.\n" +
+            "11. Cover and cook for 20 minutes.\n" +
+            "12. Crack the eggs over the sauce.\n" +
+            "13. Cover until eggs are cooked.\n" +
+            "14. Serve hot."
     },
+
     nl: {
         title: "Keftatajine met eieren",
-        equipment: ["1 tajine"],
+        equipment: [
+            "1 tajine of pan",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "1 houten lepel"
+        ],
         ingredients: [
             "500 g gehakt",
-            "2 tomaten",
-            "1 ui",
+            "2 rijpe tomaten",
+            "1 middelgrote ui",
             "2 eieren",
-            "Peterselie",
-            "Paprika",
-            "Komijn",
-            "Zout"
+            "Verse peterselie",
+            "1 theelepel paprika",
+            "1 theelepel komijn",
+            "Zout",
+            "2 eetlepels olijfolie",
+            "100 ml water"
         ],
         preparation:
-            "1. Vorm balletjes.\n" +
-            "2. Maak tomatensaus.\n" +
-            "3. Voeg gehakt toe.\n" +
-            "4. Kook 20 minuten.\n" +
-            "5. Voeg eieren toe.\n" +
-            "6. Laat stollen.\n" +
-            "7. Serveer warm."
+            "1. Doe het gehakt in een kom.\n" +
+            "2. Voeg komijn, paprika, zout en peterselie toe.\n" +
+            "3. Meng en vorm balletjes.\n" +
+            "4. Schil en snijd de ui.\n" +
+            "5. Rasp de tomaten.\n" +
+            "6. Verhit olie in de tajine.\n" +
+            "7. Fruit de ui 5 minuten.\n" +
+            "8. Voeg tomaten toe en laat 10 minuten sudderen.\n" +
+            "9. Voeg de balletjes toe.\n" +
+            "10. Giet 100 ml water erbij.\n" +
+            "11. Laat 20 minuten koken.\n" +
+            "12. Breek de eieren erboven.\n" +
+            "13. Laat de eieren garen.\n" +
+            "14. Serveer warm."
     },
+
     ar: {
         title: "طاجين الكفتة بالبيض",
-        equipment: ["طاجين"],
+        equipment: [
+            "طاجين أو مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "500 غ لحم مفروم",
-            "2 طماطم",
-            "بصلة",
+            "2 طماطم ناضجة",
+            "بصلة متوسطة",
             "2 بيض",
-            "بقدونس",
-            "بابريكا",
-            "كمون",
-            "ملح"
+            "بقدونس طازج",
+            "ملعقة صغيرة بابريكا",
+            "ملعقة صغيرة كمون",
+            "ملح",
+            "2 ملاعق زيت زيتون",
+            "100 مل ماء"
         ],
         preparation:
-            "1. شكّل كرات.\n" +
-            "2. حضّر صلصة الطماطم.\n" +
-            "3. أضف الكفتة.\n" +
-            "4. اطهه 20 دقيقة.\n" +
-            "5. أضف البيض.\n" +
-            "6. غطِّ حتى ينضج.\n" +
-            "7. قدّم ساخنًا."
+            "1. ضع اللحم المفروم في وعاء.\n" +
+            "2. أضف الكمون والبابريكا والملح والبقدونس.\n" +
+            "3. امزج وشكّل كرات الكفتة.\n" +
+            "4. قشّر وقطّع البصل.\n" +
+            "5. ابشر الطماطم.\n" +
+            "6. سخّن الزيت في الطاجين.\n" +
+            "7. شوّح البصل 5 دقائق.\n" +
+            "8. أضف الطماطم واتركها 10 دقائق.\n" +
+            "9. أضف الكفتة.\n" +
+            "10. أضف 100 مل من الماء.\n" +
+            "11. اتركه يطهى 20 دقيقة.\n" +
+            "12. اكسر البيض فوق الصلصة.\n" +
+            "13. اترك البيض حتى ينضج.\n" +
+            "14. قدّم ساخنًا."
     }
 };
 recipesData.plat.tajineAgneauLegumes = {
     country: "maroc",
     image: "images/tajine-agneau-legumes.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "25 min",
+        cookTime: "1h30",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Tajine d’agneau aux légumes",
-        equipment: ["1 tajine", "1 couteau", "1 planche"],
+        equipment: [
+            "1 tajine ou grande cocotte",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "800 g agneau",
+            "800 g d’agneau en morceaux",
             "2 carottes",
             "2 pommes de terre",
             "1 courgette",
-            "1 oignon",
-            "3 cuillères à soupe huile d’olive",
-            "1 cuillère à café gingembre",
-            "1 cuillère à café curcuma",
+            "1 oignon moyen",
+            "3 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de gingembre",
+            "1 cuillère à café de curcuma",
             "Sel et poivre",
-            "Coriandre fraîche"
+            "Coriandre fraîche",
+            "300 ml d’eau"
         ],
         preparation:
-            "1. Faire revenir l’oignon dans l’huile.\n" +
-            "2. Ajouter l’agneau et les épices.\n" +
-            "3. Ajouter un verre d’eau.\n" +
-            "4. Disposer les légumes dessus.\n" +
-            "5. Couvrir et cuire à feu doux 1h30.\n" +
-            "6. Parsemer de coriandre et servir."
+            "1. Éplucher et couper les carottes en bâtonnets.\n" +
+            "2. Éplucher et couper les pommes de terre en quartiers.\n" +
+            "3. Couper la courgette en rondelles.\n" +
+            "4. Éplucher et émincer l’oignon.\n" +
+            "5. Chauffer l’huile d’olive dans le tajine.\n" +
+            "6. Faire revenir l’oignon 5 minutes.\n" +
+            "7. Ajouter l’agneau, le gingembre, le curcuma, le sel et le poivre.\n" +
+            "8. Mélanger et laisser dorer 10 minutes.\n" +
+            "9. Verser 300 ml d’eau.\n" +
+            "10. Disposer les légumes sur la viande.\n" +
+            "11. Couvrir et cuire à feu doux pendant 1h30.\n" +
+            "12. Vérifier la cuisson de la viande.\n" +
+            "13. Parsemer de coriandre fraîche.\n" +
+            "14. Servir bien chaud."
     },
+
     en: {
         title: "Lamb and Vegetable Tagine",
-        equipment: ["1 tagine", "1 knife", "1 cutting board"],
+        equipment: [
+            "1 tagine or large pot",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
-            "800 g lamb",
+            "800 g lamb pieces",
             "2 carrots",
             "2 potatoes",
             "1 zucchini",
-            "1 onion",
+            "1 medium onion",
             "3 tablespoons olive oil",
             "1 teaspoon ginger",
             "1 teaspoon turmeric",
             "Salt and pepper",
-            "Fresh coriander"
+            "Fresh coriander",
+            "300 ml water"
         ],
         preparation:
-            "1. Sauté onion in oil.\n" +
-            "2. Add lamb and spices.\n" +
-            "3. Add water.\n" +
-            "4. Arrange vegetables on top.\n" +
-            "5. Cover and simmer 1.5 hours.\n" +
-            "6. Garnish and serve."
+            "1. Peel and cut the carrots into sticks.\n" +
+            "2. Peel and quarter the potatoes.\n" +
+            "3. Slice the zucchini.\n" +
+            "4. Peel and chop the onion.\n" +
+            "5. Heat the olive oil in the tagine.\n" +
+            "6. Sauté the onion for 5 minutes.\n" +
+            "7. Add lamb, ginger, turmeric, salt and pepper.\n" +
+            "8. Brown for 10 minutes.\n" +
+            "9. Pour in 300 ml of water.\n" +
+            "10. Arrange the vegetables on top.\n" +
+            "11. Cover and cook on low heat for 1.5 hours.\n" +
+            "12. Check that the meat is tender.\n" +
+            "13. Garnish with fresh coriander.\n" +
+            "14. Serve hot."
     },
+
     nl: {
         title: "Lamstajine met groenten",
-        equipment: ["1 tajine", "1 mes", "1 snijplank"],
+        equipment: [
+            "1 tajine of grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
             "800 g lamsvlees",
             "2 wortelen",
             "2 aardappelen",
             "1 courgette",
-            "1 ui",
+            "1 middelgrote ui",
             "3 eetlepels olijfolie",
-            "Gember",
-            "Kurkuma",
+            "1 theelepel gember",
+            "1 theelepel kurkuma",
             "Zout en peper",
-            "Koriander"
+            "Verse koriander",
+            "300 ml water"
         ],
         preparation:
-            "1. Fruit ui in olie.\n" +
-            "2. Voeg lamsvlees en kruiden toe.\n" +
-            "3. Voeg water toe.\n" +
-            "4. Leg groenten erbovenop.\n" +
-            "5. Laat 1,5 uur sudderen.\n" +
-            "6. Serveer warm."
+            "1. Schil en snijd de wortelen.\n" +
+            "2. Schil en snijd de aardappelen in parten.\n" +
+            "3. Snijd de courgette in plakjes.\n" +
+            "4. Snipper de ui.\n" +
+            "5. Verhit de olie in de tajine.\n" +
+            "6. Fruit de ui 5 minuten.\n" +
+            "7. Voeg het lamsvlees en de kruiden toe.\n" +
+            "8. Bak 10 minuten.\n" +
+            "9. Voeg 300 ml water toe.\n" +
+            "10. Leg de groenten erbovenop.\n" +
+            "11. Laat 1,5 uur zachtjes koken.\n" +
+            "12. Controleer of het vlees gaar is.\n" +
+            "13. Bestrooi met koriander.\n" +
+            "14. Serveer warm."
     },
+
     ar: {
         title: "طاجين لحم الغنم بالخضار",
-        equipment: ["طاجين", "سكين", "لوح تقطيع"],
+        equipment: [
+            "طاجين أو قدر كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "800 غ لحم غنم",
-            "جزر",
-            "بطاطس",
+            "2 جزر",
+            "2 بطاطس",
             "كوسة",
-            "بصلة",
-            "زيت زيتون",
-            "زنجبيل",
-            "كركم",
+            "بصلة متوسطة",
+            "3 ملاعق زيت زيتون",
+            "ملعقة صغيرة زنجبيل",
+            "ملعقة صغيرة كركم",
             "ملح وفلفل",
-            "كزبرة"
+            "كزبرة طازجة",
+            "300 مل ماء"
         ],
         preparation:
-            "1. شوّح البصل.\n" +
-            "2. أضف اللحم والتوابل.\n" +
-            "3. أضف الماء.\n" +
-            "4. رتب الخضار.\n" +
-            "5. اطهه ساعة ونصف.\n" +
-            "6. قدّم ساخنًا."
+            "1. قشّر الجزر وقطّعه.\n" +
+            "2. قشّر البطاطس وقطّعها.\n" +
+            "3. قطّع الكوسة.\n" +
+            "4. قطّع البصل.\n" +
+            "5. سخّن الزيت في الطاجين.\n" +
+            "6. شوّح البصل 5 دقائق.\n" +
+            "7. أضف اللحم والتوابل.\n" +
+            "8. اطهه 10 دقائق.\n" +
+            "9. أضف 300 مل ماء.\n" +
+            "10. رتّب الخضار فوق اللحم.\n" +
+            "11. غطِّ واتركه يطهى ساعة ونصف.\n" +
+            "12. تأكد من نضج اللحم.\n" +
+            "13. زيّن بالكزبرة.\n" +
+            "14. قدّم ساخنًا."
     }
 };
 recipesData.plat.tajinePoissonChermoula = {
     country: "maroc",
     image: "images/tajine-poisson.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "35 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Tajine de poisson à la chermoula",
-        equipment: ["1 tajine"],
+        equipment: [
+            "1 tajine ou grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
-            "1 kg poisson en tranches",
+            "1 kg de poisson en tranches",
             "2 tomates",
             "1 poivron",
             "2 gousses d’ail",
-            "3 cuillères à soupe huile d’olive",
-            "Coriandre",
-            "Paprika",
-            "Cumin",
-            "Sel"
+            "3 cuillères à soupe d’huile d’olive",
+            "1 bouquet de coriandre",
+            "1 cuillère à café de paprika",
+            "1 cuillère à café de cumin",
+            "Sel",
+            "100 ml d’eau"
         ],
         preparation:
-            "1. Préparer la chermoula avec ail, épices et huile.\n" +
-            "2. Enduire le poisson.\n" +
-            "3. Disposer légumes dans le tajine.\n" +
-            "4. Ajouter le poisson.\n" +
-            "5. Cuire à feu doux 35 minutes.\n" +
-            "6. Servir chaud."
+            "1. Hacher l’ail et la coriandre.\n" +
+            "2. Mélanger l’ail, la coriandre, le paprika, le cumin, le sel et l’huile.\n" +
+            "3. Enduire les tranches de poisson avec cette chermoula.\n" +
+            "4. Couper les tomates en rondelles.\n" +
+            "5. Couper le poivron en lanières.\n" +
+            "6. Disposer les légumes au fond du tajine.\n" +
+            "7. Placer le poisson par-dessus.\n" +
+            "8. Ajouter 100 ml d’eau.\n" +
+            "9. Couvrir et cuire à feu doux 35 minutes.\n" +
+            "10. Vérifier la cuisson.\n" +
+            "11. Servir bien chaud."
     },
+
     en: {
         title: "Fish Tagine with Chermoula",
-        equipment: ["1 tagine"],
+        equipment: [
+            "1 tagine or large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
             "1 kg fish slices",
             "2 tomatoes",
             "1 bell pepper",
             "2 garlic cloves",
             "3 tablespoons olive oil",
-            "Coriander",
-            "Paprika",
-            "Cumin",
-            "Salt"
+            "Fresh coriander",
+            "1 teaspoon paprika",
+            "1 teaspoon cumin",
+            "Salt",
+            "100 ml water"
         ],
         preparation:
-            "1. Prepare chermoula with spices and oil.\n" +
-            "2. Coat fish.\n" +
-            "3. Arrange vegetables in tagine.\n" +
-            "4. Add fish.\n" +
-            "5. Cook gently 35 minutes.\n" +
-            "6. Serve hot."
+            "1. Chop garlic and coriander.\n" +
+            "2. Mix garlic, coriander, paprika, cumin, salt and oil.\n" +
+            "3. Coat the fish with the chermoula.\n" +
+            "4. Slice the tomatoes.\n" +
+            "5. Cut the pepper into strips.\n" +
+            "6. Place vegetables in the tagine.\n" +
+            "7. Add the fish on top.\n" +
+            "8. Pour in 100 ml of water.\n" +
+            "9. Cover and cook gently for 35 minutes.\n" +
+            "10. Check doneness.\n" +
+            "11. Serve hot."
     },
+
     nl: {
         title: "Vis-tajine met chermoula",
-        equipment: ["1 tajine"],
+        equipment: [
+            "1 tajine of grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
             "1 kg vis",
             "2 tomaten",
             "1 paprika",
             "2 teentjes knoflook",
             "3 eetlepels olijfolie",
-            "Koriander",
-            "Paprika",
-            "Komijn",
-            "Zout"
+            "Verse koriander",
+            "1 theelepel paprika",
+            "1 theelepel komijn",
+            "Zout",
+            "100 ml water"
         ],
         preparation:
-            "1. Maak chermoula.\n" +
-            "2. Marineer de vis.\n" +
-            "3. Leg groenten in tajine.\n" +
-            "4. Voeg vis toe.\n" +
-            "5. Laat 35 minuten garen.\n" +
-            "6. Serveer warm."
+            "1. Hak knoflook en koriander fijn.\n" +
+            "2. Meng met kruiden, zout en olie.\n" +
+            "3. Marineer de vis.\n" +
+            "4. Snijd de tomaten.\n" +
+            "5. Snijd de paprika.\n" +
+            "6. Leg de groenten in de tajine.\n" +
+            "7. Leg de vis erbovenop.\n" +
+            "8. Voeg 100 ml water toe.\n" +
+            "9. Laat 35 minuten zachtjes koken.\n" +
+            "10. Controleer de gaarheid.\n" +
+            "11. Serveer warm."
     },
+
     ar: {
         title: "طاجين السمك بالشرمولة",
-        equipment: ["طاجين"],
+        equipment: [
+            "طاجين أو مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
             "1 كلغ سمك",
-            "طماطم",
+            "2 طماطم",
             "فلفل",
-            "ثوم",
-            "زيت زيتون",
-            "كزبرة",
-            "بابريكا",
-            "كمون",
-            "ملح"
+            "2 فص ثوم",
+            "3 ملاعق زيت زيتون",
+            "كزبرة طازجة",
+            "ملعقة صغيرة بابريكا",
+            "ملعقة صغيرة كمون",
+            "ملح",
+            "100 مل ماء"
         ],
         preparation:
-            "1. حضّر الشرمولة.\n" +
-            "2. تبّل السمك.\n" +
-            "3. ضع الخضار في الطاجين.\n" +
-            "4. أضف السمك.\n" +
-            "5. اطهه 35 دقيقة.\n" +
-            "6. قدّم ساخنًا."
+            "1. افرم الثوم والكزبرة.\n" +
+            "2. اخلطهما مع التوابل والزيت والملح.\n" +
+            "3. تبّل السمك بالشرمولة.\n" +
+            "4. قطّع الطماطم.\n" +
+            "5. قطّع الفلفل.\n" +
+            "6. ضع الخضار في الطاجين.\n" +
+            "7. ضع السمك فوقها.\n" +
+            "8. أضف 100 مل ماء.\n" +
+            "9. غطِّ واطهه 35 دقيقة.\n" +
+            "10. تأكد من نضج السمك.\n" +
+            "11. قدّم ساخنًا."
     }
 };
 recipesData.plat.taginePoisson = {
     country: "maroc",
     image: "images/tagine-poisson.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "20 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Tagine de poisson aux légumes",
-        equipment: ["1 tajine ou grande poêle à fond épais", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
+        equipment: [
+            "1 tajine ou grande poêle à fond épais",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
             "500 g de filets de poisson blanc (merlan, cabillaud)",
             "2 pommes de terre, coupées en rondelles",
@@ -1909,16 +2894,25 @@ recipesData.plat.taginePoisson = {
             "Quelques brins de coriandre fraîche"
         ],
         preparation:
-            "1. Chauffer l’huile dans le tajine et faire revenir l’oignon et l’ail 2-3 minutes.\n" +
-            "2. Ajouter les tomates, poivron, pommes de terre, épices, sel et poivre.\n" +
-            "3. Laisser mijoter 10 minutes à feu doux.\n" +
-            "4. Déposer les filets de poisson sur les légumes.\n" +
-            "5. Couvrir et cuire 15-20 minutes jusqu’à ce que le poisson soit tendre.\n" +
-            "6. Parsemer de coriandre fraîche avant de servir chaud."
+            "1. Chauffer l’huile dans le tajine.\n" +
+            "2. Faire revenir l’oignon et l’ail pendant 2 à 3 minutes.\n" +
+            "3. Ajouter les tomates, le poivron et les pommes de terre.\n" +
+            "4. Ajouter les épices, le sel et le poivre.\n" +
+            "5. Laisser mijoter 10 minutes à feu doux.\n" +
+            "6. Déposer les filets de poisson sur les légumes.\n" +
+            "7. Couvrir et cuire 15 à 20 minutes.\n" +
+            "8. Parsemer de coriandre fraîche.\n" +
+            "9. Servir bien chaud."
     },
+
     en: {
         title: "Fish Tagine with Vegetables",
-        equipment: ["1 tagine or large heavy pan", "1 knife", "1 cutting board", "1 wooden spoon"],
+        equipment: [
+            "1 tagine or large heavy pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "500 g white fish fillets (whiting, cod)",
             "2 potatoes, sliced",
@@ -1931,21 +2925,30 @@ recipesData.plat.taginePoisson = {
             "1/2 teaspoon ginger",
             "2 tablespoons olive oil",
             "Salt and pepper",
-            "Some fresh coriander sprigs"
+            "Fresh coriander"
         ],
         preparation:
-            "1. Heat oil in tagine and sauté onion and garlic 2-3 minutes.\n" +
-            "2. Add tomatoes, bell pepper, potatoes, spices, salt, and pepper.\n" +
-            "3. Simmer 10 minutes over low heat.\n" +
-            "4. Place fish fillets on top of vegetables.\n" +
-            "5. Cover and cook 15-20 minutes until fish is tender.\n" +
-            "6. Sprinkle with fresh coriander and serve hot."
+            "1. Heat oil in the tagine.\n" +
+            "2. Sauté onion and garlic for 2–3 minutes.\n" +
+            "3. Add tomatoes, pepper and potatoes.\n" +
+            "4. Add spices, salt and pepper.\n" +
+            "5. Simmer for 10 minutes.\n" +
+            "6. Place fish on top of the vegetables.\n" +
+            "7. Cover and cook 15–20 minutes.\n" +
+            "8. Sprinkle with fresh coriander.\n" +
+            "9. Serve hot."
     },
+
     nl: {
-        title: "Vis Tagine met Groenten",
-        equipment: ["1 tajine of grote zware pan", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Vis-tajine met groenten",
+        equipment: [
+            "1 tajine of grote zware pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
-            "500 g witte visfilets (wijting, kabeljauw)",
+            "500 g witte visfilets",
             "2 aardappelen, in plakjes",
             "1 rode paprika, in reepjes",
             "1 ui, gesneden",
@@ -1956,266 +2959,409 @@ recipesData.plat.taginePoisson = {
             "1/2 theelepel gember",
             "2 eetlepels olijfolie",
             "Zout en peper",
-            "Enkele takjes verse koriander"
+            "Verse koriander"
         ],
         preparation:
-            "1. Verhit olie in de tajine en fruit ui en knoflook 2-3 minuten.\n" +
-            "2. Voeg tomaten, paprika, aardappelen, kruiden, zout en peper toe.\n" +
-            "3. Laat 10 minuten sudderen op laag vuur.\n" +
-            "4. Leg de visfilets bovenop de groenten.\n" +
-            "5. Dek af en kook 15-20 minuten tot de vis gaar is.\n" +
-            "6. Bestrooi met verse koriander en serveer heet."
+            "1. Verhit olie in de tajine.\n" +
+            "2. Fruit ui en knoflook 2–3 minuten.\n" +
+            "3. Voeg tomaten, paprika en aardappelen toe.\n" +
+            "4. Voeg kruiden, zout en peper toe.\n" +
+            "5. Laat 10 minuten sudderen.\n" +
+            "6. Leg de vis bovenop de groenten.\n" +
+            "7. Dek af en kook 15–20 minuten.\n" +
+            "8. Bestrooi met koriander.\n" +
+            "9. Serveer warm."
     },
+
     ar: {
         title: "طاجين السمك بالخضار",
-        equipment: ["طنجية أو مقلاة ثقيلة كبيرة", "سكين", "لوح تقطيع", "ملعقة خشبية"],
+        equipment: [
+            "طاجين أو مقلاة كبيرة ثقيلة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
-            "500 غ شرائح سمك أبيض (ميرلان، كود)",
-            "2 بطاطس، مقطعة شرائح",
-            "1 فلفل أحمر، مقطع شرائح",
-            "1 بصلة، مقطعة شرائح",
-            "2 طماطم، مقطعة مكعبات",
-            "2 فصوص ثوم، مفرومة",
-            "1 ملعقة صغيرة فلفل أحمر",
-            "1/2 ملعقة صغيرة كركم",
-            "1/2 ملعقة صغيرة زنجبيل",
+            "500 غ شرائح سمك أبيض",
+            "2 بطاطس مقطعة شرائح",
+            "1 فلفل أحمر شرائح",
+            "1 بصلة مقطعة",
+            "2 طماطم مكعبات",
+            "2 فص ثوم مفروم",
+            "ملعقة صغيرة بابريكا",
+            "نصف ملعقة كركم",
+            "نصف ملعقة زنجبيل",
             "2 ملاعق زيت زيتون",
             "ملح وفلفل",
-            "بضع سيقان كزبرة طازجة"
+            "كزبرة طازجة"
         ],
         preparation:
-            "1. سخّن الزيت في الطنجية وشوّح البصل والثوم 2-3 دقائق.\n" +
-            "2. أضف الطماطم، الفلفل، البطاطس، التوابل، الملح والفلفل.\n" +
-            "3. اتركه على نار هادئة 10 دقائق.\n" +
-            "4. ضع شرائح السمك فوق الخضار.\n" +
-            "5. غطِّ واطبخ 15-20 دقيقة حتى ينضج السمك.\n" +
-            "6. رش الكزبرة الطازجة وقدمه ساخناً."
+            "1. سخّن الزيت في الطاجين.\n" +
+            "2. شوّح البصل والثوم 2–3 دقائق.\n" +
+            "3. أضف الطماطم والفلفل والبطاطس.\n" +
+            "4. أضف التوابل والملح والفلفل.\n" +
+            "5. اتركه يطهى 10 دقائق.\n" +
+            "6. ضع السمك فوق الخضار.\n" +
+            "7. غطِّ واطهه 15–20 دقيقة.\n" +
+            "8. رشّ الكزبرة.\n" +
+            "9. قدّم ساخنًا."
     }
 };
-
 recipesData.plat.tajineLegumes = {
     country: "maroc",
     image: "images/tajine-legumes.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "45 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Tajine marocain aux légumes",
-        equipment: ["1 tajine"],
+        equipment: [
+            "1 tajine",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "Carottes",
-            "Pommes de terre",
-            "Courgettes",
-            "Pois chiches cuits",
-            "Oignon",
-            "Huile d’olive",
-            "Cumin",
-            "Curcuma",
-            "Sel"
+            "3 carottes moyennes",
+            "2 pommes de terre",
+            "2 courgettes",
+            "200 g de pois chiches cuits",
+            "1 oignon",
+            "3 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café cumin",
+            "1 cuillère à café curcuma",
+            "Sel",
+            "500 ml d’eau"
         ],
         preparation:
-            "1. Mettre l’oignon et l’huile dans le tajine.\n" +
-            "2. Ajouter les légumes.\n" +
-            "3. Ajouter les épices.\n" +
-            "4. Ajouter un verre d’eau.\n" +
-            "5. Cuire à feu doux 45 minutes.\n" +
-            "6. Servir chaud."
+            "1. Éplucher et couper les carottes, pommes de terre et courgettes.\n" +
+            "2. Émincer l’oignon.\n" +
+            "3. Mettre l’oignon et l’huile dans le tajine.\n" +
+            "4. Faire revenir 5 minutes à feu moyen.\n" +
+            "5. Ajouter les légumes et les pois chiches.\n" +
+            "6. Ajouter le cumin, le curcuma et le sel.\n" +
+            "7. Verser 500 ml d’eau.\n" +
+            "8. Couvrir et cuire à feu doux 45 minutes.\n" +
+            "9. Servir bien chaud."
     },
+
     en: {
-        title: "Vegetable Moroccan Tagine",
-        equipment: ["1 tagine"],
+        title: "Moroccan Vegetable Tagine",
+        equipment: [
+            "1 tagine",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
-            "Carrots",
-            "Potatoes",
-            "Zucchini",
-            "Cooked chickpeas",
-            "Onion",
-            "Olive oil",
-            "Cumin",
-            "Turmeric",
-            "Salt"
+            "3 carrots",
+            "2 potatoes",
+            "2 zucchinis",
+            "200 g cooked chickpeas",
+            "1 onion",
+            "3 tablespoons olive oil",
+            "1 teaspoon cumin",
+            "1 teaspoon turmeric",
+            "Salt",
+            "500 ml water"
         ],
         preparation:
-            "1. Add onion and oil to tagine.\n" +
-            "2. Add vegetables.\n" +
-            "3. Add spices.\n" +
-            "4. Add water.\n" +
-            "5. Simmer 45 minutes.\n" +
-            "6. Serve hot."
+            "1. Peel and cut the vegetables.\n" +
+            "2. Slice the onion.\n" +
+            "3. Add onion and oil to the tagine.\n" +
+            "4. Cook for 5 minutes.\n" +
+            "5. Add vegetables and chickpeas.\n" +
+            "6. Add cumin, turmeric and salt.\n" +
+            "7. Pour in 500 ml water.\n" +
+            "8. Cover and simmer 45 minutes.\n" +
+            "9. Serve hot."
     },
+
     nl: {
-        title: "Groentetajine",
-        equipment: ["1 tajine"],
+        title: "Marokkaanse groentetajine",
+        equipment: [
+            "1 tajine",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
-            "Wortelen",
-            "Aardappelen",
-            "Courgette",
-            "Kikkererwten",
-            "Ui",
-            "Olijfolie",
-            "Komijn",
-            "Kurkuma",
-            "Zout"
+            "3 wortelen",
+            "2 aardappelen",
+            "2 courgettes",
+            "200 g kikkererwten",
+            "1 ui",
+            "3 eetlepels olijfolie",
+            "1 theelepel komijn",
+            "1 theelepel kurkuma",
+            "Zout",
+            "500 ml water"
         ],
         preparation:
-            "1. Doe ui en olie in tajine.\n" +
-            "2. Voeg groenten toe.\n" +
-            "3. Voeg kruiden toe.\n" +
-            "4. Voeg water toe.\n" +
-            "5. Laat 45 minuten sudderen.\n" +
-            "6. Serveer warm."
+            "1. Schil en snijd de groenten.\n" +
+            "2. Snijd de ui.\n" +
+            "3. Doe ui en olie in de tajine.\n" +
+            "4. Bak 5 minuten.\n" +
+            "5. Voeg groenten en kikkererwten toe.\n" +
+            "6. Voeg kruiden en zout toe.\n" +
+            "7. Voeg 500 ml water toe.\n" +
+            "8. Laat 45 minuten sudderen.\n" +
+            "9. Serveer warm."
     },
+
     ar: {
         title: "طاجين الخضار المغربي",
-        equipment: ["طاجين"],
+        equipment: [
+            "طاجين",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
-            "جزر",
-            "بطاطس",
-            "كوسة",
-            "حمص مطبوخ",
-            "بصل",
-            "زيت زيتون",
-            "كمون",
-            "كركم",
-            "ملح"
+            "3 جزر",
+            "2 بطاطس",
+            "2 كوسة",
+            "200 غ حمص مطبوخ",
+            "بصلة",
+            "3 ملاعق زيت زيتون",
+            "ملعقة صغيرة كمون",
+            "ملعقة صغيرة كركم",
+            "ملح",
+            "500 مل ماء"
         ],
         preparation:
-            "1. ضع البصل والزيت في الطاجين.\n" +
-            "2. أضف الخضار.\n" +
-            "3. أضف التوابل.\n" +
-            "4. أضف الماء.\n" +
-            "5. اطهه 45 دقيقة.\n" +
-            "6. قدّم ساخنًا."
+            "1. قشّر وقطّع الخضار.\n" +
+            "2. قطّع البصل.\n" +
+            "3. ضع البصل والزيت في الطاجين.\n" +
+            "4. اطهه 5 دقائق.\n" +
+            "5. أضف الخضار والحمص.\n" +
+            "6. أضف التوابل والملح.\n" +
+            "7. أضف 500 مل ماء.\n" +
+            "8. غطِّ واطهه 45 دقيقة.\n" +
+            "9. قدّم ساخنًا."
     }
 };
 recipesData.plat.tajineSardines = {
     country: "maroc",
     image: "images/tajine-sardines.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "25 min",
+        cookTime: "25 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Tajine de sardines à la marocaine",
-        equipment: ["1 tajine"],
+        equipment: [
+            "1 tajine",
+            "1 couteau",
+            "1 planche à découper",
+            "1 saladier",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "500 g sardines hachées",
-            "2 tomates",
+            "500 g de sardines hachées",
+            "2 tomates mûres",
             "2 gousses d’ail",
-            "Coriandre",
-            "Paprika",
-            "Cumin",
-            "Huile d’olive",
+            "1 petit bouquet de coriandre",
+            "1 cuillère à café paprika",
+            "1 cuillère à café cumin",
+            "3 cuillères à soupe d’huile d’olive",
             "Sel"
         ],
         preparation:
-            "1. Mélanger sardines, ail et épices.\n" +
-            "2. Former des boulettes.\n" +
-            "3. Préparer sauce tomate.\n" +
-            "4. Ajouter les boulettes.\n" +
-            "5. Cuire 25 minutes.\n" +
-            "6. Servir chaud."
+            "1. Laver les sardines, retirer les arêtes et les hacher finement.\n" +
+            "2. Hacher l’ail et la coriandre.\n" +
+            "3. Mélanger sardines, ail, coriandre, paprika, cumin et sel dans un saladier.\n" +
+            "4. Former de petites boulettes avec le mélange.\n" +
+            "5. Couper les tomates en petits dés.\n" +
+            "6. Mettre l’huile d’olive et les tomates dans le tajine.\n" +
+            "7. Laisser cuire 10 minutes à feu moyen.\n" +
+            "8. Déposer les boulettes de sardines dans la sauce.\n" +
+            "9. Couvrir et cuire 25 minutes à feu doux.\n" +
+            "10. Servir bien chaud."
     },
+
     en: {
         title: "Moroccan Sardine Tagine",
-        equipment: ["1 tagine"],
+        equipment: [
+            "1 tagine",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "500 g chopped sardines",
-            "2 tomatoes",
+            "2 ripe tomatoes",
             "2 garlic cloves",
-            "Coriander",
-            "Paprika",
-            "Cumin",
-            "Olive oil",
+            "Fresh coriander",
+            "1 teaspoon paprika",
+            "1 teaspoon cumin",
+            "3 tablespoons olive oil",
             "Salt"
         ],
         preparation:
-            "1. Mix sardines with spices.\n" +
-            "2. Shape balls.\n" +
-            "3. Prepare tomato sauce.\n" +
-            "4. Add sardines.\n" +
-            "5. Cook 25 minutes.\n" +
-            "6. Serve hot."
+            "1. Clean and finely chop the sardines.\n" +
+            "2. Chop the garlic and coriander.\n" +
+            "3. Mix sardines, garlic, coriander, spices and salt.\n" +
+            "4. Shape small balls.\n" +
+            "5. Dice the tomatoes.\n" +
+            "6. Add olive oil and tomatoes to the tagine.\n" +
+            "7. Cook 10 minutes over medium heat.\n" +
+            "8. Add the sardine balls.\n" +
+            "9. Cover and cook 25 minutes.\n" +
+            "10. Serve hot."
     },
+
     nl: {
-        title: "Sardinetajine",
-        equipment: ["1 tajine"],
+        title: "Marokkaanse sardinetajine",
+        equipment: [
+            "1 tajine",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "1 houten lepel"
+        ],
         ingredients: [
             "500 g sardines",
-            "2 tomaten",
+            "2 rijpe tomaten",
             "2 teentjes knoflook",
-            "Koriander",
-            "Paprika",
-            "Komijn",
-            "Olijfolie",
+            "Verse koriander",
+            "1 theelepel paprika",
+            "1 theelepel komijn",
+            "3 eetlepels olijfolie",
             "Zout"
         ],
         preparation:
-            "1. Meng sardines en kruiden.\n" +
-            "2. Vorm balletjes.\n" +
-            "3. Maak tomatensaus.\n" +
-            "4. Voeg sardines toe.\n" +
-            "5. Laat 25 minuten koken.\n" +
-            "6. Serveer warm."
+            "1. Maak de sardines schoon en hak ze fijn.\n" +
+            "2. Hak knoflook en koriander.\n" +
+            "3. Meng sardines met kruiden en zout.\n" +
+            "4. Vorm kleine balletjes.\n" +
+            "5. Snijd de tomaten in blokjes.\n" +
+            "6. Doe olie en tomaten in de tajine.\n" +
+            "7. Laat 10 minuten koken.\n" +
+            "8. Voeg de sardineballetjes toe.\n" +
+            "9. Laat 25 minuten sudderen.\n" +
+            "10. Serveer warm."
     },
+
     ar: {
         title: "طاجين السردين المغربي",
-        equipment: ["طاجين"],
+        equipment: [
+            "طاجين",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "500 غ سردين مفروم",
-            "طماطم",
-            "ثوم",
-            "كزبرة",
-            "بابريكا",
-            "كمون",
-            "زيت زيتون",
+            "2 طماطم ناضجة",
+            "2 فص ثوم",
+            "كزبرة طازجة",
+            "ملعقة صغيرة بابريكا",
+            "ملعقة صغيرة كمون",
+            "3 ملاعق زيت زيتون",
             "ملح"
         ],
         preparation:
-            "1. اخلط السردين مع التوابل.\n" +
-            "2. شكّل كرات.\n" +
-            "3. حضّر صلصة الطماطم.\n" +
-            "4. أضف السردين.\n" +
-            "5. اطهه 25 دقيقة.\n" +
-            "6. قدّم ساخنًا."
+            "1. نظف السردين وافرمه جيدًا.\n" +
+            "2. افرم الثوم والكزبرة.\n" +
+            "3. اخلط السردين مع التوابل والملح.\n" +
+            "4. شكّل كرات صغيرة.\n" +
+            "5. قطّع الطماطم.\n" +
+            "6. ضع الزيت والطماطم في الطاجين.\n" +
+            "7. اطهه 10 دقائق.\n" +
+            "8. أضف كرات السردين.\n" +
+            "9. غطِّ واطهه 25 دقيقة.\n" +
+            "10. قدّم ساخنًا."
     }
 };
 recipesData.plat.couscousPoulet = {
     country: "maroc",
     image: "images/couscous-poulet.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "30 min",
+        cookTime: "1h15",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Couscous marocain au poulet et légumes",
-        equipment: ["1 couscoussier ou grande marmite", "1 saladier", "1 cuillère en bois"],
+        equipment: [
+            "1 couscoussier ou grande marmite",
+            "1 saladier",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
             "1 poulet découpé",
-            "500 g semoule moyenne",
+            "500 g de semoule moyenne",
             "3 carottes",
             "2 courgettes",
             "2 navets",
             "1 oignon",
-            "Pois chiches cuits",
-            "4 cuillères à soupe huile d’olive",
-            "1 cuillère à café gingembre",
-            "1 cuillère à café curcuma",
-            "1 cuillère à café poivre",
+            "200 g de pois chiches cuits",
+            "4 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de gingembre",
+            "1 cuillère à café de curcuma",
+            "1 cuillère à café de poivre",
             "Sel",
             "Eau chaude"
         ],
         preparation:
-            "1. Mettre l’huile dans la marmite et faire revenir l’oignon émincé.\n" +
-            "2. Ajouter le poulet, le sel et les épices. Bien mélanger.\n" +
-            "3. Couvrir d’eau chaude et laisser cuire 30 minutes à feu moyen.\n" +
-            "4. Ajouter les carottes et navets coupés.\n" +
-            "5. Après 20 minutes, ajouter les courgettes et pois chiches.\n" +
-            "6. Préparer la semoule : verser dans un saladier, arroser d’un peu d’eau salée, mélanger.\n" +
-            "7. Mettre la semoule dans le haut du couscoussier et cuire à la vapeur 20 minutes.\n" +
-            "8. Retirer, arroser légèrement d’eau, égrainer, puis cuire encore 15 minutes.\n" +
-            "9. Servir la semoule, disposer le poulet et les légumes, arroser de bouillon."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Éplucher et couper les carottes, navets et courgettes en morceaux.\n" +
+            "3. Mettre l’huile d’olive dans la marmite.\n" +
+            "4. Faire revenir l’oignon à feu moyen pendant 5 minutes.\n" +
+            "5. Ajouter le poulet, le sel, le gingembre, le curcuma et le poivre.\n" +
+            "6. Mélanger soigneusement.\n" +
+            "7. Couvrir d’eau chaude et laisser cuire 30 minutes.\n" +
+            "8. Ajouter les carottes et les navets.\n" +
+            "9. Laisser cuire 20 minutes.\n" +
+            "10. Ajouter les courgettes et les pois chiches.\n" +
+            "11. Poursuivre la cuisson 15 minutes.\n" +
+            "12. Mettre la semoule dans un saladier.\n" +
+            "13. Arroser avec un peu d’eau salée.\n" +
+            "14. Mélanger et égrainer la semoule.\n" +
+            "15. Mettre la semoule dans le haut du couscoussier.\n" +
+            "16. Cuire à la vapeur 20 minutes.\n" +
+            "17. Retirer, arroser légèrement d’eau.\n" +
+            "18. Égrainer à nouveau.\n" +
+            "19. Remettre à la vapeur 15 minutes.\n" +
+            "20. Servir la semoule.\n" +
+            "21. Disposer le poulet et les légumes.\n" +
+            "22. Arroser avec le bouillon."
     },
+
     en: {
         title: "Moroccan Couscous with Chicken and Vegetables",
-        equipment: ["1 couscoussier or large pot", "1 bowl", "1 wooden spoon"],
+        equipment: [
+            "1 couscoussier or large pot",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
-            "1 chicken, cut",
+            "1 whole chicken, cut",
             "500 g medium couscous",
             "3 carrots",
             "2 zucchinis",
             "2 turnips",
             "1 onion",
-            "Cooked chickpeas",
+            "200 g cooked chickpeas",
             "4 tablespoons olive oil",
             "1 teaspoon ginger",
             "1 teaspoon turmeric",
@@ -2224,27 +3370,46 @@ recipesData.plat.couscousPoulet = {
             "Hot water"
         ],
         preparation:
-            "1. Heat oil in the pot and sauté sliced onion.\n" +
-            "2. Add chicken, salt, and spices. Mix well.\n" +
-            "3. Cover with hot water and cook 30 minutes over medium heat.\n" +
-            "4. Add chopped carrots and turnips.\n" +
-            "5. After 20 minutes, add zucchinis and chickpeas.\n" +
-            "6. Prepare couscous: put in a bowl, sprinkle with salted water, mix.\n" +
-            "7. Place couscous in the top of the couscoussier and steam 20 minutes.\n" +
-            "8. Remove, sprinkle lightly with water, fluff, and steam another 15 minutes.\n" +
-            "9. Serve couscous, arrange chicken and vegetables, pour broth on top."
+            "1. Peel and slice the onion.\n" +
+            "2. Peel and cut the vegetables.\n" +
+            "3. Heat olive oil in the pot.\n" +
+            "4. Sauté the onion for 5 minutes.\n" +
+            "5. Add chicken, salt and spices.\n" +
+            "6. Mix well.\n" +
+            "7. Cover with hot water and cook 30 minutes.\n" +
+            "8. Add carrots and turnips.\n" +
+            "9. Cook 20 minutes.\n" +
+            "10. Add zucchinis and chickpeas.\n" +
+            "11. Cook 15 more minutes.\n" +
+            "12. Put couscous in a bowl.\n" +
+            "13. Sprinkle with salted water.\n" +
+            "14. Mix and fluff.\n" +
+            "15. Steam couscous 20 minutes.\n" +
+            "16. Remove and sprinkle water.\n" +
+            "17. Fluff again.\n" +
+            "18. Steam 15 more minutes.\n" +
+            "19. Serve couscous.\n" +
+            "20. Add chicken and vegetables.\n" +
+            "21. Pour broth on top."
     },
+
     nl: {
         title: "Marokkaanse couscous met kip en groenten",
-        equipment: ["1 couscouspan of grote pot", "1 kom", "1 houten lepel"],
+        equipment: [
+            "1 couscouspan of grote pot",
+            "1 kom",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
-            "1 kip, in stukken",
-            "500 g middelgrote couscous",
+            "1 kip in stukken",
+            "500 g couscous",
             "3 wortelen",
             "2 courgettes",
-            "2 pastinaken",
+            "2 rapen",
             "1 ui",
-            "Gekookte kikkererwten",
+            "200 g kikkererwten",
             "4 eetlepels olijfolie",
             "1 theelepel gember",
             "1 theelepel kurkuma",
@@ -2253,90 +3418,151 @@ recipesData.plat.couscousPoulet = {
             "Heet water"
         ],
         preparation:
-            "1. Verhit olie in de pot en fruit de ui.\n" +
-            "2. Voeg kip, zout en kruiden toe. Goed mengen.\n" +
-            "3. Voeg heet water toe en kook 30 minuten op middelhoog vuur.\n" +
-            "4. Voeg gesneden wortelen en pastinaken toe.\n" +
-            "5. Na 20 minuten, voeg courgettes en kikkererwten toe.\n" +
-            "6. Bereid de couscous: doe in een kom, besprenkel met gezouten water, meng.\n" +
-            "7. Doe de couscous in de bovenkant van de couscouspan en stoom 20 minuten.\n" +
-            "8. Haal eruit, besprenkel licht met water, maak los en stoom nog 15 minuten.\n" +
-            "9. Serveer couscous, leg kip en groenten erop, giet bouillon over."
+            "1. Snijd de ui.\n" +
+            "2. Snijd de groenten.\n" +
+            "3. Verhit olie in de pot.\n" +
+            "4. Fruit de ui 5 minuten.\n" +
+            "5. Voeg kip en kruiden toe.\n" +
+            "6. Meng goed.\n" +
+            "7. Voeg heet water toe.\n" +
+            "8. Kook 30 minuten.\n" +
+            "9. Voeg wortelen en rapen toe.\n" +
+            "10. Kook 20 minuten.\n" +
+            "11. Voeg courgettes en kikkererwten toe.\n" +
+            "12. Doe couscous in een kom.\n" +
+            "13. Besprenkel met water.\n" +
+            "14. Meng los.\n" +
+            "15. Stoom 20 minuten.\n" +
+            "16. Maak los en bevochtig.\n" +
+            "17. Stoom nog 15 minuten.\n" +
+            "18. Serveer met kip en groenten."
     },
+
     ar: {
         title: "كسكس مغربي بالدجاج والخضار",
-        equipment: ["طنجرة الكسكس أو قدر كبير", "وعاء", "ملعقة خشبية"],
+        equipment: [
+            "طنجرة الكسكس أو قدر كبير",
+            "وعاء",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
             "دجاجة مقطعة",
-            "500 غ سميد متوسط",
+            "500 غ سميد",
             "3 جزر",
             "2 كوسة",
             "2 لفت",
             "بصلة",
-            "حمص مطبوخ",
+            "200 غ حمص",
             "4 ملاعق زيت زيتون",
-            "1 ملعقة صغيرة زنجبيل",
-            "1 ملعقة صغيرة كركم",
-            "1 ملعقة صغيرة فلفل",
+            "ملعقة زنجبيل",
+            "ملعقة كركم",
+            "ملعقة فلفل",
             "ملح",
             "ماء ساخن"
         ],
         preparation:
-            "1. ضع الزيت في القدر وشوّح البصل المقطع.\n" +
-            "2. أضف الدجاج والملح والتوابل، وامزج جيداً.\n" +
-            "3. غطِّ بالماء الساخن واتركه يطبخ 30 دقيقة على نار متوسطة.\n" +
-            "4. أضف الجزر واللفت المقطع.\n" +
-            "5. بعد 20 دقيقة، أضف الكوسة والحمص.\n" +
-            "6. حضّر السميد: ضع في وعاء، رش القليل من الماء المملح وامزج.\n" +
-            "7. ضع السميد في الجزء العلوي من طنجرة الكسكس واطهه على البخار 20 دقيقة.\n" +
-            "8. أخرجه، رش عليه قليل من الماء، فكه، واطهه مرة أخرى 15 دقيقة.\n" +
-            "9. قدم الكسكس وضع الدجاج والخضار، واسكب المرق فوقه."
+            "1. قطّع البصل.\n" +
+            "2. قطّع الخضار.\n" +
+            "3. سخّن الزيت.\n" +
+            "4. شوّح البصل 5 دقائق.\n" +
+            "5. أضف الدجاج والتوابل.\n" +
+            "6. حرّك جيداً.\n" +
+            "7. أضف الماء الساخن.\n" +
+            "8. اطهه 30 دقيقة.\n" +
+            "9. أضف الجزر واللفت.\n" +
+            "10. اطهه 20 دقيقة.\n" +
+            "11. أضف الكوسة والحمص.\n" +
+            "12. ضع السميد في وعاء.\n" +
+            "13. رش ماء مملح.\n" +
+            "14. حرّكه.\n" +
+            "15. اطهه بالبخار 20 دقيقة.\n" +
+            "16. فكّه ورطّبه.\n" +
+            "17. اطهه 15 دقيقة إضافية.\n" +
+            "18. قدّم الكسكس مع الدجاج والخضار."
     }
 };
 recipesData.plat.couscousBoeuf = {
     country: "maroc",
     image: "images/couscous-boeuf.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "30 min",
+        cookTime: "1h30",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Couscous marocain au bœuf et légumes",
-        equipment: ["1 couscoussier", "1 saladier", "1 cuillère en bois"],
+        equipment: [
+            "1 couscoussier ou grande marmite",
+            "1 saladier",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
             "800 g de bœuf en morceaux",
             "500 g de semoule moyenne",
             "3 carottes",
             "2 courgettes",
-            "1 chou blanc",
+            "1/2 chou blanc",
             "2 navets",
-            "Pois chiches cuits",
+            "200 g de pois chiches cuits",
             "1 oignon",
-            "4 cuillères à soupe huile d’olive",
-            "1 cuillère à café gingembre",
-            "1 cuillère à café curcuma",
-            "1 cuillère à café poivre",
+            "4 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de gingembre",
+            "1 cuillère à café de curcuma",
+            "1 cuillère à café de poivre",
             "Sel",
             "Eau chaude"
         ],
         preparation:
-            "1. Faire chauffer l’huile dans la marmite et faire revenir l’oignon émincé.\n" +
-            "2. Ajouter les morceaux de bœuf et les épices. Bien mélanger.\n" +
-            "3. Couvrir d’eau chaude et laisser cuire 45 minutes à feu moyen.\n" +
-            "4. Ajouter les carottes et navets coupés.\n" +
-            "5. Après 20 minutes, ajouter le chou et les courgettes.\n" +
-            "6. Ajouter les pois chiches 10 minutes avant la fin de la cuisson.\n" +
-            "7. Préparer la semoule : mettre dans un saladier, arroser d’eau salée, mélanger.\n" +
-            "8. Cuire la semoule à la vapeur 20 minutes, égrainer, arroser légèrement d’eau et cuire encore 15 minutes.\n" +
-            "9. Servir la semoule chaude, disposer le bœuf et les légumes, arroser de bouillon."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Éplucher et couper les carottes, navets et courgettes.\n" +
+            "3. Couper le chou en gros morceaux.\n" +
+            "4. Mettre l’huile dans la marmite.\n" +
+            "5. Faire revenir l’oignon 5 minutes.\n" +
+            "6. Ajouter la viande et les épices.\n" +
+            "7. Mélanger soigneusement.\n" +
+            "8. Couvrir d’eau chaude.\n" +
+            "9. Laisser cuire 45 minutes.\n" +
+            "10. Ajouter les carottes et les navets.\n" +
+            "11. Cuire 20 minutes.\n" +
+            "12. Ajouter le chou et les courgettes.\n" +
+            "13. Ajouter les pois chiches.\n" +
+            "14. Poursuivre la cuisson 10 minutes.\n" +
+            "15. Mettre la semoule dans un saladier.\n" +
+            "16. Arroser d’eau salée.\n" +
+            "17. Mélanger et égrainer.\n" +
+            "18. Mettre la semoule à la vapeur 20 minutes.\n" +
+            "19. Retirer, arroser légèrement d’eau.\n" +
+            "20. Égrainer à nouveau.\n" +
+            "21. Remettre à la vapeur 15 minutes.\n" +
+            "22. Servir la semoule.\n" +
+            "23. Ajouter la viande et les légumes.\n" +
+            "24. Arroser avec le bouillon."
     },
+
     en: {
         title: "Moroccan Couscous with Beef and Vegetables",
-        equipment: ["1 couscoussier", "1 bowl", "1 wooden spoon"],
+        equipment: [
+            "1 couscoussier or large pot",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "800 g beef chunks",
-            "500 g medium couscous",
+            "500 g couscous",
             "3 carrots",
             "2 zucchinis",
-            "1 white cabbage",
+            "1/2 white cabbage",
             "2 turnips",
-            "Cooked chickpeas",
+            "200 g chickpeas",
             "1 onion",
             "4 tablespoons olive oil",
             "1 teaspoon ginger",
@@ -2346,203 +3572,315 @@ recipesData.plat.couscousBoeuf = {
             "Hot water"
         ],
         preparation:
-            "1. Heat oil in the pot and sauté sliced onion.\n" +
-            "2. Add beef and spices. Mix well.\n" +
-            "3. Cover with hot water and cook 45 minutes over medium heat.\n" +
-            "4. Add chopped carrots and turnips.\n" +
-            "5. After 20 minutes, add cabbage and zucchinis.\n" +
-            "6. Add chickpeas 10 minutes before end of cooking.\n" +
-            "7. Prepare couscous: place in a bowl, sprinkle with salted water, mix.\n" +
-            "8. Steam couscous 20 minutes, fluff, sprinkle lightly with water, steam another 15 minutes.\n" +
-            "9. Serve couscous, arrange beef and vegetables, pour broth over."
+            "1. Slice the onion.\n" +
+            "2. Cut the vegetables.\n" +
+            "3. Heat oil in the pot.\n" +
+            "4. Sauté the onion 5 minutes.\n" +
+            "5. Add beef and spices.\n" +
+            "6. Mix well.\n" +
+            "7. Cover with hot water.\n" +
+            "8. Cook 45 minutes.\n" +
+            "9. Add carrots and turnips.\n" +
+            "10. Cook 20 minutes.\n" +
+            "11. Add cabbage and zucchinis.\n" +
+            "12. Add chickpeas.\n" +
+            "13. Cook 10 more minutes.\n" +
+            "14. Prepare couscous.\n" +
+            "15. Steam 20 minutes.\n" +
+            "16. Fluff and moisten.\n" +
+            "17. Steam 15 minutes.\n" +
+            "18. Serve with meat and vegetables."
     },
+
     nl: {
         title: "Marokkaanse couscous met rundvlees en groenten",
-        equipment: ["1 couscouspan", "1 kom", "1 houten lepel"],
+        equipment: [
+            "1 couscouspan",
+            "1 kom",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
-            "800 g rundvlees in stukken",
-            "500 g middelgrote couscous",
+            "800 g rundvlees",
+            "500 g couscous",
             "3 wortelen",
             "2 courgettes",
-            "1 witte kool",
-            "2 pastinaken",
-            "Gekookte kikkererwten",
+            "1/2 kool",
+            "2 rapen",
+            "200 g kikkererwten",
             "1 ui",
             "4 eetlepels olijfolie",
-            "1 theelepel gember",
-            "1 theelepel kurkuma",
-            "1 theelepel peper",
-            "Zout",
-            "Heet water"
+            "Gember",
+            "Kurkuma",
+            "Peper",
+            "Zout"
         ],
         preparation:
-            "1. Verhit olie in de pot en fruit de ui.\n" +
-            "2. Voeg rundvlees en kruiden toe, meng goed.\n" +
-            "3. Voeg heet water toe en kook 45 minuten op middelhoog vuur.\n" +
-            "4. Voeg gesneden wortelen en pastinaken toe.\n" +
-            "5. Na 20 minuten, voeg kool en courgettes toe.\n" +
-            "6. Voeg kikkererwten 10 minuten voor het einde toe.\n" +
-            "7. Bereid couscous: doe in een kom, besprenkel met gezouten water, meng.\n" +
-            "8. Stoom couscous 20 minuten, maak los, besprenkel licht met water, stoom nog 15 minuten.\n" +
-            "9. Serveer couscous, leg rundvlees en groenten erop, giet bouillon over."
+            "1. Snijd de ui.\n" +
+            "2. Snijd de groenten.\n" +
+            "3. Verhit olie.\n" +
+            "4. Fruit ui 5 minuten.\n" +
+            "5. Voeg vlees en kruiden toe.\n" +
+            "6. Voeg water toe.\n" +
+            "7. Kook 45 minuten.\n" +
+            "8. Voeg wortelen en rapen toe.\n" +
+            "9. Kook 20 minuten.\n" +
+            "10. Voeg kool en courgettes toe.\n" +
+            "11. Voeg kikkererwten toe.\n" +
+            "12. Bereid couscous.\n" +
+            "13. Stoom 20 minuten.\n" +
+            "14. Maak los en bevochtig.\n" +
+            "15. Stoom 15 minuten.\n" +
+            "16. Serveer met vlees en groenten."
     },
+
     ar: {
         title: "كسكس مغربي باللحم البقري والخضار",
-        equipment: ["طنجرة الكسكس", "وعاء", "ملعقة خشبية"],
+        equipment: [
+            "طنجرة الكسكس",
+            "وعاء",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
-            "800 غ لحم بقر مقطع",
-            "500 غ سميد متوسط",
+            "800 غ لحم بقر",
+            "500 غ سميد",
             "3 جزر",
             "2 كوسة",
-            "1 ملفوف أبيض",
+            "نصف ملفوف",
             "2 لفت",
-            "حمص مطبوخ",
-            "1 بصلة",
+            "200 غ حمص",
+            "بصلة",
             "4 ملاعق زيت زيتون",
-            "1 ملعقة صغيرة زنجبيل",
-            "1 ملعقة صغيرة كركم",
-            "1 ملعقة صغيرة فلفل",
-            "ملح",
-            "ماء ساخن"
+            "زنجبيل",
+            "كركم",
+            "فلفل",
+            "ملح"
         ],
         preparation:
-            "1. سخّن الزيت في القدر وشوّح البصل المقطع.\n" +
-            "2. أضف قطع اللحم والتوابل وامزج جيداً.\n" +
-            "3. غط بالماء الساخن واطبخ 45 دقيقة على نار متوسطة.\n" +
-            "4. أضف الجزر واللفت المقطع.\n" +
-            "5. بعد 20 دقيقة، أضف الملفوف والكوسة.\n" +
-            "6. أضف الحمص قبل 10 دقائق من نهاية الطهي.\n" +
-            "7. حضّر السميد: ضع في وعاء، رش الماء المملح وامزج.\n" +
-            "8. اطهِ السميد على البخار 20 دقيقة، فكه، رش قليل من الماء، واطهِ مرة أخرى 15 دقيقة.\n" +
-            "9. قدّم الكسكس، ضع اللحم والخضار، واسكب المرق فوقه."
+            "1. قطّع البصل.\n" +
+            "2. قطّع الخضار.\n" +
+            "3. سخّن الزيت.\n" +
+            "4. شوّح البصل 5 دقائق.\n" +
+            "5. أضف اللحم والتوابل.\n" +
+            "6. أضف الماء.\n" +
+            "7. اطهه 45 دقيقة.\n" +
+            "8. أضف الجزر واللفت.\n" +
+            "9. اطهه 20 دقيقة.\n" +
+            "10. أضف الملفوف والكوسة.\n" +
+            "11. أضف الحمص.\n" +
+            "12. حضّر السميد.\n" +
+            "13. اطهه على البخار.\n" +
+            "14. فكّه ورطّبه.\n" +
+            "15. اطهه مرة أخرى.\n" +
+            "16. قدّم مع اللحم والخضار."
     }
 };
 recipesData.plat.couscousLegumes = {
     country: "maroc",
     image: "images/couscous-legumes.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "25 min",
+        cookTime: "1h",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Couscous marocain aux sept légumes",
-        equipment: ["1 couscoussier", "1 saladier", "1 cuillère en bois"],
+        equipment: [
+            "1 couscoussier ou grande marmite",
+            "1 saladier",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
-            "500 g semoule moyenne",
+            "500 g de semoule moyenne",
             "2 carottes",
             "2 courgettes",
             "1 navet",
-            "200 g potiron",
+            "200 g de potiron",
             "1/2 chou",
-            "Pois chiches cuits",
+            "200 g de pois chiches cuits",
             "1 oignon",
-            "4 cuillères à soupe huile d’olive",
-            "1 cuillère à café curcuma",
-            "1 cuillère à café gingembre",
-            "1 cuillère à café poivre",
+            "4 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de curcuma",
+            "1 cuillère à café de gingembre",
+            "1 cuillère à café de poivre",
             "Sel",
             "Eau chaude"
         ],
         preparation:
-            "1. Faire chauffer l’huile dans la marmite et faire revenir l’oignon émincé.\n" +
-            "2. Ajouter les épices et un peu d’eau chaude.\n" +
-            "3. Ajouter les légumes durs d’abord (carottes, navets, potiron), cuire 20 minutes.\n" +
-            "4. Ajouter les légumes tendres (courgettes, chou) et les pois chiches.\n" +
-            "5. Cuire encore 20 minutes à feu moyen.\n" +
-            "6. Préparer la semoule : mettre dans un saladier, arroser d’eau salée, mélanger.\n" +
-            "7. Cuire la semoule à la vapeur 20 minutes, égrainer, arroser légèrement d’eau et cuire encore 15 minutes.\n" +
-            "8. Servir la semoule chaude avec les légumes et le bouillon."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Couper tous les légumes.\n" +
+            "3. Mettre l’huile dans la marmite.\n" +
+            "4. Faire revenir l’oignon 5 minutes.\n" +
+            "5. Ajouter les épices.\n" +
+            "6. Ajouter un peu d’eau chaude.\n" +
+            "7. Ajouter carottes, navet et potiron.\n" +
+            "8. Cuire 20 minutes.\n" +
+            "9. Ajouter courgettes, chou et pois chiches.\n" +
+            "10. Cuire encore 20 minutes.\n" +
+            "11. Mettre la semoule dans un saladier.\n" +
+            "12. Arroser d’eau salée.\n" +
+            "13. Mélanger et égrainer.\n" +
+            "14. Cuire à la vapeur 20 minutes.\n" +
+            "15. Retirer, arroser légèrement.\n" +
+            "16. Égrainer à nouveau.\n" +
+            "17. Cuire encore 15 minutes.\n" +
+            "18. Servir avec les légumes et le bouillon."
     },
+
     en: {
         title: "Moroccan Couscous with Seven Vegetables",
-        equipment: ["1 couscoussier", "1 bowl", "1 wooden spoon"],
+        equipment: [
+            "1 couscoussier",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
-            "500 g medium couscous",
+            "500 g couscous",
             "2 carrots",
             "2 zucchinis",
             "1 turnip",
             "200 g pumpkin",
             "1/2 cabbage",
-            "Cooked chickpeas",
+            "200 g chickpeas",
             "1 onion",
             "4 tablespoons olive oil",
-            "1 teaspoon turmeric",
-            "1 teaspoon ginger",
-            "1 teaspoon pepper",
-            "Salt",
-            "Hot water"
+            "Turmeric",
+            "Ginger",
+            "Pepper",
+            "Salt"
         ],
         preparation:
-            "1. Heat oil in the pot and sauté onion.\n" +
-            "2. Add spices and some hot water.\n" +
-            "3. Add hard vegetables first (carrots, turnip, pumpkin), cook 20 minutes.\n" +
-            "4. Add soft vegetables (zucchinis, cabbage) and chickpeas.\n" +
-            "5. Cook another 20 minutes over medium heat.\n" +
-            "6. Prepare couscous: place in a bowl, sprinkle with salted water, mix.\n" +
-            "7. Steam couscous 20 minutes, fluff, sprinkle lightly with water, steam another 15 minutes.\n" +
-            "8. Serve couscous with vegetables and broth."
+            "1. Slice the onion.\n" +
+            "2. Cut all vegetables.\n" +
+            "3. Heat oil.\n" +
+            "4. Sauté onion 5 minutes.\n" +
+            "5. Add spices.\n" +
+            "6. Add water.\n" +
+            "7. Add hard vegetables.\n" +
+            "8. Cook 20 minutes.\n" +
+            "9. Add soft vegetables and chickpeas.\n" +
+            "10. Cook 20 minutes.\n" +
+            "11. Prepare couscous.\n" +
+            "12. Steam 20 minutes.\n" +
+            "13. Fluff and moisten.\n" +
+            "14. Steam 15 minutes.\n" +
+            "15. Serve with vegetables."
     },
+
     nl: {
         title: "Marokkaanse couscous met zeven groenten",
-        equipment: ["1 couscouspan", "1 kom", "1 houten lepel"],
+        equipment: [
+            "1 couscouspan",
+            "1 kom",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
-            "500 g middelgrote couscous",
+            "500 g couscous",
             "2 wortelen",
             "2 courgettes",
-            "1 pastinaak",
+            "1 raap",
             "200 g pompoen",
             "1/2 kool",
-            "Gekookte kikkererwten",
+            "200 g kikkererwten",
             "1 ui",
-            "4 eetlepels olijfolie",
-            "1 theelepel kurkuma",
-            "1 theelepel gember",
-            "1 theelepel peper",
-            "Zout",
-            "Heet water"
+            "Olijfolie",
+            "Kurkuma",
+            "Gember",
+            "Peper",
+            "Zout"
         ],
         preparation:
-            "1. Verhit olie in de pot en fruit de ui.\n" +
-            "2. Voeg kruiden en wat heet water toe.\n" +
-            "3. Voeg harde groenten eerst toe (wortelen, pastinaak, pompoen), kook 20 minuten.\n" +
-            "4. Voeg zachte groenten (courgettes, kool) en kikkererwten toe.\n" +
-            "5. Kook nog 20 minuten op middelhoog vuur.\n" +
-            "6. Bereid couscous: doe in een kom, besprenkel met gezouten water, meng.\n" +
-            "7. Stoom couscous 20 minuten, maak los, besprenkel licht met water, stoom nog 15 minuten.\n" +
-            "8. Serveer couscous met groenten en bouillon."
+            "1. Snijd de ui.\n" +
+            "2. Snijd alle groenten.\n" +
+            "3. Verhit olie.\n" +
+            "4. Fruit ui.\n" +
+            "5. Voeg kruiden toe.\n" +
+            "6. Voeg water toe.\n" +
+            "7. Voeg harde groenten toe.\n" +
+            "8. Kook 20 minuten.\n" +
+            "9. Voeg zachte groenten toe.\n" +
+            "10. Kook 20 minuten.\n" +
+            "11. Bereid couscous.\n" +
+            "12. Stoom 20 minuten.\n" +
+            "13. Maak los.\n" +
+            "14. Stoom opnieuw.\n" +
+            "15. Serveer."
     },
+
     ar: {
         title: "كسكس مغربي بسبعة خضار",
-        equipment: ["طنجرة الكسكس", "وعاء", "ملعقة خشبية"],
+        equipment: [
+            "طنجرة الكسكس",
+            "وعاء",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
-            "500 غ سميد متوسط",
+            "500 غ سميد",
             "2 جزر",
             "2 كوسة",
-            "1 لفت",
-            "200 غ يقطين",
-            "نصف ملفوف",
-            "حمص مطبوخ",
-            "1 بصلة",
-            "4 ملاعق زيت زيتون",
-            "1 ملعقة صغيرة كركم",
-            "1 ملعقة صغيرة زنجبيل",
-            "1 ملعقة صغيرة فلفل",
-            "ملح",
-            "ماء ساخن"
+            "لفت",
+            "يقطين",
+            "ملفوف",
+            "حمص",
+            "بصلة",
+            "زيت زيتون",
+            "كركم",
+            "زنجبيل",
+            "فلفل",
+            "ملح"
         ],
         preparation:
-            "1. سخّن الزيت في القدر وشوّح البصل.\n" +
-            "2. أضف التوابل والقليل من الماء الساخن.\n" +
-            "3. أضف الخضار الصلبة أولاً (جزر، لفت، يقطين) واطبخ 20 دقيقة.\n" +
-            "4. أضف الخضار الطرية (كوسة، ملفوف) والحمص.\n" +
-            "5. اطبخ 20 دقيقة إضافية على نار متوسطة.\n" +
-            "6. حضّر السميد: ضع في وعاء، رش الماء المملح وامزج.\n" +
-            "7. اطهِ السميد على البخار 20 دقيقة، فكه، رش قليل من الماء، واطهه مرة أخرى 15 دقيقة.\n" +
-            "8. قدم الكسكس مع الخضار والمرق."
+            "1. قطّع البصل.\n" +
+            "2. قطّع الخضار.\n" +
+            "3. سخّن الزيت.\n" +
+            "4. شوّح البصل.\n" +
+            "5. أضف التوابل.\n" +
+            "6. أضف الماء.\n" +
+            "7. أضف الخضار الصلبة.\n" +
+            "8. اطهه 20 دقيقة.\n" +
+            "9. أضف الخضار الطرية.\n" +
+            "10. اطهه 20 دقيقة.\n" +
+            "11. حضّر السميد.\n" +
+            "12. اطهه على البخار.\n" +
+            "13. فكّه.\n" +
+            "14. اطهه مرة أخرى.\n" +
+            "15. قدّم الكسكس."
     }
 };
 recipesData.plat.couscousRoyal = {
     country: "maroc",
     image: "images/couscous-royal.jpg",
+
+    meta: {
+        servings: "4 à 6 personnes",
+        prepTime: "35 min",
+        cookTime: "1h30",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Couscous royal marocain",
-        equipment: ["1 couscoussier", "1 saladier", "1 cuillère en bois"],
+        equipment: [
+            "1 couscoussier ou grande marmite",
+            "1 saladier",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
             "400 g de poulet en morceaux",
             "400 g de bœuf en morceaux",
@@ -2550,41 +3888,66 @@ recipesData.plat.couscousRoyal = {
             "500 g de semoule moyenne",
             "2 carottes",
             "2 courgettes",
-            "1/2 chou",
+            "1/2 chou blanc",
             "2 navets",
-            "Pois chiches cuits",
+            "200 g de pois chiches cuits",
             "1 oignon",
-            "4 cuillères à soupe huile d’olive",
-            "1 cuillère à café gingembre",
-            "1 cuillère à café curcuma",
-            "1 cuillère à café poivre",
+            "4 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de gingembre",
+            "1 cuillère à café de curcuma",
+            "1 cuillère à café de poivre",
             "Sel",
             "Eau chaude"
         ],
         preparation:
-            "1. Faire chauffer l’huile dans la marmite et faire revenir l’oignon émincé.\n" +
-            "2. Ajouter le poulet et le bœuf, saler et ajouter les épices, mélanger.\n" +
-            "3. Couvrir d’eau chaude et cuire 30 minutes.\n" +
-            "4. Ajouter les carottes et navets, cuire 15 minutes.\n" +
-            "5. Ajouter le chou et les courgettes, cuire 15 minutes.\n" +
-            "6. Ajouter les pois chiches et disposer les merguez sur le dessus, cuire 10 minutes.\n" +
-            "7. Préparer la semoule : mettre dans un saladier, arroser d’eau salée, mélanger.\n" +
-            "8. Cuire la semoule à la vapeur 20 minutes, égrainer, arroser légèrement d’eau, cuire encore 15 minutes.\n" +
-            "9. Servir la semoule chaude, disposer viandes et légumes, arroser généreusement de bouillon."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Éplucher et couper les carottes et navets.\n" +
+            "3. Couper les courgettes et le chou.\n" +
+            "4. Mettre l’huile dans la marmite.\n" +
+            "5. Faire revenir l’oignon 5 minutes.\n" +
+            "6. Ajouter le poulet et le bœuf.\n" +
+            "7. Ajouter le sel et les épices.\n" +
+            "8. Mélanger soigneusement.\n" +
+            "9. Couvrir d’eau chaude.\n" +
+            "10. Laisser cuire 30 minutes.\n" +
+            "11. Ajouter les carottes et les navets.\n" +
+            "12. Cuire 15 minutes.\n" +
+            "13. Ajouter le chou et les courgettes.\n" +
+            "14. Cuire encore 15 minutes.\n" +
+            "15. Ajouter les pois chiches.\n" +
+            "16. Déposer les merguez sur le dessus.\n" +
+            "17. Cuire 10 minutes.\n" +
+            "18. Mettre la semoule dans un saladier.\n" +
+            "19. Arroser d’eau salée.\n" +
+            "20. Mélanger et égrainer.\n" +
+            "21. Cuire à la vapeur 20 minutes.\n" +
+            "22. Retirer et arroser légèrement d’eau.\n" +
+            "23. Égrainer à nouveau.\n" +
+            "24. Remettre à la vapeur 15 minutes.\n" +
+            "25. Servir la semoule.\n" +
+            "26. Ajouter viandes et légumes.\n" +
+            "27. Arroser généreusement de bouillon."
     },
+
     en: {
         title: "Moroccan Royal Couscous",
-        equipment: ["1 couscoussier", "1 bowl", "1 wooden spoon"],
+        equipment: [
+            "1 couscoussier or large pot",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "400 g chicken pieces",
             "400 g beef chunks",
             "6 merguez sausages",
-            "500 g medium couscous",
+            "500 g couscous",
             "2 carrots",
             "2 zucchinis",
             "1/2 cabbage",
             "2 turnips",
-            "Cooked chickpeas",
+            "200 g chickpeas",
             "1 onion",
             "4 tablespoons olive oil",
             "1 teaspoon ginger",
@@ -2594,95 +3957,155 @@ recipesData.plat.couscousRoyal = {
             "Hot water"
         ],
         preparation:
-            "1. Heat oil in the pot and sauté sliced onion.\n" +
-            "2. Add chicken and beef, salt and spices, mix well.\n" +
-            "3. Cover with hot water and cook 30 minutes.\n" +
-            "4. Add carrots and turnips, cook 15 minutes.\n" +
-            "5. Add cabbage and zucchinis, cook 15 minutes.\n" +
-            "6. Add chickpeas and place merguez on top, cook 10 minutes.\n" +
-            "7. Prepare couscous: put in a bowl, sprinkle with salted water, mix.\n" +
-            "8. Steam couscous 20 minutes, fluff, sprinkle lightly with water, steam another 15 minutes.\n" +
-            "9. Serve couscous hot, arrange meats and vegetables, pour generous broth on top."
+            "1. Slice the onion.\n" +
+            "2. Cut all vegetables.\n" +
+            "3. Heat oil in the pot.\n" +
+            "4. Sauté onion 5 minutes.\n" +
+            "5. Add chicken and beef.\n" +
+            "6. Add spices and salt.\n" +
+            "7. Mix well.\n" +
+            "8. Cover with hot water.\n" +
+            "9. Cook 30 minutes.\n" +
+            "10. Add carrots and turnips.\n" +
+            "11. Cook 15 minutes.\n" +
+            "12. Add cabbage and zucchinis.\n" +
+            "13. Cook 15 minutes.\n" +
+            "14. Add chickpeas.\n" +
+            "15. Place merguez on top.\n" +
+            "16. Cook 10 minutes.\n" +
+            "17. Prepare couscous.\n" +
+            "18. Steam 20 minutes.\n" +
+            "19. Fluff and moisten.\n" +
+            "20. Steam 15 minutes.\n" +
+            "21. Serve with meats and vegetables."
     },
+
     nl: {
         title: "Marokkaanse koninklijke couscous",
-        equipment: ["1 couscouspan", "1 kom", "1 houten lepel"],
+        equipment: [
+            "1 couscouspan",
+            "1 kom",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
             "400 g kipstukken",
-            "400 g rundvlees in stukken",
+            "400 g rundvlees",
             "6 merguez worstjes",
-            "500 g middelgrote couscous",
+            "500 g couscous",
             "2 wortelen",
             "2 courgettes",
             "1/2 kool",
-            "2 pastinaken",
-            "Gekookte kikkererwten",
+            "2 rapen",
+            "200 g kikkererwten",
             "1 ui",
             "4 eetlepels olijfolie",
-            "1 theelepel gember",
-            "1 theelepel kurkuma",
-            "1 theelepel peper",
-            "Zout",
-            "Heet water"
+            "Gember",
+            "Kurkuma",
+            "Peper",
+            "Zout"
         ],
         preparation:
-            "1. Verhit olie in de pan en fruit de ui.\n" +
-            "2. Voeg kip en rundvlees toe, zout en kruiden, meng goed.\n" +
-            "3. Voeg heet water toe en kook 30 minuten.\n" +
-            "4. Voeg wortelen en pastinaken toe, kook 15 minuten.\n" +
-            "5. Voeg kool en courgettes toe, kook 15 minuten.\n" +
-            "6. Voeg kikkererwten toe en leg de merguez erop, kook 10 minuten.\n" +
-            "7. Bereid couscous: doe in een kom, besprenkel met gezouten water, meng.\n" +
-            "8. Stoom couscous 20 minuten, maak los, besprenkel licht met water, stoom nog 15 minuten.\n" +
-            "9. Serveer couscous heet, leg vlees en groenten erop, giet royaal bouillon over."
+            "1. Snijd de ui.\n" +
+            "2. Snijd de groenten.\n" +
+            "3. Verhit olie.\n" +
+            "4. Fruit ui 5 minuten.\n" +
+            "5. Voeg kip en rundvlees toe.\n" +
+            "6. Voeg kruiden toe.\n" +
+            "7. Voeg water toe.\n" +
+            "8. Kook 30 minuten.\n" +
+            "9. Voeg wortelen en rapen toe.\n" +
+            "10. Kook 15 minuten.\n" +
+            "11. Voeg kool en courgettes toe.\n" +
+            "12. Kook 15 minuten.\n" +
+            "13. Voeg kikkererwten toe.\n" +
+            "14. Leg merguez erbovenop.\n" +
+            "15. Kook 10 minuten.\n" +
+            "16. Bereid couscous.\n" +
+            "17. Stoom 20 minuten.\n" +
+            "18. Maak los en bevochtig.\n" +
+            "19. Stoom 15 minuten.\n" +
+            "20. Serveer met vlees en groenten."
     },
+
     ar: {
         title: "كسكس ملكي مغربي",
-        equipment: ["طنجرة الكسكس", "وعاء", "ملعقة خشبية"],
+        equipment: [
+            "طنجرة الكسكس",
+            "وعاء",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
-            "400 غ قطع دجاج",
-            "400 غ لحم بقري مقطع",
+            "400 غ دجاج",
+            "400 غ لحم بقر",
             "6 سجق ميرغيز",
-            "500 غ سميد متوسط",
+            "500 غ سميد",
             "2 جزر",
             "2 كوسة",
             "نصف ملفوف",
             "2 لفت",
-            "حمص مطبوخ",
-            "1 بصلة",
+            "200 غ حمص",
+            "بصلة",
             "4 ملاعق زيت زيتون",
-            "1 ملعقة صغيرة زنجبيل",
-            "1 ملعقة صغيرة كركم",
-            "1 ملعقة صغيرة فلفل",
-            "ملح",
-            "ماء ساخن"
+            "زنجبيل",
+            "كركم",
+            "فلفل",
+            "ملح"
         ],
         preparation:
-            "1. سخّن الزيت في القدر وشوّح البصل المقطع.\n" +
-            "2. أضف الدجاج واللحم، الملح والتوابل، وامزج جيداً.\n" +
-            "3. غط بالماء الساخن واطبخ 30 دقيقة.\n" +
-            "4. أضف الجزر واللفت واطبخ 15 دقيقة.\n" +
-            "5. أضف الملفوف والكوسة واطبخ 15 دقيقة.\n" +
-            "6. أضف الحمص وضع الميرغيز فوقه، اطبخ 10 دقائق.\n" +
-            "7. حضّر السميد: ضع في وعاء، رش الماء المملح وامزج.\n" +
-            "8. اطهِ السميد على البخار 20 دقيقة، فكه، رش قليل من الماء، واطهه مرة أخرى 15 دقيقة.\n" +
-            "9. قدم الكسكس ساخناً، ضع اللحم والخضار، واسكب المرق بسخاء."
+            "1. قطّع البصل.\n" +
+            "2. قطّع الخضار.\n" +
+            "3. سخّن الزيت.\n" +
+            "4. شوّح البصل 5 دقائق.\n" +
+            "5. أضف الدجاج واللحم.\n" +
+            "6. أضف التوابل والملح.\n" +
+            "7. أضف الماء.\n" +
+            "8. اطهه 30 دقيقة.\n" +
+            "9. أضف الجزر واللفت.\n" +
+            "10. اطهه 15 دقيقة.\n" +
+            "11. أضف الملفوف والكوسة.\n" +
+            "12. اطهه 15 دقيقة.\n" +
+            "13. أضف الحمص.\n" +
+            "14. ضع الميرغيز فوقه.\n" +
+            "15. اطهه 10 دقائق.\n" +
+            "16. حضّر السميد.\n" +
+            "17. اطهه على البخار.\n" +
+            "18. فكّه ورطّبه.\n" +
+            "19. اطهه مرة أخرى.\n" +
+            "20. قدّم الكسكس مع اللحم والخضار."
     }
 };
 recipesData.plat.couscousPoisson = {
     country: "maroc",
     image: "images/couscous-poisson.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "30 min",
+        cookTime: "1h",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Couscous marocain au poisson",
-        equipment: ["1 couscoussier", "1 saladier", "1 cuillère en bois"],
+        equipment: [
+            "1 couscoussier ou grande marmite",
+            "1 saladier",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
-            "500 g de filet de poisson blanc ferme (cabillaud, merlan, etc.)",
+            "500 g de filets de poisson blanc ferme (cabillaud, merlan)",
             "500 g de semoule moyenne",
             "2 carottes",
             "2 courgettes",
-            "1/2 chou",
+            "1/2 chou blanc",
             "1 oignon",
-            "4 cuillères à soupe huile d’olive",
+            "4 cuillères à soupe d’huile d’olive",
             "1 cuillère à café paprika",
             "1 cuillère à café curcuma",
             "1 cuillère à café gingembre",
@@ -2690,22 +4113,46 @@ recipesData.plat.couscousPoisson = {
             "Eau chaude"
         ],
         preparation:
-            "1. Chauffer l’huile dans la marmite et faire revenir l’oignon émincé.\n" +
-            "2. Ajouter les épices, sel et poivre, mélanger.\n" +
-            "3. Couvrir d’eau chaude et laisser mijoter 10 minutes.\n" +
-            "4. Ajouter les carottes et navets, cuire 10 minutes.\n" +
-            "5. Ajouter le chou et les courgettes, cuire 10 minutes.\n" +
-            "6. Ajouter le poisson sur le dessus, couvrir et cuire 10 à 15 minutes selon épaisseur.\n" +
-            "7. Préparer la semoule : mettre dans un saladier, arroser d’eau salée, mélanger.\n" +
-            "8. Cuire la semoule à la vapeur 20 minutes, égrainer, arroser légèrement d’eau et cuire encore 15 minutes.\n" +
-            "9. Servir la semoule chaude avec le poisson et les légumes, arroser de bouillon."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Éplucher et couper les carottes.\n" +
+            "3. Couper les courgettes.\n" +
+            "4. Couper le chou.\n" +
+            "5. Chauffer l’huile dans la marmite.\n" +
+            "6. Faire revenir l’oignon 5 minutes.\n" +
+            "7. Ajouter les épices, le sel et le poivre.\n" +
+            "8. Mélanger soigneusement.\n" +
+            "9. Couvrir d’eau chaude.\n" +
+            "10. Laisser mijoter 10 minutes.\n" +
+            "11. Ajouter les carottes.\n" +
+            "12. Cuire 10 minutes.\n" +
+            "13. Ajouter le chou et les courgettes.\n" +
+            "14. Cuire 10 minutes.\n" +
+            "15. Déposer les filets de poisson sur le dessus.\n" +
+            "16. Couvrir et cuire 10 à 15 minutes.\n" +
+            "17. Mettre la semoule dans un saladier.\n" +
+            "18. Arroser d’eau salée.\n" +
+            "19. Mélanger et égrainer.\n" +
+            "20. Cuire à la vapeur 20 minutes.\n" +
+            "21. Retirer et arroser légèrement d’eau.\n" +
+            "22. Égrainer à nouveau.\n" +
+            "23. Remettre à la vapeur 15 minutes.\n" +
+            "24. Servir la semoule.\n" +
+            "25. Ajouter le poisson et les légumes.\n" +
+            "26. Arroser de bouillon."
     },
+
     en: {
         title: "Moroccan Couscous with Fish",
-        equipment: ["1 couscoussier", "1 bowl", "1 wooden spoon"],
+        equipment: [
+            "1 couscoussier or large pot",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
-            "500 g firm white fish fillets (cod, whiting, etc.)",
-            "500 g medium couscous",
+            "500 g firm white fish fillets (cod, whiting)",
+            "500 g couscous",
             "2 carrots",
             "2 zucchinis",
             "1/2 cabbage",
@@ -2718,79 +4165,139 @@ recipesData.plat.couscousPoisson = {
             "Hot water"
         ],
         preparation:
-            "1. Heat oil in the pot and sauté sliced onion.\n" +
-            "2. Add spices, salt and pepper, mix well.\n" +
-            "3. Cover with hot water and simmer 10 minutes.\n" +
-            "4. Add carrots and turnips, cook 10 minutes.\n" +
-            "5. Add cabbage and zucchinis, cook 10 minutes.\n" +
-            "6. Place fish on top, cover and cook 10–15 minutes depending on thickness.\n" +
-            "7. Prepare couscous: put in a bowl, sprinkle with salted water, mix.\n" +
-            "8. Steam couscous 20 minutes, fluff, sprinkle lightly with water, steam another 15 minutes.\n" +
-            "9. Serve couscous hot with fish and vegetables, pour broth on top."
+            "1. Slice the onion.\n" +
+            "2. Cut the carrots.\n" +
+            "3. Cut the zucchinis.\n" +
+            "4. Cut the cabbage.\n" +
+            "5. Heat oil in the pot.\n" +
+            "6. Sauté onion for 5 minutes.\n" +
+            "7. Add spices, salt and pepper.\n" +
+            "8. Mix well.\n" +
+            "9. Add hot water.\n" +
+            "10. Simmer 10 minutes.\n" +
+            "11. Add carrots.\n" +
+            "12. Cook 10 minutes.\n" +
+            "13. Add cabbage and zucchinis.\n" +
+            "14. Cook 10 minutes.\n" +
+            "15. Place fish on top.\n" +
+            "16. Cover and cook 10–15 minutes.\n" +
+            "17. Prepare couscous.\n" +
+            "18. Steam 20 minutes.\n" +
+            "19. Fluff and moisten.\n" +
+            "20. Steam 15 minutes.\n" +
+            "21. Serve with fish and vegetables."
     },
+
     nl: {
         title: "Marokkaanse couscous met vis",
-        equipment: ["1 couscouspan", "1 kom", "1 houten lepel"],
+        equipment: [
+            "1 couscouspan",
+            "1 kom",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
-            "500 g stevige witte visfilets (kabeljauw, wijting, enz.)",
-            "500 g middelgrote couscous",
+            "500 g stevige witte visfilets",
+            "500 g couscous",
             "2 wortelen",
             "2 courgettes",
             "1/2 kool",
             "1 ui",
             "4 eetlepels olijfolie",
-            "1 theelepel paprika",
-            "1 theelepel kurkuma",
-            "1 theelepel gember",
-            "Zout en peper",
-            "Heet water"
+            "Paprika",
+            "Kurkuma",
+            "Gember",
+            "Zout en peper"
         ],
         preparation:
-            "1. Verhit olie in de pan en fruit de ui.\n" +
-            "2. Voeg kruiden, zout en peper toe, meng goed.\n" +
-            "3. Voeg heet water toe en laat 10 minuten sudderen.\n" +
-            "4. Voeg wortelen en pastinaken toe, kook 10 minuten.\n" +
-            "5. Voeg kool en courgettes toe, kook 10 minuten.\n" +
-            "6. Leg de vis erop, dek af en kook 10–15 minuten afhankelijk van de dikte.\n" +
-            "7. Bereid couscous: doe in een kom, besprenkel met gezouten water, meng.\n" +
-            "8. Stoom couscous 20 minuten, maak los, besprenkel licht met water, stoom nog 15 minuten.\n" +
-            "9. Serveer couscous heet met vis en groenten, giet bouillon erover."
+            "1. Snijd de ui.\n" +
+            "2. Snijd de wortelen.\n" +
+            "3. Snijd de courgettes.\n" +
+            "4. Snijd de kool.\n" +
+            "5. Verhit olie.\n" +
+            "6. Fruit ui 5 minuten.\n" +
+            "7. Voeg kruiden toe.\n" +
+            "8. Voeg water toe.\n" +
+            "9. Laat 10 minuten koken.\n" +
+            "10. Voeg wortelen toe.\n" +
+            "11. Kook 10 minuten.\n" +
+            "12. Voeg kool en courgettes toe.\n" +
+            "13. Kook 10 minuten.\n" +
+            "14. Leg vis erbovenop.\n" +
+            "15. Kook 10–15 minuten.\n" +
+            "16. Bereid couscous.\n" +
+            "17. Stoom 20 minuten.\n" +
+            "18. Maak los en bevochtig.\n" +
+            "19. Stoom opnieuw.\n" +
+            "20. Serveer met vis en groenten."
     },
+
     ar: {
         title: "كسكس مغربي بالسمك",
-        equipment: ["طنجرة الكسكس", "وعاء", "ملعقة خشبية"],
+        equipment: [
+            "طنجرة الكسكس",
+            "وعاء",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
-            "500 غ فيليه سمك أبيض متماسك (قد، ميرلان، إلخ)",
-            "500 غ سميد متوسط",
+            "500 غ فيليه سمك أبيض",
+            "500 غ سميد",
             "2 جزر",
             "2 كوسة",
             "نصف ملفوف",
             "بصلة",
             "4 ملاعق زيت زيتون",
-            "1 ملعقة صغيرة فلفل حلو",
-            "1 ملعقة صغيرة كركم",
-            "1 ملعقة صغيرة زنجبيل",
-            "ملح وفلفل",
-            "ماء ساخن"
+            "بابريكا",
+            "كركم",
+            "زنجبيل",
+            "ملح وفلفل"
         ],
         preparation:
-            "1. سخّن الزيت في القدر وشوّح البصل المقطع.\n" +
-            "2. أضف التوابل والملح والفلفل وامزج جيداً.\n" +
-            "3. غطِّ بالماء الساخن واتركه يغلي 10 دقائق.\n" +
-            "4. أضف الجزر واللفت، اطبخ 10 دقائق.\n" +
-            "5. أضف الملفوف والكوسة، اطبخ 10 دقائق.\n" +
-            "6. ضع السمك على الوجه، غطّ واتركه يطبخ 10–15 دقيقة حسب السمك.\n" +
-            "7. حضّر السميد: ضع في وعاء، رش الماء المملح وامزج.\n" +
-            "8. اطهِ السميد على البخار 20 دقيقة، فكه، رش قليل من الماء، واطهه مرة أخرى 15 دقيقة.\n" +
-            "9. قدم الكسكس ساخناً مع السمك والخضار واسكب المرق فوقه."
+            "1. قطّع البصل.\n" +
+            "2. قطّع الجزر.\n" +
+            "3. قطّع الكوسة.\n" +
+            "4. قطّع الملفوف.\n" +
+            "5. سخّن الزيت.\n" +
+            "6. شوّح البصل 5 دقائق.\n" +
+            "7. أضف التوابل.\n" +
+            "8. أضف الماء.\n" +
+            "9. اطهه 10 دقائق.\n" +
+            "10. أضف الجزر.\n" +
+            "11. اطهه 10 دقائق.\n" +
+            "12. أضف الكوسة والملفوف.\n" +
+            "13. اطهه 10 دقائق.\n" +
+            "14. ضع السمك فوق الخضار.\n" +
+            "15. اطهه 10–15 دقيقة.\n" +
+            "16. حضّر السميد.\n" +
+            "17. اطهه على البخار.\n" +
+            "18. فكّه ورطّبه.\n" +
+            "19. اطهه مرة أخرى.\n" +
+            "20. قدّم الكسكس مع السمك."
     }
 };
 recipesData.plat.couscousFruitsDeMer = {
     country: "maroc",
     image: "images/couscous-fruits-de-mer.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "30 min",
+        cookTime: "1h",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Couscous marocain aux fruits de mer",
-        equipment: ["1 couscoussier", "1 saladier", "1 cuillère en bois"],
+        equipment: [
+            "1 couscoussier ou grande marmite",
+            "1 saladier",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
             "300 g crevettes décortiquées",
             "300 g calamars coupés en rondelles",
@@ -2798,9 +4305,9 @@ recipesData.plat.couscousFruitsDeMer = {
             "500 g semoule moyenne",
             "2 carottes",
             "2 courgettes",
-            "1/2 chou",
+            "1/2 chou blanc",
             "1 oignon",
-            "4 cuillères à soupe huile d’olive",
+            "4 cuillères à soupe d’huile d’olive",
             "1 cuillère à café paprika",
             "1 cuillère à café curcuma",
             "1 cuillère à café gingembre",
@@ -2808,23 +4315,48 @@ recipesData.plat.couscousFruitsDeMer = {
             "Eau chaude"
         ],
         preparation:
-            "1. Faire chauffer l’huile et faire revenir l’oignon émincé.\n" +
-            "2. Ajouter les épices et un peu d’eau chaude, cuire 5 minutes.\n" +
-            "3. Ajouter carottes et navets, cuire 10 minutes.\n" +
-            "4. Ajouter courgettes et chou, cuire 10 minutes.\n" +
-            "5. Ajouter les fruits de mer sur le dessus, couvrir et cuire 8 à 10 minutes.\n" +
-            "6. Préparer la semoule : mettre dans un saladier, arroser d’eau salée, mélanger.\n" +
-            "7. Cuire la semoule à la vapeur 20 minutes, égrainer, arroser légèrement d’eau, cuire encore 15 minutes.\n" +
-            "8. Servir la semoule chaude avec les fruits de mer et les légumes, arroser de bouillon."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Éplucher et couper les carottes.\n" +
+            "3. Couper les courgettes.\n" +
+            "4. Couper le chou.\n" +
+            "5. Chauffer l’huile dans la marmite.\n" +
+            "6. Faire revenir l’oignon 5 minutes.\n" +
+            "7. Ajouter paprika, curcuma, gingembre, sel et poivre.\n" +
+            "8. Mélanger soigneusement.\n" +
+            "9. Ajouter un peu d’eau chaude.\n" +
+            "10. Laisser mijoter 5 minutes.\n" +
+            "11. Ajouter les carottes.\n" +
+            "12. Cuire 10 minutes.\n" +
+            "13. Ajouter le chou et les courgettes.\n" +
+            "14. Cuire 10 minutes.\n" +
+            "15. Déposer les crevettes, calamars et moules sur le dessus.\n" +
+            "16. Couvrir et cuire 8 à 10 minutes.\n" +
+            "17. Mettre la semoule dans un saladier.\n" +
+            "18. Arroser d’eau salée.\n" +
+            "19. Mélanger et égrainer.\n" +
+            "20. Cuire à la vapeur 20 minutes.\n" +
+            "21. Retirer et arroser légèrement d’eau.\n" +
+            "22. Égrainer à nouveau.\n" +
+            "23. Remettre à la vapeur 15 minutes.\n" +
+            "24. Servir la semoule.\n" +
+            "25. Ajouter les fruits de mer et les légumes.\n" +
+            "26. Arroser de bouillon."
     },
+
     en: {
         title: "Moroccan Couscous with Seafood",
-        equipment: ["1 couscoussier", "1 bowl", "1 wooden spoon"],
+        equipment: [
+            "1 couscoussier or large pot",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "300 g peeled shrimp",
             "300 g squid rings",
             "300 g cleaned mussels",
-            "500 g medium couscous",
+            "500 g couscous",
             "2 carrots",
             "2 zucchinis",
             "1/2 cabbage",
@@ -2837,80 +4369,142 @@ recipesData.plat.couscousFruitsDeMer = {
             "Hot water"
         ],
         preparation:
-            "1. Heat oil and sauté sliced onion.\n" +
-            "2. Add spices and some hot water, cook 5 minutes.\n" +
-            "3. Add carrots and turnips, cook 10 minutes.\n" +
-            "4. Add zucchinis and cabbage, cook 10 minutes.\n" +
-            "5. Place seafood on top, cover and cook 8–10 minutes.\n" +
-            "6. Prepare couscous: put in a bowl, sprinkle with salted water, mix.\n" +
-            "7. Steam couscous 20 minutes, fluff, sprinkle lightly with water, steam another 15 minutes.\n" +
-            "8. Serve couscous hot with seafood and vegetables, pour broth on top."
+            "1. Slice the onion.\n" +
+            "2. Cut the carrots.\n" +
+            "3. Cut the zucchinis.\n" +
+            "4. Cut the cabbage.\n" +
+            "5. Heat oil in the pot.\n" +
+            "6. Sauté onion for 5 minutes.\n" +
+            "7. Add spices, salt and pepper.\n" +
+            "8. Mix well.\n" +
+            "9. Add hot water.\n" +
+            "10. Simmer 5 minutes.\n" +
+            "11. Add carrots.\n" +
+            "12. Cook 10 minutes.\n" +
+            "13. Add cabbage and zucchinis.\n" +
+            "14. Cook 10 minutes.\n" +
+            "15. Place seafood on top.\n" +
+            "16. Cover and cook 8–10 minutes.\n" +
+            "17. Prepare couscous.\n" +
+            "18. Steam 20 minutes.\n" +
+            "19. Fluff and moisten.\n" +
+            "20. Steam again.\n" +
+            "21. Serve with seafood and vegetables."
     },
+
     nl: {
         title: "Marokkaanse couscous met zeevruchten",
-        equipment: ["1 couscouspan", "1 kom", "1 houten lepel"],
+        equipment: [
+            "1 couscouspan",
+            "1 kom",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
-            "300 g gepelde garnalen",
-            "300 g in ringen gesneden inktvis",
-            "300 g schoongemaakte mosselen",
-            "500 g middelgrote couscous",
+            "300 g garnalen",
+            "300 g inktvisringen",
+            "300 g mosselen",
+            "500 g couscous",
             "2 wortelen",
             "2 courgettes",
             "1/2 kool",
             "1 ui",
             "4 eetlepels olijfolie",
-            "1 theelepel paprika",
-            "1 theelepel kurkuma",
-            "1 theelepel gember",
-            "Zout en peper",
-            "Heet water"
+            "Paprika",
+            "Kurkuma",
+            "Gember",
+            "Zout en peper"
         ],
         preparation:
-            "1. Verhit olie en fruit de ui.\n" +
-            "2. Voeg kruiden en wat heet water toe, kook 5 minuten.\n" +
-            "3. Voeg wortelen en pastinaken toe, kook 10 minuten.\n" +
-            "4. Voeg courgettes en kool toe, kook 10 minuten.\n" +
-            "5. Leg zeevruchten erop, dek af en kook 8–10 minuten.\n" +
-            "6. Bereid couscous: doe in een kom, besprenkel met gezouten water, meng.\n" +
-            "7. Stoom couscous 20 minuten, maak los, besprenkel licht met water, stoom nog 15 minuten.\n" +
-            "8. Serveer couscous heet met zeevruchten en groenten, giet bouillon erover."
+            "1. Snijd de ui.\n" +
+            "2. Snijd de wortelen.\n" +
+            "3. Snijd de courgettes.\n" +
+            "4. Snijd de kool.\n" +
+            "5. Verhit olie.\n" +
+            "6. Fruit ui 5 minuten.\n" +
+            "7. Voeg kruiden toe.\n" +
+            "8. Voeg water toe.\n" +
+            "9. Laat 5 minuten koken.\n" +
+            "10. Voeg wortelen toe.\n" +
+            "11. Kook 10 minuten.\n" +
+            "12. Voeg kool en courgettes toe.\n" +
+            "13. Kook 10 minuten.\n" +
+            "14. Leg zeevruchten erbovenop.\n" +
+            "15. Kook 8–10 minuten.\n" +
+            "16. Bereid couscous.\n" +
+            "17. Stoom 20 minuten.\n" +
+            "18. Maak los en bevochtig.\n" +
+            "19. Stoom opnieuw.\n" +
+            "20. Serveer met zeevruchten."
     },
+
     ar: {
         title: "كسكس مغربي بالمأكولات البحرية",
-        equipment: ["طنجرة الكسكس", "وعاء", "ملعقة خشبية"],
+        equipment: [
+            "طنجرة الكسكس",
+            "وعاء",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
-            "300 غ روبيان مقشر",
+            "300 غ روبيان",
             "300 غ حلقات كاليماري",
-            "300 غ بلح البحر منظف",
-            "500 غ سميد متوسط",
+            "300 غ بلح البحر",
+            "500 غ سميد",
             "2 جزر",
             "2 كوسة",
             "نصف ملفوف",
             "بصلة",
             "4 ملاعق زيت زيتون",
-            "1 ملعقة صغيرة فلفل حلو",
-            "1 ملعقة صغيرة كركم",
-            "1 ملعقة صغيرة زنجبيل",
-            "ملح وفلفل",
-            "ماء ساخن"
+            "بابريكا",
+            "كركم",
+            "زنجبيل",
+            "ملح وفلفل"
         ],
         preparation:
-            "1. سخّن الزيت وشوّح البصل المقطع.\n" +
-            "2. أضف التوابل والقليل من الماء الساخن، اطبخ 5 دقائق.\n" +
-            "3. أضف الجزر واللفت، اطبخ 10 دقائق.\n" +
-            "4. أضف الكوسة والملفوف، اطبخ 10 دقائق.\n" +
-            "5. ضع المأكولات البحرية على الوجه، غطّ واطبخ 8–10 دقائق.\n" +
-            "6. حضّر السميد: ضع في وعاء، رش الماء المملح وامزج.\n" +
-            "7. اطهِ السميد على البخار 20 دقيقة، فكه، رش قليل من الماء، واطهه مرة أخرى 15 دقيقة.\n" +
-            "8. قدم الكسكس ساخناً مع المأكولات البحرية والخضار واسكب المرق فوقه."
+            "1. قطّع البصل.\n" +
+            "2. قطّع الجزر.\n" +
+            "3. قطّع الكوسة.\n" +
+            "4. قطّع الملفوف.\n" +
+            "5. سخّن الزيت.\n" +
+            "6. شوّح البصل 5 دقائق.\n" +
+            "7. أضف التوابل.\n" +
+            "8. أضف الماء.\n" +
+            "9. اطهه 5 دقائق.\n" +
+            "10. أضف الجزر.\n" +
+            "11. اطهه 10 دقائق.\n" +
+            "12. أضف الكوسة والملفوف.\n" +
+            "13. اطهه 10 دقائق.\n" +
+            "14. ضع المأكولات البحرية فوق الخضار.\n" +
+            "15. اطهه 8–10 دقائق.\n" +
+            "16. حضّر السميد.\n" +
+            "17. اطهه على البخار.\n" +
+            "18. فكّه ورطّبه.\n" +
+            "19. اطهه مرة أخرى.\n" +
+            "20. قدّم الكسكس بالمأكولات البحرية."
     }
 };
 recipesData.plat.couscousSucre = {
     country: "maroc",
     image: "images/couscous-sucre.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "15 min",
+        cookTime: "35 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Couscous sucré marocain aux raisins et amandes",
-        equipment: ["1 couscoussier", "1 saladier", "1 cuillère en bois"],
+        equipment: [
+            "1 couscoussier ou grande marmite",
+            "1 saladier",
+            "1 cuillère en bois",
+            "1 petite poêle"
+        ],
         ingredients: [
             "500 g semoule moyenne",
             "100 g raisins secs",
@@ -2921,17 +4515,38 @@ recipesData.plat.couscousSucre = {
             "Eau chaude"
         ],
         preparation:
-            "1. Faire chauffer la semoule à la vapeur 20 minutes, égrainer.\n" +
-            "2. Arroser légèrement d’eau, cuire encore 15 minutes.\n" +
-            "3. Dans une petite poêle, griller les amandes sans huile.\n" +
-            "4. Mélanger la semoule avec sucre, cannelle, raisins secs et amandes.\n" +
-            "5. Servir tiède ou froid, en dessert."
+            "1. Mettre la semoule dans un grand saladier.\n" +
+            "2. Arroser avec un peu d’eau chaude.\n" +
+            "3. Mélanger et égrainer à la main.\n" +
+            "4. Mettre la semoule dans le haut du couscoussier.\n" +
+            "5. Cuire à la vapeur pendant 20 minutes.\n" +
+            "6. Retirer la semoule et la remettre dans le saladier.\n" +
+            "7. Arroser légèrement d’eau chaude.\n" +
+            "8. Égrainer à nouveau.\n" +
+            "9. Remettre à la vapeur 15 minutes.\n" +
+            "10. Faire chauffer une petite poêle.\n" +
+            "11. Ajouter les amandes sans huile.\n" +
+            "12. Les faire griller jusqu’à doré.\n" +
+            "13. Verser la semoule cuite dans le saladier.\n" +
+            "14. Ajouter le sucre.\n" +
+            "15. Ajouter la cannelle.\n" +
+            "16. Ajouter les raisins secs.\n" +
+            "17. Ajouter les amandes grillées.\n" +
+            "18. Ajouter l’huile d’olive.\n" +
+            "19. Mélanger délicatement.\n" +
+            "20. Servir tiède ou froid en dessert."
     },
+
     en: {
         title: "Moroccan Sweet Couscous with Raisins and Almonds",
-        equipment: ["1 couscoussier", "1 bowl", "1 wooden spoon"],
+        equipment: [
+            "1 couscoussier or large pot",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 small pan"
+        ],
         ingredients: [
-            "500 g medium couscous",
+            "500 g couscous",
             "100 g raisins",
             "50 g sliced almonds",
             "4 tablespoons sugar",
@@ -2940,17 +4555,36 @@ recipesData.plat.couscousSucre = {
             "Hot water"
         ],
         preparation:
-            "1. Steam couscous 20 minutes, fluff.\n" +
-            "2. Sprinkle lightly with water, steam another 15 minutes.\n" +
-            "3. In a small pan, toast almonds without oil.\n" +
-            "4. Mix couscous with sugar, cinnamon, raisins, and almonds.\n" +
-            "5. Serve warm or cold as dessert."
+            "1. Place couscous in a large bowl.\n" +
+            "2. Sprinkle with hot water.\n" +
+            "3. Mix and fluff.\n" +
+            "4. Steam for 20 minutes.\n" +
+            "5. Remove and place back in bowl.\n" +
+            "6. Sprinkle with water again.\n" +
+            "7. Fluff the couscous.\n" +
+            "8. Steam again for 15 minutes.\n" +
+            "9. Heat a small pan.\n" +
+            "10. Toast the almonds without oil.\n" +
+            "11. Add couscous to the bowl.\n" +
+            "12. Add sugar.\n" +
+            "13. Add cinnamon.\n" +
+            "14. Add raisins.\n" +
+            "15. Add toasted almonds.\n" +
+            "16. Add olive oil.\n" +
+            "17. Mix gently.\n" +
+            "18. Serve warm or cold as dessert."
     },
+
     nl: {
         title: "Marokkaanse zoete couscous met rozijnen en amandelen",
-        equipment: ["1 couscouspan", "1 kom", "1 houten lepel"],
+        equipment: [
+            "1 couscouspan",
+            "1 kom",
+            "1 houten lepel",
+            "1 kleine pan"
+        ],
         ingredients: [
-            "500 g middelgrote couscous",
+            "500 g couscous",
             "100 g rozijnen",
             "50 g geschaafde amandelen",
             "4 eetlepels suiker",
@@ -2959,38 +4593,84 @@ recipesData.plat.couscousSucre = {
             "Heet water"
         ],
         preparation:
-            "1. Stoom couscous 20 minuten, maak los.\n" +
-            "2. Besprenkel licht met water, stoom nog 15 minuten.\n" +
-            "3. Rooster de amandelen in een kleine pan zonder olie.\n" +
-            "4. Meng couscous met suiker, kaneel, rozijnen en amandelen.\n" +
-            "5. Serveer warm of koud als dessert."
+            "1. Doe couscous in een grote kom.\n" +
+            "2. Besprenkel met heet water.\n" +
+            "3. Meng en maak los.\n" +
+            "4. Stoom 20 minuten.\n" +
+            "5. Haal eruit en doe terug in de kom.\n" +
+            "6. Besprenkel opnieuw met water.\n" +
+            "7. Maak los.\n" +
+            "8. Stoom nog 15 minuten.\n" +
+            "9. Verhit een kleine pan.\n" +
+            "10. Rooster de amandelen zonder olie.\n" +
+            "11. Voeg couscous toe aan de kom.\n" +
+            "12. Voeg suiker toe.\n" +
+            "13. Voeg kaneel toe.\n" +
+            "14. Voeg rozijnen toe.\n" +
+            "15. Voeg amandelen toe.\n" +
+            "16. Voeg olijfolie toe.\n" +
+            "17. Meng voorzichtig.\n" +
+            "18. Serveer warm of koud."
     },
+
     ar: {
         title: "كسكس مغربي حلو بالزبيب واللوز",
-        equipment: ["طنجرة الكسكس", "وعاء", "ملعقة خشبية"],
+        equipment: [
+            "طنجرة الكسكس",
+            "وعاء",
+            "ملعقة خشبية",
+            "مقلاة صغيرة"
+        ],
         ingredients: [
-            "500 غ سميد متوسط",
+            "500 غ سميد",
             "100 غ زبيب",
-            "50 غ لوز مقطع شرائح",
+            "50 غ لوز شرائح",
             "4 ملاعق سكر",
             "1 ملعقة صغيرة قرفة",
             "1 ملعقة زيت زيتون",
             "ماء ساخن"
         ],
         preparation:
-            "1. اطهِ السميد على البخار 20 دقيقة، فكه.\n" +
-            "2. رش عليه قليل من الماء، اطهه مرة أخرى 15 دقيقة.\n" +
-            "3. في مقلاة صغيرة، حمّص اللوز بدون زيت.\n" +
-            "4. امزج السميد مع السكر والقرفة والزبيب واللوز.\n" +
-            "5. قدّم دافئاً أو بارداً كحلوى."
+            "1. ضع السميد في وعاء كبير.\n" +
+            "2. رش عليه ماء ساخن.\n" +
+            "3. حرّكه وفكّه.\n" +
+            "4. اطهه على البخار 20 دقيقة.\n" +
+            "5. أخرجه وأعده إلى الوعاء.\n" +
+            "6. رش الماء مرة أخرى.\n" +
+            "7. فكّه جيداً.\n" +
+            "8. اطهه مرة أخرى 15 دقيقة.\n" +
+            "9. سخّن مقلاة صغيرة.\n" +
+            "10. حمّص اللوز بدون زيت.\n" +
+            "11. أضف السميد إلى الوعاء.\n" +
+            "12. أضف السكر.\n" +
+            "13. أضف القرفة.\n" +
+            "14. أضف الزبيب.\n" +
+            "15. أضف اللوز.\n" +
+            "16. أضف زيت الزيتون.\n" +
+            "17. اخلط بلطف.\n" +
+            "18. قدّم دافئاً أو بارداً كحلوى."
     }
 };
 recipesData.plat.pastillaPoulet = {
     country: "maroc",
     image: "images/pastilla-poulet.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "30 min",
+        cookTime: "30 min",
+        difficulty: "Moyenne"
+    },
+
     fr: {
-        title: "Pastilla au poulet",
-        equipment: ["1 poêle", "1 bol", "1 pinceau", "1 couteau", "1 plat allant au four"],
+        title: "Pastilla marocaine au poulet",
+        equipment: [
+            "1 poêle",
+            "1 bol",
+            "1 pinceau",
+            "1 couteau",
+            "1 plat allant au four"
+        ],
         ingredients: [
             "500 g de poulet désossé et coupé en morceaux",
             "6 feuilles de pâte filo",
@@ -3000,22 +4680,45 @@ recipesData.plat.pastillaPoulet = {
             "1 cuillère à café cannelle",
             "3 cuillères à soupe huile d’olive",
             "Sel et poivre",
-            "1 jaune d’œuf pour la dorure"
+            "1 jaune d’œuf pour la dorure",
+            "Sucre glace (pour la décoration)"
         ],
         preparation:
-            "1. Chauffer l’huile dans une poêle et faire revenir l’oignon émincé.\n" +
-            "2. Ajouter le poulet, saler, poivrer et cuire jusqu’à ce qu’il soit tendre.\n" +
-            "3. Faire griller les amandes dans une poêle séparée, puis les hacher et mélanger avec sucre et cannelle.\n" +
-            "4. Préchauffer le four à 180°C.\n" +
-            "5. Disposer une feuille de pâte filo dans le plat, badigeonner légèrement d’huile, répéter avec 2 autres feuilles.\n" +
-            "6. Ajouter le poulet cuit au centre, puis les amandes sucrées.\n" +
-            "7. Recouvrir avec les feuilles restantes, replier les bords et badigeonner de jaune d’œuf.\n" +
-            "8. Cuire au four 25-30 minutes jusqu’à ce que la pastilla soit dorée et croustillante.\n" +
-            "9. Servir chaud, saupoudré de sucre glace et cannelle."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Chauffer l’huile d’olive dans une poêle.\n" +
+            "3. Faire revenir l’oignon jusqu’à ce qu’il soit translucide.\n" +
+            "4. Ajouter les morceaux de poulet.\n" +
+            "5. Saler et poivrer.\n" +
+            "6. Laisser cuire jusqu’à ce que le poulet soit bien tendre.\n" +
+            "7. Retirer le poulet et l’effilocher légèrement.\n" +
+            "8. Dans une autre poêle, faire griller les amandes sans huile.\n" +
+            "9. Hacher les amandes grossièrement.\n" +
+            "10. Mélanger les amandes avec le sucre et la cannelle.\n" +
+            "11. Préchauffer le four à 180°C.\n" +
+            "12. Huiler légèrement le plat.\n" +
+            "13. Déposer une feuille de pâte filo.\n" +
+            "14. Badigeonner d’huile.\n" +
+            "15. Répéter avec deux autres feuilles.\n" +
+            "16. Ajouter le poulet au centre.\n" +
+            "17. Ajouter le mélange d’amandes sucrées.\n" +
+            "18. Recouvrir avec les feuilles restantes.\n" +
+            "19. Replier les bords.\n" +
+            "20. Badigeonner avec le jaune d’œuf.\n" +
+            "21. Enfourner 25 à 30 minutes.\n" +
+            "22. Sortir la pastilla quand elle est bien dorée.\n" +
+            "23. Saupoudrer de sucre glace et cannelle.\n" +
+            "24. Servir chaud."
     },
+
     en: {
-        title: "Chicken Pastilla",
-        equipment: ["1 pan", "1 bowl", "1 brush", "1 knife", "1 ovenproof dish"],
+        title: "Moroccan Chicken Pastilla",
+        equipment: [
+            "1 pan",
+            "1 bowl",
+            "1 brush",
+            "1 knife",
+            "1 ovenproof dish"
+        ],
         ingredients: [
             "500 g boneless chicken pieces",
             "6 filo pastry sheets",
@@ -3025,300 +4728,377 @@ recipesData.plat.pastillaPoulet = {
             "1 teaspoon cinnamon",
             "3 tablespoons olive oil",
             "Salt and pepper",
-            "1 egg yolk for glaze"
+            "1 egg yolk for glaze",
+            "Powdered sugar (for garnish)"
         ],
         preparation:
-            "1. Heat oil in a pan and sauté sliced onion.\n" +
-            "2. Add chicken, salt, pepper, and cook until tender.\n" +
-            "3. Toast almonds in a separate pan, chop, and mix with sugar and cinnamon.\n" +
-            "4. Preheat oven to 180°C.\n" +
-            "5. Place one filo sheet in the dish, brush lightly with oil, repeat with 2 more sheets.\n" +
-            "6. Place cooked chicken in the center, then the sugared almonds.\n" +
-            "7. Cover with remaining sheets, fold edges, brush with egg yolk.\n" +
-            "8. Bake 25-30 minutes until golden and crispy.\n" +
-            "9. Serve hot, sprinkled with powdered sugar and cinnamon."
+            "1. Peel and slice the onion.\n" +
+            "2. Heat olive oil in a pan.\n" +
+            "3. Sauté the onion until soft.\n" +
+            "4. Add the chicken pieces.\n" +
+            "5. Season with salt and pepper.\n" +
+            "6. Cook until the chicken is tender.\n" +
+            "7. Shred the chicken slightly.\n" +
+            "8. Toast the almonds in a dry pan.\n" +
+            "9. Chop the almonds.\n" +
+            "10. Mix almonds with sugar and cinnamon.\n" +
+            "11. Preheat oven to 180°C.\n" +
+            "12. Lightly oil the baking dish.\n" +
+            "13. Place one filo sheet.\n" +
+            "14. Brush with oil.\n" +
+            "15. Repeat with two more sheets.\n" +
+            "16. Add chicken in the center.\n" +
+            "17. Add sweet almond mixture.\n" +
+            "18. Cover with remaining sheets.\n" +
+            "19. Fold the edges.\n" +
+            "20. Brush with egg yolk.\n" +
+            "21. Bake 25–30 minutes.\n" +
+            "22. Remove when golden.\n" +
+            "23. Sprinkle with powdered sugar and cinnamon.\n" +
+            "24. Serve hot."
     },
+
     nl: {
-        title: "Kip Pastilla",
-        equipment: ["1 pan", "1 kom", "1 kwast", "1 mes", "1 ovenschaal"],
+        title: "Marokkaanse kip-pastilla",
+        equipment: [
+            "1 pan",
+            "1 kom",
+            "1 kwast",
+            "1 mes",
+            "1 ovenschaal"
+        ],
         ingredients: [
-            "500 g kip zonder bot, in stukken",
-            "6 filodeeg vellen",
+            "500 g kip zonder bot",
+            "6 filodeegvellen",
             "1 ui",
             "50 g geschaafde amandelen",
             "2 eetlepels suiker",
             "1 theelepel kaneel",
             "3 eetlepels olijfolie",
             "Zout en peper",
-            "1 eidooier voor glans"
+            "1 eidooier",
+            "Poedersuiker (voor decoratie)"
         ],
         preparation:
-            "1. Verhit olie in een pan en fruit de ui.\n" +
-            "2. Voeg kip, zout en peper toe, kook tot mals.\n" +
-            "3. Rooster de amandelen in een aparte pan, hak ze en meng met suiker en kaneel.\n" +
-            "4. Verwarm de oven voor op 180°C.\n" +
-            "5. Leg één filodeegvel in de schaal, bestrijk licht met olie, herhaal met 2 vellen.\n" +
-            "6. Plaats de gekookte kip in het midden, vervolgens de suikeralmandelen.\n" +
-            "7. Dek af met de resterende vellen, vouw de randen, bestrijk met eidooier.\n" +
-            "8. Bak 25-30 minuten tot goudbruin en knapperig.\n" +
-            "9. Serveer warm, bestrooid met poedersuiker en kaneel."
+            "1. Pel en snijd de ui.\n" +
+            "2. Verhit olie in de pan.\n" +
+            "3. Fruit de ui tot zacht.\n" +
+            "4. Voeg de kip toe.\n" +
+            "5. Breng op smaak.\n" +
+            "6. Bak tot gaar.\n" +
+            "7. Trek de kip uit elkaar.\n" +
+            "8. Rooster de amandelen zonder olie.\n" +
+            "9. Hak de amandelen.\n" +
+            "10. Meng met suiker en kaneel.\n" +
+            "11. Verwarm de oven voor op 180°C.\n" +
+            "12. Vet de ovenschaal in.\n" +
+            "13. Leg een filodeegvel neer.\n" +
+            "14. Bestrijk met olie.\n" +
+            "15. Herhaal met twee vellen.\n" +
+            "16. Voeg kip toe.\n" +
+            "17. Voeg amandelmengsel toe.\n" +
+            "18. Bedek met de rest.\n" +
+            "19. Vouw de randen.\n" +
+            "20. Bestrijk met eidooier.\n" +
+            "21. Bak 25–30 minuten.\n" +
+            "22. Haal eruit als hij goudbruin is.\n" +
+            "23. Bestrooi met poedersuiker en kaneel.\n" +
+            "24. Serveer warm."
     },
+
     ar: {
-        title: "البسطيلة بالدجاج",
-        equipment: ["مقلاة", "وعاء", "فرشاة", "سكين", "صحن فرن"],
+        title: "بسطيلة الدجاج المغربية",
+        equipment: [
+            "مقلاة",
+            "وعاء",
+            "فرشاة",
+            "سكين",
+            "صحن فرن"
+        ],
         ingredients: [
-            "500 غ دجاج مقطع بدون عظم",
-            "6 ورقات عجين فيلو",
-            "1 بصلة",
-            "50 غ لوز مقطع شرائح",
-            "2 ملاعق كبيرة سكر",
-            "1 ملعقة صغيرة قرفة",
+            "500 غ دجاج بدون عظم",
+            "6 أوراق فيلو",
+            "بصلة",
+            "50 غ لوز شرائح",
+            "2 ملاعق سكر",
+            "ملعقة صغيرة قرفة",
             "3 ملاعق زيت زيتون",
             "ملح وفلفل",
-            "1 صفار بيض للدهن"
+            "صفار بيض",
+            "سكر بودرة للتزيين"
         ],
         preparation:
-            "1. سخّن الزيت في المقلاة وشوّح البصل المقطع.\n" +
-            "2. أضف الدجاج، الملح والفلفل، واطبخ حتى ينضج.\n" +
-            "3. حمّص اللوز في مقلاة منفصلة، افرمه وامزجه مع السكر والقرفة.\n" +
-            "4. سخّن الفرن على 180°م.\n" +
-            "5. ضع ورقة فيلو في الصحن، ادهنها بالزيت، كرر مع ورقتين أخريين.\n" +
-            "6. ضع الدجاج المطبوخ في الوسط، ثم خليط اللوز بالسكر.\n" +
-            "7. غطِّها بالورق المتبقي، اطوِ الحواف، وادهن بالصفار.\n" +
-            "8. اخبز 25-30 دقيقة حتى تصبح ذهبية ومقرمشة.\n" +
-            "9. قدمها ساخنة، مرشوشة بالسكر البودرة والقرفة."
-    }
-};
-recipesData.plat.tanjia = {
-    country: "maroc",
-    image: "images/tanjia.jpg",
-    fr: {
-        title: "Tanjia marocaine",
-        equipment: ["1 tajine ou plat en terre allant au four", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
-        ingredients: [
-            "500 g de viande de bœuf ou d’agneau coupée en morceaux",
-            "4 gousses d’ail, hachées",
-            "2 cuillères à soupe huile d’olive",
-            "1 cuillère à café gingembre",
-            "1 cuillère à café curcuma",
-            "1 cuillère à café paprika",
-            "1/2 cuillère à café poivre noir",
-            "Sel selon goût",
-            "1 citron confit",
-            "Quelques brins de coriandre fraîche",
-            "Eau chaude"
-        ],
-        preparation:
-            "1. Préchauffer le four à 160°C.\n" +
-            "2. Dans le plat, mélanger la viande avec l’ail, les épices, l’huile, sel et poivre.\n" +
-            "3. Ajouter le citron confit coupé en quartiers et un peu de coriandre.\n" +
-            "4. Couvrir la viande avec un couvercle ou du papier aluminium.\n" +
-            "5. Ajouter suffisamment d’eau pour couvrir légèrement la viande.\n" +
-            "6. Cuire au four lentement pendant 3 à 4 heures, jusqu’à ce que la viande soit tendre et bien parfumée.\n" +
-            "7. Vérifier de temps en temps et arroser avec le jus pour éviter que la viande ne se dessèche.\n" +
-            "8. Servir chaud avec du pain marocain ou du riz."
-    },
-    en: {
-        title: "Moroccan Tanjia",
-        equipment: ["1 tagine or ovenproof clay dish", "1 knife", "1 cutting board", "1 wooden spoon"],
-        ingredients: [
-            "500 g beef or lamb chunks",
-            "4 garlic cloves, chopped",
-            "2 tablespoons olive oil",
-            "1 teaspoon ginger",
-            "1 teaspoon turmeric",
-            "1 teaspoon paprika",
-            "1/2 teaspoon black pepper",
-            "Salt to taste",
-            "1 preserved lemon",
-            "Some fresh coriander sprigs",
-            "Hot water"
-        ],
-        preparation:
-            "1. Preheat oven to 160°C.\n" +
-            "2. In the dish, mix meat with garlic, spices, oil, salt, and pepper.\n" +
-            "3. Add preserved lemon cut into quarters and some coriander.\n" +
-            "4. Cover meat with a lid or aluminum foil.\n" +
-            "5. Add enough water to slightly cover the meat.\n" +
-            "6. Slow-cook in the oven for 3 to 4 hours until meat is tender and flavorful.\n" +
-            "7. Check occasionally and baste with juices to prevent drying.\n" +
-            "8. Serve hot with Moroccan bread or rice."
-    },
-    nl: {
-        title: "Marokkaanse Tanjia",
-        equipment: ["1 tajine of ovenvaste aardewerken schaal", "1 mes", "1 snijplank", "1 houten lepel"],
-        ingredients: [
-            "500 g rund- of lamsvlees in stukken",
-            "4 teentjes knoflook, gehakt",
-            "2 eetlepels olijfolie",
-            "1 theelepel gember",
-            "1 theelepel kurkuma",
-            "1 theelepel paprika",
-            "1/2 theelepel zwarte peper",
-            "Zout naar smaak",
-            "1 ingemaakte citroen",
-            "Enkele takjes verse koriander",
-            "Heet water"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 160°C.\n" +
-            "2. Meng in de schaal het vlees met knoflook, kruiden, olie, zout en peper.\n" +
-            "3. Voeg de in kwarten gesneden ingemaakte citroen en wat koriander toe.\n" +
-            "4. Dek het vlees af met een deksel of aluminiumfolie.\n" +
-            "5. Voeg genoeg water toe om het vlees licht te bedekken.\n" +
-            "6. Laat 3 tot 4 uur langzaam garen in de oven tot het vlees mals en smaakvol is.\n" +
-            "7. Controleer af en toe en bedruip met het vocht om uitdrogen te voorkomen.\n" +
-            "8. Serveer heet met Marokkaans brood of rijst."
-    },
-    ar: {
-        title: "طنجية مغربية",
-        equipment: ["طنجرة طنجية أو وعاء فخاري للفرن", "سكين", "لوح تقطيع", "ملعقة خشبية"],
-        ingredients: [
-            "500 غ لحم بقر أو ضأن مقطع",
-            "4 فصوص ثوم، مفرومة",
-            "2 ملاعق زيت زيتون",
-            "1 ملعقة صغيرة زنجبيل",
-            "1 ملعقة صغيرة كركم",
-            "1 ملعقة صغيرة فلفل أحمر",
-            "1/2 ملعقة فلفل أسود",
-            "ملح حسب الرغبة",
-            "1 ليمون مصفّى",
-            "بضع سيقان كزبرة طازجة",
-            "ماء ساخن"
-        ],
-        preparation:
-            "1. سخّن الفرن على 160°م.\n" +
-            "2. في الوعاء، اخلط اللحم مع الثوم، التوابل، الزيت، الملح والفلفل.\n" +
-            "3. أضف الليمون المصفّى مقطع إلى أرباع وبعض الكزبرة.\n" +
-            "4. غطِ اللحم بغطاء أو بورق ألومنيوم.\n" +
-            "5. أضف كمية كافية من الماء لتغطية اللحم قليلاً.\n" +
-            "6. اطبخ ببطء في الفرن 3–4 ساعات حتى ينضج اللحم ويصبح عطرياً.\n" +
-            "7. تحقق بين الحين والآخر وادهن بالمرق لمنع الجفاف.\n" +
-            "8. قدّم ساخناً مع الخبز المغربي أو الأرز."
+            "1. قشّر البصل وقطّعه.\n" +
+            "2. سخّن الزيت في المقلاة.\n" +
+            "3. شوّح البصل حتى يلين.\n" +
+            "4. أضف الدجاج.\n" +
+            "5. تبّل بالملح والفلفل.\n" +
+            "6. اطبخ حتى ينضج.\n" +
+            "7. فتّت الدجاج قليلاً.\n" +
+            "8. حمّص اللوز بدون زيت.\n" +
+            "9. افرم اللوز.\n" +
+            "10. امزجه مع السكر والقرفة.\n" +
+            "11. سخّن الفرن على 180°.\n" +
+            "12. ادهن صحن الفرن بالزيت.\n" +
+            "13. ضع ورقة فيلو.\n" +
+            "14. ادهنها بالزيت.\n" +
+            "15. كرر مع ورقتين.\n" +
+            "16. أضف الدجاج.\n" +
+            "17. أضف خليط اللوز.\n" +
+            "18. غطِّ بالأوراق المتبقية.\n" +
+            "19. اطوِ الحواف.\n" +
+            "20. ادهن بصفار البيض.\n" +
+            "21. اخبز 25–30 دقيقة.\n" +
+            "22. أخرجها عندما تصبح ذهبية.\n" +
+            "23. زيّن بالسكر البودرة والقرفة.\n" +
+            "24. قدّمها ساخنة."
     }
 };
 recipesData.plat.keftaOeufs = {
     country: "maroc",
     image: "images/kefa-oeufs.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "20 min",
+        cookTime: "20 min",
+        difficulty: "Facile"
+    },
+
     fr: {
-        title: "Kefta aux œufs",
-        equipment: ["1 poêle", "1 bol", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
+        title: "Kefta marocaine aux œufs",
+        equipment: [
+            "1 poêle",
+            "1 bol",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
             "500 g de viande hachée (bœuf ou agneau)",
             "1 oignon finement haché",
             "2 gousses d’ail, hachées",
-            "1 cuillère à café paprika",
-            "1 cuillère à café cumin",
-            "1/2 cuillère à café gingembre",
+            "1 cuillère à café de paprika",
+            "1 cuillère à café de cumin",
+            "1/2 cuillère à café de gingembre",
             "Sel et poivre",
             "4 œufs",
             "Quelques brins de coriandre fraîche",
-            "2 cuillères à soupe huile d’olive"
+            "2 cuillères à soupe d’huile d’olive"
         ],
         preparation:
-            "1. Mélanger la viande avec l’oignon, l’ail, les épices, sel et poivre.\n" +
-            "2. Former des petites boulettes ou galettes avec la kefta.\n" +
-            "3. Chauffer l’huile dans la poêle et faire revenir les boulettes 5-7 minutes.\n" +
-            "4. Ajouter un peu d’eau et laisser mijoter 5 minutes.\n" +
-            "5. Casser les œufs sur les boulettes, couvrir et cuire à feu doux jusqu’à ce que les œufs soient pris.\n" +
-            "6. Parsemer de coriandre fraîche et servir chaud avec du pain."
+            "1. Éplucher et hacher finement l’oignon.\n" +
+            "2. Éplucher et hacher l’ail.\n" +
+            "3. Mettre la viande hachée dans un bol.\n" +
+            "4. Ajouter l’oignon et l’ail.\n" +
+            "5. Ajouter le paprika, le cumin et le gingembre.\n" +
+            "6. Saler et poivrer.\n" +
+            "7. Bien mélanger avec les mains ou une cuillère.\n" +
+            "8. Former des petites boulettes ou des galettes.\n" +
+            "9. Chauffer l’huile d’olive dans la poêle.\n" +
+            "10. Déposer les keftas dans la poêle.\n" +
+            "11. Faire dorer 5 à 7 minutes.\n" +
+            "12. Ajouter un petit verre d’eau.\n" +
+            "13. Couvrir et laisser mijoter 5 minutes.\n" +
+            "14. Faire 4 petits creux entre les keftas.\n" +
+            "15. Casser un œuf dans chaque creux.\n" +
+            "16. Couvrir la poêle.\n" +
+            "17. Laisser cuire jusqu’à ce que les œufs soient pris.\n" +
+            "18. Parsemer de coriandre fraîche.\n" +
+            "19. Retirer du feu.\n" +
+            "20. Servir chaud avec du pain marocain."
     },
+
     en: {
-        title: "Kefta with Eggs",
-        equipment: ["1 pan", "1 bowl", "1 wooden spoon", "1 knife", "1 cutting board"],
+        title: "Moroccan Kefta with Eggs",
+        equipment: [
+            "1 pan",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "500 g minced meat (beef or lamb)",
-            "1 onion finely chopped",
+            "1 onion, finely chopped",
             "2 garlic cloves, chopped",
             "1 teaspoon paprika",
             "1 teaspoon cumin",
             "1/2 teaspoon ginger",
             "Salt and pepper",
             "4 eggs",
-            "Some fresh coriander sprigs",
+            "Fresh coriander",
             "2 tablespoons olive oil"
         ],
         preparation:
-            "1. Mix the meat with onion, garlic, spices, salt, and pepper.\n" +
-            "2. Shape small meatballs or patties.\n" +
-            "3. Heat oil in a pan and sauté meatballs 5-7 minutes.\n" +
-            "4. Add a little water and simmer 5 minutes.\n" +
-            "5. Crack eggs over meatballs, cover, and cook on low heat until eggs are set.\n" +
-            "6. Sprinkle with fresh coriander and serve hot with bread."
+            "1. Peel and finely chop the onion.\n" +
+            "2. Peel and chop the garlic.\n" +
+            "3. Place the minced meat in a bowl.\n" +
+            "4. Add onion and garlic.\n" +
+            "5. Add paprika, cumin, and ginger.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Mix well.\n" +
+            "8. Shape small meatballs or patties.\n" +
+            "9. Heat olive oil in a pan.\n" +
+            "10. Add the kefta to the pan.\n" +
+            "11. Brown for 5–7 minutes.\n" +
+            "12. Add a small glass of water.\n" +
+            "13. Cover and simmer for 5 minutes.\n" +
+            "14. Make small holes between the meat.\n" +
+            "15. Crack one egg into each hole.\n" +
+            "16. Cover the pan.\n" +
+            "17. Cook until eggs are set.\n" +
+            "18. Sprinkle with fresh coriander.\n" +
+            "19. Remove from heat.\n" +
+            "20. Serve hot with bread."
     },
+
     nl: {
-        title: "Kefta met Eieren",
-        equipment: ["1 pan", "1 kom", "1 houten lepel", "1 mes", "1 snijplank"],
+        title: "Marokkaanse Kefta met Eieren",
+        equipment: [
+            "1 pan",
+            "1 kom",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
-            "500 g gehakt (rund- of lamsvlees)",
-            "1 ui fijngehakt",
+            "500 g gehakt (rund of lam)",
+            "1 ui, fijngehakt",
             "2 teentjes knoflook, gehakt",
             "1 theelepel paprika",
             "1 theelepel komijn",
             "1/2 theelepel gember",
             "Zout en peper",
             "4 eieren",
-            "Enkele takjes verse koriander",
+            "Verse koriander",
             "2 eetlepels olijfolie"
         ],
         preparation:
-            "1. Meng het vlees met ui, knoflook, kruiden, zout en peper.\n" +
-            "2. Vorm kleine balletjes of schijfjes.\n" +
-            "3. Verhit olie in een pan en bak de balletjes 5-7 minuten.\n" +
-            "4. Voeg wat water toe en laat 5 minuten sudderen.\n" +
-            "5. Breek de eieren over de balletjes, dek af en kook op laag vuur tot de eieren gestold zijn.\n" +
-            "6. Bestrooi met verse koriander en serveer heet met brood."
+            "1. Pel en hak de ui fijn.\n" +
+            "2. Pel en hak de knoflook.\n" +
+            "3. Doe het gehakt in een kom.\n" +
+            "4. Voeg ui en knoflook toe.\n" +
+            "5. Voeg kruiden toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Meng goed.\n" +
+            "8. Vorm kleine balletjes.\n" +
+            "9. Verhit olie in de pan.\n" +
+            "10. Bak de kefta goudbruin.\n" +
+            "11. Voeg een beetje water toe.\n" +
+            "12. Laat 5 minuten sudderen.\n" +
+            "13. Maak kuiltjes tussen het vlees.\n" +
+            "14. Breek de eieren erin.\n" +
+            "15. Dek af.\n" +
+            "16. Laat garen tot de eieren gestold zijn.\n" +
+            "17. Bestrooi met koriander.\n" +
+            "18. Haal van het vuur.\n" +
+            "19. Serveer warm met brood."
     },
+
     ar: {
-        title: "كفتة بالبيض",
-        equipment: ["مقلاة", "وعاء", "ملعقة خشبية", "سكين", "لوح تقطيع"],
+        title: "كفتة مغربية بالبيض",
+        equipment: [
+            "مقلاة",
+            "وعاء",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
-            "500 غ لحم مفروم (بقر أو غنم)",
-            "1 بصلة مفرومة ناعماً",
-            "2 فص ثوم، مفروم",
-            "1 ملعقة صغيرة فلفل أحمر",
-            "1 ملعقة صغيرة كمون",
-            "1/2 ملعقة صغيرة زنجبيل",
+            "500 غ لحم مفروم",
+            "بصلة مفرومة ناعماً",
+            "2 فص ثوم مفروم",
+            "ملعقة صغيرة بابريكا",
+            "ملعقة صغيرة كمون",
+            "نصف ملعقة زنجبيل",
             "ملح وفلفل",
             "4 بيضات",
-            "بضع سيقان كزبرة طازجة",
+            "كزبرة طازجة",
             "2 ملاعق زيت زيتون"
         ],
         preparation:
-            "1. اخلط اللحم مع البصل والثوم والتوابل والملح والفلفل.\n" +
-            "2. شكّل كرات صغيرة أو أقراص.\n" +
-            "3. سخّن الزيت في المقلاة واقلِ الكفتة 5-7 دقائق.\n" +
-            "4. أضف قليل من الماء واتركها على نار هادئة 5 دقائق.\n" +
-            "5. اكسر البيض فوق الكفتة، غطّ واتركه ينضج على نار هادئة.\n" +
-            "6. رش الكزبرة الطازجة وقدّمها ساخنة مع الخبز."
+            "1. قشّر وافرُم البصل.\n" +
+            "2. قشّر وافرُم الثوم.\n" +
+            "3. ضع اللحم في الوعاء.\n" +
+            "4. أضف البصل والثوم.\n" +
+            "5. أضف التوابل.\n" +
+            "6. أضف الملح والفلفل.\n" +
+            "7. اخلط جيداً.\n" +
+            "8. شكّل كرات صغيرة.\n" +
+            "9. سخّن الزيت في المقلاة.\n" +
+            "10. اقلي الكفتة حتى تتحمر.\n" +
+            "11. أضف قليلاً من الماء.\n" +
+            "12. اتركها تطهى 5 دقائق.\n" +
+            "13. اصنع فراغات بين اللحم.\n" +
+            "14. اكسر البيض في الفراغات.\n" +
+            "15. غطِّ المقلاة.\n" +
+            "16. اطهِ حتى ينضج البيض.\n" +
+            "17. رش الكزبرة.\n" +
+            "18. ارفع من النار.\n" +
+            "19. قدّم ساخناً مع الخبز."
     }
 };
 recipesData.plat.brochettes = {
     country: "maroc",
     image: "images/brochettes.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "15 min",
+        marinationTime: "30 min",
+        cookTime: "12 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Brochettes marocaines",
-        equipment: ["1 grille ou poêle à grill", "1 bol", "1 pinceau", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "500 g viande (bœuf, agneau ou poulet) coupée en cubes",
-            "2 cuillères à soupe huile d’olive",
-            "2 gousses d’ail, hachées",
-            "1 cuillère à café paprika",
-            "1 cuillère à café cumin",
-            "1/2 cuillère à café gingembre",
-            "Sel et poivre",
+        equipment: [
+            "1 grille ou poêle à grill",
+            "1 bol",
+            "1 pinceau",
+            "1 couteau",
+            "1 planche à découper",
             "Brochettes en bois ou métal"
         ],
+        ingredients: [
+            "500 g de viande (bœuf, agneau ou poulet) coupée en cubes",
+            "2 cuillères à soupe d’huile d’olive",
+            "2 gousses d’ail, hachées",
+            "1 cuillère à café de paprika",
+            "1 cuillère à café de cumin",
+            "1/2 cuillère à café de gingembre",
+            "Sel et poivre"
+        ],
         preparation:
-            "1. Mélanger la viande avec l’huile, l’ail, les épices, sel et poivre, laisser mariner 30 minutes.\n" +
-            "2. Enfiler les cubes de viande sur les brochettes.\n" +
-            "3. Chauffer la grille ou la poêle à feu moyen.\n" +
-            "4. Cuire les brochettes 10-12 minutes en les retournant régulièrement.\n" +
-            "5. Servir chaud avec salade ou pain marocain."
+            "1. Éplucher et hacher finement l’ail.\n" +
+            "2. Mettre la viande dans un bol.\n" +
+            "3. Ajouter l’huile d’olive.\n" +
+            "4. Ajouter l’ail haché.\n" +
+            "5. Ajouter le paprika, le cumin et le gingembre.\n" +
+            "6. Saler et poivrer.\n" +
+            "7. Bien mélanger pour enrober la viande.\n" +
+            "8. Couvrir et laisser mariner 30 minutes.\n" +
+            "9. Enfiler les cubes de viande sur les brochettes.\n" +
+            "10. Chauffer la grille ou la poêle à feu moyen.\n" +
+            "11. Badigeonner légèrement d’huile.\n" +
+            "12. Déposer les brochettes.\n" +
+            "13. Cuire 10 à 12 minutes.\n" +
+            "14. Retourner régulièrement pour une cuisson uniforme.\n" +
+            "15. Retirer du feu.\n" +
+            "16. Servir chaud avec du pain marocain ou une salade."
     },
+
     en: {
         title: "Moroccan Skewers",
-        equipment: ["1 grill or grill pan", "1 bowl", "1 brush", "1 knife", "1 cutting board"],
+        equipment: [
+            "1 grill or grill pan",
+            "1 bowl",
+            "1 brush",
+            "1 knife",
+            "1 cutting board",
+            "Wooden or metal skewers"
+        ],
         ingredients: [
             "500 g meat (beef, lamb, or chicken) cut into cubes",
             "2 tablespoons olive oil",
@@ -3326,19 +5106,37 @@ recipesData.plat.brochettes = {
             "1 teaspoon paprika",
             "1 teaspoon cumin",
             "1/2 teaspoon ginger",
-            "Salt and pepper",
-            "Wooden or metal skewers"
+            "Salt and pepper"
         ],
         preparation:
-            "1. Mix meat with oil, garlic, spices, salt, and pepper, marinate 30 minutes.\n" +
-            "2. Thread meat cubes onto skewers.\n" +
-            "3. Heat grill or pan over medium heat.\n" +
-            "4. Cook skewers 10-12 minutes, turning regularly.\n" +
-            "5. Serve hot with salad or Moroccan bread."
+            "1. Peel and finely chop the garlic.\n" +
+            "2. Place the meat in a bowl.\n" +
+            "3. Add olive oil.\n" +
+            "4. Add chopped garlic.\n" +
+            "5. Add paprika, cumin, and ginger.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Mix well to coat the meat.\n" +
+            "8. Cover and marinate for 30 minutes.\n" +
+            "9. Thread the meat cubes onto skewers.\n" +
+            "10. Heat the grill or pan over medium heat.\n" +
+            "11. Lightly oil the surface.\n" +
+            "12. Place the skewers on the grill.\n" +
+            "13. Cook for 10–12 minutes.\n" +
+            "14. Turn regularly for even cooking.\n" +
+            "15. Remove from heat.\n" +
+            "16. Serve hot with bread or salad."
     },
+
     nl: {
         title: "Marokkaanse Brochettes",
-        equipment: ["1 grill of grillpan", "1 kom", "1 kwast", "1 mes", "1 snijplank"],
+        equipment: [
+            "1 grill of grillpan",
+            "1 kom",
+            "1 kwast",
+            "1 mes",
+            "1 snijplank",
+            "Houten of metalen spiesjes"
+        ],
         ingredients: [
             "500 g vlees (rund, lam of kip) in blokjes",
             "2 eetlepels olijfolie",
@@ -3346,66 +5144,126 @@ recipesData.plat.brochettes = {
             "1 theelepel paprika",
             "1 theelepel komijn",
             "1/2 theelepel gember",
-            "Zout en peper",
-            "Houten of metalen spiesjes"
+            "Zout en peper"
         ],
         preparation:
-            "1. Meng het vlees met olie, knoflook, kruiden, zout en peper, laat 30 minuten marineren.\n" +
-            "2. Rijg de vleesblokjes aan de spiesjes.\n" +
-            "3. Verhit de grill of pan op middelhoog vuur.\n" +
-            "4. Bak de brochettes 10-12 minuten, regelmatig keren.\n" +
-            "5. Serveer heet met salade of Marokkaans brood."
+            "1. Pel en hak de knoflook fijn.\n" +
+            "2. Doe het vlees in een kom.\n" +
+            "3. Voeg olijfolie toe.\n" +
+            "4. Voeg knoflook toe.\n" +
+            "5. Voeg kruiden toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Meng goed.\n" +
+            "8. Laat 30 minuten marineren.\n" +
+            "9. Rijg het vlees aan de spiesjes.\n" +
+            "10. Verhit de grill of pan.\n" +
+            "11. Vet licht in.\n" +
+            "12. Bak de brochettes.\n" +
+            "13. Draai regelmatig om.\n" +
+            "14. Bak 10–12 minuten.\n" +
+            "15. Haal van het vuur.\n" +
+            "16. Serveer warm met brood of salade."
     },
+
     ar: {
         title: "أسياخ مغربية",
-        equipment: ["شواية أو مقلاة للشوي", "وعاء", "فرشاة", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "500 غ لحم (بقر، غنم أو دجاج) مقطع مكعبات",
-            "2 ملاعق زيت زيتون",
-            "2 فصوص ثوم، مفرومة",
-            "1 ملعقة صغيرة فلفل أحمر",
-            "1 ملعقة صغيرة كمون",
-            "1/2 ملعقة صغيرة زنجبيل",
-            "ملح وفلفل",
+        equipment: [
+            "شواية أو مقلاة للشوي",
+            "وعاء",
+            "فرشاة",
+            "سكين",
+            "لوح تقطيع",
             "أسياخ خشبية أو معدنية"
         ],
+        ingredients: [
+            "500 غ لحم (بقر أو غنم أو دجاج) مقطع مكعبات",
+            "2 ملاعق زيت زيتون",
+            "2 فص ثوم مفروم",
+            "ملعقة صغيرة بابريكا",
+            "ملعقة صغيرة كمون",
+            "نصف ملعقة زنجبيل",
+            "ملح وفلفل"
+        ],
         preparation:
-            "1. اخلط اللحم مع الزيت والثوم والتوابل والملح والفلفل، واتركه يتبل 30 دقيقة.\n" +
-            "2. ضع مكعبات اللحم على الأسياخ.\n" +
-            "3. سخّن الشواية أو المقلاة على حرارة متوسطة.\n" +
-            "4. اطه الأسياخ 10-12 دقيقة مع التقليب المنتظم.\n" +
-            "5. قدمها ساخنة مع السلطة أو الخبز المغربي."
+            "1. قشّر وافرُم الثوم.\n" +
+            "2. ضع اللحم في الوعاء.\n" +
+            "3. أضف زيت الزيتون.\n" +
+            "4. أضف الثوم.\n" +
+            "5. أضف التوابل.\n" +
+            "6. أضف الملح والفلفل.\n" +
+            "7. اخلط جيداً.\n" +
+            "8. اتركه يتبل 30 دقيقة.\n" +
+            "9. ضع اللحم في الأسياخ.\n" +
+            "10. سخّن الشواية.\n" +
+            "11. ادهنها بالزيت.\n" +
+            "12. ضع الأسياخ.\n" +
+            "13. اطه 10–12 دقيقة.\n" +
+            "14. قلّب بانتظام.\n" +
+            "15. ارفع من النار.\n" +
+            "16. قدّم ساخناً مع الخبز أو السلطة."
     }
 };
 recipesData.plat.mechoui = {
     country: "maroc",
     image: "images/mechoui.jpg",
+
+    meta: {
+        servings: "4 à 6 personnes",
+        prepTime: "15 min",
+        marinationTime: "30 min",
+        cookTime: "1h45",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Mechoui marocain",
-        equipment: ["1 grande rôtissoire ou plat allant au four", "1 couteau", "1 pinceau", "1 plat de service"],
+        equipment: [
+            "1 grande rôtissoire ou plat allant au four",
+            "1 couteau",
+            "1 pinceau",
+            "1 plat de service",
+            "Papier aluminium"
+        ],
         ingredients: [
             "1 kg d’agneau entier ou épaules de mouton",
             "4 gousses d’ail, hachées",
-            "2 cuillères à soupe huile d’olive",
-            "1 cuillère à café cumin",
-            "1 cuillère à café paprika",
-            "1/2 cuillère à café gingembre",
+            "2 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de cumin",
+            "1 cuillère à café de paprika",
+            "1/2 cuillère à café de gingembre",
             "Sel et poivre",
             "Quelques brins de coriandre fraîche"
         ],
         preparation:
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger l’ail, les épices, sel, poivre et l’huile pour faire une marinade.\n" +
-            "3. Enduire l’agneau avec la marinade, frotter sur toute la surface.\n" +
-            "4. Placer l’agneau dans la rôtissoire.\n" +
-            "5. Couvrir légèrement avec du papier aluminium et cuire 1h30 à 2h, arroser de temps en temps avec le jus.\n" +
-            "6. Retirer le papier aluminium pour les 20 dernières minutes pour dorer la viande.\n" +
-            "7. Vérifier que la viande est bien tendre.\n" +
-            "8. Servir chaud, garni de coriandre fraîche."
+            "2. Éplucher et hacher finement l’ail.\n" +
+            "3. Mettre l’ail dans un bol.\n" +
+            "4. Ajouter l’huile d’olive.\n" +
+            "5. Ajouter le cumin, le paprika et le gingembre.\n" +
+            "6. Saler et poivrer.\n" +
+            "7. Bien mélanger pour obtenir une marinade.\n" +
+            "8. Déposer l’agneau dans la rôtissoire.\n" +
+            "9. Badigeonner toute la viande avec la marinade.\n" +
+            "10. Masser la viande pour bien faire pénétrer les épices.\n" +
+            "11. Couvrir légèrement avec du papier aluminium.\n" +
+            "12. Enfourner pendant 1h30.\n" +
+            "13. Arroser la viande avec son jus toutes les 30 minutes.\n" +
+            "14. Retirer le papier aluminium.\n" +
+            "15. Remettre au four 15–20 minutes pour dorer.\n" +
+            "16. Vérifier que la viande est bien tendre.\n" +
+            "17. Parsemer de coriandre fraîche.\n" +
+            "18. Servir chaud dans un plat de service."
     },
+
     en: {
         title: "Moroccan Mechoui",
-        equipment: ["1 large roasting pan or oven dish", "1 knife", "1 brush", "1 serving plate"],
+        equipment: [
+            "1 large roasting pan or oven dish",
+            "1 knife",
+            "1 brush",
+            "1 serving plate",
+            "Aluminum foil"
+        ],
         ingredients: [
             "1 kg whole lamb or lamb shoulder",
             "4 garlic cloves, chopped",
@@ -3417,18 +5275,35 @@ recipesData.plat.mechoui = {
             "Some fresh coriander sprigs"
         ],
         preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Mix garlic, spices, salt, pepper, and oil to make a marinade.\n" +
-            "3. Rub the lamb with the marinade over all surfaces.\n" +
-            "4. Place the lamb in the roasting pan.\n" +
-            "5. Cover lightly with aluminum foil and cook 1.5–2 hours, basting occasionally.\n" +
-            "6. Remove foil for the last 20 minutes to brown the meat.\n" +
-            "7. Check that the meat is tender.\n" +
-            "8. Serve hot, garnished with fresh coriander."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Peel and finely chop the garlic.\n" +
+            "3. Place garlic in a bowl.\n" +
+            "4. Add olive oil.\n" +
+            "5. Add cumin, paprika, and ginger.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Mix well to make a marinade.\n" +
+            "8. Place the lamb in the roasting pan.\n" +
+            "9. Brush the meat with the marinade.\n" +
+            "10. Massage the meat to absorb the spices.\n" +
+            "11. Cover lightly with aluminum foil.\n" +
+            "12. Roast for 1.5 hours.\n" +
+            "13. Baste every 30 minutes.\n" +
+            "14. Remove the foil.\n" +
+            "15. Roast another 15–20 minutes to brown.\n" +
+            "16. Check tenderness.\n" +
+            "17. Garnish with fresh coriander.\n" +
+            "18. Serve hot."
     },
+
     nl: {
         title: "Marokkaanse Mechoui",
-        equipment: ["1 grote braadslede of ovenschaal", "1 mes", "1 kwast", "1 serveerschaal"],
+        equipment: [
+            "1 grote braadslede of ovenschaal",
+            "1 mes",
+            "1 kwast",
+            "1 serveerschaal",
+            "Aluminiumfolie"
+        ],
         ingredients: [
             "1 kg hele lam of lamschouder",
             "4 teentjes knoflook, gehakt",
@@ -3437,121 +5312,242 @@ recipesData.plat.mechoui = {
             "1 theelepel paprika",
             "1/2 theelepel gember",
             "Zout en peper",
-            "Enkele takjes verse koriander"
+            "Verse koriander"
         ],
         preparation:
             "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Meng knoflook, kruiden, zout, peper en olie tot marinade.\n" +
-            "3. Wrijf het lam in met de marinade over het hele oppervlak.\n" +
-            "4. Plaats het lam in de braadslede.\n" +
-            "5. Dek licht af met aluminiumfolie en bak 1,5–2 uur, af en toe bedruipen.\n" +
-            "6. Verwijder folie voor de laatste 20 minuten om het vlees te bruinen.\n" +
-            "7. Controleer of het vlees mals is.\n" +
-            "8. Serveer heet, gegarneerd met verse koriander."
+            "2. Pel en hak de knoflook fijn.\n" +
+            "3. Doe de knoflook in een kom.\n" +
+            "4. Voeg olijfolie toe.\n" +
+            "5. Voeg kruiden toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Meng goed tot marinade.\n" +
+            "8. Leg het lam in de braadslede.\n" +
+            "9. Bestrijk met marinade.\n" +
+            "10. Masseer het vlees.\n" +
+            "11. Dek licht af met folie.\n" +
+            "12. Bak 1,5 uur.\n" +
+            "13. Bedruip elke 30 minuten.\n" +
+            "14. Verwijder folie.\n" +
+            "15. Bak nog 15–20 minuten.\n" +
+            "16. Controleer gaarheid.\n" +
+            "17. Garneer met koriander.\n" +
+            "18. Serveer heet."
     },
+
     ar: {
         title: "المشوي المغربي",
-        equipment: ["صينية تحميص كبيرة أو وعاء فرن", "سكين", "فرشاة", "طبق للتقديم"],
+        equipment: [
+            "صينية تحميص أو وعاء فرن",
+            "سكين",
+            "فرشاة",
+            "طبق تقديم",
+            "ورق ألمنيوم"
+        ],
         ingredients: [
             "1 كغ لحم ضأن كامل أو كتف ضأن",
-            "4 فصوص ثوم، مفرومة",
+            "4 فصوص ثوم مفرومة",
             "2 ملاعق زيت زيتون",
-            "1 ملعقة صغيرة كمون",
-            "1 ملعقة صغيرة فلفل أحمر",
-            "1/2 ملعقة صغيرة زنجبيل",
+            "ملعقة صغيرة كمون",
+            "ملعقة صغيرة بابريكا",
+            "نصف ملعقة زنجبيل",
             "ملح وفلفل",
-            "بضع سيقان كزبرة طازجة"
+            "كزبرة طازجة"
         ],
         preparation:
             "1. سخّن الفرن على 180°م.\n" +
-            "2. اخلط الثوم، التوابل، الملح، الفلفل والزيت لتحضير التتبيلة.\n" +
-            "3. ادهن الضأن بالتتبيلة على كل السطح.\n" +
-            "4. ضع الضأن في صينية التحميص.\n" +
-            "5. غطِه قليلاً بورق الألمنيوم واخبزه 1.5–2 ساعة، مع دهنه أحياناً.\n" +
-            "6. أزل ورق الألمنيوم في آخر 20 دقيقة لتحمير اللحم.\n" +
-            "7. تحقق من أن اللحم طري.\n" +
-            "8. قدمه ساخناً، مزين بالكزبرة الطازجة."
+            "2. قشّر الثوم وافرمه ناعماً.\n" +
+            "3. ضع الثوم في وعاء.\n" +
+            "4. أضف زيت الزيتون.\n" +
+            "5. أضف التوابل.\n" +
+            "6. أضف الملح والفلفل.\n" +
+            "7. اخلط جيداً.\n" +
+            "8. ضع اللحم في الصينية.\n" +
+            "9. ادهنه بالتتبيلة.\n" +
+            "10. دلّك اللحم جيداً.\n" +
+            "11. غطّه بورق الألمنيوم.\n" +
+            "12. اطهه ساعة ونصف.\n" +
+            "13. اسقِه بالعصارة كل 30 دقيقة.\n" +
+            "14. أزل الورق.\n" +
+            "15. اطهه 15–20 دقيقة إضافية.\n" +
+            "16. تأكد من الطراوة.\n" +
+            "17. زيّنه بالكزبرة.\n" +
+            "18. قدّمه ساخناً."
     }
 };
+
+
+
+
 
 recipesData.dessert.orangeCannelle = {
     country: "maroc",
     image: "images/orange-cannelle.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "10 min",
+        cookTime: "0 min",
+        difficulty: "Facile"
+    },
+
     fr: {
-        title: "Orange à la cannelle (4 personnes)",
-        equipment: ["1 couteau", "1 planche à découper", "1 saladier"],
+        title: "Orange à la cannelle",
+        equipment: [
+            "1 couteau",
+            "1 planche à découper",
+            "1 saladier"
+        ],
         ingredients: [
             "4 oranges moyennes",
-            "1 cuillère à café cannelle moulue (2 g)",
-            "1 cuillère à soupe sucre (15 g)"
+            "1 cuillère à café de cannelle moulue (2 g)",
+            "1 cuillère à soupe de sucre (15 g)"
         ],
         preparation:
-            "Cette recette est prévue pour 4 personnes. Éplucher les oranges. Les couper en rondelles. Les disposer dans un saladier. Saupoudrer de sucre puis de cannelle. Mélanger légèrement. Servir frais."
+            "1. Laver les oranges.\n" +
+            "2. Éplucher les oranges.\n" +
+            "3. Couper les oranges en rondelles.\n" +
+            "4. Placer les rondelles dans un saladier.\n" +
+            "5. Saupoudrer le sucre sur les oranges.\n" +
+            "6. Ajouter la cannelle.\n" +
+            "7. Mélanger délicatement.\n" +
+            "8. Mettre au frais 15 minutes (optionnel).\n" +
+            "9. Servir bien frais."
     },
+
     en: {
-        title: "Orange with Cinnamon (Serves 4)",
-        equipment: ["1 knife", "1 cutting board", "1 bowl"],
+        title: "Orange with Cinnamon",
+        equipment: [
+            "1 knife",
+            "1 cutting board",
+            "1 bowl"
+        ],
         ingredients: [
             "4 medium oranges",
             "1 teaspoon ground cinnamon (2 g)",
             "1 tablespoon sugar (15 g)"
         ],
         preparation:
-            "This recipe serves 4 people. Peel oranges. Slice them. Place in a bowl. Sprinkle sugar and cinnamon. Mix gently. Serve fresh."
+            "1. Wash the oranges.\n" +
+            "2. Peel the oranges.\n" +
+            "3. Slice the oranges.\n" +
+            "4. Place the slices in a bowl.\n" +
+            "5. Sprinkle sugar over the oranges.\n" +
+            "6. Add cinnamon.\n" +
+            "7. Mix gently.\n" +
+            "8. Chill for 15 minutes (optional).\n" +
+            "9. Serve fresh."
     },
+
     nl: {
-        title: "Sinaasappel met kaneel (voor 4 personen)",
-        equipment: ["1 mes", "1 snijplank", "1 kom"],
+        title: "Sinaasappel met kaneel",
+        equipment: [
+            "1 mes",
+            "1 snijplank",
+            "1 kom"
+        ],
         ingredients: [
             "4 sinaasappels",
             "1 theelepel kaneel (2 g)",
             "1 eetlepel suiker (15 g)"
         ],
         preparation:
-            "Dit recept is voor 4 personen. Schil de sinaasappels. Snijd in plakjes. Doe in een kom. Bestrooi met suiker en kaneel. Meng lichtjes. Serveer koud."
+            "1. Was de sinaasappels.\n" +
+            "2. Schil de sinaasappels.\n" +
+            "3. Snijd ze in plakjes.\n" +
+            "4. Doe de plakjes in een kom.\n" +
+            "5. Strooi suiker over de sinaasappels.\n" +
+            "6. Voeg kaneel toe.\n" +
+            "7. Meng voorzichtig.\n" +
+            "8. Zet 15 minuten in de koelkast (optioneel).\n" +
+            "9. Serveer fris."
     },
+
     ar: {
-        title: "برتقال بالقرفة (يكفي 4 أشخاص)",
-        equipment: ["سكين", "لوح تقطيع", "وعاء"],
+        title: "برتقال بالقرفة",
+        equipment: [
+            "سكين",
+            "لوح تقطيع",
+            "وعاء"
+        ],
         ingredients: [
             "4 برتقالات",
             "ملعقة صغيرة قرفة (2غ)",
             "ملعقة كبيرة سكر (15غ)"
         ],
         preparation:
-            "هذه الوصفة تكفي 4 أشخاص. قشر البرتقال وقطعه. ضع في وعاء. أضف السكر والقرفة. امزج بلطف. يقدم بارداً."
+            "1. اغسل البرتقال جيداً.\n" +
+            "2. قشّر البرتقال.\n" +
+            "3. قطّعه إلى شرائح.\n" +
+            "4. ضع الشرائح في وعاء.\n" +
+            "5. رشّ السكر فوق البرتقال.\n" +
+            "6. أضف القرفة.\n" +
+            "7. امزج بلطف.\n" +
+            "8. ضع في الثلاجة 15 دقيقة (اختياري).\n" +
+            "9. قدّم بارداً."
     }
 };
 recipesData.dessert.chebakia = {
     country: "maroc",
     image: "images/chebakia.jpg",
+
+    meta: {
+        servings: "8 à 10 personnes",
+        prepTime: "45 min",
+        cookTime: "20 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
-        title: "Chebakia (pâtisserie au miel et sésame)",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 casserole", "1 cuillère en bois", "1 passoire"],
+        title: "Chebakia marocaine (pâtisserie au miel et sésame)",
+        equipment: [
+            "1 bol",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 casserole",
+            "1 cuillère en bois",
+            "1 passoire"
+        ],
         ingredients: [
-            "500 g farine",
-            "100 g graines de sésame grillées",
-            "100 g beurre fondu",
-            "100 g miel",
-            "1 cuillère à café cannelle",
-            "1/2 cuillère à café gomme arabique en poudre",
+            "500 g de farine",
+            "100 g de graines de sésame grillées",
+            "100 g de beurre fondu",
+            "100 g de miel",
+            "1 cuillère à café de cannelle",
+            "1/2 cuillère à café de gomme arabique en poudre",
             "1 pincée de sel",
-            "1 cuillère à café levure chimique",
+            "1 cuillère à café de levure chimique",
             "Eau tiède selon besoin",
             "Huile pour friture"
         ],
         preparation:
-            "1. Mélanger la farine, sésame, cannelle, gomme arabique, sel et levure.\n" +
-            "2. Ajouter le beurre fondu et l’eau tiède pour obtenir une pâte souple.\n" +
-            "3. Étaler la pâte et découper en bandes, former des fleurs ou formes traditionnelles.\n" +
-            "4. Chauffer l’huile et frire les chebakia jusqu’à dorure.\n" +
-            "5. Égoutter sur papier absorbant.\n" +
-            "6. Tremper immédiatement dans le miel chauffé, saupoudrer de sésame.\n" +
-            "7. Laisser refroidir avant de servir."
+            "1. Mettre la farine dans un grand bol.\n" +
+            "2. Ajouter le sésame grillé, la cannelle, la gomme arabique, le sel et la levure.\n" +
+            "3. Mélanger les ingrédients secs.\n" +
+            "4. Ajouter le beurre fondu.\n" +
+            "5. Verser progressivement de l’eau tiède.\n" +
+            "6. Pétrir jusqu’à obtenir une pâte souple.\n" +
+            "7. Étaler la pâte finement au rouleau.\n" +
+            "8. Découper en bandes et former les formes traditionnelles.\n" +
+            "9. Chauffer l’huile dans une casserole.\n" +
+            "10. Faire frire les chebakia jusqu’à ce qu’elles soient dorées.\n" +
+            "11. Égoutter sur du papier absorbant.\n" +
+            "12. Chauffer légèrement le miel.\n" +
+            "13. Tremper immédiatement les chebakia dans le miel.\n" +
+            "14. Saupoudrer de sésame.\n" +
+            "15. Laisser refroidir avant de servir."
     },
+
     en: {
-        title: "Chebakia (honey and sesame pastry)",
-        equipment: ["1 bowl", "1 rolling pin", "1 knife", "1 saucepan", "1 wooden spoon", "1 strainer"],
+        title: "Moroccan Chebakia (Honey and Sesame Pastry)",
+        equipment: [
+            "1 bowl",
+            "1 rolling pin",
+            "1 knife",
+            "1 saucepan",
+            "1 wooden spoon",
+            "1 strainer"
+        ],
         ingredients: [
             "500 g flour",
             "100 g toasted sesame seeds",
@@ -3565,17 +5561,33 @@ recipesData.dessert.chebakia = {
             "Oil for frying"
         ],
         preparation:
-            "1. Mix flour, sesame, cinnamon, gum arabic, salt, and baking powder.\n" +
-            "2. Add melted butter and warm water to make a soft dough.\n" +
-            "3. Roll out dough and cut into strips, form flowers or traditional shapes.\n" +
-            "4. Heat oil and fry chebakia until golden.\n" +
-            "5. Drain on paper towels.\n" +
-            "6. Immediately dip in warm honey, sprinkle with sesame.\n" +
-            "7. Let cool before serving."
+            "1. Place flour in a large bowl.\n" +
+            "2. Add sesame, cinnamon, gum arabic, salt, and baking powder.\n" +
+            "3. Mix the dry ingredients.\n" +
+            "4. Add melted butter.\n" +
+            "5. Gradually add warm water.\n" +
+            "6. Knead into a soft dough.\n" +
+            "7. Roll out the dough thinly.\n" +
+            "8. Cut into strips and shape traditionally.\n" +
+            "9. Heat oil in a pan.\n" +
+            "10. Fry until golden.\n" +
+            "11. Drain on paper towels.\n" +
+            "12. Warm the honey slightly.\n" +
+            "13. Dip pastries in honey.\n" +
+            "14. Sprinkle with sesame.\n" +
+            "15. Let cool before serving."
     },
+
     nl: {
-        title: "Chebakia (honing- en sesamgebak)",
-        equipment: ["1 kom", "1 deegroller", "1 mes", "1 steelpan", "1 houten lepel", "1 zeef"],
+        title: "Marokkaanse Chebakia (honing- en sesamgebak)",
+        equipment: [
+            "1 kom",
+            "1 deegroller",
+            "1 mes",
+            "1 steelpan",
+            "1 houten lepel",
+            "1 zeef"
+        ],
         ingredients: [
             "500 g bloem",
             "100 g geroosterde sesamzaadjes",
@@ -3589,149 +5601,128 @@ recipesData.dessert.chebakia = {
             "Olie om te frituren"
         ],
         preparation:
-            "1. Meng bloem, sesam, kaneel, arabische gom, zout en bakpoeder.\n" +
-            "2. Voeg gesmolten boter en lauw water toe voor een soepel deeg.\n" +
-            "3. Rol het deeg uit en snijd in stroken, vorm bloemen of traditionele vormen.\n" +
-            "4. Verhit olie en frituur chebakia tot goudbruin.\n" +
-            "5. Laat uitlekken op keukenpapier.\n" +
-            "6. Doop direct in warme honing, bestrooi met sesam.\n" +
-            "7. Laat afkoelen voor het serveren."
+            "1. Doe de bloem in een grote kom.\n" +
+            "2. Voeg sesam, kaneel, gom, zout en bakpoeder toe.\n" +
+            "3. Meng de droge ingrediënten.\n" +
+            "4. Voeg de gesmolten boter toe.\n" +
+            "5. Voeg geleidelijk lauw water toe.\n" +
+            "6. Kneed tot een soepel deeg.\n" +
+            "7. Rol het deeg dun uit.\n" +
+            "8. Snijd in stroken en vorm traditioneel.\n" +
+            "9. Verhit olie in de pan.\n" +
+            "10. Frituur tot goudbruin.\n" +
+            "11. Laat uitlekken op keukenpapier.\n" +
+            "12. Verwarm de honing licht.\n" +
+            "13. Doop de chebakia in de honing.\n" +
+            "14. Bestrooi met sesam.\n" +
+            "15. Laat afkoelen voor het serveren."
     },
+
     ar: {
-        title: "الشباكية",
-        equipment: ["وعاء", "شوبك العجين", "سكين", "قدر", "ملعقة خشبية", "مصفاة"],
+        title: "الشباكية المغربية",
+        equipment: [
+            "وعاء",
+            "شوبك العجين",
+            "سكين",
+            "قدر",
+            "ملعقة خشبية",
+            "مصفاة"
+        ],
         ingredients: [
             "500 غ دقيق",
-            "100 غ بذور سمسم محمصة",
+            "100 غ سمسم محمص",
             "100 غ زبدة مذابة",
             "100 غ عسل",
-            "1 ملعقة صغيرة قرفة",
-            "1/2 ملعقة صغيرة صمغ عربي مطحون",
+            "ملعقة صغيرة قرفة",
+            "نصف ملعقة صغيرة صمغ عربي مطحون",
             "رشة ملح",
-            "1 ملعقة صغيرة خميرة كيميائية",
+            "ملعقة صغيرة خميرة كيميائية",
             "ماء دافئ حسب الحاجة",
             "زيت للقلي"
         ],
         preparation:
-            "1. اخلط الدقيق، السمسم، القرفة، الصمغ العربي، الملح والخميرة.\n" +
-            "2. أضف الزبدة المذابة والماء الدافئ للحصول على عجين لين.\n" +
-            "3. افرد العجين وقطعه إلى شرائط، شكل زهور أو الأشكال التقليدية.\n" +
-            "4. سخّن الزيت واقلِ الشباكية حتى يصبح لونها ذهبي.\n" +
-            "5. صفّها على ورق ماص.\n" +
-            "6. اغمسها فوراً في العسل الدافئ، ورش السمسم.\n" +
-            "7. اتركها تبرد قبل التقديم."
-    }
-};
-recipesData.dessert.kaabElGhazal = {
-    country: "maroc",
-    image: "images/kaab.jpg",
-    fr: {
-        title: "Kaab el Ghazal (cornes de gazelle)",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 four", "1 planche à découper"],
-        ingredients: [
-            "250 g farine",
-            "125 g beurre fondu",
-            "1 pincée de sel",
-            "Eau de fleur d’oranger pour pétrir",
-            "200 g pâte d’amande nature ou parfumée à la cannelle",
-            "Sucre glace pour saupoudrer"
-        ],
-        preparation:
-            "1. Mélanger la farine et le sel, ajouter le beurre et pétrir avec eau de fleur d’oranger pour obtenir une pâte souple.\n" +
-            "2. Étaler la pâte très finement et découper des rectangles.\n" +
-            "3. Former des bâtonnets de pâte d’amande et les placer sur chaque rectangle.\n" +
-            "4. Rouler et plier en forme de croissant.\n" +
-            "5. Cuire au four préchauffé à 180°C pendant 15-20 minutes.\n" +
-            "6. Laisser refroidir et saupoudrer de sucre glace avant de servir."
-    },
-    en: {
-        title: "Kaab el Ghazal (Gazelle Horns)",
-        equipment: ["1 bowl", "1 rolling pin", "1 knife", "1 oven", "1 cutting board"],
-        ingredients: [
-            "250 g flour",
-            "125 g melted butter",
-            "Pinch of salt",
-            "Orange blossom water for kneading",
-            "200 g plain or cinnamon almond paste",
-            "Powdered sugar for dusting"
-        ],
-        preparation:
-            "1. Mix flour and salt, add butter and knead with orange blossom water to make a soft dough.\n" +
-            "2. Roll dough very thin and cut rectangles.\n" +
-            "3. Form almond paste sticks and place on each rectangle.\n" +
-            "4. Roll and fold into crescent shapes.\n" +
-            "5. Bake in preheated oven at 180°C for 15-20 minutes.\n" +
-            "6. Let cool and dust with powdered sugar before serving."
-    },
-    nl: {
-        title: "Kaab el Ghazal (Gazellehoorns)",
-        equipment: ["1 kom", "1 deegroller", "1 mes", "1 oven", "1 snijplank"],
-        ingredients: [
-            "250 g bloem",
-            "125 g gesmolten boter",
-            "Snufje zout",
-            "Bloemwater voor kneden",
-            "200 g amandelpasta naturel of met kaneel",
-            "Poedersuiker om te bestuiven"
-        ],
-        preparation:
-            "1. Meng bloem en zout, voeg boter toe en kneed met bloemwater tot een soepel deeg.\n" +
-            "2. Rol het deeg zeer dun uit en snijd rechthoeken.\n" +
-            "3. Vorm amandelpasta-stokjes en leg ze op elke rechthoek.\n" +
-            "4. Rol en vouw tot halve maan vormen.\n" +
-            "5. Bak in voorverwarmde oven op 180°C gedurende 15-20 minuten.\n" +
-            "6. Laat afkoelen en bestuif met poedersuiker voor het serveren."
-    },
-    ar: {
-        title: "كعب الغزال",
-        equipment: ["وعاء", "شوبك العجين", "سكين", "فرن", "لوح تقطيع"],
-        ingredients: [
-            "250 غ دقيق",
-            "125 غ زبدة مذابة",
-            "رشة ملح",
-            "ماء زهر للخلط",
-            "200 غ عجينة لوز طبيعية أو بنكهة القرفة",
-            "سكر بودرة للرش"
-        ],
-        preparation:
-            "1. اخلط الدقيق والملح، أضف الزبدة واعجن مع ماء الزهر للحصول على عجين لين.\n" +
-            "2. افرد العجين رقيقاً جداً وقطع مستطيلات.\n" +
-            "3. شكّل عجينة اللوز على شكل أصابع وضعها على كل مستطيل.\n" +
-            "4. لف واصنع شكل الهلال.\n" +
-            "5. اخبز في فرن مسخن على 180°م لمدة 15-20 دقيقة.\n" +
-            "6. اتركه يبرد ورش السكر البودرة قبل التقديم."
+            "1. ضع الدقيق في وعاء كبير.\n" +
+            "2. أضف السمسم والقرفة والصمغ العربي والملح والخميرة.\n" +
+            "3. اخلط المكونات الجافة.\n" +
+            "4. أضف الزبدة المذابة.\n" +
+            "5. أضف الماء الدافئ تدريجياً.\n" +
+            "6. اعجن حتى تحصل على عجين طري.\n" +
+            "7. افرد العجين بشكل رقيق.\n" +
+            "8. قطّعه إلى شرائط وشكّله تقليدياً.\n" +
+            "9. سخّن الزيت.\n" +
+            "10. اقلي الشباكية حتى تصبح ذهبية.\n" +
+            "11. صفّها على ورق ماص.\n" +
+            "12. سخّن العسل قليلاً.\n" +
+            "13. اغمس الشباكية في العسل.\n" +
+            "14. رشّ السمسم فوقها.\n" +
+            "15. اتركها تبرد قبل التقديم."
     }
 };
 recipesData.dessert.fekkas = {
     country: "maroc",
     image: "images/fekkas.jpg",
+
+    meta: {
+        servings: "8 à 10 personnes",
+        prepTime: "20 min",
+        cookTime: "30 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Fekkas aux amandes et raisins secs",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 four", "1 planche à découper", "1 plaque de cuisson"],
+        equipment: [
+            "1 grand bol",
+            "1 fouet",
+            "1 couteau",
+            "1 planche à découper",
+            "1 plaque de cuisson",
+            "1 four"
+        ],
         ingredients: [
-            "250 g farine",
-            "125 g beurre fondu",
+            "250 g de farine",
+            "125 g de beurre fondu",
             "2 œufs",
-            "100 g sucre",
-            "1 cuillère à café levure chimique",
-            "50 g raisins secs",
-            "50 g amandes concassées",
+            "100 g de sucre",
+            "1 cuillère à café de levure chimique",
+            "50 g de raisins secs",
+            "50 g d’amandes concassées",
             "1 pincée de sel",
-            "1 cuillère à café vanille"
+            "1 cuillère à café de vanille"
         ],
         preparation:
-            "1. Mélanger la farine, levure et sel.\n" +
-            "2. Dans un autre bol, battre les œufs avec le sucre et la vanille.\n" +
-            "3. Ajouter le beurre fondu et mélanger.\n" +
-            "4. Incorporer les ingrédients secs et les fruits secs pour obtenir une pâte homogène.\n" +
-            "5. Former des boudins sur une plaque de cuisson.\n" +
-            "6. Cuire à 180°C pendant 20 minutes.\n" +
-            "7. Sortir du four, couper en tranches et remettre 10 minutes au four pour dorer.\n" +
-            "8. Laisser refroidir avant de servir."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Verser la farine, la levure et le sel dans un grand bol.\n" +
+            "3. Mélanger les ingrédients secs.\n" +
+            "4. Dans un autre bol, casser les œufs.\n" +
+            "5. Ajouter le sucre et la vanille.\n" +
+            "6. Fouetter jusqu’à obtenir un mélange clair.\n" +
+            "7. Ajouter le beurre fondu.\n" +
+            "8. Mélanger jusqu’à homogénéité.\n" +
+            "9. Incorporer progressivement les ingrédients secs.\n" +
+            "10. Ajouter les raisins secs et les amandes.\n" +
+            "11. Mélanger pour obtenir une pâte ferme.\n" +
+            "12. Former deux longs boudins de pâte.\n" +
+            "13. Déposer-les sur une plaque recouverte de papier cuisson.\n" +
+            "14. Aplatir légèrement les boudins.\n" +
+            "15. Enfourner pendant 20 minutes.\n" +
+            "16. Sortir du four et laisser tiédir 5 minutes.\n" +
+            "17. Couper en tranches de 1 cm.\n" +
+            "18. Disposer les tranches à plat sur la plaque.\n" +
+            "19. Remettre au four 10 minutes pour dorer.\n" +
+            "20. Laisser refroidir complètement avant de servir."
     },
+
     en: {
         title: "Fekkas with Almonds and Raisins",
-        equipment: ["1 bowl", "1 rolling pin", "1 knife", "1 oven", "1 cutting board", "1 baking tray"],
+        equipment: [
+            "1 large bowl",
+            "1 whisk",
+            "1 knife",
+            "1 cutting board",
+            "1 baking tray",
+            "1 oven"
+        ],
         ingredients: [
             "250 g flour",
             "125 g melted butter",
@@ -3744,18 +5735,38 @@ recipesData.dessert.fekkas = {
             "1 teaspoon vanilla"
         ],
         preparation:
-            "1. Mix flour, baking powder, and salt.\n" +
-            "2. In another bowl, beat eggs with sugar and vanilla.\n" +
-            "3. Add melted butter and mix.\n" +
-            "4. Incorporate dry ingredients and dried fruits to form a homogeneous dough.\n" +
-            "5. Shape into logs on a baking tray.\n" +
-            "6. Bake at 180°C for 20 minutes.\n" +
-            "7. Remove from oven, slice, and bake another 10 minutes to brown.\n" +
-            "8. Let cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Add flour, baking powder, and salt to a large bowl.\n" +
+            "3. Mix the dry ingredients.\n" +
+            "4. Crack the eggs into another bowl.\n" +
+            "5. Add sugar and vanilla.\n" +
+            "6. Whisk until light and smooth.\n" +
+            "7. Add melted butter.\n" +
+            "8. Mix well.\n" +
+            "9. Gradually add the dry ingredients.\n" +
+            "10. Add raisins and almonds.\n" +
+            "11. Mix into a firm dough.\n" +
+            "12. Shape into two long logs.\n" +
+            "13. Place them on a lined baking tray.\n" +
+            "14. Flatten slightly.\n" +
+            "15. Bake for 20 minutes.\n" +
+            "16. Remove and let cool for 5 minutes.\n" +
+            "17. Slice into 1 cm pieces.\n" +
+            "18. Lay slices flat on the tray.\n" +
+            "19. Bake another 10 minutes until golden.\n" +
+            "20. Let cool completely before serving."
     },
+
     nl: {
         title: "Fekkas met Amandelen en Rozijnen",
-        equipment: ["1 kom", "1 deegroller", "1 mes", "1 oven", "1 snijplank", "1 bakplaat"],
+        equipment: [
+            "1 grote kom",
+            "1 garde",
+            "1 mes",
+            "1 snijplank",
+            "1 bakplaat",
+            "1 oven"
+        ],
         ingredients: [
             "250 g bloem",
             "125 g gesmolten boter",
@@ -3768,22 +5779,42 @@ recipesData.dessert.fekkas = {
             "1 theelepel vanille"
         ],
         preparation:
-            "1. Meng bloem, bakpoeder en zout.\n" +
-            "2. Klop in een andere kom de eieren met suiker en vanille.\n" +
-            "3. Voeg gesmolten boter toe en meng.\n" +
-            "4. Voeg droge ingrediënten en gedroogd fruit toe tot een homogeen deeg.\n" +
-            "5. Vorm rolletjes op een bakplaat.\n" +
-            "6. Bak op 180°C gedurende 20 minuten.\n" +
-            "7. Haal uit de oven, snijd in plakjes en bak nog 10 minuten om te kleuren.\n" +
-            "8. Laat afkoelen voor het serveren."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Doe bloem, bakpoeder en zout in een kom.\n" +
+            "3. Meng de droge ingrediënten.\n" +
+            "4. Breek de eieren in een andere kom.\n" +
+            "5. Voeg suiker en vanille toe.\n" +
+            "6. Klop tot een licht mengsel.\n" +
+            "7. Voeg gesmolten boter toe.\n" +
+            "8. Meng goed.\n" +
+            "9. Voeg geleidelijk de droge ingrediënten toe.\n" +
+            "10. Voeg rozijnen en amandelen toe.\n" +
+            "11. Meng tot een stevig deeg.\n" +
+            "12. Vorm twee lange rollen.\n" +
+            "13. Leg ze op een bakplaat.\n" +
+            "14. Druk licht plat.\n" +
+            "15. Bak 20 minuten.\n" +
+            "16. Laat 5 minuten afkoelen.\n" +
+            "17. Snijd in plakjes van 1 cm.\n" +
+            "18. Leg de plakjes plat op de bakplaat.\n" +
+            "19. Bak nog 10 minuten goudbruin.\n" +
+            "20. Laat volledig afkoelen."
     },
+
     ar: {
         title: "فكّاس باللوز والزبيب",
-        equipment: ["وعاء", "شوبك العجين", "سكين", "فرن", "لوح تقطيع", "صينية فرن"],
+        equipment: [
+            "وعاء كبير",
+            "مضرب يدوي",
+            "سكين",
+            "لوح تقطيع",
+            "صينية فرن",
+            "فرن"
+        ],
         ingredients: [
             "250 غ دقيق",
             "125 غ زبدة مذابة",
-            "2 بيضات",
+            "2 بيض",
             "100 غ سكر",
             "1 ملعقة صغيرة خميرة كيميائية",
             "50 غ زبيب",
@@ -3792,44 +5823,88 @@ recipesData.dessert.fekkas = {
             "1 ملعقة صغيرة فانيليا"
         ],
         preparation:
-            "1. اخلط الدقيق والخميرة والملح.\n" +
-            "2. في وعاء آخر، اخفق البيض مع السكر والفانيليا.\n" +
-            "3. أضف الزبدة المذابة واخلط.\n" +
-            "4. أدمج المكونات الجافة والفواكه المجففة للحصول على عجين متجانس.\n" +
-            "5. شكّل على شكل أسطوانات على صينية الفرن.\n" +
-            "6. اخبز على 180°م لمدة 20 دقيقة.\n" +
-            "7. أخرجها من الفرن، قطعها إلى شرائح وأعدها 10 دقائق لتتحمر.\n" +
-            "8. اتركها تبرد قبل التقديم."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. ضع الدقيق والخميرة والملح في وعاء كبير.\n" +
+            "3. اخلط المكونات الجافة جيداً.\n" +
+            "4. اكسر البيض في وعاء آخر.\n" +
+            "5. أضف السكر والفانيليا.\n" +
+            "6. اخفق حتى يصبح الخليط فاتح اللون.\n" +
+            "7. أضف الزبدة المذابة.\n" +
+            "8. اخلط جيداً.\n" +
+            "9. أضف المكونات الجافة تدريجياً.\n" +
+            "10. أضف الزبيب واللوز.\n" +
+            "11. اخلط حتى تحصل على عجين متماسك.\n" +
+            "12. شكّل العجين على شكل أسطوانتين طويلتين.\n" +
+            "13. ضعهم في صينية مغطاة بورق الخبز.\n" +
+            "14. اضغطهم قليلاً.\n" +
+            "15. اخبز لمدة 20 دقيقة.\n" +
+            "16. أخرجهم واتركهم يبردون 5 دقائق.\n" +
+            "17. قطّعهم إلى شرائح بسماكة 1 سم.\n" +
+            "18. ضع الشرائح بشكل مسطح.\n" +
+            "19. أعدها للفرن 10 دقائق حتى تتحمّر.\n" +
+            "20. اتركها تبرد تماماً قبل التقديم."
     }
 };
 recipesData.dessert.sellou = {
     country: "maroc",
     image: "images/sellou.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "20 min",
+        cookTime: "15 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Sellou (mélange sucré aux graines et amandes)",
-        equipment: ["1 bol", "1 poêle", "1 cuillère en bois", "1 moulin à épices ou robot"],
+        equipment: [
+            "1 grand bol",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 moulin à épices ou robot"
+        ],
         ingredients: [
-            "200 g farine",
-            "100 g amandes grillées",
-            "50 g sésame grillé",
-            "100 g beurre fondu",
-            "50 g miel",
-            "1 cuillère à café cannelle",
-            "1/2 cuillère à café anis moulu",
+            "200 g de farine",
+            "100 g d’amandes grillées",
+            "50 g de sésame grillé",
+            "100 g de beurre fondu",
+            "50 g de miel",
+            "1 cuillère à café de cannelle",
+            "1/2 cuillère à café d’anis moulu",
             "1 pincée de sel"
         ],
         preparation:
-            "1. Torréfier la farine dans une poêle jusqu’à légère coloration.\n" +
-            "2. Mixer les amandes et le sésame pour obtenir une poudre.\n" +
-            "3. Mélanger la farine torréfiée avec les graines et les amandes.\n" +
-            "4. Ajouter beurre fondu, miel, cannelle, anis et sel.\n" +
-            "5. Mélanger jusqu’à obtenir une texture homogène.\n" +
-            "6. Presser dans un moule ou former des petits tas.\n" +
-            "7. Laisser reposer et sécher avant de servir."
+            "1. Verser la farine dans une poêle sèche.\n" +
+            "2. Faire chauffer à feu moyen.\n" +
+            "3. Remuer constamment avec une cuillère en bois.\n" +
+            "4. Torréfier jusqu’à légère coloration dorée.\n" +
+            "5. Retirer du feu et laisser refroidir.\n" +
+            "6. Mettre les amandes grillées dans le robot.\n" +
+            "7. Ajouter le sésame grillé.\n" +
+            "8. Mixer jusqu’à obtenir une poudre fine.\n" +
+            "9. Verser la farine refroidie dans un grand bol.\n" +
+            "10. Ajouter la poudre d’amandes et de sésame.\n" +
+            "11. Mélanger les ingrédients secs.\n" +
+            "12. Ajouter la cannelle, l’anis et le sel.\n" +
+            "13. Verser le beurre fondu.\n" +
+            "14. Ajouter le miel.\n" +
+            "15. Mélanger jusqu’à obtenir une texture homogène.\n" +
+            "16. Tasser la préparation dans un moule.\n" +
+            "17. Lisser la surface.\n" +
+            "18. Laisser reposer à température ambiante.\n" +
+            "19. Laisser sécher légèrement.\n" +
+            "20. Servir en parts ou en petites portions."
     },
+
     en: {
         title: "Sellou (sweet mixture with seeds and almonds)",
-        equipment: ["1 bowl", "1 pan", "1 wooden spoon", "1 spice grinder or food processor"],
+        equipment: [
+            "1 large bowl",
+            "1 pan",
+            "1 wooden spoon",
+            "1 spice grinder or food processor"
+        ],
         ingredients: [
             "200 g flour",
             "100 g toasted almonds",
@@ -3841,17 +5916,36 @@ recipesData.dessert.sellou = {
             "Pinch of salt"
         ],
         preparation:
-            "1. Toast flour in a pan until lightly colored.\n" +
-            "2. Grind almonds and sesame to a powder.\n" +
-            "3. Mix toasted flour with seeds and almonds.\n" +
-            "4. Add melted butter, honey, cinnamon, anise, and salt.\n" +
-            "5. Mix until homogeneous texture.\n" +
-            "6. Press into a mold or form small piles.\n" +
-            "7. Let rest and dry before serving."
+            "1. Pour the flour into a dry pan.\n" +
+            "2. Heat over medium heat.\n" +
+            "3. Stir constantly with a wooden spoon.\n" +
+            "4. Toast until lightly golden.\n" +
+            "5. Remove from heat and let cool.\n" +
+            "6. Place toasted almonds in the processor.\n" +
+            "7. Add toasted sesame.\n" +
+            "8. Grind into a fine powder.\n" +
+            "9. Pour cooled flour into a large bowl.\n" +
+            "10. Add almond and sesame powder.\n" +
+            "11. Mix dry ingredients.\n" +
+            "12. Add cinnamon, anise, and salt.\n" +
+            "13. Pour in melted butter.\n" +
+            "14. Add honey.\n" +
+            "15. Mix until smooth and uniform.\n" +
+            "16. Press the mixture into a mold.\n" +
+            "17. Smooth the surface.\n" +
+            "18. Let rest at room temperature.\n" +
+            "19. Allow to slightly dry.\n" +
+            "20. Serve in small portions."
     },
+
     nl: {
         title: "Sellou (zoete mix met zaden en amandelen)",
-        equipment: ["1 kom", "1 pan", "1 houten lepel", "1 kruidenmolen of blender"],
+        equipment: [
+            "1 grote kom",
+            "1 pan",
+            "1 houten lepel",
+            "1 kruidenmolen of blender"
+        ],
         ingredients: [
             "200 g bloem",
             "100 g geroosterde amandelen",
@@ -3863,17 +5957,36 @@ recipesData.dessert.sellou = {
             "Snufje zout"
         ],
         preparation:
-            "1. Rooster de bloem in een pan tot licht gekleurd.\n" +
-            "2. Maal de amandelen en sesam tot poeder.\n" +
-            "3. Meng geroosterde bloem met zaden en amandelen.\n" +
-            "4. Voeg gesmolten boter, honing, kaneel, anijs en zout toe.\n" +
-            "5. Meng tot een homogeen mengsel.\n" +
-            "6. Druk in een vorm of maak kleine hoopjes.\n" +
-            "7. Laat rusten en drogen voor het serveren."
+            "1. Doe de bloem in een droge pan.\n" +
+            "2. Verhit op middelhoog vuur.\n" +
+            "3. Roer constant met een houten lepel.\n" +
+            "4. Rooster tot licht goudbruin.\n" +
+            "5. Haal van het vuur en laat afkoelen.\n" +
+            "6. Doe de amandelen in de blender.\n" +
+            "7. Voeg de sesam toe.\n" +
+            "8. Maal tot fijn poeder.\n" +
+            "9. Doe de afgekoelde bloem in een kom.\n" +
+            "10. Voeg het notenpoeder toe.\n" +
+            "11. Meng de droge ingrediënten.\n" +
+            "12. Voeg kaneel, anijs en zout toe.\n" +
+            "13. Giet de gesmolten boter erbij.\n" +
+            "14. Voeg honing toe.\n" +
+            "15. Meng tot een glad geheel.\n" +
+            "16. Druk het mengsel in een vorm.\n" +
+            "17. Strijk de bovenkant glad.\n" +
+            "18. Laat rusten op kamertemperatuur.\n" +
+            "19. Laat licht drogen.\n" +
+            "20. Serveer in kleine porties."
     },
+
     ar: {
         title: "سلو أو سفوف",
-        equipment: ["وعاء", "مقلاة", "ملعقة خشبية", "مطحنة توابل أو محضر طعام"],
+        equipment: [
+            "وعاء كبير",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مطحنة توابل أو محضر طعام"
+        ],
         ingredients: [
             "200 غ دقيق",
             "100 غ لوز محمص",
@@ -3885,43 +5998,92 @@ recipesData.dessert.sellou = {
             "رشة ملح"
         ],
         preparation:
-            "1. حمّص الدقيق في مقلاة حتى يصبح لونه فاتح.\n" +
-            "2. اطحن اللوز والسمسم حتى يصبحا مسحوقاً.\n" +
-            "3. اخلط الدقيق المحمص مع البذور واللوز.\n" +
-            "4. أضف الزبدة المذابة، العسل، القرفة، اليانسون والملح.\n" +
-            "5. اخلط حتى تحصل على قوام متجانس.\n" +
-            "6. ضع الخليط في قالب أو شكّل أكوام صغيرة.\n" +
-            "7. اتركه يرتاح ويجف قبل التقديم."
+            "1. ضع الدقيق في مقلاة جافة.\n" +
+            "2. سخّن على نار متوسطة.\n" +
+            "3. حرّك باستمرار بملعقة خشبية.\n" +
+            "4. حمّص حتى يصبح لونه ذهبياً فاتحاً.\n" +
+            "5. ارفعه من النار واتركه يبرد.\n" +
+            "6. ضع اللوز في الخلاط.\n" +
+            "7. أضف السمسم.\n" +
+            "8. اطحن حتى يصبح مسحوقاً ناعماً.\n" +
+            "9. ضع الدقيق البارد في وعاء كبير.\n" +
+            "10. أضف خليط اللوز والسمسم.\n" +
+            "11. اخلط المكونات الجافة.\n" +
+            "12. أضف القرفة واليانسون والملح.\n" +
+            "13. اسكب الزبدة المذابة.\n" +
+            "14. أضف العسل.\n" +
+            "15. اخلط حتى تحصل على قوام متجانس.\n" +
+            "16. اضغط الخليط في قالب.\n" +
+            "17. سوِّ السطح جيداً.\n" +
+            "18. اتركه في درجة حرارة الغرفة.\n" +
+            "19. اتركه ليجف قليلاً.\n" +
+            "20. قدّمه في حصص صغيرة."
     }
 };
 recipesData.dessert.mkharka = {
     country: "maroc",
     image: "images/mkharka.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "25 min",
+        cookTime: "20 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "M’kharka aux graines",
-        equipment: ["1 bol", "1 poêle", "1 cuillère en bois", "1 rouleau à pâtisserie", "1 four", "1 plaque de cuisson"],
+        equipment: [
+            "1 grand bol",
+            "1 cuillère en bois",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 plaque de cuisson",
+            "1 four"
+        ],
         ingredients: [
-            "250 g farine",
-            "100 g beurre fondu",
-            "50 g sucre",
+            "250 g de farine",
+            "100 g de beurre fondu",
+            "50 g de sucre",
             "1 pincée de sel",
-            "50 g graines de sésame grillées",
-            "50 g graines de tournesol grillées",
-            "1 cuillère à café cannelle",
-            "Eau tiède selon besoin",
-            "Huile pour cuisson"
+            "50 g de graines de sésame grillées",
+            "50 g de graines de tournesol grillées",
+            "1 cuillère à café de cannelle",
+            "Eau tiède (selon besoin)"
         ],
         preparation:
-            "1. Mélanger la farine, sel et sucre.\n" +
-            "2. Ajouter le beurre fondu et un peu d’eau tiède pour former une pâte souple.\n" +
-            "3. Étaler la pâte et parsemer de graines et cannelle.\n" +
-            "4. Rouler et découper en bâtonnets ou carrés.\n" +
-            "5. Cuire au four préchauffé à 180°C pendant 15-20 minutes.\n" +
-            "6. Laisser refroidir avant de servir."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Verser la farine dans un grand bol.\n" +
+            "3. Ajouter le sucre et le sel.\n" +
+            "4. Mélanger les ingrédients secs.\n" +
+            "5. Ajouter le beurre fondu.\n" +
+            "6. Mélanger avec une cuillère en bois.\n" +
+            "7. Ajouter progressivement de l’eau tiède.\n" +
+            "8. Pétrir jusqu’à obtenir une pâte souple.\n" +
+            "9. Former une boule de pâte.\n" +
+            "10. Fariner légèrement le plan de travail.\n" +
+            "11. Étaler la pâte en un rectangle fin.\n" +
+            "12. Parsemer de graines de sésame.\n" +
+            "13. Ajouter les graines de tournesol.\n" +
+            "14. Saupoudrer de cannelle.\n" +
+            "15. Rouler la pâte sur elle-même.\n" +
+            "16. Couper en bâtonnets ou en carrés.\n" +
+            "17. Déposer sur une plaque recouverte de papier cuisson.\n" +
+            "18. Enfourner pendant 15 à 20 minutes.\n" +
+            "19. Laisser refroidir sur une grille.\n" +
+            "20. Servir une fois bien croustillant."
     },
+
     en: {
         title: "M’kharka with Seeds",
-        equipment: ["1 bowl", "1 pan", "1 wooden spoon", "1 rolling pin", "1 oven", "1 baking tray"],
+        equipment: [
+            "1 large bowl",
+            "1 wooden spoon",
+            "1 rolling pin",
+            "1 knife",
+            "1 baking tray",
+            "1 oven"
+        ],
         ingredients: [
             "250 g flour",
             "100 g melted butter",
@@ -3930,20 +6092,41 @@ recipesData.dessert.mkharka = {
             "50 g toasted sesame seeds",
             "50 g toasted sunflower seeds",
             "1 teaspoon cinnamon",
-            "Warm water as needed",
-            "Oil for cooking"
+            "Warm water (as needed)"
         ],
         preparation:
-            "1. Mix flour, salt, and sugar.\n" +
-            "2. Add melted butter and some warm water to form a soft dough.\n" +
-            "3. Roll out the dough and sprinkle with seeds and cinnamon.\n" +
-            "4. Roll and cut into sticks or squares.\n" +
-            "5. Bake in preheated oven at 180°C for 15-20 minutes.\n" +
-            "6. Let cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Pour the flour into a large bowl.\n" +
+            "3. Add sugar and salt.\n" +
+            "4. Mix the dry ingredients.\n" +
+            "5. Add the melted butter.\n" +
+            "6. Stir with a wooden spoon.\n" +
+            "7. Gradually add warm water.\n" +
+            "8. Knead until soft dough forms.\n" +
+            "9. Shape the dough into a ball.\n" +
+            "10. Lightly flour the work surface.\n" +
+            "11. Roll out the dough into a thin rectangle.\n" +
+            "12. Sprinkle with sesame seeds.\n" +
+            "13. Add sunflower seeds.\n" +
+            "14. Sprinkle cinnamon.\n" +
+            "15. Roll the dough tightly.\n" +
+            "16. Cut into sticks or squares.\n" +
+            "17. Place on a lined baking tray.\n" +
+            "18. Bake for 15–20 minutes.\n" +
+            "19. Let cool on a rack.\n" +
+            "20. Serve once crispy."
     },
+
     nl: {
         title: "M’kharka met Zaden",
-        equipment: ["1 kom", "1 pan", "1 houten lepel", "1 deegroller", "1 oven", "1 bakplaat"],
+        equipment: [
+            "1 grote kom",
+            "1 houten lepel",
+            "1 deegroller",
+            "1 mes",
+            "1 bakplaat",
+            "1 oven"
+        ],
         ingredients: [
             "250 g bloem",
             "100 g gesmolten boter",
@@ -3952,68 +6135,136 @@ recipesData.dessert.mkharka = {
             "50 g geroosterde sesamzaadjes",
             "50 g geroosterde zonnebloempitten",
             "1 theelepel kaneel",
-            "Lauw water naar behoefte",
-            "Olie voor het bakken"
+            "Lauw water (naar behoefte)"
         ],
         preparation:
-            "1. Meng bloem, zout en suiker.\n" +
-            "2. Voeg gesmolten boter en wat lauw water toe voor een soepel deeg.\n" +
-            "3. Rol het deeg uit en bestrooi met zaden en kaneel.\n" +
-            "4. Rol op en snijd in staafjes of vierkantjes.\n" +
-            "5. Bak in voorverwarmde oven op 180°C gedurende 15-20 minuten.\n" +
-            "6. Laat afkoelen voor het serveren."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Doe de bloem in een grote kom.\n" +
+            "3. Voeg suiker en zout toe.\n" +
+            "4. Meng de droge ingrediënten.\n" +
+            "5. Voeg de gesmolten boter toe.\n" +
+            "6. Meng met een houten lepel.\n" +
+            "7. Voeg geleidelijk lauw water toe.\n" +
+            "8. Kneed tot een soepel deeg.\n" +
+            "9. Vorm een deegbal.\n" +
+            "10. Bestuif het werkblad licht met bloem.\n" +
+            "11. Rol het deeg dun uit.\n" +
+            "12. Bestrooi met sesamzaadjes.\n" +
+            "13. Voeg zonnebloempitten toe.\n" +
+            "14. Strooi kaneel erover.\n" +
+            "15. Rol het deeg strak op.\n" +
+            "16. Snijd in staafjes of blokjes.\n" +
+            "17. Leg op een bakplaat met bakpapier.\n" +
+            "18. Bak 15–20 minuten.\n" +
+            "19. Laat afkoelen op een rooster.\n" +
+            "20. Serveer wanneer knapperig."
     },
+
     ar: {
         title: "المخرقة بالبذور",
-        equipment: ["وعاء", "مقلاة", "ملعقة خشبية", "شوبك العجين", "فرن", "صينية فرن"],
+        equipment: [
+            "وعاء كبير",
+            "ملعقة خشبية",
+            "شوبك العجين",
+            "سكين",
+            "صينية فرن",
+            "فرن"
+        ],
         ingredients: [
             "250 غ دقيق",
             "100 غ زبدة مذابة",
             "50 غ سكر",
             "رشة ملح",
-            "50 غ بذور سمسم محمصة",
+            "50 غ سمسم محمص",
             "50 غ بذور دوار الشمس محمصة",
             "1 ملعقة صغيرة قرفة",
-            "ماء دافئ حسب الحاجة",
-            "زيت للطبخ"
+            "ماء دافئ حسب الحاجة"
         ],
         preparation:
-            "1. اخلط الدقيق والملح والسكر.\n" +
-            "2. أضف الزبدة المذابة وبعض الماء الدافئ لتشكيل عجين لين.\n" +
-            "3. افرد العجين ورش عليه البذور والقرفة.\n" +
-            "4. لف وقطع إلى أعواد أو مربعات.\n" +
-            "5. اخبز في فرن مسخن على 180°م لمدة 15-20 دقيقة.\n" +
-            "6. اتركه يبرد قبل التقديم."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. ضع الدقيق في وعاء كبير.\n" +
+            "3. أضف السكر والملح.\n" +
+            "4. اخلط المكونات الجافة.\n" +
+            "5. أضف الزبدة المذابة.\n" +
+            "6. اخلط بملعقة خشبية.\n" +
+            "7. أضف الماء الدافئ تدريجياً.\n" +
+            "8. اعجن حتى تحصل على عجين لين.\n" +
+            "9. شكّل كرة من العجين.\n" +
+            "10. رش القليل من الدقيق على السطح.\n" +
+            "11. افرد العجين بشكل مستطيل رقيق.\n" +
+            "12. رش السمسم فوق العجين.\n" +
+            "13. أضف بذور دوار الشمس.\n" +
+            "14. رش القرفة.\n" +
+            "15. لف العجين بإحكام.\n" +
+            "16. قطّع إلى أعواد أو مربعات.\n" +
+            "17. ضعها في صينية مغطاة بورق الخبز.\n" +
+            "18. اخبز لمدة 15–20 دقيقة.\n" +
+            "19. اتركها تبرد على شبكة.\n" +
+            "20. قدّمها عندما تصبح مقرمشة."
     }
 };
 recipesData.dessert.baklava = {
     country: "maroc",
     image: "images/baklava.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "25 min",
+        cookTime: "30 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Baklava à la marocaine",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 four", "1 casserole", "1 pinceau"],
+        equipment: [
+            "1 bol",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 four",
+            "1 casserole",
+            "1 pinceau"
+        ],
         ingredients: [
-            "200 g pâte filo",
-            "150 g noix ou pistaches hachées",
-            "100 g beurre fondu",
-            "100 g miel",
-            "50 g sucre",
-            "1 cuillère à café cannelle"
+            "200 g de pâte filo",
+            "150 g de noix ou pistaches hachées",
+            "100 g de beurre fondu",
+            "100 g de miel",
+            "50 g de sucre",
+            "1 cuillère à café de cannelle"
         ],
         preparation:
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Beurrer un plat et placer une feuille de pâte filo.\n" +
-            "3. Répéter en superposant plusieurs feuilles, en beurrant chaque feuille.\n" +
-            "4. Parsemer de mélange de noix/pistaches et cannelle.\n" +
-            "5. Couvrir avec le reste de pâte filo en superposition, beurrer chaque feuille.\n" +
-            "6. Découper en losanges.\n" +
-            "7. Cuire au four 25-30 minutes jusqu’à doré.\n" +
-            "8. Chauffer le miel avec sucre et napper les baklavas encore chauds.\n" +
-            "9. Laisser refroidir avant de servir."
+            "2. Beurrer le fond d’un plat allant au four.\n" +
+            "3. Déposer une feuille de pâte filo dans le plat.\n" +
+            "4. Badigeonner la feuille de beurre fondu.\n" +
+            "5. Répéter l’opération avec 4 à 5 feuilles.\n" +
+            "6. Mélanger les noix ou pistaches avec la cannelle.\n" +
+            "7. Répartir une couche de garniture sur la pâte.\n" +
+            "8. Recouvrir d’une nouvelle feuille de filo.\n" +
+            "9. Beurrer la feuille.\n" +
+            "10. Ajouter une deuxième couche de garniture.\n" +
+            "11. Couvrir avec le reste des feuilles.\n" +
+            "12. Beurrer chaque feuille.\n" +
+            "13. Couper en losanges avec un couteau.\n" +
+            "14. Enfourner pendant 25 à 30 minutes.\n" +
+            "15. Faire chauffer le miel et le sucre dans une casserole.\n" +
+            "16. Mélanger jusqu’à obtenir un sirop.\n" +
+            "17. Sortir la baklava dorée du four.\n" +
+            "18. Verser le sirop chaud dessus.\n" +
+            "19. Laisser absorber le sirop.\n" +
+            "20. Laisser refroidir avant de servir."
     },
+
     en: {
         title: "Moroccan Baklava",
-        equipment: ["1 bowl", "1 rolling pin", "1 knife", "1 oven", "1 saucepan", "1 brush"],
+        equipment: [
+            "1 bowl",
+            "1 rolling pin",
+            "1 knife",
+            "1 oven",
+            "1 saucepan",
+            "1 brush"
+        ],
         ingredients: [
             "200 g phyllo dough",
             "150 g chopped walnuts or pistachios",
@@ -4023,19 +6274,38 @@ recipesData.dessert.baklava = {
             "1 teaspoon cinnamon"
         ],
         preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Butter a dish and place a sheet of phyllo.\n" +
-            "3. Repeat stacking several sheets, buttering each.\n" +
-            "4. Sprinkle nut/pistachio mixture and cinnamon.\n" +
-            "5. Cover with remaining phyllo, butter each sheet.\n" +
-            "6. Cut into diamonds.\n" +
-            "7. Bake 25-30 minutes until golden.\n" +
-            "8. Heat honey with sugar and pour over warm baklava.\n" +
-            "9. Let cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Butter the bottom of a baking dish.\n" +
+            "3. Place one sheet of phyllo dough.\n" +
+            "4. Brush with melted butter.\n" +
+            "5. Repeat with 4–5 sheets.\n" +
+            "6. Mix nuts or pistachios with cinnamon.\n" +
+            "7. Spread one layer of filling.\n" +
+            "8. Cover with another phyllo sheet.\n" +
+            "9. Brush with butter.\n" +
+            "10. Add a second layer of filling.\n" +
+            "11. Cover with remaining sheets.\n" +
+            "12. Butter each sheet.\n" +
+            "13. Cut into diamond shapes.\n" +
+            "14. Bake for 25–30 minutes.\n" +
+            "15. Heat honey and sugar in a saucepan.\n" +
+            "16. Stir until syrup forms.\n" +
+            "17. Remove baklava from the oven.\n" +
+            "18. Pour hot syrup over it.\n" +
+            "19. Let it soak.\n" +
+            "20. Let cool before serving."
     },
+
     nl: {
         title: "Marokkaanse Baklava",
-        equipment: ["1 kom", "1 deegroller", "1 mes", "1 oven", "1 steelpan", "1 kwast"],
+        equipment: [
+            "1 kom",
+            "1 deegroller",
+            "1 mes",
+            "1 oven",
+            "1 steelpan",
+            "1 kwast"
+        ],
         ingredients: [
             "200 g filodeeg",
             "150 g gehakte walnoten of pistachenoten",
@@ -4046,18 +6316,37 @@ recipesData.dessert.baklava = {
         ],
         preparation:
             "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Vet een bakvorm in en leg een filodeegvel.\n" +
-            "3. Herhaal en stapel meerdere vellen, bestrijk elk met boter.\n" +
-            "4. Bestrooi met noten/pistachemengsel en kaneel.\n" +
-            "5. Bedek met resterende filodeeg, bestrijk elk vel met boter.\n" +
-            "6. Snijd in ruitjes.\n" +
-            "7. Bak 25-30 minuten tot goudbruin.\n" +
-            "8. Verwarm honing met suiker en giet over warme baklava.\n" +
-            "9. Laat afkoelen voor het serveren."
+            "2. Vet de bakvorm in.\n" +
+            "3. Leg een vel filodeeg in de vorm.\n" +
+            "4. Bestrijk met boter.\n" +
+            "5. Herhaal met 4–5 vellen.\n" +
+            "6. Meng noten met kaneel.\n" +
+            "7. Verdeel een laag vulling.\n" +
+            "8. Leg er een nieuw vel op.\n" +
+            "9. Bestrijk met boter.\n" +
+            "10. Voeg nog een laag vulling toe.\n" +
+            "11. Bedek met resterende vellen.\n" +
+            "12. Bestrijk elk vel.\n" +
+            "13. Snijd in ruitvorm.\n" +
+            "14. Bak 25–30 minuten.\n" +
+            "15. Verwarm honing en suiker.\n" +
+            "16. Roer tot siroop ontstaat.\n" +
+            "17. Haal de baklava uit de oven.\n" +
+            "18. Giet de siroop erover.\n" +
+            "19. Laat intrekken.\n" +
+            "20. Laat afkoelen voor serveren."
     },
+
     ar: {
         title: "بقلاوة مغربية",
-        equipment: ["وعاء", "شوبك العجين", "سكين", "فرن", "قدر", "فرشاة"],
+        equipment: [
+            "وعاء",
+            "شوبك العجين",
+            "سكين",
+            "فرن",
+            "قدر",
+            "فرشاة"
+        ],
         ingredients: [
             "200 غ عجينة فيلو",
             "150 غ جوز أو فستق مفروم",
@@ -4067,44 +6356,91 @@ recipesData.dessert.baklava = {
             "1 ملعقة صغيرة قرفة"
         ],
         preparation:
-            "1. سخّن الفرن إلى 180°م.\n" +
-            "2. ادهن صينية وضع طبقة من عجينة الفيلو.\n" +
-            "3. كرر وضع عدة طبقات، مع دهن كل طبقة بالزبدة.\n" +
-            "4. رش خليط الجوز/الفستق والقرفة.\n" +
-            "5. غطِ بالطبقات المتبقية وادهن كل طبقة بالزبدة.\n" +
-            "6. قطع إلى أشكال معينة.\n" +
-            "7. اخبز 25-30 دقيقة حتى تصبح ذهبية.\n" +
-            "8. سخّن العسل مع السكر واسكبه على البقلاوة الساخنة.\n" +
-            "9. اتركها تبرد قبل التقديم."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. ادهن قاع الصينية بالزبدة.\n" +
+            "3. ضع طبقة من عجينة الفيلو.\n" +
+            "4. ادهنها بالزبدة.\n" +
+            "5. كرر مع 4–5 طبقات.\n" +
+            "6. اخلط المكسرات مع القرفة.\n" +
+            "7. وزّع طبقة من الحشوة.\n" +
+            "8. غطِّ بطبقة فيلو جديدة.\n" +
+            "9. ادهنها بالزبدة.\n" +
+            "10. أضف طبقة ثانية من الحشوة.\n" +
+            "11. غطِّ بباقي الطبقات.\n" +
+            "12. ادهن كل طبقة.\n" +
+            "13. قطّع على شكل معينات.\n" +
+            "14. اخبز لمدة 25–30 دقيقة.\n" +
+            "15. سخّن العسل مع السكر.\n" +
+            "16. حرّك حتى يتكوّن شراب.\n" +
+            "17. أخرج البقلاوة من الفرن.\n" +
+            "18. اسكب الشراب الساخن فوقها.\n" +
+            "19. اتركها تمتص الشراب.\n" +
+            "20. اتركها تبرد قبل التقديم."
     }
 };
 recipesData.dessert.briouatesSucrees = {
     country: "maroc",
     image: "images/briouates-sucrees.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "25 min",
+        cookTime: "20 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Briouates sucrées aux amandes et miel",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 casserole", "1 pinceau", "1 poêle"],
+        equipment: [
+            "1 grand bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 casserole",
+            "1 pinceau",
+            "1 poêle"
+        ],
         ingredients: [
-            "200 g pâte filo",
-            "150 g amandes moulues",
-            "50 g sucre",
-            "50 g beurre fondu",
-            "1 cuillère à café cannelle",
-            "50 g miel",
+            "200 g de pâte filo",
+            "150 g d’amandes moulues",
+            "50 g de sucre",
+            "50 g de beurre fondu",
+            "1 cuillère à café de cannelle",
+            "50 g de miel",
             "Huile pour friture"
         ],
         preparation:
-            "1. Mélanger les amandes moulues, sucre et cannelle.\n" +
-            "2. Découper la pâte filo en bandes.\n" +
-            "3. Placer un peu de mélange d’amandes sur chaque bande et plier en triangle.\n" +
-            "4. Chauffer l’huile et frire les briouates jusqu’à doré.\n" +
-            "5. Égoutter sur papier absorbant.\n" +
-            "6. Chauffer le miel et napper les briouates encore chaudes.\n" +
-            "7. Laisser refroidir avant de servir."
+            "1. Verser les amandes moulues dans un grand bol.\n" +
+            "2. Ajouter le sucre.\n" +
+            "3. Ajouter la cannelle.\n" +
+            "4. Mélanger les ingrédients secs.\n" +
+            "5. Ajouter le beurre fondu.\n" +
+            "6. Mélanger jusqu’à obtenir une pâte homogène.\n" +
+            "7. Déplier les feuilles de pâte filo.\n" +
+            "8. Couper la pâte en bandes régulières.\n" +
+            "9. Déposer une cuillère de farce au bas de chaque bande.\n" +
+            "10. Replier en triangle.\n" +
+            "11. Continuer à plier jusqu’au bout de la bande.\n" +
+            "12. Chauffer l’huile dans une poêle.\n" +
+            "13. Plonger les briouates dans l’huile chaude.\n" +
+            "14. Faire frire jusqu’à coloration dorée.\n" +
+            "15. Égoutter sur du papier absorbant.\n" +
+            "16. Faire chauffer le miel dans une casserole.\n" +
+            "17. Verser le miel chaud sur les briouates.\n" +
+            "18. Bien enrober chaque pièce.\n" +
+            "19. Laisser refroidir légèrement.\n" +
+            "20. Servir."
     },
+
     en: {
         title: "Sweet Briouates with Almonds and Honey",
-        equipment: ["1 bowl", "1 rolling pin", "1 knife", "1 saucepan", "1 brush", "1 pan"],
+        equipment: [
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 saucepan",
+            "1 brush",
+            "1 pan"
+        ],
         ingredients: [
             "200 g phyllo dough",
             "150 g ground almonds",
@@ -4115,17 +6451,38 @@ recipesData.dessert.briouatesSucrees = {
             "Oil for frying"
         ],
         preparation:
-            "1. Mix ground almonds, sugar, and cinnamon.\n" +
-            "2. Cut phyllo dough into strips.\n" +
-            "3. Place some almond mixture on each strip and fold into triangles.\n" +
-            "4. Heat oil and fry briouates until golden.\n" +
-            "5. Drain on paper towels.\n" +
-            "6. Heat honey and coat the warm briouates.\n" +
-            "7. Let cool before serving."
+            "1. Place ground almonds in a large bowl.\n" +
+            "2. Add sugar.\n" +
+            "3. Add cinnamon.\n" +
+            "4. Mix the dry ingredients.\n" +
+            "5. Add melted butter.\n" +
+            "6. Mix into a smooth paste.\n" +
+            "7. Unroll the phyllo sheets.\n" +
+            "8. Cut into long strips.\n" +
+            "9. Place a spoon of filling at the bottom.\n" +
+            "10. Fold into a triangle.\n" +
+            "11. Continue folding to the end.\n" +
+            "12. Heat oil in a pan.\n" +
+            "13. Fry the briouates in hot oil.\n" +
+            "14. Cook until golden.\n" +
+            "15. Drain on paper towels.\n" +
+            "16. Heat the honey in a saucepan.\n" +
+            "17. Pour honey over the briouates.\n" +
+            "18. Coat each piece well.\n" +
+            "19. Let cool slightly.\n" +
+            "20. Serve."
     },
+
     nl: {
         title: "Zoete Briouates met Amandelen en Honing",
-        equipment: ["1 kom", "1 deegroller", "1 mes", "1 steelpan", "1 kwast", "1 pan"],
+        equipment: [
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 steelpan",
+            "1 kwast",
+            "1 pan"
+        ],
         ingredients: [
             "200 g filodeeg",
             "150 g gemalen amandelen",
@@ -4136,17 +6493,38 @@ recipesData.dessert.briouatesSucrees = {
             "Olie om te frituren"
         ],
         preparation:
-            "1. Meng gemalen amandelen, suiker en kaneel.\n" +
-            "2. Snijd filodeeg in stroken.\n" +
-            "3. Plaats wat amandelmengsel op elke strook en vouw tot driehoek.\n" +
-            "4. Verhit olie en frituur briouates tot goudbruin.\n" +
-            "5. Laat uitlekken op keukenpapier.\n" +
-            "6. Verwarm honing en bedek de warme briouates.\n" +
-            "7. Laat afkoelen voor het serveren."
+            "1. Doe de gemalen amandelen in een grote kom.\n" +
+            "2. Voeg suiker toe.\n" +
+            "3. Voeg kaneel toe.\n" +
+            "4. Meng de droge ingrediënten.\n" +
+            "5. Voeg gesmolten boter toe.\n" +
+            "6. Meng tot een gladde vulling.\n" +
+            "7. Rol het filodeeg uit.\n" +
+            "8. Snijd in lange stroken.\n" +
+            "9. Leg een lepel vulling onderaan.\n" +
+            "10. Vouw tot een driehoek.\n" +
+            "11. Vouw verder tot het einde.\n" +
+            "12. Verhit olie in een pan.\n" +
+            "13. Frituur de briouates.\n" +
+            "14. Bak tot goudbruin.\n" +
+            "15. Laat uitlekken op keukenpapier.\n" +
+            "16. Verwarm de honing.\n" +
+            "17. Giet honing over de briouates.\n" +
+            "18. Bedek elk stuk goed.\n" +
+            "19. Laat even afkoelen.\n" +
+            "20. Serveer."
     },
+
     ar: {
         title: "بريوات حلوة باللوز والعسل",
-        equipment: ["وعاء", "شوبك العجين", "سكين", "قدر", "فرشاة", "مقلاة"],
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "قدر",
+            "فرشاة",
+            "مقلاة"
+        ],
         ingredients: [
             "200 غ عجينة فيلو",
             "150 غ لوز مطحون",
@@ -4157,119 +6535,257 @@ recipesData.dessert.briouatesSucrees = {
             "زيت للقلي"
         ],
         preparation:
-            "1. اخلط اللوز المطحون مع السكر والقرفة.\n" +
-            "2. قطّع عجينة الفيلو إلى شرائح.\n" +
-            "3. ضع كمية من خليط اللوز على كل شريحة واطوها على شكل مثلث.\n" +
-            "4. سخّن الزيت واقلِ البريوات حتى تصبح ذهبية.\n" +
-            "5. صفّها على ورق ماص.\n" +
-            "6. سخّن العسل وغطّ البريوات الساخنة.\n" +
-            "7. اتركها تبرد قبل التقديم."
+            "1. ضع اللوز المطحون في وعاء كبير.\n" +
+            "2. أضف السكر.\n" +
+            "3. أضف القرفة.\n" +
+            "4. اخلط المكونات الجافة.\n" +
+            "5. أضف الزبدة المذابة.\n" +
+            "6. اخلط حتى تحصل على حشوة متجانسة.\n" +
+            "7. افرد عجينة الفيلو.\n" +
+            "8. قطّعها إلى شرائح طويلة.\n" +
+            "9. ضع ملعقة من الحشوة في الأسفل.\n" +
+            "10. اطوِها على شكل مثلث.\n" +
+            "11. استمر في الطي حتى النهاية.\n" +
+            "12. سخّن الزيت في المقلاة.\n" +
+            "13. اقْلِ البريوات في الزيت الساخن.\n" +
+            "14. اتركها حتى تصبح ذهبية.\n" +
+            "15. صفِّها على ورق ماص.\n" +
+            "16. سخّن العسل في قدر.\n" +
+            "17. اسكب العسل فوق البريوات.\n" +
+            "18. غطِّ كل قطعة جيداً.\n" +
+            "19. اتركها تبرد قليلاً.\n" +
+            "20. قدّمها."
     }
 };
 recipesData.dessert.kaabElGhazalParfumees = {
     country: "maroc",
     image: "images/kaab-el-ghazal-parfumees.jpg",
+
+    meta: {
+        servings: "8 à 10 personnes",
+        prepTime: "40 min",
+        cookTime: "20 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Kaab el Ghazal parfumées (fruits et pistaches)",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 four", "1 planche à découper"],
+        equipment: [
+            "1 grand bol",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 planche à découper",
+            "1 plaque de cuisson",
+            "1 four"
+        ],
         ingredients: [
-            "250 g farine",
-            "125 g beurre fondu",
+            "250 g de farine",
+            "125 g de beurre fondu",
             "1 pincée de sel",
-            "Eau de fleur d’oranger pour pétrir",
-            "200 g pâte d’amande parfumée à l’orange ou pistache",
+            "Eau de fleur d’oranger (pour pétrir)",
+            "200 g de pâte d’amande parfumée à l’orange ou à la pistache",
             "Sucre glace pour saupoudrer"
         ],
         preparation:
-            "1. Mélanger la farine et le sel, ajouter le beurre et pétrir avec eau de fleur d’oranger pour obtenir une pâte souple.\n" +
-            "2. Étaler la pâte finement et découper en rectangles.\n" +
-            "3. Former des bâtonnets de pâte d’amande parfumée et les placer sur chaque rectangle.\n" +
-            "4. Rouler et plier en croissant.\n" +
-            "5. Cuire au four préchauffé à 180°C pendant 15-20 minutes.\n" +
-            "6. Laisser refroidir et saupoudrer de sucre glace avant de servir."
+            "1. Verser la farine dans un grand bol.\n" +
+            "2. Ajouter le sel.\n" +
+            "3. Mélanger les ingrédients secs.\n" +
+            "4. Ajouter le beurre fondu.\n" +
+            "5. Mélanger du bout des doigts.\n" +
+            "6. Ajouter progressivement l’eau de fleur d’oranger.\n" +
+            "7. Pétrir jusqu’à obtenir une pâte souple.\n" +
+            "8. Former une boule de pâte.\n" +
+            "9. Couvrir et laisser reposer 15 minutes.\n" +
+            "10. Fariner légèrement le plan de travail.\n" +
+            "11. Étaler la pâte très finement.\n" +
+            "12. Découper des rectangles réguliers.\n" +
+            "13. Former des boudins fins de pâte d’amande parfumée.\n" +
+            "14. Déposer un boudin sur chaque rectangle.\n" +
+            "15. Rouler la pâte autour de la farce.\n" +
+            "16. Souder les bords.\n" +
+            "17. Courber en forme de croissant.\n" +
+            "18. Déposer sur une plaque recouverte de papier cuisson.\n" +
+            "19. Enfourner à 180°C pendant 15 à 20 minutes.\n" +
+            "20. Laisser refroidir et saupoudrer de sucre glace."
     },
+
     en: {
         title: "Flavored Kaab el Ghazal (fruits and pistachios)",
-        equipment: ["1 bowl", "1 rolling pin", "1 knife", "1 oven", "1 cutting board"],
+        equipment: [
+            "1 large bowl",
+            "1 rolling pin",
+            "1 knife",
+            "1 cutting board",
+            "1 baking tray",
+            "1 oven"
+        ],
         ingredients: [
             "250 g flour",
             "125 g melted butter",
             "Pinch of salt",
-            "Orange blossom water for kneading",
+            "Orange blossom water (for kneading)",
             "200 g almond paste flavored with orange or pistachio",
             "Powdered sugar for dusting"
         ],
         preparation:
-            "1. Mix flour and salt, add butter and knead with orange blossom water to make a soft dough.\n" +
-            "2. Roll out dough thinly and cut rectangles.\n" +
-            "3. Form almond paste sticks and place on each rectangle.\n" +
-            "4. Roll and fold into crescent shapes.\n" +
-            "5. Bake in preheated oven at 180°C for 15-20 minutes.\n" +
-            "6. Let cool and dust with powdered sugar before serving."
+            "1. Pour flour into a large bowl.\n" +
+            "2. Add salt.\n" +
+            "3. Mix dry ingredients.\n" +
+            "4. Add melted butter.\n" +
+            "5. Rub with fingers.\n" +
+            "6. Gradually add orange blossom water.\n" +
+            "7. Knead into a soft dough.\n" +
+            "8. Form a dough ball.\n" +
+            "9. Cover and rest for 15 minutes.\n" +
+            "10. Lightly flour the work surface.\n" +
+            "11. Roll out the dough very thin.\n" +
+            "12. Cut into even rectangles.\n" +
+            "13. Shape almond paste into thin logs.\n" +
+            "14. Place one log on each rectangle.\n" +
+            "15. Roll the dough around the filling.\n" +
+            "16. Seal the edges.\n" +
+            "17. Bend into crescent shapes.\n" +
+            "18. Place on a lined baking tray.\n" +
+            "19. Bake at 180°C for 15–20 minutes.\n" +
+            "20. Let cool and dust with powdered sugar."
     },
+
     nl: {
         title: "Kaab el Ghazal met Smaak (fruit en pistache)",
-        equipment: ["1 kom", "1 deegroller", "1 mes", "1 oven", "1 snijplank"],
+        equipment: [
+            "1 grote kom",
+            "1 deegroller",
+            "1 mes",
+            "1 snijplank",
+            "1 bakplaat",
+            "1 oven"
+        ],
         ingredients: [
             "250 g bloem",
             "125 g gesmolten boter",
             "Snufje zout",
-            "Bloemwater voor kneden",
-            "200 g amandelpasta met sinaasappel of pistache smaak",
+            "Oranjebloesemwater (voor kneden)",
+            "200 g amandelpasta met sinaasappel- of pistachesmaak",
             "Poedersuiker om te bestuiven"
         ],
         preparation:
-            "1. Meng bloem en zout, voeg boter toe en kneed met bloemwater tot een soepel deeg.\n" +
-            "2. Rol het deeg dun uit en snijd rechthoeken.\n" +
-            "3. Vorm amandelpasta-stokjes en leg op elke rechthoek.\n" +
-            "4. Rol op en vouw tot halve maan vormen.\n" +
-            "5. Bak in voorverwarmde oven op 180°C gedurende 15-20 minuten.\n" +
-            "6. Laat afkoelen en bestuif met poedersuiker voor het serveren."
+            "1. Doe de bloem in een grote kom.\n" +
+            "2. Voeg zout toe.\n" +
+            "3. Meng de droge ingrediënten.\n" +
+            "4. Voeg de gesmolten boter toe.\n" +
+            "5. Meng met de vingers.\n" +
+            "6. Voeg geleidelijk bloesemwater toe.\n" +
+            "7. Kneed tot een soepel deeg.\n" +
+            "8. Vorm een deegbal.\n" +
+            "9. Dek af en laat 15 minuten rusten.\n" +
+            "10. Bestuif het werkblad licht met bloem.\n" +
+            "11. Rol het deeg zeer dun uit.\n" +
+            "12. Snijd rechthoeken.\n" +
+            "13. Vorm rolletjes van amandelpasta.\n" +
+            "14. Leg ze op het deeg.\n" +
+            "15. Rol het deeg eromheen.\n" +
+            "16. Sluit de randen.\n" +
+            "17. Buig tot halve maanvorm.\n" +
+            "18. Leg op een bakplaat met bakpapier.\n" +
+            "19. Bak 15–20 minuten op 180°C.\n" +
+            "20. Laat afkoelen en bestuif met poedersuiker."
     },
+
     ar: {
         title: "كعب الغزال معطرة (فواكه وفستق)",
-        equipment: ["وعاء", "شوبك العجين", "سكين", "فرن", "لوح تقطيع"],
+        equipment: [
+            "وعاء كبير",
+            "شوبك العجين",
+            "سكين",
+            "لوح تقطيع",
+            "صينية فرن",
+            "فرن"
+        ],
         ingredients: [
             "250 غ دقيق",
             "125 غ زبدة مذابة",
             "رشة ملح",
-            "ماء زهر للخلط",
+            "ماء زهر للعجن",
             "200 غ عجينة لوز بنكهة البرتقال أو الفستق",
             "سكر بودرة للرش"
         ],
         preparation:
-            "1. اخلط الدقيق والملح، أضف الزبدة واعجن مع ماء الزهر للحصول على عجين لين.\n" +
-            "2. افرد العجين رقيقاً وقطع مستطيلات.\n" +
-            "3. شكّل عجينة اللوز المعطرة على شكل أصابع وضعها على كل مستطيل.\n" +
-            "4. لف واصنع شكل الهلال.\n" +
-            "5. اخبز في فرن مسخن على 180°م لمدة 15-20 دقيقة.\n" +
-            "6. اتركه يبرد ورش السكر البودرة قبل التقديم."
+            "1. ضع الدقيق في وعاء كبير.\n" +
+            "2. أضف الملح.\n" +
+            "3. اخلط المكونات الجافة.\n" +
+            "4. أضف الزبدة المذابة.\n" +
+            "5. اخلط بأطراف الأصابع.\n" +
+            "6. أضف ماء الزهر تدريجياً.\n" +
+            "7. اعجن حتى تحصل على عجين لين.\n" +
+            "8. شكّل كرة من العجين.\n" +
+            "9. غطِّ واتركها ترتاح 15 دقيقة.\n" +
+            "10. رش القليل من الدقيق على السطح.\n" +
+            "11. افرد العجين رقيقاً جداً.\n" +
+            "12. قطّع إلى مستطيلات.\n" +
+            "13. شكّل عجينة اللوز على شكل أصابع.\n" +
+            "14. ضعها على العجين.\n" +
+            "15. لف العجين حول الحشوة.\n" +
+            "16. أغلق الأطراف.\n" +
+            "17. شكّلها كالهلال.\n" +
+            "18. ضعها في صينية مغطاة بورق الخبز.\n" +
+            "19. اخبز على 180°م لمدة 15–20 دقيقة.\n" +
+            "20. اتركها تبرد ورش السكر البودرة."
     }
 };
 recipesData.dessert.ghribaNoixCoco = {
     country: "maroc",
     image: "images/ghriba-noix-coco.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "15 min",
+        cookTime: "15 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Ghriba à la noix de coco",
-        equipment: ["1 bol", "1 four", "1 plaque de cuisson", "1 cuillère", "1 fouet"],
+        equipment: [
+            "1 grand bol",
+            "1 fouet",
+            "1 cuillère",
+            "1 plaque de cuisson",
+            "1 four"
+        ],
         ingredients: [
-            "200 g noix de coco râpée",
-            "150 g sucre",
+            "200 g de noix de coco râpée",
+            "150 g de sucre",
             "2 œufs",
-            "50 g beurre fondu",
-            "1 cuillère à café vanille"
+            "50 g de beurre fondu",
+            "1 cuillère à café de vanille"
         ],
         preparation:
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger tous les ingrédients dans un bol jusqu’à homogénéité.\n" +
-            "3. Former des boules de pâte et les placer sur une plaque recouverte de papier cuisson.\n" +
-            "4. Aplatir légèrement chaque boule.\n" +
-            "5. Cuire 12-15 minutes jusqu’à légère dorure.\n" +
-            "6. Laisser refroidir avant de servir."
+            "2. Casser les œufs dans un grand bol.\n" +
+            "3. Ajouter le sucre.\n" +
+            "4. Fouetter jusqu’à obtenir un mélange clair.\n" +
+            "5. Ajouter le beurre fondu.\n" +
+            "6. Mélanger.\n" +
+            "7. Ajouter la vanille.\n" +
+            "8. Incorporer la noix de coco râpée.\n" +
+            "9. Mélanger jusqu’à obtenir une pâte homogène.\n" +
+            "10. Former des boules avec les mains.\n" +
+            "11. Déposer sur une plaque recouverte de papier cuisson.\n" +
+            "12. Aplatir légèrement chaque boule.\n" +
+            "13. Enfourner pendant 12 à 15 minutes.\n" +
+            "14. Sortir du four quand elles sont légèrement dorées.\n" +
+            "15. Laisser refroidir avant de servir."
     },
+
     en: {
         title: "Coconut Ghriba",
-        equipment: ["1 bowl", "1 oven", "1 baking tray", "1 spoon", "1 whisk"],
+        equipment: [
+            "1 large bowl",
+            "1 whisk",
+            "1 spoon",
+            "1 baking tray",
+            "1 oven"
+        ],
         ingredients: [
             "200 g shredded coconut",
             "150 g sugar",
@@ -4278,16 +6794,32 @@ recipesData.dessert.ghribaNoixCoco = {
             "1 teaspoon vanilla"
         ],
         preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Mix all ingredients in a bowl until homogeneous.\n" +
-            "3. Form dough balls and place on a baking tray lined with parchment paper.\n" +
-            "4. Slightly flatten each ball.\n" +
-            "5. Bake 12-15 minutes until lightly golden.\n" +
-            "6. Let cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Crack the eggs into a large bowl.\n" +
+            "3. Add the sugar.\n" +
+            "4. Whisk until light in color.\n" +
+            "5. Add the melted butter.\n" +
+            "6. Mix well.\n" +
+            "7. Add the vanilla.\n" +
+            "8. Stir in the shredded coconut.\n" +
+            "9. Mix until a uniform dough forms.\n" +
+            "10. Shape the dough into small balls.\n" +
+            "11. Place on a lined baking tray.\n" +
+            "12. Slightly flatten each ball.\n" +
+            "13. Bake for 12–15 minutes.\n" +
+            "14. Remove when lightly golden.\n" +
+            "15. Let cool before serving."
     },
+
     nl: {
         title: "Ghriba met Kokos",
-        equipment: ["1 kom", "1 oven", "1 bakplaat", "1 lepel", "1 garde"],
+        equipment: [
+            "1 grote kom",
+            "1 garde",
+            "1 lepel",
+            "1 bakplaat",
+            "1 oven"
+        ],
         ingredients: [
             "200 g geraspte kokos",
             "150 g suiker",
@@ -4296,16 +6828,32 @@ recipesData.dessert.ghribaNoixCoco = {
             "1 theelepel vanille"
         ],
         preparation:
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Meng alle ingrediënten in een kom tot homogeen.\n" +
-            "3. Vorm deegballen en plaats op een met bakpapier beklede bakplaat.\n" +
-            "4. Druk elk bolletje iets plat.\n" +
-            "5. Bak 12-15 minuten tot licht goudbruin.\n" +
-            "6. Laat afkoelen voor het serveren."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Breek de eieren in een grote kom.\n" +
+            "3. Voeg de suiker toe.\n" +
+            "4. Klop tot het mengsel licht is.\n" +
+            "5. Voeg de gesmolten boter toe.\n" +
+            "6. Meng goed.\n" +
+            "7. Voeg de vanille toe.\n" +
+            "8. Meng de kokos erdoor.\n" +
+            "9. Meng tot een egaal deeg.\n" +
+            "10. Vorm kleine bolletjes.\n" +
+            "11. Leg ze op een bakplaat met bakpapier.\n" +
+            "12. Druk ze licht plat.\n" +
+            "13. Bak 12–15 minuten.\n" +
+            "14. Haal eruit als ze goudkleurig zijn.\n" +
+            "15. Laat afkoelen."
     },
+
     ar: {
         title: "غريبة بجوز الهند",
-        equipment: ["وعاء", "فرن", "صينية فرن", "ملعقة", "خلاط يدوي"],
+        equipment: [
+            "وعاء كبير",
+            "مضرب يدوي",
+            "ملعقة",
+            "صينية فرن",
+            "فرن"
+        ],
         ingredients: [
             "200 غ جوز الهند المبشور",
             "150 غ سكر",
@@ -4314,43 +6862,89 @@ recipesData.dessert.ghribaNoixCoco = {
             "1 ملعقة صغيرة فانيليا"
         ],
         preparation:
-            "1. سخّن الفرن إلى 180°م.\n" +
-            "2. اخلط جميع المكونات في وعاء حتى تمتزج.\n" +
-            "3. شكّل كرات وضعها على صينية فرن مغطاة بورق الخبز.\n" +
-            "4. اضغط على كل كرة قليلاً.\n" +
-            "5. اخبز 12-15 دقيقة حتى تصبح ذهبية قليلاً.\n" +
-            "6. اتركها تبرد قبل التقديم."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. اكسر البيض في وعاء كبير.\n" +
+            "3. أضف السكر.\n" +
+            "4. اخفق حتى يصبح الخليط فاتح اللون.\n" +
+            "5. أضف الزبدة المذابة.\n" +
+            "6. اخلط جيداً.\n" +
+            "7. أضف الفانيليا.\n" +
+            "8. أضف جوز الهند المبشور.\n" +
+            "9. اخلط حتى تتجانس العجينة.\n" +
+            "10. شكّل كرات صغيرة.\n" +
+            "11. ضعها في صينية مغطاة بورق الخبز.\n" +
+            "12. اضغط عليها قليلاً.\n" +
+            "13. اخبز لمدة 12–15 دقيقة.\n" +
+            "14. أخرجها عندما تصبح ذهبية.\n" +
+            "15. اتركها تبرد قبل التقديم."
     }
 };
 recipesData.dessert.mkharkaMiel = {
     country: "maroc",
     image: "images/mkharka-miel.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "25 min",
+        cookTime: "20 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "M’kharka au miel renforcé",
-        equipment: ["1 bol", "1 poêle", "1 cuillère en bois", "1 rouleau à pâtisserie", "1 four", "1 plaque de cuisson"],
+        equipment: [
+            "1 grand bol",
+            "1 cuillère en bois",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 plaque de cuisson",
+            "1 four",
+            "1 casserole"
+        ],
         ingredients: [
-            "250 g farine",
-            "100 g beurre fondu",
-            "50 g sucre",
-            "50 g graines de sésame",
-            "50 g graines de tournesol",
-            "1 cuillère à café cannelle",
-            "Eau tiède selon besoin",
-            "Huile pour cuisson",
-            "100 g miel chaud"
+            "250 g de farine",
+            "100 g de beurre fondu",
+            "50 g de sucre",
+            "50 g de graines de sésame",
+            "50 g de graines de tournesol",
+            "1 cuillère à café de cannelle",
+            "Eau tiède (selon besoin)",
+            "100 g de miel"
         ],
         preparation:
-            "1. Mélanger farine, sucre et cannelle.\n" +
-            "2. Ajouter beurre fondu et eau tiède pour obtenir une pâte souple.\n" +
-            "3. Étaler la pâte, parsemer de graines.\n" +
-            "4. Rouler et découper en bâtonnets.\n" +
-            "5. Cuire au four 15-20 min à 180°C.\n" +
-            "6. Napper de miel chaud.\n" +
-            "7. Laisser refroidir avant de servir."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Verser la farine dans un grand bol.\n" +
+            "3. Ajouter le sucre.\n" +
+            "4. Ajouter la cannelle.\n" +
+            "5. Mélanger les ingrédients secs.\n" +
+            "6. Ajouter le beurre fondu.\n" +
+            "7. Mélanger avec une cuillère en bois.\n" +
+            "8. Ajouter progressivement l’eau tiède.\n" +
+            "9. Pétrir jusqu’à obtenir une pâte souple.\n" +
+            "10. Fariner légèrement le plan de travail.\n" +
+            "11. Étaler la pâte en un rectangle fin.\n" +
+            "12. Parsemer de graines de sésame.\n" +
+            "13. Ajouter les graines de tournesol.\n" +
+            "14. Rouler la pâte sur elle-même.\n" +
+            "15. Couper en bâtonnets réguliers.\n" +
+            "16. Déposer sur une plaque recouverte de papier cuisson.\n" +
+            "17. Enfourner pendant 15 à 20 minutes.\n" +
+            "18. Faire chauffer le miel dans une casserole.\n" +
+            "19. Verser le miel chaud sur les m’kharka.\n" +
+            "20. Laisser refroidir avant de servir."
     },
+
     en: {
         title: "M’kharka with Extra Honey",
-        equipment: ["1 bowl", "1 pan", "1 wooden spoon", "1 rolling pin", "1 oven", "1 baking tray"],
+        equipment: [
+            "1 large bowl",
+            "1 wooden spoon",
+            "1 rolling pin",
+            "1 knife",
+            "1 baking tray",
+            "1 oven",
+            "1 saucepan"
+        ],
         ingredients: [
             "250 g flour",
             "100 g melted butter",
@@ -4358,22 +6952,43 @@ recipesData.dessert.mkharkaMiel = {
             "50 g sesame seeds",
             "50 g sunflower seeds",
             "1 teaspoon cinnamon",
-            "Warm water as needed",
-            "Oil for cooking",
-            "100 g warm honey"
+            "Warm water (as needed)",
+            "100 g honey"
         ],
         preparation:
-            "1. Mix flour, sugar, and cinnamon.\n" +
-            "2. Add melted butter and warm water to make a soft dough.\n" +
-            "3. Roll out dough, sprinkle with seeds.\n" +
-            "4. Roll and cut into sticks.\n" +
-            "5. Bake 15-20 min at 180°C.\n" +
-            "6. Coat with warm honey.\n" +
-            "7. Let cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Pour flour into a large bowl.\n" +
+            "3. Add sugar.\n" +
+            "4. Add cinnamon.\n" +
+            "5. Mix the dry ingredients.\n" +
+            "6. Add melted butter.\n" +
+            "7. Stir with a wooden spoon.\n" +
+            "8. Gradually add warm water.\n" +
+            "9. Knead until soft dough forms.\n" +
+            "10. Lightly flour the work surface.\n" +
+            "11. Roll out the dough into a thin rectangle.\n" +
+            "12. Sprinkle sesame seeds.\n" +
+            "13. Add sunflower seeds.\n" +
+            "14. Roll the dough tightly.\n" +
+            "15. Cut into even sticks.\n" +
+            "16. Place on a lined baking tray.\n" +
+            "17. Bake for 15–20 minutes.\n" +
+            "18. Heat the honey in a saucepan.\n" +
+            "19. Pour warm honey over the pastries.\n" +
+            "20. Let cool before serving."
     },
+
     nl: {
         title: "M’kharka met Extra Honing",
-        equipment: ["1 kom", "1 pan", "1 houten lepel", "1 deegroller", "1 oven", "1 bakplaat"],
+        equipment: [
+            "1 grote kom",
+            "1 houten lepel",
+            "1 deegroller",
+            "1 mes",
+            "1 bakplaat",
+            "1 oven",
+            "1 steelpan"
+        ],
         ingredients: [
             "250 g bloem",
             "100 g gesmolten boter",
@@ -4381,153 +6996,325 @@ recipesData.dessert.mkharkaMiel = {
             "50 g sesamzaadjes",
             "50 g zonnebloempitten",
             "1 theelepel kaneel",
-            "Lauw water naar behoefte",
-            "Olie om te bakken",
-            "100 g warme honing"
+            "Lauw water (naar behoefte)",
+            "100 g honing"
         ],
         preparation:
-            "1. Meng bloem, suiker en kaneel.\n" +
-            "2. Voeg gesmolten boter en lauw water toe voor een soepel deeg.\n" +
-            "3. Rol het deeg uit en bestrooi met zaden.\n" +
-            "4. Rol op en snijd in staafjes.\n" +
-            "5. Bak 15-20 min op 180°C.\n" +
-            "6. Bedek met warme honing.\n" +
-            "7. Laat afkoelen voor het serveren."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Doe de bloem in een grote kom.\n" +
+            "3. Voeg de suiker toe.\n" +
+            "4. Voeg kaneel toe.\n" +
+            "5. Meng de droge ingrediënten.\n" +
+            "6. Voeg de gesmolten boter toe.\n" +
+            "7. Meng met een houten lepel.\n" +
+            "8. Voeg geleidelijk lauw water toe.\n" +
+            "9. Kneed tot een soepel deeg.\n" +
+            "10. Bestuif het werkblad licht met bloem.\n" +
+            "11. Rol het deeg dun uit.\n" +
+            "12. Bestrooi met sesamzaadjes.\n" +
+            "13. Voeg zonnebloempitten toe.\n" +
+            "14. Rol het deeg strak op.\n" +
+            "15. Snijd in staafjes.\n" +
+            "16. Leg op een bakplaat met bakpapier.\n" +
+            "17. Bak 15–20 minuten.\n" +
+            "18. Verwarm de honing.\n" +
+            "19. Giet de honing over de m’kharka.\n" +
+            "20. Laat afkoelen."
     },
+
     ar: {
         title: "المخرقة بالعسل المعزز",
-        equipment: ["وعاء", "مقلاة", "ملعقة خشبية", "شوبك العجين", "فرن", "صينية فرن"],
+        equipment: [
+            "وعاء كبير",
+            "ملعقة خشبية",
+            "شوبك العجين",
+            "سكين",
+            "صينية فرن",
+            "فرن",
+            "قدر"
+        ],
         ingredients: [
             "250 غ دقيق",
             "100 غ زبدة مذابة",
             "50 غ سكر",
-            "50 غ بذور سمسم",
+            "50 غ سمسم",
             "50 غ بذور دوار الشمس",
             "1 ملعقة صغيرة قرفة",
             "ماء دافئ حسب الحاجة",
-            "زيت للطبخ",
-            "100 غ عسل دافئ"
+            "100 غ عسل"
         ],
         preparation:
-            "1. اخلط الدقيق والسكر والقرفة.\n" +
-            "2. أضف الزبدة المذابة والماء الدافئ للحصول على عجين لين.\n" +
-            "3. افرد العجين ورش بالبذور.\n" +
-            "4. لف وقطع إلى أعواد.\n" +
-            "5. اخبز 15-20 دقيقة على 180°م.\n" +
-            "6. غطّ بالعسل الدافئ.\n" +
-            "7. اتركه يبرد قبل التقديم."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. ضع الدقيق في وعاء كبير.\n" +
+            "3. أضف السكر.\n" +
+            "4. أضف القرفة.\n" +
+            "5. اخلط المكونات الجافة.\n" +
+            "6. أضف الزبدة المذابة.\n" +
+            "7. اخلط بملعقة خشبية.\n" +
+            "8. أضف الماء الدافئ تدريجياً.\n" +
+            "9. اعجن حتى تحصل على عجين لين.\n" +
+            "10. رش القليل من الدقيق على السطح.\n" +
+            "11. افرد العجين بشكل مستطيل رقيق.\n" +
+            "12. رش السمسم فوقه.\n" +
+            "13. أضف بذور دوار الشمس.\n" +
+            "14. لف العجين بإحكام.\n" +
+            "15. قطّع إلى أعواد.\n" +
+            "16. ضعها في صينية مغطاة بورق الخبز.\n" +
+            "17. اخبز لمدة 15–20 دقيقة.\n" +
+            "18. سخّن العسل في قدر.\n" +
+            "19. اسكب العسل فوق المخرقة.\n" +
+            "20. اتركها تبرد قبل التقديم."
     }
 };
 recipesData.dessert.kaabElGhazalDattes = {
     country: "maroc",
     image: "images/kaab-el-ghazal-dattes.jpg",
+
+    meta: {
+        servings: "8 à 10 personnes",
+        prepTime: "40 min",
+        cookTime: "20 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Kaab el Ghazal aux dattes et amandes",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 four", "1 planche à découper"],
+        equipment: [
+            "1 grand bol",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 planche à découper",
+            "1 plaque de cuisson",
+            "1 four"
+        ],
         ingredients: [
-            "250 g farine",
-            "125 g beurre fondu",
+            "250 g de farine",
+            "125 g de beurre fondu",
             "1 pincée de sel",
-            "Eau de fleur d’oranger",
-            "150 g pâte d’amande",
-            "100 g dattes dénoyautées et hachées",
+            "Eau de fleur d’oranger (pour pétrir)",
+            "150 g de pâte d’amande",
+            "100 g de dattes dénoyautées et hachées",
             "Sucre glace pour saupoudrer"
         ],
         preparation:
-            "1. Mélanger farine, sel et beurre, ajouter eau de fleur d’oranger pour former une pâte.\n" +
-            "2. Étaler la pâte et découper en rectangles.\n" +
-            "3. Mélanger pâte d’amande et dattes, former des bâtonnets.\n" +
-            "4. Placer le mélange sur chaque rectangle, rouler en croissant.\n" +
-            "5. Cuire 15-20 minutes à 180°C.\n" +
-            "6. Saupoudrer de sucre glace avant de servir."
+            "1. Verser la farine dans un grand bol.\n" +
+            "2. Ajouter le sel.\n" +
+            "3. Mélanger les ingrédients secs.\n" +
+            "4. Ajouter le beurre fondu.\n" +
+            "5. Mélanger du bout des doigts.\n" +
+            "6. Ajouter progressivement l’eau de fleur d’oranger.\n" +
+            "7. Pétrir jusqu’à obtenir une pâte souple.\n" +
+            "8. Former une boule de pâte.\n" +
+            "9. Couvrir et laisser reposer 15 minutes.\n" +
+            "10. Fariner légèrement le plan de travail.\n" +
+            "11. Étaler la pâte très finement.\n" +
+            "12. Découper des rectangles réguliers.\n" +
+            "13. Mélanger la pâte d’amande avec les dattes hachées.\n" +
+            "14. Former des boudins fins de farce.\n" +
+            "15. Déposer un boudin sur chaque rectangle.\n" +
+            "16. Rouler la pâte autour de la farce.\n" +
+            "17. Souder les bords.\n" +
+            "18. Courber en forme de croissant.\n" +
+            "19. Déposer sur une plaque recouverte de papier cuisson.\n" +
+            "20. Enfourner à 180°C pendant 15 à 20 minutes.\n" +
+            "21. Laisser refroidir.\n" +
+            "22. Saupoudrer de sucre glace avant de servir."
     },
+
     en: {
         title: "Kaab el Ghazal with Dates and Almonds",
-        equipment: ["1 bowl", "1 rolling pin", "1 knife", "1 oven", "1 cutting board"],
+        equipment: [
+            "1 large bowl",
+            "1 rolling pin",
+            "1 knife",
+            "1 cutting board",
+            "1 baking tray",
+            "1 oven"
+        ],
         ingredients: [
             "250 g flour",
             "125 g melted butter",
             "Pinch of salt",
-            "Orange blossom water",
+            "Orange blossom water (for kneading)",
             "150 g almond paste",
             "100 g pitted chopped dates",
             "Powdered sugar for dusting"
         ],
         preparation:
-            "1. Mix flour, salt, and butter; add orange blossom water to form dough.\n" +
-            "2. Roll out dough and cut rectangles.\n" +
-            "3. Mix almond paste with dates, form sticks.\n" +
-            "4. Place on each rectangle and roll into crescent.\n" +
-            "5. Bake 15-20 min at 180°C.\n" +
-            "6. Dust with powdered sugar before serving."
+            "1. Pour flour into a large bowl.\n" +
+            "2. Add salt.\n" +
+            "3. Mix the dry ingredients.\n" +
+            "4. Add melted butter.\n" +
+            "5. Rub with fingers.\n" +
+            "6. Gradually add orange blossom water.\n" +
+            "7. Knead into a soft dough.\n" +
+            "8. Form a dough ball.\n" +
+            "9. Cover and rest for 15 minutes.\n" +
+            "10. Lightly flour the work surface.\n" +
+            "11. Roll out the dough very thin.\n" +
+            "12. Cut into even rectangles.\n" +
+            "13. Mix almond paste with chopped dates.\n" +
+            "14. Shape into thin logs.\n" +
+            "15. Place one log on each rectangle.\n" +
+            "16. Roll the dough around the filling.\n" +
+            "17. Seal the edges.\n" +
+            "18. Bend into crescent shapes.\n" +
+            "19. Place on a lined baking tray.\n" +
+            "20. Bake at 180°C for 15–20 minutes.\n" +
+            "21. Let cool.\n" +
+            "22. Dust with powdered sugar before serving."
     },
+
     nl: {
         title: "Kaab el Ghazal met Dadels en Amandelen",
-        equipment: ["1 kom", "1 deegroller", "1 mes", "1 oven", "1 snijplank"],
+        equipment: [
+            "1 grote kom",
+            "1 deegroller",
+            "1 mes",
+            "1 snijplank",
+            "1 bakplaat",
+            "1 oven"
+        ],
         ingredients: [
             "250 g bloem",
             "125 g gesmolten boter",
             "Snufje zout",
-            "Bloemwater",
+            "Oranjebloesemwater (voor kneden)",
             "150 g amandelpasta",
             "100 g ontpitte gehakte dadels",
             "Poedersuiker om te bestuiven"
         ],
         preparation:
-            "1. Meng bloem, zout en boter, voeg bloemwater toe tot deeg.\n" +
-            "2. Rol uit en snijd rechthoeken.\n" +
-            "3. Meng amandelpasta met dadels, vorm stokjes.\n" +
-            "4. Leg op elk rechthoekje en rol op tot halve maan.\n" +
-            "5. Bak 15-20 minuten op 180°C.\n" +
-            "6. Bestuif met poedersuiker voor het serveren."
+            "1. Doe de bloem in een grote kom.\n" +
+            "2. Voeg zout toe.\n" +
+            "3. Meng de droge ingrediënten.\n" +
+            "4. Voeg de gesmolten boter toe.\n" +
+            "5. Meng met de vingers.\n" +
+            "6. Voeg geleidelijk bloesemwater toe.\n" +
+            "7. Kneed tot een soepel deeg.\n" +
+            "8. Vorm een deegbal.\n" +
+            "9. Dek af en laat 15 minuten rusten.\n" +
+            "10. Bestuif het werkblad licht met bloem.\n" +
+            "11. Rol het deeg zeer dun uit.\n" +
+            "12. Snijd rechthoeken.\n" +
+            "13. Meng amandelpasta met dadels.\n" +
+            "14. Vorm rolletjes van de vulling.\n" +
+            "15. Leg ze op het deeg.\n" +
+            "16. Rol het deeg eromheen.\n" +
+            "17. Sluit de randen.\n" +
+            "18. Buig tot halve maanvorm.\n" +
+            "19. Leg op een bakplaat met bakpapier.\n" +
+            "20. Bak 15–20 minuten op 180°C.\n" +
+            "21. Laat afkoelen.\n" +
+            "22. Bestuif met poedersuiker."
     },
+
     ar: {
         title: "كعب الغزال بالتمر واللوز",
-        equipment: ["وعاء", "شوبك العجين", "سكين", "فرن", "لوح تقطيع"],
+        equipment: [
+            "وعاء كبير",
+            "شوبك العجين",
+            "سكين",
+            "لوح تقطيع",
+            "صينية فرن",
+            "فرن"
+        ],
         ingredients: [
             "250 غ دقيق",
             "125 غ زبدة مذابة",
             "رشة ملح",
-            "ماء الزهر",
+            "ماء الزهر للعجن",
             "150 غ عجينة لوز",
             "100 غ تمر مفروم ومنزوع النوى",
             "سكر بودرة للرش"
         ],
         preparation:
-            "1. اخلط الدقيق والملح والزبدة، أضف ماء الزهر لتشكيل العجين.\n" +
-            "2. افرد العجين وقطع مستطيلات.\n" +
-            "3. اخلط عجينة اللوز مع التمر وشكّل أصابع.\n" +
-            "4. ضع على كل مستطيل ولف على شكل هلال.\n" +
-            "5. اخبز 15-20 دقيقة على 180°م.\n" +
-            "6. رش بالسكر البودرة قبل التقديم."
+            "1. ضع الدقيق في وعاء كبير.\n" +
+            "2. أضف الملح.\n" +
+            "3. اخلط المكونات الجافة.\n" +
+            "4. أضف الزبدة المذابة.\n" +
+            "5. اخلط بأطراف الأصابع.\n" +
+            "6. أضف ماء الزهر تدريجياً.\n" +
+            "7. اعجن حتى تحصل على عجين لين.\n" +
+            "8. شكّل كرة من العجين.\n" +
+            "9. غطِّ واتركها ترتاح 15 دقيقة.\n" +
+            "10. رش القليل من الدقيق على السطح.\n" +
+            "11. افرد العجين رقيقاً جداً.\n" +
+            "12. قطّع إلى مستطيلات.\n" +
+            "13. اخلط عجينة اللوز مع التمر.\n" +
+            "14. شكّلها على شكل أصابع.\n" +
+            "15. ضعها على العجين.\n" +
+            "16. لف العجين حول الحشوة.\n" +
+            "17. أغلق الأطراف.\n" +
+            "18. شكّلها كالهلال.\n" +
+            "19. ضعها في صينية مغطاة بورق الخبز.\n" +
+            "20. اخبز على 180°م لمدة 15–20 دقيقة.\n" +
+            "21. اتركها تبرد.\n" +
+            "22. رش السكر البودرة قبل التقديم."
     }
 };
 recipesData.dessert.baklavaNoix = {
     country: "maroc",
     image: "images/baklava-noix.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "25 min",
+        cookTime: "30 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Baklava aux noix et miel renforcé",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 four", "1 casserole", "1 pinceau"],
+        equipment: [
+            "1 bol",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 four",
+            "1 casserole",
+            "1 pinceau"
+        ],
         ingredients: [
-            "200 g pâte filo",
-            "150 g noix hachées",
-            "100 g beurre fondu",
-            "120 g miel",
-            "60 g sucre",
-            "1 cuillère à café cannelle"
+            "200 g de pâte filo",
+            "150 g de noix hachées",
+            "100 g de beurre fondu",
+            "120 g de miel",
+            "60 g de sucre",
+            "1 cuillère à café de cannelle"
         ],
         preparation:
-            "1. Préchauffer four à 180°C.\n" +
-            "2. Beurrer un plat, déposer feuille de filo, répéter 3-4 fois.\n" +
-            "3. Parsemer de noix et cannelle.\n" +
-            "4. Couvrir avec le reste de pâte en superposition, beurrer chaque feuille.\n" +
-            "5. Découper en losanges et cuire 25-30 min.\n" +
-            "6. Chauffer miel avec sucre et napper les baklavas chauds.\n" +
-            "7. Laisser refroidir avant de servir."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Beurrer le fond d’un plat allant au four.\n" +
+            "3. Déposer une feuille de pâte filo dans le plat.\n" +
+            "4. Badigeonner la feuille de beurre fondu.\n" +
+            "5. Répéter avec 3 à 4 feuilles.\n" +
+            "6. Mélanger les noix avec la cannelle.\n" +
+            "7. Répartir une couche de garniture.\n" +
+            "8. Recouvrir d’une feuille de filo.\n" +
+            "9. Beurrer la feuille.\n" +
+            "10. Ajouter une deuxième couche de noix.\n" +
+            "11. Couvrir avec le reste des feuilles.\n" +
+            "12. Beurrer chaque feuille.\n" +
+            "13. Découper en losanges avec un couteau.\n" +
+            "14. Enfourner pendant 25 à 30 minutes.\n" +
+            "15. Faire chauffer le miel et le sucre dans une casserole.\n" +
+            "16. Mélanger jusqu’à obtenir un sirop.\n" +
+            "17. Sortir la baklava dorée du four.\n" +
+            "18. Verser le sirop chaud dessus.\n" +
+            "19. Laisser bien absorber.\n" +
+            "20. Laisser refroidir avant de servir."
     },
+
     en: {
         title: "Walnut Baklava with Extra Honey",
-        equipment: ["1 bowl", "1 rolling pin", "1 knife", "1 oven", "1 saucepan", "1 brush"],
+        equipment: [
+            "1 bowl",
+            "1 rolling pin",
+            "1 knife",
+            "1 oven",
+            "1 saucepan",
+            "1 brush"
+        ],
         ingredients: [
             "200 g phyllo dough",
             "150 g chopped walnuts",
@@ -4537,17 +7324,38 @@ recipesData.dessert.baklavaNoix = {
             "1 teaspoon cinnamon"
         ],
         preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Butter dish, place phyllo sheet, repeat 3-4 times.\n" +
-            "3. Sprinkle with walnuts and cinnamon.\n" +
-            "4. Cover with remaining sheets, butter each layer.\n" +
-            "5. Cut into diamonds, bake 25-30 min.\n" +
-            "6. Heat honey with sugar and pour over hot baklava.\n" +
-            "7. Let cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Butter the bottom of a baking dish.\n" +
+            "3. Place one sheet of phyllo dough.\n" +
+            "4. Brush with melted butter.\n" +
+            "5. Repeat with 3–4 sheets.\n" +
+            "6. Mix walnuts with cinnamon.\n" +
+            "7. Spread a layer of filling.\n" +
+            "8. Cover with another phyllo sheet.\n" +
+            "9. Brush with butter.\n" +
+            "10. Add a second walnut layer.\n" +
+            "11. Cover with remaining sheets.\n" +
+            "12. Butter each sheet.\n" +
+            "13. Cut into diamond shapes.\n" +
+            "14. Bake for 25–30 minutes.\n" +
+            "15. Heat honey and sugar in a saucepan.\n" +
+            "16. Stir until syrup forms.\n" +
+            "17. Remove baklava from the oven.\n" +
+            "18. Pour hot syrup over it.\n" +
+            "19. Let it soak well.\n" +
+            "20. Let cool before serving."
     },
+
     nl: {
         title: "Walnoot Baklava met Extra Honing",
-        equipment: ["1 kom", "1 deegroller", "1 mes", "1 oven", "1 steelpan", "1 kwast"],
+        equipment: [
+            "1 kom",
+            "1 deegroller",
+            "1 mes",
+            "1 oven",
+            "1 steelpan",
+            "1 kwast"
+        ],
         ingredients: [
             "200 g filodeeg",
             "150 g gehakte walnoten",
@@ -4557,17 +7365,38 @@ recipesData.dessert.baklavaNoix = {
             "1 theelepel kaneel"
         ],
         preparation:
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Vet bakvorm in, leg filodeegvel, herhaal 3-4 keer.\n" +
-            "3. Bestrooi met walnoten en kaneel.\n" +
-            "4. Bedek met resterende vellen, bestrijk elk met boter.\n" +
-            "5. Snijd in ruiten en bak 25-30 min.\n" +
-            "6. Verwarm honing met suiker en giet over de warme baklava.\n" +
-            "7. Laat afkoelen voor het serveren."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Vet de bakvorm in.\n" +
+            "3. Leg een vel filodeeg in de vorm.\n" +
+            "4. Bestrijk met boter.\n" +
+            "5. Herhaal met 3–4 vellen.\n" +
+            "6. Meng walnoten met kaneel.\n" +
+            "7. Verdeel een laag vulling.\n" +
+            "8. Leg er een nieuw vel op.\n" +
+            "9. Bestrijk met boter.\n" +
+            "10. Voeg nog een laag walnoten toe.\n" +
+            "11. Bedek met resterende vellen.\n" +
+            "12. Bestrijk elk vel.\n" +
+            "13. Snijd in ruitvorm.\n" +
+            "14. Bak 25–30 minuten.\n" +
+            "15. Verwarm honing en suiker.\n" +
+            "16. Roer tot siroop ontstaat.\n" +
+            "17. Haal de baklava uit de oven.\n" +
+            "18. Giet de siroop erover.\n" +
+            "19. Laat goed intrekken.\n" +
+            "20. Laat afkoelen voor serveren."
     },
+
     ar: {
         title: "بقلاوة بالجوز والعسل المعزز",
-        equipment: ["وعاء", "شوبك العجين", "سكين", "فرن", "قدر", "فرشاة"],
+        equipment: [
+            "وعاء",
+            "شوبك العجين",
+            "سكين",
+            "فرن",
+            "قدر",
+            "فرشاة"
+        ],
         ingredients: [
             "200 غ عجينة فيلو",
             "150 غ جوز مفروم",
@@ -4577,41 +7406,90 @@ recipesData.dessert.baklavaNoix = {
             "1 ملعقة صغيرة قرفة"
         ],
         preparation:
-            "1. سخّن الفرن إلى 180°م.\n" +
-            "2. ادهن صينية وضع طبقة من عجينة الفيلو، كرر 3-4 مرات.\n" +
-            "3. رش الجوز والقرفة.\n" +
-            "4. غطّ بالطبقات المتبقية وادهن كل طبقة بالزبدة.\n" +
-            "5. قطع إلى أشكال ماسية واخبز 25-30 دقيقة.\n" +
-            "6. سخّن العسل مع السكر واسكبه على البقلاوة الساخنة.\n" +
-            "7. اتركها تبرد قبل التقديم."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. ادهن قاع الصينية بالزبدة.\n" +
+            "3. ضع طبقة من عجينة الفيلو.\n" +
+            "4. ادهنها بالزبدة.\n" +
+            "5. كرر مع 3–4 طبقات.\n" +
+            "6. اخلط الجوز مع القرفة.\n" +
+            "7. وزّع طبقة من الحشوة.\n" +
+            "8. غطِّ بطبقة فيلو جديدة.\n" +
+            "9. ادهنها بالزبدة.\n" +
+            "10. أضف طبقة ثانية من الجوز.\n" +
+            "11. غطِّ بباقي الطبقات.\n" +
+            "12. ادهن كل طبقة.\n" +
+            "13. قطّع على شكل معينات.\n" +
+            "14. اخبز لمدة 25–30 دقيقة.\n" +
+            "15. سخّن العسل مع السكر.\n" +
+            "16. حرّك حتى يتكوّن شراب.\n" +
+            "17. أخرج البقلاوة من الفرن.\n" +
+            "18. اسكب الشراب الساخن فوقها.\n" +
+            "19. اتركها تمتص الشراب جيداً.\n" +
+            "20. اتركها تبرد قبل التقديم."
     }
 };
 recipesData.dessert.sellou = {
     country: "maroc",
     image: "images/sellou.jpg",
+
+    meta: {
+        servings: "8 à 10 personnes",
+        prepTime: "25 min",
+        cookTime: "20 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Sellou (Sfouf) – mélange énergétique aux amandes",
-        equipment: ["1 bol", "1 poêle", "1 cuillère en bois", "1 four", "1 plaque de cuisson"],
+        equipment: [
+            "1 grand bol",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 moulin ou robot",
+            "1 plat de service"
+        ],
         ingredients: [
-            "500 g farine",
-            "200 g amandes grillées et moulues",
-            "100 g graines de sésame grillées",
-            "150 g sucre",
-            "150 g beurre fondu",
-            "1 cuillère à café cannelle",
+            "500 g de farine",
+            "200 g d’amandes grillées et moulues",
+            "100 g de graines de sésame grillées",
+            "150 g de sucre",
+            "150 g de beurre fondu",
+            "1 cuillère à café de cannelle",
             "1 pincée de sel",
-            "1/2 cuillère à café gingembre moulu"
+            "1/2 cuillère à café de gingembre moulu"
         ],
         preparation:
-            "1. Torréfier la farine dans une poêle jusqu’à légère coloration.\n" +
-            "2. Mélanger farine torréfiée, amandes, graines de sésame, sucre, cannelle, sel et gingembre.\n" +
-            "3. Ajouter le beurre fondu et mélanger jusqu’à obtenir une pâte friable.\n" +
-            "4. Verser dans un plat ou former des petites boules.\n" +
-            "5. Servir à température ambiante, souvent avec thé à la menthe."
+            "1. Verser la farine dans une poêle sèche.\n" +
+            "2. Chauffer à feu moyen.\n" +
+            "3. Remuer constamment avec une cuillère en bois.\n" +
+            "4. Torréfier jusqu’à obtenir une couleur dorée.\n" +
+            "5. Retirer du feu et laisser refroidir.\n" +
+            "6. Mettre les amandes grillées dans un robot.\n" +
+            "7. Ajouter les graines de sésame.\n" +
+            "8. Mixer jusqu’à obtenir une poudre fine.\n" +
+            "9. Verser la farine refroidie dans un grand bol.\n" +
+            "10. Ajouter le mélange amandes–sésame.\n" +
+            "11. Ajouter le sucre.\n" +
+            "12. Ajouter la cannelle.\n" +
+            "13. Ajouter le gingembre.\n" +
+            "14. Ajouter le sel.\n" +
+            "15. Mélanger les ingrédients secs.\n" +
+            "16. Verser le beurre fondu.\n" +
+            "17. Mélanger avec les mains ou une cuillère.\n" +
+            "18. Obtenir une texture sableuse et homogène.\n" +
+            "19. Tasser dans un plat ou former des boules.\n" +
+            "20. Servir à température ambiante."
     },
+
     en: {
         title: "Sellou (Sfouf) – Energy Mix with Almonds",
-        equipment: ["1 bowl", "1 pan", "1 wooden spoon", "1 oven", "1 baking tray"],
+        equipment: [
+            "1 large bowl",
+            "1 pan",
+            "1 wooden spoon",
+            "1 grinder or food processor",
+            "1 serving dish"
+        ],
         ingredients: [
             "500 g flour",
             "200 g toasted ground almonds",
@@ -4623,15 +7501,37 @@ recipesData.dessert.sellou = {
             "1/2 teaspoon ground ginger"
         ],
         preparation:
-            "1. Toast flour in a pan until lightly colored.\n" +
-            "2. Mix toasted flour, almonds, sesame seeds, sugar, cinnamon, salt and ginger.\n" +
-            "3. Add melted butter and mix until crumbly.\n" +
-            "4. Pour into a dish or form small balls.\n" +
-            "5. Serve at room temperature, often with mint tea."
+            "1. Pour flour into a dry pan.\n" +
+            "2. Heat over medium heat.\n" +
+            "3. Stir constantly with a wooden spoon.\n" +
+            "4. Toast until golden.\n" +
+            "5. Remove from heat and let cool.\n" +
+            "6. Place toasted almonds in a grinder.\n" +
+            "7. Add sesame seeds.\n" +
+            "8. Grind into a fine powder.\n" +
+            "9. Pour cooled flour into a large bowl.\n" +
+            "10. Add almond–sesame mixture.\n" +
+            "11. Add sugar.\n" +
+            "12. Add cinnamon.\n" +
+            "13. Add ginger.\n" +
+            "14. Add salt.\n" +
+            "15. Mix dry ingredients.\n" +
+            "16. Pour in melted butter.\n" +
+            "17. Mix well.\n" +
+            "18. Obtain a crumbly texture.\n" +
+            "19. Press into a dish or shape into balls.\n" +
+            "20. Serve at room temperature."
     },
+
     nl: {
         title: "Sellou (Sfouf) – Energierijke Mix met Amandelen",
-        equipment: ["1 kom", "1 pan", "1 houten lepel", "1 oven", "1 bakplaat"],
+        equipment: [
+            "1 grote kom",
+            "1 pan",
+            "1 houten lepel",
+            "1 blender of molen",
+            "1 serveerschaal"
+        ],
         ingredients: [
             "500 g bloem",
             "200 g geroosterde gemalen amandelen",
@@ -4643,19 +7543,41 @@ recipesData.dessert.sellou = {
             "1/2 theelepel gemalen gember"
         ],
         preparation:
-            "1. Rooster bloem in een pan tot licht gekleurd.\n" +
-            "2. Meng geroosterde bloem, amandelen, sesamzaad, suiker, kaneel, zout en gember.\n" +
-            "3. Voeg gesmolten boter toe en meng tot kruimelig.\n" +
-            "4. Giet in een schaal of vorm kleine balletjes.\n" +
-            "5. Serveer op kamertemperatuur, vaak met muntthee."
+            "1. Doe de bloem in een droge pan.\n" +
+            "2. Verhit op middelhoog vuur.\n" +
+            "3. Roer constant met een houten lepel.\n" +
+            "4. Rooster tot goudbruin.\n" +
+            "5. Laat afkoelen.\n" +
+            "6. Doe de amandelen in de blender.\n" +
+            "7. Voeg sesam toe.\n" +
+            "8. Maal tot poeder.\n" +
+            "9. Doe de bloem in een grote kom.\n" +
+            "10. Voeg het notenmengsel toe.\n" +
+            "11. Voeg suiker toe.\n" +
+            "12. Voeg kaneel toe.\n" +
+            "13. Voeg gember toe.\n" +
+            "14. Voeg zout toe.\n" +
+            "15. Meng alles.\n" +
+            "16. Giet de gesmolten boter erbij.\n" +
+            "17. Meng goed.\n" +
+            "18. Krijg een kruimelige structuur.\n" +
+            "19. Druk in een schaal of maak balletjes.\n" +
+            "20. Serveer op kamertemperatuur."
     },
+
     ar: {
         title: "سلو (سفوف) – خليط الطاقة باللوز",
-        equipment: ["وعاء", "مقلاة", "ملعقة خشبية", "فرن", "صينية فرن"],
+        equipment: [
+            "وعاء كبير",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مطحنة أو خلاط",
+            "طبق تقديم"
+        ],
         ingredients: [
             "500 غ دقيق",
             "200 غ لوز محمص ومطحون",
-            "100 غ بذور سمسم محمصة",
+            "100 غ سمسم محمص",
             "150 غ سكر",
             "150 غ زبدة مذابة",
             "1 ملعقة صغيرة قرفة",
@@ -4663,83 +7585,178 @@ recipesData.dessert.sellou = {
             "1/2 ملعقة صغيرة زنجبيل مطحون"
         ],
         preparation:
-            "1. حمّص الدقيق في مقلاة حتى يصبح لونه فاتح.\n" +
-            "2. اخلط الدقيق المحمص، اللوز، السمسم، السكر، القرفة، الملح والزنجبيل.\n" +
-            "3. أضف الزبدة المذابة واخلط حتى يصبح خليط مفتت.\n" +
-            "4. ضع الخليط في صينية أو شكل كرات صغيرة.\n" +
-            "5. قدّمها في درجة حرارة الغرفة، غالباً مع الشاي بالنعناع."
+            "1. ضع الدقيق في مقلاة جافة.\n" +
+            "2. سخّن على نار متوسطة.\n" +
+            "3. حرّك باستمرار بملعقة خشبية.\n" +
+            "4. حمّص حتى يصبح ذهبياً.\n" +
+            "5. ارفعه واتركه يبرد.\n" +
+            "6. ضع اللوز في الخلاط.\n" +
+            "7. أضف السمسم.\n" +
+            "8. اطحن حتى يصبح مسحوقاً.\n" +
+            "9. ضع الدقيق في وعاء كبير.\n" +
+            "10. أضف خليط اللوز والسمسم.\n" +
+            "11. أضف السكر.\n" +
+            "12. أضف القرفة.\n" +
+            "13. أضف الزنجبيل.\n" +
+            "14. أضف الملح.\n" +
+            "15. اخلط المكونات الجافة.\n" +
+            "16. أضف الزبدة المذابة.\n" +
+            "17. اخلط جيداً.\n" +
+            "18. احصل على قوام رملي.\n" +
+            "19. ضع الخليط في طبق أو شكّل كرات.\n" +
+            "20. قدّم في درجة حرارة الغرفة."
     }
 };
-
 recipesData.dessert.makroutDattes = {
     country: "maroc",
     image: "images/makrout-dattes.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "30 min",
+        cookTime: "20 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Makrout aux dattes",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 four", "1 poêle"],
+        equipment: [
+            "1 grand bol",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 poêle",
+            "1 écumoire",
+            "1 plat"
+        ],
         ingredients: [
-            "250 g semoule moyenne",
-            "100 g beurre fondu",
-            "150 g pâte de dattes",
-            "50 g miel",
-            "1 cuillère à café cannelle",
-            "Eau tiède selon besoin",
+            "250 g de semoule moyenne",
+            "100 g de beurre fondu",
+            "150 g de pâte de dattes",
+            "50 g de miel",
+            "1 cuillère à café de cannelle",
+            "Eau tiède (selon besoin)",
             "Huile pour friture"
         ],
         preparation:
-            "1. Mélanger semoule et beurre fondu.\n" +
-            "2. Ajouter eau tiède pour obtenir une pâte souple.\n" +
-            "3. Étaler la pâte en boudin, insérer pâte de dattes au centre.\n" +
-            "4. Couper en losanges.\n" +
-            "5. Faire frire dans l’huile chaude jusqu’à doré.\n" +
-            "6. Égoutter et napper de miel.\n" +
-            "7. Laisser refroidir avant de servir."
+            "1. Verser la semoule dans un grand bol.\n" +
+            "2. Ajouter le beurre fondu.\n" +
+            "3. Mélanger avec les mains.\n" +
+            "4. Sabler la semoule avec le beurre.\n" +
+            "5. Ajouter la cannelle.\n" +
+            "6. Ajouter progressivement l’eau tiède.\n" +
+            "7. Mélanger jusqu’à obtenir une pâte souple.\n" +
+            "8. Laisser reposer 10 minutes.\n" +
+            "9. Diviser la pâte en boudins.\n" +
+            "10. Creuser une rigole au centre.\n" +
+            "11. Déposer la pâte de dattes.\n" +
+            "12. Refermer la pâte autour de la farce.\n" +
+            "13. Rouler pour lisser.\n" +
+            "14. Aplatir légèrement.\n" +
+            "15. Découper en losanges.\n" +
+            "16. Chauffer l’huile dans une poêle.\n" +
+            "17. Faire frire jusqu’à doré.\n" +
+            "18. Égoutter sur papier absorbant.\n" +
+            "19. Chauffer le miel.\n" +
+            "20. Napper les makrouts.\n" +
+            "21. Laisser refroidir avant de servir."
     },
+
     en: {
         title: "Makrout with Dates",
-        equipment: ["1 bowl", "1 rolling pin", "1 knife", "1 oven", "1 pan"],
+        equipment: [
+            "1 large bowl",
+            "1 rolling pin",
+            "1 knife",
+            "1 pan",
+            "1 slotted spoon",
+            "1 dish"
+        ],
         ingredients: [
             "250 g medium semolina",
             "100 g melted butter",
             "150 g date paste",
             "50 g honey",
             "1 teaspoon cinnamon",
-            "Warm water as needed",
+            "Warm water (as needed)",
             "Oil for frying"
         ],
         preparation:
-            "1. Mix semolina and melted butter.\n" +
-            "2. Add warm water to form a soft dough.\n" +
-            "3. Roll dough into a log, insert date paste in center.\n" +
-            "4. Cut into diamonds.\n" +
-            "5. Fry in hot oil until golden.\n" +
-            "6. Drain and coat with honey.\n" +
-            "7. Let cool before serving."
+            "1. Pour the semolina into a large bowl.\n" +
+            "2. Add the melted butter.\n" +
+            "3. Mix with your hands.\n" +
+            "4. Rub the semolina with the butter.\n" +
+            "5. Add cinnamon.\n" +
+            "6. Gradually add warm water.\n" +
+            "7. Mix into a soft dough.\n" +
+            "8. Let rest for 10 minutes.\n" +
+            "9. Divide into logs.\n" +
+            "10. Make a groove in the center.\n" +
+            "11. Add the date paste.\n" +
+            "12. Close the dough over the filling.\n" +
+            "13. Roll to smooth.\n" +
+            "14. Flatten slightly.\n" +
+            "15. Cut into diamond shapes.\n" +
+            "16. Heat oil in a pan.\n" +
+            "17. Fry until golden.\n" +
+            "18. Drain on paper towels.\n" +
+            "19. Warm the honey.\n" +
+            "20. Coat the makrout with honey.\n" +
+            "21. Let cool before serving."
     },
+
     nl: {
         title: "Makrout met Dadels",
-        equipment: ["1 kom", "1 deegroller", "1 mes", "1 oven", "1 pan"],
+        equipment: [
+            "1 grote kom",
+            "1 deegroller",
+            "1 mes",
+            "1 pan",
+            "1 schuimspaan",
+            "1 schaal"
+        ],
         ingredients: [
             "250 g medium griesmeel",
             "100 g gesmolten boter",
             "150 g dadelpasta",
             "50 g honing",
             "1 theelepel kaneel",
-            "Lauw water naar behoefte",
+            "Lauw water (naar behoefte)",
             "Olie om te frituren"
         ],
         preparation:
-            "1. Meng griesmeel en gesmolten boter.\n" +
-            "2. Voeg lauw water toe tot zacht deeg.\n" +
-            "3. Rol deeg tot een rol, vul met dadelpasta in het midden.\n" +
-            "4. Snijd in ruiten.\n" +
-            "5. Frituur in hete olie tot goudbruin.\n" +
-            "6. Laat uitlekken en bedek met honing.\n" +
-            "7. Laat afkoelen voor het serveren."
+            "1. Doe het griesmeel in een grote kom.\n" +
+            "2. Voeg de gesmolten boter toe.\n" +
+            "3. Meng met je handen.\n" +
+            "4. Wrijf het griesmeel met de boter.\n" +
+            "5. Voeg kaneel toe.\n" +
+            "6. Voeg geleidelijk lauw water toe.\n" +
+            "7. Meng tot een soepel deeg.\n" +
+            "8. Laat 10 minuten rusten.\n" +
+            "9. Verdeel in rollen.\n" +
+            "10. Maak een gleuf in het midden.\n" +
+            "11. Voeg dadelpasta toe.\n" +
+            "12. Sluit het deeg eromheen.\n" +
+            "13. Rol glad.\n" +
+            "14. Druk licht plat.\n" +
+            "15. Snijd in ruiten.\n" +
+            "16. Verhit olie in een pan.\n" +
+            "17. Frituur tot goudbruin.\n" +
+            "18. Laat uitlekken op keukenpapier.\n" +
+            "19. Verwarm de honing.\n" +
+            "20. Bedek de makrout met honing.\n" +
+            "21. Laat afkoelen."
     },
+
     ar: {
         title: "المقروط بالتمر",
-        equipment: ["وعاء", "شوبك العجين", "سكين", "فرن", "مقلاة"],
+        equipment: [
+            "وعاء كبير",
+            "شوبك العجين",
+            "سكين",
+            "مقلاة",
+            "مغرفة مثقبة",
+            "طبق"
+        ],
         ingredients: [
             "250 غ سميد متوسط",
             "100 غ زبدة مذابة",
@@ -4750,41 +7767,92 @@ recipesData.dessert.makroutDattes = {
             "زيت للقلي"
         ],
         preparation:
-            "1. اخلط السميد مع الزبدة المذابة.\n" +
-            "2. أضف الماء الدافئ للحصول على عجين لين.\n" +
-            "3. افرد العجين على شكل أسطوانة وضع معجون التمر في الوسط.\n" +
-            "4. قطع إلى معينيات.\n" +
-            "5. اقلي في الزيت الساخن حتى يصبح لونه ذهبياً.\n" +
-            "6. صفّها وغطها بالعسل.\n" +
-            "7. اتركها تبرد قبل التقديم."
+            "1. ضع السميد في وعاء كبير.\n" +
+            "2. أضف الزبدة المذابة.\n" +
+            "3. اخلط بيديك.\n" +
+            "4. افرك السميد بالزبدة.\n" +
+            "5. أضف القرفة.\n" +
+            "6. أضف الماء الدافئ تدريجياً.\n" +
+            "7. اخلط حتى تحصل على عجين لين.\n" +
+            "8. اتركه يرتاح 10 دقائق.\n" +
+            "9. قسّم العجين إلى أسطوانات.\n" +
+            "10. اصنع شقاً في الوسط.\n" +
+            "11. ضع معجون التمر.\n" +
+            "12. أغلق العجين فوق الحشوة.\n" +
+            "13. لف لتنعيم الشكل.\n" +
+            "14. اضغط قليلاً.\n" +
+            "15. قطّع إلى معينات.\n" +
+            "16. سخّن الزيت في المقلاة.\n" +
+            "17. اقْلِ حتى يصبح ذهبياً.\n" +
+            "18. صفِّه على ورق ماص.\n" +
+            "19. سخّن العسل.\n" +
+            "20. غطِّ المقروط بالعسل.\n" +
+            "21. اتركه يبرد قبل التقديم."
     }
 };
 recipesData.dessert.mhanchaAmandes = {
     country: "maroc",
     image: "images/mhancha-amandes.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "30 min",
+        cookTime: "25 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "M’hancha aux amandes",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 couteau", "1 four", "1 pinceau"],
+        equipment: [
+            "1 grand bol",
+            "1 cuillère",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 pinceau",
+            "1 plaque de cuisson",
+            "1 four"
+        ],
         ingredients: [
-            "200 g pâte filo",
-            "150 g amandes moulues",
-            "80 g sucre",
-            "60 g beurre fondu",
-            "1 cuillère à café cannelle",
-            "50 g miel",
-            "1 cuillère à soupe eau de fleur d’oranger"
+            "200 g de pâte filo",
+            "150 g d’amandes moulues",
+            "80 g de sucre",
+            "60 g de beurre fondu",
+            "1 cuillère à café de cannelle",
+            "50 g de miel",
+            "1 cuillère à soupe d’eau de fleur d’oranger"
         ],
         preparation:
-            "1. Mélanger amandes, sucre, cannelle et eau de fleur d’oranger.\n" +
-            "2. Étaler la pâte filo, placer le mélange sur un côté.\n" +
-            "3. Rouler en forme de serpent (spirale).\n" +
-            "4. Beurrer le dessus et cuire 20-25 min à 180°C.\n" +
-            "5. Napper de miel chaud.\n" +
-            "6. Laisser refroidir avant de servir."
+            "1. Verser les amandes moulues dans un grand bol.\n" +
+            "2. Ajouter le sucre.\n" +
+            "3. Ajouter la cannelle.\n" +
+            "4. Ajouter l’eau de fleur d’oranger.\n" +
+            "5. Mélanger jusqu’à obtenir une farce homogène.\n" +
+            "6. Préchauffer le four à 180°C.\n" +
+            "7. Déplier une feuille de pâte filo.\n" +
+            "8. Déposer un boudin de farce sur un bord.\n" +
+            "9. Rouler la pâte autour de la farce.\n" +
+            "10. Former un long boudin.\n" +
+            "11. Enrouler en spirale sur la plaque.\n" +
+            "12. Badigeonner de beurre fondu.\n" +
+            "13. Répéter avec le reste de la pâte.\n" +
+            "14. Enfourner pendant 20 à 25 minutes.\n" +
+            "15. Chauffer le miel légèrement.\n" +
+            "16. Sortir la m’hancha dorée.\n" +
+            "17. Napper de miel chaud.\n" +
+            "18. Laisser refroidir avant de servir."
     },
+
     en: {
         title: "M’hancha with Almonds",
-        equipment: ["1 bowl", "1 rolling pin", "1 knife", "1 oven", "1 brush"],
+        equipment: [
+            "1 large bowl",
+            "1 spoon",
+            "1 rolling pin",
+            "1 knife",
+            "1 brush",
+            "1 baking tray",
+            "1 oven"
+        ],
         ingredients: [
             "200 g phyllo dough",
             "150 g ground almonds",
@@ -4795,16 +7863,37 @@ recipesData.dessert.mhanchaAmandes = {
             "1 tablespoon orange blossom water"
         ],
         preparation:
-            "1. Mix almonds, sugar, cinnamon, and orange blossom water.\n" +
-            "2. Roll out phyllo dough, place mixture on one side.\n" +
-            "3. Roll into a snake shape (spiral).\n" +
-            "4. Brush top with butter, bake 20-25 min at 180°C.\n" +
-            "5. Coat with warm honey.\n" +
-            "6. Let cool before serving."
+            "1. Pour the ground almonds into a large bowl.\n" +
+            "2. Add the sugar.\n" +
+            "3. Add the cinnamon.\n" +
+            "4. Add the orange blossom water.\n" +
+            "5. Mix until a smooth filling forms.\n" +
+            "6. Preheat the oven to 180°C.\n" +
+            "7. Lay out one phyllo sheet.\n" +
+            "8. Place a strip of filling on one edge.\n" +
+            "9. Roll the dough over the filling.\n" +
+            "10. Form a long log.\n" +
+            "11. Coil into a spiral on the tray.\n" +
+            "12. Brush with melted butter.\n" +
+            "13. Repeat with remaining dough.\n" +
+            "14. Bake for 20–25 minutes.\n" +
+            "15. Warm the honey slightly.\n" +
+            "16. Remove the golden m’hancha.\n" +
+            "17. Drizzle with warm honey.\n" +
+            "18. Let cool before serving."
     },
+
     nl: {
         title: "M’hancha met Amandelen",
-        equipment: ["1 kom", "1 deegroller", "1 mes", "1 oven", "1 kwast"],
+        equipment: [
+            "1 grote kom",
+            "1 lepel",
+            "1 deegroller",
+            "1 mes",
+            "1 kwast",
+            "1 bakplaat",
+            "1 oven"
+        ],
         ingredients: [
             "200 g filodeeg",
             "150 g gemalen amandelen",
@@ -4815,16 +7904,37 @@ recipesData.dessert.mhanchaAmandes = {
             "1 eetlepel bloesemwater"
         ],
         preparation:
-            "1. Meng amandelen, suiker, kaneel en bloesemwater.\n" +
-            "2. Rol filodeeg uit, leg het mengsel aan één kant.\n" +
-            "3. Rol op tot slangvorm (spiraal).\n" +
-            "4. Bestrijk bovenkant met boter, bak 20-25 min op 180°C.\n" +
-            "5. Bedek met warme honing.\n" +
-            "6. Laat afkoelen voor het serveren."
+            "1. Doe de gemalen amandelen in een grote kom.\n" +
+            "2. Voeg de suiker toe.\n" +
+            "3. Voeg kaneel toe.\n" +
+            "4. Voeg bloesemwater toe.\n" +
+            "5. Meng tot een gladde vulling.\n" +
+            "6. Verwarm de oven voor op 180°C.\n" +
+            "7. Leg een vel filodeeg neer.\n" +
+            "8. Leg de vulling aan één kant.\n" +
+            "9. Rol het deeg eromheen.\n" +
+            "10. Vorm een lange rol.\n" +
+            "11. Draai tot een spiraal.\n" +
+            "12. Bestrijk met boter.\n" +
+            "13. Herhaal met de rest.\n" +
+            "14. Bak 20–25 minuten.\n" +
+            "15. Verwarm de honing licht.\n" +
+            "16. Haal de m’hancha uit de oven.\n" +
+            "17. Giet de honing erover.\n" +
+            "18. Laat afkoelen."
     },
+
     ar: {
         title: "المحنشة باللوز",
-        equipment: ["وعاء", "شوبك العجين", "سكين", "فرن", "فرشاة"],
+        equipment: [
+            "وعاء كبير",
+            "ملعقة",
+            "شوبك العجين",
+            "سكين",
+            "فرشاة",
+            "صينية فرن",
+            "فرن"
+        ],
         ingredients: [
             "200 غ عجينة فيلو",
             "150 غ لوز مطحون",
@@ -4835,41 +7945,87 @@ recipesData.dessert.mhanchaAmandes = {
             "1 ملعقة كبيرة ماء الزهر"
         ],
         preparation:
-            "1. اخلط اللوز والسكر والقرفة وماء الزهر.\n" +
-            "2. افرد عجينة الفيلو، ضع الخليط على جانب واحد.\n" +
-            "3. لف على شكل ثعبان (حلزوني).\n" +
-            "4. ادهن الوجه بالزبدة واخبز 20-25 دقيقة على 180°م.\n" +
-            "5. غطّ بالعسل الساخن.\n" +
-            "6. اتركها تبرد قبل التقديم."
+            "1. ضع اللوز المطحون في وعاء كبير.\n" +
+            "2. أضف السكر.\n" +
+            "3. أضف القرفة.\n" +
+            "4. أضف ماء الزهر.\n" +
+            "5. اخلط حتى تتكوّن حشوة متجانسة.\n" +
+            "6. سخّن الفرن على 180 درجة.\n" +
+            "7. افرد ورقة فيلو.\n" +
+            "8. ضع الحشوة على أحد الجوانب.\n" +
+            "9. لف العجين فوق الحشوة.\n" +
+            "10. شكّل أسطوانة طويلة.\n" +
+            "11. لفها بشكل حلزوني.\n" +
+            "12. ادهنها بالزبدة.\n" +
+            "13. كرر مع باقي العجين.\n" +
+            "14. اخبز 20–25 دقيقة.\n" +
+            "15. سخّن العسل قليلاً.\n" +
+            "16. أخرج المحنشة الذهبية.\n" +
+            "17. اسكب العسل فوقها.\n" +
+            "18. اتركها تبرد قبل التقديم."
     }
 };
-
 recipesData.dessert.baghrir = {
     country: "maroc",
     image: "images/baghrir.jpg",
+
+    meta: {
+        servings: "4 à 6 personnes",
+        prepTime: "10 min",
+        cookTime: "20 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Baghrir – crêpes mille trous",
-        equipment: ["1 bol", "1 fouet", "1 poêle antiadhésive", "1 louche", "1 spatule"],
+        equipment: [
+            "1 grand bol",
+            "1 fouet",
+            "1 mixeur ou blender",
+            "1 poêle antiadhésive",
+            "1 louche",
+            "1 spatule"
+        ],
         ingredients: [
-            "250 g semoule fine",
-            "50 g farine",
-            "1 cuillère à café levure chimique",
-            "1/2 cuillère à café sel",
-            "1 cuillère à soupe sucre",
-            "500 ml eau tiède",
+            "250 g de semoule fine",
+            "50 g de farine",
+            "1 cuillère à café de levure chimique",
+            "1/2 cuillère à café de sel",
+            "1 cuillère à soupe de sucre",
+            "500 ml d’eau tiède",
             "Huile pour la poêle"
         ],
         preparation:
-            "1. Mélanger semoule, farine, levure, sel et sucre.\n" +
-            "2. Ajouter l’eau tiède progressivement, fouetter pour obtenir pâte lisse.\n" +
-            "3. Laisser reposer 30 min.\n" +
-            "4. Chauffer poêle antiadhésive, verser une louche de pâte.\n" +
-            "5. Cuire seulement d’un côté jusqu’à formation de trous.\n" +
-            "6. Servir chaud avec miel et beurre fondu."
+            "1. Verser la semoule fine dans un grand bol.\n" +
+            "2. Ajouter la farine.\n" +
+            "3. Ajouter la levure chimique.\n" +
+            "4. Ajouter le sel.\n" +
+            "5. Ajouter le sucre.\n" +
+            "6. Mélanger les ingrédients secs.\n" +
+            "7. Verser l’eau tiède progressivement.\n" +
+            "8. Mixer ou fouetter jusqu’à obtenir une pâte lisse.\n" +
+            "9. Couvrir le bol.\n" +
+            "10. Laisser reposer 30 minutes.\n" +
+            "11. Chauffer une poêle antiadhésive légèrement huilée.\n" +
+            "12. Verser une louche de pâte au centre.\n" +
+            "13. Ne pas retourner la crêpe.\n" +
+            "14. Laisser cuire jusqu’à apparition des trous.\n" +
+            "15. Retirer délicatement.\n" +
+            "16. Répéter avec le reste de la pâte.\n" +
+            "17. Servir chaud.\n" +
+            "18. Accompagner de miel et beurre fondu."
     },
+
     en: {
         title: "Baghrir – Moroccan Thousand-Hole Pancakes",
-        equipment: ["1 bowl", "1 whisk", "1 non-stick pan", "1 ladle", "1 spatula"],
+        equipment: [
+            "1 large bowl",
+            "1 whisk",
+            "1 blender",
+            "1 non-stick pan",
+            "1 ladle",
+            "1 spatula"
+        ],
         ingredients: [
             "250 g fine semolina",
             "50 g flour",
@@ -4877,19 +8033,39 @@ recipesData.dessert.baghrir = {
             "1/2 teaspoon salt",
             "1 tablespoon sugar",
             "500 ml warm water",
-            "Oil for pan"
+            "Oil for the pan"
         ],
         preparation:
-            "1. Mix semolina, flour, baking powder, salt, and sugar.\n" +
-            "2. Gradually add warm water, whisk to a smooth batter.\n" +
-            "3. Rest 30 min.\n" +
-            "4. Heat non-stick pan, pour a ladle of batter.\n" +
-            "5. Cook only on one side until holes appear.\n" +
-            "6. Serve hot with honey and melted butter."
+            "1. Pour the semolina into a large bowl.\n" +
+            "2. Add the flour.\n" +
+            "3. Add the baking powder.\n" +
+            "4. Add the salt.\n" +
+            "5. Add the sugar.\n" +
+            "6. Mix the dry ingredients.\n" +
+            "7. Gradually pour in the warm water.\n" +
+            "8. Blend or whisk until smooth.\n" +
+            "9. Cover the bowl.\n" +
+            "10. Let rest for 30 minutes.\n" +
+            "11. Heat a lightly oiled non-stick pan.\n" +
+            "12. Pour one ladle of batter.\n" +
+            "13. Do not flip the pancake.\n" +
+            "14. Cook until holes appear.\n" +
+            "15. Remove gently.\n" +
+            "16. Repeat with remaining batter.\n" +
+            "17. Serve hot.\n" +
+            "18. Top with honey and melted butter."
     },
+
     nl: {
         title: "Baghrir – Marokkaanse Duizend-Gaatjes Pannenkoeken",
-        equipment: ["1 kom", "1 garde", "1 anti-aanbakpan", "1 pollepel", "1 spatel"],
+        equipment: [
+            "1 grote kom",
+            "1 garde",
+            "1 blender",
+            "1 anti-aanbakpan",
+            "1 pollepel",
+            "1 spatel"
+        ],
         ingredients: [
             "250 g fijne griesmeel",
             "50 g bloem",
@@ -4900,16 +8076,36 @@ recipesData.dessert.baghrir = {
             "Olie voor de pan"
         ],
         preparation:
-            "1. Meng griesmeel, bloem, bakpoeder, zout en suiker.\n" +
-            "2. Voeg geleidelijk warm water toe, klop tot een glad beslag.\n" +
-            "3. Laat 30 min rusten.\n" +
-            "4. Verhit anti-aanbakpan, giet een pollepel beslag.\n" +
-            "5. Bak alleen aan één kant tot gaatjes verschijnen.\n" +
-            "6. Serveer warm met honing en gesmolten boter."
+            "1. Doe de griesmeel in een grote kom.\n" +
+            "2. Voeg de bloem toe.\n" +
+            "3. Voeg het bakpoeder toe.\n" +
+            "4. Voeg het zout toe.\n" +
+            "5. Voeg de suiker toe.\n" +
+            "6. Meng de droge ingrediënten.\n" +
+            "7. Voeg geleidelijk warm water toe.\n" +
+            "8. Mix tot een glad beslag.\n" +
+            "9. Dek af.\n" +
+            "10. Laat 30 minuten rusten.\n" +
+            "11. Verhit een licht ingevette pan.\n" +
+            "12. Giet een pollepel beslag.\n" +
+            "13. Niet omdraaien.\n" +
+            "14. Bak tot er gaatjes verschijnen.\n" +
+            "15. Haal voorzichtig uit de pan.\n" +
+            "16. Herhaal met de rest.\n" +
+            "17. Serveer warm.\n" +
+            "18. Serveer met honing en boter."
     },
+
     ar: {
         title: "بغرير – فطائر الألف فجوة",
-        equipment: ["وعاء", "خفاق", "مقلاة غير لاصقة", "مغرفة", "معلقة مسطحة"],
+        equipment: [
+            "وعاء كبير",
+            "خفاق",
+            "خلاط",
+            "مقلاة غير لاصقة",
+            "مغرفة",
+            "ملعقة مسطحة"
+        ],
         ingredients: [
             "250 غ سميد ناعم",
             "50 غ دقيق",
@@ -4920,39 +8116,87 @@ recipesData.dessert.baghrir = {
             "زيت للمقلاة"
         ],
         preparation:
-            "1. اخلط السميد والدقيق والبيكنج باودر والملح والسكر.\n" +
-            "2. أضف الماء تدريجياً واخلط حتى يصبح خليط ناعم.\n" +
-            "3. اتركه يرتاح 30 دقيقة.\n" +
-            "4. سخن مقلاة غير لاصقة، ضع مغرفة من الخليط.\n" +
-            "5. اطبخ من جهة واحدة حتى تظهر الفجوات.\n" +
-            "6. قدّم ساخناً مع العسل والزبدة المذابة."
+            "1. ضع السميد في وعاء كبير.\n" +
+            "2. أضف الدقيق.\n" +
+            "3. أضف البيكنج باودر.\n" +
+            "4. أضف الملح.\n" +
+            "5. أضف السكر.\n" +
+            "6. اخلط المكونات الجافة.\n" +
+            "7. أضف الماء تدريجياً.\n" +
+            "8. اخلط حتى يصبح الخليط ناعماً.\n" +
+            "9. غطِّ الوعاء.\n" +
+            "10. اتركه يرتاح 30 دقيقة.\n" +
+            "11. سخّن مقلاة مدهونة قليلاً بالزيت.\n" +
+            "12. اسكب مغرفة من الخليط.\n" +
+            "13. لا تقلب الفطيرة.\n" +
+            "14. اطبخ حتى تظهر الفجوات.\n" +
+            "15. أخرجها بلطف.\n" +
+            "16. كرر مع باقي الخليط.\n" +
+            "17. قدّم ساخناً.\n" +
+            "18. قدّم مع العسل والزبدة."
     }
 };
 recipesData.dessert.msemenSucre = {
     country: "maroc",
     image: "images/msemen-sucre.jpg",
+
+    meta: {
+        servings: "4 à 6 personnes",
+        prepTime: "35 min",
+        cookTime: "20 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Msemen sucré au miel",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 poêle", "1 pinceau"],
+        equipment: [
+            "1 grand bol",
+            "1 rouleau à pâtisserie",
+            "1 poêle",
+            "1 pinceau",
+            "1 torchon propre"
+        ],
         ingredients: [
-            "250 g farine",
-            "50 g semoule fine",
-            "1 cuillère à café sel",
-            "150 ml eau tiède",
-            "50 g beurre fondu",
-            "50 g miel"
+            "250 g de farine",
+            "50 g de semoule fine",
+            "1 cuillère à café de sel",
+            "150 ml d’eau tiède",
+            "50 g de beurre fondu",
+            "50 g de miel"
         ],
         preparation:
-            "1. Mélanger farine, semoule et sel.\n" +
-            "2. Ajouter eau progressivement pour former une pâte souple.\n" +
-            "3. Laisser reposer 30 min.\n" +
-            "4. Étaler finement, plier en carrés.\n" +
-            "5. Cuire dans poêle chaude avec un peu de beurre jusqu’à doré.\n" +
-            "6. Napper de miel chaud avant de servir."
+            "1. Verser la farine dans un grand bol.\n" +
+            "2. Ajouter la semoule fine.\n" +
+            "3. Ajouter le sel.\n" +
+            "4. Mélanger les ingrédients secs.\n" +
+            "5. Verser l’eau tiède progressivement.\n" +
+            "6. Pétrir jusqu’à obtenir une pâte souple.\n" +
+            "7. Former une boule.\n" +
+            "8. Couvrir avec un torchon.\n" +
+            "9. Laisser reposer 30 minutes.\n" +
+            "10. Diviser la pâte en petites boules.\n" +
+            "11. Badigeonner de beurre fondu.\n" +
+            "12. Étaler chaque boule très finement.\n" +
+            "13. Replier les bords pour former un carré.\n" +
+            "14. Chauffer une poêle à feu moyen.\n" +
+            "15. Déposer un msemen dans la poêle.\n" +
+            "16. Cuire jusqu’à ce qu’il soit doré.\n" +
+            "17. Retourner et dorer l’autre face.\n" +
+            "18. Répéter avec le reste de la pâte.\n" +
+            "19. Faire chauffer le miel légèrement.\n" +
+            "20. Napper les msemen de miel.\n" +
+            "21. Servir chaud."
     },
+
     en: {
         title: "Sweet Msemen with Honey",
-        equipment: ["1 bowl", "1 rolling pin", "1 pan", "1 brush"],
+        equipment: [
+            "1 large bowl",
+            "1 rolling pin",
+            "1 pan",
+            "1 brush",
+            "1 clean cloth"
+        ],
         ingredients: [
             "250 g flour",
             "50 g fine semolina",
@@ -4962,16 +8206,38 @@ recipesData.dessert.msemenSucre = {
             "50 g honey"
         ],
         preparation:
-            "1. Mix flour, semolina and salt.\n" +
-            "2. Add water gradually to form a soft dough.\n" +
-            "3. Rest 30 min.\n" +
-            "4. Roll out thinly, fold into squares.\n" +
-            "5. Cook in hot pan with some butter until golden.\n" +
-            "6. Coat with warm honey before serving."
+            "1. Pour the flour into a large bowl.\n" +
+            "2. Add the fine semolina.\n" +
+            "3. Add the salt.\n" +
+            "4. Mix the dry ingredients.\n" +
+            "5. Gradually add warm water.\n" +
+            "6. Knead into a soft dough.\n" +
+            "7. Form a ball.\n" +
+            "8. Cover with a cloth.\n" +
+            "9. Let rest for 30 minutes.\n" +
+            "10. Divide the dough into small balls.\n" +
+            "11. Brush with melted butter.\n" +
+            "12. Roll each ball very thin.\n" +
+            "13. Fold into a square shape.\n" +
+            "14. Heat a pan over medium heat.\n" +
+            "15. Place one msemen in the pan.\n" +
+            "16. Cook until golden.\n" +
+            "17. Flip and cook the other side.\n" +
+            "18. Repeat with remaining dough.\n" +
+            "19. Warm the honey slightly.\n" +
+            "20. Drizzle honey over the msemen.\n" +
+            "21. Serve hot."
     },
+
     nl: {
         title: "Zoete Msemen met Honing",
-        equipment: ["1 kom", "1 deegroller", "1 pan", "1 kwast"],
+        equipment: [
+            "1 grote kom",
+            "1 deegroller",
+            "1 pan",
+            "1 kwast",
+            "1 schone doek"
+        ],
         ingredients: [
             "250 g bloem",
             "50 g fijne griesmeel",
@@ -4981,16 +8247,38 @@ recipesData.dessert.msemenSucre = {
             "50 g honing"
         ],
         preparation:
-            "1. Meng bloem, griesmeel en zout.\n" +
-            "2. Voeg geleidelijk water toe tot zacht deeg.\n" +
-            "3. Laat 30 min rusten.\n" +
-            "4. Rol dun uit en vouw tot vierkanten.\n" +
-            "5. Bak in hete pan met wat boter tot goudbruin.\n" +
-            "6. Bestrijk met warme honing voor het serveren."
+            "1. Doe de bloem in een grote kom.\n" +
+            "2. Voeg de griesmeel toe.\n" +
+            "3. Voeg het zout toe.\n" +
+            "4. Meng de droge ingrediënten.\n" +
+            "5. Voeg geleidelijk warm water toe.\n" +
+            "6. Kneed tot een soepel deeg.\n" +
+            "7. Vorm een bal.\n" +
+            "8. Dek af met een doek.\n" +
+            "9. Laat 30 minuten rusten.\n" +
+            "10. Verdeel in kleine bolletjes.\n" +
+            "11. Bestrijk met boter.\n" +
+            "12. Rol elk bolletje dun uit.\n" +
+            "13. Vouw tot vierkanten.\n" +
+            "14. Verhit een pan op middelhoog vuur.\n" +
+            "15. Leg een msemen in de pan.\n" +
+            "16. Bak tot goudbruin.\n" +
+            "17. Draai om en bak de andere kant.\n" +
+            "18. Herhaal met de rest.\n" +
+            "19. Verwarm de honing licht.\n" +
+            "20. Giet honing over de msemen.\n" +
+            "21. Serveer warm."
     },
+
     ar: {
         title: "مسمن حلو بالعسل",
-        equipment: ["وعاء", "شوبك العجين", "مقلاة", "فرشاة"],
+        equipment: [
+            "وعاء كبير",
+            "شوبك العجين",
+            "مقلاة",
+            "فرشاة",
+            "قطعة قماش نظيفة"
+        ],
         ingredients: [
             "250 غ دقيق",
             "50 غ سميد ناعم",
@@ -5000,39 +8288,92 @@ recipesData.dessert.msemenSucre = {
             "50 غ عسل"
         ],
         preparation:
-            "1. اخلط الدقيق والسميد والملح.\n" +
-            "2. أضف الماء تدريجياً للحصول على عجين لين.\n" +
-            "3. اتركه يرتاح 30 دقيقة.\n" +
-            "4. افرده رقيقاً واطوِه على شكل مربعات.\n" +
-            "5. اطبخه في مقلاة ساخنة مع القليل من الزبدة حتى يصبح ذهبياً.\n" +
-            "6. غطّه بالعسل الساخن قبل التقديم."
+            "1. ضع الدقيق في وعاء كبير.\n" +
+            "2. أضف السميد الناعم.\n" +
+            "3. أضف الملح.\n" +
+            "4. اخلط المكونات الجافة.\n" +
+            "5. أضف الماء تدريجياً.\n" +
+            "6. اعجن حتى تحصل على عجين لين.\n" +
+            "7. شكّل كرة.\n" +
+            "8. غطِّها بقطعة قماش.\n" +
+            "9. اتركها ترتاح 30 دقيقة.\n" +
+            "10. قسّم العجين إلى كرات صغيرة.\n" +
+            "11. ادهنها بالزبدة.\n" +
+            "12. افرد كل كرة رقيقاً.\n" +
+            "13. اطوِها على شكل مربع.\n" +
+            "14. سخّن المقلاة على نار متوسطة.\n" +
+            "15. ضع المسمن في المقلاة.\n" +
+            "16. اطبخ حتى يصبح ذهبياً.\n" +
+            "17. اقلبه واطبخ الجهة الأخرى.\n" +
+            "18. كرر مع باقي العجين.\n" +
+            "19. سخّن العسل قليلاً.\n" +
+            "20. اسكب العسل فوق المسمن.\n" +
+            "21. قدّم ساخناً."
     }
 };
 recipesData.dessert.pastillaSucree = {
     country: "maroc",
     image: "images/pastilla-sucree.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "30 min",
+        cookTime: "25 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Pastilla sucrée aux amandes",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 four", "1 pinceau"],
+        equipment: [
+            "1 grand bol",
+            "1 cuillère",
+            "1 rouleau à pâtisserie",
+            "1 pinceau",
+            "1 moule rond",
+            "1 four"
+        ],
         ingredients: [
-            "200 g pâte filo",
-            "150 g amandes moulues",
-            "100 g sucre",
-            "50 g beurre fondu",
-            "1 cuillère à café cannelle",
-            "50 ml eau de fleur d’oranger",
-            "Sucre glace pour décoration"
+            "200 g de pâte filo",
+            "150 g d’amandes moulues",
+            "100 g de sucre",
+            "50 g de beurre fondu",
+            "1 cuillère à café de cannelle",
+            "50 ml d’eau de fleur d’oranger",
+            "Sucre glace pour la décoration"
         ],
         preparation:
-            "1. Mélanger amandes, sucre, cannelle et eau de fleur d’oranger.\n" +
-            "2. Étaler la pâte filo, placer le mélange et replier.\n" +
-            "3. Badigeonner de beurre fondu.\n" +
-            "4. Cuire 20-25 min à 180°C jusqu’à doré.\n" +
-            "5. Saupoudrer de sucre glace avant de servir."
+            "1. Verser les amandes moulues dans un grand bol.\n" +
+            "2. Ajouter le sucre.\n" +
+            "3. Ajouter la cannelle.\n" +
+            "4. Ajouter l’eau de fleur d’oranger.\n" +
+            "5. Mélanger jusqu’à obtenir une farce homogène.\n" +
+            "6. Préchauffer le four à 180°C.\n" +
+            "7. Beurrer légèrement le moule.\n" +
+            "8. Déposer une feuille de pâte filo dans le moule.\n" +
+            "9. Badigeonner de beurre fondu.\n" +
+            "10. Répéter avec 2 à 3 feuilles.\n" +
+            "11. Étaler la farce aux amandes au centre.\n" +
+            "12. Replier les bords de la pâte.\n" +
+            "13. Couvrir avec une autre feuille de filo.\n" +
+            "14. Badigeonner le dessus de beurre.\n" +
+            "15. Lisser la surface.\n" +
+            "16. Enfourner pendant 20 à 25 minutes.\n" +
+            "17. Sortir la pastilla bien dorée.\n" +
+            "18. Laisser tiédir.\n" +
+            "19. Saupoudrer de sucre glace.\n" +
+            "20. Servir."
     },
+
     en: {
         title: "Sweet Pastilla with Almonds",
-        equipment: ["1 bowl", "1 rolling pin", "1 oven", "1 brush"],
+        equipment: [
+            "1 large bowl",
+            "1 spoon",
+            "1 rolling pin",
+            "1 brush",
+            "1 round pan",
+            "1 oven"
+        ],
         ingredients: [
             "200 g phyllo dough",
             "150 g ground almonds",
@@ -5043,15 +8384,38 @@ recipesData.dessert.pastillaSucree = {
             "Powdered sugar for decoration"
         ],
         preparation:
-            "1. Mix almonds, sugar, cinnamon, and orange blossom water.\n" +
-            "2. Roll out phyllo, place mixture and fold.\n" +
-            "3. Brush with melted butter.\n" +
-            "4. Bake 20-25 min at 180°C until golden.\n" +
-            "5. Sprinkle with powdered sugar before serving."
+            "1. Place the ground almonds in a large bowl.\n" +
+            "2. Add the sugar.\n" +
+            "3. Add the cinnamon.\n" +
+            "4. Add the orange blossom water.\n" +
+            "5. Mix until smooth.\n" +
+            "6. Preheat the oven to 180°C.\n" +
+            "7. Lightly butter the pan.\n" +
+            "8. Place one phyllo sheet inside.\n" +
+            "9. Brush with melted butter.\n" +
+            "10. Repeat with 2–3 sheets.\n" +
+            "11. Spread the almond filling.\n" +
+            "12. Fold the edges over the filling.\n" +
+            "13. Cover with another sheet.\n" +
+            "14. Brush the top with butter.\n" +
+            "15. Smooth the surface.\n" +
+            "16. Bake for 20–25 minutes.\n" +
+            "17. Remove when golden.\n" +
+            "18. Let cool slightly.\n" +
+            "19. Dust with powdered sugar.\n" +
+            "20. Serve."
     },
+
     nl: {
         title: "Zoete Pastilla met Amandelen",
-        equipment: ["1 kom", "1 deegroller", "1 oven", "1 kwast"],
+        equipment: [
+            "1 grote kom",
+            "1 lepel",
+            "1 deegroller",
+            "1 kwast",
+            "1 ronde vorm",
+            "1 oven"
+        ],
         ingredients: [
             "200 g filodeeg",
             "150 g gemalen amandelen",
@@ -5062,15 +8426,38 @@ recipesData.dessert.pastillaSucree = {
             "Poedersuiker voor decoratie"
         ],
         preparation:
-            "1. Meng amandelen, suiker, kaneel en bloesemwater.\n" +
-            "2. Rol filodeeg uit, leg het mengsel en vouw.\n" +
-            "3. Bestrijk met gesmolten boter.\n" +
-            "4. Bak 20-25 min op 180°C tot goudbruin.\n" +
-            "5. Bestrooi met poedersuiker voor het serveren."
+            "1. Doe de gemalen amandelen in een grote kom.\n" +
+            "2. Voeg de suiker toe.\n" +
+            "3. Voeg kaneel toe.\n" +
+            "4. Voeg bloesemwater toe.\n" +
+            "5. Meng tot een gladde vulling.\n" +
+            "6. Verwarm de oven voor op 180°C.\n" +
+            "7. Vet de vorm licht in.\n" +
+            "8. Leg een vel filodeeg in de vorm.\n" +
+            "9. Bestrijk met boter.\n" +
+            "10. Herhaal met 2–3 vellen.\n" +
+            "11. Verdeel de amandelvulling.\n" +
+            "12. Vouw de randen dicht.\n" +
+            "13. Leg een nieuw vel bovenop.\n" +
+            "14. Bestrijk met boter.\n" +
+            "15. Strijk glad.\n" +
+            "16. Bak 20–25 minuten.\n" +
+            "17. Haal eruit als hij goudbruin is.\n" +
+            "18. Laat even afkoelen.\n" +
+            "19. Bestrooi met poedersuiker.\n" +
+            "20. Serveer."
     },
+
     ar: {
         title: "بسطيلة حلوة باللوز",
-        equipment: ["وعاء", "شوبك العجين", "فرن", "فرشاة"],
+        equipment: [
+            "وعاء كبير",
+            "ملعقة",
+            "شوبك العجين",
+            "فرشاة",
+            "قالب دائري",
+            "فرن"
+        ],
         ingredients: [
             "200 غ عجينة فيلو",
             "150 غ لوز مطحون",
@@ -5081,38 +8468,91 @@ recipesData.dessert.pastillaSucree = {
             "سكر بودرة للتزيين"
         ],
         preparation:
-            "1. اخلط اللوز والسكر والقرفة وماء الزهر.\n" +
-            "2. افرد عجينة الفيلو، ضع الخليط واطوِه.\n" +
-            "3. ادهن بالزبدة المذابة.\n" +
-            "4. اخبز 20-25 دقيقة على 180°م حتى يصبح ذهبي.\n" +
-            "5. رش السكر البودرة قبل التقديم."
+            "1. ضع اللوز المطحون في وعاء كبير.\n" +
+            "2. أضف السكر.\n" +
+            "3. أضف القرفة.\n" +
+            "4. أضف ماء الزهر.\n" +
+            "5. اخلط حتى تتجانس الحشوة.\n" +
+            "6. سخّن الفرن على 180 درجة.\n" +
+            "7. ادهن القالب بالزبدة.\n" +
+            "8. ضع ورقة فيلو في القالب.\n" +
+            "9. ادهنها بالزبدة.\n" +
+            "10. كرر مع 2–3 أوراق.\n" +
+            "11. وزّع حشوة اللوز.\n" +
+            "12. اطوِ الأطراف فوق الحشوة.\n" +
+            "13. غطِّ بورقة جديدة.\n" +
+            "14. ادهن الوجه بالزبدة.\n" +
+            "15. سوِّ السطح.\n" +
+            "16. اخبز 20–25 دقيقة.\n" +
+            "17. أخرجها ذهبية اللون.\n" +
+            "18. اتركها تبرد قليلاً.\n" +
+            "19. رش السكر البودرة.\n" +
+            "20. قدّمها."
     }
 };
 recipesData.dessert.sfenj = {
     country: "maroc",
     image: "images/sfenj.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "15 min",
+        cookTime: "20 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
         title: "Sfenj – beignets marocains",
-        equipment: ["1 bol", "1 cuillère en bois", "1 poêle", "1 pinceau"],
+        equipment: [
+            "1 grand bol",
+            "1 cuillère en bois",
+            "1 torchon",
+            "1 poêle profonde",
+            "1 écumoire",
+            "1 assiette avec papier absorbant"
+        ],
         ingredients: [
-            "500 g farine",
-            "1 cuillère à café sel",
-            "1 sachet levure boulangère",
-            "300 ml eau tiède",
+            "500 g de farine",
+            "1 cuillère à café de sel",
+            "1 sachet de levure boulangère",
+            "300 ml d’eau tiède",
             "Huile pour friture",
             "Sucre ou miel pour servir"
         ],
         preparation:
-            "1. Mélanger farine, sel et levure.\n" +
-            "2. Ajouter eau tiède progressivement pour obtenir une pâte souple.\n" +
-            "3. Laisser lever 1h.\n" +
-            "4. Former des cercles avec les doigts.\n" +
-            "5. Faire frire dans l’huile chaude jusqu’à doré.\n" +
-            "6. Égoutter et saupoudrer de sucre ou napper de miel avant de servir."
+            "1. Verser la farine dans un grand bol.\n" +
+            "2. Ajouter le sel.\n" +
+            "3. Ajouter la levure boulangère.\n" +
+            "4. Mélanger les ingrédients secs.\n" +
+            "5. Verser l’eau tiède progressivement.\n" +
+            "6. Mélanger avec une cuillère en bois.\n" +
+            "7. Continuer jusqu’à obtenir une pâte collante.\n" +
+            "8. Couvrir avec un torchon.\n" +
+            "9. Laisser lever pendant 1 heure.\n" +
+            "10. Chauffer une grande quantité d’huile.\n" +
+            "11. Humidifier légèrement les mains.\n" +
+            "12. Prélever une portion de pâte.\n" +
+            "13. Former un trou au centre avec les doigts.\n" +
+            "14. Déposer délicatement dans l’huile chaude.\n" +
+            "15. Laisser frire jusqu’à coloration dorée.\n" +
+            "16. Retourner pour cuire l’autre face.\n" +
+            "17. Retirer avec une écumoire.\n" +
+            "18. Égoutter sur du papier absorbant.\n" +
+            "19. Répéter avec le reste de la pâte.\n" +
+            "20. Saupoudrer de sucre ou napper de miel.\n" +
+            "21. Servir chaud."
     },
+
     en: {
         title: "Sfenj – Moroccan Doughnuts",
-        equipment: ["1 bowl", "1 wooden spoon", "1 pan", "1 brush"],
+        equipment: [
+            "1 large bowl",
+            "1 wooden spoon",
+            "1 clean cloth",
+            "1 deep pan",
+            "1 slotted spoon",
+            "1 plate with paper towels"
+        ],
         ingredients: [
             "500 g flour",
             "1 teaspoon salt",
@@ -5122,16 +8562,39 @@ recipesData.dessert.sfenj = {
             "Sugar or honey to serve"
         ],
         preparation:
-            "1. Mix flour, salt, and yeast.\n" +
-            "2. Gradually add warm water to form a soft dough.\n" +
-            "3. Let rise 1 hour.\n" +
-            "4. Form circles with your fingers.\n" +
-            "5. Fry in hot oil until golden.\n" +
-            "6. Drain and sprinkle sugar or coat with honey before serving."
+            "1. Pour the flour into a large bowl.\n" +
+            "2. Add the salt.\n" +
+            "3. Add the yeast.\n" +
+            "4. Mix the dry ingredients.\n" +
+            "5. Gradually add warm water.\n" +
+            "6. Mix with a wooden spoon.\n" +
+            "7. Continue until sticky dough forms.\n" +
+            "8. Cover with a cloth.\n" +
+            "9. Let rise for 1 hour.\n" +
+            "10. Heat plenty of oil in a deep pan.\n" +
+            "11. Slightly wet your hands.\n" +
+            "12. Take a portion of dough.\n" +
+            "13. Make a hole in the center.\n" +
+            "14. Gently place in hot oil.\n" +
+            "15. Fry until golden.\n" +
+            "16. Flip to cook the other side.\n" +
+            "17. Remove with a slotted spoon.\n" +
+            "18. Drain on paper towels.\n" +
+            "19. Repeat with remaining dough.\n" +
+            "20. Sprinkle with sugar or drizzle with honey.\n" +
+            "21. Serve hot."
     },
+
     nl: {
         title: "Sfenj – Marokkaanse Donuts",
-        equipment: ["1 kom", "1 houten lepel", "1 pan", "1 kwast"],
+        equipment: [
+            "1 grote kom",
+            "1 houten lepel",
+            "1 doek",
+            "1 diepe pan",
+            "1 schuimspaan",
+            "1 bord met keukenpapier"
+        ],
         ingredients: [
             "500 g bloem",
             "1 theelepel zout",
@@ -5141,16 +8604,39 @@ recipesData.dessert.sfenj = {
             "Suiker of honing om te serveren"
         ],
         preparation:
-            "1. Meng bloem, zout en gist.\n" +
-            "2. Voeg geleidelijk warm water toe tot een zacht deeg.\n" +
-            "3. Laat 1 uur rijzen.\n" +
-            "4. Vorm cirkels met de vingers.\n" +
-            "5. Frituur in hete olie tot goudbruin.\n" +
-            "6. Laat uitlekken en bestrooi met suiker of bedek met honing voor het serveren."
+            "1. Doe de bloem in een grote kom.\n" +
+            "2. Voeg het zout toe.\n" +
+            "3. Voeg de gist toe.\n" +
+            "4. Meng de droge ingrediënten.\n" +
+            "5. Voeg geleidelijk warm water toe.\n" +
+            "6. Meng met een houten lepel.\n" +
+            "7. Ga door tot een plakkerig deeg ontstaat.\n" +
+            "8. Dek af met een doek.\n" +
+            "9. Laat 1 uur rijzen.\n" +
+            "10. Verhit veel olie in een diepe pan.\n" +
+            "11. Maak je handen licht nat.\n" +
+            "12. Neem een portie deeg.\n" +
+            "13. Maak een gat in het midden.\n" +
+            "14. Leg voorzichtig in de hete olie.\n" +
+            "15. Bak tot goudbruin.\n" +
+            "16. Draai om voor de andere kant.\n" +
+            "17. Haal eruit met een schuimspaan.\n" +
+            "18. Laat uitlekken op keukenpapier.\n" +
+            "19. Herhaal met de rest.\n" +
+            "20. Bestrooi met suiker of bedruppel met honing.\n" +
+            "21. Serveer warm."
     },
+
     ar: {
         title: "سفنج – كعك مغربي",
-        equipment: ["وعاء", "ملعقة خشبية", "مقلاة", "فرشاة"],
+        equipment: [
+            "وعاء كبير",
+            "ملعقة خشبية",
+            "قطعة قماش",
+            "مقلاة عميقة",
+            "ملعقة مثقوبة",
+            "طبق مع ورق ماص"
+        ],
         ingredients: [
             "500 غ دقيق",
             "1 ملعقة صغيرة ملح",
@@ -5160,39 +8646,89 @@ recipesData.dessert.sfenj = {
             "سكر أو عسل للتقديم"
         ],
         preparation:
-            "1. اخلط الدقيق والملح والخميرة.\n" +
-            "2. أضف الماء الدافئ تدريجياً حتى تحصل على عجين لين.\n" +
-            "3. اتركه يختمر 1 ساعة.\n" +
-            "4. شكل دوائر بأصابعك.\n" +
-            "5. اقليه في الزيت الساخن حتى يصبح ذهبي.\n" +
-            "6. صفّه ورشّ السكر أو غطه بالعسل قبل التقديم."
+            "1. ضع الدقيق في وعاء كبير.\n" +
+            "2. أضف الملح.\n" +
+            "3. أضف الخميرة.\n" +
+            "4. اخلط المكونات الجافة.\n" +
+            "5. أضف الماء تدريجياً.\n" +
+            "6. اخلط بملعقة خشبية.\n" +
+            "7. استمر حتى تحصل على عجين لزج.\n" +
+            "8. غطِّه بقطعة قماش.\n" +
+            "9. اتركه يختمر ساعة واحدة.\n" +
+            "10. سخّن كمية كبيرة من الزيت.\n" +
+            "11. بلّل يديك قليلاً.\n" +
+            "12. خذ جزءاً من العجين.\n" +
+            "13. اصنع ثقباً في الوسط.\n" +
+            "14. ضعها برفق في الزيت الساخن.\n" +
+            "15. اقلي حتى يصبح ذهبياً.\n" +
+            "16. اقلبه ليطهى من الجهة الأخرى.\n" +
+            "17. أخرجه بملعقة مثقوبة.\n" +
+            "18. صفّه على ورق ماص.\n" +
+            "19. كرر مع باقي العجين.\n" +
+            "20. رش السكر أو اسكب العسل.\n" +
+            "21. قدّم ساخناً."
     }
 };
 recipesData.dessert.kalbElLouz = {
     country: "maroc",
     image: "images/kalb-el-louz.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "20 min",
+        cookTime: "30 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Kalb el Louz",
-        equipment: ["1 bol", "1 plat à four", "1 cuillère en bois"],
+        equipment: [
+            "1 grand bol",
+            "1 cuillère en bois",
+            "1 plat à four",
+            "1 couteau",
+            "1 four"
+        ],
         ingredients: [
-            "250 g semoule fine",
-            "100 g sucre",
-            "100 g beurre fondu",
-            "50 g amandes moulues",
-            "100 ml eau de fleur d’oranger",
-            "50 g miel"
+            "250 g de semoule fine",
+            "100 g de sucre",
+            "100 g de beurre fondu",
+            "50 g d’amandes moulues",
+            "100 ml d’eau de fleur d’oranger",
+            "50 g de miel"
         ],
         preparation:
-            "1. Mélanger semoule, sucre, beurre et amandes.\n" +
-            "2. Ajouter eau de fleur d’oranger pour obtenir une pâte humide.\n" +
-            "3. Étaler dans un plat beurré.\n" +
-            "4. Couper en losanges.\n" +
-            "5. Cuire au four 25-30 min à 180°C.\n" +
-            "6. Napper de miel chaud avant de servir."
+            "1. Verser la semoule dans un grand bol.\n" +
+            "2. Ajouter le sucre.\n" +
+            "3. Ajouter les amandes moulues.\n" +
+            "4. Mélanger les ingrédients secs.\n" +
+            "5. Ajouter le beurre fondu.\n" +
+            "6. Mélanger jusqu’à obtenir une texture sableuse.\n" +
+            "7. Verser l’eau de fleur d’oranger progressivement.\n" +
+            "8. Mélanger pour obtenir une pâte humide.\n" +
+            "9. Beurrer un plat à four.\n" +
+            "10. Verser la préparation dans le plat.\n" +
+            "11. Lisser la surface avec une cuillère.\n" +
+            "12. Tracer des losanges avec un couteau.\n" +
+            "13. Préchauffer le four à 180°C.\n" +
+            "14. Enfourner pendant 25 à 30 minutes.\n" +
+            "15. Sortir le gâteau bien doré.\n" +
+            "16. Faire chauffer le miel légèrement.\n" +
+            "17. Verser le miel sur le gâteau chaud.\n" +
+            "18. Laisser absorber.\n" +
+            "19. Laisser tiédir.\n" +
+            "20. Servir."
     },
+
     en: {
         title: "Kalb el Louz",
-        equipment: ["1 bowl", "1 baking dish", "1 wooden spoon"],
+        equipment: [
+            "1 large bowl",
+            "1 wooden spoon",
+            "1 baking dish",
+            "1 knife",
+            "1 oven"
+        ],
         ingredients: [
             "250 g fine semolina",
             "100 g sugar",
@@ -5202,16 +8738,37 @@ recipesData.dessert.kalbElLouz = {
             "50 g honey"
         ],
         preparation:
-            "1. Mix semolina, sugar, butter, and almonds.\n" +
-            "2. Add orange blossom water to form moist dough.\n" +
-            "3. Spread in a greased dish.\n" +
-            "4. Cut into diamonds.\n" +
-            "5. Bake 25-30 min at 180°C.\n" +
-            "6. Coat with warm honey before serving."
+            "1. Pour the semolina into a large bowl.\n" +
+            "2. Add the sugar.\n" +
+            "3. Add the ground almonds.\n" +
+            "4. Mix the dry ingredients.\n" +
+            "5. Add the melted butter.\n" +
+            "6. Mix until sandy.\n" +
+            "7. Gradually add orange blossom water.\n" +
+            "8. Mix into a moist dough.\n" +
+            "9. Butter a baking dish.\n" +
+            "10. Pour in the mixture.\n" +
+            "11. Smooth the surface.\n" +
+            "12. Cut into diamond shapes.\n" +
+            "13. Preheat oven to 180°C.\n" +
+            "14. Bake for 25–30 minutes.\n" +
+            "15. Remove when golden.\n" +
+            "16. Warm the honey slightly.\n" +
+            "17. Pour honey over the hot cake.\n" +
+            "18. Let it soak.\n" +
+            "19. Let cool slightly.\n" +
+            "20. Serve."
     },
+
     nl: {
         title: "Kalb el Louz",
-        equipment: ["1 kom", "1 ovenschaal", "1 houten lepel"],
+        equipment: [
+            "1 grote kom",
+            "1 houten lepel",
+            "1 ovenschaal",
+            "1 mes",
+            "1 oven"
+        ],
         ingredients: [
             "250 g fijne griesmeel",
             "100 g suiker",
@@ -5221,16 +8778,37 @@ recipesData.dessert.kalbElLouz = {
             "50 g honing"
         ],
         preparation:
-            "1. Meng griesmeel, suiker, boter en amandelen.\n" +
-            "2. Voeg bloesemwater toe tot vochtig deeg.\n" +
-            "3. Spreid uit in ingevette schaal.\n" +
-            "4. Snijd in ruiten.\n" +
-            "5. Bak 25-30 min op 180°C.\n" +
-            "6. Bedek met warme honing voor het serveren."
+            "1. Doe de griesmeel in een grote kom.\n" +
+            "2. Voeg de suiker toe.\n" +
+            "3. Voeg de amandelen toe.\n" +
+            "4. Meng de droge ingrediënten.\n" +
+            "5. Voeg de boter toe.\n" +
+            "6. Meng tot een kruimelige massa.\n" +
+            "7. Voeg geleidelijk bloesemwater toe.\n" +
+            "8. Meng tot een vochtig deeg.\n" +
+            "9. Vet de ovenschaal in.\n" +
+            "10. Doe het mengsel in de schaal.\n" +
+            "11. Strijk glad.\n" +
+            "12. Snijd ruitvormen.\n" +
+            "13. Verwarm de oven voor op 180°C.\n" +
+            "14. Bak 25–30 minuten.\n" +
+            "15. Haal eruit als het goudbruin is.\n" +
+            "16. Verwarm de honing licht.\n" +
+            "17. Giet honing over de warme cake.\n" +
+            "18. Laat intrekken.\n" +
+            "19. Laat even afkoelen.\n" +
+            "20. Serveer."
     },
+
     ar: {
         title: "قلب اللوز",
-        equipment: ["وعاء", "صينية فرن", "ملعقة خشبية"],
+        equipment: [
+            "وعاء كبير",
+            "ملعقة خشبية",
+            "صينية فرن",
+            "سكين",
+            "فرن"
+        ],
         ingredients: [
             "250 غ سميد ناعم",
             "100 غ سكر",
@@ -5240,118 +8818,254 @@ recipesData.dessert.kalbElLouz = {
             "50 غ عسل"
         ],
         preparation:
-            "1. اخلط السميد والسكر والزبدة واللوز.\n" +
-            "2. أضف ماء الزهر للحصول على عجين رطب.\n" +
-            "3. افرده في صينية مدهونة.\n" +
-            "4. قطع إلى معينيات.\n" +
-            "5. اخبز 25-30 دقيقة على 180°م.\n" +
-            "6. غطه بالعسل الساخن قبل التقديم."
+            "1. ضع السميد في وعاء كبير.\n" +
+            "2. أضف السكر.\n" +
+            "3. أضف اللوز المطحون.\n" +
+            "4. اخلط المكونات الجافة.\n" +
+            "5. أضف الزبدة المذابة.\n" +
+            "6. اخلط حتى يصبح القوام رملياً.\n" +
+            "7. أضف ماء الزهر تدريجياً.\n" +
+            "8. اخلط حتى تحصل على عجين رطب.\n" +
+            "9. ادهن الصينية بالزبدة.\n" +
+            "10. ضع الخليط في الصينية.\n" +
+            "11. سوِّ السطح.\n" +
+            "12. قطّع إلى معينيات.\n" +
+            "13. سخّن الفرن على 180°م.\n" +
+            "14. اخبز 25–30 دقيقة.\n" +
+            "15. أخرجها ذهبية اللون.\n" +
+            "16. سخّن العسل قليلاً.\n" +
+            "17. اسكب العسل فوق الكعك الساخن.\n" +
+            "18. اتركه يتشرب.\n" +
+            "19. اتركه يبرد قليلاً.\n" +
+            "20. قدّم."
     }
 };
 recipesData.dessert.zalabia = {
     country: "maroc",
     image: "images/zalabia.jpg",
+
+    meta: {
+        servings: "4 à 6 personnes",
+        prepTime: "15 min",
+        cookTime: "20 min",
+        difficulty: "Facile"
+    },
+
     fr: {
         title: "Zalabia",
-        equipment: ["1 bol", "1 cuillère en bois", "1 poêle", "1 louche"],
+        equipment: [
+            "1 grand bol",
+            "1 cuillère en bois",
+            "1 louche",
+            "1 poêle profonde",
+            "1 écumoire",
+            "1 assiette avec papier absorbant"
+        ],
         ingredients: [
-            "250 g farine",
-            "1 cuillère à café levure chimique",
-            "1/2 cuillère à café sel",
-            "150 ml eau tiède",
+            "250 g de farine",
+            "1 cuillère à café de levure chimique",
+            "1/2 cuillère à café de sel",
+            "150 ml d’eau tiède",
             "Huile pour friture",
-            "50 g miel pour napper"
+            "50 g de miel"
         ],
         preparation:
-            "1. Mélanger farine, levure, sel.\n" +
-            "2. Ajouter eau tiède progressivement pour obtenir pâte liquide.\n" +
-            "3. Laisser reposer 30 min.\n" +
-            "4. Verser la pâte en forme de spirale dans l’huile chaude.\n" +
-            "5. Faire frire jusqu’à doré.\n" +
-            "6. Égoutter et napper de miel avant de servir."
+            "1. Verser la farine dans un grand bol.\n" +
+            "2. Ajouter la levure chimique.\n" +
+            "3. Ajouter le sel.\n" +
+            "4. Mélanger les ingrédients secs.\n" +
+            "5. Verser l’eau tiède progressivement.\n" +
+            "6. Mélanger jusqu’à obtenir une pâte fluide.\n" +
+            "7. Couvrir le bol.\n" +
+            "8. Laisser reposer 30 minutes.\n" +
+            "9. Chauffer une grande quantité d’huile.\n" +
+            "10. Verser la pâte dans une louche.\n" +
+            "11. Former des spirales dans l’huile chaude.\n" +
+            "12. Laisser frire jusqu’à coloration dorée.\n" +
+            "13. Retourner si nécessaire.\n" +
+            "14. Retirer avec une écumoire.\n" +
+            "15. Égoutter sur papier absorbant.\n" +
+            "16. Faire chauffer le miel légèrement.\n" +
+            "17. Napper les zalabias de miel.\n" +
+            "18. Servir chaud."
     },
+
     en: {
         title: "Zalabia",
-        equipment: ["1 bowl", "1 wooden spoon", "1 pan", "1 ladle"],
+        equipment: [
+            "1 large bowl",
+            "1 wooden spoon",
+            "1 ladle",
+            "1 deep pan",
+            "1 slotted spoon",
+            "1 plate with paper towels"
+        ],
         ingredients: [
             "250 g flour",
             "1 teaspoon baking powder",
             "1/2 teaspoon salt",
             "150 ml warm water",
             "Oil for frying",
-            "50 g honey for coating"
+            "50 g honey"
         ],
         preparation:
-            "1. Mix flour, baking powder, salt.\n" +
-            "2. Gradually add warm water to get a liquid batter.\n" +
-            "3. Rest 30 min.\n" +
-            "4. Pour batter in spiral shapes into hot oil.\n" +
-            "5. Fry until golden.\n" +
-            "6. Drain and coat with honey before serving."
+            "1. Pour the flour into a large bowl.\n" +
+            "2. Add the baking powder.\n" +
+            "3. Add the salt.\n" +
+            "4. Mix the dry ingredients.\n" +
+            "5. Gradually add warm water.\n" +
+            "6. Mix until a smooth batter forms.\n" +
+            "7. Cover the bowl.\n" +
+            "8. Let rest for 30 minutes.\n" +
+            "9. Heat plenty of oil.\n" +
+            "10. Scoop batter with a ladle.\n" +
+            "11. Pour spirals into hot oil.\n" +
+            "12. Fry until golden.\n" +
+            "13. Turn if needed.\n" +
+            "14. Remove with a slotted spoon.\n" +
+            "15. Drain on paper towels.\n" +
+            "16. Warm the honey slightly.\n" +
+            "17. Drizzle honey over zalabia.\n" +
+            "18. Serve hot."
     },
+
     nl: {
         title: "Zalabia",
-        equipment: ["1 kom", "1 houten lepel", "1 pan", "1 pollepel"],
+        equipment: [
+            "1 grote kom",
+            "1 houten lepel",
+            "1 pollepel",
+            "1 diepe pan",
+            "1 schuimspaan",
+            "1 bord met keukenpapier"
+        ],
         ingredients: [
             "250 g bloem",
             "1 theelepel bakpoeder",
             "1/2 theelepel zout",
             "150 ml warm water",
             "Olie om te frituren",
-            "50 g honing om te bedekken"
+            "50 g honing"
         ],
         preparation:
-            "1. Meng bloem, bakpoeder, zout.\n" +
-            "2. Voeg geleidelijk warm water toe tot vloeibaar beslag.\n" +
-            "3. Laat 30 min rusten.\n" +
-            "4. Giet beslag in spiraalvormen in hete olie.\n" +
-            "5. Frituur tot goudbruin.\n" +
-            "6. Laat uitlekken en bedek met honing voor het serveren."
+            "1. Doe de bloem in een grote kom.\n" +
+            "2. Voeg het bakpoeder toe.\n" +
+            "3. Voeg het zout toe.\n" +
+            "4. Meng de droge ingrediënten.\n" +
+            "5. Voeg geleidelijk warm water toe.\n" +
+            "6. Meng tot een glad beslag.\n" +
+            "7. Dek af.\n" +
+            "8. Laat 30 minuten rusten.\n" +
+            "9. Verhit veel olie.\n" +
+            "10. Schep beslag met een pollepel.\n" +
+            "11. Giet spiralen in de hete olie.\n" +
+            "12. Bak tot goudbruin.\n" +
+            "13. Draai indien nodig om.\n" +
+            "14. Haal eruit met een schuimspaan.\n" +
+            "15. Laat uitlekken.\n" +
+            "16. Verwarm de honing licht.\n" +
+            "17. Giet honing over de zalabia.\n" +
+            "18. Serveer warm."
     },
+
     ar: {
         title: "زلابية",
-        equipment: ["وعاء", "ملعقة خشبية", "مقلاة", "مغرفة"],
+        equipment: [
+            "وعاء كبير",
+            "ملعقة خشبية",
+            "مغرفة",
+            "مقلاة عميقة",
+            "ملعقة مثقوبة",
+            "طبق مع ورق ماص"
+        ],
         ingredients: [
             "250 غ دقيق",
             "1 ملعقة صغيرة بيكنج باودر",
             "1/2 ملعقة صغيرة ملح",
             "150 مل ماء دافئ",
             "زيت للقلي",
-            "50 غ عسل للتغطية"
+            "50 غ عسل"
         ],
         preparation:
-            "1. اخلط الدقيق والبيكنج باودر والملح.\n" +
-            "2. أضف الماء الدافئ تدريجياً للحصول على خليط سائل.\n" +
-            "3. اتركه 30 دقيقة.\n" +
-            "4. اسكب الخليط على شكل دوامات في الزيت الساخن.\n" +
-            "5. اقليه حتى يصبح ذهبياً.\n" +
-            "6. صفّه وغطّه بالعسل قبل التقديم."
+            "1. ضع الدقيق في وعاء كبير.\n" +
+            "2. أضف البيكنج باودر.\n" +
+            "3. أضف الملح.\n" +
+            "4. اخلط المكونات الجافة.\n" +
+            "5. أضف الماء تدريجياً.\n" +
+            "6. اخلط حتى تحصل على خليط ناعم.\n" +
+            "7. غطِّ الوعاء.\n" +
+            "8. اتركه يرتاح 30 دقيقة.\n" +
+            "9. سخّن كمية كبيرة من الزيت.\n" +
+            "10. اسكب الخليط بالمغرفة.\n" +
+            "11. شكّل دوامات في الزيت الساخن.\n" +
+            "12. اقلي حتى يصبح ذهبياً.\n" +
+            "13. اقلب عند الحاجة.\n" +
+            "14. أخرجه بملعقة مثقوبة.\n" +
+            "15. صفّه على ورق ماص.\n" +
+            "16. سخّن العسل قليلاً.\n" +
+            "17. اسكب العسل فوق الزلابية.\n" +
+            "18. قدّم ساخناً."
     }
 };
 recipesData.dessert.ghribaChocolatCafe = {
     country: "maroc",
     image: "images/ghriba-chocolat-cafe.jpg",
+
+    meta: {
+        servings: "4 à 6 personnes",
+        prepTime: "15 min",
+        cookTime: "15 min",
+        difficulty: "Facile"
+    },
+
     fr: {
-        title: "Ghriba chocolat/café",
-        equipment: ["1 bol", "1 fouet", "1 four", "1 plaque de cuisson"],
+        title: "Ghriba chocolat / café",
+        equipment: [
+            "1 grand bol",
+            "1 fouet",
+            "1 cuillère",
+            "1 plaque de cuisson",
+            "1 papier cuisson",
+            "1 four"
+        ],
         ingredients: [
-            "200 g farine",
-            "100 g sucre",
-            "50 g cacao ou café soluble",
-            "100 g beurre fondu",
-            "1 cuillère à café levure chimique",
-            "1 cuillère à café vanille"
+            "200 g de farine",
+            "100 g de sucre",
+            "50 g de cacao ou café soluble",
+            "100 g de beurre fondu",
+            "1 cuillère à café de levure chimique",
+            "1 cuillère à café de vanille"
         ],
         preparation:
-            "1. Mélanger farine, sucre, cacao/café, levure et vanille.\n" +
-            "2. Ajouter beurre fondu et former une pâte.\n" +
-            "3. Former des boules et les placer sur plaque beurrée.\n" +
-            "4. Cuire 12-15 min à 180°C.\n" +
-            "5. Laisser refroidir avant de servir."
+            "1. Verser la farine dans un grand bol.\n" +
+            "2. Ajouter le sucre.\n" +
+            "3. Ajouter le cacao ou le café soluble.\n" +
+            "4. Ajouter la levure chimique.\n" +
+            "5. Ajouter la vanille.\n" +
+            "6. Mélanger les ingrédients secs.\n" +
+            "7. Verser le beurre fondu.\n" +
+            "8. Mélanger jusqu’à obtenir une pâte homogène.\n" +
+            "9. Préchauffer le four à 180°C.\n" +
+            "10. Recouvrir la plaque de papier cuisson.\n" +
+            "11. Former des boules de pâte.\n" +
+            "12. Les déposer sur la plaque.\n" +
+            "13. Espacer légèrement les boules.\n" +
+            "14. Enfourner pendant 12 à 15 minutes.\n" +
+            "15. Sortir les ghribas du four.\n" +
+            "16. Laisser refroidir sur la plaque.\n" +
+            "17. Servir."
     },
+
     en: {
-        title: "Ghriba Chocolate/Coffee",
-        equipment: ["1 bowl", "1 whisk", "1 oven", "1 baking tray"],
+        title: "Ghriba Chocolate / Coffee",
+        equipment: [
+            "1 large bowl",
+            "1 whisk",
+            "1 spoon",
+            "1 baking tray",
+            "1 parchment paper",
+            "1 oven"
+        ],
         ingredients: [
             "200 g flour",
             "100 g sugar",
@@ -5361,15 +9075,35 @@ recipesData.dessert.ghribaChocolatCafe = {
             "1 teaspoon vanilla"
         ],
         preparation:
-            "1. Mix flour, sugar, cocoa/coffee, baking powder, and vanilla.\n" +
-            "2. Add melted butter and form a dough.\n" +
-            "3. Shape into balls and place on greased tray.\n" +
-            "4. Bake 12-15 min at 180°C.\n" +
-            "5. Let cool before serving."
+            "1. Pour the flour into a large bowl.\n" +
+            "2. Add the sugar.\n" +
+            "3. Add the cocoa or instant coffee.\n" +
+            "4. Add the baking powder.\n" +
+            "5. Add the vanilla.\n" +
+            "6. Mix the dry ingredients.\n" +
+            "7. Pour in the melted butter.\n" +
+            "8. Mix until a smooth dough forms.\n" +
+            "9. Preheat the oven to 180°C.\n" +
+            "10. Line the baking tray with parchment paper.\n" +
+            "11. Shape the dough into balls.\n" +
+            "12. Place them on the tray.\n" +
+            "13. Leave space between each.\n" +
+            "14. Bake for 12–15 minutes.\n" +
+            "15. Remove from the oven.\n" +
+            "16. Let cool on the tray.\n" +
+            "17. Serve."
     },
+
     nl: {
-        title: "Ghriba Chocolade/Koffie",
-        equipment: ["1 kom", "1 garde", "1 oven", "1 bakplaat"],
+        title: "Ghriba Chocolade / Koffie",
+        equipment: [
+            "1 grote kom",
+            "1 garde",
+            "1 lepel",
+            "1 bakplaat",
+            "1 bakpapier",
+            "1 oven"
+        ],
         ingredients: [
             "200 g bloem",
             "100 g suiker",
@@ -5379,15 +9113,35 @@ recipesData.dessert.ghribaChocolatCafe = {
             "1 theelepel vanille"
         ],
         preparation:
-            "1. Meng bloem, suiker, cacao/koffie, bakpoeder en vanille.\n" +
-            "2. Voeg gesmolten boter toe en vorm deeg.\n" +
-            "3. Vorm balletjes en leg op ingevette bakplaat.\n" +
-            "4. Bak 12-15 min op 180°C.\n" +
-            "5. Laat afkoelen voor het serveren."
+            "1. Doe de bloem in een grote kom.\n" +
+            "2. Voeg de suiker toe.\n" +
+            "3. Voeg cacao of koffie toe.\n" +
+            "4. Voeg bakpoeder toe.\n" +
+            "5. Voeg vanille toe.\n" +
+            "6. Meng de droge ingrediënten.\n" +
+            "7. Voeg de gesmolten boter toe.\n" +
+            "8. Meng tot een glad deeg.\n" +
+            "9. Verwarm de oven voor op 180°C.\n" +
+            "10. Bekleed de bakplaat met bakpapier.\n" +
+            "11. Vorm deegballetjes.\n" +
+            "12. Leg ze op de bakplaat.\n" +
+            "13. Houd afstand tussen de balletjes.\n" +
+            "14. Bak 12–15 minuten.\n" +
+            "15. Haal uit de oven.\n" +
+            "16. Laat afkoelen op de plaat.\n" +
+            "17. Serveer."
     },
+
     ar: {
-        title: "غريبة الشوكولاتة/القهوة",
-        equipment: ["وعاء", "خفاق", "فرن", "صينية خبز"],
+        title: "غريبة الشوكولاتة / القهوة",
+        equipment: [
+            "وعاء كبير",
+            "خفاق",
+            "ملعقة",
+            "صينية خبز",
+            "ورق خبز",
+            "فرن"
+        ],
         ingredients: [
             "200 غ دقيق",
             "100 غ سكر",
@@ -5397,36 +9151,86 @@ recipesData.dessert.ghribaChocolatCafe = {
             "1 ملعقة صغيرة فانيليا"
         ],
         preparation:
-            "1. اخلط الدقيق والسكر والكاكاو/القهوة والبيكنج باودر والفانيليا.\n" +
-            "2. أضف الزبدة المذابة وشكّل عجين.\n" +
-            "3. شكل كرات وضعها على صينية مدهونة.\n" +
-            "4. اخبز 12-15 دقيقة على 180°م.\n" +
-            "5. اتركها تبرد قبل التقديم."
+            "1. ضع الدقيق في وعاء كبير.\n" +
+            "2. أضف السكر.\n" +
+            "3. أضف الكاكاو أو القهوة.\n" +
+            "4. أضف البيكنج باودر.\n" +
+            "5. أضف الفانيليا.\n" +
+            "6. اخلط المكونات الجافة.\n" +
+            "7. أضف الزبدة المذابة.\n" +
+            "8. اخلط حتى تحصل على عجين متجانس.\n" +
+            "9. سخّن الفرن على 180°م.\n" +
+            "10. غطِّ الصينية بورق الخبز.\n" +
+            "11. شكّل كرات من العجين.\n" +
+            "12. ضعها في الصينية.\n" +
+            "13. اترك مسافة بينها.\n" +
+            "14. اخبز 12–15 دقيقة.\n" +
+            "15. أخرجها من الفرن.\n" +
+            "16. اتركها تبرد.\n" +
+            "17. قدّمها."
     }
 };
 recipesData.dessert.kaabElGhazal = {
     country: "maroc",
     image: "images/kaab-el-ghazal.jpg",
+
+    meta: {
+        servings: "6 à 8 personnes",
+        prepTime: "40 min",
+        cookTime: "20 min",
+        difficulty: "Moyen"
+    },
+
     fr: {
-        title: "Kaab el Ghazal – cornes de gazelle",
-        equipment: ["1 bol", "1 rouleau à pâtisserie", "1 four", "1 pinceau"],
+        title: "Kaab el Ghazal – Cornes de gazelle",
+        equipment: [
+            "1 grand bol",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 pinceau",
+            "1 plaque de cuisson",
+            "1 four"
+        ],
         ingredients: [
-            "250 g farine",
-            "50 g beurre fondu",
-            "150 g pâte d’amandes",
-            "50 g sucre glace",
-            "1 cuillère à soupe eau de fleur d’oranger"
+            "250 g de farine",
+            "50 g de beurre fondu",
+            "150 g de pâte d’amandes",
+            "50 g de sucre glace",
+            "1 cuillère à soupe d’eau de fleur d’oranger"
         ],
         preparation:
-            "1. Mélanger farine et beurre fondu pour obtenir pâte.\n" +
-            "2. Étaler la pâte, découper des rectangles.\n" +
-            "3. Placer pâte d’amandes au centre et rouler en croissant.\n" +
-            "4. Cuire 15-20 min à 180°C.\n" +
-            "5. Saupoudrer de sucre glace avant de servir."
+            "1. Verser la farine dans un grand bol.\n" +
+            "2. Ajouter le beurre fondu.\n" +
+            "3. Mélanger jusqu’à obtenir une pâte homogène.\n" +
+            "4. Former une boule de pâte.\n" +
+            "5. Couvrir et laisser reposer 15 minutes.\n" +
+            "6. Étaler la pâte finement.\n" +
+            "7. Découper des rectangles réguliers.\n" +
+            "8. Mélanger la pâte d’amandes avec l’eau de fleur d’oranger.\n" +
+            "9. Former de petits boudins de farce.\n" +
+            "10. Déposer un boudin au centre de chaque rectangle.\n" +
+            "11. Replier la pâte sur la farce.\n" +
+            "12. Souder les bords.\n" +
+            "13. Former une forme de croissant.\n" +
+            "14. Déposer sur une plaque recouverte de papier cuisson.\n" +
+            "15. Préchauffer le four à 180°C.\n" +
+            "16. Enfourner pendant 15 à 20 minutes.\n" +
+            "17. Sortir du four lorsque les biscuits sont légèrement dorés.\n" +
+            "18. Laisser refroidir.\n" +
+            "19. Saupoudrer de sucre glace.\n" +
+            "20. Servir."
     },
+
     en: {
         title: "Kaab el Ghazal – Gazelle Horns",
-        equipment: ["1 bowl", "1 rolling pin", "1 oven", "1 brush"],
+        equipment: [
+            "1 large bowl",
+            "1 rolling pin",
+            "1 knife",
+            "1 brush",
+            "1 baking tray",
+            "1 oven"
+        ],
         ingredients: [
             "250 g flour",
             "50 g melted butter",
@@ -5435,15 +9239,38 @@ recipesData.dessert.kaabElGhazal = {
             "1 tablespoon orange blossom water"
         ],
         preparation:
-            "1. Mix flour and melted butter to form dough.\n" +
-            "2. Roll out dough, cut into rectangles.\n" +
-            "3. Place almond paste in center and roll into crescent.\n" +
-            "4. Bake 15-20 min at 180°C.\n" +
-            "5. Sprinkle with powdered sugar before serving."
+            "1. Pour the flour into a large bowl.\n" +
+            "2. Add the melted butter.\n" +
+            "3. Mix until a dough forms.\n" +
+            "4. Shape into a ball.\n" +
+            "5. Cover and rest for 15 minutes.\n" +
+            "6. Roll the dough thinly.\n" +
+            "7. Cut into rectangles.\n" +
+            "8. Mix almond paste with orange blossom water.\n" +
+            "9. Shape small filling logs.\n" +
+            "10. Place one in the center of each rectangle.\n" +
+            "11. Fold the dough over the filling.\n" +
+            "12. Seal the edges.\n" +
+            "13. Shape into crescents.\n" +
+            "14. Place on a lined baking tray.\n" +
+            "15. Preheat the oven to 180°C.\n" +
+            "16. Bake for 15–20 minutes.\n" +
+            "17. Remove when lightly golden.\n" +
+            "18. Let cool.\n" +
+            "19. Dust with powdered sugar.\n" +
+            "20. Serve."
     },
+
     nl: {
         title: "Kaab el Ghazal – Gazelle Hoorns",
-        equipment: ["1 kom", "1 deegroller", "1 oven", "1 kwast"],
+        equipment: [
+            "1 grote kom",
+            "1 deegroller",
+            "1 mes",
+            "1 kwast",
+            "1 bakplaat",
+            "1 oven"
+        ],
         ingredients: [
             "250 g bloem",
             "50 g gesmolten boter",
@@ -5452,15 +9279,38 @@ recipesData.dessert.kaabElGhazal = {
             "1 eetlepel bloesemwater"
         ],
         preparation:
-            "1. Meng bloem en gesmolten boter tot deeg.\n" +
-            "2. Rol deeg uit, snijd in rechthoeken.\n" +
-            "3. Plaats amandelpasta in het midden en rol tot halve maan.\n" +
-            "4. Bak 15-20 min op 180°C.\n" +
-            "5. Bestrooi met poedersuiker voor het serveren."
+            "1. Doe de bloem in een grote kom.\n" +
+            "2. Voeg de gesmolten boter toe.\n" +
+            "3. Meng tot een deeg ontstaat.\n" +
+            "4. Vorm een bal.\n" +
+            "5. Dek af en laat 15 minuten rusten.\n" +
+            "6. Rol het deeg dun uit.\n" +
+            "7. Snijd rechthoeken.\n" +
+            "8. Meng amandelpasta met bloesemwater.\n" +
+            "9. Vorm kleine rolletjes.\n" +
+            "10. Leg ze in het midden van elk stuk deeg.\n" +
+            "11. Vouw het deeg dicht.\n" +
+            "12. Druk de randen aan.\n" +
+            "13. Vorm halve manen.\n" +
+            "14. Leg op een met bakpapier beklede bakplaat.\n" +
+            "15. Verwarm de oven voor op 180°C.\n" +
+            "16. Bak 15–20 minuten.\n" +
+            "17. Haal eruit als ze licht goudbruin zijn.\n" +
+            "18. Laat afkoelen.\n" +
+            "19. Bestrooi met poedersuiker.\n" +
+            "20. Serveer."
     },
+
     ar: {
         title: "كعب الغزال",
-        equipment: ["وعاء", "شوبك العجين", "فرن", "فرشاة"],
+        equipment: [
+            "وعاء كبير",
+            "شوبك العجين",
+            "سكين",
+            "فرشاة",
+            "صينية فرن",
+            "فرن"
+        ],
         ingredients: [
             "250 غ دقيق",
             "50 غ زبدة مذابة",
@@ -5469,41 +9319,81 @@ recipesData.dessert.kaabElGhazal = {
             "1 ملعقة كبيرة ماء الزهر"
         ],
         preparation:
-            "1. اخلط الدقيق والزبدة المذابة لتشكيل عجين.\n" +
-            "2. افرد العجين وقطع إلى مستطيلات.\n" +
-            "3. ضع معجون اللوز في الوسط ولفّه على شكل هلال.\n" +
-            "4. اخبز 15-20 دقيقة على 180°م.\n" +
-            "5. رشّ بالسكر البودرة قبل التقديم."
+            "1. ضع الدقيق في وعاء كبير.\n" +
+            "2. أضف الزبدة المذابة.\n" +
+            "3. اخلط حتى تتشكل عجينة.\n" +
+            "4. شكّل كرة من العجين.\n" +
+            "5. غطِّها واتركها ترتاح 15 دقيقة.\n" +
+            "6. افرد العجين رقيقاً.\n" +
+            "7. قطّعه إلى مستطيلات.\n" +
+            "8. اخلط معجون اللوز مع ماء الزهر.\n" +
+            "9. شكّل أصابع صغيرة من الحشوة.\n" +
+            "10. ضعها في وسط كل قطعة.\n" +
+            "11. اطوِ العجين فوق الحشوة.\n" +
+            "12. اضغط على الحواف جيداً.\n" +
+            "13. شكّلها على شكل هلال.\n" +
+            "14. ضعها في صينية مغطاة بورق الخبز.\n" +
+            "15. سخّن الفرن إلى 180°م.\n" +
+            "16. اخبز 15–20 دقيقة.\n" +
+            "17. أخرجها عندما تصبح ذهبية قليلاً.\n" +
+            "18. اتركها تبرد.\n" +
+            "19. رشّ السكر البودرة.\n" +
+            "20. قدّمها."
     }
 };
-
 recipesData.patisserie.ghribaAmandes = {
     country: "maroc",
     image: "images/ghriba-amandes.jpg",
+
+    meta: {
+        servings: "4 personnes",
+        prepTime: "10 min",
+        cookTime: "15 min",
+        difficulty: "Facile"
+    },
+
     fr: {
-        title: "Ghriba aux amandes (4 personnes)",
+        title: "Ghriba aux amandes",
         equipment: [
             "1 saladier",
+            "1 cuillère",
             "1 plaque de cuisson",
             "1 papier cuisson",
             "1 four"
         ],
         ingredients: [
-            "250 g poudre d’amandes",
-            "100 g sucre",
+            "250 g de poudre d’amandes",
+            "100 g de sucre",
             "1 œuf",
-            "1 cuillère à café levure chimique (5 g)",
-            "50 g sucre glace"
+            "1 cuillère à café de levure chimique (5 g)",
+            "50 g de sucre glace"
         ],
         preparation:
-            "Cette recette est prévue pour 4 personnes. Préchauffer le four à 180°C. Mélanger la poudre d’amandes, le sucre et la levure. Ajouter l’œuf et mélanger. Former des boules. Les rouler dans le sucre glace. Les déposer sur une plaque. Cuire 15 minutes."
+            "1. Verser la poudre d’amandes dans un saladier.\n" +
+            "2. Ajouter le sucre.\n" +
+            "3. Ajouter la levure chimique.\n" +
+            "4. Mélanger les ingrédients secs.\n" +
+            "5. Ajouter l’œuf.\n" +
+            "6. Mélanger jusqu’à obtenir une pâte homogène.\n" +
+            "7. Préchauffer le four à 180°C.\n" +
+            "8. Recouvrir la plaque de papier cuisson.\n" +
+            "9. Former des boules de pâte.\n" +
+            "10. Rouler chaque boule dans le sucre glace.\n" +
+            "11. Déposer les boules sur la plaque.\n" +
+            "12. Espacer légèrement.\n" +
+            "13. Enfourner pendant 15 minutes.\n" +
+            "14. Sortir les ghribas du four.\n" +
+            "15. Laisser refroidir.\n" +
+            "16. Servir."
     },
+
     en: {
-        title: "Almond Ghriba (Serves 4)",
+        title: "Almond Ghriba",
         equipment: [
             "1 bowl",
+            "1 spoon",
             "1 baking tray",
-            "1 baking paper",
+            "1 parchment paper",
             "1 oven"
         ],
         ingredients: [
@@ -5514,12 +9404,29 @@ recipesData.patisserie.ghribaAmandes = {
             "50 g icing sugar"
         ],
         preparation:
-            "This recipe serves 4 people. Preheat oven to 180°C. Mix almonds, sugar, and baking powder. Add egg and mix. Form balls. Roll in icing sugar. Bake 15 minutes."
+            "1. Place the ground almonds in a bowl.\n" +
+            "2. Add the sugar.\n" +
+            "3. Add the baking powder.\n" +
+            "4. Mix the dry ingredients.\n" +
+            "5. Add the egg.\n" +
+            "6. Mix until a smooth dough forms.\n" +
+            "7. Preheat the oven to 180°C.\n" +
+            "8. Line the baking tray with parchment paper.\n" +
+            "9. Shape the dough into balls.\n" +
+            "10. Roll each ball in icing sugar.\n" +
+            "11. Place them on the tray.\n" +
+            "12. Leave space between each.\n" +
+            "13. Bake for 15 minutes.\n" +
+            "14. Remove from the oven.\n" +
+            "15. Let cool.\n" +
+            "16. Serve."
     },
+
     nl: {
-        title: "Amandel-ghriba (voor 4 personen)",
+        title: "Amandel-ghriba",
         equipment: [
             "1 kom",
+            "1 lepel",
             "1 bakplaat",
             "1 bakpapier",
             "1 oven"
@@ -5532,27 +9439,71 @@ recipesData.patisserie.ghribaAmandes = {
             "50 g poedersuiker"
         ],
         preparation:
-            "Dit recept is voor 4 personen. Verwarm oven voor op 180°C. Meng alle ingrediënten. Vorm bolletjes. Rol in poedersuiker. Bak 15 minuten."
+            "1. Doe het amandelpoeder in een kom.\n" +
+            "2. Voeg de suiker toe.\n" +
+            "3. Voeg het bakpoeder toe.\n" +
+            "4. Meng de droge ingrediënten.\n" +
+            "5. Voeg het ei toe.\n" +
+            "6. Meng tot een glad deeg.\n" +
+            "7. Verwarm de oven voor op 180°C.\n" +
+            "8. Bekleed de bakplaat met bakpapier.\n" +
+            "9. Vorm deegballetjes.\n" +
+            "10. Rol ze in poedersuiker.\n" +
+            "11. Leg ze op de bakplaat.\n" +
+            "12. Houd afstand tussen de balletjes.\n" +
+            "13. Bak 15 minuten.\n" +
+            "14. Haal uit de oven.\n" +
+            "15. Laat afkoelen.\n" +
+            "16. Serveer."
     },
+
     ar: {
-        title: "غريبة باللوز (تكفي 4 أشخاص)",
+        title: "غريبة باللوز",
         equipment: [
             "وعاء",
+            "ملعقة",
             "صينية فرن",
             "ورق خبز",
             "فرن"
         ],
         ingredients: [
-            "250غ لوز مطحون",
-            "100غ سكر",
+            "250 غ لوز مطحون",
+            "100 غ سكر",
             "بيضة واحدة",
-            "ملعقة صغيرة خميرة (5غ)",
-            "50غ سكر ناعم"
+            "1 ملعقة صغيرة خميرة (5 غ)",
+            "50 غ سكر ناعم"
         ],
         preparation:
-            "هذه الوصفة تكفي 4 أشخاص. سخن الفرن على 180 درجة. اخلط المكونات. شكّل كرات. غطِّها بالسكر الناعم. اخبز 15 دقيقة."
+            "1. ضع اللوز المطحون في وعاء.\n" +
+            "2. أضف السكر.\n" +
+            "3. أضف الخميرة.\n" +
+            "4. اخلط المكونات الجافة.\n" +
+            "5. أضف البيضة.\n" +
+            "6. اخلط حتى تتشكل عجينة متجانسة.\n" +
+            "7. سخّن الفرن على 180°م.\n" +
+            "8. غطِّ الصينية بورق الخبز.\n" +
+            "9. شكّل كرات من العجين.\n" +
+            "10. غطِّها بالسكر الناعم.\n" +
+            "11. ضعها في الصينية.\n" +
+            "12. اترك مسافة بينها.\n" +
+            "13. اخبز 15 دقيقة.\n" +
+            "14. أخرجها من الفرن.\n" +
+            "15. اتركها تبرد.\n" +
+            "16. قدّمها."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
