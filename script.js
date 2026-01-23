@@ -34,7 +34,12 @@ const translations = {
         equipment: "Matériel nécessaire",
         ingredients: "Ingrédients",
         preparation: "Préparation",
+        servings: "Personnes",
+        prep_time: "Préparation",
+        cook_time: "Cuisson",
+        difficulty: "Difficulté",
         legal: "Ce site contient des liens d’affiliation. En tant que partenaire, je peux percevoir une commission sans coût supplémentaire pour vous. Le site n’est pas responsable des achats effectués sur les plateformes partenaires."
+      
     },
 
     en: {
@@ -68,8 +73,13 @@ const translations = {
         equipment: "Equipment",
         ingredients: "Ingredients",
         preparation: "Preparation",
+        servings: "Servings",
+        prep_time: "Preparation",
+        cook_time: "Cooking",
+        difficulty: "Difficulty",
         legal: "This site contains affiliate links. As a partner, I may earn a commission at no extra cost to you. The site is not responsible for purchases made on partner platforms."
-    },
+       
+ },
 
     ar: {
         title: "مطبخ العالم الحلال",
@@ -102,8 +112,13 @@ const translations = {
         equipment: "المعدات",
         ingredients: "المكونات",
         preparation: "طريقة التحضير",
+        servings: "عدد الأشخاص",
+        prep_time: "التحضير",
+        cook_time: "الطهي",
+        difficulty: "الصعوبة",
         legal: "يحتوي هذا الموقع على روابط تابعة. قد أحصل على عمولة دون أي تكلفة إضافية عليك. الموقع غير مسؤول عن المشتريات من المنصات الشريكة."
-    },
+      
+},
 
     nl: {
         title: "Halal Wereldkeuken",
@@ -136,7 +151,13 @@ const translations = {
         equipment: "Benodigd materiaal",
         ingredients: "Ingrediënten",
         preparation: "Bereiding",
+        servings: "Porties",
+        prep_time: "Voorbereiding",
+        cook_time: "Bereiding",
+        difficulty: "Moeilijkheid",
         legal: "Deze site bevat affiliate links. Als partner kan ik een commissie verdienen zonder extra kosten voor u. De site is niet verantwoordelijk voor aankopen op partnerplatforms."
+      
+
     }
 };
 const homeIntro = {
@@ -54211,15 +54232,18 @@ const metaDiv = document.getElementById("recipeMeta");
 
 if (recipesData[type][recipeKey].meta) {
     const meta = recipesData[type][recipeKey].meta;
+    const t = translations[currentLang];
 
-    metaDiv.textContent =
-        "👥 " + meta.servings +
-        " | ⏱ Préparation: " + meta.prepTime +
-        " | 🔥 Cuisson: " + meta.cookTime +
-        " | ⭐ Difficulté: " + meta.difficulty;
+    metaDiv.innerHTML = `
+        <span class="meta-item">👥 ${t.servings} : ${meta.servings}</span>
+        <span class="meta-item">⏱ ${t.prep_time} : ${meta.prepTime}</span>
+        <span class="meta-item">🔥 ${t.cook_time} : ${meta.cookTime}</span>
+        <span class="meta-item">⭐ ${t.difficulty} : ${meta.difficulty}</span>
+    `;
 } else {
-    metaDiv.textContent = "";
+    metaDiv.innerHTML = "";
 }
+
 
     recipeEquipment.innerHTML = "";
     data.equipment.forEach(item => {
