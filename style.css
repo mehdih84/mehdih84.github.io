@@ -188,4 +188,21 @@ img, video {
     font-weight: bold; /* gras */
     margin-bottom: 10px;
 }
+/* ===== META RECETTE - RESPONSIVE ===== */
+
+/* Desktop */
+.recipe-meta {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .recipe-meta {
+        flex-direction: column;
+        gap: 6px;
+    }
+}
+
 
