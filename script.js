@@ -38,9 +38,19 @@ const translations = {
         prep_time: "Préparation",
         cook_time: "Cuisson",
         difficulty: "Difficulté",
+        minutes: "min",
+        difficulty_levels: {
+        easy: "Facile",
+        medium: "Moyen",
+        hard: "Difficile"
+},
+        marination_time: "Marinade",
+        servings_units: {
+        pancakes: "crêpes",
+        pieces: "pièces"
+},
         legal: "Ce site contient des liens d’affiliation. En tant que partenaire, je peux percevoir une commission sans coût supplémentaire pour vous. Le site n’est pas responsable des achats effectués sur les plateformes partenaires."
-      
-    },
+      },
 
     en: {
         title: "Halal World Cuisine",
@@ -71,12 +81,22 @@ const translations = {
         patisserie: "Pastry",
         recipes: "Recipes",
         equipment: "Equipment",
-        ingredients: "Ingredients",
-        preparation: "Preparation",
-        servings: "Servings",
-        prep_time: "Preparation",
-        cook_time: "Cooking",
+        ingredients: "Ingredients",      
+        servings: "People",
+        prep_time: "Prep time",
+        cook_time: "Cook time",
         difficulty: "Difficulty",
+        minutes: "min",
+        difficulty_levels: {
+        easy: "Easy",
+        medium: "Medium",
+        hard: "Hard"
+},
+        marination_time: "Marination",
+        servings_units: {
+        pancakes: "pancakes",
+        pieces: "pieces"
+},
         legal: "This site contains affiliate links. As a partner, I may earn a commission at no extra cost to you. The site is not responsible for purchases made on partner platforms."
        
  },
@@ -113,9 +133,20 @@ const translations = {
         ingredients: "المكونات",
         preparation: "طريقة التحضير",
         servings: "عدد الأشخاص",
-        prep_time: "التحضير",
-        cook_time: "الطهي",
+        prep_time: "وقت التحضير",
+        cook_time: "وقت الطهي",
         difficulty: "الصعوبة",
+        minutes: "دقيقة",
+        difficulty_levels: {
+        easy: "سهل",
+        medium: "متوسط",
+        hard: "صعب"
+},
+        marination_time: "التتبيل",
+        servings_units: {
+        pancakes: "فطيرة",
+        pieces: "قطع"
+},
         legal: "يحتوي هذا الموقع على روابط تابعة. قد أحصل على عمولة دون أي تكلفة إضافية عليك. الموقع غير مسؤول عن المشتريات من المنصات الشريكة."
       
 },
@@ -151,10 +182,21 @@ const translations = {
         equipment: "Benodigd materiaal",
         ingredients: "Ingrediënten",
         preparation: "Bereiding",
-        servings: "Porties",
+        servings: "Personen",
         prep_time: "Voorbereiding",
-        cook_time: "Bereiding",
+        cook_time: "Kooktijd",
         difficulty: "Moeilijkheid",
+        minutes: "min",
+        difficulty_levels: {
+        easy: "Makkelijk",
+        medium: "Gemiddeld",
+        hard: "Moeilijk"
+},
+        marination_time: "Marineren",
+        servings_units: {
+        pancakes: "pannenkoeken",
+        pieces: "stuks"
+},
         legal: "Deze site bevat affiliate links. Als partner kan ik een commissie verdienen zonder extra kosten voor u. De site is niet verantwoordelijk voor aankopen op partnerplatforms."
       
 
@@ -401,13 +443,12 @@ recipesData.entree.harira_maroc = {
     country: "maroc",
     image: "images/harira.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "45 min",
-        difficulty: "Moyen"
-    },
-
+   meta: {
+    servings: 4,
+    prepTime: 20,
+    cookTime: 45,
+    difficulty: "medium"
+},
     fr: {
         title: "Harira marocaine traditionnelle (4 personnes)",
         equipment: [
@@ -589,13 +630,12 @@ recipesData.entree.zaalouk = {
     country: "maroc",
     image: "images/zaalouk.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
-    },
-
+ meta: {
+    servings: 4,
+    prepTime: 15,
+    cookTime: 20,
+    difficulty: "easy"
+},
     fr: {
         title: "Zaalouk – Salade marocaine d’aubergines",
         equipment: [
@@ -744,13 +784,12 @@ recipesData.entree.taktouka = {
     country: "maroc",
     image: "images/taktouka.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
-    },
-
+meta: {
+    servings: 4,
+    prepTime: 15,
+    cookTime: 25,
+    difficulty: "easy"
+},
     fr: {
         title: "Taktouka – Salade marocaine de poivrons",
         equipment: [
@@ -887,13 +926,12 @@ recipesData.entree.briouatesLegumes = {
     country: "maroc",
     image: "images/briouates-legumes.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
-    },
-
+ meta: {
+    servings: 4,
+    prepTime: 30,
+    cookTime: 15,
+    difficulty: "medium"
+},
     fr: {
         title: "Briouates aux légumes",
         equipment: [
@@ -1042,12 +1080,13 @@ recipesData.entree.briouatesPoulet = {
     country: "maroc",
     image: "images/briouates-poulet.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
-    },
+meta: {
+    servings: 4,
+    prepTime: 35,
+    cookTime: 15,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Briouates au poulet",
@@ -1205,12 +1244,13 @@ recipesData.entree.briouatesFruitsMer = {
     country: "maroc",
     image: "images/briouates-fruits-mer.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "10 min",
-        difficulty: "Facile"
-    },
+ meta: {
+    servings: 4,
+    prepTime: 40,
+    cookTime: 15,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Briouates aux fruits de mer",
@@ -1368,12 +1408,13 @@ recipesData.entree.saladePoisChiches = {
     country: "maroc",
     image: "images/salade-pois-chiches.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "0 min",
-        difficulty: "Très facile"
-    },
+meta: {
+    servings: 4,
+    prepTime: 15,
+    cookTime: 0,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Salade marocaine de pois chiches",
@@ -1495,12 +1536,13 @@ recipesData.entree.saladeConcombreTomate = {
     country: "maroc",
     image: "images/salade-concombre-tomate.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "0 min",
-        difficulty: "Très facile"
-    },
+meta: {
+    servings: 4,
+    prepTime: 10,
+    cookTime: 0,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Salade marocaine de concombre et tomate",
@@ -1618,12 +1660,13 @@ recipesData.entree.batboutLegumes = {
     country: "maroc",
     image: "images/batbout-legumes.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "10 min",
-        difficulty: "Facile"
-    },
+ meta: {
+    servings: 4,
+    prepTime: 40,
+    cookTime: 20,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Batbout farci aux légumes",
@@ -1757,12 +1800,13 @@ recipesData.entree.maakouda_maroc = {
     country: "maroc", 
     image: "images/maakouda.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
-    },
+ meta: {
+    servings: 4,
+    prepTime: 30,
+    cookTime: 15,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Maakouda – Galettes marocaines de pommes de terre",
@@ -1907,12 +1951,13 @@ recipesData.plat.tajinePouletLegumes = {
     country: "maroc",
     image: "images/tajine-poulet.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "60 min",
-        difficulty: "Facile"
-    },
+ meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 60,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Tajine de poulet aux légumes (4 personnes)",
@@ -2078,12 +2123,13 @@ recipesData.plat.tajinePouletOlives = {
     country: "maroc",
     image: "images/tajine-poulet-olives.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "50 min",
-        difficulty: "Facile"
-    },
+meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 60,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Tajine de poulet aux olives et citron confit",
@@ -2253,12 +2299,13 @@ recipesData.plat.tajineBoeufPruneaux = {
     country: "maroc",
     image: "images/tajine-boeuf-pruneaux.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "1h20",
-        difficulty: "Moyen"
-    },
+ meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 90,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Tajine de bœuf aux pruneaux",
@@ -2412,12 +2459,13 @@ recipesData.plat.tajineKeftaOeufs = {
     country: "maroc",
     image: "images/tajine-kefta-oeufs.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "30 min",
-        difficulty: "Facile"
-    },
+meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 35,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Tajine de kefta aux œufs",
@@ -2575,13 +2623,12 @@ recipesData.plat.tajineAgneauLegumes = {
     country: "maroc",
     image: "images/tajine-agneau-legumes.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "25 min",
-        cookTime: "1h30",
-        difficulty: "Moyen"
-    },
-
+meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 90,
+    difficulty: "medium"
+},
     fr: {
         title: "Tajine d’agneau aux légumes",
         equipment: [
@@ -2738,12 +2785,13 @@ recipesData.plat.tajinePoissonChermoula = {
     country: "maroc",
     image: "images/tajine-poisson.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "35 min",
-        difficulty: "Facile"
-    },
+meta: {
+    servings: 4,
+    prepTime: 30,
+    cookTime: 25,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Tajine de poisson à la chermoula",
@@ -2885,12 +2933,13 @@ recipesData.plat.taginePoisson = {
     country: "maroc",
     image: "images/tagine-poisson.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
-    },
+meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 30,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Tagine de poisson aux légumes",
@@ -3032,12 +3081,13 @@ recipesData.plat.tajineLegumes = {
     country: "maroc",
     image: "images/tajine-legumes.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "45 min",
-        difficulty: "Facile"
-    },
+meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 50,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Tajine marocain aux légumes",
@@ -3171,12 +3221,13 @@ recipesData.plat.tajineSardines = {
     country: "maroc",
     image: "images/tajine-sardines.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "25 min",
-        cookTime: "25 min",
-        difficulty: "Moyen"
-    },
+meta: {
+    servings: 4,
+    prepTime: 30,
+    cookTime: 25,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Tajine de sardines à la marocaine",
@@ -3310,12 +3361,13 @@ recipesData.plat.couscousPoulet = {
     country: "maroc",
     image: "images/couscous-poulet.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "30 min",
-        cookTime: "1h15",
-        difficulty: "Moyen"
-    },
+meta: {
+    servings: 4,
+    prepTime: 30,
+    cookTime: 75,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Couscous marocain au poulet et légumes",
@@ -3508,12 +3560,13 @@ recipesData.plat.couscousBoeuf = {
     country: "maroc",
     image: "images/couscous-boeuf.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "30 min",
-        cookTime: "1h30",
-        difficulty: "Moyen"
-    },
+meta: {
+    servings: 4,
+    prepTime: 30,
+    cookTime: 90,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Couscous marocain au bœuf et légumes",
@@ -3703,12 +3756,13 @@ recipesData.plat.couscousLegumes = {
     country: "maroc",
     image: "images/couscous-legumes.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "25 min",
-        cookTime: "1h",
-        difficulty: "Facile"
-    },
+meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 60,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Couscous marocain aux sept légumes",
@@ -3886,12 +3940,13 @@ recipesData.plat.couscousRoyal = {
     country: "maroc",
     image: "images/couscous-royal.jpg",
 
-    meta: {
-        servings: "4 à 6 personnes",
-        prepTime: "35 min",
-        cookTime: "1h30",
-        difficulty: "Moyen"
-    },
+meta: {
+    servings: 4,
+    prepTime: 45,
+    cookTime: 120,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Couscous royal marocain",
@@ -4103,12 +4158,13 @@ recipesData.plat.couscousPoisson = {
     country: "maroc",
     image: "images/couscous-poisson.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "30 min",
-        cookTime: "1h",
-        difficulty: "Moyen"
-    },
+meta: {
+    servings: 4,
+    prepTime: 30,
+    cookTime: 60,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Couscous marocain au poisson",
@@ -4303,12 +4359,13 @@ recipesData.plat.couscousFruitsDeMer = {
     country: "maroc",
     image: "images/couscous-fruits-de-mer.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "30 min",
-        cookTime: "1h",
-        difficulty: "Moyen"
-    },
+meta: {
+    servings: 4,
+    prepTime: 35,
+    cookTime: 60,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Couscous marocain aux fruits de mer",
@@ -4511,12 +4568,13 @@ recipesData.plat.couscousSucre = {
     country: "maroc",
     image: "images/couscous-sucre.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "35 min",
-        difficulty: "Facile"
-    },
+meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 40,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Couscous sucré marocain aux raisins et amandes",
@@ -4676,12 +4734,13 @@ recipesData.plat.pastillaPoulet = {
     country: "maroc",
     image: "images/pastilla-poulet.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "30 min",
-        cookTime: "30 min",
-        difficulty: "Moyenne"
-    },
+meta: {
+    servings: 4,
+    prepTime: 60,
+    cookTime: 45,
+    difficulty: "hard"
+},
+
 
     fr: {
         title: "Pastilla marocaine au poulet",
@@ -4879,12 +4938,13 @@ recipesData.plat.keftaOeufs = {
     country: "maroc",
     image: "images/kefa-oeufs.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
-    },
+ meta: {
+    servings: 4,
+    prepTime: 20,
+    cookTime: 20,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Kefta marocaine aux œufs",
@@ -5065,11 +5125,11 @@ recipesData.plat.brochettes = {
     image: "images/brochettes.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        marinationTime: "30 min",
-        cookTime: "12 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 15,
+        marinationTime: 30,
+        cookTime: 12,
+        difficulty: "easy"
     },
 
     fr: {
@@ -5092,22 +5152,27 @@ recipesData.plat.brochettes = {
             "Sel et poivre"
         ],
         preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA MARINADE\n" +
+            "==============================\n\n" +
             "1. Éplucher et hacher finement l’ail.\n" +
-            "2. Mettre la viande dans un bol.\n" +
-            "3. Ajouter l’huile d’olive.\n" +
-            "4. Ajouter l’ail haché.\n" +
-            "5. Ajouter le paprika, le cumin et le gingembre.\n" +
-            "6. Saler et poivrer.\n" +
-            "7. Bien mélanger pour enrober la viande.\n" +
-            "8. Couvrir et laisser mariner 30 minutes.\n" +
+            "2. Verser l’huile d’olive dans un bol.\n" +
+            "3. Ajouter l’ail haché.\n" +
+            "4. Incorporer le paprika, le cumin et le gingembre.\n" +
+            "5. Saler et poivrer.\n" +
+            "6. Ajouter les cubes de viande.\n" +
+            "7. Bien mélanger pour enrober uniformément.\n" +
+            "8. Couvrir et laisser mariner 30 minutes dans un endroit frais.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION ET CUISSON DES BROCHETTES\n" +
+            "==============================\n\n" +
             "9. Enfiler les cubes de viande sur les brochettes.\n" +
             "10. Chauffer la grille ou la poêle à feu moyen.\n" +
-            "11. Badigeonner légèrement d’huile.\n" +
+            "11. Badigeonner légèrement la surface d’huile.\n" +
             "12. Déposer les brochettes.\n" +
-            "13. Cuire 10 à 12 minutes.\n" +
-            "14. Retourner régulièrement pour une cuisson uniforme.\n" +
-            "15. Retirer du feu.\n" +
-            "16. Servir chaud avec du pain marocain ou une salade."
+            "13. Cuire 10 à 12 minutes en les retournant régulièrement.\n" +
+            "14. Retirer du feu.\n" +
+            "15. Servir chaud avec du pain marocain ou une salade."
     },
 
     en: {
@@ -5130,22 +5195,27 @@ recipesData.plat.brochettes = {
             "Salt and pepper"
         ],
         preparation:
+            "==============================\n" +
+            "MARINADE PREPARATION\n" +
+            "==============================\n\n" +
             "1. Peel and finely chop the garlic.\n" +
-            "2. Place the meat in a bowl.\n" +
-            "3. Add olive oil.\n" +
-            "4. Add chopped garlic.\n" +
-            "5. Add paprika, cumin, and ginger.\n" +
-            "6. Season with salt and pepper.\n" +
-            "7. Mix well to coat the meat.\n" +
-            "8. Cover and marinate for 30 minutes.\n" +
-            "9. Thread the meat cubes onto skewers.\n" +
+            "2. Pour the olive oil into a bowl.\n" +
+            "3. Add the chopped garlic.\n" +
+            "4. Add paprika, cumin, and ginger.\n" +
+            "5. Season with salt and pepper.\n" +
+            "6. Add the meat cubes.\n" +
+            "7. Mix well to coat evenly.\n" +
+            "8. Cover and marinate for 30 minutes in a cool place.\n\n" +
+            "==============================\n" +
+            "SKEWERS PREPARATION AND COOKING\n" +
+            "==============================\n\n" +
+            "9. Thread the meat onto the skewers.\n" +
             "10. Heat the grill or pan over medium heat.\n" +
             "11. Lightly oil the surface.\n" +
             "12. Place the skewers on the grill.\n" +
-            "13. Cook for 10–12 minutes.\n" +
-            "14. Turn regularly for even cooking.\n" +
-            "15. Remove from heat.\n" +
-            "16. Serve hot with bread or salad."
+            "13. Cook for 10–12 minutes, turning regularly.\n" +
+            "14. Remove from heat.\n" +
+            "15. Serve hot with bread or salad."
     },
 
     nl: {
@@ -5168,22 +5238,27 @@ recipesData.plat.brochettes = {
             "Zout en peper"
         ],
         preparation:
+            "==============================\n" +
+            "BEREIDING VAN DE MARINADE\n" +
+            "==============================\n\n" +
             "1. Pel en hak de knoflook fijn.\n" +
-            "2. Doe het vlees in een kom.\n" +
-            "3. Voeg olijfolie toe.\n" +
-            "4. Voeg knoflook toe.\n" +
-            "5. Voeg kruiden toe.\n" +
-            "6. Breng op smaak met zout en peper.\n" +
-            "7. Meng goed.\n" +
-            "8. Laat 30 minuten marineren.\n" +
+            "2. Doe de olijfolie in een kom.\n" +
+            "3. Voeg de knoflook toe.\n" +
+            "4. Voeg paprika, komijn en gember toe.\n" +
+            "5. Breng op smaak met zout en peper.\n" +
+            "6. Voeg het vlees toe.\n" +
+            "7. Meng goed zodat alles bedekt is.\n" +
+            "8. Laat 30 minuten marineren op een koele plaats.\n\n" +
+            "==============================\n" +
+            "BEREIDING EN BAKKEN VAN DE BROCHETTES\n" +
+            "==============================\n\n" +
             "9. Rijg het vlees aan de spiesjes.\n" +
-            "10. Verhit de grill of pan.\n" +
-            "11. Vet licht in.\n" +
+            "10. Verhit de grill of pan op middelhoog vuur.\n" +
+            "11. Vet licht in met olie.\n" +
             "12. Bak de brochettes.\n" +
-            "13. Draai regelmatig om.\n" +
-            "14. Bak 10–12 minuten.\n" +
-            "15. Haal van het vuur.\n" +
-            "16. Serveer warm met brood of salade."
+            "13. Bak 10–12 minuten en draai regelmatig om.\n" +
+            "14. Haal van het vuur.\n" +
+            "15. Serveer warm met brood of salade."
     },
 
     ar: {
@@ -5206,34 +5281,40 @@ recipesData.plat.brochettes = {
             "ملح وفلفل"
         ],
         preparation:
+            "==============================\n" +
+            "تحضير التتبيلة\n" +
+            "==============================\n\n" +
             "1. قشّر وافرُم الثوم.\n" +
-            "2. ضع اللحم في الوعاء.\n" +
-            "3. أضف زيت الزيتون.\n" +
-            "4. أضف الثوم.\n" +
-            "5. أضف التوابل.\n" +
-            "6. أضف الملح والفلفل.\n" +
-            "7. اخلط جيداً.\n" +
-            "8. اتركه يتبل 30 دقيقة.\n" +
+            "2. ضع زيت الزيتون في الوعاء.\n" +
+            "3. أضف الثوم.\n" +
+            "4. أضف البابريكا والكمون والزنجبيل.\n" +
+            "5. أضف الملح والفلفل.\n" +
+            "6. أضف اللحم.\n" +
+            "7. اخلط جيداً حتى يتغلف اللحم.\n" +
+            "8. غطّه واتركه يتبل لمدة 30 دقيقة في مكان بارد.\n\n" +
+            "==============================\n" +
+            "تحضير وشواء الأسياخ\n" +
+            "==============================\n\n" +
             "9. ضع اللحم في الأسياخ.\n" +
-            "10. سخّن الشواية.\n" +
-            "11. ادهنها بالزيت.\n" +
-            "12. ضع الأسياخ.\n" +
-            "13. اطه 10–12 دقيقة.\n" +
-            "14. قلّب بانتظام.\n" +
-            "15. ارفع من النار.\n" +
-            "16. قدّم ساخناً مع الخبز أو السلطة."
+            "10. سخّن الشواية أو المقلاة.\n" +
+            "11. ادهنها بالقليل من الزيت.\n" +
+            "12. اشوِ الأسياخ.\n" +
+            "13. اطه لمدة 10–12 دقيقة مع التقليب.\n" +
+            "14. ارفع من النار.\n" +
+            "15. قدّم ساخناً مع الخبز أو السلطة."
     }
 };
+
 recipesData.plat.mechoui = {
     country: "maroc",
     image: "images/mechoui.jpg",
 
     meta: {
-        servings: "4 à 6 personnes",
-        prepTime: "15 min",
-        marinationTime: "30 min",
-        cookTime: "1h45",
-        difficulty: "Moyen"
+        servings: 6,
+        prepTime: 15,
+        marinationTime: 30,
+        cookTime: 105,
+        difficulty: "medium"
     },
 
     fr: {
@@ -5256,24 +5337,31 @@ recipesData.plat.mechoui = {
             "Quelques brins de coriandre fraîche"
         ],
         preparation:
-            "1. Préchauffer le four à 180°C.\n" +
-            "2. Éplucher et hacher finement l’ail.\n" +
-            "3. Mettre l’ail dans un bol.\n" +
-            "4. Ajouter l’huile d’olive.\n" +
-            "5. Ajouter le cumin, le paprika et le gingembre.\n" +
-            "6. Saler et poivrer.\n" +
-            "7. Bien mélanger pour obtenir une marinade.\n" +
-            "8. Déposer l’agneau dans la rôtissoire.\n" +
-            "9. Badigeonner toute la viande avec la marinade.\n" +
-            "10. Masser la viande pour bien faire pénétrer les épices.\n" +
-            "11. Couvrir légèrement avec du papier aluminium.\n" +
-            "12. Enfourner pendant 1h30.\n" +
-            "13. Arroser la viande avec son jus toutes les 30 minutes.\n" +
-            "14. Retirer le papier aluminium.\n" +
-            "15. Remettre au four 15–20 minutes pour dorer.\n" +
-            "16. Vérifier que la viande est bien tendre.\n" +
-            "17. Parsemer de coriandre fraîche.\n" +
-            "18. Servir chaud dans un plat de service."
+            "==============================\n" +
+            "PRÉPARATION DE LA MARINADE\n" +
+            "==============================\n\n" +
+            "1. Éplucher et hacher finement l’ail.\n" +
+            "2. Mettre l’ail dans un bol.\n" +
+            "3. Ajouter l’huile d’olive.\n" +
+            "4. Incorporer le cumin, le paprika et le gingembre.\n" +
+            "5. Saler et poivrer.\n" +
+            "6. Bien mélanger pour obtenir une marinade homogène.\n" +
+            "7. Badigeonner l’agneau avec la marinade.\n" +
+            "8. Couvrir et laisser mariner 30 minutes à température fraîche.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION ET CUISSON DU MECHOUI\n" +
+            "==============================\n\n" +
+            "9. Préchauffer le four à 180°C.\n" +
+            "10. Déposer l’agneau dans la rôtissoire.\n" +
+            "11. Masser la viande pour bien faire pénétrer les épices.\n" +
+            "12. Couvrir légèrement avec du papier aluminium.\n" +
+            "13. Enfourner pendant 1h30.\n" +
+            "14. Arroser la viande avec son jus toutes les 30 minutes.\n" +
+            "15. Retirer le papier aluminium.\n" +
+            "16. Remettre au four 15–20 minutes pour dorer.\n" +
+            "17. Vérifier que la viande est bien tendre.\n" +
+            "18. Parsemer de coriandre fraîche.\n" +
+            "19. Servir chaud dans un plat de service."
     },
 
     en: {
@@ -5293,27 +5381,34 @@ recipesData.plat.mechoui = {
             "1 teaspoon paprika",
             "1/2 teaspoon ginger",
             "Salt and pepper",
-            "Some fresh coriander sprigs"
+            "Fresh coriander sprigs"
         ],
         preparation:
-            "1. Preheat the oven to 180°C.\n" +
-            "2. Peel and finely chop the garlic.\n" +
-            "3. Place garlic in a bowl.\n" +
-            "4. Add olive oil.\n" +
-            "5. Add cumin, paprika, and ginger.\n" +
-            "6. Season with salt and pepper.\n" +
-            "7. Mix well to make a marinade.\n" +
-            "8. Place the lamb in the roasting pan.\n" +
-            "9. Brush the meat with the marinade.\n" +
-            "10. Massage the meat to absorb the spices.\n" +
-            "11. Cover lightly with aluminum foil.\n" +
-            "12. Roast for 1.5 hours.\n" +
-            "13. Baste every 30 minutes.\n" +
-            "14. Remove the foil.\n" +
-            "15. Roast another 15–20 minutes to brown.\n" +
-            "16. Check tenderness.\n" +
-            "17. Garnish with fresh coriander.\n" +
-            "18. Serve hot."
+            "==============================\n" +
+            "MARINADE PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Peel and finely chop the garlic.\n" +
+            "2. Place the garlic in a bowl.\n" +
+            "3. Add the olive oil.\n" +
+            "4. Add cumin, paprika, and ginger.\n" +
+            "5. Season with salt and pepper.\n" +
+            "6. Mix well to obtain a smooth marinade.\n" +
+            "7. Brush the lamb with the marinade.\n" +
+            "8. Cover and marinate for 30 minutes in a cool place.\n\n" +
+            "==============================\n" +
+            "MECHOUI PREPARATION AND COOKING\n" +
+            "==============================\n\n" +
+            "9. Preheat the oven to 180°C.\n" +
+            "10. Place the lamb in the roasting pan.\n" +
+            "11. Massage the meat to absorb the spices.\n" +
+            "12. Cover loosely with aluminum foil.\n" +
+            "13. Roast for 1.5 hours.\n" +
+            "14. Baste every 30 minutes with its juices.\n" +
+            "15. Remove the foil.\n" +
+            "16. Roast another 15–20 minutes until golden.\n" +
+            "17. Check that the meat is tender.\n" +
+            "18. Sprinkle with fresh coriander.\n" +
+            "19. Serve hot."
     },
 
     nl: {
@@ -5336,24 +5431,31 @@ recipesData.plat.mechoui = {
             "Verse koriander"
         ],
         preparation:
-            "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Pel en hak de knoflook fijn.\n" +
-            "3. Doe de knoflook in een kom.\n" +
-            "4. Voeg olijfolie toe.\n" +
-            "5. Voeg kruiden toe.\n" +
-            "6. Breng op smaak met zout en peper.\n" +
-            "7. Meng goed tot marinade.\n" +
-            "8. Leg het lam in de braadslede.\n" +
-            "9. Bestrijk met marinade.\n" +
-            "10. Masseer het vlees.\n" +
-            "11. Dek licht af met folie.\n" +
-            "12. Bak 1,5 uur.\n" +
-            "13. Bedruip elke 30 minuten.\n" +
-            "14. Verwijder folie.\n" +
-            "15. Bak nog 15–20 minuten.\n" +
-            "16. Controleer gaarheid.\n" +
-            "17. Garneer met koriander.\n" +
-            "18. Serveer heet."
+            "==============================\n" +
+            "BEREIDING VAN DE MARINADE\n" +
+            "==============================\n\n" +
+            "1. Pel en hak de knoflook fijn.\n" +
+            "2. Doe de knoflook in een kom.\n" +
+            "3. Voeg de olijfolie toe.\n" +
+            "4. Voeg komijn, paprika en gember toe.\n" +
+            "5. Breng op smaak met zout en peper.\n" +
+            "6. Meng goed tot een marinade.\n" +
+            "7. Bestrijk het lam met de marinade.\n" +
+            "8. Laat 30 minuten marineren op een koele plaats.\n\n" +
+            "==============================\n" +
+            "BEREIDING EN BAKKEN VAN DE MECHOUI\n" +
+            "==============================\n\n" +
+            "9. Verwarm de oven voor op 180°C.\n" +
+            "10. Leg het lam in de braadslede.\n" +
+            "11. Masseer het vlees goed.\n" +
+            "12. Dek losjes af met aluminiumfolie.\n" +
+            "13. Bak 1,5 uur in de oven.\n" +
+            "14. Bedruip het vlees elke 30 minuten.\n" +
+            "15. Verwijder de folie.\n" +
+            "16. Bak nog 15–20 minuten tot goudbruin.\n" +
+            "17. Controleer of het vlees mals is.\n" +
+            "18. Bestrooi met verse koriander.\n" +
+            "19. Serveer warm."
     },
 
     ar: {
@@ -5376,26 +5478,39 @@ recipesData.plat.mechoui = {
             "كزبرة طازجة"
         ],
         preparation:
-            "1. سخّن الفرن على 180°م.\n" +
-            "2. قشّر الثوم وافرمه ناعماً.\n" +
-            "3. ضع الثوم في وعاء.\n" +
-            "4. أضف زيت الزيتون.\n" +
-            "5. أضف التوابل.\n" +
-            "6. أضف الملح والفلفل.\n" +
-            "7. اخلط جيداً.\n" +
-            "8. ضع اللحم في الصينية.\n" +
-            "9. ادهنه بالتتبيلة.\n" +
-            "10. دلّك اللحم جيداً.\n" +
-            "11. غطّه بورق الألمنيوم.\n" +
-            "12. اطهه ساعة ونصف.\n" +
-            "13. اسقِه بالعصارة كل 30 دقيقة.\n" +
-            "14. أزل الورق.\n" +
-            "15. اطهه 15–20 دقيقة إضافية.\n" +
-            "16. تأكد من الطراوة.\n" +
-            "17. زيّنه بالكزبرة.\n" +
-            "18. قدّمه ساخناً."
+            "==============================\n" +
+            "تحضير التتبيلة\n" +
+            "==============================\n\n" +
+            "1. قشّر الثوم وافرمه ناعماً.\n" +
+            "2. ضع الثوم في وعاء.\n" +
+            "3. أضف زيت الزيتون.\n" +
+            "4. أضف الكمون والبابريكا والزنجبيل.\n" +
+            "5. أضف الملح والفلفل.\n" +
+            "6. اخلط جيداً حتى تتجانس التتبيلة.\n" +
+            "7. ادهن اللحم بالتتبيلة بالكامل.\n" +
+            "8. غطّه واتركه يتبل لمدة 30 دقيقة في مكان بارد.\n\n" +
+            "==============================\n" +
+            "تحضير وطهي المشوي\n" +
+            "==============================\n\n" +
+            "9. سخّن الفرن على 180°م.\n" +
+            "10. ضع اللحم في الصينية.\n" +
+            "11. دلّك اللحم جيداً لتتشرب النكهات.\n" +
+            "12. غطّه بورق الألمنيوم بشكل خفيف.\n" +
+            "13. اطهه لمدة ساعة ونصف.\n" +
+            "14. اسقه بعصارته كل 30 دقيقة.\n" +
+            "15. أزل ورق الألمنيوم.\n" +
+            "16. اطهه 15–20 دقيقة إضافية حتى يتحمّر.\n" +
+            "17. تأكد من أن اللحم طري.\n" +
+            "18. زيّنه بالكزبرة الطازجة.\n" +
+            "19. قدّمه ساخناً."
     }
 };
+
+
+
+
+
+
 
 
 
@@ -5405,12 +5520,13 @@ recipesData.dessert.orangeCannelle = {
     country: "maroc",
     image: "images/orange-cannelle.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "0 min",
-        difficulty: "Facile"
-    },
+ meta: {
+    servings: 4,
+    prepTime: 10,
+    cookTime: 0,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Orange à la cannelle",
@@ -5512,12 +5628,13 @@ recipesData.dessert.chebakia = {
     country: "maroc",
     image: "images/chebakia.jpg",
 
-    meta: {
-        servings: "8 à 10 personnes",
-        prepTime: "45 min",
-        cookTime: "20 min",
-        difficulty: "Moyen"
-    },
+  meta: {
+    servings: 10,
+    prepTime: 45,
+    cookTime: 20,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Chebakia marocaine (pâtisserie au miel et sésame)",
@@ -5683,12 +5800,13 @@ recipesData.dessert.fekkas = {
     country: "maroc",
     image: "images/fekkas.jpg",
 
-    meta: {
-        servings: "8 à 10 personnes",
-        prepTime: "20 min",
-        cookTime: "30 min",
-        difficulty: "Facile"
-    },
+  meta: {
+    servings: 10,
+    prepTime: 20,
+    cookTime: 30,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Fekkas aux amandes et raisins secs",
@@ -5870,12 +5988,13 @@ recipesData.dessert.sellou = {
     country: "maroc",
     image: "images/sellou.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "20 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
-    },
+  meta: {
+    servings: 8,
+    prepTime: 20,
+    cookTime: 15,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Sellou (mélange sucré aux graines et amandes)",
@@ -6045,12 +6164,13 @@ recipesData.dessert.mkharka = {
     country: "maroc",
     image: "images/mkharka.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "25 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
-    },
+  meta: {
+    servings: 8,
+    prepTime: 25,
+    cookTime: 20,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "M’kharka aux graines",
@@ -6228,12 +6348,13 @@ recipesData.dessert.baklava = {
     country: "maroc",
     image: "images/baklava.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "25 min",
-        cookTime: "30 min",
-        difficulty: "Moyen"
-    },
+  meta: {
+    servings: 8,
+    prepTime: 25,
+    cookTime: 30,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Baklava à la marocaine",
@@ -6403,12 +6524,13 @@ recipesData.dessert.briouatesSucrees = {
     country: "maroc",
     image: "images/briouates-sucrees.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "25 min",
-        cookTime: "20 min",
-        difficulty: "Moyen"
-    },
+  meta: {
+    servings: 8,
+    prepTime: 25,
+    cookTime: 20,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Briouates sucrées aux amandes et miel",
@@ -6582,12 +6704,13 @@ recipesData.dessert.kaabElGhazalParfumees = {
     country: "maroc",
     image: "images/kaab-el-ghazal-parfumees.jpg",
 
-    meta: {
-        servings: "8 à 10 personnes",
-        prepTime: "40 min",
-        cookTime: "20 min",
-        difficulty: "Moyen"
-    },
+   meta: {
+    servings: 10,
+    prepTime: 40,
+    cookTime: 20,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Kaab el Ghazal parfumées (fruits et pistaches)",
@@ -6757,12 +6880,13 @@ recipesData.dessert.ghribaNoixCoco = {
     country: "maroc",
     image: "images/ghriba-noix-coco.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "15 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
-    },
+   meta: {
+    servings: 8,
+    prepTime: 15,
+    cookTime: 15,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Ghriba à la noix de coco",
@@ -6904,12 +7028,13 @@ recipesData.dessert.mkharkaMiel = {
     country: "maroc",
     image: "images/mkharka-miel.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "25 min",
-        cookTime: "20 min",
-        difficulty: "Moyen"
-    },
+  meta: {
+    servings: 8,
+    prepTime: 25,
+    cookTime: 20,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "M’kharka au miel renforcé",
@@ -7091,12 +7216,13 @@ recipesData.dessert.kaabElGhazalDattes = {
     country: "maroc",
     image: "images/kaab-el-ghazal-dattes.jpg",
 
-    meta: {
-        servings: "8 à 10 personnes",
-        prepTime: "40 min",
-        cookTime: "20 min",
-        difficulty: "Moyen"
-    },
+  meta: {
+    servings: 10,
+    prepTime: 40,
+    cookTime: 20,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Kaab el Ghazal aux dattes et amandes",
@@ -7278,12 +7404,13 @@ recipesData.dessert.baklavaNoix = {
     country: "maroc",
     image: "images/baklava-noix.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "25 min",
-        cookTime: "30 min",
-        difficulty: "Moyen"
-    },
+ meta: {
+    servings: 8,
+    prepTime: 25,
+    cookTime: 30,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Baklava aux noix et miel renforcé",
@@ -7453,12 +7580,13 @@ recipesData.dessert.sellou = {
     country: "maroc",
     image: "images/sellou.jpg",
 
-    meta: {
-        servings: "8 à 10 personnes",
-        prepTime: "25 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
-    },
+  meta: {
+    servings: 10,
+    prepTime: 25,
+    cookTime: 20,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Sellou (Sfouf) – mélange énergétique aux amandes",
@@ -7632,12 +7760,13 @@ recipesData.dessert.makroutDattes = {
     country: "maroc",
     image: "images/makrout-dattes.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "30 min",
-        cookTime: "20 min",
-        difficulty: "Moyen"
-    },
+   meta: {
+    servings: 8,
+    prepTime: 30,
+    cookTime: 20,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Makrout aux dattes",
@@ -7815,12 +7944,13 @@ recipesData.dessert.mhanchaAmandes = {
     country: "maroc",
     image: "images/mhancha-amandes.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "30 min",
-        cookTime: "25 min",
-        difficulty: "Moyen"
-    },
+  meta: {
+    servings: 8,
+    prepTime: 30,
+    cookTime: 25,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "M’hancha aux amandes",
@@ -7990,12 +8120,13 @@ recipesData.dessert.baghrir = {
     country: "maroc",
     image: "images/baghrir.jpg",
 
-    meta: {
-        servings: "4 à 6 personnes",
-        prepTime: "10 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
-    },
+  meta: {
+    servings: 6,
+    prepTime: 10,
+    cookTime: 20,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Baghrir – crêpes mille trous",
@@ -8161,12 +8292,13 @@ recipesData.dessert.msemenSucre = {
     country: "maroc",
     image: "images/msemen-sucre.jpg",
 
-    meta: {
-        servings: "4 à 6 personnes",
-        prepTime: "35 min",
-        cookTime: "20 min",
-        difficulty: "Moyen"
-    },
+  meta: {
+    servings: 6,
+    prepTime: 35,
+    cookTime: 20,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Msemen sucré au miel",
@@ -8336,12 +8468,13 @@ recipesData.dessert.pastillaSucree = {
     country: "maroc",
     image: "images/pastilla-sucree.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "30 min",
-        cookTime: "25 min",
-        difficulty: "Moyen"
-    },
+   meta: {
+    servings: 8,
+    prepTime: 30,
+    cookTime: 25,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Pastilla sucrée aux amandes",
@@ -8515,12 +8648,14 @@ recipesData.dessert.sfenj = {
     country: "maroc",
     image: "images/sfenj.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "15 min",
-        cookTime: "20 min",
-        difficulty: "Moyen"
-    },
+meta: {
+    servings: 8,
+    prepTime: 15,
+    cookTime: 20,
+    difficulty: "medium"
+},
+
+
 
     fr: {
         title: "Sfenj – beignets marocains",
@@ -8694,12 +8829,13 @@ recipesData.dessert.kalbElLouz = {
     country: "maroc",
     image: "images/kalb-el-louz.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "20 min",
-        cookTime: "30 min",
-        difficulty: "Facile"
-    },
+   meta: {
+    servings: 8,
+    prepTime: 20,
+    cookTime: 30,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Kalb el Louz",
@@ -8865,12 +9001,13 @@ recipesData.dessert.zalabia = {
     country: "maroc",
     image: "images/zalabia.jpg",
 
-    meta: {
-        servings: "4 à 6 personnes",
-        prepTime: "15 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
-    },
+  meta: {
+    servings: 6,
+    prepTime: 15,
+    cookTime: 20,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Zalabia",
@@ -9032,12 +9169,13 @@ recipesData.dessert.ghribaChocolatCafe = {
     country: "maroc",
     image: "images/ghriba-chocolat-cafe.jpg",
 
-    meta: {
-        servings: "4 à 6 personnes",
-        prepTime: "15 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
-    },
+   meta: {
+    servings: 6,
+    prepTime: 15,
+    cookTime: 15,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Ghriba chocolat / café",
@@ -9195,12 +9333,13 @@ recipesData.dessert.kaabElGhazal = {
     country: "maroc",
     image: "images/kaab-el-ghazal.jpg",
 
-    meta: {
-        servings: "6 à 8 personnes",
-        prepTime: "40 min",
-        cookTime: "20 min",
-        difficulty: "Moyen"
-    },
+  meta: {
+    servings: 8,
+    prepTime: 40,
+    cookTime: 20,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Kaab el Ghazal – Cornes de gazelle",
@@ -9366,12 +9505,13 @@ recipesData.patisserie.ghribaAmandes = {
     country: "maroc",
     image: "images/ghriba-amandes.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
-    },
+ meta: {
+    servings: 4,
+    prepTime: 10,
+    cookTime: 15,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Ghriba aux amandes",
@@ -9528,12 +9668,13 @@ recipesData.entree.soupePoireaux = {
     country: "belgique",
     image: "images/soupe-poireaux.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "30 min",
-        difficulty: "Facile"
-    },
+  meta: {
+    servings: 4,
+    prepTime: 15,
+    cookTime: 30,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Soupe de poireaux et pommes de terre",
@@ -9739,12 +9880,13 @@ recipesData.entree.croquettesCrevettes = {
     country: "belgique",
     image: "images/croquettes-crevettes.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "25 min",
-        cookTime: "15 min",
-        difficulty: "Moyen"
-    },
+  meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 15,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Croquettes de crevettes grises",
@@ -9938,12 +10080,13 @@ recipesData.entree.potageLegumes = {
     country: "belgique",
     image: "images/potage-legumes.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "30 min",
-        difficulty: "Facile"
-    },
+   meta: {
+    servings: 4,
+    prepTime: 15,
+    cookTime: 30,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Potage de légumes maison",
@@ -10153,12 +10296,13 @@ recipesData.entree.saladeLiegeoise = {
     country: "belgique",
     image: "images/salade-liegeoise.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "25 min",
-        difficulty: "Facile"
-    },
+   meta: {
+    servings: 4,
+    prepTime: 15,
+    cookTime: 25,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Salade liégeoise",
@@ -10349,12 +10493,13 @@ recipesData.entree.endivesGratinees = {
     country: "belgique",
     image: "images/endives-gratinees.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "30 min",
-        difficulty: "Moyen"
-    },
+   meta: {
+    servings: 4,
+    prepTime: 15,
+    cookTime: 30,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Endives gratinées au fromage",
@@ -10541,11 +10686,12 @@ recipesData.entree.tomatesMozzarella = {
     image: "images/tomates-mozzarella.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "0 min",
-        difficulty: "Facile"
-    },
+    servings: 4,
+    prepTime: 10,
+    cookTime: 0,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Salade tomates mozzarella",
@@ -10683,12 +10829,13 @@ recipesData.entree.saladeCarottesRaisins = {
     country: "belgique",
     image: "images/salade-carottes-raisins.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "0 min",
-        difficulty: "Facile"
-    },
+   meta: {
+    servings: 4,
+    prepTime: 10,
+    cookTime: 0,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Salade de carottes et raisins",
@@ -10819,10 +10966,10 @@ recipesData.entree.oeufsMimosa = {
     image: "images/oeufs-mimosa.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "10 min",
-        difficulty: "Facile"
+        servings: 4 ,
+        prepTime: 10 ,
+        cookTime: 10,
+        difficulty: "easy"
     },
 
     fr: {
@@ -10982,10 +11129,10 @@ recipesData.entree.saladeBetteraves = {
     image: "images/salade-betteraves.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "0 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy"
     },
 
     fr: {
@@ -11117,10 +11264,10 @@ recipesData.entree.saladeChiconsPommes = {
     image: "images/salade-chicons-pommes.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "0 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy"
     },
 
     fr: {
@@ -11268,12 +11415,13 @@ recipesData.plat.stoofvleesPoulet = {
     country: "belgique",
     image: "images/stoofvlees-poulet.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "30 min",
-        difficulty: "Moyen"
-    },
+   meta: {
+    servings: 4,
+    prepTime: 20,
+    cookTime: 30,
+    difficulty: "medium"
+},
+
 
     fr: {
         title: "Stoofvlees au poulet",
@@ -11496,10 +11644,10 @@ recipesData.plat.waterzooiPoulet = {
     image: "images/waterzooi-poulet.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "45 min",
-        difficulty: "Moyen"
+        servings: 4,
+        prepTime: 20,
+        cookTime: 45,
+        difficulty: "medium"
     },
 
     fr: {
@@ -11691,10 +11839,10 @@ recipesData.plat.moulesFrites = {
     image: "images/moules-frites.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "easy"
     },
 
     fr: {
@@ -11911,10 +12059,10 @@ recipesData.plat.carbonadeVlaamse = {
     image: "images/carbonade-vlaamse.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "1h30",
-        difficulty: "Moyen"
+        servings: 4,
+        prepTime: 20,
+        cookTime: 90,
+        difficulty: "medium"
     },
 
     fr: {
@@ -12098,11 +12246,12 @@ recipesData.plat.boulettesSauceTomate = {
     image: "images/boulettes-sauce-tomate.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "25 min",
-        difficulty: "Facile"
-    },
+    servings: 4,
+    prepTime: 15,
+    cookTime: 25,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Boulettes à la sauce tomate",
@@ -12280,12 +12429,13 @@ recipesData.plat.fritesBelges = {
     country: "belgique",
     image: "images/frites-belges.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "30 min",
-        difficulty: "Facile"
-    },
+   meta: {
+    servings: 4,
+    prepTime: 20,
+    cookTime: 30,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Frites belges",
@@ -12496,10 +12646,10 @@ recipesData.plat.potjevleesch = {
     image: "images/potjevleesch.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "30 min",
-        difficulty: "Moyen"
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "medium"
     },
 
     fr: {
@@ -12675,10 +12825,10 @@ recipesData.plat.endivesJambon = {
     image: "images/endives-jambon.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
     },
 
     fr: {
@@ -12834,10 +12984,10 @@ recipesData.plat.cervelasFrites = {
     image: "images/cervelas-frites.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
     },
 
     fr: {
@@ -12952,12 +13102,13 @@ recipesData.plat.moulesFritesLegumes = {
     country: "belgique",
     image: "images/moules-légume-frites.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
-    },
+   meta: {
+    servings: 4,
+    prepTime: 15,
+    cookTime: 15,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Moules-frites aux légumes",
@@ -13143,12 +13294,13 @@ recipesData.plat.compotePommesNature = {
     country: "belgique",
     image: "images/compote-pommes-nature.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
-    },
+   meta: {
+    servings: 4,
+    prepTime: 10,
+    cookTime: 20,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Compote de pommes nature (accompagnement)",
@@ -13294,12 +13446,13 @@ recipesData.plat.pouletRoti = {
     country: "belgique",
     image: "images/poulet-roti.jpg",
 
-    meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "1h15",
-        difficulty: "Facile"
-    },
+   meta: {
+    servings: 4,
+    prepTime: 15,
+    cookTime: 75,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Poulet rôti au four",
@@ -13464,10 +13617,10 @@ recipesData.dessert.compotePommes = {
     image: "images/compote-pommes.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
     },
 
     fr: {
@@ -13623,10 +13776,10 @@ recipesData.dessert.speculoos = {
     image: "images/speculoos.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
     },
 
     fr: {
@@ -13770,10 +13923,10 @@ recipesData.dessert.crepesLiegeoises = {
     image: "images/crepes-liegeoises.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
     },
 
     fr: {
@@ -13933,10 +14086,10 @@ recipesData.dessert.cremeBrulee = {
     image: "images/creme-brulee.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "40 min",
-        difficulty: "Moyen"
+        servings: 4,
+        prepTime: 15,
+        cookTime: 40,
+        difficulty: "medium"
     },
 
     fr: {
@@ -14100,10 +14253,10 @@ recipesData.dessert.painEpices = {
     image: "images/pain-epices.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "40 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 15,
+        cookTime: 40,
+        difficulty: "easy"
     },
 
     fr: {
@@ -14255,10 +14408,10 @@ recipesData.dessert.couqueDinant = {
     image: "images/couque-dinant.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "25 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 10,
+        cookTime: 25,
+        difficulty: "easy"
     },
 
     fr: {
@@ -14394,10 +14547,10 @@ recipesData.dessert.cuberdon = {
     image: "images/cuberdon.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "10 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
     },
 
     fr: {
@@ -14517,10 +14670,10 @@ recipesData.patisserie.gaufreLiegeSucre = {
     image: "images/gaufre-liege-sucre.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "15 min",
-        difficulty: "Moyen"
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "medium"
     },
 
     fr: {
@@ -14656,10 +14809,10 @@ recipesData.dessert.mousseChocolatBelge = {
     image: "images/mousse-chocolat-belge.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "0 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 20,
+        cookTime: 0,
+        difficulty: "easy"
     },
 
     fr: {
@@ -14799,10 +14952,10 @@ recipesData.patisserie.tarteletteFruitsRouges = {
     image: "images/tartelette-fruits-rouges.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "25 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "easy"
     },
 
     fr: {
@@ -14938,10 +15091,10 @@ recipesData.patisserie.biscuitSableBelge = {
     image: "images/biscuit-sable-belge.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
     },
 
     fr: {
@@ -15089,10 +15242,10 @@ recipesData.patisserie.nougatDeGand = {
     image: "images/nougat-gand.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "20 min",
-        cookTime: "15 min",
-        difficulty: "Moyen"
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "medium"
     },
 
     fr: {
@@ -15252,10 +15405,10 @@ recipesData.patisserie.gaufreBruxelles = {
     image: "images/gaufre-bruxelles.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "15 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
     },
 
     fr: {
@@ -15411,10 +15564,10 @@ recipesData.patisserie.gaufresBelges = {
     image: "images/gaufres-belges.jpg",
 
     meta: {
-        servings: "4 personnes",
-        prepTime: "15 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
     },
 
     fr: {
@@ -15549,12 +15702,14 @@ recipesData.dessert.crepesClassiques = {
     country: "belgique",
     image: "images/crepes-classiques.jpg",
 
-    meta: {
-        servings: "Environ 20 crêpes",
-        prepTime: "10 min",
-        cookTime: "20 min",
-        difficulty: "Facile"
-    },
+  meta: {
+    servings: 20,
+    servingsUnit: "pieces",
+    prepTime: 10,
+    cookTime: 20,
+    difficulty: "easy"
+},
+
 
     fr: {
         title: "Crêpes classiques",
@@ -15693,156 +15848,437 @@ recipesData.dessert.crepesClassiques = {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 recipesData.entree.saladeNicoise = {
     country: "france",
-    image: "images/salade-nicoise.jpg",
+    image: "images/salade-nicoise-thon.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 10,
+        difficulty: "easy"
+    },
 
     fr: {
-        title: "Salade niçoise revisitée (4 personnes)",
+        title: "Salade niçoise revisitée",
         equipment: [
             "1 saladier",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois",
-            "1 petite casserole pour œufs"
+            "1 petite casserole"
         ],
         ingredients: [
-            "200 g salade verte lavée et coupée en morceaux",
-            "4 œufs durs",
+            "200 g salade verte lavée et coupée",
+            "4 œufs",
             "200 g haricots verts frais",
             "150 g tomates cerises coupées en deux",
-            "100 g poivron rouge en dés",
-            "100 g concombre en rondelles",
-            "150 g thon en boîte, égoutté",
+            "100 g poivron rouge coupé en dés",
+            "100 g concombre coupé en rondelles",
+            "150 g thon en boîte au naturel, égoutté",
             "2 cuillères à soupe huile d’olive (30 ml)",
             "1 cuillère à soupe jus de citron (15 ml)",
-            "Sel et poivre selon goût"
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Cuire les œufs dans une petite casserole 10 minutes pour obtenir des œufs durs. Refroidir et écaler.\n" +
-            "2. Cuire les haricots verts dans l’eau bouillante salée 6-8 minutes jusqu’à tendreté, puis plonger dans l’eau froide.\n" +
-            "3. Laver et couper la salade, tomates, poivron et concombre.\n" +
-            "4. Dans un grand saladier, mélanger salade, haricots, tomates, poivron, concombre.\n" +
-            "5. Ajouter le thon émietté.\n" +
-            "6. Couper les œufs en quartiers et disposer sur le dessus.\n" +
-            "7. Assaisonner avec huile d’olive, jus de citron, sel et poivre. Mélanger délicatement et servir."
+            "1. Plonger les œufs dans une casserole d’eau froide.\n" +
+            "2. Porter à ébullition et cuire 10 minutes pour obtenir des œufs durs.\n" +
+            "3. Refroidir les œufs sous l’eau froide.\n" +
+            "4. Écaler les œufs.\n" +
+            "5. Porter une casserole d’eau salée à ébullition.\n" +
+            "6. Cuire les haricots verts 6 à 8 minutes jusqu’à ce qu’ils soient tendres.\n" +
+            "7. Plonger les haricots verts dans de l’eau froide.\n" +
+            "8. Égoutter les haricots verts.\n" +
+            "9. Couper la salade verte.\n" +
+            "10. Couper les tomates cerises.\n" +
+            "11. Couper le poivron rouge.\n" +
+            "12. Couper le concombre.\n" +
+            "13. Verser la salade verte dans un saladier.\n" +
+            "14. Ajouter les haricots verts.\n" +
+            "15. Ajouter les tomates, le poivron et le concombre.\n" +
+            "16. Ajouter le thon égoutté.\n" +
+            "17. Couper les œufs en quartiers.\n" +
+            "18. Disposer les œufs sur la salade.\n" +
+            "19. Ajouter l’huile d’olive.\n" +
+            "20. Ajouter le jus de citron.\n" +
+            "21. Saler et poivrer.\n" +
+            "22. Mélanger délicatement.\n" +
+            "23. Servir frais.\n"
     },
 
     en: {
-        title: "Revisited Niçoise Salad (Serves 4)",
+        title: "Revisited Niçoise Salad",
         equipment: [
             "1 salad bowl",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
-            "1 small pot for eggs"
+            "1 small saucepan"
         ],
         ingredients: [
             "200 g washed lettuce, chopped",
-            "4 hard-boiled eggs",
+            "4 eggs",
             "200 g fresh green beans",
             "150 g cherry tomatoes, halved",
             "100 g red bell pepper, diced",
             "100 g cucumber, sliced",
-            "150 g canned tuna, drained",
+            "150 g canned tuna in water, drained",
             "2 tablespoons olive oil (30 ml)",
             "1 tablespoon lemon juice (15 ml)",
-            "Salt and pepper to taste"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Boil eggs for 10 minutes until hard, then cool and peel.\n" +
-            "2. Boil green beans in salted water 6-8 minutes, then plunge into cold water.\n" +
-            "3. Wash and cut lettuce, tomatoes, bell pepper, and cucumber.\n" +
-            "4. In a large bowl, mix lettuce, beans, tomatoes, bell pepper, cucumber.\n" +
-            "5. Add flaked tuna.\n" +
-            "6. Cut eggs into quarters and place on top.\n" +
-            "7. Dress with olive oil, lemon juice, salt and pepper. Toss gently and serve."
+            "1. Place the eggs in a saucepan with cold water.\n" +
+            "2. Bring to a boil and cook for 10 minutes until hard-boiled.\n" +
+            "3. Cool the eggs under cold water.\n" +
+            "4. Peel the eggs.\n" +
+            "5. Bring a pot of salted water to a boil.\n" +
+            "6. Cook the green beans for 6 to 8 minutes until tender.\n" +
+            "7. Transfer the green beans to cold water.\n" +
+            "8. Drain the green beans.\n" +
+            "9. Chop the lettuce.\n" +
+            "10. Cut the cherry tomatoes.\n" +
+            "11. Cut the red bell pepper.\n" +
+            "12. Slice the cucumber.\n" +
+            "13. Place the lettuce in a salad bowl.\n" +
+            "14. Add the green beans.\n" +
+            "15. Add tomatoes, bell pepper and cucumber.\n" +
+            "16. Add the drained tuna.\n" +
+            "17. Cut the eggs into quarters.\n" +
+            "18. Arrange the eggs on top of the salad.\n" +
+            "19. Add olive oil.\n" +
+            "20. Add lemon juice.\n" +
+            "21. Season with salt and pepper.\n" +
+            "22. Gently toss.\n" +
+            "23. Serve chilled.\n"
     },
 
     nl: {
-        title: "Hervormde Niçoise salade (voor 4 personen)",
+        title: "Hervormde Niçoise salade",
         equipment: [
             "1 slakom",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
-            "1 kleine pan voor eieren"
+            "1 kleine kookpan"
         ],
         ingredients: [
-            "200 g gewassen sla, in stukken gesneden",
-            "4 hardgekookte eieren",
+            "200 g gewassen sla, gesneden",
+            "4 eieren",
             "200 g verse sperziebonen",
             "150 g cherrytomaatjes, gehalveerd",
             "100 g rode paprika, in blokjes",
             "100 g komkommer, in plakjes",
-            "150 g tonijn uit blik, uitgelekt",
+            "150 g tonijn uit blik in water, uitgelekt",
             "2 eetlepels olijfolie (30 ml)",
             "1 eetlepel citroensap (15 ml)",
-            "Zout en peper naar smaak"
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Kook de eieren 10 minuten hard, koel af en pel ze.\n" +
-            "2. Kook de sperziebonen 6-8 minuten in gezouten water, dompel daarna in koud water.\n" +
-            "3. Was en snijd de sla, tomaten, paprika en komkommer.\n" +
-            "4. Meng in een grote kom sla, bonen, tomaten, paprika en komkommer.\n" +
-            "5. Voeg de uitgelekte tonijn toe.\n" +
-            "6. Snijd de eieren in vieren en leg bovenop.\n" +
-            "7. Breng op smaak met olijfolie, citroensap, zout en peper. Meng voorzichtig en serveer."
+            "1. Leg de eieren in een pan met koud water.\n" +
+            "2. Breng aan de kook en kook 10 minuten hard.\n" +
+            "3. Koel de eieren af onder koud water.\n" +
+            "4. Pel de eieren.\n" +
+            "5. Breng gezouten water aan de kook.\n" +
+            "6. Kook de sperziebonen 6 tot 8 minuten tot ze gaar zijn.\n" +
+            "7. Doe de sperziebonen in koud water.\n" +
+            "8. Laat de sperziebonen uitlekken.\n" +
+            "9. Snijd de sla.\n" +
+            "10. Snijd de tomaatjes.\n" +
+            "11. Snijd de paprika.\n" +
+            "12. Snijd de komkommer.\n" +
+            "13. Doe de sla in een slakom.\n" +
+            "14. Voeg de sperziebonen toe.\n" +
+            "15. Voeg tomaten, paprika en komkommer toe.\n" +
+            "16. Voeg de uitgelekte tonijn toe.\n" +
+            "17. Snijd de eieren in vieren.\n" +
+            "18. Leg de eieren bovenop de salade.\n" +
+            "19. Voeg olijfolie toe.\n" +
+            "20. Voeg citroensap toe.\n" +
+            "21. Breng op smaak met zout en peper.\n" +
+            "22. Meng voorzichtig.\n" +
+            "23. Serveer koel.\n"
     },
 
     ar: {
-        title: "سلطة نيسواز معدلة (تكفي 4 أشخاص)",
+        title: "سلطة نيسواز معدلة",
         equipment: [
             "وعاء سلطة",
             "سكين",
             "لوح تقطيع",
             "ملعقة خشبية",
-            "قدر صغير للبيض"
+            "قدر صغير"
         ],
         ingredients: [
-            "200غ خس مغسول ومقطع",
-            "4 بيض مسلوق",
-            "200غ فاصولياء خضراء طازجة",
-            "150غ طماطم كرزية مقطعة نصفين",
-            "100غ فلفل أحمر مقطع مكعبات",
-            "100غ خيار مقطع شرائح",
-            "150غ تونة معلبة، مصفاة",
+            "200 غ خس مغسول ومقطع",
+            "4 بيض",
+            "200 غ فاصولياء خضراء طازجة",
+            "150 غ طماطم كرزية مقطعة نصفين",
+            "100 غ فلفل أحمر مقطع مكعبات",
+            "100 غ خيار مقطع شرائح",
+            "150 غ تونة معلبة بالماء، مصفاة",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "1 ملعقة كبيرة عصير ليمون (15 مل)",
-            "ملح وفلفل حسب الرغبة"
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اسلق البيض 10 دقائق حتى يصبح مسلوقاً، ثم برده وقشّره.\n" +
-            "2. اسلق الفاصولياء 6-8 دقائق في ماء مملح، ثم ضعها في ماء بارد.\n" +
-            "3. اغسل وقطع الخس والطماطم والفلفل والخيار.\n" +
-            "4. اخلط في وعاء كبير الخس والفاصولياء والطماطم والفلفل والخيار.\n" +
-            "5. أضف التونة المصفاة.\n" +
-            "6. قطع البيض إلى أرباع وضعه فوق السلطة.\n" +
-            "7. تبّل بزيت الزيتون وعصير الليمون والملح والفلفل. قلب برفق وقدّم."
+            "1. ضع البيض في قدر مع ماء بارد.\n" +
+            "2. اتركه يغلي واطهه لمدة 10 دقائق حتى يصبح مسلوقاً.\n" +
+            "3. برّد البيض بالماء البارد.\n" +
+            "4. قشّر البيض.\n" +
+            "5. اغلي ماء مملح في قدر.\n" +
+            "6. اطه الفاصولياء الخضراء من 6 إلى 8 دقائق حتى تنضج.\n" +
+            "7. ضع الفاصولياء في ماء بارد.\n" +
+            "8. صفِّ الفاصولياء.\n" +
+            "9. قطّع الخس.\n" +
+            "10. قطّع الطماطم.\n" +
+            "11. قطّع الفلفل الأحمر.\n" +
+            "12. قطّع الخيار.\n" +
+            "13. ضع الخس في وعاء سلطة.\n" +
+            "14. أضف الفاصولياء.\n" +
+            "15. أضف الطماطم والفلفل والخيار.\n" +
+            "16. أضف التونة المصفاة.\n" +
+            "17. قطّع البيض إلى أرباع.\n" +
+            "18. ضع البيض فوق السلطة.\n" +
+            "19. أضف زيت الزيتون.\n" +
+            "20. أضف عصير الليمون.\n" +
+            "21. تبّل بالملح والفلفل.\n" +
+            "22. قلّب برفق.\n" +
+            "23. قدّم بارداً.\n"
+    }
+};
+recipesData.entree.saladeNicoise = {
+    country: "france",
+    image: "images/salade-nicoise.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Salade niçoise revisitée",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 poêle",
+            "1 casserole"
+        ],
+        ingredients: [
+            "200 g salade verte lavée et coupée",
+            "4 œufs",
+            "200 g haricots verts frais",
+            "150 g tomates cerises coupées en deux",
+            "100 g poivron rouge coupé en dés",
+            "100 g concombre coupé en rondelles",
+            "150 g lardons de dinde ou de poulet",
+            "2 cuillères à soupe huile d’olive (30 ml)",
+            "1 cuillère à soupe jus de citron (15 ml)",
+            "Sel",
+            "Poivre"
+        ],
+        preparation:
+            "1. Plonger les œufs dans une casserole d’eau froide.\n" +
+            "2. Porter à ébullition et cuire 10 minutes pour obtenir des œufs durs.\n" +
+            "3. Refroidir les œufs sous l’eau froide.\n" +
+            "4. Écaler les œufs.\n" +
+            "5. Porter une casserole d’eau salée à ébullition.\n" +
+            "6. Cuire les haricots verts 6 à 8 minutes jusqu’à tendreté.\n" +
+            "7. Plonger les haricots verts dans de l’eau froide.\n" +
+            "8. Égoutter les haricots verts.\n" +
+            "9. Chauffer une poêle sans matière grasse.\n" +
+            "10. Faire revenir les lardons de dinde ou de poulet jusqu’à coloration.\n" +
+            "11. Égoutter les lardons.\n" +
+            "12. Couper la salade verte.\n" +
+            "13. Couper les tomates cerises.\n" +
+            "14. Couper le poivron rouge.\n" +
+            "15. Couper le concombre.\n" +
+            "16. Verser la salade verte dans un saladier.\n" +
+            "17. Ajouter les haricots verts.\n" +
+            "18. Ajouter les tomates, le poivron et le concombre.\n" +
+            "19. Ajouter les lardons.\n" +
+            "20. Couper les œufs en quartiers.\n" +
+            "21. Disposer les œufs sur la salade.\n" +
+            "22. Ajouter l’huile d’olive.\n" +
+            "23. Ajouter le jus de citron.\n" +
+            "24. Saler et poivrer.\n" +
+            "25. Mélanger délicatement.\n" +
+            "26. Servir frais.\n"
+    },
+
+    en: {
+        title: "Revisited Niçoise Salad",
+        equipment: [
+            "1 salad bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 frying pan",
+            "1 saucepan"
+        ],
+        ingredients: [
+            "200 g washed lettuce, chopped",
+            "4 eggs",
+            "200 g fresh green beans",
+            "150 g cherry tomatoes, halved",
+            "100 g red bell pepper, diced",
+            "100 g cucumber, sliced",
+            "150 g turkey or chicken bacon",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon lemon juice (15 ml)",
+            "Salt",
+            "Pepper"
+        ],
+        preparation:
+            "1. Place the eggs in a saucepan with cold water.\n" +
+            "2. Bring to a boil and cook for 10 minutes until hard-boiled.\n" +
+            "3. Cool the eggs under cold water.\n" +
+            "4. Peel the eggs.\n" +
+            "5. Bring a pot of salted water to a boil.\n" +
+            "6. Cook the green beans for 6 to 8 minutes until tender.\n" +
+            "7. Transfer the green beans to cold water.\n" +
+            "8. Drain the green beans.\n" +
+            "9. Heat a frying pan without fat.\n" +
+            "10. Cook the turkey or chicken bacon until lightly browned.\n" +
+            "11. Drain the bacon.\n" +
+            "12. Chop the lettuce.\n" +
+            "13. Cut the cherry tomatoes.\n" +
+            "14. Dice the red bell pepper.\n" +
+            "15. Slice the cucumber.\n" +
+            "16. Place the lettuce in a salad bowl.\n" +
+            "17. Add the green beans.\n" +
+            "18. Add tomatoes, bell pepper and cucumber.\n" +
+            "19. Add the bacon.\n" +
+            "20. Cut the eggs into quarters.\n" +
+            "21. Arrange the eggs on top of the salad.\n" +
+            "22. Add olive oil.\n" +
+            "23. Add lemon juice.\n" +
+            "24. Season with salt and pepper.\n" +
+            "25. Gently toss.\n" +
+            "26. Serve chilled.\n"
+    },
+
+    nl: {
+        title: "Hervormde Niçoise salade",
+        equipment: [
+            "1 slakom",
+            "1 mes",
+            "1 snijplank",
+            "1 koekenpan",
+            "1 kookpan"
+        ],
+        ingredients: [
+            "200 g gewassen sla, gesneden",
+            "4 eieren",
+            "200 g verse sperziebonen",
+            "150 g cherrytomaatjes, gehalveerd",
+            "100 g rode paprika, in blokjes",
+            "100 g komkommer, in plakjes",
+            "150 g kalkoen- of kipblokjes",
+            "2 eetlepels olijfolie (30 ml)",
+            "1 eetlepel citroensap (15 ml)",
+            "Zout",
+            "Peper"
+        ],
+        preparation:
+            "1. Leg de eieren in een pan met koud water.\n" +
+            "2. Breng aan de kook en kook 10 minuten hard.\n" +
+            "3. Koel de eieren af onder koud water.\n" +
+            "4. Pel de eieren.\n" +
+            "5. Breng gezouten water aan de kook.\n" +
+            "6. Kook de sperziebonen 6 tot 8 minuten tot ze gaar zijn.\n" +
+            "7. Doe de sperziebonen in koud water.\n" +
+            "8. Laat de sperziebonen uitlekken.\n" +
+            "9. Verhit een koekenpan zonder vet.\n" +
+            "10. Bak de kalkoen- of kipblokjes goudbruin.\n" +
+            "11. Laat de blokjes uitlekken.\n" +
+            "12. Snijd de sla.\n" +
+            "13. Snijd de tomaatjes.\n" +
+            "14. Snijd de paprika.\n" +
+            "15. Snijd de komkommer.\n" +
+            "16. Doe de sla in een slakom.\n" +
+            "17. Voeg de sperziebonen toe.\n" +
+            "18. Voeg tomaten, paprika en komkommer toe.\n" +
+            "19. Voeg de blokjes toe.\n" +
+            "20. Snijd de eieren in vieren.\n" +
+            "21. Leg de eieren bovenop de salade.\n" +
+            "22. Voeg olijfolie toe.\n" +
+            "23. Voeg citroensap toe.\n" +
+            "24. Breng op smaak met zout en peper.\n" +
+            "25. Meng voorzichtig.\n" +
+            "26. Serveer koel.\n"
+    },
+
+    ar: {
+        title: "سلطة نيسواز معدلة",
+        equipment: [
+            "وعاء سلطة",
+            "سكين",
+            "لوح تقطيع",
+            "مقلاة",
+            "قدر"
+        ],
+        ingredients: [
+            "200 غ خس مغسول ومقطع",
+            "4 بيض",
+            "200 غ فاصولياء خضراء طازجة",
+            "150 غ طماطم كرزية مقطعة نصفين",
+            "100 غ فلفل أحمر مقطع مكعبات",
+            "100 غ خيار مقطع شرائح",
+            "150 غ شرائح ديك رومي أو دجاج",
+            "2 ملعقة كبيرة زيت زيتون (30 مل)",
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "ملح",
+            "فلفل"
+        ],
+        preparation:
+            "1. ضع البيض في قدر مع ماء بارد.\n" +
+            "2. اتركه يغلي واطهه لمدة 10 دقائق حتى يصبح مسلوقاً.\n" +
+            "3. برّد البيض بالماء البارد.\n" +
+            "4. قشّر البيض.\n" +
+            "5. اغلي ماءً مملحاً في قدر.\n" +
+            "6. اطه الفاصولياء من 6 إلى 8 دقائق حتى تنضج.\n" +
+            "7. ضع الفاصولياء في ماء بارد.\n" +
+            "8. صفِّ الفاصولياء.\n" +
+            "9. سخّن مقلاة بدون زيت.\n" +
+            "10. اطه شرائح الديك الرومي أو الدجاج حتى تتحمر.\n" +
+            "11. صفِّ الشرائح.\n" +
+            "12. قطّع الخس.\n" +
+            "13. قطّع الطماطم.\n" +
+            "14. قطّع الفلفل الأحمر.\n" +
+            "15. قطّع الخيار.\n" +
+            "16. ضع الخس في وعاء.\n" +
+            "17. أضف الفاصولياء.\n" +
+            "18. أضف الطماطم والفلفل والخيار.\n" +
+            "19. أضف الشرائح.\n" +
+            "20. قطّع البيض إلى أرباع.\n" +
+            "21. ضع البيض فوق السلطة.\n" +
+            "22. أضف زيت الزيتون.\n" +
+            "23. أضف عصير الليمون.\n" +
+            "24. تبّل بالملح والفلفل.\n" +
+            "25. قلّب برفق.\n" +
+            "26. قدّم بارداً.\n"
     }
 };
 recipesData.entree.soupeOignon = {
     country: "france",
     image: "images/soupe-oignon.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 40,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Soupe à l’oignon gratinée (4 personnes)",
+        title: "Soupe à l’oignon gratinée",
         equipment: [
             "1 grande casserole",
             "1 couteau",
@@ -15855,13 +16291,31 @@ recipesData.entree.soupeOignon = {
             "30 g de beurre",
             "1 cuillère à soupe d’huile d’olive",
             "1 litre de bouillon de légumes",
-            "Sel et poivre",
-            "100 g de fromage râpé"
+            "100 g de fromage râpé",
+            "Sel",
+            "Poivre"
         ],
-        preparation: "Éplucher et émincer les oignons. Faire fondre le beurre et l’huile dans une casserole à feu moyen, ajouter les oignons et cuire 15 minutes jusqu’à ce qu’ils soient dorés. Ajouter le bouillon, saler, poivrer et laisser mijoter 20 minutes. Verser dans des bols, saupoudrer de fromage et passer sous le gril 5 minutes. Servir chaud."
+        preparation:
+            "1. Éplucher les oignons.\n" +
+            "2. Émincer finement les oignons.\n" +
+            "3. Faire chauffer le beurre et l’huile d’olive dans une grande casserole.\n" +
+            "4. Ajouter les oignons.\n" +
+            "5. Cuire à feu moyen pendant 15 minutes en remuant régulièrement.\n" +
+            "6. Laisser les oignons devenir dorés.\n" +
+            "7. Verser le bouillon de légumes.\n" +
+            "8. Mélanger.\n" +
+            "9. Saler.\n" +
+            "10. Poivrer.\n" +
+            "11. Porter à légère ébullition.\n" +
+            "12. Laisser mijoter 20 minutes à feu doux.\n" +
+            "13. Verser la soupe dans des bols résistants à la chaleur.\n" +
+            "14. Saupoudrer de fromage râpé.\n" +
+            "15. Passer sous le gril jusqu’à ce que le fromage soit gratiné.\n" +
+            "16. Servir chaud.\n"
     },
+
     en: {
-        title: "French Onion Soup (Serves 4)",
+        title: "Gratinated Onion Soup",
         equipment: [
             "1 large saucepan",
             "1 knife",
@@ -15872,15 +16326,33 @@ recipesData.entree.soupeOignon = {
         ingredients: [
             "500 g onions",
             "30 g butter",
-            "1 tbsp olive oil",
+            "1 tablespoon olive oil",
             "1 liter vegetable broth",
-            "Salt and pepper",
-            "100 g grated cheese"
+            "100 g grated cheese",
+            "Salt",
+            "Pepper"
         ],
-        preparation: "Peel and slice onions. Melt butter and oil in a saucepan over medium heat, add onions and cook 15 minutes until golden. Add broth, season with salt and pepper, simmer 20 minutes. Pour into bowls, sprinkle cheese and broil 5 minutes. Serve hot."
+        preparation:
+            "1. Peel the onions.\n" +
+            "2. Thinly slice the onions.\n" +
+            "3. Heat the butter and olive oil in a large saucepan.\n" +
+            "4. Add the onions.\n" +
+            "5. Cook over medium heat for 15 minutes, stirring regularly.\n" +
+            "6. Let the onions become golden.\n" +
+            "7. Pour in the vegetable broth.\n" +
+            "8. Stir.\n" +
+            "9. Add salt.\n" +
+            "10. Add pepper.\n" +
+            "11. Bring to a gentle boil.\n" +
+            "12. Simmer for 20 minutes over low heat.\n" +
+            "13. Pour the soup into heatproof bowls.\n" +
+            "14. Sprinkle with grated cheese.\n" +
+            "15. Broil until the cheese is melted and golden.\n" +
+            "16. Serve hot.\n"
     },
+
     nl: {
-        title: "Franse uiensoep (voor 4 personen)",
+        title: "Gegratineerde uiensoep",
         equipment: [
             "1 grote pan",
             "1 mes",
@@ -15893,13 +16365,31 @@ recipesData.entree.soupeOignon = {
             "30 g boter",
             "1 eetlepel olijfolie",
             "1 liter groentebouillon",
-            "Zout en peper",
-            "100 g geraspte kaas"
+            "100 g geraspte kaas",
+            "Zout",
+            "Peper"
         ],
-        preparation: "Pel en snijd de uien. Smelt boter en olie in een pan op middelhoog vuur, voeg uien toe en bak 15 minuten tot goudbruin. Voeg bouillon toe, zout en peper, laat 20 minuten sudderen. Schenk in kommen, bestrooi met kaas en gratineer 5 minuten. Serveer warm."
+        preparation:
+            "1. Pel de uien.\n" +
+            "2. Snijd de uien fijn.\n" +
+            "3. Verhit de boter en olijfolie in een grote pan.\n" +
+            "4. Voeg de uien toe.\n" +
+            "5. Bak 15 minuten op middelhoog vuur en roer regelmatig.\n" +
+            "6. Laat de uien goudbruin worden.\n" +
+            "7. Voeg de groentebouillon toe.\n" +
+            "8. Roer goed door.\n" +
+            "9. Breng op smaak met zout.\n" +
+            "10. Voeg peper toe.\n" +
+            "11. Breng zachtjes aan de kook.\n" +
+            "12. Laat 20 minuten zachtjes sudderen.\n" +
+            "13. Schenk de soep in hittebestendige kommen.\n" +
+            "14. Bestrooi met geraspte kaas.\n" +
+            "15. Gratineer tot de kaas gesmolten en goudbruin is.\n" +
+            "16. Serveer warm.\n"
     },
+
     ar: {
-        title: "حساء البصل الفرنسي مع الجبن (يكفي 4 أشخاص)",
+        title: "حساء البصل مع الجبن",
         equipment: [
             "قدر كبير",
             "سكين",
@@ -15912,99 +16402,227 @@ recipesData.entree.soupeOignon = {
             "30 غ زبدة",
             "1 ملعقة كبيرة زيت زيتون",
             "1 لتر مرق خضار",
-            "ملح وفلفل",
-            "100 غ جبن مبشور"
+            "100 غ جبن مبشور",
+            "ملح",
+            "فلفل"
         ],
-        preparation: "قشر وقطع البصل شرائح. ذوّب الزبدة والزيت في قدر على نار متوسطة، أضف البصل واطهي 15 دقيقة حتى يصبح ذهبي اللون. أضف المرق، الملح والفلفل، واتركه ينضج 20 دقيقة. صب في أطباق، رش الجبن وحمّص 5 دقائق. قدمه ساخناً."
+        preparation:
+            "1. قشّر البصل.\n" +
+            "2. قطّع البصل إلى شرائح رفيعة.\n" +
+            "3. سخّن الزبدة وزيت الزيتون في قدر كبير.\n" +
+            "4. أضف البصل.\n" +
+            "5. اطهه على نار متوسطة لمدة 15 دقيقة مع التحريك.\n" +
+            "6. اترك البصل حتى يصبح ذهبي اللون.\n" +
+            "7. أضف مرق الخضار.\n" +
+            "8. حرّك جيداً.\n" +
+            "9. أضف الملح.\n" +
+            "10. أضف الفلفل.\n" +
+            "11. اتركه حتى يغلي برفق.\n" +
+            "12. دعه ينضج 20 دقيقة على نار هادئة.\n" +
+            "13. اسكب الحساء في أوعية مقاومة للحرارة.\n" +
+            "14. رش الجبن المبشور فوق الحساء.\n" +
+            "15. حمّص حتى يذوب الجبن ويصبح ذهبياً.\n" +
+            "16. قدّم ساخناً.\n"
     }
 };
 recipesData.entree.quicheLorraine = {
     country: "france",
     image: "images/quiche-lorraine.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Quiche Lorraine (4 personnes)",
+        title: "Quiche lorraine revisitée",
         equipment: [
             "1 moule à tarte",
             "1 bol",
             "1 fouet",
             "1 couteau",
-            "1 planche à découper"
+            "1 planche à découper",
+            "1 poêle"
         ],
         ingredients: [
             "1 pâte brisée",
-            "200 g de lardons fumés",
+            "200 g de lardons de dinde ou de poulet",
             "3 œufs",
             "200 ml de crème fraîche",
-            "Sel et poivre",
+            "Sel",
+            "Poivre",
             "Noix de muscade"
         ],
-        preparation: "Préchauffer le four à 180°C. Étaler la pâte dans le moule. Faire revenir les lardons 5 minutes. Dans un bol, battre les œufs avec la crème, sel, poivre et une pincée de muscade. Répartir les lardons sur la pâte, verser le mélange œufs-crème. Cuire 30 à 35 minutes jusqu'à ce que la quiche soit dorée."
+        preparation:
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Dérouler la pâte brisée.\n" +
+            "3. Foncer la pâte dans le moule à tarte.\n" +
+            "4. Piquer le fond de la pâte avec une fourchette.\n" +
+            "5. Chauffer une poêle sans matière grasse.\n" +
+            "6. Ajouter les lardons de dinde ou de poulet.\n" +
+            "7. Faire revenir 5 minutes jusqu’à légère coloration.\n" +
+            "8. Égoutter les lardons.\n" +
+            "9. Casser les œufs dans un bol.\n" +
+            "10. Ajouter la crème fraîche.\n" +
+            "11. Fouetter jusqu’à obtenir un mélange homogène.\n" +
+            "12. Saler.\n" +
+            "13. Poivrer.\n" +
+            "14. Ajouter une pincée de noix de muscade.\n" +
+            "15. Répartir les lardons sur le fond de tarte.\n" +
+            "16. Verser l’appareil œufs-crème.\n" +
+            "17. Enfourner.\n" +
+            "18. Cuire 30 à 35 minutes jusqu’à ce que la quiche soit dorée.\n" +
+            "19. Sortir du four.\n" +
+            "20. Laisser tiédir quelques minutes.\n" +
+            "21. Servir chaud ou tiède.\n"
     },
+
     en: {
-        title: "Quiche Lorraine (Serves 4)",
+        title: "Revisited Quiche Lorraine",
         equipment: [
             "1 tart pan",
             "1 bowl",
             "1 whisk",
             "1 knife",
-            "1 cutting board"
+            "1 cutting board",
+            "1 frying pan"
         ],
         ingredients: [
             "1 shortcrust pastry",
-            "200 g smoked bacon",
+            "200 g turkey or chicken bacon",
             "3 eggs",
             "200 ml cream",
-            "Salt and pepper",
+            "Salt",
+            "Pepper",
             "Nutmeg"
         ],
-        preparation: "Preheat oven to 180°C. Roll out pastry in the pan. Fry bacon 5 minutes. In a bowl, whisk eggs with cream, salt, pepper and a pinch of nutmeg. Spread bacon over the pastry, pour egg-cream mixture. Bake 30-35 minutes until golden."
+        preparation:
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Unroll the shortcrust pastry.\n" +
+            "3. Line the tart pan with the pastry.\n" +
+            "4. Prick the base with a fork.\n" +
+            "5. Heat a frying pan without fat.\n" +
+            "6. Add the turkey or chicken bacon.\n" +
+            "7. Cook for 5 minutes until lightly browned.\n" +
+            "8. Drain the bacon.\n" +
+            "9. Crack the eggs into a bowl.\n" +
+            "10. Add the cream.\n" +
+            "11. Whisk until smooth.\n" +
+            "12. Add salt.\n" +
+            "13. Add pepper.\n" +
+            "14. Add a pinch of nutmeg.\n" +
+            "15. Spread the bacon over the pastry base.\n" +
+            "16. Pour in the egg and cream mixture.\n" +
+            "17. Place in the oven.\n" +
+            "18. Bake for 30 to 35 minutes until golden.\n" +
+            "19. Remove from the oven.\n" +
+            "20. Let cool slightly.\n" +
+            "21. Serve warm or lukewarm.\n"
     },
+
     nl: {
-        title: "Quiche Lorraine (voor 4 personen)",
+        title: "Hervormde quiche lorraine",
         equipment: [
             "1 taartvorm",
             "1 kom",
             "1 garde",
             "1 mes",
-            "1 snijplank"
+            "1 snijplank",
+            "1 koekenpan"
         ],
         ingredients: [
             "1 zanddeeg",
-            "200 g gerookt spek",
+            "200 g kalkoen- of kipblokjes",
             "3 eieren",
             "200 ml room",
-            "Zout en peper",
+            "Zout",
+            "Peper",
             "Nootmuskaat"
         ],
-        preparation: "Verwarm oven voor op 180°C. Rol het deeg uit in de vorm. Bak spek 5 minuten. Klop in een kom eieren met room, zout, peper en een snufje nootmuskaat. Verdeel spek over deeg, giet eimengsel erover. Bak 30-35 minuten tot goudbruin."
+        preparation:
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Rol het deeg uit.\n" +
+            "3. Bekleed de taartvorm met het deeg.\n" +
+            "4. Prik de bodem in met een vork.\n" +
+            "5. Verhit een koekenpan zonder vet.\n" +
+            "6. Voeg de kalkoen- of kipblokjes toe.\n" +
+            "7. Bak 5 minuten tot licht goudbruin.\n" +
+            "8. Laat de blokjes uitlekken.\n" +
+            "9. Breek de eieren in een kom.\n" +
+            "10. Voeg de room toe.\n" +
+            "11. Klop tot een glad mengsel.\n" +
+            "12. Breng op smaak met zout.\n" +
+            "13. Voeg peper toe.\n" +
+            "14. Voeg een snufje nootmuskaat toe.\n" +
+            "15. Verdeel de blokjes over het deeg.\n" +
+            "16. Giet het eimengsel erover.\n" +
+            "17. Plaats in de oven.\n" +
+            "18. Bak 30 tot 35 minuten tot goudbruin.\n" +
+            "19. Haal uit de oven.\n" +
+            "20. Laat even afkoelen.\n" +
+            "21. Serveer warm of lauw.\n"
     },
+
     ar: {
-        title: "كويش لورين (يكفي 4 أشخاص)",
+        title: "كويش لورين معدلة",
         equipment: [
             "صينية فطيرة",
             "وعاء",
             "خفاق",
             "سكين",
-            "لوح تقطيع"
+            "لوح تقطيع",
+            "مقلاة"
         ],
         ingredients: [
             "1 عجينة قصيرة",
-            "200 غ لحم مقدد مدخن",
-            "3 بيضات",
+            "200 غ شرائح ديك رومي أو دجاج",
+            "3 بيض",
             "200 مل كريمة",
-            "ملح وفلفل",
+            "ملح",
+            "فلفل",
             "جوزة الطيب"
         ],
-        preparation: "سخن الفرن إلى 180°م. افرد العجينة في الصينية. اقلي اللحم 5 دقائق. في وعاء، اخفق البيض مع الكريمة، الملح، الفلفل ورشة جوزة الطيب. ضع اللحم على العجينة واسكب خليط البيض والكريمة. اخبز 30-35 دقيقة حتى يصبح ذهبي."
+        preparation:
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. افرد العجينة.\n" +
+            "3. ضع العجينة في صينية الفطيرة.\n" +
+            "4. اثقب قاع العجينة بالشوكة.\n" +
+            "5. سخّن مقلاة بدون زيت.\n" +
+            "6. أضف شرائح الديك الرومي أو الدجاج.\n" +
+            "7. اطهها لمدة 5 دقائق حتى تتحمر قليلاً.\n" +
+            "8. صفِّ الشرائح.\n" +
+            "9. اكسر البيض في وعاء.\n" +
+            "10. أضف الكريمة.\n" +
+            "11. اخفق حتى يصبح الخليط ناعماً.\n" +
+            "12. أضف الملح.\n" +
+            "13. أضف الفلفل.\n" +
+            "14. أضف رشة جوزة الطيب.\n" +
+            "15. وزّع الشرائح فوق العجينة.\n" +
+            "16. اسكب خليط البيض والكريمة.\n" +
+            "17. أدخلها إلى الفرن.\n" +
+            "18. اخبز من 30 إلى 35 دقيقة حتى تكتسب لوناً ذهبياً.\n" +
+            "19. أخرجها من الفرن.\n" +
+            "20. اتركها تبرد قليلاً.\n" +
+            "21. قدّمها ساخنة أو دافئة.\n"
     }
 };
 recipesData.entree.saladeChevre = {
     country: "france",
     image: "images/salade-chevre.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 5,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade de chèvre chaud (4 personnes)",
+        title: "Salade de chèvre chaud",
         equipment: [
-            "1 poêle",
+            "1 four",
             "1 couteau",
             "1 planche à découper",
             "1 saladier",
@@ -16016,15 +16634,33 @@ recipesData.entree.saladeChevre = {
             "Salade verte",
             "2 tomates",
             "3 cuillères à soupe d’huile d’olive",
-            "1 cuillère à soupe de vinaigre balsamique (facultatif)",
-            "Sel et poivre"
+            "1 cuillère à soupe de vinaigre de cidre ou de jus de citron (facultatif)",
+            "Sel",
+            "Poivre"
         ],
-        preparation: "Préchauffer le four à 180°C. Déposer le fromage sur le pain et passer au four 5 minutes. Dans un saladier, mélanger la salade et les tomates coupées. Assaisonner. Déposer les tranches de pain au chèvre sur la salade et servir chaud."
+        preparation:
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Couper le fromage de chèvre en tranches.\n" +
+            "3. Déposer les tranches de fromage sur le pain.\n" +
+            "4. Enfourner pendant 5 minutes jusqu’à ce que le fromage soit chaud.\n" +
+            "5. Laver la salade verte.\n" +
+            "6. Couper les tomates.\n" +
+            "7. Mettre la salade verte dans un saladier.\n" +
+            "8. Ajouter les tomates.\n" +
+            "9. Ajouter l’huile d’olive.\n" +
+            "10. Ajouter le vinaigre de cidre ou le jus de citron (facultatif).\n" +
+            "11. Saler.\n" +
+            "12. Poivrer.\n" +
+            "13. Mélanger délicatement.\n" +
+            "14. Sortir les pains au fromage du four.\n" +
+            "15. Déposer les tranches de pain au chèvre chaud sur la salade.\n" +
+            "16. Servir immédiatement.\n"
     },
+
     en: {
-        title: "Warm Goat Cheese Salad (Serves 4)",
+        title: "Warm Goat Cheese Salad",
         equipment: [
-            "1 frying pan",
+            "1 oven",
             "1 knife",
             "1 cutting board",
             "1 salad bowl",
@@ -16035,36 +16671,72 @@ recipesData.entree.saladeChevre = {
             "100 g goat cheese",
             "Lettuce",
             "2 tomatoes",
-            "3 tbsp olive oil",
-            "1 tbsp balsamic vinegar (optional)",
-            "Salt and pepper"
+            "3 tablespoons olive oil",
+            "1 tablespoon apple cider vinegar or lemon juice (optional)",
+            "Salt",
+            "Pepper"
         ],
-        preparation: "Preheat oven to 180°C. Place cheese on bread and bake 5 minutes. In a bowl, mix lettuce and chopped tomatoes. Season. Place warm cheese slices on salad and serve."
+        preparation:
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Slice the goat cheese.\n" +
+            "3. Place the cheese slices on the bread.\n" +
+            "4. Bake for 5 minutes until the cheese is warm.\n" +
+            "5. Wash the lettuce.\n" +
+            "6. Cut the tomatoes.\n" +
+            "7. Place the lettuce in a salad bowl.\n" +
+            "8. Add the tomatoes.\n" +
+            "9. Add olive oil.\n" +
+            "10. Add apple cider vinegar or lemon juice (optional).\n" +
+            "11. Add salt.\n" +
+            "12. Add pepper.\n" +
+            "13. Gently toss.\n" +
+            "14. Remove the bread with cheese from the oven.\n" +
+            "15. Place the warm goat cheese toasts on the salad.\n" +
+            "16. Serve immediately.\n"
     },
+
     nl: {
-        title: "Salade met warme geitenkaas (voor 4 personen)",
+        title: "Salade met warme geitenkaas",
         equipment: [
-            "1 pan",
+            "1 oven",
             "1 mes",
             "1 snijplank",
             "1 slakom",
             "1 lepel"
         ],
         ingredients: [
-            "4 sneetjes volkorenbrood",
+            "4 sneetjes landbrood",
             "100 g geitenkaas",
             "Sla",
             "2 tomaten",
             "3 eetlepels olijfolie",
-            "1 eetlepel balsamico (optioneel)",
-            "Zout en peper"
+            "1 eetlepel appelazijn of citroensap (optioneel)",
+            "Zout",
+            "Peper"
         ],
-        preparation: "Verwarm oven voor op 180°C. Leg kaas op brood en bak 5 minuten. Meng sla en gesneden tomaten in een kom. Breng op smaak. Leg warme kaas op de salade en serveer."
+        preparation:
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Snijd de geitenkaas in plakken.\n" +
+            "3. Leg de kaas op het brood.\n" +
+            "4. Bak 5 minuten tot de kaas warm is.\n" +
+            "5. Was de sla.\n" +
+            "6. Snijd de tomaten.\n" +
+            "7. Doe de sla in een slakom.\n" +
+            "8. Voeg de tomaten toe.\n" +
+            "9. Voeg olijfolie toe.\n" +
+            "10. Voeg appelazijn of citroensap toe (optioneel).\n" +
+            "11. Breng op smaak met zout.\n" +
+            "12. Voeg peper toe.\n" +
+            "13. Meng voorzichtig.\n" +
+            "14. Haal het brood met kaas uit de oven.\n" +
+            "15. Leg de warme kaas op de salade.\n" +
+            "16. Serveer direct.\n"
     },
+
     ar: {
-        title: "سلطة بالجبن الطازج (يكفي 4 أشخاص)",
+        title: "سلطة الجبن الدافئ",
         equipment: [
-            "مقلاة",
+            "فرن",
             "سكين",
             "لوح تقطيع",
             "وعاء سلطة",
@@ -16076,42 +16748,91 @@ recipesData.entree.saladeChevre = {
             "خس",
             "2 طماطم",
             "3 ملاعق كبيرة زيت زيتون",
-            "1 ملعقة كبيرة خل بلسمي (اختياري)",
-            "ملح وفلفل"
+            "1 ملعقة كبيرة خل التفاح أو عصير ليمون (اختياري)",
+            "ملح",
+            "فلفل"
         ],
-        preparation: "سخن الفرن إلى 180°م. ضع الجبن على الخبز واخبزه 5 دقائق. في وعاء، اخلط الخس والطماطم المقطعة. تبّل حسب الرغبة. ضع شرائح الجبن الدافئة على السلطة وقدّمها."
+        preparation:
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. قطّع جبن الماعز إلى شرائح.\n" +
+            "3. ضع شرائح الجبن على الخبز.\n" +
+            "4. أدخلها إلى الفرن لمدة 5 دقائق حتى يسخن الجبن.\n" +
+            "5. اغسل الخس.\n" +
+            "6. قطّع الطماطم.\n" +
+            "7. ضع الخس في وعاء سلطة.\n" +
+            "8. أضف الطماطم.\n" +
+            "9. أضف زيت الزيتون.\n" +
+            "10. أضف خل التفاح أو عصير الليمون (اختياري).\n" +
+            "11. أضف الملح.\n" +
+            "12. أضف الفلفل.\n" +
+            "13. قلّب برفق.\n" +
+            "14. أخرج الخبز مع الجبن من الفرن.\n" +
+            "15. ضع شرائح الجبن الدافئ فوق السلطة.\n" +
+            "16. قدّم فوراً.\n"
     }
 };
 recipesData.entree.terrineLegumes = {
     country: "france",
     image: "images/terrine-legumes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Terrine de légumes (4 personnes)",
+        title: "Terrine de légumes",
         equipment: [
             "1 moule à terrine",
             "1 couteau",
             "1 planche à découper",
             "1 bol",
-            "1 fourchette"
+            "1 fourchette",
+            "1 four"
         ],
         ingredients: [
             "1 courgette",
             "1 carotte",
             "1 poivron rouge",
             "2 œufs",
-            "100 ml crème",
-            "Sel et poivre"
+            "100 ml de crème",
+            "Sel",
+            "Poivre"
         ],
-        preparation: "Préchauffer le four à 180°C. Couper tous les légumes en petits dés. Dans un bol, battre les œufs et la crème, saler et poivrer. Mélanger avec les légumes et verser dans le moule. Cuire 30 minutes. Laisser refroidir avant de démouler."
+        preparation:
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Laver la courgette.\n" +
+            "3. Éplucher la carotte.\n" +
+            "4. Couper la courgette en petits dés.\n" +
+            "5. Couper la carotte en petits dés.\n" +
+            "6. Couper le poivron rouge en petits dés.\n" +
+            "7. Casser les œufs dans un bol.\n" +
+            "8. Ajouter la crème.\n" +
+            "9. Battre à la fourchette.\n" +
+            "10. Saler.\n" +
+            "11. Poivrer.\n" +
+            "12. Ajouter les légumes.\n" +
+            "13. Mélanger.\n" +
+            "14. Verser la préparation dans le moule à terrine.\n" +
+            "15. Enfourner.\n" +
+            "16. Cuire 30 minutes.\n" +
+            "17. Sortir du four.\n" +
+            "18. Laisser refroidir complètement.\n" +
+            "19. Démouler.\n" +
+            "20. Servir froid ou tiède.\n"
     },
+
     en: {
-        title: "Vegetable Terrine (Serves 4)",
+        title: "Vegetable Terrine",
         equipment: [
             "1 terrine mold",
             "1 knife",
             "1 cutting board",
             "1 bowl",
-            "1 fork"
+            "1 fork",
+            "1 oven"
         ],
         ingredients: [
             "1 zucchini",
@@ -16119,18 +16840,41 @@ recipesData.entree.terrineLegumes = {
             "1 red bell pepper",
             "2 eggs",
             "100 ml cream",
-            "Salt and pepper"
+            "Salt",
+            "Pepper"
         ],
-        preparation: "Preheat oven to 180°C. Dice all vegetables. In a bowl, whisk eggs and cream, season. Mix with vegetables and pour into mold. Bake 30 minutes. Cool before unmolding."
+        preparation:
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Wash the zucchini.\n" +
+            "3. Peel the carrot.\n" +
+            "4. Dice the zucchini.\n" +
+            "5. Dice the carrot.\n" +
+            "6. Dice the red bell pepper.\n" +
+            "7. Crack the eggs into a bowl.\n" +
+            "8. Add the cream.\n" +
+            "9. Whisk with a fork.\n" +
+            "10. Add salt.\n" +
+            "11. Add pepper.\n" +
+            "12. Add the vegetables.\n" +
+            "13. Mix well.\n" +
+            "14. Pour the mixture into the terrine mold.\n" +
+            "15. Place in the oven.\n" +
+            "16. Bake for 30 minutes.\n" +
+            "17. Remove from the oven.\n" +
+            "18. Let cool completely.\n" +
+            "19. Unmold.\n" +
+            "20. Serve cold or warm.\n"
     },
+
     nl: {
-        title: "Groenteterrine (voor 4 personen)",
+        title: "Groenteterrine",
         equipment: [
             "1 terrinevorm",
             "1 mes",
             "1 snijplank",
             "1 kom",
-            "1 vork"
+            "1 vork",
+            "1 oven"
         ],
         ingredients: [
             "1 courgette",
@@ -16138,35 +16882,87 @@ recipesData.entree.terrineLegumes = {
             "1 rode paprika",
             "2 eieren",
             "100 ml room",
-            "Zout en peper"
+            "Zout",
+            "Peper"
         ],
-        preparation: "Verwarm oven voor op 180°C. Snijd alle groenten in blokjes. Klop eieren en room in een kom, breng op smaak. Meng met groenten en giet in vorm. Bak 30 minuten. Laat afkoelen voor het uit de vorm halen."
+        preparation:
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Was de courgette.\n" +
+            "3. Schil de wortel.\n" +
+            "4. Snijd de courgette in kleine blokjes.\n" +
+            "5. Snijd de wortel in kleine blokjes.\n" +
+            "6. Snijd de paprika in kleine blokjes.\n" +
+            "7. Breek de eieren in een kom.\n" +
+            "8. Voeg de room toe.\n" +
+            "9. Klop met een vork.\n" +
+            "10. Voeg zout toe.\n" +
+            "11. Voeg peper toe.\n" +
+            "12. Voeg de groenten toe.\n" +
+            "13. Meng goed.\n" +
+            "14. Giet het mengsel in de terrinevorm.\n" +
+            "15. Zet in de oven.\n" +
+            "16. Bak 30 minuten.\n" +
+            "17. Haal uit de oven.\n" +
+            "18. Laat volledig afkoelen.\n" +
+            "19. Haal uit de vorm.\n" +
+            "20. Serveer koud of lauwwarm.\n"
     },
+
     ar: {
-        title: "تيرين الخضار (يكفي 4 أشخاص)",
+        title: "تيرين الخضار",
         equipment: [
             "قالب تيرين",
             "سكين",
             "لوح تقطيع",
             "وعاء",
-            "شوكة"
+            "شوكة",
+            "فرن"
         ],
         ingredients: [
             "1 كوسة",
-            "1 جزر",
+            "1 جزرة",
             "1 فلفل أحمر",
-            "2 بيضات",
+            "2 بيض",
             "100 مل كريمة",
-            "ملح وفلفل"
+            "ملح",
+            "فلفل"
         ],
-        preparation: "سخن الفرن إلى 180°م. قطع جميع الخضار إلى مكعبات صغيرة. في وعاء، اخفق البيض والكريمة، أضف الملح والفلفل. اخلط مع الخضار واسكب في القالب. اخبز 30 دقيقة. اتركه يبرد قبل التقديم."
+        preparation:
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. اغسل الكوسة.\n" +
+            "3. قشّر الجزرة.\n" +
+            "4. قطّع الكوسة إلى مكعبات صغيرة.\n" +
+            "5. قطّع الجزرة إلى مكعبات صغيرة.\n" +
+            "6. قطّع الفلفل الأحمر إلى مكعبات صغيرة.\n" +
+            "7. اكسر البيض في وعاء.\n" +
+            "8. أضف الكريمة.\n" +
+            "9. اخفق بالشوكة.\n" +
+            "10. أضف الملح.\n" +
+            "11. أضف الفلفل.\n" +
+            "12. أضف الخضار.\n" +
+            "13. اخلط جيداً.\n" +
+            "14. اسكب الخليط في قالب التيرين.\n" +
+            "15. أدخله إلى الفرن.\n" +
+            "16. اخبز لمدة 30 دقيقة.\n" +
+            "17. أخرجه من الفرن.\n" +
+            "18. اتركه يبرد تماماً.\n" +
+            "19. أخرج التيرين من القالب.\n" +
+            "20. قدّم بارداً أو دافئاً.\n"
     }
 };
 recipesData.entree.soupePotimarron = {
     country: "france",
     image: "images/soupe-potimarron.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Soupe de potimarron (4 personnes)",
+        title: "Soupe de potimarron",
         equipment: [
             "1 casserole",
             "1 couteau",
@@ -16175,16 +16971,36 @@ recipesData.entree.soupePotimarron = {
             "1 louche"
         ],
         ingredients: [
-            "1 potimarron (800 g)",
+            "1 potimarron (environ 800 g)",
             "1 oignon",
-            "1 litre bouillon de légumes",
-            "Sel et poivre",
-            "1 cuillère à soupe huile d’olive"
+            "1 litre de bouillon de légumes",
+            "1 cuillère à soupe d’huile d’olive",
+            "Sel",
+            "Poivre"
         ],
-        preparation: "Éplucher et couper le potimarron en cubes. Émincer l’oignon. Faire revenir l’oignon dans l’huile 5 minutes. Ajouter le potimarron et le bouillon, saler et poivrer. Cuire 25 minutes. Mixer et servir chaud."
+        preparation:
+            "1. Couper le potimarron en deux.\n" +
+            "2. Retirer les graines.\n" +
+            "3. Éplucher le potimarron.\n" +
+            "4. Couper le potimarron en cubes.\n" +
+            "5. Éplucher l’oignon.\n" +
+            "6. Émincer l’oignon.\n" +
+            "7. Faire chauffer l’huile d’olive dans une casserole.\n" +
+            "8. Ajouter l’oignon.\n" +
+            "9. Faire revenir 5 minutes à feu moyen.\n" +
+            "10. Ajouter les cubes de potimarron.\n" +
+            "11. Verser le bouillon de légumes.\n" +
+            "12. Saler.\n" +
+            "13. Poivrer.\n" +
+            "14. Porter à ébullition.\n" +
+            "15. Cuire 25 minutes à feu moyen.\n" +
+            "16. Mixer jusqu’à obtenir une soupe lisse.\n" +
+            "17. Rectifier l’assaisonnement si nécessaire.\n" +
+            "18. Servir chaud.\n"
     },
+
     en: {
-        title: "Pumpkin Soup (Serves 4)",
+        title: "Pumpkin Soup",
         equipment: [
             "1 saucepan",
             "1 knife",
@@ -16193,16 +17009,36 @@ recipesData.entree.soupePotimarron = {
             "1 ladle"
         ],
         ingredients: [
-            "1 pumpkin (800 g)",
+            "1 pumpkin (about 800 g)",
             "1 onion",
             "1 liter vegetable broth",
-            "Salt and pepper",
-            "1 tbsp olive oil"
+            "1 tablespoon olive oil",
+            "Salt",
+            "Pepper"
         ],
-        preparation: "Peel and cube pumpkin. Slice onion. Sauté onion in oil 5 minutes. Add pumpkin and broth, season. Cook 25 minutes. Blend and serve hot."
+        preparation:
+            "1. Cut the pumpkin in half.\n" +
+            "2. Remove the seeds.\n" +
+            "3. Peel the pumpkin.\n" +
+            "4. Cut the pumpkin into cubes.\n" +
+            "5. Peel the onion.\n" +
+            "6. Slice the onion.\n" +
+            "7. Heat the olive oil in a saucepan.\n" +
+            "8. Add the onion.\n" +
+            "9. Cook for 5 minutes over medium heat.\n" +
+            "10. Add the pumpkin cubes.\n" +
+            "11. Pour in the vegetable broth.\n" +
+            "12. Add salt.\n" +
+            "13. Add pepper.\n" +
+            "14. Bring to a boil.\n" +
+            "15. Cook for 25 minutes.\n" +
+            "16. Blend until smooth.\n" +
+            "17. Adjust seasoning if needed.\n" +
+            "18. Serve hot.\n"
     },
+
     nl: {
-        title: "Pompoensoep (voor 4 personen)",
+        title: "Pompoensoep",
         equipment: [
             "1 pan",
             "1 mes",
@@ -16211,16 +17047,36 @@ recipesData.entree.soupePotimarron = {
             "1 soeplepel"
         ],
         ingredients: [
-            "1 pompoen (800 g)",
+            "1 pompoen (ongeveer 800 g)",
             "1 ui",
             "1 liter groentebouillon",
-            "Zout en peper",
-            "1 eetlepel olijfolie"
+            "1 eetlepel olijfolie",
+            "Zout",
+            "Peper"
         ],
-        preparation: "Schil en snijd pompoen in blokjes. Snijd ui. Bak ui 5 minuten in olie. Voeg pompoen en bouillon toe, breng op smaak. Kook 25 minuten. Mix en serveer warm."
+        preparation:
+            "1. Snijd de pompoen doormidden.\n" +
+            "2. Verwijder de zaden.\n" +
+            "3. Schil de pompoen.\n" +
+            "4. Snijd de pompoen in blokjes.\n" +
+            "5. Pel de ui.\n" +
+            "6. Snijd de ui fijn.\n" +
+            "7. Verhit de olijfolie in een pan.\n" +
+            "8. Voeg de ui toe.\n" +
+            "9. Bak 5 minuten op middelhoog vuur.\n" +
+            "10. Voeg de pompoenblokjes toe.\n" +
+            "11. Giet de groentebouillon erbij.\n" +
+            "12. Voeg zout toe.\n" +
+            "13. Voeg peper toe.\n" +
+            "14. Breng aan de kook.\n" +
+            "15. Kook 25 minuten.\n" +
+            "16. Mix tot een gladde soep.\n" +
+            "17. Proef en breng indien nodig verder op smaak.\n" +
+            "18. Serveer warm.\n"
     },
+
     ar: {
-        title: "حساء اليقطين (يكفي 4 أشخاص)",
+        title: "حساء القرع",
         equipment: [
             "قدر",
             "سكين",
@@ -16229,53 +17085,112 @@ recipesData.entree.soupePotimarron = {
             "مغرفة"
         ],
         ingredients: [
-            "1 يقطين (800 غ)",
-            "1 بصل",
+            "1 قرع (حوالي 800 غ)",
+            "1 بصلة",
             "1 لتر مرق خضار",
-            "ملح وفلفل",
-            "1 ملعقة كبيرة زيت زيتون"
+            "1 ملعقة كبيرة زيت زيتون",
+            "ملح",
+            "فلفل"
         ],
-        preparation: "قشر اليقطين وقطعه مكعبات. قطع البصل. اقلي البصل في الزيت 5 دقائق. أضف اليقطين والمرق، تبّل. اطبخ 25 دقيقة. اخلطه وقدم ساخناً."
+        preparation:
+            "1. اقطع القرع إلى نصفين.\n" +
+            "2. أزل البذور.\n" +
+            "3. قشّر القرع.\n" +
+            "4. قطّع القرع إلى مكعبات.\n" +
+            "5. قشّر البصلة.\n" +
+            "6. قطّع البصلة.\n" +
+            "7. سخّن زيت الزيتون في قدر.\n" +
+            "8. أضف البصلة.\n" +
+            "9. اطهها 5 دقائق على نار متوسطة.\n" +
+            "10. أضف مكعبات القرع.\n" +
+            "11. أضف مرق الخضار.\n" +
+            "12. أضف الملح.\n" +
+            "13. أضف الفلفل.\n" +
+            "14. اتركه حتى يغلي.\n" +
+            "15. اطهه لمدة 25 دقيقة.\n" +
+            "16. اخلط حتى يصبح ناعماً.\n" +
+            "17. عدّل التتبيل إذا لزم.\n" +
+            "18. قدّم ساخناً.\n"
     }
 };
 recipesData.entree.saladeCarottes = {
     country: "france",
     image: "images/salade-carottes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade de carottes (4 personnes)",
+        title: "Salade de carottes",
         equipment: [
+            "1 couteau",
+            "1 planche à découper",
             "1 râpe",
             "1 bol",
             "1 cuillère"
         ],
         ingredients: [
             "4 carottes",
-            "2 cuillères à soupe jus de citron",
-            "2 cuillères à soupe huile d’olive",
-            "Sel et poivre",
-            "Persil haché"
+            "2 cuillères à soupe de jus de citron",
+            "2 cuillères à soupe d’huile d’olive",
+            "Persil haché",
+            "Sel",
+            "Poivre"
         ],
-        preparation: "Éplucher et râper les carottes. Dans un bol, mélanger jus de citron, huile, sel et poivre. Ajouter les carottes et le persil. Bien mélanger et servir frais."
+        preparation:
+            "1. Éplucher les carottes.\n" +
+            "2. Couper les extrémités des carottes.\n" +
+            "3. Râper les carottes.\n" +
+            "4. Mettre les carottes râpées dans un bol.\n" +
+            "5. Ajouter le jus de citron.\n" +
+            "6. Ajouter l’huile d’olive.\n" +
+            "7. Saler.\n" +
+            "8. Poivrer.\n" +
+            "9. Ajouter le persil haché.\n" +
+            "10. Mélanger soigneusement.\n" +
+            "11. Servir frais.\n"
     },
+
     en: {
-        title: "Carrot Salad (Serves 4)",
+        title: "Carrot Salad",
         equipment: [
+            "1 knife",
+            "1 cutting board",
             "1 grater",
             "1 bowl",
             "1 spoon"
         ],
         ingredients: [
             "4 carrots",
-            "2 tbsp lemon juice",
-            "2 tbsp olive oil",
-            "Salt and pepper",
-            "Chopped parsley"
+            "2 tablespoons lemon juice",
+            "2 tablespoons olive oil",
+            "Chopped parsley",
+            "Salt",
+            "Pepper"
         ],
-        preparation: "Peel and grate carrots. In a bowl, mix lemon juice, oil, salt and pepper. Add carrots and parsley. Mix well and serve chilled."
+        preparation:
+            "1. Peel the carrots.\n" +
+            "2. Trim the ends of the carrots.\n" +
+            "3. Grate the carrots.\n" +
+            "4. Place the grated carrots in a bowl.\n" +
+            "5. Add lemon juice.\n" +
+            "6. Add olive oil.\n" +
+            "7. Add salt.\n" +
+            "8. Add pepper.\n" +
+            "9. Add chopped parsley.\n" +
+            "10. Mix well.\n" +
+            "11. Serve chilled.\n"
     },
+
     nl: {
-        title: "Wortelsalade (voor 4 personen)",
+        title: "Wortelsalade",
         equipment: [
+            "1 mes",
+            "1 snijplank",
             "1 rasp",
             "1 kom",
             "1 lepel"
@@ -16284,14 +17199,29 @@ recipesData.entree.saladeCarottes = {
             "4 wortelen",
             "2 eetlepels citroensap",
             "2 eetlepels olijfolie",
-            "Zout en peper",
-            "Fijngehakte peterselie"
+            "Fijngehakte peterselie",
+            "Zout",
+            "Peper"
         ],
-        preparation: "Schil en rasp wortelen. Meng in een kom citroensap, olie, zout en peper. Voeg wortelen en peterselie toe. Meng goed en serveer koud."
+        preparation:
+            "1. Schil de wortelen.\n" +
+            "2. Snijd de uiteinden van de wortelen af.\n" +
+            "3. Rasp de wortelen.\n" +
+            "4. Doe de geraspte wortelen in een kom.\n" +
+            "5. Voeg citroensap toe.\n" +
+            "6. Voeg olijfolie toe.\n" +
+            "7. Voeg zout toe.\n" +
+            "8. Voeg peper toe.\n" +
+            "9. Voeg peterselie toe.\n" +
+            "10. Meng goed.\n" +
+            "11. Serveer koud.\n"
     },
+
     ar: {
-        title: "سلطة الجزر (يكفي 4 أشخاص)",
+        title: "سلطة الجزر",
         equipment: [
+            "سكين",
+            "لوح تقطيع",
             "مبشرة",
             "وعاء",
             "ملعقة"
@@ -16300,89 +17230,192 @@ recipesData.entree.saladeCarottes = {
             "4 جزرات",
             "2 ملعقة كبيرة عصير ليمون",
             "2 ملعقة كبيرة زيت زيتون",
-            "ملح وفلفل",
-            "بقدونس مفروم"
+            "بقدونس مفروم",
+            "ملح",
+            "فلفل"
         ],
-        preparation: "قشّر الجزر وابشره. في وعاء، اخلط عصير الليمون، الزيت، الملح والفلفل. أضف الجزر والبقدونس. امزج جيداً وقدّم بارداً."
+        preparation:
+            "1. قشّر الجزر.\n" +
+            "2. اقطع أطراف الجزر.\n" +
+            "3. ابشر الجزر.\n" +
+            "4. ضع الجزر المبشور في وعاء.\n" +
+            "5. أضف عصير الليمون.\n" +
+            "6. أضف زيت الزيتون.\n" +
+            "7. أضف الملح.\n" +
+            "8. أضف الفلفل.\n" +
+            "9. أضف البقدونس المفروم.\n" +
+            "10. اخلط جيداً.\n" +
+            "11. قدّم بارداً.\n"
     }
 };
 recipesData.entree.omeletteHerbes = {
     country: "france",
     image: "images/omelette-herbes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Omelette aux fines herbes (4 personnes)",
+        title: "Omelette aux fines herbes",
         equipment: [
             "1 poêle",
             "1 bol",
             "1 fouet",
-            "1 cuillère en bois"
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
         ],
         ingredients: [
             "6 œufs",
-            "2 cuillères à soupe lait",
-            "Sel et poivre",
-            "Persil, ciboulette, basilic hachés",
-            "1 cuillère à soupe huile d’olive"
+            "2 cuillères à soupe de lait",
+            "Persil, ciboulette et basilic",
+            "1 cuillère à soupe d’huile d’olive",
+            "Sel",
+            "Poivre"
         ],
-        preparation: "Battre les œufs avec le lait, sel, poivre et herbes. Chauffer l’huile dans une poêle, verser les œufs et cuire à feu moyen en remuant légèrement jusqu’à consistance ferme. Servir chaud."
+        preparation:
+            "1. Laver les herbes.\n" +
+            "2. Hacher finement les herbes.\n" +
+            "3. Casser les œufs dans un bol.\n" +
+            "4. Ajouter le lait.\n" +
+            "5. Saler.\n" +
+            "6. Poivrer.\n" +
+            "7. Ajouter les herbes hachées.\n" +
+            "8. Fouetter jusqu’à obtenir un mélange homogène.\n" +
+            "9. Faire chauffer l’huile d’olive dans une poêle.\n" +
+            "10. Verser le mélange d’œufs dans la poêle.\n" +
+            "11. Cuire à feu moyen.\n" +
+            "12. Remuer légèrement avec une cuillère en bois.\n" +
+            "13. Laisser prendre jusqu’à consistance souhaitée.\n" +
+            "14. Retirer du feu.\n" +
+            "15. Servir chaud.\n"
     },
+
     en: {
-        title: "Herb Omelette (Serves 4)",
+        title: "Herb Omelette",
         equipment: [
             "1 frying pan",
             "1 bowl",
             "1 whisk",
-            "1 wooden spoon"
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
         ],
         ingredients: [
             "6 eggs",
-            "2 tbsp milk",
-            "Salt and pepper",
-            "Chopped parsley, chives, basil",
-            "1 tbsp olive oil"
+            "2 tablespoons milk",
+            "Parsley, chives and basil",
+            "1 tablespoon olive oil",
+            "Salt",
+            "Pepper"
         ],
-        preparation: "Beat eggs with milk, salt, pepper and herbs. Heat oil in pan, pour eggs and cook over medium heat, stirring gently until firm. Serve hot."
+        preparation:
+            "1. Wash the herbs.\n" +
+            "2. Finely chop the herbs.\n" +
+            "3. Crack the eggs into a bowl.\n" +
+            "4. Add the milk.\n" +
+            "5. Add salt.\n" +
+            "6. Add pepper.\n" +
+            "7. Add the chopped herbs.\n" +
+            "8. Whisk until well combined.\n" +
+            "9. Heat the olive oil in a frying pan.\n" +
+            "10. Pour the egg mixture into the pan.\n" +
+            "11. Cook over medium heat.\n" +
+            "12. Stir gently with a wooden spoon.\n" +
+            "13. Cook until set to desired consistency.\n" +
+            "14. Remove from heat.\n" +
+            "15. Serve hot.\n"
     },
+
     nl: {
-        title: "Kruidenomelet (voor 4 personen)",
+        title: "Kruidenomelet",
         equipment: [
             "1 pan",
             "1 kom",
             "1 garde",
-            "1 houten lepel"
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
         ],
         ingredients: [
             "6 eieren",
             "2 eetlepels melk",
-            "Zout en peper",
-            "Fijngehakte peterselie, bieslook, basilicum",
-            "1 eetlepel olijfolie"
+            "Peterselie, bieslook en basilicum",
+            "1 eetlepel olijfolie",
+            "Zout",
+            "Peper"
         ],
-        preparation: "Klop eieren met melk, zout, peper en kruiden. Verhit olie in pan, giet eieren erin en bak op middelhoog vuur tot stevig. Serveer warm."
+        preparation:
+            "1. Was de kruiden.\n" +
+            "2. Snijd de kruiden fijn.\n" +
+            "3. Breek de eieren in een kom.\n" +
+            "4. Voeg de melk toe.\n" +
+            "5. Voeg zout toe.\n" +
+            "6. Voeg peper toe.\n" +
+            "7. Voeg de kruiden toe.\n" +
+            "8. Klop tot een egaal mengsel.\n" +
+            "9. Verhit de olijfolie in een pan.\n" +
+            "10. Giet het eimengsel in de pan.\n" +
+            "11. Bak op middelhoog vuur.\n" +
+            "12. Roer lichtjes met een houten lepel.\n" +
+            "13. Laat garen tot gewenste stevigheid.\n" +
+            "14. Haal van het vuur.\n" +
+            "15. Serveer warm.\n"
     },
+
     ar: {
-        title: "عجة بالأعشاب (يكفي 4 أشخاص)",
+        title: "عجة بالأعشاب",
         equipment: [
             "مقلاة",
             "وعاء",
             "خفاق",
-            "ملعقة خشبية"
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
         ],
         ingredients: [
-            "6 بيضات",
+            "6 بيض",
             "2 ملعقة كبيرة حليب",
-            "ملح وفلفل",
-            "بقدونس، شبت، ريحان مفروم",
-            "1 ملعقة كبيرة زيت زيتون"
+            "بقدونس وبصل أخضر وريحان",
+            "1 ملعقة كبيرة زيت زيتون",
+            "ملح",
+            "فلفل"
         ],
-        preparation: "اخفق البيض مع الحليب، الملح، الفلفل والأعشاب. سخّن الزيت في المقلاة، صب البيض واطبخ على نار متوسطة مع التحريك برفق حتى يتماسك. قدّم ساخناً."
+        preparation:
+            "1. اغسل الأعشاب.\n" +
+            "2. افرم الأعشاب ناعماً.\n" +
+            "3. اكسر البيض في وعاء.\n" +
+            "4. أضف الحليب.\n" +
+            "5. أضف الملح.\n" +
+            "6. أضف الفلفل.\n" +
+            "7. أضف الأعشاب المفرومة.\n" +
+            "8. اخفق حتى يتجانس الخليط.\n" +
+            "9. سخّن زيت الزيتون في مقلاة.\n" +
+            "10. اسكب خليط البيض في المقلاة.\n" +
+            "11. اطهه على نار متوسطة.\n" +
+            "12. حرّك برفق بملعقة خشبية.\n" +
+            "13. اتركه حتى يتماسك حسب الرغبة.\n" +
+            "14. ارفعه عن النار.\n" +
+            "15. قدّم ساخناً.\n"
     }
 };
 recipesData.entree.soupeLegumesProvence = {
     country: "france",
     image: "images/soupe-legumes-provence.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Soupe de légumes provençale (4 personnes)",
+        title: "Soupe de légumes provençale",
         equipment: [
             "1 grande casserole",
             "1 couteau",
@@ -16396,14 +17429,38 @@ recipesData.entree.soupeLegumesProvence = {
             "1 poivron rouge",
             "1 oignon",
             "2 gousses d’ail",
-            "1 litre bouillon de légumes",
-            "Sel et poivre",
-            "Herbes de Provence"
+            "1 litre de bouillon de légumes",
+            "1 cuillère à soupe d’huile d’olive",
+            "Herbes de Provence",
+            "Sel",
+            "Poivre"
         ],
-        preparation: "Éplucher et couper tous les légumes en dés. Dans une casserole, faire revenir l’oignon et l’ail dans un peu d’huile d’olive 5 minutes. Ajouter les autres légumes et le bouillon. Saler, poivrer et ajouter les herbes. Laisser mijoter 30 minutes. Servir chaud."
+        preparation:
+            "1. Éplucher les carottes.\n" +
+            "2. Couper les carottes en dés.\n" +
+            "3. Laver les courgettes.\n" +
+            "4. Couper les courgettes en dés.\n" +
+            "5. Couper le poivron rouge en dés.\n" +
+            "6. Éplucher l’oignon.\n" +
+            "7. Émincer l’oignon.\n" +
+            "8. Éplucher les gousses d’ail.\n" +
+            "9. Hacher l’ail.\n" +
+            "10. Faire chauffer l’huile d’olive dans une grande casserole.\n" +
+            "11. Ajouter l’oignon et l’ail.\n" +
+            "12. Faire revenir 5 minutes à feu moyen.\n" +
+            "13. Ajouter les carottes, les courgettes et le poivron.\n" +
+            "14. Mélanger.\n" +
+            "15. Verser le bouillon de légumes.\n" +
+            "16. Saler.\n" +
+            "17. Poivrer.\n" +
+            "18. Ajouter les herbes de Provence.\n" +
+            "19. Porter à ébullition.\n" +
+            "20. Laisser mijoter 30 minutes à feu doux.\n" +
+            "21. Servir chaud.\n"
     },
+
     en: {
-        title: "Provençal Vegetable Soup (Serves 4)",
+        title: "Provençal Vegetable Soup",
         equipment: [
             "1 large saucepan",
             "1 knife",
@@ -16418,13 +17475,37 @@ recipesData.entree.soupeLegumesProvence = {
             "1 onion",
             "2 garlic cloves",
             "1 liter vegetable broth",
-            "Salt and pepper",
-            "Herbs de Provence"
+            "1 tablespoon olive oil",
+            "Herbs de Provence",
+            "Salt",
+            "Pepper"
         ],
-        preparation: "Peel and dice all vegetables. In a saucepan, sauté onion and garlic in olive oil 5 minutes. Add other vegetables and broth. Season with salt, pepper and herbs. Simmer 30 minutes. Serve hot."
+        preparation:
+            "1. Peel the carrots.\n" +
+            "2. Dice the carrots.\n" +
+            "3. Wash the zucchinis.\n" +
+            "4. Dice the zucchinis.\n" +
+            "5. Dice the red bell pepper.\n" +
+            "6. Peel the onion.\n" +
+            "7. Slice the onion.\n" +
+            "8. Peel the garlic cloves.\n" +
+            "9. Chop the garlic.\n" +
+            "10. Heat the olive oil in a large saucepan.\n" +
+            "11. Add the onion and garlic.\n" +
+            "12. Cook for 5 minutes over medium heat.\n" +
+            "13. Add the carrots, zucchinis and bell pepper.\n" +
+            "14. Stir.\n" +
+            "15. Pour in the vegetable broth.\n" +
+            "16. Add salt.\n" +
+            "17. Add pepper.\n" +
+            "18. Add Herbs de Provence.\n" +
+            "19. Bring to a boil.\n" +
+            "20. Simmer for 30 minutes.\n" +
+            "21. Serve hot.\n"
     },
+
     nl: {
-        title: "Provençaalse groentesoep (voor 4 personen)",
+        title: "Provençaalse groentesoep",
         equipment: [
             "1 grote pan",
             "1 mes",
@@ -16439,13 +17520,37 @@ recipesData.entree.soupeLegumesProvence = {
             "1 ui",
             "2 teentjes knoflook",
             "1 liter groentebouillon",
-            "Zout en peper",
-            "Provençaalse kruiden"
+            "1 eetlepel olijfolie",
+            "Provençaalse kruiden",
+            "Zout",
+            "Peper"
         ],
-        preparation: "Schil en snijd alle groenten in blokjes. Bak ui en knoflook 5 minuten in olijfolie. Voeg andere groenten en bouillon toe. Breng op smaak met zout, peper en kruiden. Laat 30 minuten sudderen. Serveer warm."
+        preparation:
+            "1. Schil de wortelen.\n" +
+            "2. Snijd de wortelen in blokjes.\n" +
+            "3. Was de courgettes.\n" +
+            "4. Snijd de courgettes in blokjes.\n" +
+            "5. Snijd de paprika in blokjes.\n" +
+            "6. Pel de ui.\n" +
+            "7. Snijd de ui fijn.\n" +
+            "8. Pel de knoflook.\n" +
+            "9. Hak de knoflook fijn.\n" +
+            "10. Verhit de olijfolie in een grote pan.\n" +
+            "11. Voeg de ui en knoflook toe.\n" +
+            "12. Bak 5 minuten op middelhoog vuur.\n" +
+            "13. Voeg wortelen, courgettes en paprika toe.\n" +
+            "14. Meng.\n" +
+            "15. Giet de groentebouillon erbij.\n" +
+            "16. Voeg zout toe.\n" +
+            "17. Voeg peper toe.\n" +
+            "18. Voeg Provençaalse kruiden toe.\n" +
+            "19. Breng aan de kook.\n" +
+            "20. Laat 30 minuten zachtjes sudderen.\n" +
+            "21. Serveer warm.\n"
     },
+
     ar: {
-        title: "حساء الخضار على الطريقة البروفنسية (يكفي 4 أشخاص)",
+        title: "حساء الخضار البروفنسي",
         equipment: [
             "قدر كبير",
             "سكين",
@@ -16454,153 +17559,270 @@ recipesData.entree.soupeLegumesProvence = {
             "مغرفة"
         ],
         ingredients: [
-            "2 جزرات",
+            "2 جزرة",
             "2 كوسة",
             "1 فلفل أحمر",
-            "1 بصل",
+            "1 بصلة",
             "2 فص ثوم",
             "1 لتر مرق خضار",
-            "ملح وفلفل",
-            "أعشاب بروفنس"
+            "1 ملعقة كبيرة زيت زيتون",
+            "أعشاب بروفنس",
+            "ملح",
+            "فلفل"
         ],
-        preparation: "قشّر وقطع جميع الخضار إلى مكعبات. في قدر، اقلي البصل والثوم في زيت زيتون 5 دقائق. أضف باقي الخضار والمرق. تبّل بالملح والفلفل والأعشاب. اتركه ينضج 30 دقيقة. قدّم ساخناً."
+        preparation:
+            "1. قشّر الجزر.\n" +
+            "2. قطّع الجزر إلى مكعبات.\n" +
+            "3. اغسل الكوسة.\n" +
+            "4. قطّع الكوسة إلى مكعبات.\n" +
+            "5. قطّع الفلفل الأحمر إلى مكعبات.\n" +
+            "6. قشّر البصلة.\n" +
+            "7. قطّع البصلة.\n" +
+            "8. قشّر فصوص الثوم.\n" +
+            "9. افرم الثوم.\n" +
+            "10. سخّن زيت الزيتون في قدر كبير.\n" +
+            "11. أضف البصل والثوم.\n" +
+            "12. اطههما 5 دقائق على نار متوسطة.\n" +
+            "13. أضف الجزر والكوسة والفلفل.\n" +
+            "14. حرّك جيداً.\n" +
+            "15. أضف مرق الخضار.\n" +
+            "16. أضف الملح.\n" +
+            "17. أضف الفلفل.\n" +
+            "18. أضف أعشاب بروفنس.\n" +
+            "19. اتركه حتى يغلي.\n" +
+            "20. اطهه 30 دقيقة على نار هادئة.\n" +
+            "21. قدّم ساخناً.\n"
     }
 };
+
+
+
+
+
+
+
 
 
 recipesData.plat.ratatouille = {
     country: "france",
     image: "images/ratatouille.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Ratatouille provençale (4 personnes)",
+        title: "Ratatouille provençale",
         equipment: [
             "1 grande casserole ou cocotte",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois",
-            "1 bol pour ingrédients"
+            "1 bol"
         ],
         ingredients: [
-            "2 aubergines moyennes (environ 500 g), coupées en cubes",
-            "2 courgettes moyennes (400 g), coupées en rondelles",
-            "1 poivron rouge (150 g), en dés",
-            "1 poivron jaune (150 g), en dés",
-            "4 tomates moyennes (400 g), pelées et coupées en morceaux",
-            "1 oignon moyen (100 g), émincé",
-            "2 gousses d’ail, hachées finement",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1 cuillère à café herbes de Provence (1 g)",
-            "Sel et poivre selon goût"
+            "2 aubergines moyennes (environ 500 g)",
+            "2 courgettes moyennes (400 g)",
+            "1 poivron rouge (150 g)",
+            "1 poivron jaune (150 g)",
+            "4 tomates moyennes (400 g)",
+            "1 oignon moyen (100 g)",
+            "2 gousses d’ail",
+            "3 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café d’herbes de Provence",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper tous les légumes en morceaux réguliers.\n" +
-            "2. Dans une grande casserole, chauffer l’huile d’olive à feu moyen.\n" +
-            "3. Ajouter l’oignon et l’ail, faire revenir 5 minutes jusqu’à transparence.\n" +
-            "4. Ajouter les aubergines et poivrons, cuire 10 minutes en remuant régulièrement.\n" +
-            "5. Ajouter les courgettes et tomates, les herbes de Provence, sel et poivre.\n" +
-            "6. Couvrir et laisser mijoter à feu doux 25-30 minutes, en remuant toutes les 5-10 minutes.\n" +
-            "7. Vérifier la tendreté des légumes et rectifier l’assaisonnement avant de servir chaud."
+            "1. Laver tous les légumes.\n" +
+            "2. Couper les aubergines en cubes.\n" +
+            "3. Couper les courgettes en rondelles.\n" +
+            "4. Couper les poivrons en dés.\n" +
+            "5. Peler et couper les tomates en morceaux.\n" +
+            "6. Éplucher et émincer l’oignon.\n" +
+            "7. Éplucher et hacher l’ail.\n" +
+            "8. Chauffer l’huile d’olive dans une grande casserole.\n" +
+            "9. Ajouter l’oignon et l’ail.\n" +
+            "10. Faire revenir 5 minutes à feu moyen.\n" +
+            "11. Ajouter les aubergines et les poivrons.\n" +
+            "12. Cuire 10 minutes en remuant régulièrement.\n" +
+            "13. Ajouter les courgettes.\n" +
+            "14. Ajouter les tomates.\n" +
+            "15. Ajouter les herbes de Provence.\n" +
+            "16. Saler.\n" +
+            "17. Poivrer.\n" +
+            "18. Mélanger.\n" +
+            "19. Couvrir.\n" +
+            "20. Laisser mijoter 25 à 30 minutes à feu doux.\n" +
+            "21. Remuer de temps en temps.\n" +
+            "22. Vérifier la cuisson.\n" +
+            "23. Rectifier l’assaisonnement si nécessaire.\n" +
+            "24. Servir chaud.\n"
     },
+
     en: {
-        title: "Provençal Ratatouille (Serves 4)",
+        title: "Provençal Ratatouille",
         equipment: [
             "1 large pot or Dutch oven",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
-            "1 bowl for ingredients"
+            "1 bowl"
         ],
         ingredients: [
-            "2 medium eggplants (500 g), cubed",
-            "2 medium zucchinis (400 g), sliced",
-            "1 red bell pepper (150 g), diced",
-            "1 yellow bell pepper (150 g), diced",
-            "4 medium tomatoes (400 g), peeled and chopped",
-            "1 medium onion (100 g), sliced",
-            "2 garlic cloves, finely chopped",
-            "3 tablespoons olive oil (45 ml)",
-            "1 teaspoon Herbes de Provence (1 g)",
-            "Salt and pepper to taste"
+            "2 medium eggplants (about 500 g)",
+            "2 medium zucchinis (400 g)",
+            "1 red bell pepper (150 g)",
+            "1 yellow bell pepper (150 g)",
+            "4 medium tomatoes (400 g)",
+            "1 medium onion (100 g)",
+            "2 garlic cloves",
+            "3 tablespoons olive oil",
+            "1 teaspoon Herbes de Provence",
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut all vegetables into even pieces.\n" +
-            "2. Heat olive oil in a large pot over medium heat.\n" +
-            "3. Add onion and garlic, sauté 5 minutes until translucent.\n" +
-            "4. Add eggplants and peppers, cook 10 minutes stirring regularly.\n" +
-            "5. Add zucchinis, tomatoes, Herbes de Provence, salt, and pepper.\n" +
-            "6. Cover and simmer on low heat 25-30 minutes, stirring every 5-10 minutes.\n" +
-            "7. Check vegetables are tender and adjust seasoning before serving hot."
+            "1. Wash all vegetables.\n" +
+            "2. Cut the eggplants into cubes.\n" +
+            "3. Slice the zucchinis.\n" +
+            "4. Dice the bell peppers.\n" +
+            "5. Peel and chop the tomatoes.\n" +
+            "6. Peel and slice the onion.\n" +
+            "7. Peel and chop the garlic.\n" +
+            "8. Heat olive oil in a large pot.\n" +
+            "9. Add onion and garlic.\n" +
+            "10. Cook for 5 minutes over medium heat.\n" +
+            "11. Add eggplants and peppers.\n" +
+            "12. Cook for 10 minutes, stirring regularly.\n" +
+            "13. Add zucchinis.\n" +
+            "14. Add tomatoes.\n" +
+            "15. Add Herbes de Provence.\n" +
+            "16. Add salt.\n" +
+            "17. Add pepper.\n" +
+            "18. Stir well.\n" +
+            "19. Cover.\n" +
+            "20. Simmer on low heat for 25–30 minutes.\n" +
+            "21. Stir occasionally.\n" +
+            "22. Check tenderness.\n" +
+            "23. Adjust seasoning if needed.\n" +
+            "24. Serve hot.\n"
     },
+
     nl: {
-        title: "Provençaalse Ratatouille (voor 4 personen)",
+        title: "Provençaalse ratatouille",
         equipment: [
             "1 grote pan of braadpan",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
-            "1 kom voor ingrediënten"
+            "1 kom"
         ],
         ingredients: [
-            "2 middelgrote aubergines (500 g), in blokjes",
-            "2 middelgrote courgettes (400 g), in plakjes",
-            "1 rode paprika (150 g), in blokjes",
-            "1 gele paprika (150 g), in blokjes",
-            "4 middelgrote tomaten (400 g), gepeld en in stukjes",
-            "1 middelgrote ui (100 g), gesneden",
-            "2 teentjes knoflook, fijngehakt",
-            "3 eetlepels olijfolie (45 ml)",
-            "1 theelepel Provençaalse kruiden (1 g)",
-            "Zout en peper naar smaak"
+            "2 aubergines (ongeveer 500 g)",
+            "2 courgettes (400 g)",
+            "1 rode paprika (150 g)",
+            "1 gele paprika (150 g)",
+            "4 tomaten (400 g)",
+            "1 ui (100 g)",
+            "2 teentjes knoflook",
+            "3 eetlepels olijfolie",
+            "1 theelepel Provençaalse kruiden",
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd alle groenten in gelijke stukken.\n" +
-            "2. Verhit olijfolie in een grote pan op middelhoog vuur.\n" +
-            "3. Voeg ui en knoflook toe, bak 5 minuten tot doorschijnend.\n" +
-            "4. Voeg aubergines en paprika’s toe, bak 10 minuten regelmatig roeren.\n" +
-            "5. Voeg courgettes, tomaten, Provençaalse kruiden, zout en peper toe.\n" +
-            "6. Dek af en laat 25-30 minuten sudderen op laag vuur, af en toe roeren.\n" +
-            "7. Controleer of de groenten zacht zijn en pas de smaak aan voor serveren."
+            "1. Was alle groenten.\n" +
+            "2. Snijd de aubergines in blokjes.\n" +
+            "3. Snijd de courgettes in plakjes.\n" +
+            "4. Snijd de paprika’s in blokjes.\n" +
+            "5. Pel en snijd de tomaten.\n" +
+            "6. Pel en snijd de ui.\n" +
+            "7. Pel en hak de knoflook.\n" +
+            "8. Verhit olijfolie in een grote pan.\n" +
+            "9. Voeg ui en knoflook toe.\n" +
+            "10. Bak 5 minuten op middelhoog vuur.\n" +
+            "11. Voeg aubergines en paprika toe.\n" +
+            "12. Bak 10 minuten en roer regelmatig.\n" +
+            "13. Voeg courgettes toe.\n" +
+            "14. Voeg tomaten toe.\n" +
+            "15. Voeg Provençaalse kruiden toe.\n" +
+            "16. Voeg zout toe.\n" +
+            "17. Voeg peper toe.\n" +
+            "18. Meng alles.\n" +
+            "19. Dek af.\n" +
+            "20. Laat 25–30 minuten sudderen op laag vuur.\n" +
+            "21. Roer af en toe.\n" +
+            "22. Controleer gaarheid.\n" +
+            "23. Breng indien nodig verder op smaak.\n" +
+            "24. Serveer warm.\n"
     },
+
     ar: {
-        title: "راتاتوي بروفنسالية (تكفي 4 أشخاص)",
+        title: "راتاتوي بروفنسالية",
         equipment: [
             "قدر كبير أو وعاء ثقيل",
             "سكين",
             "لوح تقطيع",
             "ملعقة خشبية",
-            "وعاء لتحضير المكونات"
+            "وعاء"
         ],
         ingredients: [
-            "2 باذنجان متوسط (500غ)، مقطع مكعبات",
-            "2 كوسة متوسطة (400غ)، مقطعة شرائح",
-            "1 فلفل أحمر (150غ)، مقطع مكعبات",
-            "1 فلفل أصفر (150غ)، مقطع مكعبات",
-            "4 طماطم متوسطة (400غ)، مقشرة ومقطعة",
-            "1 بصل متوسط (100غ)، مقطع شرائح",
-            "2 فص ثوم، مفروم ناعم",
-            "3 ملعقة كبيرة زيت زيتون (45 مل)",
-            "1 ملعقة صغيرة أعشاب بروفنس (1غ)",
-            "ملح وفلفل حسب الرغبة"
+            "2 باذنجان (حوالي 500 غ)",
+            "2 كوسة (400 غ)",
+            "1 فلفل أحمر (150 غ)",
+            "1 فلفل أصفر (150 غ)",
+            "4 طماطم (400 غ)",
+            "1 بصلة (100 غ)",
+            "2 فص ثوم",
+            "3 ملاعق كبيرة زيت زيتون",
+            "1 ملعقة صغيرة أعشاب بروفنس",
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع جميع الخضار إلى قطع متساوية.\n" +
-            "2. سخن زيت الزيتون في قدر كبير على نار متوسطة.\n" +
-            "3. أضف البصل والثوم، قلب 5 دقائق حتى يصبح شفافًا.\n" +
-            "4. أضف الباذنجان والفلفل، اطبخ 10 دقائق مع التحريك بانتظام.\n" +
-            "5. أضف الكوسة والطماطم والأعشاب، الملح والفلفل.\n" +
-            "6. غطّ القدر واتركه ينضج على نار هادئة 25-30 دقيقة، مع التحريك كل 5-10 دقائق.\n" +
-            "7. تحقق من نضج الخضار واضبط التوابل قبل التقديم."
+            "1. اغسل جميع الخضار.\n" +
+            "2. قطّع الباذنجان إلى مكعبات.\n" +
+            "3. قطّع الكوسة إلى شرائح.\n" +
+            "4. قطّع الفلفل إلى مكعبات.\n" +
+            "5. قشّر وقطّع الطماطم.\n" +
+            "6. قشّر وقطّع البصل.\n" +
+            "7. قشّر وافرُم الثوم.\n" +
+            "8. سخّن زيت الزيتون في قدر كبير.\n" +
+            "9. أضف البصل والثوم.\n" +
+            "10. اطههما 5 دقائق على نار متوسطة.\n" +
+            "11. أضف الباذنجان والفلفل.\n" +
+            "12. اطه 10 دقائق مع التحريك.\n" +
+            "13. أضف الكوسة.\n" +
+            "14. أضف الطماطم.\n" +
+            "15. أضف أعشاب بروفنس.\n" +
+            "16. أضف الملح.\n" +
+            "17. أضف الفلفل.\n" +
+            "18. حرّك جيداً.\n" +
+            "19. غطّ القدر.\n" +
+            "20. اتركه ينضج 25–30 دقيقة على نار هادئة.\n" +
+            "21. حرّك من وقت لآخر.\n" +
+            "22. تأكد من نضج الخضار.\n" +
+            "23. عدّل التتبيل إذا لزم.\n" +
+            "24. قدّم ساخناً.\n"
     }
 };
 recipesData.plat.coqAuVin = {
     country: "france",
     image: "images/coq-au-vin.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 90,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Coq au vin revisité (4 personnes)",
+        title: "Coq au vin revisité (inspiré de la recette traditionnelle)",
         equipment: [
             "1 grande cocotte",
             "1 couteau",
@@ -16609,73 +17831,139 @@ recipesData.plat.coqAuVin = {
             "1 verre doseur"
         ],
         ingredients: [
-            "1 coq ou poulet entier découpé (1,5 kg)",
-            "150 g de lardons",
+            "1 coq ou poulet entier découpé (environ 1,5 kg)",
+            "150 g de lardons de dinde ou de poulet",
             "2 carottes moyennes (200 g)",
             "1 oignon moyen (120 g)",
             "2 gousses d’ail",
             "200 ml de bouillon de volaille",
             "150 ml de jus de raisin rouge",
             "1 bouquet garni",
-            "1 cuillère à soupe de farine (10 g)",
-            "2 cuillères à soupe d’huile d’olive (30 ml)",
-            "Sel et poivre selon goût"
+            "1 cuillère à soupe de farine",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Cette recette est pour 4 personnes. Éplucher et couper les carottes en rondelles, émincer l’oignon et l’ail. Faire revenir les lardons dans la cocotte avec l’huile d’olive. Ajouter le poulet et faire dorer toutes les faces. Saupoudrer de farine et mélanger. Ajouter les carottes, l’oignon, l’ail, le bouquet garni, le bouillon et le jus de raisin. Couvrir et laisser mijoter à feu doux pendant 1h30. Vérifier l’assaisonnement avant de servir chaud."
+            "1. Éplucher les carottes et les couper en rondelles.\n" +
+            "2. Éplucher et émincer l’oignon.\n" +
+            "3. Éplucher et hacher l’ail.\n" +
+            "4. Faire chauffer l’huile d’olive dans une grande cocotte.\n" +
+            "5. Ajouter les lardons de dinde ou de poulet.\n" +
+            "6. Faire revenir 5 minutes.\n" +
+            "7. Ajouter les morceaux de poulet.\n" +
+            "8. Faire dorer sur toutes les faces.\n" +
+            "9. Saupoudrer la farine.\n" +
+            "10. Mélanger pour enrober la viande.\n" +
+            "11. Ajouter les carottes, l’oignon et l’ail.\n" +
+            "12. Ajouter le bouquet garni.\n" +
+            "13. Verser le bouillon de volaille.\n" +
+            "14. Ajouter le jus de raisin rouge.\n" +
+            "15. Saler et poivrer.\n" +
+            "16. Couvrir.\n" +
+            "17. Laisser mijoter à feu doux pendant 1 h 30.\n" +
+            "18. Remuer de temps en temps.\n" +
+            "19. Vérifier la cuisson.\n" +
+            "20. Rectifier l’assaisonnement si nécessaire.\n" +
+            "21. Servir chaud.\n"
     },
+
     en: {
-        title: "Revisited Coq au Vin (Serves 4)",
+        title: "Revisited Coq au Vin (inspired by the traditional recipe)",
         equipment: [
-            "1 large casserole",
+            "1 large Dutch oven",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
             "1 measuring cup"
         ],
         ingredients: [
-            "1 whole chicken cut into pieces (1.5 kg)",
-            "150 g bacon lardons",
+            "1 whole chicken cut into pieces (about 1.5 kg)",
+            "150 g turkey or chicken lardons",
             "2 carrots (200 g)",
             "1 medium onion (120 g)",
             "2 garlic cloves",
             "200 ml chicken stock",
             "150 ml red grape juice",
             "1 bouquet garni",
-            "1 tablespoon flour (10 g)",
-            "2 tablespoons olive oil (30 ml)",
-            "Salt and pepper to taste"
+            "1 tablespoon flour",
+            "2 tablespoons olive oil",
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "This recipe serves 4. Peel and slice the carrots, chop the onion and garlic. In a large pot, sauté the bacon in olive oil. Add the chicken and brown all sides. Sprinkle flour and mix. Add carrots, onion, garlic, bouquet garni, stock, and grape juice. Cover and simmer on low heat for 1h30. Adjust seasoning before serving hot."
+            "1. Peel and slice the carrots.\n" +
+            "2. Peel and slice the onion.\n" +
+            "3. Peel and chop the garlic.\n" +
+            "4. Heat olive oil in a large pot.\n" +
+            "5. Add turkey or chicken lardons.\n" +
+            "6. Cook for 5 minutes.\n" +
+            "7. Add chicken pieces.\n" +
+            "8. Brown on all sides.\n" +
+            "9. Sprinkle with flour.\n" +
+            "10. Stir well.\n" +
+            "11. Add carrots, onion and garlic.\n" +
+            "12. Add bouquet garni.\n" +
+            "13. Pour in chicken stock.\n" +
+            "14. Add red grape juice.\n" +
+            "15. Season with salt and pepper.\n" +
+            "16. Cover.\n" +
+            "17. Simmer on low heat for 1 hour 30 minutes.\n" +
+            "18. Stir occasionally.\n" +
+            "19. Check doneness.\n" +
+            "20. Adjust seasoning if needed.\n" +
+            "21. Serve hot.\n"
     },
+
     nl: {
-        title: "Herziene Coq au Vin (voor 4 personen)",
+        title: "Herziene Coq au Vin (geïnspireerd op het originele recept)",
         equipment: [
-            "1 grote pan",
+            "1 grote braadpan",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
             "1 maatbeker"
         ],
         ingredients: [
-            "1 hele kip in stukken gesneden (1,5 kg)",
-            "150 g spekblokjes",
+            "1 hele kip in stukken (ongeveer 1,5 kg)",
+            "150 g kalkoen- of kipblokjes",
             "2 wortelen (200 g)",
-            "1 middelgrote ui (120 g)",
+            "1 ui (120 g)",
             "2 teentjes knoflook",
             "200 ml kippenbouillon",
             "150 ml rode druivensap",
             "1 bouquet garni",
-            "1 eetlepel bloem (10 g)",
-            "2 eetlepels olijfolie (30 ml)",
-            "Zout en peper naar smaak"
+            "1 eetlepel bloem",
+            "2 eetlepels olijfolie",
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Dit recept is voor 4 personen. Schil en snijd de wortelen, snipper de ui en knoflook. Bak de spekblokjes in olijfolie in de pan. Voeg de kip toe en bak rondom bruin. Bestrooi met bloem en meng goed. Voeg wortelen, ui, knoflook, bouquet garni, bouillon en druivensap toe. Dek af en laat 1,5 uur op laag vuur sudderen. Breng op smaak voor het opdienen."
+            "1. Schil en snijd de wortelen.\n" +
+            "2. Schil en snijd de ui.\n" +
+            "3. Schil en hak de knoflook.\n" +
+            "4. Verhit olijfolie in een grote pan.\n" +
+            "5. Voeg de kalkoen- of kipblokjes toe.\n" +
+            "6. Bak 5 minuten.\n" +
+            "7. Voeg de kip toe.\n" +
+            "8. Bak rondom bruin.\n" +
+            "9. Strooi bloem erover.\n" +
+            "10. Meng goed.\n" +
+            "11. Voeg groenten toe.\n" +
+            "12. Voeg bouquet garni toe.\n" +
+            "13. Voeg bouillon toe.\n" +
+            "14. Voeg druivensap toe.\n" +
+            "15. Breng op smaak.\n" +
+            "16. Dek af.\n" +
+            "17. Laat 1,5 uur sudderen.\n" +
+            "18. Roer af en toe.\n" +
+            "19. Controleer gaarheid.\n" +
+            "20. Breng indien nodig verder op smaak.\n" +
+            "21. Serveer warm.\n"
     },
+
     ar: {
-        title: "دجاج بالمرق بطريقة Coq au Vin (يكفي 4 أشخاص)",
+        title: "دجاج بطريقة Coq au Vin (وصفة تقليدية مُعاد ابتكارها)",
         equipment: [
             "قدر كبير",
             "سكين",
@@ -16684,28 +17972,56 @@ recipesData.plat.coqAuVin = {
             "كوب قياس"
         ],
         ingredients: [
-            "دجاجة كاملة مقطعة (1.5 كغ)",
-            "150 غ لحم مقدد مقطع",
-            "2 جزرات متوسطة (200غ)",
-            "بصلة متوسطة (120غ)",
+            "دجاجة كاملة مقطعة (حوالي 1.5 كغ)",
+            "150 غ لحم ديك رومي أو دجاج مقطع",
+            "2 جزرة (200 غ)",
+            "1 بصلة (120 غ)",
             "2 فص ثوم",
             "200 مل مرق دجاج",
             "150 مل عصير عنب أحمر",
             "باقة أعشاب",
-            "ملعقة كبيرة دقيق (10غ)",
-            "2 ملعقة كبيرة زيت زيتون (30مل)",
-            "ملح وفلفل حسب الرغبة"
+            "ملعقة كبيرة دقيق",
+            "2 ملعقة كبيرة زيت زيتون",
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "هذه الوصفة تكفي 4 أشخاص. قشر وقطع الجزرات، وقطع البصل والثوم. في قدر كبير، قم بتحمير اللحم المقدد في زيت الزيتون. أضف الدجاج وقلّب حتى يتحمر من جميع الجهات. رش الدقيق وامزج جيداً. أضف الجزرات والبصل والثوم وباقة الأعشاب والمرق وعصير العنب. غطِّ واتركه ينضج على نار هادئة لمدة ساعة ونصف. تذوق قبل التقديم."
+            "1. قشّر وقطّع الجزر.\n" +
+            "2. قشّر وقطّع البصل.\n" +
+            "3. قشّر وافرُم الثوم.\n" +
+            "4. سخّن زيت الزيتون في قدر كبير.\n" +
+            "5. أضف لحم الديك الرومي أو الدجاج.\n" +
+            "6. اطهه 5 دقائق.\n" +
+            "7. أضف الدجاج.\n" +
+            "8. حمّره من جميع الجهات.\n" +
+            "9. رش الدقيق.\n" +
+            "10. حرّك جيداً.\n" +
+            "11. أضف الخضار.\n" +
+            "12. أضف باقة الأعشاب.\n" +
+            "13. أضف المرق.\n" +
+            "14. أضف عصير العنب.\n" +
+            "15. تبّل بالملح والفلفل.\n" +
+            "16. غطّ القدر.\n" +
+            "17. اتركه ينضج 1 ساعة و30 دقيقة.\n" +
+            "18. حرّك أحياناً.\n" +
+            "19. تحقق من النضج.\n" +
+            "20. عدّل التتبيل إن لزم.\n" +
+            "21. قدّم ساخناً.\n"
     }
 };
-// -------------------- BOEUF BOURGUIGNON --------------------
 recipesData.plat.boeufBourguignon = {
     country: "france",
     image: "images/boeuf-bourguignon.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 120,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Boeuf Bourguignon revisité (4 personnes)",
+        title: "Bœuf bourguignon revisité (inspiré de la recette traditionnelle)",
         equipment: [
             "1 grande cocotte",
             "1 couteau",
@@ -16714,25 +18030,49 @@ recipesData.plat.boeufBourguignon = {
             "1 verre doseur"
         ],
         ingredients: [
-            "600 g de boeuf à braiser",
-            "150 g de lardons",
+            "600 g de bœuf à braiser",
+            "150 g de lardons de dinde ou de poulet",
             "2 carottes moyennes (200 g)",
             "1 oignon moyen (120 g)",
             "2 gousses d’ail",
-            "200 ml de bouillon de boeuf",
+            "200 ml de bouillon de bœuf",
             "150 ml de jus de raisin rouge",
             "1 bouquet garni",
-            "1 cuillère à soupe de farine (10 g)",
-            "2 cuillères à soupe d’huile d’olive (30 ml)",
-            "Sel et poivre selon goût"
+            "1 cuillère à soupe de farine",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Cette recette est pour 4 personnes. Éplucher et couper les carottes en rondelles, émincer l’oignon et l’ail. Faire revenir les lardons dans la cocotte avec l’huile d’olive. Ajouter le boeuf et le faire dorer. Saupoudrer de farine et mélanger. Ajouter les carottes, l’oignon, l’ail, le bouquet garni, le bouillon et le jus de raisin. Couvrir et laisser mijoter à feu doux pendant 2 heures. Vérifier l’assaisonnement avant de servir chaud."
+            "1. Éplucher les carottes.\n" +
+            "2. Couper les carottes en rondelles.\n" +
+            "3. Éplucher et émincer l’oignon.\n" +
+            "4. Éplucher et hacher l’ail.\n" +
+            "5. Chauffer l’huile d’olive dans une grande cocotte.\n" +
+            "6. Ajouter les lardons de dinde ou de poulet.\n" +
+            "7. Faire revenir 5 minutes.\n" +
+            "8. Ajouter les morceaux de bœuf.\n" +
+            "9. Faire dorer sur toutes les faces.\n" +
+            "10. Saupoudrer de farine.\n" +
+            "11. Mélanger pour bien enrober la viande.\n" +
+            "12. Ajouter les carottes, l’oignon et l’ail.\n" +
+            "13. Ajouter le bouquet garni.\n" +
+            "14. Verser le bouillon de bœuf.\n" +
+            "15. Ajouter le jus de raisin rouge.\n" +
+            "16. Saler.\n" +
+            "17. Poivrer.\n" +
+            "18. Couvrir la cocotte.\n" +
+            "19. Laisser mijoter à feu doux pendant 2 heures.\n" +
+            "20. Remuer de temps en temps.\n" +
+            "21. Vérifier la cuisson de la viande.\n" +
+            "22. Rectifier l’assaisonnement si nécessaire.\n" +
+            "23. Servir chaud.\n"
     },
+
     en: {
-        title: "Revisited Beef Bourguignon (Serves 4)",
+        title: "Revisited Beef Bourguignon (inspired by the traditional recipe)",
         equipment: [
-            "1 large pot",
+            "1 large Dutch oven",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
@@ -16740,47 +18080,95 @@ recipesData.plat.boeufBourguignon = {
         ],
         ingredients: [
             "600 g beef for braising",
-            "150 g bacon lardons",
+            "150 g turkey or chicken lardons",
             "2 carrots (200 g)",
             "1 medium onion (120 g)",
             "2 garlic cloves",
             "200 ml beef stock",
             "150 ml red grape juice",
             "1 bouquet garni",
-            "1 tablespoon flour (10 g)",
-            "2 tablespoons olive oil (30 ml)",
-            "Salt and pepper to taste"
+            "1 tablespoon flour",
+            "2 tablespoons olive oil",
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "This recipe serves 4. Peel and slice the carrots, chop the onion and garlic. In a large pot, sauté the bacon in olive oil. Add beef and brown all sides. Sprinkle with flour and mix. Add carrots, onion, garlic, bouquet garni, stock, and grape juice. Cover and simmer on low heat for 2 hours. Adjust seasoning before serving hot."
+            "1. Peel the carrots.\n" +
+            "2. Slice the carrots.\n" +
+            "3. Peel and slice the onion.\n" +
+            "4. Peel and chop the garlic.\n" +
+            "5. Heat olive oil in a large pot.\n" +
+            "6. Add turkey or chicken lardons.\n" +
+            "7. Cook for 5 minutes.\n" +
+            "8. Add the beef pieces.\n" +
+            "9. Brown on all sides.\n" +
+            "10. Sprinkle with flour.\n" +
+            "11. Stir well to coat the meat.\n" +
+            "12. Add carrots, onion and garlic.\n" +
+            "13. Add bouquet garni.\n" +
+            "14. Pour in beef stock.\n" +
+            "15. Add red grape juice.\n" +
+            "16. Season with salt.\n" +
+            "17. Season with pepper.\n" +
+            "18. Cover the pot.\n" +
+            "19. Simmer on low heat for 2 hours.\n" +
+            "20. Stir occasionally.\n" +
+            "21. Check tenderness.\n" +
+            "22. Adjust seasoning if needed.\n" +
+            "23. Serve hot.\n"
     },
+
     nl: {
-        title: "Herziene Boeuf Bourguignon (voor 4 personen)",
+        title: "Herziene Boeuf Bourguignon (geïnspireerd op het originele recept)",
         equipment: [
-            "1 grote pan",
+            "1 grote braadpan",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
             "1 maatbeker"
         ],
         ingredients: [
-            "600 g rundvlees voor stoven",
-            "150 g spekblokjes",
+            "600 g rundvlees om te stoven",
+            "150 g kalkoen- of kipblokjes",
             "2 wortelen (200 g)",
-            "1 middelgrote ui (120 g)",
+            "1 ui (120 g)",
             "2 teentjes knoflook",
             "200 ml runderbouillon",
             "150 ml rode druivensap",
             "1 bouquet garni",
-            "1 eetlepel bloem (10 g)",
-            "2 eetlepels olijfolie (30 ml)",
-            "Zout en peper naar smaak"
+            "1 eetlepel bloem",
+            "2 eetlepels olijfolie",
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Dit recept is voor 4 personen. Schil en snijd de wortelen, snipper de ui en knoflook. Bak de spekblokjes in olijfolie. Voeg het rundvlees toe en bak rondom bruin. Bestrooi met bloem en meng goed. Voeg wortelen, ui, knoflook, bouquet garni, bouillon en druivensap toe. Dek af en laat 2 uur op laag vuur sudderen. Breng op smaak voor het opdienen."
+            "1. Schil de wortelen.\n" +
+            "2. Snijd de wortelen in plakjes.\n" +
+            "3. Pel en snijd de ui.\n" +
+            "4. Pel en hak de knoflook.\n" +
+            "5. Verhit olijfolie in een grote pan.\n" +
+            "6. Voeg de kalkoen- of kipblokjes toe.\n" +
+            "7. Bak 5 minuten.\n" +
+            "8. Voeg het rundvlees toe.\n" +
+            "9. Bak rondom bruin.\n" +
+            "10. Bestrooi met bloem.\n" +
+            "11. Meng goed.\n" +
+            "12. Voeg wortelen, ui en knoflook toe.\n" +
+            "13. Voeg bouquet garni toe.\n" +
+            "14. Voeg bouillon toe.\n" +
+            "15. Voeg druivensap toe.\n" +
+            "16. Breng op smaak met zout.\n" +
+            "17. Breng op smaak met peper.\n" +
+            "18. Dek af.\n" +
+            "19. Laat 2 uur sudderen op laag vuur.\n" +
+            "20. Roer af en toe.\n" +
+            "21. Controleer gaarheid.\n" +
+            "22. Breng indien nodig verder op smaak.\n" +
+            "23. Serveer warm.\n"
     },
+
     ar: {
-        title: "لحم البقر بصلصة بورغينيون (يكفي 4 أشخاص)",
+        title: "لحم بقر بورغينيون (وصفة تقليدية مُعاد ابتكارها)",
         equipment: [
             "قدر كبير",
             "سكين",
@@ -16790,195 +18178,407 @@ recipesData.plat.boeufBourguignon = {
         ],
         ingredients: [
             "600 غ لحم بقر للطهي البطيء",
-            "150 غ لحم مقدد",
-            "2 جزرات متوسطة (200 غ)",
-            "بصلة متوسطة (120 غ)",
+            "150 غ لحم ديك رومي أو دجاج مقطع",
+            "2 جزرة (200 غ)",
+            "1 بصلة (120 غ)",
             "2 فص ثوم",
             "200 مل مرق لحم بقر",
             "150 مل عصير عنب أحمر",
             "باقة أعشاب",
-            "ملعقة كبيرة دقيق (10 غ)",
-            "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "ملح وفلفل حسب الرغبة"
+            "ملعقة كبيرة دقيق",
+            "2 ملعقة كبيرة زيت زيتون",
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "هذه الوصفة تكفي 4 أشخاص. قشر وقطع الجزرات، وقطع البصل والثوم. حمّر اللحم المقدد في قدر كبير مع زيت الزيتون. أضف اللحم وقلّب حتى يتحمر. رش الدقيق وامزج جيداً. أضف الجزرات والبصل والثوم وباقة الأعشاب والمرق وعصير العنب. غطِّ واتركه على نار هادئة لمدة ساعتين. تذوق قبل التقديم."
+            "1. قشّر الجزر.\n" +
+            "2. قطّع الجزر إلى شرائح.\n" +
+            "3. قشّر وقطّع البصل.\n" +
+            "4. قشّر وافرُم الثوم.\n" +
+            "5. سخّن زيت الزيتون في قدر كبير.\n" +
+            "6. أضف لحم الديك الرومي أو الدجاج.\n" +
+            "7. اطهه 5 دقائق.\n" +
+            "8. أضف لحم البقر.\n" +
+            "9. حمّره من جميع الجهات.\n" +
+            "10. رش الدقيق.\n" +
+            "11. حرّك جيداً.\n" +
+            "12. أضف الجزر والبصل والثوم.\n" +
+            "13. أضف باقة الأعشاب.\n" +
+            "14. أضف مرق اللحم.\n" +
+            "15. أضف عصير العنب.\n" +
+            "16. أضف الملح.\n" +
+            "17. أضف الفلفل.\n" +
+            "18. غطّ القدر.\n" +
+            "19. اتركه ينضج لمدة ساعتين على نار هادئة.\n" +
+            "20. حرّك من وقت لآخر.\n" +
+            "21. تحقق من النضج.\n" +
+            "22. عدّل التتبيل إذا لزم.\n" +
+            "23. قدّم ساخناً.\n"
     }
 };
-
-// -------------------- GRATIN DAUPHINOIS --------------------
 recipesData.plat.gratinDauphinois = {
     country: "france",
     image: "images/gratin-dauphinois.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 50,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Gratin Dauphinois (4 personnes)",
+        title: "Gratin dauphinois",
         equipment: [
             "1 plat à gratin",
             "1 couteau",
             "1 planche à découper",
-            "1 cuillère en bois",
-            "1 bol"
+            "1 saladier",
+            "1 cuillère en bois"
         ],
         ingredients: [
             "800 g de pommes de terre",
             "200 ml de crème fraîche",
             "2 gousses d’ail",
             "50 g de beurre",
-            "Sel et poivre selon goût"
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Cette recette est pour 4 personnes. Préchauffer le four à 180°C. Éplucher et couper les pommes de terre en fines rondelles. Frotter le plat à gratin avec une gousse d’ail coupée en deux. Disposer les pommes de terre en couches dans le plat, en salant et poivrant chaque couche. Verser la crème par-dessus et parsemer de petits morceaux de beurre. Cuire au four pendant 45 à 50 minutes jusqu’à ce que le gratin soit doré et fondant. Servir chaud."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Éplucher les pommes de terre.\n" +
+            "3. Couper les pommes de terre en fines rondelles.\n" +
+            "4. Éplucher les gousses d’ail.\n" +
+            "5. Couper une gousse d’ail en deux.\n" +
+            "6. Frotter le plat à gratin avec l’ail.\n" +
+            "7. Beurrer légèrement le plat.\n" +
+            "8. Disposer une première couche de pommes de terre.\n" +
+            "9. Saler.\n" +
+            "10. Poivrer.\n" +
+            "11. Répéter l’opération jusqu’à épuisement des pommes de terre.\n" +
+            "12. Verser la crème sur l’ensemble.\n" +
+            "13. Répartir le reste du beurre en petits morceaux.\n" +
+            "14. Enfourner.\n" +
+            "15. Cuire 45 à 50 minutes.\n" +
+            "16. Vérifier que les pommes de terre sont fondantes.\n" +
+            "17. Sortir du four.\n" +
+            "18. Servir chaud.\n"
     },
+
     en: {
-        title: "Gratin Dauphinois (Serves 4)",
+        title: "Gratin Dauphinois",
         equipment: [
             "1 gratin dish",
             "1 knife",
             "1 cutting board",
-            "1 wooden spoon",
-            "1 bowl"
+            "1 mixing bowl",
+            "1 wooden spoon"
         ],
         ingredients: [
             "800 g potatoes",
             "200 ml cream",
             "2 garlic cloves",
             "50 g butter",
-            "Salt and pepper to taste"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "This recipe serves 4. Preheat oven to 180°C. Peel and slice the potatoes thinly. Rub the gratin dish with a halved garlic clove. Layer the potatoes in the dish, seasoning each layer with salt and pepper. Pour the cream over and scatter small pieces of butter on top. Bake for 45–50 minutes until golden and tender. Serve hot."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Peel the potatoes.\n" +
+            "3. Slice the potatoes thinly.\n" +
+            "4. Peel the garlic cloves.\n" +
+            "5. Cut one clove in half.\n" +
+            "6. Rub the gratin dish with garlic.\n" +
+            "7. Lightly butter the dish.\n" +
+            "8. Arrange a first layer of potatoes.\n" +
+            "9. Season with salt.\n" +
+            "10. Season with pepper.\n" +
+            "11. Repeat until all potatoes are used.\n" +
+            "12. Pour the cream over the potatoes.\n" +
+            "13. Add small pieces of butter on top.\n" +
+            "14. Place in the oven.\n" +
+            "15. Bake for 45–50 minutes.\n" +
+            "16. Check that potatoes are tender.\n" +
+            "17. Remove from the oven.\n" +
+            "18. Serve hot.\n"
     },
+
     nl: {
-        title: "Gratin Dauphinois (voor 4 personen)",
+        title: "Gratin Dauphinois",
         equipment: [
             "1 ovenschaal",
             "1 mes",
             "1 snijplank",
-            "1 houten lepel",
-            "1 kom"
+            "1 kom",
+            "1 houten lepel"
         ],
         ingredients: [
             "800 g aardappelen",
             "200 ml room",
             "2 teentjes knoflook",
             "50 g boter",
-            "Zout en peper naar smaak"
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Dit recept is voor 4 personen. Verwarm de oven voor op 180°C. Schil en snijd de aardappelen in dunne plakjes. Wrijf de ovenschaal in met een gehalveerde knoflookteen. Leg de aardappelen in lagen in de schaal, bestrooi elke laag met zout en peper. Giet de room erover en verdeel stukjes boter. Bak 45–50 minuten tot goudbruin en zacht. Serveer warm."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Schil de aardappelen.\n" +
+            "3. Snijd de aardappelen in dunne plakjes.\n" +
+            "4. Pel de knoflook.\n" +
+            "5. Snijd één teentje doormidden.\n" +
+            "6. Wrijf de ovenschaal in met knoflook.\n" +
+            "7. Vet de schaal licht in met boter.\n" +
+            "8. Leg een laag aardappelen in de schaal.\n" +
+            "9. Breng op smaak met zout.\n" +
+            "10. Breng op smaak met peper.\n" +
+            "11. Herhaal tot alle aardappelen gebruikt zijn.\n" +
+            "12. Giet de room erover.\n" +
+            "13. Verdeel stukjes boter bovenop.\n" +
+            "14. Zet in de oven.\n" +
+            "15. Bak 45–50 minuten.\n" +
+            "16. Controleer of de aardappelen gaar zijn.\n" +
+            "17. Haal uit de oven.\n" +
+            "18. Serveer warm.\n"
     },
+
     ar: {
-        title: "غراتان دوبفانوا (يكفي 4 أشخاص)",
+        title: "غراتان دوبفانوا",
         equipment: [
             "طبق غراتان",
             "سكين",
             "لوح تقطيع",
-            "ملعقة خشبية",
-            "وعاء"
+            "وعاء",
+            "ملعقة خشبية"
         ],
         ingredients: [
             "800 غ بطاطس",
             "200 مل كريمة",
             "2 فص ثوم",
             "50 غ زبدة",
-            "ملح وفلفل حسب الرغبة"
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "هذه الوصفة تكفي 4 أشخاص. سخّن الفرن على 180°C. قشر وقطع البطاطس إلى شرائح رفيعة. افرك طبق الغراتان بنصف فص ثوم. رص البطاطس في الطبق بطبقات، مع إضافة الملح والفلفل على كل طبقة. صب الكريمة فوقها ووزع قطع الزبدة. اخبز 45-50 دقيقة حتى يتحمر ويصبح طرياً. قدمه ساخناً."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. قشّر البطاطس.\n" +
+            "3. قطّع البطاطس إلى شرائح رفيعة.\n" +
+            "4. قشّر فصوص الثوم.\n" +
+            "5. اقطع فص ثوم إلى نصفين.\n" +
+            "6. افرك طبق الغراتان بالثوم.\n" +
+            "7. ادهن الطبق بقليل من الزبدة.\n" +
+            "8. رص طبقة من البطاطس.\n" +
+            "9. أضف الملح.\n" +
+            "10. أضف الفلفل.\n" +
+            "11. كرر حتى انتهاء البطاطس.\n" +
+            "12. اسكب الكريمة فوق البطاطس.\n" +
+            "13. وزّع قطع الزبدة على الوجه.\n" +
+            "14. أدخل الطبق إلى الفرن.\n" +
+            "15. اطهه لمدة 45–50 دقيقة.\n" +
+            "16. تأكد من طراوة البطاطس.\n" +
+            "17. أخرج الطبق من الفرن.\n" +
+            "18. قدّم ساخناً.\n"
     }
 };
-// -------------------- Poulet Provençal --------------------
 recipesData.plat.pouletProvencal = {
     country: "france",
     image: "images/poulet-provencal.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Poulet Provençal (4 personnes)",
+        title: "Poulet provençal",
         equipment: [
-            "1 grande poêle",
+            "1 grande poêle ou sauteuse",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois"
         ],
         ingredients: [
             "4 cuisses de poulet",
-            "2 poivrons (rouge et jaune)",
+            "1 poivron rouge",
+            "1 poivron jaune",
             "2 tomates moyennes",
             "1 oignon",
             "2 gousses d’ail",
             "2 cuillères à soupe d’huile d’olive",
-            "Herbes de Provence, sel, poivre"
+            "Herbes de Provence",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Préchauffer la poêle à feu moyen. Émincer les poivrons, tomates, oignon et ail. Faire revenir le poulet dans l’huile jusqu’à doré. Ajouter les légumes et herbes de Provence. Couvrir et laisser mijoter 30 minutes. Servir chaud."
+            "1. Laver les poivrons et les tomates.\n" +
+            "2. Couper les poivrons en lanières.\n" +
+            "3. Couper les tomates en quartiers.\n" +
+            "4. Éplucher et émincer l’oignon.\n" +
+            "5. Éplucher et hacher l’ail.\n" +
+            "6. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "7. Ajouter les cuisses de poulet.\n" +
+            "8. Faire dorer sur toutes les faces.\n" +
+            "9. Ajouter l’oignon et l’ail.\n" +
+            "10. Faire revenir 2 à 3 minutes.\n" +
+            "11. Ajouter les poivrons et les tomates.\n" +
+            "12. Ajouter les herbes de Provence.\n" +
+            "13. Saler.\n" +
+            "14. Poivrer.\n" +
+            "15. Mélanger.\n" +
+            "16. Couvrir.\n" +
+            "17. Laisser mijoter à feu doux pendant 30 minutes.\n" +
+            "18. Remuer de temps en temps.\n" +
+            "19. Vérifier la cuisson du poulet.\n" +
+            "20. Rectifier l’assaisonnement si nécessaire.\n" +
+            "21. Servir chaud.\n"
     },
+
     en: {
-        title: "Provençal Chicken (Serves 4)",
+        title: "Provençal Chicken",
         equipment: [
-            "1 large pan",
+            "1 large pan or sauté pan",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon"
         ],
         ingredients: [
             "4 chicken thighs",
-            "2 peppers (red and yellow)",
+            "1 red bell pepper",
+            "1 yellow bell pepper",
             "2 medium tomatoes",
             "1 onion",
             "2 garlic cloves",
             "2 tablespoons olive oil",
-            "Herbes de Provence, salt, pepper"
+            "Herbes de Provence",
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "Preheat pan over medium heat. Slice peppers, tomatoes, onion, and garlic. Sauté chicken in olive oil until golden. Add vegetables and Herbes de Provence. Cover and simmer 30 minutes. Serve hot."
+            "1. Wash the peppers and tomatoes.\n" +
+            "2. Slice the peppers.\n" +
+            "3. Cut the tomatoes into wedges.\n" +
+            "4. Peel and slice the onion.\n" +
+            "5. Peel and chop the garlic.\n" +
+            "6. Heat olive oil in a large pan.\n" +
+            "7. Add the chicken thighs.\n" +
+            "8. Brown on all sides.\n" +
+            "9. Add the onion and garlic.\n" +
+            "10. Cook for 2–3 minutes.\n" +
+            "11. Add peppers and tomatoes.\n" +
+            "12. Add Herbes de Provence.\n" +
+            "13. Season with salt.\n" +
+            "14. Season with pepper.\n" +
+            "15. Stir well.\n" +
+            "16. Cover.\n" +
+            "17. Simmer on low heat for 30 minutes.\n" +
+            "18. Stir occasionally.\n" +
+            "19. Check chicken is cooked through.\n" +
+            "20. Adjust seasoning if needed.\n" +
+            "21. Serve hot.\n"
     },
+
     nl: {
-        title: "Provençaalse Kip (voor 4 personen)",
+        title: "Provençaalse kip",
         equipment: [
-            "1 grote pan",
+            "1 grote pan of sauteerpan",
             "1 mes",
             "1 snijplank",
             "1 houten lepel"
         ],
         ingredients: [
             "4 kippenbouten",
-            "2 paprika's (rood en geel)",
-            "2 middelgrote tomaten",
+            "1 rode paprika",
+            "1 gele paprika",
+            "2 tomaten",
             "1 ui",
             "2 teentjes knoflook",
             "2 eetlepels olijfolie",
-            "Provençaalse kruiden, zout, peper"
+            "Provençaalse kruiden",
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Verhit de pan op middelhoog vuur. Snijd paprika, tomaten, ui en knoflook. Bak de kip in olijfolie tot goudbruin. Voeg groenten en Provençaalse kruiden toe. Dek af en laat 30 minuten sudderen. Serveer warm."
+            "1. Was de paprika’s en tomaten.\n" +
+            "2. Snijd de paprika’s in reepjes.\n" +
+            "3. Snijd de tomaten in partjes.\n" +
+            "4. Pel en snijd de ui.\n" +
+            "5. Pel en hak de knoflook.\n" +
+            "6. Verhit olijfolie in een grote pan.\n" +
+            "7. Voeg de kippenbouten toe.\n" +
+            "8. Bak rondom goudbruin.\n" +
+            "9. Voeg ui en knoflook toe.\n" +
+            "10. Bak 2–3 minuten.\n" +
+            "11. Voeg paprika en tomaten toe.\n" +
+            "12. Voeg Provençaalse kruiden toe.\n" +
+            "13. Voeg zout toe.\n" +
+            "14. Voeg peper toe.\n" +
+            "15. Meng alles.\n" +
+            "16. Dek af.\n" +
+            "17. Laat 30 minuten sudderen op laag vuur.\n" +
+            "18. Roer af en toe.\n" +
+            "19. Controleer of de kip gaar is.\n" +
+            "20. Breng indien nodig verder op smaak.\n" +
+            "21. Serveer warm.\n"
     },
+
     ar: {
-        title: "دجاج بروفنسال (يكفي 4 أشخاص)",
+        title: "دجاج بروفنسال",
         equipment: [
-            "مقلاة كبيرة",
+            "مقلاة كبيرة أو مقلاة عميقة",
             "سكين",
             "لوح تقطيع",
             "ملعقة خشبية"
         ],
         ingredients: [
             "4 أفخاذ دجاج",
-            "2 فليفلة (أحمر وأصفر)",
-            "2 طماطم متوسطة",
+            "1 فلفل أحمر",
+            "1 فلفل أصفر",
+            "2 طماطم",
             "1 بصلة",
             "2 فص ثوم",
             "2 ملعقة كبيرة زيت زيتون",
-            "أعشاب بروفنس، ملح، فلفل"
+            "أعشاب بروفنس",
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "سخّن المقلاة على حرارة متوسطة. قطع الفليفلة والطماطم والبصل والثوم. اقلي الدجاج في الزيت حتى يصبح ذهبي اللون. أضف الخضار والأعشاب. غطّ واتركه ينضج لمدة 30 دقيقة. قدمه ساخناً."
+            "1. اغسل الفلفل والطماطم.\n" +
+            "2. قطّع الفلفل إلى شرائح.\n" +
+            "3. قطّع الطماطم إلى أرباع.\n" +
+            "4. قشّر وقطّع البصل.\n" +
+            "5. قشّر وافرُم الثوم.\n" +
+            "6. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "7. أضف أفخاذ الدجاج.\n" +
+            "8. حمّرها من جميع الجهات.\n" +
+            "9. أضف البصل والثوم.\n" +
+            "10. اطههما 2–3 دقائق.\n" +
+            "11. أضف الفلفل والطماطم.\n" +
+            "12. أضف أعشاب بروفنس.\n" +
+            "13. أضف الملح.\n" +
+            "14. أضف الفلفل.\n" +
+            "15. حرّك جيداً.\n" +
+            "16. غطّ المقلاة.\n" +
+            "17. اتركه ينضج 30 دقيقة على نار هادئة.\n" +
+            "18. حرّك أحياناً.\n" +
+            "19. تأكد من نضج الدجاج.\n" +
+            "20. عدّل التتبيل إذا لزم.\n" +
+            "21. قدّم ساخناً.\n"
     }
 };
-
-// -------------------- Filet de Saumon à la Crème --------------------
 recipesData.plat.saumonCreme = {
     country: "france",
     image: "images/saumon-creme.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Filet de Saumon à la Crème (4 personnes)",
+        title: "Filet de saumon à la crème",
         equipment: [
             "1 poêle",
             "1 couteau",
@@ -16991,13 +18591,31 @@ recipesData.plat.saumonCreme = {
             "1 citron",
             "1 échalote",
             "1 cuillère à soupe d’huile d’olive",
-            "Sel, poivre"
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Émincer l’échalote. Faire revenir dans l’huile d’olive 2 minutes. Ajouter le saumon et cuire 5-6 minutes de chaque côté. Verser la crème, presser le citron, saler et poivrer. Laisser mijoter 5 minutes. Servir chaud."
+            "1. Éplucher l’échalote.\n" +
+            "2. Émincer finement l’échalote.\n" +
+            "3. Chauffer l’huile d’olive dans une poêle.\n" +
+            "4. Ajouter l’échalote.\n" +
+            "5. Faire revenir 2 minutes à feu moyen.\n" +
+            "6. Ajouter les filets de saumon.\n" +
+            "7. Cuire 5 à 6 minutes sur la première face.\n" +
+            "8. Retourner les filets.\n" +
+            "9. Cuire 5 à 6 minutes sur l’autre face.\n" +
+            "10. Verser la crème fraîche.\n" +
+            "11. Presser le citron.\n" +
+            "12. Ajouter le jus de citron.\n" +
+            "13. Saler.\n" +
+            "14. Poivrer.\n" +
+            "15. Laisser mijoter 5 minutes à feu doux.\n" +
+            "16. Vérifier la cuisson du saumon.\n" +
+            "17. Servir chaud.\n"
     },
+
     en: {
-        title: "Salmon Fillet with Cream (Serves 4)",
+        title: "Salmon Fillet with Cream",
         equipment: [
             "1 pan",
             "1 knife",
@@ -17010,13 +18628,31 @@ recipesData.plat.saumonCreme = {
             "1 lemon",
             "1 shallot",
             "1 tablespoon olive oil",
-            "Salt, pepper"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "Chop shallot. Sauté in olive oil 2 minutes. Add salmon and cook 5-6 minutes each side. Pour cream, squeeze lemon, salt and pepper. Simmer 5 minutes. Serve hot."
+            "1. Peel the shallot.\n" +
+            "2. Finely chop the shallot.\n" +
+            "3. Heat olive oil in a pan.\n" +
+            "4. Add the shallot.\n" +
+            "5. Cook for 2 minutes over medium heat.\n" +
+            "6. Add the salmon fillets.\n" +
+            "7. Cook for 5–6 minutes on the first side.\n" +
+            "8. Turn the fillets over.\n" +
+            "9. Cook for 5–6 minutes on the other side.\n" +
+            "10. Pour in the cream.\n" +
+            "11. Squeeze the lemon.\n" +
+            "12. Add the lemon juice.\n" +
+            "13. Season with salt.\n" +
+            "14. Season with pepper.\n" +
+            "15. Simmer for 5 minutes on low heat.\n" +
+            "16. Check the salmon is cooked through.\n" +
+            "17. Serve hot.\n"
     },
+
     nl: {
-        title: "Zalmfilet met room (voor 4 personen)",
+        title: "Zalmfilet met room",
         equipment: [
             "1 pan",
             "1 mes",
@@ -17029,13 +18665,31 @@ recipesData.plat.saumonCreme = {
             "1 citroen",
             "1 sjalot",
             "1 eetlepel olijfolie",
-            "Zout, peper"
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Snipper sjalot en bak 2 minuten in olijfolie. Voeg zalm toe en bak 5-6 minuten per kant. Voeg room toe, pers citroen, zout en peper. Laat 5 minuten sudderen. Serveer warm."
+            "1. Pel de sjalot.\n" +
+            "2. Snijd de sjalot fijn.\n" +
+            "3. Verhit olijfolie in een pan.\n" +
+            "4. Voeg de sjalot toe.\n" +
+            "5. Bak 2 minuten op middelhoog vuur.\n" +
+            "6. Voeg de zalmfilets toe.\n" +
+            "7. Bak 5–6 minuten aan de eerste kant.\n" +
+            "8. Draai de filets om.\n" +
+            "9. Bak 5–6 minuten aan de andere kant.\n" +
+            "10. Voeg de room toe.\n" +
+            "11. Pers de citroen uit.\n" +
+            "12. Voeg het citroensap toe.\n" +
+            "13. Breng op smaak met zout.\n" +
+            "14. Breng op smaak met peper.\n" +
+            "15. Laat 5 minuten zachtjes sudderen.\n" +
+            "16. Controleer of de zalm gaar is.\n" +
+            "17. Serveer warm.\n"
     },
+
     ar: {
-        title: "فيليه سمك السلمون بالكريمة (يكفي 4 أشخاص)",
+        title: "فيليه سلمون بالكريمة",
         equipment: [
             "مقلاة",
             "سكين",
@@ -17046,23 +18700,46 @@ recipesData.plat.saumonCreme = {
             "4 فيليه سلمون",
             "200 مل كريمة",
             "1 ليمونة",
-            "1 ك Schalotte",
+            "1 كراثة صغيرة",
             "1 ملعقة كبيرة زيت زيتون",
-            "ملح، فلفل"
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "قطّع الشالوتة. اقليها في الزيت 2 دقيقة. أضف السلمون واطهي 5-6 دقائق لكل جانب. أضف الكريمة، اعصر الليمون، ضع الملح والفلفل. اتركه 5 دقائق على نار هادئة. قدمه ساخناً."
+            "1. قشّر الكراثة.\n" +
+            "2. افرم الكراثة ناعماً.\n" +
+            "3. سخّن زيت الزيتون في مقلاة.\n" +
+            "4. أضف الكراثة.\n" +
+            "5. اطهها دقيقتين على نار متوسطة.\n" +
+            "6. أضف فيليه السلمون.\n" +
+            "7. اطهه 5–6 دقائق على الجهة الأولى.\n" +
+            "8. اقلب الفيليه.\n" +
+            "9. اطهه 5–6 دقائق على الجهة الأخرى.\n" +
+            "10. أضف الكريمة.\n" +
+            "11. اعصر الليمون.\n" +
+            "12. أضف عصير الليمون.\n" +
+            "13. أضف الملح.\n" +
+            "14. أضف الفلفل.\n" +
+            "15. اتركه ينضج 5 دقائق على نار هادئة.\n" +
+            "16. تأكد من نضج السلمون.\n" +
+            "17. قدّم ساخناً.\n"
     }
 };
-
-// -------------------- Confit de Canard --------------------
 recipesData.plat.confitCanard = {
     country: "france",
     image: "images/confit-canard.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Confit de Canard (4 personnes)",
+        title: "Confit de canard",
         equipment: [
-            "1 poêle",
+            "1 grande poêle",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois"
@@ -17071,15 +18748,34 @@ recipesData.plat.confitCanard = {
             "4 cuisses de canard confites",
             "800 g de pommes de terre",
             "2 gousses d’ail",
-            "Sel, poivre"
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Préchauffer le four à 180°C. Éplucher et couper les pommes de terre en quartiers. Faire dorer les pommes de terre et l’ail dans une poêle. Ajouter les cuisses de canard et cuire 20 minutes. Servir chaud."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Éplucher les pommes de terre.\n" +
+            "3. Couper les pommes de terre en quartiers.\n" +
+            "4. Éplucher les gousses d’ail.\n" +
+            "5. Chauffer une grande poêle.\n" +
+            "6. Déposer les cuisses de canard côté peau.\n" +
+            "7. Faire dorer à feu moyen jusqu’à ce que la peau soit bien croustillante.\n" +
+            "8. Retirer les cuisses et réserver.\n" +
+            "9. Conserver un peu de graisse de canard dans la poêle.\n" +
+            "10. Ajouter les pommes de terre et l’ail.\n" +
+            "11. Faire dorer les pommes de terre.\n" +
+            "12. Saler et poivrer.\n" +
+            "13. Remettre les cuisses de canard dans la poêle.\n" +
+            "14. Enfourner l’ensemble.\n" +
+            "15. Laisser réchauffer 20 à 25 minutes.\n" +
+            "16. Vérifier que les pommes de terre sont fondantes.\n" +
+            "17. Sortir du four.\n" +
+            "18. Servir chaud.\n"
     },
+
     en: {
-        title: "Duck Confit (Serves 4)",
+        title: "Duck Confit",
         equipment: [
-            "1 pan",
+            "1 large pan",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon"
@@ -17088,15 +18784,34 @@ recipesData.plat.confitCanard = {
             "4 duck confit legs",
             "800 g potatoes",
             "2 garlic cloves",
-            "Salt, pepper"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "Preheat oven to 180°C. Peel and cut potatoes into quarters. Brown potatoes and garlic in a pan. Add duck legs and cook 20 minutes. Serve hot."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Peel the potatoes.\n" +
+            "3. Cut the potatoes into wedges.\n" +
+            "4. Peel the garlic cloves.\n" +
+            "5. Heat a large pan.\n" +
+            "6. Place the duck legs skin-side down.\n" +
+            "7. Brown over medium heat until crispy.\n" +
+            "8. Remove the duck and set aside.\n" +
+            "9. Keep some duck fat in the pan.\n" +
+            "10. Add potatoes and garlic.\n" +
+            "11. Brown the potatoes.\n" +
+            "12. Season with salt and pepper.\n" +
+            "13. Return the duck legs to the pan.\n" +
+            "14. Place in the oven.\n" +
+            "15. Reheat for 20–25 minutes.\n" +
+            "16. Check potatoes are tender.\n" +
+            "17. Remove from oven.\n" +
+            "18. Serve hot.\n"
     },
+
     nl: {
-        title: "Eendenconfit (voor 4 personen)",
+        title: "Eendenconfit",
         equipment: [
-            "1 pan",
+            "1 grote pan",
             "1 mes",
             "1 snijplank",
             "1 houten lepel"
@@ -17105,15 +18820,34 @@ recipesData.plat.confitCanard = {
             "4 eendenbouten confit",
             "800 g aardappelen",
             "2 teentjes knoflook",
-            "Zout, peper"
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Verwarm oven voor op 180°C. Schil en snijd aardappelen in parten. Bak aardappelen en knoflook in pan. Voeg eendenbouten toe en bak 20 minuten. Serveer warm."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Schil de aardappelen.\n" +
+            "3. Snijd de aardappelen in parten.\n" +
+            "4. Pel de knoflook.\n" +
+            "5. Verhit een grote pan.\n" +
+            "6. Leg de eendenbouten met de velkant naar beneden.\n" +
+            "7. Bak tot het vel krokant is.\n" +
+            "8. Haal de eendenbouten uit de pan.\n" +
+            "9. Bewaar wat eendenvet in de pan.\n" +
+            "10. Voeg aardappelen en knoflook toe.\n" +
+            "11. Bak goudbruin.\n" +
+            "12. Breng op smaak met zout en peper.\n" +
+            "13. Leg de eendenbouten terug in de pan.\n" +
+            "14. Zet in de oven.\n" +
+            "15. Verwarm 20–25 minuten.\n" +
+            "16. Controleer of de aardappelen gaar zijn.\n" +
+            "17. Haal uit de oven.\n" +
+            "18. Serveer warm.\n"
     },
+
     ar: {
-        title: "كونفي البط (يكفي 4 أشخاص)",
+        title: "كونفي البط",
         equipment: [
-            "مقلاة",
+            "مقلاة كبيرة",
             "سكين",
             "لوح تقطيع",
             "ملعقة خشبية"
@@ -17122,170 +18856,363 @@ recipesData.plat.confitCanard = {
             "4 أفخاذ بط كونفي",
             "800 غ بطاطس",
             "2 فص ثوم",
-            "ملح، فلفل"
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "سخّن الفرن على 180°C. قشر وقطع البطاطس إلى أرباع. حمّر البطاطس والثوم في المقلاة. أضف أفخاذ البط واطه لمدة 20 دقيقة. قدمه ساخناً."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. قشّر البطاطس.\n" +
+            "3. قطّع البطاطس إلى أرباع.\n" +
+            "4. قشّر فصوص الثوم.\n" +
+            "5. سخّن مقلاة كبيرة.\n" +
+            "6. ضع أفخاذ البط والجلد للأسفل.\n" +
+            "7. حمّرها حتى تصبح مقرمشة.\n" +
+            "8. أخرج أفخاذ البط واحتفظ بها جانباً.\n" +
+            "9. اترك القليل من دهن البط في المقلاة.\n" +
+            "10. أضف البطاطس والثوم.\n" +
+            "11. حمّر البطاطس جيداً.\n" +
+            "12. أضف الملح والفلفل.\n" +
+            "13. أعد أفخاذ البط إلى المقلاة.\n" +
+            "14. أدخلها إلى الفرن.\n" +
+            "15. سخّن لمدة 20–25 دقيقة.\n" +
+            "16. تأكد من طراوة البطاطس.\n" +
+            "17. أخرج الطبق من الفرن.\n" +
+            "18. قدّم ساخناً.\n"
     }
 };
-
-// -------------------- Quiche Lorraine sans alcool --------------------
 recipesData.plat.quicheLorraine = {
     country: "france",
     image: "images/quiche-lorraine.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Quiche Lorraine (4 personnes)",
+        title: "Quiche Lorraine",
         equipment: [
             "1 moule à tarte",
+            "1 saladier",
+            "1 fouet",
             "1 couteau",
-            "1 planche à découper",
-            "1 fouet"
+            "1 planche à découper"
         ],
         ingredients: [
             "1 pâte brisée",
             "150 g de lardons de dinde",
-            "200 ml crème fraîche",
+            "200 ml de crème fraîche",
             "3 œufs",
-            "Sel, poivre"
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Préchauffer le four à 180°C. Déposer la pâte dans le moule. Battre les œufs avec la crème, sel et poivre. Ajouter les lardons de dinde. Verser sur la pâte et cuire 30-35 minutes jusqu’à doré. Servir chaud ou tiède."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Dérouler la pâte brisée.\n" +
+            "3. Foncer le moule à tarte avec la pâte.\n" +
+            "4. Piquer le fond avec une fourchette.\n" +
+            "5. Déposer les lardons de dinde dans un saladier.\n" +
+            "6. Ajouter les œufs.\n" +
+            "7. Verser la crème fraîche.\n" +
+            "8. Fouetter le mélange.\n" +
+            "9. Saler.\n" +
+            "10. Poivrer.\n" +
+            "11. Mélanger à nouveau.\n" +
+            "12. Verser l’appareil sur la pâte.\n" +
+            "13. Lisser la surface.\n" +
+            "14. Enfourner.\n" +
+            "15. Cuire 30 à 35 minutes.\n" +
+            "16. Vérifier que la quiche est bien dorée.\n" +
+            "17. Sortir du four.\n" +
+            "18. Laisser tiédir quelques minutes.\n" +
+            "19. Servir chaud ou tiède.\n"
     },
+
     en: {
-        title: "Quiche Lorraine (Serves 4)",
+        title: "Quiche Lorraine",
         equipment: [
             "1 tart pan",
+            "1 mixing bowl",
+            "1 whisk",
             "1 knife",
-            "1 cutting board",
-            "1 whisk"
+            "1 cutting board"
         ],
         ingredients: [
             "1 shortcrust pastry",
             "150 g turkey bacon",
             "200 ml cream",
             "3 eggs",
-            "Salt, pepper"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "Preheat oven to 180°C. Place pastry in pan. Beat eggs with cream, salt, and pepper. Add turkey bacon. Pour over pastry and bake 30-35 minutes until golden. Serve hot or warm."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Roll out the pastry.\n" +
+            "3. Line the tart pan with the pastry.\n" +
+            "4. Prick the base with a fork.\n" +
+            "5. Place the turkey bacon in a bowl.\n" +
+            "6. Add the eggs.\n" +
+            "7. Pour in the cream.\n" +
+            "8. Whisk well.\n" +
+            "9. Season with salt.\n" +
+            "10. Season with pepper.\n" +
+            "11. Mix again.\n" +
+            "12. Pour the mixture over the pastry.\n" +
+            "13. Smooth the surface.\n" +
+            "14. Place in the oven.\n" +
+            "15. Bake for 30–35 minutes.\n" +
+            "16. Check that the quiche is golden.\n" +
+            "17. Remove from the oven.\n" +
+            "18. Let cool slightly.\n" +
+            "19. Serve hot or warm.\n"
     },
+
     nl: {
-        title: "Quiche Lorraine (voor 4 personen)",
+        title: "Quiche Lorraine",
         equipment: [
             "1 taartvorm",
+            "1 kom",
+            "1 garde",
             "1 mes",
-            "1 snijplank",
-            "1 garde"
+            "1 snijplank"
         ],
         ingredients: [
             "1 deegbodem",
-            "150 g kalkoen spek",
+            "150 g kalkoenlardons",
             "200 ml room",
             "3 eieren",
-            "Zout, peper"
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Verwarm oven voor op 180°C. Plaats deeg in vorm. Klop eieren met room, zout en peper. Voeg kalkoen spek toe. Giet over deeg en bak 30-35 minuten tot goudbruin. Serveer warm of lauw."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Rol het deeg uit.\n" +
+            "3. Bekleed de taartvorm met het deeg.\n" +
+            "4. Prik gaatjes in de bodem.\n" +
+            "5. Doe de kalkoenlardons in een kom.\n" +
+            "6. Voeg de eieren toe.\n" +
+            "7. Giet de room erbij.\n" +
+            "8. Klop goed los.\n" +
+            "9. Breng op smaak met zout.\n" +
+            "10. Breng op smaak met peper.\n" +
+            "11. Meng opnieuw.\n" +
+            "12. Giet het mengsel op het deeg.\n" +
+            "13. Strijk glad.\n" +
+            "14. Zet in de oven.\n" +
+            "15. Bak 30–35 minuten.\n" +
+            "16. Controleer of de quiche goudbruin is.\n" +
+            "17. Haal uit de oven.\n" +
+            "18. Laat even afkoelen.\n" +
+            "19. Serveer warm of lauwwarm.\n"
     },
+
     ar: {
-        title: "كويش لورين (يكفي 4 أشخاص)",
+        title: "كويش لورين",
         equipment: [
             "قالب فطيرة",
+            "وعاء",
+            "خفاق",
             "سكين",
-            "لوح تقطيع",
-            "خفاق"
+            "لوح تقطيع"
         ],
         ingredients: [
             "1 عجينة قصيرة",
             "150 غ لحم ديك رومي مقدد",
             "200 مل كريمة",
             "3 بيضات",
-            "ملح وفلفل"
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "سخّن الفرن على 180°C. ضع العجينة في القالب. اخفق البيض مع الكريمة والملح والفلفل. أضف لحم الديك الرومي. اسكب الخليط على العجينة واخبز 30-35 دقيقة حتى يصبح ذهبي. قدمه ساخناً أو دافئاً."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. افرد العجينة.\n" +
+            "3. ضع العجينة في قالب الفطيرة.\n" +
+            "4. اثقب القاعدة بالشوكة.\n" +
+            "5. ضع لحم الديك الرومي في وعاء.\n" +
+            "6. أضف البيض.\n" +
+            "7. اسكب الكريمة.\n" +
+            "8. اخفق جيداً.\n" +
+            "9. أضف الملح.\n" +
+            "10. أضف الفلفل.\n" +
+            "11. اخلط مرة أخرى.\n" +
+            "12. اسكب الخليط فوق العجينة.\n" +
+            "13. سوِّ السطح.\n" +
+            "14. أدخلها إلى الفرن.\n" +
+            "15. اخبز 30–35 دقيقة.\n" +
+            "16. تأكد من أن الكويش ذهبية اللون.\n" +
+            "17. أخرجها من الفرن.\n" +
+            "18. اتركها تبرد قليلاً.\n" +
+            "19. قدّمها ساخنة أو دافئة.\n"
     }
 };
-
-// -------------------- Gratin de Courgettes --------------------
 recipesData.plat.gratinCourgettes = {
     country: "france",
     image: "images/gratin-courgettes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Gratin de Courgettes (4 personnes)",
+        title: "Gratin de courgettes",
         equipment: [
             "1 plat à gratin",
             "1 couteau",
             "1 planche à découper",
-            "1 bol"
+            "1 saladier",
+            "1 cuillère"
         ],
         ingredients: [
             "3 courgettes moyennes",
-            "150 ml crème fraîche",
-            "50 g fromage râpé",
-            "Sel, poivre"
+            "150 ml de crème fraîche",
+            "50 g de fromage râpé",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Préchauffer le four à 180°C. Couper les courgettes en rondelles. Disposer dans le plat, saler et poivrer. Verser la crème et parsemer de fromage râpé. Cuire 30 minutes jusqu’à doré. Servir chaud."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Laver les courgettes.\n" +
+            "3. Couper les courgettes en rondelles.\n" +
+            "4. Disposer les courgettes dans un saladier.\n" +
+            "5. Saler.\n" +
+            "6. Poivrer.\n" +
+            "7. Mélanger.\n" +
+            "8. Disposer les courgettes dans le plat à gratin.\n" +
+            "9. Verser la crème fraîche par-dessus.\n" +
+            "10. Répartir le fromage râpé.\n" +
+            "11. Enfourner.\n" +
+            "12. Cuire 30 minutes.\n" +
+            "13. Vérifier que le gratin est bien doré.\n" +
+            "14. Sortir du four.\n" +
+            "15. Servir chaud.\n"
     },
+
     en: {
-        title: "Zucchini Gratin (Serves 4)",
+        title: "Zucchini Gratin",
         equipment: [
             "1 gratin dish",
             "1 knife",
             "1 cutting board",
-            "1 bowl"
+            "1 mixing bowl",
+            "1 spoon"
         ],
         ingredients: [
             "3 medium zucchinis",
             "150 ml cream",
             "50 g grated cheese",
-            "Salt, pepper"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "Preheat oven to 180°C. Slice zucchinis. Layer in dish, season with salt and pepper. Pour cream and sprinkle grated cheese. Bake 30 minutes until golden. Serve hot."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Wash the zucchinis.\n" +
+            "3. Slice the zucchinis.\n" +
+            "4. Place the zucchinis in a bowl.\n" +
+            "5. Season with salt.\n" +
+            "6. Season with pepper.\n" +
+            "7. Mix well.\n" +
+            "8. Transfer to the gratin dish.\n" +
+            "9. Pour the cream over the vegetables.\n" +
+            "10. Sprinkle with grated cheese.\n" +
+            "11. Place in the oven.\n" +
+            "12. Bake for 30 minutes.\n" +
+            "13. Check the gratin is golden.\n" +
+            "14. Remove from the oven.\n" +
+            "15. Serve hot.\n"
     },
+
     nl: {
-        title: "Courgettegratin (voor 4 personen)",
+        title: "Courgettegratin",
         equipment: [
             "1 ovenschaal",
             "1 mes",
             "1 snijplank",
-            "1 kom"
+            "1 kom",
+            "1 lepel"
         ],
         ingredients: [
             "3 middelgrote courgettes",
             "150 ml room",
             "50 g geraspte kaas",
-            "Zout, peper"
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Verwarm oven voor op 180°C. Snijd courgettes in plakjes. Leg in schaal, bestrooi met zout en peper. Giet room erover en bestrooi met geraspte kaas. Bak 30 minuten tot goudbruin. Serveer warm."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Was de courgettes.\n" +
+            "3. Snijd de courgettes in plakjes.\n" +
+            "4. Doe de courgettes in een kom.\n" +
+            "5. Breng op smaak met zout.\n" +
+            "6. Breng op smaak met peper.\n" +
+            "7. Meng goed.\n" +
+            "8. Doe alles in de ovenschaal.\n" +
+            "9. Giet de room erover.\n" +
+            "10. Bestrooi met geraspte kaas.\n" +
+            "11. Zet in de oven.\n" +
+            "12. Bak 30 minuten.\n" +
+            "13. Controleer of de gratin goudbruin is.\n" +
+            "14. Haal uit de oven.\n" +
+            "15. Serveer warm.\n"
     },
+
     ar: {
-        title: "غراتان الكوسة (يكفي 4 أشخاص)",
+        title: "غراتان الكوسة",
         equipment: [
             "طبق غراتان",
             "سكين",
             "لوح تقطيع",
-            "وعاء"
+            "وعاء",
+            "ملعقة"
         ],
         ingredients: [
             "3 كوسة متوسطة",
             "150 مل كريمة",
             "50 غ جبن مبشور",
-            "ملح وفلفل"
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "سخّن الفرن على 180°C. قطّع الكوسة إلى شرائح. ضعها في الطبق، أضف الملح والفلفل. أضف الكريمة ورش الجبن المبشور. اخبز 30 دقيقة حتى يتحمر. قدمه ساخناً."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. اغسل الكوسة.\n" +
+            "3. قطّع الكوسة إلى شرائح.\n" +
+            "4. ضع الكوسة في وعاء.\n" +
+            "5. أضف الملح.\n" +
+            "6. أضف الفلفل.\n" +
+            "7. اخلط جيداً.\n" +
+            "8. ضع الكوسة في طبق الغراتان.\n" +
+            "9. اسكب الكريمة فوقها.\n" +
+            "10. رش الجبن المبشور.\n" +
+            "11. أدخلها إلى الفرن.\n" +
+            "12. اخبز لمدة 30 دقيقة.\n" +
+            "13. تأكد من أن السطح ذهبي اللون.\n" +
+            "14. أخرجها من الفرن.\n" +
+            "15. قدّمها ساخنة.\n"
     }
 };
 recipesData.plat.pouletBasquaise = {
     country: "france",
     image: "images/poulet-basquaise.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Poulet Basquaise (4 personnes)",
-        equipment: ["1 grande poêle", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
+        title: "Poulet basquaise",
+        equipment: [
+            "1 grande poêle ou sauteuse",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
             "4 cuisses de poulet",
             "2 poivrons rouges",
@@ -17293,253 +19220,571 @@ recipesData.plat.pouletBasquaise = {
             "2 tomates",
             "2 gousses d’ail",
             "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre, paprika"
+            "Paprika",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Faire revenir le poulet dans l’huile. Ajouter l’oignon et l’ail émincés, cuire 5 minutes. Ajouter les poivrons et les tomates coupés en morceaux, assaisonner. Couvrir et laisser mijoter 35 minutes. Servir chaud."
+            "1. Laver les poivrons et les tomates.\n" +
+            "2. Couper les poivrons en lanières.\n" +
+            "3. Couper les tomates en morceaux.\n" +
+            "4. Éplucher et émincer l’oignon.\n" +
+            "5. Éplucher et hacher l’ail.\n" +
+            "6. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "7. Ajouter les cuisses de poulet.\n" +
+            "8. Faire dorer sur toutes les faces.\n" +
+            "9. Ajouter l’oignon et l’ail.\n" +
+            "10. Faire revenir 5 minutes.\n" +
+            "11. Ajouter les poivrons et les tomates.\n" +
+            "12. Saupoudrer de paprika.\n" +
+            "13. Saler.\n" +
+            "14. Poivrer.\n" +
+            "15. Mélanger.\n" +
+            "16. Couvrir.\n" +
+            "17. Laisser mijoter à feu doux pendant 35 minutes.\n" +
+            "18. Remuer de temps en temps.\n" +
+            "19. Vérifier la cuisson du poulet.\n" +
+            "20. Rectifier l’assaisonnement si nécessaire.\n" +
+            "21. Servir chaud.\n"
     },
+
     en: {
-        title: "Basque Chicken (Serves 4)",
-        equipment: ["1 large pan", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Basque Chicken",
+        equipment: [
+            "1 large pan or sauté pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "4 chicken thighs",
-            "2 red peppers",
+            "2 red bell peppers",
             "1 onion",
             "2 tomatoes",
             "2 garlic cloves",
             "2 tablespoons olive oil",
-            "Salt, pepper, paprika"
+            "Paprika",
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "Sauté chicken in oil. Add sliced onion and garlic, cook 5 minutes. Add chopped peppers and tomatoes, season. Cover and simmer 35 minutes. Serve hot."
+            "1. Wash the peppers and tomatoes.\n" +
+            "2. Slice the peppers.\n" +
+            "3. Cut the tomatoes into pieces.\n" +
+            "4. Peel and slice the onion.\n" +
+            "5. Peel and chop the garlic.\n" +
+            "6. Heat olive oil in a large pan.\n" +
+            "7. Add the chicken thighs.\n" +
+            "8. Brown on all sides.\n" +
+            "9. Add the onion and garlic.\n" +
+            "10. Cook for 5 minutes.\n" +
+            "11. Add peppers and tomatoes.\n" +
+            "12. Sprinkle with paprika.\n" +
+            "13. Season with salt.\n" +
+            "14. Season with pepper.\n" +
+            "15. Stir well.\n" +
+            "16. Cover.\n" +
+            "17. Simmer on low heat for 35 minutes.\n" +
+            "18. Stir occasionally.\n" +
+            "19. Check the chicken is cooked.\n" +
+            "20. Adjust seasoning if needed.\n" +
+            "21. Serve hot.\n"
     },
+
     nl: {
-        title: "Baskische Kip (voor 4 personen)",
-        equipment: ["1 grote pan", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Baskische kip",
+        equipment: [
+            "1 grote pan of sauteerpan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
             "4 kippenbouten",
-            "2 rode paprika's",
+            "2 rode paprika’s",
             "1 ui",
             "2 tomaten",
             "2 teentjes knoflook",
             "2 eetlepels olijfolie",
-            "Zout, peper, paprika"
+            "Paprikapoeder",
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Bak de kip in olie. Voeg gesneden ui en knoflook toe, bak 5 minuten. Voeg paprika en tomaten toe, breng op smaak. Dek af en laat 35 minuten sudderen. Serveer warm."
+            "1. Was de paprika’s en tomaten.\n" +
+            "2. Snijd de paprika’s in reepjes.\n" +
+            "3. Snijd de tomaten in stukken.\n" +
+            "4. Pel en snijd de ui.\n" +
+            "5. Pel en hak de knoflook.\n" +
+            "6. Verhit olijfolie in een grote pan.\n" +
+            "7. Voeg de kippenbouten toe.\n" +
+            "8. Bak rondom goudbruin.\n" +
+            "9. Voeg ui en knoflook toe.\n" +
+            "10. Bak 5 minuten.\n" +
+            "11. Voeg paprika en tomaten toe.\n" +
+            "12. Voeg paprikapoeder toe.\n" +
+            "13. Voeg zout toe.\n" +
+            "14. Voeg peper toe.\n" +
+            "15. Meng alles.\n" +
+            "16. Dek af.\n" +
+            "17. Laat 35 minuten sudderen op laag vuur.\n" +
+            "18. Roer af en toe.\n" +
+            "19. Controleer of de kip gaar is.\n" +
+            "20. Breng indien nodig verder op smaak.\n" +
+            "21. Serveer warm.\n"
     },
+
     ar: {
-        title: "دجاج باسكاي (يكفي 4 أشخاص)",
-        equipment: ["مقلاة كبيرة", "سكين", "لوح تقطيع", "ملعقة خشبية"],
+        title: "دجاج باسكاي",
+        equipment: [
+            "مقلاة كبيرة أو مقلاة عميقة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "4 أفخاذ دجاج",
-            "2 فليفلة حمراء",
+            "2 فلفل أحمر",
             "1 بصلة",
             "2 طماطم",
             "2 فص ثوم",
             "2 ملعقة كبيرة زيت زيتون",
-            "ملح، فلفل، فلفل أحمر"
+            "بابريكا",
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "اقلي الدجاج في الزيت. أضف البصل والثوم المفروم، اطه 5 دقائق. أضف الفليفلة والطماطم، تبّل. غط واتركه يطهى 35 دقيقة. قدمه ساخناً."
+            "1. اغسل الفلفل والطماطم.\n" +
+            "2. قطّع الفلفل إلى شرائح.\n" +
+            "3. قطّع الطماطم إلى قطع.\n" +
+            "4. قشّر وقطّع البصل.\n" +
+            "5. قشّر وافرُم الثوم.\n" +
+            "6. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "7. أضف أفخاذ الدجاج.\n" +
+            "8. حمّرها من جميع الجهات.\n" +
+            "9. أضف البصل والثوم.\n" +
+            "10. اطههما 5 دقائق.\n" +
+            "11. أضف الفلفل والطماطم.\n" +
+            "12. أضف البابريكا.\n" +
+            "13. أضف الملح.\n" +
+            "14. أضف الفلفل.\n" +
+            "15. حرّك جيداً.\n" +
+            "16. غطّ المقلاة.\n" +
+            "17. اتركه ينضج 35 دقيقة على نار هادئة.\n" +
+            "18. حرّك من وقت لآخر.\n" +
+            "19. تأكد من نضج الدجاج.\n" +
+            "20. عدّل التتبيل إذا لزم.\n" +
+            "21. قدّم ساخناً.\n"
     }
 };
 recipesData.plat.blanquetteVeau = {
     country: "france",
     image: "images/blanquette-veau.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 45,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Blanquette de Veau (4 personnes)",
-        equipment: ["1 cocotte", "1 couteau", "1 planche à découper", "1 fouet"],
+        title: "Blanquette de veau",
+        equipment: [
+            "1 grande cocotte",
+            "1 couteau",
+            "1 planche à découper",
+            "1 fouet",
+            "1 bol"
+        ],
         ingredients: [
-            "600 g veau coupé en cubes",
+            "600 g de veau coupé en cubes",
             "2 carottes",
             "1 oignon",
-            "200 ml crème fraîche",
-            "250 ml bouillon de légumes",
-            "Sel, poivre"
+            "200 ml de crème fraîche",
+            "250 ml de bouillon de légumes",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Faire revenir le veau dans la cocotte jusqu’à doré. Ajouter les légumes émincés. Verser le bouillon et laisser mijoter 45 minutes. Ajouter la crème, saler et poivrer. Servir chaud."
+            "1. Éplucher les carottes.\n" +
+            "2. Couper les carottes en rondelles.\n" +
+            "3. Éplucher et émincer l’oignon.\n" +
+            "4. Déposer les morceaux de veau dans la cocotte.\n" +
+            "5. Couvrir avec le bouillon de légumes.\n" +
+            "6. Porter à légère ébullition.\n" +
+            "7. Écumer si nécessaire.\n" +
+            "8. Ajouter les carottes et l’oignon.\n" +
+            "9. Saler légèrement.\n" +
+            "10. Poivrer.\n" +
+            "11. Couvrir.\n" +
+            "12. Laisser mijoter à feu doux pendant 45 minutes.\n" +
+            "13. Prélever un peu de jus de cuisson dans un bol.\n" +
+            "14. Ajouter la crème fraîche.\n" +
+            "15. Fouetter pour obtenir une sauce lisse.\n" +
+            "16. Verser la sauce dans la cocotte.\n" +
+            "17. Mélanger délicatement.\n" +
+            "18. Laisser chauffer 5 minutes sans bouillir.\n" +
+            "19. Rectifier l’assaisonnement.\n" +
+            "20. Servir chaud.\n"
     },
+
     en: {
-        title: "Veal Blanquette (Serves 4)",
-        equipment: ["1 pot", "1 knife", "1 cutting board", "1 whisk"],
+        title: "Veal Blanquette",
+        equipment: [
+            "1 large pot",
+            "1 knife",
+            "1 cutting board",
+            "1 whisk",
+            "1 bowl"
+        ],
         ingredients: [
             "600 g veal, cubed",
             "2 carrots",
             "1 onion",
             "200 ml cream",
             "250 ml vegetable broth",
-            "Salt, pepper"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "Brown veal in pot. Add sliced vegetables. Pour broth and simmer 45 minutes. Add cream, season. Serve hot."
+            "1. Peel the carrots.\n" +
+            "2. Slice the carrots.\n" +
+            "3. Peel and slice the onion.\n" +
+            "4. Place the veal in a large pot.\n" +
+            "5. Cover with vegetable broth.\n" +
+            "6. Bring to a gentle boil.\n" +
+            "7. Skim if necessary.\n" +
+            "8. Add carrots and onion.\n" +
+            "9. Lightly season with salt.\n" +
+            "10. Add pepper.\n" +
+            "11. Cover.\n" +
+            "12. Simmer on low heat for 45 minutes.\n" +
+            "13. Take some cooking liquid into a bowl.\n" +
+            "14. Add the cream.\n" +
+            "15. Whisk until smooth.\n" +
+            "16. Pour back into the pot.\n" +
+            "17. Stir gently.\n" +
+            "18. Heat for 5 minutes without boiling.\n" +
+            "19. Adjust seasoning.\n" +
+            "20. Serve hot.\n"
     },
+
     nl: {
-        title: "Kalfslapje in roomsaus (voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank", "1 garde"],
+        title: "Blanquette van kalfsvlees",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 garde",
+            "1 kom"
+        ],
         ingredients: [
             "600 g kalfsvlees in blokjes",
             "2 wortelen",
             "1 ui",
             "200 ml room",
             "250 ml groentebouillon",
-            "Zout, peper"
+            "Zout",
+            "Peper"
         ],
         preparation:
-            "Bak kalfsvlees in pan tot goudbruin. Voeg gesneden groenten toe. Giet bouillon erbij en laat 45 minuten sudderen. Voeg room toe, breng op smaak. Serveer warm."
+            "1. Schil de wortelen.\n" +
+            "2. Snijd de wortelen in plakjes.\n" +
+            "3. Pel en snijd de ui.\n" +
+            "4. Doe het kalfsvlees in een grote pan.\n" +
+            "5. Voeg de groentebouillon toe.\n" +
+            "6. Breng zachtjes aan de kook.\n" +
+            "7. Schep schuim weg indien nodig.\n" +
+            "8. Voeg wortelen en ui toe.\n" +
+            "9. Breng licht op smaak met zout.\n" +
+            "10. Voeg peper toe.\n" +
+            "11. Dek af.\n" +
+            "12. Laat 45 minuten zachtjes sudderen.\n" +
+            "13. Neem wat kookvocht in een kom.\n" +
+            "14. Voeg de room toe.\n" +
+            "15. Klop glad.\n" +
+            "16. Giet terug in de pan.\n" +
+            "17. Meng voorzichtig.\n" +
+            "18. Verwarm 5 minuten zonder te koken.\n" +
+            "19. Breng opnieuw op smaak.\n" +
+            "20. Serveer warm.\n"
     },
+
     ar: {
-        title: "بلانكيت لحم عجل (يكفي 4 أشخاص)",
-        equipment: ["قدر", "سكين", "لوح تقطيع", "خفاق"],
+        title: "بلانكيت لحم العجل",
+        equipment: [
+            "قدر كبير",
+            "سكين",
+            "لوح تقطيع",
+            "خفاق",
+            "وعاء"
+        ],
         ingredients: [
-            "600 غ لحم عجل مقطع",
+            "600 غ لحم عجل مقطع مكعبات",
             "2 جزرة",
             "1 بصلة",
             "200 مل كريمة",
             "250 مل مرق خضار",
-            "ملح وفلفل"
+            "ملح",
+            "فلفل"
         ],
         preparation:
-            "اقلي لحم العجل في القدر حتى يصبح ذهبي. أضف الخضار المفرومة. أضف المرق واتركه يطهى 45 دقيقة. أضف الكريمة، الملح والفلفل. قدمه ساخناً."
+            "1. قشّر الجزر.\n" +
+            "2. قطّع الجزر إلى شرائح.\n" +
+            "3. قشّر وقطّع البصل.\n" +
+            "4. ضع لحم العجل في قدر كبير.\n" +
+            "5. أضف مرق الخضار.\n" +
+            "6. اتركه حتى يغلي غلياناً خفيفاً.\n" +
+            "7. أزل الرغوة إن وجدت.\n" +
+            "8. أضف الجزر والبصل.\n" +
+            "9. أضف القليل من الملح.\n" +
+            "10. أضف الفلفل.\n" +
+            "11. غطِّ القدر.\n" +
+            "12. اتركه ينضج 45 دقيقة على نار هادئة.\n" +
+            "13. خذ قليلاً من المرق في وعاء.\n" +
+            "14. أضف الكريمة.\n" +
+            "15. اخفق حتى تصبح ناعمة.\n" +
+            "16. أعد الصلصة إلى القدر.\n" +
+            "17. حرّك بلطف.\n" +
+            "18. سخّن 5 دقائق دون غليان.\n" +
+            "19. عدّل التتبيل.\n" +
+            "20. قدّم ساخناً.\n"
     }
 };
+
+
+
+
+
+
+
+
+
+
 recipesData.dessert.tartePommes = {
     country: "france",
     image: "images/tarte-pommes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tarte aux pommes simple (4 personnes)",
+        title: "Tarte aux pommes simple",
         equipment: [
             "1 moule à tarte de 24 cm",
             "1 couteau",
             "1 planche à découper",
-            "1 bol pour mélanger",
+            "1 bol",
             "1 fouet",
-            "1 pinceau de cuisine"
+            "1 pinceau de cuisine",
+            "1 fourchette"
         ],
         ingredients: [
             "1 pâte brisée prête à l’emploi (230 g)",
-            "4 pommes moyennes (600 g), pelées et tranchées finement",
-            "2 cuillères à soupe sucre (30 g)",
-            "1 cuillère à café cannelle (1 g)",
-            "1 cuillère à soupe jus de citron (15 ml)",
-            "1 cuillère à soupe confiture d’abricot pour le glaçage (15 g)"
+            "4 pommes moyennes (600 g)",
+            "2 cuillères à soupe de sucre (30 g)",
+            "1 cuillère à café de cannelle (1 g)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1 cuillère à soupe de confiture d’abricot (15 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Étaler la pâte dans le moule et piquer le fond avec une fourchette.\n" +
-            "3. Mélanger sucre, cannelle et jus de citron dans un bol.\n" +
-            "4. Disposer les tranches de pommes en cercle sur la pâte.\n" +
-            "5. Saupoudrer le mélange sucre-cannelle sur les pommes.\n" +
-            "6. Cuire au four 30-35 minutes jusqu’à ce que la pâte soit dorée et les pommes tendres.\n" +
-            "7. Chauffer légèrement la confiture et badigeonner sur les pommes pour le brillant. Laisser refroidir avant de servir."
+            "2. Éplucher les pommes.\n" +
+            "3. Couper les pommes en fines tranches.\n" +
+            "4. Étaler la pâte dans le moule.\n" +
+            "5. Piquer le fond avec une fourchette.\n" +
+            "6. Mélanger le sucre et la cannelle dans un bol.\n" +
+            "7. Ajouter le jus de citron.\n" +
+            "8. Mélanger.\n" +
+            "9. Disposer les tranches de pommes en cercle sur la pâte.\n" +
+            "10. Répartir le mélange sucre-cannelle sur les pommes.\n" +
+            "11. Enfourner la tarte.\n" +
+            "12. Cuire pendant 30 à 35 minutes.\n" +
+            "13. Faire chauffer légèrement la confiture d’abricot.\n" +
+            "14. Badigeonner les pommes à l’aide d’un pinceau.\n" +
+            "15. Laisser refroidir avant de servir.\n"
     },
+
     en: {
-        title: "Simple Apple Tart (Serves 4)",
+        title: "Simple apple tart",
         equipment: [
-            "1 tart pan 24 cm",
+            "1 24 cm tart pan",
             "1 knife",
             "1 cutting board",
-            "1 mixing bowl",
+            "1 bowl",
             "1 whisk",
-            "1 pastry brush"
+            "1 pastry brush",
+            "1 fork"
         ],
         ingredients: [
             "1 ready-made shortcrust pastry (230 g)",
-            "4 medium apples (600 g), peeled and thinly sliced",
+            "4 medium apples (600 g)",
             "2 tablespoons sugar (30 g)",
             "1 teaspoon cinnamon (1 g)",
             "1 tablespoon lemon juice (15 ml)",
-            "1 tablespoon apricot jam for glaze (15 g)"
+            "1 tablespoon apricot jam (15 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Roll pastry into pan and prick the base with a fork.\n" +
-            "3. Mix sugar, cinnamon, and lemon juice in a bowl.\n" +
-            "4. Arrange apple slices in a circle on the pastry.\n" +
-            "5. Sprinkle sugar-cinnamon mixture over apples.\n" +
-            "6. Bake 30-35 minutes until crust is golden and apples tender.\n" +
-            "7. Warm apricot jam slightly and brush over apples for shine. Cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Peel the apples.\n" +
+            "3. Slice the apples thinly.\n" +
+            "4. Place the pastry in the tart pan.\n" +
+            "5. Prick the base with a fork.\n" +
+            "6. Mix sugar and cinnamon in a bowl.\n" +
+            "7. Add lemon juice.\n" +
+            "8. Stir well.\n" +
+            "9. Arrange apple slices in a circular pattern.\n" +
+            "10. Sprinkle the sugar-cinnamon mixture over the apples.\n" +
+            "11. Bake the tart.\n" +
+            "12. Cook for 30 to 35 minutes.\n" +
+            "13. Gently heat the apricot jam.\n" +
+            "14. Brush over the apples.\n" +
+            "15. Let cool before serving.\n"
     },
+
     nl: {
-        title: "Eenvoudige appeltaart (voor 4 personen)",
+        title: "Eenvoudige appeltaart",
         equipment: [
-            "1 taartvorm 24 cm",
+            "1 taartvorm van 24 cm",
             "1 mes",
             "1 snijplank",
-            "1 kom om te mengen",
+            "1 kom",
             "1 garde",
-            "1 bakkwast"
+            "1 bakkwast",
+            "1 vork"
         ],
         ingredients: [
-            "1 kant-en-klare zanddeeg (230 g)",
-            "4 middelgrote appels (600 g), geschild en dun gesneden",
+            "1 kant-en-klaar zanddeeg (230 g)",
+            "4 middelgrote appels (600 g)",
             "2 eetlepels suiker (30 g)",
             "1 theelepel kaneel (1 g)",
             "1 eetlepel citroensap (15 ml)",
-            "1 eetlepel abrikozenjam voor glans (15 g)"
+            "1 eetlepel abrikozenjam (15 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Rol het deeg in de vorm en prik de bodem met een vork.\n" +
-            "3. Meng suiker, kaneel en citroensap in een kom.\n" +
-            "4. Leg de appelplakjes in een cirkel op het deeg.\n" +
-            "5. Strooi het suiker-kaneelmengsel over de appels.\n" +
-            "6. Bak 30-35 minuten tot het deeg goudbruin en appels zacht zijn.\n" +
-            "7. Verwarm de abrikozenjam licht en bestrijk de appels voor glans. Laat afkoelen voor serveren."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Schil de appels.\n" +
+            "3. Snijd de appels in dunne plakjes.\n" +
+            "4. Leg het deeg in de taartvorm.\n" +
+            "5. Prik de bodem in met een vork.\n" +
+            "6. Meng suiker en kaneel in een kom.\n" +
+            "7. Voeg citroensap toe.\n" +
+            "8. Meng goed.\n" +
+            "9. Leg de appelplakjes in een cirkel.\n" +
+            "10. Strooi het suiker-kaneelmengsel erover.\n" +
+            "11. Zet de taart in de oven.\n" +
+            "12. Bak 30 tot 35 minuten.\n" +
+            "13. Verwarm de abrikozenjam licht.\n" +
+            "14. Bestrijk de appels met een kwast.\n" +
+            "15. Laat afkoelen voor het serveren.\n"
     },
+
     ar: {
-        title: "تارت التفاح البسيط (يكفي 4 أشخاص)",
+        title: "تارت التفاح البسيط",
         equipment: [
-            "صينية تارت 24 سم",
+            "قالب تارت 24 سم",
             "سكين",
             "لوح تقطيع",
-            "وعاء للخلط",
-            "خلاط يدوي",
-            "فرشاة للمعجنات"
+            "وعاء",
+            "خفاق",
+            "فرشاة مطبخ",
+            "شوكة"
         ],
         ingredients: [
-            "1 عجينة معجنات جاهزة (230غ)",
-            "4 تفاحات متوسطة (600غ)، مقشرة وشرائح رفيعة",
-            "2 ملعقة كبيرة سكر (30غ)",
-            "1 ملعقة صغيرة قرفة (1غ)",
+            "1 عجينة جاهزة (230 غ)",
+            "4 تفاحات متوسطة (600 غ)",
+            "2 ملعقة كبيرة سكر (30 غ)",
+            "1 ملعقة صغيرة قرفة (1 غ)",
             "1 ملعقة كبيرة عصير ليمون (15 مل)",
-            "1 ملعقة كبيرة مربى مشمش للتلميع (15غ)"
+            "1 ملعقة كبيرة مربى مشمش (15 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخّن الفرن على 180°C.\n" +
-            "2. افرد العجينة في الصينية واثقب القاع بالشوكة.\n" +
-            "3. اخلط السكر والقرفة وعصير الليمون في وعاء.\n" +
-            "4. رتب شرائح التفاح في دائرة على العجينة.\n" +
-            "5. رش مزيج السكر والقرفة على التفاح.\n" +
-            "6. اخبز 30-35 دقيقة حتى يصبح القاع ذهبي والتفاح طري.\n" +
-            "7. سخّن مربى المشمش قليلًا وادهن على التفاح للتلميع. دعها تبرد قبل التقديم."
+            "2. قشّر التفاح.\n" +
+            "3. قطّع التفاح إلى شرائح رفيعة.\n" +
+            "4. ضع العجينة في قالب التارت.\n" +
+            "5. اثقب القاعدة بالشوكة.\n" +
+            "6. اخلط السكر والقرفة في وعاء.\n" +
+            "7. أضف عصير الليمون.\n" +
+            "8. حرّك جيداً.\n" +
+            "9. رتّب شرائح التفاح بشكل دائري.\n" +
+            "10. رش خليط السكر والقرفة فوق التفاح.\n" +
+            "11. أدخل التارت إلى الفرن.\n" +
+            "12. اخبز لمدة 30 إلى 35 دقيقة.\n" +
+            "13. سخّن مربى المشمش قليلاً.\n" +
+            "14. ادهن التفاح بالفرشاة.\n" +
+            "15. اتركه يبرد قبل التقديم.\n"
     }
 };
-// -------------------- Crème brûlée --------------------
 recipesData.dessert.cremeBrulee = {
     country: "france",
     image: "images/creme-brulee.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 35,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Crème brûlée (4 personnes)",
-        equipment: ["4 ramequins", "1 fouet", "1 bol", "1 casserole"],
+        title: "Crème brûlée",
+        equipment: [
+            "4 ramequins",
+            "1 fouet",
+            "1 bol",
+            "1 casserole",
+            "1 plat pour bain-marie",
+            "1 chalumeau de cuisine"
+        ],
         ingredients: [
             "4 jaunes d’œufs",
-            "50 g sucre",
-            "250 ml crème liquide",
+            "50 g de sucre",
+            "250 ml de crème liquide",
             "1 gousse de vanille",
             "2 cuillères à soupe de cassonade"
         ],
         preparation:
-            "Préchauffer le four à 150°C. Fendre la gousse de vanille et chauffer la crème avec les graines. Battre les jaunes avec le sucre, incorporer la crème chaude. Verser dans les ramequins. Cuire au bain-marie 35 minutes. Laisser refroidir, saupoudrer de cassonade et caraméliser au chalumeau. Servir."
+            "1. Préchauffer le four à 150°C.\n" +
+            "2. Fendre la gousse de vanille en deux.\n" +
+            "3. Gratter les graines de vanille.\n" +
+            "4. Verser la crème dans une casserole.\n" +
+            "5. Ajouter les graines et la gousse de vanille.\n" +
+            "6. Chauffer doucement sans faire bouillir.\n" +
+            "7. Mettre les jaunes d’œufs dans un bol.\n" +
+            "8. Ajouter le sucre.\n" +
+            "9. Fouetter jusqu’à blanchiment.\n" +
+            "10. Retirer la gousse de vanille de la crème.\n" +
+            "11. Verser la crème chaude progressivement sur les œufs.\n" +
+            "12. Mélanger doucement.\n" +
+            "13. Répartir la préparation dans les ramequins.\n" +
+            "14. Placer les ramequins dans un plat.\n" +
+            "15. Verser de l’eau chaude pour le bain-marie.\n" +
+            "16. Enfourner.\n" +
+            "17. Cuire 35 minutes.\n" +
+            "18. Sortir du four.\n" +
+            "19. Laisser refroidir.\n" +
+            "20. Réserver au réfrigérateur au moins 2 heures.\n" +
+            "21. Saupoudrer de cassonade.\n" +
+            "22. Caraméliser au chalumeau.\n" +
+            "23. Servir immédiatement.\n"
     },
+
     en: {
-        title: "Crème brûlée (Serves 4)",
-        equipment: ["4 ramekins", "1 whisk", "1 bowl", "1 saucepan"],
+        title: "Crème brûlée",
+        equipment: [
+            "4 ramekins",
+            "1 whisk",
+            "1 bowl",
+            "1 saucepan",
+            "1 baking dish for water bath",
+            "1 kitchen torch"
+        ],
         ingredients: [
             "4 egg yolks",
             "50 g sugar",
@@ -17548,11 +19793,41 @@ recipesData.dessert.cremeBrulee = {
             "2 tablespoons brown sugar"
         ],
         preparation:
-            "Preheat oven to 150°C. Split vanilla bean and heat cream with seeds. Whisk yolks with sugar, add hot cream. Pour into ramekins. Bake in bain-marie 35 minutes. Cool, sprinkle with brown sugar and caramelize with a torch. Serve."
+            "1. Preheat the oven to 150°C.\n" +
+            "2. Split the vanilla bean.\n" +
+            "3. Scrape out the seeds.\n" +
+            "4. Pour the cream into a saucepan.\n" +
+            "5. Add vanilla seeds and pod.\n" +
+            "6. Heat gently without boiling.\n" +
+            "7. Place egg yolks in a bowl.\n" +
+            "8. Add sugar.\n" +
+            "9. Whisk until pale.\n" +
+            "10. Remove vanilla pod from the cream.\n" +
+            "11. Slowly pour hot cream into the eggs.\n" +
+            "12. Mix gently.\n" +
+            "13. Divide mixture into ramekins.\n" +
+            "14. Place ramekins in a baking dish.\n" +
+            "15. Add hot water for a water bath.\n" +
+            "16. Bake.\n" +
+            "17. Cook for 35 minutes.\n" +
+            "18. Remove from oven.\n" +
+            "19. Let cool.\n" +
+            "20. Refrigerate for at least 2 hours.\n" +
+            "21. Sprinkle with brown sugar.\n" +
+            "22. Caramelize with a kitchen torch.\n" +
+            "23. Serve immediately.\n"
     },
+
     nl: {
-        title: "Crème brûlée (voor 4 personen)",
-        equipment: ["4 ramekins", "1 garde", "1 kom", "1 steelpan"],
+        title: "Crème brûlée",
+        equipment: [
+            "4 ramekins",
+            "1 garde",
+            "1 kom",
+            "1 steelpan",
+            "1 ovenschaal voor waterbad",
+            "1 keukentorch"
+        ],
         ingredients: [
             "4 eidooiers",
             "50 g suiker",
@@ -17561,54 +19836,155 @@ recipesData.dessert.cremeBrulee = {
             "2 eetlepels bruine suiker"
         ],
         preparation:
-            "Verwarm oven voor op 150°C. Snijd vanillestokje, verwarm room met zaadjes. Klop eidooiers met suiker, voeg hete room toe. Giet in ramekins. Bak 35 minuten in au bain-marie. Laat afkoelen, bestrooi met bruine suiker en karamelliseer. Serveer."
+            "1. Verwarm de oven voor op 150°C.\n" +
+            "2. Snijd het vanillestokje open.\n" +
+            "3. Schraap de zaadjes eruit.\n" +
+            "4. Giet de room in een steelpan.\n" +
+            "5. Voeg vanillezaadjes en stokje toe.\n" +
+            "6. Verwarm zacht zonder te koken.\n" +
+            "7. Doe de eidooiers in een kom.\n" +
+            "8. Voeg suiker toe.\n" +
+            "9. Klop tot licht van kleur.\n" +
+            "10. Verwijder het vanillestokje.\n" +
+            "11. Giet de hete room langzaam bij de eieren.\n" +
+            "12. Meng voorzichtig.\n" +
+            "13. Verdeel over ramekins.\n" +
+            "14. Zet ramekins in een ovenschaal.\n" +
+            "15. Voeg heet water toe voor waterbad.\n" +
+            "16. Zet in de oven.\n" +
+            "17. Bak 35 minuten.\n" +
+            "18. Haal uit de oven.\n" +
+            "19. Laat afkoelen.\n" +
+            "20. Zet minimaal 2 uur in de koelkast.\n" +
+            "21. Bestrooi met bruine suiker.\n" +
+            "22. Karamelliseer met een brander.\n" +
+            "23. Serveer direct.\n"
     },
+
     ar: {
-        title: "كريم بروليه (يكفي 4 أشخاص)",
-        equipment: ["4 قوالب صغيرة", "خفاق", "وعاء", "قدر"],
+        title: "كريم بروليه",
+        equipment: [
+            "4 قوالب صغيرة",
+            "خفاق",
+            "وعاء",
+            "قدر",
+            "طبق للحمام المائي",
+            "شعلة مطبخ"
+        ],
         ingredients: [
             "4 صفار بيض",
             "50 غ سكر",
             "250 مل كريمة سائلة",
-            "1 حبّة فانيليا",
+            "1 عود فانيليا",
             "2 ملعقة كبيرة سكر بني"
         ],
         preparation:
-            "سخّن الفرن إلى 150°C. افتح حبّة الفانيليا وسخّن الكريمة معها. اخفق الصفار مع السكر وأضف الكريمة الساخنة. اسكب في القوالب. اخبز في حمام مائي 35 دقيقة. اتركه يبرد، رش السكر البني وقم بتحميره بالشعلة. قدمه."
+            "1. سخّن الفرن على 150°C.\n" +
+            "2. افتح عود الفانيليا.\n" +
+            "3. استخرج البذور.\n" +
+            "4. اسكب الكريمة في قدر.\n" +
+            "5. أضف بذور وعود الفانيليا.\n" +
+            "6. سخّن بلطف دون غليان.\n" +
+            "7. ضع صفار البيض في وعاء.\n" +
+            "8. أضف السكر.\n" +
+            "9. اخفق حتى يصبح فاتح اللون.\n" +
+            "10. أزل عود الفانيليا من الكريمة.\n" +
+            "11. أضف الكريمة الساخنة تدريجياً.\n" +
+            "12. حرّك بلطف.\n" +
+            "13. اسكب الخليط في القوالب.\n" +
+            "14. ضع القوالب في طبق.\n" +
+            "15. أضف ماءً ساخناً للحمام المائي.\n" +
+            "16. أدخلها الفرن.\n" +
+            "17. اخبز 35 دقيقة.\n" +
+            "18. أخرجها من الفرن.\n" +
+            "19. اتركها تبرد.\n" +
+            "20. ضعها في الثلاجة ساعتين على الأقل.\n" +
+            "21. رش السكر البني.\n" +
+            "22. حمّر بالولاعة.\n" +
+            "23. قدّم فوراً.\n"
     }
 };
-
-// -------------------- Mousse au chocolat --------------------
 recipesData.dessert.mousseChocolat = {
     country: "france",
     image: "images/mousse-chocolat.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        chillTime: 180,
+        cookTime: 5,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Mousse au chocolat (4 personnes)",
-        equipment: ["1 bol", "1 fouet", "1 spatule"],
+        title: "Mousse au chocolat",
+        equipment: [
+            "1 bol",
+            "1 fouet",
+            "1 spatule",
+            "1 casserole",
+            "1 saladier"
+        ],
         ingredients: [
-            "200 g chocolat noir",
+            "200 g de chocolat noir",
             "3 œufs",
-            "30 g sucre",
+            "30 g de sucre",
             "1 pincée de sel"
         ],
         preparation:
-            "Faire fondre le chocolat au bain-marie. Séparer les blancs des jaunes. Battre les blancs en neige avec une pincée de sel. Mélanger les jaunes avec le chocolat fondu. Incorporer délicatement les blancs. Réfrigérer 3 heures avant de servir."
+            "1. Faire fondre le chocolat noir doucement au bain-marie.\n" +
+            "2. Retirer du feu et laisser tiédir quelques minutes.\n" +
+            "3. Séparer les blancs des jaunes d’œufs.\n" +
+            "4. Mettre les jaunes dans un saladier.\n" +
+            "5. Ajouter le chocolat fondu aux jaunes.\n" +
+            "6. Mélanger jusqu’à obtenir une préparation lisse.\n" +
+            "7. Battre les blancs en neige avec une pincée de sel.\n" +
+            "8. Ajouter le sucre lorsque les blancs commencent à être fermes.\n" +
+            "9. Incorporer délicatement les blancs en neige au mélange chocolaté.\n" +
+            "10. Répartir la mousse dans des verrines ou un grand plat.\n" +
+            "11. Placer au réfrigérateur pendant au moins 3 heures.\n" +
+            "12. Servir bien frais."
     },
+
     en: {
-        title: "Chocolate Mousse (Serves 4)",
-        equipment: ["1 bowl", "1 whisk", "1 spatula"],
+        title: "Chocolate Mousse",
+        equipment: [
+            "1 bowl",
+            "1 whisk",
+            "1 spatula",
+            "1 saucepan",
+            "1 mixing bowl"
+        ],
         ingredients: [
             "200 g dark chocolate",
             "3 eggs",
             "30 g sugar",
-            "1 pinch salt"
+            "1 pinch of salt"
         ],
         preparation:
-            "Melt chocolate in a bain-marie. Separate whites and yolks. Beat whites with pinch of salt. Mix yolks with melted chocolate. Gently fold in whites. Refrigerate 3 hours before serving."
+            "1. Melt the dark chocolate gently using a bain-marie.\n" +
+            "2. Remove from heat and let it cool slightly.\n" +
+            "3. Separate egg whites from yolks.\n" +
+            "4. Place the yolks in a mixing bowl.\n" +
+            "5. Add the melted chocolate to the yolks.\n" +
+            "6. Mix until smooth.\n" +
+            "7. Beat the egg whites with a pinch of salt until foamy.\n" +
+            "8. Add the sugar once the whites begin to stiffen.\n" +
+            "9. Gently fold the egg whites into the chocolate mixture.\n" +
+            "10. Divide the mousse into serving glasses or one dish.\n" +
+            "11. Refrigerate for at least 3 hours.\n" +
+            "12. Serve chilled."
     },
+
     nl: {
-        title: "Chocolademousse (voor 4 personen)",
-        equipment: ["1 kom", "1 garde", "1 spatel"],
+        title: "Chocolademousse",
+        equipment: [
+            "1 kom",
+            "1 garde",
+            "1 spatel",
+            "1 steelpan",
+            "1 mengkom"
+        ],
         ingredients: [
             "200 g pure chocolade",
             "3 eieren",
@@ -17616,11 +19992,29 @@ recipesData.dessert.mousseChocolat = {
             "1 snufje zout"
         ],
         preparation:
-            "Smelt chocolade au bain-marie. Scheid eiwitten van dooiers. Klop eiwitten met zout. Meng dooiers met chocolade. Spatel eiwitten er voorzichtig door. Koel 3 uur voor het serveren."
+            "1. Smelt de chocolade zachtjes au bain-marie.\n" +
+            "2. Haal van het vuur en laat even afkoelen.\n" +
+            "3. Scheid de eiwitten van de dooiers.\n" +
+            "4. Doe de dooiers in een mengkom.\n" +
+            "5. Voeg de gesmolten chocolade toe.\n" +
+            "6. Meng tot een glad geheel.\n" +
+            "7. Klop de eiwitten stijf met een snufje zout.\n" +
+            "8. Voeg de suiker toe zodra de eiwitten steviger worden.\n" +
+            "9. Spatel de eiwitten voorzichtig door het chocolademengsel.\n" +
+            "10. Verdeel de mousse over glaasjes of een schaal.\n" +
+            "11. Laat minimaal 3 uur opstijven in de koelkast.\n" +
+            "12. Serveer goed gekoeld."
     },
+
     ar: {
-        title: "موس الشوكولاتة (يكفي 4 أشخاص)",
-        equipment: ["وعاء", "خفاق", "ملعقة"],
+        title: "موس الشوكولاتة",
+        equipment: [
+            "وعاء",
+            "خفاق",
+            "ملعقة",
+            "قدر",
+            "وعاء خلط"
+        ],
         ingredients: [
             "200 غ شوكولاتة داكنة",
             "3 بيضات",
@@ -17628,107 +20022,258 @@ recipesData.dessert.mousseChocolat = {
             "رشة ملح"
         ],
         preparation:
-            "ذوّب الشوكولاتة على حمام مائي. افصل البياض عن الصفار. اخفق البياض مع رشة ملح. امزج الصفار مع الشوكولاتة المذابة. اخلط البياض برفق. ضع في الثلاجة 3 ساعات قبل التقديم."
+            "1. ذوّب الشوكولاتة برفق باستخدام حمام مائي.\n" +
+            "2. ارفعها من النار واتركها تبرد قليلاً.\n" +
+            "3. افصل بياض البيض عن الصفار.\n" +
+            "4. ضع الصفار في وعاء.\n" +
+            "5. أضف الشوكولاتة المذابة وامزج جيداً.\n" +
+            "6. اخفق بياض البيض مع رشة ملح.\n" +
+            "7. أضف السكر عندما يبدأ البياض بالتماسك.\n" +
+            "8. ادمج البياض برفق مع خليط الشوكولاتة.\n" +
+            "9. وزّع الموس في كؤوس أو طبق.\n" +
+            "10. ضع في الثلاجة لمدة لا تقل عن 3 ساعات.\n" +
+            "11. قدّم بارداً."
     }
 };
-
-// -------------------- Clafoutis aux cerises --------------------
 recipesData.dessert.clafoutisCerises = {
     country: "france",
     image: "images/clafoutis-cerises.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Clafoutis aux cerises (4 personnes)",
-        equipment: ["1 plat à gratin", "1 bol", "1 fouet", "1 spatule"],
+        title: "Clafoutis aux cerises",
+        equipment: [
+            "1 plat à gratin",
+            "1 bol",
+            "1 fouet",
+            "1 spatule",
+            "1 four"
+        ],
         ingredients: [
-            "500 g cerises dénoyautées",
-            "100 g farine",
-            "100 g sucre",
+            "500 g de cerises dénoyautées",
+            "100 g de farine",
+            "100 g de sucre",
             "3 œufs",
-            "250 ml lait",
-            "1 pincée de sel"
+            "250 ml de lait",
+            "1 pincée de sel",
+            "Un peu de beurre pour le plat"
         ],
         preparation:
-            "Préchauffer le four à 180°C. Beurrer le plat et disposer les cerises. Mélanger farine, sucre, sel, œufs et lait pour obtenir une pâte lisse. Verser sur les cerises. Cuire 35 minutes. Servir tiède ou froid."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Beurrer généreusement le plat à gratin.\n" +
+            "3. Répartir les cerises dénoyautées dans le plat.\n" +
+            "4. Mettre la farine, le sucre et le sel dans un bol.\n" +
+            "5. Ajouter les œufs.\n" +
+            "6. Fouetter progressivement en versant le lait pour obtenir une pâte lisse.\n" +
+            "7. Verser l’appareil sur les cerises.\n" +
+            "8. Enfourner.\n" +
+            "9. Cuire pendant 35 minutes jusqu’à ce que le dessus soit légèrement doré.\n" +
+            "10. Sortir du four.\n" +
+            "11. Laisser tiédir quelques minutes.\n" +
+            "12. Servir tiède ou froid."
     },
+
     en: {
-        title: "Cherry Clafoutis (Serves 4)",
-        equipment: ["1 gratin dish", "1 bowl", "1 whisk", "1 spatula"],
+        title: "Cherry Clafoutis",
+        equipment: [
+            "1 baking dish",
+            "1 bowl",
+            "1 whisk",
+            "1 spatula",
+            "1 oven"
+        ],
         ingredients: [
             "500 g pitted cherries",
             "100 g flour",
             "100 g sugar",
             "3 eggs",
             "250 ml milk",
-            "1 pinch salt"
+            "1 pinch of salt",
+            "Butter for the dish"
         ],
         preparation:
-            "Preheat oven to 180°C. Butter dish and place cherries. Mix flour, sugar, salt, eggs, and milk until smooth. Pour over cherries. Bake 35 minutes. Serve warm or cold."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Generously butter the baking dish.\n" +
+            "3. Spread the pitted cherries evenly in the dish.\n" +
+            "4. Place the flour, sugar, and salt in a bowl.\n" +
+            "5. Add the eggs.\n" +
+            "6. Gradually whisk in the milk until smooth.\n" +
+            "7. Pour the batter over the cherries.\n" +
+            "8. Place in the oven.\n" +
+            "9. Bake for 35 minutes until lightly golden on top.\n" +
+            "10. Remove from the oven.\n" +
+            "11. Let cool slightly.\n" +
+            "12. Serve warm or cold."
     },
+
     nl: {
-        title: "Kersclafoutis (voor 4 personen)",
-        equipment: ["1 ovenschaal", "1 kom", "1 garde", "1 spatel"],
+        title: "Kersclafoutis",
+        equipment: [
+            "1 ovenschaal",
+            "1 kom",
+            "1 garde",
+            "1 spatel",
+            "1 oven"
+        ],
         ingredients: [
             "500 g ontpitte kersen",
             "100 g bloem",
             "100 g suiker",
             "3 eieren",
             "250 ml melk",
-            "1 snufje zout"
+            "1 snufje zout",
+            "Boter voor de schaal"
         ],
         preparation:
-            "Verwarm oven voor op 180°C. Vet schaal in en leg kersen. Meng bloem, suiker, zout, eieren en melk tot een glad beslag. Giet over kersen. Bak 35 minuten. Serveer warm of koud."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Vet de ovenschaal goed in met boter.\n" +
+            "3. Verdeel de ontpitte kersen over de schaal.\n" +
+            "4. Doe bloem, suiker en zout in een kom.\n" +
+            "5. Voeg de eieren toe.\n" +
+            "6. Klop geleidelijk de melk erdoor tot een glad beslag.\n" +
+            "7. Giet het beslag over de kersen.\n" +
+            "8. Zet in de oven.\n" +
+            "9. Bak 35 minuten tot de bovenkant licht goudbruin is.\n" +
+            "10. Haal uit de oven.\n" +
+            "11. Laat even afkoelen.\n" +
+            "12. Serveer warm of koud."
     },
+
     ar: {
-        title: "كلافوتيس الكرز (يكفي 4 أشخاص)",
-        equipment: ["طبق غراتان", "وعاء", "خفاق", "ملعقة"],
+        title: "كلافوتيس الكرز",
+        equipment: [
+            "طبق فرن",
+            "وعاء",
+            "خفاق",
+            "ملعقة",
+            "فرن"
+        ],
         ingredients: [
             "500 غ كرز منزوع النوى",
             "100 غ دقيق",
             "100 غ سكر",
             "3 بيضات",
             "250 مل حليب",
-            "رشة ملح"
+            "رشة ملح",
+            "قليل من الزبدة لدهن القالب"
         ],
         preparation:
-            "سخّن الفرن إلى 180°C. ادهن الطبق بالزبدة وضع الكرز. اخلط الدقيق، السكر، الملح، البيض والحليب للحصول على خليط ناعم. صب فوق الكرز. اخبز 35 دقيقة. قدمه دافئاً أو بارداً."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. ادهن قالب الفرن بالزبدة جيداً.\n" +
+            "3. وزّع الكرز في القالب.\n" +
+            "4. ضع الدقيق والسكر والملح في وعاء.\n" +
+            "5. أضف البيض.\n" +
+            "6. اخفق مع إضافة الحليب تدريجياً حتى يصبح الخليط ناعماً.\n" +
+            "7. اسكب الخليط فوق الكرز.\n" +
+            "8. أدخل القالب إلى الفرن.\n" +
+            "9. اخبز لمدة 35 دقيقة حتى يحمر السطح قليلاً.\n" +
+            "10. أخرج من الفرن.\n" +
+            "11. اتركه يبرد قليلاً.\n" +
+            "12. قدّم دافئاً أو بارداً."
     }
 };
-
-// -------------------- Île flottante --------------------
 recipesData.dessert.ileFlottante = {
     country: "france",
     image: "images/ile-flottante.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Île flottante (4 personnes)",
-        equipment: ["1 casserole", "1 bol", "1 fouet", "1 cuillère"],
+        title: "Île flottante",
+        equipment: [
+            "1 casserole",
+            "1 bol",
+            "1 fouet",
+            "1 cuillère",
+            "1 écumoire"
+        ],
         ingredients: [
             "4 œufs",
-            "500 ml lait",
-            "50 g sucre",
+            "500 ml de lait",
+            "50 g de sucre",
             "1 gousse de vanille",
             "1 pincée de sel",
             "Caramel pour la décoration"
         ],
         preparation:
-            "Séparer les blancs des jaunes. Faire chauffer le lait avec la vanille. Monter les blancs en neige avec le sel et incorporer 20 g sucre. Pocher les blancs dans le lait chaud 2 minutes de chaque côté. Préparer une crème anglaise avec les jaunes et le reste du sucre. Servir les blancs sur la crème, décorer de caramel."
+            "1. Séparer les blancs des jaunes d’œufs.\n" +
+            "2. Verser le lait dans une casserole.\n" +
+            "3. Fendre la gousse de vanille et gratter les graines.\n" +
+            "4. Ajouter les graines et la gousse au lait.\n" +
+            "5. Chauffer doucement sans faire bouillir.\n" +
+            "6. Monter les blancs en neige avec une pincée de sel.\n" +
+            "7. Ajouter progressivement 20 g de sucre pour serrer les blancs.\n" +
+            "8. Prélever des quenelles de blancs en neige.\n" +
+            "9. Pocher les blancs dans le lait chaud 2 minutes de chaque côté.\n" +
+            "10. Égoutter délicatement les blancs à l’aide d’une écumoire.\n" +
+            "11. Retirer la gousse de vanille du lait.\n" +
+            "12. Fouetter les jaunes avec le reste du sucre.\n" +
+            "13. Verser le lait chaud progressivement sur les jaunes.\n" +
+            "14. Remettre sur feu doux en remuant jusqu’à épaississement.\n" +
+            "15. Verser la crème anglaise dans des assiettes ou des coupes.\n" +
+            "16. Déposer les blancs pochés par-dessus.\n" +
+            "17. Décorer avec du caramel.\n" +
+            "18. Servir frais."
     },
+
     en: {
-        title: "Floating Island (Serves 4)",
-        equipment: ["1 saucepan", "1 bowl", "1 whisk", "1 spoon"],
+        title: "Floating Island",
+        equipment: [
+            "1 saucepan",
+            "1 bowl",
+            "1 whisk",
+            "1 spoon",
+            "1 skimmer"
+        ],
         ingredients: [
             "4 eggs",
             "500 ml milk",
             "50 g sugar",
             "1 vanilla bean",
-            "1 pinch salt",
+            "1 pinch of salt",
             "Caramel for decoration"
         ],
         preparation:
-            "Separate whites from yolks. Heat milk with vanilla. Beat whites with salt and 20 g sugar. Poach whites in hot milk 2 minutes per side. Prepare custard with yolks and remaining sugar. Serve whites on custard, decorate with caramel."
+            "1. Separate egg whites from yolks.\n" +
+            "2. Pour the milk into a saucepan.\n" +
+            "3. Split the vanilla bean and scrape the seeds.\n" +
+            "4. Add seeds and pod to the milk.\n" +
+            "5. Heat gently without boiling.\n" +
+            "6. Beat the egg whites with a pinch of salt.\n" +
+            "7. Gradually add 20 g of sugar to stiffen the whites.\n" +
+            "8. Shape spoonfuls of the egg whites.\n" +
+            "9. Poach them in the hot milk for 2 minutes per side.\n" +
+            "10. Remove and drain gently.\n" +
+            "11. Remove the vanilla pod from the milk.\n" +
+            "12. Whisk the yolks with the remaining sugar.\n" +
+            "13. Slowly pour the hot milk into the yolks.\n" +
+            "14. Cook gently while stirring until thickened.\n" +
+            "15. Pour the custard into serving dishes.\n" +
+            "16. Place the poached whites on top.\n" +
+            "17. Drizzle with caramel.\n" +
+            "18. Serve chilled."
     },
+
     nl: {
-        title: "Île flottante (voor 4 personen)",
-        equipment: ["1 steelpan", "1 kom", "1 garde", "1 lepel"],
+        title: "Île flottante",
+        equipment: [
+            "1 steelpan",
+            "1 kom",
+            "1 garde",
+            "1 lepel",
+            "1 schuimspaan"
+        ],
         ingredients: [
             "4 eieren",
             "500 ml melk",
@@ -17738,44 +20283,126 @@ recipesData.dessert.ileFlottante = {
             "Karamel voor decoratie"
         ],
         preparation:
-            "Scheid eiwitten van dooiers. Verwarm melk met vanille. Klop eiwitten met zout en 20 g suiker. Pocheer eiwitten 2 minuten per kant in hete melk. Bereid custard met dooiers en resterende suiker. Serveer eiwitten op custard, decoreer met karamel."
+            "1. Scheid de eiwitten van de eidooiers.\n" +
+            "2. Giet de melk in een steelpan.\n" +
+            "3. Snijd het vanillestokje open en schraap de zaadjes eruit.\n" +
+            "4. Voeg zaadjes en stokje toe aan de melk.\n" +
+            "5. Verwarm zacht zonder te koken.\n" +
+            "6. Klop de eiwitten stijf met een snufje zout.\n" +
+            "7. Voeg geleidelijk 20 g suiker toe.\n" +
+            "8. Schep hoopjes eiwit.\n" +
+            "9. Pocheer ze 2 minuten per kant in de warme melk.\n" +
+            "10. Laat uitlekken met een schuimspaan.\n" +
+            "11. Verwijder het vanillestokje.\n" +
+            "12. Klop de dooiers met de resterende suiker.\n" +
+            "13. Giet de hete melk er langzaam bij.\n" +
+            "14. Verwarm zacht tot de saus indikt.\n" +
+            "15. Verdeel de custard over schaaltjes.\n" +
+            "16. Leg de eiwitten erop.\n" +
+            "17. Werk af met karamel.\n" +
+            "18. Serveer koud."
     },
+
     ar: {
-        title: "جزيرة عائمة (يكفي 4 أشخاص)",
-        equipment: ["قدر", "وعاء", "خفاق", "ملعقة"],
+        title: "جزيرة عائمة",
+        equipment: [
+            "قدر",
+            "وعاء",
+            "خفاق",
+            "ملعقة",
+            "مغرفة مثقبة"
+        ],
         ingredients: [
             "4 بيضات",
             "500 مل حليب",
             "50 غ سكر",
-            "1 حبّة فانيليا",
+            "عود فانيليا",
             "رشة ملح",
             "كاراميل للزينة"
         ],
         preparation:
-            "افصل البياض عن الصفار. سخّن الحليب مع الفانيليا. اخفق البياض مع الملح و20 غ سكر. اسلق البياض في الحليب الساخن دقيقتين لكل جانب. حضّر كاسترد مع الصفار وبقية السكر. ضع البياض على الكاسترد وزينه بالكاراميل."
+            "1. افصل بياض البيض عن الصفار.\n" +
+            "2. اسكب الحليب في قدر.\n" +
+            "3. افتح عود الفانيليا واستخرج البذور.\n" +
+            "4. أضف البذور والعود إلى الحليب.\n" +
+            "5. سخّن بلطف دون غليان.\n" +
+            "6. اخفق بياض البيض مع رشة ملح.\n" +
+            "7. أضف 20 غ من السكر تدريجياً.\n" +
+            "8. شكّل كرات من البياض.\n" +
+            "9. اسلقها في الحليب الساخن دقيقتين لكل جانب.\n" +
+            "10. ارفعها واتركها تصفّى.\n" +
+            "11. أزل عود الفانيليا من الحليب.\n" +
+            "12. اخفق الصفار مع باقي السكر.\n" +
+            "13. أضف الحليب الساخن تدريجياً.\n" +
+            "14. أعد الخليط للنار مع التحريك حتى يثخن.\n" +
+            "15. اسكب الكاسترد في أطباق التقديم.\n" +
+            "16. ضع البياض فوقه.\n" +
+            "17. زيّن بالكاراميل.\n" +
+            "18. قدّم بارداً."
     }
-};// -------------------- Tarte au citron meringuée --------------------
+};
 recipesData.dessert.tarteCitronMeringuee = {
     country: "france",
     image: "images/tarte-citron-meringuee.jpg",
+
+    meta: {
+        servings: 6,
+        prepTime: 30,
+        cookTime: 20,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Tarte au citron meringuée (6 personnes)",
-        equipment: ["1 moule à tarte", "1 bol", "1 fouet", "1 casserole", "1 spatule"],
+        title: "Tarte au citron meringuée",
+        equipment: [
+            "1 moule à tarte",
+            "1 bol",
+            "1 fouet",
+            "1 casserole",
+            "1 spatule",
+            "1 four"
+        ],
         ingredients: [
             "1 pâte sablée",
             "4 citrons (jus et zestes)",
-            "150 g sucre",
+            "150 g de sucre",
             "3 œufs",
-            "50 g beurre",
+            "50 g de beurre",
             "2 blancs d’œufs",
-            "50 g sucre pour meringue"
+            "50 g de sucre pour la meringue"
         ],
         preparation:
-            "Préchauffer le four à 180°C. Foncer le moule avec la pâte et cuire à blanc 15 min. Mélanger jus et zestes de citron avec œufs, sucre et beurre dans une casserole et cuire doucement jusqu’à épaississement. Verser sur la pâte. Monter les blancs en neige avec sucre, recouvrir la tarte. Gratiner 5 min au four. Servir tiède ou froid."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Foncer le moule avec la pâte sablée.\n" +
+            "3. Piquer le fond avec une fourchette.\n" +
+            "4. Cuire la pâte à blanc pendant 15 minutes.\n" +
+            "5. Sortir le moule du four et laisser tiédir.\n" +
+            "6. Râper les zestes des citrons et presser le jus.\n" +
+            "7. Mettre le jus, les zestes, les œufs, le sucre et le beurre dans une casserole.\n" +
+            "8. Chauffer à feu doux en remuant constamment.\n" +
+            "9. Continuer la cuisson jusqu’à épaississement de la crème.\n" +
+            "10. Retirer du feu.\n" +
+            "11. Verser la crème au citron sur le fond de tarte.\n" +
+            "12. Monter les blancs d’œufs en neige ferme.\n" +
+            "13. Ajouter progressivement le sucre pour la meringue.\n" +
+            "14. Recouvrir la tarte avec la meringue.\n" +
+            "15. Former des pics à l’aide d’une spatule.\n" +
+            "16. Enfourner de nouveau pendant 5 minutes pour faire dorer la meringue.\n" +
+            "17. Sortir du four.\n" +
+            "18. Laisser refroidir.\n" +
+            "19. Servir tiède ou bien froid."
     },
+
     en: {
-        title: "Lemon Meringue Tart (Serves 6)",
-        equipment: ["1 tart pan", "1 bowl", "1 whisk", "1 saucepan", "1 spatula"],
+        title: "Lemon Meringue Tart",
+        equipment: [
+            "1 tart pan",
+            "1 bowl",
+            "1 whisk",
+            "1 saucepan",
+            "1 spatula",
+            "1 oven"
+        ],
         ingredients: [
             "1 shortcrust pastry",
             "4 lemons (juice and zest)",
@@ -17783,14 +20410,40 @@ recipesData.dessert.tarteCitronMeringuee = {
             "3 eggs",
             "50 g butter",
             "2 egg whites",
-            "50 g sugar for meringue"
+            "50 g sugar for the meringue"
         ],
         preparation:
-            "Preheat oven to 180°C. Line pan with pastry and bake 15 min blind. Mix lemon juice, zest, eggs, sugar, and butter in saucepan and cook gently until thickened. Pour over pastry. Beat egg whites with sugar, spread on tart. Brown 5 min in oven. Serve warm or cold."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Line the tart pan with the pastry.\n" +
+            "3. Prick the base with a fork.\n" +
+            "4. Blind bake for 15 minutes.\n" +
+            "5. Remove from the oven and let cool slightly.\n" +
+            "6. Zest and juice the lemons.\n" +
+            "7. Place lemon juice, zest, eggs, sugar, and butter in a saucepan.\n" +
+            "8. Cook gently over low heat, stirring constantly.\n" +
+            "9. Continue until the cream thickens.\n" +
+            "10. Remove from heat.\n" +
+            "11. Pour the lemon cream over the pastry base.\n" +
+            "12. Beat the egg whites until stiff.\n" +
+            "13. Gradually add the sugar.\n" +
+            "14. Spread the meringue over the tart.\n" +
+            "15. Shape peaks with a spatula.\n" +
+            "16. Bake again for 5 minutes until lightly golden.\n" +
+            "17. Remove from the oven.\n" +
+            "18. Let cool.\n" +
+            "19. Serve warm or cold."
     },
+
     nl: {
-        title: "Citroenmeringuetaart (voor 6 personen)",
-        equipment: ["1 taartvorm", "1 kom", "1 garde", "1 steelpan", "1 spatel"],
+        title: "Citroenmeringuetaart",
+        equipment: [
+            "1 taartvorm",
+            "1 kom",
+            "1 garde",
+            "1 steelpan",
+            "1 spatel",
+            "1 oven"
+        ],
         ingredients: [
             "1 zanddeeg",
             "4 citroenen (sap en rasp)",
@@ -17801,11 +20454,37 @@ recipesData.dessert.tarteCitronMeringuee = {
             "50 g suiker voor meringue"
         ],
         preparation:
-            "Verwarm oven voor op 180°C. Bekleed vorm met deeg en bak 15 min blind. Meng citroensap, rasp, eieren, suiker en boter in steelpan en kook zachtjes tot dik. Giet over deeg. Klop eiwitten met suiker, bedek taart. Laat 5 min kleuren in oven. Serveer warm of koud."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Bekleed de taartvorm met het deeg.\n" +
+            "3. Prik de bodem in met een vork.\n" +
+            "4. Bak het deeg 15 minuten blind.\n" +
+            "5. Haal uit de oven en laat even afkoelen.\n" +
+            "6. Rasp de citroenschil en pers het sap.\n" +
+            "7. Doe sap, rasp, eieren, suiker en boter in een steelpan.\n" +
+            "8. Verwarm zachtjes en blijf roeren.\n" +
+            "9. Laat indikken tot een gladde crème.\n" +
+            "10. Haal van het vuur.\n" +
+            "11. Giet de citroencrème op de taartbodem.\n" +
+            "12. Klop de eiwitten stijf.\n" +
+            "13. Voeg geleidelijk de suiker toe.\n" +
+            "14. Verdeel de meringue over de taart.\n" +
+            "15. Maak pieken met een spatel.\n" +
+            "16. Zet nog 5 minuten in de oven tot licht goudbruin.\n" +
+            "17. Haal uit de oven.\n" +
+            "18. Laat afkoelen.\n" +
+            "19. Serveer warm of koud."
     },
+
     ar: {
-        title: "تارت الليمون مع الميرينغ (يكفي 6 أشخاص)",
-        equipment: ["صينية تارت", "وعاء", "خفاق", "قدر", "ملعقة"],
+        title: "تارت الليمون مع الميرينغ",
+        equipment: [
+            "صينية تارت",
+            "وعاء",
+            "خفاق",
+            "قدر",
+            "ملعقة",
+            "فرن"
+        ],
         ingredients: [
             "عجينة قصيرة",
             "4 حبات ليمون (عصير وقشر)",
@@ -17816,103 +20495,262 @@ recipesData.dessert.tarteCitronMeringuee = {
             "50 غ سكر للمرينغ"
         ],
         preparation:
-            "سخّن الفرن إلى 180°C. افرد العجينة في الصينية واخبز 15 دقيقة بدون حشوة. اخلط عصير وقشر الليمون مع البيض والسكر والزبدة في قدر واطبخ على نار هادئة حتى يتماسك. اسكب فوق العجينة. اخفق البياض مع السكر وغطِّ التارت. حمّره 5 دقائق في الفرن. قدمه دافئًا أو باردًا."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. افرد العجينة في قالب التارت.\n" +
+            "3. اثقب القاع بالشوكة.\n" +
+            "4. اخبز العجينة بدون حشوة لمدة 15 دقيقة.\n" +
+            "5. أخرجها من الفرن واتركها تبرد قليلاً.\n" +
+            "6. ابشر قشر الليمون واعصره.\n" +
+            "7. ضع العصير والقشر والبيض والسكر والزبدة في قدر.\n" +
+            "8. اطبخ على نار هادئة مع التحريك المستمر.\n" +
+            "9. استمر حتى تتماسك الكريمة.\n" +
+            "10. ارفع من النار.\n" +
+            "11. اسكب كريمة الليمون فوق العجينة.\n" +
+            "12. اخفق بياض البيض حتى يصبح متماسكاً.\n" +
+            "13. أضف السكر تدريجياً.\n" +
+            "14. غطِّ التارت بالمرينغ.\n" +
+            "15. شكّل قمماً بالملعقة.\n" +
+            "16. أعد إدخالها إلى الفرن 5 دقائق حتى تتحمّر.\n" +
+            "17. أخرجها من الفرن.\n" +
+            "18. اتركها تبرد.\n" +
+            "19. قدّمها دافئة أو باردة."
     }
 };
-
-// -------------------- Fondant au chocolat --------------------
 recipesData.dessert.fondantChocolat = {
     country: "france",
     image: "images/fondant-chocolat.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 12,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Fondant au chocolat (4 personnes)",
-        equipment: ["4 ramequins", "1 bol", "1 fouet", "1 casserole"],
+        title: "Fondant au chocolat",
+        equipment: [
+            "4 ramequins",
+            "1 bol",
+            "1 fouet",
+            "1 casserole",
+            "1 four"
+        ],
         ingredients: [
-            "200 g chocolat noir",
-            "100 g beurre",
-            "50 g sucre",
+            "200 g de chocolat noir",
+            "100 g de beurre",
+            "50 g de sucre",
             "3 œufs",
-            "30 g farine"
+            "30 g de farine",
+            "Un peu de beurre pour les ramequins"
         ],
         preparation:
-            "Préchauffer le four à 180°C. Faire fondre le chocolat avec le beurre. Battre les œufs et le sucre, incorporer le chocolat fondu, puis la farine. Répartir dans les ramequins beurrés. Cuire 12 minutes. Servir tiède."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Beurrer légèrement les ramequins.\n" +
+            "3. Faire fondre le chocolat noir avec le beurre au bain-marie.\n" +
+            "4. Retirer du feu et laisser tiédir.\n" +
+            "5. Mettre les œufs dans un bol.\n" +
+            "6. Ajouter le sucre et fouetter jusqu’à obtenir un mélange homogène.\n" +
+            "7. Incorporer le chocolat fondu.\n" +
+            "8. Ajouter la farine et mélanger délicatement.\n" +
+            "9. Répartir la préparation dans les ramequins.\n" +
+            "10. Enfourner.\n" +
+            "11. Cuire pendant 12 minutes.\n" +
+            "12. Sortir du four.\n" +
+            "13. Servir tiède, nature ou accompagné d’une crème."
     },
+
     en: {
-        title: "Chocolate Fondant (Serves 4)",
-        equipment: ["4 ramekins", "1 bowl", "1 whisk", "1 saucepan"],
+        title: "Chocolate Fondant",
+        equipment: [
+            "4 ramekins",
+            "1 bowl",
+            "1 whisk",
+            "1 saucepan",
+            "1 oven"
+        ],
         ingredients: [
             "200 g dark chocolate",
             "100 g butter",
             "50 g sugar",
             "3 eggs",
-            "30 g flour"
+            "30 g flour",
+            "Butter for the ramekins"
         ],
         preparation:
-            "Preheat oven to 180°C. Melt chocolate with butter. Beat eggs and sugar, add melted chocolate, then flour. Pour into buttered ramekins. Bake 12 minutes. Serve warm."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Lightly butter the ramekins.\n" +
+            "3. Melt the dark chocolate with the butter using a bain-marie.\n" +
+            "4. Remove from heat and let cool slightly.\n" +
+            "5. Place the eggs in a bowl.\n" +
+            "6. Add the sugar and whisk until smooth.\n" +
+            "7. Stir in the melted chocolate.\n" +
+            "8. Add the flour and mix gently.\n" +
+            "9. Divide the batter between the ramekins.\n" +
+            "10. Place in the oven.\n" +
+            "11. Bake for 12 minutes.\n" +
+            "12. Remove from the oven.\n" +
+            "13. Serve warm, plain or with cream."
     },
+
     nl: {
-        title: "Chocoladefondant (voor 4 personen)",
-        equipment: ["4 ramekins", "1 kom", "1 garde", "1 steelpan"],
+        title: "Chocoladefondant",
+        equipment: [
+            "4 ramekins",
+            "1 kom",
+            "1 garde",
+            "1 steelpan",
+            "1 oven"
+        ],
         ingredients: [
             "200 g pure chocolade",
             "100 g boter",
             "50 g suiker",
             "3 eieren",
-            "30 g bloem"
+            "30 g bloem",
+            "Boter voor de ramekins"
         ],
         preparation:
-            "Verwarm oven voor op 180°C. Smelt chocolade met boter. Klop eieren en suiker, voeg chocolade toe, daarna bloem. Verdeel over ingevette ramekins. Bak 12 minuten. Serveer warm."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Vet de ramekins licht in.\n" +
+            "3. Smelt de chocolade samen met de boter au bain-marie.\n" +
+            "4. Haal van het vuur en laat iets afkoelen.\n" +
+            "5. Doe de eieren in een kom.\n" +
+            "6. Voeg de suiker toe en klop tot een glad mengsel.\n" +
+            "7. Meng de gesmolten chocolade erdoor.\n" +
+            "8. Voeg de bloem toe en meng voorzichtig.\n" +
+            "9. Verdeel het beslag over de ramekins.\n" +
+            "10. Zet in de oven.\n" +
+            "11. Bak 12 minuten.\n" +
+            "12. Haal uit de oven.\n" +
+            "13. Serveer warm, eventueel met room."
     },
+
     ar: {
-        title: "فوندو الشوكولاتة (يكفي 4 أشخاص)",
-        equipment: ["4 قوالب صغيرة", "وعاء", "خفاق", "قدر"],
+        title: "فوندو الشوكولاتة",
+        equipment: [
+            "4 قوالب صغيرة",
+            "وعاء",
+            "خفاق",
+            "قدر",
+            "فرن"
+        ],
         ingredients: [
             "200 غ شوكولاتة داكنة",
             "100 غ زبدة",
             "50 غ سكر",
             "3 بيضات",
-            "30 غ دقيق"
+            "30 غ دقيق",
+            "قليل من الزبدة لدهن القوالب"
         ],
         preparation:
-            "سخّن الفرن إلى 180°C. ذوّب الشوكولاتة مع الزبدة. اخفق البيض مع السكر، أضف الشوكولاتة المذابة ثم الدقيق. ضع في القوالب المدهونة بالزبدة. اخبز 12 دقيقة. قدمه دافئًا."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. ادهن القوالب بقليل من الزبدة.\n" +
+            "3. ذوّب الشوكولاتة مع الزبدة باستخدام حمام مائي.\n" +
+            "4. ارفعها من النار واتركها تبرد قليلاً.\n" +
+            "5. ضع البيض في وعاء.\n" +
+            "6. أضف السكر واخفق جيداً.\n" +
+            "7. أضف الشوكولاتة المذابة وامزج.\n" +
+            "8. أضف الدقيق وحرّك برفق.\n" +
+            "9. وزّع الخليط في القوالب.\n" +
+            "10. أدخلها إلى الفرن.\n" +
+            "11. اخبز لمدة 12 دقيقة.\n" +
+            "12. أخرجها من الفرن.\n" +
+            "13. قدّمها دافئة."
     }
 };
-
-// -------------------- Tarte aux poires --------------------
 recipesData.dessert.tartePoires = {
     country: "france",
     image: "images/tarte-poires.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tarte aux poires (4 personnes)",
-        equipment: ["1 moule à tarte", "1 bol", "1 fouet", "1 spatule"],
+        title: "Tarte aux poires",
+        equipment: [
+            "1 moule à tarte",
+            "1 bol",
+            "1 fouet",
+            "1 spatule",
+            "1 four"
+        ],
         ingredients: [
             "1 pâte sablée",
             "3 poires mûres",
-            "100 g sucre",
+            "100 g de sucre",
             "2 œufs",
-            "100 ml crème liquide",
-            "1 cuillère à café amande en poudre"
+            "100 ml de crème liquide",
+            "1 cuillère à café d’amandes en poudre"
         ],
         preparation:
-            "Préchauffer le four à 180°C. Foncer le moule avec la pâte. Couper les poires en tranches et disposer sur la pâte. Mélanger œufs, sucre, crème et amandes, verser sur les poires. Cuire 30 minutes. Servir tiède ou froid."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Foncer le moule avec la pâte sablée.\n" +
+            "3. Piquer le fond de tarte avec une fourchette.\n" +
+            "4. Éplucher les poires.\n" +
+            "5. Couper les poires en fines tranches.\n" +
+            "6. Disposer les tranches de poires sur la pâte.\n" +
+            "7. Mettre les œufs dans un bol.\n" +
+            "8. Ajouter le sucre et fouetter jusqu’à obtenir un mélange homogène.\n" +
+            "9. Incorporer la crème liquide.\n" +
+            "10. Ajouter les amandes en poudre et mélanger.\n" +
+            "11. Verser l’appareil sur les poires.\n" +
+            "12. Enfourner.\n" +
+            "13. Cuire pendant 30 minutes jusqu’à ce que la tarte soit dorée.\n" +
+            "14. Sortir du four.\n" +
+            "15. Laisser tiédir.\n" +
+            "16. Servir tiède ou froid."
     },
+
     en: {
-        title: "Pear Tart (Serves 4)",
-        equipment: ["1 tart pan", "1 bowl", "1 whisk", "1 spatula"],
+        title: "Pear Tart",
+        equipment: [
+            "1 tart pan",
+            "1 bowl",
+            "1 whisk",
+            "1 spatula",
+            "1 oven"
+        ],
         ingredients: [
             "1 shortcrust pastry",
             "3 ripe pears",
             "100 g sugar",
             "2 eggs",
             "100 ml cream",
-            "1 teaspoon almond powder"
+            "1 teaspoon ground almonds"
         ],
         preparation:
-            "Preheat oven to 180°C. Line tart pan with pastry. Slice pears and arrange on pastry. Mix eggs, sugar, cream, and almonds, pour over pears. Bake 30 minutes. Serve warm or cold."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Line the tart pan with the pastry.\n" +
+            "3. Prick the base with a fork.\n" +
+            "4. Peel the pears.\n" +
+            "5. Slice the pears thinly.\n" +
+            "6. Arrange the pear slices over the pastry.\n" +
+            "7. Place the eggs in a bowl.\n" +
+            "8. Add the sugar and whisk until smooth.\n" +
+            "9. Stir in the cream.\n" +
+            "10. Add the ground almonds and mix.\n" +
+            "11. Pour the mixture over the pears.\n" +
+            "12. Place in the oven.\n" +
+            "13. Bake for 30 minutes until golden.\n" +
+            "14. Remove from the oven.\n" +
+            "15. Let cool slightly.\n" +
+            "16. Serve warm or cold."
     },
+
     nl: {
-        title: "Perentaart (voor 4 personen)",
-        equipment: ["1 taartvorm", "1 kom", "1 garde", "1 spatel"],
+        title: "Perentaart",
+        equipment: [
+            "1 taartvorm",
+            "1 kom",
+            "1 garde",
+            "1 spatel",
+            "1 oven"
+        ],
         ingredients: [
             "1 zanddeeg",
             "3 rijpe peren",
@@ -17922,59 +20760,161 @@ recipesData.dessert.tartePoires = {
             "1 theelepel amandelpoeder"
         ],
         preparation:
-            "Verwarm oven voor op 180°C. Bekleed vorm met deeg. Snijd peren in plakjes en leg op deeg. Meng eieren, suiker, room en amandelen, giet over peren. Bak 30 minuten. Serveer warm of koud."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Bekleed de taartvorm met het deeg.\n" +
+            "3. Prik de bodem in met een vork.\n" +
+            "4. Schil de peren.\n" +
+            "5. Snijd de peren in dunne plakjes.\n" +
+            "6. Verdeel de peren over het deeg.\n" +
+            "7. Doe de eieren in een kom.\n" +
+            "8. Voeg de suiker toe en klop glad.\n" +
+            "9. Meng de room erdoor.\n" +
+            "10. Voeg het amandelpoeder toe.\n" +
+            "11. Giet het mengsel over de peren.\n" +
+            "12. Zet in de oven.\n" +
+            "13. Bak 30 minuten tot goudbruin.\n" +
+            "14. Haal uit de oven.\n" +
+            "15. Laat iets afkoelen.\n" +
+            "16. Serveer warm of koud."
     },
+
     ar: {
-        title: "تارت الكمثرى (يكفي 4 أشخاص)",
-        equipment: ["صينية تارت", "وعاء", "خفاق", "ملعقة"],
+        title: "تارت الكمثرى",
+        equipment: [
+            "صينية تارت",
+            "وعاء",
+            "خفاق",
+            "ملعقة",
+            "فرن"
+        ],
         ingredients: [
-            "1 عجينة قصيرة",
-            "3 كمثرى ناضجة",
+            "عجينة قصيرة",
+            "3 حبات كمثرى ناضجة",
             "100 غ سكر",
             "2 بيضات",
             "100 مل كريمة سائلة",
-            "1 ملعقة صغيرة لوز مطحون"
+            "ملعقة صغيرة لوز مطحون"
         ],
         preparation:
-            "سخّن الفرن إلى 180°C. افرد العجينة في الصينية. قطّع الكمثرى إلى شرائح وضعها على العجينة. اخلط البيض، السكر، الكريمة واللوز واسكب فوق الكمثرى. اخبز 30 دقيقة. قدمه دافئًا أو باردًا."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. افرد العجينة في قالب التارت.\n" +
+            "3. اثقب القاع بالشوكة.\n" +
+            "4. قشّر الكمثرى.\n" +
+            "5. قطّع الكمثرى إلى شرائح رفيعة.\n" +
+            "6. وزّع الشرائح فوق العجينة.\n" +
+            "7. ضع البيض في وعاء.\n" +
+            "8. أضف السكر واخفق جيداً.\n" +
+            "9. أضف الكريمة السائلة.\n" +
+            "10. أضف اللوز المطحون وامزج.\n" +
+            "11. اسكب الخليط فوق الكمثرى.\n" +
+            "12. أدخل القالب إلى الفرن.\n" +
+            "13. اخبز لمدة 30 دقيقة حتى يتحمّر السطح.\n" +
+            "14. أخرجها من الفرن.\n" +
+            "15. اتركها تبرد قليلاً.\n" +
+            "16. قدّمها دافئة أو باردة."
     }
 };
-
-// -------------------- Paris-Brest --------------------
 recipesData.dessert.parisBrest = {
     country: "france",
     image: "images/paris-brest.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 40,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Paris-Brest (4 personnes)",
-        equipment: ["1 poche à douille", "1 plaque de cuisson", "1 bol", "1 fouet"],
+        title: "Paris-Brest",
+        equipment: [
+            "1 poche à douille",
+            "1 plaque de cuisson",
+            "1 bol",
+            "1 fouet",
+            "1 casserole",
+            "1 four"
+        ],
         ingredients: [
-            "100 g farine",
-            "80 g beurre",
+            "100 g de farine",
+            "80 g de beurre",
             "2 œufs",
-            "50 g sucre",
-            "50 g poudre d’amande",
-            "150 ml crème liquide"
+            "50 g de sucre",
+            "50 g de poudre d’amande",
+            "150 ml de crème liquide"
         ],
         preparation:
-            "Préchauffer le four à 180°C. Préparer une pâte à choux avec farine, beurre, œufs. Dresser en couronne sur plaque. Cuire 25 minutes. Monter la crème en chantilly et mélanger avec poudre d’amande. Couper le choux refroidi, garnir de crème. Servir."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Mettre le beurre dans une casserole avec un peu d’eau.\n" +
+            "3. Chauffer jusqu’à ce que le beurre soit fondu.\n" +
+            "4. Retirer du feu et ajouter la farine en une seule fois.\n" +
+            "5. Mélanger énergiquement jusqu’à obtenir une pâte homogène.\n" +
+            "6. Remettre sur feu doux quelques instants pour dessécher la pâte.\n" +
+            "7. Transférer la pâte dans un bol.\n" +
+            "8. Ajouter les œufs un par un en mélangeant bien.\n" +
+            "9. Mettre la pâte à choux dans une poche à douille.\n" +
+            "10. Former une couronne sur la plaque de cuisson.\n" +
+            "11. Enfourner.\n" +
+            "12. Cuire pendant 25 minutes jusqu’à ce que le choux soit bien doré.\n" +
+            "13. Sortir du four et laisser refroidir complètement.\n" +
+            "14. Monter la crème liquide en chantilly.\n" +
+            "15. Incorporer délicatement la poudre d’amande et le sucre.\n" +
+            "16. Couper le choux refroidi horizontalement.\n" +
+            "17. Garnir généreusement de crème.\n" +
+            "18. Refermer le Paris-Brest.\n" +
+            "19. Servir frais."
     },
+
     en: {
-        title: "Paris-Brest (Serves 4)",
-        equipment: ["1 piping bag", "1 baking tray", "1 bowl", "1 whisk"],
+        title: "Paris-Brest",
+        equipment: [
+            "1 piping bag",
+            "1 baking tray",
+            "1 bowl",
+            "1 whisk",
+            "1 saucepan",
+            "1 oven"
+        ],
         ingredients: [
             "100 g flour",
             "80 g butter",
             "2 eggs",
             "50 g sugar",
-            "50 g almond powder",
+            "50 g ground almonds",
             "150 ml cream"
         ],
         preparation:
-            "Preheat oven to 180°C. Prepare choux pastry with flour, butter, eggs. Pipe in a ring on tray. Bake 25 minutes. Whip cream and mix with almond powder. Cut cooled choux, fill with cream. Serve."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Place the butter in a saucepan with a little water.\n" +
+            "3. Heat until the butter melts.\n" +
+            "4. Remove from heat and add the flour all at once.\n" +
+            "5. Stir vigorously until a smooth dough forms.\n" +
+            "6. Return to low heat briefly to dry the dough.\n" +
+            "7. Transfer the dough to a bowl.\n" +
+            "8. Add the eggs one by one, mixing well.\n" +
+            "9. Transfer the choux pastry to a piping bag.\n" +
+            "10. Pipe a ring onto the baking tray.\n" +
+            "11. Place in the oven.\n" +
+            "12. Bake for 25 minutes until golden.\n" +
+            "13. Remove from the oven and let cool completely.\n" +
+            "14. Whip the cream until stiff.\n" +
+            "15. Gently fold in the ground almonds and sugar.\n" +
+            "16. Slice the choux horizontally.\n" +
+            "17. Fill generously with the cream.\n" +
+            "18. Close the Paris-Brest.\n" +
+            "19. Serve chilled."
     },
+
     nl: {
-        title: "Paris-Brest (voor 4 personen)",
-        equipment: ["1 spuitzak", "1 bakplaat", "1 kom", "1 garde"],
+        title: "Paris-Brest",
+        equipment: [
+            "1 spuitzak",
+            "1 bakplaat",
+            "1 kom",
+            "1 garde",
+            "1 steelpan",
+            "1 oven"
+        ],
         ingredients: [
             "100 g bloem",
             "80 g boter",
@@ -17984,11 +20924,37 @@ recipesData.dessert.parisBrest = {
             "150 ml room"
         ],
         preparation:
-            "Verwarm oven voor op 180°C. Maak soezendeeg met bloem, boter, eieren. Spuit in ring op bakplaat. Bak 25 minuten. Klop room en meng met amandelpoeder. Snijd afgekoeld deeg, vul met room. Serveer."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Doe de boter met een beetje water in een steelpan.\n" +
+            "3. Verhit tot de boter gesmolten is.\n" +
+            "4. Haal van het vuur en voeg de bloem in één keer toe.\n" +
+            "5. Meng krachtig tot een glad deeg.\n" +
+            "6. Zet kort terug op laag vuur om het deeg te drogen.\n" +
+            "7. Doe het deeg in een kom.\n" +
+            "8. Voeg de eieren één voor één toe en meng goed.\n" +
+            "9. Doe het soezendeeg in een spuitzak.\n" +
+            "10. Spuit een ring op de bakplaat.\n" +
+            "11. Zet in de oven.\n" +
+            "12. Bak 25 minuten tot goudbruin.\n" +
+            "13. Haal uit de oven en laat volledig afkoelen.\n" +
+            "14. Klop de room stijf.\n" +
+            "15. Meng voorzichtig de amandelpoeder en suiker erdoor.\n" +
+            "16. Snijd het afgekoelde deeg horizontaal open.\n" +
+            "17. Vul rijkelijk met de room.\n" +
+            "18. Sluit de Paris-Brest.\n" +
+            "19. Serveer gekoeld."
     },
+
     ar: {
-        title: "باريس-بريست (يكفي 4 أشخاص)",
-        equipment: ["كيس حلواني", "صينية خبز", "وعاء", "خفاق"],
+        title: "باريس-بريست",
+        equipment: [
+            "كيس حلواني",
+            "صينية خبز",
+            "وعاء",
+            "خفاق",
+            "قدر",
+            "فرن"
+        ],
         ingredients: [
             "100 غ دقيق",
             "80 غ زبدة",
@@ -17998,51 +20964,85 @@ recipesData.dessert.parisBrest = {
             "150 مل كريمة سائلة"
         ],
         preparation:
-            "سخّن الفرن إلى 180°C. حضّر عجينة الشو مع الدقيق، الزبدة، البيض. شكّل دائرة على الصينية. اخبز 25 دقيقة. اخفق الكريمة وامزج مع اللوز. اقطع العجينة المبردة، احشِ بالكريمة. قدمه."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. ضع الزبدة مع قليل من الماء في قدر.\n" +
+            "3. سخّن حتى تذوب الزبدة.\n" +
+            "4. ارفع عن النار وأضف الدقيق دفعة واحدة.\n" +
+            "5. حرّك جيداً حتى تتكوّن عجينة متجانسة.\n" +
+            "6. أعدها قليلاً إلى نار هادئة لتجفيفها.\n" +
+            "7. انقل العجينة إلى وعاء.\n" +
+            "8. أضف البيض واحدة تلو الأخرى مع الخفق.\n" +
+            "9. ضع العجينة في كيس حلواني.\n" +
+            "10. شكّل دائرة على صينية الخبز.\n" +
+            "11. أدخلها الفرن.\n" +
+            "12. اخبز لمدة 25 دقيقة حتى تتحمّر.\n" +
+            "13. أخرجها واتركها تبرد تماماً.\n" +
+            "14. اخفق الكريمة حتى تصبح متماسكة.\n" +
+            "15. اخلط اللوز المطحون والسكر برفق.\n" +
+            "16. اقطع العجينة أفقياً.\n" +
+            "17. احشها بالكريمة بسخاء.\n" +
+            "18. أغلق باريس-بريست.\n" +
+            "19. قدّمه بارداً."
     }
 };
-
 recipesData.patisserie.madeleines = {
     country: "france",
     image: "images/madeleines.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 12,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Madeleines moelleuses (4 personnes)",
+        title: "Madeleines moelleuses",
         equipment: [
             "1 grand bol",
             "1 fouet",
             "1 balance de cuisine",
             "1 moule à madeleine",
             "1 spatule en silicone",
-            "1 tamis pour farine"
+            "1 tamis pour farine",
+            "1 four"
         ],
         ingredients: [
-            "100 g farine de blé",
-            "100 g sucre",
-            "100 g beurre fondu",
+            "100 g de farine de blé",
+            "100 g de sucre",
+            "100 g de beurre fondu",
             "2 œufs",
-            "1/2 cuillère à café levure chimique (2 g)",
-            "1 cuillère à café extrait de vanille (5 ml)",
+            "1/2 cuillère à café de levure chimique (2 g)",
+            "1 cuillère à café d’extrait de vanille (5 ml)",
             "1 pincée de sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Dans un bol, fouetter les œufs avec le sucre jusqu’à ce que le mélange blanchisse et devienne mousseux.\n" +
-            "3. Tamiser la farine avec la levure et le sel, puis incorporer délicatement au mélange d’œufs.\n" +
-            "4. Ajouter le beurre fondu et la vanille, mélanger délicatement.\n" +
-            "5. Beurrer le moule à madeleine et remplir chaque alvéole aux 2/3.\n" +
-            "6. Cuire 10-12 minutes jusqu’à ce que les madeleines soient dorées et légèrement bombées.\n" +
-            "7. Laisser refroidir quelques minutes avant de démouler et servir."
+            "2. Mettre les œufs et le sucre dans un grand bol.\n" +
+            "3. Fouetter jusqu’à obtenir un mélange clair et mousseux.\n" +
+            "4. Tamiser la farine avec la levure chimique et le sel.\n" +
+            "5. Incorporer délicatement les ingrédients secs au mélange.\n" +
+            "6. Ajouter le beurre fondu et l’extrait de vanille.\n" +
+            "7. Mélanger délicatement à l’aide d’une spatule.\n" +
+            "8. Beurrer le moule à madeleine si nécessaire.\n" +
+            "9. Remplir chaque alvéole aux deux tiers.\n" +
+            "10. Enfourner.\n" +
+            "11. Cuire pendant 10 à 12 minutes jusqu’à ce que les madeleines soient dorées et légèrement bombées.\n" +
+            "12. Sortir du four.\n" +
+            "13. Laisser tiédir quelques minutes avant de démouler.\n" +
+            "14. Servir."
     },
+
     en: {
-        title: "Soft Madeleines (Serves 4)",
+        title: "Soft Madeleines",
         equipment: [
             "1 large bowl",
             "1 whisk",
             "1 kitchen scale",
             "1 madeleine mold",
             "1 silicone spatula",
-            "1 sieve for flour"
+            "1 flour sieve",
+            "1 oven"
         ],
         ingredients: [
             "100 g wheat flour",
@@ -18051,27 +21051,35 @@ recipesData.patisserie.madeleines = {
             "2 eggs",
             "1/2 teaspoon baking powder (2 g)",
             "1 teaspoon vanilla extract (5 ml)",
-            "1 pinch salt"
+            "1 pinch of salt"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Whisk eggs with sugar until pale and frothy.\n" +
-            "3. Sift flour with baking powder and salt, fold gently into egg mixture.\n" +
-            "4. Add melted butter and vanilla, mix gently.\n" +
-            "5. Grease madeleine mold and fill each cavity 2/3 full.\n" +
-            "6. Bake 10-12 minutes until golden and slightly puffed.\n" +
-            "7. Let cool a few minutes before removing from mold and serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Place the eggs and sugar in a large bowl.\n" +
+            "3. Whisk until pale and frothy.\n" +
+            "4. Sift the flour with the baking powder and salt.\n" +
+            "5. Gently fold the dry ingredients into the mixture.\n" +
+            "6. Add the melted butter and vanilla extract.\n" +
+            "7. Mix gently using a spatula.\n" +
+            "8. Grease the madeleine mold if needed.\n" +
+            "9. Fill each cavity two-thirds full.\n" +
+            "10. Place in the oven.\n" +
+            "11. Bake for 10 to 12 minutes until golden and slightly domed.\n" +
+            "12. Remove from the oven.\n" +
+            "13. Let cool for a few minutes before unmolding.\n" +
+            "14. Serve."
     },
+
     nl: {
-        title: "Zachte Madeleines (voor 4 personen)",
+        title: "Zachte Madeleines",
         equipment: [
             "1 grote kom",
             "1 garde",
             "1 keukenweegschaal",
             "1 madeleinevorm",
             "1 siliconen spatel",
-            "1 zeef voor bloem"
+            "1 zeef voor bloem",
+            "1 oven"
         ],
         ingredients: [
             "100 g tarwebloem",
@@ -18083,271 +21091,372 @@ recipesData.patisserie.madeleines = {
             "1 snufje zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Klop de eieren met suiker tot bleek en schuimig.\n" +
-            "3. Zeef bloem met bakpoeder en zout, spatel voorzichtig door het eimengsel.\n" +
-            "4. Voeg gesmolten boter en vanille toe, meng voorzichtig.\n" +
-            "5. Vet madeleinevorm in en vul elk hol 2/3.\n" +
-            "6. Bak 10-12 minuten tot goudbruin en licht opgezwollen.\n" +
-            "7. Laat enkele minuten afkoelen voordat je uit de vorm haalt en serveert."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Doe de eieren en suiker in een grote kom.\n" +
+            "3. Klop tot een licht en schuimig mengsel.\n" +
+            "4. Zeef bloem, bakpoeder en zout.\n" +
+            "5. Spatel de droge ingrediënten voorzichtig door het mengsel.\n" +
+            "6. Voeg de gesmolten boter en vanille toe.\n" +
+            "7. Meng voorzichtig met een spatel.\n" +
+            "8. Vet de madeleinevorm indien nodig in.\n" +
+            "9. Vul elke vorm tot twee derde.\n" +
+            "10. Zet in de oven.\n" +
+            "11. Bak 10–12 minuten tot goudbruin en licht gerezen.\n" +
+            "12. Haal uit de oven.\n" +
+            "13. Laat even afkoelen.\n" +
+            "14. Serveer."
     },
+
     ar: {
-        title: "مادلين ناعمة (تكفي 4 أشخاص)",
+        title: "مادلين ناعمة",
         equipment: [
             "وعاء كبير",
-            "خلاط يدوي",
+            "خفاق",
             "ميزان مطبخ",
             "قالب مادلين",
             "ملعقة سيليكون",
-            "منخل للطحين"
+            "منخل للطحين",
+            "فرن"
         ],
         ingredients: [
-            "100غ دقيق قمح",
-            "100غ سكر",
-            "100غ زبدة مذابة",
+            "100 غ دقيق قمح",
+            "100 غ سكر",
+            "100 غ زبدة مذابة",
             "2 بيض",
-            "1/2 ملعقة صغيرة بيكنغ بودر (2غ)",
+            "1/2 ملعقة صغيرة بيكنغ بودر (2 غ)",
             "1 ملعقة صغيرة فانيليا (5 مل)",
             "رشة ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الفرن على 180°C.\n" +
-            "2. في وعاء كبير، اخفق البيض مع السكر حتى يصبح المزيج فاتح اللون ورغوي.\n" +
-            "3. انخل الدقيق مع البيكنغ بودر والملح، ثم ادمجه برفق مع خليط البيض.\n" +
-            "4. أضف الزبدة المذابة والفانيليا، وقلّب برفق.\n" +
-            "5. ادهن قالب المادلين بالزبدة أو رشه بالدقيق، واملأ كل فجوة 2/3.\n" +
-            "6. اخبز 10-12 دقيقة حتى تصبح ذهبية اللون ومنتفخة قليلاً.\n" +
-            "7. دعها تبرد لبضع دقائق قبل إخراجها من القالب وتقديمها."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. ضع البيض والسكر في وعاء كبير.\n" +
+            "3. اخفق حتى يصبح الخليط فاتحاً ورغوياً.\n" +
+            "4. انخل الدقيق مع البيكنغ بودر والملح.\n" +
+            "5. أضف المكونات الجافة تدريجياً مع التحريك برفق.\n" +
+            "6. أضف الزبدة المذابة والفانيليا.\n" +
+            "7. امزج برفق باستخدام ملعقة سيليكون.\n" +
+            "8. ادهن قالب المادلين إذا لزم الأمر.\n" +
+            "9. املأ القوالب حتى ثلثيها.\n" +
+            "10. أدخلها إلى الفرن.\n" +
+            "11. اخبز لمدة 10 إلى 12 دقيقة حتى تصبح ذهبية ومنتفخة قليلاً.\n" +
+            "12. أخرجها من الفرن.\n" +
+            "13. اتركها تبرد قليلاً.\n" +
+            "14. قدّمها."
     }
 };
+
+
+
+
+
+
+
+
+
+
 recipesData.entree.bruschetta = {
     country: "italie",
     image: "images/bruschetta.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 5,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Bruschetta aux tomates (4 personnes)",
+        title: "Bruschetta aux tomates",
         equipment: [
             "1 couteau",
             "1 planche à découper",
-            "1 bol pour mélanger",
+            "1 bol",
             "1 cuillère en bois",
             "1 poêle ou grille"
         ],
         ingredients: [
             "4 tranches de pain ciabatta (environ 200 g)",
-            "3 tomates moyennes (300 g), coupées en dés",
-            "1 gousse d’ail, hachée",
-            "2 cuillères à soupe huile d’olive (30 ml)",
+            "3 tomates moyennes (300 g)",
+            "1 gousse d’ail",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
             "Quelques feuilles de basilic frais",
-            "Sel et poivre selon goût"
+            "Sel et poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les tomates en petits dés et hacher l’ail.\n" +
-            "2. Dans un bol, mélanger tomates, ail, sel, poivre et 1 cuillère à soupe d’huile d’olive.\n" +
-            "3. Faire griller les tranches de pain dans une poêle ou sur grille jusqu’à ce qu’elles soient dorées.\n" +
-            "4. Répartir le mélange de tomates sur les tranches de pain.\n" +
-            "5. Ajouter quelques feuilles de basilic frais et un filet d’huile d’olive avant de servir."
+            "1. Laver les tomates.\n" +
+            "2. Couper les tomates en petits dés.\n" +
+            "3. Éplucher et hacher finement l’ail.\n" +
+            "4. Mettre les tomates et l’ail dans un bol.\n" +
+            "5. Ajouter le sel, le poivre et une cuillère à soupe d’huile d’olive.\n" +
+            "6. Mélanger délicatement.\n" +
+            "7. Faire griller les tranches de pain dans une poêle ou sur une grille.\n" +
+            "8. Disposer les tranches de pain grillées sur un plat.\n" +
+            "9. Répartir le mélange de tomates sur le pain.\n" +
+            "10. Ajouter les feuilles de basilic.\n" +
+            "11. Arroser d’un filet d’huile d’olive.\n" +
+            "12. Servir immédiatement."
     },
+
     en: {
-        title: "Tomato Bruschetta (Serves 4)",
+        title: "Tomato Bruschetta",
         equipment: [
             "1 knife",
             "1 cutting board",
-            "1 mixing bowl",
+            "1 bowl",
             "1 wooden spoon",
             "1 pan or grill"
         ],
         ingredients: [
-            "4 slices ciabatta bread (200 g)",
-            "3 medium tomatoes (300 g), diced",
-            "1 garlic clove, chopped",
+            "4 slices of ciabatta bread (about 200 g)",
+            "3 medium tomatoes (300 g)",
+            "1 garlic clove",
             "2 tablespoons olive oil (30 ml)",
             "Some fresh basil leaves",
-            "Salt and pepper to taste"
+            "Salt and pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Dice tomatoes and chop garlic.\n" +
-            "2. In a bowl, mix tomatoes, garlic, salt, pepper and 1 tbsp olive oil.\n" +
-            "3. Grill bread slices in a pan or on a grill until golden.\n" +
-            "4. Spread tomato mixture on the bread slices.\n" +
-            "5. Top with fresh basil leaves and drizzle with olive oil before serving."
+            "1. Wash the tomatoes.\n" +
+            "2. Dice the tomatoes into small pieces.\n" +
+            "3. Peel and finely chop the garlic.\n" +
+            "4. Place the tomatoes and garlic in a bowl.\n" +
+            "5. Add salt, pepper, and one tablespoon of olive oil.\n" +
+            "6. Mix gently.\n" +
+            "7. Grill the bread slices in a pan or on a grill.\n" +
+            "8. Arrange the toasted bread on a plate.\n" +
+            "9. Spoon the tomato mixture onto the bread.\n" +
+            "10. Add fresh basil leaves.\n" +
+            "11. Drizzle with olive oil.\n" +
+            "12. Serve immediately."
     },
+
     nl: {
-        title: "Tomaten Bruschetta (voor 4 personen)",
+        title: "Tomatenbruschetta",
         equipment: [
             "1 mes",
             "1 snijplank",
-            "1 kom om te mengen",
+            "1 kom",
             "1 houten lepel",
             "1 pan of grill"
         ],
         ingredients: [
-            "4 sneetjes ciabatta brood (200 g)",
-            "3 middelgrote tomaten (300 g), in blokjes",
-            "1 teentje knoflook, gehakt",
+            "4 sneetjes ciabattabrood (ongeveer 200 g)",
+            "3 middelgrote tomaten (300 g)",
+            "1 teentje knoflook",
             "2 eetlepels olijfolie (30 ml)",
             "Enkele verse basilicumblaadjes",
-            "Zout en peper naar smaak"
+            "Zout en peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd de tomaten in kleine blokjes en hak de knoflook.\n" +
-            "2. Meng in een kom de tomaten, knoflook, zout, peper en 1 eetlepel olijfolie.\n" +
-            "3. Rooster de sneetjes brood in een pan of op een grill tot goudbruin.\n" +
-            "4. Verdeel het tomatenmengsel over het brood.\n" +
-            "5. Voeg verse basilicumblaadjes toe en besprenkel met olijfolie voor het serveren."
+            "1. Was de tomaten.\n" +
+            "2. Snijd de tomaten in kleine blokjes.\n" +
+            "3. Pel en hak de knoflook fijn.\n" +
+            "4. Doe de tomaten en knoflook in een kom.\n" +
+            "5. Voeg zout, peper en één eetlepel olijfolie toe.\n" +
+            "6. Meng voorzichtig.\n" +
+            "7. Rooster het brood in een pan of op de grill.\n" +
+            "8. Leg het geroosterde brood op een bord.\n" +
+            "9. Verdeel het tomatenmengsel over het brood.\n" +
+            "10. Voeg basilicumblaadjes toe.\n" +
+            "11. Besprenkel met olijfolie.\n" +
+            "12. Serveer direct."
     },
+
     ar: {
-        title: "بروشيتا بالطرطور (تكفي 4 أشخاص)",
+        title: "بروشيتا بالطماطم",
         equipment: [
             "سكين",
             "لوح تقطيع",
-            "وعاء للخلط",
+            "وعاء",
             "ملعقة خشبية",
             "مقلاة أو شواية"
         ],
         ingredients: [
-            "4 شرائح خبز تشاباتا (200 غ)",
-            "3 طماطم متوسطة (300 غ)، مقطعة مكعبات",
-            "1 فص ثوم، مفروم",
+            "4 شرائح خبز تشاباتا (حوالي 200 غ)",
+            "3 طماطم متوسطة (300 غ)",
+            "فص ثوم واحد",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "بضع أوراق ريحان طازج",
-            "ملح وفلفل حسب الرغبة"
+            "ملح وفلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطّع الطماطم إلى مكعبات صغيرة وافرّم الثوم.\n" +
-            "2. في وعاء، اخلط الطماطم، الثوم، الملح، الفلفل وملعقة كبيرة من زيت الزيتون.\n" +
-            "3. حمّص شرائح الخبز في المقلاة أو على الشواية حتى تصبح ذهبية اللون.\n" +
-            "4. ضع خليط الطماطم على شرائح الخبز.\n" +
-            "5. أضف أوراق الريحان الطازجة ورش زيت الزيتون قبل التقديم."
-}
-}; 
+            "1. اغسل الطماطم جيداً.\n" +
+            "2. قطّع الطماطم إلى مكعبات صغيرة.\n" +
+            "3. قشّر الثوم وافرمه ناعماً.\n" +
+            "4. ضع الطماطم والثوم في وعاء.\n" +
+            "5. أضف الملح والفلفل وملعقة كبيرة من زيت الزيتون.\n" +
+            "6. اخلط برفق.\n" +
+            "7. حمّص شرائح الخبز في المقلاة أو على الشواية.\n" +
+            "8. ضع الخبز المحمّص في طبق.\n" +
+            "9. وزّع خليط الطماطم فوق الخبز.\n" +
+            "10. أضف أوراق الريحان.\n" +
+            "11. رش القليل من زيت الزيتون.\n" +
+            "12. قدّم فوراً."
+    }
+};
 recipesData.entree.arancini = {
     country: "italie",
     image: "images/arancini.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Arancini di Riso (4 personnes)",
+        title: "Arancini di riso",
         equipment: [
             "1 casserole",
             "1 couteau",
             "1 planche à découper",
             "1 bol",
-            "1 poêle"
+            "1 poêle ou friteuse",
+            "1 écumoire"
         ],
         ingredients: [
             "200 g de riz arborio",
             "50 g de parmesan râpé",
             "1 œuf",
             "50 g de petits pois cuits",
-            "50 g de jambon cuit (facultatif)",
-            "Chapelure pour paner",
+            "80 g de dinde fumée coupée en petits dés",
+            "Chapelure",
             "Huile de cuisson",
             "Sel et poivre"
         ],
         preparation:
-            "Pour 4 personnes.\n" +
-            "1. Cuire le riz à l’eau salée et laisser refroidir.\n" +
-            "2. Mélanger le riz avec l’œuf, le parmesan, les petits pois et le jambon.\n" +
-            "3. Former des boulettes de riz.\n" +
-            "4. Les passer dans la chapelure.\n" +
-            "5. Faire frire dans l’huile chaude jusqu’à ce qu’elles soient dorées.\n" +
-            "6. Égoutter sur du papier absorbant et servir chaud."
+            "1. Cuire le riz arborio dans de l’eau salée selon les indications.\n" +
+            "2. Égoutter le riz et le laisser refroidir complètement.\n" +
+            "3. Mettre le riz refroidi dans un bol.\n" +
+            "4. Ajouter l’œuf, le parmesan râpé, les petits pois et la dinde fumée.\n" +
+            "5. Saler, poivrer et mélanger jusqu’à obtenir une préparation homogène.\n" +
+            "6. Prélever une portion de riz dans la main.\n" +
+            "7. Former une boulette bien compacte.\n" +
+            "8. Rouler chaque boulette dans la chapelure.\n" +
+            "9. Faire chauffer l’huile dans une poêle ou une friteuse.\n" +
+            "10. Plonger les arancini dans l’huile chaude.\n" +
+            "11. Frire jusqu’à ce qu’ils soient bien dorés.\n" +
+            "12. Égoutter sur du papier absorbant.\n" +
+            "13. Servir chaud."
     },
+
     en: {
-        title: "Arancini di Riso (Serves 4)",
+        title: "Arancini di Riso",
         equipment: [
             "1 saucepan",
             "1 knife",
             "1 cutting board",
             "1 bowl",
-            "1 frying pan"
+            "1 frying pan or deep fryer",
+            "1 skimmer"
         ],
         ingredients: [
             "200 g arborio rice",
             "50 g grated parmesan",
             "1 egg",
             "50 g cooked peas",
-            "50 g cooked ham (optional)",
-            "Breadcrumbs for coating",
+            "80 g smoked turkey, diced",
+            "Breadcrumbs",
             "Cooking oil",
             "Salt and pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cook the rice in salted water and let it cool.\n" +
-            "2. Mix rice with egg, parmesan, peas and ham.\n" +
-            "3. Shape into balls.\n" +
-            "4. Coat in breadcrumbs.\n" +
-            "5. Fry in hot oil until golden.\n" +
-            "6. Drain on paper towels and serve warm."
+            "1. Cook the arborio rice in salted water according to instructions.\n" +
+            "2. Drain and let the rice cool completely.\n" +
+            "3. Place the cooled rice in a bowl.\n" +
+            "4. Add the egg, grated parmesan, peas, and smoked turkey.\n" +
+            "5. Season with salt and pepper and mix well.\n" +
+            "6. Take a portion of the mixture in your hand.\n" +
+            "7. Shape into a firm ball.\n" +
+            "8. Roll each ball in breadcrumbs.\n" +
+            "9. Heat the oil in a pan or deep fryer.\n" +
+            "10. Fry the arancini until golden brown.\n" +
+            "11. Remove and drain on paper towels.\n" +
+            "12. Serve hot."
     },
+
     nl: {
-        title: "Arancini di Riso (voor 4 personen)",
+        title: "Arancini di riso",
         equipment: [
             "1 steelpan",
             "1 mes",
             "1 snijplank",
             "1 kom",
-            "1 pan"
+            "1 pan of friteuse",
+            "1 schuimspaan"
         ],
         ingredients: [
-            "200 g arborio rijst",
+            "200 g arboriorijst",
             "50 g geraspte parmezaan",
             "1 ei",
             "50 g gekookte doperwten",
-            "50 g gekookte ham (optioneel)",
-            "Paneermeel om te paneren",
-            "Bakken olie",
+            "80 g gerookte kalkoen in blokjes",
+            "Paneermeel",
+            "Bakolie",
             "Zout en peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Kook de rijst in gezouten water en laat afkoelen.\n" +
-            "2. Meng rijst met ei, parmezaan, doperwten en ham.\n" +
-            "3. Vorm balletjes.\n" +
-            "4. Haal door paneermeel.\n" +
-            "5. Bak in hete olie tot goudbruin.\n" +
-            "6. Laat uitlekken op keukenpapier en serveer warm."
+            "1. Kook de arboriorijst in gezouten water volgens de aanwijzingen.\n" +
+            "2. Giet af en laat volledig afkoelen.\n" +
+            "3. Doe de rijst in een kom.\n" +
+            "4. Voeg het ei, parmezaan, doperwten en gerookte kalkoen toe.\n" +
+            "5. Breng op smaak met zout en peper en meng goed.\n" +
+            "6. Neem een portie rijstmengsel in de hand.\n" +
+            "7. Vorm een stevige bal.\n" +
+            "8. Rol door paneermeel.\n" +
+            "9. Verhit olie in een pan of friteuse.\n" +
+            "10. Bak de arancini goudbruin.\n" +
+            "11. Laat uitlekken op keukenpapier.\n" +
+            "12. Serveer warm."
     },
+
     ar: {
-        title: "أرانشيني الأرز (تكفي 4 أشخاص)",
+        title: "أرانشيني الأرز",
         equipment: [
             "قدر",
             "سكين",
             "لوح تقطيع",
             "وعاء",
-            "مقلاة"
+            "مقلاة أو قلاية",
+            "مغرفة مثقبة"
         ],
         ingredients: [
             "200 غ أرز أربوريو",
             "50 غ جبن بارميزان مبشور",
-            "1 بيضة",
+            "بيضة واحدة",
             "50 غ بازلاء مطبوخة",
-            "50 غ لحم خنزير مطبوخ (اختياري)",
-            "فتات خبز للتغطية",
+            "80 غ ديك رومي مدخن مقطع مكعبات",
+            "فتات خبز",
             "زيت للقلي",
             "ملح وفلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اطبخ الأرز في ماء مملح واتركه يبرد.\n" +
-            "2. اخلط الأرز مع البيضة والبارميزان والبازلاء واللحم.\n" +
-            "3. شكّل كرات.\n" +
-            "4. غطّها بفتات الخبز.\n" +
-            "5. اقليها في الزيت الساخن حتى تصبح ذهبية.\n" +
-            "6. صفيها على ورق مطبخ وقدّمها ساخنة."
+            "1. اطبخ أرز الأربوريو في ماء مملح حسب التعليمات.\n" +
+            "2. صفِّ الأرز واتركه يبرد تماماً.\n" +
+            "3. ضع الأرز في وعاء.\n" +
+            "4. أضف البيضة والبارميزان والبازلاء والديك الرومي المدخن.\n" +
+            "5. تبّل بالملح والفلفل واخلط جيداً.\n" +
+            "6. خذ كمية من الخليط وشكّل كرة متماسكة.\n" +
+            "7. غطِّ الكرات بفتات الخبز.\n" +
+            "8. سخّن الزيت في المقلاة أو القلاية.\n" +
+            "9. اقلي الأرانشيني حتى تصبح ذهبية اللون.\n" +
+            "10. صفِّها على ورق مطبخ.\n" +
+            "11. قدّمها ساخنة."
     }
 };
-// 1. Carpaccio de bœuf
 recipesData.entree.carpaccio = {
     country: "italie",
     image: "images/carpaccio.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Carpaccio de bœuf (4 personnes)",
+        title: "Carpaccio de bœuf",
         equipment: [
             "1 couteau très tranchant",
             "1 planche à découper",
@@ -18357,20 +21466,22 @@ recipesData.entree.carpaccio = {
         ingredients: [
             "200 g de bœuf très finement tranché",
             "2 cuillères à soupe d’huile d’olive (30 ml)",
-            "Quelques copeaux de parmesan (20 g)",
+            "20 g de copeaux de parmesan",
             "Quelques feuilles de roquette",
-            "Sel et poivre selon goût"
+            "Sel et poivre"
         ],
         preparation:
-            "Pour 4 personnes.\n" +
-            "1. Disposer les tranches de bœuf sur l’assiette en une seule couche.\n" +
-            "2. Arroser d’huile d’olive avec un pinceau ou une cuillère.\n" +
-            "3. Ajouter les copeaux de parmesan et les feuilles de roquette.\n" +
-            "4. Assaisonner avec sel et poivre.\n" +
-            "5. Servir immédiatement frais."
+            "1. Sortir le bœuf du réfrigérateur quelques minutes avant la préparation.\n" +
+            "2. Disposer les tranches de bœuf sur une assiette en une seule couche.\n" +
+            "3. Arroser uniformément d’huile d’olive à l’aide d’un pinceau ou d’une cuillère.\n" +
+            "4. Ajouter les copeaux de parmesan.\n" +
+            "5. Répartir les feuilles de roquette.\n" +
+            "6. Assaisonner avec du sel et du poivre.\n" +
+            "7. Servir immédiatement."
     },
+
     en: {
-        title: "Beef Carpaccio (Serves 4)",
+        title: "Beef Carpaccio",
         equipment: [
             "1 very sharp knife",
             "1 cutting board",
@@ -18378,22 +21489,24 @@ recipesData.entree.carpaccio = {
             "1 brush or spoon"
         ],
         ingredients: [
-            "200 g beef, thinly sliced",
+            "200 g beef, very thinly sliced",
             "2 tablespoons olive oil (30 ml)",
-            "Some parmesan shavings (20 g)",
+            "20 g parmesan shavings",
             "Some arugula leaves",
-            "Salt and pepper to taste"
+            "Salt and pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Arrange beef slices on a plate in a single layer.\n" +
-            "2. Drizzle with olive oil using a brush or spoon.\n" +
-            "3. Add parmesan shavings and arugula leaves.\n" +
-            "4. Season with salt and pepper.\n" +
-            "5. Serve immediately, chilled."
+            "1. Remove the beef from the refrigerator a few minutes before serving.\n" +
+            "2. Arrange the beef slices on a plate in a single layer.\n" +
+            "3. Drizzle evenly with olive oil using a brush or spoon.\n" +
+            "4. Add the parmesan shavings.\n" +
+            "5. Scatter the arugula leaves.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Serve immediately."
     },
+
     nl: {
-        title: "Carpaccio van rundvlees (voor 4 personen)",
+        title: "Carpaccio van rundvlees",
         equipment: [
             "1 zeer scherp mes",
             "1 snijplank",
@@ -18403,20 +21516,22 @@ recipesData.entree.carpaccio = {
         ingredients: [
             "200 g rundvlees, zeer dun gesneden",
             "2 eetlepels olijfolie (30 ml)",
-            "Enkele Parmezaanse kaas vlokken (20 g)",
+            "20 g Parmezaanse kaasvlokken",
             "Enkele rucolablaadjes",
-            "Zout en peper naar smaak"
+            "Zout en peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Leg de rundvleesplakjes op een schaal in één laag.\n" +
-            "2. Besprenkel met olijfolie met een kwast of lepel.\n" +
-            "3. Voeg Parmezaanse kaasvlokken en rucola toe.\n" +
-            "4. Breng op smaak met zout en peper.\n" +
-            "5. Serveer direct koud."
+            "1. Haal het rundvlees enkele minuten voor gebruik uit de koelkast.\n" +
+            "2. Leg de plakjes rundvlees in één laag op een schaal.\n" +
+            "3. Besprenkel gelijkmatig met olijfolie.\n" +
+            "4. Voeg de Parmezaanse kaasvlokken toe.\n" +
+            "5. Verdeel de rucola erover.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Serveer direct."
     },
+
     ar: {
-        title: "كارباتشيو لحم بقر (تكفي 4 أشخاص)",
+        title: "كارباتشيو لحم بقر",
         equipment: [
             "سكين حاد جداً",
             "لوح تقطيع",
@@ -18424,28 +21539,35 @@ recipesData.entree.carpaccio = {
             "فرشاة أو ملعقة"
         ],
         ingredients: [
-            "200 غ لحم بقر مقطع شرائح رقيقة",
+            "200 غ لحم بقر مقطع شرائح رقيقة جداً",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "بعض رقائق جبن بارميزان (20 غ)",
+            "20 غ رقائق جبن بارميزان",
             "بضع أوراق جرجير",
-            "ملح وفلفل حسب الرغبة"
+            "ملح وفلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. رص شرائح اللحم على الطبق في طبقة واحدة.\n" +
-            "2. رش زيت الزيتون باستخدام فرشاة أو ملعقة.\n" +
-            "3. أضف رقائق جبن البارميزان وأوراق الجرجير.\n" +
-            "4. تبّل بالملح والفلفل.\n" +
-            "5. قدّم الطبق مباشرة بارد."
+            "1. أخرج اللحم من الثلاجة لبضع دقائق قبل التقديم.\n" +
+            "2. رتّب شرائح اللحم في طبق بطبقة واحدة.\n" +
+            "3. رش زيت الزيتون بالتساوي.\n" +
+            "4. أضف رقائق جبن البارميزان.\n" +
+            "5. وزّع أوراق الجرجير.\n" +
+            "6. تبّل بالملح والفلفل.\n" +
+            "7. قدّم الطبق مباشرة."
     }
 };
-
-// 2. Antipasti de légumes grillés
 recipesData.entree.antipastiLegumes = {
     country: "italie",
     image: "images/antipasti_legumes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Antipasti de légumes grillés (4 personnes)",
+        title: "Antipasti de légumes grillés",
         equipment: [
             "1 couteau",
             "1 planche à découper",
@@ -18456,19 +21578,25 @@ recipesData.entree.antipastiLegumes = {
             "1 courgette",
             "1 poivron rouge",
             "1 aubergine",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à café sel",
-            "1/2 cuillère à café poivre"
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à café de sel",
+            "1/2 cuillère à café de poivre"
         ],
         preparation:
-            "Pour 4 personnes.\n" +
-            "1. Couper les légumes en tranches fines.\n" +
-            "2. Badigeonner d’huile d’olive et assaisonner de sel et poivre.\n" +
-            "3. Faire griller les tranches sur une poêle ou grille jusqu’à ce qu’elles soient tendres.\n" +
-            "4. Disposer sur un plat et servir tiède ou froid."
+            "1. Laver les légumes.\n" +
+            "2. Couper la courgette, le poivron et l’aubergine en tranches fines.\n" +
+            "3. Disposer les légumes sur une assiette ou une planche.\n" +
+            "4. Badigeonner les tranches d’huile d’olive à l’aide d’un pinceau.\n" +
+            "5. Assaisonner avec le sel et le poivre.\n" +
+            "6. Faire chauffer une poêle ou une grille.\n" +
+            "7. Griller les légumes jusqu’à ce qu’ils soient tendres et légèrement marqués.\n" +
+            "8. Retirer du feu.\n" +
+            "9. Disposer sur un plat de service.\n" +
+            "10. Servir tiède ou froid."
     },
+
     en: {
-        title: "Grilled Vegetable Antipasti (Serves 4)",
+        title: "Grilled Vegetable Antipasti",
         equipment: [
             "1 knife",
             "1 cutting board",
@@ -18484,14 +21612,20 @@ recipesData.entree.antipastiLegumes = {
             "1/2 teaspoon pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Slice vegetables thinly.\n" +
-            "2. Brush with olive oil and season with salt and pepper.\n" +
-            "3. Grill slices on a pan or grill until tender.\n" +
-            "4. Arrange on a plate and serve warm or cold."
+            "1. Wash the vegetables.\n" +
+            "2. Slice the zucchini, bell pepper, and eggplant thinly.\n" +
+            "3. Arrange the vegetables on a plate or board.\n" +
+            "4. Brush with olive oil.\n" +
+            "5. Season with salt and pepper.\n" +
+            "6. Heat a pan or grill.\n" +
+            "7. Grill the vegetables until tender and lightly charred.\n" +
+            "8. Remove from heat.\n" +
+            "9. Arrange on a serving plate.\n" +
+            "10. Serve warm or cold."
     },
+
     nl: {
-        title: "Gegrilde groente antipasti (voor 4 personen)",
+        title: "Gegrilde groente antipasti",
         equipment: [
             "1 mes",
             "1 snijplank",
@@ -18507,14 +21641,20 @@ recipesData.entree.antipastiLegumes = {
             "1/2 theelepel peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd de groenten in dunne plakjes.\n" +
-            "2. Bestrijk met olijfolie en breng op smaak met zout en peper.\n" +
-            "3. Grill de plakjes in een pan of op een grill tot ze zacht zijn.\n" +
-            "4. Leg op een schaal en serveer warm of koud."
+            "1. Was de groenten.\n" +
+            "2. Snijd de courgette, paprika en aubergine in dunne plakjes.\n" +
+            "3. Leg de groenten op een bord of plank.\n" +
+            "4. Bestrijk met olijfolie.\n" +
+            "5. Breng op smaak met zout en peper.\n" +
+            "6. Verhit een pan of grill.\n" +
+            "7. Grill de groenten tot ze zacht en licht gegrild zijn.\n" +
+            "8. Haal van het vuur.\n" +
+            "9. Leg op een serveerschaal.\n" +
+            "10. Serveer warm of koud."
     },
+
     ar: {
-        title: "أنتيباستي الخضار المشوية (تكفي 4 أشخاص)",
+        title: "أنتيباستي الخضار المشوية",
         equipment: [
             "سكين",
             "لوح تقطيع",
@@ -18530,19 +21670,32 @@ recipesData.entree.antipastiLegumes = {
             "نصف ملعقة صغيرة فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الخضار إلى شرائح رقيقة.\n" +
-            "2. ادهنها بزيت الزيتون وتبّل بالملح والفلفل.\n" +
-            "3. اشوِ الشرائح على مقلاة أو شواية حتى تصبح طرية.\n" +
-            "4. رتبها على طبق وقدّمها دافئة أو باردة."
+            "1. اغسل الخضار جيداً.\n" +
+            "2. قطّع الكوسة والفلفل والباذنجان إلى شرائح رقيقة.\n" +
+            "3. ضع الخضار على طبق أو لوح.\n" +
+            "4. ادهنها بزيت الزيتون.\n" +
+            "5. تبّل بالملح والفلفل.\n" +
+            "6. سخّن المقلاة أو الشواية.\n" +
+            "7. اشوِ الخضار حتى تصبح طرية ومحمّرة قليلاً.\n" +
+            "8. ارفعها عن النار.\n" +
+            "9. رتبها في طبق تقديم.\n" +
+            "10. قدّمها دافئة أو باردة."
     }
 };
-// 3. Salade Panzanella
 recipesData.entree.panzanella = {
     country: "italie",
     image: "images/panzanella.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        chillTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade Panzanella (4 personnes)",
+        title: "Salade panzanella",
         equipment: [
             "1 couteau",
             "1 planche à découper",
@@ -18550,24 +21703,29 @@ recipesData.entree.panzanella = {
             "1 cuillère en bois"
         ],
         ingredients: [
-            "200 g de pain rassis en cubes",
-            "3 tomates moyennes (300 g), coupées en dés",
-            "1 concombre, coupé en dés",
-            "1 oignon rouge, émincé",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "Quelques feuilles de basilic",
-            "Sel et poivre selon goût"
+            "200 g de pain rassis coupé en cubes",
+            "3 tomates moyennes (300 g)",
+            "1 concombre",
+            "1 oignon rouge",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "Quelques feuilles de basilic frais",
+            "Sel et poivre"
         ],
         preparation:
-            "Pour 4 personnes.\n" +
-            "1. Couper le pain en cubes et les tomates et le concombre en dés.\n" +
-            "2. Émincer l’oignon rouge.\n" +
-            "3. Mélanger tous les ingrédients dans un saladier.\n" +
-            "4. Ajouter l’huile d’olive et assaisonner avec sel, poivre et basilic.\n" +
-            "5. Laisser reposer 10 minutes avant de servir."
+            "1. Couper le pain rassis en cubes.\n" +
+            "2. Couper les tomates et le concombre en dés.\n" +
+            "3. Émincer finement l’oignon rouge.\n" +
+            "4. Mettre le pain, les légumes et l’oignon dans un saladier.\n" +
+            "5. Ajouter l’huile d’olive.\n" +
+            "6. Saler et poivrer.\n" +
+            "7. Ajouter les feuilles de basilic.\n" +
+            "8. Mélanger délicatement.\n" +
+            "9. Laisser reposer 10 minutes pour que le pain s’imprègne.\n" +
+            "10. Servir frais."
     },
+
     en: {
-        title: "Panzanella Salad (Serves 4)",
+        title: "Panzanella Salad",
         equipment: [
             "1 knife",
             "1 cutting board",
@@ -18575,186 +21733,244 @@ recipesData.entree.panzanella = {
             "1 wooden spoon"
         ],
         ingredients: [
-            "200 g stale bread cubes",
-            "3 medium tomatoes (300 g), diced",
-            "1 cucumber, diced",
-            "1 red onion, sliced",
+            "200 g stale bread, cubed",
+            "3 medium tomatoes (300 g)",
+            "1 cucumber",
+            "1 red onion",
             "2 tablespoons olive oil (30 ml)",
-            "Some basil leaves",
-            "Salt and pepper to taste"
+            "Some fresh basil leaves",
+            "Salt and pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut bread into cubes and dice tomatoes and cucumber.\n" +
-            "2. Slice the red onion.\n" +
-            "3. Mix all ingredients in a bowl.\n" +
-            "4. Add olive oil and season with salt, pepper and basil.\n" +
-            "5. Let rest 10 minutes before serving."
+            "1. Cut the stale bread into cubes.\n" +
+            "2. Dice the tomatoes and cucumber.\n" +
+            "3. Thinly slice the red onion.\n" +
+            "4. Place the bread, vegetables, and onion in a bowl.\n" +
+            "5. Add the olive oil.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Add the basil leaves.\n" +
+            "8. Mix gently.\n" +
+            "9. Let rest for 10 minutes so the bread absorbs the flavors.\n" +
+            "10. Serve fresh."
     },
+
     nl: {
-        title: "Panzanella salade (voor 4 personen)",
+        title: "Panzanella salade",
         equipment: [
             "1 mes",
             "1 snijplank",
-            "1 kom om te mengen",
+            "1 kom",
             "1 houten lepel"
         ],
         ingredients: [
             "200 g oud brood in blokjes",
-            "3 middelgrote tomaten (300 g), in blokjes",
-            "1 komkommer, in blokjes",
-            "1 rode ui, in dunne plakjes",
+            "3 middelgrote tomaten (300 g)",
+            "1 komkommer",
+            "1 rode ui",
             "2 eetlepels olijfolie (30 ml)",
-            "Enkele basilicumblaadjes",
-            "Zout en peper naar smaak"
+            "Enkele verse basilicumblaadjes",
+            "Zout en peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd het brood in blokjes en de tomaten en komkommer in blokjes.\n" +
-            "2. Snijd de rode ui in dunne plakjes.\n" +
-            "3. Meng alles in een kom.\n" +
-            "4. Voeg olijfolie toe en breng op smaak met zout, peper en basilicum.\n" +
-            "5. Laat 10 minuten staan voor het serveren."
+            "1. Snijd het oude brood in blokjes.\n" +
+            "2. Snijd de tomaten en komkommer in blokjes.\n" +
+            "3. Snijd de rode ui dun.\n" +
+            "4. Doe brood, groenten en ui in een kom.\n" +
+            "5. Voeg olijfolie toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Voeg basilicum toe.\n" +
+            "8. Meng voorzichtig.\n" +
+            "9. Laat 10 minuten rusten zodat het brood smaken opneemt.\n" +
+            "10. Serveer fris."
     },
+
     ar: {
-        title: "سلطة بانزانيلّا (تكفي 4 أشخاص)",
+        title: "سلطة بانزانيلّا",
         equipment: [
             "سكين",
             "لوح تقطيع",
-            "وعاء للخلط",
+            "وعاء",
             "ملعقة خشبية"
         ],
         ingredients: [
-            "200 غ خبز قديم مكعبات",
-            "3 طماطم متوسطة (300 غ) مقطعة مكعبات",
-            "1 خيار مقطع مكعبات",
-            "1 بصلة حمراء مقطعة شرائح",
+            "200 غ خبز قديم مقطع مكعبات",
+            "3 طماطم متوسطة (300 غ)",
+            "1 خيار",
+            "1 بصلة حمراء",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "بضع أوراق ريحان",
-            "ملح وفلفل حسب الرغبة"
+            "بضع أوراق ريحان طازج",
+            "ملح وفلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الخبز إلى مكعبات والطماطم والخيار إلى مكعبات.\n" +
-            "2. قطع البصلة الحمراء إلى شرائح.\n" +
-            "3. اخلط جميع المكونات في وعاء.\n" +
-            "4. أضف زيت الزيتون وتبّل بالملح والفلفل والريحان.\n" +
-            "5. اتركه 10 دقائق قبل التقديم."
+            "1. قطّع الخبز القديم إلى مكعبات.\n" +
+            "2. قطّع الطماطم والخيار إلى مكعبات.\n" +
+            "3. قطّع البصلة الحمراء إلى شرائح رفيعة.\n" +
+            "4. ضع الخبز والخضار والبصل في وعاء.\n" +
+            "5. أضف زيت الزيتون.\n" +
+            "6. تبّل بالملح والفلفل.\n" +
+            "7. أضف أوراق الريحان.\n" +
+            "8. اخلط برفق.\n" +
+            "9. اتركها 10 دقائق حتى يتشرّب الخبز النكهات.\n" +
+            "10. قدّمها طازجة."
     }
 };
-
-// 4. Arancini (boulettes de riz)
 recipesData.entree.arancini = {
     country: "italie",
     image: "images/arancini.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Arancini (4 personnes)",
+        title: "Arancini",
         equipment: [
             "1 casserole",
             "1 cuillère en bois",
             "1 assiette",
-            "1 poêle"
+            "1 poêle ou friteuse"
         ],
         ingredients: [
             "200 g de riz cuit",
+            "80 g de dinde fumée coupée en petits dés",
             "50 g de mozzarella coupée en dés",
             "1 œuf",
-            "2 cuillères à soupe chapelure",
+            "2 cuillères à soupe de chapelure",
             "Huile pour friture",
-            "Sel selon goût"
+            "Sel et poivre"
         ],
         preparation:
-            "Pour 4 personnes.\n" +
-            "1. Former des petites boules avec le riz.\n" +
-            "2. Placer un cube de mozzarella au centre et refermer la boule.\n" +
-            "3. Battre l’œuf et enrober les boules.\n" +
-            "4. Rouler dans la chapelure.\n" +
-            "5. Faire frire dans l’huile chaude jusqu’à ce qu’elles soient dorées.\n" +
-            "6. Égoutter et servir chaud."
+            "1. Mettre le riz cuit dans un saladier.\n" +
+            "2. Ajouter la dinde fumée et mélanger.\n" +
+            "3. Saler et poivrer légèrement.\n" +
+            "4. Prélever une petite quantité de riz.\n" +
+            "5. Placer un cube de mozzarella au centre.\n" +
+            "6. Refermer et former une boulette bien compacte.\n" +
+            "7. Battre l’œuf dans une assiette.\n" +
+            "8. Tremper les boulettes dans l’œuf battu.\n" +
+            "9. Les rouler dans la chapelure.\n" +
+            "10. Faire chauffer l’huile.\n" +
+            "11. Faire frire jusqu’à ce qu’elles soient bien dorées.\n" +
+            "12. Égoutter sur du papier absorbant.\n" +
+            "13. Servir chaud."
     },
+
     en: {
-        title: "Arancini (Serves 4)",
+        title: "Arancini",
         equipment: [
             "1 saucepan",
             "1 wooden spoon",
             "1 plate",
-            "1 pan"
+            "1 pan or deep fryer"
         ],
         ingredients: [
             "200 g cooked rice",
+            "80 g smoked turkey, diced",
             "50 g mozzarella, diced",
             "1 egg",
             "2 tablespoons breadcrumbs",
             "Oil for frying",
-            "Salt to taste"
+            "Salt and pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Form small balls with rice.\n" +
-            "2. Place a mozzarella cube in the center and close the ball.\n" +
-            "3. Beat the egg and coat the balls.\n" +
-            "4. Roll in breadcrumbs.\n" +
-            "5. Fry in hot oil until golden.\n" +
-            "6. Drain and serve hot."
+            "1. Place cooked rice in a bowl.\n" +
+            "2. Add smoked turkey and mix.\n" +
+            "3. Lightly season with salt and pepper.\n" +
+            "4. Take a small portion of rice.\n" +
+            "5. Place a cube of mozzarella in the center.\n" +
+            "6. Shape into a compact ball.\n" +
+            "7. Beat the egg on a plate.\n" +
+            "8. Dip the balls into the egg.\n" +
+            "9. Roll in breadcrumbs.\n" +
+            "10. Heat the oil.\n" +
+            "11. Fry until golden brown.\n" +
+            "12. Drain on paper towels.\n" +
+            "13. Serve hot."
     },
+
     nl: {
-        title: "Arancini (voor 4 personen)",
+        title: "Arancini",
         equipment: [
             "1 steelpan",
             "1 houten lepel",
             "1 bord",
-            "1 pan"
+            "1 pan of friteuse"
         ],
         ingredients: [
             "200 g gekookte rijst",
-            "50 g mozzarella, in blokjes",
+            "80 g gerookte kalkoen in blokjes",
+            "50 g mozzarella in blokjes",
             "1 ei",
             "2 eetlepels paneermeel",
             "Olie om te frituren",
-            "Zout naar smaak"
+            "Zout en peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Vorm kleine balletjes van rijst.\n" +
-            "2. Plaats een mozzarella blokje in het midden en sluit het balletje.\n" +
-            "3. Klop het ei en bedek de balletjes.\n" +
-            "4. Rol door paneermeel.\n" +
-            "5. Bak in hete olie tot goudbruin.\n" +
-            "6. Laat uitlekken en serveer warm."
+            "1. Doe de rijst in een kom.\n" +
+            "2. Voeg de gerookte kalkoen toe en meng.\n" +
+            "3. Breng op smaak met zout en peper.\n" +
+            "4. Neem een portie rijst.\n" +
+            "5. Plaats mozzarella in het midden.\n" +
+            "6. Vorm een stevige bal.\n" +
+            "7. Klop het ei los.\n" +
+            "8. Haal de balletjes door het ei.\n" +
+            "9. Rol door paneermeel.\n" +
+            "10. Verhit de olie.\n" +
+            "11. Bak goudbruin.\n" +
+            "12. Laat uitlekken.\n" +
+            "13. Serveer warm."
     },
+
     ar: {
-        title: "أرانشيني (تكفي 4 أشخاص)",
+        title: "أرانشيني",
         equipment: [
             "قدر",
             "ملعقة خشبية",
             "طبق",
-            "مقلاة"
+            "مقلاة أو قلاية"
         ],
         ingredients: [
             "200 غ أرز مطبوخ",
+            "80 غ ديك رومي مدخن مقطع مكعبات",
             "50 غ موزاريلا مقطعة مكعبات",
-            "1 بيضة",
+            "بيضة واحدة",
             "2 ملعقة كبيرة فتات خبز",
             "زيت للقلي",
-            "ملح حسب الرغبة"
+            "ملح وفلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. شكل كرات صغيرة من الأرز.\n" +
-            "2. ضع مكعب موزاريلا في الوسط وأغلق الكرة.\n" +
-            "3. اخفق البيضة وغطّ الكرات.\n" +
-            "4. اغمسها في فتات الخبز.\n" +
-            "5. اقلي في الزيت الساخن حتى تصبح ذهبية.\n" +
-            "6. صفّها وقدّمها ساخنة."
+            "1. ضع الأرز في وعاء.\n" +
+            "2. أضف الديك الرومي المدخن وامزج.\n" +
+            "3. تبّل بالملح والفلفل.\n" +
+            "4. خذ كمية من الأرز.\n" +
+            "5. ضع موزاريلا في الوسط.\n" +
+            "6. شكّل كرة متماسكة.\n" +
+            "7. اخفق البيضة.\n" +
+            "8. اغمس الكرات في البيض.\n" +
+            "9. غطّها بفتات الخبز.\n" +
+            "10. سخّن الزيت.\n" +
+            "11. اقلي حتى تصبح ذهبية.\n" +
+            "12. صفّها على ورق مطبخ.\n" +
+            "13. قدّمها ساخنة."
     }
 };
-
-// 5. Insalata di Mare (salade de fruits de mer)
 recipesData.entree.insalataMare = {
     country: "italie",
     image: "images/insalata_mare.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 5,
+        chillTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Insalata di Mare (4 personnes)",
+        title: "Insalata di mare",
         equipment: [
             "1 casserole",
             "1 saladier",
@@ -18762,22 +21978,29 @@ recipesData.entree.insalataMare = {
         ],
         ingredients: [
             "200 g de crevettes décortiquées",
-            "150 g de calamars tranchés",
+            "150 g de calamars coupés en rondelles",
             "1 citron (jus)",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "Sel et poivre selon goût",
-            "Quelques feuilles de persil"
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "Sel et poivre",
+            "Quelques feuilles de persil frais"
         ],
         preparation:
-            "Pour 4 personnes.\n" +
-            "1. Cuire les crevettes et calamars 3-4 minutes dans de l’eau bouillante.\n" +
-            "2. Égoutter et laisser refroidir.\n" +
-            "3. Mélanger fruits de mer avec jus de citron, huile, sel et poivre.\n" +
-            "4. Ajouter les feuilles de persil.\n" +
-            "5. Servir frais."
+            "1. Porter une casserole d’eau salée à ébullition.\n" +
+            "2. Plonger les crevettes et les calamars dans l’eau bouillante.\n" +
+            "3. Cuire 3 à 4 minutes jusqu’à ce qu’ils soient juste cuits.\n" +
+            "4. Égoutter immédiatement.\n" +
+            "5. Laisser refroidir complètement.\n" +
+            "6. Mettre les fruits de mer dans un saladier.\n" +
+            "7. Ajouter le jus de citron et l’huile d’olive.\n" +
+            "8. Saler et poivrer.\n" +
+            "9. Ajouter le persil frais.\n" +
+            "10. Mélanger délicatement.\n" +
+            "11. Réserver au frais 15 minutes.\n" +
+            "12. Servir bien frais."
     },
+
     en: {
-        title: "Seafood Salad (Serves 4)",
+        title: "Insalata di mare",
         equipment: [
             "1 saucepan",
             "1 mixing bowl",
@@ -18785,74 +22008,100 @@ recipesData.entree.insalataMare = {
         ],
         ingredients: [
             "200 g peeled shrimp",
-            "150 g sliced squid",
+            "150 g squid rings",
             "1 lemon (juice)",
             "2 tablespoons olive oil (30 ml)",
-            "Salt and pepper to taste",
-            "Some parsley leaves"
+            "Salt and pepper",
+            "Some fresh parsley leaves"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cook shrimp and squid 3-4 minutes in boiling water.\n" +
-            "2. Drain and let cool.\n" +
-            "3. Mix seafood with lemon juice, oil, salt, and pepper.\n" +
-            "4. Add parsley leaves.\n" +
-            "5. Serve chilled."
+            "1. Bring a pot of salted water to a boil.\n" +
+            "2. Add the shrimp and squid.\n" +
+            "3. Cook for 3 to 4 minutes until just done.\n" +
+            "4. Drain immediately.\n" +
+            "5. Let cool completely.\n" +
+            "6. Place the seafood in a bowl.\n" +
+            "7. Add lemon juice and olive oil.\n" +
+            "8. Season with salt and pepper.\n" +
+            "9. Add fresh parsley.\n" +
+            "10. Mix gently.\n" +
+            "11. Chill for 15 minutes.\n" +
+            "12. Serve cold."
     },
+
     nl: {
-        title: "Zeevruchtensalade (voor 4 personen)",
+        title: "Insalata di mare",
         equipment: [
             "1 steelpan",
-            "1 kom om te mengen",
+            "1 kom",
             "1 houten lepel"
         ],
         ingredients: [
             "200 g gepelde garnalen",
-            "150 g in plakjes gesneden inktvis",
+            "150 g inktvisringen",
             "1 citroen (sap)",
             "2 eetlepels olijfolie (30 ml)",
-            "Zout en peper naar smaak",
-            "Enkele peterselieblaadjes"
+            "Zout en peper",
+            "Enkele verse peterselieblaadjes"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Kook garnalen en inktvis 3-4 minuten in kokend water.\n" +
-            "2. Giet af en laat afkoelen.\n" +
-            "3. Meng zeevruchten met citroensap, olie, zout en peper.\n" +
-            "4. Voeg peterselieblaadjes toe.\n" +
-            "5. Serveer koud."
+            "1. Breng een pan gezouten water aan de kook.\n" +
+            "2. Voeg de garnalen en inktvis toe.\n" +
+            "3. Kook 3 tot 4 minuten.\n" +
+            "4. Giet af.\n" +
+            "5. Laat volledig afkoelen.\n" +
+            "6. Doe de zeevruchten in een kom.\n" +
+            "7. Voeg citroensap en olijfolie toe.\n" +
+            "8. Breng op smaak met zout en peper.\n" +
+            "9. Voeg peterselie toe.\n" +
+            "10. Meng voorzichtig.\n" +
+            "11. Zet 15 minuten in de koelkast.\n" +
+            "12. Serveer koud."
     },
+
     ar: {
-        title: "سلطة البحر (تكفي 4 أشخاص)",
+        title: "سلطة المأكولات البحرية",
         equipment: [
             "قدر",
-            "وعاء للخلط",
+            "وعاء",
             "ملعقة خشبية"
         ],
         ingredients: [
             "200 غ روبيان مقشر",
-            "150 غ حبار مقطع شرائح",
+            "150 غ حبار مقطع حلقات",
             "1 ليمونة (عصير)",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "ملح وفلفل حسب الرغبة",
-            "بضع أوراق بقدونس"
+            "ملح وفلفل",
+            "بضع أوراق بقدونس طازج"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اطبخ الروبيان والحبار 3-4 دقائق في ماء مغلي.\n" +
-            "2. صفيها واتركها لتبرد.\n" +
-            "3. اخلط المأكولات البحرية مع عصير الليمون والزيت والملح والفلفل.\n" +
-            "4. أضف أوراق البقدونس.\n" +
-            "5. قدمها باردة."
+            "1. اغْلِ ماءً مملحاً في قدر.\n" +
+            "2. أضف الروبيان والحبار.\n" +
+            "3. اطبخ لمدة 3 إلى 4 دقائق.\n" +
+            "4. صفِّ المكونات فوراً.\n" +
+            "5. اتركها لتبرد تماماً.\n" +
+            "6. ضع المأكولات البحرية في وعاء.\n" +
+            "7. أضف عصير الليمون وزيت الزيتون.\n" +
+            "8. تبّل بالملح والفلفل.\n" +
+            "9. أضف البقدونس الطازج.\n" +
+            "10. اخلط برفق.\n" +
+            "11. ضعها في الثلاجة 15 دقيقة.\n" +
+            "12. قدّمها باردة."
     }
 };
-
-// 6. Frittata aux légumes
 recipesData.entree.frittataLegumes = {
     country: "italie",
     image: "images/frittata.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Frittata aux légumes (4 personnes)",
+        title: "Frittata aux légumes",
         equipment: [
             "1 poêle",
             "1 fouet",
@@ -18862,20 +22111,26 @@ recipesData.entree.frittataLegumes = {
             "6 œufs",
             "1 courgette râpée",
             "1 poivron rouge coupé en dés",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "Sel et poivre selon goût"
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "Sel et poivre"
         ],
         preparation:
-            "Pour 4 personnes.\n" +
-            "1. Battre les œufs dans un bol et assaisonner avec sel et poivre.\n" +
-            "2. Ajouter les légumes et mélanger.\n" +
-            "3. Chauffer l’huile dans une poêle et verser le mélange.\n" +
-            "4. Cuire à feu moyen jusqu’à ce que les œufs soient pris.\n" +
-            "5. Retourner délicatement pour cuire l’autre côté.\n" +
-            "6. Servir chaud ou tiède."
+            "1. Casser les œufs dans un bol.\n" +
+            "2. Battre légèrement à l’aide d’un fouet.\n" +
+            "3. Saler et poivrer.\n" +
+            "4. Ajouter la courgette râpée et le poivron.\n" +
+            "5. Mélanger.\n" +
+            "6. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "7. Verser la préparation dans la poêle.\n" +
+            "8. Cuire sans remuer jusqu’à ce que le dessous soit pris.\n" +
+            "9. Retourner délicatement la frittata.\n" +
+            "10. Poursuivre la cuisson quelques minutes.\n" +
+            "11. Retirer du feu.\n" +
+            "12. Servir chaud ou tiède."
     },
+
     en: {
-        title: "Vegetable Frittata (Serves 4)",
+        title: "Vegetable frittata",
         equipment: [
             "1 pan",
             "1 whisk",
@@ -18886,19 +22141,25 @@ recipesData.entree.frittataLegumes = {
             "1 grated zucchini",
             "1 red bell pepper, diced",
             "2 tablespoons olive oil (30 ml)",
-            "Salt and pepper to taste"
+            "Salt and pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Beat eggs in a bowl and season with salt and pepper.\n" +
-            "2. Add vegetables and mix.\n" +
-            "3. Heat oil in a pan and pour mixture.\n" +
-            "4. Cook over medium heat until eggs set.\n" +
-            "5. Carefully flip to cook the other side.\n" +
-            "6. Serve hot or warm."
+            "1. Crack the eggs into a bowl.\n" +
+            "2. Lightly beat with a whisk.\n" +
+            "3. Season with salt and pepper.\n" +
+            "4. Add the zucchini and bell pepper.\n" +
+            "5. Mix well.\n" +
+            "6. Heat olive oil in a pan over medium heat.\n" +
+            "7. Pour in the egg mixture.\n" +
+            "8. Cook until the bottom is set.\n" +
+            "9. Carefully flip the frittata.\n" +
+            "10. Cook a few more minutes.\n" +
+            "11. Remove from heat.\n" +
+            "12. Serve warm."
     },
+
     nl: {
-        title: "Groente frittata (voor 4 personen)",
+        title: "Groente frittata",
         equipment: [
             "1 pan",
             "1 garde",
@@ -18907,21 +22168,27 @@ recipesData.entree.frittataLegumes = {
         ingredients: [
             "6 eieren",
             "1 geraspte courgette",
-            "1 rode paprika, in blokjes",
+            "1 rode paprika in blokjes",
             "2 eetlepels olijfolie (30 ml)",
-            "Zout en peper naar smaak"
+            "Zout en peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Klop de eieren in een kom en breng op smaak met zout en peper.\n" +
-            "2. Voeg de groenten toe en meng.\n" +
-            "3. Verhit olie in een pan en giet het mengsel erin.\n" +
-            "4. Bak op middelhoog vuur tot de eieren gestold zijn.\n" +
-            "5. Draai voorzichtig om de andere kant te bakken.\n" +
-            "6. Serveer warm of lauw."
+            "1. Breek de eieren in een kom.\n" +
+            "2. Klop licht los.\n" +
+            "3. Breng op smaak met zout en peper.\n" +
+            "4. Voeg courgette en paprika toe.\n" +
+            "5. Meng.\n" +
+            "6. Verhit olijfolie in een pan op middelhoog vuur.\n" +
+            "7. Giet het mengsel in de pan.\n" +
+            "8. Bak tot de onderkant gestold is.\n" +
+            "9. Draai voorzichtig om.\n" +
+            "10. Bak nog enkele minuten.\n" +
+            "11. Haal van het vuur.\n" +
+            "12. Serveer warm of lauwwarm."
     },
+
     ar: {
-        title: "فريتاتا بالخضار (تكفي 4 أشخاص)",
+        title: "فريتاتا بالخضار",
         equipment: [
             "مقلاة",
             "خفاق",
@@ -18932,25 +22199,36 @@ recipesData.entree.frittataLegumes = {
             "1 كوسة مبشورة",
             "1 فلفل أحمر مقطع مكعبات",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "ملح وفلفل حسب الرغبة"
+            "ملح وفلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخفق البيض في وعاء وتبّل بالملح والفلفل.\n" +
-            "2. أضف الخضار واخلط.\n" +
-            "3. سخّن الزيت في مقلاة وصب المزيج.\n" +
-            "4. اطبخ على نار متوسطة حتى يتماسك البيض.\n" +
-            "5. قلب برفق للطهي من الجهة الأخرى.\n" +
-            "6. قدّم ساخناً أو دافئاً."
+            "1. اكسر البيض في وعاء.\n" +
+            "2. اخفقه قليلاً.\n" +
+            "3. تبّل بالملح والفلفل.\n" +
+            "4. أضف الكوسة والفلفل.\n" +
+            "5. اخلط جيداً.\n" +
+            "6. سخّن زيت الزيتون في مقلاة على نار متوسطة.\n" +
+            "7. اسكب الخليط في المقلاة.\n" +
+            "8. اطبخ حتى يتماسك القاع.\n" +
+            "9. اقلب الفريتاتا برفق.\n" +
+            "10. اطبخ بضع دقائق إضافية.\n" +
+            "11. ارفع من النار.\n" +
+            "12. قدّم ساخناً أو دافئاً."
     }
 };
-
-// 7. Soupe Minestrone
 recipesData.entree.minestrone = {
     country: "italie",
     image: "images/minestrone.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Soupe Minestrone (4 personnes)",
+        title: "Soupe minestrone",
         equipment: [
             "1 grande casserole",
             "1 couteau",
@@ -18964,20 +22242,26 @@ recipesData.entree.minestrone = {
             "1 oignon (120 g)",
             "2 pommes de terre moyennes (300 g)",
             "1 litre de bouillon de légumes",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "Sel et poivre selon goût"
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "Sel et poivre"
         ],
         preparation:
-            "Pour 4 personnes.\n" +
-            "1. Éplucher et couper carotte, céleri, courgette, oignon et pommes de terre en dés.\n" +
-            "2. Chauffer l’huile d’olive dans la casserole et faire revenir l’oignon 2-3 minutes.\n" +
-            "3. Ajouter les autres légumes et faire revenir 5 minutes.\n" +
-            "4. Verser le bouillon de légumes, porter à ébullition puis réduire le feu.\n" +
-            "5. Laisser mijoter 25-30 minutes jusqu’à ce que les légumes soient tendres.\n" +
-            "6. Assaisonner sel et poivre et servir chaud."
+            "1. Éplucher la carotte, l’oignon et les pommes de terre.\n" +
+            "2. Couper tous les légumes en petits dés.\n" +
+            "3. Chauffer l’huile d’olive dans une grande casserole.\n" +
+            "4. Faire revenir l’oignon à feu moyen pendant 2 à 3 minutes.\n" +
+            "5. Ajouter la carotte, le céleri, la courgette et les pommes de terre.\n" +
+            "6. Faire revenir les légumes 5 minutes en remuant.\n" +
+            "7. Verser le bouillon de légumes.\n" +
+            "8. Porter à ébullition.\n" +
+            "9. Réduire le feu et laisser mijoter 25 à 30 minutes.\n" +
+            "10. Assaisonner avec sel et poivre.\n" +
+            "11. Mélanger.\n" +
+            "12. Servir bien chaud."
     },
+
     en: {
-        title: "Minestrone Soup (Serves 4)",
+        title: "Minestrone soup",
         equipment: [
             "1 large saucepan",
             "1 knife",
@@ -18992,21 +22276,27 @@ recipesData.entree.minestrone = {
             "2 medium potatoes (300 g)",
             "1 liter vegetable broth",
             "2 tablespoons olive oil (30 ml)",
-            "Salt and pepper to taste"
+            "Salt and pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Peel and dice carrot, celery, zucchini, onion, and potatoes.\n" +
-            "2. Heat olive oil in a saucepan and sauté onion 2-3 minutes.\n" +
-            "3. Add other vegetables and sauté 5 minutes.\n" +
-            "4. Pour in vegetable broth, bring to a boil then reduce heat.\n" +
-            "5. Simmer 25-30 minutes until vegetables are tender.\n" +
-            "6. Season with salt and pepper and serve hot."
+            "1. Peel the carrot, onion and potatoes.\n" +
+            "2. Dice all the vegetables.\n" +
+            "3. Heat olive oil in a large saucepan.\n" +
+            "4. Sauté the onion over medium heat for 2 to 3 minutes.\n" +
+            "5. Add carrot, celery, zucchini and potatoes.\n" +
+            "6. Cook for 5 minutes, stirring.\n" +
+            "7. Pour in the vegetable broth.\n" +
+            "8. Bring to a boil.\n" +
+            "9. Lower the heat and simmer for 25 to 30 minutes.\n" +
+            "10. Season with salt and pepper.\n" +
+            "11. Stir well.\n" +
+            "12. Serve hot."
     },
+
     nl: {
-        title: "Minestrone soep (voor 4 personen)",
+        title: "Minestrone soep",
         equipment: [
-            "1 grote steelpan",
+            "1 grote pan",
             "1 mes",
             "1 snijplank",
             "1 houten lepel"
@@ -19019,19 +22309,25 @@ recipesData.entree.minestrone = {
             "2 middelgrote aardappelen (300 g)",
             "1 liter groentebouillon",
             "2 eetlepels olijfolie (30 ml)",
-            "Zout en peper naar smaak"
+            "Zout en peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Schil en snijd wortel, selderij, courgette, ui en aardappelen in blokjes.\n" +
-            "2. Verhit olijfolie in een pan en fruit de ui 2-3 minuten.\n" +
-            "3. Voeg de andere groenten toe en bak 5 minuten.\n" +
-            "4. Voeg de bouillon toe, breng aan de kook en zet het vuur lager.\n" +
-            "5. Laat 25-30 minuten sudderen tot de groenten gaar zijn.\n" +
-            "6. Breng op smaak met zout en peper en serveer warm."
+            "1. Schil de wortel, ui en aardappelen.\n" +
+            "2. Snijd alle groenten in kleine blokjes.\n" +
+            "3. Verhit olijfolie in een grote pan.\n" +
+            "4. Fruit de ui 2 tot 3 minuten op middelhoog vuur.\n" +
+            "5. Voeg de andere groenten toe.\n" +
+            "6. Bak 5 minuten al roerend.\n" +
+            "7. Giet de groentebouillon erbij.\n" +
+            "8. Breng aan de kook.\n" +
+            "9. Zet het vuur lager en laat 25 tot 30 minuten sudderen.\n" +
+            "10. Breng op smaak met zout en peper.\n" +
+            "11. Roer goed door.\n" +
+            "12. Serveer warm."
     },
+
     ar: {
-        title: "شوربة مينستروني (تكفي 4 أشخاص)",
+        title: "شوربة مينستروني",
         equipment: [
             "قدر كبير",
             "سكين",
@@ -19046,24 +22342,36 @@ recipesData.entree.minestrone = {
             "2 بطاطس متوسطة (300 غ)",
             "1 لتر مرق خضار",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "ملح وفلفل حسب الرغبة"
+            "ملح وفلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قشر وقطع الجزر، الكرفس، الكوسة، البصل والبطاطس إلى مكعبات.\n" +
-            "2. سخّن زيت الزيتون في قدر وقم بتحمير البصل 2-3 دقائق.\n" +
-            "3. أضف الخضار الأخرى وقلب 5 دقائق.\n" +
-            "4. أضف مرق الخضار، اغليه ثم خفف النار.\n" +
-            "5. اتركه يغلي على نار هادئة 25-30 دقيقة حتى تصبح الخضار طرية.\n" +
-            "6. تبّل بالملح والفلفل وقدّمه ساخناً."
+            "1. قشّر الجزر والبصل والبطاطس.\n" +
+            "2. قطّع جميع الخضار إلى مكعبات صغيرة.\n" +
+            "3. سخّن زيت الزيتون في قدر كبير.\n" +
+            "4. شوّح البصل لمدة 2 إلى 3 دقائق.\n" +
+            "5. أضف باقي الخضار.\n" +
+            "6. قلّب لمدة 5 دقائق.\n" +
+            "7. أضف مرق الخضار.\n" +
+            "8. اتركه حتى يغلي.\n" +
+            "9. خفّف النار واتركه يطبخ 25 إلى 30 دقيقة.\n" +
+            "10. تبّل بالملح والفلفل.\n" +
+            "11. حرّك جيداً.\n" +
+            "12. قدّمه ساخناً."
     }
 };
-
-    recipesData.entree.caprese = {
+recipesData.entree.caprese = {
     country: "italie",
     image: "images/caprese.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade Caprese (4 personnes)",
+        title: "Salade Caprese",
         equipment: [
             "1 couteau",
             "1 planche à découper",
@@ -19077,15 +22385,17 @@ recipesData.entree.minestrone = {
             "Sel et poivre selon goût"
         ],
         preparation:
-            "Pour 4 personnes.\n" +
-            "1. Laver et couper les tomates en rondelles.\n" +
-            "2. Couper la mozzarella en tranches.\n" +
-            "3. Disposer les rondelles de tomates et de mozzarella en alternance sur l’assiette.\n" +
-            "4. Ajouter les feuilles de basilic.\n" +
-            "5. Assaisonner avec sel, poivre et un filet d’huile d’olive avant de servir."
+            "1. Laver soigneusement les tomates.\n" +
+            "2. Couper les tomates en rondelles régulières.\n" +
+            "3. Couper la mozzarella en tranches de taille similaire.\n" +
+            "4. Disposer les tranches de tomates et de mozzarella en alternance sur une assiette.\n" +
+            "5. Ajouter les feuilles de basilic frais.\n" +
+            "6. Assaisonner avec sel, poivre et un filet d’huile d’olive.\n" +
+            "7. Servir immédiatement."
     },
+
     en: {
-        title: "Caprese Salad (Serves 4)",
+        title: "Caprese Salad",
         equipment: [
             "1 knife",
             "1 cutting board",
@@ -19099,15 +22409,17 @@ recipesData.entree.minestrone = {
             "Salt and pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Wash and slice the tomatoes.\n" +
-            "2. Slice the mozzarella.\n" +
-            "3. Arrange the tomato and mozzarella slices alternately on a plate.\n" +
-            "4. Add basil leaves.\n" +
-            "5. Season with salt, pepper and a drizzle of olive oil before serving."
+            "1. Wash the tomatoes thoroughly.\n" +
+            "2. Slice the tomatoes evenly.\n" +
+            "3. Slice the mozzarella into similar-sized pieces.\n" +
+            "4. Arrange tomato and mozzarella slices alternately on a plate.\n" +
+            "5. Add fresh basil leaves.\n" +
+            "6. Season with salt, pepper, and drizzle with olive oil.\n" +
+            "7. Serve immediately."
     },
+
     nl: {
-        title: "Caprese salade (voor 4 personen)",
+        title: "Caprese salade",
         equipment: [
             "1 mes",
             "1 snijplank",
@@ -19121,15 +22433,17 @@ recipesData.entree.minestrone = {
             "Zout en peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Was en snijd de tomaten in plakjes.\n" +
-            "2. Snijd de mozzarella in plakjes.\n" +
-            "3. Leg afwisselend plakjes tomaat en mozzarella op een bord.\n" +
-            "4. Voeg basilicumblaadjes toe.\n" +
-            "5. Breng op smaak met zout, peper en een scheutje olijfolie voor het serveren."
+            "1. Was de tomaten grondig.\n" +
+            "2. Snijd de tomaten in gelijkmatige plakjes.\n" +
+            "3. Snijd de mozzarella in plakjes van gelijke grootte.\n" +
+            "4. Schik tomaat en mozzarella afwisselend op een bord.\n" +
+            "5. Voeg verse basilicumblaadjes toe.\n" +
+            "6. Breng op smaak met zout, peper en olijfolie.\n" +
+            "7. Serveer onmiddellijk."
     },
+
     ar: {
-        title: "سلطة كابريزي (تكفي 4 أشخاص)",
+        title: "سلطة كابريزي",
         equipment: [
             "سكين",
             "لوح تقطيع",
@@ -19143,25 +22457,41 @@ recipesData.entree.minestrone = {
             "ملح وفلفل حسب الرغبة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. غسل وقطع الطماطم إلى شرائح.\n" +
-            "2. تقطيع الموزاريلا إلى شرائح.\n" +
-            "3. وضع شرائح الطماطم والموزاريلا بالتناوب على الطبق.\n" +
-            "4. إضافة أوراق الريحان.\n" +
-            "5. تتبيل بالملح والفلفل ورش زيت الزيتون قبل التقديم."
+            "1. اغسل الطماطم جيداً.\n" +
+            "2. قطّع الطماطم إلى شرائح متساوية.\n" +
+            "3. قطّع الموزاريلا إلى شرائح بنفس الحجم.\n" +
+            "4. رتّب شرائح الطماطم والموزاريلا بالتناوب على الطبق.\n" +
+            "5. أضف أوراق الريحان الطازجة.\n" +
+            "6. تبّل بالملح والفلفل ورش زيت الزيتون.\n" +
+            "7. قدّم مباشرة."
     }
 };
+
+
+
+
+
+
+
 
 
 
 recipesData.plat.risotto = {
     country: "italie",
     image: "images/risotto.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Risotto aux champignons (4 personnes)",
+        title: "Risotto aux champignons",
         equipment: [
             "1 casserole à fond épais",
-            "1 poêle",
+            "1 poêle ou sauteuse",
             "1 cuillère en bois",
             "1 couteau",
             "1 planche à découper",
@@ -19169,30 +22499,33 @@ recipesData.plat.risotto = {
             "1 louche"
         ],
         ingredients: [
-            "300 g riz arborio",
-            "250 g champignons frais (champignon de Paris ou mélange forestier), tranchés",
-            "1 oignon moyen (100 g), haché finement",
-            "1 litre bouillon de légumes chaud",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "30 g beurre",
-            "50 g parmesan râpé (facultatif halal)",
-            "Sel et poivre selon goût",
-            "1 gousse d’ail, émincée"
+            "300 g de riz arborio",
+            "250 g de champignons frais (champignon de Paris ou mélange forestier)",
+            "1 oignon moyen (100 g), finement haché",
+            "1 gousse d’ail, émincée",
+            "1 litre de bouillon de légumes chaud",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "30 g de beurre",
+            "50 g de parmesan râpé",
+            "Sel et poivre selon goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer le bouillon dans une casserole et le maintenir chaud.\n" +
-            "2. Dans une grande poêle, faire revenir l’oignon et l’ail avec 1 cuillère à soupe d’huile d’olive jusqu’à ce qu’ils deviennent translucides.\n" +
-            "3. Ajouter les champignons et cuire 5-7 minutes jusqu’à ce qu’ils soient tendres.\n" +
-            "4. Ajouter le riz et mélanger 1-2 minutes pour qu’il s’imprègne de l’huile.\n" +
-            "5. Verser une louche de bouillon chaud, remuer jusqu’à absorption. Répéter progressivement, louche par louche, pendant 18-20 minutes jusqu’à cuisson crémeuse.\n" +
-            "6. Retirer du feu, ajouter le beurre et le parmesan, mélanger doucement.\n" +
-            "7. Assaisonner avec sel et poivre selon goût. Servir immédiatement."
+            "1. Chauffer le bouillon de légumes dans une casserole et le maintenir bien chaud.\n" +
+            "2. Émincer finement l’oignon, l’ail et trancher les champignons.\n" +
+            "3. Faire chauffer l’huile d’olive dans une grande poêle et faire revenir l’oignon et l’ail jusqu’à ce qu’ils deviennent translucides.\n" +
+            "4. Ajouter les champignons et cuire 5 à 7 minutes jusqu’à évaporation de leur eau.\n" +
+            "5. Ajouter le riz et remuer 1 à 2 minutes pour bien l’enrober.\n" +
+            "6. Verser une louche de bouillon chaud et remuer jusqu’à absorption.\n" +
+            "7. Répéter l’opération louche par louche pendant 18 à 20 minutes jusqu’à obtention d’un risotto crémeux.\n" +
+            "8. Retirer du feu, ajouter le beurre et le parmesan, mélanger délicatement.\n" +
+            "9. Assaisonner avec sel et poivre.\n" +
+            "10. Servir immédiatement."
     },
+
     en: {
-        title: "Mushroom Risotto (Serves 4)",
+        title: "Mushroom Risotto",
         equipment: [
-            "1 heavy-bottomed pot",
+            "1 heavy-bottomed pan",
             "1 frying pan",
             "1 wooden spoon",
             "1 knife",
@@ -19202,29 +22535,32 @@ recipesData.plat.risotto = {
         ],
         ingredients: [
             "300 g Arborio rice",
-            "250 g fresh mushrooms (button or mixed forest), sliced",
+            "250 g fresh mushrooms (button or mixed forest)",
             "1 medium onion (100 g), finely chopped",
-            "1 litre hot vegetable broth",
+            "1 garlic clove, minced",
+            "1 liter hot vegetable broth",
             "2 tablespoons olive oil (30 ml)",
             "30 g butter",
-            "50 g grated Parmesan (optional halal)",
-            "Salt and pepper to taste",
-            "1 garlic clove, minced"
+            "50 g grated Parmesan",
+            "Salt and pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat the broth in a pot and keep warm.\n" +
-            "2. In a large pan, sauté onion and garlic with 1 tbsp olive oil until translucent.\n" +
-            "3. Add mushrooms and cook 5-7 minutes until tender.\n" +
-            "4. Add rice and stir 1-2 minutes to coat in oil.\n" +
-            "5. Gradually add ladles of hot broth, stirring until absorbed. Repeat for 18-20 minutes until creamy.\n" +
-            "6. Remove from heat, add butter and Parmesan, mix gently.\n" +
-            "7. Season with salt and pepper to taste. Serve immediately."
+            "1. Heat the vegetable broth in a saucepan and keep it hot.\n" +
+            "2. Finely chop the onion and garlic, and slice the mushrooms.\n" +
+            "3. Heat olive oil in a large pan and sauté onion and garlic until translucent.\n" +
+            "4. Add mushrooms and cook for 5–7 minutes until softened.\n" +
+            "5. Add the rice and stir for 1–2 minutes to coat.\n" +
+            "6. Add one ladle of hot broth and stir until absorbed.\n" +
+            "7. Repeat gradually for 18–20 minutes until creamy.\n" +
+            "8. Remove from heat, add butter and Parmesan, and mix gently.\n" +
+            "9. Season with salt and pepper.\n" +
+            "10. Serve immediately."
     },
+
     nl: {
-        title: "Risotto met champignons (voor 4 personen)",
+        title: "Risotto met champignons",
         equipment: [
-            "1 zware pan",
+            "1 pan met dikke bodem",
             "1 koekenpan",
             "1 houten lepel",
             "1 mes",
@@ -19234,27 +22570,30 @@ recipesData.plat.risotto = {
         ],
         ingredients: [
             "300 g Arborio rijst",
-            "250 g verse champignons (champignon of bosmix), in plakjes",
+            "250 g verse champignons",
             "1 middelgrote ui (100 g), fijngehakt",
+            "1 teentje knoflook, fijngehakt",
             "1 liter hete groentebouillon",
             "2 eetlepels olijfolie (30 ml)",
             "30 g boter",
-            "50 g geraspte Parmezaanse kaas (optioneel halal)",
-            "Zout en peper naar smaak",
-            "1 teentje knoflook, fijngehakt"
+            "50 g geraspte Parmezaanse kaas",
+            "Zout en peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm de bouillon in een pan en houd warm.\n" +
-            "2. Fruit in een grote pan de ui en knoflook met 1 el olijfolie tot glazig.\n" +
-            "3. Voeg de champignons toe en bak 5-7 minuten tot zacht.\n" +
-            "4. Voeg de rijst toe en roer 1-2 minuten zodat hij bedekt is met olie.\n" +
-            "5. Voeg geleidelijk een soeplepel bouillon toe, roer tot opgenomen. Herhaal 18-20 minuten tot romig.\n" +
-            "6. Haal van het vuur, voeg boter en Parmezaanse kaas toe, meng zachtjes.\n" +
-            "7. Breng op smaak met zout en peper. Direct serveren."
+            "1. Verwarm de groentebouillon en houd warm.\n" +
+            "2. Hak de ui en knoflook fijn en snijd de champignons.\n" +
+            "3. Verhit olijfolie in een grote pan en fruit ui en knoflook glazig.\n" +
+            "4. Voeg de champignons toe en bak 5–7 minuten.\n" +
+            "5. Voeg de rijst toe en roer 1–2 minuten.\n" +
+            "6. Voeg telkens een soeplepel bouillon toe en roer tot opgenomen.\n" +
+            "7. Herhaal dit 18–20 minuten tot de risotto romig is.\n" +
+            "8. Haal van het vuur, voeg boter en Parmezaan toe en meng voorzichtig.\n" +
+            "9. Breng op smaak met zout en peper.\n" +
+            "10. Serveer direct."
     },
+
     ar: {
-        title: "ريزوتو بالفطر (تكفي 4 أشخاص)",
+        title: "ريزوتو بالفطر",
         equipment: [
             "قدر سميك القاعدة",
             "مقلاة",
@@ -19266,400 +22605,637 @@ recipesData.plat.risotto = {
         ],
         ingredients: [
             "300 غ أرز أربوريو",
-            "250 غ فطر طازج (فطر أبيض أو مشكل)، مقطع شرائح",
-            "1 بصل متوسط (100 غ)، مفروم ناعم",
+            "250 غ فطر طازج",
+            "1 بصلة متوسطة (100 غ)، مفرومة ناعماً",
+            "1 فص ثوم، مفروم",
             "1 لتر مرق خضار ساخن",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "30 غ زبدة",
-            "50 غ جبن بارميزان مبشور (اختياري حلال)",
-            "ملح وفلفل حسب الرغبة",
-            "1 فص ثوم، مفروم"
+            "50 غ جبن بارميزان مبشور",
+            "ملح وفلفل حسب الرغبة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن المرق في قدر وحافظ عليه ساخناً.\n" +
-            "2. في مقلاة كبيرة، اقلي البصل والثوم مع 1 ملعقة كبيرة زيت زيتون حتى يصبح شفافاً.\n" +
-            "3. أضف الفطر واطهي 5-7 دقائق حتى ينضج.\n" +
-            "4. أضف الأرز وحرك 1-2 دقيقة ليختلط بالزيت.\n" +
-            "5. أضف المرق تدريجياً بواسطة مغرفة مع التحريك حتى يمتص. كرر لمدة 18-20 دقيقة حتى يصبح قشدي القوام.\n" +
-            "6. ارفع عن النار، أضف الزبدة والبارميزان وامزج برفق.\n" +
-            "7. تبّل بالملح والفلفل حسب الرغبة وقدّم فوراً."
+            "1. سخّن مرق الخضار واحتفظ به ساخناً.\n" +
+            "2. افرم البصل والثوم وقطّع الفطر.\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة وقلّي البصل والثوم حتى يصبحا شفافين.\n" +
+            "4. أضف الفطر واطبخ 5–7 دقائق.\n" +
+            "5. أضف الأرز وحرّك 1–2 دقيقة.\n" +
+            "6. أضف المرق تدريجياً مغرفة بعد مغرفة مع التحريك.\n" +
+            "7. كرر لمدة 18–20 دقيقة حتى يصبح قشدي القوام.\n" +
+            "8. ارفع عن النار، أضف الزبدة والبارميزان وامزج برفق.\n" +
+            "9. تبّل بالملح والفلفل.\n" +
+            "10. قدّم فوراً."
     }
 };
 recipesData.plat.risottoPoulet = {
     country: "italie",
     image: "images/risotto-poulet.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Risotto au poulet et légumes (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
+        title: "Risotto au poulet et légumes",
+        equipment: [
+            "1 casserole à fond épais",
+            "1 poêle ou sauteuse",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper",
+            "1 louche"
+        ],
         ingredients: [
             "200 g de riz arborio",
             "300 g de poulet coupé en dés",
-            "1 oignon haché",
-            "1 poivron rouge en dés",
+            "1 oignon moyen, finement haché",
+            "1 poivron rouge, coupé en dés",
             "100 g de petits pois",
-            "750 ml de bouillon de volaille",
+            "750 ml de bouillon de volaille chaud",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
             "50 g de parmesan râpé",
-            "2 cuillères à soupe d’huile d’olive",
             "Sel et poivre selon goût"
         ],
         preparation:
-            "1. Chauffer l’huile dans une poêle, ajouter l’oignon et le poivron, faire revenir 3-4 min.\n" +
-            "2. Ajouter le poulet et cuire jusqu’à ce qu’il soit doré.\n" +
-            "3. Ajouter le riz et remuer 1-2 min jusqu’à ce qu’il devienne translucide.\n" +
-            "4. Verser le bouillon chaud louche par louche, en remuant constamment jusqu’à absorption.\n" +
-            "5. Ajouter les petits pois à mi-cuisson.\n" +
-            "6. Lorsque le riz est cuit et crémeux, incorporer le parmesan.\n" +
-            "7. Ajuster sel et poivre et servir chaud."
+            "1. Chauffer le bouillon de volaille dans une casserole et le maintenir bien chaud.\n" +
+            "2. Émincer l’oignon et couper le poivron en petits dés.\n" +
+            "3. Faire chauffer l’huile d’olive dans une grande poêle et faire revenir l’oignon 2 à 3 minutes.\n" +
+            "4. Ajouter le poulet et cuire jusqu’à ce qu’il soit bien doré.\n" +
+            "5. Incorporer le poivron puis le riz et mélanger 1 à 2 minutes pour bien enrober les grains.\n" +
+            "6. Verser une louche de bouillon chaud et remuer jusqu’à absorption.\n" +
+            "7. Répéter l’opération louche par louche pendant environ 18 à 20 minutes.\n" +
+            "8. Ajouter les petits pois à mi-cuisson.\n" +
+            "9. Retirer du feu, incorporer le parmesan et mélanger délicatement.\n" +
+            "10. Assaisonner avec sel et poivre et servir immédiatement."
     },
+
     en: {
-        title: "Chicken and Vegetable Risotto (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 knife", "1 cutting board"],
+        title: "Chicken and Vegetable Risotto",
+        equipment: [
+            "1 heavy-bottomed pan",
+            "1 frying pan",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 ladle"
+        ],
         ingredients: [
-            "200 g arborio rice",
+            "200 g Arborio rice",
             "300 g diced chicken",
-            "1 chopped onion",
-            "1 red pepper, diced",
+            "1 medium onion, finely chopped",
+            "1 red bell pepper, diced",
             "100 g green peas",
-            "750 ml chicken broth",
-            "50 g grated parmesan",
-            "2 tablespoons olive oil",
+            "750 ml hot chicken broth",
+            "2 tablespoons olive oil (30 ml)",
+            "50 g grated Parmesan",
             "Salt and pepper to taste"
         ],
         preparation:
-            "1. Heat oil in a pan, add onion and pepper, sauté 3-4 min.\n" +
-            "2. Add chicken and cook until golden.\n" +
-            "3. Add rice and stir 1-2 min until translucent.\n" +
-            "4. Pour hot broth, ladle by ladle, stirring constantly until absorbed.\n" +
-            "5. Add peas halfway through cooking.\n" +
-            "6. When rice is creamy and cooked, stir in parmesan.\n" +
-            "7. Adjust salt and pepper and serve hot."
+            "1. Heat the chicken broth in a saucepan and keep it hot.\n" +
+            "2. Finely chop the onion and dice the red pepper.\n" +
+            "3. Heat olive oil in a large pan and sauté the onion for 2–3 minutes.\n" +
+            "4. Add the chicken and cook until golden.\n" +
+            "5. Add the red pepper and rice, stirring for 1–2 minutes to coat.\n" +
+            "6. Add hot broth one ladle at a time, stirring until absorbed.\n" +
+            "7. Repeat for about 18–20 minutes until creamy.\n" +
+            "8. Add peas halfway through cooking.\n" +
+            "9. Remove from heat, stir in Parmesan.\n" +
+            "10. Season with salt and pepper and serve immediately."
     },
+
     nl: {
-        title: "Risotto met kip en groenten (voor 4 personen)",
-        equipment: ["1 pan", "1 braadpan", "1 houten lepel", "1 mes", "1 snijplank"],
+        title: "Risotto met kip en groenten",
+        equipment: [
+            "1 pan met dikke bodem",
+            "1 koekenpan",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 soeplepel"
+        ],
         ingredients: [
-            "200 g arborio rijst",
-            "300 g kip in blokjes",
-            "1 ui, gehakt",
+            "200 g Arborio rijst",
+            "300 g kipfilet in blokjes",
+            "1 middelgrote ui, fijngehakt",
             "1 rode paprika, in blokjes",
             "100 g doperwten",
-            "750 ml kippenbouillon",
+            "750 ml hete kippenbouillon",
+            "2 eetlepels olijfolie (30 ml)",
             "50 g geraspte Parmezaanse kaas",
-            "2 eetlepels olijfolie",
             "Zout en peper naar smaak"
         ],
         preparation:
-            "1. Verhit olie in een pan, voeg ui en paprika toe, bak 3-4 min.\n" +
-            "2. Voeg kip toe en bak tot goudbruin.\n" +
-            "3. Voeg rijst toe en roer 1-2 min tot glazig.\n" +
-            "4. Voeg warme bouillon lepel voor lepel toe, voortdurend roeren tot opgenomen.\n" +
-            "5. Voeg doperwten halverwege de kooktijd toe.\n" +
-            "6. Wanneer de rijst romig en gaar is, Parmezaanse kaas erdoor mengen.\n" +
-            "7. Breng op smaak met zout en peper en serveer warm."
+            "1. Verwarm de kippenbouillon en houd warm.\n" +
+            "2. Hak de ui fijn en snijd de paprika in blokjes.\n" +
+            "3. Verhit olijfolie in een grote pan en fruit de ui 2–3 minuten.\n" +
+            "4. Voeg de kip toe en bak tot goudbruin.\n" +
+            "5. Voeg paprika en rijst toe en roer 1–2 minuten.\n" +
+            "6. Voeg telkens een soeplepel bouillon toe en roer tot opgenomen.\n" +
+            "7. Herhaal dit 18–20 minuten tot de risotto romig is.\n" +
+            "8. Voeg de doperwten halverwege toe.\n" +
+            "9. Haal van het vuur en meng de Parmezaanse kaas erdoor.\n" +
+            "10. Breng op smaak met zout en peper en serveer direct."
     },
+
     ar: {
-        title: "ريزوتو الدجاج والخضار (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "سكين", "لوح تقطيع"],
+        title: "ريزوتو بالدجاج والخضار",
+        equipment: [
+            "قدر سميك القاعدة",
+            "مقلاة",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "مغرفة"
+        ],
         ingredients: [
             "200 غ أرز أربوريو",
             "300 غ دجاج مقطع مكعبات",
-            "1 بصلة مفرومة",
+            "1 بصلة متوسطة مفرومة",
             "1 فلفل أحمر مقطع مكعبات",
-            "100 غ بازلاء خضراء",
-            "750 مل مرق دجاج",
+            "100 غ بازلاء",
+            "750 مل مرق دجاج ساخن",
+            "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "50 غ جبن بارميزان مبشور",
-            "2 ملاعق كبيرة زيت زيتون",
             "ملح وفلفل حسب الرغبة"
         ],
         preparation:
-            "1. سخّن الزيت في مقلاة، أضف البصل والفلفل، قلب 3-4 دقائق.\n" +
-            "2. أضف الدجاج واطبخ حتى يصبح ذهبي اللون.\n" +
-            "3. أضف الأرز وحرك 1-2 دقيقة حتى يصبح شفافاً.\n" +
-            "4. أضف المرق الساخن ملعقة تلو الأخرى مع التحريك المستمر حتى يمتص.\n" +
-            "5. أضف البازلاء في منتصف الطهي.\n" +
-            "6. عندما يصبح الأرز كريميًا وناضجًا، أضف جبن البارميزان.\n" +
-            "7. اضبط الملح والفلفل وقدّم ساخناً."
+            "1. سخّن مرق الدجاج واحتفظ به ساخناً.\n" +
+            "2. افرم البصل وقطّع الفلفل إلى مكعبات.\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة وقلّي البصل 2–3 دقائق.\n" +
+            "4. أضف الدجاج واطبخ حتى يتحمّر.\n" +
+            "5. أضف الفلفل والأرز وحرّك 1–2 دقيقة.\n" +
+            "6. أضف المرق تدريجياً مغرفة بعد مغرفة مع التحريك.\n" +
+            "7. كرر العملية لمدة 18–20 دقيقة حتى يصبح الأرز كريمي القوام.\n" +
+            "8. أضف البازلاء في منتصف الطهي.\n" +
+            "9. ارفع عن النار وأضف جبن البارميزان.\n" +
+            "10. تبّل بالملح والفلفل وقدّم فوراً."
     }
 };
 recipesData.plat.risottoLegumes = {
     country: "italie",
     image: "images/risotto-legumes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Risotto aux légumes (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
+        title: "Risotto aux légumes",
+        equipment: [
+            "1 casserole à fond épais",
+            "1 poêle ou sauteuse",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper",
+            "1 louche"
+        ],
         ingredients: [
             "200 g de riz arborio",
-            "1 courgette coupée en dés",
-            "1 carotte coupée en dés",
+            "1 courgette coupée en petits dés",
+            "1 carotte coupée en petits dés",
             "100 g de petits pois",
-            "1 poivron rouge en dés",
-            "1 oignon haché",
-            "750 ml de bouillon de légumes",
+            "1 poivron rouge coupé en dés",
+            "1 oignon moyen, finement haché",
+            "750 ml de bouillon de légumes chaud",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
             "50 g de parmesan râpé",
-            "2 cuillères à soupe d’huile d’olive",
             "Sel et poivre selon goût"
         ],
         preparation:
-            "1. Chauffer l’huile dans une poêle, ajouter l’oignon, la carotte et le poivron, faire revenir 3-4 min.\n" +
-            "2. Ajouter la courgette et les petits pois, cuire 2-3 min.\n" +
-            "3. Ajouter le riz et remuer 1-2 min jusqu’à ce qu’il devienne translucide.\n" +
-            "4. Verser le bouillon chaud louche par louche, en remuant constamment jusqu’à absorption.\n" +
-            "5. Lorsque le riz est crémeux et cuit, incorporer le parmesan.\n" +
-            "6. Ajuster sel et poivre et servir chaud."
+            "1. Chauffer le bouillon de légumes dans une casserole et le maintenir bien chaud.\n" +
+            "2. Émincer l’oignon, couper la carotte, le poivron et la courgette en petits dés.\n" +
+            "3. Faire chauffer l’huile d’olive dans une grande poêle et faire revenir l’oignon 2 à 3 minutes.\n" +
+            "4. Ajouter la carotte et le poivron, puis cuire 3 à 4 minutes à feu moyen.\n" +
+            "5. Incorporer le riz et mélanger 1 à 2 minutes pour bien enrober les grains.\n" +
+            "6. Verser une louche de bouillon chaud et remuer jusqu’à absorption.\n" +
+            "7. Répéter l’opération louche par louche pendant 18 à 20 minutes.\n" +
+            "8. Ajouter la courgette et les petits pois à mi-cuisson.\n" +
+            "9. Retirer du feu, incorporer le parmesan et mélanger délicatement.\n" +
+            "10. Assaisonner avec sel et poivre et servir immédiatement."
     },
+
     en: {
-        title: "Vegetable Risotto (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 knife", "1 cutting board"],
+        title: "Vegetable Risotto",
+        equipment: [
+            "1 heavy-bottomed pan",
+            "1 frying pan",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 ladle"
+        ],
         ingredients: [
-            "200 g arborio rice",
-            "1 zucchini, diced",
-            "1 carrot, diced",
+            "200 g Arborio rice",
+            "1 zucchini, finely diced",
+            "1 carrot, finely diced",
             "100 g green peas",
-            "1 red pepper, diced",
-            "1 chopped onion",
-            "750 ml vegetable broth",
-            "50 g grated parmesan",
-            "2 tablespoons olive oil",
+            "1 red bell pepper, diced",
+            "1 medium onion, finely chopped",
+            "750 ml hot vegetable broth",
+            "2 tablespoons olive oil (30 ml)",
+            "50 g grated Parmesan",
             "Salt and pepper to taste"
         ],
         preparation:
-            "1. Heat oil in a pan, add onion, carrot and red pepper, sauté 3-4 min.\n" +
-            "2. Add zucchini and peas, cook 2-3 min.\n" +
-            "3. Add rice and stir 1-2 min until translucent.\n" +
-            "4. Pour hot broth ladle by ladle, stirring constantly until absorbed.\n" +
-            "5. When rice is creamy and cooked, stir in parmesan.\n" +
-            "6. Adjust salt and pepper and serve hot."
+            "1. Heat the vegetable broth in a saucepan and keep it hot.\n" +
+            "2. Finely chop the onion and dice the vegetables.\n" +
+            "3. Heat olive oil in a large pan and sauté the onion for 2–3 minutes.\n" +
+            "4. Add carrot and red pepper, cook for 3–4 minutes.\n" +
+            "5. Add the rice and stir for 1–2 minutes to coat.\n" +
+            "6. Add hot broth one ladle at a time, stirring until absorbed.\n" +
+            "7. Repeat for about 18–20 minutes.\n" +
+            "8. Add zucchini and peas halfway through cooking.\n" +
+            "9. Remove from heat and stir in Parmesan.\n" +
+            "10. Season with salt and pepper and serve immediately."
     },
+
     nl: {
-        title: "Risotto met groenten (voor 4 personen)",
-        equipment: ["1 pan", "1 braadpan", "1 houten lepel", "1 mes", "1 snijplank"],
+        title: "Risotto met groenten",
+        equipment: [
+            "1 pan met dikke bodem",
+            "1 koekenpan",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 soeplepel"
+        ],
         ingredients: [
-            "200 g arborio rijst",
-            "1 courgette, in blokjes",
-            "1 wortel, in blokjes",
+            "200 g Arborio rijst",
+            "1 courgette, in kleine blokjes",
+            "1 wortel, in kleine blokjes",
             "100 g doperwten",
             "1 rode paprika, in blokjes",
-            "1 ui, gehakt",
-            "750 ml groentebouillon",
+            "1 middelgrote ui, fijngehakt",
+            "750 ml hete groentebouillon",
+            "2 eetlepels olijfolie (30 ml)",
             "50 g geraspte Parmezaanse kaas",
-            "2 eetlepels olijfolie",
             "Zout en peper naar smaak"
         ],
         preparation:
-            "1. Verhit olie in een pan, voeg ui, wortel en paprika toe, bak 3-4 min.\n" +
-            "2. Voeg courgette en doperwten toe, bak 2-3 min.\n" +
-            "3. Voeg rijst toe en roer 1-2 min tot glazig.\n" +
-            "4. Voeg warme bouillon lepel voor lepel toe, voortdurend roeren tot opgenomen.\n" +
-            "5. Wanneer de rijst romig en gaar is, Parmezaanse kaas erdoor mengen.\n" +
-            "6. Breng op smaak met zout en peper en serveer warm."
+            "1. Verwarm de groentebouillon en houd warm.\n" +
+            "2. Snijd alle groenten fijn.\n" +
+            "3. Verhit olijfolie in een grote pan en fruit de ui 2–3 minuten.\n" +
+            "4. Voeg wortel en paprika toe en bak 3–4 minuten.\n" +
+            "5. Voeg de rijst toe en roer 1–2 minuten.\n" +
+            "6. Voeg telkens een soeplepel bouillon toe en roer tot opgenomen.\n" +
+            "7. Herhaal dit 18–20 minuten tot de risotto romig is.\n" +
+            "8. Voeg courgette en doperwten halverwege toe.\n" +
+            "9. Haal van het vuur en meng de Parmezaanse kaas erdoor.\n" +
+            "10. Breng op smaak met zout en peper en serveer direct."
     },
+
     ar: {
-        title: "ريزوتو الخضار (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "سكين", "لوح تقطيع"],
+        title: "ريزوتو بالخضار",
+        equipment: [
+            "قدر سميك القاعدة",
+            "مقلاة",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "مغرفة"
+        ],
         ingredients: [
             "200 غ أرز أربوريو",
-            "1 كوسة مقطعة مكعبات",
-            "1 جزرة مقطعة مكعبات",
-            "100 غ بازلاء خضراء",
+            "1 كوسة مقطعة مكعبات صغيرة",
+            "1 جزرة مقطعة مكعبات صغيرة",
+            "100 غ بازلاء",
             "1 فلفل أحمر مقطع مكعبات",
-            "1 بصلة مفرومة",
-            "750 مل مرق خضار",
+            "1 بصلة متوسطة مفرومة",
+            "750 مل مرق خضار ساخن",
+            "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "50 غ جبن بارميزان مبشور",
-            "2 ملاعق كبيرة زيت زيتون",
             "ملح وفلفل حسب الرغبة"
         ],
         preparation:
-            "1. سخّن الزيت في مقلاة، أضف البصل والجزر والفلفل، قلب 3-4 دقائق.\n" +
-            "2. أضف الكوسة والبازلاء، اطبخ 2-3 دقائق.\n" +
-            "3. أضف الأرز وحرك 1-2 دقيقة حتى يصبح شفافاً.\n" +
-            "4. أضف المرق الساخن ملعقة تلو الأخرى مع التحريك المستمر حتى يمتص.\n" +
-            "5. عندما يصبح الأرز كريميًا وناضجًا، أضف جبن البارميزان.\n" +
-            "6. اضبط الملح والفلفل وقدّم ساخناً."
+            "1. سخّن مرق الخضار واحتفظ به ساخناً.\n" +
+            "2. قطّع جميع الخضار إلى قطع صغيرة.\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة وقلّي البصل 2–3 دقائق.\n" +
+            "4. أضف الجزر والفلفل واطبخ 3–4 دقائق.\n" +
+            "5. أضف الأرز وحرّك 1–2 دقيقة.\n" +
+            "6. أضف المرق تدريجياً مغرفة بعد مغرفة مع التحريك.\n" +
+            "7. كرر العملية لمدة 18–20 دقيقة حتى يصبح القوام كريميًا.\n" +
+            "8. أضف الكوسة والبازلاء في منتصف الطهي.\n" +
+            "9. ارفع عن النار وأضف جبن البارميزان.\n" +
+            "10. تبّل بالملح والفلفل وقدّم فوراً."
     }
 };
 recipesData.plat.gnocchiTomateFromage = {
     country: "italie",
     image: "images/gnocchi-tomate-fromage.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Gnocchis à la sauce tomate et fromage (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 cuillère en bois", "1 passoire", "1 couteau", "1 planche à découper"],
+        title: "Gnocchis à la sauce tomate et fromage",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 couteau",
+            "1 planche à découper",
+            "1 plat à gratin"
+        ],
         ingredients: [
             "500 g de gnocchis",
             "400 g de tomates concassées",
             "2 gousses d’ail hachées",
             "150 g de mozzarella râpée",
             "50 g de parmesan râpé",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre et basilic frais"
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "Quelques feuilles de basilic frais",
+            "Sel et poivre selon goût"
         ],
         preparation:
-            "1. Cuire les gnocchis dans de l’eau bouillante salée jusqu’à ce qu’ils remontent à la surface, égoutter.\n" +
-            "2. Dans une poêle, chauffer l’huile, ajouter l’ail et faire revenir 1-2 min.\n" +
-            "3. Ajouter les tomates, sel et poivre, laisser mijoter 10 min.\n" +
-            "4. Mélanger les gnocchis avec la sauce.\n" +
-            "5. Ajouter mozzarella et parmesan, bien mélanger.\n" +
-            "6. Verser dans un plat à gratin et cuire 10-15 min au four à 200°C jusqu’à ce que le dessus soit doré.\n" +
-            "7. Servir chaud, saupoudré de basilic frais."
+            "1. Porter une grande casserole d’eau salée à ébullition.\n" +
+            "2. Cuire les gnocchis jusqu’à ce qu’ils remontent à la surface, puis égoutter.\n" +
+            "3. Dans une poêle, chauffer l’huile d’olive et faire revenir l’ail 1 à 2 minutes.\n" +
+            "4. Ajouter les tomates concassées, saler, poivrer et laisser mijoter 10 minutes.\n" +
+            "5. Incorporer les gnocchis à la sauce et mélanger délicatement.\n" +
+            "6. Ajouter la mozzarella et le parmesan.\n" +
+            "7. Transférer dans un plat à gratin.\n" +
+            "8. Enfourner à 200°C pendant 10 à 15 minutes jusqu’à ce que le dessus soit doré.\n" +
+            "9. Servir chaud, garni de basilic frais.\n"
     },
+
     en: {
-        title: "Gnocchi with Tomato and Cheese Sauce (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 colander", "1 knife", "1 cutting board"],
+        title: "Gnocchi with Tomato and Cheese Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 wooden spoon",
+            "1 colander",
+            "1 knife",
+            "1 cutting board",
+            "1 baking dish"
+        ],
         ingredients: [
             "500 g gnocchi",
             "400 g chopped tomatoes",
-            "2 garlic cloves, chopped",
+            "2 garlic cloves, minced",
             "150 g grated mozzarella",
             "50 g grated parmesan",
-            "2 tablespoons olive oil",
-            "Salt, pepper and fresh basil"
+            "2 tablespoons olive oil (30 ml)",
+            "Fresh basil leaves",
+            "Salt and pepper to taste"
         ],
         preparation:
-            "1. Cook gnocchi in salted boiling water until they float, drain.\n" +
-            "2. In a pan, heat oil, add garlic, sauté 1-2 min.\n" +
-            "3. Add tomatoes, salt and pepper, simmer 10 min.\n" +
-            "4. Mix gnocchi with sauce.\n" +
-            "5. Add mozzarella and parmesan, mix well.\n" +
-            "6. Transfer to a baking dish and bake 10-15 min at 200°C until golden on top.\n" +
-            "7. Serve hot, sprinkled with fresh basil."
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook gnocchi until they float, then drain.\n" +
+            "3. Heat olive oil in a pan and sauté garlic for 1–2 minutes.\n" +
+            "4. Add chopped tomatoes, season, and simmer for 10 minutes.\n" +
+            "5. Add gnocchi to the sauce and mix gently.\n" +
+            "6. Stir in mozzarella and parmesan.\n" +
+            "7. Transfer to a baking dish.\n" +
+            "8. Bake at 200°C for 10–15 minutes until golden.\n" +
+            "9. Serve hot with fresh basil.\n"
     },
+
     nl: {
-        title: "Gnocchi met tomatensaus en kaas (voor 4 personen)",
-        equipment: ["1 pan", "1 kookpot", "1 houten lepel", "1 vergiet", "1 mes", "1 snijplank"],
+        title: "Gnocchi met tomatensaus en kaas",
+        equipment: [
+            "1 kookpot",
+            "1 pan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 mes",
+            "1 snijplank",
+            "1 ovenschaal"
+        ],
         ingredients: [
             "500 g gnocchi",
             "400 g tomatenblokjes",
-            "2 teentjes knoflook, gehakt",
+            "2 teentjes knoflook, fijngehakt",
             "150 g geraspte mozzarella",
             "50 g geraspte Parmezaanse kaas",
-            "2 eetlepels olijfolie",
-            "Zout, peper en verse basilicum"
+            "2 eetlepels olijfolie (30 ml)",
+            "Verse basilicum",
+            "Zout en peper naar smaak"
         ],
         preparation:
-            "1. Kook gnocchi in gezouten kokend water tot ze boven komen, giet af.\n" +
-            "2. Verhit olie in een pan, voeg knoflook toe, bak 1-2 min.\n" +
-            "3. Voeg tomaten, zout en peper toe, laat 10 min sudderen.\n" +
-            "4. Meng gnocchi met de saus.\n" +
-            "5. Voeg mozzarella en Parmezaan toe, goed mengen.\n" +
-            "6. Doe in een ovenschaal en bak 10-15 min op 200°C tot goudbruin.\n" +
-            "7. Serveer warm, bestrooid met verse basilicum."
+            "1. Breng een grote pan gezouten water aan de kook.\n" +
+            "2. Kook de gnocchi tot ze boven komen drijven en giet af.\n" +
+            "3. Verhit olijfolie in een pan en bak de knoflook 1–2 minuten.\n" +
+            "4. Voeg tomaten toe, kruid en laat 10 minuten sudderen.\n" +
+            "5. Meng de gnocchi door de saus.\n" +
+            "6. Voeg mozzarella en Parmezaan toe.\n" +
+            "7. Doe alles in een ovenschaal.\n" +
+            "8. Bak 10–15 minuten op 200°C tot goudbruin.\n" +
+            "9. Serveer warm met verse basilicum.\n"
     },
+
     ar: {
-        title: "جنوتشي بصلصة الطماطم والجبن (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "مصفاة", "سكين", "لوح تقطيع"],
+        title: "جنوتشي بصلصة الطماطم والجبن",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع",
+            "صينية فرن"
+        ],
         ingredients: [
             "500 غ جنوتشي",
             "400 غ طماطم مفرومة",
             "2 فص ثوم مفروم",
-            "150 غ موزاريلا مبشور",
+            "150 غ موزاريلا مبشورة",
             "50 غ جبن بارميزان مبشور",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل وريحان طازج"
+            "2 ملعقة كبيرة زيت زيتون (30 مل)",
+            "ريحان طازج",
+            "ملح وفلفل حسب الرغبة"
         ],
         preparation:
-            "1. اطبخ الجنوتشي في ماء مغلي مملح حتى يطفو على السطح، صفيه.\n" +
-            "2. في مقلاة، سخن الزيت، أضف الثوم، قلب 1-2 دقيقة.\n" +
-            "3. أضف الطماطم، الملح والفلفل، اتركها تغلي 10 دقائق.\n" +
-            "4. اخلط الجنوتشي مع الصلصة.\n" +
-            "5. أضف الموزاريلا والبارميزان، اخلط جيداً.\n" +
-            "6. ضع في صينية خبز واخبز 10-15 دقيقة على 200°م حتى يصبح الوجه ذهبي.\n" +
-            "7. قدّم ساخناً ورش الريحان الطازج."
+            "1. اغْلِ قدراً كبيراً من الماء المملح.\n" +
+            "2. اطبخ الجنوتشي حتى تطفو ثم صفِّها.\n" +
+            "3. سخّن زيت الزيتون في مقلاة وقلِّ الثوم 1–2 دقيقة.\n" +
+            "4. أضف الطماطم وتبّل واتركها تغلي 10 دقائق.\n" +
+            "5. أضف الجنوتشي إلى الصلصة وحرّك برفق.\n" +
+            "6. أضف الموزاريلا والبارميزان.\n" +
+            "7. انقل الخليط إلى صينية فرن.\n" +
+            "8. اخبز على 200°م لمدة 10–15 دقيقة حتى يتحمّر الوجه.\n" +
+            "9. قدّم ساخناً مع الريحان الطازج.\n"
     }
 };
 recipesData.plat.gnocchiPouletCreme = {
     country: "italie",
     image: "images/gnocchi-poulet-creme.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Gnocchis au poulet et sauce crémeuse (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 cuillère en bois", "1 passoire", "1 couteau", "1 planche à découper"],
+        title: "Gnocchis au poulet et sauce crémeuse",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 couteau",
+            "1 planche à découper",
+            "1 plat à gratin"
+        ],
         ingredients: [
             "500 g de gnocchis",
             "200 g de poulet cuit émincé",
             "150 ml de crème fraîche",
             "50 g de parmesan râpé",
             "1 oignon haché",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre et herbes italiennes"
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "Herbes italiennes",
+            "Sel et poivre selon goût"
         ],
         preparation:
-            "1. Cuire les gnocchis dans de l’eau bouillante salée jusqu’à ce qu’ils remontent, égoutter.\n" +
-            "2. Dans une poêle, chauffer l’huile, ajouter l’oignon et faire revenir 2-3 min.\n" +
-            "3. Ajouter le poulet et la crème, mélanger et cuire 5 min.\n" +
-            "4. Ajouter les gnocchis, mélanger pour bien enrober de sauce.\n" +
-            "5. Incorporer le parmesan, assaisonner sel et poivre.\n" +
-            "6. Verser dans un plat à gratin et cuire 10 min au four à 200°C pour gratiner légèrement.\n" +
-            "7. Servir chaud."
+            "1. Porter une grande casserole d’eau salée à ébullition.\n" +
+            "2. Cuire les gnocchis jusqu’à ce qu’ils remontent à la surface, puis égoutter.\n" +
+            "3. Dans une poêle, chauffer l’huile d’olive et faire revenir l’oignon 2 à 3 minutes.\n" +
+            "4. Ajouter le poulet émincé, puis verser la crème fraîche.\n" +
+            "5. Laisser mijoter 5 minutes à feu doux.\n" +
+            "6. Ajouter les gnocchis et mélanger pour bien les enrober de sauce.\n" +
+            "7. Incorporer le parmesan et les herbes italiennes.\n" +
+            "8. Rectifier l’assaisonnement.\n" +
+            "9. Transférer dans un plat à gratin et enfourner à 200°C pendant 10 minutes.\n" +
+            "10. Servir bien chaud.\n"
     },
+
     en: {
-        title: "Gnocchi with Chicken and Cream Sauce (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 colander", "1 knife", "1 cutting board"],
+        title: "Gnocchi with Chicken and Cream Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 wooden spoon",
+            "1 colander",
+            "1 knife",
+            "1 cutting board",
+            "1 baking dish"
+        ],
         ingredients: [
             "500 g gnocchi",
-            "200 g cooked sliced chicken",
+            "200 g cooked chicken, sliced",
             "150 ml fresh cream",
             "50 g grated parmesan",
             "1 chopped onion",
-            "2 tablespoons olive oil",
-            "Salt, pepper and Italian herbs"
+            "2 tablespoons olive oil (30 ml)",
+            "Italian herbs",
+            "Salt and pepper to taste"
         ],
         preparation:
-            "1. Cook gnocchi in salted boiling water until they float, drain.\n" +
-            "2. In a pan, heat oil, add onion and sauté 2-3 min.\n" +
-            "3. Add chicken and cream, cook 5 min.\n" +
-            "4. Add gnocchi, mix well to coat with sauce.\n" +
-            "5. Stir in parmesan, season with salt and pepper.\n" +
-            "6. Transfer to a baking dish and bake 10 min at 200°C to lightly gratinate.\n" +
-            "7. Serve hot."
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook gnocchi until they float, then drain.\n" +
+            "3. Heat olive oil in a pan and sauté onion for 2–3 minutes.\n" +
+            "4. Add chicken and pour in the cream.\n" +
+            "5. Simmer gently for 5 minutes.\n" +
+            "6. Add gnocchi and mix to coat with sauce.\n" +
+            "7. Stir in parmesan and Italian herbs.\n" +
+            "8. Adjust seasoning.\n" +
+            "9. Transfer to a baking dish and bake at 200°C for 10 minutes.\n" +
+            "10. Serve hot.\n"
     },
+
     nl: {
-        title: "Gnocchi met kip en roomsaus (voor 4 personen)",
-        equipment: ["1 pan", "1 kookpot", "1 houten lepel", "1 vergiet", "1 mes", "1 snijplank"],
+        title: "Gnocchi met kip en roomsaus",
+        equipment: [
+            "1 kookpot",
+            "1 pan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 mes",
+            "1 snijplank",
+            "1 ovenschaal"
+        ],
         ingredients: [
             "500 g gnocchi",
-            "200 g gekookte kip in plakjes",
+            "200 g gekookte kip, in reepjes",
             "150 ml verse room",
             "50 g geraspte Parmezaanse kaas",
-            "1 ui, gehakt",
-            "2 eetlepels olijfolie",
-            "Zout, peper en Italiaanse kruiden"
+            "1 ui, fijngehakt",
+            "2 eetlepels olijfolie (30 ml)",
+            "Italiaanse kruiden",
+            "Zout en peper naar smaak"
         ],
         preparation:
-            "1. Kook gnocchi in gezouten kokend water tot ze boven komen, giet af.\n" +
-            "2. Verhit olie in een pan, voeg ui toe en bak 2-3 min.\n" +
-            "3. Voeg kip en room toe, kook 5 min.\n" +
-            "4. Voeg gnocchi toe, meng goed zodat alles bedekt is met saus.\n" +
-            "5. Voeg Parmezaanse kaas toe, breng op smaak met zout en peper.\n" +
-            "6. Doe in een ovenschaal en bak 10 min op 200°C voor een lichte gratin.\n" +
-            "7. Serveer warm."
+            "1. Breng een grote pan gezouten water aan de kook.\n" +
+            "2. Kook de gnocchi tot ze boven komen drijven en giet af.\n" +
+            "3. Verhit olijfolie in een pan en bak de ui 2–3 minuten.\n" +
+            "4. Voeg kip en room toe en laat 5 minuten zachtjes koken.\n" +
+            "5. Meng de gnocchi door de saus.\n" +
+            "6. Voeg Parmezaanse kaas en kruiden toe.\n" +
+            "7. Breng op smaak met zout en peper.\n" +
+            "8. Doe alles in een ovenschaal.\n" +
+            "9. Bak 10 minuten op 200°C.\n" +
+            "10. Serveer warm.\n"
     },
+
     ar: {
-        title: "جنوتشي بالدجاج والصلصة الكريمية (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "مصفاة", "سكين", "لوح تقطيع"],
+        title: "جنوتشي بالدجاج والصلصة الكريمية",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع",
+            "صينية فرن"
+        ],
         ingredients: [
             "500 غ جنوتشي",
-            "200 غ دجاج مطهو ومقطع شرائح",
+            "200 غ دجاج مطهو ومقطع",
             "150 مل كريمة طازجة",
             "50 غ جبن بارميزان مبشور",
             "1 بصلة مفرومة",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل وأعشاب إيطالية"
+            "2 ملعقة كبيرة زيت زيتون (30 مل)",
+            "أعشاب إيطالية",
+            "ملح وفلفل حسب الرغبة"
         ],
         preparation:
-            "1. اطبخ الجنوتشي في ماء مغلي مملح حتى يطفو، صفيه.\n" +
-            "2. في مقلاة، سخن الزيت، أضف البصل وقلّب 2-3 دقائق.\n" +
-            "3. أضف الدجاج والكريمة، اطبخ 5 دقائق.\n" +
-            "4. أضف الجنوتشي، اخلط جيداً لتغليفها بالصلصة.\n" +
-            "5. أضف البارميزان، تبّل بالملح والفلفل.\n" +
-            "6. ضع في صينية خبز واخبز 10 دقائق على 200°م حتى يتحمر الوجه قليلاً.\n" +
-            "7. قدّم ساخناً."
+            "1. اغْلِ قدراً كبيراً من الماء المملح.\n" +
+            "2. اطبخ الجنوتشي حتى تطفو ثم صفِّها.\n" +
+            "3. سخّن زيت الزيتون في مقلاة وقلِّ البصل 2–3 دقائق.\n" +
+            "4. أضف الدجاج والكريمة واتركها تطهى 5 دقائق.\n" +
+            "5. أضف الجنوتشي وحرّك جيداً.\n" +
+            "6. أضف جبن البارميزان والأعشاب.\n" +
+            "7. عدّل التتبيل.\n" +
+            "8. انقل إلى صينية فرن.\n" +
+            "9. اخبز 10 دقائق على 200°م.\n" +
+            "10. قدّم ساخناً.\n"
     }
 };
 recipesData.plat.cannellonisLegumes = {
     country: "italie",
     image: "images/cannellonis-legumes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 30,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Cannellonis aux légumes et sauce tomate (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 plat à gratin", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
+        title: "Cannellonis aux légumes et sauce tomate",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 plat à gratin",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
             "12 tubes de cannellonis",
             "1 courgette coupée en dés",
@@ -19674,42 +23250,68 @@ recipesData.plat.cannellonisLegumes = {
         ],
         preparation:
             "1. Préchauffer le four à 200°C.\n" +
-            "2. Chauffer l’huile dans une poêle, ajouter l’oignon, la carotte, le poivron et la courgette, cuire 5 min.\n" +
-            "3. Ajouter les petits pois, sel, poivre et herbes, cuire 2-3 min.\n" +
-            "4. Farcir les tubes de cannellonis avec les légumes.\n" +
-            "5. Verser un peu de sauce tomate au fond du plat à gratin, disposer les cannellonis.\n" +
-            "6. Recouvrir avec le reste de sauce tomate et saupoudrer de parmesan.\n" +
-            "7. Cuire au four 25-30 min jusqu’à ce que le dessus soit doré.\n" +
-            "8. Servir chaud."
+            "2. Chauffer l’huile d’olive dans une poêle.\n" +
+            "3. Ajouter l’oignon, la carotte, le poivron et la courgette.\n" +
+            "4. Faire revenir 5 minutes à feu moyen.\n" +
+            "5. Ajouter les petits pois, le sel, le poivre et les herbes italiennes.\n" +
+            "6. Cuire encore 2 à 3 minutes puis retirer du feu.\n" +
+            "7. Farcir les tubes de cannellonis avec la préparation de légumes.\n" +
+            "8. Verser un peu de sauce tomate au fond du plat à gratin.\n" +
+            "9. Disposer les cannellonis dans le plat.\n" +
+            "10. Recouvrir avec le reste de sauce tomate.\n" +
+            "11. Saupoudrer de parmesan râpé.\n" +
+            "12. Enfourner pour 25 à 30 minutes jusqu’à ce que le dessus soit doré.\n" +
+            "13. Servir chaud."
     },
+
     en: {
-        title: "Vegetable Cannelloni with Tomato Sauce (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 baking dish", "1 wooden spoon", "1 knife", "1 cutting board"],
+        title: "Vegetable Cannelloni with Tomato Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 baking dish",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "12 cannelloni tubes",
             "1 zucchini, diced",
             "1 carrot, diced",
-            "1 red pepper, diced",
+            "1 red bell pepper, diced",
             "100 g green peas",
-            "1 chopped onion",
+            "1 onion, chopped",
             "400 g chopped tomatoes",
             "50 g grated parmesan",
             "2 tablespoons olive oil",
             "Salt, pepper and Italian herbs"
         ],
         preparation:
-            "1. Preheat oven to 200°C.\n" +
-            "2. Heat oil in a pan, add onion, carrot, pepper and zucchini, cook 5 min.\n" +
-            "3. Add peas, salt, pepper and herbs, cook 2-3 min.\n" +
-            "4. Fill cannelloni tubes with vegetables.\n" +
-            "5. Pour some tomato sauce in the baking dish, place cannelloni.\n" +
-            "6. Cover with remaining sauce and sprinkle with parmesan.\n" +
-            "7. Bake 25-30 min until golden on top.\n" +
-            "8. Serve hot."
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Heat olive oil in a pan.\n" +
+            "3. Add onion, carrot, bell pepper and zucchini.\n" +
+            "4. Sauté for 5 minutes over medium heat.\n" +
+            "5. Add peas, salt, pepper and Italian herbs.\n" +
+            "6. Cook for another 2 to 3 minutes, then remove from heat.\n" +
+            "7. Fill the cannelloni tubes with the vegetable mixture.\n" +
+            "8. Pour a small amount of tomato sauce into the baking dish.\n" +
+            "9. Arrange the cannelloni in the dish.\n" +
+            "10. Cover with the remaining tomato sauce.\n" +
+            "11. Sprinkle with grated parmesan.\n" +
+            "12. Bake for 25 to 30 minutes until golden on top.\n" +
+            "13. Serve hot."
     },
+
     nl: {
-        title: "Cannelloni met groenten en tomatensaus (voor 4 personen)",
-        equipment: ["1 pan", "1 kookpot", "1 ovenschaal", "1 houten lepel", "1 mes", "1 snijplank"],
+        title: "Cannelloni met groenten en tomatensaus",
+        equipment: [
+            "1 pan",
+            "1 kookpot",
+            "1 ovenschaal",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
             "12 cannelloni buisjes",
             "1 courgette, in blokjes",
@@ -19724,17 +23326,30 @@ recipesData.plat.cannellonisLegumes = {
         ],
         preparation:
             "1. Verwarm de oven voor op 200°C.\n" +
-            "2. Verhit olie in een pan, voeg ui, wortel, paprika en courgette toe, bak 5 min.\n" +
-            "3. Voeg doperwten, zout, peper en kruiden toe, bak 2-3 min.\n" +
-            "4. Vul de cannelloni met groenten.\n" +
-            "5. Giet wat tomatensaus in de ovenschaal, leg de cannelloni erin.\n" +
-            "6. Bedek met de resterende saus en bestrooi met Parmezaanse kaas.\n" +
-            "7. Bak 25-30 min tot goudbruin.\n" +
-            "8. Serveer warm."
+            "2. Verhit olijfolie in een pan.\n" +
+            "3. Voeg ui, wortel, paprika en courgette toe.\n" +
+            "4. Bak 5 minuten op middelhoog vuur.\n" +
+            "5. Voeg doperwten, zout, peper en kruiden toe.\n" +
+            "6. Bak nog 2 à 3 minuten en haal van het vuur.\n" +
+            "7. Vul de cannelloni met het groentemengsel.\n" +
+            "8. Giet een beetje tomatensaus in de ovenschaal.\n" +
+            "9. Leg de cannelloni in de schaal.\n" +
+            "10. Bedek met de resterende tomatensaus.\n" +
+            "11. Bestrooi met Parmezaanse kaas.\n" +
+            "12. Bak 25 tot 30 minuten tot goudbruin.\n" +
+            "13. Serveer warm."
     },
+
     ar: {
-        title: "كانيلوني بالخضار وصلصة الطماطم (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "صينية خبز", "ملعقة خشبية", "سكين", "لوح تقطيع"],
+        title: "كانيلوني بالخضار وصلصة الطماطم",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "صينية خبز",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
             "12 أنبوب كانيلوني",
             "1 كوسة مقطعة مكعبات",
@@ -19744,20 +23359,41 @@ recipesData.plat.cannellonisLegumes = {
             "1 بصلة مفرومة",
             "400 غ طماطم مفرومة",
             "50 غ جبن بارميزان مبشور",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 ملعقة كبيرة زيت زيتون",
             "ملح، فلفل وأعشاب إيطالية"
         ],
         preparation:
             "1. سخّن الفرن على 200°م.\n" +
-            "2. سخّن الزيت في مقلاة، أضف البصل والجزر والفلفل والكوسة، اطبخ 5 دقائق.\n" +
-            "3. أضف البازلاء، الملح، الفلفل والأعشاب، اطبخ 2-3 دقائق.\n" +
-            "4. احشو أنابيب الكانيلوني بالخضار.\n" +
-            "5. ضع بعض صلصة الطماطم في صينية الخبز، رصّ الكانيلوني.\n" +
-            "6. غطّ بالباقي من الصلصة ورشّ بالبارميزان.\n" +
-            "7. اخبز 25-30 دقيقة حتى يصبح الوجه ذهبي.\n" +
-            "8. قدّم ساخناً."
+            "2. سخّن زيت الزيتون في مقلاة.\n" +
+            "3. أضف البصل والجزر والفلفل والكوسة.\n" +
+            "4. اطبخ لمدة 5 دقائق على نار متوسطة.\n" +
+            "5. أضف البازلاء والملح والفلفل والأعشاب.\n" +
+            "6. اطبخ 2 إلى 3 دقائق إضافية ثم ارفع عن النار.\n" +
+            "7. احشو أنابيب الكانيلوني بخليط الخضار.\n" +
+            "8. ضع قليلاً من صلصة الطماطم في صينية الخبز.\n" +
+            "9. رصّ الكانيلوني في الصينية.\n" +
+            "10. غطّها ببقية صلصة الطماطم.\n" +
+            "11. رشّ جبن البارميزان فوقها.\n" +
+            "12. اخبز لمدة 25 إلى 30 دقيقة حتى يتحمّر السطح.\n" +
+            "13. قدّم ساخناً."
     }
 };
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 recipesData.plat.cannellonisPouletFromage = {
     country: "italie",
     image: "images/cannellonis-poulet-fromage.jpg",
@@ -54233,13 +57869,28 @@ const metaDiv = document.getElementById("recipeMeta");
 if (recipesData[type][recipeKey].meta) {
     const meta = recipesData[type][recipeKey].meta;
     const t = translations[currentLang];
+ let marinationHTML = "";
 
-    metaDiv.innerHTML = `
-        <span class="meta-item">👥 ${t.servings} : ${meta.servings}</span>
-        <span class="meta-item">⏱ ${t.prep_time} : ${meta.prepTime}</span>
-        <span class="meta-item">🔥 ${t.cook_time} : ${meta.cookTime}</span>
-        <span class="meta-item">⭐ ${t.difficulty} : ${meta.difficulty}</span>
+if (meta.marinationTime !== undefined) {
+    marinationHTML = `
+        <span class="meta-item">
+            🧂 ${t.marination_time} : ${meta.marinationTime} ${t.minutes}
+        </span>
     `;
+}
+
+metaDiv.innerHTML = `
+ <span class="meta-item">
+    👥 ${t.servings} : ${meta.servings}
+    ${meta.servingsUnit ? " " + t.servings_units[meta.servingsUnit] : ""}
+</span>
+
+
+    <span class="meta-item">⏱ ${t.prep_time} : ${meta.prepTime} ${t.minutes}</span>
+    ${marinationHTML}
+    <span class="meta-item">🔥 ${t.cook_time} : ${meta.cookTime} ${t.minutes}</span>
+    <span class="meta-item">⭐ ${t.difficulty} : ${t.difficulty_levels[meta.difficulty]}</span>
+`;  
 } else {
     metaDiv.innerHTML = "";
 }
