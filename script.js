@@ -23378,6 +23378,935 @@ recipesData.plat.cannellonisLegumes = {
             "13. قدّم ساخناً."
     }
 };
+recipesData.plat.cannellonisPouletFromage = {
+    country: "italie",
+    image: "images/cannellonis-poulet-fromage.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 30,
+        difficulty: "medium"
+    },
+
+    fr: {
+        title: "Cannellonis au poulet et fromage",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 plat à gratin",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "12 tubes de cannellonis",
+            "200 g de poulet cuit émincé",
+            "150 g de ricotta",
+            "50 g de parmesan râpé",
+            "400 g de sauce tomate",
+            "1 oignon finement haché",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel, poivre et herbes italiennes"
+        ],
+        preparation:
+            "1. Préchauffer le four à 200°C.\n" +
+            "2. Chauffer l’huile d’olive dans une poêle et faire revenir l’oignon 2 à 3 minutes.\n" +
+            "3. Dans un saladier, mélanger le poulet, la ricotta, l’oignon, les herbes, le sel et le poivre.\n" +
+            "4. Farcir les tubes de cannellonis avec cette préparation.\n" +
+            "5. Verser un peu de sauce tomate au fond du plat à gratin.\n" +
+            "6. Disposer les cannellonis dans le plat.\n" +
+            "7. Recouvrir avec le reste de sauce tomate et saupoudrer de parmesan.\n" +
+            "8. Enfourner pour 25 à 30 minutes jusqu’à ce que le dessus soit doré.\n" +
+            "9. Servir chaud."
+    },
+
+    en: {
+        title: "Chicken and Cheese Cannelloni",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 baking dish",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "12 cannelloni tubes",
+            "200 g cooked shredded chicken",
+            "150 g ricotta",
+            "50 g grated parmesan",
+            "400 g tomato sauce",
+            "1 finely chopped onion",
+            "2 tablespoons olive oil",
+            "Salt, pepper and Italian herbs"
+        ],
+        preparation:
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Heat olive oil in a pan and sauté the onion for 2–3 minutes.\n" +
+            "3. In a bowl, mix chicken, ricotta, onion, herbs, salt and pepper.\n" +
+            "4. Fill the cannelloni tubes with the mixture.\n" +
+            "5. Pour a little tomato sauce into the baking dish.\n" +
+            "6. Arrange the cannelloni in the dish.\n" +
+            "7. Cover with remaining tomato sauce and sprinkle with parmesan.\n" +
+            "8. Bake for 25–30 minutes until golden.\n" +
+            "9. Serve hot."
+    },
+
+    nl: {
+        title: "Cannelloni met kip en kaas",
+        equipment: [
+            "1 pan",
+            "1 kookpot",
+            "1 ovenschaal",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "12 cannelloni buisjes",
+            "200 g gekookte kip, fijn gesneden",
+            "150 g ricotta",
+            "50 g geraspte Parmezaanse kaas",
+            "400 g tomatensaus",
+            "1 ui, fijngehakt",
+            "2 eetlepels olijfolie",
+            "Zout, peper en Italiaanse kruiden"
+        ],
+        preparation:
+            "1. Verwarm de oven voor op 200°C.\n" +
+            "2. Verhit olijfolie in een pan en fruit de ui 2–3 minuten.\n" +
+            "3. Meng kip, ricotta, ui, kruiden, zout en peper in een kom.\n" +
+            "4. Vul de cannelloni met dit mengsel.\n" +
+            "5. Giet een beetje tomatensaus in de ovenschaal.\n" +
+            "6. Leg de cannelloni in de schaal.\n" +
+            "7. Bedek met de rest van de saus en bestrooi met Parmezaanse kaas.\n" +
+            "8. Bak 25–30 minuten tot goudbruin.\n" +
+            "9. Serveer warm."
+    },
+
+    ar: {
+        title: "كانيلوني بالدجاج والجبن",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "صينية خبز",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "12 أنبوب كانيلوني",
+            "200 غ دجاج مطهو ومفروم",
+            "150 غ ريكوتا",
+            "50 غ جبن بارميزان مبشور",
+            "400 غ صلصة طماطم",
+            "1 بصلة مفرومة ناعماً",
+            "2 ملعقة كبيرة زيت زيتون",
+            "ملح، فلفل وأعشاب إيطالية"
+        ],
+        preparation:
+            "1. سخّن الفرن على 200°م.\n" +
+            "2. سخّن زيت الزيتون في مقلاة وقلِّ البصل 2–3 دقائق.\n" +
+            "3. اخلط الدجاج مع الريكوتا والبصل والأعشاب والملح والفلفل.\n" +
+            "4. احشو أنابيب الكانيلوني بالخليط.\n" +
+            "5. ضع قليلاً من صلصة الطماطم في الصينية.\n" +
+            "6. رصّ الكانيلوني في الصينية.\n" +
+            "7. غطِّ بالباقي من الصلصة ورشّ الجبن.\n" +
+            "8. اخبز 25–30 دقيقة حتى يتحمّر الوجه.\n" +
+            "9. قدّم ساخناً."
+    }
+};
+recipesData.plat.polentaLegumes = {
+    country: "italie",
+    image: "images/polenta-legumes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Polenta gratinée aux légumes",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 plat à gratin",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "200 g de polenta instantanée",
+            "800 ml d’eau",
+            "1 courgette coupée en dés",
+            "1 poivron rouge coupé en dés",
+            "100 g de champignons émincés",
+            "100 g de parmesan râpé",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel, poivre et herbes italiennes"
+        ],
+        preparation:
+            "1. Porter l’eau à ébullition avec une pincée de sel.\n" +
+            "2. Verser la polenta en pluie tout en remuant constamment.\n" +
+            "3. Cuire 5 à 7 minutes jusqu’à obtention d’une texture épaisse.\n" +
+            "4. Chauffer l’huile d’olive dans une poêle et faire revenir les légumes 5 minutes.\n" +
+            "5. Assaisonner avec sel, poivre et herbes italiennes.\n" +
+            "6. Verser la polenta dans un plat à gratin.\n" +
+            "7. Répartir les légumes sur la polenta et saupoudrer de fromage râpé.\n" +
+            "8. Enfourner à 200°C pendant 15 minutes jusqu’à ce que le dessus soit doré.\n" +
+            "9. Servir chaud."
+    },
+
+    en: {
+        title: "Gratinated Polenta with Vegetables",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 baking dish",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "200 g instant polenta",
+            "800 ml water",
+            "1 zucchini, diced",
+            "1 red bell pepper, diced",
+            "100 g sliced mushrooms",
+            "100 g grated parmesan",
+            "2 tablespoons olive oil",
+            "Salt, pepper and Italian herbs"
+        ],
+        preparation:
+            "1. Bring water to a boil with a pinch of salt.\n" +
+            "2. Gradually add the polenta while stirring constantly.\n" +
+            "3. Cook for 5–7 minutes until thickened.\n" +
+            "4. Heat olive oil in a pan and sauté the vegetables for 5 minutes.\n" +
+            "5. Season with salt, pepper and Italian herbs.\n" +
+            "6. Pour the polenta into a baking dish.\n" +
+            "7. Spread the vegetables on top and sprinkle with grated cheese.\n" +
+            "8. Bake at 200°C for 15 minutes until golden.\n" +
+            "9. Serve hot."
+    },
+
+    nl: {
+        title: "Gegratineerde polenta met groenten",
+        equipment: [
+            "1 pan",
+            "1 kookpot",
+            "1 ovenschaal",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "200 g instant polenta",
+            "800 ml water",
+            "1 courgette, in blokjes",
+            "1 rode paprika, in blokjes",
+            "100 g champignons, gesneden",
+            "100 g geraspte Parmezaanse kaas",
+            "2 eetlepels olijfolie",
+            "Zout, peper en Italiaanse kruiden"
+        ],
+        preparation:
+            "1. Breng het water aan de kook met een snufje zout.\n" +
+            "2. Voeg de polenta geleidelijk toe en blijf roeren.\n" +
+            "3. Kook 5–7 minuten tot de polenta dik wordt.\n" +
+            "4. Verhit olijfolie in een pan en bak de groenten 5 minuten.\n" +
+            "5. Breng op smaak met zout, peper en kruiden.\n" +
+            "6. Giet de polenta in een ovenschaal.\n" +
+            "7. Verdeel de groenten erover en bestrooi met kaas.\n" +
+            "8. Bak 15 minuten op 200°C tot goudbruin.\n" +
+            "9. Serveer warm."
+    },
+
+    ar: {
+        title: "بولينتا مخبوزة بالخضار",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "صينية خبز",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "200 غ بولينتا سريعة التحضير",
+            "800 مل ماء",
+            "1 كوسة مقطعة مكعبات",
+            "1 فلفل أحمر مقطع مكعبات",
+            "100 غ فطر مقطع شرائح",
+            "100 غ جبن بارميزان مبشور",
+            "2 ملعقة كبيرة زيت زيتون",
+            "ملح، فلفل وأعشاب إيطالية"
+        ],
+        preparation:
+            "1. اغلي الماء مع رشة ملح.\n" +
+            "2. أضف البولينتا تدريجياً مع التحريك المستمر.\n" +
+            "3. اطبخ لمدة 5–7 دقائق حتى تصبح سميكة.\n" +
+            "4. سخّن زيت الزيتون في مقلاة وقلّب الخضار 5 دقائق.\n" +
+            "5. تبّل بالملح والفلفل والأعشاب.\n" +
+            "6. ضع البولينتا في صينية الخبز.\n" +
+            "7. وزّع الخضار فوقها ورشّ الجبن.\n" +
+            "8. اخبز على 200°م لمدة 15 دقيقة حتى يتحمّر الوجه.\n" +
+            "9. قدّم ساخناً."
+    }
+};
+recipesData.plat.ossoBucoPoulet = {
+    country: "italie",
+    image: "images/osso-buco-poulet.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 45,
+        difficulty: "medium"
+    },
+
+    fr: {
+        title: "Osso buco de poulet aux légumes",
+        equipment: [
+            "1 cocotte ou plat allant au four",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "4 cuisses de poulet",
+            "2 carottes coupées en dés",
+            "2 branches de céleri coupées en dés",
+            "1 oignon finement haché",
+            "400 g de tomates concassées",
+            "150 ml de bouillon de volaille",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel, poivre, thym et laurier"
+        ],
+        preparation:
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Chauffer l’huile d’olive dans une poêle à feu moyen-vif.\n" +
+            "3. Faire dorer les cuisses de poulet 5 minutes de chaque côté jusqu’à obtenir une belle coloration.\n" +
+            "4. Retirer le poulet et réserver.\n" +
+            "5. Dans la même poêle, ajouter l’oignon, les carottes et le céleri.\n" +
+            "6. Faire revenir 3 à 4 minutes jusqu’à ce que les légumes commencent à s’attendrir.\n" +
+            "7. Ajouter les tomates concassées, le bouillon, le thym et le laurier.\n" +
+            "8. Mélanger et laisser frémir 5 minutes pour développer les saveurs.\n" +
+            "9. Remettre les cuisses de poulet dans la cocotte et bien les enrober de sauce.\n" +
+            "10. Couvrir et enfourner pour 40 à 45 minutes jusqu’à ce que le poulet soit très tendre.\n" +
+            "11. Retirer le couvercle les 5 dernières minutes si nécessaire pour épaissir légèrement la sauce.\n" +
+            "12. Rectifier l’assaisonnement avant de servir.\n" +
+            "13. Servir chaud accompagné de polenta ou de riz."
+    },
+
+    en: {
+        title: "Chicken Osso Buco with Vegetables",
+        equipment: [
+            "1 ovenproof pot or casserole dish",
+            "1 pan",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "4 chicken thighs",
+            "2 carrots, diced",
+            "2 celery stalks, diced",
+            "1 finely chopped onion",
+            "400 g chopped tomatoes",
+            "150 ml chicken broth",
+            "2 tablespoons olive oil",
+            "Salt, pepper, thyme and bay leaf"
+        ],
+        preparation:
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Heat olive oil in a pan over medium-high heat.\n" +
+            "3. Brown the chicken thighs for 5 minutes on each side until well colored.\n" +
+            "4. Remove the chicken and set aside.\n" +
+            "5. In the same pan, sauté onion, carrots and celery.\n" +
+            "6. Cook for 3–4 minutes until slightly softened.\n" +
+            "7. Add chopped tomatoes, broth, thyme and bay leaf.\n" +
+            "8. Stir and let simmer for 5 minutes.\n" +
+            "9. Return chicken to the pot and coat well with the sauce.\n" +
+            "10. Cover and bake for 40–45 minutes until very tender.\n" +
+            "11. Uncover during the last 5 minutes if needed to thicken the sauce.\n" +
+            "12. Adjust seasoning before serving.\n" +
+            "13. Serve hot with polenta or rice."
+    },
+
+    nl: {
+        title: "Osso buco van kip met groenten",
+        equipment: [
+            "1 stoofpan of ovenschaal",
+            "1 pan",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "4 kippendijen",
+            "2 wortels, in blokjes",
+            "2 selderijstengels, in blokjes",
+            "1 ui, fijngehakt",
+            "400 g tomatenblokjes",
+            "150 ml kippenbouillon",
+            "2 eetlepels olijfolie",
+            "Zout, peper, tijm en laurier"
+        ],
+        preparation:
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Verhit olijfolie in een pan op middelhoog vuur.\n" +
+            "3. Bak de kippendijen 5 minuten per kant tot ze mooi bruin zijn.\n" +
+            "4. Haal de kip uit de pan en zet apart.\n" +
+            "5. Bak in dezelfde pan de ui, wortel en selderij.\n" +
+            "6. Laat 3–4 minuten zacht worden.\n" +
+            "7. Voeg tomaten, bouillon, tijm en laurier toe.\n" +
+            "8. Laat 5 minuten zachtjes pruttelen.\n" +
+            "9. Leg de kip terug in de saus en meng goed.\n" +
+            "10. Dek af en bak 40–45 minuten tot de kip mals is.\n" +
+            "11. Haal het deksel er de laatste 5 minuten af indien nodig.\n" +
+            "12. Breng op smaak.\n" +
+            "13. Serveer warm met polenta of rijst."
+    },
+
+    ar: {
+        title: "أوسو بوكو بالدجاج والخضار",
+        equipment: [
+            "قدر أو صينية فرن",
+            "مقلاة",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "4 أفخاذ دجاج",
+            "2 جزرة مقطعة مكعبات",
+            "2 عود كرفس مقطع مكعبات",
+            "1 بصلة مفرومة ناعماً",
+            "400 غ طماطم مفرومة",
+            "150 مل مرق دجاج",
+            "2 ملعقة كبيرة زيت زيتون",
+            "ملح، فلفل، زعتر وورقة غار"
+        ],
+        preparation:
+            "1. سخّن الفرن على 180°م.\n" +
+            "2. سخّن زيت الزيتون في مقلاة على نار متوسطة.\n" +
+            "3. حمّر أفخاذ الدجاج 5 دقائق لكل جانب حتى تكتسب لوناً ذهبياً.\n" +
+            "4. أخرج الدجاج وضعه جانباً.\n" +
+            "5. في نفس المقلاة، قلّب البصل والجزر والكرفس.\n" +
+            "6. اطبخ 3–4 دقائق حتى تطرى الخضار قليلاً.\n" +
+            "7. أضف الطماطم والمرق والزعتر وورقة الغار.\n" +
+            "8. اترك الصلصة تغلي برفق 5 دقائق.\n" +
+            "9. أعد الدجاج إلى القدر وغطّه بالصلصة جيداً.\n" +
+            "10. غطِّ القدر واخبز 40–45 دقيقة حتى يصبح الدجاج طرياً.\n" +
+            "11. اكشف الغطاء آخر 5 دقائق إذا احتجت لتكثيف الصلصة.\n" +
+            "12. عدّل التتبيل قبل التقديم.\n" +
+            "13. قدّم ساخناً مع بولينتا أو أرز."
+    }
+};
+recipesData.plat.saltimboccaPoulet = {
+    country: "italie",
+    image: "images/saltimbocca-poulet.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Saltimbocca de poulet",
+        equipment: [
+            "1 poêle",
+            "1 plat de service",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "4 escalopes de poulet fines",
+            "4 tranches de fromage à pâte dure",
+            "8 feuilles de sauge fraîche",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel et poivre"
+        ],
+        preparation:
+            "1. Assaisonner légèrement les escalopes de poulet avec du sel et du poivre.\n" +
+            "2. Déposer une tranche de fromage sur chaque escalope.\n" +
+            "3. Ajouter deux feuilles de sauge par-dessus.\n" +
+            "4. Replier délicatement les escalopes pour maintenir la garniture à l’intérieur.\n" +
+            "5. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "6. Déposer les escalopes dans la poêle, côté replié vers le bas.\n" +
+            "7. Cuire 5 à 6 minutes de chaque côté jusqu’à obtenir une belle coloration.\n" +
+            "8. Retirer du feu et laisser reposer 2 minutes avant de servir.\n" +
+            "9. Servir chaud avec des légumes ou une purée."
+    },
+
+    en: {
+        title: "Chicken Saltimbocca",
+        equipment: [
+            "1 pan",
+            "1 serving dish",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "4 thin chicken cutlets",
+            "4 slices hard cheese",
+            "8 fresh sage leaves",
+            "2 tablespoons olive oil",
+            "Salt and pepper"
+        ],
+        preparation:
+            "1. Lightly season the chicken cutlets with salt and pepper.\n" +
+            "2. Place one slice of cheese on each cutlet.\n" +
+            "3. Add two sage leaves on top.\n" +
+            "4. Fold the cutlets gently to enclose the filling.\n" +
+            "5. Heat olive oil in a pan over medium heat.\n" +
+            "6. Place the cutlets seam-side down in the pan.\n" +
+            "7. Cook for 5–6 minutes per side until golden brown.\n" +
+            "8. Remove from heat and let rest for 2 minutes.\n" +
+            "9. Serve hot with vegetables or mashed potatoes."
+    },
+
+    nl: {
+        title: "Saltimbocca van kip",
+        equipment: [
+            "1 pan",
+            "1 serveerschaal",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "4 dunne kipschnitzels",
+            "4 plakken harde kaas",
+            "8 verse salieblaadjes",
+            "2 eetlepels olijfolie",
+            "Zout en peper"
+        ],
+        preparation:
+            "1. Kruid de kipschnitzels licht met zout en peper.\n" +
+            "2. Leg op elke schnitzel een plak kaas.\n" +
+            "3. Voeg twee salieblaadjes toe.\n" +
+            "4. Vouw de schnitzels voorzichtig dicht.\n" +
+            "5. Verhit olijfolie in een pan op middelhoog vuur.\n" +
+            "6. Leg de schnitzels met de vouw naar beneden in de pan.\n" +
+            "7. Bak 5–6 minuten per kant tot goudbruin.\n" +
+            "8. Laat 2 minuten rusten voor het serveren.\n" +
+            "9. Serveer warm met groenten of puree."
+    },
+
+    ar: {
+        title: "سالتيمبوكا بالدجاج",
+        equipment: [
+            "مقلاة",
+            "طبق تقديم",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "4 شرائح دجاج رقيقة",
+            "4 شرائح جبن صلب",
+            "8 أوراق مريمية طازجة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "1. تبّل شرائح الدجاج قليلاً بالملح والفلفل.\n" +
+            "2. ضع شريحة جبن فوق كل شريحة دجاج.\n" +
+            "3. أضف ورقتين من المريمية فوق الجبن.\n" +
+            "4. اطوِ الشرائح برفق لإغلاق الحشوة.\n" +
+            "5. سخّن زيت الزيتون في مقلاة على نار متوسطة.\n" +
+            "6. ضع الشرائح في المقلاة مع جهة الطي للأسفل.\n" +
+            "7. اطبخ 5–6 دقائق لكل جانب حتى تتحمّر.\n" +
+            "8. ارفعها واتركها ترتاح دقيقتين.\n" +
+            "9. قدّم ساخناً مع الخضار أو البطاطس المهروسة."
+    }
+};
+recipesData.plat.parmigianaAubergines = {
+    country: "italie",
+    image: "images/parmigiana-aubergines.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Parmigiana d’aubergines",
+        equipment: [
+            "1 poêle",
+            "1 plat à gratin",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "2 aubergines coupées en tranches",
+            "400 g de tomates concassées",
+            "150 g de mozzarella râpée",
+            "50 g de parmesan râpé",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel, poivre et basilic frais"
+        ],
+        preparation:
+            "1. Préchauffer le four à 200°C.\n" +
+            "2. Saler légèrement les tranches d’aubergines et les laisser reposer 10 minutes.\n" +
+            "3. Essuyer les aubergines puis les faire revenir dans l’huile d’olive 3 à 4 minutes par côté jusqu’à coloration.\n" +
+            "4. Égoutter sur du papier absorbant.\n" +
+            "5. Dans un plat à gratin, déposer une couche d’aubergines.\n" +
+            "6. Ajouter une couche de tomates concassées, un peu de mozzarella et de parmesan.\n" +
+            "7. Répéter les couches jusqu’à épuisement des ingrédients.\n" +
+            "8. Terminer par une couche de fromage.\n" +
+            "9. Enfourner pour 25 à 30 minutes jusqu’à ce que le dessus soit bien gratiné.\n" +
+            "10. Laisser reposer 5 minutes avant de servir, parsemer de basilic frais."
+    },
+
+    en: {
+        title: "Eggplant Parmigiana",
+        equipment: [
+            "1 pan",
+            "1 baking dish",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "2 eggplants, sliced",
+            "400 g chopped tomatoes",
+            "150 g grated mozzarella",
+            "50 g grated parmesan",
+            "2 tablespoons olive oil",
+            "Salt, pepper and fresh basil"
+        ],
+        preparation:
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Lightly salt the eggplant slices and let rest for 10 minutes.\n" +
+            "3. Pat dry and sauté in olive oil for 3–4 minutes per side until golden.\n" +
+            "4. Drain on paper towels.\n" +
+            "5. Layer eggplants in a baking dish.\n" +
+            "6. Add chopped tomatoes, mozzarella and parmesan.\n" +
+            "7. Repeat layers until all ingredients are used.\n" +
+            "8. Finish with a cheese layer.\n" +
+            "9. Bake for 25–30 minutes until golden and bubbling.\n" +
+            "10. Let rest for 5 minutes and garnish with fresh basil."
+    },
+
+    nl: {
+        title: "Parmigiana van aubergine",
+        equipment: [
+            "1 pan",
+            "1 ovenschaal",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "2 aubergines, in plakjes",
+            "400 g tomatenblokjes",
+            "150 g geraspte mozzarella",
+            "50 g geraspte Parmezaanse kaas",
+            "2 eetlepels olijfolie",
+            "Zout, peper en verse basilicum"
+        ],
+        preparation:
+            "1. Verwarm de oven voor op 200°C.\n" +
+            "2. Bestrooi de aubergineplakjes licht met zout en laat 10 minuten rusten.\n" +
+            "3. Dep droog en bak ze 3–4 minuten per kant goudbruin in olijfolie.\n" +
+            "4. Laat uitlekken op keukenpapier.\n" +
+            "5. Leg een laag aubergine in de ovenschaal.\n" +
+            "6. Voeg tomaten, mozzarella en Parmezaanse kaas toe.\n" +
+            "7. Herhaal de lagen tot alles op is.\n" +
+            "8. Eindig met een laag kaas.\n" +
+            "9. Bak 25–30 minuten tot goudbruin.\n" +
+            "10. Laat 5 minuten rusten en garneer met basilicum."
+    },
+
+    ar: {
+        title: "بارميجيانا الباذنجان",
+        equipment: [
+            "مقلاة",
+            "صينية خبز",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "2 باذنجان مقطع شرائح",
+            "400 غ طماطم مفرومة",
+            "150 غ موزاريلا مبشورة",
+            "50 غ جبن بارميزان مبشور",
+            "2 ملعقة كبيرة زيت زيتون",
+            "ملح، فلفل وريحان طازج"
+        ],
+        preparation:
+            "1. سخّن الفرن على 200°م.\n" +
+            "2. رشّ شرائح الباذنجان بالقليل من الملح واتركها 10 دقائق.\n" +
+            "3. جففها واقلِها في زيت الزيتون 3–4 دقائق لكل جانب حتى تتحمر.\n" +
+            "4. ضعها على ورق ماص.\n" +
+            "5. رتب طبقة من الباذنجان في صينية الخبز.\n" +
+            "6. أضف الطماطم والموزاريلا والبارميزان.\n" +
+            "7. كرر الطبقات حتى تنتهي المكونات.\n" +
+            "8. اختم بطبقة من الجبن.\n" +
+            "9. اخبز 25–30 دقيقة حتى يتحمر السطح.\n" +
+            "10. اتركها 5 دقائق قبل التقديم وزيّنها بالريحان."
+    }
+};
+recipesData.plat.frittataLegumes = {
+    country: "italie",
+    image: "images/frittata-legumes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Frittata aux légumes",
+        equipment: [
+            "1 poêle",
+            "1 fouet",
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "6 œufs",
+            "1 courgette coupée en dés",
+            "1 poivron rouge coupé en dés",
+            "100 g de champignons émincés",
+            "50 g de parmesan râpé",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel, poivre et herbes italiennes"
+        ],
+        preparation:
+            "1. Casser les œufs dans un bol et les battre avec le sel, le poivre et le parmesan.\n" +
+            "2. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "3. Ajouter les légumes et les faire revenir 5 minutes jusqu’à ce qu’ils soient tendres.\n" +
+            "4. Répartir les légumes uniformément dans la poêle.\n" +
+            "5. Verser le mélange d’œufs par-dessus.\n" +
+            "6. Cuire à feu doux 10 à 12 minutes jusqu’à ce que les œufs soient presque pris.\n" +
+            "7. Terminer la cuisson sous le gril 2 à 3 minutes ou retourner délicatement la frittata.\n" +
+            "8. Laisser reposer 2 minutes avant de servir.\n" +
+            "9. Servir chaud ou tiède."
+    },
+
+    en: {
+        title: "Vegetable Frittata",
+        equipment: [
+            "1 pan",
+            "1 whisk",
+            "1 bowl",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "6 eggs",
+            "1 zucchini, diced",
+            "1 red bell pepper, diced",
+            "100 g sliced mushrooms",
+            "50 g grated parmesan",
+            "2 tablespoons olive oil",
+            "Salt, pepper and Italian herbs"
+        ],
+        preparation:
+            "1. Beat the eggs in a bowl with salt, pepper and parmesan.\n" +
+            "2. Heat olive oil in a pan over medium heat.\n" +
+            "3. Add the vegetables and sauté for 5 minutes until softened.\n" +
+            "4. Spread the vegetables evenly in the pan.\n" +
+            "5. Pour the egg mixture over the vegetables.\n" +
+            "6. Cook on low heat for 10–12 minutes until almost set.\n" +
+            "7. Finish under the grill for 2–3 minutes or carefully flip the frittata.\n" +
+            "8. Let rest for 2 minutes.\n" +
+            "9. Serve hot or warm."
+    },
+
+    nl: {
+        title: "Frittata met groenten",
+        equipment: [
+            "1 pan",
+            "1 garde",
+            "1 kom",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "6 eieren",
+            "1 courgette, in blokjes",
+            "1 rode paprika, in blokjes",
+            "100 g champignons, gesneden",
+            "50 g geraspte Parmezaanse kaas",
+            "2 eetlepels olijfolie",
+            "Zout, peper en Italiaanse kruiden"
+        ],
+        preparation:
+            "1. Klop de eieren los met zout, peper en Parmezaanse kaas.\n" +
+            "2. Verhit olijfolie in een pan op middelhoog vuur.\n" +
+            "3. Bak de groenten 5 minuten tot ze zacht zijn.\n" +
+            "4. Verdeel de groenten gelijkmatig in de pan.\n" +
+            "5. Giet het eimengsel erover.\n" +
+            "6. Bak 10–12 minuten op laag vuur tot bijna gestold.\n" +
+            "7. Zet nog 2–3 minuten onder de grill of keer voorzichtig om.\n" +
+            "8. Laat 2 minuten rusten.\n" +
+            "9. Serveer warm of lauwwarm."
+    },
+
+    ar: {
+        title: "فريتاتا بالخضار",
+        equipment: [
+            "مقلاة",
+            "خفاق",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "6 بيضات",
+            "1 كوسة مقطعة مكعبات",
+            "1 فلفل أحمر مقطع مكعبات",
+            "100 غ فطر مقطع شرائح",
+            "50 غ جبن بارميزان مبشور",
+            "2 ملعقة كبيرة زيت زيتون",
+            "ملح، فلفل وأعشاب إيطالية"
+        ],
+        preparation:
+            "1. اخفق البيض في وعاء مع الملح والفلفل والبارميزان.\n" +
+            "2. سخّن زيت الزيتون في مقلاة على نار متوسطة.\n" +
+            "3. أضف الخضار وقلّبها 5 دقائق حتى تطرى.\n" +
+            "4. وزّع الخضار بالتساوي في المقلاة.\n" +
+            "5. اسكب خليط البيض فوق الخضار.\n" +
+            "6. اطبخ على نار هادئة 10–12 دقيقة حتى يتماسك البيض تقريباً.\n" +
+            "7. أنهِ الطهي تحت الشواية 2–3 دقائق أو اقلب الفريتاتا بحذر.\n" +
+            "8. اتركها ترتاح دقيقتين.\n" +
+            "9. قدّم ساخناً أو دافئاً."
+    }
+};
+recipesData.plat.involtiniPoulet = {
+    country: "italie",
+    image: "images/involtini-poulet.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Involtini de poulet au fromage et épinards",
+        equipment: [
+            "1 poêle",
+            "1 plat allant au four",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "4 escalopes de poulet fines",
+            "100 g d’épinards frais",
+            "100 g de fromage râpé",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel, poivre et herbes italiennes"
+        ],
+        preparation:
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Assaisonner les escalopes de poulet avec du sel, du poivre et des herbes italiennes.\n" +
+            "3. Faire légèrement tomber les épinards à sec dans une poêle, puis les presser pour retirer l’excès d’eau.\n" +
+            "4. Déposer les épinards et le fromage râpé sur chaque escalope.\n" +
+            "5. Rouler les escalopes bien serrées pour former des involtini.\n" +
+            "6. Chauffer l’huile d’olive dans une poêle et faire dorer les involtini sur toutes les faces pendant 3 à 4 minutes.\n" +
+            "7. Transférer les involtini dans un plat allant au four.\n" +
+            "8. Enfourner pour 15 minutes jusqu’à ce que le poulet soit bien cuit.\n" +
+            "9. Laisser reposer 2 minutes avant de servir.\n" +
+            "10. Servir chaud avec des légumes ou des pâtes."
+    },
+
+    en: {
+        title: "Chicken Involtini with Cheese and Spinach",
+        equipment: [
+            "1 pan",
+            "1 ovenproof dish",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "4 thin chicken cutlets",
+            "100 g fresh spinach",
+            "100 g grated cheese",
+            "2 tablespoons olive oil",
+            "Salt, pepper and Italian herbs"
+        ],
+        preparation:
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Season the chicken cutlets with salt, pepper and Italian herbs.\n" +
+            "3. Lightly wilt the spinach in a dry pan, then squeeze out excess moisture.\n" +
+            "4. Place spinach and grated cheese on each cutlet.\n" +
+            "5. Roll the cutlets tightly to form involtini.\n" +
+            "6. Heat olive oil in a pan and brown the involtini on all sides for 3–4 minutes.\n" +
+            "7. Transfer to an ovenproof dish.\n" +
+            "8. Bake for 15 minutes until the chicken is fully cooked.\n" +
+            "9. Let rest for 2 minutes before serving.\n" +
+            "10. Serve hot with vegetables or pasta."
+    },
+
+    nl: {
+        title: "Kip involtini met kaas en spinazie",
+        equipment: [
+            "1 pan",
+            "1 ovenschaal",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "4 dunne kipschnitzels",
+            "100 g verse spinazie",
+            "100 g geraspte kaas",
+            "2 eetlepels olijfolie",
+            "Zout, peper en Italiaanse kruiden"
+        ],
+        preparation:
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Kruid de kipschnitzels met zout, peper en Italiaanse kruiden.\n" +
+            "3. Laat de spinazie kort slinken in een droge pan en knijp het vocht eruit.\n" +
+            "4. Verdeel spinazie en kaas over de schnitzels.\n" +
+            "5. Rol de kip stevig op tot involtini.\n" +
+            "6. Verhit olijfolie in een pan en bak de involtini rondom goudbruin in 3–4 minuten.\n" +
+            "7. Leg de involtini in een ovenschaal.\n" +
+            "8. Bak 15 minuten in de oven tot gaar.\n" +
+            "9. Laat 2 minuten rusten.\n" +
+            "10. Serveer warm met groenten of pasta."
+    },
+
+    ar: {
+        title: "إنفولتيني الدجاج بالجبن والسبانخ",
+        equipment: [
+            "مقلاة",
+            "صينية فرن",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "4 شرائح دجاج رقيقة",
+            "100 غ سبانخ طازجة",
+            "100 غ جبن مبشور",
+            "2 ملعقة كبيرة زيت زيتون",
+            "ملح، فلفل وأعشاب إيطالية"
+        ],
+        preparation:
+            "1. سخّن الفرن على 180°م.\n" +
+            "2. تبّل شرائح الدجاج بالملح والفلفل والأعشاب الإيطالية.\n" +
+            "3. قلّب السبانخ سريعاً في مقلاة جافة ثم اعصرها للتخلص من السوائل.\n" +
+            "4. ضع السبانخ والجبن فوق كل شريحة دجاج.\n" +
+            "5. لفّ الشرائح بإحكام لتشكيل الإنفولتيني.\n" +
+            "6. سخّن زيت الزيتون في مقلاة وحمّر الإنفولتيني من جميع الجهات لمدة 3–4 دقائق.\n" +
+            "7. انقلها إلى صينية فرن.\n" +
+            "8. اخبز لمدة 15 دقيقة حتى ينضج الدجاج.\n" +
+            "9. اتركها ترتاح دقيقتين قبل التقديم.\n" +
+            "10. قدّم ساخناً مع الخضار أو الباستا."
+    }
+};
 
 
 
@@ -23394,594 +24323,13 @@ recipesData.plat.cannellonisLegumes = {
 
 
 
-recipesData.plat.cannellonisPouletFromage = {
-    country: "italie",
-    image: "images/cannellonis-poulet-fromage.jpg",
-    fr: {
-        title: "Cannellonis au poulet et fromage (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 plat à gratin", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "12 tubes de cannellonis",
-            "200 g de poulet cuit émincé",
-            "150 g de ricotta",
-            "50 g de parmesan râpé",
-            "400 g de sauce tomate",
-            "1 oignon haché",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre et herbes italiennes"
-        ],
-        preparation:
-            "1. Préchauffer le four à 200°C.\n" +
-            "2. Chauffer l’huile dans une poêle, ajouter l’oignon, cuire 2-3 min.\n" +
-            "3. Mélanger le poulet avec la ricotta et les herbes.\n" +
-            "4. Farcir les tubes de cannellonis avec ce mélange.\n" +
-            "5. Verser un peu de sauce tomate au fond du plat, disposer les cannellonis.\n" +
-            "6. Recouvrir avec le reste de sauce et saupoudrer de parmesan.\n" +
-            "7. Cuire 25-30 min jusqu’à ce que le dessus soit doré.\n" +
-            "8. Servir chaud."
-    },
-    en: {
-        title: "Chicken and Cheese Cannelloni (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 baking dish", "1 wooden spoon", "1 knife", "1 cutting board"],
-        ingredients: [
-            "12 cannelloni tubes",
-            "200 g cooked sliced chicken",
-            "150 g ricotta",
-            "50 g grated parmesan",
-            "400 g tomato sauce",
-            "1 chopped onion",
-            "2 tablespoons olive oil",
-            "Salt, pepper and Italian herbs"
-        ],
-        preparation:
-            "1. Preheat oven to 200°C.\n" +
-            "2. Heat oil in a pan, add onion, cook 2-3 min.\n" +
-            "3. Mix chicken with ricotta and herbs.\n" +
-            "4. Fill cannelloni tubes with this mixture.\n" +
-            "5. Pour some tomato sauce in the dish, place cannelloni.\n" +
-            "6. Cover with remaining sauce and sprinkle parmesan.\n" +
-            "7. Bake 25-30 min until golden on top.\n" +
-            "8. Serve hot."
-    },
-    nl: {
-        title: "Cannelloni met kip en kaas (voor 4 personen)",
-        equipment: ["1 pan", "1 kookpot", "1 ovenschaal", "1 houten lepel", "1 mes", "1 snijplank"],
-        ingredients: [
-            "12 cannelloni buisjes",
-            "200 g gekookte kip in plakjes",
-            "150 g ricotta",
-            "50 g geraspte Parmezaanse kaas",
-            "400 g tomatensaus",
-            "1 ui, gehakt",
-            "2 eetlepels olijfolie",
-            "Zout, peper en Italiaanse kruiden"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 200°C.\n" +
-            "2. Verhit olie in een pan, voeg ui toe, bak 2-3 min.\n" +
-            "3. Meng kip met ricotta en kruiden.\n" +
-            "4. Vul de cannelloni buisjes met dit mengsel.\n" +
-            "5. Giet wat tomatensaus in de ovenschaal, leg cannelloni erin.\n" +
-            "6. Bedek met resterende saus en bestrooi met Parmezaanse kaas.\n" +
-            "7. Bak 25-30 min tot goudbruin.\n" +
-            "8. Serveer warm."
-    },
-    ar: {
-        title: "كانيلوني بالدجاج والجبن (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "صينية خبز", "ملعقة خشبية", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "12 أنبوب كانيلوني",
-            "200 غ دجاج مطهو ومقطع شرائح",
-            "150 غ ريكوتا",
-            "50 غ جبن بارميزان مبشور",
-            "400 غ صلصة طماطم",
-            "1 بصلة مفرومة",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل وأعشاب إيطالية"
-        ],
-        preparation:
-            "1. سخّن الفرن على 200°م.\n" +
-            "2. سخّن الزيت في مقلاة، أضف البصل، اطبخ 2-3 دقائق.\n" +
-            "3. اخلط الدجاج مع الريكوتا والأعشاب.\n" +
-            "4. احشو أنابيب الكانيلوني بهذا الخليط.\n" +
-            "5. ضع بعض صلصة الطماطم في الصينية، رصّ الكانيلوني.\n" +
-            "6. غطّ بالباقي من الصلصة ورشّ بالبارميزان.\n" +
-            "7. اخبز 25-30 دقيقة حتى يصبح الوجه ذهبي.\n" +
-            "8. قدّم ساخناً."
-    }
-};
-recipesData.plat.polentaLegumes = {
-    country: "italie",
-    image: "images/polenta-legumes.jpg",
-    fr: {
-        title: "Polenta gratinée aux légumes (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 plat à gratin", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "200 g de polenta instantanée",
-            "800 ml d’eau",
-            "1 courgette coupée en dés",
-            "1 poivron rouge coupé en dés",
-            "100 g de champignons émincés",
-            "100 g de parmesan râpé",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre et herbes italiennes"
-        ],
-        preparation:
-            "1. Porter l’eau à ébullition avec une pincée de sel.\n" +
-            "2. Verser la polenta en pluie en remuant constamment.\n" +
-            "3. Cuire 5-7 min jusqu’à ce que la polenta épaississe.\n" +
-            "4. Chauffer l’huile dans une poêle, faire revenir les légumes 5 min, assaisonner.\n" +
-            "5. Verser la polenta dans un plat à gratin, répartir les légumes dessus, saupoudrer de parmesan.\n" +
-            "6. Cuire 15 min au four à 200°C jusqu’à ce que le dessus soit doré.\n" +
-            "7. Servir chaud."
-    },
-    en: {
-        title: "Gratinated Polenta with Vegetables (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 baking dish", "1 wooden spoon", "1 knife", "1 cutting board"],
-        ingredients: [
-            "200 g instant polenta",
-            "800 ml water",
-            "1 zucchini, diced",
-            "1 red pepper, diced",
-            "100 g sliced mushrooms",
-            "100 g grated parmesan",
-            "2 tablespoons olive oil",
-            "Salt, pepper and Italian herbs"
-        ],
-        preparation:
-            "1. Bring water to a boil with a pinch of salt.\n" +
-            "2. Gradually add polenta while stirring constantly.\n" +
-            "3. Cook 5-7 min until thickened.\n" +
-            "4. Heat oil in a pan, sauté vegetables 5 min, season.\n" +
-            "5. Pour polenta into a baking dish, top with vegetables, sprinkle parmesan.\n" +
-            "6. Bake 15 min at 200°C until golden on top.\n" +
-            "7. Serve hot."
-    },
-    nl: {
-        title: "Gegratineerde polenta met groenten (voor 4 personen)",
-        equipment: ["1 pan", "1 kookpot", "1 ovenschaal", "1 houten lepel", "1 mes", "1 snijplank"],
-        ingredients: [
-            "200 g instant polenta",
-            "800 ml water",
-            "1 courgette, in blokjes",
-            "1 rode paprika, in blokjes",
-            "100 g gesneden champignons",
-            "100 g geraspte Parmezaanse kaas",
-            "2 eetlepels olijfolie",
-            "Zout, peper en Italiaanse kruiden"
-        ],
-        preparation:
-            "1. Breng water aan de kook met een snufje zout.\n" +
-            "2. Voeg polenta geleidelijk toe terwijl je constant roert.\n" +
-            "3. Kook 5-7 min tot het dik wordt.\n" +
-            "4. Verhit olie in een pan, bak groenten 5 min, breng op smaak.\n" +
-            "5. Giet polenta in een ovenschaal, verdeel groenten erop, bestrooi met Parmezaanse kaas.\n" +
-            "6. Bak 15 min op 200°C tot goudbruin.\n" +
-            "7. Serveer warm."
-    },
-    ar: {
-        title: "بولينتا مخبوزة بالخضار (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "صينية خبز", "ملعقة خشبية", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "200 غ بولينتا سريعة التحضير",
-            "800 مل ماء",
-            "1 كوسة مقطعة مكعبات",
-            "1 فلفل أحمر مقطع مكعبات",
-            "100 غ فطر مقطع شرائح",
-            "100 غ جبن بارميزان مبشور",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل وأعشاب إيطالية"
-        ],
-        preparation:
-            "1. اغلي الماء مع رشة ملح.\n" +
-            "2. أضف البولينتا تدريجياً مع التحريك المستمر.\n" +
-            "3. اطبخ 5-7 دقائق حتى تصبح سميكة.\n" +
-            "4. سخن الزيت في مقلاة، قلّب الخضار 5 دقائق، تبّل.\n" +
-            "5. ضع البولينتا في صينية خبز، ضع الخضار فوقها، رشّ البارميزان.\n" +
-            "6. اخبز 15 دقيقة على 200°م حتى يصبح الوجه ذهبي.\n" +
-            "7. قدّم ساخناً."
-    }
-};
-recipesData.plat.ossoBucoPoulet = {
-    country: "italie",
-    image: "images/osso-buco-poulet.jpg",
-    fr: {
-        title: "Osso Buco au poulet et légumes (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 plat à four", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "4 cuisses de poulet",
-            "2 carottes coupées en dés",
-            "2 branches de céleri coupées en dés",
-            "1 oignon haché",
-            "400 g de tomates concassées",
-            "150 ml de bouillon de volaille",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre, thym et laurier"
-        ],
-        preparation:
-            "1. Préchauffer le four à 180°C.\n" +
-            "2. Chauffer l’huile dans une poêle, dorer les cuisses de poulet 5 min de chaque côté.\n" +
-            "3. Retirer le poulet et faire revenir l’oignon, carottes et céleri 3-4 min.\n" +
-            "4. Ajouter les tomates et le bouillon, assaisonner avec sel, poivre, thym et laurier.\n" +
-            "5. Remettre le poulet dans le plat et cuire au four 40 min jusqu’à tendreté.\n" +
-            "6. Servir chaud avec polenta ou riz."
-    },
-    en: {
-        title: "Chicken Osso Buco with Vegetables (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 baking dish", "1 wooden spoon", "1 knife", "1 cutting board"],
-        ingredients: [
-            "4 chicken thighs",
-            "2 carrots, diced",
-            "2 celery sticks, diced",
-            "1 chopped onion",
-            "400 g chopped tomatoes",
-            "150 ml chicken broth",
-            "2 tablespoons olive oil",
-            "Salt, pepper, thyme and bay leaf"
-        ],
-        preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Heat oil in a pan, brown chicken thighs 5 min each side.\n" +
-            "3. Remove chicken, sauté onion, carrots, celery 3-4 min.\n" +
-            "4. Add tomatoes and broth, season with salt, pepper, thyme and bay leaf.\n" +
-            "5. Return chicken to dish, bake 40 min until tender.\n" +
-            "6. Serve hot with polenta or rice."
-    },
-    nl: {
-        title: "Osso Buco met kip en groenten (voor 4 personen)",
-        equipment: ["1 pan", "1 kookpot", "1 ovenschaal", "1 houten lepel", "1 mes", "1 snijplank"],
-        ingredients: [
-            "4 kippendijen",
-            "2 wortels, in blokjes",
-            "2 selderijstengels, in blokjes",
-            "1 ui, gehakt",
-            "400 g tomatenblokjes",
-            "150 ml kippenbouillon",
-            "2 eetlepels olijfolie",
-            "Zout, peper, tijm en laurier"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Verhit olie in een pan, bak de kippendijen 5 min per kant.\n" +
-            "3. Haal de kip uit de pan, bak ui, wortels en selderij 3-4 min.\n" +
-            "4. Voeg tomaten en bouillon toe, breng op smaak met zout, peper, tijm en laurier.\n" +
-            "5. Leg de kip terug in de ovenschaal, bak 40 min tot zacht.\n" +
-            "6. Serveer warm met polenta of rijst."
-    },
-    ar: {
-        title: "أوسو بوكو بالدجاج والخضار (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "صينية خبز", "ملعقة خشبية", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "4 أفخاذ دجاج",
-            "2 جزرة مقطعة مكعبات",
-            "2 عود كرفس مقطع مكعبات",
-            "1 بصلة مفرومة",
-            "400 غ طماطم مفرومة",
-            "150 مل مرق دجاج",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل، زعتر وورقة غار"
-        ],
-        preparation:
-            "1. سخّن الفرن على 180°م.\n" +
-            "2. سخّن الزيت في مقلاة، حمّر أفخاذ الدجاج 5 دقائق لكل جانب.\n" +
-            "3. أزل الدجاج، قلّب البصل والجزر والكرفس 3-4 دقائق.\n" +
-            "4. أضف الطماطم والمرق، تبّل بالملح، الفلفل، الزعتر وورقة الغار.\n" +
-            "5. ضع الدجاج مرة أخرى في الصينية، اخبز 40 دقيقة حتى ينضج.\n" +
-            "6. قدّم ساخناً مع بولينتا أو أرز."
-    }
-};
-recipesData.plat.saltimboccaPoulet = {
-    country: "italie",
-    image: "images/saltimbocca-poulet.jpg",
-    fr: {
-        title: "Saltimbocca de poulet (4 personnes)",
-        equipment: ["1 poêle", "1 plat de service", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "4 escalopes de poulet fines",
-            "4 tranches de fromage à pâte dure",
-            "8 feuilles de sauge",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre"
-        ],
-        preparation:
-            "1. Assaisonner les escalopes de sel et poivre.\n" +
-            "2. Déposer une tranche de fromage et 2 feuilles de sauge sur chaque escalope, replier.\n" +
-            "3. Chauffer l’huile dans une poêle, cuire les escalopes 5-6 min de chaque côté jusqu’à doré.\n" +
-            "4. Servir chaud avec légumes ou purée."
-    },
-    en: {
-        title: "Chicken Saltimbocca (Serves 4)",
-        equipment: ["1 pan", "1 serving dish", "1 knife", "1 cutting board"],
-        ingredients: [
-            "4 thin chicken cutlets",
-            "4 slices hard cheese",
-            "8 sage leaves",
-            "2 tablespoons olive oil",
-            "Salt, pepper"
-        ],
-        preparation:
-            "1. Season chicken cutlets with salt and pepper.\n" +
-            "2. Place a slice of cheese and 2 sage leaves on each cutlet, fold.\n" +
-            "3. Heat oil in a pan, cook cutlets 5-6 min per side until golden.\n" +
-            "4. Serve hot with vegetables or mashed potatoes."
-    },
-    nl: {
-        title: "Saltimbocca van kip (voor 4 personen)",
-        equipment: ["1 pan", "1 serveerschaal", "1 mes", "1 snijplank"],
-        ingredients: [
-            "4 dunne kippenschijfjes",
-            "4 plakken harde kaas",
-            "8 salieblaadjes",
-            "2 eetlepels olijfolie",
-            "Zout, peper"
-        ],
-        preparation:
-            "1. Breng kip op smaak met zout en peper.\n" +
-            "2. Leg een plak kaas en 2 salieblaadjes op elk schijfje, vouw dicht.\n" +
-            "3. Verhit olie in een pan, bak 5-6 min per kant tot goudbruin.\n" +
-            "4. Serveer warm met groenten of puree."
-    },
-    ar: {
-        title: "سالتيمبوكا بالدجاج (تكفي 4 أشخاص)",
-        equipment: ["مقلاة", "طبق تقديم", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "4 شرائح دجاج رقيقة",
-            "4 شرائح جبن صلب",
-            "8 أوراق مريمية",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل"
-        ],
-        preparation:
-            "1. تبّل شرائح الدجاج بالملح والفلفل.\n" +
-            "2. ضع شريحة جبن وورقتين من المريمية على كل شريحة، واطوِها.\n" +
-            "3. سخّن الزيت في مقلاة، اطبخ الشرائح 5-6 دقائق لكل جانب حتى تتحمر.\n" +
-            "4. قدّم ساخناً مع الخضار أو البطاطس المهروسة."
-    }
-};
-recipesData.plat.parmigianaAubergines = {
-    country: "italie",
-    image: "images/parmigiana-aubergines.jpg",
-    fr: {
-        title: "Parmigiana d’aubergines (4 personnes)",
-        equipment: ["1 poêle", "1 plat à gratin", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "2 aubergines coupées en tranches",
-            "400 g de tomates concassées",
-            "150 g de mozzarella râpée",
-            "50 g de parmesan râpé",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre et basilic frais"
-        ],
-        preparation:
-            "1. Préchauffer le four à 200°C.\n" +
-            "2. Faire revenir les tranches d’aubergines dans l’huile 3-4 min par côté.\n" +
-            "3. Dans un plat à gratin, disposer une couche d’aubergines, ajouter sauce tomate, mozzarella et parmesan.\n" +
-            "4. Répéter les couches jusqu’à épuisement.\n" +
-            "5. Cuire 25-30 min jusqu’à gratiné.\n" +
-            "6. Servir chaud."
-    },
-    en: {
-        title: "Eggplant Parmigiana (Serves 4)",
-        equipment: ["1 pan", "1 baking dish", "1 knife", "1 cutting board"],
-        ingredients: [
-            "2 eggplants, sliced",
-            "400 g chopped tomatoes",
-            "150 g grated mozzarella",
-            "50 g grated parmesan",
-            "2 tablespoons olive oil",
-            "Salt, pepper and fresh basil"
-        ],
-        preparation:
-            "1. Preheat oven to 200°C.\n" +
-            "2. Sauté eggplant slices in oil 3-4 min per side.\n" +
-            "3. In a baking dish, layer eggplants, tomato sauce, mozzarella, parmesan.\n" +
-            "4. Repeat layers until finished.\n" +
-            "5. Bake 25-30 min until gratinated.\n" +
-            "6. Serve hot."
-    },
-    nl: {
-        title: "Parmigiana van aubergine (voor 4 personen)",
-        equipment: ["1 pan", "1 ovenschaal", "1 mes", "1 snijplank"],
-        ingredients: [
-            "2 aubergines, in plakjes",
-            "400 g tomatenblokjes",
-            "150 g geraspte mozzarella",
-            "50 g geraspte Parmezaanse kaas",
-            "2 eetlepels olijfolie",
-            "Zout, peper en verse basilicum"
-        ],
-        preparation:
-            "1. Verwarm oven voor op 200°C.\n" +
-            "2. Bak aubergineplakjes in olie 3-4 min per kant.\n" +
-            "3. Leg in een ovenschaal, voeg tomatensaus, mozzarella, Parmezaanse kaas toe.\n" +
-            "4. Herhaal lagen tot alles op is.\n" +
-            "5. Bak 25-30 min tot gegratineerd.\n" +
-            "6. Serveer warm."
-    },
-    ar: {
-        title: "بارميجيانا الباذنجان (تكفي 4 أشخاص)",
-        equipment: ["مقلاة", "صينية خبز", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "2 باذنجان مقطع شرائح",
-            "400 غ طماطم مفرومة",
-            "150 غ موزاريلا مبشور",
-            "50 غ جبن بارميزان مبشور",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل وريحان طازج"
-        ],
-        preparation:
-            "1. سخّن الفرن على 200°م.\n" +
-            "2. اقلي شرائح الباذنجان في الزيت 3-4 دقائق لكل جانب.\n" +
-            "3. ضع في صينية الخبز، أضف صلصة الطماطم، الموزاريلا والبارميزان.\n" +
-            "4. كرر الطبقات حتى تنتهي.\n" +
-            "5. اخبز 25-30 دقيقة حتى يتحمر الوجه.\n" +
-            "6. قدّم ساخناً."
-    }
-};
-recipesData.plat.frittataLegumes = {
-    country: "italie",
-    image: "images/frittata-legumes.jpg",
-    fr: {
-        title: "Frittata aux légumes (4 personnes)",
-        equipment: ["1 poêle", "1 fouet", "1 bol", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "6 œufs",
-            "1 courgette coupée en dés",
-            "1 poivron rouge coupé en dés",
-            "100 g de champignons émincés",
-            "50 g de parmesan râpé",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre et herbes italiennes"
-        ],
-        preparation:
-            "1. Battre les œufs avec sel, poivre et parmesan.\n" +
-            "2. Chauffer l’huile dans une poêle, cuire les légumes 5 min.\n" +
-            "3. Verser les œufs battus sur les légumes.\n" +
-            "4. Cuire à feu doux 10-12 min jusqu’à ce que les œufs soient pris.\n" +
-            "5. Retourner la frittata si possible ou finir sous le gril 2-3 min.\n" +
-            "6. Servir chaud ou tiède."
-    },
-    en: {
-        title: "Vegetable Frittata (Serves 4)",
-        equipment: ["1 pan", "1 whisk", "1 bowl", "1 knife", "1 cutting board"],
-        ingredients: [
-            "6 eggs",
-            "1 zucchini, diced",
-            "1 red pepper, diced",
-            "100 g sliced mushrooms",
-            "50 g grated parmesan",
-            "2 tablespoons olive oil",
-            "Salt, pepper and Italian herbs"
-        ],
-        preparation:
-            "1. Beat eggs with salt, pepper and parmesan.\n" +
-            "2. Heat oil in a pan, cook vegetables 5 min.\n" +
-            "3. Pour beaten eggs over vegetables.\n" +
-            "4. Cook on low heat 10-12 min until eggs set.\n" +
-            "5. Flip frittata if possible or finish under grill 2-3 min.\n" +
-            "6. Serve hot or warm."
-    },
-    nl: {
-        title: "Frittata met groenten (voor 4 personen)",
-        equipment: ["1 pan", "1 garde", "1 kom", "1 mes", "1 snijplank"],
-        ingredients: [
-            "6 eieren",
-            "1 courgette, in blokjes",
-            "1 rode paprika, in blokjes",
-            "100 g gesneden champignons",
-            "50 g geraspte Parmezaanse kaas",
-            "2 eetlepels olijfolie",
-            "Zout, peper en Italiaanse kruiden"
-        ],
-        preparation:
-            "1. Klop de eieren met zout, peper en Parmezaanse kaas.\n" +
-            "2. Verhit olie in een pan, bak groenten 5 min.\n" +
-            "3. Giet de eieren over de groenten.\n" +
-            "4. Bak op laag vuur 10-12 min tot de eieren gestold zijn.\n" +
-            "5. Keer de frittata indien mogelijk of zet 2-3 min onder grill.\n" +
-            "6. Serveer warm of lauwwarm."
-    },
-    ar: {
-        title: "فريتاتا بالخضار (تكفي 4 أشخاص)",
-        equipment: ["مقلاة", "خفاق", "وعاء", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "6 بيضات",
-            "1 كوسة مقطعة مكعبات",
-            "1 فلفل أحمر مقطع مكعبات",
-            "100 غ فطر مقطع شرائح",
-            "50 غ جبن بارميزان مبشور",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل وأعشاب إيطالية"
-        ],
-        preparation:
-            "1. اخفق البيض مع الملح، الفلفل والبارميزان.\n" +
-            "2. سخّن الزيت في مقلاة، اطبخ الخضار 5 دقائق.\n" +
-            "3. صب البيض المخفوق فوق الخضار.\n" +
-            "4. اطبخ على نار هادئة 10-12 دقيقة حتى يتماسك البيض.\n" +
-            "5. اقلب الفريتاتا إذا أمكن أو ضعها تحت الشواية 2-3 دقائق.\n" +
-            "6. قدّم ساخناً أو دافئاً."
-    }
-};
-recipesData.plat.involtiniPoulet = {
-    country: "italie",
-    image: "images/involtini-poulet.jpg",
-    fr: {
-        title: "Involtini de poulet au fromage et épinards (4 personnes)",
-        equipment: ["1 poêle", "1 plat à four", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "4 escalopes de poulet fines",
-            "100 g d’épinards frais",
-            "100 g de fromage râpé",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre et herbes italiennes"
-        ],
-        preparation:
-            "1. Préchauffer le four à 180°C.\n" +
-            "2. Assaisonner les escalopes de poulet avec sel et poivre.\n" +
-            "3. Déposer les épinards et le fromage sur chaque escalope.\n" +
-            "4. Rouler les escalopes et les maintenir fermées.\n" +
-            "5. Faire dorer les involtini dans une poêle avec l’huile 3-4 min.\n" +
-            "6. Terminer la cuisson au four pendant 15 min.\n" +
-            "7. Servir chaud avec légumes ou pâtes."
-    },
-    en: {
-        title: "Chicken Involtini with Cheese and Spinach (Serves 4)",
-        equipment: ["1 pan", "1 baking dish", "1 knife", "1 cutting board"],
-        ingredients: [
-            "4 thin chicken cutlets",
-            "100 g fresh spinach",
-            "100 g grated cheese",
-            "2 tablespoons olive oil",
-            "Salt, pepper and Italian herbs"
-        ],
-        preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Season chicken cutlets with salt and pepper.\n" +
-            "3. Place spinach and cheese on each cutlet.\n" +
-            "4. Roll the cutlets tightly.\n" +
-            "5. Brown involtini in a pan with oil for 3-4 min.\n" +
-            "6. Finish cooking in the oven for 15 min.\n" +
-            "7. Serve hot with vegetables or pasta."
-    },
-    nl: {
-        title: "Kip involtini met kaas en spinazie (voor 4 personen)",
-        equipment: ["1 pan", "1 ovenschaal", "1 mes", "1 snijplank"],
-        ingredients: [
-            "4 dunne kipschnitzels",
-            "100 g verse spinazie",
-            "100 g geraspte kaas",
-            "2 eetlepels olijfolie",
-            "Zout, peper en Italiaanse kruiden"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Breng de kip op smaak met zout en peper.\n" +
-            "3. Leg spinazie en kaas op elke schnitzel.\n" +
-            "4. Rol de kip stevig op.\n" +
-            "5. Bak de involtini 3-4 min in olie tot goudbruin.\n" +
-            "6. Laat verder garen in de oven gedurende 15 min.\n" +
-            "7. Serveer warm met groenten of pasta."
-    },
-    ar: {
-        title: "إنفولتيني الدجاج بالجبن والسبانخ (تكفي 4 أشخاص)",
-        equipment: ["مقلاة", "صينية خبز", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "4 شرائح دجاج رقيقة",
-            "100 غ سبانخ طازجة",
-            "100 غ جبن مبشور",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل وأعشاب إيطالية"
-        ],
-        preparation:
-            "1. سخّن الفرن على 180°م.\n" +
-            "2. تبّل شرائح الدجاج بالملح والفلفل.\n" +
-            "3. ضع السبانخ والجبن على كل شريحة.\n" +
-            "4. لفّ شرائح الدجاج بإحكام.\n" +
-            "5. حمّر الإنفولتيني في الزيت 3-4 دقائق.\n" +
-            "6. أكمل الطهي في الفرن لمدة 15 دقيقة.\n" +
-            "7. قدّم ساخناً مع الخضار أو الباستا."
-    }
-};
+
+
+
+
+
+
+
 
 recipesData.plat.patesTomate = {
     country: "italie",
