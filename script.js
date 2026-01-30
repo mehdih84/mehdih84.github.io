@@ -24307,6 +24307,2432 @@ recipesData.plat.involtiniPoulet = {
             "10. قدّم ساخناً مع الخضار أو الباستا."
     }
 };
+recipesData.plat.patesFraiches = {
+    country: "italie",
+    image: "images/pates-fraiches.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 30,
+        cookTime: 3,
+        difficulty: "medium"
+    },
+
+    fr: {
+        title: "Pâtes fraîches maison",
+        equipment: [
+            "1 grand bol",
+            "1 fourchette",
+            "1 plan de travail",
+            "1 rouleau à pâtisserie ou machine à pâtes",
+            "1 couteau ou roulette à pâtes"
+        ],
+        ingredients: [
+            "400 g de farine de blé",
+            "4 œufs",
+            "1 pincée de sel"
+        ],
+        preparation:
+            "1. Verser la farine sur le plan de travail ou dans un grand bol.\n" +
+            "2. Former un puits au centre et y casser les œufs.\n" +
+            "3. Ajouter la pincée de sel.\n" +
+            "4. Mélanger délicatement les œufs à la farine à l’aide d’une fourchette.\n" +
+            "5. Lorsque la pâte commence à se former, pétrir à la main pendant 8 à 10 minutes jusqu’à obtenir une pâte lisse et souple.\n" +
+            "6. Former une boule, couvrir et laisser reposer 20 minutes à température ambiante.\n" +
+            "7. Diviser la pâte en plusieurs portions.\n" +
+            "8. Étaler chaque portion finement à l’aide d’un rouleau ou d’une machine à pâtes.\n\n" +
+
+            "==============================\n" +
+            "FORMES DE PÂTES\n" +
+            "==============================\n" +
+            "9. Spaghetti / Linguine : rouler la pâte finement, la plier légèrement puis couper en fines lanières.\n" +
+            "10. Tagliatelle / Fettuccine : couper la pâte en bandes moyennes.\n" +
+            "11. Pappardelle : couper la pâte en larges rubans.\n" +
+            "12. Lasagnes : découper la pâte en grandes feuilles rectangulaires.\n" +
+            "13. Farfalle : couper des rectangles et pincer le centre avec les doigts.\n" +
+            "14. Tagliolini : couper en bandes très fines.\n" +
+            "15. Spirelli (fusilli maison) : couper des bandes et les enrouler autour d’un bâton fin.\n" +
+            "16. Coquillettes : découper de petits carrés et les rouler légèrement sous la paume de la main.\n" +
+            "17. Cavatelli : rouler de petits morceaux en boudins puis presser avec le doigt.\n" +
+            "18. Gnocchetti : former de petites billes et les rouler sur une fourchette.\n" +
+            "19. Orecchiette : presser de petits disques de pâte avec le pouce.\n" +
+            "20. Maltagliati : découper la pâte en formes irrégulières.\n" +
+            "21. Ravioli / Tortellini : garnir deux feuilles de pâte, découper et souder les bords.\n\n" +
+
+            "==============================\n" +
+            "CUISSON\n" +
+            "==============================\n" +
+            "22. Plonger les pâtes fraîches dans une grande casserole d’eau bouillante salée.\n" +
+            "23. Cuire 2 à 3 minutes jusqu’à ce qu’elles remontent à la surface.\n" +
+            "24. Égoutter et utiliser immédiatement avec la sauce de votre choix."
+    },
+
+    en: {
+        title: "Homemade Fresh Pasta",
+        equipment: [
+            "1 large bowl",
+            "1 fork",
+            "1 work surface",
+            "1 rolling pin or pasta machine",
+            "1 knife or pasta cutter"
+        ],
+        ingredients: [
+            "400 g wheat flour",
+            "4 eggs",
+            "1 pinch of salt"
+        ],
+        preparation:
+            "1. Place the flour on a work surface or in a large bowl.\n" +
+            "2. Make a well in the center and crack the eggs into it.\n" +
+            "3. Add the salt.\n" +
+            "4. Gently mix the eggs into the flour using a fork.\n" +
+            "5. Knead for 8–10 minutes until smooth and elastic.\n" +
+            "6. Shape into a ball, cover and rest for 20 minutes.\n" +
+            "7. Divide the dough into portions.\n" +
+            "8. Roll each portion thinly.\n\n" +
+
+            "==============================\n" +
+            "PASTA SHAPES\n" +
+            "==============================\n" +
+            "9. Spaghetti / Linguine: cut into thin strands.\n" +
+            "10. Tagliatelle / Fettuccine: cut into medium ribbons.\n" +
+            "11. Pappardelle: cut into wide ribbons.\n" +
+            "12. Lasagna sheets: cut into large rectangles.\n" +
+            "13. Farfalle: pinch the center of small rectangles.\n" +
+            "14. Tagliolini: cut into very thin strips.\n" +
+            "15. Fusilli: wrap strips around a skewer.\n" +
+            "16. Small shells: roll small squares lightly.\n" +
+            "17. Cavatelli: press small dough pieces with a finger.\n" +
+            "18. Gnocchetti: roll small balls on a fork.\n" +
+            "19. Orecchiette: press with the thumb.\n" +
+            "20. Maltagliati: cut into irregular shapes.\n" +
+            "21. Ravioli / Tortellini: fill, fold and seal.\n\n" +
+
+            "==============================\n" +
+            "COOKING\n" +
+            "==============================\n" +
+            "22. Cook in boiling salted water.\n" +
+            "23. Cook for 2–3 minutes.\n" +
+            "24. Drain and serve immediately."
+    },
+
+    nl: {
+        title: "Verse pasta maken",
+        equipment: [
+            "1 grote kom",
+            "1 vork",
+            "1 werkblad",
+            "1 deegrol of pastamachine",
+            "1 mes of pastasnijder"
+        ],
+        ingredients: [
+            "400 g tarwebloem",
+            "4 eieren",
+            "1 snufje zout"
+        ],
+        preparation:
+            "1. Meng bloem en eieren.\n" +
+            "2. Kneed tot een soepel deeg.\n" +
+            "3. Laat 20 minuten rusten.\n" +
+            "4. Rol het deeg dun uit.\n\n" +
+
+            "==============================\n" +
+            "PASTAVORMEN\n" +
+            "==============================\n" +
+            "5. Spaghetti, tagliatelle, pappardelle.\n" +
+            "6. Lasagnebladen.\n" +
+            "7. Farfalle, fusilli.\n" +
+            "8. Coquillettes, cavatelli.\n" +
+            "9. Orecchiette, gnocchetti.\n" +
+            "10. Maltagliati, ravioli, tortellini.\n\n" +
+
+            "==============================\n" +
+            "KOKEN\n" +
+            "==============================\n" +
+            "11. Kook 2–3 minuten en serveer direct."
+    },
+
+    ar: {
+        title: "تحضير المعكرونة الطازجة في المنزل",
+        equipment: [
+            "وعاء كبير",
+            "شوكة",
+            "سطح عمل",
+            "شوبك أو آلة معكرونة",
+            "سكين"
+        ],
+        ingredients: [
+            "400 غ دقيق",
+            "4 بيضات",
+            "رشة ملح"
+        ],
+        preparation:
+            "1. حضّر العجين واتركه يرتاح.\n" +
+            "2. افرد العجين.\n\n" +
+
+            "==============================\n" +
+            "أشكال المعكرونة\n" +
+            "==============================\n" +
+            "3. سباغيتي، تاغلياتيلي، بابارديل.\n" +
+            "4. لازانيا.\n" +
+            "5. فارفالي، فيوسيلي.\n" +
+            "6. كوكيلّيت، كافاتيلّي.\n" +
+            "7. أوريكيتّي، نيوكيتّي.\n" +
+            "8. مالتاغلياتي، رافيولي، تورتيلّيني.\n\n" +
+
+            "==============================\n" +
+            "الطهي\n" +
+            "==============================\n" +
+            "9. تُطهى 2–3 دقائق وتُقدّم مباشرة."
+    }
+};
+recipesData.plat.patesTomate = {
+    country: "italie",
+    image: "images/pates-tomate.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes à la sauce tomate classique",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "400 g de pâtes (spaghetti, penne ou fusilli)",
+            "500 g de tomates concassées",
+            "2 gousses d’ail hachées",
+            "3 cuillères à soupe d’huile d’olive",
+            "Quelques feuilles de basilic frais",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Ajouter les pâtes et cuire selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes en conservant une petite louche d’eau de cuisson.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE TOMATE\n" +
+            "==============================\n" +
+            "4. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "5. Ajouter l’ail haché et faire revenir 1 à 2 minutes sans coloration.\n" +
+            "6. Incorporer les tomates concassées, saler et poivrer.\n" +
+            "7. Laisser mijoter à feu doux 10 à 15 minutes.\n" +
+            "8. Ajouter le basilic frais ciselé en fin de cuisson.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "9. Ajouter les pâtes égouttées dans la sauce.\n" +
+            "10. Mélanger délicatement en ajoutant un peu d’eau de cuisson si nécessaire.\n" +
+            "11. Servir immédiatement.\n" +
+            "12. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Pasta with Classic Tomato Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 wooden spoon",
+            "1 colander",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "400 g pasta (spaghetti, penne or fusilli)",
+            "500 g chopped tomatoes",
+            "2 garlic cloves, chopped",
+            "3 tablespoons olive oil",
+            "A few fresh basil leaves",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook the pasta according to package instructions.\n" +
+            "3. Drain the pasta, reserving a little cooking water.\n\n" +
+
+            "==============================\n" +
+            "TOMATO SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "4. Heat olive oil in a pan over medium heat.\n" +
+            "5. Add garlic and sauté for 1–2 minutes.\n" +
+            "6. Add chopped tomatoes, salt and pepper.\n" +
+            "7. Simmer for 10–15 minutes.\n" +
+            "8. Stir in fresh basil at the end.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "9. Add pasta to the sauce.\n" +
+            "10. Toss gently, adding cooking water if needed.\n" +
+            "11. Serve immediately.\n" +
+            "12. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met klassieke tomatensaus",
+        equipment: [
+            "1 pan",
+            "1 kookpan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "400 g pasta (spaghetti, penne of fusilli)",
+            "500 g tomatenblokjes",
+            "2 teentjes knoflook, fijngehakt",
+            "3 eetlepels olijfolie",
+            "Enkele verse basilicumblaadjes",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Breng gezouten water aan de kook.\n" +
+            "2. Kook de pasta volgens de verpakking.\n" +
+            "3. Giet af en bewaar wat kookwater.\n\n" +
+
+            "==============================\n" +
+            "TOMATENSAUS BEREIDEN\n" +
+            "==============================\n" +
+            "4. Verhit de olijfolie.\n" +
+            "5. Bak de knoflook kort.\n" +
+            "6. Voeg tomaten, zout en peper toe.\n" +
+            "7. Laat 10–15 minuten sudderen.\n" +
+            "8. Voeg basilicum toe.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "9. Meng de pasta door de saus.\n" +
+            "10. Voeg indien nodig kookwater toe.\n" +
+            "11. Serveer direct.\n" +
+            "12. Bij het serveren kan iedereen naar wens geraspte parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بصلصة الطماطم الكلاسيكية",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "500 غ طماطم مفرومة",
+            "2 فص ثوم مفروم",
+            "3 ملاعق كبيرة زيت زيتون",
+            "أوراق ريحان طازجة",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اغلي الماء المملح.\n" +
+            "2. اطبخ الباستا حسب التعليمات.\n" +
+            "3. صفِّها واحتفظ بقليل من ماء الطهي.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة الطماطم\n" +
+            "==============================\n" +
+            "4. سخّن زيت الزيتون.\n" +
+            "5. أضف الثوم وقلّب قليلاً.\n" +
+            "6. أضف الطماطم والملح والفلفل.\n" +
+            "7. اتركها تطهى 10–15 دقيقة.\n" +
+            "8. أضف الريحان في النهاية.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "9. أضف الباستا إلى الصلصة.\n" +
+            "10. حرّك برفق مع إضافة ماء الطهي عند الحاجة.\n" +
+            "11. قدّم فوراً.\n" +
+            "12. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesBolognaise = {
+    country: "italie",
+    image: "images/pates-bolognaise.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes à la sauce bolognaise",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "400 g de pâtes",
+            "300 g de viande hachée (bœuf ou poulet)",
+            "500 g de tomates concassées",
+            "1 oignon haché",
+            "2 gousses d’ail hachées",
+            "1 carotte râpée",
+            "1 branche de céleri hachée",
+            "3 cuillères à soupe d’huile d’olive",
+            "1 feuille de laurier",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes et réserver.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE BOLOGNAISE\n" +
+            "==============================\n" +
+            "4. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "5. Ajouter l’oignon et l’ail, faire revenir 2 à 3 minutes.\n" +
+            "6. Ajouter la carotte et le céleri, cuire 3 minutes.\n" +
+            "7. Incorporer la viande hachée et cuire jusqu’à coloration.\n" +
+            "8. Ajouter les tomates concassées, le laurier, saler et poivrer.\n" +
+            "9. Laisser mijoter à feu doux 15 à 20 minutes.\n" +
+            "10. Retirer la feuille de laurier.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "11. Ajouter les pâtes dans la sauce.\n" +
+            "12. Mélanger délicatement.\n" +
+            "13. Servir immédiatement.\n" +
+            "14. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Pasta with Bolognese Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 wooden spoon",
+            "1 colander",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "300 g minced meat (beef or chicken)",
+            "500 g chopped tomatoes",
+            "1 onion, chopped",
+            "2 garlic cloves, chopped",
+            "1 grated carrot",
+            "1 celery stalk, chopped",
+            "3 tablespoons olive oil",
+            "1 bay leaf",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring salted water to a boil.\n" +
+            "2. Cook pasta according to package instructions.\n" +
+            "3. Drain and set aside.\n\n" +
+
+            "==============================\n" +
+            "BOLOGNESE SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "4. Heat olive oil in a pan.\n" +
+            "5. Sauté onion and garlic for 2–3 minutes.\n" +
+            "6. Add carrot and celery, cook briefly.\n" +
+            "7. Add minced meat and brown.\n" +
+            "8. Add tomatoes, bay leaf, salt and pepper.\n" +
+            "9. Simmer for 15–20 minutes.\n" +
+            "10. Remove bay leaf.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "11. Combine pasta with the sauce.\n" +
+            "12. Toss gently.\n" +
+            "13. Serve immediately.\n" +
+            "14. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met bolognesesaus",
+        equipment: [
+            "1 kookpan",
+            "1 pan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "300 g gehakt (rund of kip)",
+            "500 g tomatenblokjes",
+            "1 ui, gehakt",
+            "2 teentjes knoflook, gehakt",
+            "1 geraspte wortel",
+            "1 stengel selderij, gehakt",
+            "3 eetlepels olijfolie",
+            "1 laurierblad",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Breng gezouten water aan de kook.\n" +
+            "2. Kook de pasta volgens de verpakking.\n" +
+            "3. Giet af en zet opzij.\n\n" +
+
+            "==============================\n" +
+            "BOLOGNESESAUS BEREIDEN\n" +
+            "==============================\n" +
+            "4. Verhit olijfolie.\n" +
+            "5. Bak ui en knoflook.\n" +
+            "6. Voeg wortel en selderij toe.\n" +
+            "7. Voeg gehakt toe en bak rul.\n" +
+            "8. Voeg tomaten en kruiden toe.\n" +
+            "9. Laat 15–20 minuten sudderen.\n" +
+            "10. Verwijder laurierblad.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "11. Meng pasta en saus.\n" +
+            "12. Meng voorzichtig.\n" +
+            "13. Serveer direct.\n" +
+            "14. Bij het serveren kan iedereen naar wens geraspte parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بصلصة بولونيز",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "300 غ لحم مفروم (بقري أو دجاج)",
+            "500 غ طماطم مفرومة",
+            "1 بصلة مفرومة",
+            "2 فص ثوم مفروم",
+            "1 جزرة مبشورة",
+            "1 عود كرفس مفروم",
+            "3 ملاعق كبيرة زيت زيتون",
+            "1 ورقة غار",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اغلي الماء المملح.\n" +
+            "2. اطبخ الباستا حسب التعليمات.\n" +
+            "3. صفِّها واتركها جانباً.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة البولونيز\n" +
+            "==============================\n" +
+            "4. سخّن زيت الزيتون.\n" +
+            "5. أضف البصل والثوم.\n" +
+            "6. أضف الجزر والكرفس.\n" +
+            "7. أضف اللحم واطبخ حتى يتحمّر.\n" +
+            "8. أضف الطماطم وورقة الغار.\n" +
+            "9. اتركها تطهى 15–20 دقيقة.\n" +
+            "10. أزل ورقة الغار.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "11. أضف الباستا إلى الصلصة.\n" +
+            "12. اخلط برفق.\n" +
+            "13. قدّم فوراً.\n" +
+            "14. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesFromage = {
+    country: "italie",
+    image: "images/pates-fromage.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes à la sauce fromage",
+        equipment: [
+            "1 casserole",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 bol",
+            "1 fouet"
+        ],
+        ingredients: [
+            "400 g de pâtes",
+            "200 ml de crème liquide",
+            "100 g de fromage râpé (parmesan, emmental ou mozzarella)",
+            "1 pincée de noix de muscade",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter et réserver.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE FROMAGE\n" +
+            "==============================\n" +
+            "4. Chauffer la crème à feu doux.\n" +
+            "5. Ajouter le fromage progressivement en fouettant.\n" +
+            "6. Incorporer la noix de muscade.\n" +
+            "7. Mélanger jusqu’à obtention d’une sauce onctueuse.\n" +
+            "8. Saler et poivrer.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "9. Ajouter les pâtes à la sauce.\n" +
+            "10. Mélanger délicatement.\n" +
+            "11. Servir immédiatement.\n" +
+            "12. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Pasta with Cheese Sauce",
+        equipment: [
+            "1 pot",
+            "1 wooden spoon",
+            "1 colander",
+            "1 bowl",
+            "1 whisk"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "200 ml cream",
+            "100 g grated cheese (parmesan, emmental or mozzarella)",
+            "1 pinch of nutmeg",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Boil salted water.\n" +
+            "2. Cook pasta according to instructions.\n" +
+            "3. Drain and set aside.\n\n" +
+
+            "==============================\n" +
+            "CHEESE SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "4. Heat the cream gently.\n" +
+            "5. Add grated cheese gradually while whisking.\n" +
+            "6. Add nutmeg.\n" +
+            "7. Stir until smooth.\n" +
+            "8. Season with salt and pepper.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "9. Combine pasta with sauce.\n" +
+            "10. Toss gently.\n" +
+            "11. Serve immediately.\n" +
+            "12. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met kaassaus",
+        equipment: [
+            "1 kookpan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 kom",
+            "1 garde"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "200 ml room",
+            "100 g geraspte kaas (parmezaan, emmentaler of mozzarella)",
+            "1 snufje nootmuskaat",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Kook de pasta in gezouten water.\n" +
+            "2. Giet af en zet opzij.\n\n" +
+
+            "==============================\n" +
+            "KAASSAUS BEREIDEN\n" +
+            "==============================\n" +
+            "3. Verwarm de room zachtjes.\n" +
+            "4. Voeg kaas geleidelijk toe.\n" +
+            "5. Voeg nootmuskaat toe.\n" +
+            "6. Roer tot glad.\n" +
+            "7. Breng op smaak.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "8. Meng pasta en saus.\n" +
+            "9. Serveer direct.\n" +
+            "10. Bij het serveren kan iedereen naar wens geraspte parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بصلصة الجبن",
+        equipment: [
+            "قدر",
+            "ملعقة خشبية",
+            "مصفاة",
+            "وعاء",
+            "خفاق"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "200 مل كريمة سائلة",
+            "100 غ جبن مبشور",
+            "رشة جوزة الطيب",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اطبخ الباستا في ماء مملح.\n" +
+            "2. صفِّها واتركها جانباً.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة الجبن\n" +
+            "==============================\n" +
+            "3. سخّن الكريمة برفق.\n" +
+            "4. أضف الجبن تدريجياً.\n" +
+            "5. أضف جوزة الطيب.\n" +
+            "6. حرّك حتى تصبح ناعمة.\n" +
+            "7. تبّل حسب الذوق.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "8. أضف الباستا إلى الصلصة.\n" +
+            "9. اخلط برفق.\n" +
+            "10. قدّم فوراً.\n" +
+            "11. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesQuatreFromages = {
+    country: "italie",
+    image: "images/pates-quatre-fromages.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes à la sauce quatre fromages",
+        equipment: [
+            "1 casserole",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 bol",
+            "1 fouet"
+        ],
+        ingredients: [
+            "400 g de pâtes",
+            "200 ml de crème liquide",
+            "40 g de parmesan râpé",
+            "40 g d’emmental râpé",
+            "40 g de mozzarella râpée",
+            "40 g de fromage bleu émietté",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes et réserver.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE QUATRE FROMAGES\n" +
+            "==============================\n" +
+            "4. Verser la crème liquide dans une casserole et chauffer à feu doux.\n" +
+            "5. Ajouter successivement le parmesan, l’emmental, la mozzarella et le fromage bleu.\n" +
+            "6. Mélanger doucement jusqu’à obtenir une sauce lisse et fondante.\n" +
+            "7. Saler légèrement et poivrer selon le goût.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "8. Ajouter les pâtes égouttées dans la sauce.\n" +
+            "9. Mélanger délicatement pour bien enrober les pâtes.\n" +
+            "10. Servir immédiatement.\n" +
+            "11. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Pasta with Four Cheese Sauce",
+        equipment: [
+            "1 pot",
+            "1 wooden spoon",
+            "1 colander",
+            "1 bowl",
+            "1 whisk"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "200 ml cream",
+            "40 g grated parmesan",
+            "40 g grated emmental",
+            "40 g grated mozzarella",
+            "40 g crumbled blue cheese",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook the pasta according to package instructions.\n" +
+            "3. Drain and set aside.\n\n" +
+
+            "==============================\n" +
+            "FOUR CHEESE SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "4. Heat the cream gently in a pot.\n" +
+            "5. Add parmesan, emmental, mozzarella and blue cheese gradually.\n" +
+            "6. Stir until the sauce becomes smooth and creamy.\n" +
+            "7. Season lightly with salt and pepper.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "8. Add pasta to the sauce.\n" +
+            "9. Toss gently until well coated.\n" +
+            "10. Serve immediately.\n" +
+            "11. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met vier kazensaus",
+        equipment: [
+            "1 kookpan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 kom",
+            "1 garde"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "200 ml room",
+            "40 g geraspte parmezaan",
+            "40 g geraspte emmentaler",
+            "40 g geraspte mozzarella",
+            "40 g verkruimelde blauwe kaas",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Kook de pasta in ruim gezouten water.\n" +
+            "2. Giet af en zet opzij.\n\n" +
+
+            "==============================\n" +
+            "VIER KAZENSAUS BEREIDEN\n" +
+            "==============================\n" +
+            "3. Verwarm de room op laag vuur.\n" +
+            "4. Voeg de kazen één voor één toe.\n" +
+            "5. Roer tot een romige saus ontstaat.\n" +
+            "6. Breng licht op smaak met zout en peper.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "7. Meng de pasta door de saus.\n" +
+            "8. Meng voorzichtig.\n" +
+            "9. Serveer direct.\n" +
+            "10. Bij het serveren kan iedereen naar wens extra parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بصلصة أربعة أجبان",
+        equipment: [
+            "قدر",
+            "ملعقة خشبية",
+            "مصفاة",
+            "وعاء",
+            "خفاق"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "200 مل كريمة سائلة",
+            "40 غ جبن بارميزان مبشور",
+            "40 غ جبن إمنتال مبشور",
+            "40 غ جبن موزاريلا مبشور",
+            "40 غ جبن أزرق مفتت",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اطبخ الباستا في ماء مملح حتى تنضج.\n" +
+            "2. صفِّها واتركها جانباً.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة الأربعة أجبان\n" +
+            "==============================\n" +
+            "3. سخّن الكريمة على نار هادئة.\n" +
+            "4. أضف الأجبان تدريجياً مع التحريك.\n" +
+            "5. استمر في التحريك حتى تصبح الصلصة ناعمة.\n" +
+            "6. تبّل بالملح والفلفل حسب الذوق.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "7. أضف الباستا إلى الصلصة.\n" +
+            "8. اخلط برفق حتى تتغطى جيداً.\n" +
+            "9. قدّم فوراً.\n" +
+            "10. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesAlfredo = {
+    country: "italie",
+    image: "images/pates-alfredo.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes à la sauce Alfredo",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 passoire"
+        ],
+        ingredients: [
+            "400 g de pâtes",
+            "200 ml de crème liquide",
+            "50 g de beurre",
+            "100 g de parmesan râpé",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes et réserver.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE ALFREDO\n" +
+            "==============================\n" +
+            "4. Faire fondre le beurre à feu doux dans une poêle.\n" +
+            "5. Ajouter la crème liquide et mélanger doucement.\n" +
+            "6. Incorporer le parmesan râpé en remuant jusqu’à obtenir une sauce onctueuse.\n" +
+            "7. Saler et poivrer selon le goût.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "8. Ajouter les pâtes égouttées dans la sauce.\n" +
+            "9. Mélanger délicatement pour bien enrober les pâtes.\n" +
+            "10. Servir immédiatement.\n" +
+            "11. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Pasta with Alfredo Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 wooden spoon",
+            "1 colander"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "200 ml cream",
+            "50 g butter",
+            "100 g grated parmesan",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook the pasta according to package instructions.\n" +
+            "3. Drain and set aside.\n\n" +
+
+            "==============================\n" +
+            "ALFREDO SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "4. Melt the butter gently in a pan.\n" +
+            "5. Add the cream and stir slowly.\n" +
+            "6. Stir in the grated parmesan until smooth and creamy.\n" +
+            "7. Season with salt and pepper.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "8. Add pasta to the sauce.\n" +
+            "9. Toss gently to coat evenly.\n" +
+            "10. Serve immediately.\n" +
+            "11. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met Alfredo-saus",
+        equipment: [
+            "1 kookpan",
+            "1 pan",
+            "1 houten lepel",
+            "1 vergiet"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "200 ml room",
+            "50 g boter",
+            "100 g geraspte parmezaan",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Kook de pasta in ruim gezouten water.\n" +
+            "2. Giet af en zet opzij.\n\n" +
+
+            "==============================\n" +
+            "ALFREDOSAUS BEREIDEN\n" +
+            "==============================\n" +
+            "3. Smelt de boter op laag vuur.\n" +
+            "4. Voeg de room toe en roer rustig.\n" +
+            "5. Meng de geraspte parmezaan erdoor tot een romige saus ontstaat.\n" +
+            "6. Breng op smaak met zout en peper.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "7. Meng de pasta door de saus.\n" +
+            "8. Meng voorzichtig.\n" +
+            "9. Serveer direct.\n" +
+            "10. Bij het serveren kan iedereen naar wens extra parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بصلصة ألفريدو",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مصفاة"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "200 مل كريمة سائلة",
+            "50 غ زبدة",
+            "100 غ جبن بارميزان مبشور",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اطبخ الباستا في ماء مملح حتى تنضج.\n" +
+            "2. صفِّها واتركها جانباً.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة ألفريدو\n" +
+            "==============================\n" +
+            "3. ذوّب الزبدة على نار هادئة.\n" +
+            "4. أضف الكريمة وحرّك بلطف.\n" +
+            "5. أضف جبن البارميزان المبشور تدريجياً حتى تصبح الصلصة ناعمة.\n" +
+            "6. تبّل بالملح والفلفل حسب الذوق.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "7. أضف الباستا إلى الصلصة.\n" +
+            "8. اخلط برفق حتى تتغطى جيداً.\n" +
+            "9. قدّم فوراً.\n" +
+            "10. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesPesto = {
+    country: "italie",
+    image: "images/pates-pesto.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes au pesto",
+        equipment: [
+            "1 casserole",
+            "1 mixeur ou mortier",
+            "1 cuillère en bois",
+            "1 passoire"
+        ],
+        ingredients: [
+            "400 g de pâtes",
+            "50 g de basilic frais",
+            "50 g de parmesan râpé",
+            "30 g de pignons de pin",
+            "2 gousses d’ail",
+            "100 ml d’huile d’olive",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes en conservant un peu d’eau de cuisson.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DU PESTO\n" +
+            "==============================\n" +
+            "4. Placer le basilic, l’ail, les pignons de pin et le parmesan dans un mixeur ou un mortier.\n" +
+            "5. Mixer ou écraser en ajoutant l’huile d’olive progressivement jusqu’à obtenir une sauce homogène.\n" +
+            "6. Saler et poivrer selon le goût.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "7. Ajouter le pesto aux pâtes égouttées hors du feu.\n" +
+            "8. Mélanger délicatement, en ajoutant un peu d’eau de cuisson si nécessaire.\n" +
+            "9. Servir immédiatement.\n" +
+            "10. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Pasta with Pesto Sauce",
+        equipment: [
+            "1 pot",
+            "1 blender or mortar",
+            "1 wooden spoon",
+            "1 colander"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "50 g fresh basil",
+            "50 g grated parmesan",
+            "30 g pine nuts",
+            "2 garlic cloves",
+            "100 ml olive oil",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook the pasta according to package instructions.\n" +
+            "3. Drain, reserving a little cooking water.\n\n" +
+
+            "==============================\n" +
+            "PESTO PREPARATION\n" +
+            "==============================\n" +
+            "4. Place basil, garlic, pine nuts and parmesan in a blender or mortar.\n" +
+            "5. Blend while gradually adding olive oil until smooth.\n" +
+            "6. Season with salt and pepper.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "7. Add pesto to the drained pasta off the heat.\n" +
+            "8. Toss gently, adding a little pasta water if needed.\n" +
+            "9. Serve immediately.\n" +
+            "10. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met pestosaus",
+        equipment: [
+            "1 kookpan",
+            "1 blender of vijzel",
+            "1 houten lepel",
+            "1 vergiet"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "50 g verse basilicum",
+            "50 g geraspte parmezaan",
+            "30 g pijnboompitten",
+            "2 teentjes knoflook",
+            "100 ml olijfolie",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Breng ruim gezouten water aan de kook.\n" +
+            "2. Kook de pasta volgens de verpakking.\n" +
+            "3. Giet af en bewaar wat kookwater.\n\n" +
+
+            "==============================\n" +
+            "PESTOSAUS BEREIDEN\n" +
+            "==============================\n" +
+            "4. Doe basilicum, knoflook, pijnboompitten en parmezaan in een blender of vijzel.\n" +
+            "5. Voeg geleidelijk olijfolie toe tot een gladde saus ontstaat.\n" +
+            "6. Breng op smaak met zout en peper.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "7. Meng de pesto door de pasta van het vuur af.\n" +
+            "8. Voeg eventueel wat kookwater toe.\n" +
+            "9. Serveer direct.\n" +
+            "10. Bij het serveren kan iedereen naar wens extra parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بصلصة البيستو",
+        equipment: [
+            "قدر",
+            "خلاط أو مدقة",
+            "ملعقة خشبية",
+            "مصفاة"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "50 غ ريحان طازج",
+            "50 غ جبن بارميزان مبشور",
+            "30 غ صنوبر",
+            "2 فص ثوم",
+            "100 مل زيت زيتون",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اطبخ الباستا في ماء مملح حتى تنضج.\n" +
+            "2. صفِّها واحتفظ بقليل من ماء الطهي.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة البيستو\n" +
+            "==============================\n" +
+            "3. ضع الريحان، الثوم، الصنوبر والجبن في الخلاط أو المدقة.\n" +
+            "4. أضف زيت الزيتون تدريجياً حتى تحصل على صلصة ناعمة.\n" +
+            "5. تبّل بالملح والفلفل.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "6. أضف صلصة البيستو إلى الباستا خارج النار.\n" +
+            "7. اخلط برفق مع إضافة قليل من ماء الطهي عند الحاجة.\n" +
+            "8. قدّم فوراً.\n" +
+            "9. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesArrabiata = {
+    country: "italie",
+    image: "images/pates-arrabiata.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes à la sauce arrabiata",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 passoire"
+        ],
+        ingredients: [
+            "400 g de pâtes",
+            "500 g de tomates concassées",
+            "2 gousses d’ail hachées",
+            "3 cuillères à soupe d’huile d’olive",
+            "1 piment rouge émincé",
+            "Sel et poivre",
+            "Quelques feuilles de persil frais"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes et réserver.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE ARRABIATA\n" +
+            "==============================\n" +
+            "4. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "5. Ajouter l’ail et le piment, faire revenir 1 à 2 minutes sans coloration excessive.\n" +
+            "6. Incorporer les tomates concassées, saler et poivrer.\n" +
+            "7. Laisser mijoter à feu doux 10 à 15 minutes.\n" +
+            "8. Ajouter le persil frais haché en fin de cuisson.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "9. Ajouter les pâtes égouttées dans la sauce.\n" +
+            "10. Mélanger délicatement pour bien enrober les pâtes.\n" +
+            "11. Servir immédiatement.\n" +
+            "12. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Pasta with Arrabbiata Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 wooden spoon",
+            "1 colander"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "500 g chopped tomatoes",
+            "2 garlic cloves, chopped",
+            "3 tablespoons olive oil",
+            "1 red chili, finely sliced",
+            "Salt and pepper",
+            "A few fresh parsley leaves"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook the pasta according to package instructions.\n" +
+            "3. Drain and set aside.\n\n" +
+
+            "==============================\n" +
+            "ARRABBIATA SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "4. Heat olive oil in a pan over medium heat.\n" +
+            "5. Add garlic and chili, sauté for 1–2 minutes without browning too much.\n" +
+            "6. Add chopped tomatoes, season with salt and pepper.\n" +
+            "7. Simmer gently for 10–15 minutes.\n" +
+            "8. Stir in chopped parsley at the end.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "9. Add pasta to the sauce.\n" +
+            "10. Toss gently to coat evenly.\n" +
+            "11. Serve immediately.\n" +
+            "12. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met arrabbiatasaus",
+        equipment: [
+            "1 kookpan",
+            "1 pan",
+            "1 houten lepel",
+            "1 vergiet"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "500 g tomatenblokjes",
+            "2 teentjes knoflook, fijngehakt",
+            "3 eetlepels olijfolie",
+            "1 rode chilipeper, fijn gesneden",
+            "Zout en peper",
+            "Enkele verse peterselieblaadjes"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Breng ruim gezouten water aan de kook.\n" +
+            "2. Kook de pasta volgens de verpakking.\n" +
+            "3. Giet af en zet opzij.\n\n" +
+
+            "==============================\n" +
+            "ARRABBIATASAUS BEREIDEN\n" +
+            "==============================\n" +
+            "4. Verhit olijfolie in een pan.\n" +
+            "5. Bak knoflook en chili 1–2 minuten.\n" +
+            "6. Voeg tomaten, zout en peper toe.\n" +
+            "7. Laat 10–15 minuten zachtjes sudderen.\n" +
+            "8. Voeg peterselie toe aan het einde.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "9. Meng de pasta door de saus.\n" +
+            "10. Meng voorzichtig.\n" +
+            "11. Serveer direct.\n" +
+            "12. Bij het serveren kan iedereen naar wens extra parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بصلصة أرابياتا",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مصفاة"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "500 غ طماطم مفرومة",
+            "2 فص ثوم مفروم",
+            "3 ملاعق كبيرة زيت زيتون",
+            "1 فلفل أحمر حار مقطع",
+            "ملح وفلفل",
+            "بعض أوراق البقدونس الطازج"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اطبخ الباستا في ماء مملح حتى تنضج.\n" +
+            "2. صفِّها واتركها جانباً.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة الأرابياتا\n" +
+            "==============================\n" +
+            "3. سخّن زيت الزيتون في مقلاة.\n" +
+            "4. أضف الثوم والفلفل وقلّب 1–2 دقيقة.\n" +
+            "5. أضف الطماطم والملح والفلفل.\n" +
+            "6. اتركها تطهى بهدوء 10–15 دقيقة.\n" +
+            "7. أضف البقدونس في النهاية.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "8. أضف الباستا إلى الصلصة.\n" +
+            "9. اخلط برفق حتى تتغطى جيداً.\n" +
+            "10. قدّم فوراً.\n" +
+            "11. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesPuttanesca = {
+    country: "italie",
+    image: "images/pates-puttanesca.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes à la sauce puttanesca",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "400 g de pâtes",
+            "500 g de tomates concassées",
+            "2 gousses d’ail hachées",
+            "3 cuillères à soupe d’huile d’olive",
+            "100 g d’olives noires dénoyautées",
+            "1 cuillère à soupe de câpres",
+            "1 pincée de piment",
+            "Sel et poivre",
+            "Quelques feuilles de persil frais"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes et réserver.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE PUTTANESCA\n" +
+            "==============================\n" +
+            "4. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "5. Ajouter l’ail et le piment, faire revenir 1 à 2 minutes sans coloration excessive.\n" +
+            "6. Incorporer les tomates concassées, les olives et les câpres.\n" +
+            "7. Saler, poivrer et laisser mijoter à feu doux 10 à 15 minutes.\n" +
+            "8. Ajouter le persil frais haché en fin de cuisson.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "9. Ajouter les pâtes égouttées dans la sauce.\n" +
+            "10. Mélanger délicatement pour bien enrober les pâtes.\n" +
+            "11. Servir immédiatement.\n" +
+            "12. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Pasta with Puttanesca Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 wooden spoon",
+            "1 colander",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "500 g chopped tomatoes",
+            "2 garlic cloves, chopped",
+            "3 tablespoons olive oil",
+            "100 g pitted black olives",
+            "1 tablespoon capers",
+            "1 pinch of chili flakes",
+            "Salt and pepper",
+            "A few fresh parsley leaves"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook the pasta according to package instructions.\n" +
+            "3. Drain and set aside.\n\n" +
+
+            "==============================\n" +
+            "PUTTANESCA SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "4. Heat olive oil in a pan over medium heat.\n" +
+            "5. Add garlic and chili, sauté for 1–2 minutes.\n" +
+            "6. Add chopped tomatoes, olives and capers.\n" +
+            "7. Season with salt and pepper and simmer for 10–15 minutes.\n" +
+            "8. Stir in chopped parsley at the end.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "9. Add pasta to the sauce.\n" +
+            "10. Toss gently until well coated.\n" +
+            "11. Serve immediately.\n" +
+            "12. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met puttanesca-saus",
+        equipment: [
+            "1 kookpan",
+            "1 pan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "500 g tomatenblokjes",
+            "2 teentjes knoflook, fijngehakt",
+            "3 eetlepels olijfolie",
+            "100 g ontpitte zwarte olijven",
+            "1 eetlepel kappertjes",
+            "1 snufje chili",
+            "Zout en peper",
+            "Enkele verse peterselieblaadjes"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Breng ruim gezouten water aan de kook.\n" +
+            "2. Kook de pasta volgens de verpakking.\n" +
+            "3. Giet af en zet opzij.\n\n" +
+
+            "==============================\n" +
+            "PUTTANESCASAUS BEREIDEN\n" +
+            "==============================\n" +
+            "4. Verhit olijfolie in een pan.\n" +
+            "5. Bak knoflook en chili 1–2 minuten.\n" +
+            "6. Voeg tomaten, olijven en kappertjes toe.\n" +
+            "7. Laat 10–15 minuten zachtjes sudderen.\n" +
+            "8. Voeg peterselie toe aan het einde.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "9. Meng de pasta door de saus.\n" +
+            "10. Meng voorzichtig.\n" +
+            "11. Serveer direct.\n" +
+            "12. Bij het serveren kan iedereen naar wens extra parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بصلصة بوتانيسكا",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "500 غ طماطم مفرومة",
+            "2 فص ثوم مفروم",
+            "3 ملاعق كبيرة زيت زيتون",
+            "100 غ زيتون أسود منزوع النواة",
+            "1 ملعقة كبيرة كبر",
+            "رشة فلفل حار",
+            "ملح وفلفل",
+            "بعض أوراق البقدونس الطازج"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اطبخ الباستا في ماء مملح حتى تنضج.\n" +
+            "2. صفِّها واتركها جانباً.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة بوتانيسكا\n" +
+            "==============================\n" +
+            "3. سخّن زيت الزيتون في مقلاة.\n" +
+            "4. أضف الثوم والفلفل وقلّب 1–2 دقيقة.\n" +
+            "5. أضف الطماطم والزيتون والكبر.\n" +
+            "6. تبّل واتركها تطهى 10–15 دقيقة.\n" +
+            "7. أضف البقدونس في النهاية.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "8. أضف الباستا إلى الصلصة.\n" +
+            "9. اخلط برفق حتى تتغطى جيداً.\n" +
+            "10. قدّم فوراً.\n" +
+            "11. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesPuttanescaAnchois = {
+    country: "italie",
+    image: "images/pates-puttanesca-anchois.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes à la sauce puttanesca traditionnelle",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "400 g de pâtes",
+            "500 g de tomates concassées",
+            "2 gousses d’ail hachées",
+            "3 cuillères à soupe d’huile d’olive",
+            "50 g d’anchois en conserve, égouttés",
+            "100 g d’olives noires dénoyautées",
+            "1 cuillère à soupe de câpres",
+            "1 pincée de piment",
+            "Sel et poivre",
+            "Quelques feuilles de persil frais"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes et réserver.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE PUTTANESCA\n" +
+            "==============================\n" +
+            "4. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "5. Ajouter l’ail et le piment, faire revenir 1 à 2 minutes.\n" +
+            "6. Incorporer les anchois et les laisser fondre doucement.\n" +
+            "7. Ajouter les tomates concassées, les olives et les câpres.\n" +
+            "8. Saler, poivrer et laisser mijoter à feu doux 10 à 15 minutes.\n" +
+            "9. Ajouter le persil frais haché en fin de cuisson.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "10. Ajouter les pâtes égouttées dans la sauce.\n" +
+            "11. Mélanger délicatement pour bien enrober les pâtes.\n" +
+            "12. Servir immédiatement.\n" +
+            "13. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Pasta with Traditional Puttanesca Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 wooden spoon",
+            "1 colander",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "500 g chopped tomatoes",
+            "2 garlic cloves, chopped",
+            "3 tablespoons olive oil",
+            "50 g canned anchovies, drained",
+            "100 g pitted black olives",
+            "1 tablespoon capers",
+            "1 pinch of chili flakes",
+            "Salt and pepper",
+            "A few fresh parsley leaves"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook the pasta according to package instructions.\n" +
+            "3. Drain and set aside.\n\n" +
+
+            "==============================\n" +
+            "PUTTANESCA SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "4. Heat olive oil in a pan over medium heat.\n" +
+            "5. Add garlic and chili, sauté for 1–2 minutes.\n" +
+            "6. Add anchovies and let them melt into the oil.\n" +
+            "7. Stir in chopped tomatoes, olives and capers.\n" +
+            "8. Season with salt and pepper and simmer for 10–15 minutes.\n" +
+            "9. Add chopped parsley at the end.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "10. Add pasta to the sauce.\n" +
+            "11. Toss gently until well coated.\n" +
+            "12. Serve immediately.\n" +
+            "13. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met traditionele puttanesca-saus",
+        equipment: [
+            "1 kookpan",
+            "1 pan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "500 g tomatenblokjes",
+            "2 teentjes knoflook, fijngehakt",
+            "3 eetlepels olijfolie",
+            "50 g ansjovis uit blik, uitgelekt",
+            "100 g ontpitte zwarte olijven",
+            "1 eetlepel kappertjes",
+            "1 snufje chili",
+            "Zout en peper",
+            "Enkele verse peterselieblaadjes"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Breng ruim gezouten water aan de kook.\n" +
+            "2. Kook de pasta volgens de verpakking.\n" +
+            "3. Giet af en zet opzij.\n\n" +
+
+            "==============================\n" +
+            "PUTTANESCASAUS BEREIDEN\n" +
+            "==============================\n" +
+            "4. Verhit olijfolie in een pan.\n" +
+            "5. Bak knoflook en chili 1–2 minuten.\n" +
+            "6. Voeg ansjovis toe en laat oplossen.\n" +
+            "7. Voeg tomaten, olijven en kappertjes toe.\n" +
+            "8. Laat 10–15 minuten zachtjes sudderen.\n" +
+            "9. Voeg peterselie toe aan het einde.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "10. Meng de pasta door de saus.\n" +
+            "11. Meng voorzichtig.\n" +
+            "12. Serveer direct.\n" +
+            "13. Bij het serveren kan iedereen naar wens parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بصلصة بوتانيسكا التقليدية",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "500 غ طماطم مفرومة",
+            "2 فص ثوم مفروم",
+            "3 ملاعق كبيرة زيت زيتون",
+            "50 غ أنشوجة معلبة، مصفاة",
+            "100 غ زيتون أسود منزوع النواة",
+            "1 ملعقة كبيرة كبر",
+            "رشة فلفل حار",
+            "ملح وفلفل",
+            "بعض أوراق البقدونس الطازج"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اطبخ الباستا في ماء مملح حتى تنضج.\n" +
+            "2. صفِّها واتركها جانباً.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة بوتانيسكا\n" +
+            "==============================\n" +
+            "3. سخّن زيت الزيتون في مقلاة.\n" +
+            "4. أضف الثوم والفلفل وقلّب 1–2 دقيقة.\n" +
+            "5. أضف الأنشوجة واتركها تذوب.\n" +
+            "6. أضف الطماطم والزيتون والكبر.\n" +
+            "7. تبّل واتركها تطهى 10–15 دقيقة.\n" +
+            "8. أضف البقدونس في النهاية.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "9. أضف الباستا إلى الصلصة.\n" +
+            "10. اخلط برفق حتى تتغطى جيداً.\n" +
+            "11. قدّم فوراً.\n" +
+            "12. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesTomateBasilic = {
+    country: "italie",
+    image: "images/pates-tomate-basilic.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes à la sauce tomate et basilic",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "400 g de pâtes",
+            "500 g de tomates concassées",
+            "2 gousses d’ail hachées",
+            "3 cuillères à soupe d’huile d’olive",
+            "Quelques feuilles de basilic frais",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes et réserver.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE TOMATE AU BASILIC\n" +
+            "==============================\n" +
+            "4. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "5. Ajouter l’ail haché et faire revenir 1 à 2 minutes sans coloration.\n" +
+            "6. Incorporer les tomates concassées, saler et poivrer.\n" +
+            "7. Laisser mijoter à feu doux 10 à 15 minutes.\n" +
+            "8. Ajouter le basilic frais ciselé en fin de cuisson.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "9. Ajouter les pâtes égouttées dans la sauce.\n" +
+            "10. Mélanger délicatement pour bien enrober les pâtes.\n" +
+            "11. Servir immédiatement.\n" +
+            "12. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Pasta with Tomato and Basil Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 wooden spoon",
+            "1 colander",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "500 g chopped tomatoes",
+            "2 garlic cloves, chopped",
+            "3 tablespoons olive oil",
+            "A few fresh basil leaves",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook the pasta according to package instructions.\n" +
+            "3. Drain and set aside.\n\n" +
+
+            "==============================\n" +
+            "TOMATO AND BASIL SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "4. Heat olive oil in a pan over medium heat.\n" +
+            "5. Add garlic and sauté for 1–2 minutes without browning.\n" +
+            "6. Add chopped tomatoes, salt and pepper.\n" +
+            "7. Simmer gently for 10–15 minutes.\n" +
+            "8. Stir in fresh chopped basil at the end.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "9. Add pasta to the sauce.\n" +
+            "10. Toss gently until well coated.\n" +
+            "11. Serve immediately.\n" +
+            "12. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met tomaten-basilicumsaus",
+        equipment: [
+            "1 kookpan",
+            "1 pan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "500 g tomatenblokjes",
+            "2 teentjes knoflook, fijngehakt",
+            "3 eetlepels olijfolie",
+            "Enkele verse basilicumblaadjes",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Breng ruim gezouten water aan de kook.\n" +
+            "2. Kook de pasta volgens de verpakking.\n" +
+            "3. Giet af en zet opzij.\n\n" +
+
+            "==============================\n" +
+            "TOMAAT-BASILICUMSAUS BEREIDEN\n" +
+            "==============================\n" +
+            "4. Verhit olijfolie in een pan.\n" +
+            "5. Bak knoflook 1–2 minuten.\n" +
+            "6. Voeg tomaten, zout en peper toe.\n" +
+            "7. Laat 10–15 minuten zachtjes sudderen.\n" +
+            "8. Voeg basilicum toe aan het einde.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "9. Meng de pasta door de saus.\n" +
+            "10. Meng voorzichtig.\n" +
+            "11. Serveer direct.\n" +
+            "12. Bij het serveren kan iedereen naar wens parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بصلصة الطماطم والريحان",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "500 غ طماطم مفرومة",
+            "2 فص ثوم مفروم",
+            "3 ملاعق كبيرة زيت زيتون",
+            "بعض أوراق الريحان الطازج",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اطبخ الباستا في ماء مملح حتى تنضج.\n" +
+            "2. صفِّها واتركها جانباً.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة الطماطم والريحان\n" +
+            "==============================\n" +
+            "3. سخّن زيت الزيتون في مقلاة.\n" +
+            "4. أضف الثوم وقلّب 1–2 دقيقة.\n" +
+            "5. أضف الطماطم والملح والفلفل.\n" +
+            "6. اتركها تطهى بهدوء 10–15 دقيقة.\n" +
+            "7. أضف الريحان في النهاية.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "8. أضف الباستا إلى الصلصة.\n" +
+            "9. اخلط برفق حتى تتغطى جيداً.\n" +
+            "10. قدّم فوراً.\n" +
+            "11. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesScampiAil = {
+    country: "italie",
+    image: "images/pates-scampi-ail.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes aux scampis à l’ail",
+        equipment: [
+            "1 casserole",
+            "1 grande poêle",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "400 g de pâtes",
+            "500 g de scampis crus, décortiqués",
+            "3 gousses d’ail hachées",
+            "4 cuillères à soupe d’huile d’olive",
+            "Sel et poivre",
+            "Quelques feuilles de persil frais"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes en conservant un peu d’eau de cuisson.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DES SCAMPIS À L’AIL\n" +
+            "==============================\n" +
+            "4. Chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "5. Ajouter l’ail haché et faire revenir 1 minute sans coloration.\n" +
+            "6. Ajouter les scampis et les faire cuire 2 à 3 minutes de chaque côté jusqu’à ce qu’ils soient rosés.\n" +
+            "7. Saler et poivrer selon le goût.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "8. Ajouter les pâtes égouttées dans la poêle avec les scampis.\n" +
+            "9. Mélanger délicatement en ajoutant un peu d’eau de cuisson si nécessaire.\n" +
+            "10. Parsemer de persil frais haché.\n" +
+            "11. Servir immédiatement.\n" +
+            "12. Au moment de servir, chacun peut, selon ses envies, ajouter du parmesan râpé ou un autre fromage râpé de son choix, en quantité adaptée à ses goûts."
+    },
+
+    en: {
+        title: "Garlic Scampi Pasta",
+        equipment: [
+            "1 pot",
+            "1 large pan",
+            "1 wooden spoon",
+            "1 colander",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "500 g raw scampi, peeled",
+            "3 garlic cloves, chopped",
+            "4 tablespoons olive oil",
+            "Salt and pepper",
+            "A few fresh parsley leaves"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook pasta according to package instructions.\n" +
+            "3. Drain, reserving a little cooking water.\n\n" +
+
+            "==============================\n" +
+            "GARLIC SCAMPI PREPARATION\n" +
+            "==============================\n" +
+            "4. Heat olive oil in a large pan over medium heat.\n" +
+            "5. Add garlic and sauté for 1 minute without browning.\n" +
+            "6. Add scampi and cook 2–3 minutes per side until pink.\n" +
+            "7. Season with salt and pepper.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "8. Add pasta to the pan with the scampi.\n" +
+            "9. Toss gently, adding a little pasta water if needed.\n" +
+            "10. Sprinkle with chopped parsley.\n" +
+            "11. Serve immediately.\n" +
+            "12. When serving, everyone may add grated parmesan or another grated cheese of their choice, in the desired amount."
+    },
+
+    nl: {
+        title: "Pasta met scampi en knoflook",
+        equipment: [
+            "1 kookpan",
+            "1 grote pan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "400 g pasta",
+            "500 g rauwe scampi, gepeld",
+            "3 teentjes knoflook, fijngehakt",
+            "4 eetlepels olijfolie",
+            "Zout en peper",
+            "Enkele verse peterselieblaadjes"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Breng ruim gezouten water aan de kook.\n" +
+            "2. Kook de pasta volgens de verpakking.\n" +
+            "3. Giet af en bewaar wat kookwater.\n\n" +
+
+            "==============================\n" +
+            "SCAMPI MET KNOFLOOK BEREIDEN\n" +
+            "==============================\n" +
+            "4. Verhit olijfolie in een grote pan.\n" +
+            "5. Bak knoflook 1 minuut zonder te kleuren.\n" +
+            "6. Voeg de scampi toe en bak ze 2–3 minuten per kant tot ze roze zijn.\n" +
+            "7. Breng op smaak met zout en peper.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "8. Voeg de pasta toe aan de pan.\n" +
+            "9. Meng voorzichtig en voeg eventueel kookwater toe.\n" +
+            "10. Bestrooi met verse peterselie.\n" +
+            "11. Serveer direct.\n" +
+            "12. Bij het serveren kan iedereen naar wens parmezaan of een andere geraspte kaas toevoegen, in de gewenste hoeveelheid."
+    },
+
+    ar: {
+        title: "باستا بالجمبري والثوم",
+        equipment: [
+            "قدر",
+            "مقلاة كبيرة",
+            "ملعقة خشبية",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "400 غ باستا",
+            "500 غ جمبري طازج مقشّر",
+            "3 فص ثوم مفروم",
+            "4 ملاعق كبيرة زيت زيتون",
+            "ملح وفلفل",
+            "بعض أوراق البقدونس الطازج"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اطبخ الباستا في ماء مملح حتى تنضج.\n" +
+            "2. صفِّها واحتفظ بقليل من ماء الطهي.\n\n" +
+
+            "==============================\n" +
+            "تحضير الجمبري بالثوم\n" +
+            "==============================\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "4. أضف الثوم وقلّب لمدة دقيقة دون تحمير.\n" +
+            "5. أضف الجمبري واطبخه 2–3 دقائق لكل جهة حتى يصبح وردي اللون.\n" +
+            "6. تبّل بالملح والفلفل.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "7. أضف الباستا إلى المقلاة مع الجمبري.\n" +
+            "8. اخلط برفق مع إضافة قليل من ماء الطهي عند الحاجة.\n" +
+            "9. رشّ البقدونس الطازج.\n" +
+            "10. قدّم فوراً.\n" +
+            "11. عند التقديم، يمكن لكل شخص إضافة جبن بارميزان مبشور أو أي نوع آخر من الجبن المبشور، بالكمية التي تناسب ذوقه."
+    }
+};
+recipesData.plat.patesScampiTomate = {
+    country: "italie",
+    image: "images/pates-scampi-tomate.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâtes aux scampis sauce tomate",
+        equipment: [
+            "1 casserole",
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "400 g de pâtes (spaghetti ou linguine)",
+            "400 g de scampis crus, décortiqués",
+            "400 g de tomates concassées",
+            "2 gousses d’ail hachées",
+            "3 cuillères à soupe d’huile d’olive",
+            "1 pincée de piment (facultatif)",
+            "Sel et poivre",
+            "Persil frais haché"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DES PÂTES\n" +
+            "==============================\n" +
+            "1. Porter à ébullition une grande casserole d’eau salée.\n" +
+            "2. Cuire les pâtes selon le temps indiqué sur le paquet.\n" +
+            "3. Égoutter les pâtes en conservant une petite louche d’eau de cuisson.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE TOMATÉE AUX SCAMPIS\n" +
+            "==============================\n" +
+            "4. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "5. Ajouter l’ail haché et le piment, faire revenir 1 minute sans coloration.\n" +
+            "6. Ajouter les scampis et les saisir 2 minutes de chaque côté.\n" +
+            "7. Incorporer les tomates concassées, saler et poivrer.\n" +
+            "8. Laisser mijoter 8 à 10 minutes jusqu’à obtenir une sauce parfumée.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLAGE\n" +
+            "==============================\n" +
+            "9. Ajouter les pâtes égouttées dans la sauce.\n" +
+            "10. Mélanger délicatement en ajoutant un peu d’eau de cuisson si nécessaire.\n" +
+            "11. Parsemer de persil frais et servir immédiatement."
+    },
+
+    en: {
+        title: "Pasta with Tomato Scampi Sauce",
+        equipment: [
+            "1 pot",
+            "1 pan",
+            "1 wooden spoon",
+            "1 colander",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "400 g pasta (spaghetti or linguine)",
+            "400 g raw scampi, peeled",
+            "400 g chopped tomatoes",
+            "2 garlic cloves, chopped",
+            "3 tablespoons olive oil",
+            "1 pinch chili flakes (optional)",
+            "Salt and pepper",
+            "Fresh chopped parsley"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA COOKING\n" +
+            "==============================\n" +
+            "1. Bring a large pot of salted water to a boil.\n" +
+            "2. Cook the pasta according to package instructions.\n" +
+            "3. Drain, reserving a small ladle of cooking water.\n\n" +
+
+            "==============================\n" +
+            "TOMATO SCAMPI SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "4. Heat olive oil in a pan over medium heat.\n" +
+            "5. Add garlic and chili, sauté for 1 minute.\n" +
+            "6. Add scampi and sear for 2 minutes per side.\n" +
+            "7. Stir in chopped tomatoes, season with salt and pepper.\n" +
+            "8. Simmer for 8–10 minutes until aromatic.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n" +
+            "9. Add pasta to the sauce.\n" +
+            "10. Toss gently, adding pasta water if needed.\n" +
+            "11. Sprinkle with fresh parsley and serve immediately."
+    },
+
+    nl: {
+        title: "Pasta met tomatensaus en scampi",
+        equipment: [
+            "1 kookpan",
+            "1 pan",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "400 g pasta (spaghetti of linguine)",
+            "400 g rauwe scampi, gepeld",
+            "400 g tomatenblokjes",
+            "2 teentjes knoflook, fijngehakt",
+            "3 eetlepels olijfolie",
+            "1 snufje chili (optioneel)",
+            "Zout en peper",
+            "Verse peterselie, fijngehakt"
+        ],
+        preparation:
+            "==============================\n" +
+            "PASTA KOKEN\n" +
+            "==============================\n" +
+            "1. Breng een grote pan gezouten water aan de kook.\n" +
+            "2. Kook de pasta volgens de verpakking.\n" +
+            "3. Giet af en bewaar wat kookwater.\n\n" +
+
+            "==============================\n" +
+            "TOMATEN-SCAMPI SAUS BEREIDEN\n" +
+            "==============================\n" +
+            "4. Verhit olijfolie in een pan op middelhoog vuur.\n" +
+            "5. Fruit knoflook en chili 1 minuut.\n" +
+            "6. Voeg de scampi toe en bak ze 2 minuten per kant.\n" +
+            "7. Voeg tomaten, zout en peper toe.\n" +
+            "8. Laat 8–10 minuten zachtjes sudderen.\n\n" +
+
+            "==============================\n" +
+            "SAMENVOEGEN\n" +
+            "==============================\n" +
+            "9. Meng de pasta door de saus.\n" +
+            "10. Voeg indien nodig kookwater toe.\n" +
+            "11. Bestrooi met peterselie en serveer direct."
+    },
+
+    ar: {
+        title: "باستا بصلصة الطماطم والسكامبي",
+        equipment: [
+            "قدر",
+            "مقلاة",
+            "ملعقة خشبية",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "400 غ باستا (سباغيتي أو لينغويني)",
+            "400 غ سكامبي نيئة، مقشرة",
+            "400 غ طماطم مفرومة",
+            "2 فص ثوم مفروم",
+            "3 ملاعق كبيرة زيت زيتون",
+            "رشة فلفل حار (اختياري)",
+            "ملح وفلفل",
+            "بقدونس طازج مفروم"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الباستا\n" +
+            "==============================\n" +
+            "1. اغلي كمية وفيرة من الماء المملح.\n" +
+            "2. اطبخ الباستا حسب التعليمات.\n" +
+            "3. صفِّها واحتفظ بقليل من ماء الطهي.\n\n" +
+
+            "==============================\n" +
+            "تحضير صلصة الطماطم بالسكامبي\n" +
+            "==============================\n" +
+            "4. سخّن زيت الزيتون في مقلاة على نار متوسطة.\n" +
+            "5. أضف الثوم والفلفل وقلّب دقيقة واحدة.\n" +
+            "6. أضف السكامبي وقلّبها دقيقتين لكل جهة.\n" +
+            "7. أضف الطماطم والملح والفلفل.\n" +
+            "8. اتركها تطهى 8–10 دقائق حتى تتجانس النكهات.\n\n" +
+
+            "==============================\n" +
+            "التجميع\n" +
+            "==============================\n" +
+            "9. أضف الباستا إلى الصلصة.\n" +
+            "10. حرّك بلطف مع إضافة قليل من ماء الطهي عند الحاجة.\n" +
+            "11. زيّن بالبقدونس وقدّم فوراً."
+    }
+};
 
 
 
@@ -24329,870 +26755,6 @@ recipesData.plat.involtiniPoulet = {
 
 
 
-
-
-recipesData.plat.patesTomate = {
-    country: "italie",
-    image: "images/pates-tomate.jpg",
-    fr: {
-        title: "Pâtes à la sauce tomate classique (4 personnes)",
-        equipment: [
-            "1 casserole",
-            "1 cuillère en bois",
-            "1 passoire",
-            "1 couteau",
-            "1 planche à découper"
-        ],
-        ingredients: [
-            "400 g de pâtes (spaghetti, penne ou fusilli)",
-            "500 g de tomates concassées",
-            "2 gousses d'ail, hachées",
-            "3 cuillères à soupe d’huile d’olive (45 ml)",
-            "Quelques feuilles de basilic frais",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "Pour 4 personnes.\n" +
-            "1. Faire bouillir de l’eau salée dans une casserole.\n" +
-            "2. Cuire les pâtes selon les instructions du paquet, puis égoutter.\n" +
-            "3. Dans une poêle, chauffer l’huile d’olive, ajouter l’ail et faire revenir 1-2 minutes.\n" +
-            "4. Ajouter les tomates concassées, sel, poivre et laisser mijoter 10-15 minutes.\n" +
-            "5. Ajouter le basilic frais haché.\n" +
-            "6. Mélanger les pâtes avec la sauce et servir chaud."
-    },
-    en: {
-        title: "Pasta with Classic Tomato Sauce (Serves 4)",
-        equipment: [
-            "1 pot",
-            "1 wooden spoon",
-            "1 colander",
-            "1 knife",
-            "1 cutting board"
-        ],
-        ingredients: [
-            "400 g pasta (spaghetti, penne, or fusilli)",
-            "500 g chopped tomatoes",
-            "2 garlic cloves, chopped",
-            "3 tablespoons olive oil (45 ml)",
-            "Some fresh basil leaves",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Bring salted water to a boil in a pot.\n" +
-            "2. Cook pasta according to package instructions, then drain.\n" +
-            "3. In a pan, heat olive oil, add garlic and sauté 1-2 minutes.\n" +
-            "4. Add chopped tomatoes, salt, pepper and simmer 10-15 minutes.\n" +
-            "5. Add chopped fresh basil.\n" +
-            "6. Mix pasta with sauce and serve hot."
-    },
-    nl: {
-        title: "Pasta met klassieke tomatensaus (voor 4 personen)",
-        equipment: [
-            "1 pan",
-            "1 houten lepel",
-            "1 vergiet",
-            "1 mes",
-            "1 snijplank"
-        ],
-        ingredients: [
-            "400 g pasta (spaghetti, penne of fusilli)",
-            "500 g tomatenblokjes",
-            "2 teentjes knoflook, gehakt",
-            "3 eetlepels olijfolie (45 ml)",
-            "Enkele verse basilicumblaadjes",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Breng gezouten water aan de kook in een pan.\n" +
-            "2. Kook de pasta volgens de aanwijzingen op de verpakking en giet af.\n" +
-            "3. Verhit in een pan de olijfolie, voeg knoflook toe en bak 1-2 minuten.\n" +
-            "4. Voeg tomatenblokjes, zout en peper toe en laat 10-15 minuten sudderen.\n" +
-            "5. Voeg verse basilicum toe.\n" +
-            "6. Meng de pasta met de saus en serveer warm."
-    },
-    ar: {
-        title: "باستا بصلصة الطماطم الكلاسيكية (تكفي 4 أشخاص)",
-        equipment: [
-            "قدر",
-            "ملعقة خشبية",
-            "مصفاة",
-            "سكين",
-            "لوح تقطيع"
-        ],
-        ingredients: [
-            "400 غ باستا (سباغيتي، بيني أو فوسيلي)",
-            "500 غ طماطم مفرومة",
-            "2 فص ثوم، مفروم",
-            "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "بعض أوراق الريحان الطازج",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اغلي الماء مع الملح في قدر.\n" +
-            "2. اطبخ الباستا حسب التعليمات ثم صفيها.\n" +
-            "3. في مقلاة، سخن زيت الزيتون وأضف الثوم وقلّب 1-2 دقيقة.\n" +
-            "4. أضف الطماطم المفرومة، الملح والفلفل واتركها تنضج 10-15 دقيقة.\n" +
-            "5. أضف الريحان الطازج المفروم.\n" +
-            "6. اخلط الباستا مع الصلصة وقدّمها ساخنة."
-    }
-};
-recipesData.plat.patesBolognaise = {
-    country: "italie",
-    image: "images/pates-bolognaise.jpg",
-    fr: {
-        title: "Pâtes à la sauce bolognaise (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 cuillère en bois", "1 passoire", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "400 g de pâtes",
-            "300 g de viande hachée (bœuf ou poulet)",
-            "500 g de tomates concassées",
-            "1 oignon, haché",
-            "2 gousses d'ail, hachées",
-            "3 cuillères à soupe d’huile d’olive (45 ml)",
-            "1 carotte, râpée",
-            "1 branche de céleri, hachée",
-            "1 feuille de laurier",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Faire bouillir de l’eau salée et cuire les pâtes selon le paquet.\n" +
-            "2. Égoutter les pâtes.\n" +
-            "3. Dans une poêle, chauffer l’huile, ajouter l’oignon et l’ail, faire revenir 2-3 min.\n" +
-            "4. Ajouter la carotte, le céleri et la viande, cuire jusqu’à ce que la viande soit dorée.\n" +
-            "5. Ajouter les tomates concassées, la feuille de laurier, sel et poivre, laisser mijoter 15-20 min.\n" +
-            "6. Retirer la feuille de laurier, mélanger les pâtes avec la sauce et servir chaud."
-    },
-    en: {
-        title: "Pasta with Bolognese Sauce (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 colander", "1 knife", "1 cutting board"],
-        ingredients: [
-            "400 g pasta",
-            "300 g minced meat (beef or chicken)",
-            "500 g chopped tomatoes",
-            "1 onion, chopped",
-            "2 garlic cloves, chopped",
-            "3 tablespoons olive oil (45 ml)",
-            "1 carrot, grated",
-            "1 celery stalk, chopped",
-            "1 bay leaf",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Boil salted water and cook pasta according to package instructions.\n" +
-            "2. Drain pasta.\n" +
-            "3. In a pan, heat oil, add onion and garlic, sauté 2-3 min.\n" +
-            "4. Add carrot, celery and meat, cook until meat is browned.\n" +
-            "5. Add chopped tomatoes, bay leaf, salt and pepper, simmer 15-20 min.\n" +
-            "6. Remove bay leaf, mix pasta with sauce and serve hot."
-    },
-    nl: {
-        title: "Pasta met bolognesesaus (voor 4 personen)",
-        equipment: ["1 pan", "1 pan", "1 houten lepel", "1 vergiet", "1 mes", "1 snijplank"],
-        ingredients: [
-            "400 g pasta",
-            "300 g gehakt (rund of kip)",
-            "500 g tomatenblokjes",
-            "1 ui, gehakt",
-            "2 teentjes knoflook, gehakt",
-            "3 eetlepels olijfolie (45 ml)",
-            "1 wortel, geraspt",
-            "1 stengel selderij, gehakt",
-            "1 laurierblad",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Breng gezouten water aan de kook en kook de pasta volgens verpakking.\n" +
-            "2. Giet af.\n" +
-            "3. Verhit olie in een pan, voeg ui en knoflook toe en bak 2-3 min.\n" +
-            "4. Voeg wortel, selderij en gehakt toe en bak tot het vlees bruin is.\n" +
-            "5. Voeg tomatenblokjes, laurierblad, zout en peper toe en laat 15-20 min sudderen.\n" +
-            "6. Verwijder het laurierblad, meng pasta met saus en serveer warm."
-    },
-    ar: {
-        title: "باستا بصلصة بولونيز (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "مصفاة", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "400 غ باستا",
-            "300 غ لحم مفروم (لحم بقري أو دجاج)",
-            "500 غ طماطم مفرومة",
-            "1 بصلة، مفرومة",
-            "2 فص ثوم، مفروم",
-            "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "1 جزرة، مبشورة",
-            "1 عود كرفس، مفروم",
-            "1 ورقة غار",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. اغلي الماء المملح واطبخ الباستا حسب التعليمات.\n" +
-            "2. صفي الباستا.\n" +
-            "3. في مقلاة، سخن الزيت وأضف البصل والثوم وقلّب 2-3 دقائق.\n" +
-            "4. أضف الجزرة والكرفس واللحم واطبخ حتى يتحمر اللحم.\n" +
-            "5. أضف الطماطم المفرومة، ورقة الغار، الملح والفلفل، واتركها 15-20 دقيقة على نار هادئة.\n" +
-            "6. أزل ورقة الغار، اخلط الباستا مع الصلصة وقدّمها ساخنة."
-    }
-};
-recipesData.plat.patesFromage = {
-    country: "italie",
-    image: "images/pates-fromage.jpg",
-    fr: {
-        title: "Pâtes à la sauce fromage (4 personnes)",
-        equipment: ["1 casserole", "1 cuillère en bois", "1 passoire", "1 bol", "1 fouet"],
-        ingredients: [
-            "400 g de pâtes",
-            "200 ml de crème liquide",
-            "100 g de fromage râpé (parmesan, emmental ou mozzarella)",
-            "1 pincée de noix de muscade",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Faire bouillir de l’eau salée et cuire les pâtes selon le paquet.\n" +
-            "2. Égoutter les pâtes.\n" +
-            "3. Dans une casserole, chauffer la crème, ajouter le fromage râpé et la noix de muscade, mélanger jusqu’à obtenir une sauce onctueuse.\n" +
-            "4. Ajouter sel et poivre.\n" +
-            "5. Mélanger les pâtes avec la sauce et servir chaud."
-    },
-    en: {
-        title: "Pasta with Cheese Sauce (Serves 4)",
-        equipment: ["1 pot", "1 wooden spoon", "1 colander", "1 bowl", "1 whisk"],
-        ingredients: [
-            "400 g pasta",
-            "200 ml cream",
-            "100 g grated cheese (parmesan, emmental, or mozzarella)",
-            "1 pinch nutmeg",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Boil salted water and cook pasta according to package instructions.\n" +
-            "2. Drain pasta.\n" +
-            "3. In a pot, heat cream, add grated cheese and nutmeg, stir until smooth.\n" +
-            "4. Add salt and pepper.\n" +
-            "5. Mix pasta with sauce and serve hot."
-    },
-    nl: {
-        title: "Pasta met kaassaus (voor 4 personen)",
-        equipment: ["1 pan", "1 houten lepel", "1 vergiet", "1 kom", "1 garde"],
-        ingredients: [
-            "400 g pasta",
-            "200 ml room",
-            "100 g geraspte kaas (parmezaan, emmentaler of mozzarella)",
-            "1 snufje nootmuskaat",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Breng gezouten water aan de kook en kook de pasta volgens verpakking.\n" +
-            "2. Giet af.\n" +
-            "3. Verhit in een pan de room, voeg geraspte kaas en nootmuskaat toe en roer tot een gladde saus.\n" +
-            "4. Voeg zout en peper toe.\n" +
-            "5. Meng de pasta met de saus en serveer warm."
-    },
-    ar: {
-        title: "باستا بصلصة الجبن (تكفي 4 أشخاص)",
-        equipment: ["قدر", "ملعقة خشبية", "مصفاة", "وعاء", "خفاق"],
-        ingredients: [
-            "400 غ باستا",
-            "200 مل كريمة سائلة",
-            "100 غ جبن مبشور (بارميزان، إمنتال أو موزاريلا)",
-            "رشة جوزة الطيب",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. اغلي الماء المملح واطبخ الباستا حسب التعليمات.\n" +
-            "2. صفي الباستا.\n" +
-            "3. في قدر، سخن الكريمة وأضف الجبن المبشور وجوزة الطيب، حرك حتى تصبح صلصة ناعمة.\n" +
-            "4. أضف الملح والفلفل.\n" +
-            "5. اخلط الباستا مع الصلصة وقدّمها ساخنة."
-    }
-};
-recipesData.plat.patesAlfredo = {
-    country: "italie",
-    image: "images/pates-alfredo.jpg",
-    fr: {
-        title: "Pâtes à la sauce Alfredo (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 cuillère en bois", "1 passoire"],
-        ingredients: [
-            "400 g de pâtes",
-            "200 ml de crème liquide",
-            "50 g de beurre",
-            "100 g de parmesan râpé",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Faire bouillir de l’eau salée et cuire les pâtes selon le paquet.\n" +
-            "2. Égoutter les pâtes.\n" +
-            "3. Dans une poêle, faire fondre le beurre, ajouter la crème et mélanger.\n" +
-            "4. Ajouter le parmesan râpé, sel et poivre.\n" +
-            "5. Mélanger les pâtes avec la sauce et servir chaud."
-    },
-    en: {
-        title: "Pasta with Alfredo Sauce (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 colander"],
-        ingredients: [
-            "400 g pasta",
-            "200 ml cream",
-            "50 g butter",
-            "100 g grated parmesan",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Boil salted water and cook pasta according to package instructions.\n" +
-            "2. Drain pasta.\n" +
-            "3. In a pan, melt butter, add cream and stir.\n" +
-            "4. Add grated parmesan, salt and pepper.\n" +
-            "5. Mix pasta with sauce and serve hot."
-    },
-    nl: {
-        title: "Pasta met Alfredo saus (voor 4 personen)",
-        equipment: ["1 pan", "1 pan", "1 houten lepel", "1 vergiet"],
-        ingredients: [
-            "400 g pasta",
-            "200 ml room",
-            "50 g boter",
-            "100 g geraspte parmezaan",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Breng gezouten water aan de kook en kook de pasta volgens verpakking.\n" +
-            "2. Giet af.\n" +
-            "3. Smelt in een pan de boter, voeg room toe en roer.\n" +
-            "4. Voeg geraspte parmezaan, zout en peper toe.\n" +
-            "5. Meng pasta met de saus en serveer warm."
-    },
-    ar: {
-        title: "باستا بصلصة ألفريدو (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "مصفاة"],
-        ingredients: [
-            "400 غ باستا",
-            "200 مل كريمة سائلة",
-            "50 غ زبدة",
-            "100 غ جبن بارميزان مبشور",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. اغلي الماء المملح واطبخ الباستا حسب التعليمات.\n" +
-            "2. صفي الباستا.\n" +
-            "3. في مقلاة، ذوب الزبدة وأضف الكريمة وحرّك.\n" +
-            "4. أضف الجبن المبشور، الملح والفلفل.\n" +
-            "5. اخلط الباستا مع الصلصة وقدّمها ساخنة."
-    }
-};
-recipesData.plat.patesPesto = {
-    country: "italie",
-    image: "images/pates-pesto.jpg",
-    fr: {
-        title: "Pâtes au pesto (4 personnes)",
-        equipment: ["1 casserole", "1 mixeur ou mortier", "1 cuillère en bois", "1 passoire"],
-        ingredients: [
-            "400 g de pâtes",
-            "50 g de basilic frais",
-            "50 g de parmesan râpé",
-            "30 g de pignons de pin",
-            "2 gousses d'ail",
-            "100 ml d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Faire bouillir de l’eau salée et cuire les pâtes selon le paquet.\n" +
-            "2. Égoutter les pâtes.\n" +
-            "3. Dans un mixeur, mixer le basilic, le parmesan, les pignons et l’ail en ajoutant l’huile progressivement jusqu’à obtenir une sauce homogène.\n" +
-            "4. Ajouter sel et poivre.\n" +
-            "5. Mélanger les pâtes avec le pesto et servir chaud."
-    },
-    en: {
-        title: "Pasta with Pesto Sauce (Serves 4)",
-        equipment: ["1 pot", "1 blender or mortar", "1 wooden spoon", "1 colander"],
-        ingredients: [
-            "400 g pasta",
-            "50 g fresh basil",
-            "50 g grated parmesan",
-            "30 g pine nuts",
-            "2 garlic cloves",
-            "100 ml olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Boil salted water and cook pasta according to package instructions.\n" +
-            "2. Drain pasta.\n" +
-            "3. In a blender, mix basil, parmesan, pine nuts and garlic, adding oil gradually until smooth.\n" +
-            "4. Add salt and pepper.\n" +
-            "5. Mix pasta with pesto and serve hot."
-    },
-    nl: {
-        title: "Pasta met pestosaus (voor 4 personen)",
-        equipment: ["1 pan", "1 blender of vijzel", "1 houten lepel", "1 vergiet"],
-        ingredients: [
-            "400 g pasta",
-            "50 g verse basilicum",
-            "50 g geraspte parmezaan",
-            "30 g pijnboompitten",
-            "2 teentjes knoflook",
-            "100 ml olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Breng gezouten water aan de kook en kook de pasta volgens verpakking.\n" +
-            "2. Giet af.\n" +
-            "3. Mix in een blender basilicum, parmezaan, pijnboompitten en knoflook, voeg langzaam olie toe tot een gladde saus.\n" +
-            "4. Voeg zout en peper toe.\n" +
-            "5. Meng pasta met pesto en serveer warm."
-    },
-    ar: {
-        title: "باستا بصلصة البيستو (تكفي 4 أشخاص)",
-        equipment: ["قدر", "خلاط أو مدقة", "ملعقة خشبية", "مصفاة"],
-        ingredients: [
-            "400 غ باستا",
-            "50 غ ريحان طازج",
-            "50 غ جبن بارميزان مبشور",
-            "30 غ صنوبر",
-            "2 فص ثوم",
-            "100 مل زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. اغلي الماء المملح واطبخ الباستا حسب التعليمات.\n" +
-            "2. صفي الباستا.\n" +
-            "3. في الخلاط، اخلط الريحان، الجبن، الصنوبر والثوم مع إضافة الزيت تدريجياً حتى تصبح الصلصة ناعمة.\n" +
-            "4. أضف الملح والفلفل.\n" +
-            "5. اخلط الباستا مع صلصة البيستو وقدّمها ساخنة."
-    }
-};
-recipesData.plat.patesArrabiata = {
-    country: "italie",
-    image: "images/pates-arrabiata.jpg",
-    fr: {
-        title: "Pâtes à la sauce arrabiata (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 cuillère en bois", "1 passoire"],
-        ingredients: [
-            "400 g de pâtes",
-            "500 g de tomates concassées",
-            "2 gousses d'ail, hachées",
-            "3 cuillères à soupe d’huile d’olive (45 ml)",
-            "1 piment rouge, émincé",
-            "Sel et poivre selon goût",
-            "Quelques feuilles de persil frais"
-        ],
-        preparation:
-            "1. Faire bouillir de l’eau salée et cuire les pâtes selon le paquet.\n" +
-            "2. Égoutter les pâtes.\n" +
-            "3. Dans une poêle, chauffer l’huile, ajouter l’ail et le piment, faire revenir 1-2 min.\n" +
-            "4. Ajouter les tomates concassées, sel et poivre, laisser mijoter 10-15 min.\n" +
-            "5. Ajouter le persil haché.\n" +
-            "6. Mélanger les pâtes avec la sauce et servir chaud."
-    },
-    en: {
-        title: "Pasta with Arrabiata Sauce (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 colander"],
-        ingredients: [
-            "400 g pasta",
-            "500 g chopped tomatoes",
-            "2 garlic cloves, chopped",
-            "3 tablespoons olive oil (45 ml)",
-            "1 red chili, sliced",
-            "Salt and pepper to taste",
-            "Some fresh parsley leaves"
-        ],
-        preparation:
-            "1. Boil salted water and cook pasta according to package instructions.\n" +
-            "2. Drain pasta.\n" +
-            "3. In a pan, heat oil, add garlic and chili, sauté 1-2 min.\n" +
-            "4. Add chopped tomatoes, salt and pepper, simmer 10-15 min.\n" +
-            "5. Add chopped parsley.\n" +
-            "6. Mix pasta with sauce and serve hot."
-    },
-    nl: {
-        title: "Pasta met Arrabiata saus (voor 4 personen)",
-        equipment: ["1 pan", "1 pan", "1 houten lepel", "1 vergiet"],
-        ingredients: [
-            "400 g pasta",
-            "500 g tomatenblokjes",
-            "2 teentjes knoflook, gehakt",
-            "3 eetlepels olijfolie (45 ml)",
-            "1 rode chili, in plakjes",
-            "Zout en peper naar smaak",
-            "Enkele verse peterselieblaadjes"
-        ],
-        preparation:
-            "1. Breng gezouten water aan de kook en kook de pasta volgens verpakking.\n" +
-            "2. Giet af.\n" +
-            "3. Verhit olie in een pan, voeg knoflook en chili toe en bak 1-2 min.\n" +
-            "4. Voeg tomatenblokjes, zout en peper toe en laat 10-15 min sudderen.\n" +
-            "5. Voeg gehakte peterselie toe.\n" +
-            "6. Meng pasta met de saus en serveer warm."
-    },
-    ar: {
-        title: "باستا بصلصة أرابياتا (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "مصفاة"],
-        ingredients: [
-            "400 غ باستا",
-            "500 غ طماطم مفرومة",
-            "2 فص ثوم، مفروم",
-            "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "1 فلفل أحمر حار، مقطع شرائح",
-            "ملح وفلفل حسب الرغبة",
-            "بعض أوراق البقدونس الطازج"
-        ],
-        preparation:
-            "1. اغلي الماء المملح واطبخ الباستا حسب التعليمات.\n" +
-            "2. صفي الباستا.\n" +
-            "3. في مقلاة، سخن الزيت، أضف الثوم والفلفل، وقلّب 1-2 دقيقة.\n" +
-            "4. أضف الطماطم المفرومة، الملح والفلفل، واتركها تنضج 10-15 دقيقة.\n" +
-            "5. أضف البقدونس المفروم.\n" +
-            "6. اخلط الباستا مع الصلصة وقدّمها ساخنة."
-    }
-};
-recipesData.plat.patesQuatreFromages = {
-    country: "italie",
-    image: "images/pates-quatre-fromages.jpg",
-    fr: {
-        title: "Pâtes Quatre Fromages (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 cuillère en bois", "1 passoire", "1 bol", "1 fouet"],
-        ingredients: [
-            "400 g de pâtes",
-            "200 ml de crème liquide",
-            "50 g de parmesan râpé",
-            "50 g de gorgonzola ou autre fromage bleu doux",
-            "50 g d’emmental râpé",
-            "50 g de mozzarella râpée",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Faire bouillir de l’eau salée et cuire les pâtes selon le paquet.\n" +
-            "2. Égoutter les pâtes.\n" +
-            "3. Dans une poêle, chauffer la crème, ajouter tous les fromages et mélanger jusqu’à obtenir une sauce onctueuse.\n" +
-            "4. Ajouter sel et poivre.\n" +
-            "5. Mélanger les pâtes avec la sauce et servir chaud."
-    },
-    en: {
-        title: "Four Cheese Pasta (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 colander", "1 bowl", "1 whisk"],
-        ingredients: [
-            "400 g pasta",
-            "200 ml cream",
-            "50 g grated parmesan",
-            "50 g gorgonzola or mild blue cheese",
-            "50 g grated emmental",
-            "50 g grated mozzarella",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Boil salted water and cook pasta according to package instructions.\n" +
-            "2. Drain pasta.\n" +
-            "3. In a pan, heat cream, add all cheeses and stir until smooth.\n" +
-            "4. Add salt and pepper.\n" +
-            "5. Mix pasta with sauce and serve hot."
-    },
-    nl: {
-        title: "Pasta vier kazen (voor 4 personen)",
-        equipment: ["1 pan", "1 pan", "1 houten lepel", "1 vergiet", "1 kom", "1 garde"],
-        ingredients: [
-            "400 g pasta",
-            "200 ml room",
-            "50 g geraspte parmezaan",
-            "50 g gorgonzola of zachte blauwe kaas",
-            "50 g geraspte emmentaler",
-            "50 g geraspte mozzarella",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Breng gezouten water aan de kook en kook de pasta volgens verpakking.\n" +
-            "2. Giet af.\n" +
-            "3. Verhit in een pan de room, voeg alle kazen toe en roer tot een gladde saus.\n" +
-            "4. Voeg zout en peper toe.\n" +
-            "5. Meng pasta met de saus en serveer warm."
-    },
-    ar: {
-        title: "باستا بأربعة أجبان (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "مصفاة", "وعاء", "خفاق"],
-        ingredients: [
-            "400 غ باستا",
-            "200 مل كريمة سائلة",
-            "50 غ جبن بارميزان مبشور",
-            "50 غ غورغونزولا أو جبن أزرق خفيف",
-            "50 غ إمنتال مبشور",
-            "50 غ موزاريلا مبشور",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. اغلي الماء المملح واطبخ الباستا حسب التعليمات.\n" +
-            "2. صفي الباستا.\n" +
-            "3. في مقلاة، سخن الكريمة وأضف جميع الأجبان وحرّك حتى تصبح الصلصة ناعمة.\n" +
-            "4. أضف الملح والفلفل.\n" +
-            "5. اخلط الباستا مع الصلصة وقدّمها ساخنة."
-    }
-};
-recipesData.plat.patesPuttanesca = {
-    country: "italie",
-    image: "images/pates-puttanesca.jpg",
-    fr: {
-        title: "Pâtes à la sauce puttanesca (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 cuillère en bois", "1 passoire", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "400 g de pâtes",
-            "500 g de tomates concassées",
-            "2 gousses d'ail, hachées",
-            "3 cuillères à soupe d’huile d’olive (45 ml)",
-            "100 g d’olives noires dénoyautées",
-            "Capres 1 cuillère à soupe",
-            "1 pincée de piment",
-            "Sel et poivre selon goût",
-            "Quelques feuilles de persil frais"
-        ],
-        preparation:
-            "1. Faire bouillir de l’eau salée et cuire les pâtes selon le paquet.\n" +
-            "2. Égoutter les pâtes.\n" +
-            "3. Dans une poêle, chauffer l’huile, ajouter l’ail et le piment, faire revenir 1-2 min.\n" +
-            "4. Ajouter les tomates, les olives et les câpres, sel et poivre, laisser mijoter 10-15 min.\n" +
-            "5. Ajouter le persil haché.\n" +
-            "6. Mélanger les pâtes avec la sauce et servir chaud."
-    },
-    en: {
-        title: "Pasta with Puttanesca Sauce (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 colander", "1 knife", "1 cutting board"],
-        ingredients: [
-            "400 g pasta",
-            "500 g chopped tomatoes",
-            "2 garlic cloves, chopped",
-            "3 tablespoons olive oil (45 ml)",
-            "100 g pitted black olives",
-            "1 tablespoon capers",
-            "1 pinch chili",
-            "Salt and pepper to taste",
-            "Some fresh parsley leaves"
-        ],
-        preparation:
-            "1. Boil salted water and cook pasta according to package instructions.\n" +
-            "2. Drain pasta.\n" +
-            "3. In a pan, heat oil, add garlic and chili, sauté 1-2 min.\n" +
-            "4. Add tomatoes, olives, capers, salt and pepper, simmer 10-15 min.\n" +
-            "5. Add chopped parsley.\n" +
-            "6. Mix pasta with sauce and serve hot."
-    },
-    nl: {
-        title: "Pasta met Puttanesca saus (voor 4 personen)",
-        equipment: ["1 pan", "1 pan", "1 houten lepel", "1 vergiet", "1 mes", "1 snijplank"],
-        ingredients: [
-            "400 g pasta",
-            "500 g tomatenblokjes",
-            "2 teentjes knoflook, gehakt",
-            "3 eetlepels olijfolie (45 ml)",
-            "100 g ontpitte zwarte olijven",
-            "1 eetlepel kappertjes",
-            "1 snufje chili",
-            "Zout en peper naar smaak",
-            "Enkele verse peterselieblaadjes"
-        ],
-        preparation:
-            "1. Breng gezouten water aan de kook en kook de pasta volgens verpakking.\n" +
-            "2. Giet af.\n" +
-            "3. Verhit olie in een pan, voeg knoflook en chili toe en bak 1-2 min.\n" +
-            "4. Voeg tomaten, olijven, kappertjes, zout en peper toe en laat 10-15 min sudderen.\n" +
-            "5. Voeg gehakte peterselie toe.\n" +
-            "6. Meng pasta met de saus en serveer warm."
-    },
-    ar: {
-        title: "باستا بصلصة بوتانيسكا (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "مصفاة", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "400 غ باستا",
-            "500 غ طماطم مفرومة",
-            "2 فص ثوم، مفروم",
-            "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "100 غ زيتون أسود منزوع النواة",
-            "1 ملعقة كبيرة كبر",
-            "رشة فلفل حار",
-            "ملح وفلفل حسب الرغبة",
-            "بعض أوراق البقدونس الطازج"
-        ],
-        preparation:
-            "1. اغلي الماء المملح واطبخ الباستا حسب التعليمات.\n" +
-            "2. صفي الباستا.\n" +
-            "3. في مقلاة، سخن الزيت، أضف الثوم والفلفل، وقلّب 1-2 دقيقة.\n" +
-            "4. أضف الطماطم، الزيتون، الكبر، الملح والفلفل، واتركها تنضج 10-15 دقيقة.\n" +
-            "5. أضف البقدونس المفروم.\n" +
-            "6. اخلط الباستا مع الصلصة وقدّمها ساخنة."
-    }
-};
-recipesData.plat.patesPuttanescaAnchois = {
-    country: "italie",
-    image: "images/pates-puttanesca-anchois.jpg",
-    fr: {
-        title: "Pâtes à la sauce puttanesca traditionnelle (4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 cuillère en bois", "1 passoire", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "400 g de pâtes",
-            "500 g de tomates concassées",
-            "2 gousses d'ail, hachées",
-            "3 cuillères à soupe d’huile d’olive (45 ml)",
-            "50 g d’anchois en conserve, égouttés",
-            "100 g d’olives noires dénoyautées",
-            "1 cuillère à soupe de câpres",
-            "1 pincée de piment",
-            "Sel et poivre selon goût",
-            "Quelques feuilles de persil frais"
-        ],
-        preparation:
-            "1. Faire bouillir de l’eau salée et cuire les pâtes selon le paquet.\n" +
-            "2. Égoutter les pâtes.\n" +
-            "3. Dans une poêle, chauffer l’huile, ajouter l’ail et le piment, faire revenir 1-2 min.\n" +
-            "4. Ajouter les anchois, tomates, olives et câpres, sel et poivre, laisser mijoter 10-15 min.\n" +
-            "5. Ajouter le persil haché.\n" +
-            "6. Mélanger les pâtes avec la sauce et servir chaud."
-    },
-    en: {
-        title: "Pasta with Traditional Puttanesca Sauce (Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 wooden spoon", "1 colander", "1 knife", "1 cutting board"],
-        ingredients: [
-            "400 g pasta",
-            "500 g chopped tomatoes",
-            "2 garlic cloves, chopped",
-            "3 tablespoons olive oil (45 ml)",
-            "50 g canned anchovies, drained",
-            "100 g pitted black olives",
-            "1 tablespoon capers",
-            "1 pinch chili",
-            "Salt and pepper to taste",
-            "Some fresh parsley leaves"
-        ],
-        preparation:
-            "1. Boil salted water and cook pasta according to package instructions.\n" +
-            "2. Drain pasta.\n" +
-            "3. In a pan, heat oil, add garlic and chili, sauté 1-2 min.\n" +
-            "4. Add anchovies, tomatoes, olives, capers, salt and pepper, simmer 10-15 min.\n" +
-            "5. Add chopped parsley.\n" +
-            "6. Mix pasta with sauce and serve hot."
-    },
-    nl: {
-        title: "Pasta met traditionele Puttanesca saus (voor 4 personen)",
-        equipment: ["1 pan", "1 pan", "1 houten lepel", "1 vergiet", "1 mes", "1 snijplank"],
-        ingredients: [
-            "400 g pasta",
-            "500 g tomatenblokjes",
-            "2 teentjes knoflook, gehakt",
-            "3 eetlepels olijfolie (45 ml)",
-            "50 g ansjovis uit blik, uitgelekt",
-            "100 g ontpitte zwarte olijven",
-            "1 eetlepel kappertjes",
-            "1 snufje chili",
-            "Zout en peper naar smaak",
-            "Enkele verse peterselieblaadjes"
-        ],
-        preparation:
-            "1. Breng gezouten water aan de kook en kook de pasta volgens verpakking.\n" +
-            "2. Giet af.\n" +
-            "3. Verhit olie in een pan, voeg knoflook en chili toe en bak 1-2 min.\n" +
-            "4. Voeg ansjovis, tomaten, olijven en kappertjes toe, zout en peper, laat 10-15 min sudderen.\n" +
-            "5. Voeg gehakte peterselie toe.\n" +
-            "6. Meng pasta met de saus en serveer warm."
-    },
-    ar: {
-        title: "باستا بصلصة بوتانيسكا التقليدية (تكفي 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "ملعقة خشبية", "مصفاة", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "400 غ باستا",
-            "500 غ طماطم مفرومة",
-            "2 فص ثوم، مفروم",
-            "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "50 غ أنشوجة معلبة، مصفاة",
-            "100 غ زيتون أسود منزوع النواة",
-            "1 ملعقة كبيرة كبر",
-            "رشة فلفل حار",
-            "ملح وفلفل حسب الرغبة",
-            "بعض أوراق البقدونس الطازج"
-        ],
-        preparation:
-            "1. اغلي الماء المملح واطبخ الباستا حسب التعليمات.\n" +
-            "2. صفي الباستا.\n" +
-            "3. في مقلاة، سخن الزيت، أضف الثوم والفلفل، وقلّب 1-2 دقيقة.\n" +
-            "4. أضف الأنشوجة، الطماطم، الزيتون، الكبر، الملح والفلفل، واتركها تنضج 10-15 دقيقة.\n" +
-            "5. أضف البقدونس المفروم.\n" +
-            "6. اخلط الباستا مع الصلصة وقدّمها ساخنة."
-    }
-};
-
-// 2. Pâtes à la sauce tomate et basilic
-recipesData.plat.patesTomateBasilic = {
-    country: "italie",
-    image: "images/pates-tomate-basilic.jpg",
-    fr: {
-        title: "Pâtes à la sauce tomate et basilic (4 personnes)",
-        equipment: ["1 casserole", "1 cuillère en bois", "1 passoire", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "400 g de pâtes",
-            "500 g de tomates concassées",
-            "2 gousses d'ail, hachées",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "Quelques feuilles de basilic frais",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Faire bouillir de l’eau salée et cuire les pâtes selon le paquet.\n" +
-            "2. Égoutter les pâtes.\n" +
-            "3. Dans une poêle, chauffer l’huile, ajouter l’ail, faire revenir 1-2 min.\n" +
-            "4. Ajouter les tomates concassées, sel, poivre et laisser mijoter 10 min.\n" +
-            "5. Ajouter le basilic haché.\n" +
-            "6. Mélanger les pâtes avec la sauce et servir chaud."
-    },
-    en: {
-        title: "Pasta with Tomato and Basil Sauce (Serves 4)",
-        equipment: ["1 pot", "1 wooden spoon", "1 colander", "1 knife", "1 cutting board"],
-        ingredients: [
-            "400 g pasta",
-            "500 g chopped tomatoes",
-            "2 garlic cloves, chopped",
-            "3 tablespoons olive oil (45 ml)",
-            "Some fresh basil leaves",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Boil salted water and cook pasta according to package instructions.\n" +
-            "2. Drain pasta.\n" +
-            "3. In a pan, heat oil, add garlic, sauté 1-2 min.\n" +
-            "4. Add chopped tomatoes, salt, pepper and simmer 10 min.\n" +
-            "5. Add chopped basil.\n" +
-            "6. Mix pasta with sauce and serve hot."
-    },
-    nl: {
-        title: "Pasta met tomaat en basilicumsaus (voor 4 personen)",
-        equipment: ["1 pan", "1 houten lepel", "1 vergiet", "1 mes", "1 snijplank"],
-        ingredients: [
-            "400 g pasta",
-            "500 g tomatenblokjes",
-            "2 teentjes knoflook, gehakt",
-            "3 eetlepels olijfolie (45 ml)",
-            "Enkele verse basilicumblaadjes",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Breng gezouten water aan de kook en kook pasta volgens verpakking.\n" +
-            "2. Giet af.\n" +
-            "3. Verhit olie in een pan, voeg knoflook toe en bak 1-2 min.\n" +
-            "4. Voeg tomatenblokjes, zout en peper toe en laat 10 min sudderen.\n" +
-            "5. Voeg fijngehakte basilicum toe.\n" +
-            "6. Meng de pasta met de saus en serveer warm."
-    },
-    ar: {
-        title: "باستا بصلصة الطماطم والريحان (تكفي 4 أشخاص)",
-        equipment: ["قدر", "ملعقة خشبية", "مصفاة", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "400 غ باستا",
-            "500 غ طماطم مفرومة",
-            "2 فص ثوم، مفروم",
-            "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "بعض أوراق الريحان الطازج",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. اغلي الماء المملح واطبخ الباستا حسب التعليمات.\n" +
-            "2. صفي الباستا.\n" +
-            "3. في مقلاة، سخن الزيت وأضف الثوم وقلّب 1-2 دقيقة.\n" +
-            "4. أضف الطماطم المفرومة، الملح والفلفل واتركها تنضج 10 دقائق.\n" +
-            "5. أضف الريحان المفروم.\n" +
-            "6. اخلط الباستا مع الصلصة وقدّمها ساخنة."
-    }
-};
 recipesData.plat.pizzaMargherita = {
     country: "italie",
     image: "images/pizza-margherita.jpg",
