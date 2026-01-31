@@ -26733,6 +26733,2765 @@ recipesData.plat.patesScampiTomate = {
             "11. زيّن بالبقدونس وقدّم فوراً."
     }
 };
+recipesData.plat.patePizza = {
+    country: "italie",
+    image: "images/pate-pizza.jpg",
+
+    meta: {
+        servings: 2,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pâte à pizza maison",
+        equipment: [
+            "1 grand saladier",
+            "1 cuillère ou spatule",
+            "1 plan de travail",
+            "1 torchon propre"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Verser la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure puis l’huile d’olive.\n" +
+            "4. Mélanger jusqu’à obtention d’une pâte homogène.\n" +
+            "5. Pétrir sur un plan de travail pendant 8 à 10 minutes.\n" +
+            "6. Former une boule, couvrir et laisser reposer 1 heure dans un endroit tiède.\n\n" +
+
+            "==============================\n" +
+            "FORME, VARIATIONS ET CUISSON\n" +
+            "==============================\n" +
+            "La base de la pâte à pizza reste toujours la même.\n" +
+            "À l’origine, sa forme est généralement ronde, mais il est tout à fait possible de lui donner la forme que l’on souhaite : rectangulaire, ovale, grande ou petite.\n" +
+            "Seule l’épaisseur peut varier selon les régions d’Italie et le savoir-faire du pizzaiolo : très fine ou légèrement plus épaisse.\n" +
+            "La pâte peut être décorée et garnie de différentes façons. Nous vous proposons ici quelques suggestions, mais vous pouvez l’agrémenter selon vos envies et la personnaliser presque à l’infini.\n" +
+            "Traditionnellement, la cuisson se fait dans un four spécial au feu de bois, mais elle reste excellente avec une cuisson au four traditionnel.\n" +
+            "Il existe également des fours à bois de petite taille, similaires à un barbecue, pour ceux qui souhaitent pousser l’expérience et qui disposent d’un espace extérieur (voir les liens dans ma boutique)."
+    },
+
+    en: {
+        title: "Homemade pizza dough",
+        equipment: [
+            "1 large bowl",
+            "1 spoon or spatula",
+            "1 work surface",
+            "1 clean kitchen towel"
+        ],
+        ingredients: [
+            "500 g wheat flour (type 00 or all-purpose)",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry baker’s yeast",
+            "2 tablespoons olive oil"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve the yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix until a smooth dough forms.\n" +
+            "5. Knead for 8–10 minutes on a work surface.\n" +
+            "6. Shape into a ball, cover and let rest for 1 hour in a warm place.\n\n" +
+
+            "==============================\n" +
+            "SHAPE, VARIATIONS AND BAKING\n" +
+            "==============================\n" +
+            "The base of pizza dough always remains the same.\n" +
+            "Traditionally round, it can be shaped in many ways: rectangular, oval, large or small.\n" +
+            "Only the thickness varies depending on Italian regions and the pizzaiolo’s expertise, from very thin to slightly thicker.\n" +
+            "The dough can be decorated and topped in many ways. We suggest a few ideas here, but you can personalize it almost endlessly.\n" +
+            "Traditionally, pizza is baked in a wood-fired oven, but it is also excellent in a conventional oven.\n" +
+            "There are also small wood-fired ovens, similar to a barbecue, for those who want to enhance the experience and have outdoor space available (see shop links)."
+    },
+
+    nl: {
+        title: "Zelfgemaakte pizzadeeg",
+        equipment: [
+            "1 grote mengkom",
+            "1 lepel of spatel",
+            "1 werkblad",
+            "1 schone keukendoek"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Doe bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Meng tot een samenhangend deeg.\n" +
+            "5. Kneed 8–10 minuten op het werkblad.\n" +
+            "6. Vorm een bol, dek af en laat 1 uur rusten.\n\n" +
+
+            "==============================\n" +
+            "VORM, VARIATIES EN BAKKEN\n" +
+            "==============================\n" +
+            "De basis van pizzadeeg blijft altijd hetzelfde.\n" +
+            "Oorspronkelijk is de vorm rond, maar het deeg kan elke gewenste vorm krijgen: rechthoekig, ovaal, groot of klein.\n" +
+            "Alleen de dikte verschilt per regio in Italië en per pizzabakker, van zeer dun tot iets dikker.\n" +
+            "Het deeg kan op veel manieren worden belegd. Wij geven enkele ideeën, maar je kunt het vrijwel eindeloos personaliseren.\n" +
+            "Traditioneel wordt pizza gebakken in een houtoven, maar ook in een gewone oven is het resultaat uitstekend.\n" +
+            "Er bestaan compacte houtovens voor buitengebruik, vergelijkbaar met een barbecue, voor wie de ervaring verder wil doortrekken (zie winkel-links)."
+    },
+
+    ar: {
+        title: "عجينة البيتزا المنزلية",
+        equipment: [
+            "وعاء كبير",
+            "ملعقة أو ملعقة مسطحة",
+            "سطح عمل",
+            "منشفة نظيفة"
+        ],
+        ingredients: [
+            "500 غ دقيق قمح",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. وضع الدقيق والملح في وعاء.\n" +
+            "3. إضافة الماء مع الخميرة وزيت الزيتون.\n" +
+            "4. الخلط حتى تتكون عجينة متجانسة.\n" +
+            "5. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "6. تشكيل كرة وتغطيتها وتركها لترتاح لمدة ساعة.\n\n" +
+
+            "==============================\n" +
+            "الشكل، التنويعات والطهي\n" +
+            "==============================\n" +
+            "تبقى قاعدة عجينة البيتزا واحدة دائمًا.\n" +
+            "تكون في الأصل دائرية، لكن يمكن تشكيلها بأي شكل مرغوب فيه: مستطيلة، بيضاوية، كبيرة أو صغيرة.\n" +
+            "يختلف السمك حسب مناطق إيطاليا وخبرة صانع البيتزا، من رقيقة جدًا إلى أكثر سماكة قليلًا.\n" +
+            "يمكن تزيين العجينة وإضافة المكونات بطرق متعددة. نقدّم بعض الاقتراحات، لكن يمكن تخصيصها تقريبًا بلا حدود.\n" +
+            "تُخبز تقليديًا في فرن يعمل بالحطب، لكنها تبقى ممتازة عند طهيها في الفرن العادي.\n" +
+            "تتوفر أفران حطب صغيرة تشبه الشواء لمن يرغب في تجربة أقرب للأصل ولديه مساحة خارجية (راجع روابط المتجر)."
+    }
+};
+recipesData.plat.pizzaMargherita = {
+    country: "italie",
+    image: "images/pizza-margherita.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza Margherita",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "200 g de sauce tomate",
+            "150 g de mozzarella",
+            "Quelques feuilles de basilic frais",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Verser la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir la sauce tomate sur la pâte.\n" +
+            "9. Ajouter la mozzarella et assaisonner.\n" +
+            "10. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit dorée.\n" +
+            "11. Ajouter le basilic frais et un filet d’huile d’olive avant de servir."
+    },
+
+    en: {
+        title: "Margherita Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "200 g tomato sauce",
+            "150 g mozzarella",
+            "Fresh basil leaves",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Roll out the dough on a baking tray.\n" +
+            "8. Spread tomato sauce evenly.\n" +
+            "9. Add mozzarella and season.\n" +
+            "10. Bake for 12–15 minutes until golden.\n" +
+            "11. Add fresh basil and a drizzle of olive oil before serving."
+    },
+
+    nl: {
+        title: "Margherita pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "200 g tomatensaus",
+            "150 g mozzarella",
+            "Verse basilicum",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Bestrijk met tomatensaus.\n" +
+            "9. Voeg mozzarella toe en kruid.\n" +
+            "10. Bak 12–15 minuten tot goudbruin.\n" +
+            "11. Werk af met verse basilicum en olijfolie."
+    },
+
+    ar: {
+        title: "بيتزا مارغريتا",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "200 غ صلصة طماطم",
+            "150 غ جبن موزاريلا",
+            "أوراق ريحان طازجة",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع صلصة الطماطم.\n" +
+            "9. إضافة جبن الموزاريلا والتتبيل.\n" +
+            "10. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "11. إضافة الريحان وزيت الزيتون قبل التقديم."
+    }
+};
+recipesData.plat.pizzaQuatreFromages = {
+    country: "italie",
+    image: "images/pizza-quatre-fromages.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza Quatre Fromages",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson",
+            "1 bol"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "150 g de mozzarella râpée",
+            "50 g de parmesan râpé",
+            "50 g de gorgonzola ou fromage bleu doux",
+            "50 g d’emmental râpé",
+            "2 cuillères à soupe de crème (facultatif)",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Verser la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir les fromages sur la pâte, ajouter la crème si souhaité.\n" +
+            "9. Assaisonner légèrement de sel et de poivre.\n" +
+            "10. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit dorée et fondante.\n" +
+            "11. Servir immédiatement."
+    },
+
+    en: {
+        title: "Four Cheese Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray",
+            "1 bowl"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "150 g grated mozzarella",
+            "50 g grated parmesan",
+            "50 g gorgonzola or mild blue cheese",
+            "50 g grated emmental",
+            "2 tablespoons cream (optional)",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Roll out the dough on a baking tray.\n" +
+            "8. Spread the cheeses evenly, add cream if desired.\n" +
+            "9. Season lightly with salt and pepper.\n" +
+            "10. Bake for 12–15 minutes until golden and melted.\n" +
+            "11. Serve hot."
+    },
+
+    nl: {
+        title: "Vier kazen pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat",
+            "1 kom"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "150 g geraspte mozzarella",
+            "50 g geraspte parmezaan",
+            "50 g gorgonzola of zachte blauwe kaas",
+            "50 g geraspte emmentaler",
+            "2 eetlepels room (optioneel)",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Verdeel de kazen en voeg eventueel room toe.\n" +
+            "9. Kruid licht met zout en peper.\n" +
+            "10. Bak 12–15 minuten tot goudbruin.\n" +
+            "11. Serveer direct."
+    },
+
+    ar: {
+        title: "بيتزا أربعة أجبان",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز",
+            "وعاء"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "150 غ جبن موزاريلا مبشور",
+            "50 غ جبن بارميزان مبشور",
+            "50 غ غورغونزولا أو جبن أزرق خفيف",
+            "50 غ جبن إمنتال مبشور",
+            "2 ملعقة كبيرة كريمة (اختياري)",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع الأجبان وإضافة الكريمة إذا رغبت.\n" +
+            "9. تتبيل خفيف بالملح والفلفل.\n" +
+            "10. خبز البيتزا 12–15 دقيقة حتى تذوب الأجبان وتتحمر.\n" +
+            "11. تقديمها ساخنة."
+    }
+};
+recipesData.plat.pizzaNapolitaine = {
+    country: "italie",
+    image: "images/pizza-napolitaine.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza Napolitaine",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "200 g de sauce tomate",
+            "150 g de mozzarella",
+            "6 à 8 filets d’anchois",
+            "50 g d’olives noires dénoyautées",
+            "Quelques feuilles de basilic frais",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Verser la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir la sauce tomate de manière homogène.\n" +
+            "9. Ajouter la mozzarella, les anchois et les olives.\n" +
+            "10. Assaisonner légèrement de sel et de poivre.\n" +
+            "11. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit bien dorée.\n" +
+            "12. Ajouter le basilic frais et un filet d’huile d’olive avant de servir."
+    },
+
+    en: {
+        title: "Neapolitan Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "200 g tomato sauce",
+            "150 g mozzarella",
+            "6 to 8 anchovy fillets",
+            "50 g black olives",
+            "Fresh basil leaves",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Roll out the dough on a baking tray.\n" +
+            "8. Spread tomato sauce evenly.\n" +
+            "9. Add mozzarella, anchovies and olives.\n" +
+            "10. Season lightly with salt and pepper.\n" +
+            "11. Bake for 12–15 minutes until golden.\n" +
+            "12. Finish with fresh basil and a drizzle of olive oil."
+    },
+
+    nl: {
+        title: "Napolitaanse pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "200 g tomatensaus",
+            "150 g mozzarella",
+            "6 tot 8 ansjovisfilets",
+            "50 g zwarte olijven",
+            "Verse basilicum",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Bestrijk met tomatensaus.\n" +
+            "9. Voeg mozzarella, ansjovis en olijven toe.\n" +
+            "10. Kruid licht met zout en peper.\n" +
+            "11. Bak 12–15 minuten tot goudbruin.\n" +
+            "12. Werk af met verse basilicum en olijfolie."
+    },
+
+    ar: {
+        title: "بيتزا نابوليتانا",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "200 غ صلصة طماطم",
+            "150 غ جبن موزاريلا",
+            "6 إلى 8 شرائح أنشوفة",
+            "50 غ زيتون أسود",
+            "أوراق ريحان طازجة",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع صلصة الطماطم.\n" +
+            "9. إضافة الموزاريلا والأنشوفة والزيتون.\n" +
+            "10. تتبيل خفيف بالملح والفلفل.\n" +
+            "11. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "12. إضافة الريحان وزيت الزيتون قبل التقديم."
+    }
+};
+recipesData.plat.pizzaVegetarienne = {
+    country: "italie",
+    image: "images/pizza-vegetarienne.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza Végétarienne",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson",
+            "1 bol"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "200 g de sauce tomate",
+            "150 g de mozzarella",
+            "50 g de poivron rouge émincé",
+            "50 g de champignons tranchés",
+            "50 g de courgette tranchée",
+            "Quelques feuilles de basilic frais",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Verser la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir la sauce tomate de façon homogène.\n" +
+            "9. Ajouter la mozzarella puis répartir les légumes.\n" +
+            "10. Assaisonner légèrement de sel et de poivre.\n" +
+            "11. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit dorée.\n" +
+            "12. Ajouter le basilic frais et un filet d’huile d’olive avant de servir."
+    },
+
+    en: {
+        title: "Vegetarian Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray",
+            "1 bowl"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "200 g tomato sauce",
+            "150 g mozzarella",
+            "50 g sliced red bell pepper",
+            "50 g sliced mushrooms",
+            "50 g sliced zucchini",
+            "Fresh basil leaves",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Roll out the dough on a baking tray.\n" +
+            "8. Spread tomato sauce evenly.\n" +
+            "9. Add mozzarella and vegetables.\n" +
+            "10. Season lightly with salt and pepper.\n" +
+            "11. Bake for 12–15 minutes until golden.\n" +
+            "12. Finish with fresh basil and olive oil."
+    },
+
+    nl: {
+        title: "Vegetarische pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat",
+            "1 kom"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "200 g tomatensaus",
+            "150 g mozzarella",
+            "50 g rode paprika",
+            "50 g champignons",
+            "50 g courgette",
+            "Verse basilicum",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Bestrijk met tomatensaus.\n" +
+            "9. Voeg mozzarella en groenten toe.\n" +
+            "10. Kruid licht met zout en peper.\n" +
+            "11. Bak 12–15 minuten tot goudbruin.\n" +
+            "12. Werk af met verse basilicum en olijfolie."
+    },
+
+    ar: {
+        title: "بيتزا نباتية",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز",
+            "وعاء"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "200 غ صلصة طماطم",
+            "150 غ جبن موزاريلا",
+            "50 غ فلفل أحمر",
+            "50 غ فطر",
+            "50 غ كوسة",
+            "أوراق ريحان طازجة",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع صلصة الطماطم.\n" +
+            "9. إضافة الموزاريلا والخضروات.\n" +
+            "10. تتبيل خفيف بالملح والفلفل.\n" +
+            "11. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "12. إضافة الريحان وزيت الزيتون قبل التقديم."
+    }
+};
+recipesData.plat.pizzaFunghi = {
+    country: "italie",
+    image: "images/pizza-funghi.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza Funghi",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson",
+            "1 bol"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "200 g de sauce tomate",
+            "150 g de mozzarella",
+            "100 g de champignons frais tranchés",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Verser la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir la sauce tomate uniformément.\n" +
+            "9. Ajouter la mozzarella puis les champignons.\n" +
+            "10. Assaisonner légèrement de sel et de poivre.\n" +
+            "11. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit dorée.\n" +
+            "12. Servir immédiatement."
+    },
+
+    en: {
+        title: "Funghi Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray",
+            "1 bowl"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "200 g tomato sauce",
+            "150 g mozzarella",
+            "100 g sliced fresh mushrooms",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Roll out the dough on a baking tray.\n" +
+            "8. Spread tomato sauce evenly.\n" +
+            "9. Add mozzarella and mushrooms.\n" +
+            "10. Season lightly with salt and pepper.\n" +
+            "11. Bake for 12–15 minutes until golden.\n" +
+            "12. Serve hot."
+    },
+
+    nl: {
+        title: "Funghi pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat",
+            "1 kom"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "200 g tomatensaus",
+            "150 g mozzarella",
+            "100 g verse champignons",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Bestrijk met tomatensaus.\n" +
+            "9. Voeg mozzarella en champignons toe.\n" +
+            "10. Kruid licht met zout en peper.\n" +
+            "11. Bak 12–15 minuten tot goudbruin.\n" +
+            "12. Serveer direct."
+    },
+
+    ar: {
+        title: "بيتزا الفطر",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز",
+            "وعاء"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "200 غ صلصة طماطم",
+            "150 غ جبن موزاريلا",
+            "100 غ فطر طازج",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع صلصة الطماطم.\n" +
+            "9. إضافة الموزاريلا والفطر.\n" +
+            "10. تتبيل خفيف بالملح والفلفل.\n" +
+            "11. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "12. تقديمها ساخنة."
+    }
+};
+recipesData.plat.pizzaProsciuttoFree = {
+    country: "italie",
+    image: "images/pizza-prosciutto-free.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza Prosciutto-free",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "200 g de sauce tomate",
+            "150 g de mozzarella",
+            "80 g de jambon de poulet ou de dinde",
+            "Quelques feuilles de roquette fraîche",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Verser la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir la sauce tomate uniformément.\n" +
+            "9. Ajouter la mozzarella puis le jambon de volaille.\n" +
+            "10. Assaisonner légèrement de sel et de poivre.\n" +
+            "11. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit bien dorée.\n" +
+            "12. Ajouter la roquette fraîche juste avant de servir."
+    },
+
+    en: {
+        title: "Prosciutto-free Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "200 g tomato sauce",
+            "150 g mozzarella",
+            "80 g chicken or turkey ham",
+            "Fresh arugula leaves",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Roll out the dough on a baking tray.\n" +
+            "8. Spread tomato sauce evenly.\n" +
+            "9. Add mozzarella and poultry ham.\n" +
+            "10. Season lightly with salt and pepper.\n" +
+            "11. Bake for 12–15 minutes until golden.\n" +
+            "12. Add fresh arugula before serving."
+    },
+
+    nl: {
+        title: "Prosciutto-vrije pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "200 g tomatensaus",
+            "150 g mozzarella",
+            "80 g kip- of kalkoenham",
+            "Verse rucola",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Bestrijk met tomatensaus.\n" +
+            "9. Voeg mozzarella en gevogelteham toe.\n" +
+            "10. Kruid licht met zout en peper.\n" +
+            "11. Bak 12–15 minuten tot goudbruin.\n" +
+            "12. Werk af met verse rucola."
+    },
+
+    ar: {
+        title: "بيتزا بدون بروسكيوتو",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "200 غ صلصة طماطم",
+            "150 غ جبن موزاريلا",
+            "80 غ شرائح لحم دجاج أو ديك رومي",
+            "أوراق جرجير طازجة",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع صلصة الطماطم.\n" +
+            "9. إضافة الموزاريلا ولحم الدواجن.\n" +
+            "10. تتبيل خفيف بالملح والفلفل.\n" +
+            "11. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "12. إضافة الجرجير الطازج قبل التقديم."
+    }
+};
+recipesData.plat.pizzaCaprese = {
+    country: "italie",
+    image: "images/pizza-caprese.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza Caprese",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "150 g de mozzarella",
+            "2 tomates mûres",
+            "Quelques feuilles de basilic frais",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Verser la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Disposer les tomates et la mozzarella en alternance.\n" +
+            "9. Assaisonner légèrement de sel et de poivre.\n" +
+            "10. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit dorée.\n" +
+            "11. Ajouter le basilic frais et un filet d’huile d’olive avant de servir."
+    },
+
+    en: {
+        title: "Caprese Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "150 g mozzarella",
+            "2 ripe tomatoes",
+            "Fresh basil leaves",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Roll out the dough on a baking tray.\n" +
+            "8. Arrange tomato and mozzarella slices.\n" +
+            "9. Season lightly with salt and pepper.\n" +
+            "10. Bake for 12–15 minutes until golden.\n" +
+            "11. Finish with fresh basil and olive oil."
+    },
+
+    nl: {
+        title: "Caprese pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "150 g mozzarella",
+            "2 rijpe tomaten",
+            "Verse basilicum",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Leg tomaat en mozzarella in plakjes.\n" +
+            "9. Kruid licht met zout en peper.\n" +
+            "10. Bak 12–15 minuten tot goudbruin.\n" +
+            "11. Werk af met basilicum en olijfolie."
+    },
+
+    ar: {
+        title: "بيتزا كابريزي",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "150 غ جبن موزاريلا",
+            "2 طماطم ناضجة",
+            "أوراق ريحان طازجة",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. ترتيب الطماطم والموزاريلا.\n" +
+            "9. تتبيل خفيف بالملح والفلفل.\n" +
+            "10. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "11. إضافة الريحان وزيت الزيتون قبل التقديم."
+    }
+};
+recipesData.plat.pizzaSiciliana = {
+    country: "italie",
+    image: "images/pizza-siciliana.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza Siciliana",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson",
+            "1 bol"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "200 g de sauce tomate",
+            "150 g de mozzarella",
+            "50 g d’aubergine grillée",
+            "50 g de poivron rouge émincé",
+            "50 g d’olives noires dénoyautées",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Verser la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir la sauce tomate uniformément.\n" +
+            "9. Ajouter la mozzarella, puis l’aubergine, le poivron et les olives.\n" +
+            "10. Assaisonner légèrement de sel et de poivre.\n" +
+            "11. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit bien dorée.\n" +
+            "12. Servir immédiatement."
+    },
+
+    en: {
+        title: "Sicilian Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray",
+            "1 bowl"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "200 g tomato sauce",
+            "150 g mozzarella",
+            "50 g grilled eggplant",
+            "50 g sliced red bell pepper",
+            "50 g black olives",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Roll out the dough on a baking tray.\n" +
+            "8. Spread tomato sauce evenly.\n" +
+            "9. Add mozzarella, eggplant, peppers and olives.\n" +
+            "10. Season lightly with salt and pepper.\n" +
+            "11. Bake for 12–15 minutes until golden.\n" +
+            "12. Serve hot."
+    },
+
+    nl: {
+        title: "Siciliaanse pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat",
+            "1 kom"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "200 g tomatensaus",
+            "150 g mozzarella",
+            "50 g gegrilde aubergine",
+            "50 g rode paprika",
+            "50 g zwarte olijven",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Bestrijk met tomatensaus.\n" +
+            "9. Voeg mozzarella, aubergine, paprika en olijven toe.\n" +
+            "10. Kruid licht met zout en peper.\n" +
+            "11. Bak 12–15 minuten tot goudbruin.\n" +
+            "12. Serveer direct."
+    },
+
+    ar: {
+        title: "بيتزا صقلية",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز",
+            "وعاء"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "200 غ صلصة طماطم",
+            "150 غ جبن موزاريلا",
+            "50 غ باذنجان مشوي",
+            "50 غ فلفل أحمر",
+            "50 غ زيتون أسود",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع صلصة الطماطم.\n" +
+            "9. إضافة الموزاريلا والباذنجان والفلفل والزيتون.\n" +
+            "10. تتبيل خفيف بالملح والفلفل.\n" +
+            "11. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "12. تقديمها ساخنة."
+    }
+};
+recipesData.plat.pizzaBianca = {
+    country: "italie",
+    image: "images/pizza-bianca.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza Bianca",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "150 g de mozzarella",
+            "2 cuillères à soupe de crème fraîche (facultatif)",
+            "Herbes fraîches (thym, romarin ou basilic)",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Mettre la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir la mozzarella et la crème si utilisée.\n" +
+            "9. Ajouter les herbes fraîches, saler et poivrer légèrement.\n" +
+            "10. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit dorée.\n" +
+            "11. Ajouter un filet d’huile d’olive avant de servir."
+    },
+
+    en: {
+        title: "White Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "150 g mozzarella",
+            "2 tablespoons fresh cream (optional)",
+            "Fresh herbs (thyme, rosemary or basil)",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Roll out the dough on a baking tray.\n" +
+            "8. Spread mozzarella and cream if used.\n" +
+            "9. Add fresh herbs, salt and pepper.\n" +
+            "10. Bake for 12–15 minutes until golden.\n" +
+            "11. Finish with a drizzle of olive oil."
+    },
+
+    nl: {
+        title: "Witte pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "150 g mozzarella",
+            "2 eetlepels room (optioneel)",
+            "Verse kruiden (tijm, rozemarijn of basilicum)",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Verdeel mozzarella en room indien gewenst.\n" +
+            "9. Voeg kruiden, zout en peper toe.\n" +
+            "10. Bak 12–15 minuten tot goudbruin.\n" +
+            "11. Werk af met olijfolie."
+    },
+
+    ar: {
+        title: "بيتزا بيانكا",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "150 غ جبن موزاريلا",
+            "2 ملعقة كبيرة كريمة طازجة (اختياري)",
+            "أعشاب طازجة (زعتر أو روزماري أو ريحان)",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع الموزاريلا والكريمة إن استُخدمت.\n" +
+            "9. إضافة الأعشاب والملح والفلفل.\n" +
+            "10. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "11. إضافة زيت الزيتون قبل التقديم."
+    }
+};
+recipesData.plat.pizzaChorizoPoulet = {
+    country: "italie",
+    image: "images/pizza-chorizo-poulet.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza au chorizo de poulet",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "200 g de sauce tomate",
+            "150 g de mozzarella",
+            "80 g de chorizo de poulet",
+            "Quelques feuilles de roquette fraîche",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Verser la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir la sauce tomate uniformément.\n" +
+            "9. Ajouter la mozzarella puis le chorizo de poulet.\n" +
+            "10. Assaisonner légèrement de sel et de poivre.\n" +
+            "11. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit bien dorée.\n" +
+            "12. Ajouter la roquette fraîche juste avant de servir."
+    },
+
+    en: {
+        title: "Chicken Chorizo Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "200 g tomato sauce",
+            "150 g mozzarella",
+            "80 g chicken chorizo",
+            "Fresh arugula leaves",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Roll out the dough on a baking tray.\n" +
+            "8. Spread tomato sauce evenly.\n" +
+            "9. Add mozzarella and chicken chorizo.\n" +
+            "10. Season lightly with salt and pepper.\n" +
+            "11. Bake for 12–15 minutes until golden.\n" +
+            "12. Add fresh arugula before serving."
+    },
+
+    nl: {
+        title: "Pizza met kipchorizo",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "200 g tomatensaus",
+            "150 g mozzarella",
+            "80 g kipchorizo",
+            "Verse rucola",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Bestrijk met tomatensaus.\n" +
+            "9. Voeg mozzarella en kipchorizo toe.\n" +
+            "10. Kruid licht met zout en peper.\n" +
+            "11. Bak 12–15 minuten tot goudbruin.\n" +
+            "12. Werk af met verse rucola."
+    },
+
+    ar: {
+        title: "بيتزا بتشوريزو الدجاج",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "200 غ صلصة طماطم",
+            "150 غ جبن موزاريلا",
+            "80 غ تشوريزو دجاج",
+            "أوراق جرجير طازجة",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع صلصة الطماطم.\n" +
+            "9. إضافة الموزاريلا وتشوريزو الدجاج.\n" +
+            "10. تتبيل خفيف بالملح والفلفل.\n" +
+            "11. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "12. إضافة الجرجير الطازج قبل التقديم."
+    }
+};
+recipesData.plat.pizzaPouletBBQ = {
+    country: "italie",
+    image: "images/pizza-poulet-bbq.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza Poulet BBQ",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson",
+            "1 poêle"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "150 g de mozzarella",
+            "150 g de blanc de poulet",
+            "3 cuillères à soupe de sauce barbecue",
+            "50 g de poivron rouge émincé",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Mettre la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Cuire rapidement le poulet à la poêle avec un peu d’huile, saler et poivrer, puis émincer.\n" +
+            "8. Étaler la pâte sur une plaque de cuisson.\n" +
+            "9. Répartir la sauce barbecue uniformément.\n" +
+            "10. Ajouter la mozzarella, le poulet et les poivrons.\n" +
+            "11. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit bien dorée.\n" +
+            "12. Servir immédiatement."
+    },
+
+    en: {
+        title: "BBQ Chicken Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray",
+            "1 pan"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "150 g mozzarella",
+            "150 g chicken breast",
+            "3 tablespoons barbecue sauce",
+            "50 g sliced red bell pepper",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Mix and knead for 8–10 minutes until smooth.\n" +
+            "5. Shape into a ball, cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Quickly cook the chicken in a pan, season and slice.\n" +
+            "8. Roll out the dough on a baking tray.\n" +
+            "9. Spread barbecue sauce evenly.\n" +
+            "10. Add mozzarella, chicken and peppers.\n" +
+            "11. Bake for 12–15 minutes until golden.\n" +
+            "12. Serve hot."
+    },
+
+    nl: {
+        title: "BBQ kip pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat",
+            "1 pan"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "150 g mozzarella",
+            "150 g kipfilet",
+            "3 eetlepels barbecuesaus",
+            "50 g rode paprika",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n" +
+            "1. Los de gist op in het lauwwarme water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout in een kom.\n" +
+            "3. Voeg water met gist en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Vorm een bol, dek af en laat 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Bak de kip kort in de pan en snijd in stukjes.\n" +
+            "8. Rol het deeg uit op een bakplaat.\n" +
+            "9. Bestrijk met barbecuesaus.\n" +
+            "10. Voeg mozzarella, kip en paprika toe.\n" +
+            "11. Bak 12–15 minuten tot goudbruin.\n" +
+            "12. Serveer direct."
+    },
+
+    ar: {
+        title: "بيتزا الدجاج بصوص باربيكيو",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز",
+            "مقلاة"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "150 غ جبن موزاريلا",
+            "150 غ صدر دجاج",
+            "3 ملاعق كبيرة صوص باربيكيو",
+            "50 غ فلفل أحمر",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة لمدة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر حوالي ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. طهي الدجاج سريعًا في مقلاة ثم تقطيعه.\n" +
+            "8. فرد العجينة على صينية الخبز.\n" +
+            "9. توزيع صوص الباربيكيو.\n" +
+            "10. إضافة الموزاريلا والدجاج والفلفل.\n" +
+            "11. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "12. تقديمها ساخنة."
+    }
+};
+recipesData.plat.pizzaBoeufEpice = {
+    country: "italie",
+    image: "images/pizza-boeuf-epice.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
+    fr: {
+        title: "Pizza au bœuf épicé",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 poêle",
+            "1 four",
+            "1 plaque de cuisson"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "150 g de mozzarella râpée",
+            "120 g de bœuf haché",
+            "200 g de sauce tomate",
+            "1 cuillère à café de paprika doux",
+            "1/2 cuillère à café de cumin",
+            "50 g de poivron rouge émincé",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Mettre la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION DE LA GARNITURE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Faire revenir le bœuf haché dans une poêle avec un filet d’huile.\n" +
+            "7. Ajouter le paprika, le cumin, saler et poivrer, puis cuire jusqu’à évaporation du jus.\n" +
+            "8. Préchauffer le four à 220°C.\n" +
+            "9. Étaler la pâte sur une plaque de cuisson.\n" +
+            "10. Répartir la sauce tomate.\n" +
+            "11. Ajouter la mozzarella, le bœuf épicé et les poivrons.\n" +
+            "12. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit bien dorée.\n" +
+            "13. Servir chaud."
+    },
+
+    en: {
+        title: "Spicy Beef Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 pan",
+            "1 oven",
+            "1 baking tray"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "150 g grated mozzarella",
+            "120 g minced beef",
+            "200 g tomato sauce",
+            "1 teaspoon paprika",
+            "1/2 teaspoon cumin",
+            "50 g sliced red pepper",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Place flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Knead for 8–10 minutes until smooth.\n" +
+            "5. Cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Cook minced beef in a pan with paprika and cumin until browned.\n" +
+            "7. Season with salt and pepper and set aside.\n" +
+            "8. Preheat oven to 220°C.\n" +
+            "9. Roll out dough on a baking tray.\n" +
+            "10. Spread tomato sauce.\n" +
+            "11. Add mozzarella, spiced beef and peppers.\n" +
+            "12. Bake 12–15 minutes until golden.\n" +
+            "13. Serve hot."
+    },
+
+    nl: {
+        title: "Pittige rundvlees pizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 pan",
+            "1 oven",
+            "1 bakplaat"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "150 g mozzarella",
+            "120 g rundergehakt",
+            "200 g tomatensaus",
+            "1 tl paprikapoeder",
+            "1/2 tl komijn",
+            "50 g rode paprika",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DEEG BEREIDEN\n" +
+            "==============================\n" +
+            "1. Los de gist op in lauwwarm water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout.\n" +
+            "3. Voeg water en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot soepel deeg.\n" +
+            "5. Laat afgedekt 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Bak het gehakt met paprika en komijn.\n" +
+            "7. Verwarm de oven voor op 220°C.\n" +
+            "8. Rol het deeg uit op een bakplaat.\n" +
+            "9. Verdeel tomatensaus.\n" +
+            "10. Voeg mozzarella, gehakt en paprika toe.\n" +
+            "11. Bak 12–15 minuten tot goudbruin.\n" +
+            "12. Serveer warm."
+    },
+
+    ar: {
+        title: "بيتزا اللحم البقري المتبل",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "مقلاة",
+            "فرن",
+            "صينية خبز"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "150 غ موزاريلا",
+            "120 غ لحم بقري مفروم",
+            "200 غ صلصة طماطم",
+            "ملعقة صغيرة بابريكا",
+            "نصف ملعقة صغيرة كمون",
+            "50 غ فلفل أحمر",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. طهي اللحم المفروم مع البابريكا والكمون.\n" +
+            "7. تسخين الفرن إلى 220°م.\n" +
+            "8. فرد العجينة على صينية الخبز.\n" +
+            "9. توزيع صلصة الطماطم.\n" +
+            "10. إضافة الموزاريلا واللحم والفلفل.\n" +
+            "11. خبز البيتزا 12–15 دقيقة.\n" +
+            "12. تقديمها ساخنة."
+    }
+};
+recipesData.plat.pizzaPepperoniDinde = {
+    country: "italie",
+    image: "images/pizza-pepperoni-dinde.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
+    fr: {
+        title: "Pizza Pepperoni à la dinde",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "200 g de sauce tomate",
+            "150 g de mozzarella râpée",
+            "80 g de pepperoni de dinde en tranches",
+            "1 pincée d’origan séché",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Mettre la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir la sauce tomate de manière uniforme.\n" +
+            "9. Ajouter la mozzarella râpée.\n" +
+            "10. Disposer les tranches de pepperoni de dinde.\n" +
+            "11. Saupoudrer légèrement d’origan, saler et poivrer.\n" +
+            "12. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit bien dorée.\n" +
+            "13. Servir immédiatement."
+    },
+
+    en: {
+        title: "Turkey Pepperoni Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "200 g tomato sauce",
+            "150 g grated mozzarella",
+            "80 g sliced turkey pepperoni",
+            "1 pinch dried oregano",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Combine flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Knead for 8–10 minutes until smooth.\n" +
+            "5. Cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat oven to 220°C.\n" +
+            "7. Roll out dough on a baking tray.\n" +
+            "8. Spread tomato sauce evenly.\n" +
+            "9. Add grated mozzarella.\n" +
+            "10. Arrange turkey pepperoni slices.\n" +
+            "11. Season lightly with oregano, salt and pepper.\n" +
+            "12. Bake for 12–15 minutes until golden.\n" +
+            "13. Serve hot."
+    },
+
+    nl: {
+        title: "Pizza met pepperoni van kalkoen",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "200 g tomatensaus",
+            "150 g geraspte mozzarella",
+            "80 g kalkoenpepperoni",
+            "1 snufje gedroogde oregano",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DEEG BEREIDEN\n" +
+            "==============================\n" +
+            "1. Los de gist op in lauwwarm water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout.\n" +
+            "3. Voeg water en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot een soepel deeg.\n" +
+            "5. Laat afgedekt 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Bestrijk met tomatensaus.\n" +
+            "9. Voeg mozzarella en pepperoni toe.\n" +
+            "10. Breng op smaak met oregano, zout en peper.\n" +
+            "11. Bak 12–15 minuten tot goudbruin.\n" +
+            "12. Serveer direct."
+    },
+
+    ar: {
+        title: "بيتزا بيبروني بالديك الرومي",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "200 غ صلصة طماطم",
+            "150 غ موزاريلا مبشور",
+            "80 غ بيبروني ديك رومي",
+            "رشة أوريغانو",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع صلصة الطماطم.\n" +
+            "9. إضافة الموزاريلا وشرائح البيبروني.\n" +
+            "10. تتبيل خفيف بالأوريغانو والملح والفلفل.\n" +
+            "11. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "12. تقديمها ساخنة."
+    }
+};
+recipesData.plat.pizzaHawaienne = {
+    country: "italie",
+    image: "images/pizza-hawaienne.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Pizza hawaïenne",
+        equipment: [
+            "1 grand saladier",
+            "1 plan de travail",
+            "1 torchon",
+            "1 four",
+            "1 plaque de cuisson"
+        ],
+        ingredients: [
+            "500 g de farine de blé (type 00 ou T45)",
+            "325 ml d’eau tiède",
+            "10 g de sel",
+            "7 g de levure sèche boulangère",
+            "2 cuillères à soupe d’huile d’olive",
+            "200 g de sauce tomate",
+            "150 g de mozzarella râpée",
+            "80 g de jambon de volaille en dés",
+            "120 g d’ananas en morceaux",
+            "Sel et poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n" +
+            "1. Délayer la levure dans l’eau tiède et laisser reposer 5 minutes.\n" +
+            "2. Mettre la farine et le sel dans un saladier.\n" +
+            "3. Ajouter l’eau avec la levure et l’huile d’olive.\n" +
+            "4. Mélanger puis pétrir 8 à 10 minutes jusqu’à obtenir une pâte souple.\n" +
+            "5. Former une boule, couvrir et laisser lever environ 1 heure.\n\n" +
+
+            "==============================\n" +
+            "GARNISSAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Étaler la pâte sur une plaque de cuisson.\n" +
+            "8. Répartir la sauce tomate uniformément.\n" +
+            "9. Ajouter la mozzarella râpée.\n" +
+            "10. Disposer les dés de jambon de volaille et l’ananas.\n" +
+            "11. Saler et poivrer légèrement.\n" +
+            "12. Enfourner 12 à 15 minutes jusqu’à ce que la pizza soit bien dorée.\n" +
+            "13. Servir chaud."
+    },
+
+    en: {
+        title: "Hawaiian Pizza",
+        equipment: [
+            "1 large bowl",
+            "1 work surface",
+            "1 kitchen towel",
+            "1 oven",
+            "1 baking tray"
+        ],
+        ingredients: [
+            "500 g wheat flour",
+            "325 ml lukewarm water",
+            "10 g salt",
+            "7 g dry yeast",
+            "2 tablespoons olive oil",
+            "200 g tomato sauce",
+            "150 g grated mozzarella",
+            "80 g poultry ham, diced",
+            "120 g pineapple chunks",
+            "Salt and pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n" +
+            "1. Dissolve yeast in lukewarm water and let rest for 5 minutes.\n" +
+            "2. Combine flour and salt in a bowl.\n" +
+            "3. Add yeast water and olive oil.\n" +
+            "4. Knead for 8–10 minutes until smooth.\n" +
+            "5. Cover and let rise for about 1 hour.\n\n" +
+
+            "==============================\n" +
+            "TOPPING AND BAKING\n" +
+            "==============================\n" +
+            "6. Preheat oven to 220°C.\n" +
+            "7. Roll out dough on a baking tray.\n" +
+            "8. Spread tomato sauce evenly.\n" +
+            "9. Add grated mozzarella.\n" +
+            "10. Add poultry ham and pineapple.\n" +
+            "11. Lightly season with salt and pepper.\n" +
+            "12. Bake for 12–15 minutes until golden.\n" +
+            "13. Serve hot."
+    },
+
+    nl: {
+        title: "Hawaïpizza",
+        equipment: [
+            "1 grote kom",
+            "1 werkblad",
+            "1 keukendoek",
+            "1 oven",
+            "1 bakplaat"
+        ],
+        ingredients: [
+            "500 g tarwebloem",
+            "325 ml lauwwarm water",
+            "10 g zout",
+            "7 g droge gist",
+            "2 eetlepels olijfolie",
+            "200 g tomatensaus",
+            "150 g geraspte mozzarella",
+            "80 g gevogelteham in blokjes",
+            "120 g ananasstukjes",
+            "Zout en peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "DEEG BEREIDEN\n" +
+            "==============================\n" +
+            "1. Los de gist op in lauwwarm water en laat 5 minuten rusten.\n" +
+            "2. Meng bloem en zout.\n" +
+            "3. Voeg water en olijfolie toe.\n" +
+            "4. Kneed 8–10 minuten tot soepel deeg.\n" +
+            "5. Laat afgedekt 1 uur rijzen.\n\n" +
+
+            "==============================\n" +
+            "BELEG EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Rol het deeg uit op een bakplaat.\n" +
+            "8. Bestrijk met tomatensaus.\n" +
+            "9. Voeg mozzarella, ham en ananas toe.\n" +
+            "10. Breng licht op smaak met zout en peper.\n" +
+            "11. Bak 12–15 minuten tot goudbruin.\n" +
+            "12. Serveer direct."
+    },
+
+    ar: {
+        title: "بيتزا هاواي",
+        equipment: [
+            "وعاء كبير",
+            "سطح عمل",
+            "منشفة",
+            "فرن",
+            "صينية خبز"
+        ],
+        ingredients: [
+            "500 غ دقيق",
+            "325 مل ماء دافئ",
+            "10 غ ملح",
+            "7 غ خميرة جافة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "200 غ صلصة طماطم",
+            "150 غ موزاريلا مبشور",
+            "80 غ لحم ديك رومي مقطع",
+            "120 غ أناناس مقطع",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير العجينة\n" +
+            "==============================\n" +
+            "1. إذابة الخميرة في الماء الدافئ وتركها 5 دقائق.\n" +
+            "2. خلط الدقيق مع الملح.\n" +
+            "3. إضافة الماء وزيت الزيتون.\n" +
+            "4. عجن العجينة 8–10 دقائق.\n" +
+            "5. تغطية العجينة وتركها تختمر ساعة.\n\n" +
+
+            "==============================\n" +
+            "الحشو والخبز\n" +
+            "==============================\n" +
+            "6. تسخين الفرن إلى 220°م.\n" +
+            "7. فرد العجينة على صينية الخبز.\n" +
+            "8. توزيع صلصة الطماطم.\n" +
+            "9. إضافة الموزاريلا واللحم والأناناس.\n" +
+            "10. تتبيل خفيف بالملح والفلفل.\n" +
+            "11. خبز البيتزا 12–15 دقيقة حتى تتحمر.\n" +
+            "12. تقديمها ساخنة."
+    }
+};
+
+
+
+
 
 
 
@@ -26752,1049 +29511,6 @@ recipesData.plat.patesScampiTomate = {
 
 
 
-
-
-
-recipesData.plat.pizzaMargherita = {
-    country: "italie",
-    image: "images/pizza-margherita.jpg",
-    fr: {
-        title: "Pizza Margherita (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "200 g de sauce tomate",
-            "150 g de mozzarella râpée",
-            "Quelques feuilles de basilic frais",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque de cuisson légèrement huilée.\n" +
-            "3. Étaler la sauce tomate sur la pâte.\n" +
-            "4. Répartir la mozzarella sur la sauce.\n" +
-            "5. Ajouter sel, poivre et quelques feuilles de basilic.\n" +
-            "6. Cuire au four 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "7. Ajouter un filet d’huile d’olive avant de servir."
-    },
-    en: {
-        title: "Margherita Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "200 g tomato sauce",
-            "150 g grated mozzarella",
-            "Some fresh basil leaves",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat the oven to 220°C.\n" +
-            "2. Roll out the dough on a lightly oiled baking tray.\n" +
-            "3. Spread tomato sauce over the dough.\n" +
-            "4. Sprinkle mozzarella on top.\n" +
-            "5. Add salt, pepper and some basil leaves.\n" +
-            "6. Bake 12-15 minutes until the crust is golden.\n" +
-            "7. Drizzle with olive oil before serving."
-    },
-    nl: {
-        title: "Margherita pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "200 g tomatensaus",
-            "150 g geraspte mozzarella",
-            "Enkele verse basilicumblaadjes",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verspreid de tomatensaus over het deeg.\n" +
-            "4. Strooi de mozzarella erop.\n" +
-            "5. Voeg zout, peper en wat basilicum toe.\n" +
-            "6. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "7. Besprenkel met olijfolie voor het serveren."
-    },
-    ar: {
-        title: "بيتزا مارغريتا (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "200 غ صلصة طماطم",
-            "150 غ جبن موزاريلا مبشور",
-            "بعض أوراق الريحان الطازج",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية خبز مدهونة بقليل من الزيت.\n" +
-            "3. وزّع صلصة الطماطم على العجينة.\n" +
-            "4. رشّ جبن الموزاريلا فوق الصلصة.\n" +
-            "5. أضف الملح والفلفل وبعض أوراق الريحان.\n" +
-            "6. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "7. أضف قليل من زيت الزيتون قبل التقديم."
-    }
-};
-recipesData.plat.pizzaQuatreFromages = {
-    country: "italie",
-    image: "images/pizza-quatre-fromages.jpg",
-    fr: {
-        title: "Pizza Quatre Fromages (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper", "1 bol"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "150 g de mozzarella râpée",
-            "50 g de parmesan râpé",
-            "50 g de gorgonzola ou fromage bleu doux",
-            "50 g d’emmental râpé",
-            "2 cuillères à soupe de crème (facultatif)",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Répartir les fromages sur la pâte, ajouter la crème si désiré.\n" +
-            "4. Ajouter sel et poivre.\n" +
-            "5. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "6. Servir chaud."
-    },
-    en: {
-        title: "Four Cheese Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board", "1 bowl"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "150 g grated mozzarella",
-            "50 g grated parmesan",
-            "50 g gorgonzola or mild blue cheese",
-            "50 g grated emmental",
-            "2 tablespoons cream (optional)",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat the oven to 220°C.\n" +
-            "2. Roll out the dough on a lightly oiled tray.\n" +
-            "3. Spread cheeses over the dough, add cream if desired.\n" +
-            "4. Add salt and pepper.\n" +
-            "5. Bake 12-15 minutes until crust is golden.\n" +
-            "6. Serve hot."
-    },
-    nl: {
-        title: "Vier kazen pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank", "1 kom"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "150 g geraspte mozzarella",
-            "50 g geraspte parmezaan",
-            "50 g gorgonzola of zachte blauwe kaas",
-            "50 g geraspte emmentaler",
-            "2 eetlepels room (optioneel)",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verdeel de kazen over het deeg, voeg eventueel room toe.\n" +
-            "4. Voeg zout en peper toe.\n" +
-            "5. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "6. Serveer warm."
-    },
-    ar: {
-        title: "بيتزا أربعة أجبان (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع", "وعاء"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "150 غ موزاريلا مبشور",
-            "50 غ بارميزان مبشور",
-            "50 غ غورغونزولا أو جبن أزرق خفيف",
-            "50 غ إمنتال مبشور",
-            "2 ملاعق كبيرة كريمة (اختياري)",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. وزّع الأجبان على العجينة، وأضف الكريمة إذا رغبت.\n" +
-            "4. أضف الملح والفلفل.\n" +
-            "5. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "6. قدّم ساخناً."
-    }
-};
-recipesData.plat.pizzaNapolitaine = {
-    country: "italie",
-    image: "images/pizza-napolitaine.jpg",
-    fr: {
-        title: "Pizza Napolitaine (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "200 g de sauce tomate",
-            "150 g de mozzarella râpée",
-            "50 g d’olives noires dénoyautées",
-            "Quelques feuilles de basilic frais",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Étaler la sauce tomate sur la pâte.\n" +
-            "4. Répartir la mozzarella et les olives.\n" +
-            "5. Ajouter sel, poivre et basilic.\n" +
-            "6. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "7. Ajouter un filet d’huile d’olive avant de servir."
-    },
-    en: {
-        title: "Neapolitan Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "200 g tomato sauce",
-            "150 g grated mozzarella",
-            "50 g pitted black olives",
-            "Some fresh basil leaves",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat the oven to 220°C.\n" +
-            "2. Roll out the dough on a lightly oiled tray.\n" +
-            "3. Spread tomato sauce over the dough.\n" +
-            "4. Top with mozzarella and olives.\n" +
-            "5. Add salt, pepper, and basil.\n" +
-            "6. Bake 12-15 minutes until the crust is golden.\n" +
-            "7. Drizzle with olive oil before serving."
-    },
-    nl: {
-        title: "Napolitaanse pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "200 g tomatensaus",
-            "150 g geraspte mozzarella",
-            "50 g ontpitte zwarte olijven",
-            "Enkele verse basilicumblaadjes",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verspreid tomatensaus over het deeg.\n" +
-            "4. Verdeel mozzarella en olijven.\n" +
-            "5. Voeg zout, peper en basilicum toe.\n" +
-            "6. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "7. Besprenkel met olijfolie voor het serveren."
-    },
-    ar: {
-        title: "بيتزا نابوليتانا (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "200 غ صلصة طماطم",
-            "150 غ جبن موزاريلا مبشور",
-            "50 غ زيتون أسود منزوع النواة",
-            "بعض أوراق الريحان الطازج",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. وزّع صلصة الطماطم على العجينة.\n" +
-            "4. ضع الموزاريلا والزيتون.\n" +
-            "5. أضف الملح والفلفل والريحان.\n" +
-            "6. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "7. أضف قليل من زيت الزيتون قبل التقديم."
-    }
-};
-recipesData.plat.pizzaVegetarienne = {
-    country: "italie",
-    image: "images/pizza-vegetarienne.jpg",
-    fr: {
-        title: "Pizza Végétarienne (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper", "1 bol"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "200 g de sauce tomate",
-            "150 g de mozzarella râpée",
-            "50 g de poivrons rouges émincés",
-            "50 g de champignons tranchés",
-            "50 g de courgettes tranchées",
-            "Quelques feuilles de basilic frais",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Étaler la sauce tomate sur la pâte.\n" +
-            "4. Répartir la mozzarella et les légumes.\n" +
-            "5. Ajouter sel, poivre et basilic.\n" +
-            "6. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "7. Servir chaud."
-    },
-    en: {
-        title: "Vegetarian Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board", "1 bowl"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "200 g tomato sauce",
-            "150 g grated mozzarella",
-            "50 g sliced red peppers",
-            "50 g sliced mushrooms",
-            "50 g sliced zucchini",
-            "Some fresh basil leaves",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat the oven to 220°C.\n" +
-            "2. Roll out the dough on a lightly oiled tray.\n" +
-            "3. Spread tomato sauce over the dough.\n" +
-            "4. Top with mozzarella and vegetables.\n" +
-            "5. Add salt, pepper, and basil.\n" +
-            "6. Bake 12-15 minutes until crust is golden.\n" +
-            "7. Serve hot."
-    },
-    nl: {
-        title: "Vegetarische pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank", "1 kom"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "200 g tomatensaus",
-            "150 g geraspte mozzarella",
-            "50 g gesneden rode paprika",
-            "50 g gesneden champignons",
-            "50 g gesneden courgette",
-            "Enkele verse basilicumblaadjes",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verspreid tomatensaus over het deeg.\n" +
-            "4. Verdeel mozzarella en groenten.\n" +
-            "5. Voeg zout, peper en basilicum toe.\n" +
-            "6. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "7. Serveer warm."
-    },
-    ar: {
-        title: "بيتزا نباتية (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع", "وعاء"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "200 غ صلصة طماطم",
-            "150 غ موزاريلا مبشور",
-            "50 غ فلفل أحمر مقطع شرائح",
-            "50 غ فطر مقطع شرائح",
-            "50 غ كوسة مقطعة شرائح",
-            "بعض أوراق الريحان الطازج",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. وزّع صلصة الطماطم على العجينة.\n" +
-            "4. ضع الموزاريلا والخضروات.\n" +
-            "5. أضف الملح والفلفل والريحان.\n" +
-            "6. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "7. قدّم ساخناً."
-    }
-};
-recipesData.plat.pizzaFunghi = {
-    country: "italie",
-    image: "images/pizza-funghi.jpg",
-    fr: {
-        title: "Pizza Funghi (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper", "1 bol"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "200 g de sauce tomate",
-            "150 g de mozzarella râpée",
-            "100 g de champignons tranchés",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Étaler la sauce tomate sur la pâte.\n" +
-            "4. Répartir la mozzarella et les champignons.\n" +
-            "5. Ajouter sel et poivre.\n" +
-            "6. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "7. Servir chaud."
-    },
-    en: {
-        title: "Funghi Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board", "1 bowl"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "200 g tomato sauce",
-            "150 g grated mozzarella",
-            "100 g sliced mushrooms",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat the oven to 220°C.\n" +
-            "2. Roll out the dough on a lightly oiled tray.\n" +
-            "3. Spread tomato sauce over the dough.\n" +
-            "4. Top with mozzarella and mushrooms.\n" +
-            "5. Add salt and pepper.\n" +
-            "6. Bake 12-15 minutes until crust is golden.\n" +
-            "7. Serve hot."
-    },
-    nl: {
-        title: "Funghi pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank", "1 kom"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "200 g tomatensaus",
-            "150 g geraspte mozzarella",
-            "100 g gesneden champignons",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verspreid tomatensaus over het deeg.\n" +
-            "4. Verdeel mozzarella en champignons.\n" +
-            "5. Voeg zout en peper toe.\n" +
-            "6. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "7. Serveer warm."
-    },
-    ar: {
-        title: "بيتزا الفطر (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع", "وعاء"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "200 غ صلصة طماطم",
-            "150 غ موزاريلا مبشور",
-            "100 غ فطر مقطع شرائح",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. وزّع صلصة الطماطم على العجينة.\n" +
-            "4. ضع الموزاريلا والفطر.\n" +
-            "5. أضف الملح والفلفل.\n" +
-            "6. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "7. قدّم ساخناً."
-    }
-};
-recipesData.plat.pizzaProsciuttoFree = {
-    country: "italie",
-    image: "images/pizza-prosciutto-free.jpg",
-    fr: {
-        title: "Pizza Prosciutto‑free (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "200 g de sauce tomate",
-            "150 g de mozzarella râpée",
-            "50 g de jambon de poulet ou dinde tranché",
-            "Quelques feuilles de roquette",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Étaler la sauce tomate.\n" +
-            "4. Ajouter mozzarella et jambon de volaille.\n" +
-            "5. Ajouter sel, poivre et roquette.\n" +
-            "6. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "7. Servir chaud."
-    },
-    en: {
-        title: "Prosciutto‑free Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "200 g tomato sauce",
-            "150 g grated mozzarella",
-            "50 g sliced chicken or turkey ham",
-            "Some fresh arugula leaves",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat the oven to 220°C.\n" +
-            "2. Roll out the dough on a lightly oiled tray.\n" +
-            "3. Spread tomato sauce.\n" +
-            "4. Add mozzarella and poultry ham.\n" +
-            "5. Add salt, pepper, and arugula.\n" +
-            "6. Bake 12-15 minutes until crust is golden.\n" +
-            "7. Serve hot."
-    },
-    nl: {
-        title: "Prosciutto‑vrije pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "200 g tomatensaus",
-            "150 g geraspte mozzarella",
-            "50 g plakjes kip- of kalkoenham",
-            "Enkele verse rucolablaadjes",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verspreid tomatensaus.\n" +
-            "4. Voeg mozzarella en gevogelteschijfjes toe.\n" +
-            "5. Voeg zout, peper en rucola toe.\n" +
-            "6. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "7. Serveer warm."
-    },
-    ar: {
-        title: "بيتزا بدون بروسكيوتو (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "200 غ صلصة طماطم",
-            "150 غ موزاريلا مبشور",
-            "50 غ شرائح لحم دجاج أو ديك رومي",
-            "بعض أوراق الجرجير الطازج",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. وزّع صلصة الطماطم.\n" +
-            "4. ضع الموزاريلا وشرائح اللحم.\n" +
-            "5. أضف الملح والفلفل والجرجير.\n" +
-            "6. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "7. قدّم ساخناً."
-    }
-};
-recipesData.plat.pizzaCaprese = {
-    country: "italie",
-    image: "images/pizza-caprese.jpg",
-    fr: {
-        title: "Pizza Caprese (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "150 g de mozzarella tranchée",
-            "2 tomates mûres tranchées",
-            "Quelques feuilles de basilic frais",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Disposer les tranches de tomates et mozzarella.\n" +
-            "4. Ajouter sel, poivre et basilic.\n" +
-            "5. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "6. Ajouter un filet d’huile d’olive avant de servir."
-    },
-    en: {
-        title: "Caprese Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "150 g sliced mozzarella",
-            "2 ripe tomatoes, sliced",
-            "Some fresh basil leaves",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat oven to 220°C.\n" +
-            "2. Roll out dough on a lightly oiled tray.\n" +
-            "3. Arrange tomato and mozzarella slices.\n" +
-            "4. Add salt, pepper and basil.\n" +
-            "5. Bake 12-15 minutes until crust is golden.\n" +
-            "6. Drizzle with olive oil before serving."
-    },
-    nl: {
-        title: "Caprese pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "150 g mozzarella in plakjes",
-            "2 rijpe tomaten, in plakjes",
-            "Enkele verse basilicumblaadjes",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Leg de plakjes tomaat en mozzarella erop.\n" +
-            "4. Voeg zout, peper en basilicum toe.\n" +
-            "5. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "6. Besprenkel met olijfolie voor het serveren."
-    },
-    ar: {
-        title: "بيتزا كابريزي (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "150 غ موزاريلا مقطعة شرائح",
-            "2 طماطم ناضجة مقطعة شرائح",
-            "بعض أوراق الريحان الطازج",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. ضع شرائح الطماطم والموزاريلا.\n" +
-            "4. أضف الملح والفلفل والريحان.\n" +
-            "5. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "6. أضف قليل من زيت الزيتون قبل التقديم."
-    }
-};
-recipesData.plat.pizzaSiciliana = {
-    country: "italie",
-    image: "images/pizza-siciliana.jpg",
-    fr: {
-        title: "Pizza Siciliana (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper", "1 bol"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "200 g de sauce tomate",
-            "150 g de mozzarella râpée",
-            "50 g d’aubergines grillées",
-            "50 g de poivrons rouges émincés",
-            "50 g d’olives noires dénoyautées",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Étaler la sauce tomate sur la pâte.\n" +
-            "4. Ajouter mozzarella, aubergines, poivrons et olives.\n" +
-            "5. Ajouter sel et poivre.\n" +
-            "6. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "7. Servir chaud."
-    },
-    en: {
-        title: "Sicilian Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board", "1 bowl"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "200 g tomato sauce",
-            "150 g grated mozzarella",
-            "50 g grilled eggplant",
-            "50 g sliced red peppers",
-            "50 g pitted black olives",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat oven to 220°C.\n" +
-            "2. Roll out dough on a lightly oiled tray.\n" +
-            "3. Spread tomato sauce over dough.\n" +
-            "4. Add mozzarella, eggplant, peppers, and olives.\n" +
-            "5. Add salt and pepper.\n" +
-            "6. Bake 12-15 minutes until crust is golden.\n" +
-            "7. Serve hot."
-    },
-    nl: {
-        title: "Siciliaanse pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank", "1 kom"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "200 g tomatensaus",
-            "150 g geraspte mozzarella",
-            "50 g gegrilde aubergine",
-            "50 g gesneden rode paprika",
-            "50 g ontpitte zwarte olijven",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verspreid tomatensaus over het deeg.\n" +
-            "4. Voeg mozzarella, aubergine, paprika en olijven toe.\n" +
-            "5. Voeg zout en peper toe.\n" +
-            "6. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "7. Serveer warm."
-    },
-    ar: {
-        title: "بيتزا صقلية (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع", "وعاء"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "200 غ صلصة طماطم",
-            "150 غ موزاريلا مبشور",
-            "50 غ باذنجان مشوي",
-            "50 غ فلفل أحمر مقطع شرائح",
-            "50 غ زيتون أسود منزوع النواة",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. وزّع صلصة الطماطم على العجينة.\n" +
-            "4. ضع الموزاريلا، الباذنجان، الفلفل والزيتون.\n" +
-            "5. أضف الملح والفلفل.\n" +
-            "6. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "7. قدّم ساخناً."
-    }
-};
-recipesData.plat.pizzaBianca = {
-    country: "italie",
-    image: "images/pizza-bianca.jpg",
-    fr: {
-        title: "Pizza Bianca (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper", "1 bol"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "150 g de mozzarella râpée",
-            "2 cuillères à soupe de crème fraîche (facultatif)",
-            "Herbes fraîches au choix (thym, romarin, basilic)",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Répartir la mozzarella et la crème si désiré.\n" +
-            "4. Saupoudrer d’herbes, sel et poivre.\n" +
-            "5. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "6. Servir chaud."
-    },
-    en: {
-        title: "White Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board", "1 bowl"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "150 g grated mozzarella",
-            "2 tablespoons fresh cream (optional)",
-            "Fresh herbs of choice (thyme, rosemary, basil)",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat oven to 220°C.\n" +
-            "2. Roll out dough on a lightly oiled tray.\n" +
-            "3. Top with mozzarella and cream if desired.\n" +
-            "4. Sprinkle herbs, salt and pepper.\n" +
-            "5. Bake 12-15 minutes until crust is golden.\n" +
-            "6. Serve hot."
-    },
-    nl: {
-        title: "Witte pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank", "1 kom"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "150 g geraspte mozzarella",
-            "2 eetlepels verse room (optioneel)",
-            "Verse kruiden naar keuze (tijm, rozemarijn, basilicum)",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verdeel mozzarella en room indien gewenst.\n" +
-            "4. Bestrooi met kruiden, zout en peper.\n" +
-            "5. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "6. Serveer warm."
-    },
-    ar: {
-        title: "بيتزا بيانكا (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع", "وعاء"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "150 غ موزاريلا مبشور",
-            "2 ملاعق كبيرة كريمة طازجة (اختياري)",
-            "أعشاب طازجة حسب الرغبة (زعتر، روزماري، ريحان)",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. ضع الموزاريلا والكريمة إذا رغبت.\n" +
-            "4. رش الأعشاب والملح والفلفل.\n" +
-            "5. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "6. قدّم ساخناً."
-    }
-};
-recipesData.plat.pizzaChorizoPoulet = {
-    country: "italie",
-    image: "images/pizza-chorizo-poulet.jpg",
-    fr: {
-        title: "Pizza au chorizo de poulet (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper", "1 bol"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "200 g de sauce tomate",
-            "150 g de mozzarella râpée",
-            "50 g de chorizo de poulet tranché",
-            "Quelques feuilles de roquette",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Étaler la sauce tomate.\n" +
-            "4. Ajouter mozzarella et chorizo de poulet.\n" +
-            "5. Ajouter sel, poivre et roquette.\n" +
-            "6. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "7. Servir chaud."
-    },
-    en: {
-        title: "Chicken Chorizo Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board", "1 bowl"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "200 g tomato sauce",
-            "150 g grated mozzarella",
-            "50 g sliced chicken chorizo",
-            "Some fresh arugula leaves",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat oven to 220°C.\n" +
-            "2. Roll out dough on a lightly oiled tray.\n" +
-            "3. Spread tomato sauce.\n" +
-            "4. Add mozzarella and chicken chorizo.\n" +
-            "5. Add salt, pepper, and arugula.\n" +
-            "6. Bake 12-15 minutes until crust is golden.\n" +
-            "7. Serve hot."
-    },
-    nl: {
-        title: "Pizza met kipchorizo (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank", "1 kom"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "200 g tomatensaus",
-            "150 g geraspte mozzarella",
-            "50 g plakjes kipchorizo",
-            "Enkele verse rucolablaadjes",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verspreid tomatensaus.\n" +
-            "4. Voeg mozzarella en kipchorizo toe.\n" +
-            "5. Voeg zout, peper en rucola toe.\n" +
-            "6. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "7. Serveer warm."
-    },
-    ar: {
-        title: "بيتزا بالتشوريزو الدجاج (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع", "وعاء"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "200 غ صلصة طماطم",
-            "150 غ موزاريلا مبشور",
-            "50 غ شرائح تشوريزو دجاج",
-            "بعض أوراق الجرجير الطازج",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. وزّع صلصة الطماطم.\n" +
-            "4. ضع الموزاريلا وشرائح التشوريزو.\n" +
-            "5. أضف الملح والفلفل والجرجير.\n" +
-            "6. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "7. قدّم ساخناً."
-    }
-};
-recipesData.plat.pizzaPouletBBQ = {
-    country: "italie",
-    image: "images/pizza-poulet-bbq.jpg",
-    fr: {
-        title: "Pizza Poulet BBQ (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper", "1 bol"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "150 g de mozzarella râpée",
-            "150 g de poulet cuit émincé",
-            "2 cuillères à soupe de sauce barbecue sans alcool",
-            "50 g de poivrons rouges émincés",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Étaler la sauce BBQ.\n" +
-            "4. Ajouter mozzarella, poulet et poivrons.\n" +
-            "5. Ajouter sel et poivre.\n" +
-            "6. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "7. Servir chaud."
-    },
-    en: {
-        title: "BBQ Chicken Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board", "1 bowl"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "150 g grated mozzarella",
-            "150 g cooked sliced chicken",
-            "2 tablespoons alcohol-free BBQ sauce",
-            "50 g sliced red peppers",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat oven to 220°C.\n" +
-            "2. Roll out dough on a lightly oiled tray.\n" +
-            "3. Spread BBQ sauce.\n" +
-            "4. Add mozzarella, chicken and peppers.\n" +
-            "5. Add salt and pepper.\n" +
-            "6. Bake 12-15 minutes until crust is golden.\n" +
-            "7. Serve hot."
-    },
-    nl: {
-        title: "BBQ kip pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank", "1 kom"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "150 g geraspte mozzarella",
-            "150 g gekookte kip in plakjes",
-            "2 eetlepels alcoholvrije BBQ saus",
-            "50 g gesneden rode paprika",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verspreid BBQ saus.\n" +
-            "4. Voeg mozzarella, kip en paprika toe.\n" +
-            "5. Voeg zout en peper toe.\n" +
-            "6. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "7. Serveer warm."
-    },
-    ar: {
-        title: "بيتزا الدجاج بصوص باربيكيو (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع", "وعاء"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "150 غ موزاريلا مبشور",
-            "150 غ دجاج مطهو ومقطع شرائح",
-            "2 ملاعق كبيرة صوص باربيكيو خالٍ من الكحول",
-            "50 غ فلفل أحمر مقطع شرائح",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. وزّع صوص الباربيكيو.\n" +
-            "4. ضع الموزاريلا والدجاج والفلفل.\n" +
-            "5. أضف الملح والفلفل.\n" +
-            "6. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "7. قدّم ساخناً."
-    }
-};
-recipesData.plat.pizzaBoeufEpice = {
-    country: "italie",
-    image: "images/pizza-boeuf-epice.jpg",
-    fr: {
-        title: "Pizza Bœuf Épicé (4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "1 pâte à pizza (environ 250 g)",
-            "200 g de sauce tomate",
-            "150 g de mozzarella râpée",
-            "100 g de bœuf haché cuit avec paprika et cumin",
-            "50 g de poivrons rouges émincés",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "1. Préchauffer le four à 220°C.\n" +
-            "2. Étaler la pâte sur une plaque légèrement huilée.\n" +
-            "3. Étaler la sauce tomate.\n" +
-            "4. Ajouter mozzarella, bœuf épicé et poivrons.\n" +
-            "5. Ajouter sel et poivre.\n" +
-            "6. Cuire 12-15 minutes jusqu’à ce que la pâte soit dorée.\n" +
-            "7. Servir chaud."
-    },
-    en: {
-        title: "Spicy Beef Pizza (Serves 4)",
-        equipment: ["1 oven", "1 baking tray", "1 rolling pin", "1 knife", "1 cutting board"],
-        ingredients: [
-            "1 pizza dough (about 250 g)",
-            "200 g tomato sauce",
-            "150 g grated mozzarella",
-            "100 g cooked minced beef with paprika and cumin",
-            "50 g sliced red peppers",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "1. Preheat oven to 220°C.\n" +
-            "2. Roll out dough on a lightly oiled tray.\n" +
-            "3. Spread tomato sauce.\n" +
-            "4. Add mozzarella, spiced beef and peppers.\n" +
-            "5. Add salt and pepper.\n" +
-            "6. Bake 12-15 minutes until crust is golden.\n" +
-            "7. Serve hot."
-    },
-    nl: {
-        title: "Pittige rundvlees pizza (voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 deegroller", "1 mes", "1 snijplank"],
-        ingredients: [
-            "1 pizzadeeg (ongeveer 250 g)",
-            "200 g tomatensaus",
-            "150 g geraspte mozzarella",
-            "100 g gekookt gehakt met paprika en komijn",
-            "50 g gesneden rode paprika",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "1. Verwarm de oven voor op 220°C.\n" +
-            "2. Rol het deeg uit op een licht ingevette bakplaat.\n" +
-            "3. Verspreid tomatensaus.\n" +
-            "4. Voeg mozzarella, gekruid gehakt en paprika toe.\n" +
-            "5. Voeg zout en peper toe.\n" +
-            "6. Bak 12-15 minuten tot de korst goudbruin is.\n" +
-            "7. Serveer warm."
-    },
-    ar: {
-        title: "بيتزا لحم بقري حار (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "شوبك", "سكين", "لوح تقطيع"],
-        ingredients: [
-            "1 عجينة بيتزا (حوالي 250 غ)",
-            "200 غ صلصة طماطم",
-            "150 غ موزاريلا مبشور",
-            "100 غ لحم بقري مفروم مطبوخ مع فلفل حلو وكمون",
-            "50 غ فلفل أحمر مقطع شرائح",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 220°م.\n" +
-            "2. افرد العجينة على صينية مدهونة بقليل من الزيت.\n" +
-            "3. وزّع صلصة الطماطم.\n" +
-            "4. ضع الموزاريلا، اللحم الحار والفلفل.\n" +
-            "5. أضف الملح والفلفل.\n" +
-            "6. اخبز 12-15 دقيقة حتى يصبح العجين ذهبي اللون.\n" +
-            "7. قدّم ساخناً."
-    }
-};
 recipesData.plat.lasagneBolognaise = {
     country: "italie",
     image: "images/lasagne-bolognaise.jpg",
