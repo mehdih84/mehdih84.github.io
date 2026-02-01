@@ -35707,6 +35707,13 @@ recipesData.dessert.atayefNoix = {
     image: "images/atayef-noix.jpg",
     persons: "4 personnes",
 
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Atayef aux noix",
         equipment: [
