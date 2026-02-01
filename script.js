@@ -34554,61 +34554,61 @@ recipesData.plat.samkehHarra = {
 
 
 
-
-
-
-
-
-
-
-
-
-
 recipesData.patisserie.baklava = {
     country: "liban",
-    image: "images/baklava.jpg",
+    image: "images/baklava.liban.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 35,
+        restingTime: 60,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Baklava libanais (4 personnes)",
+        title: "Baklava libanais",
         equipment: [
             "1 plat rectangulaire pour four",
             "1 couteau",
             "1 planche à découper",
-            "1 casserole pour sirop",
+            "1 casserole",
             "1 pinceau",
             "1 balance de cuisine",
             "1 cuillère en bois"
         ],
         ingredients: [
-            "200 g pâte filo",
-            "100 g beurre fondu",
-            "150 g noix mixtes (amandes, pistaches, noix), hachées",
-            "50 g sucre",
-            "1 cuillère à café cannelle moulue (2 g)",
-            "100 ml sirop de sucre (50 g sucre + 50 ml eau + 1 cuillère à café eau de fleur d’oranger)"
+            "200 g de pâte filo",
+            "100 g de beurre fondu",
+            "150 g de fruits secs mélangés (amandes, pistaches, noix), hachés",
+            "50 g de sucre",
+            "1 cuillère à café de cannelle moulue",
+            "50 g de sucre (pour le sirop)",
+            "50 ml d’eau",
+            "1 cuillère à café d’eau de fleur d’oranger"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger les noix hachées, le sucre et la cannelle dans un bol.\n" +
-            "3. Beurrer le plat pour le four.\n" +
-            "4. Déposer une feuille de pâte filo, badigeonner de beurre fondu. Répéter jusqu’à 3 feuilles.\n" +
-            "5. Étaler la moitié du mélange de noix sur les feuilles.\n" +
-            "6. Ajouter 3 autres feuilles de pâte filo, badigeonner de beurre.\n" +
-            "7. Ajouter le reste du mélange de noix.\n" +
-            "8. Recouvrir avec les dernières feuilles de pâte filo (environ 3), en beurrant chaque feuille.\n" +
-            "9. Couper le baklava en losanges ou carrés.\n" +
-            "10. Cuire au four 30-35 minutes jusqu’à doré.\n" +
-            "11. Pendant ce temps, préparer le sirop : chauffer sucre, eau et eau de fleur d’oranger jusqu’à dissolution.\n" +
-            "12. À la sortie du four, verser le sirop sur le baklava chaud.\n" +
-            "13. Laisser refroidir avant de servir."
+            "2. Mélanger les fruits secs hachés avec le sucre et la cannelle.\n" +
+            "3. Beurrer le plat allant au four.\n" +
+            "4. Déposer une feuille de pâte filo, la badigeonner de beurre fondu. Répéter avec 2 autres feuilles.\n" +
+            "5. Répartir la moitié du mélange de fruits secs.\n" +
+            "6. Ajouter 3 nouvelles feuilles de filo en les beurrant, puis le reste des fruits secs.\n" +
+            "7. Terminer avec les dernières feuilles de filo en les beurrant soigneusement.\n" +
+            "8. Découper le baklava en losanges ou carrés avant cuisson.\n" +
+            "9. Enfourner 30 à 35 minutes jusqu’à obtention d’une belle couleur dorée.\n" +
+            "10. Pendant la cuisson, chauffer l’eau, le sucre et l’eau de fleur d’oranger jusqu’à dissolution.\n" +
+            "11. À la sortie du four, verser le sirop chaud sur le baklava encore chaud.\n" +
+            "12. Laisser reposer et refroidir au moins 1 heure avant de servir."
     },
+
     en: {
-        title: "Lebanese Baklava (Serves 4)",
+        title: "Lebanese Baklava",
         equipment: [
             "1 rectangular baking dish",
             "1 knife",
             "1 cutting board",
-            "1 saucepan for syrup",
+            "1 saucepan",
             "1 brush",
             "1 kitchen scale",
             "1 wooden spoon"
@@ -34618,32 +34618,33 @@ recipesData.patisserie.baklava = {
             "100 g melted butter",
             "150 g mixed nuts (almonds, pistachios, walnuts), chopped",
             "50 g sugar",
-            "1 teaspoon ground cinnamon (2 g)",
-            "100 ml sugar syrup (50 g sugar + 50 ml water + 1 tsp orange blossom water)"
+            "1 teaspoon ground cinnamon",
+            "50 g sugar (for syrup)",
+            "50 ml water",
+            "1 teaspoon orange blossom water"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Mix chopped nuts, sugar, and cinnamon in a bowl.\n" +
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Mix chopped nuts with sugar and cinnamon.\n" +
             "3. Butter the baking dish.\n" +
-            "4. Place a sheet of filo, brush with melted butter. Repeat 3 sheets.\n" +
-            "5. Spread half the nut mixture over the sheets.\n" +
-            "6. Add 3 more filo sheets, brushing each with butter.\n" +
-            "7. Add the remaining nut mixture.\n" +
-            "8. Top with last 3 filo sheets, buttering each.\n" +
-            "9. Cut baklava into diamonds or squares.\n" +
-            "10. Bake 30-35 minutes until golden.\n" +
-            "11. Meanwhile, prepare syrup: heat sugar, water, and orange blossom water until dissolved.\n" +
-            "12. Pour syrup over hot baklava out of the oven.\n" +
-            "13. Let cool before serving."
+            "4. Place one filo sheet and brush with butter. Repeat with two more sheets.\n" +
+            "5. Spread half of the nut mixture.\n" +
+            "6. Add three more buttered filo sheets and the remaining nuts.\n" +
+            "7. Finish with the last filo sheets, brushing each with butter.\n" +
+            "8. Cut the baklava into diamonds or squares before baking.\n" +
+            "9. Bake for 30–35 minutes until golden.\n" +
+            "10. Meanwhile, heat water, sugar and orange blossom water until dissolved.\n" +
+            "11. Pour the hot syrup over the hot baklava.\n" +
+            "12. Let cool and rest for at least 1 hour before serving."
     },
+
     nl: {
-        title: "Libanese Baklava (voor 4 personen)",
+        title: "Libanese baklava",
         equipment: [
             "1 rechthoekige ovenschaal",
             "1 mes",
             "1 snijplank",
-            "1 steelpan voor siroop",
+            "1 steelpan",
             "1 kwast",
             "1 keukenweegschaal",
             "1 houten lepel"
@@ -34651,34 +34652,35 @@ recipesData.patisserie.baklava = {
         ingredients: [
             "200 g filodeeg",
             "100 g gesmolten boter",
-            "150 g gemengde noten (amandelen, pistachenoten, walnoten), gehakt",
+            "150 g gemengde noten (amandelen, pistachenoten, walnoten), fijngehakt",
             "50 g suiker",
-            "1 theelepel kaneelpoeder (2 g)",
-            "100 ml suikersiroop (50 g suiker + 50 ml water + 1 theelepel oranjebloesemwater)"
+            "1 theelepel kaneel",
+            "50 g suiker (voor de siroop)",
+            "50 ml water",
+            "1 theelepel oranjebloesemwater"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Meng gehakte noten, suiker en kaneel in een kom.\n" +
+            "2. Meng de noten met suiker en kaneel.\n" +
             "3. Vet de ovenschaal in.\n" +
-            "4. Leg een vel filodeeg, bestrijk met gesmolten boter. Herhaal 3 vellen.\n" +
-            "5. Verdeel de helft van het notenmengsel over de vellen.\n" +
-            "6. Voeg 3 andere filovellen toe, bestrijk elk met boter.\n" +
-            "7. Voeg het resterende notenmengsel toe.\n" +
-            "8. Bedek met de laatste 3 filovellen, boter elk.\n" +
-            "9. Snijd baklava in ruit- of vierkanten.\n" +
-            "10. Bak 30-35 minuten tot goudbruin.\n" +
-            "11. Maak ondertussen de siroop: verwarm suiker, water en oranjebloesemwater tot opgelost.\n" +
-            "12. Giet de siroop over de hete baklava uit de oven.\n" +
-            "13. Laat afkoelen voor het serveren."
+            "4. Leg een vel filodeeg en bestrijk met boter. Herhaal met twee vellen.\n" +
+            "5. Verdeel de helft van het notenmengsel.\n" +
+            "6. Voeg drie ingevette vellen toe en de rest van de noten.\n" +
+            "7. Bedek met de laatste filovellen en bestrijk telkens met boter.\n" +
+            "8. Snijd de baklava in ruiten of vierkanten vóór het bakken.\n" +
+            "9. Bak 30–35 minuten goudbruin.\n" +
+            "10. Verwarm water, suiker en oranjebloesemwater tot opgelost.\n" +
+            "11. Giet de warme siroop over de hete baklava.\n" +
+            "12. Laat minstens 1 uur afkoelen voor serveren."
     },
+
     ar: {
-        title: "بقلاوة لبنانية (تكفي 4 أشخاص)",
+        title: "بقلاوة لبنانية",
         equipment: [
             "صينية خبز مستطيلة",
             "سكين",
             "لوح تقطيع",
-            "قدر لتحضير الشراب",
+            "قدر",
             "فرشاة",
             "ميزان مطبخ",
             "ملعقة خشبية"
@@ -34686,57 +34688,78 @@ recipesData.patisserie.baklava = {
         ingredients: [
             "200 غ عجينة فيلو",
             "100 غ زبدة مذابة",
-            "150 غ مكسرات مشكلة (لوز، فستق، جوز)، مفرومة",
+            "150 غ مكسرات مشكلة (لوز، فستق، جوز) مفرومة",
             "50 غ سكر",
-            "1 ملعقة صغيرة قرفة مطحونة (2 غ)",
-            "100 مل شراب سكر (50 غ سكر + 50 مل ماء + 1 ملعقة صغيرة ماء زهر)"
+            "ملعقة صغيرة قرفة مطحونة",
+            "50 غ سكر (للشراب)",
+            "50 مل ماء",
+            "ملعقة صغيرة ماء زهر"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الفرن على 180°C.\n" +
-            "2. اخلط المكسرات المفرومة مع السكر والقرفة في وعاء.\n" +
-            "3. ادهن صينية الخبز بالزبدة.\n" +
-            "4. ضع ورقة من عجينة الفيلو وادهنها بالزبدة المذابة. كرر 3 ورقات.\n" +
-            "5. ضع نصف خليط المكسرات على العجينة.\n" +
-            "6. أضف 3 ورقات فيلو أخرى، وادهن كل ورقة بالزبدة.\n" +
-            "7. أضف بقية خليط المكسرات.\n" +
-            "8. ضع آخر 3 ورقات فيلو، وادهن كل ورقة بالزبدة.\n" +
-            "9. قطع البقلاوة إلى معينات أو مربعات.\n" +
-            "10. اخبز 30-35 دقيقة حتى تصبح ذهبية.\n" +
-            "11. أثناء ذلك حضّر الشراب: سخن السكر والماء وماء الزهر حتى يذوب.\n" +
-            "12. صب الشراب على البقلاوة الساخنة بعد خروجها من الفرن.\n" +
-            "13. اتركها لتبرد قبل التقديم."
+            "1. سخّن الفرن على 180°م.\n" +
+            "2. اخلط المكسرات مع السكر والقرفة.\n" +
+            "3. ادهن الصينية بالزبدة.\n" +
+            "4. ضع ورقة فيلو وادهنها بالزبدة، وكرر مرتين.\n" +
+            "5. وزّع نصف خليط المكسرات.\n" +
+            "6. أضف ثلاث أوراق فيلو مدهونة ثم باقي المكسرات.\n" +
+            "7. غطِّ بأوراق الفيلو المتبقية مع دهن كل طبقة.\n" +
+            "8. قطّع البقلاوة قبل الخَبز.\n" +
+            "9. اخبز 30–35 دقيقة حتى تصبح ذهبية.\n" +
+            "10. حضّر الشراب بتسخين الماء والسكر وماء الزهر.\n" +
+            "11. اسكب الشراب الساخن فوق البقلاوة الساخنة.\n" +
+            "12. اتركها ترتاح ساعة على الأقل قبل التقديم."
     }
 };
 recipesData.dessert.maamoulDattes = {
     country: "liban",
     image: "images/maamoul-dattes.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Maamoul aux dattes",
-        equipment: ["1 bol","1 presse à maamoul ou emporte-pièce","1 four"],
+        equipment: [
+            "1 bol",
+            "1 presse à maamoul ou emporte-pièce",
+            "1 plaque de cuisson",
+            "Papier cuisson",
+            "1 four"
+        ],
         ingredients: [
-            "200 g farine",
-            "50 g semoule fine",
-            "100 g beurre fondu",
-            "50 g sucre",
-            "50 ml eau",
-            "150 g pâte de dattes",
-            "1/2 cuillère à café cannelle"
+            "200 g de farine",
+            "50 g de semoule fine",
+            "100 g de beurre fondu",
+            "50 g de sucre",
+            "50 ml d’eau",
+            "150 g de pâte de dattes",
+            "1/2 cuillère à café de cannelle moulue"
         ],
         preparation:
-            "Temps de préparation : 20 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Mélanger farine, semoule et sucre.\n" +
-            "2. Ajouter beurre fondu et eau pour former une pâte souple.\n" +
-            "3. Façonner des petites boules.\n" +
-            "4. Remplir chaque boule avec un peu de pâte de dattes mélangée à cannelle.\n" +
-            "5. Refermer et façonner avec presse ou emporte-pièce.\n" +
-            "6. Cuire 12-15 min à 180°C jusqu’à doré léger.\n" +
-            "7. Laisser refroidir avant de servir."
+            "1. Dans un bol, mélanger la farine, la semoule et le sucre.\n" +
+            "2. Ajouter le beurre fondu puis l’eau progressivement jusqu’à obtenir une pâte souple.\n" +
+            "3. Prélever des petites portions de pâte et former des boules.\n" +
+            "4. Mélanger la pâte de dattes avec la cannelle.\n" +
+            "5. Creuser chaque boule, garnir de pâte de dattes, refermer.\n" +
+            "6. Façonner à l’aide d’un moule à maamoul ou d’un emporte-pièce.\n" +
+            "7. Déposer sur une plaque recouverte de papier cuisson.\n" +
+            "8. Cuire au four préchauffé à 180°C pendant 12 à 15 minutes, sans trop colorer.\n" +
+            "9. Laisser refroidir avant de servir."
     },
+
     en: {
-        title: "Maamoul with Dates",
-        equipment: ["bowl","maamoul mold or cookie cutter","oven"],
+        title: "Date Maamoul",
+        equipment: [
+            "1 bowl",
+            "1 maamoul mold or cookie cutter",
+            "1 baking tray",
+            "Baking paper",
+            "1 oven"
+        ],
         ingredients: [
             "200 g flour",
             "50 g fine semolina",
@@ -34744,21 +34767,29 @@ recipesData.dessert.maamoulDattes = {
             "50 g sugar",
             "50 ml water",
             "150 g date paste",
-            "1/2 tsp cinnamon"
+            "1/2 teaspoon ground cinnamon"
         ],
         preparation:
-            "Preparation time: 20 min\nCooking time: 15 min\n\n" +
-            "1. Mix flour, semolina, sugar.\n" +
-            "2. Add melted butter and water to form soft dough.\n" +
-            "3. Shape into small balls.\n" +
-            "4. Fill each ball with some date paste mixed with cinnamon.\n" +
-            "5. Close and shape with mold or cutter.\n" +
-            "6. Bake 12-15 min at 180°C until lightly golden.\n" +
-            "7. Let cool before serving."
+            "1. In a bowl, mix flour, semolina and sugar.\n" +
+            "2. Add melted butter, then gradually add water to form a soft dough.\n" +
+            "3. Shape small dough balls.\n" +
+            "4. Mix date paste with cinnamon.\n" +
+            "5. Fill each dough ball with date mixture and seal.\n" +
+            "6. Shape using a maamoul mold or cutter.\n" +
+            "7. Place on a baking tray lined with baking paper.\n" +
+            "8. Bake in a preheated oven at 180°C for 12–15 minutes, lightly colored.\n" +
+            "9. Let cool before serving."
     },
+
     nl: {
         title: "Maamoul met dadels",
-        equipment: ["kom","maamoul mal of koekjesvorm","oven"],
+        equipment: [
+            "1 kom",
+            "1 maamoulvorm of koekjesvorm",
+            "1 bakplaat",
+            "Bakpapier",
+            "1 oven"
+        ],
         ingredients: [
             "200 g bloem",
             "50 g fijne griesmeel",
@@ -34766,21 +34797,29 @@ recipesData.dessert.maamoulDattes = {
             "50 g suiker",
             "50 ml water",
             "150 g dadelpasta",
-            "1/2 theelepel kaneel"
+            "1/2 theelepel kaneelpoeder"
         ],
         preparation:
-            "Bereidingstijd: 20 min\nKooktijd: 15 min\n\n" +
-            "1. Meng bloem, griesmeel, suiker.\n" +
-            "2. Voeg gesmolten boter en water toe tot soepel deeg.\n" +
-            "3. Vorm kleine bolletjes.\n" +
-            "4. Vul elk bolletje met dadelpasta gemengd met kaneel.\n" +
-            "5. Sluit en vorm met mal of cutter.\n" +
-            "6. Bak 12-15 min op 180°C tot licht goudbruin.\n" +
-            "7. Laat afkoelen voor serveren."
+            "1. Meng bloem, griesmeel en suiker in een kom.\n" +
+            "2. Voeg gesmolten boter toe en daarna geleidelijk water tot een soepel deeg.\n" +
+            "3. Vorm kleine deegballetjes.\n" +
+            "4. Meng dadelpasta met kaneel.\n" +
+            "5. Vul elk balletje met dadelmengsel en sluit goed.\n" +
+            "6. Vorm met een maamoulvorm of koekjesvorm.\n" +
+            "7. Leg op een bakplaat met bakpapier.\n" +
+            "8. Bak 12–15 minuten in een voorverwarmde oven op 180°C, licht goudkleurig.\n" +
+            "9. Laat afkoelen voor het serveren."
     },
+
     ar: {
         title: "معمول بالتمر",
-        equipment: ["وعاء","قالب معمول أو قطاعة","فرن"],
+        equipment: [
+            "وعاء",
+            "قالب معمول أو قطاعة",
+            "صينية خبز",
+            "ورق خبز",
+            "فرن"
+        ],
         ingredients: [
             "200 غ دقيق",
             "50 غ سميد ناعم",
@@ -34788,111 +34827,150 @@ recipesData.dessert.maamoulDattes = {
             "50 غ سكر",
             "50 مل ماء",
             "150 غ معجون تمر",
-            "نصف ملعقة صغيرة قرفة"
+            "نصف ملعقة صغيرة قرفة مطحونة"
         ],
         preparation:
-            "وقت التحضير: 20 دقيقة\nوقت الطهي: 15 دقيقة\n\n" +
-            "1. اخلط الدقيق، السميد، السكر.\n" +
-            "2. أضف الزبدة المذابة والماء لتشكيل عجينة طرية.\n" +
-            "3. شكّل كرات صغيرة.\n" +
-            "4. احشو كل كرة ببعض معجون التمر مع القرفة.\n" +
-            "5. أغلق وشكّل بالقالب أو القطاعة.\n" +
-            "6. اخبز 12-15 دقيقة على 180°م حتى تصبح ذهبية خفيفة.\n" +
-            "7. اتركها لتبرد قبل التقديم."
+            "1. اخلط الدقيق والسميد والسكر في وعاء.\n" +
+            "2. أضف الزبدة المذابة ثم الماء تدريجياً حتى تتكون عجينة طرية.\n" +
+            "3. شكّل كرات صغيرة من العجين.\n" +
+            "4. اخلط معجون التمر مع القرفة.\n" +
+            "5. احشُ كل كرة بالتمر وأغلقها جيداً.\n" +
+            "6. شكّلها باستخدام قالب المعمول أو القطاعة.\n" +
+            "7. ضعها في صينية مبطنة بورق الخبز.\n" +
+            "8. اخبز في فرن مسخن على 180°م لمدة 12–15 دقيقة دون تحمير زائد.\n" +
+            "9. اتركها لتبرد قبل التقديم."
     }
 };
 recipesData.dessert.mouhalabieh = {
     country: "liban",
     image: "images/mouhalabieh.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Mouhalabieh",
-        equipment: ["1 casserole","1 fouet","1 bol","1 cuillère en bois"],
+        title: "Mouhalabieh (crème libanaise)",
+        equipment: [
+            "1 casserole",
+            "1 fouet",
+            "1 cuillère en bois",
+            "4 ramequins"
+        ],
         ingredients: [
-            "500 ml lait",
-            "50 g sucre",
-            "30 g maïzena",
-            "1 cuillère à soupe eau de fleur d’oranger",
-            "Pistaches concassées pour décoration"
+            "500 ml de lait",
+            "50 g de sucre",
+            "30 g de maïzena",
+            "1 cuillère à soupe d’eau de fleur d’oranger",
+            "Pistaches concassées (pour la décoration)"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 10 min\n\n" +
-            "1. Dans une casserole, mélanger maïzena et sucre.\n" +
-            "2. Ajouter progressivement le lait en fouettant pour éviter les grumeaux.\n" +
-            "3. Chauffer à feu moyen, fouetter jusqu’à épaississement (5-7 min).\n" +
-            "4. Retirer du feu, ajouter eau de fleur d’oranger, mélanger.\n" +
-            "5. Verser dans des ramequins.\n" +
-            "6. Laisser refroidir, puis placer 1h au réfrigérateur.\n" +
-            "7. Décorer de pistaches concassées avant de servir."
+            "1. Dans une casserole froide, mélanger la maïzena et le sucre.\n" +
+            "2. Ajouter progressivement le lait en fouettant afin d’éviter les grumeaux.\n" +
+            "3. Chauffer à feu moyen tout en fouettant jusqu’à épaississement (5 à 7 minutes).\n" +
+            "4. Retirer du feu et incorporer l’eau de fleur d’oranger.\n" +
+            "5. Verser immédiatement dans des ramequins.\n" +
+            "6. Laisser refroidir à température ambiante puis placer au réfrigérateur pendant 1 heure.\n" +
+            "7. Décorer de pistaches concassées juste avant de servir."
     },
+
     en: {
-        title: "Mouhalabieh",
-        equipment: ["saucepan","whisk","bowl","wooden spoon"],
+        title: "Mouhalabieh (Lebanese milk pudding)",
+        equipment: [
+            "1 saucepan",
+            "1 whisk",
+            "1 wooden spoon",
+            "4 ramekins"
+        ],
         ingredients: [
             "500 ml milk",
             "50 g sugar",
             "30 g cornstarch",
-            "1 tbsp orange blossom water",
-            "Chopped pistachios for decoration"
+            "1 tablespoon orange blossom water",
+            "Chopped pistachios (for garnish)"
         ],
         preparation:
-            "Preparation time: 10 min\nCooking time: 10 min\n\n" +
-            "1. In saucepan, mix cornstarch and sugar.\n" +
-            "2. Gradually add milk while whisking to avoid lumps.\n" +
-            "3. Heat over medium, whisk until thickened (5-7 min).\n" +
-            "4. Remove from heat, add orange blossom water, mix.\n" +
-            "5. Pour into ramekins.\n" +
-            "6. Cool, refrigerate 1h.\n" +
-            "7. Decorate with chopped pistachios before serving."
+            "1. In a cold saucepan, mix cornstarch and sugar.\n" +
+            "2. Gradually whisk in the milk to avoid lumps.\n" +
+            "3. Heat over medium heat, whisking constantly until thickened (5–7 minutes).\n" +
+            "4. Remove from heat and stir in the orange blossom water.\n" +
+            "5. Pour immediately into ramekins.\n" +
+            "6. Let cool at room temperature, then refrigerate for 1 hour.\n" +
+            "7. Garnish with chopped pistachios just before serving."
     },
+
     nl: {
-        title: "Mouhalabieh",
-        equipment: ["pan","garde","kom","houten lepel"],
+        title: "Mouhalabieh (Libanese melkpudding)",
+        equipment: [
+            "1 pan",
+            "1 garde",
+            "1 houten lepel",
+            "4 schaaltjes"
+        ],
         ingredients: [
             "500 ml melk",
             "50 g suiker",
             "30 g maïzena",
             "1 eetlepel oranjebloesemwater",
-            "gehakte pistachenoten voor decoratie"
+            "Gehakte pistachenoten (voor decoratie)"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 10 min\n\n" +
-            "1. Meng in pan maïzena en suiker.\n" +
-            "2. Voeg geleidelijk melk toe terwijl je klopt om klontjes te voorkomen.\n" +
-            "3. Verhit op middelhoog vuur, klop tot dik (5-7 min).\n" +
-            "4. Haal van vuur, voeg oranjebloesemwater toe, meng.\n" +
-            "5. Giet in ramekins.\n" +
-            "6. Laat afkoelen, koel 1 uur.\n" +
-            "7. Garneer met gehakte pistachenoten voor serveren."
+            "1. Meng maïzena en suiker in een koude pan.\n" +
+            "2. Voeg geleidelijk de melk toe terwijl je klopt om klontjes te voorkomen.\n" +
+            "3. Verhit op middelhoog vuur en blijf kloppen tot het mengsel dik wordt (5–7 minuten).\n" +
+            "4. Haal van het vuur en meng het oranjebloesemwater erdoor.\n" +
+            "5. Giet direct in schaaltjes.\n" +
+            "6. Laat afkoelen en zet vervolgens 1 uur in de koelkast.\n" +
+            "7. Garneer met gehakte pistachenoten vlak voor het serveren."
     },
+
     ar: {
-        title: "مهلبية",
-        equipment: ["قدر","خفاق","وعاء","ملعقة خشبية"],
+        title: "مهلبية لبنانية",
+        equipment: [
+            "قدر",
+            "خفاق",
+            "ملعقة خشبية",
+            "4 أوعية تقديم"
+        ],
         ingredients: [
             "500 مل حليب",
             "50 غ سكر",
             "30 غ نشا ذرة",
-            "1 ملعقة كبيرة ماء زهر البرتقال",
-            "فستق مجروش للتزيين"
+            "ملعقة كبيرة ماء زهر",
+            "فستق مجروش (للتزيين)"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 10 دقائق\n\n" +
-            "1. في قدر، اخلط النشا مع السكر.\n" +
+            "1. في قدر بارد، اخلط النشا مع السكر.\n" +
             "2. أضف الحليب تدريجياً مع الخفق لتجنب التكتل.\n" +
-            "3. سخن على نار متوسطة مع الخفق حتى يصبح كثيفاً (5-7 دقائق).\n" +
-            "4. ارفع عن النار، أضف ماء الزهر، اخلط.\n" +
-            "5. صب في أطباق صغيرة.\n" +
-            "6. اتركه يبرد ثم ضع في الثلاجة 1 ساعة.\n" +
-            "7. زينه بالفستق المفروم قبل التقديم."
+            "3. سخّن على نار متوسطة مع الخفق المستمر حتى يصبح المزيج كثيفاً (5–7 دقائق).\n" +
+            "4. ارفع عن النار وأضف ماء الزهر وحرّك جيداً.\n" +
+            "5. اسكب مباشرة في أوعية التقديم.\n" +
+            "6. اتركه يبرد ثم ضع في الثلاجة لمدة ساعة.\n" +
+            "7. زيّنه بالفستق المجروش قبل التقديم."
     }
 };
 recipesData.dessert.knafehFromage = {
     country: "liban",
     image: "images/knafeh-fromage.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Knafeh au fromage",
-        equipment: ["1 plat allant au four","1 casserole","1 fouet","1 cuillère en bois"],
+        equipment: [
+            "1 plat allant au four",
+            "1 casserole",
+            "1 fouet",
+            "1 cuillère en bois"
+        ],
         ingredients: [
             "200 g pâte kataifi (cheveux d’ange)",
             "100 g beurre fondu",
@@ -34902,45 +34980,55 @@ recipesData.dessert.knafehFromage = {
             "Pistaches concassées pour décoration"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 25 min\n\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Effilocher la pâte kataifi et mélanger avec le beurre fondu.\n" +
+            "2. Effilocher la pâte kataifi et la mélanger avec le beurre fondu.\n" +
             "3. Beurrer le plat et étaler la moitié de la pâte.\n" +
-            "4. Répartir le fromage sur la pâte.\n" +
+            "4. Répartir uniformément le fromage.\n" +
             "5. Recouvrir avec le reste de la pâte.\n" +
-            "6. Cuire 20-25 min jusqu’à doré.\n" +
-            "7. Chauffer sucre et eau de fleur d’oranger dans une petite casserole pour faire un sirop.\n" +
-            "8. Verser le sirop sur le knafeh chaud.\n" +
-            "9. Décorer avec des pistaches concassées.\n" +
+            "6. Enfourner 20 à 25 minutes jusqu’à belle coloration dorée.\n" +
+            "7. Pendant ce temps, chauffer le sucre avec l’eau de fleur d’oranger pour obtenir un sirop léger.\n" +
+            "8. Verser le sirop sur le knafeh chaud à la sortie du four.\n" +
+            "9. Parsemer de pistaches concassées.\n" +
             "10. Servir chaud."
     },
+
     en: {
         title: "Cheese Knafeh",
-        equipment: ["oven dish","saucepan","whisk","wooden spoon"],
+        equipment: [
+            "oven dish",
+            "saucepan",
+            "whisk",
+            "wooden spoon"
+        ],
         ingredients: [
             "200 g kataifi pastry",
             "100 g melted butter",
             "200 g soft cheese (akkawi or mozzarella)",
             "50 g sugar",
             "1 tbsp orange blossom water",
-            "Chopped pistachios for decoration"
+            "Chopped pistachios for garnish"
         ],
         preparation:
-            "Preparation time: 15 min\nCooking time: 25 min\n\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Shred kataifi pastry and mix with melted butter.\n" +
-            "3. Butter the dish and spread half the pastry.\n" +
-            "4. Spread cheese over the pastry.\n" +
-            "5. Cover with remaining pastry.\n" +
-            "6. Bake 20-25 min until golden.\n" +
-            "7. Heat sugar and orange blossom water to make syrup.\n" +
-            "8. Pour syrup over hot knafeh.\n" +
-            "9. Decorate with chopped pistachios.\n" +
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Shred the kataifi pastry and mix with melted butter.\n" +
+            "3. Butter the dish and spread half of the pastry.\n" +
+            "4. Evenly distribute the cheese.\n" +
+            "5. Cover with the remaining pastry.\n" +
+            "6. Bake for 20–25 minutes until golden.\n" +
+            "7. Meanwhile, heat sugar with orange blossom water to make a light syrup.\n" +
+            "8. Pour the syrup over the hot knafeh.\n" +
+            "9. Sprinkle with chopped pistachios.\n" +
             "10. Serve hot."
     },
+
     nl: {
         title: "Knafeh met kaas",
-        equipment: ["ovenschaal","pan","garde","houten lepel"],
+        equipment: [
+            "ovenschaal",
+            "pan",
+            "garde",
+            "houten lepel"
+        ],
         ingredients: [
             "200 g kataifi deeg",
             "100 g gesmolten boter",
@@ -34950,180 +35038,225 @@ recipesData.dessert.knafehFromage = {
             "gehakte pistachenoten voor decoratie"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 25 min\n\n" +
-            "1. Verwarm oven op 180°C.\n" +
-            "2. Verpulver kataifi deeg en meng met gesmolten boter.\n" +
-            "3. Vet schaal in en spreid de helft van het deeg.\n" +
-            "4. Verdeel kaas over het deeg.\n" +
-            "5. Bedek met resterend deeg.\n" +
-            "6. Bak 20-25 min tot goudbruin.\n" +
-            "7. Verwarm suiker en oranjebloesemwater tot siroop.\n" +
-            "8. Giet siroop over hete knafeh.\n" +
-            "9. Garneer met gehakte pistachenoten.\n" +
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Trek het kataifi deeg los en meng met gesmolten boter.\n" +
+            "3. Vet de ovenschaal in en verdeel de helft van het deeg.\n" +
+            "4. Verdeel de kaas gelijkmatig.\n" +
+            "5. Bedek met het resterende deeg.\n" +
+            "6. Bak 20–25 minuten tot goudbruin.\n" +
+            "7. Verwarm ondertussen de suiker met het oranjebloesemwater tot siroop.\n" +
+            "8. Giet de siroop over de hete knafeh.\n" +
+            "9. Garneer met pistachenoten.\n" +
             "10. Serveer warm."
     },
+
     ar: {
         title: "كنافة بالجبن",
-        equipment: ["صحن فرن","قدر","خفاق","ملعقة خشبية"],
+        equipment: [
+            "صحن فرن",
+            "قدر",
+            "خفاق",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "200 غ عجينة كنافة",
             "100 غ زبدة مذابة",
             "200 غ جبن طري (عكاوي أو موزاريلا)",
             "50 غ سكر",
-            "1 ملعقة كبيرة ماء زهر البرتقال",
+            "1 ملعقة كبيرة ماء زهر",
             "فستق مجروش للتزيين"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 25 دقيقة\n\n" +
             "1. سخّن الفرن على 180°م.\n" +
-            "2. فرّق عجينة الكنافة وامزجها مع الزبدة المذابة.\n" +
-            "3. ادهن الصحن ووزّع نصف العجينة.\n" +
-            "4. وزّع الجبن فوق العجينة.\n" +
-            "5. غطّ بالنصف المتبقي من العجينة.\n" +
-            "6. اخبز 20-25 دقيقة حتى يصبح ذهبي اللون.\n" +
-            "7. سخّن السكر وماء الزهر لصنع شراب.\n" +
-            "8. صب الشراب على الكنافة الساخنة.\n" +
+            "2. فكك عجينة الكنافة وامزجها مع الزبدة المذابة.\n" +
+            "3. ادهن الصينية ووزّع نصف العجينة.\n" +
+            "4. وزّع الجبن بالتساوي.\n" +
+            "5. غطِّ بالنصف المتبقي من العجينة.\n" +
+            "6. اخبز لمدة 20–25 دقيقة حتى تصبح ذهبية اللون.\n" +
+            "7. أثناء الخَبز، سخّن السكر مع ماء الزهر لتحضير القطر.\n" +
+            "8. اسكب القطر فوق الكنافة الساخنة.\n" +
             "9. زيّن بالفستق المجروش.\n" +
-            "10. قدّم ساخناً."
+            "10. قدّمها ساخنة."
     }
 };
 recipesData.dessert.atayef = {
     country: "liban",
     image: "images/atayef.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Atayef libanais",
-        equipment: ["1 bol","1 poêle antiadhésive","1 cuillère","1 fouet"],
+        equipment: [
+            "1 bol",
+            "1 fouet",
+            "1 poêle antiadhésive",
+            "1 cuillère"
+        ],
         ingredients: [
-            "200 g farine",
-            "20 g sucre",
-            "1/2 cuillère à café levure chimique",
-            "300 ml eau tiède",
-            "150 g noix hachées ou noix/pistaches",
-            "2 cuillères à soupe sucre pour la farce",
-            "1 cuillère à café cannelle",
-            "50 ml sirop ou miel pour napper"
+            "200 g de farine",
+            "20 g de sucre",
+            "1/2 cuillère à café de levure chimique",
+            "300 ml d’eau tiède",
+            "150 g de noix ou pistaches hachées",
+            "2 cuillères à soupe de sucre (pour la farce)",
+            "1 cuillère à café de cannelle",
+            "50 ml de sirop ou de miel pour le nappage"
         ],
         preparation:
-            "Temps de préparation : 20 min\nTemps de cuisson : 10 min\n\n" +
-            "1. Mélanger farine, sucre et levure.\n" +
-            "2. Ajouter l’eau progressivement pour obtenir une pâte lisse.\n" +
-            "3. Chauffer poêle antiadhésive à feu moyen.\n" +
-            "4. Verser une petite louche de pâte pour former des crêpes de 8 cm.\n" +
-            "5. Cuire seulement d’un côté jusqu’à ce que des bulles apparaissent.\n" +
-            "6. Retirer et laisser refroidir.\n" +
-            "7. Préparer farce : mélanger noix, sucre, cannelle.\n" +
-            "8. Garnir la crêpe et plier en demi-lune.\n" +
-            "9. Napper de sirop ou miel.\n" +
-            "10. Servir immédiatement."
+            "1. Dans un bol, mélanger la farine, le sucre et la levure chimique.\n" +
+            "2. Ajouter progressivement l’eau tiède en fouettant jusqu’à obtenir une pâte lisse et fluide.\n" +
+            "3. Chauffer une poêle antiadhésive à feu moyen sans matière grasse.\n" +
+            "4. Verser une petite louche de pâte pour former des crêpes d’environ 8 cm de diamètre.\n" +
+            "5. Cuire uniquement sur une face jusqu’à l’apparition de bulles et cuisson complète.\n" +
+            "6. Retirer les crêpes et laisser refroidir.\n" +
+            "7. Mélanger les noix hachées avec le sucre et la cannelle.\n" +
+            "8. Garnir chaque crêpe de farce et la plier en demi-lune en pressant les bords.\n" +
+            "9. Napper de sirop ou de miel juste avant de servir."
     },
+
     en: {
         title: "Lebanese Atayef",
-        equipment: ["bowl","non-stick pan","spoon","whisk"],
+        equipment: [
+            "1 bowl",
+            "1 whisk",
+            "1 non-stick pan",
+            "1 spoon"
+        ],
         ingredients: [
             "200 g flour",
             "20 g sugar",
             "1/2 tsp baking powder",
             "300 ml warm water",
-            "150 g chopped nuts (walnuts/pistachios)",
-            "2 tbsp sugar for filling",
+            "150 g chopped nuts (walnuts or pistachios)",
+            "2 tbsp sugar (for filling)",
             "1 tsp cinnamon",
             "50 ml syrup or honey for topping"
         ],
         preparation:
-            "Preparation time: 20 min\nCooking time: 10 min\n\n" +
-            "1. Mix flour, sugar, baking powder.\n" +
-            "2. Gradually add water to get smooth batter.\n" +
-            "3. Heat non-stick pan over medium heat.\n" +
-            "4. Pour small ladle for 8 cm pancakes.\n" +
-            "5. Cook only on one side until bubbles form.\n" +
-            "6. Remove and cool.\n" +
-            "7. Prepare filling: mix nuts, sugar, cinnamon.\n" +
-            "8. Fill pancake and fold in half.\n" +
-            "9. Top with syrup or honey.\n" +
-            "10. Serve immediately."
+            "1. In a bowl, mix flour, sugar and baking powder.\n" +
+            "2. Gradually whisk in warm water until smooth.\n" +
+            "3. Heat a non-stick pan over medium heat without oil.\n" +
+            "4. Pour a small ladle of batter to form 8 cm pancakes.\n" +
+            "5. Cook only on one side until bubbles appear and the surface is set.\n" +
+            "6. Remove and let cool.\n" +
+            "7. Mix chopped nuts with sugar and cinnamon.\n" +
+            "8. Fill each pancake and fold into a half-moon, sealing the edges.\n" +
+            "9. Drizzle with syrup or honey before serving."
     },
+
     nl: {
         title: "Libanese Atayef",
-        equipment: ["kom","anti-aanbakpan","lepel","garde"],
+        equipment: [
+            "1 kom",
+            "1 garde",
+            "1 anti-aanbakpan",
+            "1 lepel"
+        ],
         ingredients: [
             "200 g bloem",
             "20 g suiker",
             "1/2 theelepel bakpoeder",
             "300 ml warm water",
-            "150 g gehakte noten (walnoten/pistachenoten)",
-            "2 eetlepels suiker voor vulling",
+            "150 g gehakte noten (walnoten of pistachenoten)",
+            "2 eetlepels suiker (voor de vulling)",
             "1 theelepel kaneel",
-            "50 ml siroop of honing voor topping"
+            "50 ml siroop of honing voor serveren"
         ],
         preparation:
-            "Bereidingstijd: 20 min\nKooktijd: 10 min\n\n" +
-            "1. Meng bloem, suiker, bakpoeder.\n" +
-            "2. Voeg geleidelijk water toe tot glad beslag.\n" +
-            "3. Verhit anti-aanbakpan op middelhoog vuur.\n" +
-            "4. Giet kleine pollepel voor 8 cm pannenkoeken.\n" +
-            "5. Bak slechts aan één kant tot bubbels verschijnen.\n" +
-            "6. Haal eruit en laat afkoelen.\n" +
-            "7. Bereid vulling: meng noten, suiker, kaneel.\n" +
-            "8. Vul pannenkoek en vouw dubbel.\n" +
-            "9. Besprenkel met siroop of honing.\n" +
-            "10. Serveer direct."
+            "1. Meng bloem, suiker en bakpoeder in een kom.\n" +
+            "2. Voeg geleidelijk warm water toe en klop tot een glad beslag.\n" +
+            "3. Verhit een anti-aanbakpan op middelhoog vuur zonder vetstof.\n" +
+            "4. Giet een kleine pollepel beslag om pannenkoeken van 8 cm te vormen.\n" +
+            "5. Bak slechts aan één kant tot er belletjes verschijnen.\n" +
+            "6. Haal uit de pan en laat afkoelen.\n" +
+            "7. Meng noten met suiker en kaneel.\n" +
+            "8. Vul de pannenkoeken en vouw ze dicht tot een halve maan.\n" +
+            "9. Besprenkel met siroop of honing voor het serveren."
     },
+
     ar: {
         title: "قطايف لبنانية",
-        equipment: ["وعاء","مقلاة مانعة للالتصاق","ملعقة","خفاق"],
+        equipment: [
+            "وعاء",
+            "خفاق",
+            "مقلاة مانعة للالتصاق",
+            "ملعقة"
+        ],
         ingredients: [
             "200 غ دقيق",
             "20 غ سكر",
             "نصف ملعقة صغيرة خميرة كيميائية",
             "300 مل ماء دافئ",
-            "150 غ مكسرات مفرومة (جوز/فستق)",
-            "2 ملاعق كبيرة سكر للحشو",
-            "1 ملعقة صغيرة قرفة",
-            "50 مل شراب أو عسل للتزيين"
+            "150 غ مكسرات مفرومة (جوز أو فستق)",
+            "ملعقتان كبيرتان سكر (للحشو)",
+            "ملعقة صغيرة قرفة",
+            "50 مل قطر أو عسل للتقديم"
         ],
         preparation:
-            "وقت التحضير: 20 دقيقة\nوقت الطهي: 10 دقائق\n\n" +
-            "1. اخلط الدقيق، السكر، الخميرة.\n" +
-            "2. أضف الماء تدريجياً لتحصل على خليط ناعم.\n" +
-            "3. سخّن المقلاة على نار متوسطة.\n" +
-            "4. صب مغرفة صغيرة لتشكيل فطائر 8 سم.\n" +
-            "5. اطهها من جهة واحدة فقط حتى تظهر فقاعات.\n" +
-            "6. ارفعها واتركها لتبرد.\n" +
-            "7. حضّر الحشو: اخلط المكسرات، السكر، القرفة.\n" +
-            "8. احشو الفطيرة واطوها نصف دائرة.\n" +
-            "9. رشّ الشراب أو العسل.\n" +
-            "10. قدّم فوراً."
+            "1. اخلط الدقيق والسكر والخميرة في وعاء.\n" +
+            "2. أضف الماء الدافئ تدريجياً مع الخفق حتى يصبح الخليط ناعماً.\n" +
+            "3. سخّن مقلاة مانعة للالتصاق على نار متوسطة بدون زيت.\n" +
+            "4. اسكب كمية صغيرة من الخليط لتشكيل فطائر بقطر 8 سم.\n" +
+            "5. اطه الفطائر من جهة واحدة فقط حتى تظهر الفقاعات وتنضج.\n" +
+            "6. ارفعها واتركها تبرد.\n" +
+            "7. اخلط المكسرات مع السكر والقرفة.\n" +
+            "8. احشُ الفطائر واطوِها على شكل نصف دائرة مع إغلاق الحواف.\n" +
+            "9. قدّمها مع القطر أو العسل."
     }
 };
 recipesData.dessert.halawetJibn = {
     country: "liban",
     image: "images/halawet-jibn.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Halawet el Jibn",
-        equipment: ["1 casserole","1 bol","1 cuillère en bois","1 fouet"],
+        equipment: [
+            "1 casserole",
+            "1 bol",
+            "1 cuillère en bois",
+            "1 fouet",
+            "1 plan de travail"
+        ],
         ingredients: [
-            "250 g fromage doux type akkawi ou mozzarella",
-            "50 g semoule fine",
-            "50 g sucre",
-            "1 cuillère à soupe eau de fleur d’oranger",
-            "Pistaches concassées pour décoration"
+            "250 g de fromage doux type akkawi ou mozzarella",
+            "50 g de semoule fine",
+            "50 g de sucre",
+            "1 cuillère à soupe d’eau de fleur d’oranger",
+            "Pistaches concassées pour la décoration"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Râper le fromage.\n" +
-            "2. Dans une casserole, mélanger fromage, semoule et sucre.\n" +
-            "3. Chauffer à feu doux en remuant jusqu’à obtenir pâte lisse et élastique (8-10 min).\n" +
-            "4. Retirer du feu et ajouter eau de fleur d’oranger.\n" +
-            "5. Étaler sur un plan huilé.\n" +
-            "6. Rouler en petits rouleaux.\n" +
-            "7. Décorer avec pistaches concassées.\n" +
+            "1. Râper finement le fromage.\n" +
+            "2. Dans une casserole, mélanger le fromage, la semoule et le sucre.\n" +
+            "3. Chauffer à feu doux en remuant constamment jusqu’à obtenir une pâte lisse et élastique (8 à 10 minutes).\n" +
+            "4. Retirer du feu et incorporer l’eau de fleur d’oranger.\n" +
+            "5. Étaler la pâte encore chaude sur un plan de travail légèrement huilé.\n" +
+            "6. Rouler délicatement pour former des rouleaux réguliers.\n" +
+            "7. Parsemer de pistaches concassées.\n" +
             "8. Servir tiède ou froid."
     },
+
     en: {
         title: "Halawet el Jibn",
-        equipment: ["saucepan","bowl","wooden spoon","whisk"],
+        equipment: [
+            "1 saucepan",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 whisk",
+            "1 work surface"
+        ],
         ingredients: [
             "250 g soft cheese (akkawi or mozzarella)",
             "50 g fine semolina",
@@ -35132,116 +35265,146 @@ recipesData.dessert.halawetJibn = {
             "Chopped pistachios for decoration"
         ],
         preparation:
-            "Preparation time: 10 min\nCooking time: 15 min\n\n" +
-            "1. Grate cheese.\n" +
-            "2. In saucepan, mix cheese, semolina, sugar.\n" +
-            "3. Heat on low while stirring until smooth elastic dough (8-10 min).\n" +
-            "4. Remove from heat, add orange blossom water.\n" +
-            "5. Spread on oiled surface.\n" +
-            "6. Roll into small rolls.\n" +
-            "7. Decorate with chopped pistachios.\n" +
-            "8. Serve warm or cold."
+            "1. Finely grate the cheese.\n" +
+            "2. In a saucepan, combine cheese, semolina and sugar.\n" +
+            "3. Heat gently while stirring constantly until a smooth, elastic dough forms (8–10 minutes).\n" +
+            "4. Remove from heat and mix in the orange blossom water.\n" +
+            "5. Spread the warm dough on a lightly oiled surface.\n" +
+            "6. Roll into neat logs.\n" +
+            "7. Sprinkle with chopped pistachios.\n" +
+            "8. Serve warm or chilled."
     },
+
     nl: {
         title: "Halawet el Jibn",
-        equipment: ["pan","kom","houten lepel","garde"],
+        equipment: [
+            "1 pan",
+            "1 kom",
+            "1 houten lepel",
+            "1 garde",
+            "1 werkblad"
+        ],
         ingredients: [
             "250 g zachte kaas (akkawi of mozzarella)",
             "50 g fijne griesmeel",
             "50 g suiker",
             "1 eetlepel oranjebloesemwater",
-            "gehakte pistachenoten voor decoratie"
+            "Gehakte pistachenoten voor decoratie"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 15 min\n\n" +
-            "1. Rasp de kaas.\n" +
-            "2. Meng in pan kaas, griesmeel, suiker.\n" +
-            "3. Verwarm op laag vuur tot glad elastisch deeg (8-10 min).\n" +
-            "4. Haal van vuur, voeg oranjebloesemwater toe.\n" +
-            "5. Spreid op geoliede ondergrond.\n" +
-            "6. Rol in kleine rolletjes.\n" +
-            "7. Garneer met gehakte pistachenoten.\n" +
-            "8. Serveer warm of koud."
+            "1. Rasp de kaas fijn.\n" +
+            "2. Meng in een pan de kaas, griesmeel en suiker.\n" +
+            "3. Verwarm op laag vuur en roer continu tot een glad en elastisch deeg ontstaat (8–10 minuten).\n" +
+            "4. Haal van het vuur en voeg het oranjebloesemwater toe.\n" +
+            "5. Spreid het warme deeg uit op een licht geolied werkblad.\n" +
+            "6. Rol het deeg tot nette rolletjes.\n" +
+            "7. Bestrooi met gehakte pistachenoten.\n" +
+            "8. Serveer lauwwarm of koud."
     },
+
     ar: {
         title: "حلاوة الجبن",
-        equipment: ["قدر","وعاء","ملعقة خشبية","خفاق"],
+        equipment: [
+            "قدر",
+            "وعاء",
+            "ملعقة خشبية",
+            "خفاق",
+            "سطح عمل"
+        ],
         ingredients: [
             "250 غ جبن طري (عكاوي أو موزاريلا)",
             "50 غ سميد ناعم",
             "50 غ سكر",
-            "1 ملعقة كبيرة ماء زهر البرتقال",
+            "ملعقة كبيرة ماء زهر البرتقال",
             "فستق مجروش للتزيين"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 15 دقيقة\n\n" +
-            "1. ابشر الجبن.\n" +
-            "2. في قدر، اخلط الجبن، السميد، السكر.\n" +
-            "3. سخن على نار هادئة مع التحريك حتى يصبح عجينة ناعمة ومرنة (8-10 دقائق).\n" +
-            "4. ارفع عن النار، أضف ماء الزهر.\n" +
-            "5. افرد على سطح مدهون بالزيت.\n" +
-            "6. قم بلفها إلى رول صغير.\n" +
-            "7. زيّن بالفستق المفروم.\n" +
+            "1. ابشر الجبن ناعماً.\n" +
+            "2. اخلط الجبن والسميد والسكر في قدر.\n" +
+            "3. سخّن على نار هادئة مع التحريك المستمر حتى تصبح العجينة ناعمة ومرنة (8–10 دقائق).\n" +
+            "4. ارفع عن النار وأضف ماء الزهر.\n" +
+            "5. افرد العجينة وهي ساخنة على سطح مدهون بقليل من الزيت.\n" +
+            "6. لفّها على شكل رول متناسق.\n" +
+            "7. زيّن بالفستق المجروش.\n" +
             "8. قدّم دافئاً أو بارداً."
     }
 };
 recipesData.dessert.namoura = {
     country: "liban",
     image: "images/namoura.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Namoura",
-        equipment: ["1 bol","1 plat allant au four","1 cuillère en bois"],
+        title: "Namoura libanaise",
+        equipment: [
+            "1 bol",
+            "1 plat allant au four",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "200 g semoule fine",
-            "100 g farine",
-            "100 g sucre",
-            "100 g beurre fondu",
-            "100 ml lait",
-            "1/2 cuillère à café levure chimique",
-            "50 ml sirop de sucre ou miel",
-            "1 cuillère à soupe eau de fleur d’oranger"
+            "200 g de semoule fine",
+            "100 g de farine",
+            "100 g de sucre",
+            "100 g de beurre fondu",
+            "100 ml de lait",
+            "1/2 cuillère à café de levure chimique",
+            "50 ml de sirop de sucre ou de miel",
+            "1 cuillère à soupe d’eau de fleur d’oranger"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 25 min\n\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger semoule, farine, sucre et levure dans un bol.\n" +
-            "3. Ajouter beurre fondu et lait pour obtenir pâte homogène.\n" +
-            "4. Verser dans un plat beurré.\n" +
-            "5. Lisser la surface et couper en carrés avant cuisson.\n" +
-            "6. Cuire 25 min jusqu’à doré.\n" +
-            "7. Chauffer sirop et eau de fleur d’oranger.\n" +
-            "8. Verser sur le gâteau chaud.\n" +
+            "2. Dans un bol, mélanger la semoule, la farine, le sucre et la levure chimique.\n" +
+            "3. Ajouter le beurre fondu et le lait, puis mélanger jusqu’à obtenir une pâte homogène.\n" +
+            "4. Verser la préparation dans un plat préalablement beurré.\n" +
+            "5. Lisser la surface et découper en carrés avant la cuisson.\n" +
+            "6. Enfourner et cuire 25 minutes jusqu’à ce que le gâteau soit bien doré.\n" +
+            "7. Chauffer le sirop avec l’eau de fleur d’oranger.\n" +
+            "8. Verser le sirop chaud sur le gâteau dès la sortie du four.\n" +
             "9. Laisser absorber et refroidir avant de servir."
     },
+
     en: {
-        title: "Namoura",
-        equipment: ["bowl","oven dish","wooden spoon"],
+        title: "Lebanese Namoura",
+        equipment: [
+            "1 bowl",
+            "1 oven dish",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "200 g fine semolina",
             "100 g flour",
             "100 g sugar",
             "100 g melted butter",
             "100 ml milk",
-            "1/2 tsp baking powder",
+            "1/2 teaspoon baking powder",
             "50 ml sugar syrup or honey",
-            "1 tbsp orange blossom water"
+            "1 tablespoon orange blossom water"
         ],
         preparation:
-            "Preparation time: 15 min\nCooking time: 25 min\n\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Mix semolina, flour, sugar, baking powder.\n" +
-            "3. Add melted butter and milk to form smooth batter.\n" +
-            "4. Pour into buttered dish.\n" +
-            "5. Smooth surface, cut into squares before baking.\n" +
-            "6. Bake 25 min until golden.\n" +
-            "7. Heat syrup and orange blossom water.\n" +
-            "8. Pour over hot cake.\n" +
+            "1. Preheat the oven to 180°C.\n" +
+            "2. In a bowl, mix semolina, flour, sugar and baking powder.\n" +
+            "3. Add melted butter and milk, mixing until smooth.\n" +
+            "4. Pour the batter into a buttered baking dish.\n" +
+            "5. Smooth the surface and cut into squares before baking.\n" +
+            "6. Bake for 25 minutes until golden.\n" +
+            "7. Heat the syrup with orange blossom water.\n" +
+            "8. Pour over the hot cake straight from the oven.\n" +
             "9. Let absorb and cool before serving."
     },
+
     nl: {
-        title: "Namoura",
-        equipment: ["kom","ovenschaal","houten lepel"],
+        title: "Libanese Namoura",
+        equipment: [
+            "1 kom",
+            "1 ovenschaal",
+            "1 houten lepel"
+        ],
         ingredients: [
             "200 g fijne griesmeel",
             "100 g bloem",
@@ -35253,20 +35416,24 @@ recipesData.dessert.namoura = {
             "1 eetlepel oranjebloesemwater"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 25 min\n\n" +
-            "1. Verwarm oven op 180°C.\n" +
-            "2. Meng griesmeel, bloem, suiker, bakpoeder.\n" +
-            "3. Voeg gesmolten boter en melk toe tot glad beslag.\n" +
-            "4. Giet in ingevette schaal.\n" +
-            "5. Strijk oppervlak glad en snijd in vierkanten voor het bakken.\n" +
-            "6. Bak 25 min tot goudbruin.\n" +
-            "7. Verwarm siroop en oranjebloesemwater.\n" +
-            "8. Giet over warme cake.\n" +
-            "9. Laat opnemen en afkoelen voor serveren."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Meng griesmeel, bloem, suiker en bakpoeder in een kom.\n" +
+            "3. Voeg gesmolten boter en melk toe en meng tot een glad beslag.\n" +
+            "4. Giet het beslag in een ingevette ovenschaal.\n" +
+            "5. Strijk glad en snijd in vierkanten vóór het bakken.\n" +
+            "6. Bak 25 minuten tot goudbruin.\n" +
+            "7. Verwarm de siroop met oranjebloesemwater.\n" +
+            "8. Giet over de warme cake direct uit de oven.\n" +
+            "9. Laat intrekken en afkoelen voor het serveren."
     },
+
     ar: {
-        title: "نمورة",
-        equipment: ["وعاء","صحن فرن","ملعقة خشبية"],
+        title: "نمورة لبنانية",
+        equipment: [
+            "وعاء",
+            "صحن فرن",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "200 غ سميد ناعم",
             "100 غ دقيق",
@@ -35278,71 +35445,92 @@ recipesData.dessert.namoura = {
             "1 ملعقة كبيرة ماء زهر البرتقال"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 25 دقيقة\n\n" +
             "1. سخّن الفرن على 180°م.\n" +
-            "2. اخلط السميد، الدقيق، السكر، الخميرة.\n" +
-            "3. أضف الزبدة المذابة والحليب لتحصل على عجينة ناعمة.\n" +
-            "4. صبّ في صحن مدهون بالزبدة.\n" +
-            "5. سطح مستوي، قطع مربعات قبل الخبز.\n" +
-            "6. اخبز 25 دقيقة حتى يصبح ذهبي اللون.\n" +
-            "7. سخّن الشراب وماء الزهر.\n" +
-            "8. صبّه على الكعكة الساخنة.\n" +
-            "9. اتركه ليمتص ويبرد قبل التقديم."
+            "2. اخلط السميد والدقيق والسكر والخميرة في وعاء.\n" +
+            "3. أضف الزبدة المذابة والحليب وامزج حتى تتكون عجينة متجانسة.\n" +
+            "4. اسكب الخليط في صحن مدهون بالزبدة.\n" +
+            "5. سوِّ السطح وقطّع مربعات قبل الخَبز.\n" +
+            "6. اخبز لمدة 25 دقيقة حتى يصبح ذهبي اللون.\n" +
+            "7. سخّن الشراب مع ماء الزهر.\n" +
+            "8. اسكب الشراب على النمورة الساخنة فور خروجها من الفرن.\n" +
+            "9. اتركها لتتشرب وتبرد قبل التقديم."
     }
 };
 recipesData.dessert.sfouf = {
     country: "liban",
     image: "images/sfouf.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Sfouf",
-        equipment: ["1 bol","1 plat allant au four","1 cuillère"],
+        title: "Sfouf libanais",
+        equipment: [
+            "1 bol",
+            "1 plat allant au four",
+            "1 cuillère",
+            "1 four"
+        ],
         ingredients: [
-            "200 g semoule fine",
-            "100 g farine",
-            "50 g sucre",
-            "50 g beurre fondu",
-            "1/2 cuillère à café levure chimique",
-            "1 cuillère à café curcuma",
-            "50 ml lait",
-            "50 g pignons pour décoration"
+            "200 g de semoule fine",
+            "100 g de farine",
+            "50 g de sucre",
+            "50 g de beurre fondu",
+            "1/2 cuillère à café de levure chimique",
+            "1 cuillère à café de curcuma",
+            "50 ml de lait",
+            "50 g de pignons de pin (décoration)"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 20 min\n\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger semoule, farine, sucre, levure et curcuma.\n" +
-            "3. Ajouter beurre fondu et lait pour obtenir pâte homogène.\n" +
-            "4. Verser dans plat beurré.\n" +
-            "5. Lisser la surface et parsemer de pignons.\n" +
-            "6. Cuire 20 min jusqu’à doré.\n" +
-            "7. Laisser refroidir avant de couper en carrés et servir."
+            "2. Dans un bol, mélanger la semoule, la farine, le sucre, la levure et le curcuma.\n" +
+            "3. Ajouter le beurre fondu et le lait, puis mélanger jusqu’à obtenir une pâte homogène.\n" +
+            "4. Verser la préparation dans un plat préalablement beurré.\n" +
+            "5. Lisser la surface et parsemer de pignons de pin.\n" +
+            "6. Enfourner et cuire pendant 20 minutes jusqu’à légère coloration.\n" +
+            "7. Laisser refroidir avant de découper en carrés et servir."
     },
+
     en: {
-        title: "Sfouf",
-        equipment: ["bowl","oven dish","spoon"],
+        title: "Lebanese Sfouf",
+        equipment: [
+            "1 bowl",
+            "1 oven dish",
+            "1 spoon",
+            "1 oven"
+        ],
         ingredients: [
             "200 g fine semolina",
             "100 g flour",
             "50 g sugar",
             "50 g melted butter",
-            "1/2 tsp baking powder",
-            "1 tsp turmeric",
+            "1/2 teaspoon baking powder",
+            "1 teaspoon turmeric",
             "50 ml milk",
-            "50 g pine nuts for decoration"
+            "50 g pine nuts (for topping)"
         ],
         preparation:
-            "Preparation time: 10 min\nCooking time: 20 min\n\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Mix semolina, flour, sugar, baking powder, turmeric.\n" +
-            "3. Add melted butter and milk to form smooth batter.\n" +
-            "4. Pour into buttered dish.\n" +
-            "5. Smooth surface, sprinkle pine nuts.\n" +
-            "6. Bake 20 min until golden.\n" +
-            "7. Cool before cutting into squares and serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. In a bowl, mix semolina, flour, sugar, baking powder, and turmeric.\n" +
+            "3. Add melted butter and milk, then mix until smooth.\n" +
+            "4. Pour the batter into a greased baking dish.\n" +
+            "5. Smooth the surface and sprinkle with pine nuts.\n" +
+            "6. Bake for 20 minutes until lightly golden.\n" +
+            "7. Let cool before cutting into squares and serving."
     },
+
     nl: {
-        title: "Sfouf",
-        equipment: ["kom","ovenschaal","lepel"],
+        title: "Libanese Sfouf",
+        equipment: [
+            "1 kom",
+            "1 ovenschaal",
+            "1 lepel",
+            "1 oven"
+        ],
         ingredients: [
             "200 g fijne griesmeel",
             "100 g bloem",
@@ -35351,21 +35539,26 @@ recipesData.dessert.sfouf = {
             "1/2 theelepel bakpoeder",
             "1 theelepel kurkuma",
             "50 ml melk",
-            "50 g pijnboompitten voor decoratie"
+            "50 g pijnboompitten (decoratie)"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 20 min\n\n" +
-            "1. Verwarm oven op 180°C.\n" +
-            "2. Meng griesmeel, bloem, suiker, bakpoeder, kurkuma.\n" +
-            "3. Voeg gesmolten boter en melk toe tot glad beslag.\n" +
-            "4. Giet in ingevette schaal.\n" +
-            "5. Strijk oppervlak glad, strooi pijnboompitten.\n" +
-            "6. Bak 20 min tot goudbruin.\n" +
-            "7. Laat afkoelen voor het snijden in vierkanten."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Meng griesmeel, bloem, suiker, bakpoeder en kurkuma in een kom.\n" +
+            "3. Voeg de gesmolten boter en melk toe en meng tot een glad beslag.\n" +
+            "4. Giet het beslag in een ingevette ovenschaal.\n" +
+            "5. Strijk de bovenkant glad en bestrooi met pijnboompitten.\n" +
+            "6. Bak 20 minuten tot licht goudbruin.\n" +
+            "7. Laat afkoelen en snijd in vierkanten."
     },
+
     ar: {
-        title: "سفوف",
-        equipment: ["وعاء","صحن فرن","ملعقة"],
+        title: "سفوف لبناني",
+        equipment: [
+            "وعاء",
+            "صحن فرن",
+            "ملعقة",
+            "فرن"
+        ],
         ingredients: [
             "200 غ سميد ناعم",
             "100 غ دقيق",
@@ -35377,218 +35570,293 @@ recipesData.dessert.sfouf = {
             "50 غ صنوبر للتزيين"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 20 دقيقة\n\n" +
-            "1. سخّن الفرن على 180°م.\n" +
-            "2. اخلط السميد، الدقيق، السكر، الخميرة، الكركم.\n" +
-            "3. أضف الزبدة المذابة والحليب لتحصل على عجينة ناعمة.\n" +
-            "4. صبّ في صحن مدهون بالزبدة.\n" +
-            "5. سطح مستوي، رش الصنوبر.\n" +
-            "6. اخبز 20 دقيقة حتى يصبح ذهبي اللون.\n" +
-            "7. اتركه يبرد قبل التقطيع إلى مربعات."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. اخلط السميد والدقيق والسكر والخميرة والكركم في وعاء.\n" +
+            "3. أضف الزبدة المذابة والحليب وامزج حتى تتكوّن عجينة ناعمة.\n" +
+            "4. اسكب الخليط في صحن مدهون بالزبدة.\n" +
+            "5. سوِّ السطح ورش الصنوبر.\n" +
+            "6. اخبز لمدة 20 دقيقة حتى يصبح لونه ذهبياً فاتحاً.\n" +
+            "7. اتركه يبرد ثم قطّعه إلى مربعات وقدّمه."
     }
 };
 recipesData.dessert.atayefFromage = {
     country: "liban",
     image: "images/atayef-fromage.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Atayef au fromage",
-        equipment: ["1 bol","1 poêle antiadhésive","1 cuillère","1 fouet"],
+        title: "Atayef libanais au fromage",
+        equipment: [
+            "1 bol",
+            "1 poêle antiadhésive",
+            "1 cuillère",
+            "1 fouet"
+        ],
         ingredients: [
-            "200 g farine",
-            "20 g sucre",
-            "1/2 cuillère à café levure chimique",
-            "300 ml eau tiède",
-            "100 g fromage doux type akkawi",
-            "50 ml sirop ou miel pour napper"
+            "200 g de farine",
+            "20 g de sucre",
+            "1/2 cuillère à café de levure chimique",
+            "300 ml d’eau tiède",
+            "100 g de fromage doux type akkawi",
+            "50 ml de sirop de sucre ou de miel"
         ],
         preparation:
-            "Temps de préparation : 20 min\nTemps de cuisson : 10 min\n\n" +
-            "1. Mélanger farine, sucre, levure.\n" +
-            "2. Ajouter l’eau progressivement pour obtenir une pâte lisse.\n" +
-            "3. Chauffer poêle antiadhésive.\n" +
-            "4. Verser petite louche pour former crêpes 8 cm.\n" +
-            "5. Cuire seulement d’un côté.\n" +
-            "6. Remplir chaque crêpe avec fromage doux.\n" +
-            "7. Plier en demi-lune.\n" +
-            "8. Napper de sirop ou miel.\n" +
+            "1. Dans un bol, mélanger la farine, le sucre et la levure chimique.\n" +
+            "2. Ajouter l’eau progressivement en fouettant jusqu’à obtenir une pâte lisse.\n" +
+            "3. Chauffer une poêle antiadhésive à feu moyen.\n" +
+            "4. Verser une petite louche de pâte pour former des crêpes d’environ 8 cm de diamètre.\n" +
+            "5. Cuire uniquement d’un côté jusqu’à apparition de bulles en surface.\n" +
+            "6. Retirer la crêpe et déposer un peu de fromage doux au centre.\n" +
+            "7. Plier en demi-lune pendant que la crêpe est encore chaude.\n" +
+            "8. Napper de sirop ou de miel.\n" +
             "9. Servir tiède."
     },
+
     en: {
-        title: "Cheese Atayef",
-        equipment: ["bowl","non-stick pan","spoon","whisk"],
+        title: "Lebanese Cheese Atayef",
+        equipment: [
+            "1 bowl",
+            "1 non-stick pan",
+            "1 spoon",
+            "1 whisk"
+        ],
         ingredients: [
             "200 g flour",
             "20 g sugar",
-            "1/2 tsp baking powder",
+            "1/2 teaspoon baking powder",
             "300 ml warm water",
             "100 g soft cheese (akkawi)",
-            "50 ml syrup or honey for topping"
+            "50 ml sugar syrup or honey"
         ],
         preparation:
-            "Preparation time: 20 min\nCooking time: 10 min\n\n" +
-            "1. Mix flour, sugar, baking powder.\n" +
-            "2. Gradually add water for smooth batter.\n" +
-            "3. Heat non-stick pan.\n" +
-            "4. Pour small ladle for 8 cm pancakes.\n" +
-            "5. Cook only on one side.\n" +
-            "6. Fill each pancake with soft cheese.\n" +
-            "7. Fold in half.\n" +
-            "8. Top with syrup or honey.\n" +
+            "1. In a bowl, mix flour, sugar, and baking powder.\n" +
+            "2. Gradually add water while whisking until smooth.\n" +
+            "3. Heat a non-stick pan over medium heat.\n" +
+            "4. Pour a small ladle of batter to form 8 cm pancakes.\n" +
+            "5. Cook only on one side until bubbles appear.\n" +
+            "6. Remove and place some soft cheese in the center.\n" +
+            "7. Fold into a half-moon shape.\n" +
+            "8. Drizzle with syrup or honey.\n" +
             "9. Serve warm."
     },
+
     nl: {
-        title: "Atayef met kaas",
-        equipment: ["kom","anti-aanbakpan","lepel","garde"],
+        title: "Libanese Atayef met kaas",
+        equipment: [
+            "1 kom",
+            "1 anti-aanbakpan",
+            "1 lepel",
+            "1 garde"
+        ],
         ingredients: [
             "200 g bloem",
             "20 g suiker",
             "1/2 theelepel bakpoeder",
             "300 ml warm water",
             "100 g zachte kaas (akkawi)",
-            "50 ml siroop of honing"
+            "50 ml suikersiroop of honing"
         ],
         preparation:
-            "Bereidingstijd: 20 min\nKooktijd: 10 min\n\n" +
-            "1. Meng bloem, suiker, bakpoeder.\n" +
-            "2. Voeg geleidelijk water toe voor glad beslag.\n" +
-            "3. Verhit anti-aanbakpan.\n" +
-            "4. Giet kleine pollepel voor 8 cm pannenkoeken.\n" +
-            "5. Bak slechts aan één kant.\n" +
-            "6. Vul elke pannenkoek met zachte kaas.\n" +
-            "7. Vouw dubbel.\n" +
+            "1. Meng bloem, suiker en bakpoeder in een kom.\n" +
+            "2. Voeg geleidelijk water toe en klop tot een glad beslag.\n" +
+            "3. Verhit een anti-aanbakpan op middelhoog vuur.\n" +
+            "4. Giet een kleine pollepel beslag voor pannenkoeken van 8 cm.\n" +
+            "5. Bak slechts aan één kant tot er belletjes verschijnen.\n" +
+            "6. Haal uit de pan en leg wat zachte kaas in het midden.\n" +
+            "7. Vouw dubbel tot een halve maan.\n" +
             "8. Besprenkel met siroop of honing.\n" +
             "9. Serveer warm."
     },
+
     ar: {
-        title: "قطايف بالجبن",
-        equipment: ["وعاء","مقلاة مانعة للالتصاق","ملعقة","خفاق"],
+        title: "قطايف لبنانية بالجبن",
+        equipment: [
+            "وعاء",
+            "مقلاة مانعة للالتصاق",
+            "ملعقة",
+            "خفاق"
+        ],
         ingredients: [
             "200 غ دقيق",
             "20 غ سكر",
             "نصف ملعقة صغيرة خميرة كيميائية",
             "300 مل ماء دافئ",
             "100 غ جبن طري (عكاوي)",
-            "50 مل شراب أو عسل"
+            "50 مل شراب سكر أو عسل"
         ],
         preparation:
-            "وقت التحضير: 20 دقيقة\nوقت الطهي: 10 دقائق\n\n" +
-            "1. اخلط الدقيق، السكر، الخميرة.\n" +
-            "2. أضف الماء تدريجياً للحصول على خليط ناعم.\n" +
-            "3. سخّن المقلاة.\n" +
-            "4. صب مغرفة صغيرة لتشكيل فطائر 8 سم.\n" +
-            "5. اطهها من جهة واحدة.\n" +
-            "6. احشو كل فطيرة بالجبن الطري.\n" +
-            "7. اطوها نصف دائرة.\n" +
-            "8. رشّ بالشراب أو العسل.\n" +
-            "9. قدّم دافئاً."
+            "1. اخلط الدقيق والسكر والخميرة في وعاء.\n" +
+            "2. أضف الماء تدريجياً مع الخفق حتى يصبح الخليط ناعماً.\n" +
+            "3. سخّن مقلاة مانعة للالتصاق على نار متوسطة.\n" +
+            "4. اسكب مغرفة صغيرة لتشكيل فطائر بقطر 8 سم.\n" +
+            "5. اطهها من جهة واحدة فقط حتى تظهر الفقاعات.\n" +
+            "6. ارفعها وضع الجبن الطري في المنتصف.\n" +
+            "7. اطوها على شكل نصف دائرة.\n" +
+            "8. رشّ الشراب أو العسل فوقها.\n" +
+            "9. قدّمها دافئة."
     }
 };
 recipesData.dessert.atayefNoix = {
     country: "liban",
     image: "images/atayef-noix.jpg",
     persons: "4 personnes",
+
     fr: {
         title: "Atayef aux noix",
-        equipment: ["1 bol","1 poêle antiadhésive","1 cuillère","1 fouet"],
+        equipment: [
+            "1 bol",
+            "1 poêle antiadhésive",
+            "1 cuillère",
+            "1 fouet"
+        ],
         ingredients: [
-            "200 g farine",
-            "20 g sucre",
-            "1/2 cuillère à café levure chimique",
-            "300 ml eau tiède",
-            "100 g noix hachées",
-            "2 cuillères à soupe sucre",
-            "1 cuillère à café cannelle",
-            "50 ml miel pour napper"
+            "200 g de farine",
+            "20 g de sucre",
+            "1/2 cuillère à café de levure chimique",
+            "300 ml d’eau tiède",
+            "100 g de noix hachées",
+            "2 cuillères à soupe de sucre",
+            "1 cuillère à café de cannelle",
+            "50 ml de miel"
         ],
         preparation:
             "Temps de préparation : 20 min\nTemps de cuisson : 10 min\n\n" +
-            "1. Mélanger farine, sucre, levure.\n" +
-            "2. Ajouter l’eau progressivement pour pâte lisse.\n" +
-            "3. Chauffer poêle antiadhésive.\n" +
-            "4. Verser petite louche pour crêpes 8 cm.\n" +
-            "5. Cuire seulement d’un côté.\n" +
-            "6. Mélanger noix, sucre, cannelle pour farce.\n" +
-            "7. Garnir crêpe et plier en demi-lune.\n" +
+            "1. Mélanger la farine, le sucre et la levure chimique dans un bol.\n" +
+            "2. Ajouter l’eau tiède progressivement en fouettant pour obtenir une pâte lisse.\n" +
+            "3. Chauffer une poêle antiadhésive à feu moyen.\n" +
+            "4. Verser une petite louche de pâte pour former des crêpes d’environ 8 cm.\n" +
+            "5. Cuire uniquement d’un côté jusqu’à apparition de bulles.\n" +
+            "6. Mélanger les noix hachées avec le sucre et la cannelle.\n" +
+            "7. Garnir chaque crêpe avec la farce et plier en demi-lune.\n" +
             "8. Napper de miel.\n" +
             "9. Servir tiède."
     },
+
     en: {
-        title: "Atayef with nuts",
-        equipment: ["bowl","non-stick pan","spoon","whisk"],
+        title: "Atayef with walnuts",
+        equipment: [
+            "1 bowl",
+            "1 non-stick pan",
+            "1 spoon",
+            "1 whisk"
+        ],
         ingredients: [
             "200 g flour",
             "20 g sugar",
             "1/2 tsp baking powder",
             "300 ml warm water",
-            "100 g chopped nuts",
+            "100 g chopped walnuts",
             "2 tbsp sugar",
             "1 tsp cinnamon",
-            "50 ml honey for topping"
+            "50 ml honey"
         ],
         preparation:
             "Preparation time: 20 min\nCooking time: 10 min\n\n" +
-            "1. Mix flour, sugar, baking powder.\n" +
-            "2. Gradually add water for smooth batter.\n" +
-            "3. Heat non-stick pan.\n" +
-            "4. Pour small ladle for 8 cm pancakes.\n" +
-            "5. Cook only on one side.\n" +
-            "6. Mix nuts, sugar, cinnamon for filling.\n" +
-            "7. Fill pancake and fold in half.\n" +
-            "8. Top with honey.\n" +
+            "1. Mix flour, sugar and baking powder in a bowl.\n" +
+            "2. Gradually add warm water while whisking to obtain a smooth batter.\n" +
+            "3. Heat a non-stick pan over medium heat.\n" +
+            "4. Pour a small ladle to form 8 cm pancakes.\n" +
+            "5. Cook only on one side until bubbles appear.\n" +
+            "6. Mix chopped walnuts with sugar and cinnamon.\n" +
+            "7. Fill each pancake and fold into a half-moon shape.\n" +
+            "8. Drizzle with honey.\n" +
             "9. Serve warm."
     },
+
     nl: {
-        title: "Atayef met noten",
-        equipment: ["kom","anti-aanbakpan","lepel","garde"],
+        title: "Atayef met walnoten",
+        equipment: [
+            "1 kom",
+            "1 anti-aanbakpan",
+            "1 lepel",
+            "1 garde"
+        ],
         ingredients: [
             "200 g bloem",
             "20 g suiker",
             "1/2 theelepel bakpoeder",
             "300 ml warm water",
-            "100 g gehakte noten",
+            "100 g gehakte walnoten",
             "2 eetlepels suiker",
             "1 theelepel kaneel",
-            "50 ml honing voor topping"
+            "50 ml honing"
         ],
         preparation:
             "Bereidingstijd: 20 min\nKooktijd: 10 min\n\n" +
-            "1. Meng bloem, suiker, bakpoeder.\n" +
-            "2. Voeg geleidelijk water toe voor glad beslag.\n" +
-            "3. Verhit anti-aanbakpan.\n" +
-            "4. Giet kleine pollepel voor 8 cm pannenkoeken.\n" +
-            "5. Bak slechts aan één kant.\n" +
-            "6. Meng noten, suiker, kaneel voor vulling.\n" +
-            "7. Vul pannenkoek en vouw dubbel.\n" +
+            "1. Meng bloem, suiker en bakpoeder in een kom.\n" +
+            "2. Voeg geleidelijk warm water toe en klop tot een glad beslag.\n" +
+            "3. Verhit een anti-aanbakpan op middelhoog vuur.\n" +
+            "4. Giet een kleine pollepel beslag voor pannenkoeken van 8 cm.\n" +
+            "5. Bak slechts aan één kant tot er belletjes verschijnen.\n" +
+            "6. Meng walnoten met suiker en kaneel.\n" +
+            "7. Vul de pannenkoeken en vouw dubbel.\n" +
             "8. Besprenkel met honing.\n" +
             "9. Serveer warm."
     },
+
     ar: {
         title: "قطايف بالجوز",
-        equipment: ["وعاء","مقلاة مانعة للالتصاق","ملعقة","خفاق"],
+        equipment: [
+            "وعاء",
+            "مقلاة مانعة للالتصاق",
+            "ملعقة",
+            "خفاق"
+        ],
         ingredients: [
             "200 غ دقيق",
             "20 غ سكر",
             "نصف ملعقة صغيرة خميرة كيميائية",
             "300 مل ماء دافئ",
             "100 غ جوز مفروم",
-            "2 ملاعق كبيرة سكر",
+            "2 ملعقة كبيرة سكر",
             "1 ملعقة صغيرة قرفة",
             "50 مل عسل"
         ],
         preparation:
             "وقت التحضير: 20 دقيقة\nوقت الطهي: 10 دقائق\n\n" +
-            "1. اخلط الدقيق، السكر، الخميرة.\n" +
-            "2. أضف الماء تدريجياً للحصول على خليط ناعم.\n" +
-            "3. سخّن المقلاة.\n" +
-            "4. صب مغرفة صغيرة لتشكيل فطائر 8 سم.\n" +
-            "5. اطهها من جهة واحدة.\n" +
-            "6. اخلط الجوز، السكر، القرفة للحشو.\n" +
-            "7. احشو الفطيرة واطوها نصف دائرة.\n" +
-            "8. رشّ العسل.\n" +
-            "9. قدّم دافئاً."
+            "1. اخلط الدقيق والسكر والخميرة في وعاء.\n" +
+            "2. أضف الماء الدافئ تدريجياً مع الخفق حتى يصبح الخليط ناعماً.\n" +
+            "3. سخّن مقلاة مانعة للالتصاق على نار متوسطة.\n" +
+            "4. صب مغرفة صغيرة لتشكيل فطائر بقطر 8 سم.\n" +
+            "5. اطهها من جهة واحدة فقط حتى تظهر الفقاعات.\n" +
+            "6. اخلط الجوز مع السكر والقرفة.\n" +
+            "7. احشُ الفطائر واطوها على شكل نصف دائرة.\n" +
+            "8. رشّ العسل فوقها.\n" +
+            "9. قدّمها دافئة."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 recipesData.entree.mercimek = {
     country: "turquie",
