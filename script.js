@@ -5127,7 +5127,7 @@ recipesData.plat.brochettes = {
     meta: {
         servings: 4,
         prepTime: 15,
-        marinationTime: 30,
+        marinationtime: 30,
         cookTime: 12,
         difficulty: "easy"
     },
@@ -29488,248 +29488,458 @@ recipesData.plat.pizzaHawaienne = {
             "12. تقديمها ساخنة."
     }
 };
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
 recipesData.plat.lasagneBolognaise = {
     country: "italie",
     image: "images/lasagne-bolognaise.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 30,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Lasagnes à la bolognaise (4 personnes)",
-        equipment: ["1 four", "1 plat à gratin", "1 poêle", "1 casserole", "1 couteau", "1 planche à découper"],
+        title: "Lasagnes à la bolognaise",
+        equipment: [
+            "1 four",
+            "1 plat à gratin",
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
             "250 g de pâtes à lasagne précuites",
             "300 g de bœuf haché",
             "400 g de tomates concassées",
-            "1 oignon haché",
-            "2 gousses d’ail hachées",
+            "1 oignon",
+            "2 gousses d’ail",
             "150 g de mozzarella râpée",
             "50 g de parmesan râpé",
             "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre et herbes italiennes (origan, basilic)"
+            "Sel",
+            "Poivre",
+            "Herbes italiennes (origan, basilic)"
         ],
         preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE BOLOGNAISE\n" +
+            "==============================\n" +
             "1. Préchauffer le four à 200°C.\n" +
-            "2. Dans une poêle, chauffer l’huile, ajouter oignon et ail, faire revenir 2-3 min.\n" +
-            "3. Ajouter le bœuf haché et cuire jusqu’à ce qu’il soit doré.\n" +
-            "4. Ajouter les tomates, sel, poivre et herbes, laisser mijoter 15 min.\n" +
-            "5. Dans un plat à gratin, alterner une couche de pâtes, une couche de sauce, un peu de mozzarella et répéter.\n" +
-            "6. Terminer par mozzarella et parmesan.\n" +
-            "7. Cuire 25-30 min jusqu’à ce que le dessus soit doré.\n" +
-            "8. Servir chaud."
+            "2. Éplucher et hacher l’oignon et l’ail.\n" +
+            "3. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "4. Faire revenir l’oignon et l’ail 2 à 3 minutes.\n" +
+            "5. Ajouter le bœuf haché et cuire jusqu’à coloration.\n" +
+            "6. Ajouter les tomates concassées, le sel, le poivre et les herbes.\n" +
+            "7. Laisser mijoter à feu doux pendant 15 minutes.\n\n" +
+
+            "==============================\n" +
+            "MONTAGE ET CUISSON\n" +
+            "==============================\n" +
+            "8. Dans un plat à gratin, déposer une fine couche de sauce.\n" +
+            "9. Ajouter une couche de pâtes à lasagne.\n" +
+            "10. Recouvrir de sauce puis parsemer de mozzarella.\n" +
+            "11. Répéter l’opération jusqu’à épuisement des ingrédients.\n" +
+            "12. Terminer par la mozzarella restante et le parmesan.\n" +
+            "13. Enfourner 25 à 30 minutes jusqu’à ce que le dessus soit bien doré.\n" +
+            "14. Laisser reposer 5 minutes avant de servir."
     },
+
     en: {
-        title: "Bolognese Lasagna (Serves 4)",
-        equipment: ["1 oven", "1 baking dish", "1 pan", "1 pot", "1 knife", "1 cutting board"],
+        title: "Bolognese Lasagna",
+        equipment: [
+            "1 oven",
+            "1 baking dish",
+            "1 large pan",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "250 g pre-cooked lasagna sheets",
             "300 g minced beef",
             "400 g chopped tomatoes",
-            "1 chopped onion",
-            "2 garlic cloves, chopped",
+            "1 onion",
+            "2 garlic cloves",
             "150 g grated mozzarella",
             "50 g grated parmesan",
             "2 tablespoons olive oil",
-            "Salt, pepper and Italian herbs (oregano, basil)"
+            "Salt",
+            "Pepper",
+            "Italian herbs (oregano, basil)"
         ],
         preparation:
-            "1. Preheat oven to 200°C.\n" +
-            "2. In a pan, heat oil, add onion and garlic, sauté 2-3 min.\n" +
-            "3. Add minced beef and cook until browned.\n" +
-            "4. Add tomatoes, salt, pepper, and herbs, simmer 15 min.\n" +
-            "5. In a baking dish, layer pasta, sauce, a bit of mozzarella, repeat.\n" +
-            "6. Finish with mozzarella and parmesan.\n" +
-            "7. Bake 25-30 min until top is golden.\n" +
-            "8. Serve hot."
+            "==============================\n" +
+            "BOLOGNESE SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Peel and chop the onion and garlic.\n" +
+            "3. Heat olive oil in a large pan.\n" +
+            "4. Sauté onion and garlic for 2–3 minutes.\n" +
+            "5. Add minced beef and cook until browned.\n" +
+            "6. Add tomatoes, salt, pepper and herbs.\n" +
+            "7. Simmer over low heat for 15 minutes.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLING AND BAKING\n" +
+            "==============================\n" +
+            "8. Spread a thin layer of sauce in a baking dish.\n" +
+            "9. Add a layer of lasagna sheets.\n" +
+            "10. Cover with sauce and sprinkle with mozzarella.\n" +
+            "11. Repeat layers until ingredients are used.\n" +
+            "12. Finish with remaining mozzarella and parmesan.\n" +
+            "13. Bake for 25–30 minutes until golden.\n" +
+            "14. Let rest 5 minutes before serving."
     },
+
     nl: {
-        title: "Lasagne Bolognese (voor 4 personen)",
-        equipment: ["1 oven", "1 ovenschaal", "1 pan", "1 pot", "1 mes", "1 snijplank"],
+        title: "Lasagne bolognese",
+        equipment: [
+            "1 oven",
+            "1 ovenschaal",
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
             "250 g voorgekookte lasagnebladen",
             "300 g rundergehakt",
             "400 g tomatenblokjes",
-            "1 ui, gehakt",
-            "2 teentjes knoflook, gehakt",
+            "1 ui",
+            "2 teentjes knoflook",
             "150 g geraspte mozzarella",
             "50 g geraspte Parmezaanse kaas",
             "2 eetlepels olijfolie",
-            "Zout, peper en Italiaanse kruiden (oregano, basilicum)"
+            "Zout",
+            "Peper",
+            "Italiaanse kruiden (oregano, basilicum)"
         ],
         preparation:
+            "==============================\n" +
+            "BEREIDING VAN DE SAUS\n" +
+            "==============================\n" +
             "1. Verwarm de oven voor op 200°C.\n" +
-            "2. Verhit olie in een pan, voeg ui en knoflook toe, bak 2-3 min.\n" +
-            "3. Voeg gehakt toe en bak tot het bruin is.\n" +
-            "4. Voeg tomaten, zout, peper en kruiden toe, laat 15 min sudderen.\n" +
-            "5. Leg in een ovenschaal afwisselend pasta, saus, wat mozzarella, herhaal.\n" +
-            "6. Eindig met mozzarella en Parmezaan.\n" +
-            "7. Bak 25-30 min tot de bovenkant goudbruin is.\n" +
-            "8. Serveer warm."
+            "2. Pel en snijd de ui en knoflook.\n" +
+            "3. Verhit olijfolie in een grote pan.\n" +
+            "4. Fruit ui en knoflook 2–3 minuten.\n" +
+            "5. Voeg het gehakt toe en bak bruin.\n" +
+            "6. Voeg tomaten, zout, peper en kruiden toe.\n" +
+            "7. Laat 15 minuten zachtjes sudderen.\n\n" +
+
+            "==============================\n" +
+            "OPBOUW EN BAKKEN\n" +
+            "==============================\n" +
+            "8. Verdeel een dunne laag saus in de ovenschaal.\n" +
+            "9. Leg een laag lasagnebladen.\n" +
+            "10. Voeg saus en mozzarella toe.\n" +
+            "11. Herhaal tot alles op is.\n" +
+            "12. Eindig met mozzarella en Parmezaanse kaas.\n" +
+            "13. Bak 25–30 minuten tot goudbruin.\n" +
+            "14. Laat 5 minuten rusten voor het serveren."
     },
+
     ar: {
-        title: "لازانيا بولونيز (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "مقلاة", "قدر", "سكين", "لوح تقطيع"],
+        title: "لازانيا بولونيز",
+        equipment: [
+            "فرن",
+            "صينية فرن",
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
             "250 غ شرائح لازانيا جاهزة",
             "300 غ لحم بقري مفروم",
             "400 غ طماطم مفرومة",
-            "1 بصلة مفرومة",
-            "2 فص ثوم مفروم",
+            "بصلة",
+            "2 فص ثوم",
             "150 غ موزاريلا مبشور",
             "50 غ جبن بارميزان مبشور",
             "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل وأعشاب إيطالية (أوريغانو، ريحان)"
+            "ملح",
+            "فلفل",
+            "أعشاب إيطالية (أوريغانو، ريحان)"
         ],
         preparation:
+            "==============================\n" +
+            "تحضير صلصة البولونيز\n" +
+            "==============================\n" +
             "1. سخّن الفرن إلى 200°م.\n" +
-            "2. في مقلاة، سخن الزيت، أضف البصل والثوم، قلّب 2-3 دقائق.\n" +
-            "3. أضف اللحم المفروم واطبخ حتى يتحمر.\n" +
-            "4. أضف الطماطم، الملح، الفلفل والأعشاب، واتركها تغلي 15 دقيقة.\n" +
-            "5. في صينية خبز، ضع طبقات متبادلة من اللازانيا، الصلصة، قليل من الموزاريلا، كرر.\n" +
-            "6. أنهِ بالموزاريلا والبارميزان.\n" +
-            "7. اخبز 25-30 دقيقة حتى يصبح الوجه ذهبي.\n" +
-            "8. قدّم ساخناً."
+            "2. قطّع البصل والثوم.\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "4. شوّح البصل والثوم 2–3 دقائق.\n" +
+            "5. أضف اللحم المفروم واطبخه حتى يتحمر.\n" +
+            "6. أضف الطماطم والملح والفلفل والأعشاب.\n" +
+            "7. اتركه يطهى على نار هادئة 15 دقيقة.\n\n" +
+
+            "==============================\n" +
+            "التركيب والخبز\n" +
+            "==============================\n" +
+            "8. ضع طبقة رقيقة من الصلصة في صينية الفرن.\n" +
+            "9. أضف طبقة من شرائح اللازانيا.\n" +
+            "10. أضف الصلصة ثم الموزاريلا.\n" +
+            "11. كرر الطبقات حتى تنتهي المكونات.\n" +
+            "12. أنهِ بالموزاريلا وجبن البارميزان.\n" +
+            "13. اخبز 25–30 دقيقة حتى يتحمر الوجه.\n" +
+            "14. اتركها 5 دقائق قبل التقديم."
     }
 };
 recipesData.plat.lasagnePouletLegumes = {
     country: "italie",
     image: "images/lasagne-poulet-legumes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Lasagnes poulet et légumes (4 personnes)",
-        equipment: ["1 four", "1 plat à gratin", "1 poêle", "1 casserole", "1 couteau", "1 planche à découper"],
+        title: "Lasagnes au poulet et légumes",
+        equipment: [
+            "1 four",
+            "1 plat à gratin",
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
             "250 g de pâtes à lasagne précuites",
             "200 g de poulet cuit émincé",
-            "1 courgette en dés",
-            "1 poivron rouge en dés",
-            "1 oignon haché",
+            "1 courgette",
+            "1 poivron rouge",
+            "1 oignon",
             "150 g de mozzarella râpée",
             "2 cuillères à soupe d’huile d’olive",
-            "Sel, poivre et herbes italiennes"
+            "Sel",
+            "Poivre",
+            "Herbes italiennes"
         ],
         preparation:
+            "==============================\n" +
+            "PRÉPARATION DU POULET ET DES LÉGUMES\n" +
+            "==============================\n" +
             "1. Préchauffer le four à 200°C.\n" +
-            "2. Dans une poêle, chauffer l’huile, ajouter oignon, poivron et courgette, cuire 5-7 min.\n" +
-            "3. Ajouter le poulet, sel, poivre et herbes, mélanger.\n" +
-            "4. Dans un plat à gratin, alterner pâtes, mélange poulet-légumes, mozzarella.\n" +
-            "5. Terminer par mozzarella.\n" +
-            "6. Cuire 25-30 min jusqu’à ce que le dessus soit doré.\n" +
-            "7. Servir chaud."
+            "2. Éplucher et émincer l’oignon.\n" +
+            "3. Laver et couper la courgette et le poivron en dés.\n" +
+            "4. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "5. Faire revenir l’oignon 2 minutes.\n" +
+            "6. Ajouter la courgette et le poivron, cuire 5 à 7 minutes.\n" +
+            "7. Ajouter le poulet, saler, poivrer et ajouter les herbes.\n" +
+            "8. Mélanger et retirer du feu.\n\n" +
+
+            "==============================\n" +
+            "MONTAGE ET CUISSON\n" +
+            "==============================\n" +
+            "9. Déposer une fine couche du mélange dans le fond du plat à gratin.\n" +
+            "10. Ajouter une couche de pâtes à lasagne.\n" +
+            "11. Recouvrir de mélange poulet-légumes puis parsemer de mozzarella.\n" +
+            "12. Répéter l’opération jusqu’à épuisement des ingrédients.\n" +
+            "13. Terminer par la mozzarella restante.\n" +
+            "14. Enfourner 25 à 30 minutes jusqu’à ce que le dessus soit bien doré.\n" +
+            "15. Laisser reposer 5 minutes avant de servir."
     },
+
     en: {
-        title: "Chicken and Vegetable Lasagna (Serves 4)",
-        equipment: ["1 oven", "1 baking dish", "1 pan", "1 pot", "1 knife", "1 cutting board"],
+        title: "Chicken and Vegetable Lasagna",
+        equipment: [
+            "1 oven",
+            "1 baking dish",
+            "1 large pan",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "250 g pre-cooked lasagna sheets",
             "200 g cooked sliced chicken",
-            "1 zucchini, diced",
-            "1 red pepper, diced",
-            "1 onion, chopped",
+            "1 zucchini",
+            "1 red bell pepper",
+            "1 onion",
             "150 g grated mozzarella",
             "2 tablespoons olive oil",
-            "Salt, pepper and Italian herbs"
+            "Salt",
+            "Pepper",
+            "Italian herbs"
         ],
         preparation:
-            "1. Preheat oven to 200°C.\n" +
-            "2. In a pan, heat oil, add onion, pepper and zucchini, cook 5-7 min.\n" +
-            "3. Add chicken, salt, pepper and herbs, mix.\n" +
-            "4. In a baking dish, layer pasta, chicken-vegetable mix, mozzarella.\n" +
-            "5. Finish with mozzarella.\n" +
-            "6. Bake 25-30 min until top is golden.\n" +
-            "7. Serve hot."
+            "==============================\n" +
+            "CHICKEN AND VEGETABLE PREPARATION\n" +
+            "==============================\n" +
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Peel and chop the onion.\n" +
+            "3. Wash and dice the zucchini and bell pepper.\n" +
+            "4. Heat olive oil in a large pan.\n" +
+            "5. Sauté the onion for 2 minutes.\n" +
+            "6. Add zucchini and bell pepper, cook 5–7 minutes.\n" +
+            "7. Add chicken, season with salt, pepper and herbs.\n" +
+            "8. Mix well and remove from heat.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLING AND BAKING\n" +
+            "==============================\n" +
+            "9. Spread a thin layer of the mixture in the baking dish.\n" +
+            "10. Add a layer of lasagna sheets.\n" +
+            "11. Cover with chicken-vegetable mixture and mozzarella.\n" +
+            "12. Repeat until ingredients are used.\n" +
+            "13. Finish with remaining mozzarella.\n" +
+            "14. Bake for 25–30 minutes until golden.\n" +
+            "15. Let rest 5 minutes before serving."
     },
+
     nl: {
-        title: "Lasagne met kip en groenten (voor 4 personen)",
-        equipment: ["1 oven", "1 ovenschaal", "1 pan", "1 pot", "1 mes", "1 snijplank"],
+        title: "Lasagne met kip en groenten",
+        equipment: [
+            "1 oven",
+            "1 ovenschaal",
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
             "250 g voorgekookte lasagnebladen",
-            "200 g gekookte kip in plakjes",
-            "1 courgette, in blokjes",
-            "1 rode paprika, in blokjes",
-            "1 ui, gehakt",
+            "200 g gekookte kip",
+            "1 courgette",
+            "1 rode paprika",
+            "1 ui",
             "150 g geraspte mozzarella",
             "2 eetlepels olijfolie",
-            "Zout, peper en Italiaanse kruiden"
+            "Zout",
+            "Peper",
+            "Italiaanse kruiden"
         ],
         preparation:
+            "==============================\n" +
+            "BEREIDING VAN KIP EN GROENTEN\n" +
+            "==============================\n" +
             "1. Verwarm de oven voor op 200°C.\n" +
-            "2. Verhit olie in een pan, voeg ui, paprika en courgette toe, bak 5-7 min.\n" +
-            "3. Voeg kip, zout, peper en kruiden toe, meng.\n" +
-            "4. Leg in een ovenschaal afwisselend pasta, kip-groenten mengsel, mozzarella.\n" +
-            "5. Eindig met mozzarella.\n" +
-            "6. Bak 25-30 min tot de bovenkant goudbruin is.\n" +
-            "7. Serveer warm."
+            "2. Pel en snijd de ui.\n" +
+            "3. Snijd de courgette en paprika in blokjes.\n" +
+            "4. Verhit olijfolie in een grote pan.\n" +
+            "5. Fruit de ui 2 minuten.\n" +
+            "6. Voeg courgette en paprika toe en bak 5–7 minuten.\n" +
+            "7. Voeg kip, zout, peper en kruiden toe.\n" +
+            "8. Meng goed en haal van het vuur.\n\n" +
+
+            "==============================\n" +
+            "OPBOUW EN BAKKEN\n" +
+            "==============================\n" +
+            "9. Verdeel een dunne laag van het mengsel in de ovenschaal.\n" +
+            "10. Leg een laag lasagnebladen.\n" +
+            "11. Voeg mengsel en mozzarella toe.\n" +
+            "12. Herhaal tot alles op is.\n" +
+            "13. Eindig met mozzarella.\n" +
+            "14. Bak 25–30 minuten tot goudbruin.\n" +
+            "15. Laat 5 minuten rusten voor het serveren."
     },
+
     ar: {
-        title: "لازانيا الدجاج والخضار (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "مقلاة", "قدر", "سكين", "لوح تقطيع"],
+        title: "لازانيا بالدجاج والخضار",
+        equipment: [
+            "فرن",
+            "صينية فرن",
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
             "250 غ شرائح لازانيا جاهزة",
-            "200 غ دجاج مطهو ومقطع شرائح",
-            "1 كوسة مقطعة مكعبات",
-            "1 فلفل أحمر مقطع مكعبات",
-            "1 بصلة مفرومة",
+            "200 غ دجاج مطهو",
+            "كوسة واحدة",
+            "فلفل أحمر واحد",
+            "بصلة",
             "150 غ موزاريلا مبشور",
             "2 ملاعق كبيرة زيت زيتون",
-            "ملح، فلفل وأعشاب إيطالية"
+            "ملح",
+            "فلفل",
+            "أعشاب إيطالية"
         ],
         preparation:
+            "==============================\n" +
+            "تحضير الدجاج والخضار\n" +
+            "==============================\n" +
             "1. سخّن الفرن إلى 200°م.\n" +
-            "2. في مقلاة، سخن الزيت، أضف البصل، الفلفل والكوسة، اطبخ 5-7 دقائق.\n" +
-            "3. أضف الدجاج، الملح، الفلفل والأعشاب، اخلط.\n" +
-            "4. في صينية الخبز، ضع طبقات متبادلة من اللازانيا، خليط الدجاج والخضار، الموزاريلا.\n" +
-            "5. أنهِ بالموزاريلا.\n" +
-            "6. اخبز 25-30 دقيقة حتى يصبح الوجه ذهبي.\n" +
-            "7. قدّم ساخناً."
+            "2. قطّع البصل.\n" +
+            "3. قطّع الكوسة والفلفل إلى مكعبات.\n" +
+            "4. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "5. شوّح البصل دقيقتين.\n" +
+            "6. أضف الكوسة والفلفل واطبخ 5–7 دقائق.\n" +
+            "7. أضف الدجاج والملح والفلفل والأعشاب.\n" +
+            "8. اخلط جيداً وارفعه عن النار.\n\n" +
+
+            "==============================\n" +
+            "التركيب والخبز\n" +
+            "==============================\n" +
+            "9. ضع طبقة رقيقة من الخليط في صينية الفرن.\n" +
+            "10. أضف طبقة من شرائح اللازانيا.\n" +
+            "11. أضف الخليط ثم الموزاريلا.\n" +
+            "12. كرر الطبقات حتى تنتهي المكونات.\n" +
+            "13. أنهِ بالموزاريلا.\n" +
+            "14. اخبز 25–30 دقيقة حتى يتحمر الوجه.\n" +
+            "15. اتركها 5 دقائق قبل التقديم."
     }
 };
 recipesData.plat.lasagneQuatreFromages = {
     country: "italie",
     image: "images/lasagne-4fromages.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Lasagnes quatre fromages (4 personnes)",
-        equipment: ["1 four", "1 plat à gratin", "1 casserole", "1 couteau", "1 planche à découper"],
+        title: "Lasagnes quatre fromages",
+        equipment: [
+            "1 four",
+            "1 plat à gratin",
+            "1 casserole",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
             "250 g de pâtes à lasagne précuites",
             "150 g de mozzarella râpée",
             "50 g de parmesan râpé",
             "50 g de gorgonzola",
-            "50 g de fromage ricotta",
+            "50 g de ricotta",
             "200 ml de crème fraîche",
-            "2 cuillères à soupe d’huile d’olive",
-            "Sel et poivre selon goût"
+            "Sel",
+            "Poivre"
         ],
         preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA CRÈME AUX FROMAGES\n" +
+            "==============================\n" +
             "1. Préchauffer le four à 200°C.\n" +
-            "2. Mélanger les fromages avec la crème, sel et poivre.\n" +
-            "3. Dans un plat à gratin, alterner pâte et mélange de fromages.\n" +
-            "4. Terminer avec mozzarella et parmesan.\n" +
-            "5. Cuire 25-30 min jusqu’à ce que le dessus soit doré.\n" +
-            "6. Servir chaud."
+            "2. Couper le gorgonzola en petits morceaux.\n" +
+            "3. Dans une casserole à feu doux, verser la crème fraîche.\n" +
+            "4. Ajouter la ricotta, le gorgonzola et le parmesan.\n" +
+            "5. Mélanger doucement jusqu’à obtenir une crème homogène.\n" +
+            "6. Saler et poivrer selon le goût.\n\n" +
+
+            "==============================\n" +
+            "MONTAGE ET CUISSON\n" +
+            "==============================\n" +
+            "7. Déposer une fine couche de crème aux fromages dans le fond du plat.\n" +
+            "8. Ajouter une couche de pâtes à lasagne.\n" +
+            "9. Recouvrir de crème puis parsemer de mozzarella.\n" +
+            "10. Répéter l’opération jusqu’à épuisement des ingrédients.\n" +
+            "11. Terminer par la mozzarella restante.\n" +
+            "12. Enfourner 25 à 30 minutes jusqu’à ce que le dessus soit bien doré.\n" +
+            "13. Laisser reposer 5 minutes avant de servir."
     },
+
     en: {
-        title: "Four Cheese Lasagna (Serves 4)",
-        equipment: ["1 oven", "1 baking dish", "1 pot", "1 knife", "1 cutting board"],
+        title: "Four Cheese Lasagna",
+        equipment: [
+            "1 oven",
+            "1 baking dish",
+            "1 saucepan",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "250 g pre-cooked lasagna sheets",
             "150 g grated mozzarella",
@@ -29737,20 +29947,41 @@ recipesData.plat.lasagneQuatreFromages = {
             "50 g gorgonzola",
             "50 g ricotta",
             "200 ml fresh cream",
-            "2 tablespoons olive oil",
-            "Salt and pepper to taste"
+            "Salt",
+            "Pepper"
         ],
         preparation:
-            "1. Preheat oven to 200°C.\n" +
-            "2. Mix cheeses with cream, salt and pepper.\n" +
-            "3. In a baking dish, layer pasta and cheese mixture.\n" +
-            "4. Finish with mozzarella and parmesan.\n" +
-            "5. Bake 25-30 min until top is golden.\n" +
-            "6. Serve hot."
+            "==============================\n" +
+            "CHEESE CREAM PREPARATION\n" +
+            "==============================\n" +
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Cut the gorgonzola into small pieces.\n" +
+            "3. Pour the cream into a saucepan over low heat.\n" +
+            "4. Add ricotta, gorgonzola and parmesan.\n" +
+            "5. Stir gently until smooth.\n" +
+            "6. Season with salt and pepper.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLING AND BAKING\n" +
+            "==============================\n" +
+            "7. Spread a thin layer of cheese cream in the baking dish.\n" +
+            "8. Add a layer of lasagna sheets.\n" +
+            "9. Cover with cream and sprinkle with mozzarella.\n" +
+            "10. Repeat until ingredients are used.\n" +
+            "11. Finish with remaining mozzarella.\n" +
+            "12. Bake for 25–30 minutes until golden.\n" +
+            "13. Let rest 5 minutes before serving."
     },
+
     nl: {
-        title: "Lasagne met vier kazen (voor 4 personen)",
-        equipment: ["1 oven", "1 ovenschaal", "1 pot", "1 mes", "1 snijplank"],
+        title: "Lasagne met vier kazen",
+        equipment: [
+            "1 oven",
+            "1 ovenschaal",
+            "1 steelpan",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
             "250 g voorgekookte lasagnebladen",
             "150 g geraspte mozzarella",
@@ -29758,20 +29989,41 @@ recipesData.plat.lasagneQuatreFromages = {
             "50 g gorgonzola",
             "50 g ricotta",
             "200 ml verse room",
-            "2 eetlepels olijfolie",
-            "Zout en peper naar smaak"
+            "Zout",
+            "Peper"
         ],
         preparation:
+            "==============================\n" +
+            "KAASCRÈME BEREIDEN\n" +
+            "==============================\n" +
             "1. Verwarm de oven voor op 200°C.\n" +
-            "2. Meng de kazen met room, zout en peper.\n" +
-            "3. Leg in een ovenschaal afwisselend pasta en kaasmengsel.\n" +
-            "4. Eindig met mozzarella en Parmezaan.\n" +
-            "5. Bak 25-30 minuten tot de bovenkant goudbruin is.\n" +
-            "6. Serveer warm."
+            "2. Snijd de gorgonzola in stukjes.\n" +
+            "3. Verwarm de room zachtjes in een steelpan.\n" +
+            "4. Voeg ricotta, gorgonzola en Parmezaan toe.\n" +
+            "5. Roer tot een gladde saus.\n" +
+            "6. Breng op smaak met zout en peper.\n\n" +
+
+            "==============================\n" +
+            "OPBOUW EN BAKKEN\n" +
+            "==============================\n" +
+            "7. Verdeel een dunne laag kaassaus in de ovenschaal.\n" +
+            "8. Leg een laag lasagnebladen.\n" +
+            "9. Voeg saus en mozzarella toe.\n" +
+            "10. Herhaal tot alles op is.\n" +
+            "11. Eindig met mozzarella.\n" +
+            "12. Bak 25–30 minuten tot goudbruin.\n" +
+            "13. Laat 5 minuten rusten voor het serveren."
     },
+
     ar: {
-        title: "لازانيا أربع أجبان (تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "قدر", "سكين", "لوح تقطيع"],
+        title: "لازانيا أربع أجبان",
+        equipment: [
+            "فرن",
+            "صينية فرن",
+            "قدر",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
             "250 غ شرائح لازانيا جاهزة",
             "150 غ موزاريلا مبشور",
@@ -29779,212 +30031,874 @@ recipesData.plat.lasagneQuatreFromages = {
             "50 غ جورغونزولا",
             "50 غ جبن ريكوتا",
             "200 مل كريمة طازجة",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ملح وفلفل حسب الرغبة"
+            "ملح",
+            "فلفل"
         ],
         preparation:
+            "==============================\n" +
+            "تحضير كريمة الأجبان\n" +
+            "==============================\n" +
             "1. سخّن الفرن إلى 200°م.\n" +
-            "2. اخلط الأجبان مع الكريمة، الملح والفلفل.\n" +
-            "3. في صينية خبز، ضع طبقات متبادلة من اللازانيا وخليط الأجبان.\n" +
-            "4. أنهِ بالموزاريلا والبارميزان.\n" +
-            "5. اخبز 25-30 دقيقة حتى يصبح الوجه ذهبي.\n" +
-            "6. قدّم ساخناً."
+            "2. قطّع الجورغونزولا إلى قطع صغيرة.\n" +
+            "3. ضع الكريمة في قدر على نار هادئة.\n" +
+            "4. أضف الريكوتا والجورغونزولا والبارميزان.\n" +
+            "5. حرّك حتى تتجانس الصلصة.\n" +
+            "6. تبّل بالملح والفلفل.\n\n" +
+
+            "==============================\n" +
+            "التركيب والخبز\n" +
+            "==============================\n" +
+            "7. ضع طبقة رقيقة من كريمة الأجبان في صينية الفرن.\n" +
+            "8. أضف طبقة من شرائح اللازانيا.\n" +
+            "9. أضف الكريمة ثم الموزاريلا.\n" +
+            "10. كرر الطبقات حتى تنتهي المكونات.\n" +
+            "11. أنهِ بالموزاريلا.\n" +
+            "12. اخبز 25–30 دقيقة حتى يتحمر الوجه.\n" +
+            "13. اتركها 5 دقائق قبل التقديم."
+    }
+};
+recipesData.plat.lasagneSaumonEpinards = {
+    country: "italie",
+    image: "images/lasagne-saumon-epinards.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "medium"
+    },
+
+    fr: {
+        title: "Lasagnes au saumon et aux épinards",
+        equipment: [
+            "1 four",
+            "1 plat à gratin",
+            "1 poêle",
+            "1 casserole",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "250 g de pâtes à lasagne précuites",
+            "300 g de filet de saumon",
+            "200 g d’épinards frais",
+            "200 ml de crème fraîche",
+            "150 g de mozzarella râpée",
+            "50 g de parmesan râpé",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel",
+            "Poivre"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DE LA GARNITURE\n" +
+            "==============================\n" +
+            "1. Préchauffer le four à 200°C.\n" +
+            "2. Couper le saumon en petits morceaux.\n" +
+            "3. Chauffer l’huile dans une poêle et faire revenir les épinards jusqu’à réduction.\n" +
+            "4. Ajouter le saumon, saler, poivrer et cuire 3 à 4 minutes.\n" +
+            "5. Incorporer la crème fraîche et mélanger.\n\n" +
+
+            "==============================\n" +
+            "MONTAGE ET CUISSON\n" +
+            "==============================\n" +
+            "6. Déposer une fine couche de garniture dans le plat.\n" +
+            "7. Ajouter une couche de lasagnes.\n" +
+            "8. Recouvrir de garniture puis de mozzarella.\n" +
+            "9. Répéter jusqu’à épuisement des ingrédients.\n" +
+            "10. Terminer par mozzarella et parmesan.\n" +
+            "11. Enfourner 25 à 30 minutes jusqu’à doré.\n" +
+            "12. Laisser reposer 5 minutes avant de servir."
+    },
+
+    en: {
+        title: "Salmon and Spinach Lasagna",
+        equipment: [
+            "1 oven",
+            "1 baking dish",
+            "1 pan",
+            "1 saucepan",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "250 g pre-cooked lasagna sheets",
+            "300 g salmon fillet",
+            "200 g fresh spinach",
+            "200 ml fresh cream",
+            "150 g grated mozzarella",
+            "50 g grated parmesan",
+            "2 tablespoons olive oil",
+            "Salt",
+            "Pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "FILLING PREPARATION\n" +
+            "==============================\n" +
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Cut salmon into small pieces.\n" +
+            "3. Heat oil and cook spinach until wilted.\n" +
+            "4. Add salmon, season and cook 3–4 minutes.\n" +
+            "5. Stir in cream.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLING AND BAKING\n" +
+            "==============================\n" +
+            "6. Spread a thin layer of filling in the dish.\n" +
+            "7. Add lasagna sheets.\n" +
+            "8. Cover with filling and mozzarella.\n" +
+            "9. Repeat layers.\n" +
+            "10. Finish with mozzarella and parmesan.\n" +
+            "11. Bake 25–30 minutes until golden.\n" +
+            "12. Let rest 5 minutes before serving."
+    },
+
+    nl: {
+        title: "Lasagne met zalm en spinazie",
+        equipment: [
+            "1 oven",
+            "1 ovenschaal",
+            "1 pan",
+            "1 steelpan",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "250 g voorgekookte lasagnebladen",
+            "300 g zalmfilet",
+            "200 g verse spinazie",
+            "200 ml room",
+            "150 g geraspte mozzarella",
+            "50 g geraspte Parmezaanse kaas",
+            "2 eetlepels olijfolie",
+            "Zout",
+            "Peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN DE VULLING\n" +
+            "==============================\n" +
+            "1. Verwarm de oven voor op 200°C.\n" +
+            "2. Snijd de zalm in stukjes.\n" +
+            "3. Bak spinazie tot geslonken.\n" +
+            "4. Voeg zalm toe en bak kort.\n" +
+            "5. Meng de room erdoor.\n\n" +
+
+            "==============================\n" +
+            "OPBOUW EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verdeel een laag vulling in de ovenschaal.\n" +
+            "7. Leg lasagnebladen.\n" +
+            "8. Voeg vulling en mozzarella toe.\n" +
+            "9. Herhaal.\n" +
+            "10. Eindig met mozzarella en Parmezaan.\n" +
+            "11. Bak 25–30 minuten.\n" +
+            "12. Laat 5 minuten rusten."
+    },
+
+    ar: {
+        title: "لازانيا بالسلمون والسبانخ",
+        equipment: [
+            "فرن",
+            "صينية فرن",
+            "مقلاة",
+            "قدر",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "250 غ شرائح لازانيا جاهزة",
+            "300 غ سلمون",
+            "200 غ سبانخ طازجة",
+            "200 مل كريمة",
+            "150 غ موزاريلا مبشور",
+            "50 غ بارميزان مبشور",
+            "2 ملعقة كبيرة زيت زيتون",
+            "ملح",
+            "فلفل"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير الحشوة\n" +
+            "==============================\n" +
+            "1. سخّن الفرن إلى 200°م.\n" +
+            "2. قطّع السلمون.\n" +
+            "3. اطبخ السبانخ حتى تذبل.\n" +
+            "4. أضف السلمون واطهه قليلاً.\n" +
+            "5. أضف الكريمة وامزج.\n\n" +
+
+            "==============================\n" +
+            "التركيب والخبز\n" +
+            "==============================\n" +
+            "6. ضع طبقة من الحشوة في الصينية.\n" +
+            "7. أضف اللازانيا.\n" +
+            "8. أضف الحشوة والموزاريلا.\n" +
+            "9. كرر الطبقات.\n" +
+            "10. أنهِ بالموزاريلا والبارميزان.\n" +
+            "11. اخبز 25–30 دقيقة.\n" +
+            "12. اتركها 5 دقائق قبل التقديم."
+    }
+};
+recipesData.plat.lasagneLegumesGrilles = {
+    country: "italie",
+    image: "images/lasagne-legumes-grilles.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Lasagnes aux légumes grillés",
+        equipment: [
+            "1 four",
+            "1 plat à gratin",
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "250 g de pâtes à lasagne précuites",
+            "1 aubergine",
+            "1 courgette",
+            "1 poivron rouge",
+            "1 oignon",
+            "200 g de tomates concassées",
+            "150 g de mozzarella râpée",
+            "50 g de parmesan râpé",
+            "3 cuillères à soupe d’huile d’olive",
+            "Sel",
+            "Poivre",
+            "Herbes italiennes"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DES LÉGUMES\n" +
+            "==============================\n" +
+            "1. Préchauffer le four à 200°C.\n" +
+            "2. Laver et couper l’aubergine, la courgette et le poivron en dés.\n" +
+            "3. Éplucher et émincer l’oignon.\n" +
+            "4. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "5. Faire revenir l’oignon puis ajouter les légumes.\n" +
+            "6. Saler, poivrer, ajouter les herbes et cuire 8 à 10 minutes.\n" +
+            "7. Ajouter les tomates concassées et laisser mijoter 5 minutes.\n\n" +
+
+            "==============================\n" +
+            "MONTAGE ET CUISSON\n" +
+            "==============================\n" +
+            "8. Déposer une fine couche de légumes dans le plat à gratin.\n" +
+            "9. Ajouter une couche de pâtes à lasagne.\n" +
+            "10. Recouvrir de légumes puis parsemer de mozzarella.\n" +
+            "11. Répéter l’opération jusqu’à épuisement des ingrédients.\n" +
+            "12. Terminer par la mozzarella restante et le parmesan.\n" +
+            "13. Enfourner 25 à 30 minutes jusqu’à ce que le dessus soit bien doré.\n" +
+            "14. Laisser reposer 5 minutes avant de servir."
+    },
+
+    en: {
+        title: "Grilled Vegetable Lasagna",
+        equipment: [
+            "1 oven",
+            "1 baking dish",
+            "1 large pan",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "250 g pre-cooked lasagna sheets",
+            "1 eggplant",
+            "1 zucchini",
+            "1 red bell pepper",
+            "1 onion",
+            "200 g chopped tomatoes",
+            "150 g grated mozzarella",
+            "50 g grated parmesan",
+            "3 tablespoons olive oil",
+            "Salt",
+            "Pepper",
+            "Italian herbs"
+        ],
+        preparation:
+            "==============================\n" +
+            "VEGETABLE PREPARATION\n" +
+            "==============================\n" +
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Wash and dice the vegetables.\n" +
+            "3. Chop the onion.\n" +
+            "4. Heat olive oil in a large pan.\n" +
+            "5. Sauté onion then add vegetables.\n" +
+            "6. Season and cook for 8–10 minutes.\n" +
+            "7. Add tomatoes and simmer 5 minutes.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLING AND BAKING\n" +
+            "==============================\n" +
+            "8. Spread a thin layer of vegetables in the dish.\n" +
+            "9. Add lasagna sheets.\n" +
+            "10. Cover with vegetables and mozzarella.\n" +
+            "11. Repeat layers.\n" +
+            "12. Finish with mozzarella and parmesan.\n" +
+            "13. Bake 25–30 minutes until golden.\n" +
+            "14. Let rest 5 minutes before serving."
+    },
+
+    nl: {
+        title: "Lasagne met gegrilde groenten",
+        equipment: [
+            "1 oven",
+            "1 ovenschaal",
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "250 g voorgekookte lasagnebladen",
+            "1 aubergine",
+            "1 courgette",
+            "1 rode paprika",
+            "1 ui",
+            "200 g tomatenblokjes",
+            "150 g geraspte mozzarella",
+            "50 g geraspte Parmezaanse kaas",
+            "3 eetlepels olijfolie",
+            "Zout",
+            "Peper",
+            "Italiaanse kruiden"
+        ],
+        preparation:
+            "==============================\n" +
+            "GROENTEN BEREIDEN\n" +
+            "==============================\n" +
+            "1. Verwarm de oven voor op 200°C.\n" +
+            "2. Snijd de groenten in blokjes.\n" +
+            "3. Snipper de ui.\n" +
+            "4. Verhit olijfolie in een pan.\n" +
+            "5. Bak ui en groenten 8–10 minuten.\n" +
+            "6. Voeg tomaten toe en laat 5 minuten sudderen.\n\n" +
+
+            "==============================\n" +
+            "OPBOUW EN BAKKEN\n" +
+            "==============================\n" +
+            "7. Verdeel een laag groenten in de ovenschaal.\n" +
+            "8. Leg lasagnebladen.\n" +
+            "9. Voeg groenten en mozzarella toe.\n" +
+            "10. Herhaal tot alles op is.\n" +
+            "11. Eindig met mozzarella en Parmezaan.\n" +
+            "12. Bak 25–30 minuten tot goudbruin.\n" +
+            "13. Laat 5 minuten rusten."
+    },
+
+    ar: {
+        title: "لازانيا بالخضار المشوية",
+        equipment: [
+            "فرن",
+            "صينية فرن",
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "250 غ شرائح لازانيا جاهزة",
+            "باذنجان واحد",
+            "كوسة واحدة",
+            "فلفل أحمر واحد",
+            "بصلة",
+            "200 غ طماطم مفرومة",
+            "150 غ موزاريلا مبشور",
+            "50 غ بارميزان مبشور",
+            "3 ملاعق كبيرة زيت زيتون",
+            "ملح",
+            "فلفل",
+            "أعشاب إيطالية"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير الخضار\n" +
+            "==============================\n" +
+            "1. سخّن الفرن إلى 200°م.\n" +
+            "2. قطّع الخضار إلى مكعبات.\n" +
+            "3. قطّع البصل.\n" +
+            "4. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "5. اطبخ الخضار مع البصل 8–10 دقائق.\n" +
+            "6. أضف الطماطم واتركها 5 دقائق.\n\n" +
+
+            "==============================\n" +
+            "التركيب والخبز\n" +
+            "==============================\n" +
+            "7. ضع طبقة من الخضار في الصينية.\n" +
+            "8. أضف اللازانيا.\n" +
+            "9. أضف الخضار والموزاريلا.\n" +
+            "10. كرر الطبقات.\n" +
+            "11. أنهِ بالموزاريلا والبارميزان.\n" +
+            "12. اخبز 25–30 دقيقة حتى يتحمر الوجه.\n" +
+            "13. اتركها 5 دقائق قبل التقديم."
+    }
+};
+recipesData.plat.lasagnePouletCreme = {
+    country: "italie",
+    image: "images/lasagne-poulet-creme.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Lasagnes au poulet à la crème",
+        equipment: [
+            "1 four",
+            "1 plat à gratin",
+            "1 grande poêle",
+            "1 casserole",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "250 g de pâtes à lasagne précuites",
+            "300 g de poulet en morceaux",
+            "200 ml de crème fraîche",
+            "150 g de mozzarella râpée",
+            "50 g de parmesan râpé",
+            "1 oignon",
+            "2 cuillères à soupe d’huile d’olive",
+            "Sel",
+            "Poivre",
+            "Herbes italiennes"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DU POULET À LA CRÈME\n" +
+            "==============================\n" +
+            "1. Préchauffer le four à 200°C.\n" +
+            "2. Éplucher et émincer l’oignon.\n" +
+            "3. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "4. Faire revenir l’oignon 2 à 3 minutes.\n" +
+            "5. Ajouter le poulet et cuire jusqu’à légère coloration.\n" +
+            "6. Saler, poivrer et ajouter les herbes.\n" +
+            "7. Verser la crème fraîche et laisser mijoter 5 minutes.\n\n" +
+
+            "==============================\n" +
+            "MONTAGE ET CUISSON\n" +
+            "==============================\n" +
+            "8. Déposer une fine couche de poulet à la crème dans le plat.\n" +
+            "9. Ajouter une couche de pâtes à lasagne.\n" +
+            "10. Recouvrir de poulet à la crème puis parsemer de mozzarella.\n" +
+            "11. Répéter l’opération jusqu’à épuisement des ingrédients.\n" +
+            "12. Terminer par la mozzarella restante et le parmesan.\n" +
+            "13. Enfourner 25 à 30 minutes jusqu’à ce que le dessus soit bien doré.\n" +
+            "14. Laisser reposer 5 minutes avant de servir."
+    },
+
+    en: {
+        title: "Creamy Chicken Lasagna",
+        equipment: [
+            "1 oven",
+            "1 baking dish",
+            "1 large pan",
+            "1 saucepan",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "250 g pre-cooked lasagna sheets",
+            "300 g chicken pieces",
+            "200 ml fresh cream",
+            "150 g grated mozzarella",
+            "50 g grated parmesan",
+            "1 onion",
+            "2 tablespoons olive oil",
+            "Salt",
+            "Pepper",
+            "Italian herbs"
+        ],
+        preparation:
+            "==============================\n" +
+            "CREAMY CHICKEN PREPARATION\n" +
+            "==============================\n" +
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Peel and chop the onion.\n" +
+            "3. Heat olive oil in a large pan.\n" +
+            "4. Sauté the onion for 2–3 minutes.\n" +
+            "5. Add chicken and cook until lightly golden.\n" +
+            "6. Season with salt, pepper and herbs.\n" +
+            "7. Pour in the cream and simmer 5 minutes.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLING AND BAKING\n" +
+            "==============================\n" +
+            "8. Spread a thin layer of creamy chicken in the dish.\n" +
+            "9. Add lasagna sheets.\n" +
+            "10. Cover with chicken mixture and mozzarella.\n" +
+            "11. Repeat layers.\n" +
+            "12. Finish with mozzarella and parmesan.\n" +
+            "13. Bake 25–30 minutes until golden.\n" +
+            "14. Let rest 5 minutes before serving."
+    },
+
+    nl: {
+        title: "Lasagne met kip en roomsaus",
+        equipment: [
+            "1 oven",
+            "1 ovenschaal",
+            "1 grote pan",
+            "1 steelpan",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "250 g voorgekookte lasagnebladen",
+            "300 g kip",
+            "200 ml room",
+            "150 g geraspte mozzarella",
+            "50 g geraspte Parmezaanse kaas",
+            "1 ui",
+            "2 eetlepels olijfolie",
+            "Zout",
+            "Peper",
+            "Italiaanse kruiden"
+        ],
+        preparation:
+            "==============================\n" +
+            "KIP IN ROOMSAUS BEREIDEN\n" +
+            "==============================\n" +
+            "1. Verwarm de oven voor op 200°C.\n" +
+            "2. Snipper de ui.\n" +
+            "3. Verhit olijfolie in een grote pan.\n" +
+            "4. Bak de ui 2–3 minuten.\n" +
+            "5. Voeg de kip toe en bak licht goudbruin.\n" +
+            "6. Breng op smaak met zout, peper en kruiden.\n" +
+            "7. Voeg room toe en laat 5 minuten sudderen.\n\n" +
+
+            "==============================\n" +
+            "OPBOUW EN BAKKEN\n" +
+            "==============================\n" +
+            "8. Verdeel een laag kip in roomsaus in de ovenschaal.\n" +
+            "9. Leg lasagnebladen.\n" +
+            "10. Voeg kip en mozzarella toe.\n" +
+            "11. Herhaal tot alles op is.\n" +
+            "12. Eindig met mozzarella en Parmezaan.\n" +
+            "13. Bak 25–30 minuten tot goudbruin.\n" +
+            "14. Laat 5 minuten rusten."
+    },
+
+    ar: {
+        title: "لازانيا بالدجاج والكريمة",
+        equipment: [
+            "فرن",
+            "صينية فرن",
+            "مقلاة كبيرة",
+            "قدر",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "250 غ شرائح لازانيا جاهزة",
+            "300 غ دجاج",
+            "200 مل كريمة",
+            "150 غ موزاريلا مبشور",
+            "50 غ بارميزان مبشور",
+            "بصلة",
+            "2 ملاعق كبيرة زيت زيتون",
+            "ملح",
+            "فلفل",
+            "أعشاب إيطالية"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير الدجاج بالكريمة\n" +
+            "==============================\n" +
+            "1. سخّن الفرن إلى 200°م.\n" +
+            "2. قطّع البصل.\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "4. شوّح البصل 2–3 دقائق.\n" +
+            "5. أضف الدجاج واطهه حتى يتحمر قليلاً.\n" +
+            "6. تبّل بالملح والفلفل والأعشاب.\n" +
+            "7. أضف الكريمة واتركه 5 دقائق.\n\n" +
+
+            "==============================\n" +
+            "التركيب والخبز\n" +
+            "==============================\n" +
+            "8. ضع طبقة من الدجاج بالكريمة في الصينية.\n" +
+            "9. أضف شرائح اللازانيا.\n" +
+            "10. أضف الدجاج والموزاريلا.\n" +
+            "11. كرر الطبقات.\n" +
+            "12. أنهِ بالموزاريلا والبارميزان.\n" +
+            "13. اخبز 25–30 دقيقة حتى يتحمر الوجه.\n" +
+            "14. اتركها 5 دقائق قبل التقديم."
     }
 };
 
 
 
-recipesData.dessert.pannacotta = {
+
+
+
+
+
+
+
+ recipesData.dessert.pannacotta = {
     country: "italie",
     image: "images/pannacotta.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Panna Cotta à la vanille (4 personnes)",
+        title: "Panna cotta à la vanille",
         equipment: [
             "1 casserole",
             "1 bol",
             "1 fouet",
             "4 verrines ou ramequins",
-            "1 balance de cuisine",
-            "1 cuillère en bois"
+            "1 cuillère"
         ],
         ingredients: [
-            "500 ml crème liquide entière",
-            "50 g sucre",
+            "500 ml de crème liquide entière",
+            "50 g de sucre",
             "1 gousse de vanille",
             "2 feuilles de gélatine (4 g)",
-            "Quelques fruits rouges pour servir (facultatif)"
+            "Fruits rouges pour servir (facultatif)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Placer les feuilles de gélatine dans un bol d'eau froide pour les ramollir pendant 5 minutes.\n" +
-            "2. Dans une casserole, verser la crème et le sucre.\n" +
-            "3. Fendre la gousse de vanille, gratter les graines et les ajouter dans la crème.\n" +
-            "4. Chauffer doucement la crème sans la faire bouillir, en remuant régulièrement.\n" +
-            "5. Retirer la casserole du feu, essorer la gélatine et l'ajouter à la crème chaude. Mélanger jusqu'à dissolution complète.\n" +
-            "6. Verser la préparation dans 4 verrines ou ramequins.\n" +
-            "7. Laisser refroidir à température ambiante, puis placer au réfrigérateur au moins 4 heures avant de servir.\n" +
-            "8. Décorer avec des fruits rouges si désiré."
+            "1. Placer les feuilles de gélatine dans un bol d’eau froide pendant 5 minutes.\n" +
+            "2. Verser la crème et le sucre dans une casserole.\n" +
+            "3. Fendre la gousse de vanille, gratter les graines et les ajouter à la crème.\n" +
+            "4. Chauffer doucement sans faire bouillir, en remuant régulièrement.\n" +
+            "5. Retirer du feu, essorer la gélatine et l’incorporer à la crème chaude.\n" +
+            "6. Mélanger jusqu’à dissolution complète.\n" +
+            "7. Verser dans les verrines.\n" +
+            "8. Laisser refroidir puis placer au réfrigérateur au moins 4 heures.\n" +
+            "9. Servir frais, accompagné de fruits rouges si souhaité."
     },
+
     en: {
-        title: "Vanilla Panna Cotta (Serves 4)",
+        title: "Vanilla panna cotta",
         equipment: [
             "1 saucepan",
             "1 bowl",
             "1 whisk",
             "4 glasses or ramekins",
-            "1 kitchen scale",
-            "1 wooden spoon"
+            "1 spoon"
         ],
         ingredients: [
             "500 ml heavy cream",
             "50 g sugar",
             "1 vanilla pod",
             "2 gelatin sheets (4 g)",
-            "Some red fruits for serving (optional)"
+            "Red berries for serving (optional)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Soak gelatin sheets in cold water for 5 minutes to soften.\n" +
+            "1. Soak gelatin sheets in cold water for 5 minutes.\n" +
             "2. Pour cream and sugar into a saucepan.\n" +
-            "3. Split vanilla pod, scrape seeds and add to cream.\n" +
+            "3. Split the vanilla pod, scrape the seeds and add to the cream.\n" +
             "4. Heat gently without boiling, stirring regularly.\n" +
-            "5. Remove from heat, squeeze gelatin and add to hot cream. Stir until completely dissolved.\n" +
-            "6. Pour into 4 glasses or ramekins.\n" +
-            "7. Let cool to room temperature, then refrigerate at least 4 hours before serving.\n" +
-            "8. Decorate with red fruits if desired."
+            "5. Remove from heat, squeeze gelatin and add to the hot cream.\n" +
+            "6. Stir until fully dissolved.\n" +
+            "7. Pour into glasses or ramekins.\n" +
+            "8. Let cool, then refrigerate for at least 4 hours.\n" +
+            "9. Serve chilled with red berries if desired."
     },
+
     nl: {
-        title: "Vanille Panna Cotta (voor 4 personen)",
+        title: "Vanille panna cotta",
         equipment: [
             "1 steelpan",
             "1 kom",
             "1 garde",
             "4 glaasjes of ramequins",
-            "1 keukenweegschaal",
-            "1 houten lepel"
+            "1 lepel"
         ],
         ingredients: [
             "500 ml slagroom",
             "50 g suiker",
             "1 vanillepeul",
             "2 gelatineblaadjes (4 g)",
-            "Enkele rode vruchten voor garnering (optioneel)"
+            "Rode vruchten om te serveren (optioneel)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Week gelatineblaadjes 5 minuten in koud water.\n" +
-            "2. Giet de room en suiker in een steelpan.\n" +
-            "3. Snijd de vanillepeul, schraap de zaadjes en voeg toe aan de room.\n" +
-            "4. Verwarm zachtjes zonder te koken, regelmatig roeren.\n" +
-            "5. Haal van het vuur, knijp gelatine uit en voeg toe aan de hete room. Roer tot volledig opgelost.\n" +
-            "6. Giet in 4 glaasjes of ramequins.\n" +
-            "7. Laat afkoelen tot kamertemperatuur, zet dan minimaal 4 uur in de koelkast.\n" +
-            "8. Garneer eventueel met rode vruchten."
+            "1. Week de gelatineblaadjes 5 minuten in koud water.\n" +
+            "2. Doe de room en suiker in een steelpan.\n" +
+            "3. Snijd de vanillepeul open en voeg de zaadjes toe.\n" +
+            "4. Verwarm zachtjes zonder te koken.\n" +
+            "5. Haal van het vuur en voeg de uitgeknepen gelatine toe.\n" +
+            "6. Roer tot alles is opgelost.\n" +
+            "7. Giet in glaasjes of ramequins.\n" +
+            "8. Laat afkoelen en zet minimaal 4 uur in de koelkast.\n" +
+            "9. Serveer koud met rode vruchten indien gewenst."
     },
+
     ar: {
-        title: "بانّا كوتّا بالفانيليا (تكفي 4 أشخاص)",
+        title: "بانّا كوتّا بالفانيليا",
         equipment: [
             "قدر",
             "وعاء",
-            "خلاط يدوي",
+            "مضرب يدوي",
             "4 كؤوس أو راميكين",
-            "ميزان مطبخ",
-            "ملعقة خشبية"
+            "ملعقة"
         ],
         ingredients: [
             "500 مل كريمة سائلة كاملة الدسم",
             "50 غ سكر",
             "1 حبة فانيليا",
             "2 ورقة جيلاتين (4 غ)",
-            "بعض التوت الأحمر للتقديم (اختياري)"
+            "فواكه حمراء للتقديم (اختياري)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. ضع أوراق الجيلاتين في ماء بارد لمدة 5 دقائق لتلين.\n" +
-            "2. صب الكريمة والسكر في قدر.\n" +
-            "3. افتح حبة الفانيليا، اكشط البذور وأضفها إلى الكريمة.\n" +
-            "4. سخّن الكريمة على نار هادئة بدون غليان مع التحريك المنتظم.\n" +
-            "5. ارفع عن النار، اعصر الجيلاتين وأضفه إلى الكريمة الساخنة. حرّك حتى يذوب تماماً.\n" +
-            "6. صب الخليط في 4 كؤوس أو راميكين.\n" +
-            "7. اتركه يبرد إلى درجة حرارة الغرفة، ثم ضع في الثلاجة لمدة لا تقل عن 4 ساعات قبل التقديم.\n" +
-            "8. زيّن بالتوت الأحمر إذا رغبت."
+            "1. ضع الجيلاتين في ماء بارد لمدة 5 دقائق.\n" +
+            "2. ضع الكريمة والسكر في قدر.\n" +
+            "3. افتح حبة الفانيليا وأضف البذور إلى الكريمة.\n" +
+            "4. سخّن الخليط بلطف دون غليان.\n" +
+            "5. ارفع القدر عن النار وأضف الجيلاتين المعصور.\n" +
+            "6. حرّك حتى يذوب تماماً.\n" +
+            "7. اسكب الخليط في الكؤوس.\n" +
+            "8. اتركه يبرد ثم ضع في الثلاجة 4 ساعات على الأقل.\n" +
+            "9. قدّم بارداً مع الفواكه الحمراء إذا رغبت."
     }
 };
 recipesData.dessert.pannaCottaChocolat = {
     country: "italie",
     image: "images/panna-cotta-chocolat.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Panna cotta au chocolat (4 personnes)",
-        equipment: ["1 casserole", "1 fouet", "4 verrines"],
+        title: "Panna cotta au chocolat",
+        equipment: [
+            "1 casserole",
+            "1 bol",
+            "1 fouet",
+            "4 verrines",
+            "1 cuillère"
+        ],
         ingredients: [
-            "500 ml de crème liquide",
+            "500 ml de crème liquide entière",
             "100 g de chocolat noir",
             "60 g de sucre",
-            "3 feuilles de gélatine"
+            "2 feuilles de gélatine (4 g)"
         ],
         preparation:
-            "1. Faire tremper la gélatine dans l’eau froide.\n" +
-            "2. Chauffer la crème avec le sucre.\n" +
-            "3. Ajouter le chocolat en morceaux et mélanger.\n" +
-            "4. Incorporer la gélatine hors du feu.\n" +
-            "5. Verser dans les verrines et réfrigérer 4 heures."
+            "1. Faire tremper les feuilles de gélatine dans un bol d’eau froide pendant 5 minutes.\n" +
+            "2. Verser la crème et le sucre dans une casserole.\n" +
+            "3. Chauffer doucement sans faire bouillir.\n" +
+            "4. Ajouter le chocolat noir coupé en morceaux et mélanger jusqu’à complète fonte.\n" +
+            "5. Retirer du feu, essorer la gélatine et l’incorporer à la préparation chaude.\n" +
+            "6. Mélanger jusqu’à dissolution complète.\n" +
+            "7. Verser dans les verrines.\n" +
+            "8. Laisser refroidir puis placer au réfrigérateur au moins 4 heures avant de servir."
     },
+
     en: {
-        title: "Chocolate Panna Cotta (Serves 4)",
-        equipment: ["1 pot", "1 whisk", "4 glasses"],
+        title: "Chocolate panna cotta",
+        equipment: [
+            "1 saucepan",
+            "1 bowl",
+            "1 whisk",
+            "4 glasses",
+            "1 spoon"
+        ],
         ingredients: [
-            "500 ml liquid cream",
+            "500 ml heavy cream",
             "100 g dark chocolate",
             "60 g sugar",
-            "3 gelatin sheets"
+            "2 gelatin sheets (4 g)"
         ],
         preparation:
-            "1. Soak gelatin in cold water.\n" +
-            "2. Heat cream with sugar.\n" +
-            "3. Add chopped chocolate and stir until melted.\n" +
-            "4. Add gelatin off the heat.\n" +
-            "5. Pour into glasses and chill 4 hours."
+            "1. Soak gelatin sheets in cold water for 5 minutes.\n" +
+            "2. Pour cream and sugar into a saucepan.\n" +
+            "3. Heat gently without boiling.\n" +
+            "4. Add chopped dark chocolate and stir until fully melted.\n" +
+            "5. Remove from heat and add the squeezed gelatin.\n" +
+            "6. Stir until completely dissolved.\n" +
+            "7. Pour into glasses.\n" +
+            "8. Let cool, then refrigerate for at least 4 hours before serving."
     },
+
     nl: {
-        title: "Chocolade panna cotta (voor 4 personen)",
-        equipment: ["1 kookpot", "1 garde", "4 glaasjes"],
+        title: "Chocolade panna cotta",
+        equipment: [
+            "1 steelpan",
+            "1 kom",
+            "1 garde",
+            "4 glaasjes",
+            "1 lepel"
+        ],
         ingredients: [
-            "500 ml room",
+            "500 ml slagroom",
             "100 g pure chocolade",
             "60 g suiker",
-            "3 blaadjes gelatine"
+            "2 gelatineblaadjes (4 g)"
         ],
         preparation:
-            "1. Week gelatine in koud water.\n" +
-            "2. Verwarm room met suiker.\n" +
-            "3. Voeg chocolade toe en roer tot gesmolten.\n" +
-            "4. Voeg gelatine toe buiten het vuur.\n" +
-            "5. Giet in glaasjes en laat 4 uur opstijven."
+            "1. Week de gelatineblaadjes 5 minuten in koud water.\n" +
+            "2. Doe de room en suiker in een steelpan.\n" +
+            "3. Verwarm zachtjes zonder te koken.\n" +
+            "4. Voeg de in stukjes gebroken chocolade toe en roer tot gesmolten.\n" +
+            "5. Haal van het vuur en voeg de uitgeknepen gelatine toe.\n" +
+            "6. Roer tot alles is opgelost.\n" +
+            "7. Giet in glaasjes.\n" +
+            "8. Laat afkoelen en zet minimaal 4 uur in de koelkast."
     },
+
     ar: {
-        title: "بانا كوتا بالشوكولاتة (تكفي 4 أشخاص)",
-        equipment: ["قدر", "خفاق", "4 كؤوس"],
+        title: "بانّا كوتّا بالشوكولاتة",
+        equipment: [
+            "قدر",
+            "وعاء",
+            "مضرب يدوي",
+            "4 كؤوس",
+            "ملعقة"
+        ],
         ingredients: [
-            "500 مل كريمة سائلة",
+            "500 مل كريمة سائلة كاملة الدسم",
             "100 غ شوكولاتة داكنة",
             "60 غ سكر",
-            "3 أوراق جيلاتين"
+            "2 ورقة جيلاتين (4 غ)"
         ],
         preparation:
-            "1. انقع الجيلاتين في ماء بارد.\n" +
-            "2. سخن الكريمة مع السكر.\n" +
-            "3. أضف الشوكولاتة وحرّك حتى تذوب.\n" +
-            "4. أضف الجيلاتين بعيداً عن النار.\n" +
-            "5. اسكب في الكؤوس وضع في الثلاجة 4 ساعات."
+            "1. انقع أوراق الجيلاتين في ماء بارد لمدة 5 دقائق.\n" +
+            "2. ضع الكريمة والسكر في قدر.\n" +
+            "3. سخّن الخليط بلطف دون غليان.\n" +
+            "4. أضف الشوكولاتة المقطعة وحرّك حتى تذوب.\n" +
+            "5. ارفع القدر عن النار وأضف الجيلاتين المعصور.\n" +
+            "6. حرّك حتى يذوب تماماً.\n" +
+            "7. اسكب الخليط في الكؤوس.\n" +
+            "8. اتركه يبرد ثم ضع في الثلاجة 4 ساعات على الأقل."
     }
 };
-
 recipesData.dessert.tiramisu = {
     country: "italie",
     image: "images/tiramisu.jpg",
+
+    meta: {
+        servings: "4 à 6 personnes",
+        prepTime: 25,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tiramisù classique (4 à 6 personnes)",
-        equipment: ["1 saladier", "1 fouet", "1 spatule", "1 plat rectangulaire"],
+        title: "Tiramisù classique",
+        equipment: [
+            "1 saladier",
+            "1 fouet",
+            "1 spatule",
+            "1 plat rectangulaire"
+        ],
         ingredients: [
             "250 g de mascarpone",
             "3 œufs",
@@ -29995,17 +30909,26 @@ recipesData.dessert.tiramisu = {
         ],
         preparation:
             "1. Séparer les blancs des jaunes d’œufs.\n" +
-            "2. Fouetter les jaunes avec le sucre jusqu’à blanchiment.\n" +
+            "2. Fouetter les jaunes avec le sucre jusqu’à obtenir un mélange clair.\n" +
             "3. Ajouter le mascarpone et mélanger jusqu’à obtenir une crème lisse.\n" +
-            "4. Monter les blancs en neige ferme et les incorporer délicatement.\n" +
-            "5. Tremper rapidement les biscuits dans le café.\n" +
-            "6. Disposer une couche de biscuits puis une couche de crème.\n" +
-            "7. Répéter et terminer par une couche de crème.\n" +
-            "8. Saupoudrer de cacao et placer au frais au moins 4 heures."
+            "4. Monter les blancs en neige ferme.\n" +
+            "5. Incorporer délicatement les blancs à la crème.\n" +
+            "6. Tremper rapidement les biscuits dans le café refroidi.\n" +
+            "7. Disposer une couche de biscuits dans le plat.\n" +
+            "8. Recouvrir d’une couche de crème.\n" +
+            "9. Répéter l’opération et terminer par une couche de crème.\n" +
+            "10. Saupoudrer de cacao.\n" +
+            "11. Placer au réfrigérateur au moins 4 heures avant de servir."
     },
+
     en: {
-        title: "Classic Tiramisu (Serves 4–6)",
-        equipment: ["1 bowl", "1 whisk", "1 spatula", "1 rectangular dish"],
+        title: "Classic tiramisu",
+        equipment: [
+            "1 bowl",
+            "1 whisk",
+            "1 spatula",
+            "1 rectangular dish"
+        ],
         ingredients: [
             "250 g mascarpone",
             "3 eggs",
@@ -30018,15 +30941,24 @@ recipesData.dessert.tiramisu = {
             "1. Separate egg whites from yolks.\n" +
             "2. Whisk yolks with sugar until pale.\n" +
             "3. Add mascarpone and mix until smooth.\n" +
-            "4. Beat egg whites until stiff and gently fold in.\n" +
-            "5. Quickly dip biscuits into coffee.\n" +
-            "6. Layer biscuits and cream in the dish.\n" +
-            "7. Finish with a cream layer.\n" +
-            "8. Dust with cocoa and chill at least 4 hours."
+            "4. Beat egg whites until stiff.\n" +
+            "5. Gently fold egg whites into the cream.\n" +
+            "6. Quickly dip biscuits into cooled coffee.\n" +
+            "7. Arrange a layer of biscuits in the dish.\n" +
+            "8. Cover with a layer of cream.\n" +
+            "9. Repeat layers and finish with cream.\n" +
+            "10. Dust with cocoa powder.\n" +
+            "11. Refrigerate for at least 4 hours before serving."
     },
+
     nl: {
-        title: "Klassieke tiramisu (voor 4–6 personen)",
-        equipment: ["1 kom", "1 garde", "1 spatel", "1 rechthoekige schaal"],
+        title: "Klassieke tiramisu",
+        equipment: [
+            "1 kom",
+            "1 garde",
+            "1 spatel",
+            "1 rechthoekige schaal"
+        ],
         ingredients: [
             "250 g mascarpone",
             "3 eieren",
@@ -30037,17 +30969,26 @@ recipesData.dessert.tiramisu = {
         ],
         preparation:
             "1. Scheid eiwitten en eidooiers.\n" +
-            "2. Klop dooiers met suiker tot licht van kleur.\n" +
-            "3. Voeg mascarpone toe en meng glad.\n" +
-            "4. Klop eiwitten stijf en spatel voorzichtig onder.\n" +
-            "5. Doop de koekjes kort in koffie.\n" +
-            "6. Maak laagjes van koekjes en crème.\n" +
-            "7. Eindig met een laag crème.\n" +
-            "8. Bestrooi met cacao en koel minstens 4 uur."
+            "2. Klop de dooiers met suiker licht en romig.\n" +
+            "3. Meng de mascarpone erdoor tot een gladde crème.\n" +
+            "4. Klop de eiwitten stijf.\n" +
+            "5. Spatel de eiwitten voorzichtig door de crème.\n" +
+            "6. Doop de koekjes kort in de koffie.\n" +
+            "7. Leg een laag koekjes in de schaal.\n" +
+            "8. Bedek met een laag crème.\n" +
+            "9. Herhaal en eindig met crème.\n" +
+            "10. Bestrooi met cacao.\n" +
+            "11. Laat minstens 4 uur opstijven in de koelkast."
     },
+
     ar: {
-        title: "تيراميسو كلاسيكي (يكفي 4–6 أشخاص)",
-        equipment: ["وعاء", "خفاق", "ملعقة مسطحة", "صينية"],
+        title: "تيراميسو كلاسيكي",
+        equipment: [
+            "وعاء",
+            "خفاق",
+            "ملعقة مسطحة",
+            "صينية مستطيلة"
+        ],
         ingredients: [
             "250 غ ماسكاربوني",
             "3 بيضات",
@@ -30059,108 +31000,164 @@ recipesData.dessert.tiramisu = {
         preparation:
             "1. افصل صفار البيض عن البياض.\n" +
             "2. اخفق الصفار مع السكر حتى يصبح فاتح اللون.\n" +
-            "3. أضف الماسكاربوني وامزج جيداً.\n" +
-            "4. اخفق البياض حتى يتماسك وأضفه برفق.\n" +
-            "5. اغمس البسكويت سريعاً في القهوة.\n" +
-            "6. شكّل طبقات من البسكويت والكريمة.\n" +
-            "7. اختم بطبقة كريمة.\n" +
-            "8. رش الكاكاو وضعه في الثلاجة 4 ساعات على الأقل."
+            "3. أضف الماسكاربوني وامزج حتى تصبح الكريمة ناعمة.\n" +
+            "4. اخفق بياض البيض حتى يتماسك.\n" +
+            "5. أضف البياض برفق إلى الكريمة.\n" +
+            "6. اغمس البسكويت سريعاً في القهوة المبردة.\n" +
+            "7. ضع طبقة من البسكويت في الصينية.\n" +
+            "8. أضف طبقة من الكريمة.\n" +
+            "9. كرر الطبقات وانتهِ بالكريمة.\n" +
+            "10. رش الكاكاو على الوجه.\n" +
+            "11. ضع التيراميسو في الثلاجة 4 ساعات على الأقل قبل التقديم."
     }
 };
 recipesData.dessert.crostataConfiture = {
     country: "italie",
     image: "images/crostata-confiture.jpg",
+
+    meta: {
+        servings: 6,
+        prepTime: 20,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Crostata italienne à la confiture (6 personnes)",
-        equipment: ["1 saladier", "1 rouleau à pâtisserie", "1 moule à tarte", "1 couteau"],
+        title: "Crostata italienne à la confiture",
+        equipment: [
+            "1 saladier",
+            "1 rouleau à pâtisserie",
+            "1 moule à tarte",
+            "1 couteau",
+            "1 four"
+        ],
         ingredients: [
             "300 g de farine",
-            "150 g de beurre",
+            "150 g de beurre doux",
             "120 g de sucre",
             "2 œufs",
             "1 cuillère à café de levure chimique",
             "300 g de confiture au choix"
         ],
         preparation:
-            "1. Mélanger farine, sucre et levure.\n" +
-            "2. Ajouter le beurre en morceaux et sabler la pâte.\n" +
+            "1. Verser la farine, le sucre et la levure dans un saladier.\n" +
+            "2. Ajouter le beurre coupé en morceaux et sabler la pâte du bout des doigts.\n" +
             "3. Incorporer les œufs et former une pâte homogène.\n" +
-            "4. Étaler la pâte et foncer le moule.\n" +
-            "5. Garnir de confiture.\n" +
-            "6. Décorer avec des bandes de pâte.\n" +
-            "7. Cuire 35 min à 180°C.\n" +
-            "8. Laisser refroidir avant de servir."
+            "4. Prélever un quart de la pâte pour le décor.\n" +
+            "5. Étaler le reste de la pâte et foncer le moule.\n" +
+            "6. Garnir uniformément de confiture.\n" +
+            "7. Former des bandes avec la pâte restante et les disposer en croisillons.\n" +
+            "8. Cuire au four à 180°C pendant 35 minutes.\n" +
+            "9. Laisser refroidir avant de démouler et servir."
     },
+
     en: {
-        title: "Italian Jam Crostata (Serves 6)",
-        equipment: ["1 bowl", "1 rolling pin", "1 tart pan", "1 knife"],
+        title: "Italian jam crostata",
+        equipment: [
+            "1 bowl",
+            "1 rolling pin",
+            "1 tart pan",
+            "1 knife",
+            "1 oven"
+        ],
         ingredients: [
             "300 g flour",
-            "150 g butter",
+            "150 g unsalted butter",
             "120 g sugar",
             "2 eggs",
             "1 teaspoon baking powder",
             "300 g jam of choice"
         ],
         preparation:
-            "1. Mix flour, sugar and baking powder.\n" +
-            "2. Rub in butter until crumbly.\n" +
+            "1. Combine flour, sugar and baking powder in a bowl.\n" +
+            "2. Add diced butter and rub until crumbly.\n" +
             "3. Add eggs and form a smooth dough.\n" +
-            "4. Roll out dough and line the pan.\n" +
-            "5. Spread jam evenly.\n" +
-            "6. Decorate with dough strips.\n" +
-            "7. Bake 35 min at 180°C.\n" +
-            "8. Let cool before serving."
+            "4. Reserve one quarter of the dough.\n" +
+            "5. Roll out the remaining dough and line the tart pan.\n" +
+            "6. Spread the jam evenly.\n" +
+            "7. Use the remaining dough to create lattice strips on top.\n" +
+            "8. Bake at 180°C for 35 minutes.\n" +
+            "9. Let cool before serving."
     },
+
     nl: {
-        title: "Italiaanse crostata met confituur (voor 6 personen)",
-        equipment: ["1 kom", "1 deegrol", "1 taartvorm", "1 mes"],
+        title: "Italiaanse crostata met confituur",
+        equipment: [
+            "1 kom",
+            "1 deegrol",
+            "1 taartvorm",
+            "1 mes",
+            "1 oven"
+        ],
         ingredients: [
             "300 g bloem",
-            "150 g boter",
+            "150 g ongezouten boter",
             "120 g suiker",
             "2 eieren",
             "1 theelepel bakpoeder",
-            "300 g confituur"
+            "300 g confituur naar keuze"
         ],
         preparation:
-            "1. Meng bloem, suiker en bakpoeder.\n" +
-            "2. Wrijf boter erdoor tot kruimelig.\n" +
-            "3. Voeg eieren toe en vorm deeg.\n" +
-            "4. Rol uit en bekleed de vorm.\n" +
-            "5. Bestrijk met confituur.\n" +
-            "6. Versier met deegstroken.\n" +
-            "7. Bak 35 min op 180°C.\n" +
-            "8. Laat afkoelen."
+            "1. Meng bloem, suiker en bakpoeder in een kom.\n" +
+            "2. Voeg boter toe en wrijf tot kruimelig.\n" +
+            "3. Voeg eieren toe en vorm een deeg.\n" +
+            "4. Houd een kwart van het deeg apart.\n" +
+            "5. Rol de rest uit en bekleed de taartvorm.\n" +
+            "6. Bestrijk gelijkmatig met confituur.\n" +
+            "7. Maak deegstroken en leg ze kruiselings erop.\n" +
+            "8. Bak 35 minuten op 180°C.\n" +
+            "9. Laat afkoelen voor het serveren."
     },
+
     ar: {
-        title: "كروستاتا إيطالية بالمربى (تكفي 6 أشخاص)",
-        equipment: ["وعاء", "نشابة", "قالب تارت", "سكين"],
+        title: "كروستاتا إيطالية بالمربى",
+        equipment: [
+            "وعاء",
+            "نشابة",
+            "قالب تارت",
+            "سكين",
+            "فرن"
+        ],
         ingredients: [
             "300 غ دقيق",
-            "150 غ زبدة",
+            "150 غ زبدة غير مملحة",
             "120 غ سكر",
             "2 بيض",
-            "1 ملعقة صغيرة خميرة",
-            "300 غ مربى"
+            "1 ملعقة صغيرة خميرة كيميائية",
+            "300 غ مربى حسب الرغبة"
         ],
         preparation:
-            "1. اخلط الدقيق والسكر والخميرة.\n" +
-            "2. أضف الزبدة وامزج حتى يصبح مفتتاً.\n" +
-            "3. أضف البيض وشكل عجينة.\n" +
-            "4. افرد العجينة وضعها في القالب.\n" +
-            "5. غطها بالمربى.\n" +
-            "6. زيّن بشرائط من العجين.\n" +
-            "7. اخبز 35 دقيقة على 180°م.\n" +
-            "8. اتركها تبرد قبل التقديم."
+            "1. اخلط الدقيق والسكر والخميرة في وعاء.\n" +
+            "2. أضف الزبدة وامزج حتى يصبح الخليط مفتتاً.\n" +
+            "3. أضف البيض وشكّل عجينة متجانسة.\n" +
+            "4. خذ جزءاً من العجينة للزينة.\n" +
+            "5. افرد العجينة وضعها في قالب التارت.\n" +
+            "6. غطِّها بالمربى بالتساوي.\n" +
+            "7. شكّل شرائط من العجينة وضعها بشكل متقاطع.\n" +
+            "8. اخبز على 180°م لمدة 35 دقيقة.\n" +
+            "9. اتركها تبرد قبل التقديم."
     }
 };
 recipesData.dessert.tortaDellaNonna = {
     country: "italie",
     image: "images/torta-della-nonna.jpg",
+
+    meta: {
+        servings: 6,
+        prepTime: 25,
+        cookTime: 40,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Torta della nonna (6 personnes)",
-        equipment: ["1 casserole", "1 fouet", "1 moule", "1 saladier"],
+        title: "Torta della nonna",
+        equipment: [
+            "1 casserole",
+            "1 fouet",
+            "1 saladier",
+            "1 moule à tarte",
+            "1 four"
+        ],
         ingredients: [
             "300 g de pâte sablée",
             "500 ml de lait",
@@ -30171,18 +31168,30 @@ recipesData.dessert.tortaDellaNonna = {
             "50 g de pignons de pin"
         ],
         preparation:
-            "1. Chauffer le lait avec la vanille.\n" +
-            "2. Fouetter jaunes, sucre et maïzena.\n" +
-            "3. Verser le lait chaud et épaissir à feu doux.\n" +
-            "4. Foncer le moule avec la pâte.\n" +
-            "5. Garnir de crème pâtissière.\n" +
-            "6. Parsemer de pignons.\n" +
-            "7. Cuire 40 min à 180°C.\n" +
-            "8. Laisser refroidir."
+            "1. Verser le lait dans une casserole.\n" +
+            "2. Fendre la gousse de vanille, gratter les graines et les ajouter au lait.\n" +
+            "3. Chauffer le lait doucement sans le faire bouillir.\n" +
+            "4. Dans un saladier, fouetter les jaunes d’œufs avec le sucre.\n" +
+            "5. Ajouter la maïzena et mélanger jusqu’à obtenir une préparation lisse.\n" +
+            "6. Verser progressivement le lait chaud sur le mélange en fouettant.\n" +
+            "7. Remettre le tout dans la casserole et cuire à feu doux jusqu’à épaississement.\n" +
+            "8. Préchauffer le four à 180°C.\n" +
+            "9. Foncer le moule avec la pâte sablée.\n" +
+            "10. Verser la crème pâtissière sur la pâte.\n" +
+            "11. Parsemer les pignons de pin sur le dessus.\n" +
+            "12. Enfourner pendant 40 minutes.\n" +
+            "13. Laisser refroidir complètement avant de démouler."
     },
+
     en: {
-        title: "Torta della Nonna (Serves 6)",
-        equipment: ["1 pot", "1 whisk", "1 pan", "1 bowl"],
+        title: "Torta della nonna",
+        equipment: [
+            "1 saucepan",
+            "1 whisk",
+            "1 bowl",
+            "1 tart pan",
+            "1 oven"
+        ],
         ingredients: [
             "300 g shortcrust pastry",
             "500 ml milk",
@@ -30193,18 +31202,30 @@ recipesData.dessert.tortaDellaNonna = {
             "50 g pine nuts"
         ],
         preparation:
-            "1. Heat milk with vanilla.\n" +
-            "2. Whisk yolks, sugar and cornstarch.\n" +
-            "3. Add milk and cook until thick.\n" +
-            "4. Line pan with pastry.\n" +
-            "5. Fill with custard.\n" +
-            "6. Sprinkle pine nuts.\n" +
-            "7. Bake 40 min at 180°C.\n" +
-            "8. Let cool."
+            "1. Pour the milk into a saucepan.\n" +
+            "2. Split the vanilla pod and add the seeds to the milk.\n" +
+            "3. Heat gently without boiling.\n" +
+            "4. Whisk egg yolks and sugar in a bowl.\n" +
+            "5. Add cornstarch and mix until smooth.\n" +
+            "6. Gradually pour hot milk into the mixture while whisking.\n" +
+            "7. Return to the saucepan and cook over low heat until thickened.\n" +
+            "8. Preheat the oven to 180°C.\n" +
+            "9. Line the tart pan with the pastry.\n" +
+            "10. Pour the custard over the pastry.\n" +
+            "11. Sprinkle pine nuts on top.\n" +
+            "12. Bake for 40 minutes.\n" +
+            "13. Let cool completely before removing from the pan."
     },
+
     nl: {
-        title: "Torta della nonna (voor 6 personen)",
-        equipment: ["1 kookpot", "1 garde", "1 bakvorm", "1 kom"],
+        title: "Torta della nonna",
+        equipment: [
+            "1 steelpan",
+            "1 garde",
+            "1 kom",
+            "1 taartvorm",
+            "1 oven"
+        ],
         ingredients: [
             "300 g zanddeeg",
             "500 ml melk",
@@ -30215,18 +31236,30 @@ recipesData.dessert.tortaDellaNonna = {
             "50 g pijnboompitten"
         ],
         preparation:
-            "1. Verwarm melk met vanille.\n" +
-            "2. Klop dooiers, suiker en maïzena.\n" +
-            "3. Voeg melk toe en laat indikken.\n" +
-            "4. Bekleed de vorm met deeg.\n" +
-            "5. Vul met room.\n" +
-            "6. Bestrooi met pijnboompitten.\n" +
-            "7. Bak 40 min op 180°C.\n" +
-            "8. Laat afkoelen."
+            "1. Giet de melk in een steelpan.\n" +
+            "2. Snijd het vanillestokje open en voeg de zaadjes toe.\n" +
+            "3. Verwarm de melk zachtjes zonder te koken.\n" +
+            "4. Klop de eidooiers met de suiker in een kom.\n" +
+            "5. Voeg de maïzena toe en meng glad.\n" +
+            "6. Giet de hete melk al roerend bij het mengsel.\n" +
+            "7. Doe alles terug in de pan en laat op laag vuur indikken.\n" +
+            "8. Verwarm de oven voor op 180°C.\n" +
+            "9. Bekleed de taartvorm met het deeg.\n" +
+            "10. Giet de room in de vorm.\n" +
+            "11. Bestrooi met pijnboompitten.\n" +
+            "12. Bak 40 minuten.\n" +
+            "13. Laat volledig afkoelen."
     },
+
     ar: {
-        title: "تورتا ديلا نونا (تكفي 6 أشخاص)",
-        equipment: ["قدر", "خفاق", "قالب", "وعاء"],
+        title: "تورتا ديلا نونا",
+        equipment: [
+            "قدر",
+            "خفاق",
+            "وعاء",
+            "قالب تارت",
+            "فرن"
+        ],
         ingredients: [
             "300 غ عجينة سابليه",
             "500 مل حليب",
@@ -30237,22 +31270,40 @@ recipesData.dessert.tortaDellaNonna = {
             "50 غ صنوبر"
         ],
         preparation:
-            "1. سخن الحليب مع الفانيليا.\n" +
-            "2. اخفق الصفار مع السكر والنشا.\n" +
-            "3. أضف الحليب واطبخ حتى يتكاثف.\n" +
-            "4. ضع العجين في القالب.\n" +
-            "5. املأ بالكريمة.\n" +
-            "6. رش الصنوبر.\n" +
-            "7. اخبز 40 دقيقة على 180°م.\n" +
-            "8. اتركها تبرد."
+            "1. ضع الحليب في قدر.\n" +
+            "2. افتح عود الفانيليا وأضف البذور إلى الحليب.\n" +
+            "3. سخّن الحليب بلطف دون غليان.\n" +
+            "4. اخفق صفار البيض مع السكر في وعاء.\n" +
+            "5. أضف النشا وامزج جيداً.\n" +
+            "6. اسكب الحليب الساخن تدريجياً مع التحريك.\n" +
+            "7. أعد الخليط إلى القدر واطهه على نار هادئة حتى يتكاثف.\n" +
+            "8. سخّن الفرن إلى 180°م.\n" +
+            "9. ضع العجينة في قالب التارت.\n" +
+            "10. اسكب الكريمة فوق العجينة.\n" +
+            "11. رش الصنوبر على الوجه.\n" +
+            "12. اخبز لمدة 40 دقيقة.\n" +
+            "13. اتركها تبرد تماماً قبل التقديم."
     }
 };
 recipesData.dessert.biscottiAmandes = {
     country: "italie",
     image: "images/biscotti-amandes.jpg",
+
+    meta: {
+        servings: 6,
+        prepTime: 15,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Biscotti italiens aux amandes (6 personnes)",
-        equipment: ["1 saladier", "1 plaque de cuisson", "1 couteau"],
+        title: "Biscotti italiens aux amandes",
+        equipment: [
+            "1 saladier",
+            "1 plaque de cuisson",
+            "1 couteau",
+            "1 four"
+        ],
         ingredients: [
             "300 g de farine",
             "150 g de sucre",
@@ -30261,17 +31312,27 @@ recipesData.dessert.biscottiAmandes = {
             "1 cuillère à café de levure chimique"
         ],
         preparation:
-            "1. Mélanger farine, sucre et levure.\n" +
-            "2. Ajouter les œufs et mélanger.\n" +
-            "3. Incorporer les amandes.\n" +
-            "4. Former deux boudins de pâte.\n" +
-            "5. Cuire 25 min à 180°C.\n" +
-            "6. Couper en tranches.\n" +
-            "7. Remettre au four 10 min pour sécher."
+            "1. Verser la farine, le sucre et la levure dans un saladier.\n" +
+            "2. Ajouter les œufs et mélanger jusqu’à obtention d’une pâte homogène.\n" +
+            "3. Incorporer les amandes entières.\n" +
+            "4. Diviser la pâte en deux et former deux boudins.\n" +
+            "5. Déposer les boudins sur une plaque recouverte de papier cuisson.\n" +
+            "6. Enfourner à 180°C pendant 25 minutes.\n" +
+            "7. Sortir du four et laisser tiédir quelques minutes.\n" +
+            "8. Couper les boudins en tranches.\n" +
+            "9. Disposer les tranches à plat sur la plaque.\n" +
+            "10. Remettre au four 10 minutes pour les sécher.\n" +
+            "11. Laisser refroidir complètement avant de servir."
     },
+
     en: {
-        title: "Italian Almond Biscotti (Serves 6)",
-        equipment: ["1 bowl", "1 baking tray", "1 knife"],
+        title: "Italian almond biscotti",
+        equipment: [
+            "1 bowl",
+            "1 baking tray",
+            "1 knife",
+            "1 oven"
+        ],
         ingredients: [
             "300 g flour",
             "150 g sugar",
@@ -30280,17 +31341,27 @@ recipesData.dessert.biscottiAmandes = {
             "1 teaspoon baking powder"
         ],
         preparation:
-            "1. Mix flour, sugar and baking powder.\n" +
-            "2. Add eggs and mix.\n" +
-            "3. Fold in almonds.\n" +
-            "4. Shape into two logs.\n" +
-            "5. Bake 25 min at 180°C.\n" +
-            "6. Slice.\n" +
-            "7. Bake again 10 min to dry."
+            "1. Combine flour, sugar and baking powder in a bowl.\n" +
+            "2. Add eggs and mix until a smooth dough forms.\n" +
+            "3. Fold in whole almonds.\n" +
+            "4. Divide the dough and shape into two logs.\n" +
+            "5. Place on a lined baking tray.\n" +
+            "6. Bake at 180°C for 25 minutes.\n" +
+            "7. Remove from oven and let cool slightly.\n" +
+            "8. Slice the logs.\n" +
+            "9. Lay slices flat on the tray.\n" +
+            "10. Bake again for 10 minutes to dry.\n" +
+            "11. Let cool completely before serving."
     },
+
     nl: {
-        title: "Italiaanse amandelbiscotti (voor 6 personen)",
-        equipment: ["1 kom", "1 bakplaat", "1 mes"],
+        title: "Italiaanse biscotti met amandelen",
+        equipment: [
+            "1 kom",
+            "1 bakplaat",
+            "1 mes",
+            "1 oven"
+        ],
         ingredients: [
             "300 g bloem",
             "150 g suiker",
@@ -30299,153 +31370,200 @@ recipesData.dessert.biscottiAmandes = {
             "1 theelepel bakpoeder"
         ],
         preparation:
-            "1. Meng bloem, suiker en bakpoeder.\n" +
-            "2. Voeg eieren toe.\n" +
-            "3. Meng amandelen erdoor.\n" +
-            "4. Vorm twee rollen.\n" +
-            "5. Bak 25 min op 180°C.\n" +
-            "6. Snijd in plakken.\n" +
-            "7. Bak nog 10 min."
+            "1. Meng bloem, suiker en bakpoeder in een kom.\n" +
+            "2. Voeg de eieren toe en meng tot een deeg.\n" +
+            "3. Meng de amandelen erdoor.\n" +
+            "4. Verdeel het deeg in twee rollen.\n" +
+            "5. Leg ze op een met bakpapier beklede bakplaat.\n" +
+            "6. Bak 25 minuten op 180°C.\n" +
+            "7. Laat even afkoelen.\n" +
+            "8. Snijd in plakken.\n" +
+            "9. Leg de plakken plat op de bakplaat.\n" +
+            "10. Bak nog 10 minuten om te drogen.\n" +
+            "11. Laat volledig afkoelen."
     },
+
     ar: {
-        title: "بسكوتي إيطالي باللوز (تكفي 6 أشخاص)",
-        equipment: ["وعاء", "صينية خبز", "سكين"],
+        title: "بسكوتي إيطالي باللوز",
+        equipment: [
+            "وعاء",
+            "صينية خبز",
+            "سكين",
+            "فرن"
+        ],
         ingredients: [
             "300 غ دقيق",
             "150 غ سكر",
             "2 بيض",
             "150 غ لوز كامل",
-            "1 ملعقة صغيرة خميرة"
+            "1 ملعقة صغيرة خميرة كيميائية"
         ],
         preparation:
-            "1. اخلط الدقيق والسكر والخميرة.\n" +
-            "2. أضف البيض.\n" +
-            "3. أضف اللوز.\n" +
-            "4. شكّل رولين من العجين.\n" +
-            "5. اخبز 25 دقيقة على 180°م.\n" +
-            "6. قطّع شرائح.\n" +
-            "7. اخبز 10 دقائق إضافية."
+            "1. اخلط الدقيق والسكر والخميرة في وعاء.\n" +
+            "2. أضف البيض وامزج حتى تتكون عجينة متجانسة.\n" +
+            "3. أضف اللوز الكامل.\n" +
+            "4. قسم العجينة إلى قسمين وشكّل رولين.\n" +
+            "5. ضع الرولات على صينية خبز.\n" +
+            "6. اخبز على 180°م لمدة 25 دقيقة.\n" +
+            "7. أخرجها من الفرن واتركها تبرد قليلاً.\n" +
+            "8. قطّعها إلى شرائح.\n" +
+            "9. ضع الشرائح مسطحة على الصينية.\n" +
+            "10. أعدها إلى الفرن 10 دقائق لتجف.\n" +
+            "11. اتركها تبرد تماماً قبل التقديم."
     }
 };
-
-
 recipesData.patisserie.cannoli = {
     country: "italie",
     image: "images/cannoli.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 5,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Cannoli siciliens (4 personnes)",
+        title: "Cannoli siciliens",
         equipment: [
             "1 grand bol",
             "1 fouet",
             "1 poche à douille",
-            "1 casserole pour friture",
+            "1 casserole ou poêle pour friture",
             "1 pince",
-            "1 balance de cuisine",
             "1 cuillère"
         ],
         ingredients: [
-            "200 g ricotta fraîche",
-            "50 g sucre glace",
-            "1 cuillère à café extrait de vanille (5 ml)",
-            "4 coquilles à cannoli (prêtes à garnir)",
-            "50 g pépites de chocolat",
-            "Huile végétale pour friture (facultatif si pré-frites)"
+            "200 g de ricotta fraîche",
+            "50 g de sucre glace",
+            "1 cuillère à café d’extrait de vanille",
+            "4 coquilles à cannoli",
+            "50 g de pépites de chocolat",
+            "Huile végétale pour friture (si coquilles non frites)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Dans un bol, mélanger la ricotta avec le sucre glace et la vanille jusqu’à obtention d’une crème lisse.\n" +
-            "2. Ajouter les pépites de chocolat et mélanger délicatement.\n" +
-            "3. Remplir une poche à douille avec la crème et garnir les coquilles de cannoli.\n" +
-            "4. Si les coquilles ne sont pas pré-frites, faire chauffer l’huile dans une casserole et frire rapidement les coquilles jusqu’à dorure, puis égoutter sur papier absorbant.\n" +
-            "5. Saupoudrer éventuellement un peu de sucre glace avant de servir."
+            "1. Mettre la ricotta dans un bol et la fouetter pour l’assouplir.\n" +
+            "2. Ajouter le sucre glace et l’extrait de vanille.\n" +
+            "3. Mélanger jusqu’à obtenir une crème lisse.\n" +
+            "4. Incorporer délicatement les pépites de chocolat.\n" +
+            "5. Si les coquilles ne sont pas déjà frites, chauffer l’huile et les frire rapidement jusqu’à dorure.\n" +
+            "6. Égoutter les coquilles sur du papier absorbant et laisser refroidir.\n" +
+            "7. Remplir une poche à douille avec la crème.\n" +
+            "8. Garnir les coquilles juste avant de servir.\n" +
+            "9. Saupoudrer éventuellement de sucre glace."
     },
+
     en: {
-        title: "Sicilian Cannoli (Serves 4)",
+        title: "Sicilian cannoli",
         equipment: [
             "1 large bowl",
             "1 whisk",
             "1 piping bag",
             "1 frying pan or pot",
             "1 tongs",
-            "1 kitchen scale",
             "1 spoon"
         ],
         ingredients: [
             "200 g fresh ricotta",
             "50 g icing sugar",
-            "1 teaspoon vanilla extract (5 ml)",
-            "4 cannoli shells (ready to fill)",
+            "1 teaspoon vanilla extract",
+            "4 cannoli shells",
             "50 g chocolate chips",
-            "Vegetable oil for frying (optional if pre-fried shells)"
+            "Vegetable oil for frying (if shells are not pre-fried)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. In a bowl, mix ricotta with icing sugar and vanilla until smooth.\n" +
-            "2. Add chocolate chips and fold gently.\n" +
-            "3. Fill a piping bag with cream and fill the cannoli shells.\n" +
-            "4. If shells are not pre-fried, heat oil in a pan and fry shells quickly until golden, then drain on paper towels.\n" +
-            "5. Optionally, dust with icing sugar before serving."
+            "1. Place ricotta in a bowl and whisk until smooth.\n" +
+            "2. Add icing sugar and vanilla extract.\n" +
+            "3. Mix until creamy.\n" +
+            "4. Gently fold in chocolate chips.\n" +
+            "5. If shells are not pre-fried, heat oil and fry briefly until golden.\n" +
+            "6. Drain on paper towels and let cool.\n" +
+            "7. Fill a piping bag with the cream.\n" +
+            "8. Fill the shells just before serving.\n" +
+            "9. Optionally dust with icing sugar."
     },
+
     nl: {
-        title: "Siciliaanse Cannoli (voor 4 personen)",
+        title: "Siciliaanse cannoli",
         equipment: [
             "1 grote kom",
             "1 garde",
             "1 spuitzak",
             "1 pan voor frituren",
             "1 tang",
-            "1 keukenweegschaal",
             "1 lepel"
         ],
         ingredients: [
             "200 g verse ricotta",
             "50 g poedersuiker",
-            "1 theelepel vanille-extract (5 ml)",
-            "4 cannoli schelpen (klaar om te vullen)",
+            "1 theelepel vanille-extract",
+            "4 cannoli-schelpen",
             "50 g chocoladestukjes",
-            "Plantaardige olie om te frituren (optioneel als voorgefrituurd)"
+            "Plantaardige olie om te frituren (indien niet voorgefrituurd)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng de ricotta met poedersuiker en vanille tot een gladde massa.\n" +
-            "2. Voeg chocoladestukjes toe en spatel voorzichtig door.\n" +
-            "3. Vul een spuitzak met het mengsel en vul de cannoli schelpen.\n" +
-            "4. Als de schelpen niet voorgefrituurd zijn, verhit olie in een pan en frituur snel de schelpen tot goudbruin, laat uitlekken op keukenpapier.\n" +
-            "5. Bestrooi eventueel met poedersuiker voor het serveren."
+            "1. Doe de ricotta in een kom en klop glad.\n" +
+            "2. Voeg poedersuiker en vanille toe.\n" +
+            "3. Meng tot een romige massa.\n" +
+            "4. Spatel de chocoladestukjes erdoor.\n" +
+            "5. Frituur de schelpen kort indien nodig.\n" +
+            "6. Laat uitlekken en afkoelen.\n" +
+            "7. Vul een spuitzak met de crème.\n" +
+            "8. Vul de cannoli vlak voor het serveren.\n" +
+            "9. Bestrooi eventueel met poedersuiker."
     },
+
     ar: {
-        title: "كانولي صقلي (تكفي 4 أشخاص)",
+        title: "كانولي صقلي",
         equipment: [
             "وعاء كبير",
-            "خلاط يدوي",
+            "مضرب يدوي",
             "كيس حلواني",
-            "مقلاة للقلي",
+            "مقلاة أو قدر للقلي",
             "ملقط",
-            "ميزان مطبخ",
             "ملعقة"
         ],
         ingredients: [
-            "200 غ جبن ريكوتا طازج",
+            "200 غ ريكوتا طازجة",
             "50 غ سكر بودرة",
-            "1 ملعقة صغيرة فانيليا (5 مل)",
-            "4 قوالب كانولي جاهزة للحشو",
+            "1 ملعقة صغيرة فانيليا",
+            "4 قوالب كانولي",
             "50 غ رقائق شوكولاتة",
-            "زيت نباتي للقلي (اختياري إذا كانت القوالب جاهزة مقلية)"
+            "زيت نباتي للقلي (إذا لم تكن القوالب مقلية)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. في وعاء، اخلط الريكوتا مع السكر البودرة والفانيليا حتى تصبح كريمة ناعمة.\n" +
-            "2. أضف رقائق الشوكولاتة واخلط برفق.\n" +
-            "3. احشو كيس الحلواني بالكريمة واملأ قوالب الكانولي.\n" +
-            "4. إذا لم تكن القوالب مقلية مسبقاً، سخّن الزيت في المقلاة وقم بقلي القوالب سريعاً حتى تصبح ذهبية، ثم صفّيها على ورق ماص.\n" +
-            "5. يمكن رش قليل من السكر البودرة قبل التقديم."
+            "1. ضع الريكوتا في وعاء واخفقها حتى تصبح ناعمة.\n" +
+            "2. أضف السكر البودرة والفانيليا.\n" +
+            "3. امزج حتى تتكوّن كريمة ناعمة.\n" +
+            "4. أضف رقائق الشوكولاتة برفق.\n" +
+            "5. اقْلِ القوالب إذا لم تكن مقلية مسبقاً.\n" +
+            "6. اتركها تصفّى وتبرد.\n" +
+            "7. املأ كيس الحلواني بالكريمة.\n" +
+            "8. احشُ القوالب قبل التقديم مباشرة.\n" +
+            "9. رشّ القليل من السكر البودرة إذا رغبت."
     }
 };
+
+
+
+
+
+
+
+
+
 
 recipesData.entree.tabouleLibanais = {
     country: "liban",
     image: "images/taboule-libanais.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 30,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Taboulé libanais traditionnel",
         equipment: [
@@ -30465,26 +31583,26 @@ recipesData.entree.tabouleLibanais = {
             "1/2 cuillère à café de poivre"
         ],
         preparation:
-            "Temps de préparation : 30 minutes\n\n" +
             "1. Laver soigneusement le persil et la menthe.\n" +
-            "2. Égoutter puis sécher avec un torchon.\n" +
+            "2. Égoutter puis sécher complètement avec un torchon.\n" +
             "3. Hacher très finement le persil et la menthe.\n" +
             "4. Couper les tomates en très petits dés.\n" +
-            "5. Émincer très finement l’oignon.\n" +
-            "6. Mettre le boulgour dans un bol.\n" +
-            "7. Ajouter le jus de citron sur le boulgour pour le réhydrater (5 minutes).\n" +
-            "8. Dans le saladier, mélanger persil, menthe, tomates et oignon.\n" +
+            "5. Émincer l’oignon très finement.\n" +
+            "6. Mettre le boulgour dans un petit bol.\n" +
+            "7. Verser le jus de citron sur le boulgour et laisser réhydrater 5 minutes.\n" +
+            "8. Dans le saladier, mélanger le persil, la menthe, les tomates et l’oignon.\n" +
             "9. Ajouter le boulgour réhydraté.\n" +
-            "10. Assaisonner avec sel, poivre et huile d’olive.\n" +
+            "10. Assaisonner avec le sel, le poivre et l’huile d’olive.\n" +
             "11. Mélanger délicatement.\n" +
-            "12. Servir frais."
+            "12. Servir bien frais."
     },
+
     en: {
-        title: "Traditional Lebanese Tabbouleh",
+        title: "Traditional Lebanese tabbouleh",
         equipment: [
-            "large bowl",
-            "knife",
-            "cutting board"
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board"
         ],
         ingredients: [
             "4 bunches fresh flat parsley (about 200 g)",
@@ -30498,26 +31616,26 @@ recipesData.entree.tabouleLibanais = {
             "1/2 teaspoon black pepper"
         ],
         preparation:
-            "Preparation time: 30 minutes\n\n" +
             "1. Wash parsley and mint thoroughly.\n" +
-            "2. Drain and dry well.\n" +
+            "2. Drain and dry completely.\n" +
             "3. Finely chop parsley and mint.\n" +
-            "4. Dice tomatoes very small.\n" +
+            "4. Dice tomatoes into very small cubes.\n" +
             "5. Finely mince the onion.\n" +
-            "6. Place bulgur in a bowl.\n" +
+            "6. Place bulgur in a small bowl.\n" +
             "7. Pour lemon juice over bulgur and let soak for 5 minutes.\n" +
-            "8. Combine herbs, tomatoes and onion in the bowl.\n" +
+            "8. Combine herbs, tomatoes and onion in a large bowl.\n" +
             "9. Add soaked bulgur.\n" +
             "10. Season with salt, pepper and olive oil.\n" +
             "11. Mix gently.\n" +
             "12. Serve chilled."
     },
+
     nl: {
         title: "Traditionele Libanese tabouleh",
         equipment: [
-            "grote kom",
-            "mes",
-            "snijplank"
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank"
         ],
         ingredients: [
             "4 bossen platte peterselie (ongeveer 200 g)",
@@ -30531,20 +31649,20 @@ recipesData.entree.tabouleLibanais = {
             "1/2 theelepel peper"
         ],
         preparation:
-            "Bereidingstijd: 30 minuten\n\n" +
             "1. Was peterselie en munt grondig.\n" +
-            "2. Laat uitlekken en droog goed.\n" +
+            "2. Laat goed uitlekken en droog volledig.\n" +
             "3. Hak peterselie en munt zeer fijn.\n" +
-            "4. Snijd de tomaten in kleine blokjes.\n" +
-            "5. Snipper de ui zeer fijn.\n" +
-            "6. Doe de bulgur in een kom.\n" +
-            "7. Giet citroensap over de bulgur en laat 5 minuten weken.\n" +
-            "8. Meng kruiden, tomaten en ui.\n" +
-            "9. Voeg de geweekte bulgur toe.\n" +
+            "4. Snijd tomaten in zeer kleine blokjes.\n" +
+            "5. Snipper de ui fijn.\n" +
+            "6. Doe de bulgur in een kleine kom.\n" +
+            "7. Giet citroensap erover en laat 5 minuten weken.\n" +
+            "8. Meng kruiden, tomaten en ui in een grote kom.\n" +
+            "9. Voeg de bulgur toe.\n" +
             "10. Breng op smaak met zout, peper en olijfolie.\n" +
             "11. Meng voorzichtig.\n" +
             "12. Serveer gekoeld."
     },
+
     ar: {
         title: "تبولة لبنانية تقليدية",
         equipment: [
@@ -30558,21 +31676,20 @@ recipesData.entree.tabouleLibanais = {
             "3 حبات طماطم (300 غ)",
             "بصلة بيضاء صغيرة",
             "ملعقتان كبيرتان برغل ناعم جداً",
-            "ليمونة (عصير)",
+            "عصير ليمونة",
             "4 ملاعق كبيرة زيت زيتون",
             "ملعقة صغيرة ملح",
             "نصف ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "مدة التحضير: 30 دقيقة\n\n" +
             "1. اغسل البقدونس والنعناع جيداً.\n" +
-            "2. صفِّ وجفف جيداً.\n" +
-            "3. افرم البقدونس والنعناع ناعماً.\n" +
+            "2. صفِّهما وجففهما جيداً.\n" +
+            "3. افرم البقدونس والنعناع ناعماً جداً.\n" +
             "4. قطّع الطماطم إلى مكعبات صغيرة جداً.\n" +
             "5. افرم البصل ناعماً.\n" +
-            "6. ضع البرغل في وعاء.\n" +
+            "6. ضع البرغل في وعاء صغير.\n" +
             "7. أضف عصير الليمون واتركه 5 دقائق.\n" +
-            "8. اخلط الأعشاب والطماطم والبصل.\n" +
+            "8. اخلط الأعشاب والطماطم والبصل في وعاء كبير.\n" +
             "9. أضف البرغل.\n" +
             "10. تبّل بالملح والفلفل وزيت الزيتون.\n" +
             "11. حرّك بلطف.\n" +
@@ -30582,7 +31699,14 @@ recipesData.entree.tabouleLibanais = {
 recipesData.entree.houmousLibanais = {
     country: "liban",
     image: "images/houmous-libanais.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Houmous libanais traditionnel",
         equipment: [
@@ -30591,8 +31715,8 @@ recipesData.entree.houmousLibanais = {
             "1 spatule"
         ],
         ingredients: [
-            "400 g pois chiches cuits (égouttés)",
-            "60 g tahini (purée de sésame)",
+            "400 g de pois chiches cuits et égouttés",
+            "60 g de tahini (purée de sésame)",
             "1 citron (jus)",
             "2 gousses d’ail",
             "4 cuillères à soupe d’huile d’olive",
@@ -30601,29 +31725,29 @@ recipesData.entree.houmousLibanais = {
             "3 cuillères à soupe d’eau froide"
         ],
         preparation:
-            "Temps de préparation : 20 minutes\n\n" +
-            "1. Égoutter et rincer les pois chiches.\n" +
-            "2. Retirer la peau des pois chiches si possible (texture plus lisse).\n" +
-            "3. Mettre les pois chiches dans le mixeur.\n" +
-            "4. Ajouter le tahini.\n" +
-            "5. Ajouter l’ail, le sel et le cumin.\n" +
-            "6. Verser le jus de citron.\n" +
-            "7. Mixer 1 minute.\n" +
-            "8. Ajouter l’eau froide progressivement.\n" +
-            "9. Mixer jusqu’à obtenir une texture crémeuse.\n" +
-            "10. Ajouter l’huile d’olive et mixer encore 20 secondes.\n" +
-            "11. Rectifier l’assaisonnement si nécessaire.\n" +
-            "12. Servir dans un bol, arroser d’un filet d’huile d’olive."
+            "1. Égoutter et rincer soigneusement les pois chiches.\n" +
+            "2. Retirer la peau des pois chiches si possible pour une texture plus lisse.\n" +
+            "3. Mettre les pois chiches dans le bol du mixeur.\n" +
+            "4. Ajouter le tahini, l’ail, le sel et le cumin.\n" +
+            "5. Verser le jus de citron.\n" +
+            "6. Mixer pendant environ 1 minute.\n" +
+            "7. Ajouter progressivement l’eau froide tout en mixant.\n" +
+            "8. Mixer jusqu’à obtention d’une texture bien crémeuse.\n" +
+            "9. Ajouter l’huile d’olive et mixer encore quelques secondes.\n" +
+            "10. Goûter et ajuster l’assaisonnement si nécessaire.\n" +
+            "11. Verser le houmous dans un bol.\n" +
+            "12. Arroser d’un filet d’huile d’olive avant de servir."
     },
+
     en: {
-        title: "Traditional Lebanese Hummus",
+        title: "Traditional Lebanese hummus",
         equipment: [
-            "strainer",
-            "blender",
-            "spatula"
+            "1 strainer",
+            "1 blender",
+            "1 spatula"
         ],
         ingredients: [
-            "400 g cooked chickpeas (drained)",
+            "400 g cooked chickpeas, drained",
             "60 g tahini",
             "1 lemon (juice)",
             "2 garlic cloves",
@@ -30633,29 +31757,29 @@ recipesData.entree.houmousLibanais = {
             "3 tablespoons cold water"
         ],
         preparation:
-            "Preparation time: 20 minutes\n\n" +
-            "1. Drain and rinse the chickpeas.\n" +
-            "2. Remove skins if possible for smoother texture.\n" +
-            "3. Place chickpeas in blender.\n" +
-            "4. Add tahini.\n" +
-            "5. Add garlic, salt and cumin.\n" +
-            "6. Pour in lemon juice.\n" +
-            "7. Blend for 1 minute.\n" +
-            "8. Add cold water gradually.\n" +
-            "9. Blend until creamy.\n" +
-            "10. Add olive oil and blend 20 seconds more.\n" +
-            "11. Adjust seasoning if needed.\n" +
-            "12. Serve with olive oil on top."
+            "1. Drain and rinse the chickpeas thoroughly.\n" +
+            "2. Remove the skins if possible for a smoother texture.\n" +
+            "3. Place chickpeas in the blender.\n" +
+            "4. Add tahini, garlic, salt and cumin.\n" +
+            "5. Pour in the lemon juice.\n" +
+            "6. Blend for about 1 minute.\n" +
+            "7. Gradually add cold water while blending.\n" +
+            "8. Blend until smooth and creamy.\n" +
+            "9. Add olive oil and blend briefly.\n" +
+            "10. Taste and adjust seasoning if needed.\n" +
+            "11. Transfer to a serving bowl.\n" +
+            "12. Drizzle with olive oil before serving."
     },
+
     nl: {
         title: "Traditionele Libanese hummus",
         equipment: [
-            "zeef",
-            "blender",
-            "spatel"
+            "1 zeef",
+            "1 blender",
+            "1 spatel"
         ],
         ingredients: [
-            "400 g gekookte kikkererwten (uitgelekt)",
+            "400 g gekookte kikkererwten, uitgelekt",
             "60 g tahini",
             "1 citroen (sap)",
             "2 teentjes knoflook",
@@ -30665,20 +31789,20 @@ recipesData.entree.houmousLibanais = {
             "3 eetlepels koud water"
         ],
         preparation:
-            "Bereidingstijd: 20 minuten\n\n" +
-            "1. Spoel de kikkererwten af.\n" +
-            "2. Verwijder eventueel de velletjes.\n" +
+            "1. Spoel de kikkererwten goed af.\n" +
+            "2. Verwijder indien mogelijk de velletjes.\n" +
             "3. Doe de kikkererwten in de blender.\n" +
-            "4. Voeg tahini toe.\n" +
-            "5. Voeg knoflook, zout en komijn toe.\n" +
-            "6. Voeg citroensap toe.\n" +
-            "7. Mix 1 minuut.\n" +
-            "8. Voeg geleidelijk koud water toe.\n" +
-            "9. Mix tot een romige massa.\n" +
-            "10. Voeg olijfolie toe en mix kort.\n" +
-            "11. Proef en pas aan.\n" +
-            "12. Serveer met olijfolie."
+            "4. Voeg tahini, knoflook, zout en komijn toe.\n" +
+            "5. Voeg het citroensap toe.\n" +
+            "6. Mix ongeveer 1 minuut.\n" +
+            "7. Voeg geleidelijk koud water toe.\n" +
+            "8. Mix tot een gladde en romige massa.\n" +
+            "9. Voeg olijfolie toe en mix kort.\n" +
+            "10. Proef en pas de smaak aan.\n" +
+            "11. Doe de hummus in een schaal.\n" +
+            "12. Werk af met een scheutje olijfolie."
     },
+
     ar: {
         title: "حمص لبناني تقليدي",
         equipment: [
@@ -30689,33 +31813,39 @@ recipesData.entree.houmousLibanais = {
         ingredients: [
             "400 غ حمص مطبوخ ومصفى",
             "60 غ طحينة",
-            "ليمونة (عصير)",
-            "فصّان ثوم",
+            "عصير ليمونة",
+            "2 فص ثوم",
             "4 ملاعق كبيرة زيت زيتون",
             "نصف ملعقة صغيرة ملح",
             "نصف ملعقة صغيرة كمون مطحون",
             "3 ملاعق كبيرة ماء بارد"
         ],
         preparation:
-            "مدة التحضير: 20 دقيقة\n\n" +
-            "1. اغسل الحمص جيداً.\n" +
-            "2. أزل القشور إن أمكن.\n" +
+            "1. اغسل الحمص جيداً وصفّه.\n" +
+            "2. أزل القشور إن أمكن للحصول على قوام أنعم.\n" +
             "3. ضع الحمص في الخلاط.\n" +
-            "4. أضف الطحينة.\n" +
-            "5. أضف الثوم والملح والكمون.\n" +
-            "6. أضف عصير الليمون.\n" +
-            "7. اخلط لمدة دقيقة.\n" +
-            "8. أضف الماء تدريجياً.\n" +
-            "9. اخلط حتى يصبح ناعماً.\n" +
-            "10. أضف زيت الزيتون واخلط قليلاً.\n" +
-            "11. عدّل الطعم إذا لزم.\n" +
-            "12. قدّم مع زيت زيتون."
+            "4. أضف الطحينة والثوم والملح والكمون.\n" +
+            "5. أضف عصير الليمون.\n" +
+            "6. اخلط لمدة دقيقة تقريباً.\n" +
+            "7. أضف الماء البارد تدريجياً أثناء الخلط.\n" +
+            "8. اخلط حتى يصبح المزيج ناعماً وكريمياً.\n" +
+            "9. أضف زيت الزيتون وامزج قليلاً.\n" +
+            "10. تذوّق وعدّل النكهة إذا لزم.\n" +
+            "11. ضع الحمص في وعاء التقديم.\n" +
+            "12. زيّن بقليل من زيت الزيتون."
     }
 };
 recipesData.entree.babaGanoush = {
     country: "liban",
     image: "images/baba-ganoush.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 45,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Baba Ganoush libanais",
         equipment: [
@@ -30725,33 +31855,33 @@ recipesData.entree.babaGanoush = {
         ],
         ingredients: [
             "2 grosses aubergines (environ 600 g)",
-            "60 g tahini",
+            "60 g de tahini",
             "1 citron (jus)",
             "2 gousses d’ail",
             "3 cuillères à soupe d’huile d’olive",
             "1/2 cuillère à café de sel"
         ],
         preparation:
-            "Temps de préparation : 45 minutes\n\n" +
             "1. Préchauffer le four à 220°C.\n" +
             "2. Piquer les aubergines avec une fourchette.\n" +
-            "3. Enfourner pendant 35 minutes jusqu’à peau noire.\n" +
-            "4. Laisser tiédir.\n" +
-            "5. Retirer la chair.\n" +
-            "6. Mettre la chair dans le mixeur.\n" +
-            "7. Ajouter ail, tahini et sel.\n" +
-            "8. Ajouter le jus de citron.\n" +
-            "9. Mixer jusqu’à texture lisse.\n" +
+            "3. Les déposer sur une plaque et enfourner pendant environ 35 minutes, jusqu’à ce que la peau soit bien noircie.\n" +
+            "4. Sortir du four et laisser tiédir.\n" +
+            "5. Couper les aubergines en deux et récupérer la chair à l’aide d’une cuillère.\n" +
+            "6. Mettre la chair dans le bol du mixeur.\n" +
+            "7. Ajouter l’ail, le tahini et le sel.\n" +
+            "8. Verser le jus de citron.\n" +
+            "9. Mixer jusqu’à obtention d’une texture lisse.\n" +
             "10. Ajouter l’huile d’olive.\n" +
             "11. Mixer encore quelques secondes.\n" +
             "12. Servir frais."
     },
+
     en: {
-        title: "Lebanese Baba Ganoush",
+        title: "Lebanese baba ganoush",
         equipment: [
-            "oven",
-            "blender",
-            "knife"
+            "1 oven",
+            "1 blender",
+            "1 knife"
         ],
         ingredients: [
             "2 large eggplants (about 600 g)",
@@ -30762,26 +31892,26 @@ recipesData.entree.babaGanoush = {
             "1/2 teaspoon salt"
         ],
         preparation:
-            "Preparation time: 45 minutes\n\n" +
-            "1. Preheat oven to 220°C.\n" +
-            "2. Pierce eggplants.\n" +
-            "3. Roast 35 minutes.\n" +
-            "4. Let cool slightly.\n" +
-            "5. Scoop out flesh.\n" +
-            "6. Blend flesh.\n" +
+            "1. Preheat the oven to 220°C.\n" +
+            "2. Pierce the eggplants with a fork.\n" +
+            "3. Place them on a baking tray and roast for about 35 minutes until the skin is charred.\n" +
+            "4. Remove from the oven and let cool slightly.\n" +
+            "5. Cut open the eggplants and scoop out the flesh.\n" +
+            "6. Place the flesh in a blender.\n" +
             "7. Add garlic, tahini and salt.\n" +
-            "8. Add lemon juice.\n" +
+            "8. Pour in the lemon juice.\n" +
             "9. Blend until smooth.\n" +
             "10. Add olive oil.\n" +
             "11. Blend briefly.\n" +
             "12. Serve chilled."
     },
+
     nl: {
         title: "Libanese baba ganoush",
         equipment: [
-            "oven",
-            "blender",
-            "mes"
+            "1 oven",
+            "1 blender",
+            "1 mes"
         ],
         ingredients: [
             "2 grote aubergines (ongeveer 600 g)",
@@ -30792,22 +31922,22 @@ recipesData.entree.babaGanoush = {
             "1/2 theelepel zout"
         ],
         preparation:
-            "Bereidingstijd: 45 minuten\n\n" +
-            "1. Verwarm oven voor op 220°C.\n" +
-            "2. Prik aubergines in.\n" +
-            "3. Rooster 35 minuten.\n" +
-            "4. Laat afkoelen.\n" +
-            "5. Haal vruchtvlees eruit.\n" +
-            "6. Mix het vruchtvlees.\n" +
+            "1. Verwarm de oven voor op 220°C.\n" +
+            "2. Prik de aubergines in met een vork.\n" +
+            "3. Leg ze op een bakplaat en rooster ongeveer 35 minuten tot de schil zwart is.\n" +
+            "4. Haal uit de oven en laat even afkoelen.\n" +
+            "5. Snijd open en haal het vruchtvlees eruit.\n" +
+            "6. Doe het vruchtvlees in de blender.\n" +
             "7. Voeg knoflook, tahini en zout toe.\n" +
             "8. Voeg citroensap toe.\n" +
-            "9. Mix tot glad.\n" +
+            "9. Mix tot een gladde massa.\n" +
             "10. Voeg olijfolie toe.\n" +
             "11. Mix kort.\n" +
             "12. Serveer gekoeld."
     },
+
     ar: {
-        title: "بابا غنوج",
+        title: "بابا غنوج لبناني",
         equipment: [
             "فرن",
             "خلاط",
@@ -30816,22 +31946,21 @@ recipesData.entree.babaGanoush = {
         ingredients: [
             "حبتان باذنجان كبيرتان (حوالي 600 غ)",
             "60 غ طحينة",
-            "ليمونة (عصير)",
+            "عصير ليمونة",
             "فصّان ثوم",
             "3 ملاعق كبيرة زيت زيتون",
             "نصف ملعقة صغيرة ملح"
         ],
         preparation:
-            "مدة التحضير: 45 دقيقة\n\n" +
-            "1. سخّن الفرن إلى 220 درجة.\n" +
-            "2. اثقب الباذنجان.\n" +
-            "3. اشوه 35 دقيقة.\n" +
-            "4. اتركه يبرد قليلاً.\n" +
-            "5. استخرج اللب.\n" +
+            "1. سخّن الفرن إلى 220 درجة مئوية.\n" +
+            "2. اثقب حبات الباذنجان بالشوكة.\n" +
+            "3. ضعها في الفرن لمدة 35 دقيقة حتى تتفحم القشرة.\n" +
+            "4. أخرجها واتركها تبرد قليلاً.\n" +
+            "5. افتح الباذنجان واستخرج اللب.\n" +
             "6. ضع اللب في الخلاط.\n" +
             "7. أضف الثوم والطحينة والملح.\n" +
             "8. أضف عصير الليمون.\n" +
-            "9. اخلط حتى ناعم.\n" +
+            "9. اخلط حتى يصبح ناعماً.\n" +
             "10. أضف زيت الزيتون.\n" +
             "11. اخلط قليلاً.\n" +
             "12. قدّم بارداً."
@@ -30840,121 +31969,159 @@ recipesData.entree.babaGanoush = {
 recipesData.entree.falafelsLibanais = {
     country: "liban",
     image: "images/falafels.jpg",
-    persons: "4 personnes (environ 16 falafels)",
+
+    meta: {
+        servings: 4,
+        yield: "environ 16 falafels",
+        prepTime: 90,
+        cookTime: 10,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Falafels libanais",
         equipment: [
             "1 saladier",
             "1 mixeur",
-            "1 poêle",
+            "1 poêle ou friteuse",
             "1 cuillère"
         ],
         ingredients: [
-            "250 g pois chiches secs",
+            "250 g de pois chiches secs",
             "1 oignon moyen",
             "2 gousses d’ail",
             "1 bouquet de persil plat (50 g)",
-            "1 cuillère à café cumin moulu",
-            "1/2 cuillère à café coriandre moulue",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café levure chimique",
-            "huile de tournesol pour friture"
+            "1 cuillère à café de cumin moulu",
+            "1/2 cuillère à café de coriandre moulue",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/2 cuillère à café de levure chimique",
+            "Huile de tournesol pour friture"
         ],
         preparation:
-            "Temps de préparation : 1h30 (inclut trempage)\n\n" +
-            "1. La veille, faire tremper les pois chiches dans l’eau froide pendant 12 heures.\n" +
-            "2. Égoutter et rincer.\n" +
-            "3. Mixer pois chiches, oignon, ail, persil, épices et levure jusqu’à obtenir une pâte homogène.\n" +
-            "4. Former des boules ou petites galettes.\n" +
-            "5. Chauffer l’huile dans une poêle.\n" +
-            "6. Frire les falafels 3-4 minutes de chaque côté jusqu’à doré.\n" +
-            "7. Égoutter sur du papier absorbant.\n" +
-            "8. Servir chaud avec salade ou sauce tahini."
+            "1. Mettre les pois chiches secs à tremper dans un grand volume d’eau froide pendant 12 heures.\n" +
+            "2. Égoutter puis rincer soigneusement.\n" +
+            "3. Mettre les pois chiches dans le mixeur.\n" +
+            "4. Ajouter l’oignon, l’ail, le persil, les épices, le sel et la levure.\n" +
+            "5. Mixer jusqu’à obtenir une pâte homogène mais encore légèrement granuleuse.\n" +
+            "6. Former des boules ou des petites galettes à l’aide d’une cuillère.\n" +
+            "7. Chauffer l’huile dans une poêle ou une friteuse.\n" +
+            "8. Faire frire les falafels 3 à 4 minutes de chaque côté jusqu’à bien dorés.\n" +
+            "9. Égoutter sur du papier absorbant.\n" +
+            "10. Servir chaud avec une salade ou une sauce tahini."
     },
+
     en: {
-        title: "Lebanese Falafels",
-        equipment: ["bowl","blender","frying pan","spoon"],
+        title: "Lebanese falafels",
+        equipment: [
+            "1 bowl",
+            "1 blender",
+            "1 frying pan or deep fryer",
+            "1 spoon"
+        ],
         ingredients: [
             "250 g dried chickpeas",
             "1 medium onion",
             "2 garlic cloves",
             "1 bunch flat parsley (50 g)",
-            "1 tsp ground cumin",
-            "1/2 tsp ground coriander",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp baking powder",
-            "sunflower oil for frying"
+            "1 teaspoon ground cumin",
+            "1/2 teaspoon ground coriander",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
+            "1/2 teaspoon baking powder",
+            "Sunflower oil for frying"
         ],
         preparation:
-            "Preparation time: 1h30 (includes soaking)\n\n" +
-            "1. Soak chickpeas 12 hours in cold water.\n" +
-            "2. Drain and rinse.\n" +
-            "3. Blend chickpeas, onion, garlic, parsley, spices, and baking powder until smooth.\n" +
-            "4. Shape into balls or patties.\n" +
-            "5. Heat oil in a pan.\n" +
-            "6. Fry falafels 3-4 minutes each side until golden.\n" +
-            "7. Drain on paper towels.\n" +
-            "8. Serve hot with salad or tahini sauce."
+            "1. Soak dried chickpeas in plenty of cold water for 12 hours.\n" +
+            "2. Drain and rinse thoroughly.\n" +
+            "3. Place chickpeas in the blender.\n" +
+            "4. Add onion, garlic, parsley, spices, salt and baking powder.\n" +
+            "5. Blend until a coarse but uniform mixture forms.\n" +
+            "6. Shape into small balls or patties.\n" +
+            "7. Heat oil in a frying pan or deep fryer.\n" +
+            "8. Fry falafels for 3–4 minutes on each side until golden.\n" +
+            "9. Drain on paper towels.\n" +
+            "10. Serve hot with salad or tahini sauce."
     },
+
     nl: {
         title: "Libanese falafel",
-        equipment: ["kom","blender","pan","lepel"],
+        equipment: [
+            "1 kom",
+            "1 blender",
+            "1 pan of friteuse",
+            "1 lepel"
+        ],
         ingredients: [
             "250 g gedroogde kikkererwten",
             "1 middelgrote ui",
             "2 teentjes knoflook",
             "1 bos platte peterselie (50 g)",
-            "1 theelepel komijnpoeder",
-            "1/2 theelepel korianderpoeder",
+            "1 theelepel gemalen komijn",
+            "1/2 theelepel gemalen koriander",
             "1/2 theelepel zout",
             "1/4 theelepel peper",
             "1/2 theelepel bakpoeder",
-            "zonnebloemolie om te frituren"
+            "Zonnebloemolie om te frituren"
         ],
         preparation:
-            "Bereidingstijd: 1u30 (incl. weken)\n\n" +
-            "1. Week kikkererwten 12 uur in koud water.\n" +
-            "2. Giet af en spoel.\n" +
-            "3. Mix kikkererwten, ui, knoflook, peterselie, kruiden en bakpoeder tot een gladde pasta.\n" +
-            "4. Vorm balletjes of schijfjes.\n" +
-            "5. Verhit olie in een pan.\n" +
-            "6. Bak 3-4 minuten per kant tot goudbruin.\n" +
-            "7. Laat uitlekken op keukenpapier.\n" +
-            "8. Serveer warm met salade of tahini saus."
+            "1. Week de kikkererwten 12 uur in ruim koud water.\n" +
+            "2. Giet af en spoel goed.\n" +
+            "3. Doe de kikkererwten in de blender.\n" +
+            "4. Voeg ui, knoflook, peterselie, kruiden, zout en bakpoeder toe.\n" +
+            "5. Mix tot een grove maar egale massa.\n" +
+            "6. Vorm kleine balletjes of schijfjes.\n" +
+            "7. Verhit olie in een pan of friteuse.\n" +
+            "8. Bak de falafel 3–4 minuten per kant tot goudbruin.\n" +
+            "9. Laat uitlekken op keukenpapier.\n" +
+            "10. Serveer warm met salade of tahinisaus."
     },
+
     ar: {
         title: "فلافل لبنانية",
-        equipment: ["وعاء","خلاط","مقلاة","ملعقة"],
+        equipment: [
+            "وعاء",
+            "خلاط",
+            "مقلاة أو قلاية",
+            "ملعقة"
+        ],
         ingredients: [
             "250 غ حمص جاف",
             "بصلة متوسطة",
-            "فصان ثوم",
+            "2 فص ثوم",
             "ربطة بقدونس (50 غ)",
-            "1 ملعقة صغيرة كمون مطحون",
+            "ملعقة صغيرة كمون مطحون",
             "نصف ملعقة صغيرة كزبرة مطحونة",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
+            "ربع ملعقة صغيرة فلفل أسود",
             "نصف ملعقة صغيرة بيكنج باودر",
             "زيت عباد الشمس للقلي"
         ],
         preparation:
-            "مدة التحضير: ساعة ونصف (يشمل النقع)\n\n" +
-            "1. نقع الحمص 12 ساعة في ماء بارد.\n" +
-            "2. صفِّه واغسله.\n" +
-            "3. اخلط الحمص، البصل، الثوم، البقدونس، التوابل والبيكنج باودر حتى تصبح عجينة ناعمة.\n" +
-            "4. شكّل كرات أو أقراص صغيرة.\n" +
-            "5. سخّن الزيت في المقلاة.\n" +
-            "6. اقلي 3-4 دقائق لكل جانب حتى يصبح ذهبي.\n" +
-            "7. صفِّه على ورق مطبخ.\n" +
-            "8. قدّم ساخناً مع السلطة أو صوص الطحينة."
+            "1. انقع الحمص الجاف في ماء بارد لمدة 12 ساعة.\n" +
+            "2. صفِّه واغسله جيداً.\n" +
+            "3. ضع الحمص في الخلاط.\n" +
+            "4. أضف البصل والثوم والبقدونس والتوابل والملح والبيكنج باودر.\n" +
+            "5. اخلط حتى تحصل على خليط متجانس مع قوام خشن قليلاً.\n" +
+            "6. شكّل كرات أو أقراص صغيرة.\n" +
+            "7. سخّن الزيت في المقلاة أو القلاية.\n" +
+            "8. اقْلِ الفلافل 3–4 دقائق لكل جانب حتى تصبح ذهبية.\n" +
+            "9. صفِّها على ورق ماص.\n" +
+            "10. قدّمها ساخنة مع سلطة أو صلصة الطحينة."
     }
 };
 recipesData.entree.sambousekLegumes = {
     country: "liban",
     image: "images/sambousek-legumes.jpg",
-    persons: "12 pièces",
+
+    meta: {
+        servings: 12,
+        yield: "12 pièces",
+        prepTime: 60,
+        cookTime: 20,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Sambousek aux légumes",
         equipment: [
@@ -30964,35 +32131,43 @@ recipesData.entree.sambousekLegumes = {
             "1 rouleau à pâtisserie"
         ],
         ingredients: [
-            "250 g farine",
-            "125 ml eau tiède",
-            "30 ml huile d’olive",
+            "250 g de farine",
+            "125 ml d’eau tiède",
+            "30 ml d’huile d’olive",
             "1 pincée de sel",
             "1 petite carotte (50 g)",
-            "50 g petits pois",
+            "50 g de petits pois",
             "1 oignon",
             "1/2 poivron rouge",
-            "1 cuillère à soupe huile d’olive",
-            "1/4 cuillère à café sel",
-            "1/8 cuillère à café poivre"
+            "1 cuillère à soupe d’huile d’olive",
+            "1/4 cuillère à café de sel",
+            "1/8 cuillère à café de poivre"
         ],
         preparation:
-            "Temps de préparation : 1h\n\n" +
-            "1. Préparer la pâte : mélanger farine, sel, huile, eau tiède jusqu’à obtenir une pâte souple.\n" +
-            "2. Laisser reposer 20 minutes.\n" +
-            "3. Éplucher et couper carotte, oignon et poivron en petits dés.\n" +
-            "4. Chauffer huile dans poêle.\n" +
-            "5. Faire revenir légumes 5-7 minutes, saler et poivrer.\n" +
-            "6. Étaler la pâte sur 2-3 mm.\n" +
-            "7. Découper des cercles de 8 cm.\n" +
-            "8. Mettre une cuillère de légumes au centre.\n" +
-            "9. Refermer en demi-lune et sceller les bords.\n" +
-            "10. Enfourner 20 minutes à 180°C jusqu’à doré.\n" +
-            "11. Servir chaud."
+            "1. Verser la farine et le sel dans un saladier.\n" +
+            "2. Ajouter l’huile d’olive et l’eau tiède, puis mélanger jusqu’à obtenir une pâte souple.\n" +
+            "3. Couvrir et laisser reposer la pâte 20 minutes.\n" +
+            "4. Éplucher la carotte et l’oignon, puis les couper en petits dés.\n" +
+            "5. Couper le poivron en petits morceaux.\n" +
+            "6. Chauffer l’huile d’olive dans une poêle.\n" +
+            "7. Faire revenir les légumes avec les petits pois pendant 5 à 7 minutes.\n" +
+            "8. Saler et poivrer, puis laisser refroidir légèrement.\n" +
+            "9. Étaler la pâte sur 2 à 3 mm d’épaisseur.\n" +
+            "10. Découper des cercles d’environ 8 cm de diamètre.\n" +
+            "11. Déposer une cuillère de farce au centre de chaque cercle.\n" +
+            "12. Refermer en demi-lune et bien sceller les bords.\n" +
+            "13. Disposer sur une plaque et enfourner à 180°C pendant 20 minutes jusqu’à doré.\n" +
+            "14. Servir chaud."
     },
+
     en: {
-        title: "Vegetable Sambousek",
-        equipment: ["bowl","pan","oven","rolling pin"],
+        title: "Vegetable sambousek",
+        equipment: [
+            "1 bowl",
+            "1 pan",
+            "1 oven",
+            "1 rolling pin"
+        ],
         ingredients: [
             "250 g flour",
             "125 ml warm water",
@@ -31002,27 +32177,35 @@ recipesData.entree.sambousekLegumes = {
             "50 g peas",
             "1 onion",
             "1/2 red bell pepper",
-            "1 tbsp olive oil",
-            "1/4 tsp salt",
-            "1/8 tsp pepper"
+            "1 tablespoon olive oil",
+            "1/4 teaspoon salt",
+            "1/8 teaspoon black pepper"
         ],
         preparation:
-            "Preparation time: 1h\n\n" +
-            "1. Mix flour, salt, oil, warm water to make dough.\n" +
-            "2. Rest 20 minutes.\n" +
-            "3. Dice carrot, onion, bell pepper.\n" +
-            "4. Heat oil in pan.\n" +
-            "5. Sauté vegetables 5-7 min, season.\n" +
-            "6. Roll dough 2-3 mm thick.\n" +
-            "7. Cut 8 cm circles.\n" +
-            "8. Place 1 tbsp vegetable mix in center.\n" +
-            "9. Fold into half-moon and seal edges.\n" +
-            "10. Bake 20 min at 180°C until golden.\n" +
-            "11. Serve hot."
+            "1. Place flour and salt in a bowl.\n" +
+            "2. Add olive oil and warm water, then mix to form a soft dough.\n" +
+            "3. Cover and let the dough rest for 20 minutes.\n" +
+            "4. Peel and dice the carrot and onion.\n" +
+            "5. Dice the bell pepper.\n" +
+            "6. Heat olive oil in a pan.\n" +
+            "7. Sauté vegetables with peas for 5 to 7 minutes.\n" +
+            "8. Season with salt and pepper, then let cool slightly.\n" +
+            "9. Roll out the dough to 2–3 mm thickness.\n" +
+            "10. Cut circles about 8 cm wide.\n" +
+            "11. Place a spoonful of filling in the center.\n" +
+            "12. Fold into a half-moon and seal edges.\n" +
+            "13. Bake at 180°C for 20 minutes until golden.\n" +
+            "14. Serve hot."
     },
+
     nl: {
-        title: "Groente Sambousek",
-        equipment: ["kom","pan","oven","deegroller"],
+        title: "Sambousek met groenten",
+        equipment: [
+            "1 kom",
+            "1 pan",
+            "1 oven",
+            "1 deegroller"
+        ],
         ingredients: [
             "250 g bloem",
             "125 ml warm water",
@@ -31037,58 +32220,75 @@ recipesData.entree.sambousekLegumes = {
             "1/8 theelepel peper"
         ],
         preparation:
-            "Bereidingstijd: 1u\n\n" +
-            "1. Meng bloem, zout, olie, warm water tot deeg.\n" +
-            "2. Laat 20 minuten rusten.\n" +
-            "3. Snijd wortel, ui, paprika in kleine blokjes.\n" +
-            "4. Verhit olie in pan.\n" +
-            "5. Bak groenten 5-7 min, breng op smaak.\n" +
-            "6. Rol deeg 2-3 mm dik.\n" +
-            "7. Snijd cirkels van 8 cm.\n" +
-            "8. Plaats 1 eetlepel groenten in het midden.\n" +
-            "9. Vouw tot halve maan en sluit randen.\n" +
-            "10. Bak 20 min op 180°C tot goudbruin.\n" +
-            "11. Serveer warm."
+            "1. Doe bloem en zout in een kom.\n" +
+            "2. Voeg olijfolie en warm water toe en meng tot deeg.\n" +
+            "3. Laat het deeg 20 minuten rusten.\n" +
+            "4. Snijd wortel en ui in kleine blokjes.\n" +
+            "5. Snijd paprika fijn.\n" +
+            "6. Verhit olie in een pan.\n" +
+            "7. Bak groenten en doperwten 5–7 minuten.\n" +
+            "8. Breng op smaak en laat iets afkoelen.\n" +
+            "9. Rol het deeg uit tot 2–3 mm.\n" +
+            "10. Steek cirkels van 8 cm uit.\n" +
+            "11. Leg vulling in het midden.\n" +
+            "12. Vouw dicht en sluit de randen.\n" +
+            "13. Bak 20 minuten op 180°C tot goudbruin.\n" +
+            "14. Serveer warm."
     },
+
     ar: {
         title: "سمبوسك بالخضار",
-        equipment: ["وعاء","مقلاة","فرن","شوبك"],
+        equipment: [
+            "وعاء",
+            "مقلاة",
+            "فرن",
+            "شوبك"
+        ],
         ingredients: [
             "250 غ دقيق",
             "125 مل ماء دافئ",
             "30 مل زيت زيتون",
             "رشة ملح",
-            "جزر صغير (50 غ)",
+            "جزرة صغيرة (50 غ)",
             "50 غ بازلاء",
             "بصلة",
             "نصف فلفل أحمر",
-            "1 ملعقة كبيرة زيت زيتون",
+            "ملعقة كبيرة زيت زيتون",
             "ربع ملعقة صغيرة ملح",
-            "ثمانية عشر جزء ملعقة فلفل"
+            "ثمن ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "مدة التحضير: 1 ساعة\n\n" +
-            "1. حضّر العجينة بخلط الدقيق والملح والزيت والماء.\n" +
-            "2. اتركها 20 دقيقة لترتاح.\n" +
-            "3. قطّع الجزر والبصل والفلفل إلى مكعبات صغيرة.\n" +
-            "4. سخّن الزيت في المقلاة.\n" +
-            "5. اقلي الخضار 5-7 دقائق، وتبّل.\n" +
-            "6. افرد العجينة 2-3 ملم.\n" +
-            "7. اقطع دوائر 8 سم.\n" +
-            "8. ضع ملعقة من الخضار في الوسط.\n" +
-            "9. اطوها على شكل نصف قمر وأغلق الحواف.\n" +
-            "10. اخبز 20 دقيقة عند 180° حتى يصبح لونها ذهبياً.\n" +
-            "11. قدّم ساخناً."
+            "1. ضع الدقيق والملح في وعاء.\n" +
+            "2. أضف زيت الزيتون والماء واعجن حتى تتكون عجينة لينة.\n" +
+            "3. غطِّ العجينة واتركها ترتاح 20 دقيقة.\n" +
+            "4. قطّع الجزر والبصل إلى مكعبات صغيرة.\n" +
+            "5. قطّع الفلفل ناعماً.\n" +
+            "6. سخّن زيت الزيتون في المقلاة.\n" +
+            "7. اقْلِ الخضار مع البازلاء 5–7 دقائق.\n" +
+            "8. تبّل واترك الخليط يبرد قليلاً.\n" +
+            "9. افرد العجينة بسماكة 2–3 ملم.\n" +
+            "10. اقطع دوائر بقطر 8 سم.\n" +
+            "11. ضع الحشوة في الوسط.\n" +
+            "12. اطوِها على شكل نصف قمر وأغلق الحواف.\n" +
+            "13. اخبز على 180°م لمدة 20 دقيقة حتى تصبح ذهبية.\n" +
+            "14. قدّم ساخناً."
     }
 };
 recipesData.entree.fattoush = {
     country: "liban",
     image: "images/fattoush.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Fattoush",
+        title: "Fattoush libanais",
         equipment: [
-            "1 saladier",
+            "1 grand saladier",
             "1 couteau",
             "1 planche à découper"
         ],
@@ -31099,27 +32299,34 @@ recipesData.entree.fattoush = {
             "1 oignon rouge",
             "1 petite laitue (100 g)",
             "2 radis",
-            "50 g menthe fraîche",
+            "50 g de menthe fraîche",
             "2 pains pita",
-            "3 cuillères à soupe huile d’olive",
+            "3 cuillères à soupe d’huile d’olive",
             "1 citron (jus)",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre"
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Temps de préparation : 25 minutes\n\n" +
-            "1. Couper les tomates, concombre, poivron, radis et oignon en petits dés.\n" +
-            "2. Déchirer la laitue en morceaux.\n" +
-            "3. Hacher la menthe.\n" +
-            "4. Couper les pains pita en petits morceaux et les toaster légèrement.\n" +
-            "5. Mélanger tous les légumes dans le saladier.\n" +
-            "6. Ajouter les croûtons de pita.\n" +
-            "7. Assaisonner avec huile d’olive, jus de citron, sel et poivre.\n" +
-            "8. Mélanger délicatement et servir frais."
+            "1. Laver soigneusement tous les légumes.\n" +
+            "2. Couper les tomates, le concombre, le poivron, les radis et l’oignon en petits dés.\n" +
+            "3. Déchirer la laitue en morceaux.\n" +
+            "4. Hacher finement la menthe.\n" +
+            "5. Couper les pains pita en morceaux.\n" +
+            "6. Les faire griller légèrement au four ou à la poêle jusqu’à croustillants.\n" +
+            "7. Mettre tous les légumes et la menthe dans le saladier.\n" +
+            "8. Ajouter les morceaux de pita grillés.\n" +
+            "9. Assaisonner avec l’huile d’olive, le jus de citron, le sel et le poivre.\n" +
+            "10. Mélanger délicatement.\n" +
+            "11. Servir immédiatement."
     },
+
     en: {
-        title: "Fattoush",
-        equipment: ["bowl","knife","cutting board"],
+        title: "Lebanese fattoush",
+        equipment: [
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "2 medium tomatoes (200 g)",
             "1 cucumber (150 g)",
@@ -31129,25 +32336,32 @@ recipesData.entree.fattoush = {
             "2 radishes",
             "50 g fresh mint",
             "2 pita breads",
-            "3 tbsp olive oil",
+            "3 tablespoons olive oil",
             "1 lemon (juice)",
-            "1/2 tsp salt",
-            "1/4 tsp pepper"
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper"
         ],
         preparation:
-            "Preparation time: 25 minutes\n\n" +
-            "1. Dice tomatoes, cucumber, bell pepper, radishes, onion.\n" +
-            "2. Tear lettuce into pieces.\n" +
-            "3. Chop mint.\n" +
-            "4. Cut pita into pieces and lightly toast.\n" +
-            "5. Mix all vegetables in a bowl.\n" +
-            "6. Add toasted pita pieces.\n" +
-            "7. Season with olive oil, lemon juice, salt and pepper.\n" +
-            "8. Toss gently and serve chilled."
+            "1. Wash all vegetables thoroughly.\n" +
+            "2. Dice tomatoes, cucumber, bell pepper, radishes and onion.\n" +
+            "3. Tear lettuce into pieces.\n" +
+            "4. Finely chop the mint.\n" +
+            "5. Cut pita bread into pieces.\n" +
+            "6. Lightly toast until crispy.\n" +
+            "7. Place vegetables and mint in a bowl.\n" +
+            "8. Add toasted pita pieces.\n" +
+            "9. Season with olive oil, lemon juice, salt and pepper.\n" +
+            "10. Toss gently.\n" +
+            "11. Serve immediately."
     },
+
     nl: {
-        title: "Fattoush",
-        equipment: ["kom","mes","snijplank"],
+        title: "Libanese fattoush",
+        equipment: [
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
             "2 middelgrote tomaten (200 g)",
             "1 komkommer (150 g)",
@@ -31156,101 +32370,135 @@ recipesData.entree.fattoush = {
             "1 kleine sla (100 g)",
             "2 radijsjes",
             "50 g verse munt",
-            "2 pita broodjes",
+            "2 pitabroodjes",
             "3 eetlepels olijfolie",
             "1 citroen (sap)",
             "1/2 theelepel zout",
             "1/4 theelepel peper"
         ],
         preparation:
-            "Bereidingstijd: 25 minuten\n\n" +
-            "1. Snijd tomaten, komkommer, paprika, radijs en ui in kleine blokjes.\n" +
-            "2. Scheur sla in stukken.\n" +
-            "3. Hak munt fijn.\n" +
-            "4. Snijd pita in stukjes en rooster licht.\n" +
-            "5. Meng alle groenten in een kom.\n" +
-            "6. Voeg de geroosterde pita toe.\n" +
-            "7. Breng op smaak met olijfolie, citroensap, zout en peper.\n" +
-            "8. Meng voorzichtig en serveer koud."
+            "1. Was alle groenten grondig.\n" +
+            "2. Snijd tomaten, komkommer, paprika, radijs en ui in kleine blokjes.\n" +
+            "3. Scheur de sla in stukken.\n" +
+            "4. Hak de munt fijn.\n" +
+            "5. Snijd de pita in stukjes.\n" +
+            "6. Rooster licht tot knapperig.\n" +
+            "7. Doe groenten en munt in een kom.\n" +
+            "8. Voeg de geroosterde pita toe.\n" +
+            "9. Breng op smaak met olijfolie, citroensap, zout en peper.\n" +
+            "10. Meng voorzichtig.\n" +
+            "11. Serveer direct."
     },
+
     ar: {
-        title: "فتوش",
-        equipment: ["وعاء","سكين","لوح تقطيع"],
+        title: "فتوش لبناني",
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
-            "2 حبات طماطم متوسطة (200 غ)",
-            "1 خيار (150 غ)",
-            "1 فلفل أخضر (100 غ)",
-            "1 بصلة حمراء",
+            "حبتان طماطم متوسطة (200 غ)",
+            "خيار واحد (150 غ)",
+            "فلفل أخضر (100 غ)",
+            "بصلة حمراء",
             "خس صغير (100 غ)",
-            "2 فجل",
+            "حبتا فجل",
             "50 غ نعناع طازج",
-            "2 خبز بيتا",
+            "خبزتا بيتا",
             "3 ملاعق كبيرة زيت زيتون",
-            "ليمونة (عصير)",
+            "عصير ليمونة",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل"
+            "ربع ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "مدة التحضير: 25 دقيقة\n\n" +
-            "1. قطّع الطماطم، الخيار، الفلفل، الفجل والبصل إلى مكعبات صغيرة.\n" +
-            "2. مزّق الخس إلى قطع.\n" +
-            "3. افرم النعناع.\n" +
-            "4. قطّع خبز البيت وتحمّصه قليلاً.\n" +
-            "5. امزج جميع الخضار في وعاء.\n" +
-            "6. أضف قطع البيت المحمصة.\n" +
-            "7. تبّل بزيت الزيتون وعصير الليمون والملح والفلفل.\n" +
-            "8. حرّك برفق وقدّم بارد."
+            "1. اغسل جميع الخضار جيداً.\n" +
+            "2. قطّع الطماطم والخيار والفلفل والفجل والبصل إلى مكعبات صغيرة.\n" +
+            "3. مزّق الخس إلى قطع.\n" +
+            "4. افرم النعناع ناعماً.\n" +
+            "5. قطّع خبز البيتا إلى قطع.\n" +
+            "6. حمّصه قليلاً حتى يصبح مقرمشاً.\n" +
+            "7. ضع الخضار والنعناع في وعاء.\n" +
+            "8. أضف خبز البيتا المحمص.\n" +
+            "9. تبّل بزيت الزيتون وعصير الليمون والملح والفلفل.\n" +
+            "10. حرّك بلطف.\n" +
+            "11. قدّم فوراً."
     }
 };
 recipesData.entree.moutabal = {
     country: "liban",
     image: "images/moutabal.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 40,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Moutabal",
-        equipment: ["1 four", "1 mixeur", "1 couteau"],
+        title: "Moutabal libanais",
+        equipment: [
+            "1 four",
+            "1 mixeur",
+            "1 couteau"
+        ],
         ingredients: [
             "2 aubergines (600 g)",
-            "50 g tahini",
+            "50 g de tahini",
             "1 citron (jus)",
             "2 gousses d’ail",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel"
+            "2 cuillères à soupe d’huile d’olive",
+            "1/2 cuillère à café de sel"
         ],
         preparation:
-            "Temps de préparation : 40 minutes\n\n" +
             "1. Préchauffer le four à 220°C.\n" +
-            "2. Piquer les aubergines et les enfourner 30-35 min.\n" +
-            "3. Laisser tiédir, retirer la chair.\n" +
-            "4. Mettre dans le mixeur, ajouter ail, tahini, sel et jus de citron.\n" +
-            "5. Mixer jusqu’à texture lisse.\n" +
-            "6. Ajouter huile d’olive, mélanger.\n" +
-            "7. Servir frais, éventuellement saupoudré de paprika."
+            "2. Piquer les aubergines à l’aide d’une fourchette.\n" +
+            "3. Les enfourner pendant 30 à 35 minutes jusqu’à ce que la peau soit bien noire.\n" +
+            "4. Laisser tiédir puis retirer la chair.\n" +
+            "5. Mettre la chair d’aubergine dans le mixeur.\n" +
+            "6. Ajouter l’ail, le tahini, le sel et le jus de citron.\n" +
+            "7. Mixer jusqu’à obtenir une texture lisse et crémeuse.\n" +
+            "8. Ajouter l’huile d’olive et mélanger brièvement.\n" +
+            "9. Rectifier l’assaisonnement si nécessaire.\n" +
+            "10. Servir frais, éventuellement saupoudré de paprika."
     },
+
     en: {
-        title: "Moutabal",
-        equipment: ["oven","blender","knife"],
+        title: "Lebanese moutabal",
+        equipment: [
+            "1 oven",
+            "1 blender",
+            "1 knife"
+        ],
         ingredients: [
             "2 eggplants (600 g)",
             "50 g tahini",
             "1 lemon (juice)",
             "2 garlic cloves",
-            "2 tbsp olive oil",
-            "1/2 tsp salt"
+            "2 tablespoons olive oil",
+            "1/2 teaspoon salt"
         ],
         preparation:
-            "Preparation time: 40 minutes\n\n" +
             "1. Preheat oven to 220°C.\n" +
-            "2. Pierce eggplants, roast 30-35 min.\n" +
-            "3. Let cool, scoop flesh.\n" +
-            "4. Blend with garlic, tahini, salt and lemon juice.\n" +
-            "5. Mix until smooth.\n" +
-            "6. Add olive oil, stir.\n" +
-            "7. Serve chilled, optionally sprinkle paprika."
+            "2. Pierce the eggplants with a fork.\n" +
+            "3. Roast for 30 to 35 minutes until the skin is charred.\n" +
+            "4. Let cool slightly and scoop out the flesh.\n" +
+            "5. Place eggplant flesh in the blender.\n" +
+            "6. Add garlic, tahini, salt and lemon juice.\n" +
+            "7. Blend until smooth and creamy.\n" +
+            "8. Add olive oil and blend briefly.\n" +
+            "9. Adjust seasoning if needed.\n" +
+            "10. Serve chilled, optionally sprinkled with paprika."
     },
+
     nl: {
-        title: "Moutabal",
-        equipment: ["oven","blender","mes"],
+        title: "Libanese moutabal",
+        equipment: [
+            "1 oven",
+            "1 blender",
+            "1 mes"
+        ],
         ingredients: [
             "2 aubergines (600 g)",
             "50 g tahini",
@@ -31260,184 +32508,256 @@ recipesData.entree.moutabal = {
             "1/2 theelepel zout"
         ],
         preparation:
-            "Bereidingstijd: 40 minuten\n\n" +
-            "1. Verwarm oven op 220°C.\n" +
-            "2. Prik aubergines, rooster 30-35 min.\n" +
-            "3. Laat afkoelen, schep vruchtvlees eruit.\n" +
-            "4. Mix met knoflook, tahini, zout en citroensap.\n" +
-            "5. Mix tot glad.\n" +
-            "6. Voeg olijfolie toe, roer.\n" +
-            "7. Serveer koud, eventueel bestrooid met paprika."
+            "1. Verwarm de oven voor op 220°C.\n" +
+            "2. Prik de aubergines met een vork.\n" +
+            "3. Rooster ze 30 tot 35 minuten tot de schil zwart is.\n" +
+            "4. Laat iets afkoelen en schep het vruchtvlees eruit.\n" +
+            "5. Doe het vruchtvlees in de blender.\n" +
+            "6. Voeg knoflook, tahini, zout en citroensap toe.\n" +
+            "7. Mix tot een gladde, romige massa.\n" +
+            "8. Voeg olijfolie toe en mix kort.\n" +
+            "9. Proef en pas de smaak aan.\n" +
+            "10. Serveer gekoeld, eventueel met paprika."
     },
+
     ar: {
-        title: "متبل",
-        equipment: ["فرن","خلاط","سكين"],
+        title: "متبل لبناني",
+        equipment: [
+            "فرن",
+            "خلاط",
+            "سكين"
+        ],
         ingredients: [
-            "2 باذنجان (600 غ)",
+            "حبتان باذنجان (600 غ)",
             "50 غ طحينة",
-            "ليمونة (عصير)",
+            "عصير ليمونة",
             "فصّان ثوم",
-            "2 ملاعق كبيرة زيت زيتون",
+            "ملعقتان كبيرتان زيت زيتون",
             "نصف ملعقة صغيرة ملح"
         ],
         preparation:
-            "مدة التحضير: 40 دقيقة\n\n" +
-            "1. سخّن الفرن إلى 220°.\n" +
-            "2. اثقب الباذنجان، اشويه 30-35 دقيقة.\n" +
-            "3. اتركه يبرد، استخرج اللب.\n" +
-            "4. اخلطه مع الثوم، الطحينة، الملح وعصير الليمون.\n" +
-            "5. امزج حتى يصبح ناعماً.\n" +
-            "6. أضف زيت الزيتون، حرّك.\n" +
-            "7. قدّم بارداً، يمكن رش البابريكا."
+            "1. سخّن الفرن إلى 220°م.\n" +
+            "2. اثقب الباذنجان بالشوكة.\n" +
+            "3. اشوه لمدة 30 إلى 35 دقيقة حتى تسود القشرة.\n" +
+            "4. اتركه يبرد قليلاً ثم استخرج اللب.\n" +
+            "5. ضع اللب في الخلاط.\n" +
+            "6. أضف الثوم والطحينة والملح وعصير الليمون.\n" +
+            "7. اخلط حتى يصبح ناعماً وكريمياً.\n" +
+            "8. أضف زيت الزيتون وامزج قليلاً.\n" +
+            "9. عدّل الطعم حسب الرغبة.\n" +
+            "10. قدّم بارداً ويمكن رش القليل من البابريكا."
     }
 };
 recipesData.entree.labneh = {
     country: "liban",
     image: "images/labneh.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        restingTime: 720,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Labneh",
-        equipment: ["1 passoire","1 tissu propre","1 bol"],
+        title: "Labneh libanais",
+        equipment: [
+            "1 passoire",
+            "1 tissu propre",
+            "1 bol"
+        ],
         ingredients: [
-            "500 g yaourt nature",
-            "1/2 cuillère à café sel",
-            "1 cuillère à soupe huile d’olive",
-            "1 cuillère à café zaatar (facultatif)"
+            "500 g de yaourt nature",
+            "1/2 cuillère à café de sel",
+            "1 cuillère à soupe d’huile d’olive",
+            "1 cuillère à café de zaatar (facultatif)"
         ],
         preparation:
-            "Temps de préparation : 12 heures (pour égouttage)\n\n" +
-            "1. Mélanger yaourt et sel.\n" +
-            "2. Déposer un tissu fin dans la passoire, placer le yaourt.\n" +
-            "3. Couvrir et laisser égoutter 12 heures au frais.\n" +
-            "4. Récupérer le labneh épais.\n" +
-            "5. Former une boule ou étaler dans un plat.\n" +
-            "6. Arroser d’huile d’olive et saupoudrer de zaatar si désiré.\n" +
-            "7. Servir frais."
+            "1. Verser le yaourt dans un bol.\n" +
+            "2. Ajouter le sel et mélanger.\n" +
+            "3. Placer un tissu propre et fin dans une passoire.\n" +
+            "4. Verser le yaourt salé dans le tissu.\n" +
+            "5. Refermer le tissu et placer la passoire au-dessus d’un bol.\n" +
+            "6. Laisser égoutter au réfrigérateur pendant environ 12 heures.\n" +
+            "7. Récupérer le labneh épais.\n" +
+            "8. Former une boule ou l’étaler dans une assiette.\n" +
+            "9. Arroser d’huile d’olive.\n" +
+            "10. Saupoudrer de zaatar si désiré.\n" +
+            "11. Servir bien frais."
     },
+
     en: {
-        title: "Labneh",
-        equipment: ["strainer","clean cloth","bowl"],
+        title: "Lebanese labneh",
+        equipment: [
+            "1 strainer",
+            "1 clean cloth",
+            "1 bowl"
+        ],
         ingredients: [
             "500 g plain yogurt",
-            "1/2 tsp salt",
-            "1 tbsp olive oil",
-            "1 tsp zaatar (optional)"
+            "1/2 teaspoon salt",
+            "1 tablespoon olive oil",
+            "1 teaspoon zaatar (optional)"
         ],
         preparation:
-            "Preparation time: 12 hours (for draining)\n\n" +
-            "1. Mix yogurt and salt.\n" +
-            "2. Line strainer with cloth, place yogurt.\n" +
-            "3. Cover, drain 12 hours in fridge.\n" +
-            "4. Retrieve thick labneh.\n" +
-            "5. Shape into ball or spread in dish.\n" +
-            "6. Drizzle olive oil, sprinkle zaatar optionally.\n" +
-            "7. Serve chilled."
+            "1. Place yogurt in a bowl.\n" +
+            "2. Add salt and mix well.\n" +
+            "3. Line a strainer with a clean cloth.\n" +
+            "4. Pour the yogurt into the cloth.\n" +
+            "5. Wrap the cloth and place over a bowl.\n" +
+            "6. Let drain in the refrigerator for about 12 hours.\n" +
+            "7. Remove the thick labneh.\n" +
+            "8. Shape into a ball or spread on a plate.\n" +
+            "9. Drizzle with olive oil.\n" +
+            "10. Sprinkle with zaatar if desired.\n" +
+            "11. Serve chilled."
     },
+
     nl: {
-        title: "Labneh",
-        equipment: ["zeef","schone doek","kom"],
+        title: "Libanese labneh",
+        equipment: [
+            "1 zeef",
+            "1 schone doek",
+            "1 kom"
+        ],
         ingredients: [
-            "500 g yoghurt natuur",
+            "500 g natuuryoghurt",
             "1/2 theelepel zout",
             "1 eetlepel olijfolie",
             "1 theelepel zaatar (optioneel)"
         ],
         preparation:
-            "Bereidingstijd: 12 uur (voor uitlekken)\n\n" +
-            "1. Meng yoghurt en zout.\n" +
-            "2. Bekleed zeef met doek, doe yoghurt erin.\n" +
-            "3. Dek af, laat 12 uur uitlekken in koelkast.\n" +
-            "4. Haal dikke labneh eruit.\n" +
-            "5. Vorm bal of smeer in schaal.\n" +
-            "6. Besprenkel met olijfolie, bestrooi optioneel met zaatar.\n" +
-            "7. Serveer koud."
+            "1. Doe de yoghurt in een kom.\n" +
+            "2. Voeg zout toe en meng.\n" +
+            "3. Bekleed een zeef met een schone doek.\n" +
+            "4. Giet de yoghurt in de doek.\n" +
+            "5. Sluit de doek en plaats boven een kom.\n" +
+            "6. Laat ongeveer 12 uur uitlekken in de koelkast.\n" +
+            "7. Haal de dikke labneh eruit.\n" +
+            "8. Vorm een bol of strijk uit op een bord.\n" +
+            "9. Besprenkel met olijfolie.\n" +
+            "10. Bestrooi eventueel met zaatar.\n" +
+            "11. Serveer koud."
     },
+
     ar: {
-        title: "لبنة",
-        equipment: ["مصفاة","قطعة قماش نظيفة","وعاء"],
+        title: "لبنة لبنانية",
+        equipment: [
+            "مصفاة",
+            "قطعة قماش نظيفة",
+            "وعاء"
+        ],
         ingredients: [
-            "500 غ زبادي طبيعي",
+            "500 غ لبن زبادي طبيعي",
             "نصف ملعقة صغيرة ملح",
-            "1 ملعقة كبيرة زيت زيتون",
-            "1 ملعقة صغيرة زعتر (اختياري)"
+            "ملعقة كبيرة زيت زيتون",
+            "ملعقة صغيرة زعتر (اختياري)"
         ],
         preparation:
-            "مدة التحضير: 12 ساعة (للتصريف)\n\n" +
-            "1. اخلط الزبادي مع الملح.\n" +
-            "2. ضع قطعة قماش ناعمة في المصفاة وضع الزبادي.\n" +
-            "3. غطِّه واتركه 12 ساعة في الثلاجة.\n" +
-            "4. استخرج اللبنة الكثيفة.\n" +
-            "5. شكّلها على شكل كرة أو افردها في طبق.\n" +
-            "6. رش زيت الزيتون ورش الزعتر إذا رغبت.\n" +
-            "7. قدّم بارد."
+            "1. ضع الزبادي في وعاء.\n" +
+            "2. أضف الملح وامزج جيداً.\n" +
+            "3. ضع قطعة قماش نظيفة داخل المصفاة.\n" +
+            "4. اسكب الزبادي في القماش.\n" +
+            "5. أغلق القماش وضعه فوق وعاء.\n" +
+            "6. اتركه يصفّى في الثلاجة حوالي 12 ساعة.\n" +
+            "7. أخرج اللبنة الكثيفة.\n" +
+            "8. شكّلها على هيئة كرة أو افردها في طبق.\n" +
+            "9. رش زيت الزيتون.\n" +
+            "10. أضف الزعتر حسب الرغبة.\n" +
+            "11. قدّم بارداً."
     }
 };
 recipesData.entree.warakEnab = {
     country: "liban",
     image: "images/warak-enab.jpg",
-    persons: "4 personnes (environ 20 feuilles farcies)",
+
+    meta: {
+        servings: 4,
+        yield: "environ 20 feuilles farcies",
+        prepTime: 60,
+        cookTime: 30,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Warak Enab",
-        equipment: ["1 casserole","1 couteau","1 planche à découper"],
+        title: "Warak Enab libanais",
+        equipment: [
+            "1 casserole",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
             "20 feuilles de vigne fraîches ou en bocal",
-            "150 g riz long grain",
+            "150 g de riz long grain",
             "1 oignon moyen",
-            "50 g persil haché",
-            "2 cuillères à soupe huile d’olive",
+            "50 g de persil frais haché",
+            "2 cuillères à soupe d’huile d’olive",
             "1 citron (jus)",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1 cuillère à café tomate concentrée (facultatif)"
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1 cuillère à café de concentré de tomate (facultatif)"
         ],
         preparation:
-            "Temps de préparation : 1h\n\n" +
-            "1. Rincer feuilles de vigne si nécessaire.\n" +
-            "2. Faire cuire riz 5 minutes à l’eau bouillante, égoutter.\n" +
-            "3. Hacher l’oignon et le faire revenir 2 minutes avec 1 c. à soupe d’huile.\n" +
-            "4. Ajouter le riz, persil, sel, poivre et tomate concentrée.\n" +
-            "5. Laisser refroidir le mélange.\n" +
-            "6. Déposer 1 c. à soupe de mélange sur chaque feuille.\n" +
-            "7. Rouler les feuilles en petits cylindres.\n" +
-            "8. Disposer dans casserole, ajouter 1 c. à soupe d’huile et jus de citron.\n" +
-            "9. Couvrir et cuire à feu doux 30 minutes.\n" +
-            "10. Servir tiède ou froid."
+            "1. Rincer les feuilles de vigne et les égoutter soigneusement.\n" +
+            "2. Faire cuire le riz 5 minutes dans de l’eau bouillante puis l’égoutter.\n" +
+            "3. Hacher finement l’oignon.\n" +
+            "4. Faire revenir l’oignon avec 1 cuillère à soupe d’huile d’olive pendant 2 minutes.\n" +
+            "5. Ajouter le riz, le persil, le sel, le poivre et le concentré de tomate.\n" +
+            "6. Mélanger puis laisser refroidir la farce.\n" +
+            "7. Déposer une cuillère de farce au centre de chaque feuille.\n" +
+            "8. Replier les côtés puis rouler en petits cylindres serrés.\n" +
+            "9. Disposer les feuilles roulées bien serrées dans une casserole.\n" +
+            "10. Ajouter le reste d’huile d’olive et le jus de citron.\n" +
+            "11. Couvrir et cuire à feu doux pendant 30 minutes.\n" +
+            "12. Laisser tiédir avant de servir."
     },
+
     en: {
-        title: "Warak Enab",
-        equipment: ["saucepan","knife","cutting board"],
+        title: "Lebanese warak enab",
+        equipment: [
+            "1 saucepan",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "20 grape leaves (fresh or jarred)",
-            "150 g long grain rice",
+            "150 g long-grain rice",
             "1 medium onion",
             "50 g chopped parsley",
-            "2 tbsp olive oil",
+            "2 tablespoons olive oil",
             "1 lemon (juice)",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1 tsp tomato paste (optional)"
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
+            "1 teaspoon tomato paste (optional)"
         ],
         preparation:
-            "Preparation time: 1h\n\n" +
-            "1. Rinse grape leaves if needed.\n" +
-            "2. Boil rice 5 min, drain.\n" +
-            "3. Chop onion, sauté 2 min with 1 tbsp oil.\n" +
-            "4. Add rice, parsley, salt, pepper, tomato paste.\n" +
-            "5. Let mixture cool.\n" +
-            "6. Place 1 tbsp on each leaf.\n" +
-            "7. Roll leaves into small cylinders.\n" +
-            "8. Place in saucepan, add 1 tbsp oil and lemon juice.\n" +
-            "9. Cover and cook on low 30 min.\n" +
-            "10. Serve warm or cold."
+            "1. Rinse grape leaves and drain well.\n" +
+            "2. Boil rice for 5 minutes, then drain.\n" +
+            "3. Finely chop the onion.\n" +
+            "4. Sauté onion with 1 tablespoon olive oil for 2 minutes.\n" +
+            "5. Add rice, parsley, salt, pepper and tomato paste.\n" +
+            "6. Mix well and let cool.\n" +
+            "7. Place a spoonful of filling on each grape leaf.\n" +
+            "8. Fold sides and roll tightly into small cylinders.\n" +
+            "9. Arrange rolls tightly in a saucepan.\n" +
+            "10. Add remaining olive oil and lemon juice.\n" +
+            "11. Cover and cook on low heat for 30 minutes.\n" +
+            "12. Let cool slightly before serving."
     },
+
     nl: {
-        title: "Warak Enab",
-        equipment: ["pan","mes","snijplank"],
+        title: "Libanese warak enab",
+        equipment: [
+            "1 pan",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
             "20 druivenbladeren (vers of uit pot)",
-            "150 g rijst (lange korrel)",
+            "150 g langkorrelige rijst",
             "1 middelgrote ui",
-            "50 g gehakte peterselie",
+            "50 g fijngehakte peterselie",
             "2 eetlepels olijfolie",
             "1 citroen (sap)",
             "1/2 theelepel zout",
@@ -31445,329 +32765,409 @@ recipesData.entree.warakEnab = {
             "1 theelepel tomatenpuree (optioneel)"
         ],
         preparation:
-            "Bereidingstijd: 1 uur\n\n" +
-            "1. Spoel druivenbladeren indien nodig.\n" +
-            "2. Kook rijst 5 min, giet af.\n" +
-            "3. Hak ui, fruit 2 min met 1 el olie.\n" +
-            "4. Voeg rijst, peterselie, zout, peper, tomatenpuree toe.\n" +
-            "5. Laat afkoelen.\n" +
-            "6. Leg 1 el vulling op elk blad.\n" +
-            "7. Rol bladeren tot cilinders.\n" +
-            "8. Leg in pan, voeg 1 el olie en citroensap.\n" +
-            "9. Dek af en kook 30 min op laag vuur.\n" +
-            "10. Serveer warm of koud."
+            "1. Spoel de druivenbladeren en laat goed uitlekken.\n" +
+            "2. Kook de rijst 5 minuten en giet af.\n" +
+            "3. Snipper de ui fijn.\n" +
+            "4. Fruit de ui 2 minuten met 1 eetlepel olijfolie.\n" +
+            "5. Voeg rijst, peterselie, zout, peper en tomatenpuree toe.\n" +
+            "6. Meng en laat afkoelen.\n" +
+            "7. Leg een lepel vulling op elk blad.\n" +
+            "8. Vouw de zijkanten naar binnen en rol strak op.\n" +
+            "9. Leg de rolletjes dicht tegen elkaar in een pan.\n" +
+            "10. Voeg resterende olijfolie en citroensap toe.\n" +
+            "11. Laat 30 minuten zachtjes koken.\n" +
+            "12. Laat iets afkoelen voor het serveren."
     },
+
     ar: {
-        title: "ورق عنب",
-        equipment: ["قدر","سكين","لوح تقطيع"],
+        title: "ورق عنب لبناني",
+        equipment: [
+            "قدر",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
-            "20 ورقة عنب طازجة أو من برطمان",
+            "20 ورقة عنب طازجة أو محفوظة",
             "150 غ أرز طويل الحبة",
             "بصلة متوسطة",
             "50 غ بقدونس مفروم",
-            "2 ملاعق كبيرة زيت زيتون",
-            "ليمونة (عصير)",
+            "ملعقتان كبيرتان زيت زيتون",
+            "عصير ليمونة",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
-            "1 ملعقة صغيرة معجون طماطم (اختياري)"
+            "ربع ملعقة صغيرة فلفل أسود",
+            "ملعقة صغيرة معجون طماطم (اختياري)"
         ],
         preparation:
-            "مدة التحضير: 1 ساعة\n\n" +
-            "1. اغسل أوراق العنب إذا لزم الأمر.\n" +
-            "2. اطبخ الأرز 5 دقائق، صفيه.\n" +
-            "3. فرّم البصل، اقليه 2 دقيقة مع ملعقة زيت.\n" +
-            "4. أضف الأرز، البقدونس، الملح، الفلفل، معجون الطماطم.\n" +
-            "5. اتركه يبرد.\n" +
-            "6. ضع 1 ملعقة كبيرة من الحشوة على كل ورقة.\n" +
-            "7. لف الأوراق على شكل أسطوانات صغيرة.\n" +
-            "8. ضعها في القدر، أضف 1 ملعقة زيت وعصير ليمون.\n" +
-            "9. غطِّ واطه 30 دقيقة على نار هادئة.\n" +
-            "10. قدّم دافئاً أو بارداً."
+            "1. اغسل أوراق العنب واتركها لتصفى جيداً.\n" +
+            "2. اطبخ الأرز 5 دقائق ثم صفّه.\n" +
+            "3. فرّم البصل ناعماً.\n" +
+            "4. اقله مع ملعقة زيت زيتون لمدة دقيقتين.\n" +
+            "5. أضف الأرز والبقدونس والملح والفلفل ومعجون الطماطم.\n" +
+            "6. اخلط واترك الحشوة تبرد.\n" +
+            "7. ضع ملعقة من الحشوة على كل ورقة.\n" +
+            "8. اطوِ الجوانب ولفّها بإحكام.\n" +
+            "9. رصّ الأوراق في القدر بإحكام.\n" +
+            "10. أضف زيت الزيتون المتبقي وعصير الليمون.\n" +
+            "11. غطِّ واطهُ على نار هادئة لمدة 30 دقيقة.\n" +
+            "12. اتركه يبرد قليلاً قبل التقديم."
     }
 };
 recipesData.entree.labnehHerbes = {
     country: "liban",
     image: "images/labneh-herbes.jpg",
-    persons: "4 personnes (env. 12 boules)",
+
+    meta: {
+        servings: 4,
+        yield: "environ 12 boules",
+        prepTime: 20,
+        cookTime: 0,
+        restingTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Boules de Labneh aux herbes",
-        equipment: ["1 bol","1 fourchette","1 assiette"],
+        title: "Boules de labneh aux herbes",
+        equipment: [
+            "1 bol",
+            "1 fourchette",
+            "1 assiette"
+        ],
         ingredients: [
-            "250 g labneh",
-            "1 cuillère à soupe menthe hachée",
-            "1 cuillère à soupe persil haché",
-            "1/2 cuillère à café sel",
-            "huile d’olive pour enrober"
+            "250 g de labneh",
+            "1 cuillère à soupe de menthe fraîche hachée",
+            "1 cuillère à soupe de persil frais haché",
+            "1/2 cuillère à café de sel",
+            "Huile d’olive pour enrober"
         ],
         preparation:
-            "Temps de préparation : 20 minutes\n\n" +
-            "1. Dans un bol, mélanger labneh, sel, persil et menthe.\n" +
-            "2. Former des petites boules de 2-3 cm.\n" +
-            "3. Rouler dans un peu d’huile d’olive.\n" +
-            "4. Placer sur assiette et réfrigérer 10 minutes.\n" +
-            "5. Servir frais avec pain pita."
+            "1. Mettre le labneh dans un bol.\n" +
+            "2. Ajouter le sel, la menthe et le persil.\n" +
+            "3. Mélanger soigneusement jusqu’à obtention d’une préparation homogène.\n" +
+            "4. Prélever un peu de préparation et former des boules de 2 à 3 cm.\n" +
+            "5. Rouler délicatement chaque boule dans un peu d’huile d’olive.\n" +
+            "6. Disposer les boules sur une assiette.\n" +
+            "7. Placer au réfrigérateur quelques minutes avant de servir.\n" +
+            "8. Servir frais avec du pain pita."
     },
+
     en: {
-        title: "Labneh Herb Balls",
-        equipment: ["bowl","fork","plate"],
+        title: "Herbed labneh balls",
+        equipment: [
+            "1 bowl",
+            "1 fork",
+            "1 plate"
+        ],
         ingredients: [
             "250 g labneh",
-            "1 tbsp chopped mint",
-            "1 tbsp chopped parsley",
-            "1/2 tsp salt",
-            "olive oil for coating"
+            "1 tablespoon finely chopped mint",
+            "1 tablespoon finely chopped parsley",
+            "1/2 teaspoon salt",
+            "Olive oil for coating"
         ],
         preparation:
-            "Preparation time: 20 minutes\n\n" +
-            "1. Mix labneh, salt, parsley, mint in bowl.\n" +
-            "2. Form small balls 2-3 cm.\n" +
-            "3. Roll in olive oil.\n" +
-            "4. Place on plate, chill 10 min.\n" +
-            "5. Serve cold with pita bread."
+            "1. Place the labneh in a bowl.\n" +
+            "2. Add salt, mint and parsley.\n" +
+            "3. Mix until smooth and well combined.\n" +
+            "4. Shape the mixture into small balls about 2–3 cm wide.\n" +
+            "5. Gently roll each ball in olive oil.\n" +
+            "6. Place on a plate.\n" +
+            "7. Chill briefly before serving.\n" +
+            "8. Serve cold with pita bread."
     },
+
     nl: {
-        title: "Labneh Kruidenballetjes",
-        equipment: ["kom","vork","bord"],
+        title: "Labnehballetjes met kruiden",
+        equipment: [
+            "1 kom",
+            "1 vork",
+            "1 bord"
+        ],
         ingredients: [
             "250 g labneh",
             "1 eetlepel fijngehakte munt",
             "1 eetlepel fijngehakte peterselie",
             "1/2 theelepel zout",
-            "olijfolie om te rollen"
+            "Olijfolie om te rollen"
         ],
         preparation:
-            "Bereidingstijd: 20 minuten\n\n" +
-            "1. Meng labneh, zout, peterselie, munt in kom.\n" +
-            "2. Vorm kleine balletjes van 2-3 cm.\n" +
-            "3. Rol in olijfolie.\n" +
-            "4. Leg op bord, koel 10 minuten.\n" +
-            "5. Serveer koud met pita."
+            "1. Doe de labneh in een kom.\n" +
+            "2. Voeg zout, munt en peterselie toe.\n" +
+            "3. Meng tot een glad geheel.\n" +
+            "4. Vorm kleine balletjes van 2–3 cm.\n" +
+            "5. Rol de balletjes lichtjes door olijfolie.\n" +
+            "6. Leg ze op een bord.\n" +
+            "7. Laat kort koelen in de koelkast.\n" +
+            "8. Serveer koud met pitabrood."
     },
+
     ar: {
         title: "كرات اللبنة بالأعشاب",
-        equipment: ["وعاء","شوكة","طبق"],
+        equipment: [
+            "وعاء",
+            "شوكة",
+            "طبق"
+        ],
         ingredients: [
             "250 غ لبنة",
-            "1 ملعقة كبيرة نعناع مفروم",
-            "1 ملعقة كبيرة بقدونس مفروم",
+            "ملعقة كبيرة نعناع مفروم",
+            "ملعقة كبيرة بقدونس مفروم",
             "نصف ملعقة صغيرة ملح",
-            "زيت زيتون للتغطية"
+            "زيت زيتون للتغليف"
         ],
         preparation:
-            "مدة التحضير: 20 دقيقة\n\n" +
-            "1. امزج اللبنة، الملح، البقدونس، النعناع في وعاء.\n" +
-            "2. شكّل كرات صغيرة 2-3 سم.\n" +
-            "3. غطّها بزيت الزيتون.\n" +
-            "4. ضعها على طبق، برّد 10 دقائق.\n" +
-            "5. قدّم بارد مع خبز بيتا."
+            "1. ضع اللبنة في وعاء.\n" +
+            "2. أضف الملح والنعناع والبقدونس.\n" +
+            "3. امزج جيداً حتى يتجانس الخليط.\n" +
+            "4. شكّل كرات صغيرة بقطر 2–3 سم.\n" +
+            "5. غطِّ الكرات بقليل من زيت الزيتون.\n" +
+            "6. ضعها في طبق.\n" +
+            "7. برّدها قليلاً قبل التقديم.\n" +
+            "8. قدّمها باردة مع خبز البيتا."
     }
 };
+
+
+
+
+
+
+
 
 
 recipesData.plat.poulet_libanais = {
     country: "liban",
     image: "images/poulet_libanais.jpg",
 
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Poulet aux épices libanaises (4 personnes)",
+        title: "Poulet aux épices libanaises",
         equipment: [
-            "1 grande poêle ou sauteuse",
+            "1 grande poêle ou sauteuse avec couvercle",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois",
-            "1 bol pour marinade",
+            "1 bol",
             "1 balance de cuisine"
         ],
         ingredients: [
             "4 cuisses de poulet (environ 800 g)",
-            "2 cuillères à soupe huile d’olive (30 ml)",
+            "2 cuillères à soupe d’huile d’olive",
             "1 oignon moyen (100 g), émincé",
             "2 gousses d’ail, hachées",
-            "1 cuillère à café de cannelle moulue (2 g)",
-            "1 cuillère à café de cumin moulu (2 g)",
-            "1 cuillère à café de paprika doux (2 g)",
-            "1/2 cuillère à café de coriandre moulue (1 g)",
-            "200 ml bouillon de poulet",
-            "Sel et poivre selon goût",
-            "Quelques feuilles de coriandre fraîche pour garnir"
+            "1 cuillère à café de cannelle moulue",
+            "1 cuillère à café de cumin moulu",
+            "1 cuillère à café de paprika doux",
+            "1/2 cuillère à café de coriandre moulue",
+            "200 ml de bouillon de poulet",
+            "Sel et poivre",
+            "Quelques feuilles de coriandre fraîche"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préparer la marinade : mélanger cannelle, cumin, paprika, coriandre, sel, poivre et 1 cuillère à soupe d’huile d’olive dans un bol.\n" +
-            "2. Enduire les cuisses de poulet de cette marinade et laisser reposer 15 minutes.\n" +
-            "3. Dans une grande poêle, chauffer 1 cuillère à soupe d’huile d’olive.\n" +
-            "4. Ajouter l’oignon émincé et l’ail, faire revenir 2-3 minutes jusqu’à translucide.\n" +
-            "5. Ajouter les cuisses de poulet et saisir 5 minutes de chaque côté pour dorer.\n" +
-            "6. Verser le bouillon, couvrir, réduire le feu et laisser mijoter 25-30 minutes jusqu’à cuisson complète.\n" +
-            "7. Vérifier l’assaisonnement, garnir de coriandre fraîche et servir chaud."
+            "1. Dans un bol, mélanger la cannelle, le cumin, le paprika, la coriandre, le sel, le poivre et 1 cuillère à soupe d’huile d’olive.\n" +
+            "2. Enduire soigneusement les cuisses de poulet avec ce mélange d’épices.\n" +
+            "3. Chauffer le reste de l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "4. Ajouter l’oignon émincé et l’ail, puis faire revenir 2 à 3 minutes jusqu’à ce qu’ils deviennent translucides.\n" +
+            "5. Déposer les cuisses de poulet dans la poêle et les faire dorer environ 5 minutes de chaque côté.\n" +
+            "6. Verser le bouillon de poulet, couvrir, baisser le feu et laisser mijoter 25 à 30 minutes jusqu’à cuisson complète.\n" +
+            "7. Rectifier l’assaisonnement si nécessaire, parsemer de coriandre fraîche et servir bien chaud."
     },
 
     en: {
-        title: "Chicken with Lebanese Spices (Serves 4)",
+        title: "Chicken with Lebanese spices",
         equipment: [
-            "1 large frying pan or sauté pan",
+            "1 large frying pan or sauté pan with lid",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
-            "1 bowl for marinade",
+            "1 bowl",
             "1 kitchen scale"
         ],
         ingredients: [
             "4 chicken thighs (about 800 g)",
-            "2 tablespoons olive oil (30 ml)",
+            "2 tablespoons olive oil",
             "1 medium onion (100 g), sliced",
             "2 garlic cloves, chopped",
-            "1 teaspoon ground cinnamon (2 g)",
-            "1 teaspoon ground cumin (2 g)",
-            "1 teaspoon sweet paprika (2 g)",
-            "1/2 teaspoon ground coriander (1 g)",
+            "1 teaspoon ground cinnamon",
+            "1 teaspoon ground cumin",
+            "1 teaspoon sweet paprika",
+            "1/2 teaspoon ground coriander",
             "200 ml chicken broth",
-            "Salt and pepper to taste",
-            "Fresh coriander leaves for garnish"
+            "Salt and pepper",
+            "Fresh coriander leaves"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Prepare the marinade: mix cinnamon, cumin, paprika, coriander, salt, pepper, and 1 tbsp olive oil in a bowl.\n" +
-            "2. Coat chicken thighs with marinade and let rest 15 minutes.\n" +
-            "3. Heat 1 tbsp olive oil in a large pan.\n" +
-            "4. Add sliced onion and garlic, sauté 2-3 minutes until translucent.\n" +
-            "5. Add chicken thighs and sear 5 minutes per side until browned.\n" +
-            "6. Pour in broth, cover, reduce heat, and simmer 25-30 minutes until fully cooked.\n" +
-            "7. Check seasoning, garnish with fresh coriander, and serve hot."
+            "1. In a bowl, mix cinnamon, cumin, paprika, coriander, salt, pepper and 1 tablespoon olive oil.\n" +
+            "2. Rub the chicken thighs thoroughly with the spice mixture.\n" +
+            "3. Heat the remaining olive oil in a large pan over medium heat.\n" +
+            "4. Add the sliced onion and garlic and sauté for 2–3 minutes until translucent.\n" +
+            "5. Add the chicken thighs and brown them for about 5 minutes on each side.\n" +
+            "6. Pour in the chicken broth, cover, reduce heat and simmer for 25–30 minutes until fully cooked.\n" +
+            "7. Adjust seasoning if needed, garnish with fresh coriander and serve hot."
     },
 
     nl: {
-        title: "Kip met Libanese kruiden (voor 4 personen)",
+        title: "Kip met Libanese kruiden",
         equipment: [
-            "1 grote koekenpan of braadpan",
+            "1 grote koekenpan of braadpan met deksel",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
-            "1 kom voor marinade",
+            "1 kom",
             "1 keukenweegschaal"
         ],
         ingredients: [
             "4 kippenbouten (ongeveer 800 g)",
-            "2 eetlepels olijfolie (30 ml)",
+            "2 eetlepels olijfolie",
             "1 middelgrote ui (100 g), gesneden",
             "2 teentjes knoflook, gehakt",
-            "1 theelepel kaneelpoeder (2 g)",
-            "1 theelepel komijnpoeder (2 g)",
-            "1 theelepel zoete paprika (2 g)",
-            "1/2 theelepel gemalen koriander (1 g)",
+            "1 theelepel kaneelpoeder",
+            "1 theelepel komijnpoeder",
+            "1 theelepel zoete paprika",
+            "1/2 theelepel gemalen koriander",
             "200 ml kippenbouillon",
-            "Zout en peper naar smaak",
-            "Verse korianderblaadjes voor garnering"
+            "Zout en peper",
+            "Verse koriander"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bereid de marinade: meng kaneel, komijn, paprika, koriander, zout, peper en 1 el olijfolie in een kom.\n" +
-            "2. Wrijf de kippenbouten in met de marinade en laat 15 minuten rusten.\n" +
-            "3. Verhit 1 el olijfolie in een grote pan.\n" +
-            "4. Voeg gesneden ui en knoflook toe, bak 2-3 minuten tot glazig.\n" +
-            "5. Voeg kippenbouten toe en bak 5 minuten per kant tot goudbruin.\n" +
-            "6. Voeg bouillon toe, dek af, zet het vuur laag en laat 25-30 minuten sudderen tot gaar.\n" +
-            "7. Controleer de smaak, garneer met verse koriander en serveer heet."
+            "1. Meng in een kom kaneel, komijn, paprika, koriander, zout, peper en 1 eetlepel olijfolie.\n" +
+            "2. Wrijf de kippenbouten goed in met het kruidenmengsel.\n" +
+            "3. Verhit de rest van de olijfolie in een grote pan op middelhoog vuur.\n" +
+            "4. Voeg ui en knoflook toe en bak 2–3 minuten tot glazig.\n" +
+            "5. Voeg de kip toe en bak ongeveer 5 minuten per kant goudbruin.\n" +
+            "6. Schenk de bouillon erbij, dek af en laat 25–30 minuten zachtjes sudderen tot gaar.\n" +
+            "7. Breng op smaak en garneer met verse koriander."
     },
 
     ar: {
-        title: "دجاج بالتوابل اللبنانية (تكفي 4 أشخاص)",
+        title: "دجاج بالتوابل اللبنانية",
         equipment: [
-            "مقلاة كبيرة أو قدر للقلي",
+            "مقلاة كبيرة مع غطاء",
             "سكين",
             "لوح تقطيع",
             "ملعقة خشبية",
-            "وعاء للتتبيل",
+            "وعاء",
             "ميزان مطبخ"
         ],
         ingredients: [
             "4 أفخاذ دجاج (حوالي 800 غ)",
-            "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1 بصل متوسط (100 غ)، مقطع شرائح",
+            "2 ملعقة كبيرة زيت زيتون",
+            "1 بصل متوسط (100 غ)، مقطع",
             "2 فص ثوم، مفروم",
-            "1 ملعقة صغيرة قرفة مطحونة (2 غ)",
-            "1 ملعقة صغيرة كمون مطحون (2 غ)",
-            "1 ملعقة صغيرة بابريكا حلوة (2 غ)",
-            "1/2 ملعقة صغيرة كزبرة مطحونة (1 غ)",
+            "1 ملعقة صغيرة قرفة مطحونة",
+            "1 ملعقة صغيرة كمون مطحون",
+            "1 ملعقة صغيرة بابريكا حلوة",
+            "1/2 ملعقة صغيرة كزبرة مطحونة",
             "200 مل مرق دجاج",
-            "ملح وفلفل حسب الرغبة",
-            "أوراق كزبرة طازجة للتزيين"
+            "ملح وفلفل",
+            "كزبرة طازجة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضّر التتبيلة: اخلط القرفة والكمون والبابريكا والكزبرة والملح والفلفل و1 ملعقة كبيرة زيت زيتون في وعاء.\n" +
-            "2. غطّ أفخاذ الدجاج بالتتبيلة واتركها 15 دقيقة.\n" +
-            "3. سخّن 1 ملعقة كبيرة زيت زيتون في مقلاة كبيرة.\n" +
-            "4. أضف البصل المقطع والثوم، قلب 2-3 دقائق حتى يصبح شفافاً.\n" +
-            "5. أضف أفخاذ الدجاج وحمّر 5 دقائق لكل جانب حتى تصبح ذهبية.\n" +
-            "6. أضف المرق، غطّ المقلاة، خفّف النار واتركها 25-30 دقيقة حتى تنضج.\n" +
-            "7. تحقق من التوابل، زيّن بالكزبرة الطازجة وقدّم ساخناً."
+            "1. اخلط القرفة والكمون والبابريكا والكزبرة والملح والفلفل وملعقة زيت زيتون في وعاء.\n" +
+            "2. غطِّ أفخاذ الدجاج جيداً بخليط التوابل.\n" +
+            "3. سخّن باقي زيت الزيتون في مقلاة كبيرة على نار متوسطة.\n" +
+            "4. أضف البصل والثوم وقلّبهما 2–3 دقائق حتى يذبلا.\n" +
+            "5. أضف الدجاج وحمّره حوالي 5 دقائق لكل جانب.\n" +
+            "6. أضف المرق، غطِّ المقلاة واتركها تطهى على نار هادئة 25–30 دقيقة حتى تنضج.\n" +
+            "7. عدّل التتبيل وزيّن بالكزبرة الطازجة وقدّم ساخناً."
     }
 };
 recipesData.plat.kaftaFour = {
     country: "liban",
     image: "images/kafta-four.jpg",
-    persons: "4 personnes (environ 16 boulettes)",
+
+    meta: {
+        servings: 4,
+        yield: "environ 16 boulettes",
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Kafta au four",
         equipment: [
             "1 four",
-            "1 bol",
+            "1 grand bol",
             "1 couteau",
             "1 planche à découper",
-            "1 plaque de cuisson"
+            "1 plaque de cuisson",
+            "Papier cuisson (facultatif)"
         ],
         ingredients: [
-            "500 g viande hachée (bœuf ou agneau)",
-            "1 oignon moyen",
-            "50 g persil frais haché",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café cannelle moulue",
-            "1/2 cuillère à café paprika doux",
-            "1 cuillère à soupe huile d’olive"
+            "500 g de viande hachée (bœuf ou agneau)",
+            "1 oignon moyen, finement haché",
+            "50 g de persil frais haché",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/2 cuillère à café de cannelle moulue",
+            "1/2 cuillère à café de paprika doux",
+            "1 cuillère à soupe d’huile d’olive"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 20 min\n\n" +
             "1. Préchauffer le four à 200°C.\n" +
-            "2. Hacher finement l’oignon.\n" +
-            "3. Dans un bol, mélanger la viande, l’oignon, le persil, sel, poivre, cannelle et paprika.\n" +
-            "4. Former des petites boulettes ovales d’environ 3 cm.\n" +
-            "5. Disposer sur une plaque légèrement huilée.\n" +
-            "6. Arroser d’un filet d’huile d’olive.\n" +
-            "7. Cuire au four 20 minutes en les retournant à mi-cuisson.\n" +
-            "8. Servir chaud avec du riz ou du pain pita."
+            "2. Hacher très finement l’oignon et le persil.\n" +
+            "3. Mettre la viande hachée dans un grand bol.\n" +
+            "4. Ajouter l’oignon, le persil, le sel, le poivre, la cannelle et le paprika.\n" +
+            "5. Mélanger soigneusement à la main jusqu’à obtenir une préparation homogène.\n" +
+            "6. Former des boulettes ou bâtonnets ovales d’environ 3 cm.\n" +
+            "7. Disposer la kafta sur une plaque recouverte de papier cuisson ou légèrement huilée.\n" +
+            "8. Arroser d’un filet d’huile d’olive.\n" +
+            "9. Enfourner et cuire 20 minutes en retournant les pièces à mi-cuisson.\n" +
+            "10. Servir chaud avec du riz, une salade ou du pain pita."
     },
+
     en: {
-        title: "Kafta Oven-Baked",
-        equipment: ["oven","bowl","knife","cutting board","baking tray"],
+        title: "Oven-baked kafta",
+        equipment: [
+            "1 oven",
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 baking tray",
+            "Baking paper (optional)"
+        ],
         ingredients: [
             "500 g minced meat (beef or lamb)",
-            "1 medium onion",
+            "1 medium onion, finely chopped",
             "50 g fresh parsley, chopped",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp ground cinnamon",
-            "1/2 tsp sweet paprika",
-            "1 tbsp olive oil"
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
+            "1/2 teaspoon ground cinnamon",
+            "1/2 teaspoon sweet paprika",
+            "1 tablespoon olive oil"
         ],
         preparation:
-            "Preparation time: 15 min\nCooking time: 20 min\n\n" +
-            "1. Preheat oven to 200°C.\n" +
-            "2. Finely chop onion.\n" +
-            "3. In a bowl, mix meat, onion, parsley, salt, pepper, cinnamon, paprika.\n" +
-            "4. Form small oval meatballs (~3 cm).\n" +
-            "5. Place on lightly oiled tray.\n" +
-            "6. Drizzle olive oil.\n" +
-            "7. Bake 20 min, turn halfway.\n" +
-            "8. Serve hot with rice or pita bread."
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Finely chop the onion and parsley.\n" +
+            "3. Place the minced meat in a large bowl.\n" +
+            "4. Add onion, parsley, salt, pepper, cinnamon and paprika.\n" +
+            "5. Mix thoroughly by hand until well combined.\n" +
+            "6. Shape the mixture into small oval meatballs about 3 cm long.\n" +
+            "7. Arrange on a baking tray lined with baking paper or lightly greased.\n" +
+            "8. Drizzle with olive oil.\n" +
+            "9. Bake for 20 minutes, turning halfway through.\n" +
+            "10. Serve hot with rice, salad or pita bread."
     },
+
     nl: {
         title: "Kafta uit de oven",
-        equipment: ["oven","kom","mes","snijplank","bakplaat"],
+        equipment: [
+            "1 oven",
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 bakplaat",
+            "Bakpapier (optioneel)"
+        ],
         ingredients: [
             "500 g gehakt (rund of lam)",
-            "1 middelgrote ui",
+            "1 middelgrote ui, fijngehakt",
             "50 g verse peterselie, gehakt",
             "1/2 theelepel zout",
             "1/4 theelepel peper",
@@ -31776,94 +33176,150 @@ recipesData.plat.kaftaFour = {
             "1 eetlepel olijfolie"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 20 min\n\n" +
-            "1. Verwarm oven op 200°C.\n" +
-            "2. Snipper ui fijn.\n" +
-            "3. Meng gehakt, ui, peterselie, zout, peper, kaneel, paprika in kom.\n" +
-            "4. Vorm kleine ovale balletjes (~3 cm).\n" +
-            "5. Leg op licht ingevette bakplaat.\n" +
-            "6. Besprenkel met olijfolie.\n" +
-            "7. Bak 20 min, halverwege keren.\n" +
-            "8. Serveer warm met rijst of pita."
+            "1. Verwarm de oven voor op 200°C.\n" +
+            "2. Hak de ui en peterselie zeer fijn.\n" +
+            "3. Doe het gehakt in een grote kom.\n" +
+            "4. Voeg ui, peterselie, zout, peper, kaneel en paprika toe.\n" +
+            "5. Meng alles goed tot een egaal mengsel.\n" +
+            "6. Vorm kleine ovale balletjes van ongeveer 3 cm.\n" +
+            "7. Leg ze op een bakplaat met bakpapier of ingevet.\n" +
+            "8. Besprenkel met olijfolie.\n" +
+            "9. Bak 20 minuten en draai halverwege om.\n" +
+            "10. Serveer warm met rijst, salade of pita."
     },
+
     ar: {
         title: "كفتة بالفرن",
-        equipment: ["فرن","وعاء","سكين","لوح تقطيع","صينية خبز"],
+        equipment: [
+            "فرن",
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "صينية خبز",
+            "ورق خبز (اختياري)"
+        ],
         ingredients: [
             "500 غ لحم مفروم (بقر أو غنم)",
-            "بصلة متوسطة",
+            "بصلة متوسطة مفرومة ناعماً",
             "50 غ بقدونس طازج مفروم",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
+            "ربع ملعقة صغيرة فلفل أسود",
             "نصف ملعقة صغيرة قرفة مطحونة",
             "نصف ملعقة صغيرة بابريكا حلوة",
-            "1 ملعقة كبيرة زيت زيتون"
+            "ملعقة كبيرة زيت زيتون"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 20 دقيقة\n\n" +
-            "1. سخّن الفرن على 200°م.\n" +
-            "2. فرّم البصل ناعماً.\n" +
-            "3. امزج اللحم، البصل، البقدونس، الملح، الفلفل، القرفة، البابريكا في وعاء.\n" +
-            "4. شكّل كرات لحم صغيرة بيضاوية (~3 سم).\n" +
-            "5. ضعها على صينية مدهونة قليلًا.\n" +
-            "6. رشّ زيت الزيتون.\n" +
-            "7. اخبز 20 دقيقة، واقلب في منتصف الوقت.\n" +
-            "8. قدّم ساخناً مع الأرز أو خبز بيتا."
+            "1. سخّن الفرن إلى 200°م.\n" +
+            "2. فرم البصل والبقدونس ناعماً.\n" +
+            "3. ضع اللحم المفروم في وعاء كبير.\n" +
+            "4. أضف البصل والبقدونس والملح والفلفل والقرفة والبابريكا.\n" +
+            "5. اخلط المكونات جيداً باليد حتى تتجانس.\n" +
+            "6. شكّل كفتة صغيرة بيضاوية بطول حوالي 3 سم.\n" +
+            "7. ضعها في صينية مبطنة بورق خبز أو مدهونة قليلاً.\n" +
+            "8. رشّ زيت الزيتون فوقها.\n" +
+            "9. اخبز لمدة 20 دقيقة مع التقليب في منتصف الوقت.\n" +
+            "10. قدّمها ساخنة مع الأرز أو السلطة أو خبز البيتا."
     }
 };
 recipesData.plat.chawarmaPoulet = {
     country: "liban",
     image: "images/chawarma-poulet.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        marinationTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Chawarma de poulet",
-        equipment: ["1 poêle","1 bol","1 couteau","1 planche à découper"],
+        equipment: [
+            "1 grande poêle",
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
-            "500 g filets de poulet",
-            "2 cuillères à soupe yaourt nature",
-            "1 cuillère à soupe huile d’olive",
+            "500 g de filets de poulet",
+            "2 cuillères à soupe de yaourt nature",
+            "1 cuillère à soupe d’huile d’olive",
             "1 gousse d’ail écrasée",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café paprika",
-            "1/4 cuillère à café cumin moulu",
-            "1/4 cuillère à café coriandre moulue"
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/2 cuillère à café de paprika",
+            "1/4 cuillère à café de cumin moulu",
+            "1/4 cuillère à café de coriandre moulue",
+            "1/2 cuillère à café de jus de citron (facultatif)"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Couper le poulet en fines lanières.\n" +
-            "2. Dans un bol, mélanger yaourt, ail, sel, poivre, paprika, cumin, coriandre.\n" +
-            "3. Ajouter le poulet et bien enrober. Laisser mariner 10 minutes.\n" +
-            "4. Chauffer la poêle avec huile d’olive.\n" +
-            "5. Cuire le poulet 8 à 10 minutes à feu moyen, en remuant régulièrement.\n" +
-            "6. Servir chaud avec pain pita et légumes frais."
+            "==============================\n" +
+            "PRÉPARATION DE LA MARINADE\n" +
+            "==============================\n\n" +
+            "1. Couper les filets de poulet en fines lanières.\n" +
+            "2. Dans un bol, mélanger le yaourt, l’ail, le sel, le poivre, le paprika, le cumin, la coriandre et le jus de citron.\n" +
+            "3. Ajouter le poulet et bien mélanger afin de l’enrober uniformément.\n" +
+            "4. Couvrir et laisser mariner 10 minutes.\n\n" +
+            "==============================\n" +
+            "CUISSON DU POULET\n" +
+            "==============================\n\n" +
+            "5. Chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "6. Ajouter le poulet mariné.\n" +
+            "7. Cuire 8 à 10 minutes en remuant régulièrement jusqu’à ce qu’il soit bien doré et tendre.\n" +
+            "8. Rectifier l’assaisonnement si nécessaire.\n" +
+            "9. Servir chaud avec du pain pita et des légumes frais."
     },
+
     en: {
-        title: "Chicken Chawarma",
-        equipment: ["pan","bowl","knife","cutting board"],
+        title: "Chicken shawarma",
+        equipment: [
+            "1 large pan",
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
             "500 g chicken fillets",
-            "2 tbsp plain yogurt",
-            "1 tbsp olive oil",
+            "2 tablespoons plain yogurt",
+            "1 tablespoon olive oil",
             "1 garlic clove, crushed",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp paprika",
-            "1/4 tsp ground cumin",
-            "1/4 tsp ground coriander"
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
+            "1/2 teaspoon paprika",
+            "1/4 teaspoon ground cumin",
+            "1/4 teaspoon ground coriander",
+            "1/2 teaspoon lemon juice (optional)"
         ],
         preparation:
-            "Preparation time: 10 min\nCooking time: 15 min\n\n" +
-            "1. Cut chicken into thin strips.\n" +
-            "2. Mix yogurt, garlic, salt, pepper, paprika, cumin, coriander in a bowl.\n" +
-            "3. Add chicken, coat well, marinate 10 min.\n" +
-            "4. Heat pan with olive oil.\n" +
-            "5. Cook chicken 8-10 min over medium heat, stir often.\n" +
-            "6. Serve hot with pita bread and fresh vegetables."
+            "==============================\n" +
+            "MARINADE PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Cut the chicken fillets into thin strips.\n" +
+            "2. In a bowl, mix yogurt, garlic, salt, pepper, paprika, cumin, coriander and lemon juice.\n" +
+            "3. Add the chicken and mix well to coat evenly.\n" +
+            "4. Cover and marinate for 10 minutes.\n\n" +
+            "==============================\n" +
+            "COOKING THE CHICKEN\n" +
+            "==============================\n\n" +
+            "5. Heat olive oil in a large pan over medium heat.\n" +
+            "6. Add the marinated chicken.\n" +
+            "7. Cook for 8–10 minutes, stirring frequently, until golden and fully cooked.\n" +
+            "8. Adjust seasoning if needed.\n" +
+            "9. Serve hot with pita bread and fresh vegetables."
     },
+
     nl: {
-        title: "Kip Chawarma",
-        equipment: ["pan","kom","mes","snijplank"],
+        title: "Kip shawarma",
+        equipment: [
+            "1 grote pan",
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
             "500 g kipfilet",
             "2 eetlepels yoghurt naturel",
@@ -31873,413 +33329,601 @@ recipesData.plat.chawarmaPoulet = {
             "1/4 theelepel peper",
             "1/2 theelepel paprika",
             "1/4 theelepel gemalen komijn",
-            "1/4 theelepel gemalen koriander"
+            "1/4 theelepel gemalen koriander",
+            "1/2 theelepel citroensap (optioneel)"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 15 min\n\n" +
-            "1. Snijd kip in dunne reepjes.\n" +
-            "2. Meng yoghurt, knoflook, zout, peper, paprika, komijn, koriander in een kom.\n" +
-            "3. Voeg kip toe, meng goed, marineer 10 min.\n" +
-            "4. Verhit pan met olijfolie.\n" +
-            "5. Bak kip 8-10 min op middelhoog vuur, regelmatig roeren.\n" +
-            "6. Serveer warm met pitabrood en verse groenten."
+            "==============================\n" +
+            "BEREIDING VAN DE MARINADE\n" +
+            "==============================\n\n" +
+            "1. Snijd de kipfilet in dunne reepjes.\n" +
+            "2. Meng in een kom yoghurt, knoflook, zout, peper, paprika, komijn, koriander en citroensap.\n" +
+            "3. Voeg de kip toe en meng goed zodat alles bedekt is.\n" +
+            "4. Dek af en laat 10 minuten marineren.\n\n" +
+            "==============================\n" +
+            "BAKKEN VAN DE KIP\n" +
+            "==============================\n\n" +
+            "5. Verhit olijfolie in een grote pan op middelhoog vuur.\n" +
+            "6. Voeg de gemarineerde kip toe.\n" +
+            "7. Bak 8–10 minuten al roerend tot goudbruin en gaar.\n" +
+            "8. Breng indien nodig extra op smaak.\n" +
+            "9. Serveer warm met pitabrood en verse groenten."
     },
+
     ar: {
         title: "شاورما الدجاج",
-        equipment: ["مقلاة","وعاء","سكين","لوح تقطيع"],
+        equipment: [
+            "مقلاة كبيرة",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
             "500 غ فيليه دجاج",
-            "2 ملاعق كبيرة زبادي طبيعي",
+            "2 ملعقة كبيرة زبادي طبيعي",
             "1 ملعقة كبيرة زيت زيتون",
             "فص ثوم مهروس",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
+            "ربع ملعقة صغيرة فلفل أسود",
             "نصف ملعقة صغيرة بابريكا",
             "ربع ملعقة صغيرة كمون مطحون",
-            "ربع ملعقة صغيرة كزبرة مطحونة"
+            "ربع ملعقة صغيرة كزبرة مطحونة",
+            "نصف ملعقة صغيرة عصير ليمون (اختياري)"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 15 دقيقة\n\n" +
-            "1. قطع الدجاج إلى شرائح رفيعة.\n" +
-            "2. في وعاء، اخلط الزبادي، الثوم، الملح، الفلفل، البابريكا، الكمون، الكزبرة.\n" +
-            "3. أضف الدجاج، قلب جيدًا، واتركه يتبل 10 دقائق.\n" +
-            "4. سخن المقلاة مع زيت الزيتون.\n" +
-            "5. اطه الدجاج 8-10 دقائق على نار متوسطة مع التحريك المستمر.\n" +
-            "6. قدمه ساخناً مع خبز بيتا وخضار طازجة."
+            "==============================\n" +
+            "تحضير التتبيلة\n" +
+            "==============================\n\n" +
+            "1. قطّع فيليه الدجاج إلى شرائح رفيعة.\n" +
+            "2. اخلط الزبادي مع الثوم والملح والفلفل والبابريكا والكمون والكزبرة وعصير الليمون.\n" +
+            "3. أضف الدجاج وقلّب جيداً حتى يتغلف بالكامل.\n" +
+            "4. غطِّ الوعاء واتركه يتبل لمدة 10 دقائق.\n\n" +
+            "==============================\n" +
+            "طهي الدجاج\n" +
+            "==============================\n\n" +
+            "5. سخّن زيت الزيتون في مقلاة كبيرة على نار متوسطة.\n" +
+            "6. أضف الدجاج المتبل.\n" +
+            "7. اطهه لمدة 8–10 دقائق مع التحريك حتى يتحمر وينضج.\n" +
+            "8. عدّل التتبيل إذا لزم الأمر.\n" +
+            "9. قدّمه ساخناً مع خبز البيتا والخضار الطازجة."
     }
 };
 recipesData.plat.rizLibanais = {
     country: "liban",
     image: "images/riz-libanais.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Riz à la libanaise aux légumes",
-        equipment: ["1 casserole","1 couteau","1 planche à découper","1 cuillère en bois"],
+        title: "Riz libanais aux légumes",
+        equipment: [
+            "1 casserole avec couvercle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 passoire"
+        ],
         ingredients: [
-            "200 g riz basmati",
-            "1 oignon moyen",
-            "1 carotte (100 g)",
-            "1 courgette (150 g)",
-            "50 g petits pois",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/4 cuillère à café cannelle"
+            "200 g de riz basmati",
+            "1 oignon moyen, finement haché",
+            "1 carotte (100 g), coupée en petits dés",
+            "1 courgette (150 g), coupée en petits dés",
+            "50 g de petits pois",
+            "2 cuillères à soupe d’huile d’olive",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/4 cuillère à café de cannelle moulue",
+            "400 ml d’eau chaude"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 25 min\n\n" +
-            "1. Rincer le riz à l’eau froide.\n" +
-            "2. Hacher l’oignon, couper carotte et courgette en petits dés.\n" +
-            "3. Chauffer l’huile dans la casserole, faire revenir l’oignon 2 minutes.\n" +
-            "4. Ajouter les légumes, cuire 5 minutes en remuant.\n" +
-            "5. Ajouter le riz, sel, poivre, cannelle, mélanger 2 minutes.\n" +
-            "6. Ajouter 400 ml d’eau, porter à ébullition.\n" +
-            "7. Couvrir et cuire à feu doux 18-20 minutes jusqu’à absorption de l’eau.\n" +
-            "8. Laisser reposer 5 minutes avant de servir."
+            "1. Rincer soigneusement le riz à l’eau froide jusqu’à ce que l’eau soit claire, puis égoutter.\n" +
+            "2. Chauffer l’huile d’olive dans une casserole à feu moyen.\n" +
+            "3. Ajouter l’oignon et le faire revenir 2 à 3 minutes jusqu’à ce qu’il devienne translucide.\n" +
+            "4. Ajouter la carotte, la courgette et les petits pois, puis faire revenir 4 à 5 minutes en remuant.\n" +
+            "5. Incorporer le riz, le sel, le poivre et la cannelle, puis mélanger pendant 1 à 2 minutes.\n" +
+            "6. Verser l’eau chaude, porter à légère ébullition.\n" +
+            "7. Couvrir, baisser le feu et laisser cuire doucement 18 à 20 minutes jusqu’à absorption complète de l’eau.\n" +
+            "8. Éteindre le feu et laisser reposer 5 minutes avant d’aérer le riz à la fourchette et de servir."
     },
+
     en: {
-        title: "Lebanese Vegetable Rice",
-        equipment: ["saucepan","knife","cutting board","wooden spoon"],
+        title: "Lebanese vegetable rice",
+        equipment: [
+            "1 saucepan with lid",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 colander"
+        ],
         ingredients: [
             "200 g basmati rice",
-            "1 medium onion",
-            "1 carrot (100 g)",
-            "1 zucchini (150 g)",
+            "1 medium onion, finely chopped",
+            "1 carrot (100 g), diced",
+            "1 zucchini (150 g), diced",
             "50 g peas",
-            "2 tbsp olive oil",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/4 tsp cinnamon"
+            "2 tablespoons olive oil",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
+            "1/4 teaspoon ground cinnamon",
+            "400 ml hot water"
         ],
         preparation:
-            "Preparation time: 10 min\nCooking time: 25 min\n\n" +
-            "1. Rinse rice in cold water.\n" +
-            "2. Chop onion, dice carrot and zucchini.\n" +
-            "3. Heat oil in pan, sauté onion 2 min.\n" +
-            "4. Add vegetables, cook 5 min, stir.\n" +
-            "5. Add rice, salt, pepper, cinnamon, stir 2 min.\n" +
-            "6. Add 400 ml water, bring to boil.\n" +
-            "7. Cover, simmer 18-20 min until water absorbed.\n" +
-            "8. Let rest 5 min before serving."
+            "1. Rinse the rice under cold water until the water runs clear, then drain.\n" +
+            "2. Heat olive oil in a saucepan over medium heat.\n" +
+            "3. Add the onion and sauté for 2–3 minutes until translucent.\n" +
+            "4. Add carrot, zucchini and peas, and cook for 4–5 minutes while stirring.\n" +
+            "5. Stir in the rice, salt, pepper and cinnamon, and cook for 1–2 minutes.\n" +
+            "6. Pour in the hot water and bring to a gentle boil.\n" +
+            "7. Cover, reduce heat and simmer for 18–20 minutes until the water is absorbed.\n" +
+            "8. Remove from heat, let rest for 5 minutes, fluff with a fork and serve."
     },
+
     nl: {
-        title: "Libanees Groenterijst",
-        equipment: ["pan","mes","snijplank","houten lepel"],
+        title: "Libanese rijst met groenten",
+        equipment: [
+            "1 pan met deksel",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 vergiet"
+        ],
         ingredients: [
             "200 g basmatirijst",
-            "1 middelgrote ui",
-            "1 wortel (100 g)",
-            "1 courgette (150 g)",
+            "1 middelgrote ui, fijngehakt",
+            "1 wortel (100 g), in blokjes",
+            "1 courgette (150 g), in blokjes",
             "50 g doperwten",
             "2 eetlepels olijfolie",
             "1/2 theelepel zout",
             "1/4 theelepel peper",
-            "1/4 theelepel kaneel"
+            "1/4 theelepel kaneelpoeder",
+            "400 ml heet water"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 25 min\n\n" +
-            "1. Spoel rijst met koud water.\n" +
-            "2. Hak ui, snijd wortel en courgette in blokjes.\n" +
-            "3. Verhit olie in pan, fruit ui 2 min.\n" +
-            "4. Voeg groenten toe, kook 5 min, roer.\n" +
-            "5. Voeg rijst, zout, peper, kaneel toe, roer 2 min.\n" +
-            "6. Voeg 400 ml water toe, breng aan de kook.\n" +
-            "7. Dek af, laat 18-20 min zachtjes koken tot water is opgenomen.\n" +
-            "8. Laat 5 min rusten voor het serveren."
+            "1. Spoel de rijst onder koud water tot het water helder is en laat uitlekken.\n" +
+            "2. Verhit de olijfolie in een pan op middelhoog vuur.\n" +
+            "3. Voeg de ui toe en fruit 2–3 minuten tot glazig.\n" +
+            "4. Voeg wortel, courgette en doperwten toe en bak 4–5 minuten al roerend.\n" +
+            "5. Voeg de rijst, zout, peper en kaneel toe en meng 1–2 minuten.\n" +
+            "6. Schenk het hete water erbij en breng zachtjes aan de kook.\n" +
+            "7. Dek af en laat 18–20 minuten zachtjes koken tot het water is opgenomen.\n" +
+            "8. Laat 5 minuten rusten, maak los met een vork en serveer."
     },
+
     ar: {
         title: "الأرز اللبناني بالخضار",
-        equipment: ["قدر","سكين","لوح تقطيع","ملعقة خشبية"],
+        equipment: [
+            "قدر مع غطاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مصفاة"
+        ],
         ingredients: [
             "200 غ أرز بسمتي",
-            "بصلة متوسطة",
-            "1 جزرة (100 غ)",
-            "1 كوسة (150 غ)",
+            "بصلة متوسطة مفرومة ناعماً",
+            "جزرة (100 غ) مقطعة مكعبات",
+            "كوسة (150 غ) مقطعة مكعبات",
             "50 غ بازلاء",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 ملعقة كبيرة زيت زيتون",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
-            "ربع ملعقة صغيرة قرفة"
+            "ربع ملعقة صغيرة فلفل أسود",
+            "ربع ملعقة صغيرة قرفة مطحونة",
+            "400 مل ماء ساخن"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 25 دقيقة\n\n" +
-            "1. اغسل الأرز بماء بارد.\n" +
-            "2. فرّم البصلة، قطع الجزر والكوسة إلى مكعبات.\n" +
-            "3. سخّن الزيت في القدر، اقلي البصل 2 دقائق.\n" +
-            "4. أضف الخضار، اطه 5 دقائق مع التحريك.\n" +
-            "5. أضف الأرز، الملح، الفلفل، القرفة، قلب 2 دقائق.\n" +
-            "6. أضف 400 مل ماء، اغليه.\n" +
-            "7. غطِّ واطه على نار هادئة 18-20 دقيقة حتى يمتص الماء.\n" +
-            "8. اتركه 5 دقائق قبل التقديم."
+            "1. اغسل الأرز جيداً بالماء البارد حتى يصبح الماء صافياً ثم صفّه.\n" +
+            "2. سخّن زيت الزيتون في قدر على نار متوسطة.\n" +
+            "3. أضف البصل وقلِّه لمدة 2–3 دقائق حتى يذبل.\n" +
+            "4. أضف الجزر والكوسة والبازلاء واطهِ 4–5 دقائق مع التحريك.\n" +
+            "5. أضف الأرز والملح والفلفل والقرفة وقلّب لمدة 1–2 دقيقة.\n" +
+            "6. أضف الماء الساخن واتركه حتى يغلي غلياناً خفيفاً.\n" +
+            "7. غطِّ القدر وخفّف النار واتركه يطهى 18–20 دقيقة حتى يتشرب الماء.\n" +
+            "8. ارفعه عن النار واتركه يرتاح 5 دقائق ثم قدّمه."
     }
 };
 recipesData.plat.moussakaLibanaise = {
     country: "liban",
     image: "images/moussaka-libanaise.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 35,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Moussaka libanaise",
-        equipment: ["1 four","1 poêle","1 couteau","1 planche à découper","1 plat allant au four"],
+        equipment: [
+            "1 four",
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 plat allant au four",
+            "Papier absorbant"
+        ],
         ingredients: [
             "2 aubergines moyennes (environ 500 g)",
-            "2 tomates moyennes",
-            "1 oignon",
-            "2 gousses d’ail",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/4 cuillère à café cannelle moulue",
-            "50 g pignons (optionnel)"
+            "2 tomates moyennes, coupées en dés",
+            "1 oignon moyen, finement haché",
+            "2 gousses d’ail, hachées",
+            "3 cuillères à soupe d’huile d’olive",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/4 cuillère à café de cannelle moulue",
+            "50 g de pignons de pin (optionnel)"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 35 min\n\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Couper les aubergines en rondelles de 1 cm et les saler 10 min, puis essuyer l’eau.\n" +
-            "3. Hacher l’oignon et l’ail.\n" +
-            "4. Faire revenir oignon et ail 3 min dans 1 c. à soupe d’huile.\n" +
-            "5. Ajouter les tomates en dés, sel, poivre, cannelle, cuire 5 min.\n" +
-            "6. Dans un plat, disposer une couche d’aubergines, puis la moitié de la sauce.\n" +
-            "7. Répéter avec une autre couche d’aubergines et le reste de la sauce.\n" +
-            "8. Arroser d’une cuillère à soupe d’huile d’olive et parsemer de pignons.\n" +
-            "9. Cuire au four 25 minutes.\n" +
-            "10. Servir chaud ou tiède."
+            "2. Couper les aubergines en rondelles d’environ 1 cm d’épaisseur.\n" +
+            "3. Les saler légèrement et laisser dégorger 10 minutes, puis les essuyer avec du papier absorbant.\n" +
+            "4. Chauffer 2 cuillères à soupe d’huile d’olive dans une poêle et faire revenir les aubergines jusqu’à ce qu’elles soient dorées des deux côtés.\n" +
+            "5. Réserver les aubergines sur du papier absorbant.\n" +
+            "6. Dans la même poêle, ajouter le reste de l’huile d’olive, puis faire revenir l’oignon et l’ail 2 à 3 minutes jusqu’à ce qu’ils deviennent translucides.\n" +
+            "7. Ajouter les tomates, le sel, le poivre et la cannelle, puis laisser mijoter 5 minutes.\n" +
+            "8. Dans un plat allant au four, disposer une couche d’aubergines, puis la moitié de la sauce.\n" +
+            "9. Répéter l’opération avec le reste des aubergines et de la sauce.\n" +
+            "10. Parsemer de pignons de pin si utilisés.\n" +
+            "11. Enfourner et cuire 25 minutes.\n" +
+            "12. Servir chaud ou tiède."
     },
+
     en: {
-        title: "Lebanese Moussaka",
-        equipment: ["oven","pan","knife","cutting board","ovenproof dish"],
+        title: "Lebanese moussaka",
+        equipment: [
+            "1 oven",
+            "1 large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 ovenproof dish",
+            "Paper towels"
+        ],
         ingredients: [
-            "2 medium eggplants (~500 g)",
-            "2 medium tomatoes",
-            "1 onion",
-            "2 garlic cloves",
-            "2 tbsp olive oil",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/4 tsp ground cinnamon",
+            "2 medium eggplants (about 500 g)",
+            "2 medium tomatoes, diced",
+            "1 medium onion, finely chopped",
+            "2 garlic cloves, chopped",
+            "3 tablespoons olive oil",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
+            "1/4 teaspoon ground cinnamon",
             "50 g pine nuts (optional)"
         ],
         preparation:
-            "Preparation time: 15 min\nCooking time: 35 min\n\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Slice eggplants 1 cm, salt 10 min, then pat dry.\n" +
-            "3. Chop onion and garlic.\n" +
-            "4. Sauté onion and garlic 3 min in 1 tbsp oil.\n" +
-            "5. Add diced tomatoes, salt, pepper, cinnamon, cook 5 min.\n" +
-            "6. In dish, layer eggplants, half sauce.\n" +
-            "7. Repeat with remaining eggplants and sauce.\n" +
-            "8. Drizzle 1 tbsp olive oil, sprinkle pine nuts.\n" +
-            "9. Bake 25 min.\n" +
-            "10. Serve hot or warm."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Slice the eggplants into 1 cm thick rounds.\n" +
+            "3. Lightly salt them and let rest for 10 minutes, then pat dry.\n" +
+            "4. Heat 2 tablespoons of olive oil in a pan and fry the eggplant slices until golden on both sides.\n" +
+            "5. Set the eggplants aside on paper towels.\n" +
+            "6. In the same pan, add the remaining olive oil and sauté the onion and garlic for 2–3 minutes until translucent.\n" +
+            "7. Add tomatoes, salt, pepper and cinnamon, and simmer for 5 minutes.\n" +
+            "8. In an ovenproof dish, layer eggplants and half of the sauce.\n" +
+            "9. Repeat with remaining eggplants and sauce.\n" +
+            "10. Sprinkle with pine nuts if using.\n" +
+            "11. Bake for 25 minutes.\n" +
+            "12. Serve hot or warm."
     },
+
     nl: {
-        title: "Libanese Moussaka",
-        equipment: ["oven","pan","mes","snijplank","ovenvaste schaal"],
+        title: "Libanese moussaka",
+        equipment: [
+            "1 oven",
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 ovenschaal",
+            "Keukenpapier"
+        ],
         ingredients: [
-            "2 middelgrote aubergines (~500 g)",
-            "2 middelgrote tomaten",
-            "1 ui",
-            "2 teentjes knoflook",
-            "2 eetlepels olijfolie",
+            "2 middelgrote aubergines (ongeveer 500 g)",
+            "2 middelgrote tomaten, in blokjes",
+            "1 middelgrote ui, fijngehakt",
+            "2 teentjes knoflook, gehakt",
+            "3 eetlepels olijfolie",
             "1/2 theelepel zout",
             "1/4 theelepel peper",
             "1/4 theelepel kaneelpoeder",
             "50 g pijnboompitten (optioneel)"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 35 min\n\n" +
-            "1. Verwarm oven op 180°C.\n" +
-            "2. Snijd aubergines 1 cm, bestrooi met zout 10 min, dep droog.\n" +
-            "3. Hak ui en knoflook.\n" +
-            "4. Bak ui en knoflook 3 min in 1 el olie.\n" +
-            "5. Voeg tomaatblokjes, zout, peper, kaneel toe, 5 min koken.\n" +
-            "6. Leg in schaal: aubergines, helft saus.\n" +
-            "7. Herhaal met rest aubergines en saus.\n" +
-            "8. Besprenkel 1 el olie, strooi pijnboompitten.\n" +
-            "9. Bak 25 min.\n" +
-            "10. Serveer warm of lauw."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Snijd de aubergines in plakken van ongeveer 1 cm.\n" +
+            "3. Bestrooi licht met zout en laat 10 minuten rusten, dep daarna droog.\n" +
+            "4. Verhit 2 eetlepels olijfolie in een pan en bak de aubergines goudbruin aan beide kanten.\n" +
+            "5. Leg de aubergines op keukenpapier.\n" +
+            "6. Voeg in dezelfde pan de resterende olijfolie toe en bak ui en knoflook 2–3 minuten glazig.\n" +
+            "7. Voeg tomaten, zout, peper en kaneel toe en laat 5 minuten sudderen.\n" +
+            "8. Leg in een ovenschaal een laag aubergines en de helft van de saus.\n" +
+            "9. Herhaal met de rest van de aubergines en saus.\n" +
+            "10. Bestrooi met pijnboompitten indien gewenst.\n" +
+            "11. Bak 25 minuten in de oven.\n" +
+            "12. Serveer warm of lauwwarm."
     },
+
     ar: {
         title: "المسقعة اللبنانية",
-        equipment: ["فرن","مقلاة","سكين","لوح تقطيع","صحن فرن"],
+        equipment: [
+            "فرن",
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "صحن فرن",
+            "مناديل ورقية"
+        ],
         ingredients: [
-            "2 باذنجان متوسط (~500 غ)",
-            "2 طماطم متوسطة",
-            "1 بصلة",
-            "2 فص ثوم",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 باذنجان متوسط (حوالي 500 غ)",
+            "2 طماطم متوسطة مقطعة مكعبات",
+            "بصلة متوسطة مفرومة ناعماً",
+            "2 فص ثوم مفروم",
+            "3 ملاعق كبيرة زيت زيتون",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
+            "ربع ملعقة صغيرة فلفل أسود",
             "ربع ملعقة صغيرة قرفة مطحونة",
             "50 غ صنوبر (اختياري)"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 35 دقيقة\n\n" +
-            "1. سخّن الفرن على 180°م.\n" +
-            "2. قطع الباذنجان إلى شرائح 1 سم، رشه بالملح 10 دقائق، ثم امسح الماء.\n" +
-            "3. فرّم البصل والثوم.\n" +
-            "4. اقلي البصل والثوم 3 دقائق في ملعقة زيت.\n" +
-            "5. أضف الطماطم، الملح، الفلفل، القرفة، واطه 5 دقائق.\n" +
-            "6. ضع في صحن طبقة باذنجان ونصف الصلصة.\n" +
-            "7. كرر الطبقة المتبقية.\n" +
-            "8. رش ملعقة زيت، وزع الصنوبر.\n" +
-            "9. اخبز 25 دقيقة.\n" +
-            "10. قدم ساخناً أو دافئاً."
+            "1. سخّن الفرن إلى 180°م.\n" +
+            "2. قطّع الباذنجان إلى شرائح بسماكة 1 سم.\n" +
+            "3. رشّه بقليل من الملح واتركه 10 دقائق ثم امسحه جيداً.\n" +
+            "4. اقْلِ شرائح الباذنجان في ملعقتين من زيت الزيتون حتى تتحمر من الجانبين.\n" +
+            "5. ضع الباذنجان على مناديل ورقية.\n" +
+            "6. في نفس المقلاة أضف باقي الزيت واقلِ البصل والثوم 2–3 دقائق.\n" +
+            "7. أضف الطماطم والملح والفلفل والقرفة واتركها تطهى 5 دقائق.\n" +
+            "8. صفّ طبقة من الباذنجان في صحن فرن ثم نصف الصلصة.\n" +
+            "9. كرر الطبقات مع الكمية المتبقية.\n" +
+            "10. رشّ الصنوبر إذا رغبت.\n" +
+            "11. اخبز لمدة 25 دقيقة.\n" +
+            "12. قدّمها ساخنة أو دافئة."
     }
 };
 recipesData.plat.kebabLegumes = {
     country: "liban",
     image: "images/kebab-legumes.jpg",
-    persons: "4 personnes (8 brochettes)",
+
+    meta: {
+        servings: 4,
+        yield: "8 brochettes",
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Kebab libanais aux légumes grillés",
-        equipment: ["1 grill ou poêle grill","8 brochettes en bois","1 couteau","1 planche à découper","1 bol"],
+        equipment: [
+            "1 grill ou poêle grill",
+            "8 brochettes en bois",
+            "1 couteau",
+            "1 planche à découper",
+            "1 bol",
+            "1 pince de cuisine (facultatif)"
+        ],
         ingredients: [
-            "400 g viande hachée (bœuf ou agneau)",
-            "1 oignon moyen",
-            "1 poivron rouge",
-            "1 courgette",
-            "1 tomate",
-            "1 cuillère à café sel",
-            "1/2 cuillère à café poivre",
-            "1/2 cuillère à café paprika",
-            "1 cuillère à soupe huile d’olive"
+            "400 g de viande hachée (bœuf ou agneau)",
+            "1 oignon moyen, finement haché",
+            "1 poivron rouge, coupé en morceaux",
+            "1 courgette, coupée en rondelles épaisses",
+            "1 tomate, coupée en quartiers",
+            "1 cuillère à café de sel",
+            "1/2 cuillère à café de poivre",
+            "1/2 cuillère à café de paprika doux",
+            "1 cuillère à soupe d’huile d’olive"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Préchauffer le grill ou la poêle.\n" +
-            "2. Couper légumes en cubes d’environ 2 cm.\n" +
-            "3. Hacher finement l’oignon et mélanger avec viande, sel, poivre, paprika.\n" +
-            "4. Former 8 saucisses allongées pour les brochettes.\n" +
-            "5. Enfiler brochette alternant viande et légumes.\n" +
-            "6. Badigeonner d’huile d’olive.\n" +
-            "7. Griller 12-15 minutes, retourner régulièrement.\n" +
-            "8. Servir chaud avec riz ou pain pita."
+            "1. Si nécessaire, faire tremper les brochettes en bois dans l’eau pendant 10 minutes.\n" +
+            "2. Dans un bol, mélanger la viande hachée avec l’oignon, le sel, le poivre et le paprika jusqu’à obtenir une préparation homogène.\n" +
+            "3. Former 8 portions de viande en forme de boudins allongés.\n" +
+            "4. Couper les légumes en morceaux de taille régulière pour une cuisson uniforme.\n" +
+            "5. Enfiler sur chaque brochette un boudin de viande en alternance avec les légumes.\n" +
+            "6. Badigeonner légèrement les brochettes d’huile d’olive.\n" +
+            "7. Préchauffer le grill ou la poêle grill à feu moyen.\n" +
+            "8. Faire griller les brochettes 12 à 15 minutes en les retournant régulièrement jusqu’à ce que la viande soit bien cuite et dorée.\n" +
+            "9. Servir chaud avec du riz, une salade ou du pain pita."
     },
+
     en: {
-        title: "Lebanese Kebab with Grilled Vegetables",
-        equipment: ["grill or grill pan","8 wooden skewers","knife","cutting board","bowl"],
+        title: "Lebanese kebab with grilled vegetables",
+        equipment: [
+            "1 grill or grill pan",
+            "8 wooden skewers",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "Kitchen tongs (optional)"
+        ],
         ingredients: [
             "400 g minced meat (beef or lamb)",
-            "1 medium onion",
-            "1 red bell pepper",
-            "1 zucchini",
-            "1 tomato",
-            "1 tsp salt",
-            "1/2 tsp pepper",
-            "1/2 tsp paprika",
-            "1 tbsp olive oil"
+            "1 medium onion, finely chopped",
+            "1 red bell pepper, cut into pieces",
+            "1 zucchini, sliced thickly",
+            "1 tomato, cut into wedges",
+            "1 teaspoon salt",
+            "1/2 teaspoon black pepper",
+            "1/2 teaspoon sweet paprika",
+            "1 tablespoon olive oil"
         ],
         preparation:
-            "Preparation time: 15 min\nCooking time: 15 min\n\n" +
-            "1. Preheat grill or pan.\n" +
-            "2. Cut vegetables into 2 cm cubes.\n" +
-            "3. Finely chop onion, mix with meat, salt, pepper, paprika.\n" +
-            "4. Shape 8 elongated sausages for skewers.\n" +
-            "5. Thread skewers alternating meat and vegetables.\n" +
-            "6. Brush with olive oil.\n" +
-            "7. Grill 12-15 min, turn regularly.\n" +
-            "8. Serve hot with rice or pita."
+            "1. If needed, soak wooden skewers in water for 10 minutes.\n" +
+            "2. In a bowl, mix minced meat with onion, salt, pepper and paprika until well combined.\n" +
+            "3. Shape the mixture into 8 elongated meat portions.\n" +
+            "4. Cut the vegetables into evenly sized pieces.\n" +
+            "5. Thread meat and vegetables alternately onto the skewers.\n" +
+            "6. Lightly brush the skewers with olive oil.\n" +
+            "7. Preheat the grill or grill pan over medium heat.\n" +
+            "8. Grill the skewers for 12–15 minutes, turning regularly until the meat is fully cooked and nicely browned.\n" +
+            "9. Serve hot with rice, salad or pita bread."
     },
+
     nl: {
-        title: "Libanese Kebab met Gegrilde Groenten",
-        equipment: ["grill of grillpan","8 houten spiesjes","mes","snijplank","kom"],
+        title: "Libanese kebab met gegrilde groenten",
+        equipment: [
+            "1 grill of grillpan",
+            "8 houten spiesjes",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "Keukentang (optioneel)"
+        ],
         ingredients: [
             "400 g gehakt (rund of lam)",
-            "1 middelgrote ui",
-            "1 rode paprika",
-            "1 courgette",
-            "1 tomaat",
+            "1 middelgrote ui, fijngehakt",
+            "1 rode paprika, in stukken",
+            "1 courgette, in dikke plakjes",
+            "1 tomaat, in partjes",
             "1 theelepel zout",
             "1/2 theelepel peper",
-            "1/2 theelepel paprika",
+            "1/2 theelepel zoete paprika",
             "1 eetlepel olijfolie"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 15 min\n\n" +
-            "1. Verwarm grill of pan.\n" +
-            "2. Snijd groenten in blokjes van 2 cm.\n" +
-            "3. Hak ui fijn, meng met gehakt, zout, peper, paprika.\n" +
-            "4. Vorm 8 lange worstjes voor spiesjes.\n" +
-            "5. Rijg afwisselend vlees en groenten aan spiesjes.\n" +
-            "6. Bestrijk met olijfolie.\n" +
-            "7. Grill 12-15 min, regelmatig draaien.\n" +
-            "8. Serveer warm met rijst of pitabrood."
+            "1. Week de houten spiesjes indien nodig 10 minuten in water.\n" +
+            "2. Meng het gehakt met de ui, het zout, de peper en de paprika in een kom.\n" +
+            "3. Vorm 8 langwerpige porties van het vleesmengsel.\n" +
+            "4. Snijd de groenten in gelijke stukken.\n" +
+            "5. Rijg vlees en groenten afwisselend aan de spiesjes.\n" +
+            "6. Bestrijk de spiesjes licht met olijfolie.\n" +
+            "7. Verhit de grill of grillpan op middelhoog vuur.\n" +
+            "8. Grill de spiesjes 12–15 minuten en draai regelmatig tot het vlees gaar en goudbruin is.\n" +
+            "9. Serveer warm met rijst, salade of pitabrood."
     },
+
     ar: {
         title: "كباب لبناني بالخضار المشوية",
-        equipment: ["شواية أو مقلاة شواية","8 أسياخ خشبية","سكين","لوح تقطيع","وعاء"],
+        equipment: [
+            "شواية أو مقلاة شواية",
+            "8 أسياخ خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "ملقط مطبخ (اختياري)"
+        ],
         ingredients: [
             "400 غ لحم مفروم (بقر أو غنم)",
-            "بصلة متوسطة",
-            "فلفل أحمر",
-            "كوسة",
-            "طماطم",
-            "1 ملعقة صغيرة ملح",
-            "نصف ملعقة صغيرة فلفل",
-            "نصف ملعقة صغيرة بابريكا",
-            "1 ملعقة كبيرة زيت زيتون"
+            "بصلة متوسطة مفرومة ناعماً",
+            "فلفل أحمر مقطع",
+            "كوسة مقطعة شرائح سميكة",
+            "طماطم مقطعة أرباع",
+            "ملعقة صغيرة ملح",
+            "نصف ملعقة صغيرة فلفل أسود",
+            "نصف ملعقة صغيرة بابريكا حلوة",
+            "ملعقة كبيرة زيت زيتون"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 15 دقيقة\n\n" +
-            "1. سخّن الشواية أو المقلاة.\n" +
-            "2. قطع الخضار إلى مكعبات 2 سم.\n" +
-            "3. فرّم البصل واخلطه مع اللحم، الملح، الفلفل، البابريكا.\n" +
-            "4. شكّل 8 أصابع لأسياخ الكباب.\n" +
-            "5. ضع بالتناوب اللحم والخضار على الأسياخ.\n" +
-            "6. ادهن زيت الزيتون.\n" +
-            "7. اشوِ 12-15 دقيقة مع التقليب المستمر.\n" +
-            "8. قدم ساخناً مع الأرز أو خبز بيتا."
+            "1. إذا لزم الأمر، انقع الأسياخ الخشبية في الماء لمدة 10 دقائق.\n" +
+            "2. اخلط اللحم المفروم مع البصل والملح والفلفل والبابريكا في وعاء حتى يتجانس.\n" +
+            "3. شكّل 8 قطع لحم طويلة.\n" +
+            "4. قطّع الخضار إلى قطع متساوية الحجم.\n" +
+            "5. ضع اللحم والخضار بالتناوب على الأسياخ.\n" +
+            "6. ادهن الأسياخ بقليل من زيت الزيتون.\n" +
+            "7. سخّن الشواية أو المقلاة على نار متوسطة.\n" +
+            "8. اشوِ الكباب لمدة 12–15 دقيقة مع التقليب المنتظم حتى ينضج اللحم ويتحمر.\n" +
+            "9. قدّم ساخناً مع الأرز أو السلطة أو خبز البيتا."
     }
 };
 recipesData.plat.shawarmaAgneau = {
     country: "liban",
     image: "images/shawarma-agneau.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        marinationTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Shawarma d’agneau",
-        equipment: ["1 poêle","1 bol","1 couteau","1 planche à découper"],
+        equipment: [
+            "1 grande poêle",
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
             "500 g d’agneau désossé, coupé en fines lanières",
-            "2 cuillères à soupe yaourt nature",
-            "1 cuillère à soupe huile d’olive",
+            "2 cuillères à soupe de yaourt nature",
+            "1 cuillère à soupe d’huile d’olive",
             "1 gousse d’ail écrasée",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café paprika",
-            "1/4 cuillère à café cumin moulu"
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/2 cuillère à café de paprika",
+            "1/4 cuillère à café de cumin moulu",
+            "1/4 cuillère à café de coriandre moulue (optionnel)"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Mélanger yaourt, ail, sel, poivre, paprika et cumin dans un bol.\n" +
-            "2. Ajouter l’agneau et laisser mariner 10 minutes.\n" +
-            "3. Chauffer la poêle avec l’huile d’olive.\n" +
-            "4. Cuire l’agneau 10-12 minutes à feu moyen en remuant régulièrement.\n" +
-            "5. Servir chaud avec pain pita et salade."
+            "==============================\n" +
+            "PRÉPARATION DE LA MARINADE\n" +
+            "==============================\n\n" +
+            "1. Dans un bol, mélanger le yaourt, l’ail, le sel, le poivre, le paprika, le cumin et la coriandre.\n" +
+            "2. Ajouter les lanières d’agneau.\n" +
+            "3. Bien mélanger afin de les enrober uniformément.\n" +
+            "4. Couvrir et laisser mariner 10 minutes.\n\n" +
+            "==============================\n" +
+            "CUISSON DE L’AGNEAU\n" +
+            "==============================\n\n" +
+            "5. Chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "6. Ajouter l’agneau mariné.\n" +
+            "7. Cuire 10 à 12 minutes en remuant régulièrement jusqu’à ce qu’il soit bien doré et tendre.\n" +
+            "8. Rectifier l’assaisonnement si nécessaire.\n" +
+            "9. Servir chaud avec du pain pita, des crudités ou une salade."
     },
+
     en: {
-        title: "Lamb Shawarma",
-        equipment: ["pan","bowl","knife","cutting board"],
+        title: "Lamb shawarma",
+        equipment: [
+            "1 large pan",
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
             "500 g boneless lamb, thinly sliced",
-            "2 tbsp plain yogurt",
-            "1 tbsp olive oil",
+            "2 tablespoons plain yogurt",
+            "1 tablespoon olive oil",
             "1 garlic clove, crushed",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp paprika",
-            "1/4 tsp ground cumin"
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
+            "1/2 teaspoon paprika",
+            "1/4 teaspoon ground cumin",
+            "1/4 teaspoon ground coriander (optional)"
         ],
         preparation:
-            "Preparation time: 10 min\nCooking time: 15 min\n\n" +
-            "1. Mix yogurt, garlic, salt, pepper, paprika, cumin in a bowl.\n" +
-            "2. Add lamb, marinate 10 min.\n" +
-            "3. Heat pan with olive oil.\n" +
-            "4. Cook lamb 10-12 min on medium heat, stir often.\n" +
-            "5. Serve hot with pita bread and salad."
+            "==============================\n" +
+            "MARINADE PREPARATION\n" +
+            "==============================\n\n" +
+            "1. In a bowl, mix yogurt, garlic, salt, pepper, paprika, cumin and coriander.\n" +
+            "2. Add the lamb strips.\n" +
+            "3. Mix well to coat evenly.\n" +
+            "4. Cover and marinate for 10 minutes.\n\n" +
+            "==============================\n" +
+            "COOKING THE LAMB\n" +
+            "==============================\n\n" +
+            "5. Heat olive oil in a large pan over medium heat.\n" +
+            "6. Add the marinated lamb.\n" +
+            "7. Cook for 10–12 minutes, stirring frequently, until golden and tender.\n" +
+            "8. Adjust seasoning if needed.\n" +
+            "9. Serve hot with pita bread, salad or fresh vegetables."
     },
+
     nl: {
-        title: "Lams Shawarma",
-        equipment: ["pan","kom","mes","snijplank"],
+        title: "Lams shawarma",
+        equipment: [
+            "1 grote pan",
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
             "500 g lamsvlees zonder bot, in dunne reepjes",
             "2 eetlepels yoghurt naturel",
@@ -32288,45 +33932,84 @@ recipesData.plat.shawarmaAgneau = {
             "1/2 theelepel zout",
             "1/4 theelepel peper",
             "1/2 theelepel paprika",
-            "1/4 theelepel gemalen komijn"
+            "1/4 theelepel gemalen komijn",
+            "1/4 theelepel gemalen koriander (optioneel)"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 15 min\n\n" +
-            "1. Meng yoghurt, knoflook, zout, peper, paprika, komijn in kom.\n" +
-            "2. Voeg lamsvlees toe, marineer 10 min.\n" +
-            "3. Verhit pan met olijfolie.\n" +
-            "4. Bak lamsvlees 10-12 min op middelhoog vuur, regelmatig roeren.\n" +
-            "5. Serveer warm met pitabrood en salade."
+            "==============================\n" +
+            "BEREIDING VAN DE MARINADE\n" +
+            "==============================\n\n" +
+            "1. Meng yoghurt, knoflook, zout, peper, paprika, komijn en koriander in een kom.\n" +
+            "2. Voeg het lamsvlees toe.\n" +
+            "3. Meng goed zodat alles bedekt is.\n" +
+            "4. Laat 10 minuten marineren.\n\n" +
+            "==============================\n" +
+            "BAKKEN VAN HET LAMSVLEES\n" +
+            "==============================\n\n" +
+            "5. Verhit olijfolie in een grote pan op middelhoog vuur.\n" +
+            "6. Voeg het gemarineerde lamsvlees toe.\n" +
+            "7. Bak 10–12 minuten al roerend tot goudbruin en gaar.\n" +
+            "8. Breng indien nodig extra op smaak.\n" +
+            "9. Serveer warm met pitabrood, salade of rauwkost."
     },
+
     ar: {
         title: "شاورما لحم الضأن",
-        equipment: ["مقلاة","وعاء","سكين","لوح تقطيع"],
+        equipment: [
+            "مقلاة كبيرة",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
-            "500 غ لحم ضأن خالٍ من العظم، مقطع شرائح رفيعة",
-            "2 ملاعق كبيرة زبادي طبيعي",
+            "500 غ لحم ضأن خالٍ من العظم مقطع شرائح رفيعة",
+            "2 ملعقة كبيرة زبادي طبيعي",
             "1 ملعقة كبيرة زيت زيتون",
             "فص ثوم مهروس",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
+            "ربع ملعقة صغيرة فلفل أسود",
             "نصف ملعقة صغيرة بابريكا",
-            "ربع ملعقة صغيرة كمون"
+            "ربع ملعقة صغيرة كمون مطحون",
+            "ربع ملعقة صغيرة كزبرة مطحونة (اختياري)"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 15 دقيقة\n\n" +
-            "1. اخلط الزبادي، الثوم، الملح، الفلفل، البابريكا، الكمون في وعاء.\n" +
-            "2. أضف اللحم واتركه يتبل 10 دقائق.\n" +
-            "3. سخّن المقلاة مع زيت الزيتون.\n" +
-            "4. اطه اللحم 10-12 دقيقة على نار متوسطة مع التحريك المستمر.\n" +
-            "5. قدمه ساخناً مع خبز بيتا وسلطة."
+            "==============================\n" +
+            "تحضير التتبيلة\n" +
+            "==============================\n\n" +
+            "1. اخلط الزبادي مع الثوم والملح والفلفل والبابريكا والكمون والكزبرة في وعاء.\n" +
+            "2. أضف شرائح اللحم.\n" +
+            "3. قلّب جيداً حتى تتغطى بالكامل.\n" +
+            "4. غطِّ واتركه يتبل لمدة 10 دقائق.\n\n" +
+            "==============================\n" +
+            "طهي اللحم\n" +
+            "==============================\n\n" +
+            "5. سخّن زيت الزيتون في مقلاة كبيرة على نار متوسطة.\n" +
+            "6. أضف اللحم المتبل.\n" +
+            "7. اطهه 10–12 دقيقة مع التحريك حتى يتحمر وينضج.\n" +
+            "8. عدّل التتبيل إذا لزم الأمر.\n" +
+            "9. قدّمه ساخناً مع خبز البيتا أو السلطة أو الخضار الطازجة."
     }
 };
 recipesData.plat.fattoush = {
     country: "liban",
-    image: "images/fattoush.jpg",
-    persons: "4 personnes",
+    image: "images/fattoush.plat.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Fattoush libanais",
-        equipment: ["1 grand saladier","1 couteau","1 planche à découper","1 cuillère"],
+        equipment: [
+            "1 grand saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
             "2 tomates moyennes",
             "1 concombre",
@@ -32334,56 +34017,68 @@ recipesData.plat.fattoush = {
             "1 oignon rouge",
             "1 petite laitue",
             "1 poignée de menthe fraîche",
-            "2 cuillères à soupe jus de citron",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
+            "2 cuillères à soupe de jus de citron",
+            "2 cuillères à soupe d’huile d’olive",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
             "2 morceaux de pain pita grillé"
         ],
         preparation:
-            "Temps de préparation : 15 min\n\n" +
-            "1. Laver et couper tous les légumes en dés.\n" +
-            "2. Déchirer la laitue et la menthe.\n" +
-            "3. Mettre tous les légumes dans le saladier.\n" +
-            "4. Ajouter jus de citron, huile, sel et poivre.\n" +
-            "5. Mélanger délicatement.\n" +
-            "6. Ajouter le pain pita grillé émietté juste avant de servir."
+            "1. Laver soigneusement tous les légumes.\n" +
+            "2. Couper les tomates, le concombre, le poivron et l’oignon en dés.\n" +
+            "3. Déchirer la laitue et la menthe à la main.\n" +
+            "4. Mettre tous les légumes dans un grand saladier.\n" +
+            "5. Ajouter le jus de citron, l’huile d’olive, le sel et le poivre.\n" +
+            "6. Mélanger délicatement.\n" +
+            "7. Ajouter le pain pita grillé émietté juste avant de servir."
     },
+
     en: {
-        title: "Lebanese Fattoush",
-        equipment: ["large bowl","knife","cutting board","spoon"],
+        title: "Lebanese fattoush",
+        equipment: [
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
             "2 medium tomatoes",
             "1 cucumber",
             "1 green bell pepper",
             "1 red onion",
             "1 small lettuce",
-            "handful fresh mint",
-            "2 tbsp lemon juice",
-            "2 tbsp olive oil",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
+            "1 handful fresh mint",
+            "2 tablespoons lemon juice",
+            "2 tablespoons olive oil",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
             "2 pieces toasted pita bread"
         ],
         preparation:
-            "Preparation time: 15 min\n\n" +
-            "1. Wash and dice all vegetables.\n" +
-            "2. Tear lettuce and mint.\n" +
-            "3. Put all vegetables in bowl.\n" +
-            "4. Add lemon juice, oil, salt, pepper.\n" +
-            "5. Mix gently.\n" +
-            "6. Add crumbled toasted pita just before serving."
+            "1. Wash all vegetables thoroughly.\n" +
+            "2. Dice tomatoes, cucumber, bell pepper and onion.\n" +
+            "3. Tear lettuce and mint by hand.\n" +
+            "4. Place all vegetables in a large bowl.\n" +
+            "5. Add lemon juice, olive oil, salt and pepper.\n" +
+            "6. Gently toss to combine.\n" +
+            "7. Add crumbled toasted pita bread just before serving."
     },
+
     nl: {
-        title: "Libanese Fattoush",
-        equipment: ["grote kom","mes","snijplank","lepel"],
+        title: "Libanese fattoush",
+        equipment: [
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
             "2 middelgrote tomaten",
             "1 komkommer",
             "1 groene paprika",
             "1 rode ui",
             "1 kleine sla",
-            "handvol verse munt",
+            "1 handvol verse munt",
             "2 eetlepels citroensap",
             "2 eetlepels olijfolie",
             "1/2 theelepel zout",
@@ -32391,17 +34086,23 @@ recipesData.plat.fattoush = {
             "2 stukken geroosterd pitabrood"
         ],
         preparation:
-            "Bereidingstijd: 15 min\n\n" +
-            "1. Was en snijd alle groenten in blokjes.\n" +
-            "2. Scheur sla en munt.\n" +
-            "3. Doe alle groenten in kom.\n" +
-            "4. Voeg citroensap, olie, zout, peper toe.\n" +
-            "5. Meng voorzichtig.\n" +
-            "6. Voeg verkruimeld geroosterd pitabrood toe vlak voor serveren."
+            "1. Was alle groenten grondig.\n" +
+            "2. Snijd tomaten, komkommer, paprika en ui in blokjes.\n" +
+            "3. Scheur de sla en munt met de hand.\n" +
+            "4. Doe alle groenten in een grote kom.\n" +
+            "5. Voeg citroensap, olijfolie, zout en peper toe.\n" +
+            "6. Meng voorzichtig.\n" +
+            "7. Voeg het verkruimelde pitabrood toe vlak voor het serveren."
     },
+
     ar: {
         title: "فتوش لبناني",
-        equipment: ["وعاء كبير","سكين","لوح تقطيع","ملعقة"],
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
             "2 طماطم متوسطة",
             "1 خيار",
@@ -32409,325 +34110,458 @@ recipesData.plat.fattoush = {
             "1 بصلة حمراء",
             "1 خس صغير",
             "حفنة نعناع طازج",
-            "2 ملاعق كبيرة عصير ليمون",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 ملعقة كبيرة عصير ليمون",
+            "2 ملعقة كبيرة زيت زيتون",
             "نصف ملعقة صغيرة ملح",
             "ربع ملعقة صغيرة فلفل",
             "2 قطع خبز بيتا محمص"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\n\n" +
-            "1. غسل جميع الخضار وتقطيعها.\n" +
-            "2. تمزيق الخس والنعناع.\n" +
-            "3. ضع كل الخضار في الوعاء.\n" +
-            "4. أضف عصير الليمون، الزيت، الملح، الفلفل.\n" +
-            "5. قلب بلطف.\n" +
-            "6. أضف خبز البيت المحمص المفتت قبل التقديم مباشرة."
+            "1. اغسل جميع الخضار جيداً.\n" +
+            "2. قطّع الطماطم والخيار والفلفل والبصل إلى مكعبات.\n" +
+            "3. مزّق الخس والنعناع باليد.\n" +
+            "4. ضع جميع الخضار في وعاء كبير.\n" +
+            "5. أضف عصير الليمون وزيت الزيتون والملح والفلفل.\n" +
+            "6. قلّب بلطف.\n" +
+            "7. أضف خبز البيتا المحمص المفتت قبل التقديم مباشرة."
     }
 };
 recipesData.plat.kaftaFour = {
     country: "liban",
     image: "images/kafta-four.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Kafta au four",
-        equipment: ["1 plat allant au four","1 bol","1 couteau","1 planche à découper"],
+        equipment: [
+            "1 plat allant au four",
+            "1 grand bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
-            "400 g viande hachée (agneau ou bœuf)",
-            "1 oignon moyen râpé",
-            "2 cuillères à soupe persil haché",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café paprika",
-            "1/4 cuillère à café cannelle",
-            "1 cuillère à soupe huile d’olive"
+            "400 g de viande hachée (agneau ou bœuf)",
+            "1 oignon moyen, râpé finement",
+            "2 cuillères à soupe de persil frais haché",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/2 cuillère à café de paprika doux",
+            "1/4 cuillère à café de cannelle moulue",
+            "1 cuillère à soupe d’huile d’olive"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 20 min\n\n" +
             "1. Préchauffer le four à 200°C.\n" +
-            "2. Mélanger viande, oignon, persil, sel, poivre, paprika, cannelle dans un bol.\n" +
-            "3. Former des boulettes allongées ou cylindriques.\n" +
-            "4. Déposer dans le plat, badigeonner d’huile d’olive.\n" +
-            "5. Cuire 18-20 minutes, retourner à mi-cuisson.\n" +
-            "6. Servir chaud avec riz, salade ou pain pita."
+            "2. Mettre la viande hachée dans un grand bol.\n" +
+            "3. Ajouter l’oignon râpé, le persil, le sel, le poivre, le paprika et la cannelle.\n" +
+            "4. Mélanger soigneusement jusqu’à obtenir une préparation homogène.\n" +
+            "5. Former des bâtonnets ou boulettes allongées.\n" +
+            "6. Disposer la kafta dans un plat allant au four.\n" +
+            "7. Arroser légèrement d’huile d’olive.\n" +
+            "8. Enfourner et cuire 18 à 20 minutes en retournant à mi-cuisson.\n" +
+            "9. Servir chaud avec du riz, une salade ou du pain pita."
     },
+
     en: {
-        title: "Baked Kafta",
-        equipment: ["ovenproof dish","bowl","knife","cutting board"],
+        title: "Oven-baked kafta",
+        equipment: [
+            "1 ovenproof dish",
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
             "400 g minced meat (lamb or beef)",
-            "1 medium onion, grated",
-            "2 tbsp chopped parsley",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp paprika",
-            "1/4 tsp cinnamon",
-            "1 tbsp olive oil"
+            "1 medium onion, finely grated",
+            "2 tablespoons chopped fresh parsley",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
+            "1/2 teaspoon sweet paprika",
+            "1/4 teaspoon ground cinnamon",
+            "1 tablespoon olive oil"
         ],
         preparation:
-            "Preparation time: 10 min\nCooking time: 20 min\n\n" +
-            "1. Preheat oven to 200°C.\n" +
-            "2. Mix meat, onion, parsley, salt, pepper, paprika, cinnamon.\n" +
-            "3. Shape elongated or cylindrical meatballs.\n" +
-            "4. Place in dish, brush with olive oil.\n" +
-            "5. Bake 18-20 min, turn halfway.\n" +
-            "6. Serve hot with rice, salad or pita."
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Place the minced meat in a large bowl.\n" +
+            "3. Add grated onion, parsley, salt, pepper, paprika and cinnamon.\n" +
+            "4. Mix well until fully combined.\n" +
+            "5. Shape the mixture into elongated logs or oval patties.\n" +
+            "6. Arrange the kafta in an ovenproof dish.\n" +
+            "7. Lightly drizzle with olive oil.\n" +
+            "8. Bake for 18–20 minutes, turning halfway through.\n" +
+            "9. Serve hot with rice, salad or pita bread."
     },
+
     nl: {
         title: "Kafta uit de oven",
-        equipment: ["ovenvaste schaal","kom","mes","snijplank"],
+        equipment: [
+            "1 ovenschaal",
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
             "400 g gehakt (lam of rund)",
-            "1 middelgrote ui, geraspt",
-            "2 eetlepels peterselie, gehakt",
+            "1 middelgrote ui, fijn geraspt",
+            "2 eetlepels verse peterselie, gehakt",
             "1/2 theelepel zout",
             "1/4 theelepel peper",
-            "1/2 theelepel paprika",
-            "1/4 theelepel kaneel",
+            "1/2 theelepel zoete paprika",
+            "1/4 theelepel kaneelpoeder",
             "1 eetlepel olijfolie"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 20 min\n\n" +
-            "1. Verwarm oven op 200°C.\n" +
-            "2. Meng gehakt, ui, peterselie, zout, peper, paprika, kaneel.\n" +
-            "3. Vorm langwerpige of cilindrische gehaktballetjes.\n" +
-            "4. Leg in schaal, bestrijk met olijfolie.\n" +
-            "5. Bak 18-20 min, draai halverwege.\n" +
-            "6. Serveer warm met rijst, salade of pitabrood."
+            "1. Verwarm de oven voor op 200°C.\n" +
+            "2. Doe het gehakt in een grote kom.\n" +
+            "3. Voeg ui, peterselie, zout, peper, paprika en kaneel toe.\n" +
+            "4. Meng alles goed tot een egaal mengsel.\n" +
+            "5. Vorm langwerpige balletjes of staafjes.\n" +
+            "6. Leg de kafta in een ovenschaal.\n" +
+            "7. Besprenkel licht met olijfolie.\n" +
+            "8. Bak 18–20 minuten en draai halverwege om.\n" +
+            "9. Serveer warm met rijst, salade of pitabrood."
     },
+
     ar: {
         title: "كفتة بالفرن",
-        equipment: ["صحن فرن","وعاء","سكين","لوح تقطيع"],
+        equipment: [
+            "صحن فرن",
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
-            "400 غ لحم مفروم (ضأن أو بقري)",
-            "1 بصلة متوسطة مبشورة",
-            "2 ملاعق كبيرة بقدونس مفروم",
+            "400 غ لحم مفروم (ضأن أو بقر)",
+            "بصلة متوسطة مبشورة ناعماً",
+            "2 ملعقة كبيرة بقدونس طازج مفروم",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
-            "نصف ملعقة صغيرة بابريكا",
-            "ربع ملعقة صغيرة قرفة",
-            "1 ملعقة كبيرة زيت زيتون"
+            "ربع ملعقة صغيرة فلفل أسود",
+            "نصف ملعقة صغيرة بابريكا حلوة",
+            "ربع ملعقة صغيرة قرفة مطحونة",
+            "ملعقة كبيرة زيت زيتون"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 20 دقيقة\n\n" +
-            "1. سخن الفرن على 200°م.\n" +
-            "2. اخلط اللحم، البصل، البقدونس، الملح، الفلفل، البابريكا، القرفة.\n" +
-            "3. شكل كرات أو أصابع.\n" +
-            "4. ضعها في الصحن وادهن بزيت الزيتون.\n" +
-            "5. اخبز 18-20 دقيقة مع تقليب منتصف الوقت.\n" +
-            "6. قدم ساخناً مع الأرز، السلطة أو خبز بيتا."
+            "1. سخّن الفرن على 200°م.\n" +
+            "2. ضع اللحم المفروم في وعاء كبير.\n" +
+            "3. أضف البصل، البقدونس، الملح، الفلفل، البابريكا والقرفة.\n" +
+            "4. اخلط جيداً حتى تتجانس المكونات.\n" +
+            "5. شكّل الكفتة على شكل أصابع أو قطع بيضاوية.\n" +
+            "6. رصّها في صحن فرن.\n" +
+            "7. رشّ القليل من زيت الزيتون.\n" +
+            "8. اخبز لمدة 18–20 دقيقة مع التقليب في منتصف الوقت.\n" +
+            "9. قدّمها ساخنة مع الأرز أو السلطة أو خبز البيتا."
     }
 };
 recipesData.plat.rizPouletLibanais = {
     country: "liban",
     image: "images/riz-poulet-libanais.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Riz au poulet à la libanaise",
-        equipment: ["1 casserole","1 poêle","1 couteau","1 planche à découper","1 cuillère en bois"],
+        equipment: [
+            "1 grande casserole avec couvercle",
+            "1 poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "400 g de riz basmati",
-            "500 g de blanc de poulet coupé en dés",
-            "1 oignon moyen",
-            "2 gousses d’ail",
-            "1 poivron rouge",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café curcuma",
-            "1/4 cuillère à café cannelle",
-            "700 ml bouillon de légumes"
+            "300 g de riz basmati",
+            "500 g de blanc de poulet, coupé en dés",
+            "1 oignon moyen, finement haché",
+            "2 gousses d’ail, hachées",
+            "1 poivron rouge, coupé en petits dés",
+            "2 cuillères à soupe d’huile d’olive",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/2 cuillère à café de curcuma",
+            "1/4 cuillère à café de cannelle moulue",
+            "700 ml de bouillon de légumes chaud"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 25 min\n\n" +
-            "1. Hacher l’oignon et l’ail, couper poivron en dés.\n" +
-            "2. Chauffer 1 c. à soupe d’huile dans la poêle, faire revenir poulet 5 min.\n" +
-            "3. Ajouter oignon et ail, cuire 3 min.\n" +
-            "4. Ajouter poivron, sel, poivre, curcuma, cannelle, cuire 2 min.\n" +
-            "5. Dans casserole, ajouter riz, poulet et bouillon.\n" +
-            "6. Porter à ébullition, réduire feu, couvrir et cuire 15 min.\n" +
-            "7. Éteindre le feu, laisser reposer 5 min.\n" +
-            "8. Servir chaud."
+            "1. Rincer le riz à l’eau froide jusqu’à ce que l’eau soit claire, puis égoutter.\n" +
+            "2. Chauffer une cuillère à soupe d’huile d’olive dans une poêle à feu moyen.\n" +
+            "3. Ajouter le poulet et le faire revenir 4 à 5 minutes jusqu’à légère coloration.\n" +
+            "4. Ajouter l’oignon et l’ail, puis cuire 2 à 3 minutes jusqu’à ce qu’ils deviennent translucides.\n" +
+            "5. Incorporer le poivron, le sel, le poivre, le curcuma et la cannelle, puis mélanger 2 minutes.\n" +
+            "6. Verser le riz dans la casserole, ajouter le mélange poulet-légumes et le bouillon chaud.\n" +
+            "7. Porter à légère ébullition, couvrir, baisser le feu et cuire 15 minutes.\n" +
+            "8. Éteindre le feu et laisser reposer 5 minutes avant de servir chaud."
     },
+
     en: {
-        title: "Lebanese Chicken Rice",
-        equipment: ["saucepan","pan","knife","cutting board","wooden spoon"],
+        title: "Lebanese chicken rice",
+        equipment: [
+            "1 large saucepan with lid",
+            "1 pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
-            "400 g basmati rice",
-            "500 g chicken breast diced",
-            "1 medium onion",
-            "2 garlic cloves",
-            "1 red bell pepper",
-            "2 tbsp olive oil",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp turmeric",
-            "1/4 tsp cinnamon",
-            "700 ml vegetable broth"
+            "300 g basmati rice",
+            "500 g chicken breast, diced",
+            "1 medium onion, finely chopped",
+            "2 garlic cloves, chopped",
+            "1 red bell pepper, diced",
+            "2 tablespoons olive oil",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
+            "1/2 teaspoon turmeric",
+            "1/4 teaspoon ground cinnamon",
+            "700 ml hot vegetable broth"
         ],
         preparation:
-            "Preparation time: 15 min\nCooking time: 25 min\n\n" +
-            "1. Chop onion and garlic, dice bell pepper.\n" +
-            "2. Heat 1 tbsp oil in pan, sauté chicken 5 min.\n" +
-            "3. Add onion and garlic, cook 3 min.\n" +
-            "4. Add pepper, salt, pepper, turmeric, cinnamon, cook 2 min.\n" +
-            "5. In saucepan, add rice, chicken, and broth.\n" +
-            "6. Bring to boil, reduce heat, cover, cook 15 min.\n" +
-            "7. Turn off heat, let rest 5 min.\n" +
-            "8. Serve hot."
+            "1. Rinse the rice under cold water until clear, then drain.\n" +
+            "2. Heat one tablespoon of olive oil in a pan over medium heat.\n" +
+            "3. Add the chicken and sauté for 4–5 minutes until lightly browned.\n" +
+            "4. Add onion and garlic, cook for 2–3 minutes until translucent.\n" +
+            "5. Stir in bell pepper, salt, pepper, turmeric and cinnamon, cook for 2 minutes.\n" +
+            "6. Transfer rice to the saucepan, add the chicken mixture and hot broth.\n" +
+            "7. Bring to a gentle boil, cover, reduce heat and cook for 15 minutes.\n" +
+            "8. Remove from heat and let rest for 5 minutes before serving."
     },
+
     nl: {
-        title: "Libanese Kiprijst",
-        equipment: ["pan","koekenpan","mes","snijplank","houten lepel"],
+        title: "Libanese rijst met kip",
+        equipment: [
+            "1 grote pan met deksel",
+            "1 koekenpan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
-            "400 g basmatirijst",
-            "500 g kipfilet in blokjes",
-            "1 middelgrote ui",
-            "2 teentjes knoflook",
-            "1 rode paprika",
+            "300 g basmatirijst",
+            "500 g kipfilet, in blokjes",
+            "1 middelgrote ui, fijngehakt",
+            "2 teentjes knoflook, gehakt",
+            "1 rode paprika, in blokjes",
             "2 eetlepels olijfolie",
             "1/2 theelepel zout",
             "1/4 theelepel peper",
             "1/2 theelepel kurkuma",
-            "1/4 theelepel kaneel",
-            "700 ml groentebouillon"
+            "1/4 theelepel kaneelpoeder",
+            "700 ml hete groentebouillon"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 25 min\n\n" +
-            "1. Hak ui en knoflook, snijd paprika in blokjes.\n" +
-            "2. Verhit 1 el olie in pan, bak kip 5 min.\n" +
-            "3. Voeg ui en knoflook toe, 3 min bakken.\n" +
-            "4. Voeg paprika, zout, peper, kurkuma, kaneel toe, 2 min bakken.\n" +
-            "5. Voeg in pan rijst, kip en bouillon toe.\n" +
-            "6. Breng aan de kook, zet laag, deksel erop, 15 min koken.\n" +
-            "7. Haal van vuur, 5 min laten rusten.\n" +
-            "8. Serveer warm."
+            "1. Spoel de rijst onder koud water tot het water helder is en laat uitlekken.\n" +
+            "2. Verhit één eetlepel olijfolie in een pan op middelhoog vuur.\n" +
+            "3. Bak de kip 4–5 minuten tot licht goudbruin.\n" +
+            "4. Voeg ui en knoflook toe en bak 2–3 minuten tot glazig.\n" +
+            "5. Voeg paprika, zout, peper, kurkuma en kaneel toe en bak 2 minuten mee.\n" +
+            "6. Doe de rijst in de pan, voeg het kipmengsel en de hete bouillon toe.\n" +
+            "7. Breng zachtjes aan de kook, dek af en laat 15 minuten koken.\n" +
+            "8. Laat 5 minuten rusten voor het serveren."
     },
+
     ar: {
-        title: "رز بالدجاج على الطريقة اللبنانية",
-        equipment: ["قدر","مقلاة","سكين","لوح تقطيع","ملعقة خشبية"],
+        title: "أرز بالدجاج على الطريقة اللبنانية",
+        equipment: [
+            "قدر كبير مع غطاء",
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
-            "400 غ أرز بسمتي",
+            "300 غ أرز بسمتي",
             "500 غ صدور دجاج مقطعة مكعبات",
-            "1 بصلة متوسطة",
-            "2 فص ثوم",
-            "1 فلفل أحمر",
-            "2 ملاعق كبيرة زيت زيتون",
+            "بصلة متوسطة مفرومة ناعماً",
+            "2 فص ثوم مفروم",
+            "فلفل أحمر مقطع مكعبات",
+            "2 ملعقة كبيرة زيت زيتون",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
+            "ربع ملعقة صغيرة فلفل أسود",
             "نصف ملعقة صغيرة كركم",
-            "ربع ملعقة صغيرة قرفة",
-            "700 مل مرق خضار"
+            "ربع ملعقة صغيرة قرفة مطحونة",
+            "700 مل مرق خضار ساخن"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 25 دقيقة\n\n" +
-            "1. فرّم البصل والثوم وقطع الفلفل.\n" +
-            "2. سخّن ملعقة زيت، اقلي الدجاج 5 دقائق.\n" +
-            "3. أضف البصل والثوم، اطه 3 دقائق.\n" +
-            "4. أضف الفلفل، الملح، الفلفل، الكركم، القرفة، اطه 2 دقائق.\n" +
-            "5. ضع الأرز والدجاج والمرق في القدر.\n" +
-            "6. اغلي، خفف النار، غطِّ، اطه 15 دقيقة.\n" +
-            "7. اطفئ النار واتركه 5 دقائق.\n" +
-            "8. قدمه ساخناً."
+            "1. اغسل الأرز جيداً بالماء البارد حتى يصبح صافياً ثم صفّه.\n" +
+            "2. سخّن ملعقة زيت زيتون في مقلاة على نار متوسطة.\n" +
+            "3. اقْلِ الدجاج 4–5 دقائق حتى يتحمر قليلاً.\n" +
+            "4. أضف البصل والثوم واطهِ 2–3 دقائق حتى يذبلا.\n" +
+            "5. أضف الفلفل والملح والفلفل والكركم والقرفة وحرّك دقيقتين.\n" +
+            "6. ضع الأرز في القدر وأضف خليط الدجاج ومرق الخضار الساخن.\n" +
+            "7. اتركه حتى يغلي غلياناً خفيفاً، ثم غطِّ وخفف النار واطهِ 15 دقيقة.\n" +
+            "8. اتركه يرتاح 5 دقائق قبل التقديم."
     }
 };
 recipesData.plat.samkehHarra = {
     country: "liban",
     image: "images/samkeh-harra.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Samkeh Harra",
-        equipment: ["1 poêle","1 couteau","1 planche à découper","1 bol","1 cuillère en bois"],
+        equipment: [
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 bol",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "500 g filet de poisson blanc ferme (ex: cabillaud)",
+            "500 g de filet de poisson blanc ferme (cabillaud ou colin)",
             "1 poivron rouge",
-            "2 tomates",
+            "2 tomates mûres",
             "2 gousses d’ail",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café paprika",
-            "1/4 cuillère à café piment doux"
+            "2 cuillères à soupe d’huile d’olive",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/2 cuillère à café de paprika",
+            "1/4 cuillère à café de piment doux",
+            "1 cuillère à soupe de coriandre fraîche hachée (optionnel)"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Couper le poivron et les tomates en dés, hacher l’ail.\n" +
-            "2. Chauffer huile dans poêle, ajouter ail 1 min.\n" +
-            "3. Ajouter poivron et tomates, cuire 5 min.\n" +
-            "4. Ajouter sel, poivre, paprika, piment, bien mélanger.\n" +
-            "5. Ajouter poisson, cuire 8-10 min en retournant une fois.\n" +
-            "6. Servir chaud avec riz ou pain."
+            "1. Couper le poivron et les tomates en petits dés et hacher l’ail.\n" +
+            "2. Chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "3. Ajouter l’ail et faire revenir 1 minute sans le colorer.\n" +
+            "4. Ajouter le poivron et les tomates, cuire 5 minutes jusqu’à obtenir une sauce.\n" +
+            "5. Assaisonner avec le sel, le poivre, le paprika et le piment doux.\n" +
+            "6. Déposer les filets de poisson dans la sauce.\n" +
+            "7. Couvrir et cuire 8 à 10 minutes en retournant le poisson une fois.\n" +
+            "8. Parsemer de coriandre et servir chaud avec du riz ou du pain pita."
     },
+
     en: {
         title: "Samkeh Harra",
-        equipment: ["pan","knife","cutting board","bowl","wooden spoon"],
+        equipment: [
+            "1 large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "1 wooden spoon"
+        ],
         ingredients: [
-            "500 g firm white fish fillet (e.g., cod)",
+            "500 g firm white fish fillet (cod or hake)",
             "1 red bell pepper",
-            "2 tomatoes",
+            "2 ripe tomatoes",
             "2 garlic cloves",
-            "2 tbsp olive oil",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp paprika",
-            "1/4 tsp sweet chili powder"
+            "2 tablespoons olive oil",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper",
+            "1/2 teaspoon paprika",
+            "1/4 teaspoon mild chili powder",
+            "1 tablespoon chopped fresh coriander (optional)"
         ],
         preparation:
-            "Preparation time: 10 min\nCooking time: 15 min\n\n" +
-            "1. Dice pepper and tomatoes, chop garlic.\n" +
-            "2. Heat oil in pan, add garlic 1 min.\n" +
-            "3. Add pepper and tomatoes, cook 5 min.\n" +
-            "4. Add salt, pepper, paprika, chili, mix well.\n" +
-            "5. Add fish, cook 8-10 min, turn once.\n" +
-            "6. Serve hot with rice or bread."
+            "1. Dice the bell pepper and tomatoes, finely chop the garlic.\n" +
+            "2. Heat olive oil in a large pan over medium heat.\n" +
+            "3. Add garlic and sauté for 1 minute.\n" +
+            "4. Add pepper and tomatoes, cook for 5 minutes to form a sauce.\n" +
+            "5. Season with salt, pepper, paprika and chili.\n" +
+            "6. Place the fish fillets into the sauce.\n" +
+            "7. Cover and cook for 8–10 minutes, turning once.\n" +
+            "8. Sprinkle with coriander and serve hot with rice or pita bread."
     },
+
     nl: {
         title: "Samkeh Harra",
-        equipment: ["pan","mes","snijplank","kom","houten lepel"],
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "1 houten lepel"
+        ],
         ingredients: [
-            "500 g stevige witte visfilet (bijv. kabeljauw)",
+            "500 g stevige witte visfilet (kabeljauw of koolvis)",
             "1 rode paprika",
-            "2 tomaten",
+            "2 rijpe tomaten",
             "2 teentjes knoflook",
             "2 eetlepels olijfolie",
             "1/2 theelepel zout",
             "1/4 theelepel peper",
             "1/2 theelepel paprika",
-            "1/4 theelepel zoete chili"
+            "1/4 theelepel milde chili",
+            "1 eetlepel verse koriander, fijngehakt (optioneel)"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 15 min\n\n" +
-            "1. Snijd paprika en tomaten, hak knoflook.\n" +
-            "2. Verhit olie in pan, voeg knoflook 1 min.\n" +
-            "3. Voeg paprika en tomaten toe, 5 min koken.\n" +
-            "4. Voeg zout, peper, paprika, chili toe, goed mengen.\n" +
-            "5. Voeg vis toe, 8-10 min koken, 1 keer draaien.\n" +
-            "6. Serveer warm met rijst of brood."
+            "1. Snijd paprika en tomaten in kleine blokjes en hak de knoflook fijn.\n" +
+            "2. Verhit olijfolie in een grote pan op middelhoog vuur.\n" +
+            "3. Voeg knoflook toe en bak 1 minuut.\n" +
+            "4. Voeg paprika en tomaten toe en kook 5 minuten tot een saus.\n" +
+            "5. Breng op smaak met zout, peper, paprika en chili.\n" +
+            "6. Leg de vis in de saus.\n" +
+            "7. Dek af en laat 8–10 minuten zachtjes garen, eenmaal keren.\n" +
+            "8. Bestrooi met koriander en serveer warm met rijst of pitabrood."
     },
+
     ar: {
         title: "سمك حارة",
-        equipment: ["مقلاة","سكين","لوح تقطيع","وعاء","ملعقة خشبية"],
+        equipment: [
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "ملعقة خشبية"
+        ],
         ingredients: [
-            "500 غ فيليه سمك أبيض صلب (مثل القد)",
+            "500 غ فيليه سمك أبيض صلب (قد أو ميرلا)",
             "1 فلفل أحمر",
-            "2 طماطم",
+            "2 طماطم ناضجة",
             "2 فص ثوم",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 ملعقة كبيرة زيت زيتون",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
+            "ربع ملعقة صغيرة فلفل أسود",
             "نصف ملعقة صغيرة بابريكا",
-            "ربع ملعقة صغيرة فلفل حلو"
+            "ربع ملعقة صغيرة فلفل حار خفيف",
+            "ملعقة كبيرة كزبرة خضراء مفرومة (اختياري)"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 15 دقيقة\n\n" +
-            "1. قطع الفلفل والطماطم، فرّم الثوم.\n" +
-            "2. سخّن الزيت في المقلاة، أضف الثوم دقيقة.\n" +
-            "3. أضف الفلفل والطماطم، اطه 5 دقائق.\n" +
-            "4. أضف الملح، الفلفل، البابريكا، الفلفل الحلو، قلب جيداً.\n" +
-            "5. أضف السمك، اطه 8-10 دقائق مع التقليب مرة واحدة.\n" +
-            "6. قدم ساخناً مع الأرز أو الخبز."
+            "1. قطّع الفلفل والطماطم إلى مكعبات صغيرة وافرُم الثوم.\n" +
+            "2. سخّن زيت الزيتون في مقلاة كبيرة على نار متوسطة.\n" +
+            "3. أضف الثوم وقلّبه لمدة دقيقة.\n" +
+            "4. أضف الفلفل والطماطم واطهها 5 دقائق حتى تتكون صلصة.\n" +
+            "5. أضف الملح، الفلفل، البابريكا والفلفل الحار.\n" +
+            "6. ضع السمك في الصلصة.\n" +
+            "7. غطِّ المقلاة واتركه يطهى 8–10 دقائق مع تقليبه مرة واحدة.\n" +
+            "8. زيّن بالكزبرة وقدّم ساخناً مع الأرز أو خبز البيتا."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 recipesData.patisserie.baklava = {
