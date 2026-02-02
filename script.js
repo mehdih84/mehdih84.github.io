@@ -35848,28 +35848,19 @@ recipesData.dessert.atayefNoix = {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 recipesData.entree.mercimek = {
     country: "turquie",
     image: "images/mercimek.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Mercimek Çorbası (Soupe de lentilles turque) (4 personnes)",
+        title: "Mercimek Çorbası (Soupe de lentilles turque)",
         equipment: [
             "1 casserole moyenne",
             "1 couteau",
@@ -35880,30 +35871,32 @@ recipesData.entree.mercimek = {
             "1 balance de cuisine"
         ],
         ingredients: [
-            "200 g lentilles rouges",
-            "1 carotte moyenne (100 g), coupée en dés",
+            "200 g de lentilles rouges",
             "1 oignon moyen (100 g), haché",
+            "1 carotte moyenne (100 g), coupée en dés",
             "1 pomme de terre moyenne (150 g), coupée en dés",
-            "1 cuillère à soupe concentré de tomate (15 g)",
-            "1 cuillère à soupe huile d’olive (15 ml)",
-            "1 litre d’eau ou bouillon de légumes",
-            "1/2 cuillère à café paprika doux (1 g)",
-            "Sel et poivre selon goût",
-            "Persil frais pour garnir (10 g)"
+            "1 cuillère à soupe de concentré de tomate (15 g)",
+            "1 cuillère à soupe d’huile d’olive (15 ml)",
+            "1 litre d’eau ou de bouillon de légumes",
+            "1/2 cuillère à café de paprika doux (1 g)",
+            "1/2 cuillère à café de cumin moulu (1 g)",
+            "Sel et poivre selon le goût",
+            "Persil ou menthe sèche pour servir (10 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Rincer les lentilles à l’eau froide.\n" +
-            "2. Dans une casserole, chauffer l’huile d’olive, ajouter l’oignon et la carotte, faire revenir 3-4 minutes.\n" +
-            "3. Ajouter la pomme de terre et le concentré de tomate, mélanger 2 minutes.\n" +
-            "4. Ajouter les lentilles et l’eau ou bouillon, porter à ébullition.\n" +
-            "5. Réduire le feu et cuire 20-25 minutes jusqu’à ce que les légumes et lentilles soient tendres.\n" +
-            "6. Mixer la soupe avec un mixeur plongeant pour obtenir une texture lisse.\n" +
-            "7. Assaisonner avec sel, poivre et paprika.\n" +
-            "8. Servir chaud, garni de persil frais."
+            "1. Rincer soigneusement les lentilles à l’eau froide.\n" +
+            "2. Dans une casserole, chauffer l’huile d’olive à feu moyen.\n" +
+            "3. Ajouter l’oignon et la carotte, faire revenir 3 à 4 minutes sans coloration.\n" +
+            "4. Ajouter la pomme de terre et le concentré de tomate, mélanger 2 minutes.\n" +
+            "5. Incorporer les lentilles puis verser l’eau ou le bouillon.\n" +
+            "6. Porter à ébullition, puis baisser le feu et laisser mijoter 25 à 30 minutes.\n" +
+            "7. Mixer la soupe jusqu’à obtenir une texture lisse et homogène.\n" +
+            "8. Assaisonner avec le sel, le poivre, le paprika et le cumin.\n" +
+            "9. Servir chaud, garni de persil frais ou de menthe sèche."
     },
+
     en: {
-        title: "Mercimek Çorbası (Turkish Lentil Soup) (Serves 4)",
+        title: "Mercimek Çorbası (Turkish Lentil Soup)",
         equipment: [
             "1 medium saucepan",
             "1 knife",
@@ -35915,29 +35908,31 @@ recipesData.entree.mercimek = {
         ],
         ingredients: [
             "200 g red lentils",
-            "1 medium carrot (100 g), diced",
             "1 medium onion (100 g), chopped",
+            "1 medium carrot (100 g), diced",
             "1 medium potato (150 g), diced",
             "1 tbsp tomato paste (15 g)",
             "1 tbsp olive oil (15 ml)",
             "1 liter water or vegetable broth",
             "1/2 tsp sweet paprika (1 g)",
+            "1/2 tsp ground cumin (1 g)",
             "Salt and pepper to taste",
-            "Fresh parsley for garnish (10 g)"
+            "Parsley or dried mint for serving (10 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Rinse lentils under cold water.\n" +
-            "2. In a saucepan, heat olive oil, add onion and carrot, sauté 3-4 minutes.\n" +
-            "3. Add potato and tomato paste, stir 2 minutes.\n" +
-            "4. Add lentils and water or broth, bring to a boil.\n" +
-            "5. Reduce heat and cook 20-25 minutes until vegetables and lentils are tender.\n" +
-            "6. Blend the soup with a hand blender until smooth.\n" +
-            "7. Season with salt, pepper, and paprika.\n" +
-            "8. Serve hot, garnished with fresh parsley."
+            "1. Rinse the lentils thoroughly under cold water.\n" +
+            "2. Heat olive oil in a saucepan over medium heat.\n" +
+            "3. Add onion and carrot, sauté for 3–4 minutes without browning.\n" +
+            "4. Add potato and tomato paste, stir for 2 minutes.\n" +
+            "5. Add lentils and pour in the water or broth.\n" +
+            "6. Bring to a boil, then reduce heat and simmer for 25–30 minutes.\n" +
+            "7. Blend the soup until smooth and creamy.\n" +
+            "8. Season with salt, pepper, paprika, and cumin.\n" +
+            "9. Serve hot, topped with parsley or dried mint."
     },
+
     nl: {
-        title: "Mercimek Çorbası (Turkse linzensoep) (voor 4 personen)",
+        title: "Mercimek Çorbası (Turkse linzensoep)",
         equipment: [
             "1 middelgrote pan",
             "1 mes",
@@ -35949,29 +35944,31 @@ recipesData.entree.mercimek = {
         ],
         ingredients: [
             "200 g rode linzen",
+            "1 middelgrote ui (100 g), fijngehakt",
             "1 middelgrote wortel (100 g), in blokjes",
-            "1 middelgrote ui (100 g), gehakt",
             "1 middelgrote aardappel (150 g), in blokjes",
             "1 eetlepel tomatenpuree (15 g)",
             "1 eetlepel olijfolie (15 ml)",
             "1 liter water of groentebouillon",
             "1/2 theelepel zoete paprika (1 g)",
+            "1/2 theelepel gemalen komijn (1 g)",
             "Zout en peper naar smaak",
-            "Verse peterselie voor garnering (10 g)"
+            "Peterselie of gedroogde munt voor serveren (10 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Spoel de linzen onder koud water.\n" +
-            "2. Verhit olijfolie in een pan, voeg ui en wortel toe, bak 3-4 minuten.\n" +
-            "3. Voeg aardappel en tomatenpuree toe, roer 2 minuten.\n" +
-            "4. Voeg linzen en water of bouillon toe, breng aan de kook.\n" +
-            "5. Zet het vuur laag en kook 20-25 minuten tot groenten en linzen zacht zijn.\n" +
-            "6. Pureer de soep met een staafmixer tot een gladde textuur.\n" +
-            "7. Breng op smaak met zout, peper en paprika.\n" +
-            "8. Serveer heet, garneer met verse peterselie."
+            "1. Spoel de linzen grondig onder koud water.\n" +
+            "2. Verhit de olijfolie in een pan op middelhoog vuur.\n" +
+            "3. Voeg ui en wortel toe en bak 3–4 minuten zonder te kleuren.\n" +
+            "4. Voeg aardappel en tomatenpuree toe, roer 2 minuten.\n" +
+            "5. Voeg linzen en water of bouillon toe.\n" +
+            "6. Breng aan de kook en laat 25–30 minuten zachtjes koken.\n" +
+            "7. Pureer de soep tot een glad geheel.\n" +
+            "8. Breng op smaak met zout, peper, paprika en komijn.\n" +
+            "9. Serveer heet met peterselie of gedroogde munt."
     },
+
     ar: {
-        title: "شوربة العدس التركية (Mercimek Çorbası) (تكفي 4 أشخاص)",
+        title: "شوربة العدس التركية (Mercimek Çorbası)",
         equipment: [
             "قدر متوسط",
             "سكين",
@@ -35983,1022 +35980,1348 @@ recipesData.entree.mercimek = {
         ],
         ingredients: [
             "200 غ عدس أحمر",
-            "1 جزرة متوسطة (100 غ)، مقطعة مكعبات",
             "1 بصلة متوسطة (100 غ)، مفرومة",
+            "1 جزرة متوسطة (100 غ)، مقطعة مكعبات",
             "1 بطاطس متوسطة (150 غ)، مقطعة مكعبات",
             "1 ملعقة كبيرة معجون طماطم (15 غ)",
             "1 ملعقة كبيرة زيت زيتون (15 مل)",
             "1 لتر ماء أو مرق خضار",
-            "1/2 ملعقة صغيرة فلفل حلو (1 غ)",
+            "1/2 ملعقة صغيرة بابريكا حلوة (1 غ)",
+            "1/2 ملعقة صغيرة كمون مطحون (1 غ)",
             "ملح وفلفل حسب الرغبة",
-            "بقدونس طازج للتزيين (10 غ)"
+            "بقدونس أو نعناع مجفف للتقديم (10 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اغسل العدس بالماء البارد.\n" +
-            "2. في قدر، سخن زيت الزيتون، أضف البصل والجزر، قلب 3-4 دقائق.\n" +
-            "3. أضف البطاطس ومعجون الطماطم، قلب لمدة دقيقتين.\n" +
-            "4. أضف العدس والماء أو المرق، واتركه حتى الغليان.\n" +
-            "5. خفف النار واطه 20-25 دقيقة حتى تصبح الخضار والعدس طرية.\n" +
-            "6. اخلط الشوربة بخلاط يدوي حتى تصبح ناعمة.\n" +
-            "7. تبّل بالملح والفلفل والبابريكا.\n" +
-            "8. قدمها ساخنة وزينها بالبقدونس الطازج."
+            "1. اغسل العدس جيدًا بالماء البارد.\n" +
+            "2. سخّن زيت الزيتون في قدر على نار متوسطة.\n" +
+            "3. أضف البصل والجزر وقلّب لمدة 3–4 دقائق دون تحمير.\n" +
+            "4. أضف البطاطس ومعجون الطماطم وحرّك دقيقتين.\n" +
+            "5. أضف العدس ثم الماء أو المرق.\n" +
+            "6. اتركه حتى يغلي ثم خفف النار واطهه 25–30 دقيقة.\n" +
+            "7. اخلط الشوربة حتى تصبح ناعمة.\n" +
+            "8. تبّل بالملح والفلفل والبابريكا والكمون.\n" +
+            "9. قدّمها ساخنة ومزيّنة بالبقدونس أو النعناع المجفف."
     }
 };
 recipesData.entree.ezogelinCorbasi = {
     country: "turquie",
     image: "images/ezogelin-corbasi.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Soupe Ezogelin",
-        equipment: ["1 casserole","1 cuillère en bois","1 mixeur plongeant"],
+        title: "Ezogelin Çorbası (Soupe turque Ezogelin)",
+        equipment: [
+            "1 casserole moyenne",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 mixeur plongeant"
+        ],
         ingredients: [
-            "100 g lentilles rouges",
-            "50 g boulgour fin",
-            "1 oignon moyen",
-            "1 carotte",
-            "1 tomate",
-            "1 litre eau",
-            "2 cuillères à soupe huile d’olive",
-            "1 cuillère à café sel",
-            "1/2 cuillère à café poivre",
-            "1/2 cuillère à café paprika doux",
-            "1/2 cuillère à café menthe séchée"
+            "100 g de lentilles rouges",
+            "50 g de boulgour fin",
+            "1 oignon moyen (100 g), haché",
+            "1 carotte moyenne (100 g), coupée en petits dés",
+            "1 tomate mûre (120 g), râpée ou finement hachée",
+            "1 cuillère à soupe de concentré de tomate (15 g)",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 litre d’eau ou de bouillon de légumes",
+            "1/2 cuillère à café de paprika doux (1 g)",
+            "1/2 cuillère à café de cumin moulu (1 g)",
+            "1/2 cuillère à café de menthe séchée (1 g)",
+            "Sel et poivre selon le goût"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 30 min\n\n" +
-            "1. Éplucher et couper l’oignon, carotte et tomate en petits dés.\n" +
-            "2. Rincer les lentilles et le boulgour.\n" +
-            "3. Chauffer huile d’olive dans une casserole.\n" +
-            "4. Faire revenir l’oignon 3 min.\n" +
-            "5. Ajouter carotte, tomate, lentilles, boulgour et eau.\n" +
-            "6. Ajouter sel, poivre, paprika, menthe.\n" +
-            "7. Porter à ébullition puis réduire le feu.\n" +
-            "8. Laisser mijoter 25 min jusqu’à tendreté.\n" +
-            "9. Mixer la soupe pour obtenir texture lisse.\n" +
+            "1. Rincer soigneusement les lentilles et le boulgour sous l’eau froide.\n" +
+            "2. Chauffer l’huile d’olive dans une casserole à feu moyen.\n" +
+            "3. Ajouter l’oignon et faire revenir 3 minutes jusqu’à ce qu’il devienne translucide.\n" +
+            "4. Ajouter la carotte, la tomate râpée et le concentré de tomate, mélanger 2 minutes.\n" +
+            "5. Incorporer les lentilles et le boulgour.\n" +
+            "6. Verser l’eau ou le bouillon et porter à ébullition.\n" +
+            "7. Ajouter le sel, le poivre, le paprika, le cumin et la menthe.\n" +
+            "8. Réduire le feu et laisser mijoter 25 à 30 minutes jusqu’à ce que tout soit bien tendre.\n" +
+            "9. Mixer la soupe jusqu’à obtenir une texture lisse ou légèrement épaisse.\n" +
             "10. Servir chaud."
     },
+
     en: {
-        title: "Ezogelin Soup",
-        equipment: ["1 pot","wooden spoon","immersion blender"],
+        title: "Ezogelin Çorbası (Turkish Ezogelin Soup)",
+        equipment: [
+            "1 medium saucepan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 hand blender"
+        ],
         ingredients: [
             "100 g red lentils",
             "50 g fine bulgur",
-            "1 medium onion",
-            "1 carrot",
-            "1 tomato",
-            "1 liter water",
-            "2 tbsp olive oil",
-            "1 tsp salt",
-            "1/2 tsp pepper",
-            "1/2 tsp sweet paprika",
-            "1/2 tsp dried mint"
+            "1 medium onion (100 g), chopped",
+            "1 medium carrot (100 g), finely diced",
+            "1 ripe tomato (120 g), grated or finely chopped",
+            "1 tbsp tomato paste (15 g)",
+            "2 tbsp olive oil (30 ml)",
+            "1 liter water or vegetable broth",
+            "1/2 tsp sweet paprika (1 g)",
+            "1/2 tsp ground cumin (1 g)",
+            "1/2 tsp dried mint (1 g)",
+            "Salt and pepper to taste"
         ],
         preparation:
-            "Prep time: 10 min\nCooking time: 30 min\n\n" +
-            "1. Peel and dice onion, carrot, tomato.\n" +
-            "2. Rinse lentils and bulgur.\n" +
-            "3. Heat olive oil in pot.\n" +
-            "4. Sauté onion 3 min.\n" +
-            "5. Add carrot, tomato, lentils, bulgur, water.\n" +
-            "6. Add salt, pepper, paprika, mint.\n" +
-            "7. Bring to boil, then reduce heat.\n" +
-            "8. Simmer 25 min until tender.\n" +
-            "9. Blend soup until smooth.\n" +
+            "1. Rinse lentils and bulgur thoroughly under cold water.\n" +
+            "2. Heat olive oil in a saucepan over medium heat.\n" +
+            "3. Add onion and sauté for 3 minutes until translucent.\n" +
+            "4. Add carrot, grated tomato, and tomato paste, stir for 2 minutes.\n" +
+            "5. Add lentils and bulgur.\n" +
+            "6. Pour in water or broth and bring to a boil.\n" +
+            "7. Add salt, pepper, paprika, cumin, and dried mint.\n" +
+            "8. Reduce heat and simmer for 25–30 minutes until tender.\n" +
+            "9. Blend the soup until smooth or slightly thick.\n" +
             "10. Serve hot."
     },
+
     nl: {
-        title: "Ezogelin soep",
-        equipment: ["1 pan","houten lepel","staafmixer"],
+        title: "Ezogelin Çorbası (Turkse Ezogelin-soep)",
+        equipment: [
+            "1 middelgrote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 staafmixer"
+        ],
         ingredients: [
             "100 g rode linzen",
             "50 g fijne bulgur",
-            "1 middelgrote ui",
-            "1 wortel",
-            "1 tomaat",
-            "1 liter water",
-            "2 eetlepels olijfolie",
-            "1 theelepel zout",
-            "1/2 theelepel peper",
-            "1/2 theelepel zoete paprika",
-            "1/2 theelepel gedroogde munt"
+            "1 middelgrote ui (100 g), fijngehakt",
+            "1 middelgrote wortel (100 g), fijn gesneden",
+            "1 rijpe tomaat (120 g), geraspt of fijngehakt",
+            "1 eetlepel tomatenpuree (15 g)",
+            "2 eetlepels olijfolie (30 ml)",
+            "1 liter water of groentebouillon",
+            "1/2 theelepel zoete paprika (1 g)",
+            "1/2 theelepel gemalen komijn (1 g)",
+            "1/2 theelepel gedroogde munt (1 g)",
+            "Zout en peper naar smaak"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 30 min\n\n" +
-            "1. Schil en snijd ui, wortel en tomaat in kleine blokjes.\n" +
-            "2. Spoel linzen en bulgur af.\n" +
-            "3. Verhit olijfolie in pan.\n" +
-            "4. Bak ui 3 min.\n" +
-            "5. Voeg wortel, tomaat, linzen, bulgur, water toe.\n" +
-            "6. Voeg zout, peper, paprika, munt toe.\n" +
-            "7. Breng aan de kook en zet dan vuur laag.\n" +
-            "8. Laat 25 min zachtjes koken tot alles gaar is.\n" +
-            "9. Pureer de soep tot gladde massa.\n" +
+            "1. Spoel de linzen en bulgur grondig onder koud water.\n" +
+            "2. Verhit de olijfolie in een pan op middelhoog vuur.\n" +
+            "3. Voeg de ui toe en bak 3 minuten tot glazig.\n" +
+            "4. Voeg wortel, tomaat en tomatenpuree toe en roer 2 minuten.\n" +
+            "5. Voeg linzen en bulgur toe.\n" +
+            "6. Giet het water of de bouillon erbij en breng aan de kook.\n" +
+            "7. Voeg zout, peper, paprika, komijn en munt toe.\n" +
+            "8. Laat 25–30 minuten zachtjes koken tot alles gaar is.\n" +
+            "9. Pureer de soep tot glad of licht gebonden.\n" +
             "10. Serveer warm."
     },
+
     ar: {
-        title: "شوربة إزوجلِن",
-        equipment: ["قدر","ملعقة خشبية","خلاط يدوي"],
+        title: "شوربة إزوجلين التركية (Ezogelin Çorbası)",
+        equipment: [
+            "قدر متوسط",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "خلاط يدوي"
+        ],
         ingredients: [
             "100 غ عدس أحمر",
             "50 غ برغل ناعم",
-            "1 بصلة متوسطة",
-            "1 جزرة",
-            "1 طماطم",
-            "1 لتر ماء",
-            "2 ملاعق كبيرة زيت زيتون",
-            "1 ملعقة صغيرة ملح",
-            "نصف ملعقة صغيرة فلفل",
-            "نصف ملعقة صغيرة بابريكا حلوة",
-            "نصف ملعقة صغيرة نعناع مجفف"
+            "1 بصلة متوسطة (100 غ)، مفرومة",
+            "1 جزرة متوسطة (100 غ)، مفرومة ناعماً",
+            "1 طماطم ناضجة (120 غ)، مبشورة أو مفرومة",
+            "1 ملعقة كبيرة معجون طماطم (15 غ)",
+            "2 ملعقة كبيرة زيت زيتون (30 مل)",
+            "1 لتر ماء أو مرق خضار",
+            "1/2 ملعقة صغيرة بابريكا حلوة (1 غ)",
+            "1/2 ملعقة صغيرة كمون مطحون (1 غ)",
+            "1/2 ملعقة صغيرة نعناع مجفف (1 غ)",
+            "ملح وفلفل حسب الرغبة"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 30 دقيقة\n\n" +
-            "1. قشّر وقطع البصل والجزر والطماطم إلى مكعبات صغيرة.\n" +
-            "2. اغسل العدس والبرغل.\n" +
-            "3. سخّن زيت الزيتون في القدر.\n" +
-            "4. قلّب البصل 3 دقائق.\n" +
-            "5. أضف الجزر، الطماطم، العدس، البرغل والماء.\n" +
-            "6. أضف الملح، الفلفل، البابريكا، النعناع.\n" +
-            "7. اتركه حتى الغليان ثم خفف النار.\n" +
-            "8. اتركه يغلي 25 دقيقة حتى يصبح لينًا.\n" +
-            "9. اخلط الشوربة حتى تصبح ناعمة.\n" +
-            "10. قدمها ساخنة."
+            "1. اغسل العدس والبرغل جيدًا بالماء البارد.\n" +
+            "2. سخّن زيت الزيتون في قدر على نار متوسطة.\n" +
+            "3. أضف البصل وقلّبه 3 دقائق حتى يصبح شفافًا.\n" +
+            "4. أضف الجزر والطماطم ومعجون الطماطم وحرّك دقيقتين.\n" +
+            "5. أضف العدس والبرغل.\n" +
+            "6. اسكب الماء أو المرق واتركه حتى الغليان.\n" +
+            "7. أضف الملح والفلفل والبابريكا والكمون والنعناع.\n" +
+            "8. خفف النار واتركه يطهى 25–30 دقيقة حتى ينضج.\n" +
+            "9. اخلط الشوربة حتى تصبح ناعمة أو كثيفة قليلاً.\n" +
+            "10. قدّمها ساخنة."
     }
 };
 recipesData.entree.cobanSalatasi = {
     country: "turquie",
     image: "images/coban-salatasi.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade du berger",
-        equipment: ["1 saladier","1 couteau","1 planche à découper","1 cuillère"],
+        title: "Çoban Salatası (Salade turque du berger)",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
-            "2 tomates moyennes",
-            "1 concombre",
-            "1 poivron vert",
-            "1 oignon rouge petit",
-            "10 feuilles de persil",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre noir",
+            "2 tomates moyennes (300 g)",
+            "1 concombre (250 g)",
+            "1 poivron vert (120 g)",
+            "1 petit oignon rouge (60 g)",
+            "1 petit bouquet de persil frais (10 g)",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre noir",
             "1/2 citron (jus)"
         ],
         preparation:
-            "Temps de préparation : 10 min\n\n" +
-            "1. Laver tous les légumes.\n" +
-            "2. Couper tomates, concombre et poivron en petits dés.\n" +
-            "3. Émincer finement l’oignon et le persil.\n" +
-            "4. Mettre tous les légumes dans le saladier.\n" +
-            "5. Ajouter huile d’olive, sel, poivre et jus de citron.\n" +
-            "6. Mélanger délicatement.\n" +
-            "7. Servir immédiatement ou réfrigérer 15 min pour plus de fraîcheur."
+            "1. Laver soigneusement tous les légumes.\n" +
+            "2. Couper les tomates, le concombre et le poivron en petits dés réguliers.\n" +
+            "3. Émincer finement l’oignon rouge et ciseler le persil.\n" +
+            "4. Mettre tous les légumes dans un saladier.\n" +
+            "5. Ajouter l’huile d’olive, le sel, le poivre et le jus de citron.\n" +
+            "6. Mélanger délicatement pour bien enrober les légumes.\n" +
+            "7. Servir immédiatement ou réserver au frais 10 à 15 minutes avant de servir."
     },
+
     en: {
-        title: "Shepherd's Salad",
-        equipment: ["1 bowl","knife","cutting board","spoon"],
+        title: "Çoban Salatası (Turkish Shepherd’s Salad)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
-            "2 medium tomatoes",
-            "1 cucumber",
-            "1 green bell pepper",
-            "1 small red onion",
-            "10 parsley leaves",
-            "2 tbsp olive oil",
+            "2 medium tomatoes (300 g)",
+            "1 cucumber (250 g)",
+            "1 green pepper (120 g)",
+            "1 small red onion (60 g)",
+            "1 small bunch fresh parsley (10 g)",
+            "2 tbsp olive oil (30 ml)",
             "1/2 tsp salt",
             "1/4 tsp black pepper",
             "1/2 lemon (juice)"
         ],
         preparation:
-            "Prep time: 10 min\n\n" +
-            "1. Wash all vegetables.\n" +
-            "2. Dice tomatoes, cucumber, bell pepper.\n" +
-            "3. Finely chop onion and parsley.\n" +
-            "4. Put all vegetables in a bowl.\n" +
-            "5. Add olive oil, salt, pepper, lemon juice.\n" +
-            "6. Mix gently.\n" +
-            "7. Serve immediately or chill 15 min for freshness."
+            "1. Wash all vegetables thoroughly.\n" +
+            "2. Dice the tomatoes, cucumber, and green pepper into small pieces.\n" +
+            "3. Finely slice the red onion and chop the parsley.\n" +
+            "4. Place all vegetables in a bowl.\n" +
+            "5. Add olive oil, salt, black pepper, and lemon juice.\n" +
+            "6. Gently toss to combine.\n" +
+            "7. Serve immediately or chill for 10–15 minutes before serving."
     },
+
     nl: {
-        title: "Herder salade",
-        equipment: ["1 kom","mes","snijplank","lepel"],
+        title: "Çoban Salatası (Turkse herdersalade)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
-            "2 middelgrote tomaten",
-            "1 komkommer",
-            "1 groene paprika",
-            "1 kleine rode ui",
-            "10 peterseliebladeren",
-            "2 eetlepels olijfolie",
+            "2 middelgrote tomaten (300 g)",
+            "1 komkommer (250 g)",
+            "1 groene paprika (120 g)",
+            "1 kleine rode ui (60 g)",
+            "1 klein bosje verse peterselie (10 g)",
+            "2 eetlepels olijfolie (30 ml)",
             "1/2 theelepel zout",
             "1/4 theelepel zwarte peper",
             "1/2 citroen (sap)"
         ],
         preparation:
-            "Bereidingstijd: 10 min\n\n" +
-            "1. Was alle groenten.\n" +
-            "2. Snijd tomaten, komkommer en paprika in kleine blokjes.\n" +
-            "3. Snijd ui en peterselie fijn.\n" +
+            "1. Was alle groenten grondig.\n" +
+            "2. Snijd de tomaten, komkommer en paprika in kleine blokjes.\n" +
+            "3. Snijd de rode ui fijn en hak de peterselie.\n" +
             "4. Doe alle groenten in een kom.\n" +
             "5. Voeg olijfolie, zout, peper en citroensap toe.\n" +
             "6. Meng voorzichtig.\n" +
-            "7. Serveer direct of koel 15 min voor frisheid."
+            "7. Serveer direct of laat 10–15 minuten koelen in de koelkast."
     },
+
     ar: {
-        title: "سلطة الراعي",
-        equipment: ["وعاء","سكين","لوح تقطيع","ملعقة"],
+        title: "سلطة تشوبان التركية (Çoban Salatası)",
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
-            "2 طماطم متوسطة",
-            "1 خيار",
-            "1 فلفل أخضر",
-            "1 بصلة حمراء صغيرة",
-            "10 أوراق بقدونس",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 طماطم متوسطة (300 غ)",
+            "1 خيار (250 غ)",
+            "1 فلفل أخضر (120 غ)",
+            "1 بصلة حمراء صغيرة (60 غ)",
+            "باقة صغيرة بقدونس طازج (10 غ)",
+            "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "نصف ملعقة صغيرة ملح",
             "ربع ملعقة صغيرة فلفل أسود",
             "نصف ليمونة (عصير)"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\n\n" +
-            "1. اغسل جميع الخضروات.\n" +
-            "2. قطع الطماطم، الخيار، الفلفل إلى مكعبات صغيرة.\n" +
-            "3. فرّم البصل والبقدونس ناعماً.\n" +
+            "1. اغسل جميع الخضروات جيدًا.\n" +
+            "2. قطّع الطماطم والخيار والفلفل إلى مكعبات صغيرة.\n" +
+            "3. فرّم البصل الأحمر ناعمًا وقطّع البقدونس.\n" +
             "4. ضع جميع الخضار في وعاء.\n" +
-            "5. أضف زيت الزيتون، الملح، الفلفل، عصير الليمون.\n" +
-            "6. اخلط برفق.\n" +
-            "7. قدمها مباشرة أو ضعها في الثلاجة 15 دقيقة للانتعاش."
+            "5. أضف زيت الزيتون والملح والفلفل وعصير الليمون.\n" +
+            "6. اخلط برفق حتى تتجانس المكونات.\n" +
+            "7. قدّمها مباشرة أو اتركها في الثلاجة 10–15 دقيقة قبل التقديم."
     }
 };
 recipesData.entree.mucver = {
     country: "turquie",
     image: "images/mucver.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Galettes de courgettes",
-        equipment: ["1 bol","1 poêle","1 cuillère","1 râpe","papier absorbant"],
+        title: "Mücver (Galettes de courgettes turques)",
+        equipment: [
+            "1 grand bol",
+            "1 râpe",
+            "1 couteau",
+            "1 poêle",
+            "1 cuillère",
+            "papier absorbant"
+        ],
         ingredients: [
-            "3 courgettes moyennes",
-            "1 oignon moyen",
+            "3 courgettes moyennes (600 g)",
+            "1 oignon moyen (100 g)",
             "2 œufs",
-            "50 g farine",
-            "1 cuillère à café sel",
-            "1/2 cuillère à café poivre",
-            "2 cuillères à soupe persil frais haché",
-            "3 cuillères à soupe huile pour cuisson"
+            "50 g de farine",
+            "1/2 cuillère à café de sel",
+            "1/2 cuillère à café de poivre noir",
+            "2 cuillères à soupe de persil frais haché",
+            "3 cuillères à soupe d’huile pour la cuisson"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Laver et râper les courgettes.\n" +
-            "2. Presser pour enlever l’excès d’eau.\n" +
+            "1. Laver les courgettes puis les râper finement.\n" +
+            "2. Presser fortement les courgettes râpées pour retirer l’excès d’eau.\n" +
             "3. Râper l’oignon et l’ajouter aux courgettes.\n" +
-            "4. Ajouter œufs, farine, sel, poivre et persil. Mélanger.\n" +
-            "5. Chauffer huile dans poêle.\n" +
-            "6. Former petites galettes avec cuillère et déposer dans poêle.\n" +
-            "7. Cuire 3-4 min de chaque côté jusqu’à doré.\n" +
-            "8. Égoutter sur papier absorbant.\n" +
-            "9. Servir chaud avec yaourt ou sauce au choix."
+            "4. Incorporer les œufs, la farine, le sel, le poivre et le persil.\n" +
+            "5. Mélanger jusqu’à obtenir une préparation homogène.\n" +
+            "6. Chauffer l’huile dans une poêle à feu moyen.\n" +
+            "7. Déposer des petites portions de pâte à l’aide d’une cuillère.\n" +
+            "8. Cuire 3 à 4 minutes de chaque côté jusqu’à ce que les galettes soient bien dorées.\n" +
+            "9. Égoutter sur du papier absorbant.\n" +
+            "10. Servir chaud, nature ou avec un yaourt nature."
     },
+
     en: {
-        title: "Zucchini Fritters",
-        equipment: ["1 bowl","1 pan","spoon","grater","paper towel"],
+        title: "Mücver (Turkish Zucchini Fritters)",
+        equipment: [
+            "1 large bowl",
+            "1 grater",
+            "1 knife",
+            "1 frying pan",
+            "1 spoon",
+            "paper towel"
+        ],
         ingredients: [
-            "3 medium zucchinis",
-            "1 medium onion",
+            "3 medium zucchinis (600 g)",
+            "1 medium onion (100 g)",
             "2 eggs",
             "50 g flour",
-            "1 tsp salt",
-            "1/2 tsp pepper",
+            "1/2 tsp salt",
+            "1/2 tsp black pepper",
             "2 tbsp chopped fresh parsley",
             "3 tbsp oil for cooking"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 15 min\n\n" +
-            "1. Wash and grate zucchinis.\n" +
-            "2. Squeeze out excess water.\n" +
-            "3. Grate onion and add to zucchinis.\n" +
-            "4. Add eggs, flour, salt, pepper, parsley. Mix well.\n" +
-            "5. Heat oil in pan.\n" +
-            "6. Form small patties with spoon, place in pan.\n" +
-            "7. Cook 3-4 min each side until golden.\n" +
-            "8. Drain on paper towel.\n" +
-            "9. Serve hot with yogurt or sauce."
+            "1. Wash and finely grate the zucchinis.\n" +
+            "2. Squeeze well to remove excess moisture.\n" +
+            "3. Grate the onion and add it to the zucchinis.\n" +
+            "4. Add eggs, flour, salt, pepper, and parsley.\n" +
+            "5. Mix until well combined.\n" +
+            "6. Heat oil in a pan over medium heat.\n" +
+            "7. Spoon small portions into the pan.\n" +
+            "8. Cook for 3–4 minutes per side until golden brown.\n" +
+            "9. Drain on paper towels.\n" +
+            "10. Serve hot, plain or with natural yogurt."
     },
+
     nl: {
-        title: "Courgette pannenkoekjes",
-        equipment: ["1 kom","1 pan","lepel","rasp","keukenpapier"],
+        title: "Mücver (Turkse courgettekoekjes)",
+        equipment: [
+            "1 grote kom",
+            "1 rasp",
+            "1 mes",
+            "1 pan",
+            "1 lepel",
+            "keukenpapier"
+        ],
         ingredients: [
-            "3 middelgrote courgettes",
-            "1 middelgrote ui",
+            "3 middelgrote courgettes (600 g)",
+            "1 middelgrote ui (100 g)",
             "2 eieren",
             "50 g bloem",
-            "1 theelepel zout",
-            "1/2 theelepel peper",
+            "1/2 theelepel zout",
+            "1/2 theelepel zwarte peper",
             "2 eetlepels fijngehakte peterselie",
             "3 eetlepels olie om te bakken"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 15 min\n\n" +
-            "1. Was en rasp de courgettes.\n" +
-            "2. Knijp overtollig water eruit.\n" +
-            "3. Rasp ui en voeg toe aan courgettes.\n" +
-            "4. Voeg eieren, bloem, zout, peper, peterselie toe. Meng goed.\n" +
-            "5. Verhit olie in pan.\n" +
-            "6. Vorm kleine pannenkoekjes met lepel en leg in pan.\n" +
-            "7. Bak 3-4 min per kant tot goudbruin.\n" +
-            "8. Laat uitlekken op keukenpapier.\n" +
-            "9. Serveer warm met yoghurt of saus."
+            "1. Was en rasp de courgettes fijn.\n" +
+            "2. Knijp het overtollige vocht eruit.\n" +
+            "3. Rasp de ui en voeg toe aan de courgettes.\n" +
+            "4. Voeg eieren, bloem, zout, peper en peterselie toe.\n" +
+            "5. Meng tot een egaal beslag.\n" +
+            "6. Verhit olie in een pan op middelhoog vuur.\n" +
+            "7. Schep kleine hoopjes beslag in de pan.\n" +
+            "8. Bak 3–4 minuten per kant tot goudbruin.\n" +
+            "9. Laat uitlekken op keukenpapier.\n" +
+            "10. Serveer warm, eventueel met natuur yoghurt."
     },
+
     ar: {
-        title: "فطائر الكوسا",
-        equipment: ["وعاء","مقلاة","ملعقة","مبشرة","ورق مطبخ"],
+        title: "مُجْفَر التركي (فطائر الكوسا)",
+        equipment: [
+            "وعاء كبير",
+            "مبشرة",
+            "سكين",
+            "مقلاة",
+            "ملعقة",
+            "ورق مطبخ"
+        ],
         ingredients: [
-            "3 كوسا متوسطة",
-            "1 بصلة متوسطة",
+            "3 كوسا متوسطة (600 غ)",
+            "1 بصلة متوسطة (100 غ)",
             "2 بيض",
             "50 غ دقيق",
-            "1 ملعقة صغيرة ملح",
-            "نصف ملعقة صغيرة فلفل",
-            "2 ملاعق كبيرة بقدونس مفروم",
-            "3 ملاعق كبيرة زيت للطهي"
+            "نصف ملعقة صغيرة ملح",
+            "نصف ملعقة صغيرة فلفل أسود",
+            "2 ملعقة كبيرة بقدونس مفروم",
+            "3 ملاعق كبيرة زيت للقلي"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 15 دقيقة\n\n" +
-            "1. اغسل وابشر الكوسا.\n" +
-            "2. اعصر لإزالة الماء الزائد.\n" +
-            "3. ابشر البصل وأضفه للكوسا.\n" +
-            "4. أضف البيض، الدقيق، الملح، الفلفل والبقدونس. اخلط جيداً.\n" +
-            "5. سخّن الزيت في المقلاة.\n" +
-            "6. شكل فطائر صغيرة بالملعقة وضعها في المقلاة.\n" +
-            "7. اطه 3-4 دقائق لكل جانب حتى يصبح ذهبي اللون.\n" +
-            "8. صفّها على ورق المطبخ.\n" +
-            "9. قدمها ساخنة مع الزبادي أو الصلصة."
+            "1. اغسل الكوسا وابشرها ناعماً.\n" +
+            "2. اعصرها جيداً للتخلص من الماء الزائد.\n" +
+            "3. ابشر البصل وأضفه إلى الكوسا.\n" +
+            "4. أضف البيض والدقيق والملح والفلفل والبقدونس.\n" +
+            "5. اخلط حتى تتجانس المكونات.\n" +
+            "6. سخّن الزيت في مقلاة على نار متوسطة.\n" +
+            "7. ضع كميات صغيرة من الخليط في المقلاة.\n" +
+            "8. اطهها 3–4 دقائق لكل جانب حتى تصبح ذهبية.\n" +
+            "9. صفّها على ورق المطبخ.\n" +
+            "10. قدّمها ساخنة، مع لبن طبيعي إن رغبت."
     }
 };
 recipesData.entree.patlicanSalatasi = {
     country: "turquie",
     image: "images/patlican-salatasi.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade d’aubergines grillées",
-        equipment: ["1 four","1 plat","1 couteau","1 planche à découper","1 bol"],
+        title: "Patlıcan Salatası (Salade d’aubergines turque)",
+        equipment: [
+            "1 four",
+            "1 plaque de cuisson",
+            "1 couteau",
+            "1 planche à découper",
+            "1 saladier"
+        ],
         ingredients: [
-            "2 aubergines moyennes",
-            "2 tomates",
-            "1 oignon rouge petit",
+            "2 aubergines moyennes (500 g)",
+            "2 tomates mûres (300 g)",
+            "1 petit oignon rouge (60 g)",
             "2 gousses d’ail",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1 cuillère à soupe persil frais haché",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre noir",
+            "1 cuillère à soupe de persil frais haché",
             "1/2 citron (jus)"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 25 min\n\n" +
             "1. Préchauffer le four à 200°C.\n" +
-            "2. Laver et piquer les aubergines à la fourchette.\n" +
-            "3. Placer les aubergines sur une plaque et cuire 20 min jusqu’à ce qu’elles ramollissent.\n" +
-            "4. Laisser refroidir, puis enlever la peau et couper en petits dés.\n" +
-            "5. Couper tomates et oignon en petits dés.\n" +
-            "6. Émincer l’ail.\n" +
-            "7. Mettre aubergines, tomates, oignon, ail dans un bol.\n" +
-            "8. Ajouter huile d’olive, sel, poivre, jus de citron et persil.\n" +
+            "2. Laver les aubergines et les piquer à la fourchette.\n" +
+            "3. Les déposer sur une plaque et les enfourner 20 à 25 minutes jusqu’à ce qu’elles soient bien tendres.\n" +
+            "4. Laisser refroidir légèrement, retirer la peau puis couper la chair en petits dés.\n" +
+            "5. Couper les tomates en petits dés et émincer finement l’oignon rouge.\n" +
+            "6. Hacher finement l’ail.\n" +
+            "7. Mettre les aubergines, tomates, oignon et ail dans un saladier.\n" +
+            "8. Ajouter l’huile d’olive, le sel, le poivre et le jus de citron.\n" +
             "9. Mélanger délicatement.\n" +
-            "10. Servir frais."
+            "10. Parsemer de persil et servir frais ou à température ambiante."
     },
+
     en: {
-        title: "Grilled Eggplant Salad",
-        equipment: ["1 oven","1 tray","knife","cutting board","1 bowl"],
+        title: "Patlıcan Salatası (Turkish Eggplant Salad)",
+        equipment: [
+            "1 oven",
+            "1 baking tray",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl"
+        ],
         ingredients: [
-            "2 medium eggplants",
-            "2 tomatoes",
-            "1 small red onion",
+            "2 medium eggplants (500 g)",
+            "2 ripe tomatoes (300 g)",
+            "1 small red onion (60 g)",
             "2 garlic cloves",
-            "2 tbsp olive oil",
+            "2 tbsp olive oil (30 ml)",
             "1/2 tsp salt",
-            "1/4 tsp pepper",
+            "1/4 tsp black pepper",
             "1 tbsp chopped fresh parsley",
             "1/2 lemon (juice)"
         ],
         preparation:
-            "Prep time: 10 min\nCooking time: 25 min\n\n" +
-            "1. Preheat oven to 200°C.\n" +
-            "2. Wash and prick eggplants with fork.\n" +
-            "3. Place on tray and bake 20 min until soft.\n" +
-            "4. Cool, peel, and dice eggplants.\n" +
-            "5. Dice tomatoes and onion.\n" +
-            "6. Mince garlic.\n" +
-            "7. Put eggplant, tomatoes, onion, garlic in bowl.\n" +
-            "8. Add olive oil, salt, pepper, lemon juice, parsley.\n" +
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Wash the eggplants and prick them with a fork.\n" +
+            "3. Place on a baking tray and roast for 20–25 minutes until very soft.\n" +
+            "4. Let cool slightly, peel, and dice the flesh.\n" +
+            "5. Dice the tomatoes and finely slice the red onion.\n" +
+            "6. Finely chop the garlic.\n" +
+            "7. Combine eggplant, tomatoes, onion, and garlic in a bowl.\n" +
+            "8. Add olive oil, salt, black pepper, and lemon juice.\n" +
             "9. Mix gently.\n" +
-            "10. Serve chilled."
+            "10. Sprinkle with parsley and serve cool or at room temperature."
     },
+
     nl: {
-        title: "Gegrilde auberginesalade",
-        equipment: ["1 oven","1 bakplaat","mes","snijplank","1 kom"],
+        title: "Patlıcan Salatası (Turkse auberginesalade)",
+        equipment: [
+            "1 oven",
+            "1 bakplaat",
+            "1 mes",
+            "1 snijplank",
+            "1 kom"
+        ],
         ingredients: [
-            "2 middelgrote aubergines",
-            "2 tomaten",
-            "1 kleine rode ui",
+            "2 middelgrote aubergines (500 g)",
+            "2 rijpe tomaten (300 g)",
+            "1 kleine rode ui (60 g)",
             "2 teentjes knoflook",
-            "2 eetlepels olijfolie",
+            "2 eetlepels olijfolie (30 ml)",
             "1/2 theelepel zout",
-            "1/4 theelepel peper",
+            "1/4 theelepel zwarte peper",
             "1 eetlepel fijngehakte peterselie",
             "1/2 citroen (sap)"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 25 min\n\n" +
-            "1. Verwarm oven voor op 200°C.\n" +
-            "2. Was aubergines en prik met vork.\n" +
-            "3. Leg op bakplaat en bak 20 min tot zacht.\n" +
-            "4. Laat afkoelen, schil en snijd in kleine blokjes.\n" +
-            "5. Snijd tomaten en ui in blokjes.\n" +
-            "6. Hak knoflook fijn.\n" +
-            "7. Doe aubergines, tomaten, ui, knoflook in kom.\n" +
-            "8. Voeg olijfolie, zout, peper, citroensap en peterselie toe.\n" +
+            "1. Verwarm de oven voor op 200°C.\n" +
+            "2. Was de aubergines en prik ze in met een vork.\n" +
+            "3. Rooster ze 20–25 minuten op een bakplaat tot ze zacht zijn.\n" +
+            "4. Laat iets afkoelen, schil en snijd het vruchtvlees in blokjes.\n" +
+            "5. Snijd de tomaten in blokjes en de ui fijn.\n" +
+            "6. Hak de knoflook fijn.\n" +
+            "7. Doe alle ingrediënten in een kom.\n" +
+            "8. Voeg olijfolie, zout, peper en citroensap toe.\n" +
             "9. Meng voorzichtig.\n" +
-            "10. Serveer gekoeld."
+            "10. Bestrooi met peterselie en serveer koel of op kamertemperatuur."
     },
+
     ar: {
-        title: "سلطة الباذنجان المشوي",
-        equipment: ["فرن","صينية","سكين","لوح تقطيع","وعاء"],
+        title: "سلطة الباذنجان التركية (Patlıcan Salatası)",
+        equipment: [
+            "فرن",
+            "صينية",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء"
+        ],
         ingredients: [
-            "2 باذنجان متوسط",
-            "2 طماطم",
-            "1 بصلة حمراء صغيرة",
+            "2 باذنجان متوسط (500 غ)",
+            "2 طماطم ناضجة (300 غ)",
+            "1 بصلة حمراء صغيرة (60 غ)",
             "2 فص ثوم",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
+            "ربع ملعقة صغيرة فلفل أسود",
             "1 ملعقة كبيرة بقدونس مفروم",
             "نصف ليمونة (عصير)"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 25 دقيقة\n\n" +
-            "1. سخن الفرن إلى 200°C.\n" +
-            "2. اغسل الباذنجان وثقبه بالشوكة.\n" +
-            "3. ضعها على صينية واخبز 20 دقيقة حتى تصبح طرية.\n" +
-            "4. اتركها لتبرد، قشرها وقطعها إلى مكعبات صغيرة.\n" +
-            "5. قطع الطماطم والبصل إلى مكعبات.\n" +
-            "6. فرّم الثوم.\n" +
-            "7. ضع الباذنجان والطماطم والبصل والثوم في وعاء.\n" +
-            "8. أضف زيت الزيتون، الملح، الفلفل، عصير الليمون والبقدونس.\n" +
+            "1. سخّن الفرن إلى 200 درجة مئوية.\n" +
+            "2. اغسل الباذنجان واثقبه بالشوكة.\n" +
+            "3. ضع الباذنجان في صينية واخبزه 20–25 دقيقة حتى يصبح طرياً.\n" +
+            "4. اتركه يبرد قليلاً، ثم قشّره وقطّع اللب إلى مكعبات.\n" +
+            "5. قطّع الطماطم والبصل ناعماً.\n" +
+            "6. افرم الثوم.\n" +
+            "7. ضع جميع المكونات في وعاء.\n" +
+            "8. أضف زيت الزيتون والملح والفلفل وعصير الليمون.\n" +
             "9. اخلط برفق.\n" +
-            "10. قدمها باردة."
+            "10. رشّ البقدونس وقدّمها باردة أو بدرجة حرارة الغرفة."
     }
 };
 recipesData.entree.humus = {
     country: "turquie",
-    image: "images/humus.jpg",
-    persons: "4 personnes",
+    image: "images/humus.turc.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Houmous traditionnel",
-        equipment: ["1 bol","1 mixeur","1 cuillère","1 planche à découper"],
+        equipment: [
+            "1 bol",
+            "1 mixeur",
+            "1 cuillère",
+            "1 planche à découper"
+        ],
         ingredients: [
-            "200 g pois chiches cuits",
-            "2 cuillères à soupe tahini (purée de sésame)",
+            "200 g de pois chiches cuits et égouttés",
+            "2 cuillères à soupe de tahini (purée de sésame)",
             "1 gousse d’ail",
-            "2 cuillères à soupe jus de citron",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café paprika pour décoration",
-            "1 cuillère à soupe persil haché pour décoration"
+            "2 cuillères à soupe de jus de citron",
+            "2 cuillères à soupe d’huile d’olive",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/2 cuillère à café de paprika (décoration)",
+            "1 cuillère à soupe de persil frais haché (décoration)"
         ],
         preparation:
-            "Temps de préparation : 10 min\n\n" +
-            "1. Mettre les pois chiches, tahini, ail, jus de citron, huile d’olive, sel et poivre dans le bol.\n" +
-            "2. Mixer jusqu’à obtenir une texture lisse.\n" +
-            "3. Goûter et ajuster sel ou jus de citron si nécessaire.\n" +
-            "4. Transférer dans un plat de service.\n" +
-            "5. Saupoudrer paprika et persil.\n" +
-            "6. Servir avec pain pita ou crudités."
+            "1. Mettre les pois chiches, le tahini, l’ail, le jus de citron, l’huile d’olive, le sel et le poivre dans le mixeur.\n" +
+            "2. Mixer jusqu’à obtenir une texture lisse et crémeuse.\n" +
+            "3. Goûter et ajuster l’assaisonnement si nécessaire.\n" +
+            "4. Transférer le houmous dans un plat de service.\n" +
+            "5. Saupoudrer de paprika et de persil.\n" +
+            "6. Servir avec du pain plat ou des crudités."
     },
+
     en: {
         title: "Traditional Hummus",
-        equipment: ["1 bowl","blender","spoon","cutting board"],
+        equipment: [
+            "1 bowl",
+            "1 blender",
+            "1 spoon",
+            "1 cutting board"
+        ],
         ingredients: [
-            "200 g cooked chickpeas",
+            "200 g cooked chickpeas, drained",
             "2 tbsp tahini",
             "1 garlic clove",
             "2 tbsp lemon juice",
             "2 tbsp olive oil",
             "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp paprika for garnish",
-            "1 tbsp chopped parsley for garnish"
+            "1/4 tsp black pepper",
+            "1/2 tsp paprika (garnish)",
+            "1 tbsp chopped fresh parsley (garnish)"
         ],
         preparation:
-            "Prep time: 10 min\n\n" +
-            "1. Put chickpeas, tahini, garlic, lemon juice, olive oil, salt, pepper in bowl.\n" +
-            "2. Blend until smooth.\n" +
-            "3. Taste and adjust salt or lemon juice if needed.\n" +
-            "4. Transfer to serving dish.\n" +
-            "5. Sprinkle paprika and parsley.\n" +
-            "6. Serve with pita bread or vegetables."
+            "1. Place chickpeas, tahini, garlic, lemon juice, olive oil, salt, and pepper into the blender.\n" +
+            "2. Blend until smooth and creamy.\n" +
+            "3. Taste and adjust seasoning if needed.\n" +
+            "4. Transfer to a serving dish.\n" +
+            "5. Sprinkle with paprika and parsley.\n" +
+            "6. Serve with flatbread or fresh vegetables."
     },
+
     nl: {
-        title: "Traditionele Hummus",
-        equipment: ["1 kom","mixer","lepel","snijplank"],
+        title: "Traditionele hummus",
+        equipment: [
+            "1 kom",
+            "1 blender",
+            "1 lepel",
+            "1 snijplank"
+        ],
         ingredients: [
-            "200 g gekookte kikkererwten",
+            "200 g gekookte kikkererwten, uitgelekt",
             "2 eetlepels tahini",
             "1 teentje knoflook",
             "2 eetlepels citroensap",
             "2 eetlepels olijfolie",
             "1/2 theelepel zout",
-            "1/4 theelepel peper",
-            "1/2 theelepel paprika voor garnering",
-            "1 eetlepel peterselie fijngehakt voor garnering"
+            "1/4 theelepel zwarte peper",
+            "1/2 theelepel paprika (garnering)",
+            "1 eetlepel fijngehakte peterselie (garnering)"
         ],
         preparation:
-            "Bereidingstijd: 10 min\n\n" +
-            "1. Doe kikkererwten, tahini, knoflook, citroensap, olijfolie, zout, peper in kom.\n" +
-            "2. Mix tot een glad mengsel.\n" +
-            "3. Proef en pas zout of citroensap aan indien nodig.\n" +
-            "4. Doe in serveerschaal.\n" +
-            "5. Strooi paprika en peterselie.\n" +
-            "6. Serveer met pita brood of rauwe groenten."
+            "1. Doe kikkererwten, tahini, knoflook, citroensap, olijfolie, zout en peper in de blender.\n" +
+            "2. Mix tot een gladde en romige massa.\n" +
+            "3. Proef en pas de smaak aan indien nodig.\n" +
+            "4. Schep over in een serveerschaal.\n" +
+            "5. Bestrooi met paprika en peterselie.\n" +
+            "6. Serveer met platbrood of rauwe groenten."
     },
+
     ar: {
         title: "حمص تقليدي",
-        equipment: ["وعاء","خلاط","ملعقة","لوح تقطيع"],
+        equipment: [
+            "وعاء",
+            "خلاط",
+            "ملعقة",
+            "لوح تقطيع"
+        ],
         ingredients: [
-            "200 غ حمص مطبوخ",
-            "2 ملاعق كبيرة طحينة",
+            "200 غ حمص مطبوخ ومصفى",
+            "2 ملعقة كبيرة طحينة",
             "1 فص ثوم",
-            "2 ملاعق كبيرة عصير ليمون",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 ملعقة كبيرة عصير ليمون",
+            "2 ملعقة كبيرة زيت زيتون",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
-            "نصف ملعقة صغيرة بابريكا للزينة",
-            "1 ملعقة كبيرة بقدونس مفروم للزينة"
+            "ربع ملعقة صغيرة فلفل أسود",
+            "نصف ملعقة صغيرة بابريكا (للتزيين)",
+            "1 ملعقة كبيرة بقدونس مفروم (للتزيين)"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\n\n" +
-            "1. ضع الحمص، الطحينة، الثوم، عصير الليمون، زيت الزيتون، الملح والفلفل في وعاء.\n" +
-            "2. اخلط حتى يصبح ناعم.\n" +
-            "3. تذوق وعدّل الملح أو عصير الليمون حسب الحاجة.\n" +
-            "4. انقل إلى طبق التقديم.\n" +
-            "5. رش البابريكا والبقدونس.\n" +
-            "6. قدمه مع خبز بيتا أو خضروات."
+            "1. ضع الحمص والطحينة والثوم وعصير الليمون وزيت الزيتون والملح والفلفل في الخلاط.\n" +
+            "2. اخلط حتى يصبح المزيج ناعماً وكريمياً.\n" +
+            "3. تذوق وعدّل التتبيل عند الحاجة.\n" +
+            "4. انقل الحمص إلى طبق التقديم.\n" +
+            "5. رش البابريكا والبقدونس على الوجه.\n" +
+            "6. قدّمه مع خبز مسطح أو خضروات طازجة."
     }
 };
 recipesData.entree.borekEpinardsFromage = {
     country: "turquie",
     image: "images/borek-epinards-fromage.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Börek aux épinards et fromage",
-        equipment: ["1 bol","1 poêle ou four","1 pinceau","1 planche à découper","1 couteau"],
+        equipment: [
+            "1 bol",
+            "1 poêle",
+            "1 pinceau",
+            "1 plaque de cuisson",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
-            "200 g pâte filo",
-            "200 g épinards frais",
-            "100 g fromage feta",
+            "200 g de pâte filo",
+            "200 g d’épinards frais",
+            "100 g de fromage type feta ou fromage blanc émietté",
             "1 oignon moyen",
             "1 œuf",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre"
+            "2 cuillères à soupe d’huile d’olive",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre noir"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 20 min\n\n" +
-            "1. Laver et hacher les épinards.\n" +
-            "2. Émincer l’oignon et le faire revenir 3 min dans 1 cuillère à soupe d’huile.\n" +
-            "3. Mélanger les épinards, oignon, feta émiettée, sel et poivre.\n" +
-            "4. Préchauffer le four à 180°C.\n" +
-            "5. Dérouler la pâte filo, badigeonner légèrement d’huile.\n" +
-            "6. Déposer 1 cuillère du mélange sur chaque bande.\n" +
-            "7. Replier pour former des triangles.\n" +
-            "8. Badigeonner d’œuf battu.\n" +
-            "9. Cuire 20 min jusqu’à doré.\n" +
-            "10. Servir chaud."
+            "1. Laver soigneusement les épinards et les hacher grossièrement.\n" +
+            "2. Émincer l’oignon et le faire revenir 3 minutes dans une poêle avec 1 cuillère à soupe d’huile d’olive.\n" +
+            "3. Ajouter les épinards et les faire tomber rapidement, puis laisser tiédir.\n" +
+            "4. Mélanger les épinards, l’oignon, le fromage émietté, le sel et le poivre.\n" +
+            "5. Préchauffer le four à 180°C.\n" +
+            "6. Découper la pâte filo en bandes, les badigeonner légèrement d’huile.\n" +
+            "7. Déposer une cuillère de farce sur chaque bande.\n" +
+            "8. Replier en triangles.\n" +
+            "9. Disposer sur une plaque et badigeonner avec l’œuf battu.\n" +
+            "10. Enfourner 20 minutes jusqu’à ce que les böreks soient bien dorés.\n" +
+            "11. Servir chaud."
     },
+
     en: {
         title: "Spinach and Cheese Börek",
-        equipment: ["1 bowl","pan or oven","brush","cutting board","knife"],
+        equipment: [
+            "1 bowl",
+            "1 pan",
+            "1 pastry brush",
+            "1 baking tray",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
             "200 g filo pastry",
             "200 g fresh spinach",
-            "100 g feta cheese",
+            "100 g feta-style cheese, crumbled",
             "1 medium onion",
             "1 egg",
             "2 tbsp olive oil",
             "1/2 tsp salt",
-            "1/4 tsp pepper"
+            "1/4 tsp black pepper"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 20 min\n\n" +
-            "1. Wash and chop spinach.\n" +
-            "2. Slice onion, sauté 3 min in 1 tbsp oil.\n" +
-            "3. Mix spinach, onion, crumbled feta, salt, pepper.\n" +
-            "4. Preheat oven to 180°C.\n" +
-            "5. Unroll filo, brush lightly with oil.\n" +
-            "6. Place 1 spoon of filling on each strip.\n" +
-            "7. Fold into triangles.\n" +
-            "8. Brush with beaten egg.\n" +
-            "9. Bake 20 min until golden.\n" +
-            "10. Serve hot."
+            "1. Wash and roughly chop the spinach.\n" +
+            "2. Finely slice the onion and sauté for 3 minutes in 1 tbsp olive oil.\n" +
+            "3. Add spinach, cook briefly until wilted, then let cool.\n" +
+            "4. Mix spinach, onion, crumbled cheese, salt, and pepper.\n" +
+            "5. Preheat the oven to 180°C.\n" +
+            "6. Cut filo pastry into strips and lightly brush with oil.\n" +
+            "7. Place a spoonful of filling on each strip.\n" +
+            "8. Fold into triangles.\n" +
+            "9. Arrange on a baking tray and brush with beaten egg.\n" +
+            "10. Bake for 20 minutes until golden.\n" +
+            "11. Serve hot."
     },
+
     nl: {
         title: "Börek met spinazie en kaas",
-        equipment: ["1 kom","pan of oven","kwast","snijplank","mes"],
+        equipment: [
+            "1 kom",
+            "1 pan",
+            "1 kwast",
+            "1 bakplaat",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
             "200 g filodeeg",
             "200 g verse spinazie",
-            "100 g feta kaas",
+            "100 g feta-achtige kaas, verkruimeld",
             "1 middelgrote ui",
             "1 ei",
             "2 eetlepels olijfolie",
             "1/2 theelepel zout",
-            "1/4 theelepel peper"
+            "1/4 theelepel zwarte peper"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 20 min\n\n" +
-            "1. Was en hak spinazie.\n" +
-            "2. Snijd ui en bak 3 min in 1 eetlepel olie.\n" +
-            "3. Meng spinazie, ui, verkruimelde feta, zout, peper.\n" +
-            "4. Verwarm oven voor op 180°C.\n" +
-            "5. Rol filodeeg uit en bestrijk licht met olie.\n" +
-            "6. Plaats 1 lepel vulling op elke strook.\n" +
-            "7. Vouw tot driehoeken.\n" +
-            "8. Bestrijk met losgeklopt ei.\n" +
-            "9. Bak 20 min tot goudbruin.\n" +
-            "10. Serveer warm."
+            "1. Was de spinazie en hak grof.\n" +
+            "2. Snijd de ui fijn en bak 3 minuten in 1 eetlepel olijfolie.\n" +
+            "3. Voeg de spinazie toe en laat kort slinken, laat daarna afkoelen.\n" +
+            "4. Meng spinazie, ui, kaas, zout en peper.\n" +
+            "5. Verwarm de oven voor op 180°C.\n" +
+            "6. Snijd het filodeeg in stroken en bestrijk licht met olie.\n" +
+            "7. Leg een lepel vulling op elke strook.\n" +
+            "8. Vouw tot driehoeken.\n" +
+            "9. Leg op bakplaat en bestrijk met losgeklopt ei.\n" +
+            "10. Bak 20 minuten tot goudbruin.\n" +
+            "11. Serveer warm."
     },
+
     ar: {
-        title: "بورك بالسبانخ والجبنة",
-        equipment: ["وعاء","مقلاة أو فرن","فرشاة","لوح تقطيع","سكين"],
+        title: "بورك بالسبانخ والجبن",
+        equipment: [
+            "وعاء",
+            "مقلاة",
+            "فرشاة",
+            "صينية خبز",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
             "200 غ عجينة فيلو",
             "200 غ سبانخ طازجة",
-            "100 غ جبنة فيتا",
+            "100 غ جبن مفتت",
             "1 بصلة متوسطة",
             "1 بيضة",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 ملعقة كبيرة زيت زيتون",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل"
+            "ربع ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 20 دقيقة\n\n" +
-            "1. اغسل وقطع السبانخ.\n" +
-            "2. قطع البصل وقلّبه 3 دقائق في 1 ملعقة زيت.\n" +
-            "3. اخلط السبانخ والبصل والجبنة المفتتة والملح والفلفل.\n" +
-            "4. سخّن الفرن على 180°C.\n" +
-            "5. افرد العجينة وادهنها بالقليل من الزيت.\n" +
-            "6. ضع ملعقة من الحشوة على كل شريط.\n" +
-            "7. اطوِ على شكل مثلثات.\n" +
-            "8. ادهن بالبيض المخفوق.\n" +
-            "9. اخبز 20 دقيقة حتى يصبح ذهبي اللون.\n" +
-            "10. قدمه ساخناً."
+            "1. اغسل السبانخ وقطّعها خشناً.\n" +
+            "2. قطّع البصل ناعماً وقلّه 3 دقائق بملعقة زيت.\n" +
+            "3. أضف السبانخ واطهها قليلاً ثم اتركها تبرد.\n" +
+            "4. اخلط السبانخ والبصل والجبن والملح والفلفل.\n" +
+            "5. سخّن الفرن إلى 180 درجة مئوية.\n" +
+            "6. قطّع عجينة الفيلو إلى شرائط وادهنها بالزيت.\n" +
+            "7. ضع ملعقة من الحشوة على كل شريط.\n" +
+            "8. اطوِها على شكل مثلثات.\n" +
+            "9. ضعها في صينية وادهنها بالبيض المخفوق.\n" +
+            "10. اخبزها 20 دقيقة حتى تصبح ذهبية اللون.\n" +
+            "11. قدّمها ساخنة."
     }
 };
 recipesData.entree.dolma = {
     country: "turquie",
     image: "images/dolma.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 40,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Feuilles de vigne farcies",
-        equipment: ["1 casserole","1 planche à découper","1 couteau","1 bol"],
+        title: "Dolma (Feuilles de vigne farcies)",
+        equipment: [
+            "1 casserole large",
+            "1 planche à découper",
+            "1 couteau",
+            "1 bol"
+        ],
         ingredients: [
-            "16 feuilles de vigne fraîches ou en bocal",
-            "150 g riz",
+            "16 feuilles de vigne (fraîches ou en bocal)",
+            "150 g de riz rond",
             "1 oignon moyen",
-            "2 tomates",
-            "2 cuillères à soupe huile d’olive",
-            "1 cuillère à café sel",
-            "1/2 cuillère à café poivre",
-            "1/2 cuillère à café cannelle",
+            "2 tomates mûres",
+            "2 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de sel",
+            "1/2 cuillère à café de poivre",
+            "1/2 cuillère à café de cannelle",
             "1/2 citron (jus)",
-            "10 feuilles de menthe fraîches"
+            "10 feuilles de menthe fraîche"
         ],
         preparation:
-            "Temps de préparation : 20 min\nTemps de cuisson : 40 min\n\n" +
-            "1. Rincer les feuilles de vigne et retirer la nervure centrale si nécessaire.\n" +
-            "2. Hacher finement oignon, tomates et menthe.\n" +
-            "3. Mélanger riz, oignon, tomates, menthe, sel, poivre et cannelle.\n" +
-            "4. Placer 1 cuillère du mélange sur chaque feuille et rouler serré.\n" +
-            "5. Placer les rouleaux dans la casserole, serrés les uns contre les autres.\n" +
-            "6. Arroser d’huile et de jus de citron.\n" +
-            "7. Ajouter un peu d’eau pour couvrir légèrement.\n" +
-            "8. Couvrir et cuire 35-40 min à feu doux.\n" +
-            "9. Laisser refroidir légèrement.\n" +
+            "1. Rincer les feuilles de vigne à l’eau froide et retirer la nervure centrale si nécessaire.\n" +
+            "2. Hacher finement l’oignon, les tomates et la menthe.\n" +
+            "3. Dans un bol, mélanger le riz cru, l’oignon, les tomates, la menthe, le sel, le poivre et la cannelle.\n" +
+            "4. Déposer une feuille de vigne à plat, placer une cuillère de farce au centre et rouler fermement.\n" +
+            "5. Disposer les dolmas bien serrés au fond de la casserole.\n" +
+            "6. Arroser avec l’huile d’olive et le jus de citron.\n" +
+            "7. Ajouter de l’eau jusqu’à juste couvrir les dolmas.\n" +
+            "8. Couvrir et cuire à feu doux pendant 35 à 40 minutes.\n" +
+            "9. Laisser reposer quelques minutes hors du feu.\n" +
             "10. Servir tiède ou à température ambiante."
     },
+
     en: {
-        title: "Stuffed Grape Leaves",
-        equipment: ["1 pot","cutting board","knife","bowl"],
+        title: "Dolma (Stuffed Grape Leaves)",
+        equipment: [
+            "1 large pot",
+            "1 cutting board",
+            "1 knife",
+            "1 bowl"
+        ],
         ingredients: [
-            "16 fresh or jar grape leaves",
-            "150 g rice",
+            "16 grape leaves (fresh or jarred)",
+            "150 g short-grain rice",
             "1 medium onion",
-            "2 tomatoes",
+            "2 ripe tomatoes",
             "2 tbsp olive oil",
             "1 tsp salt",
-            "1/2 tsp pepper",
+            "1/2 tsp black pepper",
             "1/2 tsp cinnamon",
             "1/2 lemon (juice)",
             "10 fresh mint leaves"
         ],
         preparation:
-            "Prep time: 20 min\nCooking time: 40 min\n\n" +
-            "1. Rinse grape leaves, remove central vein if needed.\n" +
-            "2. Finely chop onion, tomatoes, mint.\n" +
-            "3. Mix rice, onion, tomatoes, mint, salt, pepper, cinnamon.\n" +
-            "4. Place 1 spoon of filling on each leaf, roll tightly.\n" +
-            "5. Place rolls in pot, snugly together.\n" +
-            "6. Drizzle with oil and lemon juice.\n" +
-            "7. Add some water to slightly cover.\n" +
-            "8. Cover, cook 35-40 min on low heat.\n" +
-            "9. Let cool slightly.\n" +
-            "10. Serve warm or room temperature."
+            "1. Rinse grape leaves and remove the central vein if needed.\n" +
+            "2. Finely chop onion, tomatoes, and mint.\n" +
+            "3. In a bowl, mix uncooked rice, onion, tomatoes, mint, salt, pepper, and cinnamon.\n" +
+            "4. Place a grape leaf flat, add a spoon of filling, and roll tightly.\n" +
+            "5. Arrange the rolls snugly in the pot.\n" +
+            "6. Drizzle with olive oil and lemon juice.\n" +
+            "7. Add enough water to just cover the rolls.\n" +
+            "8. Cover and simmer on low heat for 35–40 minutes.\n" +
+            "9. Let rest briefly off the heat.\n" +
+            "10. Serve warm or at room temperature."
     },
+
     nl: {
-        title: "Gevulde druivenbladeren",
-        equipment: ["1 pan","snijplank","mes","kom"],
+        title: "Dolma (Gevulde druivenbladeren)",
+        equipment: [
+            "1 grote pan",
+            "1 snijplank",
+            "1 mes",
+            "1 kom"
+        ],
         ingredients: [
-            "16 verse of uit pot druivenbladeren",
-            "150 g rijst",
+            "16 druivenbladeren (vers of uit pot)",
+            "150 g rondkorrelrijst",
             "1 middelgrote ui",
-            "2 tomaten",
+            "2 rijpe tomaten",
             "2 eetlepels olijfolie",
             "1 theelepel zout",
-            "1/2 theelepel peper",
+            "1/2 theelepel zwarte peper",
             "1/2 theelepel kaneel",
             "1/2 citroen (sap)",
             "10 verse muntblaadjes"
         ],
         preparation:
-            "Bereidingstijd: 20 min\nKooktijd: 40 min\n\n" +
-            "1. Spoel de druivenbladeren en verwijder centrale nerf indien nodig.\n" +
-            "2. Snijd ui, tomaten, munt fijn.\n" +
-            "3. Meng rijst, ui, tomaten, munt, zout, peper, kaneel.\n" +
-            "4. Leg 1 lepel vulling op elk blad, rol stevig op.\n" +
-            "5. Plaats rollen in pan, dicht tegen elkaar.\n" +
-            "6. Besprenkel met olie en citroensap.\n" +
-            "7. Voeg wat water toe om licht te bedekken.\n" +
-            "8. Dek af en kook 35-40 min op laag vuur.\n" +
-            "9. Laat iets afkoelen.\n" +
+            "1. Spoel de druivenbladeren en verwijder indien nodig de nerf.\n" +
+            "2. Snijd de ui, tomaten en munt fijn.\n" +
+            "3. Meng de ongekookte rijst met ui, tomaten, munt, zout, peper en kaneel.\n" +
+            "4. Leg een lepel vulling op elk blad en rol stevig op.\n" +
+            "5. Leg de rolletjes strak tegen elkaar in de pan.\n" +
+            "6. Besprenkel met olijfolie en citroensap.\n" +
+            "7. Voeg water toe tot net bedekt.\n" +
+            "8. Laat 35–40 minuten zachtjes koken met deksel.\n" +
+            "9. Laat even rusten.\n" +
             "10. Serveer warm of op kamertemperatuur."
     },
+
     ar: {
-        title: "ورق عنب محشي",
-        equipment: ["قدر","لوح تقطيع","سكين","وعاء"],
+        title: "دولما (ورق عنب محشي)",
+        equipment: [
+            "قدر واسع",
+            "لوح تقطيع",
+            "سكين",
+            "وعاء"
+        ],
         ingredients: [
-            "16 ورقة عنب طازجة أو معلبة",
-            "150 غ أرز",
+            "16 ورقة عنب (طازجة أو معلبة)",
+            "150 غ أرز قصير الحبة",
             "1 بصلة متوسطة",
-            "2 طماطم",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 طماطم ناضجة",
+            "2 ملعقة كبيرة زيت زيتون",
             "1 ملعقة صغيرة ملح",
-            "نصف ملعقة صغيرة فلفل",
+            "نصف ملعقة صغيرة فلفل أسود",
             "نصف ملعقة صغيرة قرفة",
             "نصف ليمونة (عصير)",
             "10 أوراق نعناع طازجة"
         ],
         preparation:
-            "وقت التحضير: 20 دقيقة\nوقت الطهي: 40 دقيقة\n\n" +
-            "1. اغسل أوراق العنب وأزل العرق الأوسط إذا لزم الأمر.\n" +
+            "1. اغسل أوراق العنب وأزل العرق الأوسط عند الحاجة.\n" +
             "2. فرّم البصل والطماطم والنعناع ناعماً.\n" +
-            "3. اخلط الأرز، البصل، الطماطم، النعناع، الملح، الفلفل والقرفة.\n" +
+            "3. اخلط الأرز غير المطبوخ مع البصل والطماطم والنعناع والملح والفلفل والقرفة.\n" +
             "4. ضع ملعقة من الحشوة على كل ورقة ولف بإحكام.\n" +
-            "5. ضع اللفائف في القدر بجانب بعضها.\n" +
-            "6. رش الزيت وعصير الليمون.\n" +
-            "7. أضف القليل من الماء لتغطية خفيفة.\n" +
-            "8. غطِ واطبخ 35-40 دقيقة على نار هادئة.\n" +
-            "9. دعها تبرد قليلاً.\n" +
-            "10. قدمها دافئة أو بدرجة حرارة الغرفة."
+            "5. رصّ اللفائف جنباً إلى جنب في القدر.\n" +
+            "6. رشّ زيت الزيتون وعصير الليمون.\n" +
+            "7. أضف ماءً حتى يغطيها قليلاً.\n" +
+            "8. غطِّ واطبخ على نار هادئة لمدة 35–40 دقيقة.\n" +
+            "9. اتركها ترتاح قليلاً.\n" +
+            "10. قدّمها دافئة أو بدرجة حرارة الغرفة."
     }
 };
 recipesData.entree.aciliEzme = {
     country: "turquie",
     image: "images/acili-ezme.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salsa turque épicée",
-        equipment: ["1 bol","1 couteau","1 planche à découper","1 cuillère"],
+        title: "Acılı Ezme (Mezze turc épicé)",
+        equipment: [
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
-            "4 tomates mûres",
-            "1 poivron rouge",
-            "1 oignon petit",
+            "4 tomates mûres (400 g)",
+            "1 poivron rouge (150 g)",
+            "1 petit oignon (60 g)",
             "2 gousses d’ail",
-            "1 cuillère à soupe concentré de tomate",
-            "1 cuillère à café paprika doux",
-            "1/2 cuillère à café piment en poudre",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1 cuillère à soupe persil haché"
+            "1 cuillère à soupe de concentré de tomate (15 g)",
+            "1 cuillère à café de paprika doux",
+            "1/2 cuillère à café de piment en poudre",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel",
+            "1 cuillère à soupe de persil frais haché"
         ],
         preparation:
-            "Temps de préparation : 15 min\n\n" +
-            "1. Laver tous les légumes.\n" +
-            "2. Couper tomates, poivron et oignon en petits dés.\n" +
-            "3. Émincer l’ail.\n" +
+            "1. Laver soigneusement tous les légumes.\n" +
+            "2. Couper les tomates, le poivron et l’oignon en très petits dés.\n" +
+            "3. Hacher finement l’ail.\n" +
             "4. Mettre tous les légumes dans un bol.\n" +
-            "5. Ajouter concentré de tomate, huile, sel, paprika, piment et persil.\n" +
-            "6. Mélanger bien pour homogénéiser.\n" +
-            "7. Servir frais avec pain ou mezze."
+            "5. Ajouter le concentré de tomate, l’huile d’olive, le sel, le paprika et le piment.\n" +
+            "6. Mélanger longuement jusqu’à obtenir une préparation homogène.\n" +
+            "7. Incorporer le persil haché.\n" +
+            "8. Réserver au frais 10 minutes avant de servir.\n" +
+            "9. Servir frais en mezze, accompagné de pain."
     },
+
     en: {
-        title: "Spicy Turkish Salsa",
-        equipment: ["1 bowl","knife","cutting board","spoon"],
+        title: "Acılı Ezme (Spicy Turkish Mezze)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
-            "4 ripe tomatoes",
-            "1 red bell pepper",
-            "1 small onion",
+            "4 ripe tomatoes (400 g)",
+            "1 red pepper (150 g)",
+            "1 small onion (60 g)",
             "2 garlic cloves",
-            "1 tbsp tomato paste",
+            "1 tbsp tomato paste (15 g)",
             "1 tsp sweet paprika",
             "1/2 tsp chili powder",
-            "2 tbsp olive oil",
+            "2 tbsp olive oil (30 ml)",
             "1/2 tsp salt",
-            "1 tbsp chopped parsley"
+            "1 tbsp chopped fresh parsley"
         ],
         preparation:
-            "Prep time: 15 min\n\n" +
-            "1. Wash all vegetables.\n" +
-            "2. Dice tomatoes, pepper, onion.\n" +
-            "3. Mince garlic.\n" +
-            "4. Put all vegetables in bowl.\n" +
-            "5. Add tomato paste, oil, salt, paprika, chili, parsley.\n" +
-            "6. Mix well.\n" +
-            "7. Serve chilled with bread or mezze."
+            "1. Wash all vegetables thoroughly.\n" +
+            "2. Finely dice the tomatoes, red pepper, and onion.\n" +
+            "3. Finely chop the garlic.\n" +
+            "4. Place all vegetables in a bowl.\n" +
+            "5. Add tomato paste, olive oil, salt, paprika, and chili powder.\n" +
+            "6. Mix well until fully combined.\n" +
+            "7. Stir in the chopped parsley.\n" +
+            "8. Chill for 10 minutes before serving.\n" +
+            "9. Serve cold as a mezze with bread."
     },
+
     nl: {
-        title: "Pittige Turkse salsa",
-        equipment: ["1 kom","mes","snijplank","lepel"],
+        title: "Acılı Ezme (Pittige Turkse mezze)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
-            "4 rijpe tomaten",
-            "1 rode paprika",
-            "1 kleine ui",
+            "4 rijpe tomaten (400 g)",
+            "1 rode paprika (150 g)",
+            "1 kleine ui (60 g)",
             "2 teentjes knoflook",
-            "1 eetlepel tomatenpuree",
+            "1 eetlepel tomatenpuree (15 g)",
             "1 theelepel zoete paprika",
             "1/2 theelepel chilipoeder",
-            "2 eetlepels olijfolie",
+            "2 eetlepels olijfolie (30 ml)",
             "1/2 theelepel zout",
-            "1 eetlepel fijngehakte peterselie"
+            "1 eetlepel fijngehakte verse peterselie"
         ],
         preparation:
-            "Bereidingstijd: 15 min\n\n" +
-            "1. Was alle groenten.\n" +
-            "2. Snijd tomaten, paprika, ui in kleine blokjes.\n" +
-            "3. Hak knoflook fijn.\n" +
-            "4. Doe alle groenten in kom.\n" +
-            "5. Voeg tomatenpuree, olie, zout, paprika, chili, peterselie toe.\n" +
-            "6. Meng goed.\n" +
-            "7. Serveer gekoeld met brood of mezze."
+            "1. Was alle groenten grondig.\n" +
+            "2. Snijd tomaten, paprika en ui zeer fijn.\n" +
+            "3. Hak de knoflook fijn.\n" +
+            "4. Doe alle groenten in een kom.\n" +
+            "5. Voeg tomatenpuree, olijfolie, zout, paprika en chili toe.\n" +
+            "6. Meng goed tot een glad mengsel.\n" +
+            "7. Meng de peterselie erdoor.\n" +
+            "8. Laat 10 minuten koelen.\n" +
+            "9. Serveer koud met brood."
     },
+
     ar: {
-        title: "صوص تركي حار",
-        equipment: ["وعاء","سكين","لوح تقطيع","ملعقة"],
+        title: "أجيلي إزمه (مزة تركية حارة)",
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
-            "4 طماطم ناضجة",
-            "1 فلفل أحمر",
-            "1 بصلة صغيرة",
+            "4 طماطم ناضجة (400 غ)",
+            "1 فلفل أحمر (150 غ)",
+            "1 بصلة صغيرة (60 غ)",
             "2 فص ثوم",
-            "1 ملعقة كبيرة معجون طماطم",
+            "1 ملعقة كبيرة معجون طماطم (15 غ)",
             "1 ملعقة صغيرة بابريكا حلوة",
             "نصف ملعقة صغيرة فلفل حار مطحون",
-            "2 ملاعق كبيرة زيت زيتون",
+            "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "نصف ملعقة صغيرة ملح",
-            "1 ملعقة كبيرة بقدونس مفروم"
+            "1 ملعقة كبيرة بقدونس طازج مفروم"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\n\n" +
-            "1. اغسل جميع الخضروات.\n" +
-            "2. قطع الطماطم والفلفل والبصل إلى مكعبات صغيرة.\n" +
-            "3. فرّم الثوم.\n" +
-            "4. ضع جميع الخضروات في وعاء.\n" +
-            "5. أضف معجون الطماطم، الزيت، الملح، البابريكا، الفلفل الحار، والبقدونس.\n" +
-            "6. اخلط جيداً.\n" +
-            "7. قدمها باردة مع الخبز أو المزة."
+            "1. اغسل جميع الخضروات جيداً.\n" +
+            "2. قطّع الطماطم والفلفل والبصل ناعماً جداً.\n" +
+            "3. افرم الثوم ناعماً.\n" +
+            "4. ضع جميع المكونات في وعاء.\n" +
+            "5. أضف معجون الطماطم وزيت الزيتون والملح والبابريكا والفلفل الحار.\n" +
+            "6. اخلط جيداً حتى تتجانس المكونات.\n" +
+            "7. أضف البقدونس واخلط.\n" +
+            "8. ضعها في الثلاجة 10 دقائق.\n" +
+            "9. قدّمها باردة مع الخبز."
     }
 };
 recipesData.entree.sigaraBoregi = {
     country: "turquie",
     image: "images/sigara-boregi.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Cigares au fromage",
-        equipment: ["1 bol","1 poêle","1 pinceau","1 planche à découper","1 couteau"],
+        title: "Sigara Böreği (Cigares au fromage)",
+        equipment: [
+            "1 bol",
+            "1 poêle",
+            "1 pinceau",
+            "1 planche à découper",
+            "1 couteau",
+            "papier absorbant"
+        ],
         ingredients: [
-            "200 g pâte filo",
-            "150 g fromage feta",
-            "50 g fromage ricotta",
+            "200 g de pâte filo",
+            "150 g de fromage type feta, émietté",
+            "50 g de fromage frais type ricotta",
             "1 œuf",
-            "2 cuillères à soupe persil haché",
-            "2 cuillères à soupe huile pour cuisson"
+            "2 cuillères à soupe de persil frais haché",
+            "2 cuillères à soupe d’huile pour la cuisson"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 10 min\n\n" +
-            "1. Mélanger feta, ricotta, persil et œuf dans un bol.\n" +
-            "2. Couper la pâte filo en bandes de 5 cm.\n" +
-            "3. Placer 1 cuillère de mélange sur chaque bande.\n" +
-            "4. Rouler en forme de cigare.\n" +
-            "5. Chauffer l’huile dans la poêle.\n" +
-            "6. Cuire les cigares 3-4 min de chaque côté jusqu’à doré.\n" +
-            "7. Égoutter sur papier absorbant.\n" +
+            "1. Dans un bol, mélanger la feta, la ricotta, le persil et l’œuf.\n" +
+            "2. Couper la pâte filo en bandes d’environ 5 cm de largeur.\n" +
+            "3. Déposer une cuillère de farce sur l’extrémité de chaque bande.\n" +
+            "4. Replier légèrement les côtés puis rouler fermement en forme de cigare.\n" +
+            "5. Chauffer l’huile dans une poêle à feu moyen.\n" +
+            "6. Faire dorer les cigares 3 à 4 minutes de chaque côté.\n" +
+            "7. Égoutter sur du papier absorbant.\n" +
             "8. Servir chaud."
     },
+
     en: {
-        title: "Cheese Cigars",
-        equipment: ["1 bowl","pan","brush","cutting board","knife"],
+        title: "Sigara Böreği (Cheese Cigars)",
+        equipment: [
+            "1 bowl",
+            "1 frying pan",
+            "1 pastry brush",
+            "1 cutting board",
+            "1 knife",
+            "paper towels"
+        ],
         ingredients: [
             "200 g filo pastry",
-            "150 g feta cheese",
+            "150 g feta-style cheese, crumbled",
             "50 g ricotta cheese",
             "1 egg",
-            "2 tbsp chopped parsley",
-            "2 tbsp oil for cooking"
+            "2 tbsp chopped fresh parsley",
+            "2 tbsp oil for frying"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 10 min\n\n" +
-            "1. Mix feta, ricotta, parsley, egg in bowl.\n" +
-            "2. Cut filo into 5 cm strips.\n" +
-            "3. Place 1 spoon filling on each strip.\n" +
-            "4. Roll into cigar shapes.\n" +
-            "5. Heat oil in pan.\n" +
-            "6. Cook cigars 3-4 min each side until golden.\n" +
-            "7. Drain on paper towel.\n" +
+            "1. In a bowl, mix feta, ricotta, parsley, and egg.\n" +
+            "2. Cut filo pastry into strips about 5 cm wide.\n" +
+            "3. Place a spoonful of filling at one end of each strip.\n" +
+            "4. Fold the sides slightly and roll tightly into cigar shapes.\n" +
+            "5. Heat oil in a pan over medium heat.\n" +
+            "6. Fry the cigars for 3–4 minutes per side until golden.\n" +
+            "7. Drain on paper towels.\n" +
             "8. Serve hot."
     },
+
     nl: {
-        title: "Kaascigars",
-        equipment: ["1 kom","pan","kwast","snijplank","mes"],
+        title: "Sigara Böreği (Turkse kaascigars)",
+        equipment: [
+            "1 kom",
+            "1 pan",
+            "1 kwast",
+            "1 snijplank",
+            "1 mes",
+            "keukenpapier"
+        ],
         ingredients: [
             "200 g filodeeg",
-            "150 g feta kaas",
-            "50 g ricotta kaas",
+            "150 g feta-achtige kaas, verkruimeld",
+            "50 g ricotta",
             "1 ei",
-            "2 eetlepels fijngehakte peterselie",
+            "2 eetlepels fijngehakte verse peterselie",
             "2 eetlepels olie om te bakken"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 10 min\n\n" +
-            "1. Meng feta, ricotta, peterselie, ei in kom.\n" +
-            "2. Snijd filodeeg in stroken van 5 cm.\n" +
-            "3. Plaats 1 lepel vulling op elke strook.\n" +
-            "4. Rol tot sigaarvorm.\n" +
-            "5. Verhit olie in pan.\n" +
-            "6. Bak 3-4 min per kant tot goudbruin.\n" +
+            "1. Meng feta, ricotta, peterselie en ei in een kom.\n" +
+            "2. Snijd het filodeeg in stroken van ongeveer 5 cm breed.\n" +
+            "3. Leg een lepel vulling aan het uiteinde van elke strook.\n" +
+            "4. Vouw de zijkanten lichtjes en rol strak op tot sigaarvorm.\n" +
+            "5. Verhit olie in een pan op middelhoog vuur.\n" +
+            "6. Bak de sigaren 3–4 minuten per kant tot goudbruin.\n" +
             "7. Laat uitlekken op keukenpapier.\n" +
             "8. Serveer warm."
     },
+
     ar: {
-        title: "أعواد الجبن",
-        equipment: ["وعاء","مقلاة","فرشاة","لوح تقطيع","سكين"],
+        title: "سيغارا بوريك (أصابع الجبن)",
+        equipment: [
+            "وعاء",
+            "مقلاة",
+            "فرشاة",
+            "لوح تقطيع",
+            "سكين",
+            "ورق مطبخ"
+        ],
         ingredients: [
             "200 غ عجينة فيلو",
-            "150 غ جبنة فيتا",
-            "50 غ جبنة ريكوتا",
+            "150 غ جبن مفتت",
+            "50 غ جبن طري",
             "1 بيضة",
-            "2 ملاعق كبيرة بقدونس مفروم",
-            "2 ملاعق كبيرة زيت للطهي"
+            "2 ملعقة كبيرة بقدونس طازج مفروم",
+            "2 ملعقة كبيرة زيت للقلي"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 10 دقيقة\n\n" +
-            "1. اخلط الفيتا، الريكوتا، البقدونس، والبيضة في وعاء.\n" +
-            "2. قطع عجينة الفيلو إلى شرائط 5 سم.\n" +
-            "3. ضع ملعقة من الحشوة على كل شريط.\n" +
-            "4. لف على شكل سيجار.\n" +
-            "5. سخن الزيت في المقلاة.\n" +
-            "6. اطه الأعواد 3-4 دقائق لكل جانب حتى تصبح ذهبية.\n" +
-            "7. صفّها على ورق مطبخ.\n" +
-            "8. قدمها ساخنة."
+            "1. اخلط الجبن والبقدونس والبيضة في وعاء.\n" +
+            "2. قطّع عجينة الفيلو إلى شرائط بعرض 5 سم تقريباً.\n" +
+            "3. ضع ملعقة من الحشوة في طرف كل شريط.\n" +
+            "4. اطوِ الجوانب قليلاً ولف بإحكام على شكل سيجار.\n" +
+            "5. سخّن الزيت في مقلاة على نار متوسطة.\n" +
+            "6. اقْلِ الأصابع 3–4 دقائق لكل جانب حتى تصبح ذهبية.\n" +
+            "7. صفّها على ورق المطبخ.\n" +
+            "8. قدّمها ساخنة."
     }
 };
+
+
+
+
+
+
+
+
+
+
 recipesData.plat.kebabAgneauLegumes = {
     country: "turquie",
     image: "images/kebab-agneau-legumes.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        marination: 10,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Kebab d’agneau aux légumes",
-        equipment: ["1 bol","1 couteau","1 planche à découper","1 brochette ou grill","1 poêle ou barbecue"],
+        equipment: [
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper",
+            "brochettes",
+            "1 poêle ou barbecue"
+        ],
         ingredients: [
             "500 g d’agneau coupé en cubes",
             "2 poivrons rouges",
             "2 courgettes",
             "1 oignon rouge",
-            "2 cuillères à soupe huile d’olive",
-            "1 cuillère à café paprika",
-            "1/2 cuillère à café cumin",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
+            "2 cuillères à soupe d’huile d’olive",
+            "1 cuillère à café de paprika",
+            "1/2 cuillère à café de cumin",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
             "1/2 citron (jus)"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 15-20 min\n\n" +
-            "1. Couper l’agneau en cubes de 2-3 cm.\n" +
-            "2. Laver et couper les légumes en morceaux similaires.\n" +
-            "3. Dans un bol, mélanger agneau, huile, paprika, cumin, sel, poivre et jus de citron.\n" +
-            "4. Laisser mariner 10 min.\n" +
-            "5. Enfiler sur les brochettes en alternant viande et légumes.\n" +
-            "6. Chauffer le grill ou la poêle avec un peu d’huile.\n" +
-            "7. Cuire 7-10 min de chaque côté jusqu’à cuisson désirée.\n" +
-            "8. Servir chaud avec du riz ou du pain."
+            "==============================\n" +
+            "MARINADE DE L’AGNEAU\n" +
+            "==============================\n\n" +
+            "1. Couper l’agneau en cubes d’environ 2 à 3 cm.\n" +
+            "2. Mettre la viande dans un bol.\n" +
+            "3. Ajouter l’huile d’olive, le paprika, le cumin, le sel, le poivre et le jus de citron.\n" +
+            "4. Bien mélanger pour enrober la viande.\n" +
+            "5. Laisser mariner 10 minutes à température ambiante.\n\n" +
+
+            "==============================\n" +
+            "PRÉPARATION ET CUISSON\n" +
+            "==============================\n\n" +
+            "6. Laver et couper les poivrons, courgettes et oignon en morceaux similaires à la viande.\n" +
+            "7. Enfiler les morceaux de viande et de légumes en alternance sur les brochettes.\n" +
+            "8. Chauffer une poêle ou un barbecue à feu moyen avec un peu d’huile.\n" +
+            "9. Cuire les brochettes 15 à 20 minutes en les retournant régulièrement.\n" +
+            "10. Servir chaud avec du riz ou du pain."
     },
+
     en: {
         title: "Lamb Kebab with Vegetables",
-        equipment: ["1 bowl","knife","cutting board","skewer or grill","pan or barbecue"],
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "skewers",
+            "pan or barbecue"
+        ],
         ingredients: [
             "500 g lamb cubes",
             "2 red bell peppers",
@@ -37008,23 +37331,38 @@ recipesData.plat.kebabAgneauLegumes = {
             "1 tsp paprika",
             "1/2 tsp cumin",
             "1/2 tsp salt",
-            "1/4 tsp pepper",
+            "1/4 tsp black pepper",
             "1/2 lemon (juice)"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 15-20 min\n\n" +
-            "1. Cut lamb into 2-3 cm cubes.\n" +
-            "2. Wash and cut vegetables into similar pieces.\n" +
-            "3. In a bowl, mix lamb, oil, paprika, cumin, salt, pepper, lemon juice.\n" +
-            "4. Marinate 10 min.\n" +
-            "5. Thread onto skewers alternating meat and vegetables.\n" +
-            "6. Heat grill or pan with some oil.\n" +
-            "7. Cook 7-10 min each side until done.\n" +
-            "8. Serve hot with rice or bread."
+            "==============================\n" +
+            "LAMB MARINADE\n" +
+            "==============================\n\n" +
+            "1. Cut the lamb into 2–3 cm cubes.\n" +
+            "2. Place the meat in a bowl.\n" +
+            "3. Add olive oil, paprika, cumin, salt, pepper, and lemon juice.\n" +
+            "4. Mix well to coat the meat.\n" +
+            "5. Marinate for 10 minutes at room temperature.\n\n" +
+
+            "==============================\n" +
+            "ASSEMBLY AND COOKING\n" +
+            "==============================\n\n" +
+            "6. Wash and cut vegetables into similar-sized pieces.\n" +
+            "7. Thread meat and vegetables alternately onto skewers.\n" +
+            "8. Heat a pan or grill over medium heat with a little oil.\n" +
+            "9. Cook the kebabs for 15–20 minutes, turning regularly.\n" +
+            "10. Serve hot with rice or bread."
     },
+
     nl: {
         title: "Lamskebab met groenten",
-        equipment: ["1 kom","mes","snijplank","spies of grill","pan of barbecue"],
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "spiesen",
+            "pan of barbecue"
+        ],
         ingredients: [
             "500 g lamsvlees in blokjes",
             "2 rode paprika’s",
@@ -37038,75 +37376,117 @@ recipesData.plat.kebabAgneauLegumes = {
             "1/2 citroen (sap)"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 15-20 min\n\n" +
-            "1. Snijd lamsvlees in blokjes van 2-3 cm.\n" +
-            "2. Was en snijd groenten in gelijke stukken.\n" +
-            "3. Meng in een kom lamsvlees, olie, paprika, komijn, zout, peper en citroensap.\n" +
-            "4. Laat 10 min marineren.\n" +
-            "5. Rijg aan spiesjes afwisselend vlees en groenten.\n" +
-            "6. Verhit grill of pan met beetje olie.\n" +
-            "7. Bak 7-10 min per kant tot gaar.\n" +
-            "8. Serveer warm met rijst of brood."
+            "==============================\n" +
+            "MARINADE\n" +
+            "==============================\n\n" +
+            "1. Snijd het lamsvlees in blokjes van 2–3 cm.\n" +
+            "2. Doe het vlees in een kom.\n" +
+            "3. Voeg olijfolie, paprika, komijn, zout, peper en citroensap toe.\n" +
+            "4. Meng goed.\n" +
+            "5. Laat 10 minuten marineren.\n\n" +
+
+            "==============================\n" +
+            "BEREIDING\n" +
+            "==============================\n\n" +
+            "6. Was en snijd de groenten in gelijke stukken.\n" +
+            "7. Rijg vlees en groenten afwisselend aan spiesen.\n" +
+            "8. Verhit een pan of barbecue op middelhoog vuur.\n" +
+            "9. Bak 15–20 minuten en keer regelmatig.\n" +
+            "10. Serveer warm met rijst of brood."
     },
+
     ar: {
         title: "كباب لحم الضأن بالخضار",
-        equipment: ["وعاء","سكين","لوح تقطيع","أسياخ أو شواية","مقلاة أو شواية"],
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "أسياخ",
+            "مقلاة أو شواية"
+        ],
         ingredients: [
             "500 غ لحم ضأن مكعبات",
             "2 فلفل أحمر",
             "2 كوسة",
             "1 بصلة حمراء",
-            "2 ملاعق كبيرة زيت زيتون",
-            "1 ملعقة صغيرة فلفل حلو",
+            "2 ملعقة كبيرة زيت زيتون",
+            "1 ملعقة صغيرة بابريكا",
             "نصف ملعقة صغيرة كمون",
             "نصف ملعقة صغيرة ملح",
             "ربع ملعقة صغيرة فلفل أسود",
             "نصف ليمونة (عصير)"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 15-20 دقيقة\n\n" +
-            "1. قطع اللحم إلى مكعبات 2-3 سم.\n" +
-            "2. اغسل وقطع الخضار إلى قطع مماثلة.\n" +
-            "3. اخلط اللحم، الزيت، الفلفل، الكمون، الملح، الفلفل وعصير الليمون في وعاء.\n" +
-            "4. انقع لمدة 10 دقائق.\n" +
-            "5. ضع اللحم والخضار بالتناوب على الأسياخ.\n" +
-            "6. سخن الشواية أو المقلاة مع قليل من الزيت.\n" +
-            "7. اطه 7-10 دقائق لكل جانب حتى ينضج.\n" +
-            "8. قدمه ساخناً مع الأرز أو الخبز."
+            "==============================\n" +
+            "تتبيل اللحم\n" +
+            "==============================\n\n" +
+            "1. قطّع اللحم إلى مكعبات بحجم 2–3 سم.\n" +
+            "2. ضع اللحم في وعاء.\n" +
+            "3. أضف زيت الزيتون والبابريكا والكمون والملح والفلفل وعصير الليمون.\n" +
+            "4. اخلط جيداً.\n" +
+            "5. اتركه يتبل لمدة 10 دقائق.\n\n" +
+
+            "==============================\n" +
+            "الطهي\n" +
+            "==============================\n\n" +
+            "6. اغسل وقطّع الخضار إلى قطع مماثلة.\n" +
+            "7. ضع اللحم والخضار بالتناوب على الأسياخ.\n" +
+            "8. سخّن المقلاة أو الشواية على نار متوسطة.\n" +
+            "9. اطه الكباب 15–20 دقيقة مع التقليب.\n" +
+            "10. قدّمه ساخناً مع الأرز أو الخبز."
     }
 };
 recipesData.plat.kofteTurque = {
     country: "turquie",
     image: "images/kofte.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Köfte turque",
-        equipment: ["1 bol","1 poêle","1 planche à découper","1 couteau"],
+        equipment: [
+            "1 bol",
+            "1 poêle ou grill",
+            "1 planche à découper",
+            "1 couteau"
+        ],
         ingredients: [
-            "500 g viande hachée de bœuf ou agneau",
+            "500 g de viande hachée (bœuf ou agneau)",
             "1 oignon moyen",
             "2 gousses d’ail",
-            "50 g chapelure",
+            "50 g de chapelure",
             "1 œuf",
-            "1 cuillère à café cumin",
-            "1/2 cuillère à café paprika",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "2 cuillères à soupe huile pour cuisson"
+            "1 cuillère à café de cumin",
+            "1/2 cuillère à café de paprika doux",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre noir",
+            "2 cuillères à soupe d’huile pour la cuisson"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Émincer finement l’oignon et l’ail.\n" +
-            "2. Dans un bol, mélanger la viande, oignon, ail, chapelure, œuf, sel, poivre, paprika et cumin.\n" +
-            "3. Former des petites boulettes de 3-4 cm.\n" +
-            "4. Chauffer l’huile dans une poêle à feu moyen.\n" +
-            "5. Cuire les köfte 6-8 min de chaque côté jusqu’à doré et cuit.\n" +
-            "6. Égoutter sur papier absorbant.\n" +
-            "7. Servir chaud avec riz, salade ou pain."
+            "1. Émincer très finement l’oignon et l’ail.\n" +
+            "2. Dans un bol, mélanger la viande hachée, l’oignon, l’ail, la chapelure et l’œuf.\n" +
+            "3. Ajouter le sel, le poivre, le paprika et le cumin.\n" +
+            "4. Bien pétrir le mélange à la main jusqu’à obtenir une texture homogène.\n" +
+            "5. Former des köfte de forme ovale ou ronde, d’environ 3 à 4 cm.\n" +
+            "6. Chauffer l’huile dans une poêle à feu moyen.\n" +
+            "7. Cuire les köfte 6 à 8 minutes de chaque côté jusqu’à bien dorées et cuites à cœur.\n" +
+            "8. Égoutter sur du papier absorbant.\n" +
+            "9. Servir chaud avec du riz, une salade ou du pain."
     },
+
     en: {
         title: "Turkish Köfte",
-        equipment: ["1 bowl","pan","cutting board","knife"],
+        equipment: [
+            "1 bowl",
+            "pan or grill",
+            "cutting board",
+            "knife"
+        ],
         ingredients: [
             "500 g minced beef or lamb",
             "1 medium onion",
@@ -37114,698 +37494,1023 @@ recipesData.plat.kofteTurque = {
             "50 g breadcrumbs",
             "1 egg",
             "1 tsp cumin",
-            "1/2 tsp paprika",
+            "1/2 tsp sweet paprika",
             "1/2 tsp salt",
-            "1/4 tsp pepper",
+            "1/4 tsp black pepper",
             "2 tbsp oil for cooking"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 15 min\n\n" +
-            "1. Finely chop onion and garlic.\n" +
-            "2. In a bowl, mix meat, onion, garlic, breadcrumbs, egg, salt, pepper, paprika, cumin.\n" +
-            "3. Shape into small balls 3-4 cm.\n" +
-            "4. Heat oil in pan over medium heat.\n" +
-            "5. Cook köfte 6-8 min each side until golden and cooked.\n" +
-            "6. Drain on paper towel.\n" +
-            "7. Serve hot with rice, salad or bread."
+            "1. Finely chop the onion and garlic.\n" +
+            "2. In a bowl, combine minced meat, onion, garlic, breadcrumbs, and egg.\n" +
+            "3. Add salt, pepper, paprika, and cumin.\n" +
+            "4. Knead well until evenly mixed.\n" +
+            "5. Shape into oval or round köfte, about 3–4 cm.\n" +
+            "6. Heat oil in a pan over medium heat.\n" +
+            "7. Cook the köfte for 6–8 minutes per side until golden and cooked through.\n" +
+            "8. Drain on paper towels.\n" +
+            "9. Serve hot with rice, salad, or bread."
     },
+
     nl: {
-        title: "Turkse Köfte",
-        equipment: ["1 kom","pan","snijplank","mes"],
+        title: "Turkse köfte",
+        equipment: [
+            "1 kom",
+            "pan of grill",
+            "snijplank",
+            "mes"
+        ],
         ingredients: [
-            "500 g gehakt rund of lam",
+            "500 g gehakt (rund of lam)",
             "1 middelgrote ui",
             "2 teentjes knoflook",
             "50 g paneermeel",
             "1 ei",
             "1 theelepel komijn",
-            "1/2 theelepel paprika",
+            "1/2 theelepel zoete paprika",
             "1/2 theelepel zout",
-            "1/4 theelepel peper",
+            "1/4 theelepel zwarte peper",
             "2 eetlepels olie om te bakken"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 15 min\n\n" +
-            "1. Snijd ui en knoflook fijn.\n" +
-            "2. Meng in een kom vlees, ui, knoflook, paneermeel, ei, zout, peper, paprika, komijn.\n" +
-            "3. Vorm kleine balletjes 3-4 cm.\n" +
-            "4. Verhit olie in pan op middelhoog vuur.\n" +
-            "5. Bak 6-8 min per kant tot goudbruin en gaar.\n" +
-            "6. Laat uitlekken op keukenpapier.\n" +
-            "7. Serveer warm met rijst, salade of brood."
+            "1. Snijd de ui en knoflook zeer fijn.\n" +
+            "2. Meng het gehakt met ui, knoflook, paneermeel en ei.\n" +
+            "3. Voeg zout, peper, paprika en komijn toe.\n" +
+            "4. Kneed goed tot een gelijkmatig mengsel.\n" +
+            "5. Vorm ovale of ronde köfte van 3–4 cm.\n" +
+            "6. Verhit olie in een pan op middelhoog vuur.\n" +
+            "7. Bak de köfte 6–8 minuten per kant tot goudbruin en gaar.\n" +
+            "8. Laat uitlekken op keukenpapier.\n" +
+            "9. Serveer warm met rijst, salade of brood."
     },
+
     ar: {
         title: "كفتة تركية",
-        equipment: ["وعاء","مقلاة","لوح تقطيع","سكين"],
+        equipment: [
+            "وعاء",
+            "مقلاة أو شواية",
+            "لوح تقطيع",
+            "سكين"
+        ],
         ingredients: [
-            "500 غ لحم مفروم بقر أو ضأن",
+            "500 غ لحم مفروم (بقر أو ضأن)",
             "1 بصلة متوسطة",
             "2 فص ثوم",
             "50 غ بقسماط",
             "1 بيضة",
             "1 ملعقة صغيرة كمون",
-            "نصف ملعقة صغيرة فلفل حلو",
+            "نصف ملعقة صغيرة بابريكا حلوة",
             "نصف ملعقة صغيرة ملح",
             "ربع ملعقة صغيرة فلفل أسود",
-            "2 ملاعق كبيرة زيت للطهي"
+            "2 ملعقة كبيرة زيت للطهي"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 15 دقيقة\n\n" +
-            "1. فرّم البصل والثوم ناعماً.\n" +
-            "2. في وعاء، اخلط اللحم، البصل، الثوم، البقسماط، البيضة، الملح، الفلفل، البابريكا، الكمون.\n" +
-            "3. شكل كرات صغيرة 3-4 سم.\n" +
-            "4. سخن الزيت في المقلاة على حرارة متوسطة.\n" +
-            "5. اطه الكفتة 6-8 دقائق لكل جانب حتى تصبح ذهبية وناضجة.\n" +
-            "6. صفها على ورق مطبخ.\n" +
-            "7. قدمها ساخنة مع الأرز، السلطة أو الخبز."
+            "1. فرّم البصل والثوم ناعماً جداً.\n" +
+            "2. اخلط اللحم مع البصل والثوم والبقسماط والبيضة.\n" +
+            "3. أضف الملح والفلفل والبابريكا والكمون.\n" +
+            "4. اعجن الخليط جيداً حتى يتجانس.\n" +
+            "5. شكّل كفتة بيضاوية أو دائرية بحجم 3–4 سم.\n" +
+            "6. سخّن الزيت في المقلاة على نار متوسطة.\n" +
+            "7. اطه الكفتة 6–8 دقائق لكل جانب حتى تتحمّر وتنضج.\n" +
+            "8. صفِّها على ورق مطبخ.\n" +
+            "9. قدّمها ساخنة مع الأرز أو السلطة أو الخبز."
     }
 };
 recipesData.plat.imamBayildi = {
     country: "turquie",
     image: "images/imam-bayildi.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Imam Bayildi",
-        equipment: ["1 poêle","1 couteau","1 planche à découper","1 plat allant au four","1 cuillère"],
+        title: "İmam Bayıldı",
+        equipment: [
+            "1 poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 plat allant au four",
+            "1 cuillère"
+        ],
         ingredients: [
             "2 aubergines moyennes",
-            "2 tomates",
+            "2 tomates mûres",
             "1 oignon moyen",
             "2 gousses d’ail",
-            "50 ml huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1 cuillère à café sucre",
-            "1 cuillère à soupe persil haché"
+            "50 ml d’huile d’olive",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1 cuillère à café de sucre",
+            "1 cuillère à soupe de persil frais haché"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 30 min\n\n" +
             "1. Couper les aubergines en deux dans le sens de la longueur.\n" +
-            "2. Creuser légèrement l’intérieur pour former un petit bateau.\n" +
-            "3. Saler et laisser dégorger 10 min.\n" +
-            "4. Hacher l’oignon, l’ail et les tomates.\n" +
-            "5. Faire revenir oignon et ail 5 min dans 2 cuillères à soupe d’huile.\n" +
-            "6. Ajouter les tomates, sel, poivre et sucre, cuire 5 min.\n" +
-            "7. Remplir les aubergines avec ce mélange.\n" +
-            "8. Placer dans plat, arroser d’un filet d’huile.\n" +
-            "9. Cuire 20 min au four préchauffé à 180°C.\n" +
-            "10. Parsemer de persil avant de servir."
+            "2. Creuser légèrement la chair pour former des bateaux.\n" +
+            "3. Saler légèrement et laisser dégorger 10 minutes, puis rincer et sécher.\n" +
+            "4. Hacher finement l’oignon, l’ail et les tomates.\n" +
+            "5. Faire revenir l’oignon et l’ail 5 minutes dans une poêle avec 2 cuillères à soupe d’huile d’olive.\n" +
+            "6. Ajouter les tomates, le sel, le poivre et le sucre, puis laisser mijoter 5 minutes.\n" +
+            "7. Farcir les aubergines avec cette préparation.\n" +
+            "8. Disposer les aubergines dans un plat allant au four.\n" +
+            "9. Arroser avec le reste de l’huile d’olive.\n" +
+            "10. Enfourner à 180°C pendant 20 minutes.\n" +
+            "11. Parsemer de persil avant de servir."
     },
+
     en: {
-        title: "Imam Bayildi",
-        equipment: ["pan","knife","cutting board","oven dish","spoon"],
+        title: "İmam Bayıldı",
+        equipment: [
+            "pan",
+            "knife",
+            "cutting board",
+            "oven dish",
+            "spoon"
+        ],
         ingredients: [
             "2 medium eggplants",
-            "2 tomatoes",
+            "2 ripe tomatoes",
             "1 medium onion",
             "2 garlic cloves",
             "50 ml olive oil",
             "1/2 tsp salt",
-            "1/4 tsp pepper",
+            "1/4 tsp black pepper",
             "1 tsp sugar",
-            "1 tbsp chopped parsley"
+            "1 tbsp chopped fresh parsley"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 30 min\n\n" +
-            "1. Cut eggplants in half lengthwise.\n" +
-            "2. Scoop interior slightly to form small boat.\n" +
-            "3. Salt and let drain 10 min.\n" +
-            "4. Chop onion, garlic, tomatoes.\n" +
-            "5. Sauté onion and garlic 5 min in 2 tbsp oil.\n" +
-            "6. Add tomatoes, salt, pepper, sugar, cook 5 min.\n" +
-            "7. Fill eggplants with mixture.\n" +
-            "8. Place in dish, drizzle with oil.\n" +
-            "9. Bake 20 min at 180°C.\n" +
-            "10. Sprinkle parsley before serving."
+            "1. Cut the eggplants in half lengthwise.\n" +
+            "2. Slightly hollow out the flesh to form small boats.\n" +
+            "3. Lightly salt and let rest for 10 minutes, then rinse and pat dry.\n" +
+            "4. Finely chop the onion, garlic, and tomatoes.\n" +
+            "5. Sauté onion and garlic for 5 minutes in a pan with 2 tablespoons of olive oil.\n" +
+            "6. Add tomatoes, salt, pepper, and sugar, then simmer for 5 minutes.\n" +
+            "7. Fill the eggplants with the mixture.\n" +
+            "8. Arrange them in an oven dish.\n" +
+            "9. Drizzle with the remaining olive oil.\n" +
+            "10. Bake at 180°C for 20 minutes.\n" +
+            "11. Sprinkle with parsley before serving."
     },
+
     nl: {
-        title: "Imam Bayildi",
-        equipment: ["pan","mes","snijplank","ovenschaal","lepel"],
+        title: "İmam Bayıldı",
+        equipment: [
+            "pan",
+            "mes",
+            "snijplank",
+            "ovenschaal",
+            "lepel"
+        ],
         ingredients: [
             "2 middelgrote aubergines",
-            "2 tomaten",
+            "2 rijpe tomaten",
             "1 middelgrote ui",
             "2 teentjes knoflook",
             "50 ml olijfolie",
             "1/2 theelepel zout",
-            "1/4 theelepel peper",
+            "1/4 theelepel zwarte peper",
             "1 theelepel suiker",
             "1 eetlepel fijngehakte peterselie"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 30 min\n\n" +
-            "1. Snijd aubergines in de lengte doormidden.\n" +
-            "2. Hol lichtjes uit om een bootje te vormen.\n" +
-            "3. Bestrooi met zout en laat 10 min staan.\n" +
-            "4. Hak ui, knoflook, tomaten.\n" +
-            "5. Bak ui en knoflook 5 min in 2 eetlepels olie.\n" +
-            "6. Voeg tomaten, zout, peper, suiker toe, bak 5 min.\n" +
-            "7. Vul aubergines met mengsel.\n" +
-            "8. Leg in ovenschaal, besprenkel met olie.\n" +
-            "9. Bak 20 min op 180°C.\n" +
-            "10. Strooi peterselie erover voor het serveren."
+            "1. Snijd de aubergines in de lengte doormidden.\n" +
+            "2. Hol ze lichtjes uit tot bootjes.\n" +
+            "3. Bestrooi licht met zout en laat 10 minuten rusten, spoel en dep droog.\n" +
+            "4. Hak ui, knoflook en tomaten fijn.\n" +
+            "5. Bak ui en knoflook 5 minuten in een pan met 2 eetlepels olijfolie.\n" +
+            "6. Voeg tomaten, zout, peper en suiker toe en laat 5 minuten sudderen.\n" +
+            "7. Vul de aubergines met het mengsel.\n" +
+            "8. Leg ze in een ovenschaal.\n" +
+            "9. Besprenkel met de rest van de olijfolie.\n" +
+            "10. Bak 20 minuten op 180°C.\n" +
+            "11. Bestrooi met peterselie voor het serveren."
     },
+
     ar: {
         title: "إمام بايلدي",
-        equipment: ["مقلاة","سكين","لوح تقطيع","صينية فرن","ملعقة"],
+        equipment: [
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "صينية فرن",
+            "ملعقة"
+        ],
         ingredients: [
             "2 باذنجان متوسط",
-            "2 طماطم",
+            "2 طماطم ناضجة",
             "1 بصلة متوسطة",
             "2 فص ثوم",
             "50 مل زيت زيتون",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
+            "ربع ملعقة صغيرة فلفل أسود",
             "1 ملعقة صغيرة سكر",
             "1 ملعقة كبيرة بقدونس مفروم"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 30 دقيقة\n\n" +
-            "1. قطع الباذنجان نصفين بالطول.\n" +
-            "2. اجوف الداخل قليلاً لتشكيل قارب صغير.\n" +
-            "3. رش بالملح واترك 10 دقائق.\n" +
-            "4. فرّم البصل والثوم والطماطم.\n" +
-            "5. قلّب البصل والثوم 5 دقائق في 2 ملعقة زيت.\n" +
-            "6. أضف الطماطم، الملح، الفلفل، السكر، واطه 5 دقائق.\n" +
-            "7. املأ الباذنجان بالخليط.\n" +
-            "8. ضع في صينية، رش بالقليل من الزيت.\n" +
-            "9. اخبز 20 دقيقة على 180°C.\n" +
-            "10. رش البقدونس قبل التقديم."
+            "1. قطّع الباذنجان إلى نصفين بالطول.\n" +
+            "2. أفرغ القليل من اللب لتشكيل قوارب.\n" +
+            "3. رشّ بالملح واتركه 10 دقائق، ثم اغسله وجففه.\n" +
+            "4. فرّم البصل والثوم والطماطم ناعماً.\n" +
+            "5. قلِّ البصل والثوم 5 دقائق في مقلاة مع ملعقتين من زيت الزيتون.\n" +
+            "6. أضف الطماطم والملح والفلفل والسكر واتركه يطهى 5 دقائق.\n" +
+            "7. احشُ الباذنجان بالخليط.\n" +
+            "8. ضعها في صينية فرن.\n" +
+            "9. رشّ باقي زيت الزيتون.\n" +
+            "10. اخبز على 180° لمدة 20 دقيقة.\n" +
+            "11. رشّ البقدونس قبل التقديم."
     }
 };
 recipesData.plat.lahmacun = {
     country: "turquie",
     image: "images/lahmacun.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 12,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Lahmacun",
-        equipment: ["1 bol","1 rouleau à pâtisserie","1 couteau","1 plaque de cuisson","four"],
+        equipment: [
+            "1 bol",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 planche à découper",
+            "1 plaque de cuisson",
+            "1 four"
+        ],
         ingredients: [
-            "250 g farine",
-            "150 ml eau tiède",
-            "1 cuillère à café sel",
-            "200 g viande hachée de bœuf ou agneau",
-            "1 oignon",
-            "1 tomate",
-            "2 cuillères à soupe persil haché",
-            "1 cuillère à café paprika",
-            "1/2 cuillère à café poivre",
-            "1 cuillère à soupe huile d’olive"
+            "250 g de farine",
+            "150 ml d’eau tiède",
+            "1 cuillère à café de sel",
+            "200 g de viande hachée de bœuf ou d’agneau",
+            "1 oignon moyen",
+            "1 tomate mûre",
+            "2 cuillères à soupe de persil frais haché",
+            "1 cuillère à café de paprika",
+            "1/2 cuillère à café de poivre noir",
+            "1 cuillère à soupe d’huile d’olive"
         ],
         preparation:
-            "Temps de préparation : 20 min\nTemps de cuisson : 12 min\n\n" +
-            "1. Mélanger farine, sel et eau tiède pour former une pâte.\n" +
-            "2. Pétrir 5 min, couvrir et laisser reposer 15 min.\n" +
-            "3. Hacher finement oignon, tomate et persil.\n" +
-            "4. Mélanger avec viande, paprika, poivre, huile.\n" +
-            "5. Préchauffer le four à 220°C.\n" +
-            "6. Diviser la pâte en 4 boules, étaler finement.\n" +
-            "7. Étaler la garniture sur chaque pâte.\n" +
-            "8. Cuire 10-12 min jusqu’à ce que le bord soit doré.\n" +
-            "9. Servir chaud, roulé ou plié."
+            "1. Mélanger la farine, le sel et l’eau tiède pour former une pâte.\n" +
+            "2. Pétrir environ 5 minutes jusqu’à obtenir une pâte souple.\n" +
+            "3. Couvrir et laisser reposer 15 minutes à température ambiante.\n" +
+            "4. Hacher très finement l’oignon, la tomate et le persil.\n" +
+            "5. Mélanger la viande hachée avec les légumes, le paprika, le poivre et l’huile d’olive.\n" +
+            "6. Préchauffer le four à 220°C.\n" +
+            "7. Diviser la pâte en 4 boules et les étaler très finement.\n" +
+            "8. Répartir la garniture uniformément sur chaque disque de pâte.\n" +
+            "9. Enfourner 10 à 12 minutes jusqu’à ce que les bords soient légèrement dorés.\n" +
+            "10. Servir chaud, roulé ou plié."
     },
+
     en: {
         title: "Lahmacun",
-        equipment: ["1 bowl","rolling pin","knife","baking tray","oven"],
+        equipment: [
+            "1 bowl",
+            "rolling pin",
+            "knife",
+            "cutting board",
+            "baking tray",
+            "oven"
+        ],
         ingredients: [
             "250 g flour",
             "150 ml warm water",
             "1 tsp salt",
             "200 g minced beef or lamb",
-            "1 onion",
-            "1 tomato",
-            "2 tbsp chopped parsley",
+            "1 medium onion",
+            "1 ripe tomato",
+            "2 tbsp chopped fresh parsley",
             "1 tsp paprika",
-            "1/2 tsp pepper",
+            "1/2 tsp black pepper",
             "1 tbsp olive oil"
         ],
         preparation:
-            "Prep time: 20 min\nCooking time: 12 min\n\n" +
-            "1. Mix flour, salt, warm water to form dough.\n" +
-            "2. Knead 5 min, cover, rest 15 min.\n" +
-            "3. Finely chop onion, tomato, parsley.\n" +
-            "4. Mix with meat, paprika, pepper, oil.\n" +
-            "5. Preheat oven to 220°C.\n" +
-            "6. Divide dough into 4 balls, roll thin.\n" +
-            "7. Spread topping on each dough.\n" +
-            "8. Bake 10-12 min until edges golden.\n" +
-            "9. Serve hot, rolled or folded."
+            "1. Mix flour, salt, and warm water to form a dough.\n" +
+            "2. Knead for about 5 minutes until smooth.\n" +
+            "3. Cover and let rest for 15 minutes.\n" +
+            "4. Finely chop onion, tomato, and parsley.\n" +
+            "5. Mix minced meat with vegetables, paprika, pepper, and olive oil.\n" +
+            "6. Preheat the oven to 220°C.\n" +
+            "7. Divide dough into 4 balls and roll very thin.\n" +
+            "8. Spread the topping evenly on each dough round.\n" +
+            "9. Bake for 10–12 minutes until edges are lightly golden.\n" +
+            "10. Serve hot, rolled or folded."
     },
+
     nl: {
         title: "Lahmacun",
-        equipment: ["1 kom","deegroller","mes","bakplaat","oven"],
+        equipment: [
+            "1 kom",
+            "deegroller",
+            "mes",
+            "snijplank",
+            "bakplaat",
+            "oven"
+        ],
         ingredients: [
             "250 g bloem",
             "150 ml warm water",
             "1 theelepel zout",
-            "200 g gehakt rund of lam",
-            "1 ui",
-            "1 tomaat",
+            "200 g gehakt van rund of lam",
+            "1 middelgrote ui",
+            "1 rijpe tomaat",
             "2 eetlepels fijngehakte peterselie",
             "1 theelepel paprika",
-            "1/2 theelepel peper",
+            "1/2 theelepel zwarte peper",
             "1 eetlepel olijfolie"
         ],
         preparation:
-            "Bereidingstijd: 20 min\nKooktijd: 12 min\n\n" +
-            "1. Meng bloem, zout en warm water tot deeg.\n" +
-            "2. Kneed 5 min, dek af, laat 15 min rusten.\n" +
-            "3. Hak ui, tomaat, peterselie fijn.\n" +
-            "4. Meng met vlees, paprika, peper, olie.\n" +
-            "5. Verwarm oven voor op 220°C.\n" +
-            "6. Verdeel deeg in 4 bollen, rol dun uit.\n" +
-            "7. Verdeel topping over deeg.\n" +
-            "8. Bak 10-12 min tot randen goudbruin.\n" +
-            "9. Serveer warm, opgerold of gevouwen."
+            "1. Meng bloem, zout en warm water tot een deeg.\n" +
+            "2. Kneed ongeveer 5 minuten tot het deeg soepel is.\n" +
+            "3. Dek af en laat 15 minuten rusten.\n" +
+            "4. Hak ui, tomaat en peterselie zeer fijn.\n" +
+            "5. Meng het gehakt met de groenten, paprika, peper en olijfolie.\n" +
+            "6. Verwarm de oven voor op 220°C.\n" +
+            "7. Verdeel het deeg in 4 bollen en rol dun uit.\n" +
+            "8. Verdeel de vulling gelijkmatig over het deeg.\n" +
+            "9. Bak 10–12 minuten tot de randen licht goudbruin zijn.\n" +
+            "10. Serveer warm, opgerold of gevouwen."
     },
+
     ar: {
         title: "لاهماجون",
-        equipment: ["وعاء","شوبك","سكين","صينية فرن","فرن"],
+        equipment: [
+            "وعاء",
+            "شوبك",
+            "سكين",
+            "لوح تقطيع",
+            "صينية فرن",
+            "فرن"
+        ],
         ingredients: [
             "250 غ دقيق",
             "150 مل ماء دافئ",
             "1 ملعقة صغيرة ملح",
             "200 غ لحم مفروم بقر أو ضأن",
-            "1 بصلة",
-            "1 طماطم",
+            "1 بصلة متوسطة",
+            "1 طماطم ناضجة",
             "2 ملاعق كبيرة بقدونس مفروم",
-            "1 ملعقة صغيرة فلفل حلو",
+            "1 ملعقة صغيرة بابريكا",
             "نصف ملعقة صغيرة فلفل أسود",
             "1 ملعقة كبيرة زيت زيتون"
         ],
         preparation:
-            "وقت التحضير: 20 دقيقة\nوقت الطهي: 12 دقيقة\n\n" +
-            "1. اخلط الدقيق، الملح، الماء الدافئ لتشكيل العجين.\n" +
-            "2. اعجن 5 دقائق، غطه، دع يرتاح 15 دقيقة.\n" +
-            "3. فرّم البصل والطماطم والبقدونس ناعماً.\n" +
-            "4. اخلط مع اللحم، البابريكا، الفلفل، الزيت.\n" +
-            "5. سخن الفرن على 220°C.\n" +
-            "6. قسم العجين إلى 4 كرات، افردها رقيقة.\n" +
-            "7. ضع الحشوة على كل عجينة.\n" +
-            "8. اخبز 10-12 دقيقة حتى تصبح الحواف ذهبية.\n" +
-            "9. قدمه ساخناً، ملفوف أو مطوي."
+            "1. اخلط الدقيق والملح والماء الدافئ لتشكيل العجين.\n" +
+            "2. اعجن لمدة 5 دقائق حتى يصبح ناعماً.\n" +
+            "3. غطِّ العجين واتركه يرتاح 15 دقيقة.\n" +
+            "4. فرّم البصل والطماطم والبقدونس ناعماً جداً.\n" +
+            "5. اخلط اللحم مع الخضار والبابريكا والفلفل وزيت الزيتون.\n" +
+            "6. سخّن الفرن على 220 درجة مئوية.\n" +
+            "7. قسم العجين إلى 4 كرات وافردها رقيقة جداً.\n" +
+            "8. وزّع الحشوة بالتساوي على العجين.\n" +
+            "9. اخبز لمدة 10–12 دقيقة حتى تتحمر الحواف قليلاً.\n" +
+            "10. قدّمها ساخنة، ملفوفة أو مطوية."
     }
 };
 recipesData.plat.moussakaTurque = {
     country: "turquie",
     image: "images/moussaka-turque.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 40,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Moussaka turque",
-        equipment: ["1 poêle","1 plat allant au four","1 couteau","1 planche à découper","1 cuillère"],
+        equipment: [
+            "1 poêle",
+            "1 plat allant au four",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
             "2 aubergines",
             "2 pommes de terre",
-            "300 g viande hachée de bœuf",
-            "1 oignon",
+            "300 g de viande hachée de bœuf",
+            "1 oignon moyen",
             "2 gousses d’ail",
-            "2 tomates",
-            "50 ml huile d’olive",
-            "1 cuillère à café paprika",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre"
+            "2 tomates mûres",
+            "50 ml d’huile d’olive",
+            "1 cuillère à café de paprika doux",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre noir"
         ],
         preparation:
-            "Temps de préparation : 20 min\nTemps de cuisson : 40 min\n\n" +
-            "1. Couper aubergines et pommes de terre en rondelles.\n" +
-            "2. Faire revenir les rondelles d’aubergine et de pommes de terre dans 2 cuillères à soupe d’huile 5 min.\n" +
-            "3. Hacher oignon, ail et tomates.\n" +
-            "4. Faire revenir oignon et ail 5 min, ajouter la viande et cuire 10 min.\n" +
-            "5. Ajouter tomates, paprika, sel, poivre, cuire 5 min.\n" +
-            "6. Dans un plat, alterner couches de légumes et viande.\n" +
-            "7. Arroser d’un filet d’huile et cuire au four à 180°C 20 min.\n" +
-            "8. Servir chaud."
+            "1. Laver puis couper les aubergines et les pommes de terre en rondelles.\n" +
+            "2. Faire revenir les rondelles d’aubergine et de pommes de terre dans une poêle avec 2 cuillères à soupe d’huile pendant 5 minutes.\n" +
+            "3. Émincer finement l’oignon et l’ail, puis couper les tomates en petits dés.\n" +
+            "4. Dans la même poêle, faire revenir l’oignon et l’ail 5 minutes.\n" +
+            "5. Ajouter la viande hachée et cuire environ 10 minutes en remuant.\n" +
+            "6. Ajouter les tomates, le paprika, le sel et le poivre, puis laisser mijoter 5 minutes.\n" +
+            "7. Disposer une couche de légumes puis une couche de viande dans un plat allant au four.\n" +
+            "8. Répéter l’opération jusqu’à épuisement des ingrédients.\n" +
+            "9. Arroser avec le reste de l’huile d’olive.\n" +
+            "10. Enfourner à 180°C pendant 20 minutes.\n" +
+            "11. Servir chaud."
     },
+
     en: {
         title: "Turkish Moussaka",
-        equipment: ["pan","oven dish","knife","cutting board","spoon"],
+        equipment: [
+            "pan",
+            "oven dish",
+            "knife",
+            "cutting board",
+            "spoon"
+        ],
         ingredients: [
             "2 eggplants",
             "2 potatoes",
             "300 g minced beef",
-            "1 onion",
+            "1 medium onion",
             "2 garlic cloves",
-            "2 tomatoes",
+            "2 ripe tomatoes",
             "50 ml olive oil",
-            "1 tsp paprika",
+            "1 tsp sweet paprika",
             "1/2 tsp salt",
-            "1/4 tsp pepper"
+            "1/4 tsp black pepper"
         ],
         preparation:
-            "Prep time: 20 min\nCooking time: 40 min\n\n" +
-            "1. Slice eggplants and potatoes.\n" +
-            "2. Sauté slices in 2 tbsp oil for 5 min.\n" +
-            "3. Chop onion, garlic, tomatoes.\n" +
-            "4. Sauté onion and garlic 5 min, add meat, cook 10 min.\n" +
-            "5. Add tomatoes, paprika, salt, pepper, cook 5 min.\n" +
-            "6. In a dish, layer vegetables and meat.\n" +
-            "7. Drizzle with oil, bake at 180°C for 20 min.\n" +
-            "8. Serve hot."
+            "1. Wash and slice the eggplants and potatoes.\n" +
+            "2. Sauté the slices in a pan with 2 tablespoons of oil for 5 minutes.\n" +
+            "3. Finely chop the onion and garlic, dice the tomatoes.\n" +
+            "4. In the same pan, sauté onion and garlic for 5 minutes.\n" +
+            "5. Add minced meat and cook for about 10 minutes, stirring.\n" +
+            "6. Add tomatoes, paprika, salt, and pepper, simmer for 5 minutes.\n" +
+            "7. Layer vegetables and meat in an oven dish.\n" +
+            "8. Repeat layers until ingredients are used.\n" +
+            "9. Drizzle with remaining olive oil.\n" +
+            "10. Bake at 180°C for 20 minutes.\n" +
+            "11. Serve hot."
     },
+
     nl: {
-        title: "Turkse Moussaka",
-        equipment: ["pan","ovenschaal","mes","snijplank","lepel"],
+        title: "Turkse moussaka",
+        equipment: [
+            "pan",
+            "ovenschaal",
+            "mes",
+            "snijplank",
+            "lepel"
+        ],
         ingredients: [
             "2 aubergines",
             "2 aardappelen",
-            "300 g gehakt rund",
-            "1 ui",
+            "300 g rundergehakt",
+            "1 middelgrote ui",
             "2 teentjes knoflook",
-            "2 tomaten",
+            "2 rijpe tomaten",
             "50 ml olijfolie",
-            "1 theelepel paprika",
+            "1 theelepel zoete paprika",
             "1/2 theelepel zout",
-            "1/4 theelepel peper"
+            "1/4 theelepel zwarte peper"
         ],
         preparation:
-            "Bereidingstijd: 20 min\nKooktijd: 40 min\n\n" +
-            "1. Snijd aubergine en aardappel in plakjes.\n" +
-            "2. Bak de plakjes 5 min in 2 eetlepels olie.\n" +
-            "3. Hak ui, knoflook, tomaten.\n" +
-            "4. Bak ui en knoflook 5 min, voeg vlees toe, bak 10 min.\n" +
-            "5. Voeg tomaten, paprika, zout, peper toe, bak 5 min.\n" +
-            "6. Leg afwisselend groenten en vlees in ovenschaal.\n" +
-            "7. Besprenkel met olie, bak 20 min op 180°C.\n" +
-            "8. Serveer warm."
+            "1. Was en snijd aubergines en aardappelen in plakjes.\n" +
+            "2. Bak de plakjes 5 minuten in een pan met 2 eetlepels olie.\n" +
+            "3. Hak ui en knoflook fijn en snijd tomaten in blokjes.\n" +
+            "4. Bak ui en knoflook 5 minuten in dezelfde pan.\n" +
+            "5. Voeg het gehakt toe en bak ongeveer 10 minuten.\n" +
+            "6. Voeg tomaten, paprika, zout en peper toe en laat 5 minuten sudderen.\n" +
+            "7. Leg groenten en vlees in lagen in een ovenschaal.\n" +
+            "8. Herhaal tot alles op is.\n" +
+            "9. Besprenkel met de resterende olijfolie.\n" +
+            "10. Bak 20 minuten op 180°C.\n" +
+            "11. Serveer warm."
     },
+
     ar: {
         title: "مسقعة تركية",
-        equipment: ["مقلاة","صينية فرن","سكين","لوح تقطيع","ملعقة"],
+        equipment: [
+            "مقلاة",
+            "صينية فرن",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
             "2 باذنجان",
             "2 بطاطس",
             "300 غ لحم بقر مفروم",
-            "1 بصلة",
+            "1 بصلة متوسطة",
             "2 فص ثوم",
-            "2 طماطم",
+            "2 طماطم ناضجة",
             "50 مل زيت زيتون",
-            "1 ملعقة صغيرة فلفل حلو",
+            "1 ملعقة صغيرة بابريكا حلوة",
             "نصف ملعقة صغيرة ملح",
             "ربع ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "وقت التحضير: 20 دقيقة\nوقت الطهي: 40 دقيقة\n\n" +
-            "1. قطع الباذنجان والبطاطس شرائح.\n" +
-            "2. اقلي الشرائح 5 دقائق في 2 ملعقة زيت.\n" +
-            "3. فرّم البصل، الثوم، الطماطم.\n" +
-            "4. اقلي البصل والثوم 5 دقائق، أضف اللحم واطه 10 دقائق.\n" +
-            "5. أضف الطماطم، الفلفل، الملح، اطه 5 دقائق.\n" +
-            "6. رتب الخضار واللحم في الصينية بالتناوب.\n" +
-            "7. رش بالزيت، اخبز 20 دقيقة على 180°C.\n" +
-            "8. قدمه ساخناً."
+            "1. اغسل وقطّع الباذنجان والبطاطس إلى شرائح.\n" +
+            "2. اقلي الشرائح 5 دقائق في مقلاة مع ملعقتين من الزيت.\n" +
+            "3. فرّم البصل والثوم وقطّع الطماطم.\n" +
+            "4. اقلي البصل والثوم 5 دقائق في نفس المقلاة.\n" +
+            "5. أضف اللحم واطهه حوالي 10 دقائق.\n" +
+            "6. أضف الطماطم والبابريكا والملح والفلفل واتركه 5 دقائق.\n" +
+            "7. رتّب الخضار واللحم في طبقات داخل الصينية.\n" +
+            "8. كرر حتى تنتهي المكونات.\n" +
+            "9. رشّ باقي زيت الزيتون.\n" +
+            "10. اخبز على 180° لمدة 20 دقيقة.\n" +
+            "11. قدّمها ساخنة."
     }
 };
 recipesData.plat.dolmaTurque = {
     country: "turquie",
     image: "images/dolma-turque.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Dolma turque",
-        equipment: ["1 bol","1 couteau","1 planche à découper","1 casserole","1 cuillère"],
+        equipment: [
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 casserole",
+            "1 cuillère"
+        ],
         ingredients: [
             "4 poivrons verts",
             "4 tomates",
-            "1 oignon",
-            "100 g riz",
-            "50 g persil haché",
-            "2 cuillères à soupe huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café paprika"
+            "1 oignon moyen",
+            "100 g de riz",
+            "50 g de persil frais haché",
+            "2 cuillères à soupe d’huile d’olive",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/2 cuillère à café de paprika doux"
         ],
         preparation:
-            "Temps de préparation : 20 min\nTemps de cuisson : 30 min\n\n" +
-            "1. Laver les légumes et enlever les graines des poivrons et des tomates.\n" +
+            "1. Laver les légumes et retirer les graines des poivrons et des tomates.\n" +
             "2. Hacher finement l’oignon et le persil.\n" +
-            "3. Mélanger riz, oignon, persil, sel, poivre, paprika et 1 cuillère d’huile.\n" +
-            "4. Remplir les légumes avec ce mélange.\n" +
-            "5. Placer les légumes dans une casserole, ajouter 1 cuillère d’huile et un peu d’eau.\n" +
-            "6. Couvrir et cuire à feu doux 25-30 min jusqu’à ce que le riz soit tendre.\n" +
-            "7. Servir chaud ou tiède."
+            "3. Dans un bol, mélanger le riz, l’oignon, le persil, le sel, le poivre, le paprika et 1 cuillère à soupe d’huile d’olive.\n" +
+            "4. Farcir les poivrons et les tomates avec ce mélange.\n" +
+            "5. Disposer les légumes farcis dans une casserole, bien serrés.\n" +
+            "6. Ajouter le reste de l’huile d’olive et un peu d’eau au fond de la casserole.\n" +
+            "7. Couvrir et cuire à feu doux pendant 25 à 30 minutes, jusqu’à ce que le riz soit tendre.\n" +
+            "8. Servir chaud ou tiède."
     },
+
     en: {
         title: "Turkish Dolma",
-        equipment: ["1 bowl","knife","cutting board","saucepan","spoon"],
+        equipment: [
+            "bowl",
+            "knife",
+            "cutting board",
+            "saucepan",
+            "spoon"
+        ],
         ingredients: [
             "4 green peppers",
             "4 tomatoes",
-            "1 onion",
+            "1 medium onion",
             "100 g rice",
-            "50 g chopped parsley",
+            "50 g chopped fresh parsley",
             "2 tbsp olive oil",
             "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp paprika"
+            "1/4 tsp black pepper",
+            "1/2 tsp sweet paprika"
         ],
         preparation:
-            "Prep time: 20 min\nCooking time: 30 min\n\n" +
             "1. Wash vegetables and remove seeds from peppers and tomatoes.\n" +
-            "2. Finely chop onion and parsley.\n" +
-            "3. Mix rice, onion, parsley, salt, pepper, paprika and 1 tbsp oil.\n" +
-            "4. Stuff vegetables with mixture.\n" +
-            "5. Place vegetables in saucepan, add 1 tbsp oil and some water.\n" +
-            "6. Cover and cook over low heat 25-30 min until rice is tender.\n" +
-            "7. Serve hot or warm."
+            "2. Finely chop the onion and parsley.\n" +
+            "3. In a bowl, mix rice, onion, parsley, salt, pepper, paprika, and 1 tablespoon olive oil.\n" +
+            "4. Stuff the vegetables with the mixture.\n" +
+            "5. Arrange stuffed vegetables tightly in a saucepan.\n" +
+            "6. Add remaining olive oil and a little water to the bottom.\n" +
+            "7. Cover and cook over low heat for 25 to 30 minutes until rice is tender.\n" +
+            "8. Serve hot or warm."
     },
+
     nl: {
-        title: "Turkse Dolma",
-        equipment: ["1 kom","mes","snijplank","pan","lepel"],
+        title: "Turkse dolma",
+        equipment: [
+            "kom",
+            "mes",
+            "snijplank",
+            "pan",
+            "lepel"
+        ],
         ingredients: [
             "4 groene paprika’s",
             "4 tomaten",
-            "1 ui",
+            "1 middelgrote ui",
             "100 g rijst",
-            "50 g fijngehakte peterselie",
+            "50 g fijngehakte verse peterselie",
             "2 eetlepels olijfolie",
             "1/2 theelepel zout",
-            "1/4 theelepel peper",
-            "1/2 theelepel paprika"
+            "1/4 theelepel zwarte peper",
+            "1/2 theelepel zoete paprika"
         ],
         preparation:
-            "Bereidingstijd: 20 min\nKooktijd: 30 min\n\n" +
             "1. Was de groenten en verwijder de zaden van paprika’s en tomaten.\n" +
-            "2. Snijd ui en peterselie fijn.\n" +
-            "3. Meng rijst, ui, peterselie, zout, peper, paprika en 1 eetlepel olie.\n" +
+            "2. Hak de ui en peterselie fijn.\n" +
+            "3. Meng rijst, ui, peterselie, zout, peper, paprika en 1 eetlepel olijfolie in een kom.\n" +
             "4. Vul de groenten met het mengsel.\n" +
-            "5. Leg de groenten in de pan, voeg 1 eetlepel olie en wat water toe.\n" +
-            "6. Dek af en kook 25-30 min op laag vuur tot rijst gaar is.\n" +
-            "7. Serveer warm of lauwwarm."
+            "5. Leg de gevulde groenten strak in een pan.\n" +
+            "6. Voeg de resterende olijfolie en een beetje water toe.\n" +
+            "7. Laat afgedekt 25–30 minuten zachtjes koken tot de rijst gaar is.\n" +
+            "8. Serveer warm of lauwwarm."
     },
+
     ar: {
         title: "دولمة تركية",
-        equipment: ["وعاء","سكين","لوح تقطيع","طنجرة","ملعقة"],
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "طنجرة",
+            "ملعقة"
+        ],
         ingredients: [
             "4 فلفل أخضر",
             "4 طماطم",
-            "1 بصلة",
+            "1 بصلة متوسطة",
             "100 غ أرز",
-            "50 غ بقدونس مفروم",
-            "2 ملاعق كبيرة زيت زيتون",
+            "50 غ بقدونس طازج مفروم",
+            "2 ملعقة كبيرة زيت زيتون",
             "نصف ملعقة صغيرة ملح",
-            "ربع ملعقة صغيرة فلفل",
-            "نصف ملعقة صغيرة بابريكا"
+            "ربع ملعقة صغيرة فلفل أسود",
+            "نصف ملعقة صغيرة بابريكا حلوة"
         ],
         preparation:
-            "وقت التحضير: 20 دقيقة\nوقت الطهي: 30 دقيقة\n\n" +
             "1. اغسل الخضار وأزل البذور من الفلفل والطماطم.\n" +
             "2. فرّم البصل والبقدونس ناعماً.\n" +
-            "3. اخلط الأرز، البصل، البقدونس، الملح، الفلفل، البابريكا وملعقة زيت.\n" +
-            "4. احشو الخضار بالخليط.\n" +
-            "5. ضع الخضار في الطنجرة، أضف ملعقة زيت وبعض الماء.\n" +
-            "6. غطِ واطه على نار هادئة 25-30 دقيقة حتى ينضج الأرز.\n" +
-            "7. قدمه ساخناً أو دافئاً."
+            "3. اخلط الأرز مع البصل والبقدونس والملح والفلفل والبابريكا وملعقة زيت.\n" +
+            "4. احشُ الخضار بالخليط.\n" +
+            "5. رتّب الخضار المحشية بإحكام داخل الطنجرة.\n" +
+            "6. أضف باقي زيت الزيتون والقليل من الماء.\n" +
+            "7. غطِّ واطهِ على نار هادئة 25–30 دقيقة حتى ينضج الأرز.\n" +
+            "8. قدّمها ساخنة أو دافئة."
     }
 };
 recipesData.plat.kebabTurc = {
     country: "turquie",
     image: "images/kebab-turc.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Kebab turc maison",
-        equipment: ["1 bol","1 couteau","1 planche à découper","1 poêle","1 cuillère en bois"],
+        equipment: [
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 poêle",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "400 g viande de bœuf ou agneau hachée",
-            "1 oignon",
+            "400 g de viande hachée de bœuf ou d’agneau",
+            "1 oignon moyen",
             "2 gousses d’ail",
-            "1 cuillère à café paprika",
-            "1/2 cuillère à café cumin",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1 cuillère à soupe huile d’olive",
-            "4 pains pita"
+            "1 cuillère à café de paprika",
+            "1/2 cuillère à café de cumin",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1 cuillère à soupe d’huile d’olive",
+            "4 pains turcs ou pains pita",
+            "2 tomates",
+            "1/2 laitue",
+            "1 petit oignon"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Hacher finement oignon et ail.\n" +
-            "2. Mélanger viande, oignon, ail, paprika, cumin, sel, poivre.\n" +
-            "3. Former 8 petites saucisses plates.\n" +
-            "4. Chauffer l’huile dans la poêle, cuire les kebabs 7 min de chaque côté.\n" +
-            "5. Chauffer les pains pita quelques minutes.\n" +
-            "6. Servir kebabs dans pita avec salade ou sauce au yaourt."
+            "1. Hacher finement l’oignon et l’ail.\n" +
+            "2. Mélanger la viande avec l’oignon, l’ail, le paprika, le cumin, le sel et le poivre.\n" +
+            "3. Façonner 8 kebabs allongés ou légèrement aplatis.\n" +
+            "4. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "5. Cuire les kebabs environ 7 minutes de chaque côté jusqu’à bien dorés.\n\n" +
+
+            "==============================\n" +
+            "OPTION A – VERSION ASSIETTE\n" +
+            "==============================\n\n" +
+
+            "6. Servir les kebabs chauds avec du pain à côté.\n" +
+            "7. Accompagner éventuellement d’une salade simple.\n\n" +
+
+            "==============================\n" +
+            "OPTION B – VERSION SANDWICH\n" +
+            "==============================\n\n" +
+
+            "8. Couper les tomates en rondelles.\n" +
+            "9. Émincer la laitue et l’oignon.\n" +
+            "10. Réchauffer légèrement les pains.\n" +
+            "11. Garnir les pains avec les kebabs et les légumes.\n" +
+            "12. Servir immédiatement."
     },
+
     en: {
         title: "Homemade Turkish Kebab",
-        equipment: ["1 bowl","knife","cutting board","pan","wooden spoon"],
+        equipment: [
+            "bowl",
+            "knife",
+            "cutting board",
+            "pan",
+            "wooden spoon"
+        ],
         ingredients: [
             "400 g minced beef or lamb",
-            "1 onion",
+            "1 medium onion",
             "2 garlic cloves",
             "1 tsp paprika",
             "1/2 tsp cumin",
             "1/2 tsp salt",
             "1/4 tsp pepper",
             "1 tbsp olive oil",
-            "4 pita breads"
+            "4 Turkish breads or pita",
+            "2 tomatoes",
+            "1/2 lettuce",
+            "1 small onion"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 15 min\n\n" +
-            "1. Finely chop onion and garlic.\n" +
-            "2. Mix meat, onion, garlic, paprika, cumin, salt, pepper.\n" +
-            "3. Shape into 8 small flat sausages.\n" +
-            "4. Heat oil in pan, cook kebabs 7 min each side.\n" +
-            "5. Warm pita breads a few minutes.\n" +
-            "6. Serve kebabs in pita with salad or yogurt sauce."
+            "1. Finely chop the onion and garlic.\n" +
+            "2. Mix the meat with onion, garlic, paprika, cumin, salt and pepper.\n" +
+            "3. Shape into 8 elongated or flat kebabs.\n" +
+            "4. Heat olive oil in a pan over medium heat.\n" +
+            "5. Cook the kebabs about 7 minutes per side until well browned.\n\n" +
+
+            "==============================\n" +
+            "OPTION A – PLATE VERSION\n" +
+            "==============================\n\n" +
+
+            "6. Serve the kebabs hot with bread on the side.\n" +
+            "7. Add a simple salad if desired.\n\n" +
+
+            "==============================\n" +
+            "OPTION B – SANDWICH VERSION\n" +
+            "==============================\n\n" +
+
+            "8. Slice the tomatoes.\n" +
+            "9. Shred the lettuce and slice the onion.\n" +
+            "10. Lightly warm the bread.\n" +
+            "11. Fill the bread with kebabs and vegetables.\n" +
+            "12. Serve immediately."
     },
+
     nl: {
-        title: "Turkse Kebab",
-        equipment: ["1 kom","mes","snijplank","pan","houten lepel"],
+        title: "Turkse kebab",
+        equipment: [
+            "kom",
+            "mes",
+            "snijplank",
+            "pan",
+            "houten lepel"
+        ],
         ingredients: [
-            "400 g gehakt rund of lam",
-            "1 ui",
+            "400 g runder- of lamsgehakt",
+            "1 middelgrote ui",
             "2 teentjes knoflook",
             "1 theelepel paprika",
             "1/2 theelepel komijn",
             "1/2 theelepel zout",
             "1/4 theelepel peper",
             "1 eetlepel olijfolie",
-            "4 pita’s"
+            "4 Turks brood of pita",
+            "2 tomaten",
+            "1/2 krop sla",
+            "1 kleine ui"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 15 min\n\n" +
-            "1. Snijd ui en knoflook fijn.\n" +
-            "2. Meng vlees, ui, knoflook, paprika, komijn, zout, peper.\n" +
-            "3. Vorm 8 kleine platte worstjes.\n" +
-            "4. Verhit olie in pan, bak kebabs 7 min per kant.\n" +
-            "5. Verwarm pita enkele minuten.\n" +
-            "6. Serveer kebabs in pita met salade of yoghurtsaus."
+            "1. Hak de ui en knoflook fijn.\n" +
+            "2. Meng het gehakt met ui, knoflook, paprika, komijn, zout en peper.\n" +
+            "3. Vorm 8 langwerpige of platte kebabs.\n" +
+            "4. Verhit de olijfolie in een pan op middelhoog vuur.\n" +
+            "5. Bak de kebabs ongeveer 7 minuten per kant tot goudbruin.\n\n" +
+
+            "==============================\n" +
+            "OPTIE A – BORDVERSIE\n" +
+            "==============================\n\n" +
+
+            "6. Serveer de kebabs warm met brood erbij.\n" +
+            "7. Voeg eventueel een eenvoudige salade toe.\n\n" +
+
+            "==============================\n" +
+            "OPTIE B – SANDWICHVERSIE\n" +
+            "==============================\n\n" +
+
+            "8. Snijd de tomaten in plakjes.\n" +
+            "9. Snijd de sla en ui fijn.\n" +
+            "10. Verwarm het brood lichtjes.\n" +
+            "11. Vul het brood met kebabs en groenten.\n" +
+            "12. Serveer direct."
     },
+
     ar: {
         title: "كباب تركي منزلي",
-        equipment: ["وعاء","سكين","لوح تقطيع","مقلاة","ملعقة خشبية"],
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "مقلاة",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "400 غ لحم بقر أو ضأن مفروم",
-            "1 بصلة",
+            "1 بصلة متوسطة",
             "2 فص ثوم",
             "1 ملعقة صغيرة بابريكا",
             "نصف ملعقة صغيرة كمون",
             "نصف ملعقة صغيرة ملح",
             "ربع ملعقة صغيرة فلفل أسود",
             "1 ملعقة كبيرة زيت زيتون",
-            "4 أرغفة خبز بيتا"
+            "4 خبز تركي أو خبز بيتا",
+            "2 طماطم",
+            "نصف خس",
+            "1 بصلة صغيرة"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 15 دقيقة\n\n" +
             "1. فرّم البصل والثوم ناعماً.\n" +
             "2. اخلط اللحم مع البصل، الثوم، البابريكا، الكمون، الملح والفلفل.\n" +
-            "3. شكّل 8 سجق صغير مسطح.\n" +
-            "4. سخّن الزيت في المقلاة، اطه الكباب 7 دقائق لكل جانب.\n" +
-            "5. سخّن أرغفة البيتة لبضع دقائق.\n" +
-            "6. قدم الكباب في البيتة مع السلطة أو صوص الزبادي."
+            "3. شكّل 8 قطع كباب طويلة أو مسطحة.\n" +
+            "4. سخّن زيت الزيتون في المقلاة على نار متوسطة.\n" +
+            "5. اطه الكباب حوالي 7 دقائق لكل جانب حتى يصبح ذهبي اللون.\n\n" +
+
+            "==============================\n" +
+            "الخيار الأول – طبق\n" +
+            "==============================\n\n" +
+
+            "6. قدّم الكباب ساخناً مع الخبز جانباً.\n" +
+            "7. يمكن إضافة سلطة بسيطة حسب الرغبة.\n\n" +
+
+            "==============================\n" +
+            "الخيار الثاني – سندويتش\n" +
+            "==============================\n\n" +
+
+            "8. قطّع الطماطم شرائح.\n" +
+            "9. قطّع الخس والبصل.\n" +
+            "10. سخّن الخبز قليلاً.\n" +
+            "11. املأ الخبز بالكباب والخضار.\n" +
+            "12. قدّم مباشرة."
     }
 };
 recipesData.plat.pilavTurc = {
     country: "turquie",
     image: "images/pilav-turc.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Pilav turc",
-        equipment: ["1 casserole","1 couteau","1 planche à découper","1 cuillère en bois"],
+        equipment: [
+            "1 casserole",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "250 g riz long grain",
-            "50 g beurre ou huile d’olive",
-            "1 oignon",
-            "500 ml bouillon de légumes",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "2 cuillères à soupe persil haché"
+            "250 g de riz long grain",
+            "50 g de beurre ou d’huile d’olive",
+            "1 oignon moyen",
+            "500 ml de bouillon de légumes",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "2 cuillères à soupe de persil haché"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 20 min\n\n" +
             "1. Hacher finement l’oignon.\n" +
-            "2. Faire fondre le beurre dans la casserole, ajouter l’oignon et cuire 3-4 min.\n" +
-            "3. Ajouter le riz et remuer 2 min jusqu’à ce qu’il soit translucide.\n" +
-            "4. Verser le bouillon, saler et poivrer.\n" +
-            "5. Porter à ébullition, puis couvrir et cuire à feu doux 15 min.\n" +
-            "6. Retirer du feu et laisser reposer 5 min.\n" +
-            "7. Parsemer de persil et servir chaud."
+            "2. Faire fondre le beurre ou chauffer l’huile dans une casserole.\n" +
+            "3. Ajouter l’oignon et faire revenir 3 à 4 minutes jusqu’à translucide.\n" +
+            "4. Ajouter le riz et remuer 2 minutes jusqu’à ce qu’il devienne légèrement translucide.\n" +
+            "5. Verser le bouillon, ajouter le sel et le poivre.\n" +
+            "6. Porter à ébullition, couvrir et cuire à feu doux pendant 15 minutes.\n" +
+            "7. Retirer du feu, laisser reposer 5 minutes.\n" +
+            "8. Parsemer de persil et servir chaud."
     },
+
     en: {
         title: "Turkish Pilav",
-        equipment: ["1 saucepan","knife","cutting board","wooden spoon"],
+        equipment: [
+            "saucepan",
+            "knife",
+            "cutting board",
+            "wooden spoon"
+        ],
         ingredients: [
-            "250 g long grain rice",
+            "250 g long-grain rice",
             "50 g butter or olive oil",
-            "1 onion",
+            "1 medium onion",
             "500 ml vegetable broth",
             "1/2 tsp salt",
             "1/4 tsp pepper",
             "2 tbsp chopped parsley"
         ],
         preparation:
-            "Prep time: 10 min\nCooking time: 20 min\n\n" +
-            "1. Finely chop onion.\n" +
-            "2. Melt butter in saucepan, cook onion 3-4 min.\n" +
-            "3. Add rice, stir 2 min until translucent.\n" +
-            "4. Pour in broth, add salt and pepper.\n" +
-            "5. Bring to boil, cover, cook on low 15 min.\n" +
-            "6. Remove from heat, rest 5 min.\n" +
-            "7. Sprinkle parsley and serve hot."
+            "1. Finely chop the onion.\n" +
+            "2. Melt butter or heat oil in a saucepan.\n" +
+            "3. Add onion and sauté for 3 to 4 minutes until translucent.\n" +
+            "4. Add rice and stir for 2 minutes until slightly translucent.\n" +
+            "5. Pour in the broth, add salt and pepper.\n" +
+            "6. Bring to a boil, cover and cook on low heat for 15 minutes.\n" +
+            "7. Remove from heat and let rest for 5 minutes.\n" +
+            "8. Sprinkle with parsley and serve hot."
     },
+
     nl: {
-        title: "Turkse Pilav",
-        equipment: ["1 pan","mes","snijplank","houten lepel"],
+        title: "Turkse pilav",
+        equipment: [
+            "pan",
+            "mes",
+            "snijplank",
+            "houten lepel"
+        ],
         ingredients: [
             "250 g rijst (lange korrel)",
             "50 g boter of olijfolie",
-            "1 ui",
+            "1 middelgrote ui",
             "500 ml groentebouillon",
             "1/2 theelepel zout",
             "1/4 theelepel peper",
             "2 eetlepels fijngehakte peterselie"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 20 min\n\n" +
-            "1. Snijd ui fijn.\n" +
-            "2. Smelt boter in pan, bak ui 3-4 min.\n" +
-            "3. Voeg rijst toe, roer 2 min tot glazig.\n" +
-            "4. Voeg bouillon, zout en peper toe.\n" +
-            "5. Breng aan de kook, dek af, kook 15 min op laag vuur.\n" +
-            "6. Haal van vuur, laat 5 min rusten.\n" +
-            "7. Bestrooi met peterselie en serveer warm."
+            "1. Snijd de ui fijn.\n" +
+            "2. Smelt de boter of verhit de olie in een pan.\n" +
+            "3. Voeg de ui toe en bak 3 tot 4 minuten tot glazig.\n" +
+            "4. Voeg de rijst toe en roer 2 minuten tot licht glazig.\n" +
+            "5. Voeg de bouillon, het zout en de peper toe.\n" +
+            "6. Breng aan de kook, dek af en kook 15 minuten op laag vuur.\n" +
+            "7. Haal van het vuur en laat 5 minuten rusten.\n" +
+            "8. Bestrooi met peterselie en serveer warm."
     },
+
     ar: {
         title: "بيلوف تركي",
-        equipment: ["طنجرة","سكين","لوح تقطيع","ملعقة خشبية"],
+        equipment: [
+            "طنجرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "250 غ أرز حبة طويلة",
             "50 غ زبدة أو زيت زيتون",
-            "1 بصلة",
+            "1 بصلة متوسطة",
             "500 مل مرق خضار",
             "نصف ملعقة صغيرة ملح",
             "ربع ملعقة صغيرة فلفل",
             "2 ملاعق كبيرة بقدونس مفروم"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 20 دقيقة\n\n" +
             "1. فرّم البصل ناعماً.\n" +
-            "2. ذوّب الزبدة في الطنجرة، اطه البصل 3-4 دقائق.\n" +
-            "3. أضف الأرز، حرك 2 دقيقة حتى يصبح شفافاً.\n" +
-            "4. أضف المرق، الملح والفلفل.\n" +
-            "5. اتركه يغلي، غطِ، اطه على نار هادئة 15 دقيقة.\n" +
-            "6. أزل من النار، دعها ترتاح 5 دقائق.\n" +
-            "7. رش البقدونس وقدمه ساخناً."
+            "2. ذوّب الزبدة أو سخّن الزيت في الطنجرة.\n" +
+            "3. أضف البصل واطهه 3 إلى 4 دقائق حتى يصبح شفافاً.\n" +
+            "4. أضف الأرز وحرّك لمدة دقيقتين حتى يصبح شبه شفاف.\n" +
+            "5. أضف مرق الخضار والملح والفلفل.\n" +
+            "6. اتركه حتى يغلي، ثم غطِ واطهه 15 دقيقة على نار هادئة.\n" +
+            "7. أزل من النار واتركه يرتاح 5 دقائق.\n" +
+            "8. رش البقدونس وقدّمه ساخناً."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 recipesData.plat.borekTurc = {
     country: "turquie",
     image: "images/borek-turc.jpg",
