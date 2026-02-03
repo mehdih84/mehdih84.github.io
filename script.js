@@ -38485,59 +38485,53 @@ recipesData.plat.pilavTurc = {
             "8. رش البقدونس وقدّمه ساخناً."
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 recipesData.plat.borekTurc = {
     country: "turquie",
     image: "images/borek-turc.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Börek turc",
-        equipment: ["1 bol","1 couteau","1 planche à découper","1 four","1 pinceau"],
+        equipment: [
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 four",
+            "1 pinceau"
+        ],
         ingredients: [
-            "250 g pâte filo",
-            "200 g fromage blanc ou feta émietté",
+            "250 g de pâte filo",
+            "200 g de fromage blanc ou feta émiettée",
             "1 œuf",
-            "50 g beurre fondu",
-            "1 cuillère à soupe persil haché"
+            "50 g de beurre fondu",
+            "1 cuillère à soupe de persil haché"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 20 min\n\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Battre l’œuf et mélanger avec le fromage et le persil.\n" +
-            "3. Badigeonner chaque feuille de pâte filo avec du beurre fondu.\n" +
-            "4. Placer un peu de farce sur la feuille et rouler en cylindre.\n" +
-            "5. Déposer sur une plaque et badigeonner le dessus de beurre.\n" +
-            "6. Cuire 20 min jusqu’à doré.\n" +
-            "7. Servir chaud."
+            "2. Battre l’œuf dans un bol et mélanger avec le fromage et le persil.\n" +
+            "3. Badigeonner chaque feuille de pâte filo avec le beurre fondu.\n" +
+            "4. Déposer un peu de farce sur la feuille et rouler en cylindre.\n" +
+            "5. Disposer les böreks sur une plaque de cuisson.\n" +
+            "6. Badigeonner le dessus avec le reste de beurre.\n" +
+            "7. Enfourner et cuire pendant 20 minutes jusqu’à doré.\n" +
+            "8. Servir chaud."
     },
+
     en: {
         title: "Turkish Börek",
-        equipment: ["1 bowl","knife","cutting board","oven","brush"],
+        equipment: [
+            "bowl",
+            "knife",
+            "cutting board",
+            "oven",
+            "brush"
+        ],
         ingredients: [
             "250 g filo pastry",
             "200 g white cheese or crumbled feta",
@@ -38546,18 +38540,25 @@ recipesData.plat.borekTurc = {
             "1 tbsp chopped parsley"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 20 min\n\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Beat egg, mix with cheese and parsley.\n" +
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Beat the egg in a bowl and mix with cheese and parsley.\n" +
             "3. Brush each filo sheet with melted butter.\n" +
-            "4. Place some filling on sheet, roll into cylinder.\n" +
-            "5. Place on tray, brush top with butter.\n" +
-            "6. Bake 20 min until golden.\n" +
-            "7. Serve hot."
+            "4. Place some filling on the sheet and roll into a cylinder.\n" +
+            "5. Arrange the böreks on a baking tray.\n" +
+            "6. Brush the tops with remaining butter.\n" +
+            "7. Bake for 20 minutes until golden.\n" +
+            "8. Serve hot."
     },
+
     nl: {
         title: "Turkse Börek",
-        equipment: ["1 kom","mes","snijplank","oven","kwastje"],
+        equipment: [
+            "kom",
+            "mes",
+            "snijplank",
+            "oven",
+            "kwastje"
+        ],
         ingredients: [
             "250 g filodeeg",
             "200 g witte kaas of verkruimelde feta",
@@ -38566,18 +38567,25 @@ recipesData.plat.borekTurc = {
             "1 eetlepel fijngehakte peterselie"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 20 min\n\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Klop ei en meng met kaas en peterselie.\n" +
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Klop het ei in een kom en meng met de kaas en peterselie.\n" +
             "3. Bestrijk elke filodeegvel met gesmolten boter.\n" +
-            "4. Leg wat vulling op vel, rol op tot cilinder.\n" +
-            "5. Leg op bakplaat, bestrijk bovenkant met boter.\n" +
-            "6. Bak 20 min tot goudbruin.\n" +
-            "7. Serveer warm."
+            "4. Leg wat vulling op het deeg en rol op tot een cilinder.\n" +
+            "5. Leg de böreks op een bakplaat.\n" +
+            "6. Bestrijk de bovenkant met de resterende boter.\n" +
+            "7. Bak 20 minuten tot goudbruin.\n" +
+            "8. Serveer warm."
     },
+
     ar: {
         title: "بورك تركي",
-        equipment: ["وعاء","سكين","لوح تقطيع","فرن","فرشاة"],
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "فرن",
+            "فرشاة"
+        ],
         ingredients: [
             "250 غ عجينة فيلو",
             "200 غ جبن أبيض أو فيتا مفتتة",
@@ -38586,47 +38594,66 @@ recipesData.plat.borekTurc = {
             "1 ملعقة كبيرة بقدونس مفروم"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 20 دقيقة\n\n" +
             "1. سخّن الفرن على 180°C.\n" +
-            "2. اخفق البيضة واخلط مع الجبن والبقدونس.\n" +
+            "2. اخفق البيضة في وعاء واخلطها مع الجبن والبقدونس.\n" +
             "3. ادهن كل ورقة فيلو بالزبدة المذابة.\n" +
-            "4. ضع كمية من الحشو على الورقة ولفها أسطوانة.\n" +
-            "5. ضعها على الصينية وادهن الوجه بالزبدة.\n" +
-            "6. اخبز 20 دقيقة حتى تصبح ذهبية.\n" +
-            "7. قدمه ساخناً."
+            "4. ضع كمية من الحشوة على الورقة ولفها على شكل أسطوانة.\n" +
+            "5. رتب البورك في صينية الخبز.\n" +
+            "6. ادهن الوجه ببقية الزبدة.\n" +
+            "7. اخبز لمدة 20 دقيقة حتى يصبح ذهبي اللون.\n" +
+            "8. قدّمه ساخناً."
     }
 };
 recipesData.plat.imamBayildi = {
     country: "turquie",
-    image: "images/imam-bayildi.jpg",
-    persons: "4 personnes",
+    image: "images/imam-bayildi.2.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 40,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "İmam Bayıldı",
-        equipment: ["1 poêle","1 couteau","1 planche à découper","1 plat allant au four","1 cuillère"],
+        equipment: [
+            "1 poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 plat allant au four",
+            "1 cuillère"
+        ],
         ingredients: [
             "2 aubergines moyennes",
             "1 oignon",
             "2 gousses d’ail",
             "2 tomates",
-            "50 ml huile d’olive",
-            "1 cuillère à café sucre",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1 cuillère à soupe persil haché"
+            "50 ml d’huile d’olive",
+            "1 cuillère à café de sucre",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1 cuillère à soupe de persil haché"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 40 min\n\n" +
             "1. Couper les aubergines en deux dans le sens de la longueur.\n" +
-            "2. Creuser légèrement l’intérieur pour enlever un peu de chair.\n" +
-            "3. Faire revenir l’oignon et l’ail hachés dans 2 cuillères d’huile 5 min.\n" +
-            "4. Ajouter tomates, sucre, sel, poivre, cuire 5 min.\n" +
-            "5. Remplir les aubergines avec le mélange.\n" +
-            "6. Arroser d’un filet d’huile et cuire au four à 180°C 30 min.\n" +
-            "7. Parsemer de persil et servir tiède ou froid."
+            "2. Creuser légèrement la chair au centre.\n" +
+            "3. Faire revenir l’oignon et l’ail finement hachés dans 2 cuillères à soupe d’huile pendant 5 minutes.\n" +
+            "4. Ajouter les tomates coupées, le sucre, le sel et le poivre, puis cuire 5 minutes.\n" +
+            "5. Disposer les aubergines dans un plat et les garnir du mélange.\n" +
+            "6. Arroser avec le reste d’huile et enfourner à 180°C pendant 30 minutes.\n" +
+            "7. Parsemer de persil avant de servir tiède ou froid."
     },
+
     en: {
         title: "İmam Bayıldı",
-        equipment: ["1 pan","knife","cutting board","oven dish","spoon"],
+        equipment: [
+            "pan",
+            "knife",
+            "cutting board",
+            "oven dish",
+            "spoon"
+        ],
         ingredients: [
             "2 medium eggplants",
             "1 onion",
@@ -38639,18 +38666,24 @@ recipesData.plat.imamBayildi = {
             "1 tbsp chopped parsley"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 40 min\n\n" +
-            "1. Cut eggplants in half lengthwise.\n" +
-            "2. Scoop slightly the inside.\n" +
-            "3. Sauté chopped onion and garlic in 2 tbsp oil 5 min.\n" +
-            "4. Add tomatoes, sugar, salt, pepper, cook 5 min.\n" +
-            "5. Fill eggplants with mixture.\n" +
-            "6. Drizzle with oil, bake at 180°C for 30 min.\n" +
-            "7. Sprinkle parsley and serve warm or cold."
+            "1. Cut the eggplants in half lengthwise.\n" +
+            "2. Slightly scoop out the flesh from the center.\n" +
+            "3. Sauté finely chopped onion and garlic in 2 tablespoons of oil for 5 minutes.\n" +
+            "4. Add chopped tomatoes, sugar, salt and pepper, then cook for 5 minutes.\n" +
+            "5. Arrange the eggplants in a baking dish and fill with the mixture.\n" +
+            "6. Drizzle with remaining oil and bake at 180°C for 30 minutes.\n" +
+            "7. Sprinkle with parsley and serve warm or cold."
     },
+
     nl: {
         title: "İmam Bayıldı",
-        equipment: ["pan","mes","snijplank","ovenschaal","lepel"],
+        equipment: [
+            "pan",
+            "mes",
+            "snijplank",
+            "ovenschaal",
+            "lepel"
+        ],
         ingredients: [
             "2 middelgrote aubergines",
             "1 ui",
@@ -38663,18 +38696,24 @@ recipesData.plat.imamBayildi = {
             "1 eetlepel fijngehakte peterselie"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 40 min\n\n" +
-            "1. Snijd aubergines in de lengte doormidden.\n" +
-            "2. Hol iets van het midden uit.\n" +
-            "3. Bak fijngehakte ui en knoflook 5 min in 2 eetlepels olie.\n" +
-            "4. Voeg tomaten, suiker, zout, peper toe, bak 5 min.\n" +
-            "5. Vul aubergines met mengsel.\n" +
-            "6. Besprenkel met olie, bak 30 min op 180°C.\n" +
+            "1. Snijd de aubergines in de lengte doormidden.\n" +
+            "2. Hol het midden lichtjes uit.\n" +
+            "3. Bak de fijngesneden ui en knoflook 5 minuten in 2 eetlepels olie.\n" +
+            "4. Voeg tomaten, suiker, zout en peper toe en bak 5 minuten.\n" +
+            "5. Leg de aubergines in een ovenschaal en vul ze met het mengsel.\n" +
+            "6. Besprenkel met de resterende olie en bak 30 minuten op 180°C.\n" +
             "7. Bestrooi met peterselie en serveer warm of koud."
     },
+
     ar: {
         title: "إمام بايلدي",
-        equipment: ["مقلاة","سكين","لوح تقطيع","صينية فرن","ملعقة"],
+        equipment: [
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "صينية فرن",
+            "ملعقة"
+        ],
         ingredients: [
             "2 باذنجان متوسط",
             "1 بصلة",
@@ -38687,284 +38726,400 @@ recipesData.plat.imamBayildi = {
             "1 ملعقة كبيرة بقدونس مفروم"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 40 دقيقة\n\n" +
             "1. قطع الباذنجان إلى نصفين بالطول.\n" +
-            "2. أفرغ قليلاً من الداخل.\n" +
-            "3. اقلي البصل والثوم المفروم في ملعقتين زيت 5 دقائق.\n" +
-            "4. أضف الطماطم، السكر، الملح، الفلفل، اطه 5 دقائق.\n" +
-            "5. احشو الباذنجان بالخليط.\n" +
-            "6. رش بالزيت، اخبز 30 دقيقة على 180°C.\n" +
-            "7. رش البقدونس وقدمه دافئاً أو بارداً."
+            "2. أفرغ القليل من اللب من المنتصف.\n" +
+            "3. اقلي البصل والثوم المفرومين في ملعقتين زيت لمدة 5 دقائق.\n" +
+            "4. أضف الطماطم، السكر، الملح والفلفل واطهه 5 دقائق.\n" +
+            "5. ضع الباذنجان في صينية واحشه بالخليط.\n" +
+            "6. رش الزيت المتبقي واخبز 30 دقيقة على حرارة 180°C.\n" +
+            "7. رش البقدونس وقدّمه دافئاً أو بارداً."
     }
 };
-
 recipesData.plat.kebab = {
     country: "turquie",
-    image: "images/kebab.jpg",
+    image: "images/kebab.poulet.turc.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 12,
+        difficulty: "easy"
+    },
 
     fr: {
-        title: "Kebab de poulet à la turque (4 personnes)",
+        title: "Kebab de poulet à la turque",
         equipment: [
             "1 planche à découper",
             "1 couteau",
             "1 bol",
             "1 cuillère à soupe",
-            "1 pinceau de cuisine",
             "1 poêle ou grill",
-            "1 cuillère en bois",
-            "1 balance de cuisine"
+            "1 cuillère en bois"
         ],
         ingredients: [
-            "500 g blancs de poulet, coupés en cubes",
-            "2 cuillères à soupe yaourt nature (30 g)",
-            "1 cuillère à soupe huile d’olive (15 ml)",
-            "1 cuillère à café paprika doux (2 g)",
-            "1/2 cuillère à café cumin moulu (1 g)",
-            "1/2 cuillère à café coriandre moulue (1 g)",
-            "1/2 cuillère à café sel (3 g)",
-            "1/4 cuillère à café poivre noir (1 g)",
-            "1 citron (jus, 20 ml)",
+            "500 g de blancs de poulet coupés en cubes",
+            "2 cuillères à soupe de yaourt nature",
+            "1 cuillère à soupe d’huile d’olive",
+            "1 cuillère à café de paprika doux",
+            "1/2 cuillère à café de cumin moulu",
+            "1/2 cuillère à café de coriandre moulue",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre noir",
+            "1 citron (jus)",
             "1 gousse d’ail écrasée",
-            "Poivrons et oignons pour accompagner (optionnel, 150 g chacun)"
+            "Poivrons et oignons en accompagnement (optionnel)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Dans un bol, mélanger le yaourt, l’huile, le jus de citron, l’ail écrasé, le paprika, le cumin, la coriandre, le sel et le poivre.\n" +
-            "2. Ajouter les cubes de poulet dans la marinade, bien enrober et laisser reposer au réfrigérateur 30 à 60 minutes.\n" +
-            "3. Pendant ce temps, couper les poivrons et oignons en morceaux moyens.\n" +
-            "4. Préchauffer une poêle ou un grill à feu moyen.\n" +
-            "5. Enfiler les cubes de poulet sur des brochettes (optionnel), en alternant avec les légumes si souhaité.\n" +
-            "6. Cuire le poulet 10-12 minutes en le retournant régulièrement jusqu’à cuisson complète.\n" +
-            "7. Servir chaud avec légumes grillés, riz ou pain turc."
+            "==============================\n" +
+            "PRÉPARATION DE LA MARINADE\n" +
+            "==============================\n\n" +
+            "1. Verser le yaourt dans un bol.\n" +
+            "2. Ajouter l’huile d’olive et le jus de citron.\n" +
+            "3. Incorporer l’ail écrasé, le paprika, le cumin et la coriandre.\n" +
+            "4. Saler et poivrer.\n" +
+            "5. Ajouter les cubes de poulet.\n" +
+            "6. Bien mélanger pour enrober uniformément.\n" +
+            "7. Couvrir et laisser mariner 30 à 60 minutes au réfrigérateur.\n\n" +
+            "==============================\n" +
+            "CUISSON DU KEBAB\n" +
+            "==============================\n\n" +
+            "8. Chauffer une poêle ou un grill à feu moyen.\n" +
+            "9. Déposer le poulet mariné (avec ou sans brochettes).\n" +
+            "10. Ajouter les poivrons et oignons si utilisés.\n" +
+            "11. Cuire 10 à 12 minutes en retournant régulièrement.\n" +
+            "12. Retirer du feu.\n" +
+            "13. Servir chaud."
     },
 
     en: {
-        title: "Turkish Chicken Kebab (Serves 4)",
+        title: "Turkish Chicken Kebab",
         equipment: [
-            "1 cutting board",
-            "1 knife",
-            "1 bowl",
-            "1 tablespoon",
-            "1 kitchen brush",
-            "1 pan or grill",
-            "1 wooden spoon",
-            "1 kitchen scale"
+            "cutting board",
+            "knife",
+            "bowl",
+            "tablespoon",
+            "pan or grill",
+            "wooden spoon"
         ],
         ingredients: [
             "500 g chicken breast, cut into cubes",
-            "2 tbsp plain yogurt (30 g)",
-            "1 tbsp olive oil (15 ml)",
-            "1 tsp sweet paprika (2 g)",
-            "1/2 tsp ground cumin (1 g)",
-            "1/2 tsp ground coriander (1 g)",
-            "1/2 tsp salt (3 g)",
-            "1/4 tsp black pepper (1 g)",
-            "1 lemon (juice, 20 ml)",
+            "2 tbsp plain yogurt",
+            "1 tbsp olive oil",
+            "1 tsp sweet paprika",
+            "1/2 tsp ground cumin",
+            "1/2 tsp ground coriander",
+            "1/2 tsp salt",
+            "1/4 tsp black pepper",
+            "1 lemon (juice)",
             "1 garlic clove, crushed",
-            "Bell peppers and onions for serving (optional, 150 g each)"
+            "Bell peppers and onions (optional)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. In a bowl, mix yogurt, oil, lemon juice, crushed garlic, paprika, cumin, coriander, salt, and pepper.\n" +
-            "2. Add chicken cubes, coat well, refrigerate 30-60 minutes.\n" +
-            "3. Meanwhile, cut peppers and onions into medium pieces.\n" +
-            "4. Preheat a pan or grill over medium heat.\n" +
-            "5. Skewer chicken cubes on skewers (optional), alternating with vegetables if desired.\n" +
-            "6. Cook chicken 10-12 minutes, turning regularly until fully cooked.\n" +
-            "7. Serve hot with grilled vegetables, rice, or Turkish bread."
+            "==============================\n" +
+            "MARINADE PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Place yogurt in a bowl.\n" +
+            "2. Add olive oil and lemon juice.\n" +
+            "3. Stir in crushed garlic, paprika, cumin and coriander.\n" +
+            "4. Season with salt and pepper.\n" +
+            "5. Add chicken cubes.\n" +
+            "6. Mix well to coat evenly.\n" +
+            "7. Cover and marinate for 30 to 60 minutes in the refrigerator.\n\n" +
+            "==============================\n" +
+            "COOKING THE KEBAB\n" +
+            "==============================\n\n" +
+            "8. Heat a pan or grill over medium heat.\n" +
+            "9. Add the marinated chicken (with or without skewers).\n" +
+            "10. Add peppers and onions if using.\n" +
+            "11. Cook for 10 to 12 minutes, turning regularly.\n" +
+            "12. Remove from heat.\n" +
+            "13. Serve hot."
     },
 
     nl: {
-        title: "Turkse Kippenkebab (voor 4 personen)",
+        title: "Turkse kipkebab",
         equipment: [
-            "1 snijplank",
-            "1 mes",
-            "1 kom",
-            "1 eetlepel",
-            "1 keukenkwast",
-            "1 pan of grill",
-            "1 houten lepel",
-            "1 keukenweegschaal"
+            "snijplank",
+            "mes",
+            "kom",
+            "eetlepel",
+            "pan of grill",
+            "houten lepel"
         ],
         ingredients: [
-            "500 g kipfilet, in blokjes",
-            "2 eetlepels yoghurt (30 g)",
-            "1 eetlepel olijfolie (15 ml)",
-            "1 theelepel zoete paprika (2 g)",
-            "1/2 theelepel gemalen komijn (1 g)",
-            "1/2 theelepel gemalen koriander (1 g)",
-            "1/2 theelepel zout (3 g)",
-            "1/4 theelepel zwarte peper (1 g)",
-            "1 citroen (sap, 20 ml)",
+            "500 g kipfilet in blokjes",
+            "2 eetlepels yoghurt",
+            "1 eetlepel olijfolie",
+            "1 theelepel zoete paprika",
+            "1/2 theelepel gemalen komijn",
+            "1/2 theelepel gemalen koriander",
+            "1/2 theelepel zout",
+            "1/4 theelepel zwarte peper",
+            "1 citroen (sap)",
             "1 teentje knoflook, geperst",
-            "Paprika en uien voor erbij (optioneel, 150 g elk)"
+            "Paprika en uien (optioneel)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng in een kom yoghurt, olie, citroensap, geperste knoflook, paprika, komijn, koriander, zout en peper.\n" +
-            "2. Voeg de kipblokjes toe, meng goed en zet 30-60 minuten in de koelkast.\n" +
-            "3. Snijd ondertussen paprika en uien in middelgrote stukken.\n" +
-            "4. Verwarm een pan of grill op middelhoog vuur.\n" +
-            "5. Rijg kipblokjes aan spiesjes (optioneel), afgewisseld met groenten indien gewenst.\n" +
-            "6. Bak de kip 10-12 minuten, regelmatig keren tot volledig gaar.\n" +
-            "7. Serveer heet met gegrilde groenten, rijst of Turks brood."
+            "==============================\n" +
+            "BEREIDING VAN DE MARINADE\n" +
+            "==============================\n\n" +
+            "1. Doe de yoghurt in een kom.\n" +
+            "2. Voeg olijfolie en citroensap toe.\n" +
+            "3. Meng knoflook, paprika, komijn en koriander erdoor.\n" +
+            "4. Breng op smaak met zout en peper.\n" +
+            "5. Voeg de kipblokjes toe.\n" +
+            "6. Meng goed zodat alles bedekt is.\n" +
+            "7. Afdekken en 30 tot 60 minuten laten marineren in de koelkast.\n\n" +
+            "==============================\n" +
+            "BAKKEN VAN DE KEBAB\n" +
+            "==============================\n\n" +
+            "8. Verhit een pan of grill op middelhoog vuur.\n" +
+            "9. Voeg de gemarineerde kip toe.\n" +
+            "10. Voeg paprika en uien toe indien gebruikt.\n" +
+            "11. Bak 10 tot 12 minuten en keer regelmatig.\n" +
+            "12. Haal van het vuur.\n" +
+            "13. Serveer warm."
     },
 
     ar: {
-        title: "كباب الدجاج التركي (تكفي 4 أشخاص)",
+        title: "كباب الدجاج التركي",
         equipment: [
             "لوح تقطيع",
             "سكين",
             "وعاء",
             "ملعقة كبيرة",
-            "فرشاة مطبخ",
             "مقلاة أو شواية",
-            "ملعقة خشبية",
-            "ميزان مطبخ"
+            "ملعقة خشبية"
         ],
         ingredients: [
-            "500 غ صدر دجاج، مقطع مكعبات",
-            "2 ملعقة كبيرة زبادي (30 غ)",
-            "1 ملعقة كبيرة زيت زيتون (15 مل)",
-            "1 ملعقة صغيرة بابريكا حلوة (2 غ)",
-            "1/2 ملعقة صغيرة كمون مطحون (1 غ)",
-            "1/2 ملعقة صغيرة كزبرة مطحونة (1 غ)",
-            "1/2 ملعقة صغيرة ملح (3 غ)",
-            "1/4 ملعقة صغيرة فلفل أسود (1 غ)",
-            "1 ليمون (عصير، 20 مل)",
+            "500 غ صدر دجاج مقطع مكعبات",
+            "2 ملعقة كبيرة زبادي",
+            "1 ملعقة كبيرة زيت زيتون",
+            "1 ملعقة صغيرة بابريكا حلوة",
+            "1/2 ملعقة صغيرة كمون مطحون",
+            "1/2 ملعقة صغيرة كزبرة مطحونة",
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل أسود",
+            "1 ليمون (عصير)",
             "1 فص ثوم مهروس",
-            "فلفل وبصل للتقديم (اختياري، 150 غ لكل منهما)"
+            "فلفل وبصل (اختياري)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. في وعاء، اخلط الزبادي والزيت وعصير الليمون والثوم المهروس والبابريكا والكمون والكزبرة والملح والفلفل.\n" +
-            "2. أضف مكعبات الدجاج، غطها جيداً، وضعها في الثلاجة 30-60 دقيقة.\n" +
-            "3. أثناء ذلك، قطع الفلفل والبصل إلى قطع متوسطة.\n" +
-            "4. سخن مقلاة أو شواية على نار متوسطة.\n" +
-            "5. ضع مكعبات الدجاج على أسياخ (اختياري)، بالتناوب مع الخضار إذا رغبت.\n" +
-            "6. اطه الدجاج 10-12 دقيقة مع التقليب المنتظم حتى ينضج تماماً.\n" +
-            "7. قدمه ساخناً مع الخضار المشوية، الأرز أو الخبز التركي."
+            "==============================\n" +
+            "تحضير التتبيلة\n" +
+            "==============================\n\n" +
+            "1. ضع الزبادي في وعاء.\n" +
+            "2. أضف زيت الزيتون وعصير الليمون.\n" +
+            "3. أضف الثوم والبابريكا والكمون والكزبرة.\n" +
+            "4. تبّل بالملح والفلفل.\n" +
+            "5. أضف مكعبات الدجاج.\n" +
+            "6. اخلط جيداً حتى تتغلف بالكامل.\n" +
+            "7. غطِّه واتركه يتبل 30 إلى 60 دقيقة في الثلاجة.\n\n" +
+            "==============================\n" +
+            "طهي الكباب\n" +
+            "==============================\n\n" +
+            "8. سخّن المقلاة أو الشواية على نار متوسطة.\n" +
+            "9. أضف الدجاج المتبل.\n" +
+            "10. أضف الفلفل والبصل إذا استُخدم.\n" +
+            "11. اطه لمدة 10 إلى 12 دقيقة مع التقليب المنتظم.\n" +
+            "12. ارفعه من النار.\n" +
+            "13. قدّمه ساخناً."
     }
 };
+
+
+
+
+
+
+
+
+
+
 recipesData.dessert.baklavaTurc = {
     country: "turquie",
     image: "images/baklava-turc.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Baklava turc",
-        equipment: ["1 plat allant au four","1 pinceau","1 couteau","1 bol","1 cuillère"],
+        equipment: [
+            "1 plat allant au four",
+            "1 pinceau",
+            "1 couteau",
+            "1 bol",
+            "1 cuillère"
+        ],
         ingredients: [
-            "200 g pâte filo",
-            "150 g noix ou pistaches hachées",
-            "100 g beurre fondu",
-            "50 g sucre",
-            "2 cuillères à soupe eau",
-            "1 cuillère à soupe miel"
+            "200 g de pâte filo",
+            "150 g de noix ou de pistaches hachées",
+            "100 g de beurre fondu",
+            "50 g de sucre",
+            "2 cuillères à soupe d’eau",
+            "1 cuillère à soupe de miel"
         ],
         preparation:
-            "Temps de préparation : 20 min\nTemps de cuisson : 30 min\n\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Beurrer un plat, placer une feuille de pâte filo et badigeonner de beurre.\n" +
-            "3. Répéter 3-4 feuilles.\n" +
-            "4. Étaler un peu de noix hachées et un peu de sucre.\n" +
-            "5. Ajouter 3-4 feuilles filo beurrées, puis encore noix et sucre, répéter jusqu’à épuisement.\n" +
-            "6. Couper en losanges, cuire 25-30 min jusqu’à doré.\n" +
-            "7. Chauffer miel avec 2 cuillères d’eau et verser sur le baklava chaud.\n" +
-            "8. Laisser refroidir avant de servir."
+            "2. Beurrer un plat allant au four.\n" +
+            "3. Déposer une feuille de pâte filo et la badigeonner de beurre fondu.\n" +
+            "4. Répéter l’opération avec 3 à 4 feuilles.\n" +
+            "5. Répartir une partie des noix ou pistaches hachées et un peu de sucre.\n" +
+            "6. Ajouter à nouveau 3 à 4 feuilles de pâte filo beurrées.\n" +
+            "7. Répéter les couches jusqu’à épuisement des ingrédients.\n" +
+            "8. Découper le baklava en losanges.\n" +
+            "9. Enfourner et cuire 25 à 30 minutes jusqu’à obtenir une couleur dorée.\n" +
+            "10. Chauffer doucement le miel avec l’eau.\n" +
+            "11. Verser le sirop sur le baklava chaud.\n" +
+            "12. Laisser refroidir avant de servir."
     },
+
     en: {
         title: "Turkish Baklava",
-        equipment: ["oven dish","brush","knife","bowl","spoon"],
+        equipment: [
+            "oven dish",
+            "brush",
+            "knife",
+            "bowl",
+            "spoon"
+        ],
         ingredients: [
             "200 g filo pastry",
-            "150 g chopped nuts or pistachios",
+            "150 g chopped walnuts or pistachios",
             "100 g melted butter",
             "50 g sugar",
             "2 tbsp water",
             "1 tbsp honey"
         ],
         preparation:
-            "Prep time: 20 min\nCooking time: 30 min\n\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Butter a dish, place one filo sheet and brush with butter.\n" +
-            "3. Repeat 3-4 sheets.\n" +
-            "4. Spread some nuts and sugar.\n" +
-            "5. Add 3-4 buttered filo sheets, then nuts and sugar, repeat until finished.\n" +
-            "6. Cut into diamonds, bake 25-30 min until golden.\n" +
-            "7. Heat honey with 2 tbsp water and pour over hot baklava.\n" +
-            "8. Let cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Butter an oven dish.\n" +
+            "3. Place one filo sheet and brush with melted butter.\n" +
+            "4. Repeat with 3 to 4 sheets.\n" +
+            "5. Spread part of the chopped nuts and some sugar.\n" +
+            "6. Add another 3 to 4 buttered filo sheets.\n" +
+            "7. Repeat the layers until all ingredients are used.\n" +
+            "8. Cut the baklava into diamond shapes.\n" +
+            "9. Bake for 25 to 30 minutes until golden.\n" +
+            "10. Gently heat the honey with water.\n" +
+            "11. Pour the syrup over the hot baklava.\n" +
+            "12. Let cool before serving."
     },
+
     nl: {
-        title: "Turkse Baklava",
-        equipment: ["ovenschaal","kwastje","mes","kom","lepel"],
+        title: "Turkse baklava",
+        equipment: [
+            "ovenschaal",
+            "kwastje",
+            "mes",
+            "kom",
+            "lepel"
+        ],
         ingredients: [
             "200 g filodeeg",
-            "150 g gehakte noten of pistachenoten",
+            "150 g gehakte walnoten of pistachenoten",
             "100 g gesmolten boter",
             "50 g suiker",
             "2 eetlepels water",
             "1 eetlepel honing"
         ],
         preparation:
-            "Bereidingstijd: 20 min\nKooktijd: 30 min\n\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Vet schaal in, leg een filodeegvel en bestrijk met boter.\n" +
-            "3. Herhaal 3-4 vellen.\n" +
-            "4. Strooi wat noten en suiker.\n" +
-            "5. Voeg 3-4 beboterde vellen toe, dan noten en suiker, herhaal tot klaar.\n" +
-            "6. Snijd in ruiten, bak 25-30 min tot goudbruin.\n" +
-            "7. Verwarm honing met 2 eetlepels water en giet over warme baklava.\n" +
-            "8. Laat afkoelen voor serveren."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Vet een ovenschaal in.\n" +
+            "3. Leg een vel filodeeg en bestrijk met gesmolten boter.\n" +
+            "4. Herhaal dit met 3 tot 4 vellen.\n" +
+            "5. Verdeel een deel van de noten en wat suiker.\n" +
+            "6. Voeg opnieuw 3 tot 4 beboterde vellen toe.\n" +
+            "7. Herhaal de lagen tot alles opgebruikt is.\n" +
+            "8. Snijd de baklava in ruitvormen.\n" +
+            "9. Bak 25 tot 30 minuten tot goudbruin.\n" +
+            "10. Verwarm de honing zachtjes met water.\n" +
+            "11. Giet de siroop over de warme baklava.\n" +
+            "12. Laat afkoelen voor het serveren."
     },
+
     ar: {
         title: "بقلاوة تركية",
-        equipment: ["صينية فرن","فرشاة","سكين","وعاء","ملعقة"],
+        equipment: [
+            "صينية فرن",
+            "فرشاة",
+            "سكين",
+            "وعاء",
+            "ملعقة"
+        ],
         ingredients: [
             "200 غ عجينة فيلو",
-            "150 غ مكسرات مفرومة أو فستق",
+            "150 غ جوز أو فستق مفروم",
             "100 غ زبدة مذابة",
             "50 غ سكر",
-            "2 ملاعق كبيرة ماء",
+            "2 ملعقة كبيرة ماء",
             "1 ملعقة كبيرة عسل"
         ],
         preparation:
-            "وقت التحضير: 20 دقيقة\nوقت الطهي: 30 دقيقة\n\n" +
             "1. سخّن الفرن على 180°C.\n" +
-            "2. ادهن الصينية بالزبدة، ضع ورقة فيلو وادهن بالزبدة.\n" +
-            "3. كرّر 3-4 أوراق.\n" +
-            "4. ضع بعض المكسرات والسكر.\n" +
-            "5. أضف 3-4 أوراق مدهونة بالزبدة، ثم المكسرات والسكر، كرّر حتى الانتهاء.\n" +
-            "6. قطع إلى معينيات، اخبز 25-30 دقيقة حتى يتحمر.\n" +
-            "7. سخّن العسل مع ملعقتين ماء وصبه على البقلاوة الساخنة.\n" +
-            "8. دعها تبرد قبل التقديم."
+            "2. ادهن صينية الفرن بالزبدة.\n" +
+            "3. ضع ورقة فيلو وادهنها بالزبدة المذابة.\n" +
+            "4. كرّر ذلك مع 3 إلى 4 أوراق.\n" +
+            "5. وزّع جزءاً من المكسرات المفرومة والقليل من السكر.\n" +
+            "6. أضف 3 إلى 4 أوراق فيلو مدهونة بالزبدة.\n" +
+            "7. كرّر الطبقات حتى انتهاء المكونات.\n" +
+            "8. قطّع البقلاوة إلى شكل معين.\n" +
+            "9. اخبز لمدة 25 إلى 30 دقيقة حتى تصبح ذهبية.\n" +
+            "10. سخّن العسل مع الماء برفق.\n" +
+            "11. اسكب القطر فوق البقلاوة الساخنة.\n" +
+            "12. اتركها تبرد قبل التقديم."
     }
 };
 recipesData.dessert.sutlac = {
     country: "turquie",
     image: "images/sutlac.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Sütlaç",
-        equipment: ["1 casserole","1 bol","1 cuillère en bois","4 ramequins"],
+        equipment: [
+            "1 casserole",
+            "1 bol",
+            "1 cuillère en bois",
+            "4 ramequins"
+        ],
         ingredients: [
-            "100 g riz",
-            "750 ml lait",
-            "100 g sucre",
-            "1 cuillère à café vanille",
-            "1 cuillère à café fécule de maïs"
+            "100 g de riz",
+            "750 ml de lait",
+            "100 g de sucre",
+            "1 cuillère à café de vanille",
+            "1 cuillère à café de fécule de maïs"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 25 min\n\n" +
-            "1. Rincer le riz et le cuire 10 min dans 250 ml d’eau.\n" +
-            "2. Ajouter le lait et cuire 10 min à feu doux en remuant.\n" +
-            "3. Mélanger sucre, vanille et fécule dans un petit bol.\n" +
-            "4. Ajouter ce mélange dans la casserole, cuire encore 5 min jusqu’à épaississement.\n" +
-            "5. Verser dans ramequins et laisser refroidir.\n" +
-            "6. Servir tiède ou froid."
+            "1. Rincer le riz sous l’eau froide.\n" +
+            "2. Cuire le riz pendant 10 minutes dans 250 ml d’eau.\n" +
+            "3. Ajouter le lait et cuire à feu doux pendant 10 minutes en remuant régulièrement.\n" +
+            "4. Dans un bol, mélanger le sucre, la vanille et la fécule de maïs.\n" +
+            "5. Incorporer ce mélange dans la casserole.\n" +
+            "6. Cuire encore 5 minutes jusqu’à ce que la préparation épaississe.\n" +
+            "7. Verser dans des ramequins.\n" +
+            "8. Laisser refroidir avant de servir tiède ou froid."
     },
+
     en: {
         title: "Sütlaç",
-        equipment: ["1 saucepan","bowl","wooden spoon","4 ramekins"],
+        equipment: [
+            "saucepan",
+            "bowl",
+            "wooden spoon",
+            "4 ramekins"
+        ],
         ingredients: [
             "100 g rice",
             "750 ml milk",
@@ -38973,17 +39128,24 @@ recipesData.dessert.sutlac = {
             "1 tsp corn starch"
         ],
         preparation:
-            "Prep time: 10 min\nCooking time: 25 min\n\n" +
-            "1. Rinse rice and cook 10 min in 250 ml water.\n" +
-            "2. Add milk and cook 10 min on low, stirring.\n" +
-            "3. Mix sugar, vanilla, corn starch in a small bowl.\n" +
-            "4. Add mixture to saucepan, cook 5 min until thick.\n" +
-            "5. Pour into ramekins, let cool.\n" +
-            "6. Serve warm or cold."
+            "1. Rinse the rice under cold water.\n" +
+            "2. Cook the rice for 10 minutes in 250 ml of water.\n" +
+            "3. Add the milk and cook over low heat for 10 minutes, stirring regularly.\n" +
+            "4. In a bowl, mix sugar, vanilla and corn starch.\n" +
+            "5. Add the mixture to the saucepan.\n" +
+            "6. Cook for another 5 minutes until thickened.\n" +
+            "7. Pour into ramekins.\n" +
+            "8. Let cool before serving warm or cold."
     },
+
     nl: {
         title: "Sütlaç",
-        equipment: ["1 pan","kom","houten lepel","4 ramekins"],
+        equipment: [
+            "pan",
+            "kom",
+            "houten lepel",
+            "4 ramekins"
+        ],
         ingredients: [
             "100 g rijst",
             "750 ml melk",
@@ -38992,17 +39154,24 @@ recipesData.dessert.sutlac = {
             "1 theelepel maïzena"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 25 min\n\n" +
-            "1. Spoel de rijst en kook 10 min in 250 ml water.\n" +
-            "2. Voeg melk toe en kook 10 min op laag vuur, roerend.\n" +
-            "3. Meng suiker, vanille, maïzena in een klein kommetje.\n" +
-            "4. Voeg mengsel toe aan pan, kook 5 min tot dik.\n" +
-            "5. Giet in ramekins, laat afkoelen.\n" +
-            "6. Serveer warm of koud."
+            "1. Spoel de rijst onder koud water.\n" +
+            "2. Kook de rijst 10 minuten in 250 ml water.\n" +
+            "3. Voeg de melk toe en kook 10 minuten op laag vuur onder regelmatig roeren.\n" +
+            "4. Meng in een kom de suiker, vanille en maïzena.\n" +
+            "5. Voeg dit mengsel toe aan de pan.\n" +
+            "6. Kook nog 5 minuten tot het indikt.\n" +
+            "7. Giet in ramekins.\n" +
+            "8. Laat afkoelen en serveer warm of koud."
     },
+
     ar: {
         title: "سوتلاش",
-        equipment: ["طنجرة","وعاء","ملعقة خشبية","4 أطباق صغيرة"],
+        equipment: [
+            "طنجرة",
+            "وعاء",
+            "ملعقة خشبية",
+            "4 أطباق صغيرة"
+        ],
         ingredients: [
             "100 غ أرز",
             "750 مل حليب",
@@ -39011,43 +39180,62 @@ recipesData.dessert.sutlac = {
             "1 ملعقة صغيرة نشا الذرة"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 25 دقيقة\n\n" +
-            "1. اشطف الأرز واطهه 10 دقائق في 250 مل ماء.\n" +
-            "2. أضف الحليب واطهه 10 دقائق على نار هادئة مع التحريك.\n" +
-            "3. اخلط السكر والفانيليا والنشا في وعاء صغير.\n" +
-            "4. أضف الخليط إلى الطنجرة واطه 5 دقائق حتى يتماسك.\n" +
-            "5. صب في أطباق صغيرة ودعها تبرد.\n" +
-            "6. قدمه دافئاً أو بارداً."
+            "1. اغسل الأرز بالماء البارد.\n" +
+            "2. اطهُ الأرز لمدة 10 دقائق في 250 مل من الماء.\n" +
+            "3. أضف الحليب واطهه على نار هادئة لمدة 10 دقائق مع التحريك.\n" +
+            "4. في وعاء، اخلط السكر والفانيليا ونشا الذرة.\n" +
+            "5. أضف الخليط إلى الطنجرة.\n" +
+            "6. اطهُ لمدة 5 دقائق إضافية حتى يتماسك.\n" +
+            "7. اسكب في أطباق صغيرة.\n" +
+            "8. اتركه ليبرد ثم قدّمه دافئاً أو بارداً."
     }
 };
 recipesData.dessert.asure = {
     country: "turquie",
     image: "images/asure.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 40,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Aşure",
-        equipment: ["1 grande casserole","1 cuillère en bois","1 bol"],
+        equipment: [
+            "1 grande casserole",
+            "1 cuillère en bois",
+            "1 bol"
+        ],
         ingredients: [
-            "50 g blé concassé",
-            "50 g riz",
-            "50 g haricots blancs cuits",
-            "50 g pois chiches cuits",
-            "50 g sucre",
-            "100 g fruits secs (raisins, abricots, figues)",
-            "1 cuillère à café eau de rose (facultatif)"
+            "50 g de blé concassé",
+            "50 g de riz",
+            "50 g de haricots blancs cuits",
+            "50 g de pois chiches cuits",
+            "50 g de sucre",
+            "100 g de fruits secs (raisins, abricots, figues)",
+            "Zeste d’orange (optionnel)"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 40 min\n\n" +
-            "1. Rincer le blé et le riz, cuire 20 min dans 500 ml d’eau.\n" +
-            "2. Ajouter les haricots et pois chiches cuits, cuire 10 min.\n" +
-            "3. Ajouter sucre et fruits secs, cuire encore 10 min.\n" +
-            "4. Ajouter eau de rose si désiré.\n" +
-            "5. Verser dans bols et laisser refroidir.\n" +
-            "6. Servir à température ambiante."
+            "1. Rincer le blé concassé et le riz.\n" +
+            "2. Les cuire dans 500 ml d’eau pendant 20 minutes.\n" +
+            "3. Ajouter les haricots blancs et les pois chiches cuits.\n" +
+            "4. Poursuivre la cuisson pendant 10 minutes.\n" +
+            "5. Ajouter le sucre et les fruits secs.\n" +
+            "6. Cuire encore 10 minutes en remuant régulièrement.\n" +
+            "7. Ajouter un peu de zeste d’orange si désiré.\n" +
+            "8. Verser dans des bols et laisser refroidir.\n" +
+            "9. Servir à température ambiante."
     },
+
     en: {
         title: "Aşure",
-        equipment: ["1 large saucepan","wooden spoon","bowl"],
+        equipment: [
+            "large saucepan",
+            "wooden spoon",
+            "bowl"
+        ],
         ingredients: [
             "50 g cracked wheat",
             "50 g rice",
@@ -39055,20 +39243,27 @@ recipesData.dessert.asure = {
             "50 g cooked chickpeas",
             "50 g sugar",
             "100 g dried fruits (raisins, apricots, figs)",
-            "1 tsp rose water (optional)"
+            "Orange zest (optional)"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 40 min\n\n" +
-            "1. Rinse wheat and rice, cook 20 min in 500 ml water.\n" +
-            "2. Add cooked beans and chickpeas, cook 10 min.\n" +
-            "3. Add sugar and dried fruits, cook 10 min more.\n" +
-            "4. Add rose water if desired.\n" +
-            "5. Pour into bowls and let cool.\n" +
-            "6. Serve at room temperature."
+            "1. Rinse the cracked wheat and rice.\n" +
+            "2. Cook them in 500 ml of water for 20 minutes.\n" +
+            "3. Add the cooked white beans and chickpeas.\n" +
+            "4. Continue cooking for 10 minutes.\n" +
+            "5. Add sugar and dried fruits.\n" +
+            "6. Cook for another 10 minutes, stirring regularly.\n" +
+            "7. Add a little orange zest if desired.\n" +
+            "8. Pour into bowls and let cool.\n" +
+            "9. Serve at room temperature."
     },
+
     nl: {
         title: "Aşure",
-        equipment: ["1 grote pan","houten lepel","kom"],
+        equipment: [
+            "grote pan",
+            "houten lepel",
+            "kom"
+        ],
         ingredients: [
             "50 g gebroken tarwe",
             "50 g rijst",
@@ -39076,20 +39271,27 @@ recipesData.dessert.asure = {
             "50 g gekookte kikkererwten",
             "50 g suiker",
             "100 g gedroogd fruit (rozijnen, abrikozen, vijgen)",
-            "1 theelepel rozenwater (optioneel)"
+            "Sinaasappelschil (optioneel)"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 40 min\n\n" +
-            "1. Spoel tarwe en rijst, kook 20 min in 500 ml water.\n" +
-            "2. Voeg gekookte bonen en kikkererwten toe, kook 10 min.\n" +
-            "3. Voeg suiker en gedroogd fruit toe, kook nog 10 min.\n" +
-            "4. Voeg rozenwater toe indien gewenst.\n" +
-            "5. Giet in kommen en laat afkoelen.\n" +
-            "6. Serveer op kamertemperatuur."
+            "1. Spoel de gebroken tarwe en de rijst.\n" +
+            "2. Kook ze 20 minuten in 500 ml water.\n" +
+            "3. Voeg de gekookte bonen en kikkererwten toe.\n" +
+            "4. Kook nog 10 minuten.\n" +
+            "5. Voeg suiker en gedroogd fruit toe.\n" +
+            "6. Laat nog 10 minuten zachtjes koken en roer regelmatig.\n" +
+            "7. Voeg eventueel wat sinaasappelschil toe.\n" +
+            "8. Giet in kommen en laat afkoelen.\n" +
+            "9. Serveer op kamertemperatuur."
     },
+
     ar: {
-        title: "عشورة",
-        equipment: ["طنجرة كبيرة","ملعقة خشبية","وعاء"],
+        title: "عاشوراء",
+        equipment: [
+            "طنجرة كبيرة",
+            "ملعقة خشبية",
+            "وعاء"
+        ],
         ingredients: [
             "50 غ قمح مجروش",
             "50 غ أرز",
@@ -39097,48 +39299,80 @@ recipesData.dessert.asure = {
             "50 غ حمص مطبوخ",
             "50 غ سكر",
             "100 غ فواكه مجففة (زبيب، مشمش، تين)",
-            "1 ملعقة صغيرة ماء ورد (اختياري)"
+            "برش قشر البرتقال (اختياري)"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 40 دقيقة\n\n" +
-            "1. اشطف القمح والأرز، اطهه 20 دقيقة في 500 مل ماء.\n" +
-            "2. أضف الفاصوليا والحمص المطبوخ، اطه 10 دقائق.\n" +
-            "3. أضف السكر والفواكه المجففة، اطه 10 دقائق أخرى.\n" +
-            "4. أضف ماء الورد إذا رغبت.\n" +
-            "5. صب في أطباق ودعها تبرد.\n" +
-            "6. قدمه في درجة حرارة الغرفة."
+            "1. اغسل القمح المجروش والأرز.\n" +
+            "2. اطههما في 500 مل ماء لمدة 20 دقيقة.\n" +
+            "3. أضف الفاصوليا البيضاء والحمص المطبوخ.\n" +
+            "4. تابع الطهي لمدة 10 دقائق.\n" +
+            "5. أضف السكر والفواكه المجففة.\n" +
+            "6. اطهُ 10 دقائق إضافية مع التحريك.\n" +
+            "7. أضف القليل من برش قشر البرتقال إذا رغبت.\n" +
+            "8. اسكب في أوعية واتركه يبرد.\n" +
+            "9. قدّمه في درجة حرارة الغرفة."
     }
 };
 recipesData.dessert.revani = {
     country: "turquie",
     image: "images/revani.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Revani",
-        equipment: ["1 bol","1 fouet","1 plat allant au four","1 couteau","1 casserole"],
+        equipment: [
+            "1 bol",
+            "1 fouet",
+            "1 plat allant au four",
+            "1 couteau",
+            "1 casserole"
+        ],
         ingredients: [
-            "150 g semoule fine",
-            "100 g sucre",
+            "150 g de semoule fine",
+            "100 g de sucre",
             "3 œufs",
-            "50 ml huile végétale",
-            "100 ml lait",
-            "1 cuillère à café levure chimique",
-            "Pour le sirop : 150 ml eau, 100 g sucre, quelques gouttes de citron"
+            "50 ml d’huile végétale",
+            "100 ml de lait",
+            "1 cuillère à café de levure chimique",
+            "150 ml d’eau",
+            "100 g de sucre",
+            "Quelques gouttes de jus de citron"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 30 min\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DU GÂTEAU\n" +
+            "==============================\n\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Battre les œufs et le sucre jusqu’à obtenir un mélange mousseux.\n" +
-            "3. Ajouter l’huile et le lait, mélanger.\n" +
-            "4. Ajouter la semoule et la levure, bien incorporer.\n" +
-            "5. Verser dans un plat beurré et cuire 25-30 min.\n" +
-            "6. Préparer le sirop : chauffer l’eau et le sucre avec citron jusqu’à dissolution complète.\n" +
-            "7. Verser le sirop sur le gâteau chaud.\n" +
-            "8. Laisser absorber et refroidir avant de servir."
+            "3. Ajouter l’huile et le lait, puis mélanger.\n" +
+            "4. Incorporer la semoule et la levure chimique.\n" +
+            "5. Verser la pâte dans un plat légèrement huilé.\n" +
+            "6. Enfourner et cuire 25 à 30 minutes jusqu’à coloration dorée.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DU SIROP\n" +
+            "==============================\n\n" +
+            "7. Verser l’eau et le sucre dans une casserole.\n" +
+            "8. Chauffer à feu moyen jusqu’à dissolution complète du sucre.\n" +
+            "9. Ajouter quelques gouttes de jus de citron et retirer du feu.\n" +
+            "10. Verser le sirop chaud sur le gâteau encore chaud.\n" +
+            "11. Laisser absorber et refroidir avant de servir."
     },
+
     en: {
         title: "Revani",
-        equipment: ["1 bowl","whisk","oven dish","knife","saucepan"],
+        equipment: [
+            "bowl",
+            "whisk",
+            "oven dish",
+            "knife",
+            "saucepan"
+        ],
         ingredients: [
             "150 g fine semolina",
             "100 g sugar",
@@ -39146,22 +39380,39 @@ recipesData.dessert.revani = {
             "50 ml vegetable oil",
             "100 ml milk",
             "1 tsp baking powder",
-            "For syrup: 150 ml water, 100 g sugar, few drops lemon"
+            "150 ml water",
+            "100 g sugar",
+            "A few drops of lemon juice"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 30 min\n\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Beat eggs and sugar until frothy.\n" +
-            "3. Add oil and milk, mix well.\n" +
-            "4. Add semolina and baking powder, combine.\n" +
-            "5. Pour into greased dish, bake 25-30 min.\n" +
-            "6. Prepare syrup: heat water, sugar, lemon until dissolved.\n" +
-            "7. Pour syrup over hot cake.\n" +
-            "8. Let absorb and cool before serving."
+            "==============================\n" +
+            "CAKE PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Whisk eggs and sugar until light and frothy.\n" +
+            "3. Add oil and milk, then mix well.\n" +
+            "4. Stir in semolina and baking powder.\n" +
+            "5. Pour the batter into a lightly greased dish.\n" +
+            "6. Bake for 25 to 30 minutes until golden.\n\n" +
+            "==============================\n" +
+            "SYRUP PREPARATION\n" +
+            "==============================\n\n" +
+            "7. Combine water and sugar in a saucepan.\n" +
+            "8. Heat over medium heat until sugar dissolves completely.\n" +
+            "9. Add a few drops of lemon juice and remove from heat.\n" +
+            "10. Pour the hot syrup over the hot cake.\n" +
+            "11. Let absorb and cool before serving."
     },
+
     nl: {
         title: "Revani",
-        equipment: ["1 kom","klopper","ovenschaal","mes","steelpan"],
+        equipment: [
+            "kom",
+            "klopper",
+            "ovenschaal",
+            "mes",
+            "steelpan"
+        ],
         ingredients: [
             "150 g fijne griesmeel",
             "100 g suiker",
@@ -39169,22 +39420,39 @@ recipesData.dessert.revani = {
             "50 ml plantaardige olie",
             "100 ml melk",
             "1 theelepel bakpoeder",
-            "Voor siroop: 150 ml water, 100 g suiker, paar druppels citroen"
+            "150 ml water",
+            "100 g suiker",
+            "Enkele druppels citroensap"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 30 min\n\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Klop eieren en suiker tot schuimig.\n" +
-            "3. Voeg olie en melk toe, goed mengen.\n" +
-            "4. Voeg griesmeel en bakpoeder toe, combineren.\n" +
-            "5. Giet in ingevette schaal, bak 25-30 min.\n" +
-            "6. Bereid siroop: verwarm water, suiker, citroen tot opgelost.\n" +
-            "7. Giet siroop over warme cake.\n" +
-            "8. Laat absorberen en afkoelen voor serveren."
+            "==============================\n" +
+            "BEREIDING VAN DE CAKE\n" +
+            "==============================\n\n" +
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Klop de eieren en suiker tot schuimig.\n" +
+            "3. Voeg olie en melk toe en meng goed.\n" +
+            "4. Meng de griesmeel en het bakpoeder erdoor.\n" +
+            "5. Giet het beslag in een licht ingevette ovenschaal.\n" +
+            "6. Bak 25 tot 30 minuten tot goudbruin.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE SIROOP\n" +
+            "==============================\n\n" +
+            "7. Doe water en suiker in een steelpan.\n" +
+            "8. Verwarm tot de suiker volledig is opgelost.\n" +
+            "9. Voeg enkele druppels citroensap toe en haal van het vuur.\n" +
+            "10. Giet de hete siroop over de warme cake.\n" +
+            "11. Laat intrekken en afkoelen voor het serveren."
     },
+
     ar: {
         title: "ريڤاني",
-        equipment: ["وعاء","خفاق","صينية فرن","سكين","طنجرة صغيرة"],
+        equipment: [
+            "وعاء",
+            "خفاق",
+            "صينية فرن",
+            "سكين",
+            "طنجرة"
+        ],
         ingredients: [
             "150 غ سميد ناعم",
             "100 غ سكر",
@@ -39192,142 +39460,267 @@ recipesData.dessert.revani = {
             "50 مل زيت نباتي",
             "100 مل حليب",
             "1 ملعقة صغيرة بيكنغ باودر",
-            "للسيروپ: 150 مل ماء، 100 غ سكر، بضع قطرات ليمون"
+            "150 مل ماء",
+            "100 غ سكر",
+            "بضع قطرات من عصير الليمون"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 30 دقيقة\n\n" +
-            "1. سخن الفرن على 180°C.\n" +
-            "2. اخفق البيض مع السكر حتى يصبح الخليط رغوي.\n" +
+            "==============================\n" +
+            "تحضير الكيك\n" +
+            "==============================\n\n" +
+            "1. سخّن الفرن على 180°C.\n" +
+            "2. اخفق البيض مع السكر حتى يصبح الخليط رغوياً.\n" +
             "3. أضف الزيت والحليب وامزج جيداً.\n" +
-            "4. أضف السميد والباكينغ باودر وامزج.\n" +
-            "5. صب في صينية مدهونة واخبز 25-30 دقيقة.\n" +
-            "6. حضر السيروپ: سخّن الماء والسكر مع الليمون حتى يذوب.\n" +
-            "7. صب السيروپ على الكيك الساخن.\n" +
-            "8. دع يمتص ويبرد قبل التقديم."
+            "4. أضف السميد والبيكنغ باودر وامزج.\n" +
+            "5. اسكب الخليط في صينية مدهونة قليلاً.\n" +
+            "6. اخبز لمدة 25 إلى 30 دقيقة حتى يتحمّر.\n\n" +
+            "==============================\n" +
+            "تحضير القطر\n" +
+            "==============================\n\n" +
+            "7. ضع الماء والسكر في طنجرة.\n" +
+            "8. سخّن حتى يذوب السكر تماماً.\n" +
+            "9. أضف بضع قطرات من عصير الليمون وارفعه عن النار.\n" +
+            "10. اسكب القطر الساخن فوق الكيك الساخن.\n" +
+            "11. اتركه ليتشرب ويبرد قبل التقديم."
     }
 };
 recipesData.dessert.tulumba = {
     country: "turquie",
     image: "images/tulumba.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Tulumba",
-        equipment: ["1 bol","1 poche à douille","1 casserole","1 cuillère","papier absorbant"],
+        equipment: [
+            "1 bol",
+            "1 poche à douille",
+            "1 casserole",
+            "1 cuillère",
+            "papier absorbant"
+        ],
         ingredients: [
-            "150 g farine",
-            "50 g beurre",
+            "150 g de farine",
+            "50 g de beurre",
             "2 œufs",
-            "100 ml eau",
-            "50 g sucre",
-            "Pour le sirop : 100 g sucre, 50 ml eau, quelques gouttes de citron",
+            "100 ml d’eau",
+            "50 g de sucre",
+            "100 g de sucre",
+            "50 ml d’eau",
+            "Quelques gouttes de jus de citron",
             "Huile pour friture"
         ],
         preparation:
-            "Temps de préparation : 20 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Chauffer l’eau et le beurre jusqu’à ébullition.\n" +
-            "2. Retirer du feu, ajouter la farine en une fois et mélanger vigoureusement.\n" +
-            "3. Laisser tiédir, ajouter les œufs un à un.\n" +
-            "4. Mettre la pâte dans une poche à douille.\n" +
-            "5. Chauffer l’huile à 170°C et former de petits boudins directement dans l’huile.\n" +
-            "6. Cuire 3-4 min jusqu’à doré, égoutter sur papier absorbant.\n" +
-            "7. Préparer le sirop : chauffer sucre, eau, citron jusqu’à dissolution.\n" +
-            "8. Tremper les tulumbas dans le sirop et servir tiède."
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n\n" +
+            "1. Verser l’eau et le beurre dans une casserole et porter à ébullition.\n" +
+            "2. Retirer du feu et ajouter la farine en une seule fois.\n" +
+            "3. Mélanger vigoureusement jusqu’à obtention d’une pâte homogène.\n" +
+            "4. Laisser tiédir puis incorporer les œufs un par un.\n" +
+            "5. Mettre la pâte dans une poche à douille.\n\n" +
+            "==============================\n" +
+            "FRITURE\n" +
+            "==============================\n\n" +
+            "6. Chauffer l’huile à environ 170°C.\n" +
+            "7. Former de petits boudins directement dans l’huile chaude.\n" +
+            "8. Frire 3 à 4 minutes jusqu’à coloration dorée.\n" +
+            "9. Égoutter sur du papier absorbant.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DU SIROP\n" +
+            "==============================\n\n" +
+            "10. Verser l’eau et le sucre dans une casserole.\n" +
+            "11. Chauffer jusqu’à dissolution complète du sucre.\n" +
+            "12. Ajouter quelques gouttes de jus de citron et retirer du feu.\n" +
+            "13. Tremper les tulumbas chauds dans le sirop.\n" +
+            "14. Servir tiède."
     },
+
     en: {
         title: "Tulumba",
-        equipment: ["1 bowl","piping bag","saucepan","spoon","absorbent paper"],
+        equipment: [
+            "bowl",
+            "piping bag",
+            "saucepan",
+            "spoon",
+            "absorbent paper"
+        ],
         ingredients: [
             "150 g flour",
             "50 g butter",
             "2 eggs",
             "100 ml water",
             "50 g sugar",
-            "For syrup: 100 g sugar, 50 ml water, few drops lemon",
+            "100 g sugar",
+            "50 ml water",
+            "A few drops of lemon juice",
             "Oil for frying"
         ],
         preparation:
-            "Prep time: 20 min\nCooking time: 15 min\n\n" +
-            "1. Heat water and butter until boiling.\n" +
-            "2. Remove from heat, add flour all at once and mix vigorously.\n" +
-            "3. Let cool, add eggs one by one.\n" +
-            "4. Put dough in piping bag.\n" +
-            "5. Heat oil to 170°C and form small logs directly in oil.\n" +
-            "6. Cook 3-4 min until golden, drain on absorbent paper.\n" +
-            "7. Prepare syrup: heat sugar, water, lemon until dissolved.\n" +
-            "8. Dip tulumbas in syrup and serve warm."
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Bring water and butter to a boil in a saucepan.\n" +
+            "2. Remove from heat and add flour all at once.\n" +
+            "3. Stir vigorously until a smooth dough forms.\n" +
+            "4. Let cool slightly, then add eggs one by one.\n" +
+            "5. Transfer the dough to a piping bag.\n\n" +
+            "==============================\n" +
+            "FRYING\n" +
+            "==============================\n\n" +
+            "6. Heat oil to about 170°C.\n" +
+            "7. Pipe small strips directly into the hot oil.\n" +
+            "8. Fry for 3 to 4 minutes until golden.\n" +
+            "9. Drain on absorbent paper.\n\n" +
+            "==============================\n" +
+            "SYRUP PREPARATION\n" +
+            "==============================\n\n" +
+            "10. Combine water and sugar in a saucepan.\n" +
+            "11. Heat until the sugar fully dissolves.\n" +
+            "12. Add a few drops of lemon juice and remove from heat.\n" +
+            "13. Dip the warm tulumba into the syrup.\n" +
+            "14. Serve warm."
     },
+
     nl: {
         title: "Tulumba",
-        equipment: ["1 kom","spuitzak","steelpan","lepel","absorberend papier"],
+        equipment: [
+            "kom",
+            "spuitzak",
+            "steelpan",
+            "lepel",
+            "absorberend papier"
+        ],
         ingredients: [
             "150 g bloem",
             "50 g boter",
             "2 eieren",
             "100 ml water",
             "50 g suiker",
-            "Voor siroop: 100 g suiker, 50 ml water, paar druppels citroen",
+            "100 g suiker",
+            "50 ml water",
+            "Enkele druppels citroensap",
             "Olie om te frituren"
         ],
         preparation:
-            "Bereidingstijd: 20 min\nKooktijd: 15 min\n\n" +
-            "1. Verwarm water en boter tot koken.\n" +
-            "2. Haal van het vuur, voeg bloem in één keer toe en meng goed.\n" +
-            "3. Laat afkoelen, voeg eieren één voor één toe.\n" +
-            "4. Doe deeg in spuitzak.\n" +
-            "5. Verhit olie tot 170°C en vorm kleine rolletjes direct in olie.\n" +
-            "6. Bak 3-4 min tot goudbruin, laat uitlekken op absorberend papier.\n" +
-            "7. Bereid siroop: verwarm suiker, water, citroen tot opgelost.\n" +
-            "8. Doop tulumba in siroop en serveer warm."
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n\n" +
+            "1. Breng water en boter aan de kook.\n" +
+            "2. Haal van het vuur en voeg de bloem in één keer toe.\n" +
+            "3. Meng krachtig tot een glad deeg ontstaat.\n" +
+            "4. Laat iets afkoelen en voeg de eieren één voor één toe.\n" +
+            "5. Doe het deeg in een spuitzak.\n\n" +
+            "==============================\n" +
+            "FRITUREN\n" +
+            "==============================\n\n" +
+            "6. Verhit olie tot ongeveer 170°C.\n" +
+            "7. Spuit kleine rolletjes direct in de hete olie.\n" +
+            "8. Bak 3 tot 4 minuten tot goudbruin.\n" +
+            "9. Laat uitlekken op absorberend papier.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE SIROOP\n" +
+            "==============================\n\n" +
+            "10. Doe water en suiker in een steelpan.\n" +
+            "11. Verwarm tot de suiker volledig is opgelost.\n" +
+            "12. Voeg enkele druppels citroensap toe en haal van het vuur.\n" +
+            "13. Doop de warme tulumba in de siroop.\n" +
+            "14. Serveer warm."
     },
+
     ar: {
         title: "تولومبا",
-        equipment: ["وعاء","كيس حلواني","طنجرة","ملعقة","ورق ماص"],
+        equipment: [
+            "وعاء",
+            "كيس حلواني",
+            "طنجرة",
+            "ملعقة",
+            "ورق ماص"
+        ],
         ingredients: [
             "150 غ دقيق",
             "50 غ زبدة",
             "2 بيض",
             "100 مل ماء",
             "50 غ سكر",
-            "للسيروپ: 100 غ سكر، 50 مل ماء، بضع قطرات ليمون",
+            "100 غ سكر",
+            "50 مل ماء",
+            "بضع قطرات من عصير الليمون",
             "زيت للقلي"
         ],
         preparation:
-            "وقت التحضير: 20 دقيقة\nوقت الطهي: 15 دقيقة\n\n" +
+            "==============================\n" +
+            "تحضير العجين\n" +
+            "==============================\n\n" +
             "1. سخّن الماء والزبدة حتى الغليان.\n" +
-            "2. أزل من النار، أضف الدقيق مرة واحدة واخلط جيداً.\n" +
-            "3. دعها تبرد، أضف البيض واحداً تلو الآخر.\n" +
-            "4. ضع العجين في كيس حلواني.\n" +
-            "5. سخّن الزيت على 170°C وشكّل أصابع صغيرة مباشرة في الزيت.\n" +
-            "6. اقلي 3-4 دقائق حتى يصبح ذهبي، صفّي على ورق ماص.\n" +
-            "7. حضّر السيروپ: سخّن السكر والماء والليمون حتى يذوب.\n" +
-            "8. غمّس التولومبا في السيروپ وقدم دافئاً."
+            "2. ارفع من النار وأضف الدقيق دفعة واحدة.\n" +
+            "3. اخلط جيداً حتى يتكون عجين متماسك.\n" +
+            "4. اتركه يبرد قليلاً ثم أضف البيض واحداً تلو الآخر.\n" +
+            "5. ضع العجين في كيس حلواني.\n\n" +
+            "==============================\n" +
+            "القلي\n" +
+            "==============================\n\n" +
+            "6. سخّن الزيت إلى حوالي 170°C.\n" +
+            "7. شكّل أصابع صغيرة مباشرة في الزيت الساخن.\n" +
+            "8. اقلي 3 إلى 4 دقائق حتى يصبح ذهبي اللون.\n" +
+            "9. صفِّه على ورق ماص.\n\n" +
+            "==============================\n" +
+            "تحضير القطر\n" +
+            "==============================\n\n" +
+            "10. ضع الماء والسكر في طنجرة.\n" +
+            "11. سخّن حتى يذوب السكر تماماً.\n" +
+            "12. أضف بضع قطرات من عصير الليمون وارفعه عن النار.\n" +
+            "13. غمّس التولومبا الساخنة في القطر.\n" +
+            "14. قدّمها دافئة."
     }
 };
-// Remplacé par un dessert aux noix et miel pour variété
 recipesData.dessert.findikliBal = {
     country: "turquie",
     image: "images/findikli-bal.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Dessert aux noisettes et miel",
-        equipment: ["1 casserole","1 bol","1 cuillère en bois"],
+        title: "Dessert aux noisettes et au miel",
+        equipment: [
+            "1 casserole",
+            "1 bol",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "100 g noisettes",
-            "50 g miel",
-            "30 g sucre",
-            "1 cuillère à café cannelle",
-            "50 ml eau"
+            "100 g de noisettes",
+            "50 g de miel",
+            "30 g de sucre",
+            "1 cuillère à café de cannelle",
+            "50 ml d’eau"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 15 min\n\n" +
-            "1. Torréfier les noisettes dans une poêle 5 min.\n" +
-            "2. Chauffer miel, sucre et eau 5 min dans une casserole.\n" +
-            "3. Ajouter les noisettes et la cannelle, mélanger.\n" +
-            "4. Laisser refroidir et servir."
+            "1. Torréfier les noisettes à sec dans une poêle pendant 5 minutes.\n" +
+            "2. Verser le miel, le sucre et l’eau dans une casserole.\n" +
+            "3. Chauffer à feu doux pendant 5 minutes en remuant.\n" +
+            "4. Ajouter les noisettes et la cannelle.\n" +
+            "5. Bien mélanger jusqu’à enrobage homogène.\n" +
+            "6. Verser dans un bol.\n" +
+            "7. Laisser refroidir avant de servir."
     },
+
     en: {
         title: "Hazelnut and Honey Dessert",
-        equipment: ["saucepan","bowl","wooden spoon"],
+        equipment: [
+            "saucepan",
+            "bowl",
+            "wooden spoon"
+        ],
         ingredients: [
             "100 g hazelnuts",
             "50 g honey",
@@ -39336,15 +39729,22 @@ recipesData.dessert.findikliBal = {
             "50 ml water"
         ],
         preparation:
-            "Prep time: 10 min\nCooking time: 15 min\n\n" +
-            "1. Toast hazelnuts in pan 5 min.\n" +
-            "2. Heat honey, sugar, water 5 min in saucepan.\n" +
-            "3. Add hazelnuts and cinnamon, mix.\n" +
-            "4. Let cool and serve."
+            "1. Toast the hazelnuts in a dry pan for 5 minutes.\n" +
+            "2. Place honey, sugar and water in a saucepan.\n" +
+            "3. Heat gently for 5 minutes, stirring.\n" +
+            "4. Add the hazelnuts and cinnamon.\n" +
+            "5. Mix well until evenly coated.\n" +
+            "6. Transfer to a bowl.\n" +
+            "7. Let cool before serving."
     },
+
     nl: {
         title: "Dessert met hazelnoten en honing",
-        equipment: ["steelpan","kom","houten lepel"],
+        equipment: [
+            "steelpan",
+            "kom",
+            "houten lepel"
+        ],
         ingredients: [
             "100 g hazelnoten",
             "50 g honing",
@@ -39353,15 +39753,22 @@ recipesData.dessert.findikliBal = {
             "50 ml water"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 15 min\n\n" +
-            "1. Rooster hazelnoten 5 min in pan.\n" +
-            "2. Verwarm honing, suiker, water 5 min in steelpan.\n" +
-            "3. Voeg hazelnoten en kaneel toe, meng.\n" +
-            "4. Laat afkoelen en serveer."
+            "1. Rooster de hazelnoten 5 minuten in een droge pan.\n" +
+            "2. Doe honing, suiker en water in een steelpan.\n" +
+            "3. Verwarm 5 minuten op laag vuur en roer.\n" +
+            "4. Voeg de hazelnoten en kaneel toe.\n" +
+            "5. Meng goed tot alles bedekt is.\n" +
+            "6. Doe in een kom.\n" +
+            "7. Laat afkoelen voor het serveren."
     },
+
     ar: {
         title: "حلوى بالبندق والعسل",
-        equipment: ["طنجرة","وعاء","ملعقة خشبية"],
+        equipment: [
+            "طنجرة",
+            "وعاء",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "100 غ بندق",
             "50 غ عسل",
@@ -39370,40 +39777,60 @@ recipesData.dessert.findikliBal = {
             "50 مل ماء"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 15 دقيقة\n\n" +
-            "1. حمص البندق في مقلاة 5 دقائق.\n" +
-            "2. سخّن العسل والسكر والماء 5 دقائق في طنجرة.\n" +
-            "3. أضف البندق والقرفة وامزج.\n" +
-            "4. دعها تبرد وقدّم."
+            "1. حمّص البندق في مقلاة جافة لمدة 5 دقائق.\n" +
+            "2. ضع العسل والسكر والماء في طنجرة.\n" +
+            "3. سخّن على نار هادئة لمدة 5 دقائق مع التحريك.\n" +
+            "4. أضف البندق والقرفة.\n" +
+            "5. اخلط جيداً حتى يتغطى بالكامل.\n" +
+            "6. اسكب في وعاء.\n" +
+            "7. اتركه يبرد قبل التقديم."
     }
 };
 recipesData.dessert.kazandibi = {
     country: "turquie",
     image: "images/kazandibi.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Kazandibi",
-        equipment: ["1 casserole","1 fouet","1 plat","1 cuillère"],
+        equipment: [
+            "1 casserole",
+            "1 fouet",
+            "1 plat",
+            "1 cuillère"
+        ],
         ingredients: [
-            "500 ml lait",
-            "50 g riz",
-            "100 g sucre",
-            "1 cuillère à café vanille",
-            "30 g beurre"
+            "500 ml de lait",
+            "50 g de riz",
+            "100 g de sucre",
+            "1 cuillère à café de vanille",
+            "30 g de beurre"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 25 min\n\n" +
-            "1. Cuire le riz dans un peu de lait jusqu’à tendre.\n" +
+            "1. Rincer le riz puis le cuire dans une petite quantité de lait jusqu’à ce qu’il soit tendre.\n" +
             "2. Ajouter le reste du lait, le sucre et la vanille.\n" +
-            "3. Cuire en remuant jusqu’à épaississement.\n" +
-            "4. Beurrer un plat et verser le mélange.\n" +
-            "5. Chauffer une poêle et caraméliser légèrement le fond.\n" +
-            "6. Verser dessus et laisser refroidir.\n" +
-            "7. Servir frais."
+            "3. Cuire à feu doux en remuant constamment jusqu’à épaississement.\n" +
+            "4. Beurrer généreusement un plat.\n" +
+            "5. Verser la préparation dans le plat.\n" +
+            "6. Chauffer doucement le fond pour obtenir une légère caramélisation.\n" +
+            "7. Laisser refroidir complètement.\n" +
+            "8. Servir bien frais."
     },
+
     en: {
         title: "Kazandibi",
-        equipment: ["saucepan","whisk","dish","spoon"],
+        equipment: [
+            "saucepan",
+            "whisk",
+            "dish",
+            "spoon"
+        ],
         ingredients: [
             "500 ml milk",
             "50 g rice",
@@ -39412,18 +39839,24 @@ recipesData.dessert.kazandibi = {
             "30 g butter"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 25 min\n\n" +
-            "1. Cook rice in a little milk until soft.\n" +
-            "2. Add remaining milk, sugar, vanilla.\n" +
-            "3. Cook while stirring until thick.\n" +
-            "4. Butter a dish and pour mixture.\n" +
-            "5. Heat a pan and lightly caramelize bottom.\n" +
-            "6. Pour over and let cool.\n" +
-            "7. Serve chilled."
+            "1. Rinse the rice and cook it in a small amount of milk until tender.\n" +
+            "2. Add the remaining milk, sugar and vanilla.\n" +
+            "3. Cook over low heat, stirring constantly, until thickened.\n" +
+            "4. Generously butter a dish.\n" +
+            "5. Pour the mixture into the dish.\n" +
+            "6. Gently heat the bottom to lightly caramelize.\n" +
+            "7. Let cool completely.\n" +
+            "8. Serve chilled."
     },
+
     nl: {
         title: "Kazandibi",
-        equipment: ["steelpan","klopper","schaal","lepel"],
+        equipment: [
+            "steelpan",
+            "klopper",
+            "schaal",
+            "lepel"
+        ],
         ingredients: [
             "500 ml melk",
             "50 g rijst",
@@ -39432,18 +39865,24 @@ recipesData.dessert.kazandibi = {
             "30 g boter"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 25 min\n\n" +
-            "1. Kook rijst in beetje melk tot zacht.\n" +
-            "2. Voeg resterende melk, suiker, vanille toe.\n" +
-            "3. Kook al roerend tot dik.\n" +
-            "4. Vet schaal in en giet mengsel erin.\n" +
-            "5. Verhit pan en karameliseer licht de bodem.\n" +
-            "6. Giet erover en laat afkoelen.\n" +
-            "7. Serveer koud."
+            "1. Spoel de rijst en kook deze in een kleine hoeveelheid melk tot zacht.\n" +
+            "2. Voeg de resterende melk, suiker en vanille toe.\n" +
+            "3. Kook op laag vuur en roer voortdurend tot het indikt.\n" +
+            "4. Vet een schaal royaal in.\n" +
+            "5. Giet het mengsel in de schaal.\n" +
+            "6. Verhit de onderkant lichtjes om te karamelliseren.\n" +
+            "7. Laat volledig afkoelen.\n" +
+            "8. Serveer koud."
     },
+
     ar: {
         title: "قازانديبي",
-        equipment: ["طنجرة","خفاق","صينية","ملعقة"],
+        equipment: [
+            "طنجرة",
+            "خفاق",
+            "صينية",
+            "ملعقة"
+        ],
         ingredients: [
             "500 مل حليب",
             "50 غ أرز",
@@ -39452,480 +39891,499 @@ recipesData.dessert.kazandibi = {
             "30 غ زبدة"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 25 دقيقة\n\n" +
-            "1. اطه الأرز في قليل من الحليب حتى يصبح طرياً.\n" +
-            "2. أضف باقي الحليب، السكر، الفانيليا.\n" +
-            "3. اطه مع التحريك حتى يتماسك.\n" +
-            "4. ادهن الصينية بالزبدة واسكب الخليط.\n" +
-            "5. سخّن مقلاة وقم بتكرمل قليل من القاع.\n" +
-            "6. اسكب فوق الخليط ودع يبرد.\n" +
-            "7. قدمه بارداً."
+            "1. اغسل الأرز واطهه في كمية قليلة من الحليب حتى يصبح طرياً.\n" +
+            "2. أضف باقي الحليب والسكر والفانيليا.\n" +
+            "3. اطه على نار هادئة مع التحريك المستمر حتى يتماسك.\n" +
+            "4. ادهن الصينية بالزبدة جيداً.\n" +
+            "5. اسكب الخليط في الصينية.\n" +
+            "6. سخّن القاع برفق حتى يتكرمل قليلاً.\n" +
+            "7. اتركه يبرد تماماً.\n" +
+            "8. قدّمه بارداً."
     }
 };
 recipesData.dessert.gullac = {
     country: "turquie",
     image: "images/gullac.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
         title: "Güllaç",
-        equipment: ["1 grand bol","1 cuillère","1 plat"],
+        equipment: [
+            "1 grand bol",
+            "1 cuillère",
+            "1 plat"
+        ],
         ingredients: [
-            "10 feuilles de güllaç (feuilles de maïs turques)",
-            "500 ml lait",
-            "100 g sucre",
-            "50 g noix concassées",
-            "1 cuillère à café eau de rose"
+            "10 feuilles de güllaç",
+            "500 ml de lait",
+            "100 g de sucre",
+            "50 g de noix concassées",
+            "Zeste d’orange (optionnel)"
         ],
         preparation:
-            "Temps de préparation : 10 min\nTemps de cuisson : 0 min\n\n" +
-            "1. Chauffer le lait avec le sucre et l’eau de rose.\n" +
-            "2. Tremper chaque feuille de güllaç dans le lait chaud.\n" +
-            "3. Placer une feuille dans le plat, saupoudrer de noix.\n" +
-            "4. Répéter jusqu’à épuisement des feuilles.\n" +
-            "5. Verser le lait restant sur le dessus.\n" +
-            "6. Laisser reposer 2 heures au réfrigérateur.\n" +
-            "7. Servir frais."
+            "1. Chauffer le lait avec le sucre jusqu’à dissolution complète.\n" +
+            "2. Ajouter un peu de zeste d’orange si désiré.\n" +
+            "3. Tremper chaque feuille de güllaç dans le lait chaud.\n" +
+            "4. Déposer une feuille dans un plat.\n" +
+            "5. Saupoudrer de noix concassées.\n" +
+            "6. Répéter l’opération jusqu’à épuisement des feuilles.\n" +
+            "7. Verser le lait restant sur le dessus.\n" +
+            "8. Laisser reposer au réfrigérateur pendant 2 heures.\n" +
+            "9. Servir bien frais."
     },
+
     en: {
         title: "Güllaç",
-        equipment: ["1 large bowl","spoon","dish"],
+        equipment: [
+            "large bowl",
+            "spoon",
+            "dish"
+        ],
         ingredients: [
-            "10 güllaç sheets (Turkish cornstarch sheets)",
+            "10 güllaç sheets",
             "500 ml milk",
             "100 g sugar",
             "50 g chopped nuts",
-            "1 tsp rose water"
+            "Orange zest (optional)"
         ],
         preparation:
-            "Prep time: 10 min\nCooking time: 0 min\n\n" +
-            "1. Heat milk with sugar and rose water.\n" +
-            "2. Soak each güllaç sheet in hot milk.\n" +
-            "3. Place one sheet in dish, sprinkle nuts.\n" +
-            "4. Repeat until sheets are used.\n" +
-            "5. Pour remaining milk on top.\n" +
-            "6. Chill 2 hours in refrigerator.\n" +
-            "7. Serve cold."
+            "1. Heat the milk with sugar until fully dissolved.\n" +
+            "2. Add a little orange zest if desired.\n" +
+            "3. Dip each güllaç sheet into the warm milk.\n" +
+            "4. Place one sheet in a dish.\n" +
+            "5. Sprinkle with chopped nuts.\n" +
+            "6. Repeat until all sheets are used.\n" +
+            "7. Pour the remaining milk over the top.\n" +
+            "8. Refrigerate for 2 hours.\n" +
+            "9. Serve cold."
     },
+
     nl: {
         title: "Güllaç",
-        equipment: ["1 grote kom","lepel","schaal"],
+        equipment: [
+            "grote kom",
+            "lepel",
+            "schaal"
+        ],
         ingredients: [
-            "10 güllaç vellen (Turkse maïsbladeren)",
+            "10 güllaç vellen",
             "500 ml melk",
             "100 g suiker",
             "50 g gehakte noten",
-            "1 theelepel rozenwater"
+            "Sinaasappelschil (optioneel)"
         ],
         preparation:
-            "Bereidingstijd: 10 min\nKooktijd: 0 min\n\n" +
-            "1. Verwarm melk met suiker en rozenwater.\n" +
-            "2. Week elk güllaç vel in warme melk.\n" +
-            "3. Leg één vel in schaal, bestrooi met noten.\n" +
-            "4. Herhaal tot alle vellen op zijn.\n" +
-            "5. Giet resterende melk erover.\n" +
-            "6. Koel 2 uur in koelkast.\n" +
-            "7. Serveer koud."
+            "1. Verwarm de melk met suiker tot deze is opgelost.\n" +
+            "2. Voeg eventueel wat sinaasappelschil toe.\n" +
+            "3. Week elk güllaç vel in de warme melk.\n" +
+            "4. Leg een vel in de schaal.\n" +
+            "5. Bestrooi met gehakte noten.\n" +
+            "6. Herhaal tot alle vellen zijn gebruikt.\n" +
+            "7. Giet de resterende melk erover.\n" +
+            "8. Zet 2 uur in de koelkast.\n" +
+            "9. Serveer koud."
     },
+
     ar: {
-        title: "غلّاج",
-        equipment: ["وعاء كبير","ملعقة","صينية"],
+        title: "غُلّاج",
+        equipment: [
+            "وعاء كبير",
+            "ملعقة",
+            "صينية"
+        ],
         ingredients: [
-            "10 أوراق غلّاج",
+            "10 أوراق غُلّاج",
             "500 مل حليب",
             "100 غ سكر",
             "50 غ مكسرات مفرومة",
-            "1 ملعقة صغيرة ماء ورد"
+            "برش قشر البرتقال (اختياري)"
         ],
         preparation:
-            "وقت التحضير: 10 دقائق\nوقت الطهي: 0 دقيقة\n\n" +
-            "1. سخّن الحليب مع السكر وماء الورد.\n" +
-            "2. غمس كل ورقة غلّاج في الحليب الساخن.\n" +
-            "3. ضع ورقة في الصينية، رش المكسرات.\n" +
-            "4. كرّر حتى تنتهي الأوراق.\n" +
-            "5. اسكب الحليب المتبقي على الوجه.\n" +
-            "6. ضع في الثلاجة 2 ساعة.\n" +
-            "7. قدم بارداً."
+            "1. سخّن الحليب مع السكر حتى يذوب تماماً.\n" +
+            "2. أضف قليلاً من برش قشر البرتقال إذا رغبت.\n" +
+            "3. اغمس كل ورقة غُلّاج في الحليب الدافئ.\n" +
+            "4. ضع ورقة في الصينية.\n" +
+            "5. رش المكسرات المفرومة.\n" +
+            "6. كرر حتى تنتهي الأوراق.\n" +
+            "7. اسكب الحليب المتبقي فوق الوجه.\n" +
+            "8. ضع في الثلاجة لمدة ساعتين.\n" +
+            "9. قدّم بارداً."
     }
 };
 recipesData.dessert.lokma = {
     country: "turquie",
     image: "images/lokma.jpg",
-    persons: "4 personnes",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 10,
+        difficulty: "medium"
+    },
+
     fr: {
         title: "Lokma",
-        equipment: ["1 bol","1 cuillère","1 casserole","papier absorbant","huile pour friture"],
+        equipment: [
+            "1 bol",
+            "1 cuillère",
+            "1 casserole",
+            "papier absorbant"
+        ],
         ingredients: [
-            "200 g farine",
-            "100 ml eau tiède",
-            "1 cuillère à café levure boulangère",
-            "50 g sucre",
-            "Pour le sirop : 100 g sucre, 50 ml eau, 1 cuillère à café jus de citron",
+            "200 g de farine",
+            "100 ml d’eau tiède",
+            "1 cuillère à café de levure boulangère",
+            "100 g de sucre",
+            "50 ml d’eau",
+            "1 cuillère à café de jus de citron",
             "Huile pour friture"
         ],
         preparation:
-            "Temps de préparation : 15 min\nTemps de cuisson : 10 min\n\n" +
-            "1. Mélanger la farine, l’eau et la levure, laisser lever 1 heure.\n" +
-            "2. Chauffer l’huile à 170°C.\n" +
-            "3. Former des petites boules et les plonger dans l’huile.\n" +
-            "4. Cuire 3-4 min jusqu’à doré.\n" +
-            "5. Égoutter sur papier absorbant.\n" +
-            "6. Préparer le sirop : chauffer sucre, eau, citron.\n" +
-            "7. Tremper les lokmas dans le sirop et servir tiède."
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n\n" +
+            "1. Verser la farine dans un bol.\n" +
+            "2. Ajouter l’eau tiède et la levure boulangère.\n" +
+            "3. Mélanger jusqu’à obtenir une pâte lisse.\n" +
+            "4. Couvrir et laisser lever pendant environ 1 heure.\n\n" +
+            "==============================\n" +
+            "FRITURE\n" +
+            "==============================\n\n" +
+            "5. Chauffer l’huile à environ 170°C.\n" +
+            "6. Former de petites boules de pâte à l’aide d’une cuillère.\n" +
+            "7. Les plonger dans l’huile chaude.\n" +
+            "8. Frire 3 à 4 minutes jusqu’à coloration dorée.\n" +
+            "9. Égoutter sur du papier absorbant.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DU SIROP\n" +
+            "==============================\n\n" +
+            "10. Verser l’eau et le sucre dans une casserole.\n" +
+            "11. Chauffer jusqu’à dissolution complète du sucre.\n" +
+            "12. Ajouter le jus de citron et retirer du feu.\n" +
+            "13. Tremper les lokmas chauds dans le sirop.\n" +
+            "14. Servir tiède."
     },
+
     en: {
         title: "Lokma",
-        equipment: ["1 bowl","spoon","saucepan","absorbent paper","oil for frying"],
+        equipment: [
+            "bowl",
+            "spoon",
+            "saucepan",
+            "absorbent paper"
+        ],
         ingredients: [
             "200 g flour",
             "100 ml warm water",
-            "1 tsp yeast",
-            "50 g sugar",
-            "For syrup: 100 g sugar, 50 ml water, 1 tsp lemon juice",
+            "1 tsp baker’s yeast",
+            "100 g sugar",
+            "50 ml water",
+            "1 tsp lemon juice",
             "Oil for frying"
         ],
         preparation:
-            "Prep time: 15 min\nCooking time: 10 min\n\n" +
-            "1. Mix flour, water, yeast, let rise 1 hour.\n" +
-            "2. Heat oil to 170°C.\n" +
-            "3. Form small balls and fry.\n" +
-            "4. Cook 3-4 min until golden.\n" +
-            "5. Drain on absorbent paper.\n" +
-            "6. Prepare syrup: heat sugar, water, lemon.\n" +
-            "7. Dip lokmas in syrup and serve warm."
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Place the flour in a bowl.\n" +
+            "2. Add warm water and baker’s yeast.\n" +
+            "3. Mix until a smooth dough forms.\n" +
+            "4. Cover and let rise for about 1 hour.\n\n" +
+            "==============================\n" +
+            "FRYING\n" +
+            "==============================\n\n" +
+            "5. Heat oil to about 170°C.\n" +
+            "6. Shape small dough balls using a spoon.\n" +
+            "7. Drop them into the hot oil.\n" +
+            "8. Fry for 3 to 4 minutes until golden.\n" +
+            "9. Drain on absorbent paper.\n\n" +
+            "==============================\n" +
+            "SYRUP PREPARATION\n" +
+            "==============================\n\n" +
+            "10. Combine water and sugar in a saucepan.\n" +
+            "11. Heat until the sugar fully dissolves.\n" +
+            "12. Add lemon juice and remove from heat.\n" +
+            "13. Dip the warm lokma into the syrup.\n" +
+            "14. Serve warm."
     },
+
     nl: {
         title: "Lokma",
-        equipment: ["1 kom","lepel","steelpan","absorberend papier","olie om te frituren"],
+        equipment: [
+            "kom",
+            "lepel",
+            "steelpan",
+            "absorberend papier"
+        ],
         ingredients: [
             "200 g bloem",
             "100 ml lauwwarm water",
-            "1 theelepel gist",
-            "50 g suiker",
-            "Voor siroop: 100 g suiker, 50 ml water, 1 theelepel citroensap",
+            "1 theelepel bakkersgist",
+            "100 g suiker",
+            "50 ml water",
+            "1 theelepel citroensap",
             "Olie om te frituren"
         ],
         preparation:
-            "Bereidingstijd: 15 min\nKooktijd: 10 min\n\n" +
-            "1. Meng bloem, water, gist, laat 1 uur rijzen.\n" +
-            "2. Verhit olie tot 170°C.\n" +
-            "3. Vorm kleine bolletjes en frituur.\n" +
-            "4. Bak 3-4 min tot goudbruin.\n" +
-            "5. Laat uitlekken op absorberend papier.\n" +
-            "6. Bereid siroop: verwarm suiker, water, citroen.\n" +
-            "7. Doop lokmas in siroop en serveer warm."
+            "==============================\n" +
+            "BEREIDING VAN HET DEEG\n" +
+            "==============================\n\n" +
+            "1. Doe de bloem in een kom.\n" +
+            "2. Voeg lauwwarm water en gist toe.\n" +
+            "3. Meng tot een glad deeg.\n" +
+            "4. Dek af en laat ongeveer 1 uur rijzen.\n\n" +
+            "==============================\n" +
+            "FRITUREN\n" +
+            "==============================\n\n" +
+            "5. Verhit olie tot ongeveer 170°C.\n" +
+            "6. Vorm kleine deegbolletjes met een lepel.\n" +
+            "7. Laat ze in de hete olie vallen.\n" +
+            "8. Bak 3 tot 4 minuten tot goudbruin.\n" +
+            "9. Laat uitlekken op absorberend papier.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE SIROOP\n" +
+            "==============================\n\n" +
+            "10. Doe water en suiker in een steelpan.\n" +
+            "11. Verwarm tot de suiker volledig is opgelost.\n" +
+            "12. Voeg citroensap toe en haal van het vuur.\n" +
+            "13. Doop de warme lokma in de siroop.\n" +
+            "14. Serveer warm."
     },
+
     ar: {
         title: "لقمة",
-        equipment: ["وعاء","ملعقة","طنجرة","ورق ماص","زيت للقلي"],
+        equipment: [
+            "وعاء",
+            "ملعقة",
+            "طنجرة",
+            "ورق ماص"
+        ],
         ingredients: [
             "200 غ دقيق",
             "100 مل ماء دافئ",
             "1 ملعقة صغيرة خميرة",
-            "50 غ سكر",
-            "للسيروپ: 100 غ سكر، 50 مل ماء، 1 ملعقة صغيرة عصير ليمون",
+            "100 غ سكر",
+            "50 مل ماء",
+            "1 ملعقة صغيرة عصير ليمون",
             "زيت للقلي"
         ],
         preparation:
-            "وقت التحضير: 15 دقيقة\nوقت الطهي: 10 دقائق\n\n" +
-            "1. اخلط الدقيق والماء والخميرة، دعها تختمر ساعة.\n" +
-            "2. سخّن الزيت على 170°C.\n" +
-            "3. شكّل كرات صغيرة وضعها في الزيت.\n" +
-            "4. اقلي 3-4 دقائق حتى تصبح ذهبية.\n" +
-            "5. صفّها على ورق ماص.\n" +
-            "6. حضّر السيروپ: سخّن السكر والماء والليمون.\n" +
-            "7. اغمس اللقمة في السيروپ وقدّم دافئاً."
+            "==============================\n" +
+            "تحضير العجين\n" +
+            "==============================\n\n" +
+            "1. ضع الدقيق في وعاء.\n" +
+            "2. أضف الماء الدافئ والخميرة.\n" +
+            "3. اخلط حتى تتكون عجينة ناعمة.\n" +
+            "4. غطِّها واتركها تختمر لمدة ساعة تقريباً.\n\n" +
+            "==============================\n" +
+            "القلي\n" +
+            "==============================\n\n" +
+            "5. سخّن الزيت إلى حوالي 170°C.\n" +
+            "6. شكّل كرات صغيرة من العجين.\n" +
+            "7. ضعها في الزيت الساخن.\n" +
+            "8. اقلي 3 إلى 4 دقائق حتى تصبح ذهبية.\n" +
+            "9. صفِّها على ورق ماص.\n\n" +
+            "==============================\n" +
+            "تحضير القطر\n" +
+            "==============================\n\n" +
+            "10. ضع الماء والسكر في طنجرة.\n" +
+            "11. سخّن حتى يذوب السكر تماماً.\n" +
+            "12. أضف عصير الليمون وارفعه عن النار.\n" +
+            "13. اغمس اللقمة الساخنة في القطر.\n" +
+            "14. قدّمها دافئة."
     }
 };
-
 recipesData.dessert.kunefe = {
     country: "turquie",
     image: "images/kunefe.jpg",
 
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Künefe turque (4 personnes)",
+        title: "Künefe",
         equipment: [
-            "1 poêle antiadhésive moyenne",
+            "1 poêle antiadhésive",
             "1 couteau",
             "1 planche à découper",
             "1 bol",
             "1 cuillère en bois",
-            "1 casserole pour sirop",
-            "1 pinceau de cuisine",
-            "1 balance de cuisine"
+            "1 casserole"
         ],
         ingredients: [
-            "200 g pâte kadayıf (cheveux d’ange turcs)",
-            "100 g beurre fondu",
-            "150 g fromage mozzarella doux ou akawi, râpé",
-            "50 g sucre",
-            "50 ml eau",
-            "1/2 cuillère à café jus de citron (2 ml)",
-            "Pistaches concassées pour garnir (10 g)"
+            "200 g de pâte kadayıf",
+            "100 g de beurre fondu",
+            "150 g de fromage mozzarella doux ou akawi, râpé",
+            "50 g de sucre",
+            "50 ml d’eau",
+            "1/2 cuillère à café de jus de citron",
+            "Pistaches concassées pour le dessus"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préchauffer la poêle à feu doux.\n" +
-            "2. Mélanger la pâte kadayıf avec le beurre fondu pour bien enrober.\n" +
-            "3. Étaler la moitié de la pâte dans la poêle, presser légèrement.\n" +
-            "4. Répartir le fromage râpé uniformément sur la pâte.\n" +
-            "5. Recouvrir avec l’autre moitié de la pâte, presser légèrement.\n" +
-            "6. Cuire à feu doux 8-10 minutes jusqu’à ce que le dessous soit doré.\n" +
-            "7. Retourner délicatement le künefe pour cuire l’autre côté 8-10 minutes.\n" +
-            "8. Préparer le sirop : chauffer sucre, eau et jus de citron jusqu’à dissolution complète.\n" +
-            "9. Verser le sirop chaud sur le künefe chaud.\n" +
-            "10. Garnir de pistaches concassées et servir immédiatement."
+            "==============================\n" +
+            "PRÉPARATION DU KÜNEFE\n" +
+            "==============================\n\n" +
+            "1. Mélanger la pâte kadayıf avec le beurre fondu afin de bien l’enrober.\n" +
+            "2. Étaler la moitié de la pâte dans une poêle antiadhésive et presser légèrement.\n" +
+            "3. Répartir le fromage râpé de manière uniforme.\n" +
+            "4. Recouvrir avec le reste de la pâte et presser doucement.\n" +
+            "5. Cuire à feu doux pendant 8 à 10 minutes jusqu’à ce que le dessous soit bien doré.\n" +
+            "6. Retourner délicatement le künefe et cuire l’autre face 8 à 10 minutes.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DU SIROP\n" +
+            "==============================\n\n" +
+            "7. Verser l’eau et le sucre dans une casserole.\n" +
+            "8. Chauffer jusqu’à dissolution complète du sucre.\n" +
+            "9. Ajouter le jus de citron et retirer du feu.\n" +
+            "10. Verser le sirop chaud sur le künefe chaud.\n" +
+            "11. Parsemer de pistaches concassées et servir immédiatement."
     },
 
     en: {
-        title: "Turkish Künefe (Serves 4)",
+        title: "Künefe",
         equipment: [
-            "1 medium non-stick pan",
-            "1 knife",
-            "1 cutting board",
-            "1 bowl",
-            "1 wooden spoon",
-            "1 saucepan for syrup",
-            "1 kitchen brush",
-            "1 kitchen scale"
+            "non-stick pan",
+            "knife",
+            "cutting board",
+            "bowl",
+            "wooden spoon",
+            "saucepan"
         ],
         ingredients: [
-            "200 g kadayıf pastry (Turkish shredded phyllo)",
+            "200 g kadayıf pastry",
             "100 g melted butter",
             "150 g mild mozzarella or akawi cheese, grated",
             "50 g sugar",
             "50 ml water",
-            "1/2 tsp lemon juice (2 ml)",
-            "Crushed pistachios for garnish (10 g)"
+            "1/2 tsp lemon juice",
+            "Crushed pistachios for topping"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat the pan over low heat.\n" +
-            "2. Mix kadayıf pastry with melted butter to coat evenly.\n" +
-            "3. Spread half of the pastry in the pan, press lightly.\n" +
-            "4. Spread grated cheese evenly over the pastry.\n" +
-            "5. Cover with the remaining pastry, press lightly.\n" +
-            "6. Cook on low heat 8-10 minutes until the bottom is golden.\n" +
-            "7. Carefully flip the künefe to cook the other side 8-10 minutes.\n" +
-            "8. Prepare syrup: heat sugar, water, and lemon juice until fully dissolved.\n" +
-            "9. Pour hot syrup over hot künefe.\n" +
-            "10. Garnish with crushed pistachios and serve immediately."
+            "==============================\n" +
+            "KÜNEFE PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Mix the kadayıf pastry with melted butter until evenly coated.\n" +
+            "2. Spread half of the pastry into a non-stick pan and press lightly.\n" +
+            "3. Distribute the grated cheese evenly.\n" +
+            "4. Cover with the remaining pastry and press gently.\n" +
+            "5. Cook over low heat for 8 to 10 minutes until golden underneath.\n" +
+            "6. Carefully flip and cook the other side for 8 to 10 minutes.\n\n" +
+            "==============================\n" +
+            "SYRUP PREPARATION\n" +
+            "==============================\n\n" +
+            "7. Combine water and sugar in a saucepan.\n" +
+            "8. Heat until the sugar dissolves completely.\n" +
+            "9. Add lemon juice and remove from heat.\n" +
+            "10. Pour the hot syrup over the hot künefe.\n" +
+            "11. Sprinkle with crushed pistachios and serve immediately."
     },
 
     nl: {
-        title: "Turkse Künefe (voor 4 personen)",
+        title: "Künefe",
         equipment: [
-            "1 middelgrote antiaanbakpan",
-            "1 mes",
-            "1 snijplank",
-            "1 kom",
-            "1 houten lepel",
-            "1 steelpan voor siroop",
-            "1 kwast",
-            "1 keukenweegschaal"
+            "anti-aanbakpan",
+            "mes",
+            "snijplank",
+            "kom",
+            "houten lepel",
+            "steelpan"
         ],
         ingredients: [
-            "200 g kadayıf-deeg (Turks fijn filodeeg)",
+            "200 g kadayıf-deeg",
             "100 g gesmolten boter",
             "150 g milde mozzarella of akawi kaas, geraspt",
             "50 g suiker",
             "50 ml water",
-            "1/2 theelepel citroensap (2 ml)",
-            "Fijngehakte pistachenoten voor garnering (10 g)"
+            "1/2 theelepel citroensap",
+            "Fijngehakte pistachenoten"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm de pan op laag vuur.\n" +
-            "2. Meng het kadayıf-deeg met gesmolten boter zodat het goed bedekt is.\n" +
-            "3. Leg de helft van het deeg in de pan, druk licht aan.\n" +
-            "4. Verdeel de geraspte kaas gelijkmatig over het deeg.\n" +
-            "5. Bedek met de resterende helft van het deeg, druk licht aan.\n" +
-            "6. Bak op laag vuur 8-10 minuten tot de onderkant goudbruin is.\n" +
-            "7. Draai voorzichtig de künefe om en bak de andere kant 8-10 minuten.\n" +
-            "8. Bereid de siroop: verwarm suiker, water en citroensap tot volledig opgelost.\n" +
-            "9. Giet de hete siroop over de hete künefe.\n" +
-            "10. Garneer met gehakte pistachenoten en serveer direct."
+            "==============================\n" +
+            "BEREIDING VAN DE KÜNEFE\n" +
+            "==============================\n\n" +
+            "1. Meng het kadayıf-deeg met de gesmolten boter.\n" +
+            "2. Verdeel de helft van het deeg in een pan en druk licht aan.\n" +
+            "3. Verdeel de kaas gelijkmatig.\n" +
+            "4. Bedek met het resterende deeg en druk licht aan.\n" +
+            "5. Bak 8 tot 10 minuten op laag vuur tot goudbruin.\n" +
+            "6. Draai voorzichtig om en bak de andere kant 8 tot 10 minuten.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE SIROOP\n" +
+            "==============================\n\n" +
+            "7. Verwarm water en suiker in een steelpan.\n" +
+            "8. Roer tot de suiker volledig is opgelost.\n" +
+            "9. Voeg citroensap toe en haal van het vuur.\n" +
+            "10. Giet de hete siroop over de hete künefe.\n" +
+            "11. Bestrooi met pistachenoten en serveer direct."
     },
 
     ar: {
-        title: "كنافة تركية (تكفي 4 أشخاص)",
+        title: "كنافة تركية",
         equipment: [
-            "مقلاة غير لاصقة متوسطة",
+            "مقلاة غير لاصقة",
             "سكين",
             "لوح تقطيع",
             "وعاء",
             "ملعقة خشبية",
-            "قدر لتحضير الشراب",
-            "فرشاة مطبخ",
-            "ميزان مطبخ"
+            "طنجرة"
         ],
         ingredients: [
-            "200 غ عجينة كاداييف (فييلو تركي شعري)",
+            "200 غ عجينة كاداييف",
             "100 غ زبدة مذابة",
-            "150 غ جبن موزاريلا خفيف أو جبن عكاوي، مبشور",
+            "150 غ جبن موزاريلا خفيف أو عكاوي مبشور",
             "50 غ سكر",
             "50 مل ماء",
-            "1/2 ملعقة صغيرة عصير ليمون (2 مل)",
-            "فستق مجروش للتزيين (10 غ)"
+            "نصف ملعقة صغيرة عصير ليمون",
+            "فستق مجروش للتزيين"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن المقلاة على نار هادئة.\n" +
-            "2. امزج عجينة الكاداييف مع الزبدة المذابة لتغطية متساوية.\n" +
-            "3. ضع نصف العجينة في المقلاة واضغط برفق.\n" +
-            "4. وزع الجبن المبشور بالتساوي فوق العجينة.\n" +
-            "5. غطِ بالنصف المتبقي من العجينة واضغط برفق.\n" +
-            "6. اطه على نار هادئة 8-10 دقائق حتى يصبح القاع ذهبي اللون.\n" +
-            "7. قلب الكنافة بحذر لطهي الجانب الآخر 8-10 دقائق.\n" +
-            "8. حضّر الشراب: سخّن السكر والماء وعصير الليمون حتى يذوب تماماً.\n" +
-            "9. صب الشراب الساخن على الكنافة الساخنة.\n" +
-            "10. زيّن بالفستق المجروش وقدّم فوراً."
+            "==============================\n" +
+            "تحضير الكنافة\n" +
+            "==============================\n\n" +
+            "1. امزج عجينة الكاداييف مع الزبدة المذابة جيداً.\n" +
+            "2. ضع نصف العجينة في المقلاة واضغط برفق.\n" +
+            "3. وزّع الجبن المبشور بالتساوي.\n" +
+            "4. غطِّ بالنصف المتبقي من العجينة واضغط برفق.\n" +
+            "5. اطه على نار هادئة 8 إلى 10 دقائق حتى يتحمر القاع.\n" +
+            "6. اقلب الكنافة بحذر واطه الجهة الأخرى 8 إلى 10 دقائق.\n\n" +
+            "==============================\n" +
+            "تحضير القطر\n" +
+            "==============================\n\n" +
+            "7. ضع الماء والسكر في طنجرة.\n" +
+            "8. سخّن حتى يذوب السكر تماماً.\n" +
+            "9. أضف عصير الليمون وارفعه عن النار.\n" +
+            "10. اسكب القطر الساخن فوق الكنافة الساخنة.\n" +
+            "11. زيّن بالفستق وقدّم فوراً."
     }
 };
 
-recipesData.patisserie.baklava = {
-    country: "turquie",
-    image: "images/baklava.jpg",
-    fr: {
-        title: "Baklava turque (4 personnes)",
-        equipment: [
-            "1 plat rectangulaire de 20x20 cm",
-            "1 couteau",
-            "1 planche à découper",
-            "1 bol",
-            "1 pinceau de cuisine",
-            "1 casserole pour sirop",
-            "1 cuillère en bois",
-            "1 balance de cuisine"
-        ],
-        ingredients: [
-            "200 g pâte filo",
-            "100 g beurre fondu",
-            "150 g noix ou pistaches hachées",
-            "50 g sucre",
-            "50 ml eau",
-            "1/2 cuillère à café jus de citron (2 ml)",
-            "1 cuillère à café cannelle moulue (2 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préchauffer le four à 180°C.\n" +
-            "2. Beurrer légèrement le plat.\n" +
-            "3. Étaler une feuille de pâte filo, badigeonner de beurre fondu, répéter 3 fois.\n" +
-            "4. Répartir une couche de noix ou pistaches hachées, saupoudrer de cannelle.\n" +
-            "5. Couvrir avec 3 autres feuilles de pâte filo, beurrer entre chaque.\n" +
-            "6. Répéter les couches jusqu’à épuisement des ingrédients.\n" +
-            "7. Découper le baklava en losanges avec un couteau.\n" +
-            "8. Cuire au four 25-30 minutes jusqu’à doré.\n" +
-            "9. Préparer le sirop: chauffer sucre, eau et jus de citron jusqu’à dissolution.\n" +
-            "10. Verser le sirop chaud sur le baklava chaud.\n" +
-            "11. Laisser absorber le sirop 1 heure avant de servir."
-    },
-    en: {
-        title: "Turkish Baklava (Serves 4)",
-        equipment: [
-            "1 rectangular dish 20x20 cm",
-            "1 knife",
-            "1 cutting board",
-            "1 bowl",
-            "1 kitchen brush",
-            "1 saucepan for syrup",
-            "1 wooden spoon",
-            "1 kitchen scale"
-        ],
-        ingredients: [
-            "200 g filo pastry",
-            "100 g melted butter",
-            "150 g chopped walnuts or pistachios",
-            "50 g sugar",
-            "50 ml water",
-            "1/2 tsp lemon juice (2 ml)",
-            "1 tsp ground cinnamon (2 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Lightly butter the baking dish.\n" +
-            "3. Place one sheet of filo, brush with melted butter, repeat 3 times.\n" +
-            "4. Spread a layer of chopped nuts, sprinkle cinnamon.\n" +
-            "5. Cover with 3 more filo sheets, butter between each.\n" +
-            "6. Repeat layers until ingredients are used.\n" +
-            "7. Cut baklava into diamonds with a knife.\n" +
-            "8. Bake 25-30 minutes until golden.\n" +
-            "9. Prepare syrup: heat sugar, water, and lemon juice until dissolved.\n" +
-            "10. Pour hot syrup over hot baklava.\n" +
-            "11. Let absorb syrup 1 hour before serving."
-    },
-    nl: {
-        title: "Turkse Baklava (voor 4 personen)",
-        equipment: [
-            "1 rechthoekige schaal 20x20 cm",
-            "1 mes",
-            "1 snijplank",
-            "1 kom",
-            "1 kwast",
-            "1 steelpan voor siroop",
-            "1 houten lepel",
-            "1 keukenweegschaal"
-        ],
-        ingredients: [
-            "200 g filodeeg",
-            "100 g gesmolten boter",
-            "150 g gehakte walnoten of pistachenoten",
-            "50 g suiker",
-            "50 ml water",
-            "1/2 theelepel citroensap (2 ml)",
-            "1 theelepel gemalen kaneel (2 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Vet de ovenschaal licht in.\n" +
-            "3. Leg een vel filodeeg, bestrijk met boter, herhaal 3 keer.\n" +
-            "4. Verdeel een laag gehakte noten, bestrooi met kaneel.\n" +
-            "5. Bedek met 3 andere vellen filodeeg, bestrijk tussen elk.\n" +
-            "6. Herhaal lagen tot alle ingrediënten op zijn.\n" +
-            "7. Snijd baklava in ruiten met een mes.\n" +
-            "8. Bak 25-30 minuten tot goudbruin.\n" +
-            "9. Bereid siroop: verwarm suiker, water en citroensap tot opgelost.\n" +
-            "10. Giet hete siroop over hete baklava.\n" +
-            "11. Laat 1 uur trekken voor het serveren."
-    },
-    ar: {
-        title: "بقلاوة تركية (تكفي 4 أشخاص)",
-        equipment: [
-            "صينية خبز مستطيلة 20x20 سم",
-            "سكين",
-            "لوح تقطيع",
-            "وعاء",
-            "فرشاة مطبخ",
-            "قدر لتحضير الشراب",
-            "ملعقة خشبية",
-            "ميزان مطبخ"
-        ],
-        ingredients: [
-            "200 غ عجينة فيلو",
-            "100 غ زبدة مذابة",
-            "150 غ جوز أو فستق مفروم",
-            "50 غ سكر",
-            "50 مل ماء",
-            "1/2 ملعقة صغيرة عصير ليمون (2 مل)",
-            "1 ملعقة صغيرة قرفة مطحونة (2 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الفرن إلى 180°C.\n" +
-            "2. ادهن الصينية بالزبدة قليلاً.\n" +
-            "3. ضع ورقة فيلو، ادهن بالزبدة، كرر 3 مرات.\n" +
-            "4. ضع طبقة من المكسرات المفرومة، رش القرفة.\n" +
-            "5. غطِ بثلاث ورقات فيلو أخرى، ادهن بين كل ورقة.\n" +
-            "6. كرر الطبقات حتى نفاد المكونات.\n" +
-            "7. اقطع البقلاوة إلى أشكال ماسية.\n" +
-            "8. اخبز 25-30 دقيقة حتى تصبح ذهبية.\n" +
-            "9. حضر الشراب: سخن السكر والماء وعصير الليمون حتى يذوب.\n" +
-            "10. صب الشراب الساخن على البقلاوة الساخنة.\n" +
-            "11. اتركه ليمتص الشراب ساعة قبل التقديم."
-    }
-};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 recipesData.entree.rouleaux = {
     country: "asie",
     image: "images/rouleaux_printemps.jpg",
