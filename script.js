@@ -29,6 +29,7 @@ const translations = {
         entree: "Entrée",
         plat: "Plat",
         dessert: "Dessert",
+        type_sauce: "Sauce",
         patisserie: "Pâtisserie",
         recipes: "Recettes",
         equipment: "Matériel nécessaire",
@@ -78,6 +79,7 @@ const translations = {
         entree: "Starter",
         plat: "Main dish",
         dessert: "Dessert",
+        type_sauce: "Sauce",
         patisserie: "Pastry",
         recipes: "Recipes",
         equipment: "Equipment",
@@ -127,6 +129,7 @@ const translations = {
         entree: "مقبلات",
         plat: "طبق رئيسي",
         dessert: "تحلية",
+        type_sauce: "صلصة",
         patisserie: "حلويات",
         recipes: "الوصفات",
         equipment: "المعدات",
@@ -177,6 +180,7 @@ const translations = {
         entree: "Voorgerecht",
         plat: "Hoofdgerecht",
         dessert: "Dessert",
+        type_sauce: "Saus",
         patisserie: "Gebak",
         recipes: "Recepten",
         equipment: "Benodigd materiaal",
@@ -65306,6 +65310,104 @@ recipesData.plat.sushi_vegetarien_japon = {
 };
 
 
+
+
+
+recipesData.sauce = {};
+recipesData.sauce.saucePoivre = {
+    country: "all",
+    image: "images/sauce-poivre.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 5,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Sauce au poivre",
+        equipment: [
+            "1 poêle",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper"
+        ],
+        ingredients: [
+            "20 g beurre",
+            "1 échalote",
+            "1 c. à c. poivre noir concassé",
+            "100 ml crème fraîche",
+            "50 ml bouillon",
+            "Sel"
+        ],
+        preparation:
+            "Faire fondre le beurre dans une poêle. Ajouter l’échalote finement hachée et faire revenir 2 minutes. Incorporer le poivre concassé, puis le bouillon. Laisser réduire légèrement. Ajouter la crème, mélanger et laisser épaissir 5 minutes à feu doux. Saler si nécessaire."
+    },
+
+    en: {
+        title: "Pepper sauce",
+        equipment: [
+            "1 frying pan",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board"
+        ],
+        ingredients: [
+            "20 g butter",
+            "1 shallot",
+            "1 tsp crushed black pepper",
+            "100 ml cream",
+            "50 ml stock",
+            "Salt"
+        ],
+        preparation:
+            "Melt the butter in a pan. Add the finely chopped shallot and sauté for 2 minutes. Add the crushed pepper, then the stock. Let it reduce slightly. Add the cream, stir, and simmer over low heat for 5 minutes until thickened. Season with salt if needed."
+    },
+
+    nl: {
+        title: "Pepersaus",
+        equipment: [
+            "1 pan",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank"
+        ],
+        ingredients: [
+            "20 g boter",
+            "1 sjalot",
+            "1 tl grof gemalen zwarte peper",
+            "100 ml room",
+            "50 ml bouillon",
+            "Zout"
+        ],
+        preparation:
+            "Smelt de boter in een pan. Voeg de fijngesneden sjalot toe en bak 2 minuten. Voeg de peper toe, daarna de bouillon. Laat licht inkoken. Voeg de room toe, roer en laat 5 minuten zachtjes koken tot de saus indikt. Breng eventueel op smaak met zout."
+    },
+
+    ar: {
+        title: "صلصة الفلفل",
+        equipment: [
+            "مقلاة",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع"
+        ],
+        ingredients: [
+            "20 غ زبدة",
+            "حبة شالوت",
+            "ملعقة صغيرة فلفل أسود مجروش",
+            "100 مل كريمة",
+            "50 مل مرق",
+            "ملح"
+        ],
+        preparation:
+            "تُذاب الزبدة في مقلاة، ثم يُضاف الشالوت المفروم ويُقلى لمدة دقيقتين. يُضاف الفلفل ثم المرق ويُترك ليغلي قليلاً. تُضاف الكريمة ويُحرّك الخليط ويُترك على نار هادئة 5 دقائق حتى يتكاثف. يُملّح حسب الذوق."
+    }
+};
+
+
+
 /* =========================
    GESTION DE LA LANGUE & FILTRES
 ========================= */
@@ -65374,7 +65476,11 @@ function updateRecipeList() {
     // Filtrage par pays
     const filteredRecipes = allKeys.filter(key => {
         let recipeData = recipesData[type][key] || recipesData["patisserie"][key];
-        return currentCountry === "all" || recipeData.country === currentCountry;
+       return (
+    currentCountry === "all" ||
+    recipeData.country === currentCountry ||
+    recipeData.country === "all"
+);
     });
 
     if (filteredRecipes.length === 0) {
