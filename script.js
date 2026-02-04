@@ -40377,240 +40377,374 @@ recipesData.dessert.kunefe = {
 
 
 
-
-
-
-
-
-
-
 recipesData.entree.rouleaux = {
     country: "asie",
     image: "images/rouleaux_printemps.jpg",
 
+    meta: {
+        servings: 4,
+        prepTime: 30,
+        cookTime: 10,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Rouleaux de printemps vietnamiens (4 personnes)",
+        title: "Rouleaux de printemps asiatiques frits",
         equipment: [
-            "1 planche à découper",
+            "1 grand saladier",
+            "1 planche à découper en bois",
             "1 couteau",
-            "1 bol pour trempage",
-            "1 saladier",
-            "1 cuillère",
-            "1 assiette de service"
+            "1 poêle profonde ou friteuse",
+            "1 écumoire",
+            "papier absorbant",
+            "1 petit bol"
         ],
         ingredients: [
-            "8 feuilles de riz (environ 20 cm de diamètre)",
-            "100 g vermicelles de riz",
-            "100 g crevettes cuites, décortiquées",
-            "50 g salade verte",
-            "50 g carottes râpées",
-            "50 g concombre en julienne",
-            "Feuilles de menthe fraîche (10 feuilles)",
-            "Sauce soja sucrée ou sauce nuoc-mâm (30 ml)"
+            "12 feuilles pour rouleaux (spring roll wrappers ou feuilles de brick)",
+            "200 g de blanc de poulet cru finement haché",
+            "50 g de vermicelles de riz secs",
+            "50 g de carottes râpées",
+            "40 g de champignons noirs réhydratés et hachés",
+            "2 oignons nouveaux finement émincés",
+            "1 œuf",
+            "1 cuillère à soupe de sauce soja",
+            "1 cuillère à café d’huile de sésame",
+            "Poivre noir",
+            "Huile pour friture"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire tremper les vermicelles dans de l’eau chaude 5 minutes, égoutter.\n" +
-            "2. Tremper une feuille de riz dans l’eau tiède jusqu’à ce qu’elle soit souple.\n" +
-            "3. Déposer la feuille sur une assiette plate.\n" +
-            "4. Au centre, déposer un peu de salade, carottes, concombre, vermicelles et crevettes.\n" +
-            "5. Ajouter quelques feuilles de menthe.\n" +
-            "6. Replier les côtés et rouler fermement.\n" +
-            "7. Répéter pour toutes les feuilles.\n" +
-            "8. Servir avec la sauce soja ou sauce nuoc-mâm en trempette."
+            "==============================\n" +
+            "PRÉPARATION DE LA FARCE\n" +
+            "==============================\n\n" +
+            "1. Tremper les vermicelles de riz dans de l’eau chaude pendant 10 minutes.\n" +
+            "2. Égoutter soigneusement puis couper grossièrement.\n" +
+            "3. Dans un grand saladier, mélanger le poulet haché, les vermicelles, les carottes, les champignons et les oignons nouveaux.\n" +
+            "4. Ajouter l’œuf, la sauce soja, l’huile de sésame et une pincée de poivre.\n" +
+            "5. Mélanger jusqu’à obtenir une farce homogène.\n\n" +
+            "==============================\n" +
+            "FAÇONNAGE DES ROULEAUX\n" +
+            "==============================\n\n" +
+            "6. Déposer une feuille à plat devant vous, pointe vers le haut.\n" +
+            "7. Placer une cuillère de farce près du bord inférieur.\n" +
+            "8. Replier le bas, rabattre les côtés puis rouler fermement.\n" +
+            "9. Répéter jusqu’à épuisement de la farce.\n\n" +
+            "==============================\n" +
+            "CUISSON\n" +
+            "==============================\n\n" +
+            "10. Chauffer l’huile à 170–180°C.\n" +
+            "11. Plonger les rouleaux par petites quantités.\n" +
+            "12. Frire 3 à 4 minutes jusqu’à coloration dorée et croustillante.\n" +
+            "13. Égoutter sur papier absorbant.\n\n" +
+            "==============================\n" +
+            "CONSEIL\n" +
+            "==============================\n\n" +
+            "Je vous conseille de déguster ce plat en apéritif, accompagné d’une sauce aigre-douce asiatique sans alcool. " +
+            "Il se marie parfaitement avec un cocktail sans alcool ou un soda, et plaira à vos invités comme à votre famille."
     },
 
     en: {
-        title: "Vietnamese Spring Rolls (Serves 4)",
+        title: "Fried Asian Spring Rolls",
         equipment: [
-            "1 cutting board",
-            "1 knife",
-            "1 bowl for soaking",
-            "1 salad bowl",
-            "1 spoon",
-            "1 serving plate"
+            "large mixing bowl",
+            "wooden cutting board",
+            "knife",
+            "deep pan or fryer",
+            "skimmer",
+            "paper towels",
+            "small bowl"
         ],
         ingredients: [
-            "8 rice paper sheets (~20 cm diameter)",
-            "100 g rice vermicelli",
-            "100 g cooked shrimp, peeled",
-            "50 g lettuce",
+            "12 spring roll wrappers",
+            "200 g finely minced raw chicken breast",
+            "50 g dried rice vermicelli",
             "50 g grated carrots",
-            "50 g cucumber julienne",
-            "Fresh mint leaves (10 leaves)",
-            "Sweet soy sauce or nuoc-mâm (30 ml)"
+            "40 g soaked and chopped black mushrooms",
+            "2 spring onions, finely sliced",
+            "1 egg",
+            "1 tbsp soy sauce",
+            "1 tsp sesame oil",
+            "Black pepper",
+            "Oil for frying"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Soak vermicelli in hot water 5 minutes, drain.\n" +
-            "2. Soak a rice paper sheet in warm water until soft.\n" +
-            "3. Place sheet on a flat plate.\n" +
-            "4. In the center, add lettuce, carrots, cucumber, vermicelli, and shrimp.\n" +
-            "5. Add a few mint leaves.\n" +
-            "6. Fold sides and roll tightly.\n" +
-            "7. Repeat for all sheets.\n" +
-            "8. Serve with soy sauce or nuoc-mâm for dipping."
+            "==============================\n" +
+            "FILLING PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Soak rice vermicelli in hot water for 10 minutes.\n" +
+            "2. Drain well and roughly chop.\n" +
+            "3. In a large bowl, mix chicken, vermicelli, carrots, mushrooms and spring onions.\n" +
+            "4. Add egg, soy sauce, sesame oil and black pepper.\n" +
+            "5. Mix until well combined.\n\n" +
+            "==============================\n" +
+            "ROLLING\n" +
+            "==============================\n\n" +
+            "6. Place a wrapper flat with one corner facing you.\n" +
+            "7. Add one spoon of filling near the bottom edge.\n" +
+            "8. Fold bottom, fold sides and roll tightly.\n" +
+            "9. Repeat with remaining filling.\n\n" +
+            "==============================\n" +
+            "FRYING\n" +
+            "==============================\n\n" +
+            "10. Heat oil to 170–180°C.\n" +
+            "11. Fry rolls in small batches.\n" +
+            "12. Cook 3–4 minutes until golden and crispy.\n" +
+            "13. Drain on paper towels.\n\n" +
+            "==============================\n" +
+            "TIP\n" +
+            "==============================\n\n" +
+            "I recommend enjoying this dish as an appetizer, served with an alcohol-free Asian sweet and sour sauce. " +
+            "It pairs perfectly with a non-alcoholic cocktail or a soda and will delight both your guests and your family."
     },
 
     nl: {
-        title: "Vietnamese Lenterolletjes (voor 4 personen)",
+        title: "Gefrituurde Aziatische loempia’s",
         equipment: [
-            "1 snijplank",
-            "1 mes",
-            "1 kom om te weken",
-            "1 slakom",
-            "1 lepel",
-            "1 serveerschaal"
+            "grote mengkom",
+            "houten snijplank",
+            "mes",
+            "diepe pan of friteuse",
+            "schuimspaan",
+            "keukenpapier",
+            "kleine kom"
         ],
         ingredients: [
-            "8 rijstvellen (~20 cm diameter)",
-            "100 g rijstvermicelli",
-            "100 g gekookte garnalen, gepeld",
-            "50 g sla",
+            "12 loempiavellen",
+            "200 g fijngehakte rauwe kipfilet",
+            "50 g rijstvermicelli",
             "50 g geraspte wortel",
-            "50 g komkommer julienne",
-            "Verse muntblaadjes (10 blaadjes)",
-            "Zoete sojasaus of nuoc-mâm (30 ml)"
+            "40 g geweekte en fijngehakte zwarte paddenstoelen",
+            "2 lente-uitjes, fijngesneden",
+            "1 ei",
+            "1 eetlepel sojasaus",
+            "1 theelepel sesamolie",
+            "Zwarte peper",
+            "Olie om te frituren"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Week de vermicelli 5 minuten in heet water, afgieten.\n" +
-            "2. Week een rijstvel in warm water tot het zacht is.\n" +
-            "3. Leg het vel op een plat bord.\n" +
-            "4. Leg in het midden sla, wortel, komkommer, vermicelli en garnalen.\n" +
-            "5. Voeg enkele muntblaadjes toe.\n" +
-            "6. Vouw de zijkanten en rol stevig op.\n" +
-            "7. Herhaal voor alle vellen.\n" +
-            "8. Serveer met sojasaus of nuoc-mâm om in te dippen."
+            "==============================\n" +
+            "VULLING BEREIDEN\n" +
+            "==============================\n\n" +
+            "1. Week de rijstvermicelli 10 minuten in heet water.\n" +
+            "2. Laat uitlekken en hak grof.\n" +
+            "3. Meng kip, vermicelli, wortel, paddenstoelen en lente-ui in een kom.\n" +
+            "4. Voeg ei, sojasaus, sesamolie en peper toe.\n" +
+            "5. Meng tot een glad geheel.\n\n" +
+            "==============================\n" +
+            "ROLLETJES MAKEN\n" +
+            "==============================\n\n" +
+            "6. Leg een vel met een punt naar je toe.\n" +
+            "7. Leg een lepel vulling onderaan.\n" +
+            "8. Vouw onderkant en zijkanten, rol stevig op.\n" +
+            "9. Herhaal tot alles op is.\n\n" +
+            "==============================\n" +
+            "FRITUREN\n" +
+            "==============================\n\n" +
+            "10. Verhit olie tot 170–180°C.\n" +
+            "11. Frituur in porties.\n" +
+            "12. Bak 3–4 minuten goudbruin.\n" +
+            "13. Laat uitlekken op keukenpapier.\n\n" +
+            "==============================\n" +
+            "TIP\n" +
+            "==============================\n\n" +
+            "Ik raad aan dit gerecht als aperitief te serveren, met een alcoholvrije Aziatische zoetzure saus. " +
+            "Het past perfect bij een alcoholvrije cocktail of een frisdrank en zal zowel uw gasten als uw familie bekoren."
     },
 
     ar: {
-        title: "سبرينغ رولز فيتنامية (تكفي 4 أشخاص)",
+        title: "سبرينغ رولز آسيوية مقلية",
         equipment: [
-            "لوح تقطيع",
+            "وعاء كبير",
+            "لوح تقطيع خشبي",
             "سكين",
-            "وعاء للنقع",
-            "وعاء سلطة",
-            "ملعقة",
-            "طبق تقديم"
+            "مقلاة عميقة أو قلاية",
+            "ملعقة مثقوبة",
+            "ورق ماص",
+            "وعاء صغير"
         ],
         ingredients: [
-            "8 أوراق أرز (~20 سم قطر)",
-            "100 غ نودلز أرز",
-            "100 غ روبيان مطبوخ، مقشر",
-            "50 غ خس",
+            "12 ورقة سبرينغ رول",
+            "200 غ صدر دجاج مفروم ناعماً",
+            "50 غ نودلز أرز",
             "50 غ جزر مبشور",
-            "50 غ خيار مقطع Julienne",
-            "أوراق نعناع طازجة (10 أوراق)",
-            "صلصة الصويا الحلوة أو نووك مام (30 مل)"
+            "40 غ فطر أسود منقوع ومفروم",
+            "2 بصل أخضر مفروم",
+            "1 بيضة",
+            "1 ملعقة كبيرة صلصة صويا",
+            "1 ملعقة صغيرة زيت سمسم",
+            "فلفل أسود",
+            "زيت للقلي"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. انقع النودلز في ماء ساخن 5 دقائق، ثم صفها.\n" +
-            "2. انقع ورقة أرز في ماء دافئ حتى تصبح لينة.\n" +
-            "3. ضع الورقة على طبق مسطح.\n" +
-            "4. ضع في الوسط الخس والجزر والخيار والنودلز والروبيان.\n" +
-            "5. أضف بعض أوراق النعناع.\n" +
-            "6. اطوِ الجوانب ولف الورقة بإحكام.\n" +
-            "7. كرر لجميع الأوراق.\n" +
-            "8. قدمها مع صلصة الصويا أو نووك مام للغمس."
+            "==============================\n" +
+            "تحضير الحشوة\n" +
+            "==============================\n\n" +
+            "1. انقع نودلز الأرز في ماء ساخن لمدة 10 دقائق.\n" +
+            "2. صفِّها جيداً وقطّعها قليلاً.\n" +
+            "3. اخلط الدجاج، النودلز، الجزر، الفطر والبصل الأخضر.\n" +
+            "4. أضف البيضة، صلصة الصويا، زيت السمسم والفلفل.\n" +
+            "5. اخلط حتى تتجانس الحشوة.\n\n" +
+            "==============================\n" +
+            "لفّ الرولز\n" +
+            "==============================\n\n" +
+            "6. ضع الورقة بشكل مائل أمامك.\n" +
+            "7. ضع ملعقة من الحشوة في الأسفل.\n" +
+            "8. اطوِ الأسفل والجوانب ولف بإحكام.\n" +
+            "9. كرر حتى تنتهي الكمية.\n\n" +
+            "==============================\n" +
+            "القلي\n" +
+            "==============================\n\n" +
+            "10. سخّن الزيت إلى 170–180 درجة.\n" +
+            "11. اقْلِ الرولز على دفعات.\n" +
+            "12. اقْلِ 3–4 دقائق حتى تصبح ذهبية.\n" +
+            "13. ضعها على ورق ماص.\n\n" +
+            "==============================\n" +
+            "نصيحة\n" +
+            "==============================\n\n" +
+            "أنصح بتقديم هذا الطبق كمقبلات مع صلصة آسيوية حلوة وحامضة خالية من الكحول. " +
+            "يتناسب بشكل رائع مع كوكتيل بدون كحول أو مشروب غازي، وسينال إعجاب الضيوف والعائلة."
     }
 };
+
+
+
+
+
+
+
+
+
 
 recipesData.plat.riz_sauté_tofu = {
     country: "asie",
     image: "images/riz_saute_tofu.jpg",
 
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Riz sauté aux légumes et tofu (4 personnes)",
+        title: "Riz sauté aux légumes et tofu",
         equipment: [
             "1 wok ou grande poêle",
+            "1 planche à découper en bois",
             "1 couteau",
-            "1 planche à découper",
             "1 bol",
             "1 cuillère en bois",
-            "1 balance de cuisine",
-            "1 spatule"
+            "1 spatule",
+            "1 casserole avec couvercle"
         ],
         ingredients: [
-            "200 g riz jasmin",
-            "400 ml eau",
-            "200 g tofu ferme, coupé en cubes",
-            "100 g carottes, coupées en julienne",
-            "100 g poivron rouge, coupé en lamelles",
-            "100 g brocoli, en petits bouquets",
-            "2 gousses d’ail, émincées",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "2 cuillères à soupe sauce soja (30 ml)",
-            "1 cuillère à soupe huile de sésame (15 ml)",
-            "Sel et poivre selon goût",
-            "1 oignon vert pour garnir (10 g)"
+            "200 g de riz jasmin",
+            "400 ml d’eau",
+            "200 g de tofu ferme, coupé en cubes",
+            "100 g de carottes, coupées en julienne",
+            "100 g de poivron rouge, coupé en lamelles",
+            "100 g de brocoli, en petits bouquets",
+            "2 gousses d’ail, finement émincées",
+            "2 cuillères à soupe d’huile végétale",
+            "2 cuillères à soupe de sauce soja",
+            "1 cuillère à soupe d’huile de sésame",
+            "Sel",
+            "Poivre noir",
+            "1 oignon vert finement émincé (pour la finition)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Rincer le riz jasmin à l’eau froide jusqu’à ce que l’eau soit claire.\n" +
-            "2. Porter 400 ml d’eau à ébullition, ajouter le riz, couvrir et cuire 12-15 min jusqu’à absorption.\n" +
-            "3. Dans un bol, mélanger le tofu avec 1 cuillère à soupe de sauce soja.\n" +
-            "4. Chauffer 1 cuillère à soupe d’huile dans le wok à feu moyen.\n" +
-            "5. Ajouter le tofu et cuire 5 minutes en remuant jusqu’à léger doré, retirer et réserver.\n" +
-            "6. Ajouter l’autre cuillère à soupe d’huile dans le wok.\n" +
-            "7. Faire revenir l’ail et les légumes (carottes, poivron, brocoli) 5-7 minutes jusqu’à tendres mais croquants.\n" +
-            "8. Ajouter le riz cuit et le tofu, mélanger délicatement.\n" +
-            "9. Ajouter 1 cuillère à soupe sauce soja et 1 cuillère à soupe huile de sésame, bien incorporer.\n" +
-            "10. Assaisonner avec sel et poivre.\n" +
-            "11. Garnir avec oignon vert émincé et servir chaud."
+            "==============================\n" +
+            "CUISSON DU RIZ\n" +
+            "==============================\n\n" +
+            "1. Rincer le riz jasmin à l’eau froide jusqu’à ce que l’eau soit bien claire.\n" +
+            "2. Porter l’eau à ébullition dans une casserole.\n" +
+            "3. Ajouter le riz, couvrir et cuire à feu doux pendant 12 à 15 minutes jusqu’à absorption complète.\n" +
+            "4. Égrainer le riz à la fourchette et réserver.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DU TOFU\n" +
+            "==============================\n\n" +
+            "5. Déposer les cubes de tofu dans un bol.\n" +
+            "6. Ajouter 1 cuillère à soupe de sauce soja et mélanger délicatement.\n" +
+            "7. Chauffer 1 cuillère à soupe d’huile dans le wok à feu moyen.\n" +
+            "8. Faire revenir le tofu 4 à 5 minutes jusqu’à ce qu’il soit légèrement doré.\n" +
+            "9. Retirer le tofu du wok et réserver.\n\n" +
+            "==============================\n" +
+            "RIZ SAUTÉ\n" +
+            "==============================\n\n" +
+            "10. Ajouter la seconde cuillère d’huile dans le wok.\n" +
+            "11. Faire revenir l’ail quelques secondes sans le colorer.\n" +
+            "12. Ajouter les carottes, le poivron et le brocoli.\n" +
+            "13. Faire sauter 5 à 7 minutes jusqu’à ce que les légumes soient tendres mais encore croquants.\n" +
+            "14. Incorporer le riz cuit et le tofu réservé.\n" +
+            "15. Ajouter le reste de sauce soja et l’huile de sésame.\n" +
+            "16. Mélanger soigneusement et assaisonner avec sel et poivre.\n" +
+            "17. Servir bien chaud, parsemé d’oignon vert."
     },
 
     en: {
-        title: "Stir-Fried Rice with Vegetables and Tofu (Serves 4)",
+        title: "Stir-Fried Rice with Vegetables and Tofu",
         equipment: [
-            "1 wok or large pan",
-            "1 knife",
-            "1 cutting board",
-            "1 bowl",
-            "1 wooden spoon",
-            "1 kitchen scale",
-            "1 spatula"
+            "wok or large pan",
+            "wooden cutting board",
+            "knife",
+            "bowl",
+            "wooden spoon",
+            "spatula",
+            "covered saucepan"
         ],
         ingredients: [
             "200 g jasmine rice",
             "400 ml water",
             "200 g firm tofu, cubed",
-            "100 g carrots, julienne",
+            "100 g carrots, julienned",
             "100 g red bell pepper, sliced",
             "100 g broccoli florets",
-            "2 garlic cloves, minced",
-            "2 tbsp vegetable oil (30 ml)",
-            "2 tbsp soy sauce (30 ml)",
-            "1 tbsp sesame oil (15 ml)",
-            "Salt and pepper to taste",
-            "1 green onion for garnish (10 g)"
+            "2 garlic cloves, finely minced",
+            "2 tbsp vegetable oil",
+            "2 tbsp soy sauce",
+            "1 tbsp sesame oil",
+            "Salt",
+            "Black pepper",
+            "1 green onion, finely sliced"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Rinse jasmine rice in cold water until water runs clear.\n" +
-            "2. Bring 400 ml water to a boil, add rice, cover and cook 12-15 min until absorbed.\n" +
-            "3. In a bowl, mix tofu with 1 tbsp soy sauce.\n" +
-            "4. Heat 1 tbsp oil in wok over medium heat.\n" +
-            "5. Add tofu and cook 5 minutes, stirring until lightly golden, remove and set aside.\n" +
-            "6. Add remaining 1 tbsp oil in wok.\n" +
-            "7. Stir-fry garlic and vegetables (carrots, bell pepper, broccoli) 5-7 min until tender-crisp.\n" +
-            "8. Add cooked rice and tofu, gently mix.\n" +
-            "9. Add 1 tbsp soy sauce and 1 tbsp sesame oil, combine well.\n" +
-            "10. Season with salt and pepper.\n" +
-            "11. Garnish with sliced green onion and serve hot."
+            "==============================\n" +
+            "COOKING THE RICE\n" +
+            "==============================\n\n" +
+            "1. Rinse the jasmine rice under cold water until clear.\n" +
+            "2. Bring the water to a boil.\n" +
+            "3. Add the rice, cover, and cook on low heat for 12–15 minutes until absorbed.\n" +
+            "4. Fluff the rice and set aside.\n\n" +
+            "==============================\n" +
+            "TOFU PREPARATION\n" +
+            "==============================\n\n" +
+            "5. Place tofu cubes in a bowl.\n" +
+            "6. Add 1 tablespoon of soy sauce and gently mix.\n" +
+            "7. Heat 1 tablespoon of oil in the wok over medium heat.\n" +
+            "8. Fry the tofu for 4–5 minutes until lightly golden.\n" +
+            "9. Remove and set aside.\n\n" +
+            "==============================\n" +
+            "STIR-FRY\n" +
+            "==============================\n\n" +
+            "10. Add remaining oil to the wok.\n" +
+            "11. Sauté garlic briefly without browning.\n" +
+            "12. Add carrots, bell pepper, and broccoli.\n" +
+            "13. Stir-fry for 5–7 minutes until tender-crisp.\n" +
+            "14. Add cooked rice and tofu.\n" +
+            "15. Pour in remaining soy sauce and sesame oil.\n" +
+            "16. Mix well and season with salt and pepper.\n" +
+            "17. Serve hot, garnished with green onion."
     },
 
     nl: {
-        title: "Gebakken rijst met groenten en tofu (voor 4 personen)",
+        title: "Gebakken rijst met groenten en tofu",
         equipment: [
-            "1 wok of grote pan",
-            "1 mes",
-            "1 snijplank",
-            "1 kom",
-            "1 houten lepel",
-            "1 keukenweegschaal",
-            "1 spatel"
+            "wok of grote pan",
+            "houten snijplank",
+            "mes",
+            "kom",
+            "houten lepel",
+            "spatel",
+            "pan met deksel"
         ],
         ingredients: [
             "200 g jasmijnrijst",
@@ -40618,75 +40752,524 @@ recipesData.plat.riz_sauté_tofu = {
             "200 g stevige tofu, in blokjes",
             "100 g wortels, julienne",
             "100 g rode paprika, in reepjes",
-            "100 g broccoli, in kleine roosjes",
+            "100 g broccoli, kleine roosjes",
             "2 teentjes knoflook, fijngehakt",
-            "2 eetlepels plantaardige olie (30 ml)",
-            "2 eetlepels sojasaus (30 ml)",
-            "1 eetlepel sesamolie (15 ml)",
-            "Zout en peper naar smaak",
-            "1 lente-ui voor garnering (10 g)"
+            "2 eetlepels plantaardige olie",
+            "2 eetlepels sojasaus",
+            "1 eetlepel sesamolie",
+            "Zout",
+            "Zwarte peper",
+            "1 lente-ui, fijn gesneden"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Spoel de jasmijnrijst af tot het water helder is.\n" +
-            "2. Breng 400 ml water aan de kook, voeg rijst toe, dek af en kook 12-15 min tot water is opgenomen.\n" +
-            "3. Meng tofu in een kom met 1 eetlepel sojasaus.\n" +
-            "4. Verhit 1 eetlepel olie in wok op middelhoog vuur.\n" +
-            "5. Voeg tofu toe en bak 5 minuten, roer tot licht goudbruin, haal uit wok en zet apart.\n" +
-            "6. Voeg resterende 1 eetlepel olie toe in wok.\n" +
-            "7. Bak knoflook en groenten (wortels, paprika, broccoli) 5-7 min tot beetgaar.\n" +
-            "8. Voeg gekookte rijst en tofu toe, meng voorzichtig.\n" +
-            "9. Voeg 1 eetlepel sojasaus en 1 eetlepel sesamolie toe, goed mengen.\n" +
-            "10. Breng op smaak met zout en peper.\n" +
-            "11. Garneer met gesneden lente-ui en serveer warm."
+            "==============================\n" +
+            "RIJST KOKEN\n" +
+            "==============================\n\n" +
+            "1. Spoel de rijst tot het water helder is.\n" +
+            "2. Breng het water aan de kook.\n" +
+            "3. Voeg de rijst toe, dek af en kook 12–15 minuten.\n" +
+            "4. Maak de rijst los en zet apart.\n\n" +
+            "==============================\n" +
+            "TOFU BAKKEN\n" +
+            "==============================\n\n" +
+            "5. Meng de tofu met 1 eetlepel sojasaus.\n" +
+            "6. Verhit 1 eetlepel olie in de wok.\n" +
+            "7. Bak de tofu 4–5 minuten goudbruin.\n" +
+            "8. Haal uit de wok en zet apart.\n\n" +
+            "==============================\n" +
+            "ROERBAKKEN\n" +
+            "==============================\n\n" +
+            "9. Voeg de resterende olie toe.\n" +
+            "10. Bak de knoflook kort.\n" +
+            "11. Voeg groenten toe en bak 5–7 minuten.\n" +
+            "12. Voeg rijst en tofu toe.\n" +
+            "13. Meng met sojasaus en sesamolie.\n" +
+            "14. Breng op smaak en serveer warm met lente-ui."
     },
 
     ar: {
-        title: "أرز مقلي بالخضار والتوفو (تكفي 4 أشخاص)",
+        title: "أرز مقلي بالخضار والتوفو",
         equipment: [
-            "1 ووك أو مقلاة كبيرة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 وعاء",
-            "1 ملعقة خشبية",
-            "1 ميزان مطبخ",
-            "1 ملعقة مسطحة"
+            "ووك أو مقلاة كبيرة",
+            "لوح تقطيع خشبي",
+            "سكين",
+            "وعاء",
+            "ملعقة خشبية",
+            "ملعقة مسطحة",
+            "قدر بغطاء"
         ],
         ingredients: [
             "200 غ أرز ياسمين",
             "400 مل ماء",
-            "200 غ توفو صلب، مكعبات",
-            "100 غ جزر، مقطع Julienne",
-            "100 غ فلفل أحمر، شرائح",
-            "100 غ بروكلي، زهرات صغيرة",
-            "2 فص ثوم مفروم",
-            "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "2 ملعقة كبيرة صويا صوص (30 مل)",
-            "1 ملعقة كبيرة زيت سمسم (15 مل)",
-            "ملح وفلفل حسب الذوق",
-            "1 بصل أخضر للتزيين (10 غ)"
+            "200 غ توفو صلب مقطع مكعبات",
+            "100 غ جزر مقطع شرائح رفيعة",
+            "100 غ فلفل أحمر شرائح",
+            "100 غ بروكلي زهرات صغيرة",
+            "2 فص ثوم مفروم ناعماً",
+            "2 ملعقة كبيرة زيت نباتي",
+            "2 ملعقة كبيرة صلصة صويا",
+            "1 ملعقة كبيرة زيت سمسم",
+            "ملح",
+            "فلفل أسود",
+            "1 بصل أخضر مفروم"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اغسل أرز الياسمين حتى يصبح الماء صافياً.\n" +
-            "2. اغلي 400 مل ماء، أضف الأرز، غطِ واطه 12-15 دقيقة حتى يمتص الماء.\n" +
-            "3. اخلط التوفو مع 1 ملعقة كبيرة صويا صوص.\n" +
-            "4. سخن 1 ملعقة كبيرة زيت في الوعاء على نار متوسطة.\n" +
-            "5. أضف التوفو واطه 5 دقائق مع التحريك حتى يتحمر قليلاً، أخرجه جانباً.\n" +
-            "6. أضف ملعقة الزيت المتبقية في الوعاء.\n" +
-            "7. اقلي الثوم والخضار (جزر، فلفل، بروكلي) 5-7 دقائق حتى تنضج قليلاً.\n" +
-            "8. أضف الأرز المطبوخ والتوفو، اخلط برفق.\n" +
-            "9. أضف 1 ملعقة كبيرة صويا صوص و1 ملعقة كبيرة زيت سمسم، اخلط جيداً.\n" +
-            "10. تبّل بالملح والفلفل.\n" +
-            "11. زيّن بالبصل الأخضر المقطع وقدّم ساخناً."
+            "==============================\n" +
+            "طهي الأرز\n" +
+            "==============================\n\n" +
+            "1. اغسل الأرز حتى يصبح الماء صافياً.\n" +
+            "2. اغْلِ الماء ثم أضف الأرز.\n" +
+            "3. غطِّه واطهه 12–15 دقيقة حتى ينضج.\n" +
+            "4. حرّك الأرز واتركه جانباً.\n\n" +
+            "==============================\n" +
+            "تحمير التوفو\n" +
+            "==============================\n\n" +
+            "5. اخلط التوفو مع ملعقة من صلصة الصويا.\n" +
+            "6. سخّن الزيت في المقلاة.\n" +
+            "7. حمّر التوفو 4–5 دقائق.\n" +
+            "8. أخرجه جانباً.\n\n" +
+            "==============================\n" +
+            "القلي السريع\n" +
+            "==============================\n\n" +
+            "9. أضف الزيت المتبقي والثوم.\n" +
+            "10. أضف الخضار وقلِها 5–7 دقائق.\n" +
+            "11. أضف الأرز والتوفو.\n" +
+            "12. أضف صلصة الصويا وزيت السمسم.\n" +
+            "13. تبّل وحرّك جيداً.\n" +
+            "14. قدّم ساخناً مع البصل الأخضر."
     }
 };
+recipesData.plat.riz_sauté_poulet = {
+    country: "asie",
+    image: "images/riz_saute_poulet.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Riz sauté au poulet",
+        equipment: [
+            "1 wok ou grande poêle",
+            "1 planche à découper en bois",
+            "1 couteau",
+            "1 casserole avec couvercle",
+            "1 spatule",
+            "1 bol"
+        ],
+        ingredients: [
+            "200 g de riz jasmin",
+            "400 ml d’eau",
+            "300 g de blanc de poulet, coupé en petits morceaux",
+            "100 g de carottes, coupées en julienne",
+            "100 g de poivron rouge, en fines lamelles",
+            "100 g de petits pois",
+            "2 gousses d’ail, finement émincées",
+            "2 oignons verts, émincés",
+            "3 cuillères à soupe d’huile végétale",
+            "2 cuillères à soupe de sauce soja",
+            "1 cuillère à soupe d’huile de sésame",
+            "Poivre noir"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DU RIZ\n" +
+            "==============================\n\n" +
+            "1. Rincer le riz jasmin jusqu’à ce que l’eau soit claire.\n" +
+            "2. Porter l’eau à ébullition, ajouter le riz, couvrir et cuire 12 à 15 minutes.\n" +
+            "3. Égrainer le riz à la fourchette et laisser tiédir.\n\n" +
+            "==============================\n" +
+            "CUISSON DU POULET\n" +
+            "==============================\n\n" +
+            "4. Chauffer 1 cuillère à soupe d’huile dans le wok à feu moyen-vif.\n" +
+            "5. Ajouter le poulet et le faire revenir 4 à 5 minutes jusqu’à cuisson complète.\n" +
+            "6. Poivrer, retirer du wok et réserver.\n\n" +
+            "==============================\n" +
+            "RIZ SAUTÉ\n" +
+            "==============================\n\n" +
+            "7. Ajouter le reste de l’huile dans le wok.\n" +
+            "8. Faire revenir l’ail quelques secondes sans coloration.\n" +
+            "9. Ajouter les carottes, le poivron et les petits pois, faire sauter 5 minutes.\n" +
+            "10. Incorporer le riz cuit et mélanger.\n" +
+            "11. Ajouter le poulet réservé, la sauce soja et l’huile de sésame.\n" +
+            "12. Bien mélanger pour enrober le riz.\n" +
+            "13. Ajouter les oignons verts et servir bien chaud."
+    },
+
+    en: {
+        title: "Chicken Fried Rice",
+        equipment: [
+            "wok or large pan",
+            "wooden cutting board",
+            "knife",
+            "covered saucepan",
+            "spatula",
+            "bowl"
+        ],
+        ingredients: [
+            "200 g jasmine rice",
+            "400 ml water",
+            "300 g chicken breast, diced",
+            "100 g carrots, julienned",
+            "100 g red bell pepper, thinly sliced",
+            "100 g green peas",
+            "2 garlic cloves, finely minced",
+            "2 green onions, sliced",
+            "3 tbsp vegetable oil",
+            "2 tbsp soy sauce",
+            "1 tbsp sesame oil",
+            "Black pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "COOKING THE RICE\n" +
+            "==============================\n\n" +
+            "1. Rinse the jasmine rice until the water runs clear.\n" +
+            "2. Bring water to a boil, add rice, cover and cook for 12–15 minutes.\n" +
+            "3. Fluff the rice and let it cool slightly.\n\n" +
+            "==============================\n" +
+            "COOKING THE CHICKEN\n" +
+            "==============================\n\n" +
+            "4. Heat 1 tablespoon of oil in the wok over medium-high heat.\n" +
+            "5. Add chicken and stir-fry for 4–5 minutes until fully cooked.\n" +
+            "6. Season with black pepper, remove and set aside.\n\n" +
+            "==============================\n" +
+            "STIR-FRY\n" +
+            "==============================\n\n" +
+            "7. Add remaining oil to the wok.\n" +
+            "8. Sauté garlic briefly without browning.\n" +
+            "9. Add carrots, bell pepper and peas, stir-fry for 5 minutes.\n" +
+            "10. Add cooked rice and mix well.\n" +
+            "11. Return chicken to the wok, add soy sauce and sesame oil.\n" +
+            "12. Stir until evenly coated.\n" +
+            "13. Add green onions and serve hot."
+    },
+
+    nl: {
+        title: "Gebakken rijst met kip",
+        equipment: [
+            "wok of grote pan",
+            "houten snijplank",
+            "mes",
+            "pan met deksel",
+            "spatel",
+            "kom"
+        ],
+        ingredients: [
+            "200 g jasmijnrijst",
+            "400 ml water",
+            "300 g kipfilet, in blokjes",
+            "100 g wortels, julienne",
+            "100 g rode paprika, in reepjes",
+            "100 g doperwten",
+            "2 teentjes knoflook, fijngehakt",
+            "2 lente-uitjes, gesneden",
+            "3 eetlepels plantaardige olie",
+            "2 eetlepels sojasaus",
+            "1 eetlepel sesamolie",
+            "Zwarte peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "RIJST KOKEN\n" +
+            "==============================\n\n" +
+            "1. Spoel de rijst tot het water helder is.\n" +
+            "2. Breng water aan de kook, voeg rijst toe en kook 12–15 minuten.\n" +
+            "3. Maak de rijst los en laat afkoelen.\n\n" +
+            "==============================\n" +
+            "KIP BAKKEN\n" +
+            "==============================\n\n" +
+            "4. Verhit 1 eetlepel olie in de wok.\n" +
+            "5. Bak de kip 4–5 minuten tot gaar.\n" +
+            "6. Breng op smaak met peper en zet apart.\n\n" +
+            "==============================\n" +
+            "ROERBAKKEN\n" +
+            "==============================\n\n" +
+            "7. Voeg de resterende olie toe.\n" +
+            "8. Bak knoflook kort.\n" +
+            "9. Voeg groenten toe en bak 5 minuten.\n" +
+            "10. Voeg rijst toe en meng.\n" +
+            "11. Voeg kip, sojasaus en sesamolie toe.\n" +
+            "12. Meng goed en serveer met lente-ui."
+    },
+
+    ar: {
+        title: "أرز مقلي بالدجاج",
+        equipment: [
+            "ووك أو مقلاة كبيرة",
+            "لوح تقطيع خشبي",
+            "سكين",
+            "قدر بغطاء",
+            "ملعقة مسطحة",
+            "وعاء"
+        ],
+        ingredients: [
+            "200 غ أرز ياسمين",
+            "400 مل ماء",
+            "300 غ صدر دجاج مقطع",
+            "100 غ جزر شرائح رفيعة",
+            "100 غ فلفل أحمر شرائح",
+            "100 غ بازلاء",
+            "2 فص ثوم مفروم",
+            "2 بصل أخضر مفروم",
+            "3 ملاعق كبيرة زيت نباتي",
+            "2 ملعقة كبيرة صلصة صويا",
+            "1 ملعقة كبيرة زيت سمسم",
+            "فلفل أسود"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الأرز\n" +
+            "==============================\n\n" +
+            "1. اغسل الأرز حتى يصبح الماء صافياً.\n" +
+            "2. اغْلِ الماء، أضف الأرز واطهه 12–15 دقيقة.\n" +
+            "3. حرّك الأرز واتركه جانباً.\n\n" +
+            "==============================\n" +
+            "طهي الدجاج\n" +
+            "==============================\n\n" +
+            "4. سخّن ملعقة زيت في المقلاة.\n" +
+            "5. اقْلِ الدجاج 4–5 دقائق حتى ينضج.\n" +
+            "6. أضف الفلفل الأسود وأخرج الدجاج جانباً.\n\n" +
+            "==============================\n" +
+            "القلي السريع\n" +
+            "==============================\n\n" +
+            "7. أضف باقي الزيت والثوم.\n" +
+            "8. أضف الخضار وقلِها 5 دقائق.\n" +
+            "9. أضف الأرز والدجاج.\n" +
+            "10. أضف صلصة الصويا وزيت السمسم.\n" +
+            "11. حرّك جيداً وقدّم ساخناً مع البصل الأخضر."
+    }
+};
+recipesData.plat.riz_sauté_scampi = {
+    country: "asie",
+    image: "images/riz_saute_scampi.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Riz sauté aux scampis",
+        equipment: [
+            "1 wok ou grande poêle",
+            "1 planche à découper en bois",
+            "1 couteau",
+            "1 casserole avec couvercle",
+            "1 spatule",
+            "1 bol"
+        ],
+        ingredients: [
+            "200 g de riz jasmin",
+            "400 ml d’eau",
+            "300 g de scampis crus, décortiqués et déveinés",
+            "100 g de carottes, coupées en julienne",
+            "100 g de poivron rouge, en fines lamelles",
+            "100 g de brocoli, en petits bouquets",
+            "2 gousses d’ail, finement émincées",
+            "2 oignons verts, émincés",
+            "3 cuillères à soupe d’huile végétale",
+            "2 cuillères à soupe de sauce soja",
+            "1 cuillère à soupe d’huile de sésame",
+            "Poivre noir"
+        ],
+        preparation:
+            "==============================\n" +
+            "CUISSON DU RIZ\n" +
+            "==============================\n\n" +
+            "1. Rincer le riz jasmin à l’eau froide jusqu’à ce que l’eau soit claire.\n" +
+            "2. Porter l’eau à ébullition, ajouter le riz, couvrir et cuire 12 à 15 minutes.\n" +
+            "3. Égrainer le riz à la fourchette et réserver.\n\n" +
+            "==============================\n" +
+            "CUISSON DES SCAMPIS\n" +
+            "==============================\n\n" +
+            "4. Chauffer 1 cuillère à soupe d’huile dans le wok à feu moyen-vif.\n" +
+            "5. Ajouter les scampis et les faire saisir 2 à 3 minutes par face jusqu’à coloration rosée.\n" +
+            "6. Retirer les scampis du wok et réserver.\n\n" +
+            "==============================\n" +
+            "RIZ SAUTÉ\n" +
+            "==============================\n\n" +
+            "7. Ajouter le reste de l’huile dans le wok.\n" +
+            "8. Faire revenir l’ail quelques secondes sans le colorer.\n" +
+            "9. Ajouter les carottes, le poivron et le brocoli, puis faire sauter 5 minutes.\n" +
+            "10. Incorporer le riz cuit et mélanger.\n" +
+            "11. Ajouter la sauce soja et l’huile de sésame.\n" +
+            "12. Remettre les scampis dans le wok et mélanger délicatement.\n" +
+            "13. Poivrer, ajouter les oignons verts et servir bien chaud."
+    },
+
+    en: {
+        title: "Shrimp Fried Rice",
+        equipment: [
+            "wok or large pan",
+            "wooden cutting board",
+            "knife",
+            "covered saucepan",
+            "spatula",
+            "bowl"
+        ],
+        ingredients: [
+            "200 g jasmine rice",
+            "400 ml water",
+            "300 g raw shrimp, peeled and deveined",
+            "100 g carrots, julienned",
+            "100 g red bell pepper, thinly sliced",
+            "100 g broccoli florets",
+            "2 garlic cloves, finely minced",
+            "2 green onions, sliced",
+            "3 tbsp vegetable oil",
+            "2 tbsp soy sauce",
+            "1 tbsp sesame oil",
+            "Black pepper"
+        ],
+        preparation:
+            "==============================\n" +
+            "COOKING THE RICE\n" +
+            "==============================\n\n" +
+            "1. Rinse the jasmine rice until the water runs clear.\n" +
+            "2. Bring water to a boil, add rice, cover and cook for 12–15 minutes.\n" +
+            "3. Fluff the rice and set aside.\n\n" +
+            "==============================\n" +
+            "COOKING THE SHRIMP\n" +
+            "==============================\n\n" +
+            "4. Heat 1 tablespoon of oil in the wok over medium-high heat.\n" +
+            "5. Sear the shrimp for 2–3 minutes per side until pink.\n" +
+            "6. Remove and set aside.\n\n" +
+            "==============================\n" +
+            "STIR-FRY\n" +
+            "==============================\n\n" +
+            "7. Add remaining oil to the wok.\n" +
+            "8. Sauté garlic briefly without browning.\n" +
+            "9. Add carrots, bell pepper and broccoli, stir-fry for 5 minutes.\n" +
+            "10. Add cooked rice and mix well.\n" +
+            "11. Pour in soy sauce and sesame oil.\n" +
+            "12. Return shrimp to the wok and gently combine.\n" +
+            "13. Season with black pepper, add green onions and serve hot."
+    },
+
+    nl: {
+        title: "Gebakken rijst met scampi’s",
+        equipment: [
+            "wok of grote pan",
+            "houten snijplank",
+            "mes",
+            "pan met deksel",
+            "spatel",
+            "kom"
+        ],
+        ingredients: [
+            "200 g jasmijnrijst",
+            "400 ml water",
+            "300 g rauwe scampi’s, gepeld en schoongemaakt",
+            "100 g wortels, julienne",
+            "100 g rode paprika, in reepjes",
+            "100 g broccoli, kleine roosjes",
+            "2 teentjes knoflook, fijngehakt",
+            "2 lente-uitjes, gesneden",
+            "3 eetlepels plantaardige olie",
+            "2 eetlepels sojasaus",
+            "1 eetlepel sesamolie",
+            "Zwarte peper"
+        ],
+        preparation:
+            "==============================\n" +
+            "RIJST KOKEN\n" +
+            "==============================\n\n" +
+            "1. Spoel de rijst tot het water helder is.\n" +
+            "2. Breng water aan de kook, voeg rijst toe en kook 12–15 minuten.\n" +
+            "3. Maak de rijst los en zet apart.\n\n" +
+            "==============================\n" +
+            "SCAMPI’S BAKKEN\n" +
+            "==============================\n\n" +
+            "4. Verhit 1 eetlepel olie in de wok.\n" +
+            "5. Bak de scampi’s 2–3 minuten per kant tot roze.\n" +
+            "6. Haal uit de wok en zet apart.\n\n" +
+            "==============================\n" +
+            "ROERBAKKEN\n" +
+            "==============================\n\n" +
+            "7. Voeg de resterende olie toe.\n" +
+            "8. Bak knoflook kort.\n" +
+            "9. Voeg groenten toe en bak 5 minuten.\n" +
+            "10. Voeg rijst, sojasaus en sesamolie toe.\n" +
+            "11. Voeg scampi’s toe en meng voorzichtig.\n" +
+            "12. Breng op smaak met peper en serveer met lente-ui."
+    },
+
+    ar: {
+        title: "أرز مقلي بالروبيان",
+        equipment: [
+            "ووك أو مقلاة كبيرة",
+            "لوح تقطيع خشبي",
+            "سكين",
+            "قدر بغطاء",
+            "ملعقة مسطحة",
+            "وعاء"
+        ],
+        ingredients: [
+            "200 غ أرز ياسمين",
+            "400 مل ماء",
+            "300 غ روبيان طازج مقشر ومنزوع العرق",
+            "100 غ جزر شرائح رفيعة",
+            "100 غ فلفل أحمر شرائح",
+            "100 غ بروكلي زهرات صغيرة",
+            "2 فص ثوم مفروم",
+            "2 بصل أخضر مفروم",
+            "3 ملاعق كبيرة زيت نباتي",
+            "2 ملعقة كبيرة صلصة صويا",
+            "1 ملعقة كبيرة زيت سمسم",
+            "فلفل أسود"
+        ],
+        preparation:
+            "==============================\n" +
+            "طهي الأرز\n" +
+            "==============================\n\n" +
+            "1. اغسل الأرز حتى يصبح الماء صافياً.\n" +
+            "2. اغْلِ الماء، أضف الأرز واطهه 12–15 دقيقة.\n" +
+            "3. حرّك الأرز واتركه جانباً.\n\n" +
+            "==============================\n" +
+            "طهي الروبيان\n" +
+            "==============================\n\n" +
+            "4. سخّن ملعقة زيت في المقلاة.\n" +
+            "5. اقْلِ الروبيان 2–3 دقائق لكل جانب حتى يصبح وردياً.\n" +
+            "6. أخرجه جانباً.\n\n" +
+            "==============================\n" +
+            "القلي السريع\n" +
+            "==============================\n\n" +
+            "7. أضف باقي الزيت والثوم.\n" +
+            "8. أضف الخضار وقلِها 5 دقائق.\n" +
+            "9. أضف الأرز وصلصة الصويا وزيت السمسم.\n" +
+            "10. أعد الروبيان وحرّك بلطف.\n" +
+            "11. تبّل بالفلفل وقدّم ساخناً مع البصل الأخضر."
+    }
+};
+
+
+
+
+
+
+
+
+
 
 recipesData.dessert.perles_tapioca = {
     country: "asie",
     image: "images/perles_tapioca.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Perles de tapioca au lait de coco (4 personnes)",
+        title: "Perles de tapioca au lait de coco",
         equipment: [
             "1 casserole moyenne",
             "1 cuillère en bois",
@@ -40696,64 +41279,84 @@ recipesData.dessert.perles_tapioca = {
             "1 louche"
         ],
         ingredients: [
-            "100 g perles de tapioca",
-            "400 ml lait de coco",
-            "200 ml eau",
-            "50 g sucre",
+            "100 g de perles de tapioca",
+            "400 ml de lait de coco",
+            "200 ml d’eau",
+            "50 g de sucre",
             "1 pincée de sel",
-            "1 mangue mûre pour garnir (200 g)",
-            "Feuilles de menthe pour décoration (5 feuilles)"
+            "1 mangue mûre coupée en dés (200 g)",
+            "Quelques feuilles de menthe pour la décoration"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Rincer les perles de tapioca sous l’eau froide.\n" +
-            "2. Dans une casserole, porter 200 ml d’eau à ébullition.\n" +
-            "3. Ajouter les perles de tapioca, cuire à feu moyen en remuant fréquemment pendant 10-12 minutes jusqu’à ce qu’elles deviennent translucides.\n" +
-            "4. Égoutter les perles si nécessaire.\n" +
-            "5. Ajouter le lait de coco, le sucre et une pincée de sel, remuer doucement.\n" +
-            "6. Laisser mijoter 5 minutes jusqu’à épaississement.\n" +
-            "7. Couper la mangue en petits dés.\n" +
-            "8. Servir les perles dans des bols, garnir de mangue et feuilles de menthe."
+            "==============================\n" +
+            "CUISSON DES PERLES\n" +
+            "==============================\n\n" +
+            "1. Rincer rapidement les perles de tapioca sous l’eau froide.\n" +
+            "2. Porter l’eau à ébullition dans une casserole.\n" +
+            "3. Ajouter les perles de tapioca et cuire à feu moyen en remuant régulièrement.\n" +
+            "4. Laisser cuire 15 à 20 minutes jusqu’à ce que les perles deviennent translucides avec un léger cœur blanc.\n\n" +
+            "==============================\n" +
+            "FINITION AU LAIT DE COCO\n" +
+            "==============================\n\n" +
+            "5. Ajouter le lait de coco, le sucre et la pincée de sel.\n" +
+            "6. Mélanger doucement et laisser mijoter 5 minutes jusqu’à obtention d’une texture crémeuse.\n\n" +
+            "==============================\n" +
+            "SERVICE\n" +
+            "==============================\n\n" +
+            "7. Verser dans des bols.\n" +
+            "8. Garnir de dés de mangue et de feuilles de menthe.\n" +
+            "9. Servir tiède ou bien frais selon préférence."
     },
+
     en: {
-        title: "Tapioca Pearls with Coconut Milk (Serves 4)",
+        title: "Tapioca Pearls with Coconut Milk",
         equipment: [
-            "1 medium saucepan",
-            "1 wooden spoon",
-            "1 bowl",
-            "1 strainer",
-            "1 kitchen scale",
-            "1 ladle"
+            "medium saucepan",
+            "wooden spoon",
+            "bowl",
+            "strainer",
+            "kitchen scale",
+            "ladle"
         ],
         ingredients: [
             "100 g tapioca pearls",
             "400 ml coconut milk",
             "200 ml water",
             "50 g sugar",
-            "1 pinch salt",
-            "1 ripe mango for garnish (200 g)",
-            "Mint leaves for decoration (5 leaves)"
+            "1 pinch of salt",
+            "1 ripe mango, diced (200 g)",
+            "Fresh mint leaves for garnish"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Rinse tapioca pearls under cold water.\n" +
-            "2. Bring 200 ml water to a boil in a saucepan.\n" +
-            "3. Add tapioca pearls, cook over medium heat, stirring frequently for 10-12 min until translucent.\n" +
-            "4. Drain pearls if needed.\n" +
-            "5. Add coconut milk, sugar, and pinch of salt, stir gently.\n" +
-            "6. Simmer 5 min until slightly thickened.\n" +
-            "7. Cut mango into small cubes.\n" +
-            "8. Serve pearls in bowls, top with mango and mint leaves."
+            "==============================\n" +
+            "COOKING THE PEARLS\n" +
+            "==============================\n\n" +
+            "1. Rinse the tapioca pearls briefly under cold water.\n" +
+            "2. Bring the water to a boil in a saucepan.\n" +
+            "3. Add the tapioca pearls and cook over medium heat, stirring regularly.\n" +
+            "4. Cook for 15 to 20 minutes until mostly translucent.\n\n" +
+            "==============================\n" +
+            "COCONUT MILK FINISH\n" +
+            "==============================\n\n" +
+            "5. Add coconut milk, sugar and salt.\n" +
+            "6. Simmer gently for 5 minutes until creamy.\n\n" +
+            "==============================\n" +
+            "SERVING\n" +
+            "==============================\n\n" +
+            "7. Ladle into bowls.\n" +
+            "8. Top with diced mango and mint leaves.\n" +
+            "9. Serve warm or chilled."
     },
+
     nl: {
-        title: "Tapiocaparels met kokosmelk (voor 4 personen)",
+        title: "Tapiocaparels met kokosmelk",
         equipment: [
-            "1 middelgrote pan",
-            "1 houten lepel",
-            "1 kom",
-            "1 zeef",
-            "1 keukenweegschaal",
-            "1 pollepel"
+            "middelgrote pan",
+            "houten lepel",
+            "kom",
+            "zeef",
+            "keukenweegschaal",
+            "pollepel"
         ],
         ingredients: [
             "100 g tapiocaparels",
@@ -40761,29 +41364,39 @@ recipesData.dessert.perles_tapioca = {
             "200 ml water",
             "50 g suiker",
             "1 snufje zout",
-            "1 rijpe mango voor garnering (200 g)",
-            "Muntblaadjes voor decoratie (5 blaadjes)"
+            "1 rijpe mango in blokjes (200 g)",
+            "Verse munt voor decoratie"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Spoel de tapiocaparels onder koud water.\n" +
-            "2. Breng 200 ml water aan de kook in een pan.\n" +
-            "3. Voeg tapiocaparels toe, kook op middelhoog vuur, regelmatig roeren gedurende 10-12 minuten tot ze doorschijnend zijn.\n" +
-            "4. Giet de parels af indien nodig.\n" +
-            "5. Voeg kokosmelk, suiker en snufje zout toe, roer voorzichtig.\n" +
-            "6. Laat 5 minuten sudderen tot licht ingedikt.\n" +
-            "7. Snijd de mango in kleine blokjes.\n" +
-            "8. Serveer de parels in kommen, garneer met mango en muntblaadjes."
+            "==============================\n" +
+            "PARELS KOKEN\n" +
+            "==============================\n\n" +
+            "1. Spoel de tapiocaparels kort onder koud water.\n" +
+            "2. Breng het water aan de kook.\n" +
+            "3. Voeg de parels toe en kook op middelhoog vuur, regelmatig roeren.\n" +
+            "4. Laat 15 tot 20 minuten koken tot ze grotendeels doorschijnend zijn.\n\n" +
+            "==============================\n" +
+            "AFWERKING MET KOKOSMELK\n" +
+            "==============================\n\n" +
+            "5. Voeg kokosmelk, suiker en zout toe.\n" +
+            "6. Laat 5 minuten zachtjes pruttelen tot romig.\n\n" +
+            "==============================\n" +
+            "SERVEREN\n" +
+            "==============================\n\n" +
+            "7. Verdeel over kommetjes.\n" +
+            "8. Garneer met mango en munt.\n" +
+            "9. Warm of koud serveren."
     },
+
     ar: {
-        title: "لؤلؤ التابيوكا بحليب جوز الهند (تكفي 4 أشخاص)",
+        title: "لؤلؤ التابيوكا بحليب جوز الهند",
         equipment: [
-            "1 قدر متوسطة الحجم",
-            "1 ملعقة خشبية",
-            "1 وعاء",
-            "1 مصفاة",
-            "1 ميزان مطبخ",
-            "1 مغرفة"
+            "قدر متوسط",
+            "ملعقة خشبية",
+            "وعاء",
+            "مصفاة",
+            "ميزان مطبخ",
+            "مغرفة"
         ],
         ingredients: [
             "100 غ لؤلؤ التابيوكا",
@@ -40791,27 +41404,43 @@ recipesData.dessert.perles_tapioca = {
             "200 مل ماء",
             "50 غ سكر",
             "رشة ملح",
-            "1 مانجو ناضجة للتزيين (200 غ)",
-            "أوراق نعناع للتزيين (5 أوراق)"
+            "1 مانجو ناضجة مقطعة مكعبات (200 غ)",
+            "أوراق نعناع للتزيين"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اشطف لؤلؤ التابيوكا بالماء البارد.\n" +
-            "2. اغلي 200 مل ماء في قدر.\n" +
-            "3. أضف لؤلؤ التابيوكا، اطه مع التحريك باستمرار لمدة 10-12 دقيقة حتى تصبح شفافة.\n" +
-            "4. صفي اللؤلؤ إذا لزم الأمر.\n" +
-            "5. أضف حليب جوز الهند والسكر ورشة ملح، حرك برفق.\n" +
-            "6. اتركه يغلي على نار هادئة 5 دقائق حتى يثخن قليلاً.\n" +
-            "7. قطع المانجو إلى مكعبات صغيرة.\n" +
-            "8. قدم اللؤلؤ في أطباق، وزينه بالمانجو وأوراق النعناع."
+            "==============================\n" +
+            "طهي اللؤلؤ\n" +
+            "==============================\n\n" +
+            "1. اشطف لؤلؤ التابيوكا سريعاً بالماء البارد.\n" +
+            "2. اغْلِ الماء في قدر.\n" +
+            "3. أضف اللؤلؤ واطهه مع التحريك المنتظم.\n" +
+            "4. اطهه 15 إلى 20 دقيقة حتى يصبح شفافاً.\n\n" +
+            "==============================\n" +
+            "إضافة حليب جوز الهند\n" +
+            "==============================\n\n" +
+            "5. أضف حليب جوز الهند والسكر والملح.\n" +
+            "6. اتركه يغلي بهدوء 5 دقائق حتى يصبح كريمي القوام.\n\n" +
+            "==============================\n" +
+            "التقديم\n" +
+            "==============================\n\n" +
+            "7. اسكب في أوعية.\n" +
+            "8. زيّن بالمانجو والنعناع.\n" +
+            "9. يقدّم دافئاً أو بارداً."
     }
 };
 recipesData.patisserie.mochis_the_vert = {
     country: "asie",
     image: "images/mochis_the_vert.jpg",
 
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 5,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Mochis au thé vert (4 personnes)",
+        title: "Mochis au thé vert",
         equipment: [
             "1 bol moyen",
             "1 cuillère en bois",
@@ -40823,183 +41452,241 @@ recipesData.patisserie.mochis_the_vert = {
             "1 film alimentaire"
         ],
         ingredients: [
-            "100 g farine de riz gluant",
-            "40 g sucre",
-            "150 ml eau",
-            "1 cuillère à café poudre de thé vert matcha",
-            "50 g pâte de haricot rouge sucrée (anko)",
-            "Fécule de maïs pour saupoudrer (20 g)"
+            "100 g de farine de riz gluant",
+            "40 g de sucre",
+            "150 ml d’eau",
+            "1 cuillère à café de poudre de thé vert matcha",
+            "50 g de pâte de haricot rouge sucrée",
+            "20 g de fécule de maïs pour le façonnage"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Dans un bol, mélanger la farine de riz gluant, le sucre et la poudre de thé vert.\n" +
-            "2. Ajouter l’eau progressivement en remuant jusqu’à obtenir une pâte homogène.\n" +
-            "3. Couvrir le bol de film alimentaire et cuire au micro-ondes 2 minutes à puissance moyenne.\n" +
-            "4. Sortir et remuer, puis cuire encore 1 minute.\n" +
-            "5. Saupoudrer le plan de travail avec de la fécule de maïs.\n" +
-            "6. Transférer la pâte chaude sur le plan saupoudré.\n" +
-            "7. Étaler délicatement avec un rouleau à pâtisserie saupoudré de fécule.\n" +
-            "8. Découper la pâte en 8 portions égales.\n" +
-            "9. Placer une petite boule de pâte de haricot rouge au centre de chaque portion.\n" +
-            "10. Replier la pâte autour de la garniture et former une boule.\n" +
-            "11. Rouler légèrement dans la fécule pour éviter que ça colle.\n" +
-            "12. Laisser refroidir 15 minutes avant de servir."
+            "==============================\n" +
+            "PRÉPARATION DE LA PÂTE\n" +
+            "==============================\n\n" +
+            "1. Tamiser la farine de riz gluant et la poudre de matcha dans un bol.\n" +
+            "2. Ajouter le sucre et mélanger.\n" +
+            "3. Verser l’eau progressivement tout en remuant jusqu’à obtenir une pâte lisse et homogène.\n\n" +
+            "==============================\n" +
+            "CUISSON\n" +
+            "==============================\n\n" +
+            "4. Couvrir le bol de film alimentaire.\n" +
+            "5. Cuire au micro-ondes 2 minutes à puissance moyenne.\n" +
+            "6. Sortir, mélanger soigneusement, puis cuire encore 1 minute.\n\n" +
+            "==============================\n" +
+            "FAÇONNAGE DES MOCHIS\n" +
+            "==============================\n\n" +
+            "7. Saupoudrer le plan de travail de fécule de maïs.\n" +
+            "8. Déposer la pâte encore chaude dessus.\n" +
+            "9. Étaler délicatement à l’aide du rouleau saupoudré de fécule.\n" +
+            "10. Découper la pâte en 8 portions égales.\n" +
+            "11. Déposer une petite boule de pâte de haricot rouge au centre de chaque portion.\n" +
+            "12. Refermer délicatement pour former une boule.\n" +
+            "13. Rouler légèrement dans la fécule.\n" +
+            "14. Laisser reposer 15 minutes avant dégustation."
     },
 
     en: {
-        title: "Green Tea Mochi (Serves 4)",
+        title: "Green Tea Mochi",
         equipment: [
-            "1 medium bowl",
-            "1 wooden spoon",
-            "1 fine sieve",
-            "1 silicone mat or countertop",
-            "1 rolling pin",
-            "1 kitchen scale",
-            "1 teaspoon",
-            "1 plastic wrap"
+            "medium bowl",
+            "wooden spoon",
+            "fine sieve",
+            "silicone mat or work surface",
+            "rolling pin",
+            "kitchen scale",
+            "teaspoon",
+            "plastic wrap"
         ],
         ingredients: [
             "100 g glutinous rice flour",
             "40 g sugar",
             "150 ml water",
             "1 tsp matcha green tea powder",
-            "50 g sweet red bean paste (anko)",
-            "Cornstarch for dusting (20 g)"
+            "50 g sweet red bean paste",
+            "20 g cornstarch for dusting"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. In a bowl, mix glutinous rice flour, sugar, and matcha powder.\n" +
-            "2. Gradually add water, stirring until smooth.\n" +
-            "3. Cover the bowl with plastic wrap and microwave 2 min at medium power.\n" +
-            "4. Stir and microwave another 1 min.\n" +
-            "5. Dust work surface with cornstarch.\n" +
-            "6. Transfer hot dough onto surface.\n" +
-            "7. Gently roll out with a cornstarch-dusted rolling pin.\n" +
-            "8. Cut dough into 8 equal portions.\n" +
-            "9. Place a small ball of red bean paste in the center of each portion.\n" +
-            "10. Fold dough around filling to form a ball.\n" +
-            "11. Lightly roll in cornstarch to prevent sticking.\n" +
-            "12. Let cool 15 min before serving."
+            "==============================\n" +
+            "DOUGH PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Sift glutinous rice flour and matcha powder into a bowl.\n" +
+            "2. Add sugar and mix well.\n" +
+            "3. Gradually pour in water while stirring until smooth.\n\n" +
+            "==============================\n" +
+            "COOKING\n" +
+            "==============================\n\n" +
+            "4. Cover the bowl with plastic wrap.\n" +
+            "5. Microwave for 2 minutes at medium power.\n" +
+            "6. Stir well, then microwave for another minute.\n\n" +
+            "==============================\n" +
+            "SHAPING THE MOCHI\n" +
+            "==============================\n\n" +
+            "7. Dust the work surface with cornstarch.\n" +
+            "8. Transfer the warm dough onto the surface.\n" +
+            "9. Gently roll it out.\n" +
+            "10. Cut into 8 equal portions.\n" +
+            "11. Place a small ball of red bean paste in the center.\n" +
+            "12. Close the dough around the filling.\n" +
+            "13. Lightly coat with cornstarch.\n" +
+            "14. Let rest for 15 minutes before serving."
     },
 
     nl: {
-        title: "Groene Thee Mochi (voor 4 personen)",
+        title: "Mochi met groene thee",
         equipment: [
-            "1 middelgrote kom",
-            "1 houten lepel",
-            "1 fijne zeef",
-            "1 siliconenmat of werkblad",
-            "1 deegroller",
-            "1 keukenweegschaal",
-            "1 theelepel",
-            "1 plasticfolie"
+            "middelgrote kom",
+            "houten lepel",
+            "fijne zeef",
+            "siliconenmat of werkblad",
+            "deegroller",
+            "keukenweegschaal",
+            "theelepel",
+            "plasticfolie"
         ],
         ingredients: [
             "100 g kleefrijstmeel",
             "40 g suiker",
             "150 ml water",
             "1 tl matcha poeder",
-            "50 g zoete rodebonenpasta (anko)",
-            "Maïzena om te bestuiven (20 g)"
+            "50 g zoete rodebonenpasta",
+            "20 g maïzena om te bestuiven"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng in een kom het kleefrijstmeel, suiker en matcha poeder.\n" +
-            "2. Voeg geleidelijk water toe en roer tot een glad beslag.\n" +
-            "3. Bedek de kom met plasticfolie en magnetron 2 min op middelhoog vermogen.\n" +
-            "4. Roer en magnetron nog 1 min.\n" +
-            "5. Bestuif werkoppervlak met maïzena.\n" +
-            "6. Leg het hete deeg op het oppervlak.\n" +
-            "7. Rol voorzichtig uit met een met maïzena bestoven deegroller.\n" +
-            "8. Snijd het deeg in 8 gelijke porties.\n" +
-            "9. Plaats een klein bolletje rodebonenpasta in het midden van elke portie.\n" +
-            "10. Vouw het deeg rond de vulling en vorm een bol.\n" +
-            "11. Rol licht in maïzena om plakken te voorkomen.\n" +
-            "12. Laat 15 minuten afkoelen voor serveren."
+            "==============================\n" +
+            "DEEG MAKEN\n" +
+            "==============================\n\n" +
+            "1. Zeef het kleefrijstmeel en matchapoeder in een kom.\n" +
+            "2. Voeg suiker toe en meng.\n" +
+            "3. Voeg geleidelijk water toe tot een glad deeg ontstaat.\n\n" +
+            "==============================\n" +
+            "GAREN\n" +
+            "==============================\n\n" +
+            "4. Dek de kom af met plasticfolie.\n" +
+            "5. Verwarm 2 minuten in de magnetron.\n" +
+            "6. Roer goed en verwarm nog 1 minuut.\n\n" +
+            "==============================\n" +
+            "MOCHI VORMEN\n" +
+            "==============================\n\n" +
+            "7. Bestuif het werkblad met maïzena.\n" +
+            "8. Leg het warme deeg erop.\n" +
+            "9. Rol voorzichtig uit.\n" +
+            "10. Verdeel in 8 stukken.\n" +
+            "11. Vul met rodebonenpasta.\n" +
+            "12. Sluit en vorm balletjes.\n" +
+            "13. Rol licht in maïzena.\n" +
+            "14. Laat 15 minuten rusten."
     },
 
     ar: {
-        title: "موشي بالشاي الأخضر (تكفي 4 أشخاص)",
+        title: "موشي بالشاي الأخضر",
         equipment: [
-            "1 وعاء متوسط",
-            "1 ملعقة خشبية",
-            "1 مصفاة دقيقة",
-            "1 حصيرة سيليكون أو سطح عمل",
-            "1 نشابة",
-            "1 ميزان مطبخ",
-            "1 ملعقة صغيرة",
-            "1 غلاف بلاستيكي"
+            "وعاء متوسط",
+            "ملعقة خشبية",
+            "مصفاة دقيقة",
+            "سطح عمل أو حصيرة سيليكون",
+            "نشابة",
+            "ميزان مطبخ",
+            "ملعقة صغيرة",
+            "غلاف بلاستيكي"
         ],
         ingredients: [
             "100 غ دقيق أرز لزج",
             "40 غ سكر",
             "150 مل ماء",
-            "1 ملعقة صغيرة مسحوق شاي أخضر (ماتشا)",
-            "50 غ عجينة فاصوليا حمراء حلوة (أنكو)",
-            "نشا الذرة للرش (20 غ)"
+            "1 ملعقة صغيرة مسحوق ماتشا",
+            "50 غ عجينة فاصوليا حمراء حلوة",
+            "20 غ نشا ذرة للرش"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط دقيق الأرز اللزج والسكر ومسحوق الشاي الأخضر في وعاء.\n" +
-            "2. أضف الماء تدريجياً مع التحريك حتى يصبح الخليط ناعماً.\n" +
-            "3. غطِ الوعاء بغلاف بلاستيكي واطبخه في الميكروويف 2 دقيقة على قوة متوسطة.\n" +
-            "4. حركه واطبخه دقيقة إضافية.\n" +
-            "5. رش سطح العمل بالنشا.\n" +
-            "6. انقل العجينة الساخنة على السطح.\n" +
-            "7. افردها بلطف باستخدام نشابة مرشوشة بالنشا.\n" +
-            "8. قسم العجينة إلى 8 أجزاء متساوية.\n" +
-            "9. ضع كرة صغيرة من عجينة الفاصوليا الحمراء في وسط كل قطعة.\n" +
-            "10. اطوِ العجينة حول الحشوة وشكّل كرة.\n" +
-            "11. دحرجها برفق في النشا لمنع الالتصاق.\n" +
-            "12. اتركها لتبرد 15 دقيقة قبل التقديم."
+            "==============================\n" +
+            "تحضير العجين\n" +
+            "==============================\n\n" +
+            "1. انخل دقيق الأرز مع الماتشا.\n" +
+            "2. أضف السكر وامزج جيداً.\n" +
+            "3. أضف الماء تدريجياً حتى يصبح الخليط ناعماً.\n\n" +
+            "==============================\n" +
+            "الطهي\n" +
+            "==============================\n\n" +
+            "4. غطِّ الوعاء بغلاف بلاستيكي.\n" +
+            "5. اطهه في الميكروويف دقيقتين.\n" +
+            "6. حرّك ثم اطهه دقيقة إضافية.\n\n" +
+            "==============================\n" +
+            "تشكيل الموچي\n" +
+            "==============================\n\n" +
+            "7. رش السطح بالنشا.\n" +
+            "8. ضع العجين الساخن وافرده بلطف.\n" +
+            "9. قطّعه إلى 8 أجزاء.\n" +
+            "10. ضع الحشوة في المنتصف.\n" +
+            "11. أغلق العجين وشكّل كرات.\n" +
+            "12. غلّف بالنشا.\n" +
+            "13. اتركه يرتاح 15 دقيقة قبل التقديم."
     }
 };
-// 1️⃣ Salade Mechouia
+
+
+
+
+
+
+
+
+
+
 recipesData.entree.salade_mechouia = {
     country: "afrique",
-    countryName: "Tunisie",
+    countryName: "algerie",
     image: "images/salade-mechouia.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade Mechouia (Tunisie, 4 personnes)",
+        title: "Salade Mechouia",
         equipment: [
-            "1 poêle ou grill",
+            "1 poêle, grill ou four",
             "1 couteau",
             "1 planche à découper",
             "1 bol",
             "1 cuillère",
-            "1 assiette"
+            "1 assiette de service"
         ],
         ingredients: [
-            "4 tomates mûres (environ 600 g)",
+            "4 tomates bien mûres (environ 600 g)",
             "2 poivrons rouges (environ 300 g)",
             "1 oignon moyen (100 g)",
             "2 gousses d’ail",
-            "50 ml huile d’olive",
-            "1 cuillère à café sel",
-            "1/2 cuillère à café poivre",
-            "1/2 cuillère à café cumin",
-            "10 olives noires pour garnir"
+            "50 ml d’huile d’olive",
+            "1 cuillère à café de sel",
+            "1/2 cuillère à café de poivre",
+            "1/2 cuillère à café de cumin",
+            "10 olives noires pour la garniture"
         ],
         preparation:
             "Recette pour 4 personnes.\n" +
-            "1. Griller les tomates et les poivrons dans une poêle ou au four pendant 10-15 min jusqu’à ce que la peau noircisse légèrement.\n" +
-            "2. Laisser refroidir, peler et enlever les graines des légumes.\n" +
-            "3. Hacher finement l’oignon et l’ail.\n" +
-            "4. Couper les légumes grillés en petits morceaux et les mettre dans un bol.\n" +
-            "5. Ajouter l’oignon, l’ail, l’huile d’olive, sel, poivre et cumin.\n" +
-            "6. Mélanger délicatement jusqu’à homogénéité.\n" +
-            "7. Transférer dans un plat de service, garnir d’olives.\n" +
-            "8. Servir tiède ou froid."
+            "1. Griller les tomates et les poivrons sur une poêle, un grill ou au four jusqu’à ce que la peau soit bien noircie.\n" +
+            "2. Les laisser tiédir, puis les peler et retirer les graines.\n" +
+            "3. Hacher grossièrement la chair des tomates et des poivrons ou les écraser légèrement.\n" +
+            "4. Émincer finement l’oignon et l’ail.\n" +
+            "5. Mettre les légumes grillés dans un bol.\n" +
+            "6. Ajouter l’oignon, l’ail, l’huile d’olive, le sel, le poivre et le cumin.\n" +
+            "7. Mélanger délicatement jusqu’à obtenir une salade homogène.\n" +
+            "8. Transférer dans un plat de service et garnir d’olives noires.\n" +
+            "9. Servir tiède ou bien froid."
     },
+
     en: {
-        title: "Mechouia Salad (Tunisia, Serves 4)",
+        title: "Mechouia Salad",
         equipment: [
-            "1 pan or grill",
+            "pan, grill or oven",
             "knife",
             "cutting board",
-            "1 bowl",
-            "1 spoon",
-            "1 plate"
+            "bowl",
+            "spoon",
+            "serving plate"
         ],
         ingredients: [
             "4 ripe tomatoes (about 600 g)",
@@ -41008,67 +41695,71 @@ recipesData.entree.salade_mechouia = {
             "2 garlic cloves",
             "50 ml olive oil",
             "1 tsp salt",
-            "1/2 tsp pepper",
+            "1/2 tsp black pepper",
             "1/2 tsp cumin",
             "10 black olives for garnish"
         ],
         preparation:
             "Serves 4.\n" +
-            "1. Grill tomatoes and peppers in a pan or oven for 10-15 min until skins are slightly charred.\n" +
-            "2. Let cool, peel, and remove seeds.\n" +
-            "3. Finely chop onion and garlic.\n" +
-            "4. Chop grilled vegetables into small pieces and place in a bowl.\n" +
-            "5. Add onion, garlic, olive oil, salt, pepper, and cumin.\n" +
-            "6. Mix gently until uniform.\n" +
-            "7. Transfer to serving dish and garnish with olives.\n" +
-            "8. Serve warm or cold."
+            "1. Grill tomatoes and peppers on a pan, grill, or in the oven until skins are well charred.\n" +
+            "2. Let cool slightly, then peel and remove seeds.\n" +
+            "3. Roughly chop or lightly crush the vegetables.\n" +
+            "4. Finely chop the onion and garlic.\n" +
+            "5. Place grilled vegetables in a bowl.\n" +
+            "6. Add onion, garlic, olive oil, salt, pepper, and cumin.\n" +
+            "7. Mix gently until combined.\n" +
+            "8. Transfer to a serving dish and garnish with olives.\n" +
+            "9. Serve warm or cold."
     },
+
     nl: {
-        title: "Mechouia Salade (Tunesië, voor 4 personen)",
+        title: "Mechouia salade",
         equipment: [
-            "1 pan of grill",
+            "pan, grill of oven",
             "mes",
             "snijplank",
-            "1 kom",
-            "1 lepel",
-            "1 bord"
+            "kom",
+            "lepel",
+            "serveerschaal"
         ],
         ingredients: [
             "4 rijpe tomaten (ca. 600 g)",
-            "2 rode paprika's (ca. 300 g)",
+            "2 rode paprika’s (ca. 300 g)",
             "1 middelgrote ui (100 g)",
             "2 teentjes knoflook",
             "50 ml olijfolie",
             "1 theelepel zout",
-            "1/2 theelepel peper",
+            "1/2 theelepel zwarte peper",
             "1/2 theelepel komijn",
             "10 zwarte olijven voor garnering"
         ],
         preparation:
             "Voor 4 personen.\n" +
-            "1. Grill tomaten en paprika's in een pan of oven 10-15 min tot de schil licht verbrand is.\n" +
-            "2. Laat afkoelen, pel en verwijder de zaden.\n" +
-            "3. Snipper ui en knoflook fijn.\n" +
-            "4. Snijd gegrilde groenten in kleine stukjes en doe in een kom.\n" +
-            "5. Voeg ui, knoflook, olijfolie, zout, peper en komijn toe.\n" +
-            "6. Meng voorzichtig tot gelijkmatig.\n" +
-            "7. Doe in serveerschaal en garneer met olijven.\n" +
-            "8. Serveer warm of koud."
+            "1. Grill tomaten en paprika’s in een pan, op de grill of in de oven tot de schil goed zwart is.\n" +
+            "2. Laat iets afkoelen, pel ze en verwijder de zaden.\n" +
+            "3. Hak de groenten grof of druk ze licht fijn.\n" +
+            "4. Snipper ui en knoflook fijn.\n" +
+            "5. Doe de gegrilde groenten in een kom.\n" +
+            "6. Voeg ui, knoflook, olijfolie, zout, peper en komijn toe.\n" +
+            "7. Meng voorzichtig tot alles goed gemengd is.\n" +
+            "8. Serveer in een schaal en garneer met olijven.\n" +
+            "9. Warm of koud serveren."
     },
+
     ar: {
-        title: "سلطة مشوية (تونس، تكفي 4 أشخاص)",
+        title: "سلطة مشوية",
         equipment: [
-            "1 مقلاة أو شواية",
+            "مقلاة أو شواية أو فرن",
             "سكين",
             "لوح تقطيع",
-            "1 وعاء",
-            "1 ملعقة",
-            "1 طبق"
+            "وعاء",
+            "ملعقة",
+            "طبق تقديم"
         ],
         ingredients: [
             "4 طماطم ناضجة (حوالي 600 غ)",
             "2 فلفل أحمر (حوالي 300 غ)",
-            "1 بصل متوسط (100 غ)",
+            "1 بصلة متوسطة (100 غ)",
             "2 فص ثوم",
             "50 مل زيت زيتون",
             "1 ملعقة صغيرة ملح",
@@ -41078,155 +41769,238 @@ recipesData.entree.salade_mechouia = {
         ],
         preparation:
             "تكفي 4 أشخاص.\n" +
-            "1. اشوي الطماطم والفلفل في المقلاة أو الفرن لمدة 10-15 دقيقة حتى تصبح القشرة سوداء قليلاً.\n" +
-            "2. اتركها لتبرد، قشّر وأزل البذور.\n" +
-            "3. فرّم البصل والثوم ناعماً.\n" +
-            "4. قطّع الخضار المشوية إلى قطع صغيرة وضعها في وعاء.\n" +
-            "5. أضف البصل والثوم وزيت الزيتون والملح والفلفل والكمون.\n" +
-            "6. اخلط برفق حتى يتجانس.\n" +
-            "7. انقلها إلى طبق التقديم وزين بالزيتون.\n" +
-            "8. قدّمها دافئة أو باردة."
+            "1. اشوِ الطماطم والفلفل في المقلاة أو الشواية أو الفرن حتى تسود القشرة.\n" +
+            "2. اتركها تبرد قليلاً ثم قشّرها وأزل البذور.\n" +
+            "3. افرم الخضار المشوية فرمًا خشنًا أو اسحقها قليلاً.\n" +
+            "4. افرم البصل والثوم ناعماً.\n" +
+            "5. ضع الخضار في وعاء.\n" +
+            "6. أضف البصل والثوم وزيت الزيتون والملح والفلفل والكمون.\n" +
+            "7. اخلط برفق حتى تتجانس.\n" +
+            "8. قدّمها في طبق وزيّن بالزيتون.\n" +
+            "9. تقدّم دافئة أو باردة."
     }
 };
-
-// 2️⃣ Tajine Malsouka
 recipesData.entree.tajine_malsouka = {
     country: "afrique",
     countryName: "Tunisie",
-    image: "images/tajine-malsouka.jpg",
+    image: [
+        "images/tajine-malsouka-tajine.jpg"
+    ],
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tajine Malsouka (Tunisie, 4 personnes)",
+        title: "Tajine Malsouka",
         equipment: [
+            "1 tajine avec couvercle",
             "1 plat allant au four",
+            "1 four",
+            "1 poêle",
             "1 bol",
             "1 cuillère",
             "1 couteau",
-            "1 planche à découper",
-            "1 poêle",
-            "1 four"
+            "1 planche à découper"
         ],
         ingredients: [
-            "6 feuilles de malsouka (ou brick)",
-            "3 œufs",
-            "100 g fromage râpé",
+            "6 feuilles de malsouka (ou feuilles de brick)",
+            "4 œufs",
+            "120 g de fromage râpé",
             "1 oignon moyen (100 g)",
-            "50 g thon en conserve égoutté",
-            "50 ml huile d’olive",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/4 cuillère à café paprika"
+            "100 g de thon en conserve égoutté",
+            "50 ml d’huile d’olive",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "1/4 cuillère à café de paprika"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
+            "==============================\n" +
+            "MÉTHODE 1 : CUISSON AU FOUR\n" +
+            "==============================\n\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Hacher l’oignon et le faire revenir 3 min dans l’huile.\n" +
-            "3. Battre les œufs avec sel, poivre et paprika dans un bol.\n" +
-            "4. Ajouter le thon et le fromage, mélanger.\n" +
-            "5. Placer 3 feuilles de malsouka dans le plat, ajouter le mélange par-dessus.\n" +
-            "6. Couvrir avec les 3 autres feuilles.\n" +
-            "7. Cuire au four pendant 20 min jusqu’à ce que le dessus soit doré.\n" +
-            "8. Couper en parts et servir chaud."
+            "2. Émincer l’oignon et le faire revenir 4 à 5 minutes dans l’huile d’olive.\n" +
+            "3. Battre les œufs avec le sel, le poivre et le paprika.\n" +
+            "4. Ajouter le thon émietté, le fromage et l’oignon, puis mélanger.\n" +
+            "5. Huiler légèrement le plat allant au four.\n" +
+            "6. Disposer 3 feuilles de malsouka en laissant dépasser les bords.\n" +
+            "7. Verser la préparation.\n" +
+            "8. Recouvrir avec les feuilles restantes en les repliant.\n" +
+            "9. Enfourner 25 minutes jusqu’à ce que le dessus soit doré.\n\n" +
+            "==============================\n" +
+            "MÉTHODE 2 : CUISSON AU TAJINE\n" +
+            "==============================\n\n" +
+            "1. Faire revenir l’oignon dans l’huile d’olive à feu doux.\n" +
+            "2. Battre les œufs avec le sel, le poivre et le paprika.\n" +
+            "3. Ajouter le thon et le fromage, puis mélanger.\n" +
+            "4. Incorporer l’oignon cuit.\n" +
+            "5. Huiler le fond du tajine.\n" +
+            "6. Disposer 3 feuilles de malsouka.\n" +
+            "7. Verser la préparation.\n" +
+            "8. Recouvrir avec les feuilles restantes.\n" +
+            "9. Couvrir et cuire à feu doux 30 à 35 minutes.\n" +
+            "10. Servir chaud directement dans le tajine."
     },
+
     en: {
-        title: "Tajine Malsouka (Tunisia, Serves 4)",
+        title: "Tajine Malsouka",
         equipment: [
-            "1 oven dish",
-            "1 bowl",
-            "1 spoon",
+            "tajine with lid",
+            "oven dish",
+            "oven",
+            "pan",
+            "bowl",
+            "spoon",
             "knife",
-            "cutting board",
-            "1 pan",
-            "oven"
+            "cutting board"
         ],
         ingredients: [
-            "6 malsouka (or brick) sheets",
-            "3 eggs",
-            "100 g grated cheese",
+            "6 malsouka or brick sheets",
+            "4 eggs",
+            "120 g grated cheese",
             "1 medium onion (100 g)",
-            "50 g canned tuna drained",
+            "100 g canned tuna, drained",
             "50 ml olive oil",
             "1/2 tsp salt",
-            "1/4 tsp pepper",
+            "1/4 tsp black pepper",
             "1/4 tsp paprika"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Chop onion and sauté 3 min in oil.\n" +
-            "3. Beat eggs with salt, pepper and paprika in a bowl.\n" +
-            "4. Add tuna and cheese, mix.\n" +
-            "5. Place 3 sheets in oven dish, add mixture on top.\n" +
-            "6. Cover with remaining 3 sheets.\n" +
-            "7. Bake 20 min until golden.\n" +
-            "8. Cut into portions and serve hot."
+            "==============================\n" +
+            "METHOD 1: OVEN-BAKED VERSION\n" +
+            "==============================\n\n" +
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Sauté the chopped onion in olive oil for 4–5 minutes.\n" +
+            "3. Beat eggs with salt, pepper and paprika.\n" +
+            "4. Add tuna, cheese and onion, then mix.\n" +
+            "5. Grease the oven dish.\n" +
+            "6. Line with 3 sheets, letting them overhang.\n" +
+            "7. Pour in the mixture.\n" +
+            "8. Cover with remaining sheets.\n" +
+            "9. Bake for 25 minutes until golden.\n\n" +
+            "==============================\n" +
+            "METHOD 2: TAJINE VERSION\n" +
+            "==============================\n\n" +
+            "1. Sauté onion in olive oil over low heat.\n" +
+            "2. Beat eggs with seasoning.\n" +
+            "3. Add tuna and cheese.\n" +
+            "4. Mix in onion.\n" +
+            "5. Grease the tajine.\n" +
+            "6. Line with malsouka sheets.\n" +
+            "7. Add filling and cover.\n" +
+            "8. Cook gently for 30–35 minutes.\n" +
+            "9. Serve hot."
     },
+
     nl: {
-        title: "Tajine Malsouka (Tunesië, voor 4 personen)",
+        title: "Tajine malsouka",
         equipment: [
-            "1 ovenschaal",
-            "1 kom",
-            "1 lepel",
+            "tajine met deksel",
+            "ovenschaal",
+            "oven",
+            "pan",
+            "kom",
+            "lepel",
             "mes",
-            "snijplank",
-            "1 pan",
-            "oven"
+            "snijplank"
         ],
         ingredients: [
-            "6 malsouka (of brick) vellen",
-            "3 eieren",
-            "100 g geraspte kaas",
+            "6 malsouka- of brickvellen",
+            "4 eieren",
+            "120 g geraspte kaas",
             "1 middelgrote ui (100 g)",
-            "50 g tonijn uit blik, uitgelekt",
+            "100 g tonijn uit blik, uitgelekt",
             "50 ml olijfolie",
             "1/2 tl zout",
             "1/4 tl peper",
             "1/4 tl paprika"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Snipper ui en bak 3 min in olie.\n" +
-            "3. Klop eieren met zout, peper en paprika in een kom.\n" +
-            "4. Voeg tonijn en kaas toe, meng.\n" +
-            "5. Leg 3 vellen in ovenschaal, voeg mengsel erop.\n" +
-            "6. Bedek met resterende 3 vellen.\n" +
-            "7. Bak 20 min tot goudbruin.\n" +
-            "8. Snijd in porties en serveer warm."
+            "==============================\n" +
+            "METHODE 1: IN DE OVEN\n" +
+            "==============================\n\n" +
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Bak de ui 4–5 minuten in olijfolie.\n" +
+            "3. Klop eieren met kruiden.\n" +
+            "4. Voeg tonijn, kaas en ui toe.\n" +
+            "5. Vet de ovenschaal in.\n" +
+            "6. Bekleed met 3 vellen.\n" +
+            "7. Voeg de vulling toe.\n" +
+            "8. Dek af en bak 25 minuten.\n\n" +
+            "==============================\n" +
+            "METHODE 2: IN TAJINE\n" +
+            "==============================\n\n" +
+            "1. Fruit de ui zachtjes.\n" +
+            "2. Meng eieren, kruiden, tonijn en kaas.\n" +
+            "3. Voeg de ui toe.\n" +
+            "4. Bekleed de tajine met vellen.\n" +
+            "5. Voeg de vulling toe.\n" +
+            "6. Laat 30–35 minuten zacht garen."
     },
+
     ar: {
-        title: "طاجين ملسوقة (تونس، تكفي 4 أشخاص)",
+        title: "طاجين ملسوقة",
         equipment: [
-            "1 صينية فرن",
-            "1 وعاء",
-            "1 ملعقة",
+            "طاجين بغطاء",
+            "صينية فرن",
+            "فرن",
+            "مقلاة",
+            "وعاء",
+            "ملعقة",
             "سكين",
-            "لوح تقطيع",
-            "1 مقلاة",
-            "فرن"
+            "لوح تقطيع"
         ],
         ingredients: [
-            "6 أوراق ملسوقة (أو بريك)",
-            "3 بيضات",
-            "100 غ جبن مبشور",
-            "1 بصل متوسط (100 غ)",
-            "50 غ تونة مصفاة",
+            "6 أوراق ملسوقة أو بريك",
+            "4 بيضات",
+            "120 غ جبن مبشور",
+            "1 بصلة متوسطة (100 غ)",
+            "100 غ تونة مصفاة",
             "50 مل زيت زيتون",
             "1/2 ملعقة صغيرة ملح",
             "1/4 ملعقة صغيرة فلفل",
             "1/4 ملعقة صغيرة بابريكا"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الفرن على 180°C.\n" +
-            "2. افرم البصل وقلّيه 3 دقائق في الزيت.\n" +
-            "3. اخفق البيض مع الملح والفلفل والبابريكا في وعاء.\n" +
-            "4. أضف التونة والجبن، وامزج.\n" +
-            "5. ضع 3 أوراق في الصينية، أضف الخليط فوقها.\n" +
-            "6. غطّ بالأوراق الثلاثة المتبقية.\n" +
-            "7. اخبز 20 دقيقة حتى يصبح ذهبي.\n" +
-            "8. قطّع إلى حصص وقدّم ساخناً."
+            "==============================\n" +
+            "الطريقة الأولى: في الفرن\n" +
+            "==============================\n\n" +
+            "1. سخّن الفرن على 180 درجة.\n" +
+            "2. اقْلِ البصل في زيت الزيتون حتى يلين.\n" +
+            "3. اخفق البيض مع التوابل.\n" +
+            "4. أضف التونة والجبن والبصل.\n" +
+            "5. ضع الأوراق في الصينية.\n" +
+            "6. أضف الخليط وغطِّ بالأوراق.\n" +
+            "7. اخبز 25 دقيقة حتى يتحمّر.\n\n" +
+            "==============================\n" +
+            "الطريقة الثانية: في الطاجين\n" +
+            "==============================\n\n" +
+            "1. قلِّ البصل في الطاجين حتى يصبح شفافاً.\n" +
+            "2. حضّر خليط البيض.\n" +
+            "3. أضف التونة والجبن.\n" +
+            "4. ضع الأوراق في الطاجين.\n" +
+            "5. أضف الحشوة وغطِّها.\n" +
+            "6. اطهه على نار هادئة 30–35 دقيقة."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 3️⃣ Ojja Tunisienne
 recipesData.entree.ojja = {
     country: "afrique",
@@ -44644,120 +45418,7 @@ recipesData.entree.chakchouka = {
     }
 };
 
-// 7️⃣ Salade Méchouia
-recipesData.entree.salade_mechouia = {
-    country: "afrique",
-    countryName: "algerie",
-    image: "images/salade_mechouia.jpg",
-    fr: {
-        title: "Salade Méchouia (Algérie, 4 personnes)",
-        equipment: [
-            "1 grille ou poêle pour griller",
-            "1 couteau",
-            "1 planche à découper",
-            "1 bol",
-            "1 cuillère"
-        ],
-        ingredients: [
-            "3 poivrons rouges (300 g)",
-            "2 tomates (200 g)",
-            "1 oignon moyen (100 g)",
-            "1 gousse d’ail",
-            "30 ml huile d’olive",
-            "1 cuillère à café sel",
-            "1/2 cuillère à café poivre",
-            "1/2 cuillère à café paprika"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Griller poivrons et tomates jusqu’à peau noire.\n" +
-            "2. Laisser refroidir, retirer peau.\n" +
-            "3. Hacher finement légumes et oignon.\n" +
-            "4. Mélanger avec ail haché, huile et épices.\n" +
-            "5. Servir frais."
-    },
-    en: {
-        title: "Méchouia Salad (Algeria, Serves 4)",
-        equipment: [
-            "1 grill or pan to grill",
-            "1 knife",
-            "1 cutting board",
-            "1 bowl",
-            "1 spoon"
-        ],
-        ingredients: [
-            "3 red bell peppers (300 g)",
-            "2 tomatoes (200 g)",
-            "1 medium onion (100 g)",
-            "1 garlic clove",
-            "30 ml olive oil",
-            "1 tsp salt",
-            "1/2 tsp pepper",
-            "1/2 tsp paprika"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Grill peppers and tomatoes until skin blackened.\n" +
-            "2. Let cool, peel.\n" +
-            "3. Chop vegetables and onion finely.\n" +
-            "4. Mix with chopped garlic, oil and spices.\n" +
-            "5. Serve chilled."
-    },
-    nl: {
-        title: "Méchouia salade (Algerije, voor 4 personen)",
-        equipment: [
-            "1 grill of pan om te grillen",
-            "1 mes",
-            "1 snijplank",
-            "1 kom",
-            "1 lepel"
-        ],
-        ingredients: [
-            "3 rode paprika's (300 g)",
-            "2 tomaten (200 g)",
-            "1 middelgrote ui (100 g)",
-            "1 teentje knoflook",
-            "30 ml olijfolie",
-            "1 tl zout",
-            "1/2 tl peper",
-            "1/2 tl paprika"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Grill paprika's en tomaten tot de schil zwart wordt.\n" +
-            "2. Laat afkoelen, verwijder de schil.\n" +
-            "3. Hak groenten en ui fijn.\n" +
-            "4. Meng met gehakte knoflook, olie en kruiden.\n" +
-            "5. Serveer koud."
-    },
-    ar: {
-        title: "سلطة مشوية (الجزائر، تكفي 4 أشخاص)",
-        equipment: [
-            "1 شواية أو مقلاة للشوي",
-            "سكين",
-            "لوح تقطيع",
-            "1 وعاء",
-            "1 ملعقة"
-        ],
-        ingredients: [
-            "3 فلفل أحمر (300 غ)",
-            "2 طماطم (200 غ)",
-            "1 بصل متوسط (100 غ)",
-            "1 فص ثوم",
-            "30 مل زيت زيتون",
-            "1 ملعقة صغيرة ملح",
-            "1/2 ملعقة صغيرة فلفل",
-            "1/2 ملعقة صغيرة بابريكا"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اشوي الفلفل والطماطم حتى تصبح القشرة سوداء.\n" +
-            "2. اترك لتبرد، ثم قشر.\n" +
-            "3. افرم الخضار والبصل ناعماً.\n" +
-            "4. اخلط مع الثوم المفروم والزيت والتوابل.\n" +
-            "5. قدم بارداً."
-    }
-};
+
 
 // 8️⃣ Harira (soupe traditionnelle)
 recipesData.entree.harira = {
@@ -64761,7 +65422,14 @@ function displayRecipe(recipeKey, type) {
     const data = recipesData[type][recipeKey][currentLang];
 
     recipeTitle.textContent = data.title;
-    recipeImage.src = recipesData[type][recipeKey].image;
+    const imageData = recipesData[type][recipeKey].image;
+
+if (Array.isArray(imageData)) {
+    recipeImage.src = imageData[0];
+} else {
+    recipeImage.src = imageData;
+}
+
 const metaDiv = document.getElementById("recipeMeta");
 
 if (recipesData[type][recipeKey].meta) {
