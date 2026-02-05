@@ -40381,8 +40381,9 @@ recipesData.dessert.kunefe = {
 
 
 
-recipesData.entree.rouleaux = {
+recipesData.entree.rouleaux_printemps_vietnamiens_frits = {
     country: "asie",
+    countryName: "Vietnam",
     image: "images/rouleaux_printemps.jpg",
 
     meta: {
@@ -40393,7 +40394,7 @@ recipesData.entree.rouleaux = {
     },
 
     fr: {
-        title: "Rouleaux de printemps asiatiques frits",
+        title: "Rouleaux de printemps vietnamiens frits (Vietnam)",
         equipment: [
             "1 grand saladier",
             "1 planche à découper en bois",
@@ -40442,31 +40443,30 @@ recipesData.entree.rouleaux = {
             "==============================\n" +
             "CONSEIL\n" +
             "==============================\n\n" +
-            "Je vous conseille de déguster ce plat en apéritif, accompagné d’une sauce aigre-douce asiatique sans alcool. " +
-            "Il se marie parfaitement avec un cocktail sans alcool ou un soda, et plaira à vos invités comme à votre famille."
+            "Je vous conseille de déguster ce plat en apéritif, accompagné d’une sauce aigre-douce asiatique sans alcool. Il se marie parfaitement avec un cocktail sans alcool ou un soda, et plaira à vos invités comme à votre famille."
     },
 
     en: {
-        title: "Fried Asian Spring Rolls",
+        title: "Fried Vietnamese Spring Rolls (Vietnam)",
         equipment: [
-            "large mixing bowl",
-            "wooden cutting board",
-            "knife",
-            "deep pan or fryer",
-            "skimmer",
+            "1 large mixing bowl",
+            "1 wooden cutting board",
+            "1 knife",
+            "1 deep frying pan or fryer",
+            "1 skimmer",
             "paper towels",
-            "small bowl"
+            "1 small bowl"
         ],
         ingredients: [
             "12 spring roll wrappers",
-            "200 g finely minced raw chicken breast",
+            "200 g raw chicken breast finely chopped",
             "50 g dried rice vermicelli",
             "50 g grated carrots",
-            "40 g soaked and chopped black mushrooms",
-            "2 spring onions, finely sliced",
+            "40 g rehydrated and chopped black mushrooms",
+            "2 spring onions finely sliced",
             "1 egg",
-            "1 tbsp soy sauce",
-            "1 tsp sesame oil",
+            "1 tablespoon soy sauce",
+            "1 teaspoon sesame oil",
             "Black pepper",
             "Oil for frying"
         ],
@@ -40474,50 +40474,49 @@ recipesData.entree.rouleaux = {
             "==============================\n" +
             "FILLING PREPARATION\n" +
             "==============================\n\n" +
-            "1. Soak rice vermicelli in hot water for 10 minutes.\n" +
-            "2. Drain well and roughly chop.\n" +
-            "3. In a large bowl, mix chicken, vermicelli, carrots, mushrooms and spring onions.\n" +
-            "4. Add egg, soy sauce, sesame oil and black pepper.\n" +
+            "1. Soak the rice vermicelli in hot water for 10 minutes.\n" +
+            "2. Drain well and roughly cut.\n" +
+            "3. In a large bowl, mix the chopped chicken, vermicelli, carrots, mushrooms, and spring onions.\n" +
+            "4. Add the egg, soy sauce, sesame oil, and a pinch of pepper.\n" +
             "5. Mix until well combined.\n\n" +
             "==============================\n" +
             "ROLLING\n" +
             "==============================\n\n" +
-            "6. Place a wrapper flat with one corner facing you.\n" +
-            "7. Add one spoon of filling near the bottom edge.\n" +
-            "8. Fold bottom, fold sides and roll tightly.\n" +
-            "9. Repeat with remaining filling.\n\n" +
+            "6. Place a wrapper flat with the point facing up.\n" +
+            "7. Add a spoonful of filling near the bottom edge.\n" +
+            "8. Fold the bottom, fold in the sides, then roll tightly.\n" +
+            "9. Repeat until all filling is used.\n\n" +
             "==============================\n" +
             "FRYING\n" +
             "==============================\n\n" +
-            "10. Heat oil to 170–180°C.\n" +
-            "11. Fry rolls in small batches.\n" +
-            "12. Cook 3–4 minutes until golden and crispy.\n" +
+            "10. Heat the oil to 170–180°C.\n" +
+            "11. Fry the rolls in small batches.\n" +
+            "12. Fry for 3–4 minutes until golden and crispy.\n" +
             "13. Drain on paper towels.\n\n" +
             "==============================\n" +
             "TIP\n" +
             "==============================\n\n" +
-            "I recommend enjoying this dish as an appetizer, served with an alcohol-free Asian sweet and sour sauce. " +
-            "It pairs perfectly with a non-alcoholic cocktail or a soda and will delight both your guests and your family."
+            "Serve as an appetizer with an alcohol-free sweet and sour Asian sauce. Perfect with a non-alcoholic cocktail or soda."
     },
 
     nl: {
-        title: "Gefrituurde Aziatische loempia’s",
+        title: "Gefrituurde Vietnamese loempia’s (Vietnam)",
         equipment: [
-            "grote mengkom",
-            "houten snijplank",
-            "mes",
-            "diepe pan of friteuse",
-            "schuimspaan",
+            "1 grote mengkom",
+            "1 houten snijplank",
+            "1 mes",
+            "1 diepe pan of friteuse",
+            "1 schuimspaan",
             "keukenpapier",
-            "kleine kom"
+            "1 kleine kom"
         ],
         ingredients: [
             "12 loempiavellen",
-            "200 g fijngehakte rauwe kipfilet",
-            "50 g rijstvermicelli",
+            "200 g rauwe kipfilet fijngehakt",
+            "50 g droge rijstvermicelli",
             "50 g geraspte wortel",
             "40 g geweekte en fijngehakte zwarte paddenstoelen",
-            "2 lente-uitjes, fijngesneden",
+            "2 lente-uitjes fijn gesneden",
             "1 ei",
             "1 eetlepel sojasaus",
             "1 theelepel sesamolie",
@@ -40526,55 +40525,54 @@ recipesData.entree.rouleaux = {
         ],
         preparation:
             "==============================\n" +
-            "VULLING BEREIDEN\n" +
+            "BEREIDING VAN DE VULLING\n" +
             "==============================\n\n" +
             "1. Week de rijstvermicelli 10 minuten in heet water.\n" +
-            "2. Laat uitlekken en hak grof.\n" +
-            "3. Meng kip, vermicelli, wortel, paddenstoelen en lente-ui in een kom.\n" +
-            "4. Voeg ei, sojasaus, sesamolie en peper toe.\n" +
-            "5. Meng tot een glad geheel.\n\n" +
+            "2. Laat goed uitlekken en snijd grof.\n" +
+            "3. Meng in een grote kom de kip, vermicelli, wortel, paddenstoelen en lente-ui.\n" +
+            "4. Voeg het ei, de sojasaus, sesamolie en een snufje peper toe.\n" +
+            "5. Meng tot een homogeen geheel.\n\n" +
             "==============================\n" +
-            "ROLLETJES MAKEN\n" +
+            "VORMEN VAN DE ROLLETJES\n" +
             "==============================\n\n" +
-            "6. Leg een vel met een punt naar je toe.\n" +
+            "6. Leg een vel plat met de punt naar boven.\n" +
             "7. Leg een lepel vulling onderaan.\n" +
-            "8. Vouw onderkant en zijkanten, rol stevig op.\n" +
-            "9. Herhaal tot alles op is.\n\n" +
+            "8. Vouw de onderkant, sla de zijkanten naar binnen en rol strak op.\n" +
+            "9. Herhaal tot de vulling op is.\n\n" +
             "==============================\n" +
             "FRITUREN\n" +
             "==============================\n\n" +
-            "10. Verhit olie tot 170–180°C.\n" +
-            "11. Frituur in porties.\n" +
-            "12. Bak 3–4 minuten goudbruin.\n" +
+            "10. Verhit de olie tot 170–180°C.\n" +
+            "11. Frituur de rolletjes in kleine porties.\n" +
+            "12. Bak 3–4 minuten tot goudbruin en krokant.\n" +
             "13. Laat uitlekken op keukenpapier.\n\n" +
             "==============================\n" +
             "TIP\n" +
             "==============================\n\n" +
-            "Ik raad aan dit gerecht als aperitief te serveren, met een alcoholvrije Aziatische zoetzure saus. " +
-            "Het past perfect bij een alcoholvrije cocktail of een frisdrank en zal zowel uw gasten als uw familie bekoren."
+            "Serveer als aperitief met een alcoholvrije zoetzure Aziatische saus. Heerlijk met een frisdrank of mocktail."
     },
 
     ar: {
-        title: "سبرينغ رولز آسيوية مقلية",
+        title: "لفائف الربيع الفيتنامية المقلية (فيتنام)",
         equipment: [
             "وعاء كبير",
             "لوح تقطيع خشبي",
             "سكين",
             "مقلاة عميقة أو قلاية",
-            "ملعقة مثقوبة",
+            "مغرفة مثقبة",
             "ورق ماص",
             "وعاء صغير"
         ],
         ingredients: [
-            "12 ورقة سبرينغ رول",
-            "200 غ صدر دجاج مفروم ناعماً",
-            "50 غ نودلز أرز",
+            "12 ورقة لفائف",
+            "200 غ صدر دجاج نيئ مفروم ناعماً",
+            "50 غ شعيرية أرز جافة",
             "50 غ جزر مبشور",
             "40 غ فطر أسود منقوع ومفروم",
-            "2 بصل أخضر مفروم",
-            "1 بيضة",
-            "1 ملعقة كبيرة صلصة صويا",
-            "1 ملعقة صغيرة زيت سمسم",
+            "2 بصل أخضر مفروم ناعماً",
+            "بيضة واحدة",
+            "ملعقة كبيرة صلصة صويا",
+            "ملعقة صغيرة زيت سمسم",
             "فلفل أسود",
             "زيت للقلي"
         ],
@@ -40582,30 +40580,29 @@ recipesData.entree.rouleaux = {
             "==============================\n" +
             "تحضير الحشوة\n" +
             "==============================\n\n" +
-            "1. انقع نودلز الأرز في ماء ساخن لمدة 10 دقائق.\n" +
-            "2. صفِّها جيداً وقطّعها قليلاً.\n" +
-            "3. اخلط الدجاج، النودلز، الجزر، الفطر والبصل الأخضر.\n" +
-            "4. أضف البيضة، صلصة الصويا، زيت السمسم والفلفل.\n" +
+            "1. انقع شعيرية الأرز في ماء ساخن لمدة 10 دقائق.\n" +
+            "2. صفِّها جيداً وقطّعها خشناً.\n" +
+            "3. في وعاء كبير اخلط الدجاج، الشعيرية، الجزر، الفطر والبصل الأخضر.\n" +
+            "4. أضف البيضة، صلصة الصويا، زيت السمسم ورشة فلفل.\n" +
             "5. اخلط حتى تتجانس الحشوة.\n\n" +
             "==============================\n" +
-            "لفّ الرولز\n" +
+            "تشكيل اللفائف\n" +
             "==============================\n\n" +
-            "6. ضع الورقة بشكل مائل أمامك.\n" +
+            "6. ضع الورقة بشكل مسطح مع توجيه الطرف للأعلى.\n" +
             "7. ضع ملعقة من الحشوة في الأسفل.\n" +
-            "8. اطوِ الأسفل والجوانب ولف بإحكام.\n" +
-            "9. كرر حتى تنتهي الكمية.\n\n" +
+            "8. اطوِ الأسفل ثم الجانبين ولف بإحكام.\n" +
+            "9. كرر حتى انتهاء الحشوة.\n\n" +
             "==============================\n" +
             "القلي\n" +
             "==============================\n\n" +
-            "10. سخّن الزيت إلى 170–180 درجة.\n" +
-            "11. اقْلِ الرولز على دفعات.\n" +
-            "12. اقْلِ 3–4 دقائق حتى تصبح ذهبية.\n" +
-            "13. ضعها على ورق ماص.\n\n" +
+            "10. سخّن الزيت إلى 170–180 درجة مئوية.\n" +
+            "11. اقلي اللفائف على دفعات.\n" +
+            "12. اقلي 3–4 دقائق حتى تصبح ذهبية ومقرمشة.\n" +
+            "13. صفِّها على ورق ماص.\n\n" +
             "==============================\n" +
             "نصيحة\n" +
             "==============================\n\n" +
-            "أنصح بتقديم هذا الطبق كمقبلات مع صلصة آسيوية حلوة وحامضة خالية من الكحول. " +
-            "يتناسب بشكل رائع مع كوكتيل بدون كحول أو مشروب غازي، وسينال إعجاب الضيوف والعائلة."
+            "يُقدَّم هذا الطبق كمقبلات مع صلصة آسيوية حلوة وحامضة بدون كحول، ويتناسب مع مشروب غازي أو كوكتيل بدون كحول."
     }
 };
 
@@ -40618,8 +40615,11 @@ recipesData.entree.rouleaux = {
 
 
 
+
+
 recipesData.plat.riz_sauté_tofu = {
     country: "asie",
+    countryName: "Chine",
     image: "images/riz_saute_tofu.jpg",
 
     meta: {
@@ -40630,7 +40630,7 @@ recipesData.plat.riz_sauté_tofu = {
     },
 
     fr: {
-        title: "Riz sauté aux légumes et tofu",
+        title: "Riz sauté aux légumes et tofu (Chine)",
         equipment: [
             "1 wok ou grande poêle",
             "1 planche à découper en bois",
@@ -40685,7 +40685,7 @@ recipesData.plat.riz_sauté_tofu = {
     },
 
     en: {
-        title: "Stir-Fried Rice with Vegetables and Tofu",
+        title: "Stir-Fried Rice with Vegetables and Tofu (China)",
         equipment: [
             "wok or large pan",
             "wooden cutting board",
@@ -40740,7 +40740,7 @@ recipesData.plat.riz_sauté_tofu = {
     },
 
     nl: {
-        title: "Gebakken rijst met groenten en tofu",
+        title: "Gebakken rijst met groenten en tofu (China)",
         equipment: [
             "wok of grote pan",
             "houten snijplank",
@@ -40792,7 +40792,7 @@ recipesData.plat.riz_sauté_tofu = {
     },
 
     ar: {
-        title: "أرز مقلي بالخضار والتوفو",
+        title: "أرز مقلي بالخضار والتوفو (الصين)",
         equipment: [
             "ووك أو مقلاة كبيرة",
             "لوح تقطيع خشبي",
@@ -40843,8 +40843,10 @@ recipesData.plat.riz_sauté_tofu = {
             "14. قدّم ساخناً مع البصل الأخضر."
     }
 };
+
 recipesData.plat.riz_sauté_poulet = {
     country: "asie",
+    countryName: "Chine",
     image: "images/riz_saute_poulet.jpg",
 
     meta: {
@@ -40855,7 +40857,7 @@ recipesData.plat.riz_sauté_poulet = {
     },
 
     fr: {
-        title: "Riz sauté au poulet",
+        title: "Riz sauté au poulet (Chine)",
         equipment: [
             "1 wok ou grande poêle",
             "1 planche à découper en bois",
@@ -40904,7 +40906,7 @@ recipesData.plat.riz_sauté_poulet = {
     },
 
     en: {
-        title: "Chicken Fried Rice",
+        title: "Chicken Fried Rice (China)",
         equipment: [
             "wok or large pan",
             "wooden cutting board",
@@ -40953,7 +40955,7 @@ recipesData.plat.riz_sauté_poulet = {
     },
 
     nl: {
-        title: "Gebakken rijst met kip",
+        title: "Gebakken rijst met kip (China)",
         equipment: [
             "wok of grote pan",
             "houten snijplank",
@@ -41001,7 +41003,7 @@ recipesData.plat.riz_sauté_poulet = {
     },
 
     ar: {
-        title: "أرز مقلي بالدجاج",
+        title: "أرز مقلي بالدجاج (الصين)",
         equipment: [
             "ووك أو مقلاة كبيرة",
             "لوح تقطيع خشبي",
@@ -41047,8 +41049,10 @@ recipesData.plat.riz_sauté_poulet = {
             "11. حرّك جيداً وقدّم ساخناً مع البصل الأخضر."
     }
 };
+
 recipesData.plat.riz_sauté_scampi = {
     country: "asie",
+    countryName: "Chine",
     image: "images/riz_saute_scampi.jpg",
 
     meta: {
@@ -41059,7 +41063,7 @@ recipesData.plat.riz_sauté_scampi = {
     },
 
     fr: {
-        title: "Riz sauté aux scampis",
+        title: "Riz sauté aux scampis (Chine)",
         equipment: [
             "1 wok ou grande poêle",
             "1 planche à découper en bois",
@@ -41108,7 +41112,7 @@ recipesData.plat.riz_sauté_scampi = {
     },
 
     en: {
-        title: "Shrimp Fried Rice",
+        title: "Shrimp Fried Rice (China)",
         equipment: [
             "wok or large pan",
             "wooden cutting board",
@@ -41157,7 +41161,7 @@ recipesData.plat.riz_sauté_scampi = {
     },
 
     nl: {
-        title: "Gebakken rijst met scampi’s",
+        title: "Gebakken rijst met scampi’s (China)",
         equipment: [
             "wok of grote pan",
             "houten snijplank",
@@ -41205,7 +41209,7 @@ recipesData.plat.riz_sauté_scampi = {
     },
 
     ar: {
-        title: "أرز مقلي بالروبيان",
+        title: "أرز مقلي بالروبيان (الصين)",
         equipment: [
             "ووك أو مقلاة كبيرة",
             "لوح تقطيع خشبي",
@@ -41261,8 +41265,10 @@ recipesData.plat.riz_sauté_scampi = {
 
 
 
+
 recipesData.dessert.perles_tapioca = {
     country: "asie",
+    countryName: "Thaïlande",
     image: "images/perles_tapioca.jpg",
 
     meta: {
@@ -41273,7 +41279,7 @@ recipesData.dessert.perles_tapioca = {
     },
 
     fr: {
-        title: "Perles de tapioca au lait de coco",
+        title: "Perles de tapioca au lait de coco (Thaïlande)",
         equipment: [
             "1 casserole moyenne",
             "1 cuillère en bois",
@@ -41313,7 +41319,7 @@ recipesData.dessert.perles_tapioca = {
     },
 
     en: {
-        title: "Tapioca Pearls with Coconut Milk",
+        title: "Tapioca Pearls with Coconut Milk (Thailand)",
         equipment: [
             "medium saucepan",
             "wooden spoon",
@@ -41353,7 +41359,7 @@ recipesData.dessert.perles_tapioca = {
     },
 
     nl: {
-        title: "Tapiocaparels met kokosmelk",
+        title: "Tapiocaparels met kokosmelk (Thailand)",
         equipment: [
             "middelgrote pan",
             "houten lepel",
@@ -41393,7 +41399,7 @@ recipesData.dessert.perles_tapioca = {
     },
 
     ar: {
-        title: "لؤلؤ التابيوكا بحليب جوز الهند",
+        title: "لؤلؤ التابيوكا بحليب جوز الهند (تايلاند)",
         equipment: [
             "قدر متوسط",
             "ملعقة خشبية",
@@ -41434,6 +41440,7 @@ recipesData.dessert.perles_tapioca = {
 };
 recipesData.patisserie.mochis_the_vert = {
     country: "asie",
+    countryName: "Japon",
     image: "images/mochis_the_vert.jpg",
 
     meta: {
@@ -41444,7 +41451,7 @@ recipesData.patisserie.mochis_the_vert = {
     },
 
     fr: {
-        title: "Mochis au thé vert",
+        title: "Mochis au thé vert (Japon)",
         equipment: [
             "1 bol moyen",
             "1 cuillère en bois",
@@ -41490,7 +41497,7 @@ recipesData.patisserie.mochis_the_vert = {
     },
 
     en: {
-        title: "Green Tea Mochi",
+        title: "Green Tea Mochi (Japan)",
         equipment: [
             "medium bowl",
             "wooden spoon",
@@ -41536,7 +41543,7 @@ recipesData.patisserie.mochis_the_vert = {
     },
 
     nl: {
-        title: "Mochi met groene thee",
+        title: "Mochi met groene thee (Japon)",
         equipment: [
             "middelgrote kom",
             "houten lepel",
@@ -41582,7 +41589,7 @@ recipesData.patisserie.mochis_the_vert = {
     },
 
     ar: {
-        title: "موشي بالشاي الأخضر",
+        title: "موشي بالشاي الأخضر (اليابان)",
         equipment: [
             "وعاء متوسط",
             "ملعقة خشبية",
@@ -41636,10 +41643,55 @@ recipesData.patisserie.mochis_the_vert = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 recipesData.entree.salade_mechouia = {
     country: "afrique",
-    countryName: "algerie",
-    image: "images/salade-mechouia.jpg",
+    countryName: "Tunisie",
+    image: "images/salade-mechouia.tunisie.jpg",
 
     meta: {
         servings: 4,
@@ -41649,7 +41701,7 @@ recipesData.entree.salade_mechouia = {
     },
 
     fr: {
-        title: "Salade Mechouia",
+        title: "Salade Mechouia (Tunisie)",
         equipment: [
             "1 poêle, grill ou four",
             "1 couteau",
@@ -41670,7 +41722,6 @@ recipesData.entree.salade_mechouia = {
             "10 olives noires pour la garniture"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Griller les tomates et les poivrons sur une poêle, un grill ou au four jusqu’à ce que la peau soit bien noircie.\n" +
             "2. Les laisser tiédir, puis les peler et retirer les graines.\n" +
             "3. Hacher grossièrement la chair des tomates et des poivrons ou les écraser légèrement.\n" +
@@ -41683,7 +41734,7 @@ recipesData.entree.salade_mechouia = {
     },
 
     en: {
-        title: "Mechouia Salad",
+        title: "Mechouia Salad (Tunisie)",
         equipment: [
             "pan, grill or oven",
             "knife",
@@ -41704,7 +41755,6 @@ recipesData.entree.salade_mechouia = {
             "10 black olives for garnish"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Grill tomatoes and peppers on a pan, grill, or in the oven until skins are well charred.\n" +
             "2. Let cool slightly, then peel and remove seeds.\n" +
             "3. Roughly chop or lightly crush the vegetables.\n" +
@@ -41717,7 +41767,7 @@ recipesData.entree.salade_mechouia = {
     },
 
     nl: {
-        title: "Mechouia salade",
+        title: "Mechouia salade (Tunisie)",
         equipment: [
             "pan, grill of oven",
             "mes",
@@ -41738,7 +41788,6 @@ recipesData.entree.salade_mechouia = {
             "10 zwarte olijven voor garnering"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Grill tomaten en paprika’s in een pan, op de grill of in de oven tot de schil goed zwart is.\n" +
             "2. Laat iets afkoelen, pel ze en verwijder de zaden.\n" +
             "3. Hak de groenten grof of druk ze licht fijn.\n" +
@@ -41751,7 +41800,7 @@ recipesData.entree.salade_mechouia = {
     },
 
     ar: {
-        title: "سلطة مشوية",
+        title: "سلطة مشوية (تونس)",
         equipment: [
             "مقلاة أو شواية أو فرن",
             "سكين",
@@ -41772,7 +41821,6 @@ recipesData.entree.salade_mechouia = {
             "10 زيتون أسود للتزيين"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اشوِ الطماطم والفلفل في المقلاة أو الشواية أو الفرن حتى تسود القشرة.\n" +
             "2. اتركها تبرد قليلاً ثم قشّرها وأزل البذور.\n" +
             "3. افرم الخضار المشوية فرمًا خشنًا أو اسحقها قليلاً.\n" +
@@ -41787,9 +41835,7 @@ recipesData.entree.salade_mechouia = {
 recipesData.entree.tajine_malsouka = {
     country: "afrique",
     countryName: "Tunisie",
-    image: [
-        "images/tajine-malsouka-tajine.jpg"
-    ],
+    image: "images/tajine-malsouka.jpg",
 
     meta: {
         servings: 4,
@@ -41799,7 +41845,7 @@ recipesData.entree.tajine_malsouka = {
     },
 
     fr: {
-        title: "Tajine Malsouka",
+        title: "Tajine Malsouka (Tunisie)",
         equipment: [
             "1 tajine avec couvercle",
             "1 plat allant au four",
@@ -41850,7 +41896,7 @@ recipesData.entree.tajine_malsouka = {
     },
 
     en: {
-        title: "Tajine Malsouka",
+        title: "Tajine Malsouka (Tunisie)",
         equipment: [
             "tajine with lid",
             "oven dish",
@@ -41900,7 +41946,7 @@ recipesData.entree.tajine_malsouka = {
     },
 
     nl: {
-        title: "Tajine malsouka",
+        title: "Tajine malsouka (Tunisie)",
         equipment: [
             "tajine met deksel",
             "ovenschaal",
@@ -41946,7 +41992,7 @@ recipesData.entree.tajine_malsouka = {
     },
 
     ar: {
-        title: "طاجين ملسوقة",
+        title: "طاجين ملسوقة (Tunisie)",
         equipment: [
             "طاجين بغطاء",
             "صينية فرن",
@@ -41990,28 +42036,20 @@ recipesData.entree.tajine_malsouka = {
             "6. اطهه على نار هادئة 30–35 دقيقة."
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// 3️⃣ Ojja Tunisienne
 recipesData.entree.ojja = {
     country: "afrique",
-    countryName: "tunisie",
+    countryName: "Tunisie",
     image: "images/ojja.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Ojja Tunisienne (Tunisie, 4 personnes)",
+        title: "Ojja (Tunisie)",
         equipment: [
             "1 poêle moyenne",
             "1 couteau",
@@ -42033,7 +42071,6 @@ recipesData.entree.ojja = {
             "1/4 cuillère à café poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Hacher l’oignon, l’ail et le poivron.\n" +
             "2. Couper les tomates en petits dés.\n" +
             "3. Chauffer l’huile dans la poêle, faire revenir l’oignon et l’ail 3 min.\n" +
@@ -42043,15 +42080,16 @@ recipesData.entree.ojja = {
             "7. Couvrir et cuire 5 min jusqu’à ce que les œufs soient pris.\n" +
             "8. Servir chaud avec du pain."
     },
+
     en: {
-        title: "Tunisian Ojja (Serves 4)",
+        title: "Ojja (Tunisie)",
         equipment: [
-            "1 medium frying pan",
+            "medium frying pan",
             "knife",
             "cutting board",
-            "1 bowl",
-            "1 spoon",
-            "1 plate"
+            "bowl",
+            "spoon",
+            "plate"
         ],
         ingredients: [
             "4 eggs",
@@ -42066,7 +42104,6 @@ recipesData.entree.ojja = {
             "1/4 tsp pepper"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Chop onion, garlic, and green pepper.\n" +
             "2. Dice tomatoes.\n" +
             "3. Heat oil in pan, sauté onion and garlic 3 min.\n" +
@@ -42076,15 +42113,16 @@ recipesData.entree.ojja = {
             "7. Cover and cook 5 min until eggs set.\n" +
             "8. Serve hot with bread."
     },
+
     nl: {
-        title: "Tuinse Ojja (voor 4 personen)",
+        title: "Ojja (Tunisie)",
         equipment: [
-            "1 middelgrote pan",
+            "middelgrote pan",
             "mes",
             "snijplank",
-            "1 kom",
-            "1 lepel",
-            "1 bord"
+            "kom",
+            "lepel",
+            "bord"
         ],
         ingredients: [
             "4 eieren",
@@ -42099,7 +42137,6 @@ recipesData.entree.ojja = {
             "1/4 tl peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Snipper ui, knoflook en groene paprika.\n" +
             "2. Snijd tomaten in kleine blokjes.\n" +
             "3. Verhit olie in pan, bak ui en knoflook 3 min.\n" +
@@ -42109,21 +42146,22 @@ recipesData.entree.ojja = {
             "7. Dek af en bak 5 min tot eieren gaar zijn.\n" +
             "8. Serveer warm met brood."
     },
+
     ar: {
-        title: "عجة تونسية (تونس، تكفي 4 أشخاص)",
+        title: "عجة (تونس)",
         equipment: [
-            "1 مقلاة متوسطة",
+            "مقلاة متوسطة",
             "سكين",
             "لوح تقطيع",
-            "1 وعاء",
-            "1 ملعقة",
-            "1 طبق"
+            "وعاء",
+            "ملعقة",
+            "طبق"
         ],
         ingredients: [
             "4 بيضات",
             "200 غ مرقاز أو لحم مفروم",
             "2 طماطم (300 غ)",
-            "1 بصل متوسط (100 غ)",
+            "بصل متوسط (100 غ)",
             "2 فص ثوم",
             "1/2 فلفل أخضر (100 غ)",
             "30 مل زيت زيتون",
@@ -42132,25 +42170,30 @@ recipesData.entree.ojja = {
             "1/4 ملعقة صغيرة فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. افرم البصل والثوم والفلفل الأخضر.\n" +
             "2. قطّع الطماطم إلى مكعبات صغيرة.\n" +
-            "3. سخّن الزيت في المقلاة، قلب البصل والثوم 3 دقائق.\n" +
-            "4. أضف الفلفل واللحم، اطه 5 دقائق.\n" +
-            "5. أضف الطماطم والملح والفلفل والهريسة، اطه 10 دقائق حتى يتقلص الخليط.\n" +
-            "6. اصنع 4 حفر في الصلصة، اكسر بيضة في كل حفرة.\n" +
-            "7. غطّ المقلاة واطه 5 دقائق حتى ينضج البيض.\n" +
+            "3. سخّن الزيت في المقلاة وقلّب البصل والثوم لمدة 3 دقائق.\n" +
+            "4. أضف الفلفل واللحم واطه 5 دقائق.\n" +
+            "5. أضف الطماطم والملح والفلفل والهريسة واطه 10 دقائق حتى يتكاثف الخليط.\n" +
+            "6. اصنع أربع حفر في الصلصة وضع بيضة في كل حفرة.\n" +
+            "7. غطِّ المقلاة واطه 5 دقائق حتى ينضج البيض.\n" +
             "8. قدّم ساخناً مع الخبز."
     }
 };
-
-// 4️⃣ Chakchouka
 recipesData.entree.chakchouka = {
     country: "afrique",
     countryName: "tunisie",
     image: "images/chakchouka.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 23,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Chakchouka (Tunisie, 4 personnes)",
+        title: "Chakchouka (Tunisie)",
         equipment: [
             "1 poêle",
             "1 couteau",
@@ -42171,7 +42214,6 @@ recipesData.entree.chakchouka = {
             "1/2 cuillère à café paprika"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Couper les tomates, poivron et oignon en dés.\n" +
             "2. Chauffer l’huile dans la poêle, faire revenir l’oignon et l’ail 3 min.\n" +
             "3. Ajouter le poivron et cuire 5 min.\n" +
@@ -42180,8 +42222,9 @@ recipesData.entree.chakchouka = {
             "6. Couvrir et cuire 5 min jusqu’à ce que les œufs soient pris.\n" +
             "7. Servir chaud."
     },
+
     en: {
-        title: "Chakchouka (Tunisia, Serves 4)",
+        title: "Chakchouka (Tunisia)",
         equipment: [
             "1 pan",
             "knife",
@@ -42202,7 +42245,6 @@ recipesData.entree.chakchouka = {
             "1/2 tsp paprika"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Dice tomatoes, pepper, and onion.\n" +
             "2. Heat oil in pan, sauté onion and garlic 3 min.\n" +
             "3. Add pepper and cook 5 min.\n" +
@@ -42211,8 +42253,9 @@ recipesData.entree.chakchouka = {
             "6. Cover and cook 5 min until eggs set.\n" +
             "7. Serve hot."
     },
+
     nl: {
-        title: "Chakchouka (Tunesië, voor 4 personen)",
+        title: "Chakchouka (Tunesië)",
         equipment: [
             "1 pan",
             "mes",
@@ -42233,17 +42276,17 @@ recipesData.entree.chakchouka = {
             "1/2 tl paprika"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Snijd tomaten, paprika en ui in blokjes.\n" +
             "2. Verhit olie in pan, bak ui en knoflook 3 min.\n" +
             "3. Voeg paprika toe en bak 5 min.\n" +
-            "4. Voeg tomaten, zout, peper, paprika toe, bak 10 min tot ingedikt.\n" +
+            "4. Voeg tomaten, zout, peper en paprika toe, bak 10 min tot ingedikt.\n" +
             "5. Maak 4 kuiltjes en breek een ei in elk.\n" +
             "6. Dek af en bak 5 min tot eieren gaar zijn.\n" +
             "7. Serveer warm."
     },
+
     ar: {
-        title: "شكشوكة (تونس، تكفي 4 أشخاص)",
+        title: "شكشوكة (تونس)",
         equipment: [
             "1 مقلاة",
             "سكين",
@@ -42264,23 +42307,29 @@ recipesData.entree.chakchouka = {
             "1/2 ملعقة صغيرة بابريكا"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قطّع الطماطم والفلفل والبصل إلى مكعبات.\n" +
-            "2. سخّن الزيت في المقلاة، قلب البصل والثوم 3 دقائق.\n" +
-            "3. أضف الفلفل واطه 5 دقائق.\n" +
-            "4. أضف الطماطم والملح والفلفل والبابريكا، اطه 10 دقائق حتى يتماسك.\n" +
+            "2. سخّن الزيت في المقلاة وقلّب البصل والثوم لمدة 3 دقائق.\n" +
+            "3. أضف الفلفل واطهه لمدة 5 دقائق.\n" +
+            "4. أضف الطماطم والملح والفلفل والبابريكا واطهه لمدة 10 دقائق حتى يتماسك.\n" +
             "5. اصنع 4 حفر في الخليط واكسر بيضة في كل حفرة.\n" +
-            "6. غطّ المقلاة واطه 5 دقائق حتى ينضج البيض.\n" +
+            "6. غطِّ المقلاة واطهه لمدة 5 دقائق حتى ينضج البيض.\n" +
             "7. قدّم ساخناً."
     }
 };
-// 5️⃣ Salade Méchouia
 recipesData.entree.salade_mechouia = {
     country: "afrique",
     countryName: "tunisie",
     image: "images/salade_mechouia.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade Méchouia (Tunisie, 4 personnes)",
+        title: "Salade Méchouia (Tunisie)",
         equipment: [
             "1 grille ou four",
             "1 couteau",
@@ -42300,7 +42349,6 @@ recipesData.entree.salade_mechouia = {
             "1/2 cuillère à café paprika"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four ou préparer la grille pour griller les légumes.\n" +
             "2. Griller les tomates, poivrons et oignon jusqu’à ce que la peau soit noire et cloquée.\n" +
             "3. Laisser refroidir quelques minutes, puis retirer la peau et épépiner.\n" +
@@ -42308,8 +42356,9 @@ recipesData.entree.salade_mechouia = {
             "5. Ajouter l’huile d’olive, le sel, le poivre et le paprika.\n" +
             "6. Mélanger bien et servir à température ambiante."
     },
+
     en: {
-        title: "Méchouia Salad (Tunisia, Serves 4)",
+        title: "Méchouia Salad (Tunisia)",
         equipment: [
             "1 grill or oven",
             "knife",
@@ -42329,7 +42378,6 @@ recipesData.entree.salade_mechouia = {
             "1/2 tsp paprika"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven or prepare grill to roast vegetables.\n" +
             "2. Roast tomatoes, peppers, and onion until skin is blackened and blistered.\n" +
             "3. Let cool a few minutes, peel and deseed.\n" +
@@ -42337,8 +42385,9 @@ recipesData.entree.salade_mechouia = {
             "5. Add olive oil, salt, pepper, paprika.\n" +
             "6. Mix well and serve at room temperature."
     },
+
     nl: {
-        title: "Méchouia salade (Tunesië, voor 4 personen)",
+        title: "Méchouia salade (Tunesië)",
         equipment: [
             "1 grill of oven",
             "mes",
@@ -42358,7 +42407,6 @@ recipesData.entree.salade_mechouia = {
             "1/2 tl paprika"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm oven of bereid grill om groenten te roosteren.\n" +
             "2. Rooster tomaten, paprika’s en ui tot de schil zwart en geblakerd is.\n" +
             "3. Laat enkele minuten afkoelen, pel en verwijder zaden.\n" +
@@ -42366,15 +42414,16 @@ recipesData.entree.salade_mechouia = {
             "5. Voeg olijfolie, zout, peper en paprika toe.\n" +
             "6. Meng goed en serveer op kamertemperatuur."
     },
+
     ar: {
-        title: "سلطة مشوية (تونس، تكفي 4 أشخاص)",
+        title: "سلطة مشوية (تونس)",
         equipment: [
-            "1 شواية أو فرن",
+            "شواية أو فرن",
             "سكين",
             "لوح تقطيع",
-            "1 وعاء",
-            "1 ملعقة",
-            "1 طبق"
+            "وعاء",
+            "ملعقة",
+            "طبق"
         ],
         ingredients: [
             "4 طماطم (500 غ)",
@@ -42387,23 +42436,28 @@ recipesData.entree.salade_mechouia = {
             "1/2 ملعقة صغيرة بابريكا"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخّن الفرن أو حضّر الشواية لشوي الخضار.\n" +
-            "2. اشوي الطماطم والفلفل والبصل حتى تصبح القشرة سوداء ومتقرّحة.\n" +
+            "2. اشوِ الطماطم والفلفل والبصل حتى تصبح القشرة سوداء ومتقرّحة.\n" +
             "3. اتركها تبرد قليلاً، قشرها وأزل البذور.\n" +
             "4. افرم الخضار والثوم ناعماً وضعها في وعاء.\n" +
             "5. أضف زيت الزيتون والملح والفلفل والبابريكا.\n" +
             "6. اخلط جيداً وقدّمها في درجة حرارة الغرفة."
     }
 };
-
-// 6️⃣ Salade Méchouia aux Œufs durs
 recipesData.entree.salade_mechouia_oeufs = {
     country: "afrique",
     countryName: "tunisie",
     image: "images/salade_mechouia_oeufs.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade Méchouia aux œufs durs (Tunisie, 4 personnes)",
+        title: "Salade Méchouia aux œufs durs (Tunisie)",
         equipment: [
             "1 bol",
             "1 couteau",
@@ -42424,17 +42478,17 @@ recipesData.entree.salade_mechouia_oeufs = {
             "1/2 cuillère à café paprika"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire cuire les œufs dans de l’eau bouillante 10 min, refroidir et écaler.\n" +
+            "1. Faire cuire les œufs dans de l’eau bouillante 10 minutes, puis refroidir et écaler.\n" +
             "2. Couper les tomates, poivrons et oignon en dés.\n" +
-            "3. Chauffer l’huile dans une poêle, faire revenir l’oignon et l’ail 3 min.\n" +
-            "4. Ajouter les poivrons et cuire 5 min.\n" +
-            "5. Ajouter les tomates, sel, poivre et paprika, cuire 10 min jusqu’à épaississement.\n" +
-            "6. Couper les œufs durs en quartiers et ajouter à la salade.\n" +
+            "3. Chauffer l’huile dans une poêle, faire revenir l’oignon et l’ail 3 minutes.\n" +
+            "4. Ajouter les poivrons et cuire 5 minutes.\n" +
+            "5. Ajouter les tomates, le sel, le poivre et le paprika, puis cuire 10 minutes jusqu’à épaississement.\n" +
+            "6. Couper les œufs durs en quartiers et les ajouter à la salade.\n" +
             "7. Mélanger doucement et servir."
     },
+
     en: {
-        title: "Méchouia Salad with Boiled Eggs (Tunisia, Serves 4)",
+        title: "Méchouia Salad with Boiled Eggs (Tunisia)",
         equipment: [
             "1 bowl",
             "knife",
@@ -42455,17 +42509,17 @@ recipesData.entree.salade_mechouia_oeufs = {
             "1/2 tsp paprika"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Boil eggs 10 min, cool and peel.\n" +
-            "2. Dice tomatoes, peppers, and onion.\n" +
-            "3. Heat oil in pan, sauté onion and garlic 3 min.\n" +
-            "4. Add peppers and cook 5 min.\n" +
-            "5. Add tomatoes, salt, pepper, paprika, cook 10 min until thick.\n" +
-            "6. Cut boiled eggs into quarters and add to salad.\n" +
+            "1. Boil the eggs for 10 minutes, then cool and peel.\n" +
+            "2. Dice the tomatoes, peppers and onion.\n" +
+            "3. Heat the oil in a pan and sauté the onion and garlic for 3 minutes.\n" +
+            "4. Add the peppers and cook for 5 minutes.\n" +
+            "5. Add the tomatoes, salt, pepper and paprika, then cook for 10 minutes until thickened.\n" +
+            "6. Cut the boiled eggs into quarters and add to the salad.\n" +
             "7. Mix gently and serve."
     },
+
     nl: {
-        title: "Méchouia salade met hardgekookte eieren (Tunesië, voor 4 personen)",
+        title: "Méchouia salade met hardgekookte eieren (Tunesië)",
         equipment: [
             "1 kom",
             "mes",
@@ -42486,24 +42540,24 @@ recipesData.entree.salade_mechouia_oeufs = {
             "1/2 tl paprika"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Kook de eieren 10 min, laat afkoelen en pel.\n" +
-            "2. Snijd tomaten, paprika’s en ui in blokjes.\n" +
-            "3. Verhit olie in pan, bak ui en knoflook 3 min.\n" +
-            "4. Voeg paprika’s toe en bak 5 min.\n" +
-            "5. Voeg tomaten, zout, peper, paprika toe, bak 10 min tot ingedikt.\n" +
+            "1. Kook de eieren 10 minuten, laat afkoelen en pel ze.\n" +
+            "2. Snijd de tomaten, paprika’s en ui in blokjes.\n" +
+            "3. Verhit de olie in een pan en bak de ui en knoflook 3 minuten.\n" +
+            "4. Voeg de paprika’s toe en bak 5 minuten.\n" +
+            "5. Voeg de tomaten, het zout, de peper en de paprika toe en bak 10 minuten tot het geheel indikt.\n" +
             "6. Snijd de eieren in kwarten en voeg toe aan de salade.\n" +
             "7. Meng voorzichtig en serveer."
     },
+
     ar: {
-        title: "سلطة مشوية مع البيض المسلوق (تونس، تكفي 4 أشخاص)",
+        title: "سلطة مشوية مع البيض المسلوق (تونس)",
         equipment: [
-            "1 وعاء",
+            "وعاء",
             "سكين",
             "لوح تقطيع",
-            "1 قدر",
-            "1 ملعقة",
-            "1 طبق"
+            "قدر",
+            "ملعقة",
+            "طبق"
         ],
         ingredients: [
             "4 بيضات",
@@ -42517,24 +42571,24 @@ recipesData.entree.salade_mechouia_oeufs = {
             "1/2 ملعقة صغيرة بابريكا"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اسلق البيض 10 دقائق، اتركه يبرد وقشره.\n" +
+            "1. اسلق البيض لمدة 10 دقائق ثم اتركه يبرد وقشّره.\n" +
             "2. قطّع الطماطم والفلفل والبصل إلى مكعبات.\n" +
-            "3. سخّن الزيت في المقلاة، قلب البصل والثوم 3 دقائق.\n" +
-            "4. أضف الفلفل واطه 5 دقائق.\n" +
-            "5. أضف الطماطم والملح والفلفل والبابريكا، اطه 10 دقائق حتى يتماسك.\n" +
+            "3. سخّن الزيت في المقلاة وقلّب البصل والثوم لمدة 3 دقائق.\n" +
+            "4. أضف الفلفل واطهه لمدة 5 دقائق.\n" +
+            "5. أضف الطماطم والملح والفلفل والبابريكا واطهه لمدة 10 دقائق حتى يتماسك.\n" +
             "6. قطّع البيض المسلوق إلى أرباع وأضفه إلى السلطة.\n" +
-            "7. اخلط بلطف وقدّمها."
+            "7. اخلط برفق وقدّم."
     }
 };
-
-// 7️⃣ Salade Tunisienne aux Pois Chiches
 recipesData.entree.salade_tunisienne_pois_chiches = {
     country: "afrique",
     countryName: "tunisie",
     image: "images/salade_tunisienne_pois_chiches.jpg",
+    meta: {
+        servings: 4
+    },
     fr: {
-        title: "Salade Tunisienne aux pois chiches (Tunisie, 4 personnes)",
+        title: "Salade tunisienne aux pois chiches (Tunisie)",
         equipment: [
             "1 bol",
             "1 couteau",
@@ -42554,14 +42608,13 @@ recipesData.entree.salade_tunisienne_pois_chiches = {
             "1/2 cuillère à café cumin moulu"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Couper les tomates, concombre et oignon en petits dés.\n" +
             "2. Mettre les pois chiches dans un bol, ajouter les légumes.\n" +
             "3. Ajouter l’huile d’olive et les épices.\n" +
             "4. Mélanger délicatement et servir frais."
     },
     en: {
-        title: "Tunisian Chickpea Salad (Serves 4)",
+        title: "Tunisian chickpea salad (Tunisia)",
         equipment: [
             "1 bowl",
             "knife",
@@ -42581,14 +42634,13 @@ recipesData.entree.salade_tunisienne_pois_chiches = {
             "1/2 tsp ground cumin"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Dice tomatoes, cucumber, and onion.\n" +
             "2. Place chickpeas in bowl, add vegetables.\n" +
             "3. Add olive oil and spices.\n" +
             "4. Mix gently and serve chilled."
     },
     nl: {
-        title: "Tunesische kikkererwtensalade (voor 4 personen)",
+        title: "Tunesische kikkererwtensalade (Tunisie)",
         equipment: [
             "1 kom",
             "mes",
@@ -42608,14 +42660,13 @@ recipesData.entree.salade_tunisienne_pois_chiches = {
             "1/2 tl gemalen komijn"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Snijd tomaten, komkommer en ui in kleine blokjes.\n" +
             "2. Doe de kikkererwten in een kom, voeg groenten toe.\n" +
             "3. Voeg olijfolie en specerijen toe.\n" +
             "4. Meng voorzichtig en serveer koud."
     },
     ar: {
-        title: "سلطة تونسية بالحمص (تونس، تكفي 4 أشخاص)",
+        title: "سلطة تونسية بالحمص (تونس)",
         equipment: [
             "1 وعاء",
             "سكين",
@@ -42635,21 +42686,21 @@ recipesData.entree.salade_tunisienne_pois_chiches = {
             "1/2 ملعقة صغيرة كمون مطحون"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قطّع الطماطم والخيار والبصل إلى مكعبات صغيرة.\n" +
             "2. ضع الحمص في وعاء، أضف الخضار.\n" +
             "3. أضف زيت الزيتون والتوابل.\n" +
             "4. اخلط بلطف وقدّمها باردة."
     }
 };
-
-// 8️⃣ Salade Tunisienne aux Carottes et Pois Chiches
 recipesData.entree.salade_tunisienne_carottes_pois_chiches = {
     country: "afrique",
     countryName: "tunisie",
     image: "images/salade_carottes_pois_chiches.jpg",
+    meta: {
+        servings: 4
+    },
     fr: {
-        title: "Salade Tunisienne carottes et pois chiches (Tunisie, 4 personnes)",
+        title: "Salade tunisienne carottes et pois chiches (Tunisie)",
         equipment: [
             "1 bol",
             "1 couteau",
@@ -42667,14 +42718,13 @@ recipesData.entree.salade_tunisienne_carottes_pois_chiches = {
             "1/2 cuillère à café cumin"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Râper les carottes et couper l’oignon en petits dés.\n" +
             "2. Mettre les pois chiches dans un bol, ajouter carottes et oignon.\n" +
             "3. Ajouter huile d’olive, sel, poivre et cumin.\n" +
             "4. Mélanger délicatement et servir."
     },
     en: {
-        title: "Tunisian Carrot and Chickpea Salad (Serves 4)",
+        title: "Tunisian carrot and chickpea salad (Tunisie)",
         equipment: [
             "1 bowl",
             "knife",
@@ -42692,14 +42742,13 @@ recipesData.entree.salade_tunisienne_carottes_pois_chiches = {
             "1/2 tsp cumin"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Grate carrots and dice onion.\n" +
             "2. Place chickpeas in bowl, add carrots and onion.\n" +
             "3. Add olive oil, salt, pepper, cumin.\n" +
             "4. Mix gently and serve."
     },
     nl: {
-        title: "Tunesische wortel en kikkererwtensalade (voor 4 personen)",
+        title: "Tunesische wortel en kikkererwtensalade (Tunisie)",
         equipment: [
             "1 kom",
             "mes",
@@ -42717,14 +42766,13 @@ recipesData.entree.salade_tunisienne_carottes_pois_chiches = {
             "1/2 tl komijn"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Rasp wortels en snijd ui in blokjes.\n" +
             "2. Doe de kikkererwten in een kom, voeg wortels en ui toe.\n" +
             "3. Voeg olijfolie, zout, peper en komijn toe.\n" +
             "4. Meng voorzichtig en serveer."
     },
     ar: {
-        title: "سلطة تونسية بالجزر والحمص (تونس، تكفي 4 أشخاص)",
+        title: "سلطة تونسية بالجزر والحمص (تونس)",
         equipment: [
             "1 وعاء",
             "سكين",
@@ -42742,21 +42790,26 @@ recipesData.entree.salade_tunisienne_carottes_pois_chiches = {
             "1/2 ملعقة صغيرة كمون"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. ابشر الجزر وقطّع البصل إلى مكعبات.\n" +
             "2. ضع الحمص في وعاء، أضف الجزر والبصل.\n" +
             "3. أضف زيت الزيتون والملح والفلفل والكمون.\n" +
             "4. اخلط بلطف وقدّمها."
     }
 };
-
-
 recipesData.entree.brik_oeuf = {
     country: "afrique",
-    countryName: "tunisie",
+    countryName: "Tunisie",
     image: "images/brik_oeuf.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Brik à l’œuf (Tunisie, 4 personnes)",
+        title: "Brik à l’œuf (Tunisie)",
         equipment: [
             "1 poêle moyenne",
             "1 bol",
@@ -42776,20 +42829,20 @@ recipesData.entree.brik_oeuf = {
             "Huile de tournesol pour friture (environ 200 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préparer tous les ingrédients et couper le persil finement.\n" +
             "2. Égoutter le thon et mélanger avec les câpres et le persil dans un bol.\n" +
             "3. Chauffer l’huile de tournesol dans la poêle à feu moyen.\n" +
-            "4. Plier chaque feuille de brick en deux, placer le mélange de thon au centre.\n" +
+            "4. Plier chaque feuille de brick en deux et placer le mélange de thon au centre.\n" +
             "5. Casser un œuf au-dessus du mélange.\n" +
             "6. Plier les bords pour former un triangle bien fermé.\n" +
             "7. Déposer délicatement dans la poêle chaude.\n" +
-            "8. Cuire 2-3 min de chaque côté jusqu’à ce que la feuille soit dorée et croustillante.\n" +
+            "8. Cuire 2 à 3 minutes de chaque côté jusqu’à ce que la feuille soit dorée et croustillante.\n" +
             "9. Égoutter sur du papier absorbant.\n" +
             "10. Servir immédiatement."
     },
+
     en: {
-        title: "Tunisian Brik with Egg (Serves 4)",
+        title: "Tunisian Brik with Egg (Tunisie)",
         equipment: [
             "1 medium frying pan",
             "1 bowl",
@@ -42809,20 +42862,20 @@ recipesData.entree.brik_oeuf = {
             "Sunflower oil for frying (about 200 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Prepare all ingredients and chop parsley finely.\n" +
-            "2. Drain tuna and mix with capers and parsley in a bowl.\n" +
-            "3. Heat sunflower oil in a frying pan over medium heat.\n" +
-            "4. Fold each brick sheet in half, place tuna mixture in the center.\n" +
+            "1. Prepare all ingredients and finely chop the parsley.\n" +
+            "2. Drain the tuna and mix with capers and parsley in a bowl.\n" +
+            "3. Heat the sunflower oil in the frying pan over medium heat.\n" +
+            "4. Fold each brick sheet in half and place the tuna mixture in the center.\n" +
             "5. Crack an egg over the mixture.\n" +
-            "6. Fold edges to form a secure triangle.\n" +
-            "7. Carefully place in hot pan.\n" +
-            "8. Cook 2-3 min each side until golden and crispy.\n" +
+            "6. Fold the edges to form a tight triangle.\n" +
+            "7. Carefully place in the hot pan.\n" +
+            "8. Cook for 2 to 3 minutes on each side until golden and crispy.\n" +
             "9. Drain on paper towel.\n" +
             "10. Serve immediately."
     },
+
     nl: {
-        title: "Tuinse Brik met Ei (voor 4 personen)",
+        title: "Tunesische Brik met Ei (Tunisie)",
         equipment: [
             "1 middelgrote koekenpan",
             "1 kom",
@@ -42837,64 +42890,87 @@ recipesData.entree.brik_oeuf = {
             "4 eieren",
             "100 g tonijn uit blik, uitgelekt",
             "1 eetlepel kappertjes (10 g)",
-            "1 eetlepel verse peterselie, gehakt (5 g)",
+            "1 eetlepel verse peterselie, fijngehakt (5 g)",
             "Zout en peper naar smaak",
             "Zonnebloemolie om te frituren (ongeveer 200 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Bereid alle ingrediënten en hak de peterselie fijn.\n" +
             "2. Laat de tonijn uitlekken en meng met kappertjes en peterselie in een kom.\n" +
-            "3. Verhit de zonnebloemolie in een koekenpan op middelhoog vuur.\n" +
-            "4. Vouw elk brickvel dubbel, plaats het tonijnmengsel in het midden.\n" +
+            "3. Verhit de zonnebloemolie in de koekenpan op middelhoog vuur.\n" +
+            "4. Vouw elk brickvel dubbel en leg het tonijnmengsel in het midden.\n" +
             "5. Breek een ei boven het mengsel.\n" +
-            "6. Vouw de randen tot een stevige driehoek.\n" +
-            "7. Plaats voorzichtig in de hete pan.\n" +
-            "8. Bak 2-3 minuten per kant tot goudbruin en krokant.\n" +
+            "6. Vouw de randen tot een goed gesloten driehoek.\n" +
+            "7. Leg voorzichtig in de hete pan.\n" +
+            "8. Bak 2 tot 3 minuten per kant tot goudbruin en krokant.\n" +
             "9. Laat uitlekken op keukenpapier.\n" +
             "10. Serveer direct."
     },
+
     ar: {
-        title: "بريك بالبيض (تونس، تكفي 4 أشخاص)",
+        title: "بريك بالبيض (تونس)",
         equipment: [
-            "1 مقلاة متوسطة",
-            "1 وعاء",
-            "1 ملعقة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 طبق",
-            "1 مصفاة"
+            "مقلاة متوسطة",
+            "وعاء",
+            "ملعقة",
+            "سكين",
+            "لوح تقطيع",
+            "طبق",
+            "مصفاة"
         ],
         ingredients: [
             "4 أوراق بريك",
             "4 بيضات",
             "100 غ تونة معلبة، مصفاة",
-            "1 ملعقة كبيرة كابر (10 غ)",
-            "1 ملعقة كبيرة بقدونس طازج مفروم (5 غ)",
+            "ملعقة كبيرة كابر (10 غ)",
+            "ملعقة كبيرة بقدونس طازج مفروم (5 غ)",
             "ملح وفلفل حسب الذوق",
             "زيت دوار الشمس للقلي (حوالي 200 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضّر جميع المكونات وقطع البقدونس ناعماً.\n" +
-            "2. صفي التونة وامزجها مع الكابر والبقدونس في وعاء.\n" +
+            "1. حضّر جميع المكونات وافرُم البقدونس ناعماً.\n" +
+            "2. صفِّ التونة وامزجها مع الكابر والبقدونس في وعاء.\n" +
             "3. سخّن زيت دوار الشمس في المقلاة على نار متوسطة.\n" +
             "4. اطوِ كل ورقة بريك إلى النصف وضع خليط التونة في الوسط.\n" +
             "5. اكسر بيضة فوق الخليط.\n" +
-            "6. اطوِ الحواف لتكوين مثلث محكم.\n" +
+            "6. اطوِ الحواف لتشكيل مثلث محكم الإغلاق.\n" +
             "7. ضعها بحذر في المقلاة الساخنة.\n" +
-            "8. اقلي 2-3 دقائق لكل جانب حتى تصبح ذهبية ومقرمشة.\n" +
-            "9. صفي على ورق مطبخ.\n" +
-            "10. قدمها مباشرة."
+            "8. اقْلِها من دقيقتين إلى ثلاث دقائق لكل جانب حتى تصبح ذهبية ومقرمشة.\n" +
+            "9. صفِّها على ورق مطبخ.\n" +
+            "10. قدّمها مباشرة."
     }
 };
+
+
+
+
+
+
+
+
+
+
 recipesData.plat.tajine_legumes = {
     country: "afrique",
-    countryName: "tunisie",
-    image: "images/tajine_legumes.jpg",
+    countryName: "Tunisie",
+    image: "images/tajine_legumes_tunisie.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tajine tunisien aux légumes (Tunisie, 4 personnes)",
-        equipment: ["1 poêle large", "1 couteau", "1 planche à découper", "1 cuillère en bois", "1 bol"],
+        title: "Tajine tunisien aux légumes (Tunisie)",
+        equipment: [
+            "1 poêle large",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 bol"
+        ],
         ingredients: [
             "2 pommes de terre (200 g)",
             "2 carottes (150 g)",
@@ -42911,21 +42987,27 @@ recipesData.plat.tajine_legumes = {
             "1/2 bouquet de coriandre fraîche (10 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Éplucher et couper pommes de terre, carottes et courgette en dés.\n" +
-            "2. Hacher l’oignon et découper le poivron et tomates en dés.\n" +
+            "2. Hacher l’oignon et découper le poivron et les tomates en dés.\n" +
             "3. Chauffer l’huile d’olive dans une poêle large.\n" +
-            "4. Faire revenir l’oignon 3 min.\n" +
-            "5. Ajouter pommes de terre et carottes, cuire 5 min.\n" +
-            "6. Ajouter poivron, courgette, tomates, sel, poivre, curcuma, paprika.\n" +
-            "7. Couvrir et cuire 15 min à feu doux.\n" +
+            "4. Faire revenir l’oignon pendant 3 minutes.\n" +
+            "5. Ajouter les pommes de terre et les carottes, cuire 5 minutes.\n" +
+            "6. Ajouter le poivron, la courgette, les tomates, le sel, le poivre, le curcuma et le paprika.\n" +
+            "7. Couvrir et cuire 15 minutes à feu doux.\n" +
             "8. Battre les œufs et les verser sur les légumes.\n" +
-            "9. Cuire 5-7 min jusqu’à ce que les œufs soient pris.\n" +
+            "9. Cuire 5 à 7 minutes jusqu’à ce que les œufs soient pris.\n" +
             "10. Parsemer de coriandre fraîche et servir chaud."
     },
+
     en: {
-        title: "Tunisian Vegetable Tajine (Tunisia, Serves 4)",
-        equipment: ["1 large pan", "1 knife", "1 cutting board", "1 wooden spoon", "1 bowl"],
+        title: "Tunisian Vegetable Tajine (Tunisie)",
+        equipment: [
+            "1 large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 bowl"
+        ],
         ingredients: [
             "2 potatoes (200 g)",
             "2 carrots (150 g)",
@@ -42942,21 +43024,27 @@ recipesData.plat.tajine_legumes = {
             "1/2 bunch fresh coriander (10 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Peel and dice potatoes, carrots, zucchini.\n" +
-            "2. Chop onion, dice bell pepper and tomatoes.\n" +
-            "3. Heat olive oil in a large pan.\n" +
-            "4. Sauté onion 3 min.\n" +
-            "5. Add potatoes and carrots, cook 5 min.\n" +
-            "6. Add bell pepper, zucchini, tomatoes, salt, pepper, turmeric, paprika.\n" +
-            "7. Cover and cook 15 min over low heat.\n" +
-            "8. Beat eggs and pour over vegetables.\n" +
-            "9. Cook 5-7 min until eggs set.\n" +
-            "10. Sprinkle fresh coriander and serve hot."
+            "1. Peel and dice the potatoes, carrots and zucchini.\n" +
+            "2. Chop the onion and dice the bell pepper and tomatoes.\n" +
+            "3. Heat the olive oil in a large pan.\n" +
+            "4. Sauté the onion for 3 minutes.\n" +
+            "5. Add the potatoes and carrots and cook for 5 minutes.\n" +
+            "6. Add the bell pepper, zucchini, tomatoes, salt, pepper, turmeric and paprika.\n" +
+            "7. Cover and cook for 15 minutes over low heat.\n" +
+            "8. Beat the eggs and pour over the vegetables.\n" +
+            "9. Cook for 5 to 7 minutes until the eggs are set.\n" +
+            "10. Sprinkle with fresh coriander and serve hot."
     },
+
     nl: {
-        title: "Tunesische Groentetajine (Tunesië, voor 4 personen)",
-        equipment: ["1 grote pan", "1 mes", "1 snijplank", "1 houten lepel", "1 kom"],
+        title: "Tunesische Groentetajine (Tunisie)",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 kom"
+        ],
         ingredients: [
             "2 aardappelen (200 g)",
             "2 wortels (150 g)",
@@ -42973,21 +43061,27 @@ recipesData.plat.tajine_legumes = {
             "1/2 bosje verse koriander (10 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Schil en snijd aardappelen, wortels, courgette in blokjes.\n" +
-            "2. Snijd ui fijn, paprika en tomaten in blokjes.\n" +
-            "3. Verhit olijfolie in een grote pan.\n" +
-            "4. Bak ui 3 min.\n" +
-            "5. Voeg aardappelen en wortels toe, bak 5 min.\n" +
-            "6. Voeg paprika, courgette, tomaten, zout, peper, kurkuma, paprika toe.\n" +
-            "7. Dek af en kook 15 min op laag vuur.\n" +
-            "8. Klop eieren en giet over de groenten.\n" +
-            "9. Kook 5-7 min tot de eieren gestold zijn.\n" +
+            "1. Schil en snijd de aardappelen, wortels en courgette in blokjes.\n" +
+            "2. Snijd de ui fijn en snijd de paprika en tomaten in blokjes.\n" +
+            "3. Verhit de olijfolie in een grote pan.\n" +
+            "4. Bak de ui 3 minuten.\n" +
+            "5. Voeg de aardappelen en wortels toe en bak 5 minuten.\n" +
+            "6. Voeg de paprika, courgette, tomaten, zout, peper, kurkuma en paprika toe.\n" +
+            "7. Dek af en kook 15 minuten op laag vuur.\n" +
+            "8. Klop de eieren los en giet ze over de groenten.\n" +
+            "9. Kook 5 tot 7 minuten tot de eieren gestold zijn.\n" +
             "10. Bestrooi met verse koriander en serveer warm."
     },
+
     ar: {
-        title: "طاجين الخضار التونسي (تونس، تكفي 4 أشخاص)",
-        equipment: ["مقلاة واسعة", "سكين", "لوح تقطيع", "ملعقة خشبية", "وعاء"],
+        title: "طاجين الخضار التونسي (تونس)",
+        equipment: [
+            "مقلاة واسعة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء"
+        ],
         ingredients: [
             "2 بطاطا (200 غ)",
             "2 جزرة (150 غ)",
@@ -43004,19 +43098,45 @@ recipesData.plat.tajine_legumes = {
             "1/2 حزمة كزبرة طازجة (10 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قشر وقطع البطاطا والجزر والكوسة إلى مكعبات.\n" +
-            "2. قطع البصل والفلفل والطماطم إلى مكعبات.\n" +
+            "1. قشّر وقطّع البطاطا والجزر والكوسة إلى مكعبات.\n" +
+            "2. قطّع البصل والفلفل والطماطم إلى مكعبات.\n" +
             "3. سخّن زيت الزيتون في مقلاة واسعة.\n" +
-            "4. اقلي البصل 3 دقائق.\n" +
-            "5. أضف البطاطا والجزر، واطه 5 دقائق.\n" +
+            "4. اقْلِ البصل لمدة 3 دقائق.\n" +
+            "5. أضف البطاطا والجزر واطهُما 5 دقائق.\n" +
             "6. أضف الفلفل والكوسة والطماطم والملح والفلفل والكركم والبابريكا.\n" +
-            "7. غطِّ المقلاة واطه 15 دقيقة على نار هادئة.\n" +
+            "7. غطِّ المقلاة واطهُ 15 دقيقة على نار هادئة.\n" +
             "8. اخفق البيض واسكبه فوق الخضار.\n" +
-            "9. اطه 5-7 دقائق حتى يتماسك البيض.\n" +
-            "10. رش الكزبرة الطازجة وقدمه ساخناً."
+            "9. اطهُ من 5 إلى 7 دقائق حتى يتماسك البيض.\n" +
+            "10. رشّ الكزبرة الطازجة وقدّم الطبق ساخناً."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 recipesData.plat.brik_thon = {
     country: "afrique",
     countryName: "tunisie",
