@@ -43110,39 +43110,18 @@ recipesData.plat.tajine_legumes = {
             "10. رشّ الكزبرة الطازجة وقدّم الطبق ساخناً."
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 recipesData.plat.brik_thon = {
     country: "afrique",
     countryName: "tunisie",
     image: "images/brik_thon.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 6,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Brik au thon (Tunisie, 4 personnes)",
+        title: "Brik au thon (Tunisie)",
         equipment: ["1 poêle moyenne", "1 bol", "1 cuillère", "1 couteau", "1 planche à découper", "1 assiette", "1 passoire"],
         ingredients: [
             "4 feuilles de brick",
@@ -43155,7 +43134,6 @@ recipesData.plat.brik_thon = {
             "Huile de tournesol pour friture (environ 200 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Égoutter le thon et le mélanger avec les câpres et le persil dans un bol.\n" +
             "2. Chauffer l’huile dans la poêle à feu moyen.\n" +
             "3. Plier chaque feuille de brick en triangle et déposer le mélange au centre.\n" +
@@ -43165,7 +43143,7 @@ recipesData.plat.brik_thon = {
             "7. Égoutter sur papier absorbant et servir chaud."
     },
     en: {
-        title: "Tuna Brik (Tunisia, Serves 4)",
+        title: "Tuna Brik (Tunisie)",
         equipment: ["1 medium frying pan", "1 bowl", "1 spoon", "1 knife", "1 cutting board", "1 plate", "1 strainer"],
         ingredients: [
             "4 brick pastry sheets",
@@ -43178,7 +43156,6 @@ recipesData.plat.brik_thon = {
             "Sunflower oil for frying (about 200 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Drain tuna and mix with capers and parsley.\n" +
             "2. Heat oil in pan over medium heat.\n" +
             "3. Fold each brick sheet into triangle, place mixture in center.\n" +
@@ -43188,7 +43165,7 @@ recipesData.plat.brik_thon = {
             "7. Drain on paper towel and serve hot."
     },
     nl: {
-        title: "Tonijn Brik (Tunesië, voor 4 personen)",
+        title: "Tonijn Brik (Tunisie)",
         equipment: ["1 middelgrote koekenpan", "1 kom", "1 lepel", "1 mes", "1 snijplank", "1 bord", "1 zeef"],
         ingredients: [
             "4 brickvellen",
@@ -43201,7 +43178,6 @@ recipesData.plat.brik_thon = {
             "Zonnebloemolie om te frituren (ongeveer 200 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Laat de tonijn uitlekken en meng met kappertjes en peterselie.\n" +
             "2. Verhit olie in pan op middelhoog vuur.\n" +
             "3. Vouw elk brickvel tot driehoek en leg mengsel in het midden.\n" +
@@ -43211,7 +43187,7 @@ recipesData.plat.brik_thon = {
             "7. Laat uitlekken op keukenpapier en serveer warm."
     },
     ar: {
-        title: "بريك بالتونة (تونس، تكفي 4 أشخاص)",
+        title: "بريك بالتونة (Tunisie)",
         equipment: ["1 مقلاة متوسطة", "1 وعاء", "1 ملعقة", "1 سكين", "1 لوح تقطيع", "1 طبق", "1 مصفاة"],
         ingredients: [
             "4 أوراق بريك",
@@ -43224,7 +43200,6 @@ recipesData.plat.brik_thon = {
             "زيت دوار الشمس للقلي (حوالي 200 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. صفي التونة وامزجها مع الكابر والبقدونس.\n" +
             "2. سخّن الزيت في المقلاة على نار متوسطة.\n" +
             "3. اطوِ كل ورقة بريك على شكل مثلث وضع الخليط في الوسط.\n" +
@@ -43238,8 +43213,14 @@ recipesData.plat.ojja_merguez = {
     country: "afrique",
     countryName: "tunisie",
     image: "images/ojja_merguez.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 22,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Ojja aux merguez (Tunisie, 4 personnes)",
+        title: "Ojja aux merguez (Tunisie)",
         equipment: ["1 poêle grande", "1 couteau", "1 planche à découper", "1 cuillère en bois", "1 bol"],
         ingredients: [
             "4 merguez de poulet ou bœuf (environ 200 g)",
@@ -43256,7 +43237,6 @@ recipesData.plat.ojja_merguez = {
             "1/2 bouquet de coriandre fraîche (10 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Couper l’oignon, le poivron et les tomates en dés.\n" +
             "2. Hacher l’ail.\n" +
             "3. Chauffer l’huile dans une poêle et faire revenir l’oignon 2 min.\n" +
@@ -43267,7 +43247,7 @@ recipesData.plat.ojja_merguez = {
             "8. Parsemer de coriandre et servir chaud."
     },
     en: {
-        title: "Ojja with Merguez (Tunisia, Serves 4)",
+        title: "Ojja with Merguez (Tunisie)",
         equipment: ["1 large pan", "1 knife", "1 cutting board", "1 wooden spoon", "1 bowl"],
         ingredients: [
             "4 chicken or beef merguez sausages (approx. 200 g)",
@@ -43284,7 +43264,6 @@ recipesData.plat.ojja_merguez = {
             "1/2 bunch fresh coriander (10 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Dice onion, bell pepper and tomatoes.\n" +
             "2. Chop garlic.\n" +
             "3. Heat oil in pan, sauté onion 2 min.\n" +
@@ -43295,7 +43274,7 @@ recipesData.plat.ojja_merguez = {
             "8. Sprinkle coriander and serve hot."
     },
     nl: {
-        title: "Ojja met Merguez (Tunesië, voor 4 personen)",
+        title: "Ojja met Merguez (Tunisie)",
         equipment: ["1 grote pan", "1 mes", "1 snijplank", "1 houten lepel", "1 kom"],
         ingredients: [
             "4 merguez van kip of rund (ca. 200 g)",
@@ -43312,7 +43291,6 @@ recipesData.plat.ojja_merguez = {
             "1/2 bos verse koriander (10 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Snijd ui, paprika en tomaten in blokjes.\n" +
             "2. Hak knoflook fijn.\n" +
             "3. Verhit olie in pan, bak ui 2 min.\n" +
@@ -43323,7 +43301,7 @@ recipesData.plat.ojja_merguez = {
             "8. Bestrooi met koriander en serveer warm."
     },
     ar: {
-        title: "أوجا بالمرقاز (تونس، تكفي 4 أشخاص)",
+        title: "أوجا بالمرقاز (تونس)",
         equipment: ["مقلاة واسعة", "سكين", "لوح تقطيع", "ملعقة خشبية", "وعاء"],
         ingredients: [
             "4 سجق مرقاز دجاج أو لحم بقري (حوالي 200 غ)",
@@ -43340,124 +43318,6 @@ recipesData.plat.ojja_merguez = {
             "1/2 حزمة كزبرة طازجة (10 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع البصل والفلفل والطماطم إلى مكعبات.\n" +
-            "2. افرم الثوم.\n" +
-            "3. سخّن الزيت في المقلاة، واقل البصل 2 دقيقة.\n" +
-            "4. أضف الفلفل، الثوم، الطماطم، البابريكا، الهريسة، الملح والفلفل. اطه 5 دقائق.\n" +
-            "5. أضف المرقاز المقطع، واطه 10 دقائق.\n" +
-            "6. اصنع 4 حفر صغيرة، اكسر بيضة في كل واحدة.\n" +
-            "7. غطِّ المقلاة، واطه 5-7 دقائق حتى يتماسك البيض.\n" +
-            "8. رش الكزبرة وقدمه ساخناً."
-    }
-};
-recipesData.plat.ojja_merguez = {
-    country: "afrique",
-    countryName: "tunisie",
-    image: "images/ojja_merguez.jpg",
-    fr: {
-        title: "Ojja aux merguez (Tunisie, 4 personnes)",
-        equipment: ["1 poêle grande", "1 couteau", "1 planche à découper", "1 cuillère en bois", "1 bol"],
-        ingredients: [
-            "4 merguez de poulet ou bœuf (environ 200 g)",
-            "4 œufs",
-            "2 tomates (200 g)",
-            "1 poivron vert (120 g)",
-            "1 oignon moyen (100 g)",
-            "2 gousses d’ail",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café paprika",
-            "1/2 cuillère à café harissa",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 bouquet de coriandre fraîche (10 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper l’oignon, le poivron et les tomates en dés.\n" +
-            "2. Hacher l’ail.\n" +
-            "3. Chauffer l’huile dans une poêle et faire revenir l’oignon 2 min.\n" +
-            "4. Ajouter poivron, ail, tomates, paprika, harissa, sel et poivre. Cuire 5 min.\n" +
-            "5. Ajouter les merguez coupées en morceaux et cuire 10 min.\n" +
-            "6. Former 4 petits creux et casser un œuf dans chaque.\n" +
-            "7. Couvrir et cuire 5-7 min jusqu’à ce que les œufs soient pris.\n" +
-            "8. Parsemer de coriandre et servir chaud."
-    },
-    en: {
-        title: "Ojja with Merguez (Tunisia, Serves 4)",
-        equipment: ["1 large pan", "1 knife", "1 cutting board", "1 wooden spoon", "1 bowl"],
-        ingredients: [
-            "4 chicken or beef merguez sausages (approx. 200 g)",
-            "4 eggs",
-            "2 tomatoes (200 g)",
-            "1 green bell pepper (120 g)",
-            "1 medium onion (100 g)",
-            "2 garlic cloves",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp paprika",
-            "1/2 tsp harissa",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 bunch fresh coriander (10 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Dice onion, bell pepper and tomatoes.\n" +
-            "2. Chop garlic.\n" +
-            "3. Heat oil in pan, sauté onion 2 min.\n" +
-            "4. Add bell pepper, garlic, tomatoes, paprika, harissa, salt, pepper. Cook 5 min.\n" +
-            "5. Add sliced merguez, cook 10 min.\n" +
-            "6. Make 4 small wells, crack an egg in each.\n" +
-            "7. Cover, cook 5-7 min until eggs set.\n" +
-            "8. Sprinkle coriander and serve hot."
-    },
-    nl: {
-        title: "Ojja met Merguez (Tunesië, voor 4 personen)",
-        equipment: ["1 grote pan", "1 mes", "1 snijplank", "1 houten lepel", "1 kom"],
-        ingredients: [
-            "4 merguez van kip of rund (ca. 200 g)",
-            "4 eieren",
-            "2 tomaten (200 g)",
-            "1 groene paprika (120 g)",
-            "1 middelgrote ui (100 g)",
-            "2 teentjes knoflook",
-            "2 el olijfolie (30 ml)",
-            "1/2 tl paprika",
-            "1/2 tl harissa",
-            "1/2 tl zout",
-            "1/4 tl peper",
-            "1/2 bos verse koriander (10 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd ui, paprika en tomaten in blokjes.\n" +
-            "2. Hak knoflook fijn.\n" +
-            "3. Verhit olie in pan, bak ui 2 min.\n" +
-            "4. Voeg paprika, knoflook, tomaten, paprika, harissa, zout, peper toe. Kook 5 min.\n" +
-            "5. Voeg gesneden merguez toe, kook 10 min.\n" +
-            "6. Maak 4 kuiltjes en breek een ei in elk.\n" +
-            "7. Dek af, kook 5-7 min tot de eieren gestold zijn.\n" +
-            "8. Bestrooi met koriander en serveer warm."
-    },
-    ar: {
-        title: "أوجا بالمرقاز (تونس، تكفي 4 أشخاص)",
-        equipment: ["مقلاة واسعة", "سكين", "لوح تقطيع", "ملعقة خشبية", "وعاء"],
-        ingredients: [
-            "4 سجق مرقاز دجاج أو لحم بقري (حوالي 200 غ)",
-            "4 بيضات",
-            "2 طماطم (200 غ)",
-            "1 فلفل أخضر (120 غ)",
-            "1 بصل متوسط (100 غ)",
-            "2 فص ثوم",
-            "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة بابريكا",
-            "1/2 ملعقة صغيرة هريسة",
-            "1/2 ملعقة صغيرة ملح",
-            "1/4 ملعقة صغيرة فلفل",
-            "1/2 حزمة كزبرة طازجة (10 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قطع البصل والفلفل والطماطم إلى مكعبات.\n" +
             "2. افرم الثوم.\n" +
             "3. سخّن الزيت في المقلاة، واقل البصل 2 دقيقة.\n" +
@@ -43470,10 +43330,18 @@ recipesData.plat.ojja_merguez = {
 };
 recipesData.plat.lablabi = {
     country: "afrique",
-    countryName: "tunisie",
+    countryName: "Tunisie",
     image: "images/lablabi.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 55,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Lablabi (Tunisie, 4 personnes)",
+        title: "Lablabi (Tunisie)",
         equipment: ["1 casserole", "1 couteau", "1 planche à découper", "1 louche", "1 bol"],
         ingredients: [
             "250 g pois chiches secs ou 400 g en conserve",
@@ -43488,7 +43356,6 @@ recipesData.plat.lablabi = {
             "4 tranches pain rassis"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Si pois chiches secs, les faire tremper 12h, puis cuire 45 min à l’eau jusqu’à tendres.\n" +
             "2. Écraser l’ail et le faire revenir 1 min dans l’huile.\n" +
             "3. Ajouter pois chiches, cumin, paprika, sel, poivre et 1 litre d’eau.\n" +
@@ -43496,8 +43363,9 @@ recipesData.plat.lablabi = {
             "5. Placer une tranche de pain dans chaque bol et verser la soupe dessus.\n" +
             "6. Parsemer de coriandre et servir chaud."
     },
+
     en: {
-        title: "Lablabi (Tunisia, Serves 4)",
+        title: "Lablabi (Tunisia)",
         equipment: ["1 saucepan", "1 knife", "1 cutting board", "1 ladle", "1 bowl"],
         ingredients: [
             "250 g dried chickpeas or 400 g canned",
@@ -43512,7 +43380,6 @@ recipesData.plat.lablabi = {
             "4 slices stale bread"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. If using dried chickpeas, soak 12h, then cook 45 min until tender.\n" +
             "2. Crush garlic, sauté 1 min in oil.\n" +
             "3. Add chickpeas, cumin, paprika, salt, pepper, and 1 liter water.\n" +
@@ -43520,8 +43387,9 @@ recipesData.plat.lablabi = {
             "5. Place a slice of bread in each bowl, pour soup on top.\n" +
             "6. Sprinkle coriander and serve hot."
     },
+
     nl: {
-        title: "Lablabi (Tunesië, voor 4 personen)",
+        title: "Lablabi (Tunesië)",
         equipment: ["1 pan", "1 mes", "1 snijplank", "1 pollepel", "1 kom"],
         ingredients: [
             "250 g gedroogde kikkererwten of 400 g uit blik",
@@ -43536,7 +43404,6 @@ recipesData.plat.lablabi = {
             "4 sneetjes oud brood"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Bij gedroogde kikkererwten, 12 uur weken, dan 45 min koken tot zacht.\n" +
             "2. Knoflook pletten, 1 min bakken in olie.\n" +
             "3. Voeg kikkererwten, komijn, paprika, zout, peper en 1 liter water toe.\n" +
@@ -43544,9 +43411,10 @@ recipesData.plat.lablabi = {
             "5. Plaats een sneetje brood in elke kom, giet soep erover.\n" +
             "6. Bestrooi met koriander en serveer warm."
     },
+
     ar: {
-        title: "لبلابي (تونس، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "سكين", "لوح تقطيع", "مغرفة", "وعاء"],
+        title: "لبلابي (تونس)",
+        equipment: ["قدر", "سكين", "لوح تقطيع", "مغرفة", "وعاء"],
         ingredients: [
             "250 غ حمص جاف أو 400 غ معلب",
             "1 لتر ماء",
@@ -43560,122 +43428,28 @@ recipesData.plat.lablabi = {
             "4 شرائح خبز جاف"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. إذا استخدمت الحمص الجاف، انقعه 12 ساعة، ثم اطهه 45 دقيقة حتى يصبح طرياً.\n" +
-            "2. اهرس الثوم واقليه 1 دقيقة في الزيت.\n" +
-            "3. أضف الحمص، الكمون، البابريكا، الملح، الفلفل و1 لتر ماء.\n" +
-            "4. اطه 10 دقائق على نار متوسطة.\n" +
-            "5. ضع شريحة خبز في كل وعاء واسكب الحساء فوقه.\n" +
-            "6. رش الكزبرة وقدمه ساخناً."
-    }
-};
-recipesData.plat.lablabi = {
-    country: "afrique",
-    countryName: "tunisie",
-    image: "images/lablabi.jpg",
-    fr: {
-        title: "Lablabi (Tunisie, 4 personnes)",
-        equipment: ["1 casserole", "1 couteau", "1 planche à découper", "1 louche", "1 bol"],
-        ingredients: [
-            "250 g pois chiches secs ou 400 g en conserve",
-            "1 litre eau",
-            "2 gousses d’ail",
-            "1 cuillère à soupe huile d’olive (15 ml)",
-            "1 cuillère à café cumin",
-            "1/2 cuillère à café paprika",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 bouquet coriandre (10 g)",
-            "4 tranches pain rassis"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Si pois chiches secs, les faire tremper 12h, puis cuire 45 min à l’eau jusqu’à tendres.\n" +
-            "2. Écraser l’ail et le faire revenir 1 min dans l’huile.\n" +
-            "3. Ajouter pois chiches, cumin, paprika, sel, poivre et 1 litre d’eau.\n" +
-            "4. Cuire 10 min à feu moyen.\n" +
-            "5. Placer une tranche de pain dans chaque bol et verser la soupe dessus.\n" +
-            "6. Parsemer de coriandre et servir chaud."
-    },
-    en: {
-        title: "Lablabi (Tunisia, Serves 4)",
-        equipment: ["1 saucepan", "1 knife", "1 cutting board", "1 ladle", "1 bowl"],
-        ingredients: [
-            "250 g dried chickpeas or 400 g canned",
-            "1 liter water",
-            "2 garlic cloves",
-            "1 tbsp olive oil (15 ml)",
-            "1 tsp cumin",
-            "1/2 tsp paprika",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 bunch coriander (10 g)",
-            "4 slices stale bread"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. If using dried chickpeas, soak 12h, then cook 45 min until tender.\n" +
-            "2. Crush garlic, sauté 1 min in oil.\n" +
-            "3. Add chickpeas, cumin, paprika, salt, pepper, and 1 liter water.\n" +
-            "4. Cook 10 min over medium heat.\n" +
-            "5. Place a slice of bread in each bowl, pour soup on top.\n" +
-            "6. Sprinkle coriander and serve hot."
-    },
-    nl: {
-        title: "Lablabi (Tunesië, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank", "1 pollepel", "1 kom"],
-        ingredients: [
-            "250 g gedroogde kikkererwten of 400 g uit blik",
-            "1 liter water",
-            "2 teentjes knoflook",
-            "1 el olijfolie (15 ml)",
-            "1 tl komijn",
-            "1/2 tl paprika",
-            "1/2 tl zout",
-            "1/4 tl peper",
-            "1/2 bos koriander (10 g)",
-            "4 sneetjes oud brood"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Bij gedroogde kikkererwten, 12 uur weken, dan 45 min koken tot zacht.\n" +
-            "2. Knoflook pletten, 1 min bakken in olie.\n" +
-            "3. Voeg kikkererwten, komijn, paprika, zout, peper en 1 liter water toe.\n" +
-            "4. Kook 10 min op middelhoog vuur.\n" +
-            "5. Plaats een sneetje brood in elke kom, giet soep erover.\n" +
-            "6. Bestrooi met koriander en serveer warm."
-    },
-    ar: {
-        title: "لبلابي (تونس، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "سكين", "لوح تقطيع", "مغرفة", "وعاء"],
-        ingredients: [
-            "250 غ حمص جاف أو 400 غ معلب",
-            "1 لتر ماء",
-            "2 فص ثوم",
-            "1 ملعقة كبيرة زيت زيتون (15 مل)",
-            "1 ملعقة صغيرة كمون",
-            "1/2 ملعقة صغيرة بابريكا",
-            "1/2 ملعقة صغيرة ملح",
-            "1/4 ملعقة صغيرة فلفل",
-            "1/2 حزمة كزبرة (10 غ)",
-            "4 شرائح خبز جاف"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. إذا استخدمت الحمص الجاف، انقعه 12 ساعة، ثم اطهه 45 دقيقة حتى يصبح طرياً.\n" +
-            "2. اهرس الثوم واقليه 1 دقيقة في الزيت.\n" +
-            "3. أضف الحمص، الكمون، البابريكا، الملح، الفلفل و1 لتر ماء.\n" +
-            "4. اطه 10 دقائق على نار متوسطة.\n" +
-            "5. ضع شريحة خبز في كل وعاء واسكب الحساء فوقه.\n" +
-            "6. رش الكزبرة وقدمه ساخناً."
+            "1. إذا استُخدم الحمص الجاف، يُنقع 12 ساعة ثم يُطهى 45 دقيقة حتى يطرى.\n" +
+            "2. يُهرس الثوم ويُقلى دقيقة واحدة في الزيت.\n" +
+            "3. يُضاف الحمص والكمون والبابريكا والملح والفلفل و1 لتر ماء.\n" +
+            "4. يُطهى لمدة 10 دقائق على نار متوسطة.\n" +
+            "5. توضع شريحة خبز في كل وعاء ويُسكب الحساء فوقها.\n" +
+            "6. تُرش الكزبرة ويُقدّم ساخناً."
     }
 };
 recipesData.plat.couscous_poisson = {
     country: "afrique",
-    countryName: "tunisie",
-    image: "images/couscous_poisson.jpg",
+    countryName: "Tunisie",
+    image: "images/couscous_poisson_tunisie.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Couscous au poisson (Tunisie, 4 personnes)",
+        title: "Couscous au poisson (Tunisie)",
         equipment: [
             "1 couscoussier",
             "1 couteau",
@@ -43699,18 +43473,18 @@ recipesData.plat.couscous_poisson = {
             "1/2 bouquet coriandre (10 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les tomates, poivron et carottes en dés, hacher l’oignon.\n" +
-            "2. Chauffer l’huile dans la marmite du couscoussier, faire revenir l’oignon 2 min.\n" +
-            "3. Ajouter les tomates, poivron, carottes, paprika, curcuma, sel et poivre, cuire 5 min.\n" +
+            "1. Couper les tomates, le poivron et les carottes en dés, hacher l’oignon.\n" +
+            "2. Chauffer l’huile dans la marmite du couscoussier et faire revenir l’oignon 2 minutes.\n" +
+            "3. Ajouter les tomates, le poivron, les carottes, le paprika, le curcuma, le sel et le poivre, puis cuire 5 minutes.\n" +
             "4. Ajouter 500 ml d’eau et porter à ébullition.\n" +
-            "5. Déposer le poisson sur les légumes, couvrir et cuire 10-12 min jusqu’à cuisson complète.\n" +
-            "6. Préparer la semoule selon instructions (vapeur 10 min, égrainer avec une fourchette).\n" +
+            "5. Déposer le poisson sur les légumes, couvrir et cuire 10 à 12 minutes jusqu’à cuisson complète.\n" +
+            "6. Préparer la semoule selon les instructions (cuisson vapeur 10 minutes, puis égrainer).\n" +
             "7. Servir le couscous chaud avec le poisson et les légumes.\n" +
             "8. Parsemer de coriandre fraîche."
     },
+
     en: {
-        title: "Couscous with Fish (Tunisia, Serves 4)",
+        title: "Couscous with Fish (Tunisia)",
         equipment: [
             "1 couscoussier",
             "1 knife",
@@ -43725,27 +43499,27 @@ recipesData.plat.couscous_poisson = {
             "1 green bell pepper (120 g)",
             "1 onion (100 g)",
             "2 carrots (150 g)",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp paprika",
-            "1/4 tsp turmeric",
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "1/2 teaspoon paprika",
+            "1/4 teaspoon turmeric",
             "500 ml water",
             "1/2 bunch fresh coriander (10 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Dice tomatoes, bell pepper and carrots, chop onion.\n" +
-            "2. Heat oil in couscoussier pot, sauté onion 2 min.\n" +
-            "3. Add tomatoes, bell pepper, carrots, paprika, turmeric, salt and pepper, cook 5 min.\n" +
-            "4. Add 500 ml water and bring to boil.\n" +
-            "5. Place fish on top of vegetables, cover and cook 10-12 min until cooked.\n" +
-            "6. Prepare couscous according to instructions (steam 10 min, fluff with fork).\n" +
-            "7. Serve couscous hot with fish and vegetables.\n" +
-            "8. Sprinkle fresh coriander."
+            "1. Dice the tomatoes, bell pepper and carrots, and chop the onion.\n" +
+            "2. Heat the oil in the couscoussier pot and sauté the onion for 2 minutes.\n" +
+            "3. Add the tomatoes, bell pepper, carrots, paprika, turmeric, salt and pepper, and cook for 5 minutes.\n" +
+            "4. Add 500 ml of water and bring to a boil.\n" +
+            "5. Place the fish on top of the vegetables, cover and cook for 10 to 12 minutes until done.\n" +
+            "6. Prepare the couscous according to instructions (steam for 10 minutes, then fluff).\n" +
+            "7. Serve the couscous hot with the fish and vegetables.\n" +
+            "8. Sprinkle with fresh coriander."
     },
+
     nl: {
-        title: "Couscous met Vis (Tunesië, voor 4 personen)",
+        title: "Couscous met vis (Tunesië)",
         equipment: [
             "1 couscouspan",
             "1 mes",
@@ -43760,29 +43534,29 @@ recipesData.plat.couscous_poisson = {
             "1 groene paprika (120 g)",
             "1 ui (100 g)",
             "2 wortels (150 g)",
-            "2 el olijfolie (30 ml)",
-            "1/2 tl zout",
-            "1/4 tl peper",
-            "1/2 tl paprika",
-            "1/4 tl kurkuma",
+            "2 eetlepels olijfolie (30 ml)",
+            "1/2 theelepel zout",
+            "1/4 theelepel peper",
+            "1/2 theelepel paprika",
+            "1/4 theelepel kurkuma",
             "500 ml water",
             "1/2 bos verse koriander (10 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd tomaten, paprika en wortels in blokjes, hak ui.\n" +
-            "2. Verhit olie in couscouspan, bak ui 2 min.\n" +
-            "3. Voeg tomaten, paprika, wortels, paprika poeder, kurkuma, zout en peper toe, bak 5 min.\n" +
+            "1. Snijd de tomaten, paprika en wortels in blokjes en hak de ui.\n" +
+            "2. Verhit de olie in de couscouspan en bak de ui 2 minuten.\n" +
+            "3. Voeg de tomaten, paprika, wortels, paprikapoeder, kurkuma, zout en peper toe en bak 5 minuten.\n" +
             "4. Voeg 500 ml water toe en breng aan de kook.\n" +
-            "5. Leg vis op de groenten, dek af en kook 10-12 min tot gaar.\n" +
-            "6. Bereid couscous volgens instructies (10 min stomen, losmaken met vork).\n" +
-            "7. Serveer couscous warm met vis en groenten.\n" +
+            "5. Leg de vis op de groenten, dek af en kook 10 tot 12 minuten tot gaar.\n" +
+            "6. Bereid de couscous volgens de instructies (10 minuten stomen, daarna losmaken).\n" +
+            "7. Serveer de couscous warm met de vis en groenten.\n" +
             "8. Bestrooi met verse koriander."
     },
+
     ar: {
-        title: "كسكس بالسمك (تونس، تكفي 4 أشخاص)",
+        title: "كسكس بالسمك (تونس)",
         equipment: [
-            "1 قدر كسكس",
+            "قدر كسكس",
             "سكين",
             "لوح تقطيع",
             "ملعقة خشبية",
@@ -43804,23 +43578,30 @@ recipesData.plat.couscous_poisson = {
             "1/2 حزمة كزبرة طازجة (10 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الطماطم والفلفل والجزر، فرم البصل.\n" +
-            "2. سخّن الزيت في قدر الكسكس، واقل البصل 2 دقيقة.\n" +
-            "3. أضف الطماطم، الفلفل، الجزر، البابريكا، الكركم، الملح والفلفل، واطه 5 دقائق.\n" +
-            "4. أضف 500 مل ماء واتركه يغلي.\n" +
-            "5. ضع السمك على الخضار، غطِّ واطه 10-12 دقيقة حتى ينضج.\n" +
-            "6. حضّر السميد حسب التعليمات (10 دقائق على البخار، ثم افككه بالشوكة).\n" +
+            "1. قطّع الطماطم والفلفل والجزر إلى مكعبات وافرُم البصل.\n" +
+            "2. سخّن الزيت في قدر الكسكس واقلِ البصل لمدة دقيقتين.\n" +
+            "3. أضف الطماطم والفلفل والجزر والبابريكا والكركم والملح والفلفل واطهُ لمدة 5 دقائق.\n" +
+            "4. أضف 500 مل من الماء واتركه حتى يغلي.\n" +
+            "5. ضع السمك فوق الخضار وغطِّ القدر واطهه من 10 إلى 12 دقيقة حتى ينضج.\n" +
+            "6. حضّر السميد حسب التعليمات (يطهى على البخار 10 دقائق ثم يُفكك).\n" +
             "7. قدّم الكسكس ساخناً مع السمك والخضار.\n" +
-            "8. رش الكزبرة الطازجة."
+            "8. رشّ الكزبرة الطازجة."
     }
 };
 recipesData.plat.tajine_poulet = {
     country: "afrique",
-    countryName: "tunisie",
-    image: "images/tajine_poulet.jpg",
+    countryName: "Tunisie",
+    image: "images/tajine_poulet_tunisie.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tajine tunisien au poulet (Tunisie, 4 personnes)",
+        title: "Tajine tunisien au poulet (Tunisie)",
         equipment: [
             "1 plat allant au four",
             "1 couteau",
@@ -43842,17 +43623,17 @@ recipesData.plat.tajine_poulet = {
             "1/2 bouquet coriandre (10 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Couper le poulet en morceaux, hacher l’oignon, couper les tomates et poivron en dés.\n" +
-            "3. Faire revenir l’oignon dans l’huile 2 min dans le plat allant au four.\n" +
-            "4. Ajouter le poulet, tomates, poivron, curcuma, paprika, sel et poivre, mélanger.\n" +
+            "2. Couper le poulet en morceaux, hacher l’oignon, couper les tomates et le poivron en dés.\n" +
+            "3. Faire revenir l’oignon dans l’huile 2 minutes dans le plat allant au four.\n" +
+            "4. Ajouter le poulet, les tomates, le poivron, le curcuma, le paprika, le sel et le poivre, puis mélanger.\n" +
             "5. Casser les œufs sur le dessus.\n" +
-            "6. Couvrir le plat et enfourner 25-30 min jusqu’à cuisson complète du poulet.\n" +
+            "6. Couvrir le plat et enfourner 25 à 30 minutes jusqu’à cuisson complète du poulet.\n" +
             "7. Parsemer de coriandre avant de servir."
     },
+
     en: {
-        title: "Tunisian Chicken Tajine (Tunisia, Serves 4)",
+        title: "Tunisian Chicken Tajine (Tunisia)",
         equipment: [
             "1 ovenproof dish",
             "1 knife",
@@ -43866,25 +43647,25 @@ recipesData.plat.tajine_poulet = {
             "2 tomatoes (200 g)",
             "1 red bell pepper (120 g)",
             "2 eggs",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp turmeric",
-            "1/2 tsp paprika",
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "1/2 teaspoon turmeric",
+            "1/2 teaspoon paprika",
             "1/2 bunch fresh coriander (10 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Cut chicken into pieces, chop onion, dice tomatoes and bell pepper.\n" +
-            "3. Sauté onion in oil 2 min in ovenproof dish.\n" +
-            "4. Add chicken, tomatoes, bell pepper, turmeric, paprika, salt and pepper, mix.\n" +
-            "5. Crack eggs on top.\n" +
-            "6. Cover dish and bake 25-30 min until chicken is cooked.\n" +
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Cut the chicken into pieces, chop the onion, and dice the tomatoes and bell pepper.\n" +
+            "3. Sauté the onion in oil for 2 minutes in the ovenproof dish.\n" +
+            "4. Add the chicken, tomatoes, bell pepper, turmeric, paprika, salt and pepper, then mix.\n" +
+            "5. Crack the eggs on top.\n" +
+            "6. Cover the dish and bake for 25 to 30 minutes until the chicken is cooked.\n" +
             "7. Sprinkle with fresh coriander before serving."
     },
+
     nl: {
-        title: "Tunesische Kip Tajine (Tunesië, voor 4 personen)",
+        title: "Tunesische kip tajine (Tunesië)",
         equipment: [
             "1 ovenvaste schaal",
             "1 mes",
@@ -43898,27 +43679,27 @@ recipesData.plat.tajine_poulet = {
             "2 tomaten (200 g)",
             "1 rode paprika (120 g)",
             "2 eieren",
-            "2 el olijfolie (30 ml)",
-            "1/2 tl zout",
-            "1/4 tl peper",
-            "1/2 tl kurkuma",
-            "1/2 tl paprika",
+            "2 eetlepels olijfolie (30 ml)",
+            "1/2 theelepel zout",
+            "1/4 theelepel peper",
+            "1/2 theelepel kurkuma",
+            "1/2 theelepel paprika",
             "1/2 bos verse koriander (10 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Snijd kip in stukjes, hak ui, snijd tomaten en paprika in blokjes.\n" +
-            "3. Bak ui 2 min in olie in ovenvaste schaal.\n" +
-            "4. Voeg kip, tomaten, paprika, kurkuma, paprika poeder, zout en peper toe, meng.\n" +
-            "5. Breek eieren bovenop.\n" +
-            "6. Dek af en bak 25-30 min tot kip gaar is.\n" +
-            "7. Bestrooi met verse koriander voor serveren."
+            "2. Snijd de kip in stukjes, hak de ui en snijd de tomaten en paprika in blokjes.\n" +
+            "3. Bak de ui 2 minuten in olie in de ovenvaste schaal.\n" +
+            "4. Voeg de kip, tomaten, paprika, kurkuma, paprikapoeder, zout en peper toe en meng.\n" +
+            "5. Breek de eieren bovenop.\n" +
+            "6. Dek af en bak 25 tot 30 minuten tot de kip gaar is.\n" +
+            "7. Bestrooi met verse koriander voor het serveren."
     },
+
     ar: {
-        title: "طاجين الدجاج التونسي (تونس، تكفي 4 أشخاص)",
+        title: "طاجين الدجاج التونسي (تونس)",
         equipment: [
-            "1 طبق للفرن",
+            "طبق للفرن",
             "سكين",
             "لوح تقطيع",
             "ملعقة خشبية",
@@ -43938,153 +43719,29 @@ recipesData.plat.tajine_poulet = {
             "1/2 حزمة كزبرة طازجة (10 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الفرن على 180°C.\n" +
-            "2. قطع الدجاج إلى قطع، فرم البصل، وقطع الطماطم والفلفل.\n" +
-            "3. اقلي البصل في الزيت 2 دقيقة في طبق الفرن.\n" +
-            "4. أضف الدجاج، الطماطم، الفلفل، الكركم، البابريكا، الملح والفلفل، وامزج.\n" +
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. قطّع الدجاج إلى قطع، افرم البصل، وقطّع الطماطم والفلفل إلى مكعبات.\n" +
+            "3. اقْلِ البصل في الزيت لمدة دقيقتين في طبق الفرن.\n" +
+            "4. أضف الدجاج والطماطم والفلفل والكركم والبابريكا والملح والفلفل وامزج جيداً.\n" +
             "5. اكسر البيض على الوجه.\n" +
-            "6. غطِّ الطبق واخبزه 25-30 دقيقة حتى ينضج الدجاج.\n" +
-            "7. رش الكزبرة الطازجة قبل التقديم."
+            "6. غطِّ الطبق واخبزه من 25 إلى 30 دقيقة حتى ينضج الدجاج.\n" +
+            "7. رشّ الكزبرة الطازجة قبل التقديم."
     }
 };
-recipesData.plat.ojja_merguez = {
-    country: "afrique",
-    countryName: "tunisie",
-    image: "images/ojja_merguez.jpg",
-    fr: {
-        title: "Ojja aux merguez (Tunisie, 4 personnes)",
-        equipment: [
-            "1 poêle profonde",
-            "1 couteau",
-            "1 planche à découper",
-            "1 cuillère en bois",
-            "1 bol"
-        ],
-        ingredients: [
-            "200 g merguez",
-            "4 œufs",
-            "2 tomates (200 g)",
-            "1 oignon (100 g)",
-            "1 poivron vert (120 g)",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café paprika",
-            "1/2 cuillère à café cumin",
-            "1/2 bouquet coriandre (10 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper tomates, poivron et oignon en dés, trancher merguez.\n" +
-            "2. Chauffer l’huile dans la poêle, faire revenir l’oignon 2 min.\n" +
-            "3. Ajouter tomates, poivron, paprika, cumin, sel et poivre, cuire 5 min.\n" +
-            "4. Ajouter merguez et cuire 5-7 min jusqu’à cuisson complète.\n" +
-            "5. Casser les œufs sur le mélange, couvrir et cuire 3-4 min jusqu’à ce que les œufs soient pris.\n" +
-            "6. Parsemer de coriandre avant de servir."
-    },
-    en: {
-        title: "Tunisian Ojja with Merguez (Serves 4)",
-        equipment: [
-            "1 deep frying pan",
-            "1 knife",
-            "1 cutting board",
-            "1 wooden spoon",
-            "1 bowl"
-        ],
-        ingredients: [
-            "200 g merguez sausages",
-            "4 eggs",
-            "2 tomatoes (200 g)",
-            "1 onion (100 g)",
-            "1 green bell pepper (120 g)",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp paprika",
-            "1/2 tsp cumin",
-            "1/2 bunch fresh coriander (10 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Dice tomatoes, bell pepper, onion, slice merguez.\n" +
-            "2. Heat oil in pan, sauté onion 2 min.\n" +
-            "3. Add tomatoes, bell pepper, paprika, cumin, salt and pepper, cook 5 min.\n" +
-            "4. Add merguez, cook 5-7 min until fully cooked.\n" +
-            "5. Crack eggs over mixture, cover and cook 3-4 min until eggs set.\n" +
-            "6. Sprinkle fresh coriander before serving."
-    },
-    nl: {
-        title: "Tunesische Ojja met Merguez (voor 4 personen)",
-        equipment: [
-            "1 diepe koekenpan",
-            "1 mes",
-            "1 snijplank",
-            "1 houten lepel",
-            "1 kom"
-        ],
-        ingredients: [
-            "200 g merguez",
-            "4 eieren",
-            "2 tomaten (200 g)",
-            "1 ui (100 g)",
-            "1 groene paprika (120 g)",
-            "2 el olijfolie (30 ml)",
-            "1/2 tl zout",
-            "1/4 tl peper",
-            "1/2 tl paprika",
-            "1/2 tl komijn",
-            "1/2 bos verse koriander (10 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd tomaten, paprika, ui in blokjes, snijd merguez in plakjes.\n" +
-            "2. Verhit olie in pan, bak ui 2 min.\n" +
-            "3. Voeg tomaten, paprika, paprika poeder, komijn, zout en peper toe, bak 5 min.\n" +
-            "4. Voeg merguez toe, bak 5-7 min tot gaar.\n" +
-            "5. Breek eieren boven het mengsel, dek af en bak 3-4 min tot eieren gestold zijn.\n" +
-            "6. Bestrooi met verse koriander voor serveren."
-    },
-    ar: {
-        title: "أوجا بالمرقاز (تونس، تكفي 4 أشخاص)",
-        equipment: [
-            "1 مقلاة عميقة",
-            "سكين",
-            "لوح تقطيع",
-            "ملعقة خشبية",
-            "وعاء"
-        ],
-        ingredients: [
-            "200 غ مرقاز",
-            "4 بيضات",
-            "2 طماطم (200 غ)",
-            "1 بصل (100 غ)",
-            "1 فلفل أخضر (120 غ)",
-            "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح",
-            "1/4 ملعقة صغيرة فلفل",
-            "1/2 ملعقة صغيرة بابريكا",
-            "1/2 ملعقة صغيرة كمون",
-            "1/2 حزمة كزبرة طازجة (10 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الطماطم والفلفل والبصل، وقطع المرقاز شرائح.\n" +
-            "2. سخّن الزيت في المقلاة، واقلي البصل 2 دقيقة.\n" +
-            "3. أضف الطماطم والفلفل والبابريكا والكمون والملح والفلفل، واطه 5 دقائق.\n" +
-            "4. أضف المرقاز واطه 5-7 دقائق حتى ينضج.\n" +
-            "5. اكسر البيض على الخليط، غطِّ واطه 3-4 دقائق حتى يتماسك البيض.\n" +
-            "6. رش الكزبرة الطازجة قبل التقديم."
-    }
-};
-
 recipesData.plat.couscous_poulet = {
     country: "afrique",
-    countryName: "tunisie",
-    image: "images/couscous_poulet.jpg",
+    countryName: "Tunisie",
+    image: "images/couscous_poulet_tunisie.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 40,
+        difficulty: "medium"
+    },
 
     fr: {
-        title: "Couscous aux légumes et poulet (Tunisie, 4 personnes)",
+        title: "Couscous aux légumes et poulet (Tunisie)",
         equipment: [
             "1 couscoussier ou grande casserole",
             "1 poêle",
@@ -44097,37 +43754,36 @@ recipesData.plat.couscous_poulet = {
         ingredients: [
             "400 g couscous moyen",
             "4 cuisses de poulet (environ 800 g)",
-            "2 carottes moyennes (200 g), coupées en rondelles",
-            "1 courgette moyenne (150 g), coupée en dés",
-            "1 poivron rouge (100 g), coupé en lanières",
-            "1 oignon moyen (100 g), haché finement",
-            "2 tomates moyennes (150 g), pelées et concassées",
+            "2 carottes moyennes (200 g)",
+            "1 courgette moyenne (150 g)",
+            "1 poivron rouge (100 g)",
+            "1 oignon moyen (100 g)",
+            "2 tomates moyennes (150 g)",
             "2 cuillères à soupe huile d'olive (30 ml)",
             "1 cuillère à café paprika (5 g)",
             "1 cuillère à café cumin moulu (5 g)",
             "1/2 cuillère à café cannelle (2 g)",
             "Sel et poivre selon goût",
             "700 ml eau ou bouillon de poulet",
-            "Quelques feuilles de coriandre pour garnir (5 g)"
+            "Quelques feuilles de coriandre (5 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préparer tous les légumes : éplucher, couper et mesurer les quantités.\n" +
-            "2. Chauffer 2 cuillères à soupe d'huile d'olive dans la casserole.\n" +
-            "3. Faire revenir l'oignon haché 3-4 min jusqu'à ce qu'il soit translucide.\n" +
-            "4. Ajouter les cuisses de poulet, faire dorer 5 min sur tous les côtés.\n" +
-            "5. Ajouter paprika, cumin, cannelle, sel et poivre, mélanger.\n" +
-            "6. Ajouter les tomates concassées et cuire 5 min.\n" +
-            "7. Ajouter l'eau ou le bouillon, porter à ébullition puis couvrir et laisser mijoter 25 min.\n" +
-            "8. Ajouter les carottes, courgette et poivron, couvrir et cuire encore 15 min jusqu'à tendreté.\n" +
-            "9. Pendant ce temps, préparer le couscous : verser le couscous dans un bol, ajouter 400 ml d'eau bouillante, couvrir 5 min.\n" +
-            "10. Égrainer le couscous à la fourchette, ajouter un filet d'huile d'olive si désiré.\n" +
-            "11. Servir le poulet et les légumes sur le couscous chaud.\n" +
-            "12. Garnir de feuilles de coriandre avant de servir."
+            "1. Préparer tous les légumes.\n" +
+            "2. Chauffer l’huile dans la casserole.\n" +
+            "3. Faire revenir l’oignon 3 à 4 minutes.\n" +
+            "4. Ajouter le poulet et faire dorer 5 minutes.\n" +
+            "5. Ajouter les épices, le sel et le poivre.\n" +
+            "6. Ajouter les tomates et cuire 5 minutes.\n" +
+            "7. Ajouter l’eau ou le bouillon et cuire 25 minutes.\n" +
+            "8. Ajouter les légumes et cuire encore 15 minutes.\n" +
+            "9. Préparer le couscous avec de l’eau bouillante.\n" +
+            "10. Égrainer le couscous.\n" +
+            "11. Servir le poulet et les légumes sur le couscous.\n" +
+            "12. Parsemer de coriandre."
     },
 
     en: {
-        title: "Tunisian Chicken and Vegetable Couscous (Serves 4)",
+        title: "Chicken and Vegetable Couscous (Tunisia)",
         equipment: [
             "1 couscoussier or large pot",
             "1 frying pan",
@@ -44140,37 +43796,36 @@ recipesData.plat.couscous_poulet = {
         ingredients: [
             "400 g medium couscous",
             "4 chicken thighs (about 800 g)",
-            "2 medium carrots (200 g), sliced",
-            "1 medium zucchini (150 g), diced",
-            "1 red bell pepper (100 g), sliced",
-            "1 medium onion (100 g), finely chopped",
-            "2 medium tomatoes (150 g), peeled and chopped",
-            "2 tbsp olive oil (30 ml)",
-            "1 tsp paprika (5 g)",
-            "1 tsp ground cumin (5 g)",
-            "1/2 tsp cinnamon (2 g)",
-            "Salt and pepper to taste",
+            "2 carrots (200 g)",
+            "1 zucchini (150 g)",
+            "1 red bell pepper (100 g)",
+            "1 onion (100 g)",
+            "2 tomatoes (150 g)",
+            "2 tablespoons olive oil (30 ml)",
+            "1 teaspoon paprika (5 g)",
+            "1 teaspoon ground cumin (5 g)",
+            "1/2 teaspoon cinnamon (2 g)",
+            "Salt and pepper",
             "700 ml water or chicken broth",
-            "Some coriander leaves for garnish (5 g)"
+            "Some coriander leaves (5 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Prepare all vegetables: peel, chop, and measure quantities.\n" +
-            "2. Heat 2 tbsp olive oil in the pot.\n" +
-            "3. Sauté chopped onion 3-4 min until translucent.\n" +
-            "4. Add chicken thighs, brown 5 min on all sides.\n" +
-            "5. Add paprika, cumin, cinnamon, salt, and pepper, stir well.\n" +
-            "6. Add chopped tomatoes, cook 5 min.\n" +
-            "7. Add water or broth, bring to boil, cover, simmer 25 min.\n" +
-            "8. Add carrots, zucchini, and bell pepper, cover and cook 15 min until tender.\n" +
-            "9. Meanwhile, prepare couscous: place couscous in a bowl, pour 400 ml boiling water, cover 5 min.\n" +
-            "10. Fluff couscous with a fork, add a drizzle of olive oil if desired.\n" +
-            "11. Serve chicken and vegetables over hot couscous.\n" +
-            "12. Garnish with coriander leaves before serving."
+            "1. Prepare all vegetables.\n" +
+            "2. Heat the oil in the pot.\n" +
+            "3. Sauté the onion for 3 to 4 minutes.\n" +
+            "4. Add the chicken and brown for 5 minutes.\n" +
+            "5. Add spices, salt and pepper.\n" +
+            "6. Add tomatoes and cook 5 minutes.\n" +
+            "7. Add water or broth and cook 25 minutes.\n" +
+            "8. Add vegetables and cook 15 more minutes.\n" +
+            "9. Prepare couscous with boiling water.\n" +
+            "10. Fluff the couscous.\n" +
+            "11. Serve chicken and vegetables over couscous.\n" +
+            "12. Garnish with coriander."
     },
 
     nl: {
-        title: "Tunisische Kip en Groentencouscous (voor 4 personen)",
+        title: "Couscous met kip en groenten (Tunesië)",
         equipment: [
             "1 couscouspan of grote pan",
             "1 koekenpan",
@@ -44181,87 +43836,100 @@ recipesData.plat.couscous_poulet = {
             "1 keukenweegschaal"
         ],
         ingredients: [
-            "400 g middelfijne couscous",
-            "4 kippenbouten (ongeveer 800 g)",
-            "2 middelgrote wortels (200 g), in plakjes",
-            "1 middelgrote courgette (150 g), in blokjes",
-            "1 rode paprika (100 g), in reepjes",
-            "1 middelgrote ui (100 g), fijngehakt",
-            "2 middelgrote tomaten (150 g), gepeld en gesneden",
+            "400 g couscous",
+            "4 kippenbouten (800 g)",
+            "2 wortels (200 g)",
+            "1 courgette (150 g)",
+            "1 rode paprika (100 g)",
+            "1 ui (100 g)",
+            "2 tomaten (150 g)",
             "2 eetlepels olijfolie (30 ml)",
-            "1 tl paprika (5 g)",
-            "1 tl gemalen komijn (5 g)",
-            "1/2 tl kaneel (2 g)",
-            "Zout en peper naar smaak",
+            "1 theelepel paprika (5 g)",
+            "1 theelepel komijn (5 g)",
+            "1/2 theelepel kaneel (2 g)",
+            "Zout en peper",
             "700 ml water of kippenbouillon",
-            "Enkele korianderblaadjes voor garnering (5 g)"
+            "Enkele korianderblaadjes (5 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bereid alle groenten: schil, snijd en meet de hoeveelheden.\n" +
-            "2. Verhit 2 eetlepels olijfolie in de pan.\n" +
-            "3. Bak de ui 3-4 min tot glazig.\n" +
-            "4. Voeg kippenbouten toe, bak 5 min aan alle kanten.\n" +
-            "5. Voeg paprika, komijn, kaneel, zout en peper toe, goed mengen.\n" +
-            "6. Voeg gesneden tomaten toe, bak 5 min.\n" +
-            "7. Voeg water of bouillon toe, breng aan de kook, dek af en laat 25 min sudderen.\n" +
-            "8. Voeg wortels, courgette en paprika toe, dek af en kook 15 min tot gaar.\n" +
-            "9. Bereid ondertussen de couscous: couscous in een kom, giet 400 ml kokend water, dek 5 min af.\n" +
-            "10. Maak los met een vork, voeg eventueel een beetje olijfolie toe.\n" +
-            "11. Serveer kip en groenten op de warme couscous.\n" +
-            "12. Garneer met korianderblaadjes."
+            "1. Bereid alle groenten.\n" +
+            "2. Verhit de olie in de pan.\n" +
+            "3. Bak de ui 3 tot 4 minuten.\n" +
+            "4. Voeg de kip toe en bak 5 minuten.\n" +
+            "5. Voeg kruiden, zout en peper toe.\n" +
+            "6. Voeg tomaten toe en bak 5 minuten.\n" +
+            "7. Voeg water of bouillon toe en kook 25 minuten.\n" +
+            "8. Voeg groenten toe en kook 15 minuten.\n" +
+            "9. Bereid de couscous met kokend water.\n" +
+            "10. Maak de couscous los.\n" +
+            "11. Serveer kip en groenten op couscous.\n" +
+            "12. Garneer met koriander."
     },
 
     ar: {
-        title: "كسكس بالخضار والدجاج (تونس، تكفي 4 أشخاص)",
+        title: "كسكس بالخضار والدجاج (تونس)",
         equipment: [
-            "1 قدر للكسكس أو قدر كبير",
-            "1 مقلاة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية",
-            "1 وعاء",
-            "1 ميزان مطبخ"
+            "قدر كسكس أو قدر كبير",
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء",
+            "ميزان مطبخ"
         ],
         ingredients: [
-            "400 غ كسكس متوسط الحجم",
-            "4 فخذ دجاج (حوالي 800 غ)",
-            "2 جزرة متوسطة (200 غ)، مقطعة شرائح",
-            "1 كوسة متوسطة (150 غ)، مقطعة مكعبات",
-            "1 فلفل أحمر (100 غ)، مقطع شرائح",
-            "1 بصلة متوسطة (100 غ)، مفرومة ناعماً",
-            "2 طماطم متوسطة (150 غ)، مقشرة ومقطعة",
+            "400 غ كسكس متوسط",
+            "4 أفخاذ دجاج (800 غ)",
+            "2 جزرة (200 غ)",
+            "1 كوسة (150 غ)",
+            "1 فلفل أحمر (100 غ)",
+            "1 بصلة (100 غ)",
+            "2 طماطم (150 غ)",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1 ملعقة صغيرة فلفل أحمر مطحون (5 غ)",
-            "1 ملعقة صغيرة كمون مطحون (5 غ)",
+            "1 ملعقة صغيرة بابريكا (5 غ)",
+            "1 ملعقة صغيرة كمون (5 غ)",
             "1/2 ملعقة صغيرة قرفة (2 غ)",
-            "ملح وفلفل حسب الذوق",
+            "ملح وفلفل",
             "700 مل ماء أو مرق دجاج",
-            "بضع أوراق كزبرة للتزيين (5 غ)"
+            "أوراق كزبرة (5 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضّر جميع الخضروات: قشّر، قطع ووزن الكميات.\n" +
-            "2. سخّن 2 ملعقة كبيرة زيت زيتون في القدر.\n" +
-            "3. اقلي البصل المفروم 3-4 دقائق حتى يصبح شفافاً.\n" +
-            "4. أضف فخذ الدجاج، وقلّبه 5 دقائق على جميع الجوانب.\n" +
-            "5. أضف الفلفل الأحمر، الكمون، القرفة، الملح والفلفل، وقلّب جيداً.\n" +
-            "6. أضف الطماطم المقطعة واطبخ 5 دقائق.\n" +
-            "7. أضف الماء أو المرق، اغلي، غطِ واتركه ينضج 25 دقيقة.\n" +
-            "8. أضف الجزر، الكوسة والفلفل، غطِ واطبخ 15 دقيقة حتى تصبح طرية.\n" +
-            "9. حضّر الكسكس: ضع الكسكس في وعاء، صب 400 مل ماء مغلي، غطِ 5 دقائق.\n" +
-            "10. حرّك الكسكس بالشوكة، أضف قليل من زيت الزيتون إذا رغبت.\n" +
-            "11. قدّم الدجاج والخضار فوق الكسكس الساخن.\n" +
-            "12. زيّنه بأوراق الكزبرة."
+            "1. حضّر جميع الخضروات.\n" +
+            "2. سخّن الزيت في القدر.\n" +
+            "3. اقلي البصل 3 إلى 4 دقائق.\n" +
+            "4. أضف الدجاج وقلّه 5 دقائق.\n" +
+            "5. أضف التوابل والملح والفلفل.\n" +
+            "6. أضف الطماطم واطبخ 5 دقائق.\n" +
+            "7. أضف الماء أو المرق واطبخ 25 دقيقة.\n" +
+            "8. أضف الخضروات واطبخ 15 دقيقة.\n" +
+            "9. حضّر الكسكس بالماء المغلي.\n" +
+            "10. فكك الكسكس.\n" +
+            "11. قدّم الدجاج والخضار فوق الكسكس.\n" +
+            "12. زيّن بالكزبرة."
     }
 };
 
+
+
+
+
+
+
+
+
+
 recipesData.dessert.makroud = {
     country: "afrique",
-    countryName: "tunisie",
-    image: "images/makroud.jpg",
+    countryName: "Tunisie",
+    image: "images/makroud_tunisie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Makroud aux dattes (Tunisie, 4 personnes)",
+        title: "Makroud aux dattes (Tunisie)",
         equipment: [
             "1 saladier",
             "1 rouleau à pâtisserie",
@@ -44283,7 +43951,6 @@ recipesData.dessert.makroud = {
             "Huile neutre pour friture (environ 200 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Mélanger la semoule, le beurre fondu et l'eau tiède dans un saladier pour obtenir une pâte homogène.\n" +
             "3. Étaler la pâte sur une planche farinée en rectangle d'environ 1 cm d'épaisseur.\n" +
@@ -44296,7 +43963,7 @@ recipesData.dessert.makroud = {
             "10. Laisser tiédir avant de servir."
     },
     en: {
-        title: "Tunisian Makroud with Dates (Serves 4)",
+        title: "Makroud with Dates (Tunisie)",
         equipment: [
             "1 mixing bowl",
             "1 rolling pin",
@@ -44318,7 +43985,6 @@ recipesData.dessert.makroud = {
             "Neutral oil for frying (about 200 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. Mix semolina, melted butter and warm water in a bowl until dough is smooth.\n" +
             "3. Roll out dough on a floured board into a rectangle about 1 cm thick.\n" +
@@ -44331,7 +43997,7 @@ recipesData.dessert.makroud = {
             "10. Let cool slightly before serving."
     },
     nl: {
-        title: "Tuinse Makroud met Dadels (voor 4 personen)",
+        title: "Makroud met dadels (Tunisie)",
         equipment: [
             "1 mengkom",
             "1 deegroller",
@@ -44353,7 +44019,6 @@ recipesData.dessert.makroud = {
             "Neutrale olie om te frituren (ongeveer 200 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
             "2. Meng griesmeel, gesmolten boter en warm water in een kom tot een glad deeg.\n" +
             "3. Rol het deeg uit op een bebloemd bord tot een rechthoek van ongeveer 1 cm dik.\n" +
@@ -44366,16 +44031,16 @@ recipesData.dessert.makroud = {
             "10. Laat iets afkoelen voor serveren."
     },
     ar: {
-        title: "المقروض بالتمر (تونس، تكفي 4 أشخاص)",
+        title: "المقروض بالتمر (تونس)",
         equipment: [
-            "1 وعاء للخلط",
-            "1 شوبك أو نشابة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 قدر",
-            "1 ملعقة خشبية",
-            "1 فرن",
-            "1 ميزان مطبخ"
+            "وعاء للخلط",
+            "شوبك أو نشابة",
+            "سكين",
+            "لوح تقطيع",
+            "قدر",
+            "ملعقة خشبية",
+            "فرن",
+            "ميزان مطبخ"
         ],
         ingredients: [
             "250 غ سميد ناعم",
@@ -44383,30 +44048,35 @@ recipesData.dessert.makroud = {
             "100 مل ماء دافئ",
             "100 غ معجون تمر",
             "50 غ سكر",
-            "1 ملعقة صغيرة قرفة (2 غ)",
+            "ملعقة صغيرة قرفة (2 غ)",
             "50 غ عسل للتغطية",
             "زيت محايد للقلي (حوالي 200 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخّن الفرن على 180 درجة مئوية.\n" +
             "2. اخلط السميد والزبدة المذابة والماء الدافئ في وعاء حتى يتكون عجين ناعم.\n" +
             "3. افرد العجين على لوح مرشوش بالسميد على شكل مستطيل بسماكة حوالي 1 سم.\n" +
-            "4. شكل لفة من معجون التمر في الوسط.\n" +
+            "4. شكّل لفة من معجون التمر في الوسط.\n" +
             "5. اطوِ عجينة السميد حول معجون التمر لإحكامه.\n" +
-            "6. قطع اللفة إلى أشكال ماسية طولها 3-4 سم.\n" +
+            "6. قطّع اللفة إلى أشكال ماسية بطول 3-4 سم.\n" +
             "7. سخّن الزيت في القدر واقلِ القطع حتى تصبح ذهبية.\n" +
-            "8. صفي على ورق مطبخ.\n" +
-            "9. سخّن العسل قليلاً وقم بتغليف المقروض.\n" +
+            "8. صفِّها على ورق مطبخ.\n" +
+            "9. سخّن العسل قليلاً وغطِّ به المقروض.\n" +
             "10. اتركه يبرد قليلاً قبل التقديم."
     }
 };
 recipesData.dessert.baklawa = {
     country: "afrique",
-    countryName: "tunisie",
-    image: "images/baklawa.jpg",
+    countryName: "Tunisie",
+    image: "images/baklawa_tunisie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 30,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Baklawa (Tunisie, 4 personnes)",
+        title: "Baklawa (Tunisie)",
         equipment: [
             "1 plat allant au four (20x20 cm)",
             "1 pinceau pour huile ou beurre",
@@ -44426,7 +44096,6 @@ recipesData.dessert.baklawa = {
             "100 ml miel liquide"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Mélanger les noix, amandes, pistaches, sucre et cannelle dans un bol.\n" +
             "3. Beurrer le plat avec une partie du beurre fondu.\n" +
@@ -44440,7 +44109,7 @@ recipesData.dessert.baklawa = {
             "11. Laisser refroidir 15 min avant de servir."
     },
     en: {
-        title: "Baklawa (Tunisian Baklava, Serves 4)",
+        title: "Baklawa (Tunisie)",
         equipment: [
             "1 baking dish (20x20 cm)",
             "1 brush for butter",
@@ -44460,7 +44129,6 @@ recipesData.dessert.baklawa = {
             "100 ml liquid honey"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. Mix walnuts, almonds, pistachios, sugar, and cinnamon in a bowl.\n" +
             "3. Brush the baking dish with some melted butter.\n" +
@@ -44474,7 +44142,7 @@ recipesData.dessert.baklawa = {
             "11. Let cool 15 min before serving."
     },
     nl: {
-        title: "Baklawa (Tunesische Baklava, voor 4 personen)",
+        title: "Baklawa (Tunisie)",
         equipment: [
             "1 ovenschaal (20x20 cm)",
             "1 kwast voor boter",
@@ -44494,7 +44162,6 @@ recipesData.dessert.baklawa = {
             "100 ml vloeibare honing"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
             "2. Meng walnoten, amandelen, pistachenoten, suiker en kaneel in een kom.\n" +
             "3. Bestrijk de ovenschaal met wat gesmolten boter.\n" +
@@ -44504,18 +44171,18 @@ recipesData.dessert.baklawa = {
             "7. Voeg resterende notenmengsel toe, dek af met resterende filodeeg, steeds met boter bestrijken.\n" +
             "8. Snijd in ruitjes of vierkanten voor het bakken.\n" +
             "9. Bak 25-30 min tot goudbruin.\n" +
-            "10. Giet warme honing over de baklava als deze uit de oven komt.\n" +
+            "10. Giet warme honing over de baklawa als deze uit de oven komt.\n" +
             "11. Laat 15 min afkoelen voor serveren."
     },
     ar: {
-        title: "بقلاوة (تونس، تكفي 4 أشخاص)",
+        title: "بقلاوة (تونس)",
         equipment: [
-            "1 صينية خبز (20x20 سم)",
-            "1 فرشاة لدهن الزبدة",
+            "صينية خبز (20x20 سم)",
+            "فرشاة لدهن الزبدة",
             "سكين",
             "لوح تقطيع",
-            "1 وعاء",
-            "1 ملعقة"
+            "وعاء",
+            "ملعقة"
         ],
         ingredients: [
             "200 غ عجينة فيلو",
@@ -44524,24 +44191,53 @@ recipesData.dessert.baklawa = {
             "50 غ لوز مفروم",
             "50 غ فستق مفروم",
             "80 غ سكر",
-            "1/2 ملعقة صغيرة قرفة",
+            "نصف ملعقة صغيرة قرفة",
             "100 مل عسل سائل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الفرن إلى 180°C.\n" +
-            "2. اخلط الجوز، اللوز، الفستق، السكر والقرفة في وعاء.\n" +
+            "1. سخّن الفرن إلى 180 درجة مئوية.\n" +
+            "2. اخلط الجوز واللوز والفستق والسكر والقرفة في وعاء.\n" +
             "3. ادهن الصينية بالزبدة المذابة.\n" +
-            "4. ضع ورقة فيلو، ادهن بالزبدة، كرر 3 مرات.\n" +
-            "5. وزع نصف خليط المكسرات على العجين.\n" +
-            "6. غطّها بـ3 ورقات فيلو، ادهن كل ورقة بالزبدة.\n" +
-            "7. أضف بقية خليط المكسرات، ثم غطّ بالباقي من ورقات الفيلو، مع دهن كل طبقة.\n" +
-            "8. اقطعها على شكل معينات أو مربعات قبل الخبز.\n" +
-            "9. اخبز 25-30 دقيقة حتى يصبح السطح ذهبي.\n" +
-            "10. صب العسل الدافئ فوق البقلاوة عند خروجها من الفرن.\n" +
-            "11. دعها تبرد 15 دقيقة قبل التقديم."
+            "4. ضع ورقة فيلو وادهنها بالزبدة وكرر ذلك 3 مرات.\n" +
+            "5. وزّع نصف خليط المكسرات فوق العجين.\n" +
+            "6. غطِّ بثلاث ورقات فيلو مع دهن كل ورقة بالزبدة.\n" +
+            "7. أضف باقي خليط المكسرات ثم غطِّ بباقي ورقات الفيلو مع دهن كل طبقة.\n" +
+            "8. اقطعها إلى معينات أو مربعات قبل الخَبز.\n" +
+            "9. اخبز لمدة 25-30 دقيقة حتى يصبح السطح ذهبيًا.\n" +
+            "10. اسكب العسل الدافئ فوق البقلاوة فور إخراجها من الفرن.\n" +
+            "11. اتركها تبرد 15 دقيقة قبل التقديم."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 recipesData.dessert.zlabia = {
     country: "afrique",
     countryName: "tunisie",
