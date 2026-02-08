@@ -49730,7 +49730,7 @@ recipesData.plat.mbongo_tchobi = {
 recipesData.plat.brochettes_boef = {
     country: "afrique",
     countryName: "Cameroun",
-    image: "images/brochettes_boeuf-cameroun.jpg",
+    image: "images/brochettes_boef-cameroun.jpg",
     meta: {
         servings: 4,
         prepTime: 15,
@@ -49739,7 +49739,7 @@ recipesData.plat.brochettes_boef = {
         marinationTime: 30
     },
     fr: {
-        title: "Brochettes de bœf (Cameroun)",
+        title: "Brochettes de bœuf (Cameroun)",
         equipment: [
             "1 grille ou barbecue",
             "1 couteau",
