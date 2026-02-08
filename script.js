@@ -51510,6 +51510,476 @@ recipesData.patisserie.cake_manioc_cameroun = {
 
 
 
+recipesData.entree.sambusa_burundi = {
+  country: "afrique",
+  countryName: "Burundi",
+  image: "images/sambusa-burundi.jpg",
+  meta: {
+    servings: 4,
+    prepTime: 20,
+    cookTime: 10,
+    difficulty: "easy"
+  },
+  fr: {
+    title: "Sambusa (Burundi)",
+    equipment: [
+      "bol",
+      "poêle",
+      "cuillère",
+      "papier absorbant"
+    ],
+    ingredients: [
+      "feuilles de brick",
+      "viande hachée de bœuf",
+      "oignon",
+      "huile végétale",
+      "sel",
+      "poivre"
+    ],
+    preparation:
+      "1. Éplucher l’oignon.\n" +
+      "2. Émincer finement l’oignon.\n" +
+      "3. Faire chauffer un peu d’huile dans une poêle.\n" +
+      "4. Ajouter l’oignon et le faire revenir jusqu’à ce qu’il soit translucide.\n" +
+      "5. Ajouter la viande hachée dans la poêle.\n" +
+      "6. Saler la préparation.\n" +
+      "7. Poivrer la préparation.\n" +
+      "8. Faire cuire la viande jusqu’à cuisson complète.\n" +
+      "9. Retirer la farce du feu.\n" +
+      "10. Déposer une portion de farce sur une feuille de brick.\n" +
+      "11. Plier la feuille de brick en triangle.\n" +
+      "12. Répéter l’opération avec le reste des feuilles.\n" +
+      "13. Faire chauffer l’huile pour la friture.\n" +
+      "14. Plonger les sambusas dans l’huile chaude.\n" +
+      "15. Faire frire jusqu’à coloration dorée.\n" +
+      "16. Retirer les sambusas de l’huile.\n" +
+      "17. Égoutter sur du papier absorbant."
+  },
+  en: {
+    title: "Sambusa (Burundi)",
+    equipment: [
+      "bowl",
+      "frying pan",
+      "spoon",
+      "paper towels"
+    ],
+    ingredients: [
+      "brick pastry sheets",
+      "ground beef",
+      "onion",
+      "vegetable oil",
+      "salt",
+      "pepper"
+    ],
+    preparation:
+      "1. Peel the onion.\n" +
+      "2. Finely chop the onion.\n" +
+      "3. Heat a little oil in a frying pan.\n" +
+      "4. Add the onion and cook until translucent.\n" +
+      "5. Add the ground beef to the pan.\n" +
+      "6. Season with salt.\n" +
+      "7. Season with pepper.\n" +
+      "8. Cook the meat until fully done.\n" +
+      "9. Remove the filling from the heat.\n" +
+      "10. Place a portion of filling on a pastry sheet.\n" +
+      "11. Fold the pastry sheet into a triangle.\n" +
+      "12. Repeat with the remaining sheets.\n" +
+      "13. Heat oil for frying.\n" +
+      "14. Place the sambusas in hot oil.\n" +
+      "15. Fry until golden brown.\n" +
+      "16. Remove the sambusas from the oil.\n" +
+      "17. Drain on paper towels."
+  },
+  nl: {
+    title: "Sambusa (Burundi)",
+    equipment: [
+      "kom",
+      "koekenpan",
+      "lepel",
+      "keukenpapier"
+    ],
+    ingredients: [
+      "brickdeegvellen",
+      "rundergehakt",
+      "ui",
+      "plantaardige olie",
+      "zout",
+      "peper"
+    ],
+    preparation:
+      "1. Schil de ui.\n" +
+      "2. Snipper de ui fijn.\n" +
+      "3. Verhit een beetje olie in de koekenpan.\n" +
+      "4. Voeg de ui toe en bak tot hij glazig is.\n" +
+      "5. Voeg het gehakt toe aan de pan.\n" +
+      "6. Breng op smaak met zout.\n" +
+      "7. Breng op smaak met peper.\n" +
+      "8. Bak het vlees gaar.\n" +
+      "9. Haal de vulling van het vuur.\n" +
+      "10. Leg een portie vulling op een deegvel.\n" +
+      "11. Vouw het deegvel tot een driehoek.\n" +
+      "12. Herhaal met de overige vellen.\n" +
+      "13. Verhit olie om te frituren.\n" +
+      "14. Leg de sambusa’s in de hete olie.\n" +
+      "15. Frituur tot goudbruin.\n" +
+      "16. Haal de sambusa’s uit de olie.\n" +
+      "17. Laat uitlekken op keukenpapier."
+  },
+  ar: {
+    title: "سمبوسة (بوروندي)",
+    equipment: [
+      "وعاء",
+      "مقلاة",
+      "ملعقة",
+      "ورق ماص"
+    ],
+    ingredients: [
+      "أوراق البريك",
+      "لحم بقري مفروم",
+      "بصل",
+      "زيت نباتي",
+      "ملح",
+      "فلفل"
+    ],
+    preparation:
+      "1. تقشير البصل.\n" +
+      "2. تقطيع البصل ناعماً.\n" +
+      "3. تسخين كمية قليلة من الزيت في المقلاة.\n" +
+      "4. إضافة البصل وتشويحه حتى يصبح شفافاً.\n" +
+      "5. إضافة اللحم المفروم إلى المقلاة.\n" +
+      "6. إضافة الملح.\n" +
+      "7. إضافة الفلفل.\n" +
+      "8. طهي اللحم حتى ينضج تماماً.\n" +
+      "9. رفع الحشوة عن النار.\n" +
+      "10. وضع كمية من الحشوة على ورقة البريك.\n" +
+      "11. طي ورقة البريك على شكل مثلث.\n" +
+      "12. تكرار العملية مع باقي الأوراق.\n" +
+      "13. تسخين الزيت للقلي.\n" +
+      "14. وضع السمبوسة في الزيت الساخن.\n" +
+      "15. قليها حتى تصبح ذهبية اللون.\n" +
+      "16. إخراج السمبوسة من الزيت.\n" +
+      "17. تصفيتها على ورق ماص."
+  }
+};
+
+
+
+
+
+
+
+
+
+
+recipesData.plat.isombe_burundi = {
+  country: "afrique",
+  countryName: "Burundi",
+  image: "images/isombe-burundi.jpg",
+  meta: {
+    servings: 4,
+    prepTime: 25,
+    cookTime: 40,
+    difficulty: "medium"
+  },
+  fr: {
+    title: "Isombe (Burundi)",
+    equipment: [
+      "casserole",
+      "couteau",
+      "planche à découper",
+      "cuillère en bois"
+    ],
+    ingredients: [
+      "feuilles de manioc",
+      "pâte d’arachide",
+      "oignon",
+      "ail",
+      "huile végétale",
+      "sel"
+    ],
+    preparation:
+      "1. Laver soigneusement les feuilles de manioc.\n" +
+      "2. Hacher finement les feuilles de manioc.\n" +
+      "3. Éplucher l’oignon.\n" +
+      "4. Émincer l’oignon.\n" +
+      "5. Éplucher l’ail.\n" +
+      "6. Hacher l’ail finement.\n" +
+      "7. Faire chauffer l’huile dans une casserole.\n" +
+      "8. Ajouter l’oignon et l’ail dans la casserole.\n" +
+      "9. Faire revenir jusqu’à ce qu’ils soient translucides.\n" +
+      "10. Ajouter les feuilles de manioc hachées.\n" +
+      "11. Mélanger soigneusement.\n" +
+      "12. Ajouter un peu d’eau.\n" +
+      "13. Couvrir et laisser cuire à feu moyen.\n" +
+      "14. Remuer régulièrement.\n" +
+      "15. Ajouter la pâte d’arachide.\n" +
+      "16. Bien mélanger pour obtenir une texture homogène.\n" +
+      "17. Saler selon le goût.\n" +
+      "18. Laisser mijoter jusqu’à cuisson complète."
+  },
+  en: {
+    title: "Isombe (Burundi)",
+    equipment: [
+      "pot",
+      "knife",
+      "cutting board",
+      "wooden spoon"
+    ],
+    ingredients: [
+      "cassava leaves",
+      "peanut paste",
+      "onion",
+      "garlic",
+      "vegetable oil",
+      "salt"
+    ],
+    preparation:
+      "1. Wash the cassava leaves thoroughly.\n" +
+      "2. Finely chop the cassava leaves.\n" +
+      "3. Peel the onion.\n" +
+      "4. Slice the onion.\n" +
+      "5. Peel the garlic.\n" +
+      "6. Finely chop the garlic.\n" +
+      "7. Heat the oil in a pot.\n" +
+      "8. Add the onion and garlic to the pot.\n" +
+      "9. Sauté until translucent.\n" +
+      "10. Add the chopped cassava leaves.\n" +
+      "11. Stir well.\n" +
+      "12. Add a little water.\n" +
+      "13. Cover and cook over medium heat.\n" +
+      "14. Stir regularly.\n" +
+      "15. Add the peanut paste.\n" +
+      "16. Mix well until smooth.\n" +
+      "17. Season with salt to taste.\n" +
+      "18. Simmer until fully cooked."
+  },
+  nl: {
+    title: "Isombe (Burundi)",
+    equipment: [
+      "pan",
+      "mes",
+      "snijplank",
+      "houten lepel"
+    ],
+    ingredients: [
+      "cassavebladeren",
+      "pindapasta",
+      "ui",
+      "knoflook",
+      "plantaardige olie",
+      "zout"
+    ],
+    preparation:
+      "1. Was de cassavebladeren grondig.\n" +
+      "2. Hak de cassavebladeren fijn.\n" +
+      "3. Pel de ui.\n" +
+      "4. Snijd de ui fijn.\n" +
+      "5. Pel de knoflook.\n" +
+      "6. Hak de knoflook fijn.\n" +
+      "7. Verhit de olie in een pan.\n" +
+      "8. Voeg de ui en knoflook toe aan de pan.\n" +
+      "9. Bak tot ze glazig zijn.\n" +
+      "10. Voeg de gehakte cassavebladeren toe.\n" +
+      "11. Meng goed.\n" +
+      "12. Voeg een beetje water toe.\n" +
+      "13. Laat afgedekt koken op middelhoog vuur.\n" +
+      "14. Roer regelmatig.\n" +
+      "15. Voeg de pindapasta toe.\n" +
+      "16. Meng tot een glad geheel.\n" +
+      "17. Breng op smaak met zout.\n" +
+      "18. Laat sudderen tot alles gaar is."
+  },
+  ar: {
+    title: "إيسومبي (بوروندي)",
+    equipment: [
+      "قدر",
+      "سكين",
+      "لوح تقطيع",
+      "ملعقة خشبية"
+    ],
+    ingredients: [
+      "أوراق الكسافا",
+      "زبدة الفول السوداني",
+      "بصل",
+      "ثوم",
+      "زيت نباتي",
+      "ملح"
+    ],
+    preparation:
+      "1. غسل أوراق الكسافا جيداً.\n" +
+      "2. فرم أوراق الكسافا ناعماً.\n" +
+      "3. تقشير البصل.\n" +
+      "4. تقطيع البصل.\n" +
+      "5. تقشير الثوم.\n" +
+      "6. فرم الثوم ناعماً.\n" +
+      "7. تسخين الزيت في قدر.\n" +
+      "8. إضافة البصل والثوم إلى القدر.\n" +
+      "9. تشويحهما حتى يصبحا شفافين.\n" +
+      "10. إضافة أوراق الكسافا المفرومة.\n" +
+      "11. خلط المكونات جيداً.\n" +
+      "12. إضافة كمية قليلة من الماء.\n" +
+      "13. تغطية القدر وتركه يطهى على نار متوسطة.\n" +
+      "14. التحريك بانتظام.\n" +
+      "15. إضافة زبدة الفول السوداني.\n" +
+      "16. خلط المزيج حتى يصبح متجانساً.\n" +
+      "17. إضافة الملح حسب الذوق.\n" +
+      "18. تركه يطهى حتى ينضج تماماً."
+  }
+};
+
+
+
+
+
+
+
+
+
+
+recipesData.dessert.beignets_banane_burundi = {
+  country: "afrique",
+  countryName: "Burundi",
+  image: "images/beignets-banane-burundi.jpg",
+  meta: {
+    servings: 4,
+    prepTime: 15,
+    cookTime: 15,
+    difficulty: "easy"
+  },
+  fr: {
+    title: "Beignets de banane (Burundi)",
+    equipment: [
+      "bol",
+      "fourchette",
+      "poêle",
+      "cuillère",
+      "papier absorbant"
+    ],
+    ingredients: [
+      "bananes mûres",
+      "farine de blé",
+      "sucre",
+      "huile végétale",
+      "sel"
+    ],
+    preparation:
+      "1. Éplucher les bananes.\n" +
+      "2. Écraser les bananes dans un bol à l’aide d’une fourchette.\n" +
+      "3. Ajouter le sucre.\n" +
+      "4. Ajouter une pincée de sel.\n" +
+      "5. Incorporer progressivement la farine.\n" +
+      "6. Mélanger jusqu’à obtenir une pâte homogène.\n" +
+      "7. Faire chauffer l’huile dans une poêle.\n" +
+      "8. Prélever une petite quantité de pâte avec une cuillère.\n" +
+      "9. Déposer la pâte dans l’huile chaude.\n" +
+      "10. Faire frire jusqu’à coloration dorée.\n" +
+      "11. Retourner les beignets.\n" +
+      "12. Poursuivre la cuisson jusqu’à ce qu’ils soient bien dorés.\n" +
+      "13. Retirer les beignets de l’huile.\n" +
+      "14. Égoutter sur du papier absorbant.\n" +
+      "15. Servir chaud."
+  },
+  en: {
+    title: "Banana Fritters (Burundi)",
+    equipment: [
+      "bowl",
+      "fork",
+      "frying pan",
+      "spoon",
+      "paper towels"
+    ],
+    ingredients: [
+      "ripe bananas",
+      "wheat flour",
+      "sugar",
+      "vegetable oil",
+      "salt"
+    ],
+    preparation:
+      "1. Peel the bananas.\n" +
+      "2. Mash the bananas in a bowl using a fork.\n" +
+      "3. Add the sugar.\n" +
+      "4. Add a pinch of salt.\n" +
+      "5. Gradually add the flour.\n" +
+      "6. Mix until a smooth batter forms.\n" +
+      "7. Heat the oil in a frying pan.\n" +
+      "8. Scoop a small amount of batter with a spoon.\n" +
+      "9. Drop the batter into the hot oil.\n" +
+      "10. Fry until golden.\n" +
+      "11. Turn the fritters over.\n" +
+      "12. Continue frying until evenly golden.\n" +
+      "13. Remove the fritters from the oil.\n" +
+      "14. Drain on paper towels.\n" +
+      "15. Serve warm."
+  },
+  nl: {
+    title: "Bananenbeignets (Burundi)",
+    equipment: [
+      "kom",
+      "vork",
+      "koekenpan",
+      "lepel",
+      "keukenpapier"
+    ],
+    ingredients: [
+      "rijpe bananen",
+      "tarwebloem",
+      "suiker",
+      "plantaardige olie",
+      "zout"
+    ],
+    preparation:
+      "1. Schil de bananen.\n" +
+      "2. Prak de bananen in een kom met een vork.\n" +
+      "3. Voeg de suiker toe.\n" +
+      "4. Voeg een snufje zout toe.\n" +
+      "5. Voeg geleidelijk de bloem toe.\n" +
+      "6. Meng tot een glad beslag.\n" +
+      "7. Verhit de olie in een koekenpan.\n" +
+      "8. Neem een kleine hoeveelheid beslag met een lepel.\n" +
+      "9. Laat het beslag in de hete olie vallen.\n" +
+      "10. Frituur tot goudbruin.\n" +
+      "11. Draai de beignets om.\n" +
+      "12. Bak tot ze gelijkmatig goudbruin zijn.\n" +
+      "13. Haal de beignets uit de olie.\n" +
+      "14. Laat uitlekken op keukenpapier.\n" +
+      "15. Serveer warm."
+  },
+  ar: {
+    title: "فطائر الموز (بوروندي)",
+    equipment: [
+      "وعاء",
+      "شوكة",
+      "مقلاة",
+      "ملعقة",
+      "ورق ماص"
+    ],
+    ingredients: [
+      "موز ناضج",
+      "دقيق القمح",
+      "سكر",
+      "زيت نباتي",
+      "ملح"
+    ],
+    preparation:
+      "1. تقشير الموز.\n" +
+      "2. هرس الموز في وعاء باستخدام شوكة.\n" +
+      "3. إضافة السكر.\n" +
+      "4. إضافة رشة ملح.\n" +
+      "5. إضافة الدقيق تدريجياً.\n" +
+      "6. خلط المكونات حتى تتكون عجينة متجانسة.\n" +
+      "7. تسخين الزيت في المقلاة.\n" +
+      "8. أخذ كمية صغيرة من العجينة بالملعقة.\n" +
+      "9. وضع العجينة في الزيت الساخن.\n" +
+      "10. قليها حتى تصبح ذهبية اللون.\n" +
+      "11. قلب الفطائر.\n" +
+      "12. متابعة القلي حتى تتحمر جيداً.\n" +
+      "13. إخراج الفطائر من الزيت.\n" +
+      "14. تصفيتها على ورق ماص.\n" +
+      "15. تقديمها ساخنة."
+  }
+};
+
 
 
 
