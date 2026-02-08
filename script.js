@@ -48088,12 +48088,20 @@ recipesData.patisserie.baklawa_noix = {
 
 
 
+
+
 recipesData.entree.ndole_crevette = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/ndole_crevette.jpg",
+    countryName: "Cameroun",
+    image: "images/ndole-crevette-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Ndolé aux crevettes (Cameroun, 4 personnes)",
+        title: "Ndolé aux crevettes (Cameroun)",
         equipment: [
             "1 casserole moyenne",
             "1 couteau",
@@ -48113,7 +48121,6 @@ recipesData.entree.ndole_crevette = {
             "100 ml eau"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Laver et hacher finement les feuilles de ndolé.\n" +
             "2. Émincer l’oignon et hacher l’ail.\n" +
             "3. Chauffer l’huile dans la casserole.\n" +
@@ -48124,7 +48131,7 @@ recipesData.entree.ndole_crevette = {
             "8. Servir chaud."
     },
     en: {
-        title: "Ndolé with Shrimp (Cameroon, Serves 4)",
+        title: "Ndolé with Shrimp (Cameroun)",
         equipment: [
             "1 medium pot",
             "1 knife",
@@ -48144,7 +48151,6 @@ recipesData.entree.ndole_crevette = {
             "100 ml water"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Wash and finely chop ndolé leaves.\n" +
             "2. Slice onion and chop garlic.\n" +
             "3. Heat oil in pot.\n" +
@@ -48155,7 +48161,7 @@ recipesData.entree.ndole_crevette = {
             "8. Serve hot."
     },
     nl: {
-        title: "Ndolé met garnalen (Kameroen, voor 4 personen)",
+        title: "Ndolé met garnalen (Cameroun)",
         equipment: [
             "1 middelgrote pan",
             "1 mes",
@@ -48175,7 +48181,6 @@ recipesData.entree.ndole_crevette = {
             "100 ml water"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Was en hak ndolé bladeren fijn.\n" +
             "2. Snijd ui en hak knoflook.\n" +
             "3. Verhit olie in pan.\n" +
@@ -48186,7 +48191,7 @@ recipesData.entree.ndole_crevette = {
             "8. Serveer warm."
     },
     ar: {
-        title: "ندولي بالروبيان (الكاميرون، تكفي 4 أشخاص)",
+        title: "ندولي بالروبيان (الكاميرون)",
         equipment: [
             "1 قدر متوسط",
             "سكين",
@@ -48206,25 +48211,28 @@ recipesData.entree.ndole_crevette = {
             "100 مل ماء"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اغسل الأوراق وافرمه ناعماً.\n" +
-            "2. قطع البصل وافرمه.\n" +
+            "2. قطّع البصل وافرمه مع الثوم.\n" +
             "3. سخّن الزيت في القدر.\n" +
-            "4. اقلي البصل والثوم 3 دقائق.\n" +
-            "5. أضف الروبيان واطهه 5 دقائق.\n" +
+            "4. اقلي البصل والثوم لمدة 3 دقائق.\n" +
+            "5. أضف الروبيان واطهه لمدة 5 دقائق.\n" +
             "6. أضف الأوراق والماء والتوابل.\n" +
-            "7. غطّ واطه 10-12 دقيقة على نار هادئة.\n" +
-            "8. قدم ساخناً."
+            "7. غطِّ واطهه 10-12 دقيقة على نار هادئة.\n" +
+            "8. قدّم ساخناً."
     }
 };
-
-// 2️⃣ Akwaba Salade (salade camerounaise de légumes)
 recipesData.entree.akwaba_salade = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/akwaba_salade.jpg",
+    countryName: "Cameroun",
+    image: "images/akwaba-salade-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Akwaba Salade (Cameroun, 4 personnes)",
+        title: "Akwaba Salade (Cameroun)",
         equipment: [
             "1 grand bol",
             "1 couteau",
@@ -48242,7 +48250,6 @@ recipesData.entree.akwaba_salade = {
             "1 cuillère à soupe jus de citron (15 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Laver et couper tomates, concombre et poivron en petits dés.\n" +
             "2. Émincer l’oignon rouge.\n" +
             "3. Mettre tous les légumes dans un grand bol.\n" +
@@ -48251,7 +48258,7 @@ recipesData.entree.akwaba_salade = {
             "6. Servir frais."
     },
     en: {
-        title: "Akwaba Salad (Cameroon, Serves 4)",
+        title: "Akwaba Salad (Cameroun)",
         equipment: [
             "1 large bowl",
             "1 knife",
@@ -48269,7 +48276,6 @@ recipesData.entree.akwaba_salade = {
             "1 tbsp lemon juice (15 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Wash and dice tomatoes, cucumber and bell pepper.\n" +
             "2. Slice red onion.\n" +
             "3. Place all vegetables in a large bowl.\n" +
@@ -48278,7 +48284,7 @@ recipesData.entree.akwaba_salade = {
             "6. Serve chilled."
     },
     nl: {
-        title: "Akwaba salade (Kameroen, voor 4 personen)",
+        title: "Akwaba salade (Cameroun)",
         equipment: [
             "1 grote kom",
             "1 mes",
@@ -48296,7 +48302,6 @@ recipesData.entree.akwaba_salade = {
             "1 el citroensap (15 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Was en snijd tomaten, komkommer en paprika in kleine blokjes.\n" +
             "2. Snijd rode ui in dunne reepjes.\n" +
             "3. Doe alle groenten in een grote kom.\n" +
@@ -48305,7 +48310,7 @@ recipesData.entree.akwaba_salade = {
             "6. Serveer koud."
     },
     ar: {
-        title: "سلطة أكوابا (الكاميرون، تكفي 4 أشخاص)",
+        title: "سلطة أكوابا (الكاميرون)",
         equipment: [
             "1 وعاء كبير",
             "سكين",
@@ -48323,23 +48328,26 @@ recipesData.entree.akwaba_salade = {
             "1 ملعقة كبيرة عصير ليمون (15 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اغسل وقطع الطماطم، الخيار والفلفل إلى مكعبات صغيرة.\n" +
             "2. قطّع البصل الأحمر إلى شرائح رقيقة.\n" +
             "3. ضع جميع الخضار في وعاء كبير.\n" +
             "4. أضف الزيت والملح والفلفل وعصير الليمون.\n" +
             "5. اخلط برفق.\n" +
-            "6. قدم بارد."
+            "6. قدّم بارداً."
     }
 };
-
-// 3️⃣ Beignets de banane plantain
 recipesData.entree.beignets_plantain = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/beignets_plantain.jpg",
+    countryName: "Cameroun",
+    image: "images/beignets-plantain-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Beignets de banane plantain (Cameroun, 4 personnes)",
+        title: "Beignets de banane plantain (Cameroun)",
         equipment: [
             "1 bol",
             "1 fourchette",
@@ -48354,17 +48362,16 @@ recipesData.entree.beignets_plantain = {
             "Huile de tournesol pour friture (environ 200 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Éplucher et écraser les bananes plantains dans un bol.\n" +
             "2. Ajouter farine, sucre et sel, bien mélanger.\n" +
             "3. Chauffer l’huile dans la poêle.\n" +
             "4. Former des petites boules avec la pâte.\n" +
-            "5. Placer dans la poêle chaude et frire 2-3 min de chaque côté jusqu’à doré.\n" +
+            "5. Frire 2-3 min de chaque côté jusqu’à doré.\n" +
             "6. Égoutter sur du papier absorbant.\n" +
             "7. Servir chaud."
     },
     en: {
-        title: "Plantain Fritters (Cameroon, Serves 4)",
+        title: "Plantain Fritters (Cameroun)",
         equipment: [
             "1 bowl",
             "1 fork",
@@ -48379,7 +48386,6 @@ recipesData.entree.beignets_plantain = {
             "Sunflower oil for frying (about 200 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Peel and mash plantains in a bowl.\n" +
             "2. Add flour, sugar and salt, mix well.\n" +
             "3. Heat oil in pan.\n" +
@@ -48389,7 +48395,7 @@ recipesData.entree.beignets_plantain = {
             "7. Serve hot."
     },
     nl: {
-        title: "Bananenplantain beignets (Kameroen, voor 4 personen)",
+        title: "Bananenplantain beignets (Cameroun)",
         equipment: [
             "1 kom",
             "1 vork",
@@ -48404,7 +48410,6 @@ recipesData.entree.beignets_plantain = {
             "Zonnebloemolie om te frituren (ca. 200 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Schil en prak de bakbananen in een kom.\n" +
             "2. Voeg bloem, suiker en zout toe, meng goed.\n" +
             "3. Verhit olie in pan.\n" +
@@ -48414,7 +48419,7 @@ recipesData.entree.beignets_plantain = {
             "7. Serveer warm."
     },
     ar: {
-        title: "فطائر الموز (الكاميرون، تكفي 4 أشخاص)",
+        title: "فطائر الموز (الكاميرون)",
         equipment: [
             "1 وعاء",
             "1 شوكة",
@@ -48429,24 +48434,33 @@ recipesData.entree.beignets_plantain = {
             "زيت دوار الشمس للقلي (حوالي 200 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قشر واهرسي الموز في وعاء.\n" +
-            "2. أضف الدقيق والسكر والملح، واخلط جيداً.\n" +
+            "2. أضف الدقيق والسكر والملح واخلط جيداً.\n" +
             "3. سخّن الزيت في المقلاة.\n" +
             "4. شكّل كرات صغيرة من العجين.\n" +
             "5. اقلي 2-3 دقائق لكل جانب حتى تصبح ذهبية.\n" +
-            "6. صفي على ورق مطبخ.\n" +
-            "7. قدم ساخناً."
+            "6. صفِّ على ورق مطبخ.\n" +
+            "7. قدّم ساخناً."
     }
 };
-// 4️⃣ Accra bananes
 recipesData.entree.accra_bananes = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/accra_bananes.jpg",
+    countryName: "Cameroun",
+    image: "images/accra-bananes-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Accra bananes (Cameroun, 4 personnes)",
-        equipment: ["1 bol", "1 fourchette", "1 poêle", "1 cuillère"],
+        title: "Accra bananes (Cameroun)",
+        equipment: [
+            "1 bol",
+            "1 fourchette",
+            "1 poêle",
+            "1 cuillère"
+        ],
         ingredients: [
             "2 bananes plantains mûres (300 g)",
             "50 g farine de blé",
@@ -48455,7 +48469,6 @@ recipesData.entree.accra_bananes = {
             "Huile pour friture (environ 200 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Éplucher et écraser les bananes.\n" +
             "2. Ajouter farine, sucre et sel, bien mélanger.\n" +
             "3. Chauffer l’huile dans la poêle.\n" +
@@ -48465,8 +48478,13 @@ recipesData.entree.accra_bananes = {
             "7. Servir chaud."
     },
     en: {
-        title: "Accra Bananas (Cameroon, Serves 4)",
-        equipment: ["1 bowl", "1 fork", "1 pan", "1 spoon"],
+        title: "Accra Bananas (Cameroun)",
+        equipment: [
+            "1 bowl",
+            "1 fork",
+            "1 pan",
+            "1 spoon"
+        ],
         ingredients: [
             "2 ripe plantains (300 g)",
             "50 g wheat flour",
@@ -48475,7 +48493,6 @@ recipesData.entree.accra_bananes = {
             "Oil for frying (about 200 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Peel and mash the bananas.\n" +
             "2. Add flour, sugar and salt, mix well.\n" +
             "3. Heat oil in pan.\n" +
@@ -48485,8 +48502,13 @@ recipesData.entree.accra_bananes = {
             "7. Serve hot."
     },
     nl: {
-        title: "Accra bananen (Kameroen, voor 4 personen)",
-        equipment: ["1 kom", "1 vork", "1 pan", "1 lepel"],
+        title: "Accra bananen (Cameroun)",
+        equipment: [
+            "1 kom",
+            "1 vork",
+            "1 pan",
+            "1 lepel"
+        ],
         ingredients: [
             "2 rijpe bakbananen (300 g)",
             "50 g tarwebloem",
@@ -48495,7 +48517,6 @@ recipesData.entree.accra_bananes = {
             "Olie om te frituren (ca. 200 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Schil en prak de bananen.\n" +
             "2. Voeg bloem, suiker en zout toe, meng goed.\n" +
             "3. Verhit olie in pan.\n" +
@@ -48505,8 +48526,13 @@ recipesData.entree.accra_bananes = {
             "7. Serveer warm."
     },
     ar: {
-        title: "أكرا موز (الكاميرون، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "شوكة", "مقلاة", "ملعقة"],
+        title: "أكرا موز (الكاميرون)",
+        equipment: [
+            "وعاء",
+            "شوكة",
+            "مقلاة",
+            "ملعقة"
+        ],
         ingredients: [
             "2 موزة بلانتين ناضجة (300 غ)",
             "50 غ دقيق القمح",
@@ -48515,25 +48541,33 @@ recipesData.entree.accra_bananes = {
             "زيت للقلي (حوالي 200 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قشر واهرسي الموز.\n" +
-            "2. أضف الدقيق والسكر والملح، واخلط جيداً.\n" +
+            "2. أضف الدقيق والسكر والملح واخلط جيداً.\n" +
             "3. سخّن الزيت في المقلاة.\n" +
             "4. شكّل أقراص صغيرة.\n" +
-            "5. اقلي 2-3 دقائق لكل جانب حتى يصبح ذهبي.\n" +
-            "6. صفي على ورق مطبخ.\n" +
-            "7. قدم ساخناً."
+            "5. اقلي 2-3 دقائق لكل جانب حتى يصبح ذهبياً.\n" +
+            "6. صفِّ على ورق مطبخ.\n" +
+            "7. قدّم ساخناً."
     }
 };
-
-// 5️⃣ Koki (Cameroon, 4 personnes)
 recipesData.entree.koki = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/koki.jpg",
+    countryName: "Cameroun",
+    image: "images/koki-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 40,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Koki (Cameroun, 4 personnes)",
-        equipment: ["1 bol", "1 couteau", "1 planche à découper", "1 casserole"],
+        title: "Koki (Cameroun)",
+        equipment: [
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 casserole"
+        ],
         ingredients: [
             "200 g haricots rouges ou noirs trempés",
             "1 oignon moyen (100 g)",
@@ -48543,7 +48577,6 @@ recipesData.entree.koki = {
             "Feuilles de bananier pour emballer"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Tremper les haricots 12 h, puis les peler et moudre en pâte.\n" +
             "2. Émincer l’oignon.\n" +
             "3. Mélanger pâte de haricots, oignon, sel, poivre et huile de palme.\n" +
@@ -48552,8 +48585,13 @@ recipesData.entree.koki = {
             "6. Servir chaud."
     },
     en: {
-        title: "Koki (Cameroon, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 pot"],
+        title: "Koki (Cameroun)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 pot"
+        ],
         ingredients: [
             "200 g red or black beans, soaked",
             "1 medium onion (100 g)",
@@ -48563,7 +48601,6 @@ recipesData.entree.koki = {
             "Banana leaves for wrapping"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Soak beans 12 h, peel and grind into paste.\n" +
             "2. Slice onion.\n" +
             "3. Mix bean paste, onion, salt, pepper and palm oil.\n" +
@@ -48572,8 +48609,13 @@ recipesData.entree.koki = {
             "6. Serve hot."
     },
     nl: {
-        title: "Koki (Kameroen, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 pan"],
+        title: "Koki (Cameroun)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 pan"
+        ],
         ingredients: [
             "200 g rode of zwarte bonen, geweekt",
             "1 middelgrote ui (100 g)",
@@ -48583,7 +48625,6 @@ recipesData.entree.koki = {
             "Bananenbladeren om in te wikkelen"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Week de bonen 12 uur, pel en maal tot pasta.\n" +
             "2. Snijd ui.\n" +
             "3. Meng bonenpasta, ui, zout, peper en palmolie.\n" +
@@ -48592,8 +48633,13 @@ recipesData.entree.koki = {
             "6. Serveer warm."
     },
     ar: {
-        title: "كوكي (الكاميرون، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع", "قدر"],
+        title: "كوكي (الكاميرون)",
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "قدر"
+        ],
         ingredients: [
             "200 غ فاصوليا حمراء أو سوداء منقوعة",
             "1 بصل متوسط (100 غ)",
@@ -48603,24 +48649,32 @@ recipesData.entree.koki = {
             "أوراق الموز للتغليف"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. نقع الفاصوليا 12 ساعة، قشر واطحنها.\n" +
+            "1. انقع الفاصوليا 12 ساعة ثم قشّرها واطحنها.\n" +
             "2. قطّع البصل.\n" +
-            "3. امزج عجينة الفاصوليا مع البصل والملح والفلفل وزيت النخيل.\n" +
-            "4. غلفها بأوراق الموز.\n" +
-            "5. اطه بالبخار 40 دقيقة.\n" +
-            "6. قدم ساخناً."
+            "3. اخلط عجينة الفاصوليا مع البصل والملح والفلفل وزيت النخيل.\n" +
+            "4. لفّ العجين بأوراق الموز.\n" +
+            "5. اطهه على البخار لمدة 40 دقيقة.\n" +
+            "6. قدّم ساخناً."
     }
 };
-
-// 6️⃣ Soya brochettes (Cameroun)
 recipesData.entree.soya_brochettes = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/soya_brochettes.jpg",
+    countryName: "Cameroun",
+    image: "images/soya-brochettes-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 10,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Soya brochettes (Cameroun, 4 personnes)",
-        equipment: ["1 planche à découper", "1 couteau", "1 poêle ou grill", "1 pince"],
+        title: "Soya brochettes (Cameroun)",
+        equipment: [
+            "1 planche à découper",
+            "1 couteau",
+            "1 poêle ou grill",
+            "1 pince"
+        ],
         ingredients: [
             "300 g viande de bœuf hachée",
             "1 oignon moyen (100 g)",
@@ -48628,20 +48682,24 @@ recipesData.entree.soya_brochettes = {
             "1 cuillère à café sel",
             "1/2 cuillère à café poivre",
             "1/2 cuillère à café paprika",
-            "Huile pour cuisson (2 c. à soupe, 30 ml)"
+            "Huile pour cuisson (2 cuillères à soupe, 30 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Hacher finement l’oignon et l’ail.\n" +
-            "2. Mélanger avec la viande hachée, sel, poivre et paprika.\n" +
+            "2. Mélanger avec la viande hachée, le sel, le poivre et le paprika.\n" +
             "3. Former des petites brochettes.\n" +
-            "4. Chauffer la poêle ou le grill avec un peu d’huile.\n" +
-            "5. Cuire les brochettes 3-4 min de chaque côté jusqu’à doré.\n" +
+            "4. Chauffer la poêle ou le grill avec l’huile.\n" +
+            "5. Cuire 3-4 minutes de chaque côté jusqu’à doré.\n" +
             "6. Servir chaud."
     },
     en: {
-        title: "Soya Skewers (Cameroon, Serves 4)",
-        equipment: ["Cutting board", "Knife", "Pan or grill", "Tongs"],
+        title: "Soya Skewers (Cameroun)",
+        equipment: [
+            "Cutting board",
+            "Knife",
+            "Pan or grill",
+            "Tongs"
+        ],
         ingredients: [
             "300 g minced beef",
             "1 medium onion (100 g)",
@@ -48652,17 +48710,21 @@ recipesData.entree.soya_brochettes = {
             "2 tbsp oil (30 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Finely chop onion and garlic.\n" +
-            "2. Mix with minced beef, salt, pepper, paprika.\n" +
+            "2. Mix with minced beef, salt, pepper and paprika.\n" +
             "3. Form small skewers.\n" +
             "4. Heat pan or grill with oil.\n" +
-            "5. Cook 3-4 min each side until golden.\n" +
+            "5. Cook 3-4 minutes each side until golden.\n" +
             "6. Serve hot."
     },
     nl: {
-        title: "Soya spiesjes (Kameroen, voor 4 personen)",
-        equipment: ["Snijplank", "Mes", "Pan of grill", "Tang"],
+        title: "Soya spiesjes (Cameroun)",
+        equipment: [
+            "Snijplank",
+            "Mes",
+            "Pan of grill",
+            "Tang"
+        ],
         ingredients: [
             "300 g rundergehakt",
             "1 middelgrote ui (100 g)",
@@ -48673,17 +48735,21 @@ recipesData.entree.soya_brochettes = {
             "2 el olie (30 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Snijd ui en knoflook fijn.\n" +
             "2. Meng met gehakt, zout, peper en paprika.\n" +
             "3. Vorm kleine spiesjes.\n" +
             "4. Verhit olie in pan of grill.\n" +
-            "5. Bak 3-4 min per kant tot goudbruin.\n" +
+            "5. Bak 3-4 minuten per kant tot goudbruin.\n" +
             "6. Serveer warm."
     },
     ar: {
-        title: "أسياخ سويّا (الكاميرون، تكفي 4 أشخاص)",
-        equipment: ["لوح تقطيع", "سكين", "مقلاة أو شواية", "ملقط"],
+        title: "أسياخ سويّا (الكاميرون)",
+        equipment: [
+            "لوح تقطيع",
+            "سكين",
+            "مقلاة أو شواية",
+            "ملقط"
+        ],
         ingredients: [
             "300 غ لحم بقر مفروم",
             "1 بصل متوسط (100 غ)",
@@ -48694,22 +48760,26 @@ recipesData.entree.soya_brochettes = {
             "2 ملعقة كبيرة زيت (30 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. افرم البصل والثوم ناعماً.\n" +
             "2. اخلط مع اللحم المفروم والملح والفلفل والبابريكا.\n" +
             "3. شكّل أسياخ صغيرة.\n" +
             "4. سخّن الزيت في المقلاة أو الشواية.\n" +
-            "5. اطه 3-4 دقائق لكل جانب حتى يصبح ذهبي.\n" +
-            "6. قدم ساخناً."
+            "5. اطه 3-4 دقائق لكل جانب حتى يصبح ذهبياً.\n" +
+            "6. قدّم ساخناً."
     }
 };
-// 7️⃣ Beignets de maïs (Cameroun)
 recipesData.entree.beignets_mais = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/beignets_mais.jpg",
+    countryName: "Cameroun",
+    image: "images/beignets_mais-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Beignets de maïs (Cameroun, 4 personnes)",
+        title: "Beignets de maïs (Cameroun)",
         equipment: ["1 bol", "1 cuillère", "1 poêle", "1 assiette", "papier absorbant"],
         ingredients: [
             "200 g farine de maïs",
@@ -48721,7 +48791,6 @@ recipesData.entree.beignets_mais = {
             "Huile pour friture (environ 200 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Mélanger les farines, sucre, sel et levure dans un bol.\n" +
             "2. Ajouter progressivement l’eau et remuer pour obtenir une pâte homogène.\n" +
             "3. Chauffer l’huile dans la poêle.\n" +
@@ -48731,7 +48800,7 @@ recipesData.entree.beignets_mais = {
             "7. Servir chaud."
     },
     en: {
-        title: "Corn Fritters (Cameroon, Serves 4)",
+        title: "Corn Fritters (Cameroun)",
         equipment: ["1 bowl", "1 spoon", "1 pan", "1 plate", "paper towel"],
         ingredients: [
             "200 g corn flour",
@@ -48743,7 +48812,6 @@ recipesData.entree.beignets_mais = {
             "Oil for frying (about 200 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Mix flours, sugar, salt and baking powder in a bowl.\n" +
             "2. Gradually add water, stir to make smooth batter.\n" +
             "3. Heat oil in pan.\n" +
@@ -48753,7 +48821,7 @@ recipesData.entree.beignets_mais = {
             "7. Serve hot."
     },
     nl: {
-        title: "Maïsbeignets (Kameroen, voor 4 personen)",
+        title: "Maïsbeignets (Cameroun)",
         equipment: ["1 kom", "1 lepel", "1 pan", "1 bord", "keukenpapier"],
         ingredients: [
             "200 g maïsmeel",
@@ -48765,7 +48833,6 @@ recipesData.entree.beignets_mais = {
             "Olie om te frituren (ca. 200 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Meng de meelsoorten, suiker, zout en bakpoeder in een kom.\n" +
             "2. Voeg geleidelijk water toe, roer tot glad beslag.\n" +
             "3. Verhit olie in pan.\n" +
@@ -48775,7 +48842,7 @@ recipesData.entree.beignets_mais = {
             "7. Serveer warm."
     },
     ar: {
-        title: "فطائر الذرة (الكاميرون، تكفي 4 أشخاص)",
+        title: "فطائر الذرة (الكاميرون)",
         equipment: ["وعاء", "ملعقة", "مقلاة", "طبق", "ورق مطبخ"],
         ingredients: [
             "200 غ دقيق ذرة",
@@ -48787,7 +48854,6 @@ recipesData.entree.beignets_mais = {
             "زيت للقلي (حوالي 200 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اخلط الدقيقين، السكر، الملح والخميرة في وعاء.\n" +
             "2. أضف الماء تدريجياً وامزج حتى تحصل على عجينة ناعمة.\n" +
             "3. سخّن الزيت في المقلاة.\n" +
@@ -48797,14 +48863,18 @@ recipesData.entree.beignets_mais = {
             "7. قدم ساخناً."
     }
 };
-
-// 8️⃣ Eru (Cameroun)
 recipesData.entree.eru = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/eru.jpg",
+    countryName: "Cameroun",
+    image: "images/eru-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Eru (Cameroun, 4 personnes)",
+        title: "Eru (Cameroun)",
         equipment: ["1 casserole", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
         ingredients: [
             "200 g feuilles d’éru ou d’épinard africain",
@@ -48816,7 +48886,6 @@ recipesData.entree.eru = {
             "100 g crevettes décortiquées"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Laver et hacher les feuilles d’éru.\n" +
             "2. Couper le gombo en rondelles.\n" +
             "3. Émincer l’oignon.\n" +
@@ -48828,7 +48897,7 @@ recipesData.entree.eru = {
             "9. Servir chaud avec du manioc ou du riz."
     },
     en: {
-        title: "Eru (Cameroon, Serves 4)",
+        title: "Eru (Cameroun)",
         equipment: ["1 pot", "1 knife", "1 cutting board", "1 wooden spoon"],
         ingredients: [
             "200 g eru leaves or African spinach",
@@ -48840,7 +48909,6 @@ recipesData.entree.eru = {
             "100 g peeled shrimp"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Wash and chop eru leaves.\n" +
             "2. Slice okra.\n" +
             "3. Slice onion.\n" +
@@ -48852,7 +48920,7 @@ recipesData.entree.eru = {
             "9. Serve hot with cassava or rice."
     },
     nl: {
-        title: "Eru (Kameroen, voor 4 personen)",
+        title: "Eru (Cameroun)",
         equipment: ["1 pan", "1 mes", "1 snijplank", "1 houten lepel"],
         ingredients: [
             "200 g eru bladeren of Afrikaanse spinazie",
@@ -48864,7 +48932,6 @@ recipesData.entree.eru = {
             "100 g gepelde garnalen"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Was en hak de eru bladeren.\n" +
             "2. Snijd okra in plakjes.\n" +
             "3. Snijd ui.\n" +
@@ -48876,7 +48943,7 @@ recipesData.entree.eru = {
             "9. Serveer warm met cassave of rijst."
     },
     ar: {
-        title: "إيرو (الكاميرون، تكفي 4 أشخاص)",
+        title: "إيرو (الكاميرون)",
         equipment: ["قدر", "سكين", "لوح تقطيع", "ملعقة خشبية"],
         ingredients: [
             "200 غ أوراق إيرو أو سبانخ أفريقي",
@@ -48888,7 +48955,6 @@ recipesData.entree.eru = {
             "100 غ جمبري مقشر"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اغسل وقطع أوراق الإيرو.\n" +
             "2. قطع البامية إلى شرائح.\n" +
             "3. قطّع البصل.\n" +
@@ -48900,14 +48966,18 @@ recipesData.entree.eru = {
             "9. قدم ساخناً مع الكسافا أو الأرز."
     }
 };
-
-// 9️⃣ Ndole végétarien (Cameroun)
 recipesData.entree.ndole_vegetarien = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/ndole_vegetarien.jpg",
+    countryName: "Cameroun",
+    image: "images/ndole_vegetarien-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Ndolé végétarien (Cameroun, 4 personnes)",
+        title: "Ndolé végétarien (Cameroun)",
         equipment: ["1 casserole", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
         ingredients: [
             "200 g feuilles de ndolé ou épinard africain",
@@ -48919,7 +48989,6 @@ recipesData.entree.ndole_vegetarien = {
             "1/2 cuillère à café poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Laver et hacher les feuilles de ndolé.\n" +
             "2. Mixer les arachides en pâte.\n" +
             "3. Émincer l’oignon et l’ail.\n" +
@@ -48931,7 +49000,7 @@ recipesData.entree.ndole_vegetarien = {
             "9. Servir chaud."
     },
     en: {
-        title: "Vegetarian Ndole (Cameroon, Serves 4)",
+        title: "Vegetarian Ndole (Cameroun)",
         equipment: ["1 pot", "1 knife", "1 cutting board", "1 wooden spoon"],
         ingredients: [
             "200 g ndole leaves or African spinach",
@@ -48943,7 +49012,6 @@ recipesData.entree.ndole_vegetarien = {
             "1/2 tsp pepper"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Wash and chop ndole leaves.\n" +
             "2. Blend peanuts into paste.\n" +
             "3. Slice onion and garlic.\n" +
@@ -48955,7 +49023,7 @@ recipesData.entree.ndole_vegetarien = {
             "9. Serve hot."
     },
     nl: {
-        title: "Vegetarische Ndole (Kameroen, voor 4 personen)",
+        title: "Vegetarische Ndole (Cameroun)",
         equipment: ["1 pan", "1 mes", "1 snijplank", "1 houten lepel"],
         ingredients: [
             "200 g ndole bladeren of Afrikaanse spinazie",
@@ -48967,7 +49035,6 @@ recipesData.entree.ndole_vegetarien = {
             "1/2 tl peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Was en hak de ndole bladeren.\n" +
             "2. Maal de pinda's tot pasta.\n" +
             "3. Snijd ui en knoflook.\n" +
@@ -48979,7 +49046,7 @@ recipesData.entree.ndole_vegetarien = {
             "9. Serveer warm."
     },
     ar: {
-        title: "ندولي نباتي (الكاميرون، تكفي 4 أشخاص)",
+        title: "ندولي نباتي (الكاميرون)",
         equipment: ["قدر", "سكين", "لوح تقطيع", "ملعقة خشبية"],
         ingredients: [
             "200 غ أوراق ندولي أو سبانخ أفريقي",
@@ -48991,7 +49058,6 @@ recipesData.entree.ndole_vegetarien = {
             "1/2 ملعقة صغيرة فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اغسل وقطع أوراق الندولي.\n" +
             "2. اطحن الفول السوداني ليصبح معجون.\n" +
             "3. قطّع البصل والثوم.\n" +
@@ -49003,14 +49069,18 @@ recipesData.entree.ndole_vegetarien = {
             "9. قدم ساخناً."
     }
 };
-
-// 10️⃣ Mbongo Tchobi (Cameroun)
 recipesData.entree.mbongo_tchobi = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/mbongo_tchobi.jpg",
+    countryName: "Cameroun",
+    image: "images/mbongo_tchobi-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Mbongo Tchobi (Cameroun, 4 personnes)",
+        title: "Mbongo Tchobi (Cameroun)",
         equipment: ["1 casserole moyenne", "1 couteau", "1 planche à découper", "1 cuillère en bois", "1 bol"],
         ingredients: [
             "400 g poisson frais (tilapia ou capitaine)",
@@ -49023,7 +49093,6 @@ recipesData.entree.mbongo_tchobi = {
             "200 ml eau"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Nettoyer et couper le poisson en morceaux.\n" +
             "2. Hacher finement l’oignon et l’ail.\n" +
             "3. Chauffer l’huile de palme dans la casserole.\n" +
@@ -49034,7 +49103,7 @@ recipesData.entree.mbongo_tchobi = {
             "8. Servir chaud avec du riz ou des légumes vapeur."
     },
     en: {
-        title: "Mbongo Tchobi (Cameroon, Serves 4)",
+        title: "Mbongo Tchobi (Cameroun)",
         equipment: ["1 medium pot", "1 knife", "1 cutting board", "1 wooden spoon", "1 bowl"],
         ingredients: [
             "400 g fresh fish (tilapia or capitaine)",
@@ -49047,7 +49116,6 @@ recipesData.entree.mbongo_tchobi = {
             "200 ml water"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Clean and cut fish into pieces.\n" +
             "2. Finely chop onion and garlic.\n" +
             "3. Heat palm oil in pot.\n" +
@@ -49058,7 +49126,7 @@ recipesData.entree.mbongo_tchobi = {
             "8. Serve hot with rice or steamed vegetables."
     },
     nl: {
-        title: "Mbongo Tchobi (Kameroen, voor 4 personen)",
+        title: "Mbongo Tchobi (Cameroun)",
         equipment: ["1 middelgrote pan", "1 mes", "1 snijplank", "1 houten lepel", "1 kom"],
         ingredients: [
             "400 g verse vis (tilapia of kapitein)",
@@ -49071,7 +49139,6 @@ recipesData.entree.mbongo_tchobi = {
             "200 ml water"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Maak de vis schoon en snijd in stukken.\n" +
             "2. Snijd ui en knoflook fijn.\n" +
             "3. Verhit palmpitolie in pan.\n" +
@@ -49082,7 +49149,7 @@ recipesData.entree.mbongo_tchobi = {
             "8. Serveer warm met rijst of gestoomde groenten."
     },
     ar: {
-        title: "مبونغو تشوبي (الكاميرون، تكفي 4 أشخاص)",
+        title: "مبونغو تشوبي (الكاميرون)",
         equipment: ["قدر متوسط", "سكين", "لوح تقطيع", "ملعقة خشبية", "وعاء"],
         ingredients: [
             "400 غ سمك طازج (تيلابيا أو كابتين)",
@@ -49095,7 +49162,6 @@ recipesData.entree.mbongo_tchobi = {
             "200 مل ماء"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. نظف وقطع السمك إلى قطع.\n" +
             "2. فرّم البصل والثوم ناعماً.\n" +
             "3. سخّن زيت النخيل في القدر.\n" +
@@ -49106,12 +49172,28 @@ recipesData.entree.mbongo_tchobi = {
             "8. قدم ساخناً مع الأرز أو الخضار على البخار."
     }
 };
+
+
+
+
+
+
+
+
+
+
 recipesData.plat.ndomba_boeuf = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/ndomba_boeuf.jpg",
+    countryName: "Cameroun",
+    image: "images/ndomba_boeuf-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Ndomba de bœuf (Cameroun, 4 personnes)",
+        title: "Ndomba de bœuf (Cameroun)",
         equipment: [
             "1 grande casserole",
             "1 poêle",
@@ -49128,22 +49210,21 @@ recipesData.plat.ndomba_boeuf = {
             "1 poivron vert (100 g)",
             "2 cuillères à soupe huile d’arachide (30 ml)",
             "1 cuillère à café gingembre frais râpé (5 g)",
-            "1 pincée piment en poudre (2 g) - facultatif",
+            "1 pincée piment en poudre (2 g)",
             "Sel et poivre selon goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Laver et couper le bœuf en morceaux.\n" +
-            "2. Hacher l’oignon, l’ail, poivron et tomates.\n" +
+            "2. Hacher l’oignon, l’ail, le poivron et les tomates.\n" +
             "3. Chauffer l’huile dans une grande casserole, faire dorer le bœuf 5-6 min.\n" +
-            "4. Ajouter oignon et ail, faire revenir 3 min.\n" +
-            "5. Ajouter tomates, poivron, gingembre et piment, saler et poivrer.\n" +
+            "4. Ajouter l’oignon et l’ail, faire revenir 3 min.\n" +
+            "5. Ajouter les tomates, le poivron, le gingembre et le piment, saler et poivrer.\n" +
             "6. Couvrir et laisser mijoter 25-30 min jusqu’à tendreté.\n" +
             "7. Goûter et rectifier l’assaisonnement.\n" +
             "8. Servir chaud avec du riz ou du manioc."
     },
     en: {
-        title: "Ndomba Beef (Cameroon, Serves 4)",
+        title: "Ndomba Beef (Cameroun)",
         equipment: [
             "1 large pot",
             "1 frying pan",
@@ -49160,22 +49241,21 @@ recipesData.plat.ndomba_boeuf = {
             "1 green bell pepper (100 g)",
             "2 tbsp peanut oil (30 ml)",
             "1 tsp fresh grated ginger (5 g)",
-            "1 pinch chili powder (2 g) - optional",
+            "1 pinch chili powder (2 g)",
             "Salt and pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Wash and cut beef into pieces.\n" +
             "2. Chop onion, garlic, bell pepper and tomatoes.\n" +
             "3. Heat oil in a large pot, brown beef 5-6 min.\n" +
             "4. Add onion and garlic, sauté 3 min.\n" +
-            "5. Add tomatoes, bell pepper, ginger, and chili; salt and pepper.\n" +
+            "5. Add tomatoes, bell pepper, ginger and chili; salt and pepper.\n" +
             "6. Cover and simmer 25-30 min until tender.\n" +
             "7. Taste and adjust seasoning.\n" +
             "8. Serve hot with rice or cassava."
     },
     nl: {
-        title: "Ndomba van Rundvlees (Kameroen, voor 4 personen)",
+        title: "Ndomba van rundvlees (Cameroun)",
         equipment: [
             "1 grote pan",
             "1 koekenpan",
@@ -49192,11 +49272,10 @@ recipesData.plat.ndomba_boeuf = {
             "1 groene paprika (100 g)",
             "2 el pindaolie (30 ml)",
             "1 tl verse geraspte gember (5 g)",
-            "1 snufje chilipoeder (2 g) - optioneel",
+            "1 snufje chilipoeder (2 g)",
             "Zout en peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Was en snijd het rundvlees in stukken.\n" +
             "2. Hak ui, knoflook, paprika en tomaten.\n" +
             "3. Verhit olie in een grote pan, bak rundvlees 5-6 min.\n" +
@@ -49207,7 +49286,7 @@ recipesData.plat.ndomba_boeuf = {
             "8. Serveer warm met rijst of cassave."
     },
     ar: {
-        title: "ندومبا لحم بقر (الكاميرون، تكفي 4 أشخاص)",
+        title: "ندومبا لحم بقر (الكاميرون)",
         equipment: [
             "1 قدر كبير",
             "1 مقلاة",
@@ -49224,27 +49303,33 @@ recipesData.plat.ndomba_boeuf = {
             "1 فلفل أخضر (100 غ)",
             "2 ملعقة كبيرة زيت فول سوداني (30 مل)",
             "1 ملعقة صغيرة زنجبيل طازج مبشور (5 غ)",
-            "رشة فلفل حار مطحون (2 غ) - اختياري",
+            "رشة فلفل حار مطحون (2 غ)",
             "ملح وفلفل حسب الذوق"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اغسل اللحم وقطّعه إلى قطع.\n" +
             "2. قطّع البصل والثوم والفلفل والطماطم.\n" +
             "3. سخّن الزيت في قدر كبير وحمّر اللحم 5-6 دقائق.\n" +
-            "4. أضف البصل والثوم، وقلّب 3 دقائق.\n" +
-            "5. أضف الطماطم والفلفل والزنجبيل والفلفل الحار، والملح والفلفل.\n" +
+            "4. أضف البصل والثوم وقلّب 3 دقائق.\n" +
+            "5. أضف الطماطم والفلفل والزنجبيل والفلفل الحار والملح والفلفل.\n" +
             "6. غطِّ واتركه ينضج 25-30 دقيقة حتى يصبح طرياً.\n" +
-            "7. تذوق وضبط التوابل.\n" +
+            "7. تذوق واضبط التوابل.\n" +
             "8. قدمه ساخناً مع الأرز أو الكسافا."
     }
 };
 recipesData.plat.poisson_braise = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/poisson_braise.jpg",
+    countryName: "Cameroun",
+    image: "images/poisson-braise-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "medium",
+        marinationTime: 30
+    },
     fr: {
-        title: "Poisson braisé (Cameroun, 4 personnes)",
+        title: "Poisson braisé (Cameroun)",
         equipment: [
             "1 grill ou barbecue",
             "1 couteau",
@@ -49264,18 +49349,25 @@ recipesData.plat.poisson_braise = {
             "Jus de 1 citron"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
+            "==============================\n" +
+            "PRÉPARATION DE LA MARINADE\n" +
+            "==============================\n" +
             "1. Nettoyer et écailler le poisson, faire 3 entailles sur chaque côté.\n" +
             "2. Hacher l’oignon, l’ail et les tomates.\n" +
             "3. Mélanger oignon, ail, tomates, huile, paprika, sel et poivre dans un bol.\n" +
-            "4. Enduire le poisson avec ce mélange, à l’intérieur et l’extérieur.\n" +
-            "5. Laisser mariner 30 min.\n" +
-            "6. Griller le poisson sur feu moyen 10-12 min de chaque côté jusqu’à cuisson complète.\n" +
-            "7. Arroser avec jus de citron.\n" +
-            "8. Servir chaud avec bananes plantains ou légumes sautés."
+            "4. Enduire le poisson avec ce mélange, à l’intérieur et à l’extérieur.\n" +
+            "5. Couvrir et laisser mariner 30 minutes.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION ET CUISSON DU POISSON\n" +
+            "==============================\n" +
+            "6. Chauffer le grill ou le barbecue à feu moyen.\n" +
+            "7. Déposer le poisson sur la grille.\n" +
+            "8. Griller 10 à 12 minutes de chaque côté jusqu’à cuisson complète.\n" +
+            "9. Arroser avec le jus de citron.\n" +
+            "10. Servir chaud avec des bananes plantains ou des légumes sautés."
     },
     en: {
-        title: "Grilled Fish (Cameroon, Serves 4)",
+        title: "Grilled Fish (Cameroun)",
         equipment: [
             "1 grill or barbecue",
             "1 knife",
@@ -49295,18 +49387,25 @@ recipesData.plat.poisson_braise = {
             "Juice of 1 lemon"
         ],
         preparation:
-            "Serves 4.\n" +
+            "==============================\n" +
+            "MARINADE PREPARATION\n" +
+            "==============================\n" +
             "1. Clean and scale the fish, make 3 slits on each side.\n" +
-            "2. Chop onion, garlic, and tomatoes.\n" +
+            "2. Chop the onion, garlic, and tomatoes.\n" +
             "3. Mix onion, garlic, tomatoes, oil, paprika, salt, and pepper in a bowl.\n" +
-            "4. Coat the fish with this mixture inside and out.\n" +
-            "5. Marinate 30 min.\n" +
-            "6. Grill fish over medium heat 10-12 min each side until fully cooked.\n" +
-            "7. Drizzle with lemon juice.\n" +
-            "8. Serve hot with plantains or sautéed vegetables."
+            "4. Coat the fish inside and out.\n" +
+            "5. Cover and marinate for 30 minutes.\n\n" +
+            "==============================\n" +
+            "GRILLING AND COOKING\n" +
+            "==============================\n" +
+            "6. Heat the grill over medium heat.\n" +
+            "7. Place the fish on the grill.\n" +
+            "8. Grill 10 to 12 minutes per side until fully cooked.\n" +
+            "9. Drizzle with lemon juice.\n" +
+            "10. Serve hot with plantains or sautéed vegetables."
     },
     nl: {
-        title: "Gegrilde Vis (Kameroen, voor 4 personen)",
+        title: "Gegrilde vis (Cameroun)",
         equipment: [
             "1 grill of barbecue",
             "1 mes",
@@ -49326,18 +49425,25 @@ recipesData.plat.poisson_braise = {
             "Sap van 1 citroen"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Maak de vis schoon en verwijder schubben, snijd 3 inkepingen aan elke kant.\n" +
-            "2. Hak ui, knoflook en tomaten.\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE MARINADE\n" +
+            "==============================\n" +
+            "1. Maak de vis schoon en verwijder de schubben, snijd 3 inkepingen aan elke kant.\n" +
+            "2. Hak de ui, knoflook en tomaten.\n" +
             "3. Meng ui, knoflook, tomaten, olie, paprika, zout en peper in een kom.\n" +
-            "4. Smeer de vis met dit mengsel, binnen en buiten.\n" +
-            "5. Laat 30 minuten marineren.\n" +
-            "6. Grill de vis 10-12 min per kant op middelhoog vuur tot gaar.\n" +
-            "7. Besprenkel met citroensap.\n" +
-            "8. Serveer warm met bakbanaan of gebakken groenten."
+            "4. Wrijf de vis in met het mengsel.\n" +
+            "5. Afdekken en 30 minuten laten marineren.\n\n" +
+            "==============================\n" +
+            "GRILLEN EN BAKKEN\n" +
+            "==============================\n" +
+            "6. Verhit de grill op middelhoog vuur.\n" +
+            "7. Leg de vis op de grill.\n" +
+            "8. Grill 10 tot 12 minuten per kant tot gaar.\n" +
+            "9. Besprenkel met citroensap.\n" +
+            "10. Serveer warm met bakbanaan of gebakken groenten."
     },
     ar: {
-        title: "سمك مشوي (الكاميرون، تكفي 4 أشخاص)",
+        title: "سمك مشوي (الكاميرون)",
         equipment: [
             "1 شواية أو باربكيو",
             "1 سكين",
@@ -49346,34 +49452,47 @@ recipesData.plat.poisson_braise = {
             "1 وعاء"
         ],
         ingredients: [
-            "1 سمكة كاملة (تيلاپيا أو كابتين، ~800 غ)",
+            "1 سمكة كاملة (تيلاپيا أو كابتين، 800 غ تقريباً)",
             "2 طماطم متوسطة (200 غ)",
-            "1 بصل متوسط (100 غ)",
-            "2 فصوص ثوم",
+            "1 بصلة متوسطة (100 غ)",
+            "2 فص ثوم",
             "1 ملعقة كبيرة زيت فول سوداني (15 مل)",
-            "1 ملعقة صغيرة فلفل أحمر مطحون (2 غ)",
+            "1 ملعقة صغيرة بابريكا (2 غ)",
             "1 ملعقة صغيرة ملح (5 غ)",
             "فلفل حسب الذوق",
-            "عصير 1 ليمون"
+            "عصير ليمونة واحدة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. تنظيف السمك وازالة القشور، عمل 3 شقوق على كل جانب.\n" +
+            "==============================\n" +
+            "تحضير التتبيلة\n" +
+            "==============================\n" +
+            "1. تنظيف السمكة وإزالة القشور وعمل 3 شقوق على كل جانب.\n" +
             "2. فرم البصل والثوم والطماطم.\n" +
-            "3. خلط البصل والثوم والطماطم والزيت والفلفل الأحمر والملح والفلفل.\n" +
-            "4. تغليف السمك بالخليط من الداخل والخارج.\n" +
-            "5. تركه يتبل 30 دقيقة.\n" +
-            "6. شوي السمك 10-12 دقيقة لكل جانب على نار متوسطة حتى ينضج.\n" +
-            "7. رش عصير الليمون.\n" +
-            "8. تقديمه ساخناً مع الموز المقلي أو الخضار المقلية."
+            "3. خلط البصل والثوم والطماطم مع الزيت والبابريكا والملح والفلفل.\n" +
+            "4. دهن السمكة بالخليط من الداخل والخارج.\n" +
+            "5. تغطيتها وتركها تتبل لمدة 30 دقيقة.\n\n" +
+            "==============================\n" +
+            "التحضير والشواء\n" +
+            "==============================\n" +
+            "6. تسخين الشواية على نار متوسطة.\n" +
+            "7. وضع السمكة على الشواية.\n" +
+            "8. شويها من 10 إلى 12 دقيقة لكل جانب حتى تنضج.\n" +
+            "9. رش عصير الليمون.\n" +
+            "10. تقديمها ساخنة مع الموز المقلي أو الخضار المقلية."
     }
 };
 recipesData.plat.saka_saka_poulet = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/saka_saka_poulet.jpg",
+    countryName: "Cameroun",
+    image: "images/saka-saka-poulet-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Saka-Saka au poulet (Cameroun, 4 personnes)",
+        title: "Saka-Saka au poulet (Cameroun)",
         equipment: [
             "1 grande casserole",
             "1 poêle",
@@ -49392,18 +49511,17 @@ recipesData.plat.saka_saka_poulet = {
             "Sel et poivre selon goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Laver et hacher les feuilles de manioc.\n" +
             "2. Hacher l’oignon, l’ail et les tomates.\n" +
-            "3. Chauffer l’huile dans la casserole, faire revenir le poulet 5 min.\n" +
-            "4. Ajouter oignon et ail, cuire 2 min.\n" +
-            "5. Ajouter tomates et cuire 3 min.\n" +
+            "3. Chauffer l’huile dans la casserole et faire revenir le poulet 5 minutes.\n" +
+            "4. Ajouter l’oignon et l’ail, puis cuire 2 minutes.\n" +
+            "5. Ajouter les tomates et cuire 3 minutes.\n" +
             "6. Ajouter les feuilles de manioc, saler et poivrer.\n" +
-            "7. Couvrir et cuire à feu doux 15-20 min en remuant de temps en temps.\n" +
+            "7. Couvrir et cuire à feu doux 15 à 20 minutes en remuant de temps en temps.\n" +
             "8. Servir chaud avec du riz ou du plantain frit."
     },
     en: {
-        title: "Saka-Saka with Chicken (Cameroon, Serves 4)",
+        title: "Saka-Saka with Chicken (Cameroun)",
         equipment: [
             "1 large pot",
             "1 frying pan",
@@ -49422,18 +49540,17 @@ recipesData.plat.saka_saka_poulet = {
             "Salt and pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Wash and chop cassava leaves.\n" +
-            "2. Chop onion, garlic, and tomatoes.\n" +
-            "3. Heat oil in pot, sauté chicken 5 min.\n" +
-            "4. Add onion and garlic, cook 2 min.\n" +
-            "5. Add tomatoes, cook 3 min.\n" +
-            "6. Add cassava leaves, season with salt and pepper.\n" +
-            "7. Cover and simmer 15-20 min, stirring occasionally.\n" +
+            "1. Wash and chop the cassava leaves.\n" +
+            "2. Chop the onion, garlic, and tomatoes.\n" +
+            "3. Heat the oil in the pot and sauté the chicken for 5 minutes.\n" +
+            "4. Add the onion and garlic and cook for 2 minutes.\n" +
+            "5. Add the tomatoes and cook for 3 minutes.\n" +
+            "6. Add the cassava leaves and season with salt and pepper.\n" +
+            "7. Cover and simmer for 15 to 20 minutes, stirring occasionally.\n" +
             "8. Serve hot with rice or fried plantains."
     },
     nl: {
-        title: "Saka-Saka met Kip (Kameroen, voor 4 personen)",
+        title: "Saka-Saka met kip (Cameroun)",
         equipment: [
             "1 grote pan",
             "1 koekenpan",
@@ -49452,18 +49569,17 @@ recipesData.plat.saka_saka_poulet = {
             "Zout en peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Was en hak cassavebladeren.\n" +
-            "2. Hak ui, knoflook en tomaten.\n" +
-            "3. Verhit olie in pan, bak kip 5 min.\n" +
-            "4. Voeg ui en knoflook toe, bak 2 min.\n" +
-            "5. Voeg tomaten toe, bak 3 min.\n" +
-            "6. Voeg cassavebladeren toe, breng op smaak met zout en peper.\n" +
-            "7. Dek af en laat 15-20 min sudderen, af en toe roeren.\n" +
+            "1. Was en hak de cassavebladeren.\n" +
+            "2. Hak de ui, knoflook en tomaten.\n" +
+            "3. Verhit de olie in de pan en bak de kip 5 minuten.\n" +
+            "4. Voeg de ui en knoflook toe en bak 2 minuten.\n" +
+            "5. Voeg de tomaten toe en bak 3 minuten.\n" +
+            "6. Voeg de cassavebladeren toe en breng op smaak met zout en peper.\n" +
+            "7. Dek af en laat 15 tot 20 minuten sudderen, af en toe roerend.\n" +
             "8. Serveer warm met rijst of gebakken bakbanaan."
     },
     ar: {
-        title: "ساكا ساكا بالدجاج (الكاميرون، تكفي 4 أشخاص)",
+        title: "ساكا ساكا بالدجاج (الكاميرون)",
         equipment: [
             "1 قدر كبير",
             "1 مقلاة",
@@ -49475,30 +49591,35 @@ recipesData.plat.saka_saka_poulet = {
         ingredients: [
             "400 غ أوراق الكسافا (طازجة أو مجمدة)",
             "500 غ دجاج مقطع",
-            "1 بصل (100 غ)",
-            "2 فصوص ثوم",
+            "1 بصلة (100 غ)",
+            "2 فص ثوم",
             "2 طماطم متوسطة (200 غ)",
             "2 ملعقة كبيرة زيت فول سوداني (30 مل)",
             "ملح وفلفل حسب الذوق"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. غسل وقطع أوراق الكسافا.\n" +
+            "1. غسل وتقطيع أوراق الكسافا.\n" +
             "2. فرم البصل والثوم والطماطم.\n" +
-            "3. سخّن الزيت في القدر، واقلي الدجاج 5 دقائق.\n" +
-            "4. أضف البصل والثوم واطبخ 2 دقيقة.\n" +
-            "5. أضف الطماطم واطبخ 3 دقائق.\n" +
-            "6. أضف أوراق الكسافا، وتبّل بالملح والفلفل.\n" +
-            "7. غطّ واتركه ينضج 15-20 دقيقة مع التحريك أحياناً.\n" +
-            "8. قدمه ساخناً مع الأرز أو الموز المقلي."
+            "3. تسخين الزيت في القدر وقلي الدجاج لمدة 5 دقائق.\n" +
+            "4. إضافة البصل والثوم والطهي لمدة دقيقتين.\n" +
+            "5. إضافة الطماطم والطهي لمدة 3 دقائق.\n" +
+            "6. إضافة أوراق الكسافا وتتبيلها بالملح والفلفل.\n" +
+            "7. تغطية القدر وتركه ينضج من 15 إلى 20 دقيقة مع التحريك أحياناً.\n" +
+            "8. تقديمه ساخناً مع الأرز أو الموز المقلي."
     }
 };
 recipesData.plat.mbongo_tchobi = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/mbongo_tchobi.jpg",
+    countryName: "Cameroun",
+    image: "images/mbongo-tchobi-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Mbongo Tchobi (Cameroun, 4 personnes)",
+        title: "Mbongo Tchobi (Cameroun)",
         equipment: [
             "1 grande casserole",
             "1 couteau",
@@ -49516,17 +49637,16 @@ recipesData.plat.mbongo_tchobi = {
             "Sel et poivre selon goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Nettoyer le poisson et couper en morceaux si nécessaire.\n" +
+            "1. Nettoyer le poisson et le couper en morceaux si nécessaire.\n" +
             "2. Hacher l’oignon, l’ail et les tomates.\n" +
-            "3. Chauffer l’huile dans la casserole et faire revenir l’oignon et l’ail 3 min.\n" +
-            "4. Ajouter tomates et poudre Mbongo, cuire 2 min.\n" +
+            "3. Chauffer l’huile dans la casserole et faire revenir l’oignon et l’ail pendant 3 minutes.\n" +
+            "4. Ajouter les tomates et la poudre Mbongo, puis cuire 2 minutes.\n" +
             "5. Ajouter le poisson, saler et poivrer.\n" +
-            "6. Couvrir et laisser mijoter 15 min à feu doux.\n" +
+            "6. Couvrir et laisser mijoter 15 minutes à feu doux.\n" +
             "7. Servir chaud avec du riz."
     },
     en: {
-        title: "Mbongo Tchobi (Cameroon, Serves 4)",
+        title: "Mbongo Tchobi (Cameroun)",
         equipment: [
             "1 large pot",
             "1 knife",
@@ -49544,17 +49664,16 @@ recipesData.plat.mbongo_tchobi = {
             "Salt and pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Clean fish and cut into pieces if needed.\n" +
-            "2. Chop onion, garlic, and tomatoes.\n" +
-            "3. Heat oil in pot, sauté onion and garlic 3 min.\n" +
-            "4. Add tomatoes and Mbongo powder, cook 2 min.\n" +
-            "5. Add fish, season with salt and pepper.\n" +
-            "6. Cover and simmer 15 min over low heat.\n" +
+            "1. Clean the fish and cut into pieces if needed.\n" +
+            "2. Chop the onion, garlic, and tomatoes.\n" +
+            "3. Heat the oil in the pot and sauté the onion and garlic for 3 minutes.\n" +
+            "4. Add the tomatoes and Mbongo powder and cook for 2 minutes.\n" +
+            "5. Add the fish and season with salt and pepper.\n" +
+            "6. Cover and simmer over low heat for 15 minutes.\n" +
             "7. Serve hot with rice."
     },
     nl: {
-        title: "Mbongo Tchobi (Kameroen, voor 4 personen)",
+        title: "Mbongo Tchobi (Cameroun)",
         equipment: [
             "1 grote pan",
             "1 mes",
@@ -49572,17 +49691,16 @@ recipesData.plat.mbongo_tchobi = {
             "Zout en peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Maak de vis schoon en snijd in stukken indien nodig.\n" +
-            "2. Hak ui, knoflook en tomaten.\n" +
-            "3. Verhit olie in pan, bak ui en knoflook 3 min.\n" +
-            "4. Voeg tomaten en Mbongo poeder toe, bak 2 min.\n" +
-            "5. Voeg vis toe, breng op smaak met zout en peper.\n" +
-            "6. Dek af en laat 15 min sudderen op laag vuur.\n" +
+            "2. Hak de ui, knoflook en tomaten.\n" +
+            "3. Verhit de olie in de pan en bak de ui en knoflook 3 minuten.\n" +
+            "4. Voeg de tomaten en het Mbongo poeder toe en bak 2 minuten.\n" +
+            "5. Voeg de vis toe en breng op smaak met zout en peper.\n" +
+            "6. Dek af en laat 15 minuten sudderen op laag vuur.\n" +
             "7. Serveer warm met rijst."
     },
     ar: {
-        title: "مبونغو تشوبي (الكاميرون، تكفي 4 أشخاص)",
+        title: "مبونغو تشوبي (الكاميرون)",
         equipment: [
             "1 قدر كبير",
             "1 سكين",
@@ -49592,30 +49710,36 @@ recipesData.plat.mbongo_tchobi = {
         ],
         ingredients: [
             "500 غ سمك مدخن أو طازج",
-            "1 بصل (100 غ)",
-            "2 فصوص ثوم",
+            "1 بصلة (100 غ)",
+            "2 فص ثوم",
             "2 طماطم متوسطة (200 غ)",
             "1 ملعقة كبيرة مسحوق مبونغو (15 غ)",
             "2 ملعقة كبيرة زيت فول سوداني (30 مل)",
             "ملح وفلفل حسب الذوق"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. تنظيف السمك وقطعه إذا لزم الأمر.\n" +
             "2. فرم البصل والثوم والطماطم.\n" +
-            "3. سخّن الزيت في القدر، واقلي البصل والثوم 3 دقائق.\n" +
-            "4. أضف الطماطم ومسحوق مبونغو، واطبخ 2 دقيقة.\n" +
-            "5. أضف السمك وتبّل بالملح والفلفل.\n" +
-            "6. غطّ واتركه ينضج 15 دقيقة على نار هادئة.\n" +
-            "7. قدمه ساخناً مع الأرز."
+            "3. تسخين الزيت في القدر وقلي البصل والثوم لمدة 3 دقائق.\n" +
+            "4. إضافة الطماطم ومسحوق مبونغو والطهي لمدة دقيقتين.\n" +
+            "5. إضافة السمك وتتبيله بالملح والفلفل.\n" +
+            "6. تغطية القدر وتركه ينضج 15 دقيقة على نار هادئة.\n" +
+            "7. تقديمه ساخناً مع الأرز."
     }
 };
 recipesData.plat.brochettes_boef = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/brochettes_boef.jpg",
+    countryName: "Cameroun",
+    image: "images/brochettes-boeuf-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "medium",
+        marinationTime: 30
+    },
     fr: {
-        title: "Brochettes de bœuf à la camerounaise (Cameroun, 4 personnes)",
+        title: "Brochettes de bœuf (Cameroun)",
         equipment: [
             "1 grille ou barbecue",
             "1 couteau",
@@ -49633,17 +49757,24 @@ recipesData.plat.brochettes_boef = {
             "8 à 10 brochettes en bois"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
+            "==============================\n" +
+            "PRÉPARATION DE LA MARINADE\n" +
+            "==============================\n" +
             "1. Couper le bœuf en cubes réguliers.\n" +
-            "2. Mélanger huile, paprika, poudre d’ail, jus de citron, sel et poivre dans un bol.\n" +
-            "3. Ajouter le bœuf et bien mélanger pour enrober les cubes.\n" +
-            "4. Laisser mariner 30 min au frais.\n" +
-            "5. Enfiler les cubes sur les brochettes.\n" +
-            "6. Faire griller sur la grille ou barbecue 8-10 min, en retournant régulièrement.\n" +
-            "7. Servir chaud avec salade ou plantains frits."
+            "2. Mélanger l’huile, le paprika, la poudre d’ail, le jus de citron, le sel et le poivre dans un bol.\n" +
+            "3. Ajouter le bœuf et bien mélanger pour enrober les morceaux.\n" +
+            "4. Couvrir et laisser mariner 30 minutes au frais.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION ET CUISSON DES BROCHETTES\n" +
+            "==============================\n" +
+            "5. Enfiler les cubes de bœuf sur les brochettes.\n" +
+            "6. Chauffer la grille ou le barbecue à feu moyen.\n" +
+            "7. Déposer les brochettes sur la grille.\n" +
+            "8. Cuire 8 à 10 minutes en les retournant régulièrement.\n" +
+            "9. Retirer du feu et servir chaud avec salade ou plantains frits."
     },
     en: {
-        title: "Cameroonian Beef Skewers (Serves 4)",
+        title: "Beef Skewers (Cameroun)",
         equipment: [
             "1 grill or barbecue",
             "1 knife",
@@ -49661,17 +49792,24 @@ recipesData.plat.brochettes_boef = {
             "8–10 wooden skewers"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut beef into even cubes.\n" +
+            "==============================\n" +
+            "MARINADE PREPARATION\n" +
+            "==============================\n" +
+            "1. Cut the beef into even cubes.\n" +
             "2. Mix oil, paprika, garlic powder, lemon juice, salt and pepper in a bowl.\n" +
-            "3. Add beef and toss to coat.\n" +
-            "4. Marinate 30 min in fridge.\n" +
-            "5. Thread cubes onto skewers.\n" +
-            "6. Grill 8-10 min, turning regularly.\n" +
-            "7. Serve hot with salad or fried plantains."
+            "3. Add the beef and toss to coat evenly.\n" +
+            "4. Cover and marinate for 30 minutes in the refrigerator.\n\n" +
+            "==============================\n" +
+            "SKEWERS PREPARATION AND COOKING\n" +
+            "==============================\n" +
+            "5. Thread the beef cubes onto the skewers.\n" +
+            "6. Heat the grill over medium heat.\n" +
+            "7. Place the skewers on the grill.\n" +
+            "8. Grill for 8 to 10 minutes, turning regularly.\n" +
+            "9. Remove from heat and serve hot with salad or fried plantains."
     },
     nl: {
-        title: "Kamerondse Runderspiesjes (voor 4 personen)",
+        title: "Runderspiesjes (Cameroun)",
         equipment: [
             "1 grill of barbecue",
             "1 mes",
@@ -49689,50 +49827,70 @@ recipesData.plat.brochettes_boef = {
             "8-10 houten spiesen"
         ],
         preparation:
-            "Voor 4 personen.\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE MARINADE\n" +
+            "==============================\n" +
             "1. Snijd het rundvlees in gelijke blokjes.\n" +
             "2. Meng olie, paprika, knoflookpoeder, citroensap, zout en peper in een kom.\n" +
             "3. Voeg het vlees toe en meng goed.\n" +
-            "4. Laat 30 min marineren in de koelkast.\n" +
-            "5. Rijg de blokjes aan de spiesen.\n" +
-            "6. Grill 8-10 min, regelmatig keren.\n" +
-            "7. Serveer warm met salade of gebakken bakbanaan."
+            "4. Afdekken en 30 minuten laten marineren in de koelkast.\n\n" +
+            "==============================\n" +
+            "BEREIDING EN GRILLEN VAN DE SPIESJES\n" +
+            "==============================\n" +
+            "5. Rijg de vleesblokjes aan de spiesen.\n" +
+            "6. Verhit de grill op middelhoog vuur.\n" +
+            "7. Leg de spiesen op de grill.\n" +
+            "8. Grill 8 tot 10 minuten en keer regelmatig om.\n" +
+            "9. Van het vuur halen en warm serveren met salade of gebakken bakbanaan."
     },
     ar: {
-        title: "أسياخ لحم البقر على الطريقة الكاميرونية (تكفي 4 أشخاص)",
+        title: "أسياخ لحم البقر (الكاميرون)",
         equipment: [
-            "1 شواية أو مشواة",
+            "1 شواية",
             "1 سكين",
             "1 لوح تقطيع",
             "1 وعاء",
             "1 ملقط"
         ],
         ingredients: [
-            "500 غ لحم بقر طري، مقطع إلى مكعبات",
+            "500 غ لحم بقر طري مقطع إلى مكعبات",
             "2 ملعقة كبيرة زيت فول سوداني (30 مل)",
             "1 ملعقة صغيرة بابريكا (5 غ)",
             "1 ملعقة صغيرة مسحوق ثوم (5 غ)",
             "1 ملعقة كبيرة عصير ليمون (15 مل)",
             "ملح وفلفل حسب الذوق",
-            "8-10 أسياخ خشبية"
+            "8 إلى 10 أسياخ خشبية"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع اللحم إلى مكعبات متساوية.\n" +
-            "2. اخلط الزيت والبابريكا ومسحوق الثوم وعصير الليمون والملح والفلفل.\n" +
-            "3. أضف اللحم وقلّبه جيداً.\n" +
-            "4. اتركه يتبل 30 دقيقة في الثلاجة.\n" +
-            "5. ضع المكعبات على الأسياخ.\n" +
-            "6. اشوِ 8-10 دقائق مع التقليب المنتظم.\n" +
-            "7. قدمه ساخناً مع السلطة أو الموز المقلي."
+            "==============================\n" +
+            "تحضير التتبيلة\n" +
+            "==============================\n" +
+            "1. تقطيع لحم البقر إلى مكعبات متساوية.\n" +
+            "2. خلط الزيت والبابريكا ومسحوق الثوم وعصير الليمون والملح والفلفل في وعاء.\n" +
+            "3. إضافة اللحم وتقليبه جيداً حتى يتغلف بالتتبيلة.\n" +
+            "4. تغطيته وتركه يتبل لمدة 30 دقيقة في الثلاجة.\n\n" +
+            "==============================\n" +
+            "تحضير وشواء الأسياخ\n" +
+            "==============================\n" +
+            "5. وضع مكعبات اللحم في الأسياخ.\n" +
+            "6. تسخين الشواية على نار متوسطة.\n" +
+            "7. وضع الأسياخ على الشواية.\n" +
+            "8. شواؤها من 8 إلى 10 دقائق مع التقليب المنتظم.\n" +
+            "9. رفعها من النار وتقديمها ساخنة مع السلطة أو الموز المقلي."
     }
 };
 recipesData.plat.eru_viande = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/eru_viande.jpg",
+    countryName: "Cameroun",
+    image: "images/eru-viande-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Eru et viande (Cameroun, 4 personnes)",
+        title: "Eru et viande (Cameroun)",
         equipment: [
             "1 grande casserole",
             "1 couteau",
@@ -49750,18 +49908,17 @@ recipesData.plat.eru_viande = {
             "Sel et poivre selon goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Hacher l’oignon, l’ail et les tomates.\n" +
             "2. Chauffer l’huile de palme dans la casserole.\n" +
-            "3. Faire revenir la viande 5 min.\n" +
-            "4. Ajouter oignon et ail, cuire 2 min.\n" +
-            "5. Ajouter tomates et laisser mijoter 5 min.\n" +
+            "3. Faire revenir la viande pendant 5 minutes.\n" +
+            "4. Ajouter l’oignon et l’ail, puis cuire 2 minutes.\n" +
+            "5. Ajouter les tomates et laisser mijoter 5 minutes.\n" +
             "6. Ajouter les feuilles d’ero, saler et poivrer.\n" +
-            "7. Couvrir et cuire 10-15 min jusqu’à tendreté.\n" +
-            "8. Servir chaud avec bâtons de manioc ou plantains."
+            "7. Couvrir et cuire 10 à 15 minutes jusqu’à tendreté.\n" +
+            "8. Servir chaud avec des bâtons de manioc ou des plantains."
     },
     en: {
-        title: "Eru and Meat (Cameroon, Serves 4)",
+        title: "Eru with Meat (Cameroun)",
         equipment: [
             "1 large pot",
             "1 knife",
@@ -49779,18 +49936,17 @@ recipesData.plat.eru_viande = {
             "Salt and pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Chop onion, garlic, and tomatoes.\n" +
-            "2. Heat palm oil in pot.\n" +
-            "3. Sauté beef 5 min.\n" +
-            "4. Add onion and garlic, cook 2 min.\n" +
-            "5. Add tomatoes, simmer 5 min.\n" +
-            "6. Add eru leaves, season with salt and pepper.\n" +
-            "7. Cover and cook 10-15 min until tender.\n" +
+            "1. Chop the onion, garlic, and tomatoes.\n" +
+            "2. Heat the palm oil in the pot.\n" +
+            "3. Sauté the beef for 5 minutes.\n" +
+            "4. Add the onion and garlic and cook for 2 minutes.\n" +
+            "5. Add the tomatoes and simmer for 5 minutes.\n" +
+            "6. Add the eru leaves and season with salt and pepper.\n" +
+            "7. Cover and cook for 10 to 15 minutes until tender.\n" +
             "8. Serve hot with cassava sticks or plantains."
     },
     nl: {
-        title: "Eru met Vlees (Kameroen, voor 4 personen)",
+        title: "Eru met vlees (Cameroun)",
         equipment: [
             "1 grote pan",
             "1 mes",
@@ -49804,22 +49960,21 @@ recipesData.plat.eru_viande = {
             "1 ui (100 g)",
             "2 teentjes knoflook",
             "2 tomaten (200 g)",
-            "2 el palmpitolie (30 ml)",
+            "2 el palmolie (30 ml)",
             "Zout en peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Hak ui, knoflook en tomaten.\n" +
-            "2. Verhit palmpitolie in pan.\n" +
-            "3. Bak vlees 5 min.\n" +
-            "4. Voeg ui en knoflook toe, 2 min bakken.\n" +
-            "5. Voeg tomaten toe, 5 min sudderen.\n" +
-            "6. Voeg eru-bladeren toe, breng op smaak met zout en peper.\n" +
-            "7. Dek af en kook 10-15 min tot het zacht is.\n" +
+            "1. Hak de ui, knoflook en tomaten.\n" +
+            "2. Verhit de palmolie in de pan.\n" +
+            "3. Bak het vlees 5 minuten.\n" +
+            "4. Voeg de ui en knoflook toe en bak 2 minuten.\n" +
+            "5. Voeg de tomaten toe en laat 5 minuten sudderen.\n" +
+            "6. Voeg de eru-bladeren toe en breng op smaak met zout en peper.\n" +
+            "7. Dek af en kook 10 tot 15 minuten tot het zacht is.\n" +
             "8. Serveer warm met cassavesticks of bakbanaan."
     },
     ar: {
-        title: "إيرو مع اللحم (الكاميرون، تكفي 4 أشخاص)",
+        title: "إيرو مع اللحم (الكاميرون)",
         equipment: [
             "1 قدر كبير",
             "1 سكين",
@@ -49837,23 +49992,28 @@ recipesData.plat.eru_viande = {
             "ملح وفلفل حسب الذوق"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. فرم البصل والثوم والطماطم.\n" +
-            "2. سخّن زيت النخيل في القدر.\n" +
-            "3. اقلي اللحم 5 دقائق.\n" +
-            "4. أضف البصل والثوم، واطبخ 2 دقيقة.\n" +
-            "5. أضف الطماطم واتركها 5 دقائق على نار هادئة.\n" +
-            "6. أضف أوراق الإيرو، وتبّل بالملح والفلفل.\n" +
-            "7. غطّ واتركه ينضج 10-15 دقيقة حتى يصبح طرياً.\n" +
-            "8. قدمه ساخناً مع أعواد الكسافا أو الموز المقلي."
+            "2. تسخين زيت النخيل في القدر.\n" +
+            "3. قلي اللحم لمدة 5 دقائق.\n" +
+            "4. إضافة البصل والثوم والطهي لمدة دقيقتين.\n" +
+            "5. إضافة الطماطم وتركها 5 دقائق على نار هادئة.\n" +
+            "6. إضافة أوراق الإيرو وتتبيلها بالملح والفلفل.\n" +
+            "7. تغطية القدر وتركه ينضج من 10 إلى 15 دقيقة حتى يصبح طرياً.\n" +
+            "8. تقديمه ساخناً مع أعواد الكسافا أو الموز المقلي."
     }
 };
 recipesData.plat.ndole_boef = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/ndole_boef.jpg",
+    countryName: "Cameroun",
+    image: "images/ndole-boeuf-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Ndolé au bœuf (Cameroun, 4 personnes)",
+        title: "Ndolé au bœuf (Cameroun)",
         equipment: [
             "1 grande casserole",
             "1 couteau",
@@ -49872,18 +50032,17 @@ recipesData.plat.ndole_boef = {
             "Sel et poivre selon goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Hacher oignon, ail et tomates.\n" +
+            "1. Hacher l’oignon, l’ail et les tomates.\n" +
             "2. Chauffer l’huile de palme dans la casserole.\n" +
-            "3. Faire revenir le bœuf 5 min.\n" +
-            "4. Ajouter oignon et ail, cuire 2 min.\n" +
-            "5. Ajouter tomates et pâte d’arachide, cuire 5 min.\n" +
-            "6. Ajouter feuilles de ndolé, saler et poivrer.\n" +
-            "7. Couvrir et cuire 10 min jusqu’à tendreté.\n" +
-            "8. Servir chaud avec manioc ou plantains frits."
+            "3. Faire revenir le bœuf pendant 5 minutes.\n" +
+            "4. Ajouter l’oignon et l’ail, puis cuire 2 minutes.\n" +
+            "5. Ajouter les tomates et la pâte d’arachide, puis cuire 5 minutes.\n" +
+            "6. Ajouter les feuilles de ndolé, saler et poivrer.\n" +
+            "7. Couvrir et cuire 10 minutes jusqu’à tendreté.\n" +
+            "8. Servir chaud avec du manioc ou des plantains frits."
     },
     en: {
-        title: "Ndolé with Beef (Cameroon, Serves 4)",
+        title: "Ndolé with Beef (Cameroun)",
         equipment: [
             "1 large pot",
             "1 knife",
@@ -49902,18 +50061,17 @@ recipesData.plat.ndole_boef = {
             "Salt and pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Chop onion, garlic, and tomatoes.\n" +
-            "2. Heat palm oil in pot.\n" +
-            "3. Sauté beef 5 min.\n" +
-            "4. Add onion and garlic, cook 2 min.\n" +
-            "5. Add tomatoes and peanut paste, cook 5 min.\n" +
-            "6. Add ndolé leaves, season with salt and pepper.\n" +
-            "7. Cover and cook 10 min until tender.\n" +
+            "1. Chop the onion, garlic, and tomatoes.\n" +
+            "2. Heat the palm oil in the pot.\n" +
+            "3. Sauté the beef for 5 minutes.\n" +
+            "4. Add the onion and garlic and cook for 2 minutes.\n" +
+            "5. Add the tomatoes and peanut paste and cook for 5 minutes.\n" +
+            "6. Add the ndolé leaves and season with salt and pepper.\n" +
+            "7. Cover and cook for 10 minutes until tender.\n" +
             "8. Serve hot with manioc or fried plantains."
     },
     nl: {
-        title: "Ndolé met Rundvlees (Kameroen, voor 4 personen)",
+        title: "Ndolé met rundvlees (Cameroun)",
         equipment: [
             "1 grote pan",
             "1 mes",
@@ -49927,23 +50085,22 @@ recipesData.plat.ndole_boef = {
             "1 ui (100 g)",
             "2 tomaten (200 g)",
             "2 teentjes knoflook",
-            "2 el palmpitolie (30 ml)",
+            "2 el palmolie (30 ml)",
             "1 el pindapasta (15 g)",
             "Zout en peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Hak ui, knoflook en tomaten.\n" +
-            "2. Verhit palmpitolie in pan.\n" +
-            "3. Bak rundvlees 5 min.\n" +
-            "4. Voeg ui en knoflook toe, 2 min bakken.\n" +
-            "5. Voeg tomaten en pindapasta toe, 5 min sudderen.\n" +
-            "6. Voeg ndolé-bladeren toe, breng op smaak met zout en peper.\n" +
-            "7. Dek af en kook 10 min tot het zacht is.\n" +
+            "1. Hak de ui, knoflook en tomaten.\n" +
+            "2. Verhit de palmolie in de pan.\n" +
+            "3. Bak het rundvlees 5 minuten.\n" +
+            "4. Voeg de ui en knoflook toe en bak 2 minuten.\n" +
+            "5. Voeg de tomaten en pindapasta toe en laat 5 minuten sudderen.\n" +
+            "6. Voeg de ndolé-bladeren toe en breng op smaak met zout en peper.\n" +
+            "7. Dek af en kook 10 minuten tot het zacht is.\n" +
             "8. Serveer warm met cassavesticks of gebakken bakbanaan."
     },
     ar: {
-        title: "ندولي باللحم البقري (الكاميرون، تكفي 4 أشخاص)",
+        title: "ندولي بلحم البقر (الكاميرون)",
         equipment: [
             "1 قدر كبير",
             "1 سكين",
@@ -49962,23 +50119,28 @@ recipesData.plat.ndole_boef = {
             "ملح وفلفل حسب الذوق"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. فرم البصل والثوم والطماطم.\n" +
-            "2. سخّن زيت النخيل في القدر.\n" +
-            "3. اقلي اللحم 5 دقائق.\n" +
-            "4. أضف البصل والثوم واطبخ 2 دقيقة.\n" +
-            "5. أضف الطماطم ومعجون الفول السوداني، واطبخ 5 دقائق.\n" +
-            "6. أضف أوراق الندولي، وتبّل بالملح والفلفل.\n" +
-            "7. غطّ واتركه ينضج 10 دقائق حتى يصبح طرياً.\n" +
-            "8. قدمه ساخناً مع الكسافا أو الموز المقلي."
+            "2. تسخين زيت النخيل في القدر.\n" +
+            "3. قلي اللحم لمدة 5 دقائق.\n" +
+            "4. إضافة البصل والثوم والطهي لمدة دقيقتين.\n" +
+            "5. إضافة الطماطم ومعجون الفول السوداني والطهي لمدة 5 دقائق.\n" +
+            "6. إضافة أوراق الندولي وتتبيلها بالملح والفلفل.\n" +
+            "7. تغطية القدر وتركه ينضج 10 دقائق حتى يصبح طرياً.\n" +
+            "8. تقديمه ساخناً مع الكسافا أو الموز المقلي."
     }
 };
 recipesData.plat.poisson_saute = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/poisson_saute.jpg",
+    countryName: "Cameroun",
+    image: "images/poisson-saute-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Sauté de poisson à la camerounaise (4 personnes)",
+        title: "Sauté de poisson (Cameroun)",
         equipment: [
             "1 grande poêle",
             "1 couteau",
@@ -49996,18 +50158,17 @@ recipesData.plat.poisson_saute = {
             "Sel, poivre, paprika selon goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Couper le poisson en morceaux.\n" +
-            "2. Hacher oignon, ail, tomates et poivron.\n" +
+            "2. Hacher l’oignon, l’ail, les tomates et le poivron.\n" +
             "3. Chauffer l’huile dans la poêle.\n" +
-            "4. Faire revenir oignon et ail 2 min.\n" +
-            "5. Ajouter le poisson et cuire 5 min.\n" +
-            "6. Ajouter tomates, poivron, sel, poivre et paprika.\n" +
-            "7. Couvrir et cuire 10 min à feu moyen.\n" +
+            "4. Faire revenir l’oignon et l’ail pendant 2 minutes.\n" +
+            "5. Ajouter le poisson et cuire 5 minutes.\n" +
+            "6. Ajouter les tomates, le poivron, le sel, le poivre et le paprika.\n" +
+            "7. Couvrir et cuire 10 minutes à feu moyen.\n" +
             "8. Servir chaud avec du riz ou du manioc."
     },
     en: {
-        title: "Cameroonian Fish Stir-Fry (Serves 4)",
+        title: "Fish Stir-Fry (Cameroun)",
         equipment: [
             "1 large pan",
             "1 knife",
@@ -50016,7 +50177,7 @@ recipesData.plat.poisson_saute = {
             "1 bowl"
         ],
         ingredients: [
-            "500 g fish fillets (tilapia or captain)",
+            "500 g fish fillets (tilapia or capitaine)",
             "1 onion (100 g)",
             "2 tomatoes (200 g)",
             "1 green bell pepper (100 g)",
@@ -50025,18 +50186,17 @@ recipesData.plat.poisson_saute = {
             "Salt, pepper, paprika to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut fish into pieces.\n" +
-            "2. Chop onion, garlic, tomatoes, and bell pepper.\n" +
-            "3. Heat oil in pan.\n" +
-            "4. Sauté onion and garlic 2 min.\n" +
-            "5. Add fish and cook 5 min.\n" +
-            "6. Add tomatoes, bell pepper, salt, pepper, and paprika.\n" +
-            "7. Cover and cook 10 min over medium heat.\n" +
+            "1. Cut the fish into pieces.\n" +
+            "2. Chop the onion, garlic, tomatoes, and bell pepper.\n" +
+            "3. Heat the oil in the pan.\n" +
+            "4. Sauté the onion and garlic for 2 minutes.\n" +
+            "5. Add the fish and cook for 5 minutes.\n" +
+            "6. Add the tomatoes, bell pepper, salt, pepper, and paprika.\n" +
+            "7. Cover and cook over medium heat for 10 minutes.\n" +
             "8. Serve hot with rice or cassava."
     },
     nl: {
-        title: "Kameroens Gebakken Vis (voor 4 personen)",
+        title: "Gebakken vis (Cameroun)",
         equipment: [
             "1 grote pan",
             "1 mes",
@@ -50054,18 +50214,17 @@ recipesData.plat.poisson_saute = {
             "Zout, peper, paprika naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd vis in stukken.\n" +
-            "2. Hak ui, knoflook, tomaten en paprika.\n" +
-            "3. Verhit olie in pan.\n" +
-            "4. Bak ui en knoflook 2 min.\n" +
-            "5. Voeg vis toe en bak 5 min.\n" +
-            "6. Voeg tomaten, paprika, zout, peper en paprika toe.\n" +
-            "7. Dek af en bak 10 min op middelhoog vuur.\n" +
+            "1. Snijd de vis in stukken.\n" +
+            "2. Hak de ui, knoflook, tomaten en paprika.\n" +
+            "3. Verhit de olie in de pan.\n" +
+            "4. Bak de ui en knoflook 2 minuten.\n" +
+            "5. Voeg de vis toe en bak 5 minuten.\n" +
+            "6. Voeg de tomaten, paprika, zout, peper en paprika toe.\n" +
+            "7. Dek af en bak 10 minuten op middelhoog vuur.\n" +
             "8. Serveer warm met rijst of cassave."
     },
     ar: {
-        title: "سمك مقلي على الطريقة الكاميرونية (تكفي 4 أشخاص)",
+        title: "سمك مقلي (الكاميرون)",
         equipment: [
             "1 مقلاة كبيرة",
             "1 سكين",
@@ -50080,147 +50239,31 @@ recipesData.plat.poisson_saute = {
             "1 فلفل أخضر (100 غ)",
             "2 فص ثوم",
             "2 ملعقة كبيرة زيت دوار الشمس (30 مل)",
-            "ملح، فلفل، فلفل حلو حسب الذوق"
+            "ملح، فلفل، بابريكا حسب الذوق"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع السمك إلى قطع.\n" +
+            "1. تقطيع السمك إلى قطع.\n" +
             "2. فرم البصل والثوم والطماطم والفلفل.\n" +
-            "3. سخّن الزيت في المقلاة.\n" +
-            "4. اقلي البصل والثوم 2 دقيقة.\n" +
-            "5. أضف السمك واطبخ 5 دقائق.\n" +
-            "6. أضف الطماطم والفلفل والملح والفلفل الحلو.\n" +
-            "7. غطّ واتركه يطهى 10 دقائق على نار متوسطة.\n" +
-            "8. قدمه ساخناً مع الأرز أو الكسافا."
-    }
-};
-recipesData.plat.poisson_saute = {
-    country: "afrique",
-    countryName: "cameroun",
-    image: "images/poisson_saute.jpg",
-    fr: {
-        title: "Sauté de poisson à la camerounaise (4 personnes)",
-        equipment: [
-            "1 grande poêle",
-            "1 couteau",
-            "1 planche à découper",
-            "1 cuillère en bois",
-            "1 bol"
-        ],
-        ingredients: [
-            "500 g filets de poisson (tilapia ou capitaine)",
-            "1 oignon (100 g)",
-            "2 tomates (200 g)",
-            "1 poivron vert (100 g)",
-            "2 gousses d’ail",
-            "2 cuillères à soupe huile de tournesol (30 ml)",
-            "Sel, poivre, paprika selon goût"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper le poisson en morceaux.\n" +
-            "2. Hacher oignon, ail, tomates et poivron.\n" +
-            "3. Chauffer l’huile dans la poêle.\n" +
-            "4. Faire revenir oignon et ail 2 min.\n" +
-            "5. Ajouter le poisson et cuire 5 min.\n" +
-            "6. Ajouter tomates, poivron, sel, poivre et paprika.\n" +
-            "7. Couvrir et cuire 10 min à feu moyen.\n" +
-            "8. Servir chaud avec du riz ou du manioc."
-    },
-    en: {
-        title: "Cameroonian Fish Stir-Fry (Serves 4)",
-        equipment: [
-            "1 large pan",
-            "1 knife",
-            "1 cutting board",
-            "1 wooden spoon",
-            "1 bowl"
-        ],
-        ingredients: [
-            "500 g fish fillets (tilapia or captain)",
-            "1 onion (100 g)",
-            "2 tomatoes (200 g)",
-            "1 green bell pepper (100 g)",
-            "2 garlic cloves",
-            "2 tbsp sunflower oil (30 ml)",
-            "Salt, pepper, paprika to taste"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Cut fish into pieces.\n" +
-            "2. Chop onion, garlic, tomatoes, and bell pepper.\n" +
-            "3. Heat oil in pan.\n" +
-            "4. Sauté onion and garlic 2 min.\n" +
-            "5. Add fish and cook 5 min.\n" +
-            "6. Add tomatoes, bell pepper, salt, pepper, and paprika.\n" +
-            "7. Cover and cook 10 min over medium heat.\n" +
-            "8. Serve hot with rice or cassava."
-    },
-    nl: {
-        title: "Kameroens Gebakken Vis (voor 4 personen)",
-        equipment: [
-            "1 grote pan",
-            "1 mes",
-            "1 snijplank",
-            "1 houten lepel",
-            "1 kom"
-        ],
-        ingredients: [
-            "500 g visfilets (tilapia of capitaine)",
-            "1 ui (100 g)",
-            "2 tomaten (200 g)",
-            "1 groene paprika (100 g)",
-            "2 teentjes knoflook",
-            "2 el zonnebloemolie (30 ml)",
-            "Zout, peper, paprika naar smaak"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd vis in stukken.\n" +
-            "2. Hak ui, knoflook, tomaten en paprika.\n" +
-            "3. Verhit olie in pan.\n" +
-            "4. Bak ui en knoflook 2 min.\n" +
-            "5. Voeg vis toe en bak 5 min.\n" +
-            "6. Voeg tomaten, paprika, zout, peper en paprika toe.\n" +
-            "7. Dek af en bak 10 min op middelhoog vuur.\n" +
-            "8. Serveer warm met rijst of cassave."
-    },
-    ar: {
-        title: "سمك مقلي على الطريقة الكاميرونية (تكفي 4 أشخاص)",
-        equipment: [
-            "1 مقلاة كبيرة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية",
-            "1 وعاء"
-        ],
-        ingredients: [
-            "500 غ شرائح سمك (تيلاپيا أو كابيتان)",
-            "1 بصل (100 غ)",
-            "2 طماطم (200 غ)",
-            "1 فلفل أخضر (100 غ)",
-            "2 فص ثوم",
-            "2 ملعقة كبيرة زيت دوار الشمس (30 مل)",
-            "ملح، فلفل، فلفل حلو حسب الذوق"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع السمك إلى قطع.\n" +
-            "2. فرم البصل والثوم والطماطم والفلفل.\n" +
-            "3. سخّن الزيت في المقلاة.\n" +
-            "4. اقلي البصل والثوم 2 دقيقة.\n" +
-            "5. أضف السمك واطبخ 5 دقائق.\n" +
-            "6. أضف الطماطم والفلفل والملح والفلفل الحلو.\n" +
-            "7. غطّ واتركه يطهى 10 دقائق على نار متوسطة.\n" +
-            "8. قدمه ساخناً مع الأرز أو الكسافا."
+            "3. تسخين الزيت في المقلاة.\n" +
+            "4. قلي البصل والثوم لمدة دقيقتين.\n" +
+            "5. إضافة السمك وطهيه لمدة 5 دقائق.\n" +
+            "6. إضافة الطماطم والفلفل والملح والفلفل والبابريكا.\n" +
+            "7. تغطية المقلاة وتركها تطهى 10 دقائق على نار متوسطة.\n" +
+            "8. تقديمه ساخناً مع الأرز أو الكسافا."
     }
 };
 recipesData.plat.poulet_dg_revise = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/poulet_dg_revise.jpg",
+    countryName: "Cameroun",
+    image: "images/poulet_dg_revise-cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Poulet DG revisité (Cameroun, 4 personnes)",
+        title: "Poulet DG revisité (Cameroun)",
         equipment: [
             "1 grande poêle",
             "1 casserole",
@@ -50240,19 +50283,24 @@ recipesData.plat.poulet_dg_revise = {
             "Sel, poivre, paprika selon goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper poulet, tomates, poivron et bananes en morceaux.\n" +
+            "==============================\n" +
+            "PRÉPARATION DU POULET ET DE LA SAUCE\n" +
+            "==============================\n" +
+            "1. Couper le poulet, les tomates et le poivron en morceaux.\n" +
             "2. Hacher l’oignon et l’ail.\n" +
-            "3. Chauffer l’huile dans la poêle, faire revenir le poulet 5 min.\n" +
-            "4. Ajouter oignon et ail, cuire 2 min.\n" +
-            "5. Ajouter tomates et poivron, cuire 5 min.\n" +
-            "6. Dans une autre poêle, frire les bananes jusqu’à dorure.\n" +
-            "7. Mélanger le poulet et légumes avec les bananes frites.\n" +
-            "8. Saler, poivrer, ajouter paprika.\n" +
-            "9. Servir chaud."
+            "3. Chauffer l’huile dans la poêle et faire revenir le poulet pendant 5 minutes.\n" +
+            "4. Ajouter l’oignon et l’ail, puis cuire 2 minutes.\n" +
+            "5. Ajouter les tomates et le poivron, puis cuire 5 minutes.\n\n" +
+            "==============================\n" +
+            "FRITURE DES BANANES ET ASSEMBLAGE\n" +
+            "==============================\n" +
+            "6. Dans une autre poêle, frire les bananes plantain jusqu’à dorure.\n" +
+            "7. Ajouter les bananes frites au mélange poulet et légumes.\n" +
+            "8. Saler, poivrer et ajouter le paprika.\n" +
+            "9. Mélanger délicatement et servir chaud."
     },
     en: {
-        title: "Cameroonian Chicken DG (Serves 4)",
+        title: "Revisited Chicken DG (Cameroun)",
         equipment: [
             "1 large pan",
             "1 pot",
@@ -50272,19 +50320,24 @@ recipesData.plat.poulet_dg_revise = {
             "Salt, pepper, paprika to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut chicken, tomatoes, bell pepper, and plantains.\n" +
-            "2. Chop onion and garlic.\n" +
-            "3. Heat oil in pan, sauté chicken 5 min.\n" +
-            "4. Add onion and garlic, cook 2 min.\n" +
-            "5. Add tomatoes and bell pepper, cook 5 min.\n" +
-            "6. In another pan, fry plantains until golden.\n" +
-            "7. Mix chicken and vegetables with fried plantains.\n" +
-            "8. Season with salt, pepper, paprika.\n" +
-            "9. Serve hot."
+            "==============================\n" +
+            "CHICKEN AND SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "1. Cut the chicken, tomatoes, and bell pepper into pieces.\n" +
+            "2. Chop the onion and garlic.\n" +
+            "3. Heat the oil in a pan and sauté the chicken for 5 minutes.\n" +
+            "4. Add the onion and garlic and cook for 2 minutes.\n" +
+            "5. Add the tomatoes and bell pepper and cook for 5 minutes.\n\n" +
+            "==============================\n" +
+            "PLANTAINS FRYING AND ASSEMBLY\n" +
+            "==============================\n" +
+            "6. In another pan, fry the plantains until golden.\n" +
+            "7. Add the fried plantains to the chicken and vegetables.\n" +
+            "8. Season with salt, pepper, and paprika.\n" +
+            "9. Mix gently and serve hot."
     },
     nl: {
-        title: "Kameroens Kip DG (voor 4 personen)",
+        title: "Kip DG revisited (Cameroun)",
         equipment: [
             "1 grote pan",
             "1 pan",
@@ -50304,19 +50357,24 @@ recipesData.plat.poulet_dg_revise = {
             "Zout, peper, paprika naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd kip, tomaten, paprika en bakbananen.\n" +
-            "2. Hak ui en knoflook.\n" +
-            "3. Verhit olie in pan, bak kip 5 min.\n" +
-            "4. Voeg ui en knoflook toe, 2 min bakken.\n" +
-            "5. Voeg tomaten en paprika toe, 5 min bakken.\n" +
-            "6. Bak bananen in andere pan tot goudbruin.\n" +
-            "7. Meng kip en groenten met gebakken bananen.\n" +
-            "8. Breng op smaak met zout, peper, paprika.\n" +
-            "9. Serveer warm."
+            "==============================\n" +
+            "BEREIDING VAN KIP EN SAUS\n" +
+            "==============================\n" +
+            "1. Snijd de kip, tomaten en paprika in stukken.\n" +
+            "2. Hak de ui en knoflook.\n" +
+            "3. Verhit de olie in de pan en bak de kip 5 minuten.\n" +
+            "4. Voeg de ui en knoflook toe en bak 2 minuten.\n" +
+            "5. Voeg de tomaten en paprika toe en bak 5 minuten.\n\n" +
+            "==============================\n" +
+            "BAKKEN VAN BAKBANANEN EN SAMENVOEGEN\n" +
+            "==============================\n" +
+            "6. Bak de bakbananen in een andere pan tot ze goudbruin zijn.\n" +
+            "7. Voeg de gebakken bakbananen toe aan de kip en groenten.\n" +
+            "8. Breng op smaak met zout, peper en paprika.\n" +
+            "9. Meng voorzichtig en serveer warm."
     },
     ar: {
-        title: "دجاج DG مُعدل (الكاميرون، تكفي 4 أشخاص)",
+        title: "دجاج DG مُعدل (الكاميرون)",
         equipment: [
             "1 مقلاة كبيرة",
             "1 قدر",
@@ -50333,137 +50391,38 @@ recipesData.plat.poulet_dg_revise = {
             "1 فلفل (100 غ)",
             "2 فص ثوم",
             "2 ملعقة كبيرة زيت دوار الشمس (30 مل)",
-            "ملح وفلفل وفلفل حلو حسب الذوق"
+            "ملح وفلفل وبابريكا حسب الذوق"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الدجاج والطماطم والفلفل والموز.\n" +
+            "==============================\n" +
+            "تحضير الدجاج والصلصة\n" +
+            "==============================\n" +
+            "1. تقطيع الدجاج والطماطم والفلفل إلى قطع.\n" +
             "2. فرم البصل والثوم.\n" +
-            "3. سخّن الزيت في المقلاة، اقلي الدجاج 5 دقائق.\n" +
-            "4. أضف البصل والثوم واطبخ 2 دقيقة.\n" +
-            "5. أضف الطماطم والفلفل، اطبخ 5 دقائق.\n" +
-            "6. في مقلاة أخرى، اقلي الموز حتى يصبح ذهبي.\n" +
-            "7. اخلط الدجاج والخضار مع الموز المقلي.\n" +
-            "8. تبّل بالملح والفلفل والفلفل الحلو.\n" +
-            "9. قدمه ساخناً."
+            "3. تسخين الزيت في المقلاة وقلي الدجاج لمدة 5 دقائق.\n" +
+            "4. إضافة البصل والثوم والطهي لمدة دقيقتين.\n" +
+            "5. إضافة الطماطم والفلفل والطهي لمدة 5 دقائق.\n\n" +
+            "==============================\n" +
+            "قلي الموز والتجميع\n" +
+            "==============================\n" +
+            "6. قلي الموز في مقلاة أخرى حتى يصبح ذهبياً.\n" +
+            "7. إضافة الموز المقلي إلى خليط الدجاج والخضار.\n" +
+            "8. تتبيل الخليط بالملح والفلفل والبابريكا.\n" +
+            "9. خلطه برفق وتقديمه ساخناً."
     }
 };
-recipesData.plat.poisson_braise = {
-    country: "afrique",
-    countryName: "cameroun",
-    image: "images/poisson_braise.jpg",
-    fr: {
-        title: "Poisson braisé (Cameroun, 4 personnes)",
-        equipment: [
-            "1 grille ou barbecue",
-            "1 couteau",
-            "1 planche à découper",
-            "1 pince pour barbecue",
-            "1 bol"
-        ],
-        ingredients: [
-            "1 poisson entier de 800 g (tilapia ou capitaine)",
-            "2 tomates (200 g)",
-            "1 oignon (100 g)",
-            "2 gousses d’ail",
-            "2 cuillères à soupe huile de tournesol (30 ml)",
-            "Sel, poivre, paprika selon goût"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Écailler et nettoyer le poisson.\n" +
-            "2. Hacher oignon, ail et tomates.\n" +
-            "3. Faire une marinade avec huile, sel, poivre et paprika.\n" +
-            "4. Enduire le poisson de marinade.\n" +
-            "5. Griller sur barbecue ou grille chaude 15-20 min de chaque côté.\n" +
-            "6. Servir chaud avec bananes plantain ou manioc."
-    },
-    en: {
-        title: "Grilled Fish (Cameroon, Serves 4)",
-        equipment: [
-            "1 grill or barbecue",
-            "1 knife",
-            "1 cutting board",
-            "1 barbecue tongs",
-            "1 bowl"
-        ],
-        ingredients: [
-            "1 whole fish 800 g (tilapia or captain)",
-            "2 tomatoes (200 g)",
-            "1 onion (100 g)",
-            "2 garlic cloves",
-            "2 tbsp sunflower oil (30 ml)",
-            "Salt, pepper, paprika to taste"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Scale and clean fish.\n" +
-            "2. Chop onion, garlic, tomatoes.\n" +
-            "3. Make a marinade with oil, salt, pepper, and paprika.\n" +
-            "4. Coat fish with marinade.\n" +
-            "5. Grill on barbecue or hot grill 15-20 min per side.\n" +
-            "6. Serve hot with plantains or cassava."
-    },
-    nl: {
-        title: "Gegrilde Vis (Kameroen, voor 4 personen)",
-        equipment: [
-            "1 rooster of barbecue",
-            "1 mes",
-            "1 snijplank",
-            "1 barbecuetang",
-            "1 kom"
-        ],
-        ingredients: [
-            "1 hele vis 800 g (tilapia of capitaine)",
-            "2 tomaten (200 g)",
-            "1 ui (100 g)",
-            "2 teentjes knoflook",
-            "2 el zonnebloemolie (30 ml)",
-            "Zout, peper, paprika naar smaak"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Schub en reinig de vis.\n" +
-            "2. Hak ui, knoflook en tomaten.\n" +
-            "3. Maak marinade met olie, zout, peper en paprika.\n" +
-            "4. Bedek vis met marinade.\n" +
-            "5. Grill op barbecue of heet rooster 15-20 min per kant.\n" +
-            "6. Serveer warm met bakbanaan of cassave."
-    },
-    ar: {
-        title: "سمك مشوي (الكاميرون، تكفي 4 أشخاص)",
-        equipment: [
-            "1 شواية أو باربيكيو",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملقط للشواء",
-            "1 وعاء"
-        ],
-        ingredients: [
-            "1 سمكة كاملة 800 غ (تيلاپيا أو كابيتان)",
-            "2 طماطم (200 غ)",
-            "1 بصل (100 غ)",
-            "2 فص ثوم",
-            "2 ملعقة كبيرة زيت دوار الشمس (30 مل)",
-            "ملح، فلفل، فلفل حلو حسب الذوق"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. إزالة القشور وتنظيف السمك.\n" +
-            "2. فرم البصل والثوم والطماطم.\n" +
-            "3. إعداد تتبيلة بالزيت والملح والفلفل والفلفل الحلو.\n" +
-            "4. غطّ السمك بالتتبيلة.\n" +
-            "5. اشوي على الشواية أو شبكة ساخنة 15-20 دقيقة لكل جانب.\n" +
-            "6. قدمه ساخناً مع الموز المقلي أو الكسافا."
-    }
-};
-
 recipesData.plat.poulet_dg_cameroun = {
     country: "afrique",
-    countryName: "cameroun",
+    countryName: "Cameroun",
     image: "images/poulet_dg_cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 30,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Poulet DG (Cameroun, 4 personnes)",
+        title: "Poulet DG (Cameroun)",
         equipment: [
             "1 grande casserole",
             "1 poêle",
@@ -50488,18 +50447,23 @@ recipesData.plat.poulet_dg_cameroun = {
             "150 g plantains mûrs, coupés en rondelles"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer 1 cuillère à soupe d’huile dans une poêle, faire dorer le poulet 5-6 min de chaque côté. Réserver.\n" +
-            "2. Dans la même poêle, ajouter le reste d’huile, faire revenir oignon et ail 3 min.\n" +
-            "3. Ajouter les carottes et poivron, cuire 5 min en remuant.\n" +
-            "4. Ajouter les tomates concassées, sel, poivre et paprika. Cuire 5 min.\n" +
-            "5. Remettre le poulet dans la poêle, couvrir et laisser mijoter 15 min à feu doux.\n" +
-            "6. Pendant ce temps, faire frire légèrement les rondelles de plantain dans une petite poêle avec un filet d’huile.\n" +
+            "==============================\n" +
+            "PRÉPARATION DU POULET ET DE LA SAUCE\n" +
+            "==============================\n" +
+            "1. Chauffer 1 cuillère à soupe d’huile dans une poêle et faire dorer le poulet 5 à 6 minutes de chaque côté. Réserver.\n" +
+            "2. Dans la même poêle, ajouter le reste de l’huile et faire revenir l’oignon et l’ail pendant 3 minutes.\n" +
+            "3. Ajouter les carottes et le poivron, puis cuire 5 minutes en remuant.\n" +
+            "4. Ajouter les tomates concassées, le sel, le poivre et le paprika, puis cuire 5 minutes.\n" +
+            "5. Remettre le poulet dans la poêle, couvrir et laisser mijoter 15 minutes à feu doux.\n\n" +
+            "==============================\n" +
+            "FRITURE DES PLANTAINS ET FINITION\n" +
+            "==============================\n" +
+            "6. Faire frire légèrement les rondelles de plantain dans une petite poêle avec un filet d’huile.\n" +
             "7. Ajouter le persil haché sur le poulet avant de servir.\n" +
             "8. Servir le Poulet DG accompagné des plantains dorés."
     },
     en: {
-        title: "Poulet DG (Cameroon, Serves 4)",
+        title: "Poulet DG (Cameroun)",
         equipment: [
             "1 large pot",
             "1 frying pan",
@@ -50524,18 +50488,23 @@ recipesData.plat.poulet_dg_cameroun = {
             "150 g ripe plantains, sliced"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat 1 tbsp oil in a frying pan, brown chicken 5-6 min per side. Set aside.\n" +
-            "2. In the same pan, add remaining oil, sauté onion and garlic 3 min.\n" +
-            "3. Add carrots and bell pepper, cook 5 min while stirring.\n" +
-            "4. Add crushed tomatoes, salt, pepper, and paprika. Cook 5 min.\n" +
-            "5. Return chicken to the pan, cover and simmer 15 min on low heat.\n" +
-            "6. Meanwhile, lightly fry plantain slices in a small pan with a drizzle of oil.\n" +
-            "7. Add chopped parsley over the chicken before serving.\n" +
+            "==============================\n" +
+            "CHICKEN AND SAUCE PREPARATION\n" +
+            "==============================\n" +
+            "1. Heat 1 tablespoon of oil in a frying pan and brown the chicken 5 to 6 minutes per side. Set aside.\n" +
+            "2. In the same pan, add remaining oil and sauté onion and garlic for 3 minutes.\n" +
+            "3. Add carrots and bell pepper and cook for 5 minutes while stirring.\n" +
+            "4. Add crushed tomatoes, salt, pepper and paprika, then cook for 5 minutes.\n" +
+            "5. Return chicken to the pan, cover and simmer for 15 minutes over low heat.\n\n" +
+            "==============================\n" +
+            "PLANTAINS FRYING AND SERVING\n" +
+            "==============================\n" +
+            "6. Lightly fry the plantain slices in a small pan with a little oil.\n" +
+            "7. Sprinkle chopped parsley over the chicken before serving.\n" +
             "8. Serve Poulet DG with golden plantains."
     },
     nl: {
-        title: "Poulet DG (Kameroen, voor 4 personen)",
+        title: "Poulet DG (Cameroun)",
         equipment: [
             "1 grote pan",
             "1 koekenpan",
@@ -50560,18 +50529,23 @@ recipesData.plat.poulet_dg_cameroun = {
             "150 g rijpe bakbanaan, in plakjes"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit 1 eetlepel olie in een koekenpan, bak kip 5-6 min per kant. Zet apart.\n" +
-            "2. Voeg in dezelfde pan de rest van de olie toe, bak ui en knoflook 3 min.\n" +
-            "3. Voeg wortels en paprika toe, bak 5 min al roerend.\n" +
-            "4. Voeg geplette tomaten, zout, peper en paprikapoeder toe. Bak 5 min.\n" +
-            "5. Doe de kip terug in de pan, dek af en laat 15 min op laag vuur sudderen.\n" +
-            "6. Bak ondertussen de bakbanaanplakjes licht in een kleine pan met een scheut olie.\n" +
-            "7. Voeg gehakte peterselie over de kip voor het serveren.\n" +
+            "==============================\n" +
+            "BEREIDING VAN KIP EN SAUS\n" +
+            "==============================\n" +
+            "1. Verhit 1 eetlepel olie in een koekenpan en bak de kip 5 tot 6 minuten per kant. Zet apart.\n" +
+            "2. Voeg in dezelfde pan de rest van de olie toe en bak ui en knoflook 3 minuten.\n" +
+            "3. Voeg wortels en paprika toe en bak 5 minuten al roerend.\n" +
+            "4. Voeg tomaten, zout, peper en paprikapoeder toe en bak 5 minuten.\n" +
+            "5. Doe de kip terug in de pan, dek af en laat 15 minuten sudderen op laag vuur.\n\n" +
+            "==============================\n" +
+            "BAKKEN VAN BAKBANAAN EN SERVEREN\n" +
+            "==============================\n" +
+            "6. Bak de bakbanaanplakjes licht in een kleine pan met een beetje olie.\n" +
+            "7. Strooi de gehakte peterselie over de kip voor het serveren.\n" +
             "8. Serveer Poulet DG met goudbruine bakbanaan."
     },
     ar: {
-        title: "بولي د.ج (الكاميرون، تكفي 4 أشخاص)",
+        title: "بولي د.ج (الكاميرون)",
         equipment: [
             "1 قدر كبير",
             "1 مقلاة",
@@ -50596,126 +50570,32 @@ recipesData.plat.poulet_dg_cameroun = {
             "150 غ بلانتان ناضج، مقطع شرائح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن 1 ملعقة كبيرة زيت في مقلاة، حمّر الدجاج 5-6 دقائق لكل جانب. ضع جانباً.\n" +
-            "2. في نفس المقلاة، أضف بقية الزيت، اقلي البصل والثوم 3 دقائق.\n" +
-            "3. أضف الجزر والفلفل، اطبخ 5 دقائق مع التحريك.\n" +
-            "4. أضف الطماطم المهروسة، الملح، الفلفل والفلفل الحلو. اطبخ 5 دقائق.\n" +
-            "5. أعد الدجاج إلى المقلاة، غطّها واتركها تنضج 15 دقيقة على نار هادئة.\n" +
-            "6. في هذه الأثناء، اقلي شرائح البلانتان قليلاً في مقلاة صغيرة مع قليل من الزيت.\n" +
-            "7. أضف البقدونس المفروم فوق الدجاج قبل التقديم.\n" +
-            "8. قدّم Poulet DG مع البلانتان الذهبي."
+            "==============================\n" +
+            "تحضير الدجاج والصلصة\n" +
+            "==============================\n" +
+            "1. تسخين ملعقة كبيرة من الزيت في مقلاة وتحميص الدجاج 5 إلى 6 دقائق لكل جانب، ثم وضعه جانباً.\n" +
+            "2. في نفس المقلاة، إضافة باقي الزيت وقلي البصل والثوم 3 دقائق.\n" +
+            "3. إضافة الجزر والفلفل وطهيها 5 دقائق مع التحريك.\n" +
+            "4. إضافة الطماطم المهروسة والملح والفلفل والفلفل الحلو وطهيها 5 دقائق.\n" +
+            "5. إعادة الدجاج إلى المقلاة، تغطيتها وتركها تنضج 15 دقيقة على نار هادئة.\n\n" +
+            "==============================\n" +
+            "قلي البلانتان والتقديم\n" +
+            "==============================\n" +
+            "6. قلي شرائح البلانتان قليلاً في مقلاة صغيرة مع القليل من الزيت.\n" +
+            "7. رش البقدونس المفروم فوق الدجاج قبل التقديم.\n" +
+            "8. تقديم بولي د.ج مع البلانتان الذهبي."
     }
 };
-recipesData.plat.poisson_braise = {
-    country: "afrique",
-    countryName: "cameroun",
-    image: "images/poisson_braise.jpg",
-    fr: {
-        title: "Poisson braisé (Cameroun, 4 personnes)",
-        equipment: [
-            "1 grille ou barbecue",
-            "1 couteau",
-            "1 planche à découper",
-            "1 pince pour barbecue",
-            "1 bol"
-        ],
-        ingredients: [
-            "1 poisson entier de 800 g (tilapia ou capitaine)",
-            "2 tomates (200 g)",
-            "1 oignon (100 g)",
-            "2 gousses d’ail",
-            "2 cuillères à soupe huile de tournesol (30 ml)",
-            "Sel, poivre, paprika selon goût"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Écailler et nettoyer le poisson.\n" +
-            "2. Hacher oignon, ail et tomates.\n" +
-            "3. Faire une marinade avec huile, sel, poivre et paprika.\n" +
-            "4. Enduire le poisson de marinade.\n" +
-            "5. Griller sur barbecue ou grille chaude 15-20 min de chaque côté.\n" +
-            "6. Servir chaud avec bananes plantain ou manioc."
-    },
-    en: {
-        title: "Grilled Fish (Cameroon, Serves 4)",
-        equipment: [
-            "1 grill or barbecue",
-            "1 knife",
-            "1 cutting board",
-            "1 barbecue tongs",
-            "1 bowl"
-        ],
-        ingredients: [
-            "1 whole fish 800 g (tilapia or captain)",
-            "2 tomatoes (200 g)",
-            "1 onion (100 g)",
-            "2 garlic cloves",
-            "2 tbsp sunflower oil (30 ml)",
-            "Salt, pepper, paprika to taste"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Scale and clean fish.\n" +
-            "2. Chop onion, garlic, tomatoes.\n" +
-            "3. Make a marinade with oil, salt, pepper, and paprika.\n" +
-            "4. Coat fish with marinade.\n" +
-            "5. Grill on barbecue or hot grill 15-20 min per side.\n" +
-            "6. Serve hot with plantains or cassava."
-    },
-    nl: {
-        title: "Gegrilde Vis (Kameroen, voor 4 personen)",
-        equipment: [
-            "1 rooster of barbecue",
-            "1 mes",
-            "1 snijplank",
-            "1 barbecuetang",
-            "1 kom"
-        ],
-        ingredients: [
-            "1 hele vis 800 g (tilapia of capitaine)",
-            "2 tomaten (200 g)",
-            "1 ui (100 g)",
-            "2 teentjes knoflook",
-            "2 el zonnebloemolie (30 ml)",
-            "Zout, peper, paprika naar smaak"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Schub en reinig de vis.\n" +
-            "2. Hak ui, knoflook en tomaten.\n" +
-            "3. Maak marinade met olie, zout, peper en paprika.\n" +
-            "4. Bedek vis met marinade.\n" +
-            "5. Grill op barbecue of heet rooster 15-20 min per kant.\n" +
-            "6. Serveer warm met bakbanaan of cassave."
-    },
-    ar: {
-        title: "سمك مشوي (الكاميرون، تكفي 4 أشخاص)",
-        equipment: [
-            "1 شواية أو باربيكيو",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملقط للشواء",
-            "1 وعاء"
-        ],
-        ingredients: [
-            "1 سمكة كاملة 800 غ (تيلاپيا أو كابيتان)",
-            "2 طماطم (200 غ)",
-            "1 بصل (100 غ)",
-            "2 فص ثوم",
-            "2 ملعقة كبيرة زيت دوار الشمس (30 مل)",
-            "ملح، فلفل، فلفل حلو حسب الذوق"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. إزالة القشور وتنظيف السمك.\n" +
-            "2. فرم البصل والثوم والطماطم.\n" +
-            "3. إعداد تتبيلة بالزيت والملح والفلفل والفلفل الحلو.\n" +
-            "4. غطّ السمك بالتتبيلة.\n" +
-            "5. اشوي على الشواية أو شبكة ساخنة 15-20 دقيقة لكل جانب.\n" +
-            "6. قدمه ساخناً مع الموز المقلي أو الكسافا."
-    }
-};
+
+
+
+
+
+
+
+
+
+
 recipesData.dessert.beignet_banane = {
     country: "afrique",
     countryName: "cameroun",
