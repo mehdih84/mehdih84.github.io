@@ -49185,7 +49185,7 @@ recipesData.entree.mbongo_tchobi = {
 recipesData.plat.ndomba_boeuf = {
     country: "afrique",
     countryName: "Cameroun",
-    image: "images/ndomba_boeuf-cameroun.jpg",
+    image: "images/ndomba-boeuf-cameroun.jpg",
     meta: {
         servings: 4,
         prepTime: 15,
@@ -49611,7 +49611,7 @@ recipesData.plat.saka_saka_poulet = {
 recipesData.plat.mbongo_tchobi = {
     country: "afrique",
     countryName: "Cameroun",
-    image: "images/mbongo-tchobi-cameroun.jpg",
+    image: "images/mbongo_tchobi-cameroun.jpg",
     meta: {
         servings: 4,
         prepTime: 15,
@@ -49730,7 +49730,7 @@ recipesData.plat.mbongo_tchobi = {
 recipesData.plat.brochettes_boef = {
     country: "afrique",
     countryName: "Cameroun",
-    image: "images/brochettes-boeuf-cameroun.jpg",
+    image: "images/brochettes_boeuf-cameroun.jpg",
     meta: {
         servings: 4,
         prepTime: 15,
@@ -49739,7 +49739,7 @@ recipesData.plat.brochettes_boef = {
         marinationTime: 30
     },
     fr: {
-        title: "Brochettes de bœuf (Cameroun)",
+        title: "Brochettes de bœf (Cameroun)",
         equipment: [
             "1 grille ou barbecue",
             "1 couteau",
@@ -49882,7 +49882,7 @@ recipesData.plat.brochettes_boef = {
 recipesData.plat.eru_viande = {
     country: "afrique",
     countryName: "Cameroun",
-    image: "images/eru-viande-cameroun.jpg",
+    image: "images/eru_viande-cameroun.jpg",
     meta: {
         servings: 4,
         prepTime: 20,
