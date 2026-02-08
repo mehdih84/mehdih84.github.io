@@ -50598,10 +50598,16 @@ recipesData.plat.poulet_dg_cameroun = {
 
 recipesData.dessert.beignet_banane = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/beignet_banane.jpg",
+    countryName: "Cameroun",
+    image: "images/beignet_banane_cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Beignets à la banane (Cameroun, 4 personnes)",
+        title: "Beignets à la banane (Cameroun)",
         equipment: [
             "1 grand bol",
             "1 cuillère",
@@ -50621,7 +50627,6 @@ recipesData.dessert.beignet_banane = {
             "Huile de tournesol pour friture (environ 300 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Éplucher et écraser les bananes dans un grand bol.\n" +
             "2. Ajouter farine, sucre, levure et sel.\n" +
             "3. Mélanger en ajoutant progressivement le lait pour obtenir une pâte épaisse.\n" +
@@ -50632,7 +50637,7 @@ recipesData.dessert.beignet_banane = {
             "8. Servir tiède."
     },
     en: {
-        title: "Cameroonian Banana Fritters (Serves 4)",
+        title: "Banana Fritters (Cameroun)",
         equipment: [
             "1 large bowl",
             "1 spoon",
@@ -50652,7 +50657,6 @@ recipesData.dessert.beignet_banane = {
             "Sunflower oil for frying (approx. 300 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Peel and mash bananas in a large bowl.\n" +
             "2. Add flour, sugar, baking powder, and salt.\n" +
             "3. Mix while gradually adding milk to form a thick batter.\n" +
@@ -50663,7 +50667,7 @@ recipesData.dessert.beignet_banane = {
             "8. Serve warm."
     },
     nl: {
-        title: "Kameroense Bananenbeignets (voor 4 personen)",
+        title: "Bananenbeignets (Cameroun)",
         equipment: [
             "1 grote kom",
             "1 lepel",
@@ -50683,7 +50687,6 @@ recipesData.dessert.beignet_banane = {
             "Zonnebloemolie om te frituren (ongeveer 300 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Pel en prak de bananen in een grote kom.\n" +
             "2. Voeg bloem, suiker, bakpoeder en zout toe.\n" +
             "3. Meng terwijl je geleidelijk melk toevoegt tot een dik beslag.\n" +
@@ -50694,14 +50697,14 @@ recipesData.dessert.beignet_banane = {
             "8. Serveer warm."
     },
     ar: {
-        title: "فطائر الموز (الكاميرون، تكفي 4 أشخاص)",
+        title: "فطائر الموز (الكاميرون)",
         equipment: [
-            "1 وعاء كبير",
-            "1 ملعقة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 مقلاة",
-            "1 ملعقة مشقوقة",
+            "وعاء كبير",
+            "ملعقة",
+            "سكين",
+            "لوح تقطيع",
+            "مقلاة",
+            "ملعقة مشقوقة",
             "ورق مطبخ"
         ],
         ingredients: [
@@ -50714,7 +50717,6 @@ recipesData.dessert.beignet_banane = {
             "زيت دوار الشمس للقلي (حوالي 300 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قشّر واهرس الموز في وعاء كبير.\n" +
             "2. أضف الدقيق والسكر والبايكنغ بودر والملح.\n" +
             "3. اخلط مع إضافة الحليب تدريجياً لتكوين عجينة سميكة.\n" +
@@ -50722,15 +50724,21 @@ recipesData.dessert.beignet_banane = {
             "5. شكّل كرات صغيرة من العجين وضعها بلطف في الزيت.\n" +
             "6. اقلي 2-3 دقائق لكل جانب حتى تصبح ذهبية.\n" +
             "7. صفي على ورق مطبخ.\n" +
-            "8. قدمها دافئة."
+            "8. قدّمها دافئة."
     }
 };
 recipesData.dessert.achu_patate_douce = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/achu_patate_douce.jpg",
+    countryName: "Cameroun",
+    image: "images/achu_patate_douce_cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Achu de patate douce (Cameroun, 4 personnes)",
+        title: "Achu de patate douce (Cameroun)",
         equipment: [
             "1 casserole",
             "1 couteau",
@@ -50745,7 +50753,6 @@ recipesData.dessert.achu_patate_douce = {
             "1 pincée de sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Éplucher et couper les patates douces.\n" +
             "2. Faire bouillir dans une casserole d’eau salée 15-20 min jusqu’à tendreté.\n" +
             "3. Égoutter et écraser pour obtenir une purée lisse.\n" +
@@ -50754,7 +50761,7 @@ recipesData.dessert.achu_patate_douce = {
             "6. Servir chaud ou tiède."
     },
     en: {
-        title: "Cameroonian Sweet Potato Achu (Serves 4)",
+        title: "Sweet Potato Achu (Cameroun)",
         equipment: [
             "1 pot",
             "1 knife",
@@ -50769,7 +50776,6 @@ recipesData.dessert.achu_patate_douce = {
             "1 pinch salt"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Peel and cut sweet potatoes.\n" +
             "2. Boil in salted water 15-20 min until tender.\n" +
             "3. Drain and mash until smooth.\n" +
@@ -50778,7 +50784,7 @@ recipesData.dessert.achu_patate_douce = {
             "6. Serve warm or lukewarm."
     },
     nl: {
-        title: "Achu van Zoete Aardappel (Kameroen, voor 4 personen)",
+        title: "Achu van Zoete Aardappel (Cameroun)",
         equipment: [
             "1 pan",
             "1 mes",
@@ -50793,7 +50799,6 @@ recipesData.dessert.achu_patate_douce = {
             "1 snufje zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Schil en snijd de zoete aardappelen.\n" +
             "2. Kook in gezouten water 15-20 min tot zacht.\n" +
             "3. Giet af en pureer tot een gladde massa.\n" +
@@ -50802,13 +50807,13 @@ recipesData.dessert.achu_patate_douce = {
             "6. Serveer warm of lauwwarm."
     },
     ar: {
-        title: "أشو البطاطا الحلوة (الكاميرون، تكفي 4 أشخاص)",
+        title: "أشو البطاطا الحلوة (الكاميرون)",
         equipment: [
-            "1 قدر",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية",
-            "1 وعاء"
+            "قدر",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء"
         ],
         ingredients: [
             "500 غ بطاطا حلوة",
@@ -50817,7 +50822,6 @@ recipesData.dessert.achu_patate_douce = {
             "رشة ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قشّر وقطع البطاطا الحلوة.\n" +
             "2. اغلي في ماء مملح 15-20 دقيقة حتى تصبح طرية.\n" +
             "3. صفي واهرس للحصول على خليط ناعم.\n" +
@@ -50828,10 +50832,16 @@ recipesData.dessert.achu_patate_douce = {
 };
 recipesData.dessert.koki_mais = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/koki_mais.jpg",
+    countryName: "Cameroun",
+    image: "images/koki_mais_cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 40,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Koki au maïs (Cameroun, 4 personnes)",
+        title: "Koki au maïs (Cameroun)",
         equipment: [
             "1 casserole",
             "1 bol",
@@ -50849,7 +50859,6 @@ recipesData.dessert.koki_mais = {
             "Sel et poivre selon goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Mixer le maïs pour obtenir une pâte.\n" +
             "2. Hacher l’oignon et l’ail finement.\n" +
             "3. Mélanger maïs, farine, oignon, ail, sel et poivre.\n" +
@@ -50859,7 +50868,7 @@ recipesData.dessert.koki_mais = {
             "7. Servir tiède."
     },
     en: {
-        title: "Cameroonian Corn Koki (Serves 4)",
+        title: "Corn Koki (Cameroun)",
         equipment: [
             "1 pot",
             "1 bowl",
@@ -50877,7 +50886,6 @@ recipesData.dessert.koki_mais = {
             "Salt and pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Blend corn to form a paste.\n" +
             "2. Chop onion and garlic finely.\n" +
             "3. Mix corn paste, flour, onion, garlic, salt, and pepper.\n" +
@@ -50887,7 +50895,7 @@ recipesData.dessert.koki_mais = {
             "7. Serve warm."
     },
     nl: {
-        title: "Koki van Maïs (Kameroen, voor 4 personen)",
+        title: "Koki van Maïs (Cameroun)",
         equipment: [
             "1 pan",
             "1 kom",
@@ -50905,7 +50913,6 @@ recipesData.dessert.koki_mais = {
             "Zout en peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Maal de maïs tot een pasta.\n" +
             "2. Hak ui en knoflook fijn.\n" +
             "3. Meng maïspasta, meel, ui, knoflook, zout en peper.\n" +
@@ -50915,14 +50922,14 @@ recipesData.dessert.koki_mais = {
             "7. Serveer warm."
     },
     ar: {
-        title: "كوكي الذرة (الكاميرون، تكفي 4 أشخاص)",
+        title: "كوكي الذرة (الكاميرون)",
         equipment: [
-            "1 قدر",
-            "1 وعاء",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة",
-            "1 قالب للبخار"
+            "قدر",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة",
+            "قالب للبخار"
         ],
         ingredients: [
             "200 غ حبوب الذرة الطازجة",
@@ -50933,139 +50940,27 @@ recipesData.dessert.koki_mais = {
             "ملح وفلفل حسب الذوق"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اطحن الذرة للحصول على عجينة.\n" +
             "2. فرم البصل والثوم ناعماً.\n" +
             "3. اخلط الذرة مع الدقيق والبصل والثوم والملح والفلفل.\n" +
             "4. صبّ في قالب مدهون بالزيت.\n" +
-            "5. اطهي على البخار 40 دقيقة.\n" +
-            "6. دعها تبرد قليلاً قبل إخراجها من القالب.\n" +
-            "7. قدمها دافئة."
-    }
-};
-recipesData.dessert.koki_mais = {
-    country: "afrique",
-    countryName: "cameroun",
-    image: "images/koki_mais.jpg",
-    fr: {
-        title: "Koki au maïs (Cameroun, 4 personnes)",
-        equipment: [
-            "1 casserole",
-            "1 bol",
-            "1 couteau",
-            "1 planche à découper",
-            "1 cuillère",
-            "1 moule à vapeur"
-        ],
-        ingredients: [
-            "200 g grains de maïs frais",
-            "50 g farine de maïs",
-            "1 oignon (100 g)",
-            "1 gousse d’ail",
-            "50 ml huile de palme",
-            "Sel et poivre selon goût"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mixer le maïs pour obtenir une pâte.\n" +
-            "2. Hacher l’oignon et l’ail finement.\n" +
-            "3. Mélanger maïs, farine, oignon, ail, sel et poivre.\n" +
-            "4. Verser dans un moule graissé.\n" +
-            "5. Cuire à la vapeur 40 min.\n" +
-            "6. Laisser refroidir légèrement avant de démouler.\n" +
-            "7. Servir tiède."
-    },
-    en: {
-        title: "Cameroonian Corn Koki (Serves 4)",
-        equipment: [
-            "1 pot",
-            "1 bowl",
-            "1 knife",
-            "1 cutting board",
-            "1 spoon",
-            "1 steaming mold"
-        ],
-        ingredients: [
-            "200 g fresh corn kernels",
-            "50 g corn flour",
-            "1 onion (100 g)",
-            "1 garlic clove",
-            "50 ml palm oil",
-            "Salt and pepper to taste"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Blend corn to form a paste.\n" +
-            "2. Chop onion and garlic finely.\n" +
-            "3. Mix corn paste, flour, onion, garlic, salt, and pepper.\n" +
-            "4. Pour into greased mold.\n" +
-            "5. Steam 40 min.\n" +
-            "6. Let cool slightly before unmolding.\n" +
-            "7. Serve warm."
-    },
-    nl: {
-        title: "Koki van Maïs (Kameroen, voor 4 personen)",
-        equipment: [
-            "1 pan",
-            "1 kom",
-            "1 mes",
-            "1 snijplank",
-            "1 lepel",
-            "1 stoomvorm"
-        ],
-        ingredients: [
-            "200 g verse maïskorrels",
-            "50 g maïsmeel",
-            "1 ui (100 g)",
-            "1 teentje knoflook",
-            "50 ml palmpitolie",
-            "Zout en peper naar smaak"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Maal de maïs tot een pasta.\n" +
-            "2. Hak ui en knoflook fijn.\n" +
-            "3. Meng maïspasta, meel, ui, knoflook, zout en peper.\n" +
-            "4. Giet in ingevette vorm.\n" +
-            "5. Stoom 40 min.\n" +
-            "6. Laat iets afkoelen voor het uit de vorm halen.\n" +
-            "7. Serveer warm."
-    },
-    ar: {
-        title: "كوكي الذرة (الكاميرون، تكفي 4 أشخاص)",
-        equipment: [
-            "1 قدر",
-            "1 وعاء",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة",
-            "1 قالب للبخار"
-        ],
-        ingredients: [
-            "200 غ حبوب الذرة الطازجة",
-            "50 غ دقيق الذرة",
-            "1 بصل (100 غ)",
-            "1 فص ثوم",
-            "50 مل زيت النخيل",
-            "ملح وفلفل حسب الذوق"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اطحن الذرة للحصول على عجينة.\n" +
-            "2. فرم البصل والثوم ناعماً.\n" +
-            "3. اخلط الذرة مع الدقيق والبصل والثوم والملح والفلفل.\n" +
-            "4. صبّ في قالب مدهون بالزيت.\n" +
-            "5. اطهي على البخار 40 دقيقة.\n" +
+            "5. اطهُ على البخار 40 دقيقة.\n" +
             "6. دعها تبرد قليلاً قبل إخراجها من القالب.\n" +
             "7. قدمها دافئة."
     }
 };
 recipesData.dessert.achu_sucre = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/achu_sucre.jpg",
+    countryName: "Cameroun",
+    image: "images/achu_sucre_cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Achu sucré (Cameroun, 4 personnes)",
+        title: "Achu sucré (Cameroun)",
         equipment: [
             "1 casserole",
             "1 bol",
@@ -51080,7 +50975,6 @@ recipesData.dessert.achu_sucre = {
             "1 pincée de sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Laver et râper le manioc.\n" +
             "2. Placer dans une casserole avec un peu d’eau et une pincée de sel.\n" +
             "3. Cuire à feu moyen 20 min en remuant.\n" +
@@ -51090,7 +50984,7 @@ recipesData.dessert.achu_sucre = {
             "7. Servir dans un bol."
     },
     en: {
-        title: "Sweet Achu (Cameroon, Serves 4)",
+        title: "Sweet Achu (Cameroun)",
         equipment: [
             "1 pot",
             "1 bowl",
@@ -51105,7 +50999,6 @@ recipesData.dessert.achu_sucre = {
             "1 pinch salt"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Wash and grate cassava.\n" +
             "2. Place in pot with a little water and a pinch of salt.\n" +
             "3. Cook over medium heat for 20 min, stirring.\n" +
@@ -51115,7 +51008,7 @@ recipesData.dessert.achu_sucre = {
             "7. Serve in a bowl."
     },
     nl: {
-        title: "Zoete Achu (Kameroen, voor 4 personen)",
+        title: "Zoete Achu (Cameroun)",
         equipment: [
             "1 pan",
             "1 kom",
@@ -51130,7 +51023,6 @@ recipesData.dessert.achu_sucre = {
             "1 snufje zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Was en rasp de cassave.\n" +
             "2. Doe in pan met wat water en een snufje zout.\n" +
             "3. Kook 20 min op middelhoog vuur, roer af en toe.\n" +
@@ -51140,13 +51032,13 @@ recipesData.dessert.achu_sucre = {
             "7. Serveer in een kom."
     },
     ar: {
-        title: "أشو حلو (الكاميرون، تكفي 4 أشخاص)",
+        title: "أشو حلو (الكاميرون)",
         equipment: [
-            "1 قدر",
-            "1 وعاء",
-            "1 ملعقة خشبية",
-            "1 لوح تقطيع",
-            "1 سكين"
+            "قدر",
+            "وعاء",
+            "ملعقة خشبية",
+            "لوح تقطيع",
+            "سكين"
         ],
         ingredients: [
             "300 غ كاساف مبشور",
@@ -51155,7 +51047,6 @@ recipesData.dessert.achu_sucre = {
             "رشة ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اغسل وابشر الكاساف.\n" +
             "2. ضعها في قدر مع قليل من الماء ورشة ملح.\n" +
             "3. اطه على نار متوسطة 20 دقيقة مع التحريك.\n" +
@@ -51167,10 +51058,16 @@ recipesData.dessert.achu_sucre = {
 };
 recipesData.dessert.mbongo_sucre = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/mbongo_sucre.jpg",
+    countryName: "Cameroun",
+    image: "images/mbongo_sucre_cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 5,
+        cookTime: 10,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Mbongo Tchobi sucré (Cameroun, 4 personnes)",
+        title: "Mbongo Tchobi sucré (Cameroun)",
         equipment: [
             "1 casserole",
             "1 bol",
@@ -51184,7 +51081,6 @@ recipesData.dessert.mbongo_sucre = {
             "30 g noix de coco râpée"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Mélanger le lait de coco avec le sucre et le cacao.\n" +
             "2. Chauffer doucement à feu moyen en remuant.\n" +
             "3. Ajouter la noix de coco râpée.\n" +
@@ -51193,7 +51089,7 @@ recipesData.dessert.mbongo_sucre = {
             "6. Laisser refroidir et servir."
     },
     en: {
-        title: "Sweet Mbongo Tchobi (Cameroon, Serves 4)",
+        title: "Sweet Mbongo Tchobi (Cameroun)",
         equipment: [
             "1 pot",
             "1 bowl",
@@ -51207,7 +51103,6 @@ recipesData.dessert.mbongo_sucre = {
             "30 g grated coconut"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Mix coconut milk with sugar and cocoa.\n" +
             "2. Heat gently over medium heat while stirring.\n" +
             "3. Add grated coconut.\n" +
@@ -51216,7 +51111,7 @@ recipesData.dessert.mbongo_sucre = {
             "6. Let cool and serve."
     },
     nl: {
-        title: "Zoete Mbongo Tchobi (Kameroen, voor 4 personen)",
+        title: "Zoete Mbongo Tchobi (Cameroun)",
         equipment: [
             "1 pan",
             "1 kom",
@@ -51230,7 +51125,6 @@ recipesData.dessert.mbongo_sucre = {
             "30 g geraspte kokos"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Meng kokosmelk met suiker en cacao.\n" +
             "2. Verwarm zachtjes op middelhoog vuur onder voortdurend roeren.\n" +
             "3. Voeg geraspte kokos toe.\n" +
@@ -51239,12 +51133,12 @@ recipesData.dessert.mbongo_sucre = {
             "6. Laat afkoelen en serveer."
     },
     ar: {
-        title: "مبونغو تشوبي حلو (الكاميرون، تكفي 4 أشخاص)",
+        title: "مبونغو تشوبي حلو (الكاميرون)",
         equipment: [
-            "1 قدر",
-            "1 وعاء",
-            "1 ملعقة خشبية",
-            "1 مضرب"
+            "قدر",
+            "وعاء",
+            "ملعقة خشبية",
+            "مضرب"
         ],
         ingredients: [
             "200 مل حليب جوز الهند",
@@ -51253,7 +51147,6 @@ recipesData.dessert.mbongo_sucre = {
             "30 غ جوز الهند مبشور"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اخلط حليب جوز الهند مع السكر والكاكاو.\n" +
             "2. سخن على نار متوسطة مع التحريك.\n" +
             "3. أضف جوز الهند المبشور.\n" +
@@ -51264,10 +51157,16 @@ recipesData.dessert.mbongo_sucre = {
 };
 recipesData.dessert.pain_singe = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/pain_singe.jpg",
+    countryName: "Cameroun",
+    image: "images/pain_singe_cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 5,
+        cookTime: 10,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Pain de singe sucré (Cameroun, 4 personnes)",
+        title: "Pain de singe sucré (Cameroun)",
         equipment: [
             "1 poêle",
             "1 couteau",
@@ -51281,7 +51180,6 @@ recipesData.dessert.pain_singe = {
             "50 ml huile de tournesol"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Éplucher et couper les bananes en rondelles.\n" +
             "2. Chauffer l’huile dans la poêle.\n" +
             "3. Saupoudrer de sucre les rondelles de banane.\n" +
@@ -51290,7 +51188,7 @@ recipesData.dessert.pain_singe = {
             "6. Servir chaud."
     },
     en: {
-        title: "Sweet Monkey Bread (Cameroon, Serves 4)",
+        title: "Sweet Monkey Bread (Cameroun)",
         equipment: [
             "1 pan",
             "1 knife",
@@ -51304,7 +51202,6 @@ recipesData.dessert.pain_singe = {
             "50 ml sunflower oil"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Peel and slice plantains.\n" +
             "2. Heat oil in pan.\n" +
             "3. Sprinkle sugar on plantain slices.\n" +
@@ -51313,7 +51210,7 @@ recipesData.dessert.pain_singe = {
             "6. Serve warm."
     },
     nl: {
-        title: "Zoet Apenbrood (Kameroen, voor 4 personen)",
+        title: "Zoet Apenbrood (Cameroun)",
         equipment: [
             "1 pan",
             "1 mes",
@@ -51327,7 +51224,6 @@ recipesData.dessert.pain_singe = {
             "50 ml zonnebloemolie"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Pel en snijd de bananen.\n" +
             "2. Verhit olie in pan.\n" +
             "3. Bestrooi bananen met suiker.\n" +
@@ -51336,13 +51232,13 @@ recipesData.dessert.pain_singe = {
             "6. Serveer warm."
     },
     ar: {
-        title: "خبز القرد الحلو (الكاميرون، تكفي 4 أشخاص)",
+        title: "خبز القرد الحلو (الكاميرون)",
         equipment: [
-            "1 مقلاة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة مسطحة",
-            "1 طبق مع ورق مطبخ"
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة مسطحة",
+            "طبق مع ورق مطبخ"
         ],
         ingredients: [
             "3 موزات بلانتان ناضجة (300 غ)",
@@ -51350,7 +51246,6 @@ recipesData.dessert.pain_singe = {
             "50 مل زيت دوار الشمس"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قشر وقطع الموز.\n" +
             "2. سخن الزيت في المقلاة.\n" +
             "3. رش السكر على شرائح الموز.\n" +
@@ -51361,10 +51256,16 @@ recipesData.dessert.pain_singe = {
 };
 recipesData.dessert.beignets_patate_douce = {
     country: "afrique",
-    countryName: "cameroun",
-    image: "images/beignets_patate_douce.jpg",
+    countryName: "Cameroun",
+    image: "images/beignets_patate_douce_cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Beignets de patate douce (Cameroun, 4 personnes)",
+        title: "Beignets de patate douce (Cameroun)",
         equipment: [
             "1 casserole",
             "1 bol",
@@ -51381,7 +51282,6 @@ recipesData.dessert.beignets_patate_douce = {
             "Huile de tournesol pour friture (environ 300 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Éplucher et couper la patate douce en cubes.\n" +
             "2. Cuire à la vapeur 15 min jusqu’à tendreté.\n" +
             "3. Écraser et mélanger avec farine, sucre, sel et lait.\n" +
@@ -51391,7 +51291,7 @@ recipesData.dessert.beignets_patate_douce = {
             "7. Servir tiède."
     },
     en: {
-        title: "Sweet Potato Fritters (Cameroon, Serves 4)",
+        title: "Sweet Potato Fritters (Cameroun)",
         equipment: [
             "1 pot",
             "1 bowl",
@@ -51408,7 +51308,6 @@ recipesData.dessert.beignets_patate_douce = {
             "Sunflower oil for frying (approx. 300 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Peel and cut sweet potato into cubes.\n" +
             "2. Steam 15 min until tender.\n" +
             "3. Mash and mix with flour, sugar, salt, and milk.\n" +
@@ -51418,7 +51317,7 @@ recipesData.dessert.beignets_patate_douce = {
             "7. Serve warm."
     },
     nl: {
-        title: "Zoete aardappelbeignets (Kameroen, voor 4 personen)",
+        title: "Zoete aardappelbeignets (Cameroun)",
         equipment: [
             "1 pan",
             "1 kom",
@@ -51435,7 +51334,6 @@ recipesData.dessert.beignets_patate_douce = {
             "Zonnebloemolie om te frituren (ca. 300 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Pel en snijd de zoete aardappel in blokjes.\n" +
             "2. Stoom 15 min tot zacht.\n" +
             "3. Prak en meng met bloem, suiker, zout en melk.\n" +
@@ -51445,13 +51343,13 @@ recipesData.dessert.beignets_patate_douce = {
             "7. Serveer warm."
     },
     ar: {
-        title: "فطائر البطاطا الحلوة (الكاميرون، تكفي 4 أشخاص)",
+        title: "فطائر البطاطا الحلوة (الكاميرون)",
         equipment: [
-            "1 قدر",
-            "1 وعاء",
-            "1 ملعقة",
-            "1 ملعقة مشقوقة",
-            "1 طبق مع ورق مطبخ"
+            "قدر",
+            "وعاء",
+            "ملعقة",
+            "ملعقة مشقوقة",
+            "طبق مع ورق مطبخ"
         ],
         ingredients: [
             "300 غ بطاطا حلوة",
@@ -51462,7 +51360,6 @@ recipesData.dessert.beignets_patate_douce = {
             "زيت دوار الشمس للقلي (حوالي 300 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قشر وقطع البطاطا إلى مكعبات.\n" +
             "2. اطه على البخار 15 دقيقة حتى تصبح طرية.\n" +
             "3. اهرس واخلط مع الدقيق، السكر، الملح والحليب.\n" +
@@ -51472,13 +51369,18 @@ recipesData.dessert.beignets_patate_douce = {
             "7. قدم دافئاً."
     }
 };
-
 recipesData.dessert.beignets_banane_cameroun = {
     country: "afrique",
-    countryName: "cameroun",
+    countryName: "Cameroun",
     image: "images/beignets_banane_cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Beignets de banane (Cameroun, 4 personnes)",
+        title: "Beignets de banane (Cameroun)",
         equipment: [
             "1 bol",
             "1 fouet",
@@ -51500,7 +51402,6 @@ recipesData.dessert.beignets_banane_cameroun = {
             "Huile de tournesol pour friture (environ 500 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Écraser les bananes dans un bol jusqu'à obtenir une purée lisse.\n" +
             "2. Ajouter le sucre, sel, levure chimique et farine. Mélanger.\n" +
             "3. Ajouter le lait et la vanille, mélanger jusqu'à obtention d'une pâte homogène.\n" +
@@ -51511,7 +51412,7 @@ recipesData.dessert.beignets_banane_cameroun = {
             "8. Servir tiède ou à température ambiante."
     },
     en: {
-        title: "Banana Fritters (Cameroon, Serves 4)",
+        title: "Banana Fritters (Cameroun)",
         equipment: [
             "1 bowl",
             "1 whisk",
@@ -51533,7 +51434,6 @@ recipesData.dessert.beignets_banane_cameroun = {
             "Sunflower oil for frying (approx. 500 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Mash the bananas in a bowl until smooth.\n" +
             "2. Add sugar, salt, baking powder, and flour. Mix.\n" +
             "3. Add milk and vanilla, mix until smooth batter forms.\n" +
@@ -51544,7 +51444,7 @@ recipesData.dessert.beignets_banane_cameroun = {
             "8. Serve warm or at room temperature."
     },
     nl: {
-        title: "Bananenbeignets (Kameroen, voor 4 personen)",
+        title: "Bananenbeignets (Cameroun)",
         equipment: [
             "1 kom",
             "1 garde",
@@ -51566,7 +51466,6 @@ recipesData.dessert.beignets_banane_cameroun = {
             "Zonnebloemolie voor frituren (ongeveer 500 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Prak de bananen in een kom tot een gladde puree.\n" +
             "2. Voeg suiker, zout, bakpoeder en bloem toe. Meng.\n" +
             "3. Voeg melk en vanille toe, meng tot een homogeen beslag.\n" +
@@ -51577,16 +51476,16 @@ recipesData.dessert.beignets_banane_cameroun = {
             "8. Serveer warm of op kamertemperatuur."
     },
     ar: {
-        title: "فطائر الموز (الكاميرون، تكفي 4 أشخاص)",
+        title: "فطائر الموز (الكاميرون)",
         equipment: [
-            "1 وعاء",
-            "1 خفاقة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 مقلاة عميقة",
-            "1 ملعقة خشبية",
-            "1 ملعقة مشقوقة",
-            "1 ميزان مطبخ"
+            "وعاء",
+            "خفاقة",
+            "سكين",
+            "لوح تقطيع",
+            "مقلاة عميقة",
+            "ملعقة خشبية",
+            "ملعقة مشقوقة",
+            "ميزان مطبخ"
         ],
         ingredients: [
             "3 موز ناضج (300 غ)، مقشر ومهروس",
@@ -51599,7 +51498,6 @@ recipesData.dessert.beignets_banane_cameroun = {
             "زيت دوار الشمس للقلي (حوالي 500 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اهرس الموز في وعاء حتى يصبح ناعماً.\n" +
             "2. أضف السكر، الملح، الخميرة والدقيق. اخلط.\n" +
             "3. أضف الحليب والفانيليا، اخلط حتى يتكون خليط متجانس.\n" +
@@ -51612,10 +51510,16 @@ recipesData.dessert.beignets_banane_cameroun = {
 };
 recipesData.patisserie.cake_manioc_cameroun = {
     country: "afrique",
-    countryName: "cameroun",
+    countryName: "Cameroun",
     image: "images/cake_manioc_cameroun.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Cake au manioc (Cameroun, 4 personnes)",
+        title: "Cake au manioc (Cameroun)",
         equipment: [
             "1 grand bol",
             "1 fouet",
@@ -51635,7 +51539,6 @@ recipesData.patisserie.cake_manioc_cameroun = {
             "1 cuillère à café vanille (5 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Dans un bol, battre les œufs avec le sucre jusqu’à ce que le mélange blanchisse.\n" +
             "3. Ajouter le beurre fondu et la vanille, mélanger.\n" +
@@ -51646,7 +51549,7 @@ recipesData.patisserie.cake_manioc_cameroun = {
             "8. Laisser refroidir 10 min avant de démouler et servir."
     },
     en: {
-        title: "Cassava Cake (Cameroon, Serves 4)",
+        title: "Cassava Cake (Cameroun)",
         equipment: [
             "1 large bowl",
             "1 whisk",
@@ -51666,7 +51569,6 @@ recipesData.patisserie.cake_manioc_cameroun = {
             "1 tsp vanilla (5 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. In a bowl, beat eggs with sugar until pale.\n" +
             "3. Add melted butter and vanilla, mix.\n" +
@@ -51677,7 +51579,7 @@ recipesData.patisserie.cake_manioc_cameroun = {
             "8. Let cool 10 min before removing from pan and serving."
     },
     nl: {
-        title: "Cassave Cake (Kameroen, voor 4 personen)",
+        title: "Cassave Cake (Cameroun)",
         equipment: [
             "1 grote kom",
             "1 garde",
@@ -51697,7 +51599,6 @@ recipesData.patisserie.cake_manioc_cameroun = {
             "1 tl vanille (5 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
             "2. Klop in een kom de eieren met suiker tot het mengsel bleek wordt.\n" +
             "3. Voeg gesmolten boter en vanille toe, meng.\n" +
@@ -51708,14 +51609,14 @@ recipesData.patisserie.cake_manioc_cameroun = {
             "8. Laat 10 min afkoelen voor het uit de vorm halen en serveren."
     },
     ar: {
-        title: "كيك الكسافا (الكاميرون، تكفي 4 أشخاص)",
+        title: "كيك الكسافا (الكاميرون)",
         equipment: [
-            "1 وعاء كبير",
-            "1 خفاقة",
-            "1 قالب كيك",
-            "1 ملعقة خشبية",
-            "1 ميزان مطبخ",
-            "1 فرن"
+            "وعاء كبير",
+            "خفاقة",
+            "قالب كيك",
+            "ملعقة خشبية",
+            "ميزان مطبخ",
+            "فرن"
         ],
         ingredients: [
             "200 غ دقيق الكسافا",
@@ -51728,7 +51629,6 @@ recipesData.patisserie.cake_manioc_cameroun = {
             "1 ملعقة صغيرة فانيليا (5 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخّن الفرن على 180°C.\n" +
             "2. في وعاء، اخفق البيض مع السكر حتى يصبح الخليط شاحب اللون.\n" +
             "3. أضف الزبدة المذابة والفانيليا، وامزج.\n" +
@@ -51739,6 +51639,22 @@ recipesData.patisserie.cake_manioc_cameroun = {
             "8. اتركه يبرد 10 دقائق قبل إخراجه من القالب وتقديمه."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 recipesData.entree.gazpacho_espagne = {
     country: "europe",
     countryName: "espagne",
