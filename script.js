@@ -44208,42 +44208,18 @@ recipesData.dessert.baklawa = {
             "11. اتركها تبرد 15 دقيقة قبل التقديم."
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 recipesData.dessert.zlabia = {
     country: "afrique",
-    countryName: "tunisie",
-    image: "images/zlabia.jpg",
+    countryName: "Tunisie",
+    image: "images/zlabia-tunisie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Zlabia (Tunisie, 4 personnes)",
+        title: "Zlabia (Tunisie)",
         equipment: [
             "1 casserole pour friture",
             "1 cuillère",
@@ -44262,7 +44238,6 @@ recipesData.dessert.zlabia = {
             "50 ml miel liquide"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Mélanger la farine, la levure chimique et le sel dans un bol.\n" +
             "2. Ajouter l’eau tiède petit à petit et mélanger pour obtenir une pâte lisse.\n" +
             "3. Ajouter l’eau de fleur d’oranger et bien mélanger.\n" +
@@ -44274,7 +44249,7 @@ recipesData.dessert.zlabia = {
             "9. Servir tiède."
     },
     en: {
-        title: "Zlabia (Tunisian, Serves 4)",
+        title: "Zlabia (Tunisie)",
         equipment: [
             "1 frying pan",
             "1 spoon",
@@ -44293,7 +44268,6 @@ recipesData.dessert.zlabia = {
             "50 ml liquid honey"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Mix flour, baking powder, and salt in a bowl.\n" +
             "2. Add warm water gradually and mix to a smooth batter.\n" +
             "3. Add orange blossom water and mix well.\n" +
@@ -44305,7 +44279,7 @@ recipesData.dessert.zlabia = {
             "9. Serve warm."
     },
     nl: {
-        title: "Zlabia (Tunesië, voor 4 personen)",
+        title: "Zlabia (Tunisie)",
         equipment: [
             "1 pan om te frituren",
             "1 lepel",
@@ -44324,7 +44298,6 @@ recipesData.dessert.zlabia = {
             "50 ml vloeibare honing"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Meng bloem, bakpoeder en zout in een kom.\n" +
             "2. Voeg beetje bij beetje warm water toe tot een glad beslag.\n" +
             "3. Voeg oranjebloesemwater toe en meng goed.\n" +
@@ -44336,7 +44309,7 @@ recipesData.dessert.zlabia = {
             "9. Serveer warm."
     },
     ar: {
-        title: "زلابية (تونس، تكفي 4 أشخاص)",
+        title: "زلابية (تونس)",
         equipment: [
             "1 قدر للقلي",
             "1 ملعقة",
@@ -44355,7 +44328,6 @@ recipesData.dessert.zlabia = {
             "50 مل عسل سائل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اخلط الدقيق والخميرة والملح في وعاء.\n" +
             "2. أضف الماء الدافئ تدريجياً وامزج للحصول على خليط ناعم.\n" +
             "3. أضف ماء الزهر وامزج جيداً.\n" +
@@ -44369,10 +44341,16 @@ recipesData.dessert.zlabia = {
 };
 recipesData.dessert.assida = {
     country: "afrique",
-    countryName: "tunisie",
-    image: "images/assida.jpg",
+    countryName: "Tunisie",
+    image: "images/assida-tunisie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Assida (Tunisie, 4 personnes)",
+        title: "Assida (Tunisie)",
         equipment: [
             "1 casserole moyenne",
             "1 cuillère en bois",
@@ -44388,7 +44366,6 @@ recipesData.dessert.assida = {
             "50 ml miel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Verser le lait dans la casserole et chauffer à feu moyen.\n" +
             "2. Ajouter le sucre et remuer jusqu’à dissolution.\n" +
             "3. Ajouter la semoule petit à petit en remuant constamment pour éviter les grumeaux.\n" +
@@ -44399,7 +44376,7 @@ recipesData.dessert.assida = {
             "8. Servir tiède."
     },
     en: {
-        title: "Assida (Tunisian Semolina Pudding, Serves 4)",
+        title: "Assida (Tunisie)",
         equipment: [
             "1 medium saucepan",
             "1 wooden spoon",
@@ -44415,7 +44392,6 @@ recipesData.dessert.assida = {
             "50 ml honey"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Pour milk into saucepan and heat over medium heat.\n" +
             "2. Add sugar and stir until dissolved.\n" +
             "3. Gradually add semolina, stirring constantly to avoid lumps.\n" +
@@ -44426,7 +44402,7 @@ recipesData.dessert.assida = {
             "8. Serve warm."
     },
     nl: {
-        title: "Assida (Tunesisch, voor 4 personen)",
+        title: "Assida (Tunisie)",
         equipment: [
             "1 middelgrote pan",
             "1 houten lepel",
@@ -44442,7 +44418,6 @@ recipesData.dessert.assida = {
             "50 ml honing"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Giet melk in pan en verwarm op middelhoog vuur.\n" +
             "2. Voeg suiker toe en roer tot opgelost.\n" +
             "3. Voeg geleidelijk griesmeel toe, goed roeren om klonten te voorkomen.\n" +
@@ -44453,7 +44428,7 @@ recipesData.dessert.assida = {
             "8. Serveer warm."
     },
     ar: {
-        title: "عصيدة (تونس، تكفي 4 أشخاص)",
+        title: "عصيدة (تونس)",
         equipment: [
             "1 قدر متوسط",
             "1 ملعقة خشبية",
@@ -44469,7 +44444,6 @@ recipesData.dessert.assida = {
             "50 مل عسل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. صب الحليب في القدر وسخنه على نار متوسطة.\n" +
             "2. أضف السكر وحرك حتى يذوب.\n" +
             "3. أضف السميد تدريجياً مع التحريك المستمر لتجنب التكتل.\n" +
@@ -44480,13 +44454,18 @@ recipesData.dessert.assida = {
             "8. قدمه دافئاً."
     }
 };
-
 recipesData.dessert.griwech = {
     country: "afrique",
-    countryName: "tunisie",
-    image: "images/griwech.jpg",
+    countryName: "Tunisie",
+    image: "images/griwech-tunisie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Griwech (Tunisie, 4 personnes)",
+        title: "Griwech (Tunisie)",
         equipment: [
             "1 bol",
             "1 rouleau à pâtisserie",
@@ -44508,7 +44487,6 @@ recipesData.dessert.griwech = {
             "1 cuillère à soupe graines de sésame"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Mélanger farine, sucre et sel dans un bol.\n" +
             "2. Ajouter beurre fondu, œuf et lait tiède. Pétrir jusqu’à obtenir une pâte souple.\n" +
             "3. Diviser la pâte en petites portions et former des boudins.\n" +
@@ -44520,7 +44498,7 @@ recipesData.dessert.griwech = {
             "9. Laisser refroidir avant de servir."
     },
     en: {
-        title: "Griwech (Tunisian, Serves 4)",
+        title: "Griwech (Tunisie)",
         equipment: [
             "1 bowl",
             "1 rolling pin",
@@ -44542,7 +44520,6 @@ recipesData.dessert.griwech = {
             "1 tbsp sesame seeds"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Mix flour, sugar, and salt in a bowl.\n" +
             "2. Add melted butter, egg, and warm milk. Knead until smooth dough.\n" +
             "3. Divide dough into small portions and form rolls.\n" +
@@ -44554,7 +44531,7 @@ recipesData.dessert.griwech = {
             "9. Let cool before serving."
     },
     nl: {
-        title: "Griwech (Tunesië, voor 4 personen)",
+        title: "Griwech (Tunisie)",
         equipment: [
             "1 kom",
             "1 deegroller",
@@ -44576,7 +44553,6 @@ recipesData.dessert.griwech = {
             "1 el sesamzaad"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Meng bloem, suiker en zout in een kom.\n" +
             "2. Voeg gesmolten boter, ei en warme melk toe. Kneed tot een soepel deeg.\n" +
             "3. Verdeel deeg in kleine porties en vorm rollen.\n" +
@@ -44588,7 +44564,7 @@ recipesData.dessert.griwech = {
             "9. Laat afkoelen voor serveren."
     },
     ar: {
-        title: "قريوش (تونس، تكفي 4 أشخاص)",
+        title: "قريوش (تونس)",
         equipment: [
             "1 وعاء",
             "1 نشابة",
@@ -44610,7 +44586,6 @@ recipesData.dessert.griwech = {
             "1 ملعقة كبيرة سمسم"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اخلط الدقيق والسكر والملح في وعاء.\n" +
             "2. أضف الزبدة المذابة والبيضة والحليب الدافئ. اعجن حتى تحصل على عجينة ناعمة.\n" +
             "3. قسم العجينة إلى كرات صغيرة وشكلها إلى أسطوانات.\n" +
@@ -44624,10 +44599,16 @@ recipesData.dessert.griwech = {
 };
 recipesData.dessert.kaak_warka = {
     country: "afrique",
-    countryName: "tunisie",
-    image: "images/kaak_warka.jpg",
+    countryName: "Tunisie",
+    image: "images/kaak_warka-tunisie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Kaak Warka (Tunisie, 4 personnes)",
+        title: "Kaak Warka (Tunisie)",
         equipment: [
             "1 plat allant au four",
             "1 rouleau à pâtisserie",
@@ -44645,7 +44626,6 @@ recipesData.dessert.kaak_warka = {
             "50 ml miel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Mélanger les amandes moulues, le sucre et la cannelle dans un bol.\n" +
             "3. Étaler la pâte feuilletée et couper en rectangles.\n" +
@@ -44657,7 +44637,7 @@ recipesData.dessert.kaak_warka = {
             "9. Laisser refroidir avant de servir."
     },
     en: {
-        title: "Kaak Warka (Tunisian, Serves 4)",
+        title: "Kaak Warka (Tunisie)",
         equipment: [
             "1 baking dish",
             "1 rolling pin",
@@ -44675,7 +44655,6 @@ recipesData.dessert.kaak_warka = {
             "50 ml honey"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. Mix ground almonds, sugar, and cinnamon in a bowl.\n" +
             "3. Roll out puff pastry and cut into rectangles.\n" +
@@ -44687,7 +44666,7 @@ recipesData.dessert.kaak_warka = {
             "9. Let cool before serving."
     },
     nl: {
-        title: "Kaak Warka (Tunesië, voor 4 personen)",
+        title: "Kaak Warka (Tunisie)",
         equipment: [
             "1 ovenschaal",
             "1 deegroller",
@@ -44705,7 +44684,6 @@ recipesData.dessert.kaak_warka = {
             "50 ml honing"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm oven voor op 180°C.\n" +
             "2. Meng gemalen amandelen, suiker en kaneel in een kom.\n" +
             "3. Rol bladerdeeg uit en snijd in rechthoeken.\n" +
@@ -44717,7 +44695,7 @@ recipesData.dessert.kaak_warka = {
             "9. Laat afkoelen voor serveren."
     },
     ar: {
-        title: "قعك وركة (تونس، تكفي 4 أشخاص)",
+        title: "قعك وركة (تونس)",
         equipment: [
             "1 صينية فرن",
             "1 نشابة",
@@ -44735,7 +44713,6 @@ recipesData.dessert.kaak_warka = {
             "50 مل عسل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخّن الفرن على 180°C.\n" +
             "2. اخلط اللوز المطحون، السكر والقرفة في وعاء.\n" +
             "3. افرد العجينة وقطعها إلى مستطيلات.\n" +
@@ -44750,9 +44727,15 @@ recipesData.dessert.kaak_warka = {
 recipesData.dessert.samsa = {
     country: "afrique",
     countryName: "tunisie",
-    image: "images/samsa.jpg",
+    image: "images/samsa-tunisie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Samsa aux amandes (Tunisie, 4 personnes)",
+        title: "Samsa aux amandes (Tunisie)",
         equipment: [
             "1 plat allant au four",
             "1 rouleau à pâtisserie",
@@ -44770,7 +44753,6 @@ recipesData.dessert.samsa = {
             "50 g beurre fondu"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Mélanger les amandes, sucre et cannelle dans un bol.\n" +
             "3. Couper les feuilles de pâte filo en bandes.\n" +
@@ -44781,7 +44763,7 @@ recipesData.dessert.samsa = {
             "8. Laisser refroidir avant de servir."
     },
     en: {
-        title: "Samsa with Almonds (Tunisian, Serves 4)",
+        title: "Almond Samsa (Tunisie)",
         equipment: [
             "1 baking dish",
             "1 rolling pin",
@@ -44799,7 +44781,6 @@ recipesData.dessert.samsa = {
             "50 g melted butter"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. Mix almonds, sugar, and cinnamon in a bowl.\n" +
             "3. Cut filo sheets into strips.\n" +
@@ -44810,7 +44791,7 @@ recipesData.dessert.samsa = {
             "8. Let cool before serving."
     },
     nl: {
-        title: "Samsa met amandelen (Tunesië, voor 4 personen)",
+        title: "Samsa met amandelen (Tunisie)",
         equipment: [
             "1 ovenschaal",
             "1 deegroller",
@@ -44828,7 +44809,6 @@ recipesData.dessert.samsa = {
             "50 g gesmolten boter"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm oven voor op 180°C.\n" +
             "2. Meng amandelen, suiker en kaneel in een kom.\n" +
             "3. Snijd filodeeg in stroken.\n" +
@@ -44839,7 +44819,7 @@ recipesData.dessert.samsa = {
             "8. Laat afkoelen voor serveren."
     },
     ar: {
-        title: "سَمْسَة باللوز (تونس، تكفي 4 أشخاص)",
+        title: "سمسة باللوز (تونس)",
         equipment: [
             "1 صينية فرن",
             "1 نشابة",
@@ -44857,23 +44837,28 @@ recipesData.dessert.samsa = {
             "50 غ زبدة مذابة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخن الفرن على 180°C.\n" +
-            "2. اخلط اللوز، السكر والقرفة في وعاء.\n" +
+            "2. اخلط اللوز والسكر والقرفة في وعاء.\n" +
             "3. قطع عجينة الفيلو إلى شرائط.\n" +
             "4. ادهن بالزبدة المذابة وضع ملعقة من الحشو عند أحد الأطراف.\n" +
             "5. اطوِ على شكل مثلثات على طول الشريط.\n" +
             "6. ضعها على صينية الخبز واخبز 15-20 دقيقة حتى يصبح لونها ذهبياً.\n" +
-            "7. صب العسل الدافئ عليها.\n" +
+            "7. اسكب العسل الدافئ فوقها.\n" +
             "8. اتركها لتبرد قبل التقديم."
     }
 };
 recipesData.dessert.zrir = {
     country: "afrique",
     countryName: "tunisie",
-    image: "images/zrir.jpg",
+    image: "images/zrir-tunisie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 10,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Zrir (Tunisie, 4 personnes)",
+        title: "Zrir (Tunisie)",
         equipment: [
             "1 poêle",
             "1 cuillère en bois",
@@ -44887,7 +44872,6 @@ recipesData.dessert.zrir = {
             "50 ml miel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Faire griller légèrement les graines de sésame et les amandes dans une poêle.\n" +
             "2. Ajouter le sucre et faire fondre à feu doux en remuant.\n" +
             "3. Ajouter le miel et bien mélanger jusqu’à obtenir une pâte homogène.\n" +
@@ -44897,7 +44881,7 @@ recipesData.dessert.zrir = {
             "7. Servir à température ambiante."
     },
     en: {
-        title: "Zrir (Tunisian, Serves 4)",
+        title: "Zrir (Tunisie)",
         equipment: [
             "1 frying pan",
             "1 wooden spoon",
@@ -44911,7 +44895,6 @@ recipesData.dessert.zrir = {
             "50 ml honey"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Lightly toast sesame seeds and almonds in a pan.\n" +
             "2. Add sugar and melt over low heat while stirring.\n" +
             "3. Add honey and mix well until smooth.\n" +
@@ -44921,7 +44904,7 @@ recipesData.dessert.zrir = {
             "7. Serve at room temperature."
     },
     nl: {
-        title: "Zrir (Tunesië, voor 4 personen)",
+        title: "Zrir (Tunisie)",
         equipment: [
             "1 koekenpan",
             "1 houten lepel",
@@ -44935,7 +44918,6 @@ recipesData.dessert.zrir = {
             "50 ml honing"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Rooster sesamzaad en amandelen lichtjes in een pan.\n" +
             "2. Voeg suiker toe en smelt op laag vuur terwijl je roert.\n" +
             "3. Voeg honing toe en meng goed tot een gladde massa.\n" +
@@ -44945,7 +44927,7 @@ recipesData.dessert.zrir = {
             "7. Serveer op kamertemperatuur."
     },
     ar: {
-        title: "زرير (تونس، تكفي 4 أشخاص)",
+        title: "زرير (تونس)",
         equipment: [
             "1 مقلاة",
             "1 ملعقة خشبية",
@@ -44959,7 +44941,6 @@ recipesData.dessert.zrir = {
             "50 مل عسل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. حمّص بذور السمسم واللوز قليلاً في المقلاة.\n" +
             "2. أضف السكر وذوبه على نار هادئة مع التحريك.\n" +
             "3. أضف العسل واخلط جيداً حتى يصبح المزيج متجانس.\n" +
@@ -44969,13 +44950,18 @@ recipesData.dessert.zrir = {
             "7. قدمه في درجة حرارة الغرفة."
     }
 };
-
 recipesData.patisserie.baklava_almonds = {
     country: "afrique",
     countryName: "tunisie",
-    image: "images/baklava_almonds.jpg",
+    image: "images/baklava_almonds-tunisie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 25,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Baklava aux amandes (Tunisie, 4 personnes)",
+        title: "Baklava aux amandes (Tunisie)",
         equipment: [
             "1 plat rectangulaire allant au four",
             "1 rouleau à pâtisserie",
@@ -44996,7 +44982,6 @@ recipesData.patisserie.baklava_almonds = {
             "50 g miel pour napper"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Hacher finement les amandes et les mélanger avec le sucre et la cannelle.\n" +
             "3. Beurrer le plat et déposer une feuille de pâte filo, badigeonner de beurre fondu.\n" +
@@ -45009,7 +44994,7 @@ recipesData.patisserie.baklava_almonds = {
             "10. Laisser refroidir légèrement avant de servir."
     },
     en: {
-        title: "Tunisian Almond Baklava (Serves 4)",
+        title: "Almond Baklava (Tunisie)",
         equipment: [
             "1 rectangular oven dish",
             "1 rolling pin",
@@ -45030,7 +45015,6 @@ recipesData.patisserie.baklava_almonds = {
             "50 g honey for glazing"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. Chop almonds finely and mix with sugar and cinnamon.\n" +
             "3. Butter the dish and place one filo sheet, brush with melted butter.\n" +
@@ -45043,7 +45027,7 @@ recipesData.patisserie.baklava_almonds = {
             "10. Let cool slightly before serving."
     },
     nl: {
-        title: "Tuinse Amandel Baklava (voor 4 personen)",
+        title: "Amandelbaklava (Tunisie)",
         equipment: [
             "1 rechthoekige ovenschaal",
             "1 deegroller",
@@ -45064,7 +45048,6 @@ recipesData.patisserie.baklava_almonds = {
             "50 g honing om te glazuren"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
             "2. Hak de amandelen fijn en meng met suiker en kaneel.\n" +
             "3. Beboter de ovenschaal en leg één filodeegvel, bestrijk met gesmolten boter.\n" +
@@ -45077,7 +45060,7 @@ recipesData.patisserie.baklava_almonds = {
             "10. Laat iets afkoelen voor serveren."
     },
     ar: {
-        title: "بقلاوة باللوز (تونس، تكفي 4 أشخاص)",
+        title: "بقلاوة باللوز (تونس)",
         equipment: [
             "1 صينية فرن مستطيلة",
             "1 نشابة",
@@ -45098,7 +45081,6 @@ recipesData.patisserie.baklava_almonds = {
             "50 غ عسل للتغطية"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخّن الفرن على 180 درجة مئوية.\n" +
             "2. افرم اللوز ناعماً وامزجه مع السكر والقرفة.\n" +
             "3. ادهن الصينية بالزبدة وضع ورقة فيلو، ادهن بالزبدة المذابة.\n" +
@@ -45111,13 +45093,28 @@ recipesData.patisserie.baklava_almonds = {
             "10. اتركها تبرد قليلاً قبل التقديم."
     }
 };
-// 6️⃣ Chakchouka Algérienne (salade de poivrons et tomates)
+
+
+
+
+
+
+
+
+
+
 recipesData.entree.chakchouka = {
     country: "afrique",
     countryName: "algerie",
     image: "images/chakchouka.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Chakchouka (Algérie, 4 personnes)",
+        title: "Chakchouka (Algérie)",
         equipment: [
             "1 poêle grande",
             "1 couteau",
@@ -45137,7 +45134,6 @@ recipesData.entree.chakchouka = {
             "1/4 cuillère à café cumin"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Couper poivrons et tomates en petits dés.\n" +
             "2. Hacher l’oignon et l’ail.\n" +
             "3. Chauffer l’huile dans la poêle.\n" +
@@ -45147,7 +45143,7 @@ recipesData.entree.chakchouka = {
             "7. Servir chaud ou tiède."
     },
     en: {
-        title: "Chakchouka (Algeria, Serves 4)",
+        title: "Chakchouka (Algerie)",
         equipment: [
             "1 large frying pan",
             "1 knife",
@@ -45167,7 +45163,6 @@ recipesData.entree.chakchouka = {
             "1/4 tsp cumin"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Cut peppers and tomatoes into small cubes.\n" +
             "2. Chop onion and garlic.\n" +
             "3. Heat oil in pan.\n" +
@@ -45177,7 +45172,7 @@ recipesData.entree.chakchouka = {
             "7. Serve hot or warm."
     },
     nl: {
-        title: "Chakchouka (Algerije, voor 4 personen)",
+        title: "Chakchouka (Algerie)",
         equipment: [
             "1 grote pan",
             "1 mes",
@@ -45197,7 +45192,6 @@ recipesData.entree.chakchouka = {
             "1/4 tl komijn"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Snijd paprika's en tomaten in kleine blokjes.\n" +
             "2. Hak ui en knoflook.\n" +
             "3. Verhit olie in pan.\n" +
@@ -45207,7 +45201,7 @@ recipesData.entree.chakchouka = {
             "7. Serveer warm of lauwwarm."
     },
     ar: {
-        title: "شكشوكة جزائرية (الجزائر، تكفي 4 أشخاص)",
+        title: "شكشوكة (الجزائر)",
         equipment: [
             "1 مقلاة كبيرة",
             "سكين",
@@ -45227,26 +45221,27 @@ recipesData.entree.chakchouka = {
             "1/4 ملعقة صغيرة كمون"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قطع الفلفل والطماطم إلى مكعبات صغيرة.\n" +
             "2. افرم البصل والثوم.\n" +
             "3. سخّن الزيت في المقلاة.\n" +
             "4. قلّي البصل والثوم 2-3 دقائق.\n" +
-            "5. أضف الفلفل، اطه 5 دقائق.\n" +
-            "6. أضف الطماطم والتوابل، اطه 10 دقائق على نار هادئة.\n" +
-            "7. قدم ساخناً أو دافئاً."
+            "5. أضف الفلفل واطهه 5 دقائق.\n" +
+            "6. أضف الطماطم والتوابل واطهه 10 دقائق على نار هادئة.\n" +
+            "7. قدّم ساخناً أو دافئاً."
     }
 };
-
-
-
-// 8️⃣ Harira (soupe traditionnelle)
 recipesData.entree.harira = {
     country: "afrique",
     countryName: "algerie",
     image: "images/harira.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Harira (Algérie, 4 personnes)",
+        title: "Harira (Algérie)",
         equipment: [
             "1 casserole moyenne",
             "1 couteau",
@@ -45269,17 +45264,16 @@ recipesData.entree.harira = {
             "30 ml huile d’olive"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Hacher l’oignon et le céleri.\n" +
             "2. Couper les tomates en dés.\n" +
             "3. Chauffer l’huile dans la casserole, faire revenir oignon et céleri 2-3 min.\n" +
-            "4. Ajouter viande, cuire 5 min.\n" +
+            "4. Ajouter la viande, cuire 5 min.\n" +
             "5. Ajouter tomates, lentilles, pois chiches, eau et épices.\n" +
             "6. Couvrir et cuire 30 min à feu moyen.\n" +
             "7. Servir chaud."
     },
     en: {
-        title: "Harira (Algeria, Serves 4)",
+        title: "Harira (Algerie)",
         equipment: [
             "1 medium pot",
             "1 knife",
@@ -45302,17 +45296,16 @@ recipesData.entree.harira = {
             "30 ml olive oil"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Chop onion and celery.\n" +
             "2. Dice tomatoes.\n" +
             "3. Heat oil in pot, sauté onion and celery 2-3 min.\n" +
             "4. Add beef, cook 5 min.\n" +
-            "5. Add tomatoes, lentils, chickpeas, water, spices.\n" +
-            "6. Cover, cook 30 min over medium heat.\n" +
+            "5. Add tomatoes, lentils, chickpeas, water and spices.\n" +
+            "6. Cover and cook 30 min over medium heat.\n" +
             "7. Serve hot."
     },
     nl: {
-        title: "Harira (Algerije, voor 4 personen)",
+        title: "Harira (Algerije)",
         equipment: [
             "1 middelgrote pan",
             "1 mes",
@@ -45335,17 +45328,16 @@ recipesData.entree.harira = {
             "30 ml olijfolie"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Hak ui en selderij.\n" +
             "2. Snijd tomaten in blokjes.\n" +
             "3. Verhit olie in pan, bak ui en selderij 2-3 min.\n" +
             "4. Voeg vlees toe, bak 5 min.\n" +
             "5. Voeg tomaten, linzen, kikkererwten, water en kruiden toe.\n" +
-            "6. Dek af, kook 30 min op middelhoog vuur.\n" +
+            "6. Dek af en kook 30 min op middelhoog vuur.\n" +
             "7. Serveer warm."
     },
     ar: {
-        title: "حريرة (الجزائر، تكفي 4 أشخاص)",
+        title: "حريرة (الجزائر)",
         equipment: [
             "1 قدر متوسط",
             "سكين",
@@ -45368,24 +45360,27 @@ recipesData.entree.harira = {
             "30 مل زيت زيتون"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. افرم البصل والكرفس.\n" +
             "2. قطع الطماطم إلى مكعبات.\n" +
-            "3. سخّن الزيت في القدر، اقلي البصل والكرفس 2-3 دقائق.\n" +
-            "4. أضف اللحم، اطه 5 دقائق.\n" +
+            "3. سخّن الزيت في القدر واقلِ البصل والكرفس 2-3 دقائق.\n" +
+            "4. أضف اللحم واطهه 5 دقائق.\n" +
             "5. أضف الطماطم والعدس والحمص والماء والتوابل.\n" +
-            "6. غطّ واطه 30 دقيقة على نار متوسطة.\n" +
-            "7. قدم ساخناً."
+            "6. غطّ واطهه 30 دقيقة على نار متوسطة.\n" +
+            "7. قدّم ساخناً."
     }
 };
-
-// 9️⃣ Mhadjeb (crêpes algériennes)
 recipesData.entree.mhadjeb = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/mhadjeb.jpg",
+    image: "images/mhadjeb-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 10,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Mhadjeb (Algérie, 4 personnes)",
+        title: "Mhadjeb (Algérie)",
         equipment: [
             "1 grand bol",
             "1 rouleau à pâtisserie",
@@ -45404,18 +45399,17 @@ recipesData.entree.mhadjeb = {
             "30 ml huile d’olive"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Mélanger semoule, sel et eau, pétrir 5 min.\n" +
             "2. Laisser reposer 15 min.\n" +
             "3. Hacher oignon, tomates et poivron.\n" +
-            "4. Chauffer 1 cuillère à soupe huile, faire revenir légumes 5 min.\n" +
-            "5. Diviser pâte en petites boules, étaler finement.\n" +
-            "6. Placer légumes au centre, replier les bords.\n" +
-            "7. Cuire sur poêle chaude 3-4 min chaque côté.\n" +
+            "4. Chauffer 1 cuillère à soupe d’huile, faire revenir les légumes 5 min.\n" +
+            "5. Diviser la pâte en petites boules et les étaler finement.\n" +
+            "6. Placer les légumes au centre et replier les bords.\n" +
+            "7. Cuire sur poêle chaude 3-4 min de chaque côté.\n" +
             "8. Servir chaud."
     },
     en: {
-        title: "Mhadjeb (Algeria, Serves 4)",
+        title: "Mhadjeb (Algerie)",
         equipment: [
             "1 large bowl",
             "1 rolling pin",
@@ -45434,18 +45428,17 @@ recipesData.entree.mhadjeb = {
             "30 ml olive oil"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mix semolina, salt, water, knead 5 min.\n" +
-            "2. Rest 15 min.\n" +
-            "3. Chop onion, tomatoes, bell pepper.\n" +
-            "4. Heat 1 tbsp oil, sauté vegetables 5 min.\n" +
-            "5. Divide dough into small balls, roll thin.\n" +
-            "6. Place vegetables in center, fold edges.\n" +
-            "7. Cook on hot pan 3-4 min each side.\n" +
+            "1. Mix semolina, salt and water, knead 5 min.\n" +
+            "2. Let rest 15 min.\n" +
+            "3. Chop onion, tomatoes and bell pepper.\n" +
+            "4. Heat 1 tbsp oil and sauté vegetables 5 min.\n" +
+            "5. Divide dough into small balls and roll thin.\n" +
+            "6. Place vegetables in the center and fold edges.\n" +
+            "7. Cook on a hot pan 3-4 min per side.\n" +
             "8. Serve hot."
     },
     nl: {
-        title: "Mhadjeb (Algerije, voor 4 personen)",
+        title: "Mhadjeb (Algerije)",
         equipment: [
             "1 grote kom",
             "1 deegroller",
@@ -45464,18 +45457,17 @@ recipesData.entree.mhadjeb = {
             "30 ml olijfolie"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng griesmeel, zout, water, kneed 5 min.\n" +
+            "1. Meng griesmeel, zout en water, kneed 5 min.\n" +
             "2. Laat 15 min rusten.\n" +
-            "3. Hak ui, tomaten, paprika.\n" +
-            "4. Verhit 1 el olie, bak groenten 5 min.\n" +
-            "5. Verdeel deeg in kleine ballen, rol dun uit.\n" +
-            "6. Plaats groenten in het midden, vouw de randen.\n" +
+            "3. Hak ui, tomaten en paprika.\n" +
+            "4. Verhit 1 el olie en bak groenten 5 min.\n" +
+            "5. Verdeel deeg in kleine ballen en rol dun uit.\n" +
+            "6. Plaats groenten in het midden en vouw de randen.\n" +
             "7. Bak op hete pan 3-4 min per kant.\n" +
             "8. Serveer warm."
     },
     ar: {
-        title: "المحدب (الجزائر، تكفي 4 أشخاص)",
+        title: "المحدب (الجزائر)",
         equipment: [
             "1 وعاء كبير",
             "1 نشابة",
@@ -45494,25 +45486,28 @@ recipesData.entree.mhadjeb = {
             "30 مل زيت زيتون"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط السميد والملح والماء، اعجن 5 دقائق.\n" +
+            "1. اخلط السميد والملح والماء واعجن 5 دقائق.\n" +
             "2. اتركه يرتاح 15 دقيقة.\n" +
             "3. افرم البصل والطماطم والفلفل.\n" +
-            "4. سخن 1 ملعقة زيت، اقلي الخضار 5 دقائق.\n" +
-            "5. قسم العجين إلى كرات صغيرة، افرده رقيقاً.\n" +
-            "6. ضع الخضار في الوسط، اطوِ الحواف.\n" +
-            "7. اطه على المقلاة الساخنة 3-4 دقائق لكل جانب.\n" +
-            "8. قدم ساخناً."
+            "4. سخّن ملعقة زيت واقلِ الخضار 5 دقائق.\n" +
+            "5. قسم العجين إلى كرات صغيرة وافرده رقيقاً.\n" +
+            "6. ضع الخضار في الوسط واطوِ الحواف.\n" +
+            "7. اطهه على مقلاة ساخنة 3-4 دقائق لكل جانب.\n" +
+            "8. قدّم ساخناً."
     }
 };
-
-// 4️⃣ Dolma Algérienne (légumes farcis)
 recipesData.entree.dolma_algerienne = {
     country: "afrique",
     countryName: "algerie",
     image: "images/dolma_algerienne.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Dolma Algérienne (Algérie, 4 personnes)",
+        title: "Dolma algérienne (Algérie)",
         equipment: [
             "1 casserole moyenne",
             "1 couteau",
@@ -45535,17 +45530,16 @@ recipesData.entree.dolma_algerienne = {
             "200 ml eau"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les légumes en deux, retirer les graines.\n" +
-            "2. Hacher oignon et coriandre.\n" +
-            "3. Mélanger viande, riz, oignon, coriandre, sel, poivre, paprika.\n" +
+            "1. Couper les légumes en deux et retirer les graines.\n" +
+            "2. Hacher l’oignon et la coriandre.\n" +
+            "3. Mélanger la viande, le riz, l’oignon, la coriandre et les épices.\n" +
             "4. Farcir les légumes avec le mélange.\n" +
-            "5. Chauffer l’huile dans la casserole, placer les légumes farcis.\n" +
-            "6. Ajouter eau, couvrir et cuire 25-30 min à feu moyen.\n" +
+            "5. Chauffer l’huile dans la casserole et disposer les légumes farcis.\n" +
+            "6. Ajouter l’eau, couvrir et cuire 25-30 min à feu moyen.\n" +
             "7. Servir chaud."
     },
     en: {
-        title: "Algerian Dolma (Algeria, Serves 4)",
+        title: "Algerian Dolma (Algerie)",
         equipment: [
             "1 medium saucepan",
             "1 knife",
@@ -45568,17 +45562,16 @@ recipesData.entree.dolma_algerienne = {
             "200 ml water"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut vegetables in half, remove seeds.\n" +
+            "1. Cut vegetables in half and remove seeds.\n" +
             "2. Chop onion and coriander.\n" +
-            "3. Mix meat, rice, onion, coriander, salt, pepper, paprika.\n" +
-            "4. Stuff vegetables with mixture.\n" +
-            "5. Heat oil in pan, place stuffed vegetables.\n" +
-            "6. Add water, cover, cook 25-30 min over medium heat.\n" +
+            "3. Mix meat, rice, onion, coriander and spices.\n" +
+            "4. Stuff vegetables with the mixture.\n" +
+            "5. Heat oil in the pan and arrange stuffed vegetables.\n" +
+            "6. Add water, cover and cook 25-30 min over medium heat.\n" +
             "7. Serve hot."
     },
     nl: {
-        title: "Algerijnse Dolma (Algerije, voor 4 personen)",
+        title: "Algerijnse dolma (Algerije)",
         equipment: [
             "1 middelgrote pan",
             "mes",
@@ -45601,17 +45594,16 @@ recipesData.entree.dolma_algerienne = {
             "200 ml water"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd groenten doormidden, verwijder zaden.\n" +
+            "1. Snijd groenten doormidden en verwijder de zaden.\n" +
             "2. Hak ui en koriander.\n" +
-            "3. Meng vlees, rijst, ui, koriander, zout, peper, paprika.\n" +
-            "4. Vul groenten met mengsel.\n" +
-            "5. Verhit olie in pan, plaats gevulde groenten.\n" +
-            "6. Voeg water toe, dek af, kook 25-30 min op middelhoog vuur.\n" +
+            "3. Meng vlees, rijst, ui, koriander en kruiden.\n" +
+            "4. Vul de groenten met het mengsel.\n" +
+            "5. Verhit olie in de pan en leg de gevulde groenten erin.\n" +
+            "6. Voeg water toe, dek af en kook 25-30 min op middelhoog vuur.\n" +
             "7. Serveer warm."
     },
     ar: {
-        title: "دولمة جزائرية (الجزائر، تكفي 4 أشخاص)",
+        title: "دولمة جزائرية (الجزائر)",
         equipment: [
             "1 قدر متوسط",
             "سكين",
@@ -45634,24 +45626,27 @@ recipesData.entree.dolma_algerienne = {
             "200 مل ماء"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطّع الخضار إلى نصفين، أزل البذور.\n" +
+            "1. قطّع الخضار إلى نصفين وأزل البذور.\n" +
             "2. افرم البصل والكزبرة.\n" +
-            "3. امزج اللحم، الأرز، البصل، الكزبرة، الملح، الفلفل، البابريكا.\n" +
-            "4. احشو الخضار بالمزيج.\n" +
-            "5. سخّن الزيت في القدر، ضع الخضار المحشوة.\n" +
-            "6. أضف الماء، غطِّ واطه 25-30 دقيقة على نار متوسطة.\n" +
-            "7. قدم ساخناً."
+            "3. امزج اللحم مع الأرز والبصل والكزبرة والتوابل.\n" +
+            "4. احشُ الخضار بالمزيج.\n" +
+            "5. سخّن الزيت في القدر وضع الخضار المحشوة.\n" +
+            "6. أضف الماء وغطِّ واطهه 25-30 دقيقة على نار متوسطة.\n" +
+            "7. قدّم ساخناً."
     }
 };
-
-// 5️⃣ Maakouda (galette de pomme de terre)
 recipesData.entree.maakouda = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/maakouda.jpg",
+    image: "images/maakouda-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Maakouda (Algérie, 4 personnes)",
+        title: "Maakouda (Algérie)",
         equipment: [
             "1 casserole pour cuire pommes de terre",
             "1 poêle",
@@ -45671,19 +45666,18 @@ recipesData.entree.maakouda = {
             "30 ml huile pour friture"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Éplucher et couper les pommes de terre, cuire dans eau bouillante 15-20 min.\n" +
-            "2. Égoutter, écraser en purée.\n" +
-            "3. Hacher l’oignon finement et mélanger à la purée.\n" +
-            "4. Ajouter œuf, sel, poivre, paprika, bien mélanger.\n" +
-            "5. Former des petites galettes.\n" +
+            "1. Éplucher et couper les pommes de terre, cuire dans l’eau bouillante 15-20 min.\n" +
+            "2. Égoutter et écraser en purée.\n" +
+            "3. Hacher finement l’oignon et l’ajouter à la purée.\n" +
+            "4. Ajouter l’œuf, le sel, le poivre et le paprika, bien mélanger.\n" +
+            "5. Former de petites galettes.\n" +
             "6. Chauffer l’huile dans la poêle.\n" +
             "7. Cuire chaque galette 3-4 min de chaque côté jusqu’à doré.\n" +
             "8. Égoutter sur papier absorbant.\n" +
             "9. Servir chaud."
     },
     en: {
-        title: "Maakouda (Algeria, Serves 4)",
+        title: "Maakouda (Algerie)",
         equipment: [
             "1 pot to cook potatoes",
             "1 frying pan",
@@ -45703,19 +45697,18 @@ recipesData.entree.maakouda = {
             "30 ml oil for frying"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Peel and cut potatoes, cook in boiling water 15-20 min.\n" +
             "2. Drain and mash.\n" +
-            "3. Chop onion finely and mix with potatoes.\n" +
-            "4. Add egg, salt, pepper, paprika, mix well.\n" +
-            "5. Form small patties.\n" +
+            "3. Finely chop onion and add to potatoes.\n" +
+            "4. Add egg, salt, pepper and paprika, mix well.\n" +
+            "5. Shape small patties.\n" +
             "6. Heat oil in pan.\n" +
             "7. Cook each patty 3-4 min per side until golden.\n" +
             "8. Drain on paper towel.\n" +
             "9. Serve hot."
     },
     nl: {
-        title: "Maakouda (Algerije, voor 4 personen)",
+        title: "Maakouda (Algerije)",
         equipment: [
             "1 pan om aardappelen te koken",
             "1 pan",
@@ -45735,11 +45728,10 @@ recipesData.entree.maakouda = {
             "30 ml olie om te bakken"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Schil en snijd aardappelen, kook 15-20 min.\n" +
             "2. Giet af en pureer.\n" +
-            "3. Hak ui fijn en meng met aardappelpuree.\n" +
-            "4. Voeg ei, zout, peper, paprika toe, meng goed.\n" +
+            "3. Hak ui fijn en meng met de puree.\n" +
+            "4. Voeg ei, zout, peper en paprika toe en meng goed.\n" +
             "5. Vorm kleine galetten.\n" +
             "6. Verhit olie in pan.\n" +
             "7. Bak elke galette 3-4 min per kant tot goudbruin.\n" +
@@ -45747,7 +45739,7 @@ recipesData.entree.maakouda = {
             "9. Serveer warm."
     },
     ar: {
-        title: "معقودة (الجزائر، تكفي 4 أشخاص)",
+        title: "معقودة (الجزائر)",
         equipment: [
             "1 قدر لسلق البطاطس",
             "1 مقلاة",
@@ -45767,26 +45759,29 @@ recipesData.entree.maakouda = {
             "30 مل زيت للقلي"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قشر وقطع البطاطس، اطه في ماء مغلي 15-20 دقيقة.\n" +
-            "2. صفّها واهرِسها.\n" +
-            "3. افرم البصل ناعماً وأضفه للبطاطس.\n" +
-            "4. أضف البيضة والملح والفلفل والبابريكا، امزج جيداً.\n" +
-            "5. شكل كريات صغيرة أو أقراص.\n" +
+            "1. قشّر وقطّع البطاطس واطهها في ماء مغلي 15-20 دقيقة.\n" +
+            "2. صفِّها واهرِسها.\n" +
+            "3. افرم البصل ناعماً وأضفه إلى البطاطس.\n" +
+            "4. أضف البيضة والملح والفلفل والبابريكا وامزج جيداً.\n" +
+            "5. شكّل أقراصاً صغيرة.\n" +
             "6. سخّن الزيت في المقلاة.\n" +
-            "7. اقلي كل قرص 3-4 دقائق لكل جانب حتى يصبح ذهبي.\n" +
-            "8. صفّ على ورق مطبخ.\n" +
-            "9. قدم ساخناً."
+            "7. اقْلِ كل قرص 3-4 دقائق لكل جانب حتى يصبح ذهبياً.\n" +
+            "8. صفِّ على ورق مطبخ.\n" +
+            "9. قدّم ساخناً."
     }
 };
-
-// 3️⃣ Bourek à la viande
 recipesData.entree.bourek_viande = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/bourek_viande.jpg",
+    image: "images/bourek_viande-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Bourek à la viande (Algérie, 4 personnes)",
+        title: "Bourek à la viande (Algérie)",
         equipment: [
             "1 poêle moyenne",
             "1 bol",
@@ -45809,19 +45804,18 @@ recipesData.entree.bourek_viande = {
             "Huile de tournesol pour friture (environ 200 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Hacher finement l’oignon.\n" +
-            "2. Chauffer 1 cuillère à soupe d’huile, faire revenir l’oignon 2-3 min.\n" +
-            "3. Ajouter la viande hachée, sel, poivre, paprika, cannelle, cuire 5 min.\n" +
+            "2. Chauffer l’huile d’olive et faire revenir l’oignon 2-3 min.\n" +
+            "3. Ajouter la viande hachée, le sel, le poivre, le paprika et la cannelle, cuire 5 min.\n" +
             "4. Laisser refroidir légèrement le mélange.\n" +
-            "5. Placer 2-3 cuillères du mélange sur chaque feuille de brick.\n" +
-            "6. Plier en triangle ou rouleau, sceller avec un peu d’œuf battu.\n" +
-            "7. Chauffer l’huile de tournesol, frire les boureks 2-3 min de chaque côté jusqu’à doré.\n" +
+            "5. Déposer 2-3 cuillères de farce sur chaque feuille de brick.\n" +
+            "6. Plier en triangle ou en rouleau et sceller avec l’œuf battu.\n" +
+            "7. Chauffer l’huile de tournesol et frire 2-3 min de chaque côté jusqu’à doré.\n" +
             "8. Égoutter sur papier absorbant.\n" +
             "9. Servir chaud."
     },
     en: {
-        title: "Meat Bourek (Algeria, Serves 4)",
+        title: "Meat Bourek (Algerie)",
         equipment: [
             "1 medium frying pan",
             "1 bowl",
@@ -45844,19 +45838,18 @@ recipesData.entree.bourek_viande = {
             "Sunflower oil for frying (about 200 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Finely chop the onion.\n" +
-            "2. Heat 1 tbsp oil, sauté onion 2-3 min.\n" +
-            "3. Add minced meat, salt, pepper, paprika, cinnamon, cook 5 min.\n" +
-            "4. Let mixture cool slightly.\n" +
-            "5. Place 2-3 spoons of filling on each brick sheet.\n" +
-            "6. Fold into triangle or roll, seal with beaten egg.\n" +
-            "7. Heat sunflower oil, fry boureks 2-3 min per side until golden.\n" +
+            "2. Heat olive oil and sauté onion 2-3 min.\n" +
+            "3. Add minced meat, salt, pepper, paprika and cinnamon, cook 5 min.\n" +
+            "4. Let the mixture cool slightly.\n" +
+            "5. Place 2-3 spoonfuls of filling on each brick sheet.\n" +
+            "6. Fold into a triangle or roll and seal with beaten egg.\n" +
+            "7. Heat sunflower oil and fry 2-3 min per side until golden.\n" +
             "8. Drain on paper towel.\n" +
             "9. Serve hot."
     },
     nl: {
-        title: "Bourek met vlees (Algerije, voor 4 personen)",
+        title: "Bourek met vlees (Algerije)",
         equipment: [
             "1 middelgrote pan",
             "1 kom",
@@ -45879,19 +45872,18 @@ recipesData.entree.bourek_viande = {
             "Zonnebloemolie om te frituren (ongeveer 200 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd de ui fijn.\n" +
-            "2. Verhit 1 el olie, bak ui 2-3 min.\n" +
-            "3. Voeg gehakt, zout, peper, paprika, kaneel toe, bak 5 min.\n" +
+            "1. Hak de ui fijn.\n" +
+            "2. Verhit olijfolie en bak de ui 2-3 min.\n" +
+            "3. Voeg gehakt, zout, peper, paprika en kaneel toe en bak 5 min.\n" +
             "4. Laat het mengsel iets afkoelen.\n" +
-            "5. Plaats 2-3 lepels vulling op elk brickvel.\n" +
-            "6. Vouw tot driehoek of rol, sluit met losgeklopt ei.\n" +
-            "7. Verhit zonnebloemolie, bak boureks 2-3 min per kant tot goudbruin.\n" +
+            "5. Leg 2-3 lepels vulling op elk brickvel.\n" +
+            "6. Vouw tot driehoek of rol en sluit met ei.\n" +
+            "7. Verhit zonnebloemolie en bak 2-3 min per kant tot goudbruin.\n" +
             "8. Laat uitlekken op keukenpapier.\n" +
             "9. Serveer warm."
     },
     ar: {
-        title: "بوراك باللحم (الجزائر، تكفي 4 أشخاص)",
+        title: "بوراك باللحم (الجزائر)",
         equipment: [
             "1 مقلاة متوسطة",
             "1 وعاء",
@@ -45914,165 +45906,31 @@ recipesData.entree.bourek_viande = {
             "زيت دوار الشمس للقلي (حوالي 200 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. افرم البصل ناعماً.\n" +
-            "2. سخّن 1 ملعقة زيت، قلب البصل 2-3 دقائق.\n" +
-            "3. أضف اللحم المفروم والملح والفلفل والبابريكا والقرفة، اطه 5 دقائق.\n" +
+            "2. سخّن زيت الزيتون وقلّي البصل 2-3 دقائق.\n" +
+            "3. أضف اللحم المفروم والملح والفلفل والبابريكا والقرفة واطهه 5 دقائق.\n" +
             "4. اترك الخليط يبرد قليلاً.\n" +
             "5. ضع 2-3 ملاعق من الحشوة على كل ورقة بريك.\n" +
-            "6. اطوِ على شكل مثلث أو رول، ختم بالبيضة المخفوقة.\n" +
-            "7. سخّن زيت دوار الشمس، اقلي البوراك 2-3 دقائق لكل جانب حتى يصبح ذهبي.\n" +
-            "8. صفي على ورق مطبخ.\n" +
-            "9. قدم ساخناً."
-    }
-};
-
-// 2️⃣ Mhadjeb
-recipesData.entree.mhadjeb = {
-    country: "afrique",
-    countryName: "algerie",
-    image: "images/mhadjeb.jpg",
-    fr: {
-        title: "Mhadjeb (Algérie, 4 personnes)",
-        equipment: [
-            "1 poêle moyenne",
-            "1 bol",
-            "1 rouleau à pâtisserie",
-            "1 couteau",
-            "1 planche à découper",
-            "1 cuillère",
-            "1 assiette"
-        ],
-        ingredients: [
-            "250 g semoule fine",
-            "150 ml eau tiède",
-            "1/2 cuillère à café sel",
-            "2 tomates moyennes (200 g)",
-            "1 oignon moyen (100 g)",
-            "1 poivron vert (100 g)",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 bouquet coriandre fraîche"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préparer la pâte avec semoule, eau et sel, pétrir jusqu’à homogène.\n" +
-            "2. Couvrir et laisser reposer 15 min.\n" +
-            "3. Hacher tomates, oignon, poivron et coriandre.\n" +
-            "4. Chauffer 1 cuillère d’huile dans une poêle, faire revenir légumes 5 min.\n" +
-            "5. Diviser la pâte en 4 boules, étaler chaque boule finement.\n" +
-            "6. Déposer les légumes au centre, plier les côtés pour former un carré.\n" +
-            "7. Chauffer la poêle avec le reste d’huile.\n" +
-            "8. Cuire chaque mhadjeb 4-5 min par côté jusqu’à doré.\n" +
-            "9. Servir chaud."
-    },
-    en: {
-        title: "Mhadjeb (Algeria, Serves 4)",
-        equipment: [
-            "1 medium frying pan",
-            "1 bowl",
-            "1 rolling pin",
-            "1 knife",
-            "1 cutting board",
-            "1 spoon",
-            "1 plate"
-        ],
-        ingredients: [
-            "250 g fine semolina",
-            "150 ml warm water",
-            "1/2 tsp salt",
-            "2 medium tomatoes (200 g)",
-            "1 medium onion (100 g)",
-            "1 green bell pepper (100 g)",
-            "2 tbsp olive oil (30 ml)",
-            "1 bunch fresh coriander"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Prepare dough with semolina, water, and salt; knead until smooth.\n" +
-            "2. Cover and rest 15 min.\n" +
-            "3. Chop tomatoes, onion, bell pepper, and coriander.\n" +
-            "4. Heat 1 tbsp oil in pan, sauté vegetables 5 min.\n" +
-            "5. Divide dough into 4 balls, roll each thinly.\n" +
-            "6. Place vegetables in center, fold sides into a square.\n" +
-            "7. Heat remaining oil in pan.\n" +
-            "8. Cook each mhadjeb 4-5 min per side until golden.\n" +
-            "9. Serve hot."
-    },
-    nl: {
-        title: "Mhadjeb (Algerije, voor 4 personen)",
-        equipment: [
-            "1 middelgrote pan",
-            "1 kom",
-            "1 deegroller",
-            "1 mes",
-            "1 snijplank",
-            "1 lepel",
-            "1 bord"
-        ],
-        ingredients: [
-            "250 g fijne griesmeel",
-            "150 ml warm water",
-            "1/2 tl zout",
-            "2 middelgrote tomaten (200 g)",
-            "1 middelgrote ui (100 g)",
-            "1 groene paprika (100 g)",
-            "2 el olijfolie (30 ml)",
-            "1 bos verse koriander"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Bereid deeg met griesmeel, water en zout; kneed tot glad.\n" +
-            "2. Dek af, laat 15 min rusten.\n" +
-            "3. Snijd tomaten, ui, paprika en koriander.\n" +
-            "4. Verhit 1 el olie in pan, bak groenten 5 min.\n" +
-            "5. Verdeel deeg in 4 ballen, rol elk dun uit.\n" +
-            "6. Plaats groenten in het midden, vouw zijkanten tot een vierkant.\n" +
-            "7. Verhit resterende olie in pan.\n" +
-            "8. Bak elke mhadjeb 4-5 min per kant tot goudbruin.\n" +
-            "9. Serveer warm."
-    },
-    ar: {
-        title: "المحدب (الجزائر، تكفي 4 أشخاص)",
-        equipment: [
-            "1 مقلاة متوسطة",
-            "1 وعاء",
-            "1 مدلكة عجين",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة",
-            "1 طبق"
-        ],
-        ingredients: [
-            "250 غ سميد ناعم",
-            "150 مل ماء دافئ",
-            "1/2 ملعقة صغيرة ملح",
-            "2 طماطم متوسطة (200 غ)",
-            "1 بصل متوسط (100 غ)",
-            "1 فلفل أخضر (100 غ)",
-            "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1 باقة كزبرة طازجة"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضّر العجين بالسميد والماء والملح، واعجنه حتى يصبح ناعماً.\n" +
-            "2. غطه واتركه يرتاح 15 دقيقة.\n" +
-            "3. قطّع الطماطم والبصل والفلفل والكزبرة.\n" +
-            "4. سخّن 1 ملعقة زيت في المقلاة، اقلي الخضار 5 دقائق.\n" +
-            "5. قسّم العجين إلى 4 كرات، وافرد كل كرة رقيقة.\n" +
-            "6. ضع الخضار في الوسط، اطوِ الأطراف لتشكيل مربع.\n" +
-            "7. سخّن باقي الزيت في المقلاة.\n" +
-            "8. اقلي كل محدب 4-5 دقائق لكل جانب حتى يصبح ذهبي اللون.\n" +
+            "6. اطوِ على شكل مثلث أو لفافة واختم بالبيضة.\n" +
+            "7. سخّن زيت دوار الشمس واقلِ 2-3 دقائق لكل جانب حتى يصبح ذهبياً.\n" +
+            "8. صفِّ على ورق مطبخ.\n" +
             "9. قدّم ساخناً."
     }
 };
-
 recipesData.entree.chorba_algerienne = {
     country: "afrique",
-    countryName: "algerie",
+    countryName: "Algérie",
     image: "images/chorba_algerienne.jpg",
 
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 45,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Chorba algérienne (Algérie, 4 personnes)",
+        title: "Chorba algérienne (Algérie)",
         equipment: [
             "1 grande casserole",
             "1 couteau",
@@ -46097,7 +45955,6 @@ recipesData.entree.chorba_algerienne = {
             "Quelques feuilles de coriandre et persil frais (5 g chacun) pour garnir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Chauffer 2 cuillères à soupe d'huile d'olive dans une grande casserole.\n" +
             "2. Faire revenir l'oignon haché 3-4 min jusqu'à ce qu'il soit translucide.\n" +
             "3. Ajouter les morceaux de poulet et faire dorer 5 min sur tous les côtés.\n" +
@@ -46109,7 +45966,7 @@ recipesData.entree.chorba_algerienne = {
     },
 
     en: {
-        title: "Algerian Chorba Soup (Serves 4)",
+        title: "Algerian Chorba Soup (Algérie)",
         equipment: [
             "1 large pot",
             "1 knife",
@@ -46134,7 +45991,6 @@ recipesData.entree.chorba_algerienne = {
             "Some fresh coriander and parsley leaves (5 g each) for garnish"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Heat 2 tbsp olive oil in a large pot.\n" +
             "2. Sauté chopped onion 3-4 min until translucent.\n" +
             "3. Add chicken pieces, brown 5 min on all sides.\n" +
@@ -46146,7 +46002,7 @@ recipesData.entree.chorba_algerienne = {
     },
 
     nl: {
-        title: "Algerijnse Chorba Soep (voor 4 personen)",
+        title: "Algerijnse Chorba Soep (Algérie)",
         equipment: [
             "1 grote pan",
             "1 mes",
@@ -46171,7 +46027,6 @@ recipesData.entree.chorba_algerienne = {
             "Enkele verse koriander- en peterselieblaadjes (5 g elk) voor garnering"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verhit 2 eetlepels olijfolie in een grote pan.\n" +
             "2. Bak de ui 3-4 minuten tot glazig.\n" +
             "3. Voeg kipstukken toe en bak 5 minuten aan alle kanten.\n" +
@@ -46183,7 +46038,7 @@ recipesData.entree.chorba_algerienne = {
     },
 
     ar: {
-        title: "شوربة الشوربة الجزائرية (تكفي 4 أشخاص)",
+        title: "شوربة الشوربة الجزائرية (الجزائر)",
         equipment: [
             "1 قدر كبير",
             "1 سكين",
@@ -46208,7 +46063,6 @@ recipesData.entree.chorba_algerienne = {
             "بضع أوراق كزبرة وبقدونس طازج (5 غ لكل منهما) للتزيين"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخّن 2 ملعقة كبيرة زيت زيتون في قدر كبير.\n" +
             "2. اقلي البصل المفروم 3-4 دقائق حتى يصبح شفافاً.\n" +
             "3. أضف قطع الدجاج وقلّب 5 دقائق على جميع الجوانب.\n" +
@@ -46220,13 +46074,29 @@ recipesData.entree.chorba_algerienne = {
     }
 };
 
+
+
+
+
+
+
+
+
+
 recipesData.plat.couscous_algerien = {
     country: "afrique",
-    countryName: "algerie",
+    countryName: "Algérie",
     image: "images/couscous_algerien.jpg",
 
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 45,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Couscous aux légumes et poulet (Algérie, 4 personnes)",
+        title: "Couscous aux légumes et poulet (Algérie)",
         equipment: [
             "1 couscoussier ou grande casserole",
             "1 couteau",
@@ -46251,7 +46121,6 @@ recipesData.plat.couscous_algerien = {
             "Quelques feuilles de coriandre et persil frais (5 g chacun) pour garnir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Chauffer 2 cuillères à soupe d'huile d'olive dans le bas du couscoussier ou grande casserole.\n" +
             "2. Faire revenir l'oignon 3-4 min jusqu'à ce qu'il devienne translucide.\n" +
             "3. Ajouter les morceaux de poulet et faire dorer 5 min.\n" +
@@ -46265,7 +46134,7 @@ recipesData.plat.couscous_algerien = {
     },
 
     en: {
-        title: "Algerian Couscous with Vegetables and Chicken (Serves 4)",
+        title: "Algerian Couscous with Vegetables and Chicken (Algérie)",
         equipment: [
             "1 couscoussier or large pot",
             "1 knife",
@@ -46290,7 +46159,6 @@ recipesData.plat.couscous_algerien = {
             "Some fresh coriander and parsley leaves (5 g each) for garnish"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Heat 2 tbsp olive oil in the bottom of a couscoussier or large pot.\n" +
             "2. Sauté onion 3-4 min until translucent.\n" +
             "3. Add chicken pieces and brown 5 min.\n" +
@@ -46304,7 +46172,7 @@ recipesData.plat.couscous_algerien = {
     },
 
     nl: {
-        title: "Algerijnse Couscous met Groenten en Kip (voor 4 personen)",
+        title: "Algerijnse Couscous met Groenten en Kip (Algérie)",
         equipment: [
             "1 couscoussier of grote pan",
             "1 mes",
@@ -46329,7 +46197,6 @@ recipesData.plat.couscous_algerien = {
             "Enkele verse koriander- en peterselieblaadjes (5 g elk) voor garnering"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verhit 2 eetlepels olijfolie in de bodem van een couscoussier of grote pan.\n" +
             "2. Bak ui 3-4 minuten tot glazig.\n" +
             "3. Voeg kipstukken toe en bak 5 minuten goudbruin.\n" +
@@ -46343,7 +46210,7 @@ recipesData.plat.couscous_algerien = {
     },
 
     ar: {
-        title: "كسكس جزائري بالخضار والدجاج (تكفي 4 أشخاص)",
+        title: "كسكس بالخضار والدجاج (الجزائر)",
         equipment: [
             "1 قدر الكسكس أو قدر كبير",
             "1 سكين",
@@ -46368,7 +46235,6 @@ recipesData.plat.couscous_algerien = {
             "بضع أوراق كزبرة وبقدونس طازج (5 غ لكل منهما) للتزيين"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخّن 2 ملعقة كبيرة زيت زيتون في أسفل قدر الكسكس أو القدر الكبير.\n" +
             "2. اقلي البصل 3-4 دقائق حتى يصبح شفافاً.\n" +
             "3. أضف قطع الدجاج واقلب 5 دقائق حتى يتحمر.\n" +
@@ -46383,10 +46249,18 @@ recipesData.plat.couscous_algerien = {
 };
 recipesData.plat.couscous_legumes = {
     country: "afrique",
-    countryName: "algerie",
-    image: "images/couscous_legumes.jpg",
+    countryName: "Algérie",
+    image: "images/couscous_legumes-algerie.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Couscous aux légumes (Algérie, 4 personnes)",
+        title: "Couscous aux légumes (Algérie)",
         equipment: [
             "1 couscoussier",
             "1 couteau",
@@ -46410,7 +46284,6 @@ recipesData.plat.couscous_legumes = {
             "1/2 bouquet coriandre (10 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Couper tous les légumes en dés, hacher l’oignon.\n" +
             "2. Chauffer l’huile dans la marmite du couscoussier, faire revenir l’oignon 2 min.\n" +
             "3. Ajouter les légumes, sel, poivre, paprika et cumin, cuire 5 min.\n" +
@@ -46418,8 +46291,9 @@ recipesData.plat.couscous_legumes = {
             "5. Préparer la semoule à la vapeur 10 min, puis égrainer avec une fourchette.\n" +
             "6. Servir la semoule chaude avec les légumes et parsemer de coriandre."
     },
+
     en: {
-        title: "Algerian Vegetable Couscous (Serves 4)",
+        title: "Algerian Vegetable Couscous (Algérie)",
         equipment: [
             "1 couscoussier",
             "1 knife",
@@ -46443,7 +46317,6 @@ recipesData.plat.couscous_legumes = {
             "1/2 bunch fresh coriander (10 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Dice all vegetables, chop onion.\n" +
             "2. Heat oil in couscoussier pot, sauté onion 2 min.\n" +
             "3. Add vegetables, salt, pepper, paprika, and cumin, cook 5 min.\n" +
@@ -46451,8 +46324,9 @@ recipesData.plat.couscous_legumes = {
             "5. Steam couscous 10 min, then fluff with fork.\n" +
             "6. Serve couscous hot with vegetables, sprinkle with coriander."
     },
+
     nl: {
-        title: "Algerijnse Couscous met Groenten (voor 4 personen)",
+        title: "Algerijnse Couscous met Groenten (Algérie)",
         equipment: [
             "1 couscouspan",
             "1 mes",
@@ -46476,7 +46350,6 @@ recipesData.plat.couscous_legumes = {
             "1/2 bos verse koriander (10 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Snijd alle groenten in blokjes, hak ui.\n" +
             "2. Verhit olie in couscouspan, bak ui 2 min.\n" +
             "3. Voeg groenten, zout, peper, paprika en komijn toe, bak 5 min.\n" +
@@ -46484,8 +46357,9 @@ recipesData.plat.couscous_legumes = {
             "5. Stoom couscous 10 min, maak los met vork.\n" +
             "6. Serveer warme couscous met groenten, bestrooi met koriander."
     },
+
     ar: {
-        title: "كسكس بالخضار (الجزائر، تكفي 4 أشخاص)",
+        title: "كسكس بالخضار (الجزائر)",
         equipment: [
             "1 قدر كسكس",
             "سكين",
@@ -46509,21 +46383,28 @@ recipesData.plat.couscous_legumes = {
             "1/2 حزمة كزبرة طازجة (10 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع جميع الخضار إلى مكعبات، فرم البصل.\n" +
-            "2. سخّن الزيت في قدر الكسكس، واقلي البصل 2 دقيقة.\n" +
-            "3. أضف الخضار، الملح، الفلفل، البابريكا والكمون، واطه 5 دقائق.\n" +
-            "4. أضف 500 مل ماء واتركه يغلي.\n" +
-            "5. حضّر السميد على البخار 10 دقائق، ثم افكه بالشوكة.\n" +
-            "6. قدم الكسكس ساخناً مع الخضار ورش الكزبرة الطازجة."
+            "1. قطع جميع الخضار إلى مكعبات وفرم البصل.\n" +
+            "2. سخّن الزيت في قدر الكسكس واقلِ البصل لمدة دقيقتين.\n" +
+            "3. أضف الخضار والملح والفلفل والبابريكا والكمون واطه لمدة 5 دقائق.\n" +
+            "4. أضف 500 مل من الماء واتركه حتى يغلي.\n" +
+            "5. اطه السميد على البخار لمدة 10 دقائق ثم فكّه بالشوكة.\n" +
+            "6. قدّم الكسكس ساخناً مع الخضار ورش الكزبرة الطازجة."
     }
 };
 recipesData.plat.tajine_kefta = {
     country: "afrique",
-    countryName: "algerie",
-    image: "images/tajine_kefta.jpg",
+    countryName: "Algérie",
+    image: "images/tajine_kefta-algerie.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tajine de kefta (Algérie, 4 personnes)",
+        title: "Tajine de kefta (Algérie)",
         equipment: [
             "1 poêle profonde ou plat à tajine",
             "1 couteau",
@@ -46545,7 +46426,6 @@ recipesData.plat.tajine_kefta = {
             "2 cuillères à soupe huile d’olive (30 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Hacher l’oignon et les herbes, mélanger avec la viande, paprika, cumin, sel et poivre.\n" +
             "2. Former des boulettes de kefta.\n" +
             "3. Chauffer l’huile dans la poêle, faire revenir les boulettes 5 min.\n" +
@@ -46553,8 +46433,9 @@ recipesData.plat.tajine_kefta = {
             "5. Casser les œufs sur le dessus, couvrir et cuire encore 5 min jusqu’à ce que les œufs soient pris.\n" +
             "6. Servir chaud avec pain ou semoule."
     },
+
     en: {
-        title: "Algerian Kefta Tajine (Serves 4)",
+        title: "Algerian Kefta Tajine (Algérie)",
         equipment: [
             "1 deep pan or tajine dish",
             "1 knife",
@@ -46576,7 +46457,6 @@ recipesData.plat.tajine_kefta = {
             "2 tbsp olive oil (30 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Chop onion and herbs, mix with meat, paprika, cumin, salt, and pepper.\n" +
             "2. Form small meatballs.\n" +
             "3. Heat oil in pan, brown meatballs 5 min.\n" +
@@ -46584,8 +46464,9 @@ recipesData.plat.tajine_kefta = {
             "5. Crack eggs on top, cover and cook 5 min until eggs set.\n" +
             "6. Serve hot with bread or couscous."
     },
+
     nl: {
-        title: "Algerijnse Kefta Tajine (voor 4 personen)",
+        title: "Algerijnse Kefta Tajine (Algérie)",
         equipment: [
             "1 diepe pan of tajineschaal",
             "1 mes",
@@ -46607,7 +46488,6 @@ recipesData.plat.tajine_kefta = {
             "2 el olijfolie (30 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Hak ui en kruiden, meng met gehakt, paprika, komijn, zout en peper.\n" +
             "2. Vorm kleine gehaktballetjes.\n" +
             "3. Verhit olie in pan, bak gehaktballetjes 5 min.\n" +
@@ -46615,8 +46495,9 @@ recipesData.plat.tajine_kefta = {
             "5. Breek eieren erop, dek af en bak 5 min tot eieren gestold zijn.\n" +
             "6. Serveer warm met brood of couscous."
     },
+
     ar: {
-        title: "طاجين الكفتة (الجزائر، تكفي 4 أشخاص)",
+        title: "طاجين الكفتة (الجزائر)",
         equipment: [
             "1 مقلاة عميقة أو طبق طاجين",
             "سكين",
@@ -46638,21 +46519,28 @@ recipesData.plat.tajine_kefta = {
             "2 ملعقة كبيرة زيت زيتون (30 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. فرم البصل والأعشاب، وامزج مع اللحم، البابريكا، الكمون، الملح والفلفل.\n" +
-            "2. شكل كرات صغيرة من اللحم.\n" +
-            "3. سخّن الزيت في المقلاة، وحمّر الكرات 5 دقائق.\n" +
-            "4. أضف الطماطم المقطعة، غطِّ المقلاة واطه 15 دقيقة على نار متوسطة.\n" +
-            "5. اكسر البيض على الوجه، غطِّ واطه 5 دقائق حتى يتماسك البيض.\n" +
-            "6. قدمه ساخناً مع الخبز أو الكسكس."
+            "1. فرم البصل والأعشاب وامزجها مع اللحم والبابريكا والكمون والملح والفلفل.\n" +
+            "2. شكّل كرات صغيرة من اللحم.\n" +
+            "3. سخّن الزيت في المقلاة وحمّر الكرات لمدة 5 دقائق.\n" +
+            "4. أضف الطماطم المقطعة وغطِّ المقلاة واطه 15 دقيقة على نار متوسطة.\n" +
+            "5. اكسر البيض فوق الكفتة وغطِّ واطه 5 دقائق حتى يتماسك البيض.\n" +
+            "6. قدّم الطبق ساخناً مع الخبز أو الكسكس."
     }
 };
 recipesData.plat.chakhchoukha = {
     country: "afrique",
-    countryName: "algerie",
-    image: "images/chakhchoukha.jpg",
+    countryName: "Algérie",
+    image: "images/chakhchoukha-algerie.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Chakhchoukha (Algérie, 4 personnes)",
+        title: "Chakhchoukha (Algérie)",
         equipment: [
             "1 grande poêle",
             "1 couteau",
@@ -46674,17 +46562,17 @@ recipesData.plat.chakhchoukha = {
             "1/2 bouquet coriandre (10 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préparer la semoule, former de petites galettes et cuire à la vapeur 10 min.\n" +
             "2. Couper le poulet en morceaux, hacher l’oignon, couper tomates et poivron en dés.\n" +
             "3. Chauffer l’huile, faire revenir l’oignon 2 min, ajouter le poulet 5 min.\n" +
             "4. Ajouter tomates, poivron, paprika, cumin, sel et poivre, cuire 15 min.\n" +
-            "5. Déchirer les galettes de semoule en morceaux, les disposer dans un plat.\n" +
+            "5. Déchirer les galettes de semoule en morceaux et les disposer dans un plat.\n" +
             "6. Verser le mélange de poulet et légumes dessus.\n" +
             "7. Parsemer de coriandre et servir chaud."
     },
+
     en: {
-        title: "Algerian Chakhchoukha (Serves 4)",
+        title: "Algerian Chakhchoukha (Algérie)",
         equipment: [
             "1 large pan",
             "1 knife",
@@ -46706,17 +46594,17 @@ recipesData.plat.chakhchoukha = {
             "1/2 bunch fresh coriander (10 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Prepare semolina, form small flatcakes, steam 10 min.\n" +
             "2. Cut chicken into pieces, chop onion, dice tomatoes and bell pepper.\n" +
             "3. Heat oil, sauté onion 2 min, add chicken 5 min.\n" +
-            "4. Add tomatoes, bell pepper, paprika, cumin, salt, pepper, cook 15 min.\n" +
-            "5. Tear semolina cakes into pieces, place in serving dish.\n" +
+            "4. Add tomatoes, bell pepper, paprika, cumin, salt, and pepper, cook 15 min.\n" +
+            "5. Tear semolina cakes into pieces and place in a serving dish.\n" +
             "6. Pour chicken and vegetable mixture over semolina.\n" +
-            "7. Sprinkle coriander and serve hot."
+            "7. Sprinkle with coriander and serve hot."
     },
+
     nl: {
-        title: "Algerijnse Chakhchoukha (voor 4 personen)",
+        title: "Algerijnse Chakhchoukha (Algérie)",
         equipment: [
             "1 grote pan",
             "1 mes",
@@ -46730,7 +46618,7 @@ recipesData.plat.chakhchoukha = {
             "1 ui (100 g)",
             "2 tomaten (200 g)",
             "1 paprika (120 g)",
-            "1 tl paprika poeder",
+            "1 tl paprikapoeder",
             "1/2 tl komijn",
             "1/2 tl zout",
             "1/4 tl peper",
@@ -46738,17 +46626,17 @@ recipesData.plat.chakhchoukha = {
             "1/2 bos verse koriander (10 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bereid couscous, vorm kleine pannenkoekjes, stoom 10 min.\n" +
-            "2. Snijd kip in stukjes, hak ui, snijd tomaten en paprika in blokjes.\n" +
-            "3. Verhit olie, bak ui 2 min, voeg kip toe 5 min.\n" +
-            "4. Voeg tomaten, paprika, paprika poeder, komijn, zout en peper toe, bak 15 min.\n" +
-            "5. Scheur couscouspannenkoekjes in stukken, leg in schaal.\n" +
-            "6. Giet kip-groentemengsel over couscous.\n" +
+            "1. Bereid couscous, vorm kleine pannenkoekjes en stoom 10 min.\n" +
+            "2. Snijd kip in stukjes, hak ui en snijd tomaten en paprika in blokjes.\n" +
+            "3. Verhit olie, bak ui 2 min en voeg kip toe voor 5 min.\n" +
+            "4. Voeg tomaten, paprika, paprikapoeder, komijn, zout en peper toe en bak 15 min.\n" +
+            "5. Scheur couscouspannenkoekjes in stukken en leg in een schaal.\n" +
+            "6. Giet het kip-groentemengsel over de couscous.\n" +
             "7. Bestrooi met koriander en serveer warm."
     },
+
     ar: {
-        title: "الشخشوخة (الجزائر، تكفي 4 أشخاص)",
+        title: "الشخشوخة (الجزائر)",
         equipment: [
             "1 مقلاة كبيرة",
             "سكين",
@@ -46770,22 +46658,29 @@ recipesData.plat.chakhchoukha = {
             "1/2 حزمة كزبرة طازجة (10 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضّر السميد، شكل فطائر صغيرة، واطه على البخار 10 دقائق.\n" +
-            "2. قطع الدجاج، فرم البصل، وقطع الطماطم والفلفل.\n" +
-            "3. سخّن الزيت، واقلي البصل 2 دقيقة، ثم أضف الدجاج 5 دقائق.\n" +
-            "4. أضف الطماطم والفلفل والبابريكا والكمون والملح والفلفل، واطه 15 دقيقة.\n" +
-            "5. مزّق فطائر السميد إلى قطع، وضعها في طبق التقديم.\n" +
-            "6. صب خليط الدجاج والخضار فوق السميد.\n" +
-            "7. رش الكزبرة وقدّم الطبق ساخناً."
+            "1. حضّر السميد وشكّل فطائر صغيرة واطهها على البخار لمدة 10 دقائق.\n" +
+            "2. قطّع الدجاج وفرم البصل وقطّع الطماطم والفلفل.\n" +
+            "3. سخّن الزيت واقلِ البصل لمدة دقيقتين ثم أضف الدجاج لمدة 5 دقائق.\n" +
+            "4. أضف الطماطم والفلفل والبابريكا والكمون والملح والفلفل واطه 15 دقيقة.\n" +
+            "5. مزّق فطائر السميد إلى قطع وضعها في طبق التقديم.\n" +
+            "6. اسكب خليط الدجاج والخضار فوق السميد.\n" +
+            "7. رشّ الكزبرة وقدّم الطبق ساخناً."
     }
 };
 recipesData.plat.rechta = {
     country: "afrique",
-    countryName: "algerie",
-    image: "images/rechta.jpg",
+    countryName: "Algérie",
+    image: "images/rechta-algerie.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Rechta (Algérie, 4 personnes)",
+        title: "Rechta (Algérie)",
         equipment: [
             "1 grande casserole",
             "1 poêle",
@@ -46807,16 +46702,16 @@ recipesData.plat.rechta = {
             "1/2 bouquet coriandre (10 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Cuire les pâtes Rechta selon instructions, égoutter et réserver.\n" +
             "2. Hacher l’oignon, chauffer l’huile et faire revenir l’oignon 2 min.\n" +
-            "3. Ajouter le poulet, sel, poivre, cannelle et curcuma, cuire 5 min.\n" +
+            "3. Ajouter le poulet, le sel, le poivre, la cannelle et le curcuma, cuire 5 min.\n" +
             "4. Ajouter le bouillon et cuire 20 min jusqu’à ce que le poulet soit tendre.\n" +
-            "5. Ajouter les pâtes, mélanger doucement pour bien enrober de sauce.\n" +
+            "5. Ajouter les pâtes et mélanger doucement pour bien les enrober de sauce.\n" +
             "6. Parsemer de coriandre et servir chaud."
     },
+
     en: {
-        title: "Algerian Rechta (Serves 4)",
+        title: "Algerian Rechta (Algérie)",
         equipment: [
             "1 large pot",
             "1 pan",
@@ -46838,16 +46733,16 @@ recipesData.plat.rechta = {
             "1/2 bunch fresh coriander (10 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cook Rechta pasta according to package, drain and set aside.\n" +
-            "2. Chop onion, heat oil, sauté onion 2 min.\n" +
-            "3. Add chicken, salt, pepper, cinnamon, and turmeric, cook 5 min.\n" +
-            "4. Add broth, cook 20 min until chicken is tender.\n" +
-            "5. Add pasta, mix gently to coat with sauce.\n" +
-            "6. Sprinkle coriander and serve hot."
+            "1. Cook Rechta pasta according to instructions, drain and set aside.\n" +
+            "2. Chop onion, heat oil and sauté onion for 2 min.\n" +
+            "3. Add chicken, salt, pepper, cinnamon and turmeric, cook 5 min.\n" +
+            "4. Add broth and cook 20 min until chicken is tender.\n" +
+            "5. Add pasta and gently mix to coat with sauce.\n" +
+            "6. Sprinkle with coriander and serve hot."
     },
+
     nl: {
-        title: "Algerijnse Rechta (voor 4 personen)",
+        title: "Algerijnse Rechta (Algérie)",
         equipment: [
             "1 grote pan",
             "1 koekenpan",
@@ -46869,16 +46764,16 @@ recipesData.plat.rechta = {
             "1/2 bos verse koriander (10 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Kook Rechta pasta volgens instructies, giet af en zet opzij.\n" +
-            "2. Hak ui, verhit olie, bak ui 2 min.\n" +
-            "3. Voeg kip, zout, peper, kaneel en kurkuma toe, bak 5 min.\n" +
-            "4. Voeg bouillon toe, bak 20 min tot kip gaar is.\n" +
-            "5. Voeg pasta toe, meng voorzichtig met saus.\n" +
+            "2. Hak ui, verhit olie en bak ui 2 min.\n" +
+            "3. Voeg kip, zout, peper, kaneel en kurkuma toe en bak 5 min.\n" +
+            "4. Voeg bouillon toe en laat 20 min koken tot kip gaar is.\n" +
+            "5. Voeg pasta toe en meng voorzichtig met de saus.\n" +
             "6. Bestrooi met koriander en serveer warm."
     },
+
     ar: {
-        title: "الرشتة (الجزائر، تكفي 4 أشخاص)",
+        title: "الرشتة (الجزائر)",
         equipment: [
             "1 قدر كبير",
             "1 مقلاة",
@@ -46888,7 +46783,7 @@ recipesData.plat.rechta = {
             "ملعقة خشبية"
         ],
         ingredients: [
-            "200 غ معكرونة رشتة (أو linguine رفيعة)",
+            "200 غ معكرونة رشتة (أو معكرونة رفيعة)",
             "200 غ دجاج مقطع",
             "1 بصل (100 غ)",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
@@ -46900,287 +46795,28 @@ recipesData.plat.rechta = {
             "1/2 حزمة كزبرة طازجة (10 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اطه المعكرونة حسب التعليمات، صفها واتركها جانباً.\n" +
-            "2. فرم البصل، سخن الزيت، واقلي البصل 2 دقيقة.\n" +
-            "3. أضف الدجاج، الملح، الفلفل، القرفة والكركم، واطه 5 دقائق.\n" +
+            "1. اطه المعكرونة حسب التعليمات ثم صفها واتركها جانباً.\n" +
+            "2. فرم البصل وسخّن الزيت واقلِ البصل لمدة دقيقتين.\n" +
+            "3. أضف الدجاج والملح والفلفل والقرفة والكركم واطه 5 دقائق.\n" +
             "4. أضف المرق واطه 20 دقيقة حتى ينضج الدجاج.\n" +
-            "5. أضف المعكرونة، وقلّب برفق لتغطي بالصوص.\n" +
-            "6. رش الكزبرة وقدم الطبق ساخناً."
-    }
-};
-recipesData.plat.couscous_legumes = {
-    country: "afrique",
-    countryName: "algerie",
-    image: "images/couscous_legumes.jpg",
-    fr: {
-        title: "Couscous aux légumes et pois chiches (Algérie, 4 personnes)",
-        equipment: [
-            "1 couscoussier ou grande casserole",
-            "1 cuillère en bois",
-            "1 couteau",
-            "1 planche à découper",
-            "1 bol"
-        ],
-        ingredients: [
-            "250 g couscous moyen",
-            "1 carotte (100 g)",
-            "1 courgette (150 g)",
-            "1 poivron (120 g)",
-            "1 oignon (100 g)",
-            "100 g pois chiches cuits",
-            "1/2 cuillère à café paprika",
-            "1/4 cuillère à café curcuma",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 litre bouillon de légumes"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper tous les légumes en morceaux moyens.\n" +
-            "2. Chauffer l’huile dans le couscoussier, faire revenir l’oignon 2 min.\n" +
-            "3. Ajouter les légumes, paprika, curcuma, sel et poivre, cuire 5 min.\n" +
-            "4. Ajouter le bouillon et les pois chiches, cuire 20 min jusqu’à tendreté.\n" +
-            "5. Préparer le couscous selon instructions.\n" +
-            "6. Servir le couscous dans un plat, verser les légumes et bouillon dessus."
-    },
-    en: {
-        title: "Couscous with Vegetables and Chickpeas (Serves 4)",
-        equipment: [
-            "1 couscoussier or large pot",
-            "1 wooden spoon",
-            "1 knife",
-            "1 cutting board",
-            "1 bowl"
-        ],
-        ingredients: [
-            "250 g medium couscous",
-            "1 carrot (100 g)",
-            "1 zucchini (150 g)",
-            "1 bell pepper (120 g)",
-            "1 onion (100 g)",
-            "100 g cooked chickpeas",
-            "1/2 tsp paprika",
-            "1/4 tsp turmeric",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 liter vegetable broth"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Cut all vegetables into medium pieces.\n" +
-            "2. Heat oil in couscoussier, sauté onion 2 min.\n" +
-            "3. Add vegetables, paprika, turmeric, salt, and pepper, cook 5 min.\n" +
-            "4. Add broth and chickpeas, cook 20 min until tender.\n" +
-            "5. Prepare couscous as instructed.\n" +
-            "6. Serve couscous in a dish, pour vegetables and broth on top."
-    },
-    nl: {
-        title: "Couscous met groenten en kikkererwten (voor 4 personen)",
-        equipment: [
-            "1 couscouspan of grote pan",
-            "1 houten lepel",
-            "1 mes",
-            "1 snijplank",
-            "1 kom"
-        ],
-        ingredients: [
-            "250 g couscous middelgroot",
-            "1 wortel (100 g)",
-            "1 courgette (150 g)",
-            "1 paprika (120 g)",
-            "1 ui (100 g)",
-            "100 g gekookte kikkererwten",
-            "1/2 tl paprika",
-            "1/4 tl kurkuma",
-            "1/2 tl zout",
-            "1/4 tl peper",
-            "2 el olijfolie (30 ml)",
-            "1/2 liter groentebouillon"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd alle groenten in middelgrote stukken.\n" +
-            "2. Verhit olie in couscouspan, bak ui 2 min.\n" +
-            "3. Voeg groenten, paprika, kurkuma, zout en peper toe, bak 5 min.\n" +
-            "4. Voeg bouillon en kikkererwten toe, bak 20 min tot gaar.\n" +
-            "5. Bereid couscous volgens instructies.\n" +
-            "6. Serveer couscous in schaal, giet groenten en bouillon erover."
-    },
-    ar: {
-        title: "كسكس بالخضار والحمص (الجزائر، تكفي 4 أشخاص)",
-        equipment: [
-            "1 قدر الكسكس أو قدر كبير",
-            "1 ملعقة خشبية",
-            "سكين",
-            "لوح تقطيع",
-            "وعاء"
-        ],
-        ingredients: [
-            "250 غ كسكس متوسط الحجم",
-            "1 جزر (100 غ)",
-            "1 كوسة (150 غ)",
-            "1 فلفل (120 غ)",
-            "1 بصل (100 غ)",
-            "100 غ حمص مسلوق",
-            "1/2 ملعقة صغيرة بابريكا",
-            "1/4 ملعقة صغيرة كركم",
-            "1/2 ملعقة صغيرة ملح",
-            "1/4 ملعقة صغيرة فلفل",
-            "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 لتر مرق خضار"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع جميع الخضار إلى قطع متوسطة.\n" +
-            "2. سخّن الزيت في قدر الكسكس، واقلي البصل 2 دقيقة.\n" +
-            "3. أضف الخضار، البابريكا، الكركم، الملح والفلفل، اطه 5 دقائق.\n" +
-            "4. أضف المرق والحمص، اطه 20 دقيقة حتى تنضج.\n" +
-            "5. حضّر الكسكس حسب التعليمات.\n" +
-            "6. قدم الكسكس في طبق، وصب الخضار والمرق فوقه."
-    }
-};
-recipesData.plat.couscous_legumes = {
-    country: "afrique",
-    countryName: "algerie",
-    image: "images/couscous_legumes.jpg",
-    fr: {
-        title: "Couscous aux légumes et pois chiches (Algérie, 4 personnes)",
-        equipment: [
-            "1 couscoussier ou grande casserole",
-            "1 cuillère en bois",
-            "1 couteau",
-            "1 planche à découper",
-            "1 bol"
-        ],
-        ingredients: [
-            "250 g couscous moyen",
-            "1 carotte (100 g)",
-            "1 courgette (150 g)",
-            "1 poivron (120 g)",
-            "1 oignon (100 g)",
-            "100 g pois chiches cuits",
-            "1/2 cuillère à café paprika",
-            "1/4 cuillère à café curcuma",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 litre bouillon de légumes"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper tous les légumes en morceaux moyens.\n" +
-            "2. Chauffer l’huile dans le couscoussier, faire revenir l’oignon 2 min.\n" +
-            "3. Ajouter les légumes, paprika, curcuma, sel et poivre, cuire 5 min.\n" +
-            "4. Ajouter le bouillon et les pois chiches, cuire 20 min jusqu’à tendreté.\n" +
-            "5. Préparer le couscous selon instructions.\n" +
-            "6. Servir le couscous dans un plat, verser les légumes et bouillon dessus."
-    },
-    en: {
-        title: "Couscous with Vegetables and Chickpeas (Serves 4)",
-        equipment: [
-            "1 couscoussier or large pot",
-            "1 wooden spoon",
-            "1 knife",
-            "1 cutting board",
-            "1 bowl"
-        ],
-        ingredients: [
-            "250 g medium couscous",
-            "1 carrot (100 g)",
-            "1 zucchini (150 g)",
-            "1 bell pepper (120 g)",
-            "1 onion (100 g)",
-            "100 g cooked chickpeas",
-            "1/2 tsp paprika",
-            "1/4 tsp turmeric",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 liter vegetable broth"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Cut all vegetables into medium pieces.\n" +
-            "2. Heat oil in couscoussier, sauté onion 2 min.\n" +
-            "3. Add vegetables, paprika, turmeric, salt, and pepper, cook 5 min.\n" +
-            "4. Add broth and chickpeas, cook 20 min until tender.\n" +
-            "5. Prepare couscous as instructed.\n" +
-            "6. Serve couscous in a dish, pour vegetables and broth on top."
-    },
-    nl: {
-        title: "Couscous met groenten en kikkererwten (voor 4 personen)",
-        equipment: [
-            "1 couscouspan of grote pan",
-            "1 houten lepel",
-            "1 mes",
-            "1 snijplank",
-            "1 kom"
-        ],
-        ingredients: [
-            "250 g couscous middelgroot",
-            "1 wortel (100 g)",
-            "1 courgette (150 g)",
-            "1 paprika (120 g)",
-            "1 ui (100 g)",
-            "100 g gekookte kikkererwten",
-            "1/2 tl paprika",
-            "1/4 tl kurkuma",
-            "1/2 tl zout",
-            "1/4 tl peper",
-            "2 el olijfolie (30 ml)",
-            "1/2 liter groentebouillon"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd alle groenten in middelgrote stukken.\n" +
-            "2. Verhit olie in couscouspan, bak ui 2 min.\n" +
-            "3. Voeg groenten, paprika, kurkuma, zout en peper toe, bak 5 min.\n" +
-            "4. Voeg bouillon en kikkererwten toe, bak 20 min tot gaar.\n" +
-            "5. Bereid couscous volgens instructies.\n" +
-            "6. Serveer couscous in schaal, giet groenten en bouillon erover."
-    },
-    ar: {
-        title: "كسكس بالخضار والحمص (الجزائر، تكفي 4 أشخاص)",
-        equipment: [
-            "1 قدر الكسكس أو قدر كبير",
-            "1 ملعقة خشبية",
-            "سكين",
-            "لوح تقطيع",
-            "وعاء"
-        ],
-        ingredients: [
-            "250 غ كسكس متوسط الحجم",
-            "1 جزر (100 غ)",
-            "1 كوسة (150 غ)",
-            "1 فلفل (120 غ)",
-            "1 بصل (100 غ)",
-            "100 غ حمص مسلوق",
-            "1/2 ملعقة صغيرة بابريكا",
-            "1/4 ملعقة صغيرة كركم",
-            "1/2 ملعقة صغيرة ملح",
-            "1/4 ملعقة صغيرة فلفل",
-            "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 لتر مرق خضار"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع جميع الخضار إلى قطع متوسطة.\n" +
-            "2. سخّن الزيت في قدر الكسكس، واقلي البصل 2 دقيقة.\n" +
-            "3. أضف الخضار، البابريكا، الكركم، الملح والفلفل، اطه 5 دقائق.\n" +
-            "4. أضف المرق والحمص، اطه 20 دقيقة حتى تنضج.\n" +
-            "5. حضّر الكسكس حسب التعليمات.\n" +
-            "6. قدم الكسكس في طبق، وصب الخضار والمرق فوقه."
+            "5. أضف المعكرونة وقلّب برفق حتى تتغطى بالصلصة.\n" +
+            "6. رش الكزبرة وقدّم الطبق ساخناً."
     }
 };
 recipesData.plat.tajine_zitoun = {
     country: "afrique",
-    countryName: "algerie",
+    countryName: "Algérie",
     image: "images/tajine_zitoun.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 40,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tajine Zitoun (Algérie, 4 personnes)",
+        title: "Tajine Zitoun (Algérie)",
         equipment: [
             "1 tajine ou grande casserole",
             "1 cuillère en bois",
@@ -47202,16 +46838,16 @@ recipesData.plat.tajine_zitoun = {
             "1/2 bouquet coriandre (10 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Émincer l’oignon et l’ail.\n" +
-            "2. Chauffer l’huile dans le tajine, faire revenir oignon et ail 3 min.\n" +
-            "3. Ajouter le poulet, sel, poivre, curcuma et paprika, cuire 5 min.\n" +
+            "2. Chauffer l’huile dans le tajine et faire revenir l’oignon et l’ail 3 min.\n" +
+            "3. Ajouter le poulet, le sel, le poivre, le curcuma et le paprika, cuire 5 min.\n" +
             "4. Verser le bouillon, couvrir et laisser mijoter 25 min.\n" +
             "5. Ajouter les olives et cuire 10 min supplémentaires.\n" +
             "6. Parsemer de coriandre hachée et servir chaud."
     },
+
     en: {
-        title: "Tajine Zitoun (Chicken with Olives, Serves 4)",
+        title: "Tajine Zitoun (Algérie)",
         equipment: [
             "1 tajine or large pot",
             "1 wooden spoon",
@@ -47233,16 +46869,16 @@ recipesData.plat.tajine_zitoun = {
             "1/2 bunch fresh coriander (10 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Slice onion and garlic.\n" +
-            "2. Heat oil in tajine, sauté onion and garlic 3 min.\n" +
-            "3. Add chicken, salt, pepper, turmeric, paprika, cook 5 min.\n" +
-            "4. Pour in broth, cover and simmer 25 min.\n" +
-            "5. Add olives and cook 10 min more.\n" +
+            "2. Heat oil in the tajine and sauté onion and garlic for 3 min.\n" +
+            "3. Add chicken, salt, pepper, turmeric and paprika, cook 5 min.\n" +
+            "4. Pour in broth, cover and simmer for 25 min.\n" +
+            "5. Add olives and cook for 10 more minutes.\n" +
             "6. Sprinkle with chopped coriander and serve hot."
     },
+
     nl: {
-        title: "Tajine Zitoun (Kip met Olijven, voor 4 personen)",
+        title: "Tajine Zitoun (Algérie)",
         equipment: [
             "1 tajine of grote pan",
             "1 houten lepel",
@@ -47264,16 +46900,16 @@ recipesData.plat.tajine_zitoun = {
             "1/2 bos verse koriander (10 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Snijd ui en knoflook.\n" +
-            "2. Verhit olie in tajine, bak ui en knoflook 3 min.\n" +
-            "3. Voeg kip, zout, peper, kurkuma, paprika toe, bak 5 min.\n" +
+            "2. Verhit olie in de tajine en bak ui en knoflook 3 min.\n" +
+            "3. Voeg kip, zout, peper, kurkuma en paprika toe en bak 5 min.\n" +
             "4. Voeg bouillon toe, dek af en laat 25 min sudderen.\n" +
             "5. Voeg olijven toe en kook nog 10 min.\n" +
-            "6. Bestrooi met gehakte koriander en serveer warm."
+            "6. Bestrooi met koriander en serveer warm."
     },
+
     ar: {
-        title: "طاجين الزيتون (الجزائر، تكفي 4 أشخاص)",
+        title: "طاجين الزيتون (الجزائر)",
         equipment: [
             "1 طاجين أو قدر كبير",
             "1 ملعقة خشبية",
@@ -47295,146 +46931,36 @@ recipesData.plat.tajine_zitoun = {
             "1/2 حزمة كزبرة طازجة (10 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. شرّح البصل والثوم.\n" +
-            "2. سخّن الزيت في الطاجين، واقل البصل والثوم 3 دقائق.\n" +
-            "3. أضف الدجاج، الملح، الفلفل، الكركم والبابريكا، اطه 5 دقائق.\n" +
-            "4. أضف المرق، غطّ القدر واتركه ينضج 25 دقيقة.\n" +
+            "1. قطّع البصل والثوم.\n" +
+            "2. سخّن الزيت في الطاجين واقلِ البصل والثوم لمدة 3 دقائق.\n" +
+            "3. أضف الدجاج والملح والفلفل والكركم والبابريكا واطه 5 دقائق.\n" +
+            "4. أضف المرق وغطِّ الطاجين واتركه ينضج 25 دقيقة.\n" +
             "5. أضف الزيتون واطه 10 دقائق إضافية.\n" +
-            "6. رش الكزبرة المفرومة وقدم الطبق ساخناً."
+            "6. رشّ الكزبرة المفرومة وقدّم الطبق ساخناً."
     }
 };
-recipesData.plat.chakchouka = {
-    country: "afrique",
-    countryName: "algerie",
-    image: "images/chakchouka.jpg",
-    fr: {
-        title: "Chakchouka (Algérie, 4 personnes)",
-        equipment: [
-            "1 grande poêle",
-            "1 couteau",
-            "1 planche à découper",
-            "1 cuillère en bois",
-            "1 bol"
-        ],
-        ingredients: [
-            "2 tomates (200 g)",
-            "1 poivron (120 g)",
-            "1 oignon (100 g)",
-            "2 gousses d’ail",
-            "4 œufs",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel",
-            "1/4 cuillère à café poivre",
-            "1/2 cuillère à café paprika",
-            "1/4 cuillère à café cumin"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Hacher les tomates, poivron, oignon et ail.\n" +
-            "2. Chauffer l’huile dans la poêle, faire revenir oignon et poivron 3 min.\n" +
-            "3. Ajouter tomates, sel, poivre, paprika et cumin, cuire 10 min.\n" +
-            "4. Faire des petits creux dans la préparation et casser un œuf dans chaque creux.\n" +
-            "5. Couvrir et cuire 5-6 min jusqu’à ce que les œufs soient pris.\n" +
-            "6. Servir chaud, accompagné de pain."
-    },
-    en: {
-        title: "Chakchouka (Egg & Vegetable Stew, Serves 4)",
-        equipment: [
-            "1 large pan",
-            "1 knife",
-            "1 cutting board",
-            "1 wooden spoon",
-            "1 bowl"
-        ],
-        ingredients: [
-            "2 tomatoes (200 g)",
-            "1 bell pepper (120 g)",
-            "1 onion (100 g)",
-            "2 garlic cloves",
-            "4 eggs",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt",
-            "1/4 tsp pepper",
-            "1/2 tsp paprika",
-            "1/4 tsp cumin"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Chop tomatoes, bell pepper, onion, and garlic.\n" +
-            "2. Heat oil in pan, sauté onion and bell pepper 3 min.\n" +
-            "3. Add tomatoes, salt, pepper, paprika, and cumin, cook 10 min.\n" +
-            "4. Make small wells in mixture, crack one egg in each.\n" +
-            "5. Cover and cook 5-6 min until eggs set.\n" +
-            "6. Serve hot with bread."
-    },
-    nl: {
-        title: "Chakchouka (Ei & Groenten Stoof, voor 4 personen)",
-        equipment: [
-            "1 grote pan",
-            "1 mes",
-            "1 snijplank",
-            "1 houten lepel",
-            "1 kom"
-        ],
-        ingredients: [
-            "2 tomaten (200 g)",
-            "1 paprika (120 g)",
-            "1 ui (100 g)",
-            "2 teentjes knoflook",
-            "4 eieren",
-            "2 el olijfolie (30 ml)",
-            "1/2 tl zout",
-            "1/4 tl peper",
-            "1/2 tl paprika",
-            "1/4 tl komijn"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Hak tomaten, paprika, ui en knoflook.\n" +
-            "2. Verhit olie in pan, bak ui en paprika 3 min.\n" +
-            "3. Voeg tomaten, zout, peper, paprika en komijn toe, bak 10 min.\n" +
-            "4. Maak kleine kuiltjes en breek een ei in elk kuiltje.\n" +
-            "5. Dek af en bak 5-6 min tot de eieren gaar zijn.\n" +
-            "6. Serveer warm met brood."
-    },
-    ar: {
-        title: "شكشوكة (الجزائر، تكفي 4 أشخاص)",
-        equipment: [
-            "1 مقلاة كبيرة",
-            "سكين",
-            "لوح تقطيع",
-            "ملعقة خشبية",
-            "وعاء"
-        ],
-        ingredients: [
-            "2 طماطم (200 غ)",
-            "1 فلفل (120 غ)",
-            "1 بصل (100 غ)",
-            "2 فص ثوم",
-            "4 بيضات",
-            "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح",
-            "1/4 ملعقة صغيرة فلفل",
-            "1/2 ملعقة صغيرة بابريكا",
-            "1/4 ملعقة صغيرة كمون"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اقطع الطماطم، الفلفل، البصل والثوم.\n" +
-            "2. سخّن الزيت في المقلاة، واقل البصل والفلفل 3 دقائق.\n" +
-            "3. أضف الطماطم، الملح، الفلفل، البابريكا والكمون، اطه 10 دقائق.\n" +
-            "4. اصنع حفر صغيرة في الخليط، واكسر بيضة في كل حفرة.\n" +
-            "5. غطِ المقلاة واطه 5-6 دقائق حتى يتماسك البيض.\n" +
-            "6. قدمه ساخناً مع الخبز."
-    }
-};
+
+
+
+
+
+
+
+
+
+
 recipesData.dessert.mkhabez = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/mkhabez.jpg",
+    image: "images/mkhabez-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 30,
+        cookTime: 20,
+        difficulty: "easy"
+    },
     fr: {
-        title: "M’khabez (Algérie, 4 personnes)",
+        title: "M’khabez (algerie)",
         equipment: [
             "1 plat allant au four",
             "1 couteau",
@@ -47452,7 +46978,6 @@ recipesData.dessert.mkhabez = {
             "Sucre glace pour décoration"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Mixer les amandes et le sucre glace jusqu’à obtenir une poudre fine.\n" +
             "2. Ajouter le beurre fondu et l’eau de fleur d’oranger, mélanger pour obtenir une pâte homogène.\n" +
             "3. Étaler la pâte sur une surface légèrement farinée.\n" +
@@ -47463,7 +46988,7 @@ recipesData.dessert.mkhabez = {
             "8. Laisser refroidir et saupoudrer de sucre glace avant de servir."
     },
     en: {
-        title: "M’khabez (Algerian, Serves 4)",
+        title: "M’khabez (algerie)",
         equipment: [
             "1 baking dish",
             "1 knife",
@@ -47481,7 +47006,6 @@ recipesData.dessert.mkhabez = {
             "Powdered sugar for decoration"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Blend almonds and powdered sugar to a fine powder.\n" +
             "2. Add melted butter and orange blossom water, mix to form a smooth dough.\n" +
             "3. Roll out dough on a lightly floured surface.\n" +
@@ -47492,7 +47016,7 @@ recipesData.dessert.mkhabez = {
             "8. Let cool and dust with powdered sugar before serving."
     },
     nl: {
-        title: "M’khabez (Algerije, voor 4 personen)",
+        title: "M’khabez (algerie)",
         equipment: [
             "1 ovenschaal",
             "1 mes",
@@ -47510,7 +47034,6 @@ recipesData.dessert.mkhabez = {
             "Poedersuiker voor decoratie"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Mix amandelen en poedersuiker tot een fijn poeder.\n" +
             "2. Voeg gesmolten boter en oranjebloesemwater toe en meng tot een glad deeg.\n" +
             "3. Rol het deeg uit op een licht bebloemd oppervlak.\n" +
@@ -47521,7 +47044,7 @@ recipesData.dessert.mkhabez = {
             "8. Laat afkoelen en bestrooi met poedersuiker voor serveren."
     },
     ar: {
-        title: "المقابز (الجزائر، تكفي 4 أشخاص)",
+        title: "المقابز (algerie)",
         equipment: [
             "1 صينية فرن",
             "1 سكين",
@@ -47539,128 +47062,6 @@ recipesData.dessert.mkhabez = {
             "سكر بودرة للزينة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط اللوز مع السكر البودرة حتى يصبح مسحوق ناعم.\n" +
-            "2. أضف الزبدة المذابة وماء الزهر واخلط حتى تتكون عجينة متجانسة.\n" +
-            "3. افرد العجينة على سطح مرشوش بالقليل من الطحين.\n" +
-            "4. قطع الأشكال باستخدام سكين أو قطاعة.\n" +
-            "5. ضعها على صينية مغطاة بورق الخبز.\n" +
-            "6. ادهن كل قطعة بصفار البيضة.\n" +
-            "7. اخبز 15-20 دقيقة على 180°C حتى تصبح ذهبية قليلاً.\n" +
-            "8. دعها تبرد ورشها بالسكر البودرة قبل التقديم."
-    }
-};
-recipesData.dessert.mkhabez = {
-    country: "afrique",
-    countryName: "algerie",
-    image: "images/mkhabez.jpg",
-    fr: {
-        title: "M’khabez (Algérie, 4 personnes)",
-        equipment: [
-            "1 plat allant au four",
-            "1 couteau",
-            "1 planche à découper",
-            "1 bol",
-            "1 cuillère",
-            "1 rouleau à pâtisserie"
-        ],
-        ingredients: [
-            "200 g amandes mondées",
-            "100 g sucre glace",
-            "50 g beurre fondu",
-            "1 cuillère à soupe eau de fleur d’oranger",
-            "1 jaune d’œuf pour dorure",
-            "Sucre glace pour décoration"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mixer les amandes et le sucre glace jusqu’à obtenir une poudre fine.\n" +
-            "2. Ajouter le beurre fondu et l’eau de fleur d’oranger, mélanger pour obtenir une pâte homogène.\n" +
-            "3. Étaler la pâte sur une surface légèrement farinée.\n" +
-            "4. Découper des formes avec un couteau ou emporte-pièce.\n" +
-            "5. Déposer sur un plat recouvert de papier cuisson.\n" +
-            "6. Badigeonner chaque biscuit avec le jaune d’œuf.\n" +
-            "7. Cuire 15-20 min à 180°C jusqu’à léger doré.\n" +
-            "8. Laisser refroidir et saupoudrer de sucre glace avant de servir."
-    },
-    en: {
-        title: "M’khabez (Algerian, Serves 4)",
-        equipment: [
-            "1 baking dish",
-            "1 knife",
-            "1 cutting board",
-            "1 bowl",
-            "1 spoon",
-            "1 rolling pin"
-        ],
-        ingredients: [
-            "200 g blanched almonds",
-            "100 g powdered sugar",
-            "50 g melted butter",
-            "1 tbsp orange blossom water",
-            "1 egg yolk for brushing",
-            "Powdered sugar for decoration"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Blend almonds and powdered sugar to a fine powder.\n" +
-            "2. Add melted butter and orange blossom water, mix to form a smooth dough.\n" +
-            "3. Roll out dough on a lightly floured surface.\n" +
-            "4. Cut shapes with a knife or cookie cutter.\n" +
-            "5. Place on a baking dish lined with parchment paper.\n" +
-            "6. Brush each cookie with egg yolk.\n" +
-            "7. Bake 15-20 min at 180°C until lightly golden.\n" +
-            "8. Let cool and dust with powdered sugar before serving."
-    },
-    nl: {
-        title: "M’khabez (Algerije, voor 4 personen)",
-        equipment: [
-            "1 ovenschaal",
-            "1 mes",
-            "1 snijplank",
-            "1 kom",
-            "1 lepel",
-            "1 deegroller"
-        ],
-        ingredients: [
-            "200 g blanke amandelen",
-            "100 g poedersuiker",
-            "50 g gesmolten boter",
-            "1 el oranjebloesemwater",
-            "1 eidooier voor glazuur",
-            "Poedersuiker voor decoratie"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Mix amandelen en poedersuiker tot een fijn poeder.\n" +
-            "2. Voeg gesmolten boter en oranjebloesemwater toe en meng tot een glad deeg.\n" +
-            "3. Rol het deeg uit op een licht bebloemd oppervlak.\n" +
-            "4. Snijd vormen met mes of uitsteker.\n" +
-            "5. Leg op een met bakpapier beklede ovenschaal.\n" +
-            "6. Bestrijk elk koekje met eidooier.\n" +
-            "7. Bak 15-20 min op 180°C tot licht goudbruin.\n" +
-            "8. Laat afkoelen en bestrooi met poedersuiker voor serveren."
-    },
-    ar: {
-        title: "المقابز (الجزائر، تكفي 4 أشخاص)",
-        equipment: [
-            "1 صينية فرن",
-            "1 سكين",
-            "لوح تقطيع",
-            "1 وعاء",
-            "1 ملعقة",
-            "1 نشابة"
-        ],
-        ingredients: [
-            "200 غ لوز مقشر",
-            "100 غ سكر بودرة",
-            "50 غ زبدة مذابة",
-            "1 ملعقة كبيرة ماء زهر",
-            "1 صفار بيضة للدهن",
-            "سكر بودرة للزينة"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اخلط اللوز مع السكر البودرة حتى يصبح مسحوق ناعم.\n" +
             "2. أضف الزبدة المذابة وماء الزهر واخلط حتى تتكون عجينة متجانسة.\n" +
             "3. افرد العجينة على سطح مرشوش بالقليل من الطحين.\n" +
@@ -47674,9 +47075,15 @@ recipesData.dessert.mkhabez = {
 recipesData.dessert.ghribia = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/ghribia.jpg",
+    image: "images/ghribia-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Ghribia (Algérie, 4 personnes)",
+        title: "Ghribia (algerie)",
         equipment: [
             "1 plat allant au four",
             "1 bol",
@@ -47691,7 +47098,6 @@ recipesData.dessert.ghribia = {
             "1 pincée sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Mélanger la farine, sucre glace, sel et amandes moulues dans un bol.\n" +
             "3. Ajouter le beurre fondu et mélanger jusqu’à obtenir une pâte homogène.\n" +
@@ -47702,7 +47108,7 @@ recipesData.dessert.ghribia = {
             "8. Laisser refroidir avant de servir."
     },
     en: {
-        title: "Ghribia (Algerian, Serves 4)",
+        title: "Ghribia (algerie)",
         equipment: [
             "1 baking dish",
             "1 bowl",
@@ -47717,7 +47123,6 @@ recipesData.dessert.ghribia = {
             "1 pinch salt"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. Mix flour, powdered sugar, salt and ground almonds in a bowl.\n" +
             "3. Add melted butter and mix to form a smooth dough.\n" +
@@ -47728,7 +47133,7 @@ recipesData.dessert.ghribia = {
             "8. Let cool before serving."
     },
     nl: {
-        title: "Ghribia (Algerije, voor 4 personen)",
+        title: "Ghribia (algerie)",
         equipment: [
             "1 ovenschaal",
             "1 kom",
@@ -47743,7 +47148,6 @@ recipesData.dessert.ghribia = {
             "1 snufje zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
             "2. Meng bloem, poedersuiker, zout en gemalen amandelen in een kom.\n" +
             "3. Voeg gesmolten boter toe en meng tot een glad deeg.\n" +
@@ -47754,7 +47158,7 @@ recipesData.dessert.ghribia = {
             "8. Laat afkoelen voor serveren."
     },
     ar: {
-        title: "غريبة (الجزائر، تكفي 4 أشخاص)",
+        title: "غريبة (الجزائر)",
         equipment: [
             "1 صينية فرن",
             "1 وعاء",
@@ -47769,7 +47173,6 @@ recipesData.dessert.ghribia = {
             "رشة ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخن الفرن على 180°C.\n" +
             "2. اخلط الدقيق والسكر البودرة والملح واللوز المطحون في وعاء.\n" +
             "3. أضف الزبدة المذابة واخلط حتى تصبح عجينة ناعمة.\n" +
@@ -47783,9 +47186,15 @@ recipesData.dessert.ghribia = {
 recipesData.dessert.kalb_el_louz = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/kalb_el_louz.jpg",
+    image: "images/kalb_el_louz-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 30,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Kalb el Louz (Algérie, 4 personnes)",
+        title: "Kalb el Louz (algerie)",
         equipment: [
             "1 plat allant au four",
             "1 bol",
@@ -47802,7 +47211,6 @@ recipesData.dessert.kalb_el_louz = {
             "1 cuillère à café eau de fleur d’oranger"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Mélanger semoule, amandes moulues, sucre et huile dans un bol.\n" +
             "3. Ajouter progressivement l’eau et former une pâte épaisse.\n" +
@@ -47815,7 +47223,7 @@ recipesData.dessert.kalb_el_louz = {
             "10. Servir à température ambiante."
     },
     en: {
-        title: "Kalb el Louz (Algerian, Serves 4)",
+        title: "Kalb el Louz (algerie)",
         equipment: [
             "1 baking dish",
             "1 bowl",
@@ -47832,7 +47240,6 @@ recipesData.dessert.kalb_el_louz = {
             "1 tsp orange blossom water"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. Mix semolina, ground almonds, sugar, and oil in a bowl.\n" +
             "3. Gradually add water to form a thick dough.\n" +
@@ -47845,7 +47252,7 @@ recipesData.dessert.kalb_el_louz = {
             "10. Serve at room temperature."
     },
     nl: {
-        title: "Kalb el Louz (Algerije, voor 4 personen)",
+        title: "Kalb el Louz (algerie)",
         equipment: [
             "1 ovenschaal",
             "1 kom",
@@ -47862,7 +47269,6 @@ recipesData.dessert.kalb_el_louz = {
             "1 tl oranjebloesemwater"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
             "2. Meng semolina, gemalen amandelen, suiker en olie in een kom.\n" +
             "3. Voeg geleidelijk water toe tot een dik deeg.\n" +
@@ -47875,7 +47281,7 @@ recipesData.dessert.kalb_el_louz = {
             "10. Serveer op kamertemperatuur."
     },
     ar: {
-        title: "قلب اللوز (الجزائر، تكفي 4 أشخاص)",
+        title: "قلب اللوز (الجزائر)",
         equipment: [
             "1 صينية فرن",
             "1 وعاء",
@@ -47892,7 +47298,6 @@ recipesData.dessert.kalb_el_louz = {
             "1 ملعقة صغيرة ماء زهر"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخن الفرن على 180°C.\n" +
             "2. اخلط السميد، اللوز المطحون، السكر والزيت في وعاء.\n" +
             "3. أضف الماء تدريجياً لتشكيل عجينة كثيفة.\n" +
@@ -47908,9 +47313,15 @@ recipesData.dessert.kalb_el_louz = {
 recipesData.dessert.tcharek = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/tcharek.jpg",
+    image: "images/tcharek-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 30,
+        cookTime: 25,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Tcharek aux amandes (Algérie, 4 personnes)",
+        title: "Tcharek aux amandes (algerie)",
         equipment: [
             "1 plat allant au four",
             "1 rouleau à pâtisserie",
@@ -47927,7 +47338,6 @@ recipesData.dessert.tcharek = {
             "Sucre glace pour saupoudrer"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Mélanger amandes moulues, sucre glace et cannelle.\n" +
             "3. Étaler la pâte feuilletée et couper en rectangles.\n" +
@@ -47939,7 +47349,7 @@ recipesData.dessert.tcharek = {
             "9. Servir à température ambiante."
     },
     en: {
-        title: "Tcharek with Almonds (Algerian, Serves 4)",
+        title: "Tcharek with Almonds (algerie)",
         equipment: [
             "1 baking dish",
             "1 rolling pin",
@@ -47956,7 +47366,6 @@ recipesData.dessert.tcharek = {
             "Powdered sugar for dusting"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. Mix ground almonds, powdered sugar, and cinnamon.\n" +
             "3. Roll out puff pastry and cut into rectangles.\n" +
@@ -47968,7 +47377,7 @@ recipesData.dessert.tcharek = {
             "9. Serve at room temperature."
     },
     nl: {
-        title: "Tcharek met Amandelen (Algerije, voor 4 personen)",
+        title: "Tcharek met amandelen (algerie)",
         equipment: [
             "1 ovenschaal",
             "1 deegrol",
@@ -47985,7 +47394,6 @@ recipesData.dessert.tcharek = {
             "Poedersuiker om te bestrooien"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
             "2. Meng gemalen amandelen, poedersuiker en kaneel.\n" +
             "3. Rol het bladerdeeg uit en snijd in rechthoeken.\n" +
@@ -47997,7 +47405,7 @@ recipesData.dessert.tcharek = {
             "9. Serveer op kamertemperatuur."
     },
     ar: {
-        title: "تشارك باللوز (الجزائر، تكفي 4 أشخاص)",
+        title: "تشارك باللوز (الجزائر)",
         equipment: [
             "1 صينية فرن",
             "1 نشابة",
@@ -48014,7 +47422,6 @@ recipesData.dessert.tcharek = {
             "سكر بودرة للرش"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخن الفرن على 180°C.\n" +
             "2. اخلط اللوز المطحون مع السكر البودرة والقرفة.\n" +
             "3. افرد العجينة وقطعها إلى مستطيلات.\n" +
@@ -48029,9 +47436,15 @@ recipesData.dessert.tcharek = {
 recipesData.dessert.tcharek = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/tcharek.jpg",
+    image: "images/tcharek-amande-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 30,
+        cookTime: 25,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Tcharek aux amandes (Algérie, 4 personnes)",
+        title: "Tcharek aux amandes (algerie)",
         equipment: [
             "1 plat allant au four",
             "1 rouleau à pâtisserie",
@@ -48048,7 +47461,6 @@ recipesData.dessert.tcharek = {
             "Sucre glace pour saupoudrer"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Mélanger amandes moulues, sucre glace et cannelle.\n" +
             "3. Étaler la pâte feuilletée et couper en rectangles.\n" +
@@ -48060,7 +47472,7 @@ recipesData.dessert.tcharek = {
             "9. Servir à température ambiante."
     },
     en: {
-        title: "Tcharek with Almonds (Algerian, Serves 4)",
+        title: "Tcharek with almonds (algerie)",
         equipment: [
             "1 baking dish",
             "1 rolling pin",
@@ -48077,7 +47489,6 @@ recipesData.dessert.tcharek = {
             "Powdered sugar for dusting"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. Mix ground almonds, powdered sugar, and cinnamon.\n" +
             "3. Roll out puff pastry and cut into rectangles.\n" +
@@ -48089,7 +47500,7 @@ recipesData.dessert.tcharek = {
             "9. Serve at room temperature."
     },
     nl: {
-        title: "Tcharek met Amandelen (Algerije, voor 4 personen)",
+        title: "Tcharek met amandelen (algerie)",
         equipment: [
             "1 ovenschaal",
             "1 deegrol",
@@ -48106,7 +47517,6 @@ recipesData.dessert.tcharek = {
             "Poedersuiker om te bestrooien"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
             "2. Meng gemalen amandelen, poedersuiker en kaneel.\n" +
             "3. Rol het bladerdeeg uit en snijd in rechthoeken.\n" +
@@ -48118,7 +47528,7 @@ recipesData.dessert.tcharek = {
             "9. Serveer op kamertemperatuur."
     },
     ar: {
-        title: "تشارك باللوز (الجزائر، تكفي 4 أشخاص)",
+        title: "تشارك باللوز (الجزائر)",
         equipment: [
             "1 صينية فرن",
             "1 نشابة",
@@ -48135,7 +47545,6 @@ recipesData.dessert.tcharek = {
             "سكر بودرة للرش"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخن الفرن على 180°C.\n" +
             "2. اخلط اللوز المطحون مع السكر البودرة والقرفة.\n" +
             "3. افرد العجينة وقطعها إلى مستطيلات.\n" +
@@ -48150,9 +47559,15 @@ recipesData.dessert.tcharek = {
 recipesData.dessert.kalb_el_laymoune = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/kalb_el_laymoune.jpg",
+    image: "images/kalb_el_laymoune-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Kalb el Laymoune (Algérie, 4 personnes)",
+        title: "Kalb el Laymoune (algerie)",
         equipment: [
             "1 plat allant au four",
             "1 bol",
@@ -48169,7 +47584,6 @@ recipesData.dessert.kalb_el_laymoune = {
             "1 cuillère à café levure chimique"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Dans un bol, battre les œufs avec le sucre.\n" +
             "3. Ajouter l’huile, le lait et le jus de citron.\n" +
@@ -48179,7 +47593,7 @@ recipesData.dessert.kalb_el_laymoune = {
             "7. Laisser refroidir avant de servir."
     },
     en: {
-        title: "Kalb el Laymoune (Algerian Lemon Cake, Serves 4)",
+        title: "Kalb el Laymoune (algerie)",
         equipment: [
             "1 baking dish",
             "1 bowl",
@@ -48196,7 +47610,6 @@ recipesData.dessert.kalb_el_laymoune = {
             "1 tsp baking powder"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. In a bowl, whisk eggs with sugar.\n" +
             "3. Add oil, milk, and lemon juice.\n" +
@@ -48206,7 +47619,7 @@ recipesData.dessert.kalb_el_laymoune = {
             "7. Let cool before serving."
     },
     nl: {
-        title: "Kalb el Laymoune (Algerijnse Citroencake, voor 4 personen)",
+        title: "Kalb el Laymoune (algerie)",
         equipment: [
             "1 ovenschaal",
             "1 kom",
@@ -48223,7 +47636,6 @@ recipesData.dessert.kalb_el_laymoune = {
             "1 tl bakpoeder"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
             "2. Klop in een kom de eieren met suiker.\n" +
             "3. Voeg olie, melk en citroensap toe.\n" +
@@ -48233,7 +47645,7 @@ recipesData.dessert.kalb_el_laymoune = {
             "7. Laat afkoelen voor serveren."
     },
     ar: {
-        title: "قلب الليمون (الجزائر، تكفي 4 أشخاص)",
+        title: "قلب الليمون (الجزائر)",
         equipment: [
             "1 صينية فرن",
             "1 وعاء",
@@ -48250,7 +47662,6 @@ recipesData.dessert.kalb_el_laymoune = {
             "1 ملعقة صغيرة بيكنج باودر"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخن الفرن على 180°C.\n" +
             "2. اخفق البيض مع السكر في وعاء.\n" +
             "3. أضف الزيت، الحليب وعصير الليمون.\n" +
@@ -48263,9 +47674,15 @@ recipesData.dessert.kalb_el_laymoune = {
 recipesData.dessert.mhalbi = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/mhalbi.jpg",
+    image: "images/mhalbi-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
     fr: {
-        title: "M’halbi (Algérie, 4 personnes)",
+        title: "M’halbi (algerie)",
         equipment: [
             "1 casserole",
             "1 bol",
@@ -48282,7 +47699,6 @@ recipesData.dessert.mhalbi = {
             "Amandes effilées pour décorer"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Rincer le riz à l’eau froide.\n" +
             "2. Dans une casserole, mettre le riz, le lait et une pincée de sel.\n" +
             "3. Porter à ébullition à feu moyen en remuant régulièrement.\n" +
@@ -48293,7 +47709,7 @@ recipesData.dessert.mhalbi = {
             "8. Décorer avec des amandes effilées avant de servir."
     },
     en: {
-        title: "M’halbi (Algerian Rice Pudding, Serves 4)",
+        title: "M’halbi (algerie)",
         equipment: [
             "1 saucepan",
             "1 bowl",
@@ -48310,7 +47726,6 @@ recipesData.dessert.mhalbi = {
             "Sliced almonds for garnish"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Rinse rice under cold water.\n" +
             "2. In a saucepan, combine rice, milk, and a pinch of salt.\n" +
             "3. Bring to a boil over medium heat, stirring regularly.\n" +
@@ -48321,7 +47736,7 @@ recipesData.dessert.mhalbi = {
             "8. Garnish with sliced almonds before serving."
     },
     nl: {
-        title: "M’halbi (Algerijnse rijstpudding, voor 4 personen)",
+        title: "M’halbi (algerie)",
         equipment: [
             "1 steelpan",
             "1 kom",
@@ -48338,7 +47753,6 @@ recipesData.dessert.mhalbi = {
             "Geschaafde amandelen voor garnering"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Spoel de rijst onder koud water.\n" +
             "2. Doe de rijst, melk en een snufje zout in een steelpan.\n" +
             "3. Breng aan de kook op middelhoog vuur, regelmatig roeren.\n" +
@@ -48349,7 +47763,7 @@ recipesData.dessert.mhalbi = {
             "8. Garneer met geschaafde amandelen voor het serveren."
     },
     ar: {
-        title: "محلبي (الجزائر، تكفي 4 أشخاص)",
+        title: "محلبي (الجزائر)",
         equipment: [
             "1 قدر",
             "1 وعاء",
@@ -48366,7 +47780,6 @@ recipesData.dessert.mhalbi = {
             "لوز مقطع للزينة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اغسل الأرز بالماء البارد.\n" +
             "2. ضع الأرز، الحليب ورشة ملح في قدر.\n" +
             "3. اغليه على نار متوسطة مع التحريك باستمرار.\n" +
@@ -48377,14 +47790,18 @@ recipesData.dessert.mhalbi = {
             "8. زينه باللوز المقطع قبل التقديم."
     }
 };
-
-
 recipesData.dessert.makroud_dattes = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/makroud_dattes.jpg",
+    image: "images/makroud_dattes-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 40,
+        cookTime: 20,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Makroud aux dattes (Algérie, 4 personnes)",
+        title: "Makroud aux dattes (algerie)",
         equipment: [
             "1 grand bol",
             "1 rouleau à pâtisserie",
@@ -48406,7 +47823,6 @@ recipesData.dessert.makroud_dattes = {
             "50 g miel pour napper"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Dans un grand bol, mélanger la semoule avec le sel et le beurre fondu.\n" +
             "2. Ajouter progressivement l'eau tiède et pétrir pour obtenir une pâte homogène.\n" +
             "3. Diviser la pâte en portions et former des boudins de 1,5 cm d'épaisseur.\n" +
@@ -48418,7 +47834,7 @@ recipesData.dessert.makroud_dattes = {
             "9. Laisser refroidir légèrement avant de servir."
     },
     en: {
-        title: "Algerian Date Makroud (Serves 4)",
+        title: "Makroud with dates (algerie)",
         equipment: [
             "1 large bowl",
             "1 rolling pin",
@@ -48440,7 +47856,6 @@ recipesData.dessert.makroud_dattes = {
             "50 g honey for glazing"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. In a large bowl, mix semolina with salt and melted butter.\n" +
             "2. Gradually add warm water and knead until a smooth dough forms.\n" +
             "3. Divide dough into portions and roll into 1.5 cm thick logs.\n" +
@@ -48452,7 +47867,7 @@ recipesData.dessert.makroud_dattes = {
             "9. Let cool slightly before serving."
     },
     nl: {
-        title: "Algerijnse Makroud met Dadels (voor 4 personen)",
+        title: "Makroud met dadels (algerie)",
         equipment: [
             "1 grote kom",
             "1 deegroller",
@@ -48474,7 +47889,6 @@ recipesData.dessert.makroud_dattes = {
             "50 g honing om te glazuren"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Meng in een grote kom de semolina met zout en gesmolten boter.\n" +
             "2. Voeg geleidelijk warm water toe en kneed tot een glad deeg.\n" +
             "3. Verdeel het deeg in porties en rol tot 1,5 cm dikke rollen.\n" +
@@ -48486,7 +47900,7 @@ recipesData.dessert.makroud_dattes = {
             "9. Laat iets afkoelen voor serveren."
     },
     ar: {
-        title: "المقروض بالتمر (الجزائر، تكفي 4 أشخاص)",
+        title: "المقروض بالتمر (الجزائر)",
         equipment: [
             "1 وعاء كبير",
             "1 نشابة",
@@ -48508,7 +47922,6 @@ recipesData.dessert.makroud_dattes = {
             "50 غ عسل للتغطية"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. في وعاء كبير، اخلط السميد مع الملح والزبدة المذابة.\n" +
             "2. أضف الماء الدافئ تدريجياً واعجن حتى تحصل على عجينة ناعمة.\n" +
             "3. قسم العجينة إلى أجزاء وشكلها إلى أسطوانات بسُمك 1.5 سم.\n" +
@@ -48523,9 +47936,15 @@ recipesData.dessert.makroud_dattes = {
 recipesData.patisserie.baklawa_noix = {
     country: "afrique",
     countryName: "algerie",
-    image: "images/baklawa_noix.jpg",
+    image: "images/baklawa_noix-algerie.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 35,
+        cookTime: 30,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Baklawa aux noix (Algérie, 4 personnes)",
+        title: "Baklawa aux noix (algerie)",
         equipment: [
             "1 plat rectangulaire pour four",
             "1 couteau",
@@ -48546,7 +47965,6 @@ recipesData.patisserie.baklawa_noix = {
             "1 cuillère à soupe eau de fleur d’oranger (15 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Beurrer le plat rectangulaire.\n" +
             "3. Étaler une feuille de pâte filo, badigeonner de beurre fondu. Répéter 3 feuilles.\n" +
@@ -48560,7 +47978,7 @@ recipesData.patisserie.baklawa_noix = {
             "11. Laisser refroidir avant de servir."
     },
     en: {
-        title: "Walnut Baklawa (Algeria, Serves 4)",
+        title: "Baklawa with walnuts (algerie)",
         equipment: [
             "1 rectangular baking dish",
             "1 knife",
@@ -48581,7 +47999,6 @@ recipesData.patisserie.baklawa_noix = {
             "1 tbsp orange blossom water (15 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
             "2. Butter the rectangular baking dish.\n" +
             "3. Lay one sheet of filo pastry, brush with melted butter. Repeat 3 sheets.\n" +
@@ -48595,7 +48012,7 @@ recipesData.patisserie.baklawa_noix = {
             "11. Let cool before serving."
     },
     nl: {
-        title: "Baklava met Walnoten (Algerije, voor 4 personen)",
+        title: "Baklawa met walnoten (algerie)",
         equipment: [
             "1 rechthoekige ovenschaal",
             "1 mes",
@@ -48616,7 +48033,6 @@ recipesData.patisserie.baklawa_noix = {
             "1 el oranjebloesemwater (15 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
             "2. Vet de rechthoekige ovenschaal in.\n" +
             "3. Leg één vel filodeeg, bestrijk met gesmolten boter. Herhaal 3 vellen.\n" +
@@ -48626,11 +48042,11 @@ recipesData.patisserie.baklawa_noix = {
             "7. Herhaal lagen tot alle ingrediënten gebruikt zijn.\n" +
             "8. Snijd in ruiten of vierkanten.\n" +
             "9. Bak 25-30 min tot goudbruin.\n" +
-            "10. Verwarm honing met oranjebloesemwater en giet over de warme baklava.\n" +
+            "10. Verwarm honing met oranjebloesemwater en giet over de warme baklawa.\n" +
             "11. Laat afkoelen voor serveren."
     },
     ar: {
-        title: "بقلاوة بالجوز (الجزائر، تكفي 4 أشخاص)",
+        title: "بقلاوة بالجوز (الجزائر)",
         equipment: [
             "1 صينية خبز مستطيلة",
             "1 سكين",
@@ -48651,7 +48067,6 @@ recipesData.patisserie.baklawa_noix = {
             "1 ملعقة كبيرة ماء زهر (15 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. سخن الفرن إلى 180 درجة مئوية.\n" +
             "2. ادهن صينية الخبز المستطيلة بالزبدة.\n" +
             "3. ضع ورقة من عجينة الفيلو، ادهنها بالزبدة المذابة. كرر 3 ورقات.\n" +
@@ -48666,7 +48081,13 @@ recipesData.patisserie.baklawa_noix = {
     }
 };
 
-// 1️⃣ Ndolé aux crevettes
+
+
+
+
+
+
+
 recipesData.entree.ndole_crevette = {
     country: "afrique",
     countryName: "cameroun",
