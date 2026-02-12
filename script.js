@@ -51986,12 +51986,21 @@ recipesData.dessert.beignets_banane_burundi = {
 
 
 
+
+
+
 recipesData.entree.gazpacho_espagne = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/gazpacho_espagne.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Gazpacho (Espagne, 4 personnes)",
+        title: "Gazpacho (Espagne)",
         equipment: [
             "1 blender",
             "1 couteau",
@@ -52011,7 +52020,6 @@ recipesData.entree.gazpacho_espagne = {
             "200 ml eau froide"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Laver et couper les légumes.\n" +
             "2. Mettre tomates, concombre, poivron et ail dans le blender.\n" +
             "3. Ajouter l’huile d’olive, le sel, le poivre et l’eau.\n" +
@@ -52021,7 +52029,7 @@ recipesData.entree.gazpacho_espagne = {
             "7. Servir bien frais."
     },
     en: {
-        title: "Gazpacho (Spain, Serves 4)",
+        title: "Gazpacho (Espagne)",
         equipment: [
             "1 blender",
             "1 knife",
@@ -52041,7 +52049,6 @@ recipesData.entree.gazpacho_espagne = {
             "200 ml cold water"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Wash and cut vegetables.\n" +
             "2. Place tomatoes, cucumber, pepper and garlic in blender.\n" +
             "3. Add olive oil, salt, pepper and water.\n" +
@@ -52051,7 +52058,7 @@ recipesData.entree.gazpacho_espagne = {
             "7. Serve cold."
     },
     nl: {
-        title: "Gazpacho (Spanje, voor 4 personen)",
+        title: "Gazpacho (Espagne)",
         equipment: [
             "1 blender",
             "1 mes",
@@ -52067,21 +52074,20 @@ recipesData.entree.gazpacho_espagne = {
             "1 teentje knoflook",
             "3 eetlepels olijfolie (45 ml)",
             "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)",
+            "1/4 tl peper (0.5 g)",
             "200 ml koud water"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Was en snijd de groenten.\n" +
-            "2. Doe alles in de blender.\n" +
-            "3. Voeg olie, zout, peper en water toe.\n" +
-            "4. Mix tot glad.\n" +
+            "2. Doe tomaten, komkommer, paprika en knoflook in de blender.\n" +
+            "3. Voeg olijfolie, zout, peper en water toe.\n" +
+            "4. Mix tot een gladde structuur.\n" +
             "5. Breng op smaak.\n" +
-            "6. Zet 1 uur koud.\n" +
+            "6. Zet 1 uur in de koelkast.\n" +
             "7. Serveer koud."
     },
     ar: {
-        title: "غازباتشو (إسبانيا، تكفي 4 أشخاص)",
+        title: "غازباتشو (Espagne)",
         equipment: [
             "1 خلاط",
             "1 سكين",
@@ -52101,23 +52107,27 @@ recipesData.entree.gazpacho_espagne = {
             "200 مل ماء بارد"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. اغسل وقطع الخضار.\n" +
-            "2. ضعها في الخلاط.\n" +
-            "3. أضف الزيت، الملح، الفلفل والماء.\n" +
-            "4. اخلط حتى يصبح ناعماً.\n" +
-            "5. عدل التتبيل.\n" +
-            "6. برد لمدة ساعة.\n" +
+            "2. ضع الطماطم والخيار والفلفل والثوم في الخلاط.\n" +
+            "3. أضف زيت الزيتون والملح والفلفل والماء.\n" +
+            "4. اخلط حتى يصبح القوام ناعماً.\n" +
+            "5. عدل التتبيل حسب الذوق.\n" +
+            "6. ضع في الثلاجة لمدة ساعة.\n" +
             "7. يقدم بارداً."
     }
 };
-
 recipesData.entree.salmorejo_espagne = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/salmorejo_espagne.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Salmorejo (Espagne, 4 personnes)",
+        title: "Salmorejo (Espagne)",
         equipment: [
             "1 blender",
             "1 couteau",
@@ -52134,7 +52144,6 @@ recipesData.entree.salmorejo_espagne = {
             "1 cuillère à café sel (2 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Laver et couper les tomates.\n" +
             "2. Mettre tomates, pain et ail dans le blender.\n" +
             "3. Mixer jusqu’à texture lisse.\n" +
@@ -52144,7 +52153,7 @@ recipesData.entree.salmorejo_espagne = {
             "7. Servir bien frais."
     },
     en: {
-        title: "Salmorejo (Spain, Serves 4)",
+        title: "Salmorejo (Espagne)",
         equipment: [
             "1 blender",
             "1 knife",
@@ -52161,7 +52170,6 @@ recipesData.entree.salmorejo_espagne = {
             "1 tsp salt (2 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Wash and cut tomatoes.\n" +
             "2. Put tomatoes, bread and garlic in blender.\n" +
             "3. Blend until smooth.\n" +
@@ -52171,7 +52179,7 @@ recipesData.entree.salmorejo_espagne = {
             "7. Serve cold."
     },
     nl: {
-        title: "Salmorejo (Spanje, voor 4 personen)",
+        title: "Salmorejo (Espagne)",
         equipment: [
             "1 blender",
             "1 mes",
@@ -52188,17 +52196,16 @@ recipesData.entree.salmorejo_espagne = {
             "1 tl zout (2 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Was en snijd de tomaten.\n" +
-            "2. Doe tomaten, brood en knoflook in blender.\n" +
+            "2. Doe tomaten, brood en knoflook in de blender.\n" +
             "3. Mix tot glad.\n" +
-            "4. Voeg olijfolie langzaam toe tijdens mixen.\n" +
+            "4. Voeg olijfolie langzaam toe tijdens het mixen.\n" +
             "5. Voeg zout toe en mix nog 30 seconden.\n" +
             "6. Zet 1 uur in de koelkast.\n" +
             "7. Serveer koud."
     },
     ar: {
-        title: "سالموريو (إسبانيا، تكفي 4 أشخاص)",
+        title: "سالموريو (Espagne)",
         equipment: [
             "1 خلاط",
             "1 سكين",
@@ -52215,22 +52222,27 @@ recipesData.entree.salmorejo_espagne = {
             "1 ملعقة صغيرة ملح (2 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. غسل وتقطيع الطماطم.\n" +
-            "2. ضع الطماطم، الخبز والثوم في الخلاط.\n" +
-            "3. اخلط حتى يصبح ناعماً.\n" +
+            "1. اغسل وقطع الطماطم.\n" +
+            "2. ضع الطماطم والخبز والثوم في الخلاط.\n" +
+            "3. اخلط حتى يصبح القوام ناعماً.\n" +
             "4. أضف زيت الزيتون تدريجياً أثناء الخلط.\n" +
-            "5. أضف الملح واخلط 30 ثانية إضافية.\n" +
+            "5. أضف الملح واخلط لمدة 30 ثانية إضافية.\n" +
             "6. ضع في الثلاجة لمدة ساعة.\n" +
             "7. يقدم بارداً."
     }
 };
 recipesData.entree.patatas_bravas_espagne = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/patatas_bravas_espagne.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Patatas Bravas (Espagne, 4 personnes)",
+        title: "Patatas Bravas (Espagne)",
         equipment: [
             "1 casserole",
             "1 poêle",
@@ -52246,7 +52258,6 @@ recipesData.entree.patatas_bravas_espagne = {
             "1/2 cuillère à café sel (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Éplucher et couper les pommes de terre en cubes.\n" +
             "2. Cuire dans l’eau bouillante salée 10 minutes.\n" +
             "3. Égoutter puis faire revenir à la poêle avec l’huile.\n" +
@@ -52255,7 +52266,7 @@ recipesData.entree.patatas_bravas_espagne = {
             "6. Saler et servir chaud."
     },
     en: {
-        title: "Patatas Bravas (Spain, Serves 4)",
+        title: "Patatas Bravas (Espagne)",
         equipment: [
             "1 saucepan",
             "1 frying pan",
@@ -52271,7 +52282,6 @@ recipesData.entree.patatas_bravas_espagne = {
             "1/2 tsp salt (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Peel and cut potatoes into cubes.\n" +
             "2. Boil in salted water for 10 minutes.\n" +
             "3. Drain and fry with olive oil.\n" +
@@ -52280,7 +52290,7 @@ recipesData.entree.patatas_bravas_espagne = {
             "6. Salt and serve hot."
     },
     nl: {
-        title: "Patatas Bravas (Spanje, voor 4 personen)",
+        title: "Patatas Bravas (Espagne)",
         equipment: [
             "1 kookpot",
             "1 pan",
@@ -52296,16 +52306,15 @@ recipesData.entree.patatas_bravas_espagne = {
             "1/2 tl zout (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Schil en snijd aardappelen in blokjes.\n" +
             "2. Kook 10 minuten in gezouten water.\n" +
             "3. Giet af en bak met olijfolie.\n" +
-            "4. Voeg paprikapoeder toe.\n" +
-            "5. Bak goudbruin in 10 minuten.\n" +
-            "6. Zout en serveer warm."
+            "4. Voeg zoete en gerookte paprika toe.\n" +
+            "5. Bak goudbruin in ongeveer 10 minuten.\n" +
+            "6. Voeg zout toe en serveer warm."
     },
     ar: {
-        title: "باتاتاس براڤاس (إسبانيا، تكفي 4 أشخاص)",
+        title: "باتاتاس برافاس (Espagne)",
         equipment: [
             "1 قدر",
             "1 مقلاة",
@@ -52321,21 +52330,26 @@ recipesData.entree.patatas_bravas_espagne = {
             "1/2 ملعقة صغيرة ملح (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قشر وقطع البطاطس إلى مكعبات.\n" +
             "2. اسلقها في ماء مملح لمدة 10 دقائق.\n" +
-            "3. صفِّها واقلها بزيت الزيتون.\n" +
-            "4. أضف البابريكا.\n" +
-            "5. اطبخ حتى تصبح ذهبية.\n" +
+            "3. صفِّها ثم اقليها بزيت الزيتون.\n" +
+            "4. أضف البابريكا الحلوة والمدخنة.\n" +
+            "5. اطبخ حتى تصبح ذهبية لمدة 10 دقائق تقريباً.\n" +
             "6. أضف الملح وقدمها ساخنة."
     }
 };
 recipesData.entree.tortilla_espagnole = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/tortilla_espagnole.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Tortilla espagnole (Espagne, 4 personnes)",
+        title: "Tortilla espagnole (Espagne)",
         equipment: [
             "1 poêle",
             "1 saladier",
@@ -52351,7 +52365,6 @@ recipesData.entree.tortilla_espagnole = {
             "1 cuillère à café sel (2 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Éplucher et couper les pommes de terre en fines tranches.\n" +
             "2. Faire revenir pommes de terre et oignon dans l’huile.\n" +
             "3. Battre les œufs avec le sel.\n" +
@@ -52361,7 +52374,7 @@ recipesData.entree.tortilla_espagnole = {
             "7. Servir tiède ou froid."
     },
     en: {
-        title: "Spanish Omelette (Spain, Serves 4)",
+        title: "Spanish Omelette (Espagne)",
         equipment: [
             "1 frying pan",
             "1 bowl",
@@ -52377,7 +52390,6 @@ recipesData.entree.tortilla_espagnole = {
             "1 tsp salt (2 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Peel and slice potatoes thinly.\n" +
             "2. Fry potatoes and onion in olive oil.\n" +
             "3. Beat eggs with salt.\n" +
@@ -52387,7 +52399,7 @@ recipesData.entree.tortilla_espagnole = {
             "7. Serve warm or cold."
     },
     nl: {
-        title: "Spaanse tortilla (Spanje, voor 4 personen)",
+        title: "Spaanse tortilla (Espagne)",
         equipment: [
             "1 pan",
             "1 kom",
@@ -52403,17 +52415,16 @@ recipesData.entree.tortilla_espagnole = {
             "1 tl zout (2 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Schil en snijd aardappelen dun.\n" +
+            "1. Schil en snijd aardappelen in dunne plakjes.\n" +
             "2. Bak aardappelen en ui in olijfolie.\n" +
             "3. Klop eieren met zout.\n" +
-            "4. Meng met aardappelen.\n" +
+            "4. Meng aardappelen met eieren.\n" +
             "5. Bak 10 minuten op laag vuur.\n" +
-            "6. Draai om en bak 5 minuten.\n" +
+            "6. Draai om en bak nog 5 minuten.\n" +
             "7. Serveer warm of koud."
     },
     ar: {
-        title: "تورتيلا إسبانية (إسبانيا، تكفي 4 أشخاص)",
+        title: "تورتيلا إسبانية (Espagne)",
         equipment: [
             "1 مقلاة",
             "1 وعاء",
@@ -52429,22 +52440,27 @@ recipesData.entree.tortilla_espagnole = {
             "1 ملعقة صغيرة ملح (2 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قشر وقطع البطاطس شرائح.\n" +
+            "1. قشر وقطع البطاطس إلى شرائح رفيعة.\n" +
             "2. اقلي البطاطس والبصل بزيت الزيتون.\n" +
             "3. اخفق البيض مع الملح.\n" +
             "4. اخلط البطاطس مع البيض.\n" +
-            "5. اطبخ 10 دقائق على نار هادئة.\n" +
-            "6. اقلب واطبخ 5 دقائق إضافية.\n" +
+            "5. اطبخ لمدة 10 دقائق على نار هادئة.\n" +
+            "6. اقلبها واطبخ 5 دقائق إضافية.\n" +
             "7. يقدم دافئاً أو بارداً."
     }
 };
 recipesData.entree.pan_con_tomate = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/pan_con_tomate.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 5,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Pan con tomate (Espagne, 4 personnes)",
+        title: "Pan con tomate (Espagne)",
         equipment: [
             "1 grille-pain",
             "1 couteau",
@@ -52458,7 +52474,6 @@ recipesData.entree.pan_con_tomate = {
             "1/2 cuillère à café sel (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Griller légèrement le pain.\n" +
             "2. Râper les tomates.\n" +
             "3. Étaler tomate sur le pain.\n" +
@@ -52467,7 +52482,7 @@ recipesData.entree.pan_con_tomate = {
             "6. Servir immédiatement."
     },
     en: {
-        title: "Pan con Tomate (Spain, Serves 4)",
+        title: "Pan con Tomate (Spain)",
         equipment: [
             "1 toaster",
             "1 knife",
@@ -52481,7 +52496,6 @@ recipesData.entree.pan_con_tomate = {
             "1/2 tsp salt (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Lightly toast the bread.\n" +
             "2. Grate the tomatoes.\n" +
             "3. Spread tomato on bread.\n" +
@@ -52490,7 +52504,7 @@ recipesData.entree.pan_con_tomate = {
             "6. Serve immediately."
     },
     nl: {
-        title: "Pan con tomate (Spanje, voor 4 personen)",
+        title: "Pan con tomate (Spanje)",
         equipment: [
             "1 broodrooster",
             "1 mes",
@@ -52504,7 +52518,6 @@ recipesData.entree.pan_con_tomate = {
             "1/2 tl zout (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Rooster het brood licht.\n" +
             "2. Rasp de tomaten.\n" +
             "3. Verdeel tomaat over brood.\n" +
@@ -52513,7 +52526,7 @@ recipesData.entree.pan_con_tomate = {
             "6. Serveer direct."
     },
     ar: {
-        title: "بان كون طماطم (إسبانيا، تكفي 4 أشخاص)",
+        title: "بان كون طماطم (إسبانيا)",
         equipment: [
             "1 محمصة",
             "1 سكين",
@@ -52527,7 +52540,6 @@ recipesData.entree.pan_con_tomate = {
             "1/2 ملعقة صغيرة ملح (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. حمص الخبز قليلاً.\n" +
             "2. ابشر الطماطم.\n" +
             "3. وزع الطماطم على الخبز.\n" +
@@ -52538,11 +52550,22 @@ recipesData.entree.pan_con_tomate = {
 };
 recipesData.entree.aceitunas_alinadas = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/aceitunas_alinadas.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        marinationTime: 30,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Aceitunas aliñadas (Espagne, 4 personnes)",
-        equipment: ["1 bol", "1 couteau", "1 cuillère"],
+        title: "Aceitunas aliñadas (Espagne)",
+        equipment: [
+            "1 bol",
+            "1 couteau",
+            "1 cuillère"
+        ],
         ingredients: [
             "300 g olives vertes dénoyautées",
             "1 gousse d’ail",
@@ -52551,7 +52574,6 @@ recipesData.entree.aceitunas_alinadas = {
             "1 cuillère à soupe jus de citron (15 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Couper l’ail finement.\n" +
             "2. Mettre les olives dans un bol.\n" +
             "3. Ajouter ail, paprika, huile et citron.\n" +
@@ -52560,8 +52582,12 @@ recipesData.entree.aceitunas_alinadas = {
             "6. Servir à température ambiante."
     },
     en: {
-        title: "Marinated Olives (Spain, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 spoon"],
+        title: "Marinated Olives (Spain)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 spoon"
+        ],
         ingredients: [
             "300 g pitted green olives",
             "1 garlic clove",
@@ -52570,7 +52596,6 @@ recipesData.entree.aceitunas_alinadas = {
             "1 tbsp lemon juice (15 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Finely chop garlic.\n" +
             "2. Place olives in a bowl.\n" +
             "3. Add garlic, paprika, oil and lemon.\n" +
@@ -52579,8 +52604,12 @@ recipesData.entree.aceitunas_alinadas = {
             "6. Serve at room temperature."
     },
     nl: {
-        title: "Gemarineerde olijven (Spanje, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 lepel"],
+        title: "Gemarineerde olijven (Spanje)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 lepel"
+        ],
         ingredients: [
             "300 g groene olijven zonder pit",
             "1 teentje knoflook",
@@ -52589,7 +52618,6 @@ recipesData.entree.aceitunas_alinadas = {
             "1 eetlepel citroensap (15 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Hak de knoflook fijn.\n" +
             "2. Doe olijven in een kom.\n" +
             "3. Voeg knoflook, paprika, olie en citroen toe.\n" +
@@ -52598,8 +52626,12 @@ recipesData.entree.aceitunas_alinadas = {
             "6. Serveer op kamertemperatuur."
     },
     ar: {
-        title: "زيتون متبل (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 ملعقة"],
+        title: "زيتون متبل (إسبانيا)",
+        equipment: [
+            "1 وعاء",
+            "1 سكين",
+            "1 ملعقة"
+        ],
         ingredients: [
             "300 غ زيتون أخضر منزوع النوى",
             "1 فص ثوم",
@@ -52608,22 +52640,30 @@ recipesData.entree.aceitunas_alinadas = {
             "1 ملعقة كبيرة عصير ليمون (15 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. فرم الثوم ناعماً.\n" +
             "2. ضع الزيتون في وعاء.\n" +
             "3. أضف الثوم، البابريكا، الزيت والليمون.\n" +
             "4. اخلط جيداً.\n" +
-            "5. اتركه 30 دقيقة.\n" +
+            "5. اتركه 30 دقيقة ليتتبل.\n" +
             "6. يقدم بدرجة حرارة الغرفة."
     }
 };
 recipesData.entree.pimientos_piquillo = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/pimientos_piquillo.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 5,
+        cookTime: 5,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Pimientos del piquillo (Espagne, 4 personnes)",
-        equipment: ["1 poêle", "1 cuillère"],
+        title: "Pimientos del piquillo (Espagne)",
+        equipment: [
+            "1 poêle",
+            "1 cuillère"
+        ],
         ingredients: [
             "250 g piments piquillo en bocal",
             "2 cuillères à soupe huile d’olive (30 ml)",
@@ -52631,7 +52671,6 @@ recipesData.entree.pimientos_piquillo = {
             "1/2 cuillère à café sel (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Égoutter les piments.\n" +
             "2. Chauffer l’huile dans une poêle.\n" +
             "3. Ajouter l’ail haché.\n" +
@@ -52640,8 +52679,11 @@ recipesData.entree.pimientos_piquillo = {
             "6. Saler et servir."
     },
     en: {
-        title: "Piquillo Peppers (Spain, Serves 4)",
-        equipment: ["1 frying pan", "1 spoon"],
+        title: "Piquillo Peppers (Spain)",
+        equipment: [
+            "1 frying pan",
+            "1 spoon"
+        ],
         ingredients: [
             "250 g jarred piquillo peppers",
             "2 tbsp olive oil (30 ml)",
@@ -52649,7 +52691,6 @@ recipesData.entree.pimientos_piquillo = {
             "1/2 tsp salt (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Drain peppers.\n" +
             "2. Heat oil in a pan.\n" +
             "3. Add chopped garlic.\n" +
@@ -52658,8 +52699,11 @@ recipesData.entree.pimientos_piquillo = {
             "6. Salt and serve."
     },
     nl: {
-        title: "Piquillo paprika (Spanje, voor 4 personen)",
-        equipment: ["1 pan", "1 lepel"],
+        title: "Piquillo paprika (Spanje)",
+        equipment: [
+            "1 pan",
+            "1 lepel"
+        ],
         ingredients: [
             "250 g piquillo paprika uit pot",
             "2 eetlepels olijfolie (30 ml)",
@@ -52667,7 +52711,6 @@ recipesData.entree.pimientos_piquillo = {
             "1/2 tl zout (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Laat paprika uitlekken.\n" +
             "2. Verhit olie in pan.\n" +
             "3. Voeg knoflook toe.\n" +
@@ -52676,8 +52719,11 @@ recipesData.entree.pimientos_piquillo = {
             "6. Zout en serveer."
     },
     ar: {
-        title: "فلفل بيكيّو (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 ملعقة"],
+        title: "فلفل بيكيّو (إسبانيا)",
+        equipment: [
+            "1 مقلاة",
+            "1 ملعقة"
+        ],
         ingredients: [
             "250 غ فلفل بيكيّو معلب",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
@@ -52685,7 +52731,6 @@ recipesData.entree.pimientos_piquillo = {
             "1/2 ملعقة صغيرة ملح (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. صفِّ الفلفل.\n" +
             "2. سخن الزيت.\n" +
             "3. أضف الثوم.\n" +
@@ -52696,10 +52741,16 @@ recipesData.entree.pimientos_piquillo = {
 };
 recipesData.entree.ensaladilla_espagne = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/ensaladilla_espagne.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Ensaladilla espagnole (Espagne, 4 personnes)",
+        title: "Ensaladilla espagnole (Espagne)",
         equipment: [
             "1 grande casserole",
             "1 passoire",
@@ -52720,7 +52771,6 @@ recipesData.entree.ensaladilla_espagne = {
             "1/4 cuillère à café poivre (0,5 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Éplucher les pommes de terre et les carottes.\n" +
             "2. Les couper en petits dés.\n" +
             "3. Cuire dans l’eau bouillante salée 15 minutes.\n" +
@@ -52734,7 +52784,7 @@ recipesData.entree.ensaladilla_espagne = {
             "11. Mettre au frais 30 minutes avant de servir."
     },
     en: {
-        title: "Spanish Ensaladilla (Spain, Serves 4)",
+        title: "Spanish Ensaladilla (Spain)",
         equipment: [
             "1 large pot",
             "1 colander",
@@ -52755,7 +52805,6 @@ recipesData.entree.ensaladilla_espagne = {
             "1/4 tsp pepper (0.5 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Peel potatoes and carrots.\n" +
             "2. Cut into small cubes.\n" +
             "3. Boil in salted water 15 minutes.\n" +
@@ -52769,7 +52818,7 @@ recipesData.entree.ensaladilla_espagne = {
             "11. Chill 30 minutes before serving."
     },
     nl: {
-        title: "Spaanse Ensaladilla (Spanje, voor 4 personen)",
+        title: "Spaanse Ensaladilla (Spanje)",
         equipment: [
             "1 grote kookpot",
             "1 vergiet",
@@ -52790,7 +52839,6 @@ recipesData.entree.ensaladilla_espagne = {
             "1/4 tl peper (0,5 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Schil de aardappelen en wortelen.\n" +
             "2. Snijd in kleine blokjes.\n" +
             "3. Kook 15 minuten in gezouten water.\n" +
@@ -52804,7 +52852,7 @@ recipesData.entree.ensaladilla_espagne = {
             "11. Laat 30 minuten koelen."
     },
     ar: {
-        title: "سلطة إنسالاديّا الإسبانية (إسبانيا، تكفي 4 أشخاص)",
+        title: "سلطة إنسالاديّا الإسبانية (إسبانيا)",
         equipment: [
             "قدر كبير",
             "مصفاة",
@@ -52825,7 +52873,6 @@ recipesData.entree.ensaladilla_espagne = {
             "1/4 ملعقة صغيرة فلفل (0,5 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قشر البطاطس والجزر.\n" +
             "2. قطعها إلى مكعبات صغيرة.\n" +
             "3. اسلقها في ماء مملح 15 دقيقة.\n" +
@@ -52839,15 +52886,22 @@ recipesData.entree.ensaladilla_espagne = {
             "11. بردها 30 دقيقة قبل التقديم."
     }
 };
-
-
 recipesData.entree.champinones_ajillo = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/champinones_ajillo.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 8,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Champignons à l’ail (Espagne, 4 personnes)",
-        equipment: ["1 poêle", "1 couteau"],
+        title: "Champignons à l’ail (Espagne)",
+        equipment: [
+            "1 poêle",
+            "1 couteau"
+        ],
         ingredients: [
             "400 g champignons de Paris",
             "3 gousses d’ail",
@@ -52855,7 +52909,6 @@ recipesData.entree.champinones_ajillo = {
             "1/2 cuillère à café sel (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Nettoyer et couper les champignons.\n" +
             "2. Chauffer l’huile.\n" +
             "3. Ajouter l’ail.\n" +
@@ -52864,8 +52917,11 @@ recipesData.entree.champinones_ajillo = {
             "6. Saler et servir."
     },
     en: {
-        title: "Garlic Mushrooms (Spain, Serves 4)",
-        equipment: ["1 frying pan", "1 knife"],
+        title: "Garlic Mushrooms (Spain)",
+        equipment: [
+            "1 frying pan",
+            "1 knife"
+        ],
         ingredients: [
             "400 g mushrooms",
             "3 garlic cloves",
@@ -52873,7 +52929,6 @@ recipesData.entree.champinones_ajillo = {
             "1/2 tsp salt (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Clean and slice mushrooms.\n" +
             "2. Heat oil.\n" +
             "3. Add garlic.\n" +
@@ -52882,8 +52937,11 @@ recipesData.entree.champinones_ajillo = {
             "6. Salt and serve."
     },
     nl: {
-        title: "Champignons met knoflook (Spanje, voor 4 personen)",
-        equipment: ["1 pan", "1 mes"],
+        title: "Champignons met knoflook (Spanje)",
+        equipment: [
+            "1 pan",
+            "1 mes"
+        ],
         ingredients: [
             "400 g champignons",
             "3 teentjes knoflook",
@@ -52891,7 +52949,6 @@ recipesData.entree.champinones_ajillo = {
             "1/2 tl zout (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Reinig en snijd champignons.\n" +
             "2. Verhit olie.\n" +
             "3. Voeg knoflook toe.\n" +
@@ -52900,8 +52957,11 @@ recipesData.entree.champinones_ajillo = {
             "6. Zout en serveer."
     },
     ar: {
-        title: "فطر بالثوم (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 سكين"],
+        title: "فطر بالثوم (إسبانيا)",
+        equipment: [
+            "1 مقلاة",
+            "1 سكين"
+        ],
         ingredients: [
             "400 غ فطر",
             "3 فصوص ثوم",
@@ -52909,7 +52969,6 @@ recipesData.entree.champinones_ajillo = {
             "1/2 ملعقة صغيرة ملح (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. نظف وقطع الفطر.\n" +
             "2. سخن الزيت.\n" +
             "3. أضف الثوم.\n" +
@@ -52918,13 +52977,23 @@ recipesData.entree.champinones_ajillo = {
             "6. أضف الملح وقدم."
     }
 };
-recipesData.entree.boquerones_sans_alcool = {
+recipesData.entree.boquerones = {
     country: "europe",
-    countryName: "espagne",
-    image: "images/boquerones_sans_alcool.jpg",
+    countryName: "Espagne",
+    image: "images/boquerones.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        marinationTime: 30,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Boquerones marinés sans alcool (Espagne, 4 personnes)",
-        equipment: ["1 bol", "1 couteau"],
+        title: "Boquerones marinés (Espagne)",
+        equipment: [
+            "1 bol",
+            "1 couteau"
+        ],
         ingredients: [
             "400 g filets d’anchois frais",
             "3 cuillères à soupe jus de citron (45 ml)",
@@ -52933,7 +53002,6 @@ recipesData.entree.boquerones_sans_alcool = {
             "1/2 cuillère à café sel (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Nettoyer les anchois.\n" +
             "2. Ajouter citron et sel.\n" +
             "3. Laisser mariner 30 minutes.\n" +
@@ -52942,8 +53010,11 @@ recipesData.entree.boquerones_sans_alcool = {
             "6. Servir frais."
     },
     en: {
-        title: "Marinated Anchovies (No Alcohol, Spain, Serves 4)",
-        equipment: ["1 bowl", "1 knife"],
+        title: "Marinated Anchovies (Spain)",
+        equipment: [
+            "1 bowl",
+            "1 knife"
+        ],
         ingredients: [
             "400 g fresh anchovy fillets",
             "3 tbsp lemon juice (45 ml)",
@@ -52952,7 +53023,6 @@ recipesData.entree.boquerones_sans_alcool = {
             "1/2 tsp salt (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Clean anchovies.\n" +
             "2. Add lemon and salt.\n" +
             "3. Marinate 30 minutes.\n" +
@@ -52961,8 +53031,11 @@ recipesData.entree.boquerones_sans_alcool = {
             "6. Serve chilled."
     },
     nl: {
-        title: "Gemarineerde ansjovis (zonder alcohol, Spanje)",
-        equipment: ["1 kom", "1 mes"],
+        title: "Gemarineerde ansjovis (Spanje)",
+        equipment: [
+            "1 kom",
+            "1 mes"
+        ],
         ingredients: [
             "400 g verse ansjovisfilets",
             "3 eetlepels citroensap (45 ml)",
@@ -52971,7 +53044,6 @@ recipesData.entree.boquerones_sans_alcool = {
             "1/2 tl zout (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Reinig ansjovis.\n" +
             "2. Voeg citroen en zout toe.\n" +
             "3. Laat 30 minuten marineren.\n" +
@@ -52980,8 +53052,11 @@ recipesData.entree.boquerones_sans_alcool = {
             "6. Serveer koud."
     },
     ar: {
-        title: "أنشوجة متبلة بدون كحول (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين"],
+        title: "أنشوجة متبلة (إسبانيا)",
+        equipment: [
+            "1 وعاء",
+            "1 سكين"
+        ],
         ingredients: [
             "400 غ فيليه أنشوجة طازجة",
             "3 ملاعق كبيرة عصير ليمون (45 مل)",
@@ -52990,7 +53065,6 @@ recipesData.entree.boquerones_sans_alcool = {
             "1/2 ملعقة صغيرة ملح (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. نظف الأنشوجة.\n" +
             "2. أضف الليمون والملح.\n" +
             "3. اترك 30 دقيقة.\n" +
@@ -53001,18 +53075,26 @@ recipesData.entree.boquerones_sans_alcool = {
 };
 recipesData.entree.berenjenas_fritas = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/berenjenas_fritas.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Aubergines frites (Espagne, 4 personnes)",
-        equipment: ["1 poêle", "1 couteau"],
+        title: "Aubergines frites (Espagne)",
+        equipment: [
+            "1 poêle",
+            "1 couteau"
+        ],
         ingredients: [
             "2 aubergines moyennes (500 g)",
             "4 cuillères à soupe huile d’olive (60 ml)",
             "1/2 cuillère à café sel (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Couper les aubergines en rondelles.\n" +
             "2. Chauffer l’huile.\n" +
             "3. Faire frire les aubergines.\n" +
@@ -53021,15 +53103,17 @@ recipesData.entree.berenjenas_fritas = {
             "6. Servir chaud."
     },
     en: {
-        title: "Fried Eggplant (Spain, Serves 4)",
-        equipment: ["1 frying pan", "1 knife"],
+        title: "Fried Eggplant (Spain)",
+        equipment: [
+            "1 frying pan",
+            "1 knife"
+        ],
         ingredients: [
             "2 medium eggplants (500 g)",
             "4 tbsp olive oil (60 ml)",
             "1/2 tsp salt (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Slice eggplants.\n" +
             "2. Heat oil.\n" +
             "3. Fry eggplant slices.\n" +
@@ -53038,15 +53122,17 @@ recipesData.entree.berenjenas_fritas = {
             "6. Serve hot."
     },
     nl: {
-        title: "Gefrituurde aubergine (Spanje, voor 4 personen)",
-        equipment: ["1 pan", "1 mes"],
+        title: "Gefrituurde aubergine (Spanje)",
+        equipment: [
+            "1 pan",
+            "1 mes"
+        ],
         ingredients: [
             "2 middelgrote aubergines (500 g)",
             "4 eetlepels olijfolie (60 ml)",
             "1/2 tl zout (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Snijd aubergines in schijven.\n" +
             "2. Verhit olie.\n" +
             "3. Bak aubergine.\n" +
@@ -53055,15 +53141,17 @@ recipesData.entree.berenjenas_fritas = {
             "6. Warm serveren."
     },
     ar: {
-        title: "باذنجان مقلي (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 سكين"],
+        title: "باذنجان مقلي (إسبانيا)",
+        equipment: [
+            "1 مقلاة",
+            "1 سكين"
+        ],
         ingredients: [
             "2 باذنجان متوسط (500 غ)",
             "4 ملاعق كبيرة زيت زيتون (60 مل)",
             "1/2 ملعقة صغيرة ملح (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
             "1. قطع الباذنجان شرائح.\n" +
             "2. سخن الزيت.\n" +
             "3. اقلي الباذنجان.\n" +
@@ -53072,6 +53160,25 @@ recipesData.entree.berenjenas_fritas = {
             "6. قدم ساخناً."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 recipesData.plat.paella_espagne = {
     country: "europe",
