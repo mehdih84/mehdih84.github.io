@@ -55358,1314 +55358,2179 @@ recipesData.plat.arroz_legumes_espagne = {
             "11. ارفعه من النار واتركه يرتاح 5 دقائق قبل التقديم."
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Les autres recettes (Poivrons farcis, Courgettes sautées, Poisson, Calamars) suivent exactement le même modèle.
-// Poivrons farcis espagnols
 recipesData.plat.poivrons_farcis = {
     country: "europe",
     countryName: "Espagne",
     image: "images/poivrons_farcis.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Poivrons farcis espagnols (Espagne 4 personnes)",
-        equipment: ["1 four", "1 poêle", "1 couteau"],
+        title: "Poivrons farcis (Espagne)",
+        equipment: [
+            "1 four",
+            "1 grande poêle",
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 plat allant au four",
+            "1 cuillère"
+        ],
         ingredients: [
-            "4 poivrons",
-            "300 g riz cuit",
-            "250 g poulet haché",
-            "2 tomates (200 g)",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à café sel (2 g)"
+            "4 gros poivrons",
+            "300 g de riz cuit",
+            "250 g de poulet haché",
+            "2 tomates mûres (200 g)",
+            "1 oignon moyen (120 g)",
+            "2 gousses d’ail",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à café de paprika (2 g)",
+            "1/2 cuillère à café de poivre",
+            "1 cuillère à café de sel (5 g)",
+            "50 ml d’eau"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les poivrons.\n" +
-            "2. Faire revenir poulet et tomates.\n" +
-            "3. Mélanger avec le riz.\n" +
-            "4. Farcir les poivrons.\n" +
-            "5. Cuire au four 180°C, 30 minutes."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Couper le chapeau des poivrons et retirer les graines.\n" +
+            "3. Éplucher et hacher finement l’oignon et l’ail.\n" +
+            "4. Couper les tomates en petits dés.\n" +
+            "5. Chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "6. Faire revenir l’oignon et l’ail pendant 3 minutes.\n" +
+            "7. Ajouter le poulet haché et cuire 5 minutes en remuant.\n" +
+            "8. Incorporer les tomates, le paprika, le sel et le poivre.\n" +
+            "9. Laisser mijoter 5 minutes.\n" +
+            "10. Ajouter le riz cuit et bien mélanger.\n" +
+            "11. Farcir généreusement les poivrons avec la préparation.\n" +
+            "12. Les disposer dans un plat allant au four et verser 50 ml d’eau au fond.\n" +
+            "13. Cuire au four pendant 30 à 35 minutes.\n" +
+            "14. Servir chaud."
     },
+
     en: {
-        title: "Spanish Stuffed Peppers (Spain 4 persons)",
-        equipment: ["1 oven", "1 pan", "1 knife"],
+        title: "Stuffed Peppers (Spain)",
+        equipment: [
+            "1 oven",
+            "1 large pan",
+            "1 mixing bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 baking dish",
+            "1 spoon"
+        ],
         ingredients: [
-            "4 bell peppers",
+            "4 large bell peppers",
             "300 g cooked rice",
             "250 g ground chicken",
-            "2 tomatoes (200 g)",
-            "2 tbsp olive oil (30 ml)",
-            "1 tsp salt (2 g)"
+            "2 ripe tomatoes (200 g)",
+            "1 medium onion (120 g)",
+            "2 garlic cloves",
+            "2 tablespoons olive oil (30 ml)",
+            "1 teaspoon paprika (2 g)",
+            "1/2 teaspoon black pepper",
+            "1 teaspoon salt (5 g)",
+            "50 ml water"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut peppers.\n" +
-            "2. Fry chicken and tomatoes.\n" +
-            "3. Mix with rice.\n" +
-            "4. Stuff peppers.\n" +
-            "5. Bake 30 min at 180°C."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Cut the tops off the peppers and remove the seeds.\n" +
+            "3. Peel and finely chop the onion and garlic.\n" +
+            "4. Dice the tomatoes.\n" +
+            "5. Heat olive oil in a large pan over medium heat.\n" +
+            "6. Cook the onion and garlic for 3 minutes.\n" +
+            "7. Add the ground chicken and cook for 5 minutes, stirring.\n" +
+            "8. Add tomatoes, paprika, salt and pepper.\n" +
+            "9. Simmer for 5 minutes.\n" +
+            "10. Stir in the cooked rice.\n" +
+            "11. Fill the peppers with the mixture.\n" +
+            "12. Place them in a baking dish and pour 50 ml of water into the bottom.\n" +
+            "13. Bake for 30–35 minutes.\n" +
+            "14. Serve hot."
     },
+
     nl: {
-        title: "Gevulde paprika’s (Spanje 4 personen)",
-        equipment: ["1 oven", "1 pan", "1 mes"],
+        title: "Gevulde Paprika’s (Spanje)",
+        equipment: [
+            "1 oven",
+            "1 grote pan",
+            "1 mengkom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 ovenschaal",
+            "1 lepel"
+        ],
         ingredients: [
-            "4 paprika’s",
+            "4 grote paprika’s",
             "300 g gekookte rijst",
             "250 g kipgehakt",
-            "2 tomaten (200 g)",
+            "2 rijpe tomaten (200 g)",
+            "1 middelgrote ui (120 g)",
+            "2 teentjes knoflook",
             "2 eetlepels olijfolie (30 ml)",
-            "1 tl zout (2 g)"
+            "1 theelepel paprikapoeder (2 g)",
+            "1/2 theelepel zwarte peper",
+            "1 theelepel zout (5 g)",
+            "50 ml water"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd paprika’s.\n" +
-            "2. Bak kip en tomaten.\n" +
-            "3. Meng met rijst.\n" +
-            "4. Vul paprika’s.\n" +
-            "5. Bak 30 min op 180°C."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Snijd de bovenkant van de paprika’s af en verwijder de zaadjes.\n" +
+            "3. Pel en snipper de ui en knoflook fijn.\n" +
+            "4. Snijd de tomaten in kleine blokjes.\n" +
+            "5. Verhit de olijfolie in een grote pan.\n" +
+            "6. Bak de ui en knoflook 3 minuten.\n" +
+            "7. Voeg het kipgehakt toe en bak 5 minuten.\n" +
+            "8. Voeg tomaten, paprikapoeder, zout en peper toe.\n" +
+            "9. Laat 5 minuten sudderen.\n" +
+            "10. Meng de rijst erdoor.\n" +
+            "11. Vul de paprika’s met het mengsel.\n" +
+            "12. Plaats ze in een ovenschaal en giet 50 ml water op de bodem.\n" +
+            "13. Bak 30–35 minuten.\n" +
+            "14. Serveer warm."
     },
+
     ar: {
-        title: "فلفل محشي إسباني (إسبانيا 4 أشخاص)",
-        equipment: ["فرن", "مقلاة", "سكين"],
+        title: "فلفل محشي (إسبانيا)",
+        equipment: [
+            "فرن",
+            "مقلاة كبيرة",
+            "وعاء خلط",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "طبق فرن",
+            "ملعقة"
+        ],
         ingredients: [
-            "4 حبات فلفل",
+            "4 حبات فلفل كبيرة",
             "300 غ أرز مطبوخ",
             "250 غ دجاج مفروم",
-            "2 طماطم (200 غ)",
+            "2 طماطم ناضجة (200 غ)",
+            "بصلة متوسطة (120 غ)",
+            "2 فص ثوم",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "1 ملعقة صغيرة بابريكا (2 غ)",
+            "نصف ملعقة صغيرة فلفل أسود",
+            "1 ملعقة صغيرة ملح (5 غ)",
+            "50 مل ماء"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الفلفل.\n" +
-            "2. اقلي الدجاج والطماطم.\n" +
-            "3. اخلط مع الأرز.\n" +
-            "4. احشُ الفلفل.\n" +
-            "5. اخبز 30 دقيقة."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. اقطع الجزء العلوي من الفلفل وأزل البذور.\n" +
+            "3. قشّر وافرُم البصل والثوم ناعماً.\n" +
+            "4. قطّع الطماطم إلى مكعبات صغيرة.\n" +
+            "5. سخّن زيت الزيتون في مقلاة على نار متوسطة.\n" +
+            "6. أضف البصل والثوم وقلّب لمدة 3 دقائق.\n" +
+            "7. أضف الدجاج المفروم واطبخ 5 دقائق مع التحريك.\n" +
+            "8. أضف الطماطم والبابريكا والملح والفلفل.\n" +
+            "9. اتركه يطهى 5 دقائق.\n" +
+            "10. أضف الأرز المطبوخ وامزج جيداً.\n" +
+            "11. احشُ حبات الفلفل بالخليط.\n" +
+            "12. ضعها في طبق فرن وأضف 50 مل ماء في القاع.\n" +
+            "13. اخبز لمدة 30–35 دقيقة.\n" +
+            "14. قدّم ساخناً."
     }
 };
-
-// Courgettes sautées
 recipesData.plat.courgettes_sautees = {
     country: "europe",
     countryName: "Espagne",
     image: "images/courgettes_sautees.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Courgettes sautées (Espagne 4 personnes)",
-        equipment: ["1 poêle", "1 couteau"],
+        title: "Courgettes sautées (Espagne)",
+        equipment: [
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "600 g courgettes",
+            "600 g de courgettes",
             "2 gousses d’ail",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1 cuillère à café sel (2 g)"
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1/2 cuillère à café de poivre",
+            "1 cuillère à café de sel (5 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les courgettes.\n" +
-            "2. Faire revenir l’ail.\n" +
-            "3. Ajouter courgettes.\n" +
-            "4. Cuire 8 minutes."
+            "1. Laver les courgettes puis les couper en rondelles.\n" +
+            "2. Éplucher et hacher finement l’ail.\n" +
+            "3. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "4. Ajouter l’ail et faire revenir 1 minute.\n" +
+            "5. Ajouter les courgettes.\n" +
+            "6. Saler et poivrer.\n" +
+            "7. Faire sauter à feu moyen pendant 8 à 10 minutes en remuant régulièrement.\n" +
+            "8. Servir chaud."
     },
+
     en: {
-        title: "Sautéed Zucchini (Spain 4 persons)",
-        equipment: ["1 pan", "1 knife"],
+        title: "Sautéed Zucchini (Spain)",
+        equipment: [
+            "1 large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "600 g zucchini",
             "2 garlic cloves",
-            "3 tbsp olive oil (45 ml)",
-            "1 tsp salt (2 g)"
+            "3 tablespoons olive oil (45 ml)",
+            "1/2 teaspoon black pepper",
+            "1 teaspoon salt (5 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut zucchini.\n" +
-            "2. Fry garlic.\n" +
-            "3. Add zucchini.\n" +
-            "4. Cook 8 minutes."
+            "1. Wash and slice the zucchini.\n" +
+            "2. Peel and finely chop the garlic.\n" +
+            "3. Heat olive oil in a large pan.\n" +
+            "4. Add garlic and cook for 1 minute.\n" +
+            "5. Add zucchini.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Sauté over medium heat for 8–10 minutes, stirring regularly.\n" +
+            "8. Serve hot."
     },
+
     nl: {
-        title: "Gebakken courgette (Spanje 4 personen)",
-        equipment: ["1 pan", "1 mes"],
+        title: "Gebakken Courgette (Spanje)",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
             "600 g courgette",
             "2 teentjes knoflook",
             "3 eetlepels olijfolie (45 ml)",
-            "1 tl zout (2 g)"
+            "1/2 theelepel zwarte peper",
+            "1 theelepel zout (5 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd courgette.\n" +
-            "2. Bak knoflook.\n" +
-            "3. Voeg courgette toe.\n" +
-            "4. Bak 8 minuten."
+            "1. Was de courgette en snijd in plakjes.\n" +
+            "2. Pel en hak de knoflook fijn.\n" +
+            "3. Verhit de olijfolie in een grote pan.\n" +
+            "4. Bak de knoflook 1 minuut.\n" +
+            "5. Voeg de courgette toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Bak 8–10 minuten op middelhoog vuur en roer regelmatig.\n" +
+            "8. Serveer warm."
     },
+
     ar: {
-        title: "كوسة مقلية (إسبانيا 4 أشخاص)",
-        equipment: ["مقلاة", "سكين"],
+        title: "كوسة مقلية (إسبانيا)",
+        equipment: [
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "600 غ كوسة",
             "2 فص ثوم",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "نصف ملعقة صغيرة فلفل أسود",
+            "1 ملعقة صغيرة ملح (5 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الكوسة.\n" +
-            "2. اقلي الثوم.\n" +
-            "3. أضف الكوسة.\n" +
-            "4. اطبخ 8 دقائق."
+            "1. اغسل الكوسة وقطّعها إلى شرائح.\n" +
+            "2. قشّر الثوم وافرمه ناعماً.\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "4. أضف الثوم وقلّب دقيقة واحدة.\n" +
+            "5. أضف الكوسة.\n" +
+            "6. أضف الملح والفلفل.\n" +
+            "7. قلّب على نار متوسطة لمدة 8–10 دقائق.\n" +
+            "8. قدّم ساخنة."
     }
 };
-
-// Poisson à l’espagnole
 recipesData.plat.poisson_espagnol = {
     country: "europe",
     countryName: "Espagne",
     image: "images/poisson_espagnol.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Poisson à l’espagnole (Espagne 4 personnes)",
-        equipment: ["1 grande poêle", "1 couteau", "1 planche"],
+        title: "Poisson à l’espagnole (Espagne)",
+        equipment: [
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "600 g filets de poisson blanc",
-            "1 oignon",
+            "600 g de filets de poisson blanc",
+            "1 oignon moyen",
             "2 tomates (200 g)",
             "1 poivron",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1 cuillère à café paprika (2 g)",
-            "1 cuillère à café sel (2 g)"
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1 cuillère à café de paprika (2 g)",
+            "1/2 cuillère à café de poivre",
+            "1 cuillère à café de sel (5 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Émincer oignon et poivron.\n" +
-            "2. Les faire revenir dans l’huile.\n" +
-            "3. Ajouter tomates et épices.\n" +
-            "4. Déposer le poisson.\n" +
-            "5. Cuire 12 minutes à feu doux."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Couper le poivron et les tomates en dés.\n" +
+            "3. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "4. Faire revenir l’oignon et le poivron pendant 5 minutes.\n" +
+            "5. Ajouter les tomates, le paprika, le sel et le poivre.\n" +
+            "6. Laisser mijoter 3 minutes.\n" +
+            "7. Déposer les filets de poisson sur les légumes.\n" +
+            "8. Couvrir et cuire à feu doux pendant 10 à 12 minutes.\n" +
+            "9. Servir chaud."
     },
+
     en: {
-        title: "Spanish Style Fish (Spain 4 persons)",
-        equipment: ["1 large pan", "1 knife", "1 board"],
+        title: "Spanish Style Fish (Spain)",
+        equipment: [
+            "1 large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "600 g white fish fillets",
-            "1 onion",
+            "1 medium onion",
             "2 tomatoes (200 g)",
             "1 bell pepper",
-            "3 tbsp olive oil (45 ml)",
-            "1 tsp paprika (2 g)",
-            "1 tsp salt (2 g)"
+            "3 tablespoons olive oil (45 ml)",
+            "1 teaspoon paprika (2 g)",
+            "1/2 teaspoon black pepper",
+            "1 teaspoon salt (5 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Slice onion and pepper.\n" +
-            "2. Fry in olive oil.\n" +
-            "3. Add tomatoes and spices.\n" +
-            "4. Add fish.\n" +
-            "5. Cook 12 minutes."
+            "1. Peel and slice the onion.\n" +
+            "2. Dice the bell pepper and tomatoes.\n" +
+            "3. Heat olive oil in a large pan.\n" +
+            "4. Cook onion and pepper for 5 minutes.\n" +
+            "5. Add tomatoes, paprika, salt and pepper.\n" +
+            "6. Simmer for 3 minutes.\n" +
+            "7. Place the fish fillets over the vegetables.\n" +
+            "8. Cover and cook on low heat for 10–12 minutes.\n" +
+            "9. Serve hot."
     },
+
     nl: {
-        title: "Spaanse vis (Spanje 4 personen)",
-        equipment: ["1 grote pan", "1 mes", "1 plank"],
+        title: "Spaanse Vis (Spanje)",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
             "600 g witte visfilet",
-            "1 ui",
+            "1 middelgrote ui",
             "2 tomaten (200 g)",
             "1 paprika",
             "3 eetlepels olijfolie (45 ml)",
-            "1 tl paprika (2 g)",
-            "1 tl zout (2 g)"
+            "1 theelepel paprikapoeder (2 g)",
+            "1/2 theelepel zwarte peper",
+            "1 theelepel zout (5 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd ui en paprika.\n" +
-            "2. Bak in olie.\n" +
-            "3. Voeg tomaten toe.\n" +
-            "4. Voeg vis toe.\n" +
-            "5. Bak 12 minuten."
+            "1. Pel en snijd de ui in dunne plakjes.\n" +
+            "2. Snijd paprika en tomaten in blokjes.\n" +
+            "3. Verhit de olijfolie in een grote pan.\n" +
+            "4. Bak ui en paprika 5 minuten.\n" +
+            "5. Voeg tomaten, paprikapoeder, zout en peper toe.\n" +
+            "6. Laat 3 minuten sudderen.\n" +
+            "7. Leg de visfilets op de groenten.\n" +
+            "8. Dek af en bak 10–12 minuten op laag vuur.\n" +
+            "9. Serveer warm."
     },
+
     ar: {
-        title: "سمك على الطريقة الإسبانية (إسبانيا 4 أشخاص)",
-        equipment: ["مقلاة كبيرة", "سكين", "لوح"],
+        title: "سمك على الطريقة الإسبانية (إسبانيا)",
+        equipment: [
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "600 غ فيليه سمك أبيض",
-            "1 بصلة",
+            "بصلة متوسطة",
             "2 طماطم (200 غ)",
             "1 فلفل",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
             "1 ملعقة صغيرة بابريكا (2 غ)",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "نصف ملعقة صغيرة فلفل أسود",
+            "1 ملعقة صغيرة ملح (5 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع البصل والفلفل.\n" +
-            "2. اقليهما بالزيت.\n" +
-            "3. أضف الطماطم.\n" +
-            "4. أضف السمك.\n" +
-            "5. اطبخ 12 دقيقة."
+            "1. قشّر البصل وقطّعه شرائح.\n" +
+            "2. قطّع الفلفل والطماطم إلى مكعبات.\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "4. أضف البصل والفلفل واطبخ 5 دقائق.\n" +
+            "5. أضف الطماطم والبابريكا والملح والفلفل.\n" +
+            "6. اتركه يطهى 3 دقائق.\n" +
+            "7. ضع فيليه السمك فوق الخضار.\n" +
+            "8. غطِّ المقلاة واتركه يطهى على نار هادئة 10–12 دقيقة.\n" +
+            "9. قدّم ساخناً."
     }
 };
-
-// Calamars sautés
 recipesData.plat.calamar_saute = {
     country: "europe",
     countryName: "Espagne",
     image: "images/calamar_saute.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 6,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Calamars sautés (Espagne 4 personnes)",
-        equipment: ["1 poêle", "1 couteau"],
+        title: "Calamars sautés (Espagne)",
+        equipment: [
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 saladier",
+            "1 passoire",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "600 g calamars nettoyés",
+            "600 g de calamars nettoyés",
             "3 gousses d’ail",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1 cuillère à café sel (2 g)"
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1/2 cuillère à café de poivre",
+            "1 cuillère à café de sel (5 g)",
+            "1 cuillère à soupe de jus de citron"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les calamars.\n" +
-            "2. Faire revenir l’ail.\n" +
-            "3. Ajouter les calamars.\n" +
-            "4. Cuire 5 minutes."
+            "1. Rincer les calamars sous l’eau froide puis les égoutter.\n" +
+            "2. Les couper en anneaux si nécessaire.\n" +
+            "3. Éplucher et hacher finement l’ail.\n" +
+            "4. Chauffer l’huile d’olive dans une grande poêle à feu vif.\n" +
+            "5. Ajouter l’ail et faire revenir 30 secondes.\n" +
+            "6. Ajouter les calamars.\n" +
+            "7. Saler et poivrer.\n" +
+            "8. Faire sauter 4 à 6 minutes en remuant régulièrement.\n" +
+            "9. Arroser de jus de citron.\n" +
+            "10. Servir immédiatement."
     },
+
     en: {
-        title: "Sautéed Squid (Spain 4 persons)",
-        equipment: ["1 pan", "1 knife"],
+        title: "Sautéed Squid (Spain)",
+        equipment: [
+            "1 large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "1 strainer",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "600 g cleaned squid",
             "3 garlic cloves",
-            "3 tbsp olive oil (45 ml)",
-            "1 tsp salt (2 g)"
+            "3 tablespoons olive oil (45 ml)",
+            "1/2 teaspoon black pepper",
+            "1 teaspoon salt (5 g)",
+            "1 tablespoon lemon juice"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut squid.\n" +
-            "2. Fry garlic.\n" +
-            "3. Add squid.\n" +
-            "4. Cook 5 minutes."
+            "1. Rinse the squid under cold water and drain well.\n" +
+            "2. Cut into rings if needed.\n" +
+            "3. Peel and finely chop the garlic.\n" +
+            "4. Heat olive oil in a large pan over high heat.\n" +
+            "5. Add garlic and cook for 30 seconds.\n" +
+            "6. Add the squid.\n" +
+            "7. Season with salt and pepper.\n" +
+            "8. Sauté for 4–6 minutes, stirring regularly.\n" +
+            "9. Drizzle with lemon juice.\n" +
+            "10. Serve immediately."
     },
+
     nl: {
-        title: "Gebakken inktvis (Spanje 4 personen)",
-        equipment: ["1 pan", "1 mes"],
+        title: "Gebakken Inktvis (Spanje)",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "1 vergiet",
+            "1 houten lepel"
+        ],
         ingredients: [
-            "600 g inktvis",
+            "600 g schoongemaakte inktvis",
             "3 teentjes knoflook",
             "3 eetlepels olijfolie (45 ml)",
-            "1 tl zout (2 g)"
+            "1/2 theelepel zwarte peper",
+            "1 theelepel zout (5 g)",
+            "1 eetlepel citroensap"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd inktvis.\n" +
-            "2. Bak knoflook.\n" +
-            "3. Voeg inktvis toe.\n" +
-            "4. Bak 5 minuten."
+            "1. Spoel de inktvis onder koud water en laat goed uitlekken.\n" +
+            "2. Snijd in ringen indien nodig.\n" +
+            "3. Pel en hak de knoflook fijn.\n" +
+            "4. Verhit de olijfolie in een grote pan op hoog vuur.\n" +
+            "5. Bak de knoflook 30 seconden.\n" +
+            "6. Voeg de inktvis toe.\n" +
+            "7. Breng op smaak met zout en peper.\n" +
+            "8. Bak 4–6 minuten en roer regelmatig.\n" +
+            "9. Besprenkel met citroensap.\n" +
+            "10. Serveer direct."
     },
+
     ar: {
-        title: "حبار مقلي (إسبانيا 4 أشخاص)",
-        equipment: ["مقلاة", "سكين"],
+        title: "حبار مقلي (إسبانيا)",
+        equipment: [
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "مصفاة",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "600 غ حبار منظف",
             "3 فصوص ثوم",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "نصف ملعقة صغيرة فلفل أسود",
+            "1 ملعقة صغيرة ملح (5 غ)",
+            "1 ملعقة كبيرة عصير ليمون"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الحبار.\n" +
-            "2. اقلي الثوم.\n" +
-            "3. أضف الحبار.\n" +
-            "4. اطبخ 5 دقائق."
+            "1. اغسل الحبار تحت الماء البارد وصفّه جيداً.\n" +
+            "2. قطّعه إلى حلقات عند الحاجة.\n" +
+            "3. قشّر الثوم وافرمه ناعماً.\n" +
+            "4. سخّن زيت الزيتون في مقلاة كبيرة على نار عالية.\n" +
+            "5. أضف الثوم وقلّب لمدة 30 ثانية.\n" +
+            "6. أضف الحبار.\n" +
+            "7. أضف الملح والفلفل.\n" +
+            "8. قلّب لمدة 4 إلى 6 دقائق.\n" +
+            "9. أضف عصير الليمون.\n" +
+            "10. قدّم فوراً."
     }
 };
-
-
-// Omelette aux légumes
 recipesData.plat.omelette_legumes = {
     country: "europe",
     countryName: "Espagne",
     image: "images/omelette_legumes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 12,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Omelette aux légumes espagnole (Espagne 4 personnes)",
-        equipment: ["1 poêle", "1 saladier"],
+        title: "Omelette aux légumes (Espagne)",
+        equipment: [
+            "1 poêle antiadhésive",
+            "1 saladier",
+            "1 fouet",
+            "1 couteau",
+            "1 planche à découper",
+            "1 spatule"
+        ],
         ingredients: [
             "6 œufs",
-            "1 oignon",
+            "1 oignon moyen",
             "1 poivron",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à café sel (2 g)"
+            "1 petite courgette (150 g)",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de poivre",
+            "1 cuillère à café de sel (5 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Battre les œufs.\n" +
-            "2. Faire revenir les légumes.\n" +
-            "3. Ajouter les œufs.\n" +
-            "4. Cuire doucement."
+            "1. Éplucher et émincer l’oignon.\n" +
+            "2. Couper le poivron et la courgette en petits dés.\n" +
+            "3. Chauffer l’huile d’olive dans une poêle.\n" +
+            "4. Faire revenir les légumes 5 à 7 minutes.\n" +
+            "5. Battre les œufs dans un saladier.\n" +
+            "6. Ajouter le sel et le poivre.\n" +
+            "7. Verser les œufs sur les légumes.\n" +
+            "8. Cuire à feu doux 5 minutes.\n" +
+            "9. Retourner délicatement l’omelette et cuire encore 2 à 3 minutes.\n" +
+            "10. Servir chaud."
     },
+
     en: {
-        title: "Spanish Vegetable Omelette (Spain 4 persons)",
-        equipment: ["1 pan", "1 bowl"],
+        title: "Vegetable Omelette (Spain)",
+        equipment: [
+            "1 non-stick pan",
+            "1 bowl",
+            "1 whisk",
+            "1 knife",
+            "1 cutting board",
+            "1 spatula"
+        ],
         ingredients: [
             "6 eggs",
-            "1 onion",
+            "1 medium onion",
             "1 bell pepper",
-            "2 tbsp olive oil (30 ml)",
-            "1 tsp salt (2 g)"
+            "1 small zucchini (150 g)",
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon black pepper",
+            "1 teaspoon salt (5 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Beat eggs.\n" +
-            "2. Fry vegetables.\n" +
-            "3. Add eggs.\n" +
-            "4. Cook gently."
+            "1. Peel and slice the onion.\n" +
+            "2. Dice the bell pepper and zucchini.\n" +
+            "3. Heat olive oil in a pan.\n" +
+            "4. Cook the vegetables for 5–7 minutes.\n" +
+            "5. Beat the eggs in a bowl.\n" +
+            "6. Add salt and pepper.\n" +
+            "7. Pour eggs over the vegetables.\n" +
+            "8. Cook on low heat for 5 minutes.\n" +
+            "9. Carefully flip and cook for another 2–3 minutes.\n" +
+            "10. Serve hot."
     },
+
     nl: {
-        title: "Spaanse groenteomelet (Spanje 4 personen)",
-        equipment: ["1 pan", "1 kom"],
+        title: "Groenteomelet (Spanje)",
+        equipment: [
+            "1 antiaanbakpan",
+            "1 kom",
+            "1 garde",
+            "1 mes",
+            "1 snijplank",
+            "1 spatel"
+        ],
         ingredients: [
             "6 eieren",
-            "1 ui",
+            "1 middelgrote ui",
             "1 paprika",
+            "1 kleine courgette (150 g)",
             "2 eetlepels olijfolie (30 ml)",
-            "1 tl zout (2 g)"
+            "1/2 theelepel zwarte peper",
+            "1 theelepel zout (5 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Klop eieren.\n" +
-            "2. Bak groenten.\n" +
-            "3. Voeg eieren toe.\n" +
-            "4. Bak rustig."
+            "1. Pel en snijd de ui.\n" +
+            "2. Snijd paprika en courgette in kleine blokjes.\n" +
+            "3. Verhit de olijfolie in een pan.\n" +
+            "4. Bak de groenten 5–7 minuten.\n" +
+            "5. Klop de eieren in een kom.\n" +
+            "6. Voeg zout en peper toe.\n" +
+            "7. Giet het eimengsel over de groenten.\n" +
+            "8. Bak 5 minuten op laag vuur.\n" +
+            "9. Draai voorzichtig om en bak nog 2–3 minuten.\n" +
+            "10. Serveer warm."
     },
+
     ar: {
-        title: "عجة بالخضار الإسبانية (إسبانيا 4 أشخاص)",
-        equipment: ["مقلاة", "وعاء"],
+        title: "عجة بالخضار (إسبانيا)",
+        equipment: [
+            "مقلاة غير لاصقة",
+            "وعاء",
+            "مضرب يدوي",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة مسطحة"
+        ],
         ingredients: [
             "6 بيض",
-            "1 بصلة",
+            "بصلة متوسطة",
             "1 فلفل",
+            "1 كوسة صغيرة (150 غ)",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "نصف ملعقة صغيرة فلفل أسود",
+            "1 ملعقة صغيرة ملح (5 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخفق البيض.\n" +
-            "2. اقلي الخضار.\n" +
-            "3. أضف البيض.\n" +
-            "4. اطبخ بهدوء."
+            "1. قشّر البصل وقطّعه شرائح.\n" +
+            "2. قطّع الفلفل والكوسة إلى مكعبات صغيرة.\n" +
+            "3. سخّن زيت الزيتون في مقلاة.\n" +
+            "4. أضف الخضار واطبخ لمدة 5 إلى 7 دقائق.\n" +
+            "5. اخفق البيض في وعاء.\n" +
+            "6. أضف الملح والفلفل.\n" +
+            "7. اسكب البيض فوق الخضار.\n" +
+            "8. اطبخ على نار هادئة لمدة 5 دقائق.\n" +
+            "9. اقلب العجة بحذر واطبخ 2 إلى 3 دقائق إضافية.\n" +
+            "10. قدّم ساخنة."
     }
 };
-
-// Riz aux pois chiches
 recipesData.plat.riz_pois_chiches = {
     country: "europe",
     countryName: "Espagne",
     image: "images/riz_pois_chiches.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Riz aux pois chiches espagnol (Espagne 4 personnes)",
-        equipment: ["1 grande poêle"],
+        title: "Riz aux pois chiches (Espagne)",
+        equipment: [
+            "1 grande poêle ou sauteuse",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 verre doseur"
+        ],
         ingredients: [
-            "300 g riz",
-            "200 g pois chiches cuits",
-            "1 oignon",
-            "750 ml bouillon de légumes",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1 cuillère à café paprika (2 g)",
-            "1 cuillère à café sel (2 g)"
+            "300 g de riz",
+            "200 g de pois chiches cuits",
+            "1 oignon moyen",
+            "750 ml de bouillon de légumes",
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1 cuillère à café de paprika (2 g)",
+            "1/2 cuillère à café de poivre",
+            "1 cuillère à café de sel (5 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire revenir l’oignon.\n" +
-            "2. Ajouter riz et épices.\n" +
-            "3. Ajouter pois chiches.\n" +
-            "4. Verser bouillon.\n" +
-            "5. Cuire 18 minutes."
+            "1. Éplucher et hacher l’oignon.\n" +
+            "2. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "3. Faire revenir l’oignon 3 minutes.\n" +
+            "4. Ajouter le riz et le paprika.\n" +
+            "5. Mélanger pendant 1 minute.\n" +
+            "6. Ajouter les pois chiches.\n" +
+            "7. Verser le bouillon chaud.\n" +
+            "8. Saler et poivrer.\n" +
+            "9. Couvrir et cuire 18 à 20 minutes à feu doux.\n" +
+            "10. Laisser reposer 5 minutes avant de servir."
     },
+
     en: {
-        title: "Spanish Chickpea Rice (Spain 4 persons)",
-        equipment: ["1 large pan"],
+        title: "Chickpea Rice (Spain)",
+        equipment: [
+            "1 large pan or sauté pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 measuring cup"
+        ],
         ingredients: [
             "300 g rice",
             "200 g cooked chickpeas",
-            "1 onion",
+            "1 medium onion",
             "750 ml vegetable broth",
-            "3 tbsp olive oil (45 ml)",
-            "1 tsp paprika (2 g)",
-            "1 tsp salt (2 g)"
+            "3 tablespoons olive oil (45 ml)",
+            "1 teaspoon paprika (2 g)",
+            "1/2 teaspoon black pepper",
+            "1 teaspoon salt (5 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Fry onion.\n" +
-            "2. Add rice and spices.\n" +
-            "3. Add chickpeas.\n" +
-            "4. Pour broth.\n" +
-            "5. Cook 18 minutes."
+            "1. Peel and chop the onion.\n" +
+            "2. Heat olive oil in a large pan.\n" +
+            "3. Cook the onion for 3 minutes.\n" +
+            "4. Add rice and paprika.\n" +
+            "5. Stir for 1 minute.\n" +
+            "6. Add chickpeas.\n" +
+            "7. Pour in hot broth.\n" +
+            "8. Season with salt and pepper.\n" +
+            "9. Cover and cook for 18–20 minutes on low heat.\n" +
+            "10. Let rest 5 minutes before serving."
     },
+
     nl: {
-        title: "Spaanse rijst met kikkererwten (Spanje 4 personen)",
-        equipment: ["1 grote pan"],
+        title: "Rijst met kikkererwten (Spanje)",
+        equipment: [
+            "1 grote pan of hapjespan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 maatbeker"
+        ],
         ingredients: [
             "300 g rijst",
-            "200 g kikkererwten",
-            "1 ui",
+            "200 g gekookte kikkererwten",
+            "1 middelgrote ui",
             "750 ml groentebouillon",
             "3 eetlepels olijfolie (45 ml)",
-            "1 tl paprika (2 g)",
-            "1 tl zout (2 g)"
+            "1 theelepel paprikapoeder (2 g)",
+            "1/2 theelepel zwarte peper",
+            "1 theelepel zout (5 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bak ui.\n" +
-            "2. Voeg rijst en kruiden toe.\n" +
-            "3. Voeg kikkererwten toe.\n" +
-            "4. Voeg bouillon toe.\n" +
-            "5. Kook 18 minuten."
+            "1. Pel en hak de ui.\n" +
+            "2. Verhit de olijfolie in een grote pan.\n" +
+            "3. Bak de ui 3 minuten.\n" +
+            "4. Voeg rijst en paprikapoeder toe.\n" +
+            "5. Roer 1 minuut.\n" +
+            "6. Voeg kikkererwten toe.\n" +
+            "7. Giet hete bouillon erbij.\n" +
+            "8. Breng op smaak met zout en peper.\n" +
+            "9. Dek af en kook 18–20 minuten op laag vuur.\n" +
+            "10. Laat 5 minuten rusten voor het serveren."
     },
+
     ar: {
-        title: "أرز بالحمص الإسباني (إسبانيا 4 أشخاص)",
-        equipment: ["مقلاة كبيرة"],
+        title: "أرز بالحمص (إسبانيا)",
+        equipment: [
+            "مقلاة كبيرة أو قدر",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "كوب قياس"
+        ],
         ingredients: [
             "300 غ أرز",
             "200 غ حمص مطبوخ",
-            "1 بصلة",
+            "بصلة متوسطة",
             "750 مل مرق خضار",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
             "1 ملعقة صغيرة بابريكا (2 غ)",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "نصف ملعقة صغيرة فلفل أسود",
+            "1 ملعقة صغيرة ملح (5 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اقلي البصل.\n" +
-            "2. أضف الأرز والتوابل.\n" +
-            "3. أضف الحمص.\n" +
-            "4. أضف المرق.\n" +
-            "5. اطبخ 18 دقيقة."
+            "1. قشّر البصل وافرمه.\n" +
+            "2. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "3. أضف البصل واطبخ 3 دقائق.\n" +
+            "4. أضف الأرز والبابريكا.\n" +
+            "5. حرّك لمدة دقيقة.\n" +
+            "6. أضف الحمص.\n" +
+            "7. اسكب المرق الساخن.\n" +
+            "8. أضف الملح والفلفل.\n" +
+            "9. غطِّ واتركه يطهى 18 إلى 20 دقيقة على نار هادئة.\n" +
+            "10. اتركه يرتاح 5 دقائق قبل التقديم."
     }
 };
-
-// Gratin de légumes espagnol
 recipesData.plat.gratin_legumes_espagnol = {
     country: "europe",
     countryName: "Espagne",
     image: "images/gratin_legumes_espagnol.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 40,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Gratin de légumes espagnol (Espagne 4 personnes)",
-        equipment: ["1 four", "1 plat allant au four"],
+        title: "Gratin de légumes (Espagne)",
+        equipment: [
+            "1 four",
+            "1 plat allant au four",
+            "1 couteau",
+            "1 planche à découper",
+            "1 saladier"
+        ],
         ingredients: [
-            "2 pommes de terre",
+            "2 pommes de terre moyennes",
             "1 courgette",
             "1 carotte",
-            "200 ml crème de cuisson",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à café sel (2 g)"
+            "1 oignon",
+            "200 ml de crème de cuisson",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de poivre",
+            "1 cuillère à café de sel (5 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les légumes.\n" +
-            "2. Les disposer dans un plat.\n" +
-            "3. Ajouter crème et huile.\n" +
-            "4. Saler.\n" +
-            "5. Cuire au four 180°C, 35 minutes."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Éplucher les pommes de terre, la carotte et l’oignon.\n" +
+            "3. Couper tous les légumes en fines rondelles.\n" +
+            "4. Huiler légèrement le plat.\n" +
+            "5. Disposer les légumes en couches régulières.\n" +
+            "6. Saler et poivrer.\n" +
+            "7. Verser la crème uniformément.\n" +
+            "8. Couvrir de papier cuisson ou d’un couvercle.\n" +
+            "9. Cuire 35 à 40 minutes.\n" +
+            "10. Retirer le couvercle et laisser dorer 5 minutes si nécessaire.\n" +
+            "11. Servir chaud."
     },
+
     en: {
-        title: "Spanish Vegetable Gratin (Spain 4 persons)",
-        equipment: ["1 oven", "1 baking dish"],
+        title: "Vegetable Gratin (Spain)",
+        equipment: [
+            "1 oven",
+            "1 baking dish",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl"
+        ],
         ingredients: [
-            "2 potatoes",
+            "2 medium potatoes",
             "1 zucchini",
             "1 carrot",
+            "1 onion",
             "200 ml cooking cream",
-            "2 tbsp olive oil (30 ml)",
-            "1 tsp salt (2 g)"
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon black pepper",
+            "1 teaspoon salt (5 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Slice vegetables.\n" +
-            "2. Place in dish.\n" +
-            "3. Add cream and oil.\n" +
-            "4. Season.\n" +
-            "5. Bake 35 min at 180°C."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Peel potatoes, carrot and onion.\n" +
+            "3. Slice all vegetables thinly.\n" +
+            "4. Lightly oil the baking dish.\n" +
+            "5. Arrange vegetables in even layers.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Pour cream evenly over the vegetables.\n" +
+            "8. Cover with baking paper or lid.\n" +
+            "9. Bake for 35–40 minutes.\n" +
+            "10. Remove cover and brown for 5 minutes if needed.\n" +
+            "11. Serve hot."
     },
+
     nl: {
-        title: "Spaanse groentenovenschotel (Spanje 4 personen)",
-        equipment: ["1 oven", "1 ovenschaal"],
+        title: "Groentegratin (Spanje)",
+        equipment: [
+            "1 oven",
+            "1 ovenschaal",
+            "1 mes",
+            "1 snijplank",
+            "1 kom"
+        ],
         ingredients: [
-            "2 aardappelen",
+            "2 middelgrote aardappelen",
             "1 courgette",
             "1 wortel",
+            "1 ui",
             "200 ml kookroom",
             "2 eetlepels olijfolie (30 ml)",
-            "1 tl zout (2 g)"
+            "1/2 theelepel zwarte peper",
+            "1 theelepel zout (5 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd groenten.\n" +
-            "2. Leg in schaal.\n" +
-            "3. Voeg room en olie toe.\n" +
-            "4. Kruid.\n" +
-            "5. Bak 35 min op 180°C."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Schil aardappelen, wortel en ui.\n" +
+            "3. Snijd alle groenten in dunne plakjes.\n" +
+            "4. Vet de ovenschaal licht in.\n" +
+            "5. Leg de groenten in lagen.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Giet de room gelijkmatig erover.\n" +
+            "8. Dek af met bakpapier of deksel.\n" +
+            "9. Bak 35–40 minuten.\n" +
+            "10. Verwijder deksel en laat 5 minuten kleuren indien nodig.\n" +
+            "11. Serveer warm."
     },
+
     ar: {
-        title: "غراتان خضار إسباني (إسبانيا 4 أشخاص)",
-        equipment: ["فرن", "طبق فرن"],
+        title: "غراتان خضار (إسبانيا)",
+        equipment: [
+            "فرن",
+            "طبق فرن",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء"
+        ],
         ingredients: [
-            "2 بطاطس",
+            "2 بطاطس متوسطة",
             "1 كوسة",
             "1 جزرة",
+            "1 بصلة",
             "200 مل كريمة طبخ",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "نصف ملعقة صغيرة فلفل أسود",
+            "1 ملعقة صغيرة ملح (5 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الخضار.\n" +
-            "2. ضعها في طبق.\n" +
-            "3. أضف الكريمة والزيت.\n" +
-            "4. تبّل.\n" +
-            "5. اخبز 35 دقيقة."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. قشّر البطاطس والجزرة والبصل.\n" +
+            "3. قطّع جميع الخضار إلى شرائح رفيعة.\n" +
+            "4. ادهن طبق الفرن بقليل من الزيت.\n" +
+            "5. رصّ الخضار في طبقات متساوية.\n" +
+            "6. أضف الملح والفلفل.\n" +
+            "7. اسكب الكريمة فوق الخضار.\n" +
+            "8. غطِّ الطبق.\n" +
+            "9. اخبز لمدة 35 إلى 40 دقيقة.\n" +
+            "10. أزل الغطاء واتركه يتحمّر 5 دقائق إذا لزم الأمر.\n" +
+            "11. قدّم ساخناً."
     }
 };
+
+
+
+
+
+
+
+
 
 
 recipesData.dessert.flan_vanille_espagne = {
     country: "europe",
     countryName: "espagne",
     image: "images/flan_vanille_espagne.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 40,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Flan à la vanille (Espagne, 4 personnes)",
+        title: "Flan à la vanille (Espagne)",
         equipment: [
             "1 casserole",
             "1 fouet",
-            "4 ramequins",
             "1 bol",
             "1 balance de cuisine",
-            "1 cuillère en bois"
+            "1 cuillère en bois",
+            "4 ramequins",
+            "1 plat allant au four",
+            "1 verre doseur",
+            "1 passoire fine"
         ],
         ingredients: [
-            "500 ml lait",
+            "500 ml de lait entier",
             "4 œufs",
-            "100 g sucre",
-            "1 cuillère à soupe vanille liquide (15 ml)",
-            "1 pincée de sel (1 g)"
+            "100 g de sucre",
+            "1 cuillère à soupe d’extrait de vanille (15 ml)",
+            "1 pincée de sel (1 g)",
+            "Eau chaude pour le bain-marie"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 160°C.\n" +
-            "2. Dans un bol, battre les œufs avec le sucre et la pincée de sel jusqu'à obtenir un mélange homogène.\n" +
-            "3. Chauffer le lait dans une casserole jusqu'à ébullition légère, puis retirer du feu.\n" +
-            "4. Verser lentement le lait chaud sur le mélange œufs-sucre tout en remuant.\n" +
-            "5. Ajouter la vanille et bien mélanger.\n" +
-            "6. Verser la préparation dans les ramequins.\n" +
-            "7. Placer les ramequins dans un plat allant au four et ajouter de l’eau chaude à mi-hauteur (bain-marie).\n" +
-            "8. Cuire 35-40 minutes jusqu'à ce que le flan soit pris.\n" +
-            "9. Laisser refroidir, puis réfrigérer 1 heure avant de servir."
+            "2. Chauffer légèrement le lait dans une casserole sans le faire bouillir.\n" +
+            "3. Dans un bol, battre les œufs avec le sucre et le sel jusqu’à obtenir un mélange homogène.\n" +
+            "4. Verser progressivement le lait chaud sur le mélange tout en fouettant.\n" +
+            "5. Ajouter la vanille et mélanger.\n" +
+            "6. Filtrer la préparation à l’aide d’une passoire fine pour obtenir une texture lisse.\n" +
+            "7. Répartir dans les ramequins.\n" +
+            "8. Placer les ramequins dans un plat allant au four et verser de l’eau chaude à mi-hauteur.\n" +
+            "9. Cuire au bain-marie pendant 35 à 40 minutes jusqu’à ce que le flan soit pris.\n" +
+            "10. Laisser refroidir à température ambiante puis réfrigérer au moins 1 heure avant de servir."
     },
+
     en: {
-        title: "Vanilla Flan (Spain, Serves 4)",
+        title: "Vanilla Flan (Spain)",
         equipment: [
             "1 saucepan",
             "1 whisk",
-            "4 ramekins",
             "1 bowl",
             "1 kitchen scale",
-            "1 wooden spoon"
+            "1 wooden spoon",
+            "4 ramekins",
+            "1 baking dish",
+            "1 measuring cup",
+            "1 fine strainer"
         ],
         ingredients: [
-            "500 ml milk",
+            "500 ml whole milk",
             "4 eggs",
             "100 g sugar",
-            "1 tbsp vanilla extract (15 ml)",
-            "1 pinch salt (1 g)"
+            "1 tablespoon vanilla extract (15 ml)",
+            "1 pinch salt (1 g)",
+            "Hot water for bain-marie"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 160°C.\n" +
-            "2. In a bowl, beat eggs with sugar and salt until smooth.\n" +
-            "3. Heat milk in saucepan until just boiling, remove from heat.\n" +
-            "4. Slowly pour hot milk into egg-sugar mixture while stirring.\n" +
+            "2. Gently heat the milk in a saucepan without boiling.\n" +
+            "3. In a bowl, beat eggs with sugar and salt until smooth.\n" +
+            "4. Slowly pour the warm milk into the mixture while whisking.\n" +
             "5. Add vanilla and mix well.\n" +
-            "6. Pour into ramekins.\n" +
-            "7. Place ramekins in a baking dish, add hot water halfway up (bain-marie).\n" +
-            "8. Bake 35-40 minutes until set.\n" +
-            "9. Cool, then refrigerate 1 hour before serving."
+            "6. Strain the mixture through a fine sieve for a smooth texture.\n" +
+            "7. Divide into ramekins.\n" +
+            "8. Place ramekins in a baking dish and pour hot water halfway up the sides.\n" +
+            "9. Bake in a bain-marie for 35 to 40 minutes until set.\n" +
+            "10. Cool at room temperature, then refrigerate at least 1 hour before serving."
     },
+
     nl: {
-        title: "Vanille Flan (Spanje, voor 4 personen)",
+        title: "Vanilleflan (Spanje)",
         equipment: [
             "1 steelpan",
             "1 garde",
-            "4 ramekins",
             "1 kom",
             "1 keukenweegschaal",
-            "1 houten lepel"
+            "1 houten lepel",
+            "4 ramekins",
+            "1 ovenschaal",
+            "1 maatbeker",
+            "1 fijne zeef"
         ],
         ingredients: [
-            "500 ml melk",
+            "500 ml volle melk",
             "4 eieren",
             "100 g suiker",
             "1 eetlepel vanille-extract (15 ml)",
-            "1 snufje zout (1 g)"
+            "1 snufje zout (1 g)",
+            "Heet water voor au bain-marie"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 160°C.\n" +
-            "2. Klop in een kom de eieren met suiker en zout tot een glad mengsel.\n" +
-            "3. Verwarm melk in steelpan tot net aan de kook, haal van het vuur.\n" +
-            "4. Giet langzaam de hete melk bij het eier-suikermengsel terwijl je blijft roeren.\n" +
+            "2. Verwarm de melk licht in een steelpan zonder te laten koken.\n" +
+            "3. Klop in een kom de eieren met suiker en zout tot een glad mengsel.\n" +
+            "4. Giet de warme melk geleidelijk bij het mengsel terwijl je klopt.\n" +
             "5. Voeg vanille toe en meng goed.\n" +
-            "6. Giet in ramekins.\n" +
-            "7. Plaats ramekins in een ovenschaal, voeg heet water tot halverwege (au bain-marie).\n" +
-            "8. Bak 35-40 minuten tot de flan is gestold.\n" +
-            "9. Laat afkoelen en zet 1 uur in de koelkast voor het serveren."
+            "6. Zeef het mengsel voor een gladde textuur.\n" +
+            "7. Verdeel over de ramekins.\n" +
+            "8. Plaats de ramekins in een ovenschaal en giet heet water tot halverwege.\n" +
+            "9. Bak 35 tot 40 minuten au bain-marie tot de flan stevig is.\n" +
+            "10. Laat afkoelen en zet minstens 1 uur in de koelkast voor het serveren."
     },
+
     ar: {
-        title: "فلان بالفانيليا (إسبانيا، تكفي 4 أشخاص)",
+        title: "فلان بالفانيليا (إسبانيا)",
         equipment: [
-            "1 قدر",
-            "1 خفاقة",
-            "4 قوالب فخارية",
-            "1 وعاء",
-            "1 ميزان مطبخ",
-            "1 ملعقة خشبية"
+            "قدر",
+            "خفاقة",
+            "وعاء",
+            "ميزان مطبخ",
+            "ملعقة خشبية",
+            "4 قوالب فردية",
+            "صينية فرن",
+            "كوب قياس",
+            "مصفاة ناعمة"
         ],
         ingredients: [
-            "500 مل حليب",
+            "500 مل حليب كامل الدسم",
             "4 بيض",
             "100 غ سكر",
-            "1 ملعقة كبيرة فانيليا (15 مل)",
-            "رشة ملح (1 غ)"
+            "ملعقة كبيرة فانيليا (15 مل)",
+            "رشة ملح (1 غ)",
+            "ماء ساخن للحمام المائي"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الفرن على 160°C.\n" +
-            "2. في وعاء، اخفق البيض مع السكر ورشة الملح حتى يصبح الخليط ناعماً.\n" +
-            "3. سخّن الحليب في القدر حتى الغليان الخفيف، ثم ارفع عن النار.\n" +
-            "4. صب الحليب الساخن تدريجياً على خليط البيض مع التحريك.\n" +
-            "5. أضف الفانيليا وامزج جيدًا.\n" +
-            "6. صب الخليط في القوالب.\n" +
-            "7. ضع القوالب في صينية فرن وأضف ماء ساخن حتى منتصف ارتفاعها (حمام مائي).\n" +
-            "8. اخبز 35-40 دقيقة حتى يتماسك الفلان.\n" +
-            "9. اتركه ليبرد، ثم ضع في الثلاجة لمدة ساعة قبل التقديم."
+            "1. سخن الفرن على 160 درجة مئوية.\n" +
+            "2. سخّن الحليب قليلاً في قدر دون أن يغلي.\n" +
+            "3. في وعاء، اخفق البيض مع السكر والملح حتى يصبح المزيج ناعماً.\n" +
+            "4. أضف الحليب الدافئ تدريجياً مع الاستمرار في الخفق.\n" +
+            "5. أضف الفانيليا وامزج جيداً.\n" +
+            "6. صفِّ الخليط بمصفاة للحصول على قوام ناعم.\n" +
+            "7. وزّع الخليط في القوالب.\n" +
+            "8. ضع القوالب في صينية فرن واسكب ماءً ساخناً حتى منتصفها.\n" +
+            "9. اخبز لمدة 35 إلى 40 دقيقة حتى يتماسك الفلان.\n" +
+            "10. اتركه يبرد ثم ضعه في الثلاجة لمدة ساعة على الأقل قبل التقديم."
     }
 };
 recipesData.dessert.tarta_santiago = {
     country: "europe",
     countryName: "espagne",
     image: "images/tarta_santiago.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tarta de Santiago (Espagne, 4 personnes)",
-        equipment: ["1 four", "1 saladier", "1 fouet", "1 moule à gâteau"],
+        title: "Tarta de Santiago (Espagne)",
+        equipment: [
+            "1 four",
+            "1 saladier",
+            "1 fouet",
+            "1 spatule",
+            "1 balance de cuisine",
+            "1 moule rond (20 cm)",
+            "1 papier cuisson",
+            "1 tamis"
+        ],
         ingredients: [
-            "200 g poudre d’amandes",
-            "200 g sucre",
+            "200 g de poudre d’amandes",
+            "200 g de sucre",
             "4 œufs",
-            "1 cuillère à café zeste de citron (5 g)",
-            "1 cuillère à café cannelle (2 g)"
+            "1 cuillère à café de zeste de citron (5 g)",
+            "1 cuillère à café de cannelle (2 g)",
+            "1 noisette de beurre pour le moule"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger sucre, œufs, poudre d’amandes, zeste et cannelle.\n" +
-            "3. Verser dans un moule graissé.\n" +
-            "4. Cuire 25-30 minutes.\n" +
-            "5. Laisser refroidir avant de démouler."
+            "2. Chemiser le moule avec du papier cuisson et beurrer légèrement.\n" +
+            "3. Dans un saladier, battre les œufs avec le sucre jusqu’à obtenir un mélange mousseux.\n" +
+            "4. Ajouter la poudre d’amandes, le zeste de citron et la cannelle.\n" +
+            "5. Mélanger délicatement à l’aide d’une spatule jusqu’à obtention d’une pâte homogène.\n" +
+            "6. Verser la préparation dans le moule.\n" +
+            "7. Lisser la surface.\n" +
+            "8. Enfourner pendant 25 à 30 minutes jusqu’à ce que le dessus soit légèrement doré.\n" +
+            "9. Laisser refroidir complètement avant de démouler.\n" +
+            "10. Saupoudrer légèrement de sucre glace avant de servir."
     },
+
     en: {
-        title: "Tarta de Santiago (Spain, Serves 4)",
-        equipment: ["1 oven", "1 bowl", "1 whisk", "1 cake pan"],
+        title: "Tarta de Santiago (Spain)",
+        equipment: [
+            "1 oven",
+            "1 mixing bowl",
+            "1 whisk",
+            "1 spatula",
+            "1 kitchen scale",
+            "1 round cake pan (20 cm)",
+            "1 parchment paper",
+            "1 sieve"
+        ],
         ingredients: [
-            "200 g almond powder",
+            "200 g almond flour",
             "200 g sugar",
             "4 eggs",
-            "1 tsp lemon zest (5 g)",
-            "1 tsp cinnamon (2 g)"
+            "1 teaspoon lemon zest (5 g)",
+            "1 teaspoon cinnamon (2 g)",
+            "A small amount of butter for the pan"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven 180°C.\n" +
-            "2. Mix sugar, eggs, almond powder, zest, and cinnamon.\n" +
-            "3. Pour into greased pan.\n" +
-            "4. Bake 25-30 min.\n" +
-            "5. Cool before unmolding."
+            "1. Preheat oven to 180°C.\n" +
+            "2. Line the pan with parchment paper and lightly grease it.\n" +
+            "3. In a bowl, beat eggs with sugar until light and fluffy.\n" +
+            "4. Add almond flour, lemon zest and cinnamon.\n" +
+            "5. Gently mix with a spatula until smooth.\n" +
+            "6. Pour the batter into the pan.\n" +
+            "7. Smooth the surface.\n" +
+            "8. Bake for 25 to 30 minutes until lightly golden.\n" +
+            "9. Let cool completely before removing from the pan.\n" +
+            "10. Lightly dust with powdered sugar before serving."
     },
+
     nl: {
-        title: "Tarta de Santiago (Spanje, voor 4 personen)",
-        equipment: ["1 oven", "1 kom", "1 garde", "1 taartvorm"],
+        title: "Tarta de Santiago (Spanje)",
+        equipment: [
+            "1 oven",
+            "1 kom",
+            "1 garde",
+            "1 spatel",
+            "1 keukenweegschaal",
+            "1 ronde taartvorm (20 cm)",
+            "1 bakpapier",
+            "1 zeef"
+        ],
         ingredients: [
-            "200 g amandelpoeder",
+            "200 g amandelmeel",
             "200 g suiker",
             "4 eieren",
-            "1 tl citroenrasp (5 g)",
-            "1 tl kaneel (2 g)"
+            "1 theelepel citroenrasp (5 g)",
+            "1 theelepel kaneel (2 g)",
+            "Een beetje boter voor de vorm"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven op 180°C.\n" +
-            "2. Meng suiker, eieren, amandelpoeder, rasp en kaneel.\n" +
-            "3. Giet in ingevette vorm.\n" +
-            "4. Bak 25-30 minuten.\n" +
-            "5. Laat afkoelen voor het uitvormen."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Bekleed de vorm met bakpapier en vet licht in.\n" +
+            "3. Klop de eieren met suiker luchtig.\n" +
+            "4. Voeg amandelmeel, citroenrasp en kaneel toe.\n" +
+            "5. Meng voorzichtig met een spatel tot een glad beslag.\n" +
+            "6. Giet het beslag in de vorm.\n" +
+            "7. Strijk de bovenkant glad.\n" +
+            "8. Bak 25 tot 30 minuten tot licht goudbruin.\n" +
+            "9. Laat volledig afkoelen voor het uit de vorm halen.\n" +
+            "10. Bestuif licht met poedersuiker voor het serveren."
     },
+
     ar: {
-        title: "تارتا دي سانتياغو (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["فرن", "وعاء", "خفاق", "قالب كيك"],
+        title: "تارتا دي سانتياغو (إسبانيا)",
+        equipment: [
+            "فرن",
+            "وعاء خلط",
+            "خفاقة",
+            "ملعقة مسطحة",
+            "ميزان مطبخ",
+            "قالب دائري (20 سم)",
+            "ورق خبز",
+            "منخل"
+        ],
         ingredients: [
-            "200 غ مسحوق لوز",
+            "200 غ دقيق لوز",
             "200 غ سكر",
             "4 بيض",
-            "1 ملعقة صغيرة قشر ليمون (5 غ)",
-            "1 ملعقة صغيرة قرفة (2 غ)"
+            "ملعقة صغيرة بشر ليمون (5 غ)",
+            "ملعقة صغيرة قرفة (2 غ)",
+            "قليل من الزبدة لدهن القالب"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الفرن 180°C.\n" +
-            "2. اخلط السكر، البيض، مسحوق اللوز، القشر والقرفة.\n" +
-            "3. صب في قالب مدهون.\n" +
-            "4. اخبز 25-30 دقيقة.\n" +
-            "5. اترك يبرد قبل إخراجه."
+            "1. سخن الفرن على 180 درجة مئوية.\n" +
+            "2. غطِّ القالب بورق الخبز وادهِنه بقليل من الزبدة.\n" +
+            "3. اخفق البيض مع السكر حتى يصبح الخليط خفيفاً.\n" +
+            "4. أضف دقيق اللوز وبشر الليمون والقرفة.\n" +
+            "5. اخلط برفق حتى تحصل على خليط متجانس.\n" +
+            "6. اسكب الخليط في القالب.\n" +
+            "7. سوِّ السطح.\n" +
+            "8. اخبز لمدة 25 إلى 30 دقيقة حتى يصبح السطح ذهبياً.\n" +
+            "9. اتركه يبرد تماماً قبل إخراجه من القالب.\n" +
+            "10. رشّ قليلاً من السكر الناعم قبل التقديم."
     }
 };
 recipesData.dessert.riz_au_lait = {
     country: "europe",
     countryName: "espagne",
     image: "images/riz_au_lait.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 5,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Arroz con leche (Espagne, 4 personnes)",
-        equipment: ["1 casserole", "1 cuillère en bois"],
+        title: "Arroz con leche (Espagne)",
+        equipment: [
+            "1 grande casserole",
+            "1 cuillère en bois",
+            "1 verre doseur",
+            "1 balance de cuisine",
+            "4 bols"
+        ],
         ingredients: [
-            "200 g riz",
-            "500 ml lait",
-            "80 g sucre",
-            "1 cuillère à café cannelle (2 g)",
-            "1 cuillère à café zeste de citron (5 g)"
+            "200 g de riz rond",
+            "1 litre de lait entier",
+            "80 g de sucre",
+            "1 bâton de cannelle",
+            "1 cuillère à café de zeste de citron (5 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Porter le lait à ébullition avec zeste et cannelle.\n" +
-            "2. Ajouter le riz.\n" +
-            "3. Cuire à feu doux 25 minutes en remuant.\n" +
-            "4. Ajouter sucre et mélanger.\n" +
-            "5. Servir tiède ou froid."
+            "1. Rincer le riz à l’eau froide.\n" +
+            "2. Verser le lait dans une casserole et ajouter le bâton de cannelle et le zeste de citron.\n" +
+            "3. Porter à ébullition douce.\n" +
+            "4. Ajouter le riz et réduire à feu doux.\n" +
+            "5. Cuire 25 à 30 minutes en remuant régulièrement.\n" +
+            "6. Retirer la cannelle.\n" +
+            "7. Ajouter le sucre et mélanger.\n" +
+            "8. Répartir dans des bols.\n" +
+            "9. Laisser refroidir avant de servir."
     },
+
     en: {
-        title: "Arroz con leche (Spain, Serves 4)",
-        equipment: ["1 pot", "1 wooden spoon"],
+        title: "Arroz con leche (Spain)",
+        equipment: [
+            "1 large saucepan",
+            "1 wooden spoon",
+            "1 measuring cup",
+            "1 kitchen scale",
+            "4 bowls"
+        ],
         ingredients: [
-            "200 g rice",
-            "500 ml milk",
+            "200 g short-grain rice",
+            "1 liter whole milk",
             "80 g sugar",
-            "1 tsp cinnamon (2 g)",
-            "1 tsp lemon zest (5 g)"
+            "1 cinnamon stick",
+            "1 teaspoon lemon zest (5 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Boil milk with zest and cinnamon.\n" +
-            "2. Add rice.\n" +
-            "3. Cook low heat 25 min, stirring.\n" +
-            "4. Add sugar and mix.\n" +
-            "5. Serve warm or cold."
+            "1. Rinse the rice under cold water.\n" +
+            "2. Pour milk into a saucepan and add cinnamon stick and lemon zest.\n" +
+            "3. Bring to a gentle boil.\n" +
+            "4. Add rice and reduce heat to low.\n" +
+            "5. Cook for 25 to 30 minutes, stirring regularly.\n" +
+            "6. Remove the cinnamon stick.\n" +
+            "7. Stir in the sugar.\n" +
+            "8. Divide into bowls.\n" +
+            "9. Let cool before serving."
     },
+
     nl: {
-        title: "Rijstpudding (Spanje, voor 4 personen)",
-        equipment: ["1 pot", "1 houten lepel"],
+        title: "Arroz con leche (Spanje)",
+        equipment: [
+            "1 grote pan",
+            "1 houten lepel",
+            "1 maatbeker",
+            "1 keukenweegschaal",
+            "4 kommetjes"
+        ],
         ingredients: [
-            "200 g rijst",
-            "500 ml melk",
+            "200 g ronde rijst",
+            "1 liter volle melk",
             "80 g suiker",
-            "1 tl kaneel (2 g)",
-            "1 tl citroenrasp (5 g)"
+            "1 kaneelstokje",
+            "1 theelepel citroenrasp (5 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Breng melk met rasp en kaneel aan de kook.\n" +
-            "2. Voeg rijst toe.\n" +
-            "3. Kook 25 min op laag vuur, regelmatig roeren.\n" +
-            "4. Voeg suiker toe en meng.\n" +
-            "5. Serveer warm of koud."
+            "1. Spoel de rijst onder koud water.\n" +
+            "2. Giet de melk in een pan en voeg kaneelstokje en citroenrasp toe.\n" +
+            "3. Breng zachtjes aan de kook.\n" +
+            "4. Voeg de rijst toe en zet het vuur laag.\n" +
+            "5. Kook 25 tot 30 minuten en roer regelmatig.\n" +
+            "6. Verwijder het kaneelstokje.\n" +
+            "7. Roer de suiker erdoor.\n" +
+            "8. Verdeel in kommetjes.\n" +
+            "9. Laat afkoelen voor het serveren."
     },
+
     ar: {
-        title: "أرز بالحليب (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "ملعقة خشبية"],
+        title: "أرز بالحليب (إسبانيا)",
+        equipment: [
+            "قدر كبير",
+            "ملعقة خشبية",
+            "كوب قياس",
+            "ميزان مطبخ",
+            "4 أوعية"
+        ],
         ingredients: [
-            "200 غ أرز",
-            "500 مل حليب",
+            "200 غ أرز قصير الحبة",
+            "1 لتر حليب كامل الدسم",
             "80 غ سكر",
-            "1 ملعقة صغيرة قرفة (2 غ)",
-            "1 ملعقة صغيرة قشر ليمون (5 غ)"
+            "عود قرفة",
+            "ملعقة صغيرة بشر ليمون (5 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اغلي الحليب مع القشر والقرفة.\n" +
-            "2. أضف الأرز.\n" +
-            "3. اطبخ على نار هادئة 25 دقيقة مع التحريك.\n" +
-            "4. أضف السكر وامزج.\n" +
-            "5. قدمه دافئاً أو بارداً."
+            "1. اغسل الأرز بالماء البارد.\n" +
+            "2. اسكب الحليب في قدر وأضف عود القرفة وبشر الليمون.\n" +
+            "3. اتركه يغلي غلياناً خفيفاً.\n" +
+            "4. أضف الأرز وخفف النار.\n" +
+            "5. اطبخ لمدة 25 إلى 30 دقيقة مع التحريك المنتظم.\n" +
+            "6. أزل عود القرفة.\n" +
+            "7. أضف السكر وامزج جيداً.\n" +
+            "8. وزّع في أوعية.\n" +
+            "9. اتركه يبرد قبل التقديم."
     }
 };
 recipesData.dessert.fruits_grilles = {
     country: "europe",
     countryName: "espagne",
     image: "images/fruits_grilles.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Fruits grillés (Espagne, 4 personnes)",
-        equipment: ["1 poêle", "1 couteau"],
+        title: "Fruits grillés (Espagne)",
+        equipment: [
+            "1 poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 spatule",
+            "1 cuillère à soupe",
+            "1 assiette de service"
+        ],
         ingredients: [
             "2 pommes",
             "2 poires",
-            "2 cuillères à soupe miel (30 ml)",
-            "1 cuillère à café cannelle (2 g)"
+            "2 cuillères à soupe de miel (30 ml)",
+            "1 cuillère à café de cannelle (2 g)",
+            "1 noisette de beurre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper fruits en tranches.\n" +
-            "2. Chauffer poêle et disposer fruits.\n" +
-            "3. Cuire 5 minutes par côté.\n" +
-            "4. Arroser de miel et saupoudrer de cannelle."
+            "1. Laver les fruits.\n" +
+            "2. Éplucher si nécessaire puis couper en tranches épaisses.\n" +
+            "3. Faire chauffer la poêle à feu moyen.\n" +
+            "4. Ajouter le beurre et laisser fondre.\n" +
+            "5. Disposer les tranches de fruits sans les superposer.\n" +
+            "6. Cuire 4 à 5 minutes de chaque côté jusqu’à légère caramélisation.\n" +
+            "7. Arroser de miel.\n" +
+            "8. Saupoudrer de cannelle.\n" +
+            "9. Servir chaud ou tiède."
     },
+
     en: {
-        title: "Grilled Fruits (Spain, Serves 4)",
-        equipment: ["1 pan", "1 knife"],
+        title: "Grilled Fruits (Spain)",
+        equipment: [
+            "1 pan",
+            "1 knife",
+            "1 cutting board",
+            "1 spatula",
+            "1 tablespoon",
+            "1 serving plate"
+        ],
         ingredients: [
             "2 apples",
             "2 pears",
-            "2 tbsp honey (30 ml)",
-            "1 tsp cinnamon (2 g)"
+            "2 tablespoons honey (30 ml)",
+            "1 teaspoon cinnamon (2 g)",
+            "A small knob of butter"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Slice fruits.\n" +
-            "2. Heat pan and place fruits.\n" +
-            "3. Cook 5 min each side.\n" +
-            "4. Drizzle honey and sprinkle cinnamon."
+            "1. Wash the fruits.\n" +
+            "2. Peel if needed and cut into thick slices.\n" +
+            "3. Heat the pan over medium heat.\n" +
+            "4. Add butter and let it melt.\n" +
+            "5. Place fruit slices in a single layer.\n" +
+            "6. Cook 4 to 5 minutes on each side until lightly caramelized.\n" +
+            "7. Drizzle with honey.\n" +
+            "8. Sprinkle with cinnamon.\n" +
+            "9. Serve warm or slightly cooled."
     },
+
     nl: {
-        title: "Gegrilde vruchten (Spanje, voor 4 personen)",
-        equipment: ["1 pan", "1 mes"],
+        title: "Gegrilde vruchten (Spanje)",
+        equipment: [
+            "1 pan",
+            "1 mes",
+            "1 snijplank",
+            "1 spatel",
+            "1 eetlepel",
+            "1 serveerschaal"
+        ],
         ingredients: [
             "2 appels",
             "2 peren",
             "2 eetlepels honing (30 ml)",
-            "1 tl kaneel (2 g)"
+            "1 theelepel kaneel (2 g)",
+            "Een klein klontje boter"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd fruit in plakjes.\n" +
-            "2. Verhit pan en leg fruit.\n" +
-            "3. Bak 5 min per kant.\n" +
-            "4. Besprenkel met honing en kaneel."
+            "1. Was het fruit.\n" +
+            "2. Schil indien nodig en snijd in dikke plakken.\n" +
+            "3. Verhit de pan op middelhoog vuur.\n" +
+            "4. Voeg de boter toe en laat smelten.\n" +
+            "5. Leg de fruitplakken naast elkaar.\n" +
+            "6. Bak 4 tot 5 minuten per kant tot licht gekarameliseerd.\n" +
+            "7. Besprenkel met honing.\n" +
+            "8. Bestrooi met kaneel.\n" +
+            "9. Serveer warm of lauw."
     },
+
     ar: {
-        title: "فواكه مشوية (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["مقلاة", "سكين"],
+        title: "فواكه مشوية (إسبانيا)",
+        equipment: [
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة مسطحة",
+            "ملعقة كبيرة",
+            "طبق تقديم"
+        ],
         ingredients: [
             "2 تفاح",
             "2 كمثرى",
             "2 ملعقة كبيرة عسل (30 مل)",
-            "1 ملعقة صغيرة قرفة (2 غ)"
+            "1 ملعقة صغيرة قرفة (2 غ)",
+            "قطعة صغيرة زبدة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الفواكه شرائح.\n" +
-            "2. سخن المقلاة وضع الفواكه.\n" +
-            "3. اطبخ 5 دقائق لكل جانب.\n" +
-            "4. رش العسل والقرفة."
+            "1. اغسل الفواكه جيداً.\n" +
+            "2. قشّرها عند الحاجة وقطّعها إلى شرائح سميكة.\n" +
+            "3. سخّن المقلاة على نار متوسطة.\n" +
+            "4. أضف الزبدة واتركها تذوب.\n" +
+            "5. ضع شرائح الفواكه دون تكديس.\n" +
+            "6. اطبخ 4 إلى 5 دقائق لكل جانب حتى تتحمر قليلاً.\n" +
+            "7. اسكب العسل فوقها.\n" +
+            "8. رشّ القرفة.\n" +
+            "9. قدّمها دافئة أو فاترة."
     }
 };
+
 recipesData.dessert.lechera = {
     country: "europe",
     countryName: "espagne",
     image: "images/lechera.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Lechera (Espagne, 4 personnes)",
-        equipment: ["1 casserole", "1 bol", "1 fouet"],
+        title: "Lechera (Espagne)",
+        equipment: [
+            "1 casserole",
+            "1 fouet",
+            "1 bol",
+            "1 spatule",
+            "1 passoire fine",
+            "4 ramequins"
+        ],
         ingredients: [
-            "400 ml lait",
-            "100 g sucre",
+            "400 ml de lait entier",
+            "100 g de sucre",
             "4 jaunes d’œufs",
-            "1 cuillère à café extrait de vanille (5 ml)"
+            "1 cuillère à café d’extrait de vanille (5 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer le lait avec la vanille.\n" +
-            "2. Battre les jaunes avec le sucre.\n" +
-            "3. Ajouter le lait chaud progressivement.\n" +
-            "4. Cuire 10 minutes à feu doux.\n" +
-            "5. Laisser refroidir avant de servir."
+            "1. Chauffer le lait avec la vanille sans le faire bouillir.\n" +
+            "2. Dans un bol, fouetter les jaunes d’œufs avec le sucre jusqu’à blanchiment.\n" +
+            "3. Verser progressivement le lait chaud sur le mélange tout en fouettant.\n" +
+            "4. Remettre la préparation dans la casserole.\n" +
+            "5. Cuire à feu doux pendant 8 à 10 minutes en remuant constamment.\n" +
+            "6. La crème doit légèrement épaissir sans bouillir.\n" +
+            "7. Filtrer pour une texture lisse.\n" +
+            "8. Répartir dans des ramequins.\n" +
+            "9. Laisser refroidir puis placer au réfrigérateur avant de servir."
     },
+
     en: {
-        title: "Lechera (Spain, Serves 4)",
-        equipment: ["1 pot", "1 bowl", "1 whisk"],
+        title: "Lechera (Spain)",
+        equipment: [
+            "1 saucepan",
+            "1 whisk",
+            "1 bowl",
+            "1 spatula",
+            "1 fine strainer",
+            "4 ramekins"
+        ],
         ingredients: [
-            "400 ml milk",
+            "400 ml whole milk",
             "100 g sugar",
             "4 egg yolks",
-            "1 tsp vanilla extract (5 ml)"
+            "1 teaspoon vanilla extract (5 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat milk with vanilla.\n" +
-            "2. Beat yolks with sugar.\n" +
-            "3. Add hot milk gradually.\n" +
-            "4. Cook 10 min on low heat.\n" +
-            "5. Cool before serving."
+            "1. Heat milk with vanilla without boiling.\n" +
+            "2. In a bowl, whisk egg yolks with sugar until pale.\n" +
+            "3. Slowly pour the hot milk into the mixture while whisking.\n" +
+            "4. Return mixture to the saucepan.\n" +
+            "5. Cook over low heat for 8 to 10 minutes, stirring constantly.\n" +
+            "6. The cream should slightly thicken without boiling.\n" +
+            "7. Strain for a smooth texture.\n" +
+            "8. Divide into ramekins.\n" +
+            "9. Cool and refrigerate before serving."
     },
+
     nl: {
-        title: "Lechera (Spanje, voor 4 personen)",
-        equipment: ["1 pot", "1 kom", "1 garde"],
+        title: "Lechera (Spanje)",
+        equipment: [
+            "1 steelpan",
+            "1 garde",
+            "1 kom",
+            "1 spatel",
+            "1 fijne zeef",
+            "4 ramekins"
+        ],
         ingredients: [
-            "400 ml melk",
+            "400 ml volle melk",
             "100 g suiker",
             "4 eierdooiers",
-            "1 tl vanille-extract (5 ml)"
+            "1 theelepel vanille-extract (5 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit melk met vanille.\n" +
-            "2. Klop de dooiers met suiker.\n" +
-            "3. Voeg hete melk geleidelijk toe.\n" +
-            "4. Kook 10 min op laag vuur.\n" +
-            "5. Laat afkoelen voor het serveren."
+            "1. Verwarm de melk met vanille zonder te koken.\n" +
+            "2. Klop de eierdooiers met suiker licht en romig.\n" +
+            "3. Giet de hete melk geleidelijk bij het mengsel terwijl je klopt.\n" +
+            "4. Doe het mengsel terug in de pan.\n" +
+            "5. Kook 8 tot 10 minuten op laag vuur en blijf roeren.\n" +
+            "6. De crème moet licht indikken zonder te koken.\n" +
+            "7. Zeef voor een gladde structuur.\n" +
+            "8. Verdeel in ramekins.\n" +
+            "9. Laat afkoelen en zet in de koelkast voor het serveren."
     },
+
     ar: {
-        title: "ليتشيرا (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "وعاء", "خفاق"],
+        title: "ليتشيرا (إسبانيا)",
+        equipment: [
+            "قدر",
+            "خفاقة",
+            "وعاء",
+            "ملعقة مسطحة",
+            "مصفاة ناعمة",
+            "4 قوالب فردية"
+        ],
         ingredients: [
-            "400 مل حليب",
+            "400 مل حليب كامل الدسم",
             "100 غ سكر",
             "4 صفار بيض",
-            "1 ملعقة صغيرة فانيليا (5 مل)"
+            "ملعقة صغيرة فانيليا (5 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الحليب مع الفانيليا.\n" +
-            "2. اخفق الصفار مع السكر.\n" +
-            "3. أضف الحليب تدريجياً.\n" +
-            "4. اطبخ 10 دقائق على نار هادئة.\n" +
-            "5. اتركه يبرد قبل التقديم."
+            "1. سخّن الحليب مع الفانيليا دون أن يغلي.\n" +
+            "2. اخفق صفار البيض مع السكر حتى يصبح فاتح اللون.\n" +
+            "3. أضف الحليب الساخن تدريجياً مع الاستمرار في الخفق.\n" +
+            "4. أعد الخليط إلى القدر.\n" +
+            "5. اطبخ على نار هادئة لمدة 8 إلى 10 دقائق مع التحريك المستمر.\n" +
+            "6. يجب أن يتكاثف القوام قليلاً دون غليان.\n" +
+            "7. صفِّ الخليط للحصول على قوام ناعم.\n" +
+            "8. وزّع في القوالب.\n" +
+            "9. اتركه يبرد ثم ضعه في الثلاجة قبل التقديم."
     }
 };
 recipesData.dessert.tocino_cielo = {
     country: "europe",
     countryName: "espagne",
     image: "images/tocino_cielo.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Tocino de cielo (Espagne, 4 personnes)",
-        equipment: ["1 casserole", "1 moule à flan", "1 fouet"],
+        title: "Tocino de cielo (Espagne)",
+        equipment: [
+            "1 casserole",
+            "1 fouet",
+            "1 spatule",
+            "1 passoire fine",
+            "1 moule à flan",
+            "1 plat allant au four",
+            "1 verre doseur"
+        ],
         ingredients: [
-            "250 g sucre",
+            "250 g de sucre",
+            "100 ml d’eau",
             "5 jaunes d’œufs",
-            "100 ml eau"
+            "Eau chaude pour le bain-marie"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire un sirop avec sucre et eau.\n" +
-            "2. Battre les jaunes.\n" +
-            "3. Ajouter le sirop aux jaunes progressivement.\n" +
-            "4. Verser dans moule.\n" +
-            "5. Cuire au bain-marie 25 minutes.\n" +
-            "6. Laisser refroidir et démouler."
+            "==============================\n" +
+            "PRÉPARATION DU SIROP\n" +
+            "==============================\n\n" +
+            "1. Verser le sucre et l’eau dans une casserole.\n" +
+            "2. Chauffer à feu moyen jusqu’à obtention d’un sirop clair.\n" +
+            "3. Retirer du feu et laisser tiédir légèrement.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION ET CUISSON\n" +
+            "==============================\n\n" +
+            "4. Battre légèrement les jaunes d’œufs sans les faire mousser.\n" +
+            "5. Verser progressivement le sirop tiède sur les jaunes tout en mélangeant.\n" +
+            "6. Filtrer la préparation pour une texture lisse.\n" +
+            "7. Verser dans un moule à flan.\n" +
+            "8. Placer le moule dans un plat rempli d’eau chaude.\n" +
+            "9. Cuire au bain-marie à 180°C pendant 25 minutes.\n" +
+            "10. Laisser refroidir complètement avant de démouler."
     },
+
     en: {
-        title: "Tocino de cielo (Spain, Serves 4)",
-        equipment: ["1 pot", "1 flan mold", "1 whisk"],
+        title: "Tocino de cielo (Spain)",
+        equipment: [
+            "1 saucepan",
+            "1 whisk",
+            "1 spatula",
+            "1 fine strainer",
+            "1 flan mold",
+            "1 baking dish",
+            "1 measuring cup"
+        ],
         ingredients: [
             "250 g sugar",
+            "100 ml water",
             "5 egg yolks",
-            "100 ml water"
+            "Hot water for bain-marie"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Make syrup with sugar and water.\n" +
-            "2. Beat yolks.\n" +
-            "3. Gradually add syrup to yolks.\n" +
-            "4. Pour into mold.\n" +
-            "5. Bake in water bath 25 min.\n" +
-            "6. Cool and unmold."
+            "==============================\n" +
+            "SYRUP PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Pour sugar and water into a saucepan.\n" +
+            "2. Heat over medium heat until a clear syrup forms.\n" +
+            "3. Remove from heat and let cool slightly.\n\n" +
+            "==============================\n" +
+            "PREPARATION AND COOKING\n" +
+            "==============================\n\n" +
+            "4. Lightly beat the egg yolks without incorporating too much air.\n" +
+            "5. Gradually pour the warm syrup over the yolks while stirring.\n" +
+            "6. Strain the mixture for a smooth texture.\n" +
+            "7. Pour into a flan mold.\n" +
+            "8. Place the mold in a dish filled with hot water.\n" +
+            "9. Bake in a bain-marie at 180°C for 25 minutes.\n" +
+            "10. Let cool completely before unmolding."
     },
+
     nl: {
-        title: "Tocino de cielo (Spanje, voor 4 personen)",
-        equipment: ["1 pot", "1 flanvorm", "1 garde"],
+        title: "Tocino de cielo (Spanje)",
+        equipment: [
+            "1 steelpan",
+            "1 garde",
+            "1 spatel",
+            "1 fijne zeef",
+            "1 flanvorm",
+            "1 ovenschaal",
+            "1 maatbeker"
+        ],
         ingredients: [
             "250 g suiker",
+            "100 ml water",
             "5 eierdooiers",
-            "100 ml water"
+            "Heet water voor au bain-marie"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Maak siroop van suiker en water.\n" +
-            "2. Klop de dooiers.\n" +
-            "3. Voeg siroop geleidelijk toe.\n" +
-            "4. Giet in vorm.\n" +
-            "5. Bak 25 min au bain-marie.\n" +
-            "6. Laat afkoelen en haal uit de vorm."
+            "==============================\n" +
+            "BEREIDING VAN DE SIROOP\n" +
+            "==============================\n\n" +
+            "1. Doe suiker en water in een steelpan.\n" +
+            "2. Verwarm op middelhoog vuur tot een heldere siroop ontstaat.\n" +
+            "3. Haal van het vuur en laat iets afkoelen.\n\n" +
+            "==============================\n" +
+            "BEREIDING EN BAKKEN\n" +
+            "==============================\n\n" +
+            "4. Klop de eierdooiers licht zonder veel lucht toe te voegen.\n" +
+            "5. Giet de warme siroop geleidelijk bij de dooiers terwijl je roert.\n" +
+            "6. Zeef het mengsel voor een glad resultaat.\n" +
+            "7. Giet in een flanvorm.\n" +
+            "8. Plaats de vorm in een schaal met heet water.\n" +
+            "9. Bak 25 minuten au bain-marie op 180°C.\n" +
+            "10. Laat volledig afkoelen voordat je het uit de vorm haalt."
     },
+
     ar: {
-        title: "توسينو دي سييلو (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "قالب فلان", "خفاق"],
+        title: "توسينو دي سييلو (إسبانيا)",
+        equipment: [
+            "قدر",
+            "خفاقة",
+            "ملعقة مسطحة",
+            "مصفاة ناعمة",
+            "قالب فلان",
+            "صينية فرن",
+            "كوب قياس"
+        ],
         ingredients: [
             "250 غ سكر",
+            "100 مل ماء",
             "5 صفار بيض",
-            "100 مل ماء"
+            "ماء ساخن للحمام المائي"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضر شراب من السكر والماء.\n" +
-            "2. اخفق الصفار.\n" +
-            "3. أضف الشراب تدريجياً.\n" +
-            "4. صب في القالب.\n" +
-            "5. اخبز 25 دقيقة في حمام مائي.\n" +
-            "6. اتركه يبرد ثم أخرجه من القالب."
+            "==============================\n" +
+            "تحضير الشراب\n" +
+            "==============================\n\n" +
+            "1. ضع السكر والماء في قدر.\n" +
+            "2. سخّن على نار متوسطة حتى يتكوّن شراب صافٍ.\n" +
+            "3. ارفعه من النار واتركه يبرد قليلاً.\n\n" +
+            "==============================\n" +
+            "التحضير والطهي\n" +
+            "==============================\n\n" +
+            "4. اخفق صفار البيض بخفة دون إدخال الكثير من الهواء.\n" +
+            "5. أضف الشراب الدافئ تدريجياً مع التحريك.\n" +
+            "6. صفِّ الخليط للحصول على قوام ناعم.\n" +
+            "7. اسكب في قالب فلان.\n" +
+            "8. ضع القالب في صينية مملوءة بماء ساخن.\n" +
+            "9. اخبز في حمام مائي على 180 درجة مئوية لمدة 25 دقيقة.\n" +
+            "10. اتركه يبرد تماماً قبل إخراجه من القالب."
     }
 };
+
 recipesData.dessert.yema = {
     country: "europe",
     countryName: "espagne",
     image: "images/yema.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 5,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Yema (Espagne, 4 personnes)",
-        equipment: ["1 casserole", "1 fouet", "1 bol"],
+        title: "Yema (Espagne)",
+        equipment: [
+            "1 casserole",
+            "1 fouet",
+            "1 spatule",
+            "1 bol",
+            "1 passoire fine"
+        ],
         ingredients: [
-            "150 g sucre",
-            "4 jaunes d’œufs",
-            "2 cuillères à soupe eau (30 ml)"
+            "150 g de sucre",
+            "30 ml d’eau",
+            "4 jaunes d’œufs"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer sucre et eau jusqu’à dissolution.\n" +
-            "2. Battre les jaunes.\n" +
-            "3. Ajouter sirop chaud progressivement.\n" +
-            "4. Cuire à feu doux 5 minutes.\n" +
-            "5. Laisser refroidir avant de servir."
+            "1. Verser le sucre et l’eau dans une casserole.\n" +
+            "2. Chauffer jusqu’à dissolution complète et légère ébullition.\n" +
+            "3. Battre légèrement les jaunes dans un bol.\n" +
+            "4. Verser progressivement le sirop chaud sur les jaunes tout en fouettant.\n" +
+            "5. Remettre le mélange dans la casserole.\n" +
+            "6. Cuire à feu doux 5 minutes en remuant constamment.\n" +
+            "7. Filtrer pour une texture lisse.\n" +
+            "8. Laisser refroidir avant de servir."
     },
+
     en: {
-        title: "Yema (Spain, Serves 4)",
-        equipment: ["1 pot", "1 whisk", "1 bowl"],
+        title: "Yema (Spain)",
+        equipment: [
+            "1 saucepan",
+            "1 whisk",
+            "1 spatula",
+            "1 bowl",
+            "1 fine strainer"
+        ],
         ingredients: [
             "150 g sugar",
-            "4 egg yolks",
-            "2 tbsp water (30 ml)"
+            "30 ml water",
+            "4 egg yolks"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat sugar and water until dissolved.\n" +
-            "2. Beat yolks.\n" +
-            "3. Gradually add hot syrup.\n" +
-            "4. Cook 5 min on low heat.\n" +
-            "5. Cool before serving."
+            "1. Pour sugar and water into a saucepan.\n" +
+            "2. Heat until fully dissolved and slightly boiling.\n" +
+            "3. Lightly beat the yolks in a bowl.\n" +
+            "4. Gradually pour the hot syrup over the yolks while whisking.\n" +
+            "5. Return mixture to the saucepan.\n" +
+            "6. Cook over low heat for 5 minutes, stirring constantly.\n" +
+            "7. Strain for a smooth texture.\n" +
+            "8. Let cool before serving."
     },
+
     nl: {
-        title: "Yema (Spanje, voor 4 personen)",
-        equipment: ["1 pot", "1 garde", "1 kom"],
+        title: "Yema (Spanje)",
+        equipment: [
+            "1 steelpan",
+            "1 garde",
+            "1 spatel",
+            "1 kom",
+            "1 fijne zeef"
+        ],
         ingredients: [
             "150 g suiker",
-            "4 eierdooiers",
-            "2 eetlepels water (30 ml)"
+            "30 ml water",
+            "4 eierdooiers"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit suiker en water tot opgelost.\n" +
-            "2. Klop de dooiers.\n" +
-            "3. Voeg hete siroop geleidelijk toe.\n" +
-            "4. Kook 5 min op laag vuur.\n" +
-            "5. Laat afkoelen voor het serveren."
+            "1. Doe suiker en water in een steelpan.\n" +
+            "2. Verwarm tot volledig opgelost en licht kokend.\n" +
+            "3. Klop de dooiers licht in een kom.\n" +
+            "4. Giet de hete siroop geleidelijk bij de dooiers terwijl je klopt.\n" +
+            "5. Doe het mengsel terug in de pan.\n" +
+            "6. Kook 5 minuten op laag vuur en blijf roeren.\n" +
+            "7. Zeef voor een glad resultaat.\n" +
+            "8. Laat afkoelen voor het serveren."
     },
+
     ar: {
-        title: "يما (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "خفاق", "وعاء"],
+        title: "يما (إسبانيا)",
+        equipment: [
+            "قدر",
+            "خفاقة",
+            "ملعقة مسطحة",
+            "وعاء",
+            "مصفاة ناعمة"
+        ],
         ingredients: [
             "150 غ سكر",
-            "4 صفار بيض",
-            "2 ملعقة كبيرة ماء (30 مل)"
+            "30 مل ماء",
+            "4 صفار بيض"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن السكر والماء حتى يذوب.\n" +
-            "2. اخفق الصفار.\n" +
-            "3. أضف الشراب الساخن تدريجياً.\n" +
-            "4. اطبخ 5 دقائق على نار هادئة.\n" +
-            "5. اتركه يبرد قبل التقديم."
+            "1. ضع السكر والماء في قدر.\n" +
+            "2. سخّن حتى يذوب السكر ويغلي قليلاً.\n" +
+            "3. اخفق صفار البيض بخفة في وعاء.\n" +
+            "4. أضف الشراب الساخن تدريجياً مع الخفق.\n" +
+            "5. أعد الخليط إلى القدر.\n" +
+            "6. اطبخ لمدة 5 دقائق على نار هادئة مع التحريك المستمر.\n" +
+            "7. صفِّ الخليط للحصول على قوام ناعم.\n" +
+            "8. اتركه يبرد قبل التقديم."
     }
 };
+
 recipesData.dessert.crema_catalana = {
     country: "europe",
     countryName: "espagne",
     image: "images/crema_catalana.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 10,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Crema Catalana (Espagne, 4 personnes)",
-        equipment: ["1 casserole", "1 fouet", "1 bol"],
+        title: "Crema Catalana (Espagne)",
+        equipment: [
+            "1 casserole",
+            "1 fouet",
+            "1 spatule",
+            "1 bol",
+            "1 passoire fine",
+            "4 ramequins"
+        ],
         ingredients: [
-            "500 ml lait",
+            "500 ml de lait entier",
             "4 jaunes d’œufs",
-            "80 g sucre",
-            "1 cuillère à café zeste de citron (5 g)",
-            "1 cuillère à café cannelle (2 g)"
+            "80 g de sucre",
+            "1 cuillère à café de zeste de citron (5 g)",
+            "1 cuillère à café de cannelle (2 g)",
+            "1 cuillère à soupe de sucre supplémentaire pour caraméliser"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer le lait avec zeste et cannelle.\n" +
-            "2. Battre les jaunes avec le sucre.\n" +
-            "3. Verser le lait chaud progressivement sur les jaunes.\n" +
-            "4. Cuire à feu doux 10 minutes.\n" +
-            "5. Laisser refroidir et servir."
+            "1. Chauffer le lait avec le zeste de citron et la cannelle.\n" +
+            "2. Battre les jaunes avec le sucre jusqu’à blanchiment.\n" +
+            "3. Verser progressivement le lait chaud sur les jaunes en fouettant.\n" +
+            "4. Remettre dans la casserole.\n" +
+            "5. Cuire à feu doux 8 à 10 minutes jusqu’à légère épaississement.\n" +
+            "6. Filtrer la crème.\n" +
+            "7. Verser dans des ramequins et laisser refroidir.\n" +
+            "8. Saupoudrer d’un peu de sucre et caraméliser légèrement au moment de servir."
     },
+
     en: {
-        title: "Crema Catalana (Spain, Serves 4)",
-        equipment: ["1 pot", "1 whisk", "1 bowl"],
+        title: "Crema Catalana (Spain)",
+        equipment: [
+            "1 saucepan",
+            "1 whisk",
+            "1 spatula",
+            "1 bowl",
+            "1 fine strainer",
+            "4 ramekins"
+        ],
         ingredients: [
-            "500 ml milk",
+            "500 ml whole milk",
             "4 egg yolks",
             "80 g sugar",
-            "1 tsp lemon zest (5 g)",
-            "1 tsp cinnamon (2 g)"
+            "1 teaspoon lemon zest (5 g)",
+            "1 teaspoon cinnamon (2 g)",
+            "1 tablespoon extra sugar for caramelizing"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat milk with zest and cinnamon.\n" +
-            "2. Beat yolks with sugar.\n" +
-            "3. Pour hot milk gradually over yolks.\n" +
-            "4. Cook 10 min on low heat.\n" +
-            "5. Cool and serve."
+            "1. Heat milk with lemon zest and cinnamon.\n" +
+            "2. Beat yolks with sugar until pale.\n" +
+            "3. Gradually pour hot milk over yolks while whisking.\n" +
+            "4. Return to saucepan.\n" +
+            "5. Cook over low heat 8 to 10 minutes until slightly thickened.\n" +
+            "6. Strain the cream.\n" +
+            "7. Pour into ramekins and let cool.\n" +
+            "8. Sprinkle with sugar and lightly caramelize before serving."
     },
+
     nl: {
-        title: "Crema Catalana (Spanje, voor 4 personen)",
-        equipment: ["1 pot", "1 garde", "1 kom"],
+        title: "Crema Catalana (Spanje)",
+        equipment: [
+            "1 steelpan",
+            "1 garde",
+            "1 spatel",
+            "1 kom",
+            "1 fijne zeef",
+            "4 ramekins"
+        ],
         ingredients: [
-            "500 ml melk",
+            "500 ml volle melk",
             "4 eierdooiers",
             "80 g suiker",
-            "1 tl citroenrasp (5 g)",
-            "1 tl kaneel (2 g)"
+            "1 theelepel citroenrasp (5 g)",
+            "1 theelepel kaneel (2 g)",
+            "1 eetlepel extra suiker om te karamelliseren"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit melk met rasp en kaneel.\n" +
-            "2. Klop de dooiers met suiker.\n" +
-            "3. Voeg hete melk geleidelijk toe.\n" +
-            "4. Kook 10 min op laag vuur.\n" +
-            "5. Laat afkoelen en serveer."
+            "1. Verwarm de melk met citroenrasp en kaneel.\n" +
+            "2. Klop de dooiers met suiker licht en romig.\n" +
+            "3. Giet de hete melk geleidelijk bij het mengsel terwijl je klopt.\n" +
+            "4. Doe terug in de pan.\n" +
+            "5. Kook 8 tot 10 minuten op laag vuur tot licht ingedikt.\n" +
+            "6. Zeef de crème.\n" +
+            "7. Giet in ramekins en laat afkoelen.\n" +
+            "8. Bestrooi met suiker en karamelliseer vlak voor het serveren."
     },
+
     ar: {
-        title: "كريما كاتالانا (إسبانيا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "خفاق", "وعاء"],
+        title: "كريما كاتالانا (إسبانيا)",
+        equipment: [
+            "قدر",
+            "خفاقة",
+            "ملعقة مسطحة",
+            "وعاء",
+            "مصفاة ناعمة",
+            "4 قوالب فردية"
+        ],
         ingredients: [
-            "500 مل حليب",
+            "500 مل حليب كامل الدسم",
             "4 صفار بيض",
             "80 غ سكر",
-            "1 ملعقة صغيرة قشر ليمون (5 غ)",
-            "1 ملعقة صغيرة قرفة (2 غ)"
+            "ملعقة صغيرة بشر ليمون (5 غ)",
+            "ملعقة صغيرة قرفة (2 غ)",
+            "ملعقة كبيرة سكر إضافي للكرملة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الحليب مع القشر والقرفة.\n" +
-            "2. اخفق الصفار مع السكر.\n" +
-            "3. أضف الحليب الساخن تدريجياً.\n" +
-            "4. اطبخ 10 دقائق على نار هادئة.\n" +
-            "5. اتركه يبرد وقدم."
+            "1. سخّن الحليب مع بشر الليمون والقرفة.\n" +
+            "2. اخفق صفار البيض مع السكر حتى يصبح فاتح اللون.\n" +
+            "3. أضف الحليب الساخن تدريجياً مع الخفق.\n" +
+            "4. أعد الخليط إلى القدر.\n" +
+            "5. اطبخ على نار هادئة لمدة 8 إلى 10 دقائق حتى يثخن قليلاً.\n" +
+            "6. صفِّ الكريمة.\n" +
+            "7. اسكب في قوالب واتركها تبرد.\n" +
+            "8. رش السكر وكرمل الوجه قبل التقديم."
     }
 };
-
 recipesData.patisserie.churros_espagne = {
     country: "europe",
     countryName: "espagne",
     image: "images/churros_espagne.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Churros maison (Espagne, 4 personnes)",
+        title: "Churros maison (Espagne)",
         equipment: [
             "1 casserole",
+            "1 cuillère en bois",
             "1 fouet",
+            "1 saladier",
             "1 poche à douille avec embout cannelé",
-            "1 plaque ou 1 assiette",
-            "1 écumoire ou cuillère à égoutter",
-            "1 bol",
+            "1 grande casserole pour friture",
+            "1 écumoire",
+            "1 thermomètre de cuisine",
+            "1 papier absorbant",
             "1 balance de cuisine"
         ],
         ingredients: [
-            "250 ml eau",
-            "100 g beurre",
-            "2 cuillères à soupe sucre (30 g)",
+            "250 ml d’eau",
+            "100 g de beurre",
+            "2 cuillères à soupe de sucre (30 g)",
             "1 pincée de sel (1 g)",
-            "150 g farine",
+            "150 g de farine",
             "3 œufs",
-            "Huile végétale pour friture (environ 500 ml)",
-            "Sucre pour saupoudrer (50 g)",
-            "Cannelle moulue (facultatif, 1/2 cuillère à café)"
+            "500 ml d’huile végétale pour friture",
+            "50 g de sucre pour saupoudrer",
+            "1/2 cuillère à café de cannelle moulue (facultatif)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Dans une casserole, porter l’eau, le beurre, le sucre et le sel à ébullition.\n" +
-            "2. Retirer du feu et ajouter la farine en une seule fois, mélanger énergiquement avec une cuillère en bois jusqu'à former une pâte homogène.\n" +
-            "3. Laisser tiédir 5 minutes.\n" +
-            "4. Ajouter les œufs un à un en mélangeant bien après chaque ajout.\n" +
-            "5. Remplir la pâte dans une poche à douille avec embout cannelé.\n" +
-            "6. Chauffer l’huile dans une grande casserole à 180°C.\n" +
-            "7. Presser des bandes de pâte dans l’huile chaude, couper à la longueur désirée.\n" +
-            "8. Frire 3-4 minutes jusqu’à ce qu’ils soient dorés et croustillants.\n" +
-            "9. Égoutter sur du papier absorbant.\n" +
-            "10. Saupoudrer de sucre et de cannelle avant de servir."
+            "1. Verser l’eau, le beurre, le sucre et le sel dans une casserole.\n" +
+            "2. Porter à ébullition à feu moyen.\n" +
+            "3. Retirer du feu et ajouter la farine en une seule fois.\n" +
+            "4. Mélanger vigoureusement jusqu’à obtenir une pâte homogène.\n" +
+            "5. Remettre sur feu doux 1 minute pour dessécher légèrement la pâte.\n" +
+            "6. Laisser tiédir 5 minutes.\n" +
+            "7. Ajouter les œufs un à un en mélangeant bien après chaque ajout.\n" +
+            "8. Transférer la pâte dans une poche à douille.\n" +
+            "9. Chauffer l’huile à 180°C.\n" +
+            "10. Former des bandes de pâte dans l’huile chaude.\n" +
+            "11. Frire 3 à 4 minutes jusqu’à coloration dorée.\n" +
+            "12. Égoutter sur papier absorbant.\n" +
+            "13. Mélanger sucre et cannelle.\n" +
+            "14. Saupoudrer les churros encore chauds avant de servir."
     },
+
     en: {
-        title: "Homemade Churros (Spain, Serves 4)",
+        title: "Homemade Churros (Spain)",
         equipment: [
             "1 saucepan",
+            "1 wooden spoon",
             "1 whisk",
+            "1 mixing bowl",
             "1 piping bag with star tip",
-            "1 plate or tray",
-            "1 slotted spoon or skimmer",
-            "1 bowl",
+            "1 large pot for frying",
+            "1 slotted spoon",
+            "1 kitchen thermometer",
+            "1 paper towels",
             "1 kitchen scale"
         ],
         ingredients: [
             "250 ml water",
             "100 g butter",
-            "2 tbsp sugar (30 g)",
+            "2 tablespoons sugar (30 g)",
             "1 pinch salt (1 g)",
             "150 g flour",
             "3 eggs",
-            "Vegetable oil for frying (about 500 ml)",
-            "Sugar for dusting (50 g)",
-            "Ground cinnamon (optional, 1/2 tsp)"
+            "500 ml vegetable oil for frying",
+            "50 g sugar for coating",
+            "1/2 teaspoon ground cinnamon (optional)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. In a saucepan, bring water, butter, sugar, and salt to a boil.\n" +
-            "2. Remove from heat and add flour all at once, stir vigorously with a wooden spoon until smooth dough forms.\n" +
-            "3. Let cool 5 minutes.\n" +
-            "4. Add eggs one by one, mixing well after each addition.\n" +
-            "5. Fill dough into piping bag with star tip.\n" +
-            "6. Heat oil in a large pan to 180°C.\n" +
-            "7. Pipe strips of dough into hot oil, cut to desired length.\n" +
-            "8. Fry 3-4 minutes until golden and crispy.\n" +
-            "9. Drain on paper towels.\n" +
-            "10. Dust with sugar and cinnamon before serving."
+            "1. Pour water, butter, sugar and salt into a saucepan.\n" +
+            "2. Bring to a boil over medium heat.\n" +
+            "3. Remove from heat and add flour all at once.\n" +
+            "4. Stir vigorously until a smooth dough forms.\n" +
+            "5. Return to low heat for 1 minute to dry the dough slightly.\n" +
+            "6. Let cool for 5 minutes.\n" +
+            "7. Add eggs one by one, mixing well after each addition.\n" +
+            "8. Transfer dough to a piping bag.\n" +
+            "9. Heat oil to 180°C.\n" +
+            "10. Pipe strips of dough into hot oil.\n" +
+            "11. Fry 3 to 4 minutes until golden.\n" +
+            "12. Drain on paper towels.\n" +
+            "13. Mix sugar and cinnamon.\n" +
+            "14. Sprinkle over warm churros before serving."
     },
+
     nl: {
-        title: "Zelfgemaakte Churros (Spanje, voor 4 personen)",
+        title: "Zelfgemaakte churros (Spanje)",
         equipment: [
             "1 steelpan",
+            "1 houten lepel",
             "1 garde",
-            "1 spuitzak met gekarteld spuitmondje",
-            "1 bord of bakplaat",
-            "1 schuimspaan",
             "1 kom",
+            "1 spuitzak met gekarteld mondje",
+            "1 grote pan om te frituren",
+            "1 schuimspaan",
+            "1 keukenthermometer",
+            "1 keukenpapier",
             "1 keukenweegschaal"
         ],
         ingredients: [
@@ -56675,33 +57540,40 @@ recipesData.patisserie.churros_espagne = {
             "1 snufje zout (1 g)",
             "150 g bloem",
             "3 eieren",
-            "Plantaardige olie om te frituren (ca. 500 ml)",
-            "Suiker om te bestrooien (50 g)",
-            "Gemalen kaneel (optioneel, 1/2 tl)"
+            "500 ml plantaardige olie om te frituren",
+            "50 g suiker om te bestrooien",
+            "1/2 theelepel gemalen kaneel (optioneel)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Breng in een steelpan water, boter, suiker en zout aan de kook.\n" +
-            "2. Haal van het vuur en voeg in één keer de bloem toe, roer krachtig met een houten lepel tot een glad deeg.\n" +
-            "3. Laat 5 minuten afkoelen.\n" +
-            "4. Voeg de eieren één voor één toe, goed mengen na elk ei.\n" +
-            "5. Doe het deeg in een spuitzak met gekarteld mondje.\n" +
-            "6. Verhit olie in een grote pan tot 180°C.\n" +
-            "7. Spuit stroken deeg in de hete olie, snijd op gewenste lengte.\n" +
-            "8. Bak 3-4 minuten tot goudbruin en krokant.\n" +
-            "9. Laat uitlekken op keukenpapier.\n" +
-            "10. Bestrooi met suiker en kaneel voor het serveren."
+            "1. Doe water, boter, suiker en zout in een steelpan.\n" +
+            "2. Breng aan de kook op middelhoog vuur.\n" +
+            "3. Haal van het vuur en voeg in één keer de bloem toe.\n" +
+            "4. Roer krachtig tot een glad deeg ontstaat.\n" +
+            "5. Zet 1 minuut terug op laag vuur om het deeg iets te drogen.\n" +
+            "6. Laat 5 minuten afkoelen.\n" +
+            "7. Voeg de eieren één voor één toe en meng goed.\n" +
+            "8. Doe het deeg in een spuitzak.\n" +
+            "9. Verhit olie tot 180°C.\n" +
+            "10. Spuit stroken deeg in de hete olie.\n" +
+            "11. Bak 3 tot 4 minuten tot goudbruin.\n" +
+            "12. Laat uitlekken op keukenpapier.\n" +
+            "13. Meng suiker en kaneel.\n" +
+            "14. Bestrooi de warme churros voor het serveren."
     },
+
     ar: {
-        title: "تشوروس منزلية (إسبانيا، تكفي 4 أشخاص)",
+        title: "تشوروس منزلية (إسبانيا)",
         equipment: [
-            "1 قدر",
-            "1 خفاقة",
-            "1 كيس حلواني مع فوهة مسننة",
-            "1 طبق أو صينية",
-            "1 ملعقة مثقبة",
-            "1 وعاء",
-            "1 ميزان مطبخ"
+            "قدر",
+            "ملعقة خشبية",
+            "خفاقة",
+            "وعاء خلط",
+            "كيس حلواني بفوهة مسننة",
+            "قدر كبير للقلي",
+            "ملعقة مثقبة",
+            "ميزان حرارة للمطبخ",
+            "ورق مطبخ",
+            "ميزان مطبخ"
         ],
         ingredients: [
             "250 مل ماء",
@@ -56709,25 +57581,36 @@ recipesData.patisserie.churros_espagne = {
             "2 ملعقة كبيرة سكر (30 غ)",
             "رشة ملح (1 غ)",
             "150 غ طحين",
-            "3 بيضات",
-            "زيت نباتي للقلي (حوالي 500 مل)",
-            "سكر للرش (50 غ)",
-            "قرفة مطحونة (اختياري، 1/2 ملعقة صغيرة)"
+            "3 بيض",
+            "500 مل زيت نباتي للقلي",
+            "50 غ سكر للرش",
+            "نصف ملعقة صغيرة قرفة مطحونة (اختياري)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. ضع الماء والزبدة والسكر والملح في قدر وسخنه حتى الغليان.\n" +
-            "2. أزل القدر عن النار وأضف الطحين دفعة واحدة، حرك بقوة بمعلقة خشبية حتى يصبح العجين ناعماً.\n" +
-            "3. اتركه ليبرد 5 دقائق.\n" +
-            "4. أضف البيض واحدة تلو الأخرى مع الخلط جيداً بعد كل بيضة.\n" +
-            "5. ضع العجين في كيس حلواني مع فوهة مسننة.\n" +
-            "6. سخن الزيت في قدر كبير على حرارة 180°C.\n" +
-            "7. ضع خطوط العجين في الزيت الساخن وقطع بالطول المطلوب.\n" +
-            "8. اقلي 3-4 دقائق حتى يصبح ذهبي ومقرمش.\n" +
-            "9. صفه على ورق مطبخ.\n" +
-            "10. رش السكر والقرفة قبل التقديم."
+            "1. ضع الماء والزبدة والسكر والملح في قدر.\n" +
+            "2. اتركه يغلي على نار متوسطة.\n" +
+            "3. ارفع القدر عن النار وأضف الطحين دفعة واحدة.\n" +
+            "4. حرّك بقوة حتى يتكوّن عجين ناعم.\n" +
+            "5. أعده إلى نار هادئة لمدة دقيقة لتجفيف العجين قليلاً.\n" +
+            "6. اتركه يبرد 5 دقائق.\n" +
+            "7. أضف البيض واحدة تلو الأخرى مع الخلط الجيد.\n" +
+            "8. ضع العجين في كيس حلواني.\n" +
+            "9. سخّن الزيت إلى 180 درجة مئوية.\n" +
+            "10. شكّل خطوطاً من العجين في الزيت الساخن.\n" +
+            "11. اقله 3 إلى 4 دقائق حتى يصبح ذهبياً.\n" +
+            "12. صفّه على ورق المطبخ.\n" +
+            "13. اخلط السكر مع القرفة.\n" +
+            "14. رشّ التشوروس وهي دافئة قبل التقديم."
     }
 };
+
+
+
+
+
+
+
+
 recipesData.entree.soupe_legumes_suisse = {
     country: "europe",
     countryName: "suisse",
