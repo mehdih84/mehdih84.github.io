@@ -51995,7 +51995,7 @@ recipesData.entree.gazpacho_espagne = {
     image: "images/gazpacho_espagne.jpg",
     meta: {
         servings: 4,
-        prepTime: 15,
+        prepTime: 20,
         cookTime: 0,
         difficulty: "easy"
     },
@@ -52005,115 +52005,143 @@ recipesData.entree.gazpacho_espagne = {
             "1 blender",
             "1 couteau",
             "1 planche à découper",
-            "1 bol",
+            "1 grand bol",
+            "1 passoire fine",
+            "1 louche",
             "1 balance de cuisine",
-            "1 cuillère en bois"
+            "1 cuillère en bois",
+            "1 film alimentaire"
         ],
         ingredients: [
             "4 tomates mûres (400 g)",
             "1 concombre moyen (150 g), pelé et coupé en dés",
             "1 poivron rouge (120 g), épépiné et coupé en dés",
-            "1 gousse d’ail",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)",
-            "200 ml eau froide"
+            "1 petite gousse d’ail",
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre (0.5 g)",
+            "200 ml d’eau froide"
         ],
         preparation:
-            "1. Laver et couper les légumes.\n" +
-            "2. Mettre tomates, concombre, poivron et ail dans le blender.\n" +
-            "3. Ajouter l’huile d’olive, le sel, le poivre et l’eau.\n" +
-            "4. Mixer 2 à 3 minutes jusqu’à obtenir une texture lisse.\n" +
-            "5. Goûter et ajuster l’assaisonnement.\n" +
-            "6. Mettre au réfrigérateur 1 heure.\n" +
-            "7. Servir bien frais."
+            "1. Laver soigneusement les tomates, le concombre et le poivron.\n" +
+            "2. Couper les tomates en quartiers.\n" +
+            "3. Placer les tomates, le concombre, le poivron et l’ail dans le blender.\n" +
+            "4. Ajouter l’huile d’olive, le jus de citron, le sel, le poivre et l’eau froide.\n" +
+            "5. Mixer pendant 2 à 3 minutes jusqu’à obtention d’une texture lisse et homogène.\n" +
+            "6. Passer le mélange au tamis pour une texture plus fine.\n" +
+            "7. Goûter et ajuster l’assaisonnement si nécessaire.\n" +
+            "8. Verser dans un bol, couvrir avec un film alimentaire.\n" +
+            "9. Laisser reposer au réfrigérateur pendant 1 heure minimum.\n" +
+            "10. Servir bien frais."
     },
     en: {
-        title: "Gazpacho (Espagne)",
+        title: "Gazpacho (Spain)",
         equipment: [
             "1 blender",
             "1 knife",
             "1 cutting board",
-            "1 bowl",
+            "1 large bowl",
+            "1 fine strainer",
+            "1 ladle",
             "1 kitchen scale",
-            "1 wooden spoon"
+            "1 wooden spoon",
+            "plastic wrap"
         ],
         ingredients: [
             "4 ripe tomatoes (400 g)",
             "1 medium cucumber (150 g), peeled and diced",
             "1 red bell pepper (120 g), deseeded and diced",
-            "1 garlic clove",
-            "3 tbsp olive oil (45 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)",
+            "1 small garlic clove",
+            "3 tablespoons olive oil (45 ml)",
+            "1 tablespoon lemon juice (15 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon pepper (0.5 g)",
             "200 ml cold water"
         ],
         preparation:
-            "1. Wash and cut vegetables.\n" +
-            "2. Place tomatoes, cucumber, pepper and garlic in blender.\n" +
-            "3. Add olive oil, salt, pepper and water.\n" +
-            "4. Blend until smooth.\n" +
-            "5. Adjust seasoning.\n" +
-            "6. Chill for 1 hour.\n" +
-            "7. Serve cold."
+            "1. Thoroughly wash the tomatoes, cucumber and pepper.\n" +
+            "2. Cut the tomatoes into quarters.\n" +
+            "3. Place tomatoes, cucumber, pepper and garlic into the blender.\n" +
+            "4. Add olive oil, lemon juice, salt, pepper and cold water.\n" +
+            "5. Blend for 2–3 minutes until smooth.\n" +
+            "6. Strain the mixture for a finer texture.\n" +
+            "7. Taste and adjust seasoning if needed.\n" +
+            "8. Pour into a bowl and cover with plastic wrap.\n" +
+            "9. Chill in the refrigerator for at least 1 hour.\n" +
+            "10. Serve well chilled."
     },
     nl: {
-        title: "Gazpacho (Espagne)",
+        title: "Gazpacho (Spanje)",
         equipment: [
             "1 blender",
             "1 mes",
             "1 snijplank",
-            "1 kom",
+            "1 grote kom",
+            "1 fijne zeef",
+            "1 soeplepel",
             "1 keukenweegschaal",
-            "1 houten lepel"
+            "1 houten lepel",
+            "vershoudfolie"
         ],
         ingredients: [
             "4 rijpe tomaten (400 g)",
             "1 middelgrote komkommer (150 g), geschild en in blokjes",
             "1 rode paprika (120 g), ontpit en in blokjes",
-            "1 teentje knoflook",
+            "1 klein teentje knoflook",
             "3 eetlepels olijfolie (45 ml)",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0.5 g)",
+            "1 eetlepel citroensap (15 ml)",
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel peper (0.5 g)",
             "200 ml koud water"
         ],
         preparation:
-            "1. Was en snijd de groenten.\n" +
-            "2. Doe tomaten, komkommer, paprika en knoflook in de blender.\n" +
-            "3. Voeg olijfolie, zout, peper en water toe.\n" +
-            "4. Mix tot een gladde structuur.\n" +
-            "5. Breng op smaak.\n" +
-            "6. Zet 1 uur in de koelkast.\n" +
-            "7. Serveer koud."
+            "1. Was de tomaten, komkommer en paprika grondig.\n" +
+            "2. Snijd de tomaten in partjes.\n" +
+            "3. Doe tomaten, komkommer, paprika en knoflook in de blender.\n" +
+            "4. Voeg olijfolie, citroensap, zout, peper en water toe.\n" +
+            "5. Mix 2–3 minuten tot een gladde structuur.\n" +
+            "6. Zeef het mengsel voor een fijnere textuur.\n" +
+            "7. Proef en breng verder op smaak indien nodig.\n" +
+            "8. Giet in een kom en dek af met vershoudfolie.\n" +
+            "9. Laat minimaal 1 uur koelen in de koelkast.\n" +
+            "10. Serveer goed gekoeld."
     },
     ar: {
-        title: "غازباتشو (Espagne)",
+        title: "غازباتشو (إسبانيا)",
         equipment: [
-            "1 خلاط",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 وعاء",
-            "1 ميزان مطبخ",
-            "1 ملعقة خشبية"
+            "خلاط",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء كبير",
+            "مصفاة ناعمة",
+            "مغرفة",
+            "ميزان مطبخ",
+            "ملعقة خشبية",
+            "غطاء بلاستيكي"
         ],
         ingredients: [
-            "4 طماطم ناضجة (400 غ)",
-            "1 خيار متوسط (150 غ)، مقشر ومقطع",
-            "1 فلفل أحمر (120 غ)، منزوع البذور",
-            "1 فص ثوم",
+            "4 حبات طماطم ناضجة (400 غ)",
+            "1 خيار متوسط (150 غ)، مقشر ومقطع مكعبات",
+            "1 فلفل أحمر (120 غ)، منزوع البذور ومقطع",
+            "1 فص ثوم صغير",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
             "1/4 ملعقة صغيرة فلفل (0.5 غ)",
             "200 مل ماء بارد"
         ],
         preparation:
-            "1. اغسل وقطع الخضار.\n" +
-            "2. ضع الطماطم والخيار والفلفل والثوم في الخلاط.\n" +
-            "3. أضف زيت الزيتون والملح والفلفل والماء.\n" +
-            "4. اخلط حتى يصبح القوام ناعماً.\n" +
-            "5. عدل التتبيل حسب الذوق.\n" +
-            "6. ضع في الثلاجة لمدة ساعة.\n" +
-            "7. يقدم بارداً."
+            "1. اغسل الطماطم والخيار والفلفل جيداً.\n" +
+            "2. قطّع الطماطم إلى أرباع.\n" +
+            "3. ضع الطماطم والخيار والفلفل والثوم في الخلاط.\n" +
+            "4. أضف زيت الزيتون وعصير الليمون والملح والفلفل والماء.\n" +
+            "5. اخلط لمدة 2 إلى 3 دقائق حتى يصبح القوام ناعماً.\n" +
+            "6. صفِّ الخليط بمصفاة للحصول على قوام أنعم.\n" +
+            "7. تذوّق وعدّل التتبيل حسب الحاجة.\n" +
+            "8. اسكب في وعاء وغطّه بغطاء بلاستيكي.\n" +
+            "9. اتركه في الثلاجة لمدة ساعة على الأقل.\n" +
+            "10. يُقدّم بارداً."
     }
 };
 recipesData.entree.salmorejo_espagne = {
@@ -52122,113 +52150,141 @@ recipesData.entree.salmorejo_espagne = {
     image: "images/salmorejo_espagne.jpg",
     meta: {
         servings: 4,
-        prepTime: 15,
+        prepTime: 20,
         cookTime: 0,
         difficulty: "easy"
     },
     fr: {
         title: "Salmorejo (Espagne)",
         equipment: [
-            "1 blender",
+            "1 blender puissant",
             "1 couteau",
             "1 planche à découper",
-            "1 bol",
+            "1 grand bol",
+            "1 passoire fine",
             "1 balance de cuisine",
-            "1 cuillère"
+            "1 cuillère en bois",
+            "1 film alimentaire"
         ],
         ingredients: [
-            "500 g tomates mûres",
-            "150 g pain blanc (mie)",
-            "1 gousse d’ail",
-            "80 ml huile d’olive",
-            "1 cuillère à café sel (2 g)"
+            "500 g de tomates mûres",
+            "150 g de pain blanc (mie rassise de préférence)",
+            "1 petite gousse d’ail",
+            "80 ml d’huile d’olive",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1 cuillère à café de sel (5 g)"
         ],
         preparation:
-            "1. Laver et couper les tomates.\n" +
-            "2. Mettre tomates, pain et ail dans le blender.\n" +
-            "3. Mixer jusqu’à texture lisse.\n" +
-            "4. Ajouter l’huile d’olive en filet en mixant.\n" +
-            "5. Saler et mixer encore 30 secondes.\n" +
-            "6. Réserver au frais 1 heure.\n" +
-            "7. Servir bien frais."
+            "1. Laver soigneusement les tomates et les couper en quartiers.\n" +
+            "2. Couper la mie de pain en morceaux.\n" +
+            "3. Mettre les tomates, le pain et l’ail dans le blender.\n" +
+            "4. Mixer jusqu’à obtention d’une texture lisse et épaisse.\n" +
+            "5. Ajouter le jus de citron et le sel.\n" +
+            "6. Verser l’huile d’olive progressivement en filet tout en mixant pour émulsionner.\n" +
+            "7. Mixer encore 1 minute jusqu’à texture crémeuse.\n" +
+            "8. Passer au tamis si nécessaire pour une texture plus fine.\n" +
+            "9. Verser dans un bol, couvrir avec un film alimentaire.\n" +
+            "10. Réserver au réfrigérateur pendant au moins 1 heure.\n" +
+            "11. Servir bien frais."
     },
     en: {
-        title: "Salmorejo (Espagne)",
+        title: "Salmorejo (Spain)",
         equipment: [
-            "1 blender",
+            "1 powerful blender",
             "1 knife",
             "1 cutting board",
-            "1 bowl",
+            "1 large bowl",
+            "1 fine strainer",
             "1 kitchen scale",
-            "1 spoon"
+            "1 wooden spoon",
+            "plastic wrap"
         ],
         ingredients: [
             "500 g ripe tomatoes",
-            "150 g white bread (crumb)",
-            "1 garlic clove",
+            "150 g white bread (preferably slightly stale crumb)",
+            "1 small garlic clove",
             "80 ml olive oil",
-            "1 tsp salt (2 g)"
+            "1 tablespoon lemon juice (15 ml)",
+            "1 teaspoon salt (5 g)"
         ],
         preparation:
-            "1. Wash and cut tomatoes.\n" +
-            "2. Put tomatoes, bread and garlic in blender.\n" +
-            "3. Blend until smooth.\n" +
-            "4. Slowly add olive oil while blending.\n" +
-            "5. Add salt and blend 30 seconds more.\n" +
-            "6. Chill 1 hour before serving.\n" +
-            "7. Serve cold."
+            "1. Wash the tomatoes thoroughly and cut into quarters.\n" +
+            "2. Cut the bread crumb into pieces.\n" +
+            "3. Place tomatoes, bread and garlic into the blender.\n" +
+            "4. Blend until thick and smooth.\n" +
+            "5. Add lemon juice and salt.\n" +
+            "6. Slowly pour in the olive oil while blending to emulsify.\n" +
+            "7. Blend for 1 more minute until creamy.\n" +
+            "8. Strain if needed for a smoother texture.\n" +
+            "9. Transfer to a bowl and cover with plastic wrap.\n" +
+            "10. Chill for at least 1 hour.\n" +
+            "11. Serve well chilled."
     },
     nl: {
-        title: "Salmorejo (Espagne)",
+        title: "Salmorejo (Spanje)",
         equipment: [
-            "1 blender",
+            "1 krachtige blender",
             "1 mes",
             "1 snijplank",
-            "1 kom",
+            "1 grote kom",
+            "1 fijne zeef",
             "1 keukenweegschaal",
-            "1 lepel"
+            "1 houten lepel",
+            "vershoudfolie"
         ],
         ingredients: [
             "500 g rijpe tomaten",
-            "150 g wit brood (kruim)",
-            "1 teentje knoflook",
+            "150 g wit brood (bij voorkeur licht oud kruim)",
+            "1 klein teentje knoflook",
             "80 ml olijfolie",
-            "1 tl zout (2 g)"
+            "1 eetlepel citroensap (15 ml)",
+            "1 theelepel zout (5 g)"
         ],
         preparation:
-            "1. Was en snijd de tomaten.\n" +
-            "2. Doe tomaten, brood en knoflook in de blender.\n" +
-            "3. Mix tot glad.\n" +
-            "4. Voeg olijfolie langzaam toe tijdens het mixen.\n" +
-            "5. Voeg zout toe en mix nog 30 seconden.\n" +
-            "6. Zet 1 uur in de koelkast.\n" +
-            "7. Serveer koud."
+            "1. Was de tomaten grondig en snijd ze in partjes.\n" +
+            "2. Snijd het broodkruim in stukken.\n" +
+            "3. Doe tomaten, brood en knoflook in de blender.\n" +
+            "4. Mix tot een dikke en gladde massa.\n" +
+            "5. Voeg citroensap en zout toe.\n" +
+            "6. Giet de olijfolie langzaam erbij tijdens het mixen om te emulgeren.\n" +
+            "7. Mix nog 1 minuut tot een romige structuur.\n" +
+            "8. Zeef indien nodig voor een fijnere textuur.\n" +
+            "9. Doe in een kom en dek af met vershoudfolie.\n" +
+            "10. Laat minstens 1 uur koelen in de koelkast.\n" +
+            "11. Serveer goed gekoeld."
     },
     ar: {
-        title: "سالموريو (Espagne)",
+        title: "سالموريو (إسبانيا)",
         equipment: [
-            "1 خلاط",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 وعاء",
-            "1 ميزان مطبخ",
-            "1 ملعقة"
+            "خلاط قوي",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء كبير",
+            "مصفاة ناعمة",
+            "ميزان مطبخ",
+            "ملعقة خشبية",
+            "غطاء بلاستيكي"
         ],
         ingredients: [
             "500 غ طماطم ناضجة",
-            "150 غ خبز أبيض (اللب)",
-            "1 فص ثوم",
+            "150 غ خبز أبيض (لب يابس قليلاً)",
+            "1 فص ثوم صغير",
             "80 مل زيت زيتون",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "1 ملعقة صغيرة ملح (5 غ)"
         ],
         preparation:
-            "1. اغسل وقطع الطماطم.\n" +
-            "2. ضع الطماطم والخبز والثوم في الخلاط.\n" +
-            "3. اخلط حتى يصبح القوام ناعماً.\n" +
-            "4. أضف زيت الزيتون تدريجياً أثناء الخلط.\n" +
-            "5. أضف الملح واخلط لمدة 30 ثانية إضافية.\n" +
-            "6. ضع في الثلاجة لمدة ساعة.\n" +
-            "7. يقدم بارداً."
+            "1. اغسل الطماطم جيداً وقطّعها إلى أرباع.\n" +
+            "2. قطّع لب الخبز إلى قطع صغيرة.\n" +
+            "3. ضع الطماطم والخبز والثوم في الخلاط.\n" +
+            "4. اخلط حتى يصبح القوام سميكاً وناعماً.\n" +
+            "5. أضف عصير الليمون والملح.\n" +
+            "6. أضف زيت الزيتون تدريجياً أثناء الخلط حتى يتجانس الخليط.\n" +
+            "7. اخلط لمدة دقيقة إضافية حتى يصبح القوام كريمياً.\n" +
+            "8. صفِّ الخليط إذا لزم الأمر للحصول على قوام أنعم.\n" +
+            "9. اسكب في وعاء وغطّه بغطاء بلاستيكي.\n" +
+            "10. اتركه في الثلاجة لمدة ساعة على الأقل.\n" +
+            "11. يُقدّم بارداً."
     }
 };
 recipesData.entree.patatas_bravas_espagne = {
@@ -52237,105 +52293,205 @@ recipesData.entree.patatas_bravas_espagne = {
     image: "images/patatas_bravas_espagne.jpg",
     meta: {
         servings: 4,
-        prepTime: 15,
-        cookTime: 20,
+        prepTime: 20,
+        cookTime: 30,
         difficulty: "easy"
     },
     fr: {
         title: "Patatas Bravas (Espagne)",
         equipment: [
-            "1 casserole",
-            "1 poêle",
+            "1 grande casserole",
+            "1 poêle large",
+            "1 petite casserole",
             "1 couteau",
             "1 planche à découper",
-            "1 cuillère"
+            "1 écumoire",
+            "1 cuillère en bois",
+            "1 bol",
+            "papier absorbant"
         ],
         ingredients: [
-            "600 g pommes de terre",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1 cuillère à café paprika doux (2 g)",
-            "1/2 cuillère à café paprika fumé (1 g)",
-            "1/2 cuillère à café sel (1 g)"
+            "600 g de pommes de terre",
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1 cuillère à café de paprika doux (2 g)",
+            "1/2 cuillère à café de paprika fumé (1 g)",
+            "1/2 cuillère à café de piment doux ou fort (selon goût)",
+            "200 g de tomates concassées",
+            "1 petite gousse d’ail hachée",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "Poivre au goût"
         ],
         preparation:
-            "1. Éplucher et couper les pommes de terre en cubes.\n" +
-            "2. Cuire dans l’eau bouillante salée 10 minutes.\n" +
-            "3. Égoutter puis faire revenir à la poêle avec l’huile.\n" +
-            "4. Ajouter paprika doux et fumé.\n" +
-            "5. Faire dorer 10 minutes.\n" +
-            "6. Saler et servir chaud."
+            "==============================\n" +
+            "PRÉPARATION DES POMMES DE TERRE\n" +
+            "==============================\n\n" +
+            "1. Éplucher les pommes de terre et les couper en cubes réguliers.\n" +
+            "2. Les rincer à l’eau froide pour retirer l’excès d’amidon.\n" +
+            "3. Porter une grande casserole d’eau salée à ébullition.\n" +
+            "4. Ajouter les pommes de terre et cuire 10 minutes.\n" +
+            "5. Égoutter soigneusement et laisser sécher 5 minutes.\n" +
+            "6. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "7. Faire dorer les pommes de terre 10 à 15 minutes jusqu’à ce qu’elles soient croustillantes.\n" +
+            "8. Déposer sur du papier absorbant.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE BRAVA\n" +
+            "==============================\n\n" +
+            "9. Dans une petite casserole, chauffer une cuillère d’huile.\n" +
+            "10. Ajouter l’ail et cuire 1 minute.\n" +
+            "11. Ajouter les tomates concassées, le paprika doux, le paprika fumé et le piment.\n" +
+            "12. Laisser mijoter 8 à 10 minutes.\n" +
+            "13. Ajouter le jus de citron, le sel et le poivre.\n" +
+            "14. Mélanger jusqu’à obtenir une sauce légèrement épaisse.\n" +
+            "15. Verser la sauce sur les pommes de terre chaudes.\n" +
+            "16. Servir immédiatement."
     },
     en: {
-        title: "Patatas Bravas (Espagne)",
+        title: "Patatas Bravas (Spain)",
         equipment: [
-            "1 saucepan",
-            "1 frying pan",
+            "1 large saucepan",
+            "1 large frying pan",
+            "1 small saucepan",
             "1 knife",
             "1 cutting board",
-            "1 spoon"
+            "1 slotted spoon",
+            "1 wooden spoon",
+            "1 bowl",
+            "paper towels"
         ],
         ingredients: [
             "600 g potatoes",
-            "3 tbsp olive oil (45 ml)",
-            "1 tsp sweet paprika (2 g)",
-            "1/2 tsp smoked paprika (1 g)",
-            "1/2 tsp salt (1 g)"
+            "3 tablespoons olive oil (45 ml)",
+            "1 teaspoon sweet paprika (2 g)",
+            "1/2 teaspoon smoked paprika (1 g)",
+            "1/2 teaspoon mild or hot chili powder",
+            "200 g crushed tomatoes",
+            "1 small garlic clove, minced",
+            "1 tablespoon lemon juice (15 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "Black pepper to taste"
         ],
         preparation:
-            "1. Peel and cut potatoes into cubes.\n" +
-            "2. Boil in salted water for 10 minutes.\n" +
-            "3. Drain and fry with olive oil.\n" +
-            "4. Add sweet and smoked paprika.\n" +
-            "5. Cook until golden, about 10 minutes.\n" +
-            "6. Salt and serve hot."
+            "==============================\n" +
+            "POTATO PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Peel the potatoes and cut into even cubes.\n" +
+            "2. Rinse under cold water to remove excess starch.\n" +
+            "3. Bring a large pot of salted water to a boil.\n" +
+            "4. Add potatoes and cook for 10 minutes.\n" +
+            "5. Drain well and let dry for 5 minutes.\n" +
+            "6. Heat olive oil in a large frying pan.\n" +
+            "7. Fry potatoes for 10–15 minutes until golden and crispy.\n" +
+            "8. Transfer to paper towels.\n\n" +
+            "==============================\n" +
+            "BRAVA SAUCE PREPARATION\n" +
+            "==============================\n\n" +
+            "9. In a small saucepan, heat a spoon of oil.\n" +
+            "10. Add garlic and cook for 1 minute.\n" +
+            "11. Add crushed tomatoes, sweet paprika, smoked paprika and chili powder.\n" +
+            "12. Simmer for 8–10 minutes.\n" +
+            "13. Stir in lemon juice, salt and pepper.\n" +
+            "14. Cook until slightly thickened.\n" +
+            "15. Pour the sauce over the hot potatoes.\n" +
+            "16. Serve immediately."
     },
     nl: {
-        title: "Patatas Bravas (Espagne)",
+        title: "Patatas Bravas (Spanje)",
         equipment: [
-            "1 kookpot",
-            "1 pan",
+            "1 grote kookpot",
+            "1 grote pan",
+            "1 kleine steelpan",
             "1 mes",
             "1 snijplank",
-            "1 lepel"
+            "1 schuimspaan",
+            "1 houten lepel",
+            "1 kom",
+            "keukenpapier"
         ],
         ingredients: [
             "600 g aardappelen",
             "3 eetlepels olijfolie (45 ml)",
-            "1 tl zoete paprika (2 g)",
-            "1/2 tl gerookte paprika (1 g)",
-            "1/2 tl zout (1 g)"
+            "1 theelepel zoete paprika (2 g)",
+            "1/2 theelepel gerookte paprika (1 g)",
+            "1/2 theelepel milde of pittige chilipoeder",
+            "200 g tomatenblokjes",
+            "1 klein teentje knoflook, fijngehakt",
+            "1 eetlepel citroensap (15 ml)",
+            "1/2 theelepel zout (3 g)",
+            "Zwarte peper naar smaak"
         ],
         preparation:
-            "1. Schil en snijd aardappelen in blokjes.\n" +
-            "2. Kook 10 minuten in gezouten water.\n" +
-            "3. Giet af en bak met olijfolie.\n" +
-            "4. Voeg zoete en gerookte paprika toe.\n" +
-            "5. Bak goudbruin in ongeveer 10 minuten.\n" +
-            "6. Voeg zout toe en serveer warm."
+            "==============================\n" +
+            "BEREIDING VAN DE AARDAPPELEN\n" +
+            "==============================\n\n" +
+            "1. Schil de aardappelen en snijd in gelijke blokjes.\n" +
+            "2. Spoel af onder koud water.\n" +
+            "3. Breng een grote pot gezouten water aan de kook.\n" +
+            "4. Kook de aardappelen 10 minuten.\n" +
+            "5. Giet af en laat 5 minuten drogen.\n" +
+            "6. Verhit olijfolie in een grote pan.\n" +
+            "7. Bak 10–15 minuten tot goudbruin en krokant.\n" +
+            "8. Leg op keukenpapier.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE BRAVA-SAUS\n" +
+            "==============================\n\n" +
+            "9. Verhit wat olie in een kleine steelpan.\n" +
+            "10. Voeg knoflook toe en bak 1 minuut.\n" +
+            "11. Voeg tomaten, paprikapoeder en chilipoeder toe.\n" +
+            "12. Laat 8–10 minuten zachtjes koken.\n" +
+            "13. Voeg citroensap, zout en peper toe.\n" +
+            "14. Laat iets indikken.\n" +
+            "15. Giet de saus over de warme aardappelen.\n" +
+            "16. Serveer direct."
     },
     ar: {
-        title: "باتاتاس برافاس (Espagne)",
+        title: "باتاتاس برافاس (إسبانيا)",
         equipment: [
-            "1 قدر",
-            "1 مقلاة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة"
+            "قدر كبير",
+            "مقلاة واسعة",
+            "قدر صغير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة مثقبة",
+            "ملعقة خشبية",
+            "وعاء",
+            "ورق مطبخ"
         ],
         ingredients: [
             "600 غ بطاطس",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
             "1 ملعقة صغيرة بابريكا حلوة (2 غ)",
             "1/2 ملعقة صغيرة بابريكا مدخنة (1 غ)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة فلفل حار حسب الرغبة",
+            "200 غ طماطم مطحونة",
+            "1 فص ثوم صغير مفروم",
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "فلفل أسود حسب الذوق"
         ],
         preparation:
-            "1. قشر وقطع البطاطس إلى مكعبات.\n" +
-            "2. اسلقها في ماء مملح لمدة 10 دقائق.\n" +
-            "3. صفِّها ثم اقليها بزيت الزيتون.\n" +
-            "4. أضف البابريكا الحلوة والمدخنة.\n" +
-            "5. اطبخ حتى تصبح ذهبية لمدة 10 دقائق تقريباً.\n" +
-            "6. أضف الملح وقدمها ساخنة."
+            "==============================\n" +
+            "تحضير البطاطس\n" +
+            "==============================\n\n" +
+            "1. قشر البطاطس وقطعها إلى مكعبات متساوية.\n" +
+            "2. اغسلها بالماء البارد.\n" +
+            "3. اغْلِ قدراً كبيراً من الماء المملح.\n" +
+            "4. اسلق البطاطس لمدة 10 دقائق.\n" +
+            "5. صفِّها واتركها تجف 5 دقائق.\n" +
+            "6. سخّن زيت الزيتون في مقلاة واسعة.\n" +
+            "7. اقْلِ البطاطس 10 إلى 15 دقيقة حتى تصبح ذهبية ومقرمشة.\n" +
+            "8. ضعها على ورق مطبخ.\n\n" +
+            "==============================\n" +
+            "تحضير صلصة برافاس\n" +
+            "==============================\n\n" +
+            "9. سخّن قليلاً من الزيت في قدر صغير.\n" +
+            "10. أضف الثوم واطهه دقيقة واحدة.\n" +
+            "11. أضف الطماطم والبابريكا والفلفل الحار.\n" +
+            "12. اتركه يطهى 8 إلى 10 دقائق.\n" +
+            "13. أضف عصير الليمون والملح والفلفل.\n" +
+            "14. حرّك حتى تتكاثف الصلصة قليلاً.\n" +
+            "15. اسكب الصلصة فوق البطاطس الساخنة.\n" +
+            "16. قدّمها فوراً."
     }
 };
 recipesData.entree.tortilla_espagnole = {
@@ -52344,109 +52500,153 @@ recipesData.entree.tortilla_espagnole = {
     image: "images/tortilla_espagnole.jpg",
     meta: {
         servings: 4,
-        prepTime: 20,
-        cookTime: 15,
+        prepTime: 25,
+        cookTime: 20,
         difficulty: "easy"
     },
     fr: {
         title: "Tortilla espagnole (Espagne)",
         equipment: [
-            "1 poêle",
+            "1 grande poêle antiadhésive",
             "1 saladier",
             "1 couteau",
             "1 planche à découper",
-            "1 spatule"
+            "1 spatule",
+            "1 assiette plate large",
+            "papier absorbant"
         ],
         ingredients: [
-            "600 g pommes de terre",
+            "600 g de pommes de terre",
             "1 oignon moyen (100 g)",
             "6 œufs",
-            "5 cuillères à soupe huile d’olive (75 ml)",
-            "1 cuillère à café sel (2 g)"
+            "5 cuillères à soupe d’huile d’olive (75 ml)",
+            "1 cuillère à café de sel (5 g)",
+            "Poivre au goût"
         ],
         preparation:
-            "1. Éplucher et couper les pommes de terre en fines tranches.\n" +
-            "2. Faire revenir pommes de terre et oignon dans l’huile.\n" +
-            "3. Battre les œufs avec le sel.\n" +
-            "4. Mélanger pommes de terre et œufs.\n" +
-            "5. Cuire à feu doux 10 minutes.\n" +
-            "6. Retourner et cuire encore 5 minutes.\n" +
-            "7. Servir tiède ou froid."
+            "1. Éplucher les pommes de terre et les couper en fines rondelles régulières.\n" +
+            "2. Éplucher et émincer finement l’oignon.\n" +
+            "3. Chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "4. Ajouter les pommes de terre et l’oignon.\n" +
+            "5. Cuire à feu moyen-doux pendant 12 à 15 minutes en remuant délicatement jusqu’à ce que les pommes de terre soient tendres sans trop colorer.\n" +
+            "6. Égoutter légèrement l’excès d’huile et réserver.\n" +
+            "7. Dans un saladier, battre les œufs avec le sel et le poivre.\n" +
+            "8. Ajouter les pommes de terre et l’oignon aux œufs battus.\n" +
+            "9. Mélanger délicatement et laisser reposer 5 minutes.\n" +
+            "10. Verser le mélange dans la poêle chaude légèrement huilée.\n" +
+            "11. Cuire à feu doux pendant 8 à 10 minutes jusqu’à ce que le dessous soit doré.\n" +
+            "12. Poser une grande assiette sur la poêle et retourner la tortilla.\n" +
+            "13. Faire glisser la tortilla dans la poêle et cuire encore 5 à 7 minutes.\n" +
+            "14. Laisser tiédir quelques minutes avant de découper.\n" +
+            "15. Servir tiède ou à température ambiante."
     },
     en: {
-        title: "Spanish Omelette (Espagne)",
+        title: "Spanish Omelette (Spain)",
         equipment: [
-            "1 frying pan",
-            "1 bowl",
+            "1 large non-stick frying pan",
+            "1 mixing bowl",
             "1 knife",
             "1 cutting board",
-            "1 spatula"
+            "1 spatula",
+            "1 large flat plate",
+            "paper towels"
         ],
         ingredients: [
             "600 g potatoes",
             "1 medium onion (100 g)",
             "6 eggs",
-            "5 tbsp olive oil (75 ml)",
-            "1 tsp salt (2 g)"
+            "5 tablespoons olive oil (75 ml)",
+            "1 teaspoon salt (5 g)",
+            "Black pepper to taste"
         ],
         preparation:
-            "1. Peel and slice potatoes thinly.\n" +
-            "2. Fry potatoes and onion in olive oil.\n" +
-            "3. Beat eggs with salt.\n" +
-            "4. Mix potatoes with eggs.\n" +
-            "5. Cook on low heat 10 minutes.\n" +
-            "6. Flip and cook 5 more minutes.\n" +
-            "7. Serve warm or cold."
+            "1. Peel the potatoes and slice them thinly.\n" +
+            "2. Peel and finely slice the onion.\n" +
+            "3. Heat olive oil in a large frying pan over medium heat.\n" +
+            "4. Add potatoes and onion.\n" +
+            "5. Cook over medium-low heat for 12–15 minutes, stirring gently, until tender without excessive browning.\n" +
+            "6. Lightly drain excess oil and set aside.\n" +
+            "7. In a bowl, beat the eggs with salt and pepper.\n" +
+            "8. Add the potatoes and onion to the beaten eggs.\n" +
+            "9. Mix gently and let rest for 5 minutes.\n" +
+            "10. Pour the mixture back into the lightly oiled pan.\n" +
+            "11. Cook on low heat for 8–10 minutes until the bottom is golden.\n" +
+            "12. Place a large plate over the pan and carefully flip the omelette.\n" +
+            "13. Slide it back into the pan and cook for another 5–7 minutes.\n" +
+            "14. Let it rest a few minutes before slicing.\n" +
+            "15. Serve warm or at room temperature."
     },
     nl: {
-        title: "Spaanse tortilla (Espagne)",
+        title: "Spaanse tortilla (Spanje)",
         equipment: [
-            "1 pan",
-            "1 kom",
+            "1 grote antiaanbakpan",
+            "1 mengkom",
             "1 mes",
             "1 snijplank",
-            "1 spatel"
+            "1 spatel",
+            "1 groot plat bord",
+            "keukenpapier"
         ],
         ingredients: [
             "600 g aardappelen",
             "1 middelgrote ui (100 g)",
             "6 eieren",
             "5 eetlepels olijfolie (75 ml)",
-            "1 tl zout (2 g)"
+            "1 theelepel zout (5 g)",
+            "Zwarte peper naar smaak"
         ],
         preparation:
-            "1. Schil en snijd aardappelen in dunne plakjes.\n" +
-            "2. Bak aardappelen en ui in olijfolie.\n" +
-            "3. Klop eieren met zout.\n" +
-            "4. Meng aardappelen met eieren.\n" +
-            "5. Bak 10 minuten op laag vuur.\n" +
-            "6. Draai om en bak nog 5 minuten.\n" +
-            "7. Serveer warm of koud."
+            "1. Schil de aardappelen en snijd ze in dunne plakjes.\n" +
+            "2. Pel en snijd de ui fijn.\n" +
+            "3. Verhit de olijfolie in een grote pan op middelhoog vuur.\n" +
+            "4. Voeg aardappelen en ui toe.\n" +
+            "5. Bak 12–15 minuten op middellaag vuur tot ze zacht zijn zonder sterk te kleuren.\n" +
+            "6. Laat overtollige olie uitlekken.\n" +
+            "7. Klop de eieren los met zout en peper in een kom.\n" +
+            "8. Voeg aardappelen en ui toe aan de eieren.\n" +
+            "9. Meng voorzichtig en laat 5 minuten rusten.\n" +
+            "10. Giet het mengsel terug in de licht ingevette pan.\n" +
+            "11. Bak 8–10 minuten op laag vuur tot de onderkant goudbruin is.\n" +
+            "12. Leg een groot bord op de pan en draai de tortilla om.\n" +
+            "13. Laat terug in de pan glijden en bak nog 5–7 minuten.\n" +
+            "14. Laat enkele minuten rusten.\n" +
+            "15. Serveer warm of op kamertemperatuur."
     },
     ar: {
-        title: "تورتيلا إسبانية (Espagne)",
+        title: "تورتيلا إسبانية (إسبانيا)",
         equipment: [
-            "1 مقلاة",
-            "1 وعاء",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة مسطحة"
+            "مقلاة كبيرة غير لاصقة",
+            "وعاء خلط",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة مسطحة",
+            "طبق مسطح كبير",
+            "ورق مطبخ"
         ],
         ingredients: [
             "600 غ بطاطس",
             "1 بصلة متوسطة (100 غ)",
             "6 بيضات",
             "5 ملاعق كبيرة زيت زيتون (75 مل)",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "1 ملعقة صغيرة ملح (5 غ)",
+            "فلفل أسود حسب الذوق"
         ],
         preparation:
-            "1. قشر وقطع البطاطس إلى شرائح رفيعة.\n" +
-            "2. اقلي البطاطس والبصل بزيت الزيتون.\n" +
-            "3. اخفق البيض مع الملح.\n" +
-            "4. اخلط البطاطس مع البيض.\n" +
-            "5. اطبخ لمدة 10 دقائق على نار هادئة.\n" +
-            "6. اقلبها واطبخ 5 دقائق إضافية.\n" +
-            "7. يقدم دافئاً أو بارداً."
+            "1. قشر البطاطس وقطّعها إلى شرائح رفيعة.\n" +
+            "2. قشر البصل وقطّعه شرائح رفيعة.\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة على نار متوسطة.\n" +
+            "4. أضف البطاطس والبصل.\n" +
+            "5. اطهِ على نار متوسطة إلى هادئة لمدة 12 إلى 15 دقيقة حتى تنضج دون أن تتحمر كثيراً.\n" +
+            "6. صفِّ الزيت الزائد واتركها جانباً.\n" +
+            "7. اخفق البيض مع الملح والفلفل في وعاء.\n" +
+            "8. أضف البطاطس والبصل إلى البيض.\n" +
+            "9. اخلط برفق واتركه يرتاح 5 دقائق.\n" +
+            "10. اسكب الخليط في المقلاة المدهونة بقليل من الزيت.\n" +
+            "11. اطهِ لمدة 8 إلى 10 دقائق حتى يصبح القاع ذهبياً.\n" +
+            "12. ضع طبقاً كبيراً فوق المقلاة واقلب التورتيلا بحذر.\n" +
+            "13. أعدها إلى المقلاة واطهِ 5 إلى 7 دقائق إضافية.\n" +
+            "14. اتركها ترتاح قليلاً قبل التقطيع.\n" +
+            "15. تُقدّم دافئة أو بدرجة حرارة الغرفة."
     }
 };
 recipesData.entree.pan_con_tomate = {
@@ -52462,90 +52662,110 @@ recipesData.entree.pan_con_tomate = {
     fr: {
         title: "Pan con tomate (Espagne)",
         equipment: [
-            "1 grille-pain",
+            "1 grille-pain ou four",
             "1 couteau",
+            "1 planche à découper",
             "1 râpe",
+            "1 bol",
             "1 cuillère"
         ],
         ingredients: [
-            "4 tranches pain rustique",
+            "4 tranches de pain rustique",
             "2 tomates mûres (200 g)",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "1 petite gousse d’ail (optionnel)",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel (3 g)"
         ],
         preparation:
-            "1. Griller légèrement le pain.\n" +
-            "2. Râper les tomates.\n" +
-            "3. Étaler tomate sur le pain.\n" +
-            "4. Arroser d’huile d’olive.\n" +
-            "5. Saler légèrement.\n" +
-            "6. Servir immédiatement."
+            "1. Couper les tomates en deux.\n" +
+            "2. Râper les tomates dans un bol en gardant uniquement la pulpe.\n" +
+            "3. Griller légèrement les tranches de pain jusqu’à ce qu’elles soient croustillantes.\n" +
+            "4. Frotter légèrement le pain chaud avec la gousse d’ail si désiré.\n" +
+            "5. Répartir généreusement la pulpe de tomate sur chaque tranche.\n" +
+            "6. Arroser d’huile d’olive.\n" +
+            "7. Saler légèrement.\n" +
+            "8. Servir immédiatement."
     },
     en: {
         title: "Pan con Tomate (Spain)",
         equipment: [
-            "1 toaster",
+            "1 toaster or oven",
             "1 knife",
+            "1 cutting board",
             "1 grater",
+            "1 bowl",
             "1 spoon"
         ],
         ingredients: [
             "4 slices rustic bread",
             "2 ripe tomatoes (200 g)",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "1 small garlic clove (optional)",
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt (3 g)"
         ],
         preparation:
-            "1. Lightly toast the bread.\n" +
-            "2. Grate the tomatoes.\n" +
-            "3. Spread tomato on bread.\n" +
-            "4. Drizzle with olive oil.\n" +
-            "5. Add a pinch of salt.\n" +
-            "6. Serve immediately."
+            "1. Cut the tomatoes in half.\n" +
+            "2. Grate the tomatoes into a bowl, keeping only the pulp.\n" +
+            "3. Lightly toast the bread until crisp.\n" +
+            "4. Rub the warm bread gently with garlic if desired.\n" +
+            "5. Spread the grated tomato generously over each slice.\n" +
+            "6. Drizzle with olive oil.\n" +
+            "7. Sprinkle lightly with salt.\n" +
+            "8. Serve immediately."
     },
     nl: {
         title: "Pan con tomate (Spanje)",
         equipment: [
-            "1 broodrooster",
+            "1 broodrooster of oven",
             "1 mes",
+            "1 snijplank",
             "1 rasp",
+            "1 kom",
             "1 lepel"
         ],
         ingredients: [
             "4 sneetjes rustiek brood",
             "2 rijpe tomaten (200 g)",
+            "1 klein teentje knoflook (optioneel)",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)"
         ],
         preparation:
-            "1. Rooster het brood licht.\n" +
-            "2. Rasp de tomaten.\n" +
-            "3. Verdeel tomaat over brood.\n" +
-            "4. Besprenkel met olijfolie.\n" +
-            "5. Voeg zout toe.\n" +
-            "6. Serveer direct."
+            "1. Snijd de tomaten doormidden.\n" +
+            "2. Rasp de tomaten in een kom en gebruik enkel het vruchtvlees.\n" +
+            "3. Rooster het brood licht krokant.\n" +
+            "4. Wrijf het warme brood eventueel in met knoflook.\n" +
+            "5. Verdeel de geraspte tomaat royaal over het brood.\n" +
+            "6. Besprenkel met olijfolie.\n" +
+            "7. Bestrooi licht met zout.\n" +
+            "8. Serveer direct."
     },
     ar: {
         title: "بان كون طماطم (إسبانيا)",
         equipment: [
-            "1 محمصة",
-            "1 سكين",
-            "1 مبشرة",
-            "1 ملعقة"
+            "محمصة أو فرن",
+            "سكين",
+            "لوح تقطيع",
+            "مبشرة",
+            "وعاء",
+            "ملعقة"
         ],
         ingredients: [
             "4 شرائح خبز ريفي",
-            "2 طماطم ناضجة (200 غ)",
+            "2 حبة طماطم ناضجة (200 غ)",
+            "1 فص ثوم صغير (اختياري)",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)"
         ],
         preparation:
-            "1. حمص الخبز قليلاً.\n" +
-            "2. ابشر الطماطم.\n" +
-            "3. وزع الطماطم على الخبز.\n" +
-            "4. أضف زيت الزيتون.\n" +
-            "5. رش الملح.\n" +
-            "6. قدم فوراً."
+            "1. قطّع الطماطم إلى نصفين.\n" +
+            "2. ابشر الطماطم في وعاء واحتفظ باللب فقط.\n" +
+            "3. حمّص الخبز حتى يصبح مقرمشاً.\n" +
+            "4. افرك الخبز الساخن بالثوم إذا رغبت.\n" +
+            "5. وزّع لب الطماطم بسخاء على الخبز.\n" +
+            "6. أضف زيت الزيتون.\n" +
+            "7. رش القليل من الملح.\n" +
+            "8. يُقدّم فوراً."
     }
 };
 recipesData.entree.aceitunas_alinadas = {
@@ -52564,88 +52784,128 @@ recipesData.entree.aceitunas_alinadas = {
         equipment: [
             "1 bol",
             "1 couteau",
-            "1 cuillère"
+            "1 planche à découper",
+            "1 cuillère",
+            "film alimentaire"
         ],
         ingredients: [
-            "300 g olives vertes dénoyautées",
+            "300 g d’olives vertes dénoyautées",
             "1 gousse d’ail",
-            "1 cuillère à café paprika (2 g)",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à soupe jus de citron (15 ml)"
+            "1 cuillère à café de paprika (2 g)",
+            "1/2 cuillère à café d’origan séché",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "Poivre au goût"
         ],
         preparation:
-            "1. Couper l’ail finement.\n" +
+            "==============================\n" +
+            "PRÉPARATION DE LA MARINADE\n" +
+            "==============================\n\n" +
+            "1. Hacher finement la gousse d’ail.\n" +
             "2. Mettre les olives dans un bol.\n" +
-            "3. Ajouter ail, paprika, huile et citron.\n" +
-            "4. Mélanger soigneusement.\n" +
-            "5. Laisser mariner 30 minutes.\n" +
-            "6. Servir à température ambiante."
+            "3. Ajouter l’ail, le paprika et l’origan.\n" +
+            "4. Verser l’huile d’olive et le jus de citron.\n" +
+            "5. Ajouter un peu de poivre.\n" +
+            "6. Mélanger soigneusement pour bien enrober.\n" +
+            "7. Couvrir et laisser mariner 30 minutes au réfrigérateur.\n" +
+            "8. Sortir 10 minutes avant de servir.\n" +
+            "9. Servir à température ambiante."
     },
     en: {
         title: "Marinated Olives (Spain)",
         equipment: [
             "1 bowl",
             "1 knife",
-            "1 spoon"
+            "1 cutting board",
+            "1 spoon",
+            "plastic wrap"
         ],
         ingredients: [
             "300 g pitted green olives",
             "1 garlic clove",
-            "1 tsp paprika (2 g)",
-            "2 tbsp olive oil (30 ml)",
-            "1 tbsp lemon juice (15 ml)"
+            "1 teaspoon paprika (2 g)",
+            "1/2 teaspoon dried oregano",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon lemon juice (15 ml)",
+            "Black pepper to taste"
         ],
         preparation:
-            "1. Finely chop garlic.\n" +
-            "2. Place olives in a bowl.\n" +
-            "3. Add garlic, paprika, oil and lemon.\n" +
-            "4. Mix well.\n" +
-            "5. Marinate 30 minutes.\n" +
-            "6. Serve at room temperature."
+            "==============================\n" +
+            "MARINADE PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Finely chop the garlic.\n" +
+            "2. Place the olives in a bowl.\n" +
+            "3. Add garlic, paprika and oregano.\n" +
+            "4. Pour in olive oil and lemon juice.\n" +
+            "5. Add black pepper.\n" +
+            "6. Mix well to coat evenly.\n" +
+            "7. Cover and marinate for 30 minutes in the refrigerator.\n" +
+            "8. Remove 10 minutes before serving.\n" +
+            "9. Serve at room temperature."
     },
     nl: {
         title: "Gemarineerde olijven (Spanje)",
         equipment: [
             "1 kom",
             "1 mes",
-            "1 lepel"
+            "1 snijplank",
+            "1 lepel",
+            "vershoudfolie"
         ],
         ingredients: [
             "300 g groene olijven zonder pit",
             "1 teentje knoflook",
-            "1 tl paprika (2 g)",
+            "1 theelepel paprikapoeder (2 g)",
+            "1/2 theelepel gedroogde oregano",
             "2 eetlepels olijfolie (30 ml)",
-            "1 eetlepel citroensap (15 ml)"
+            "1 eetlepel citroensap (15 ml)",
+            "Zwarte peper naar smaak"
         ],
         preparation:
+            "==============================\n" +
+            "BEREIDING VAN DE MARINADE\n" +
+            "==============================\n\n" +
             "1. Hak de knoflook fijn.\n" +
-            "2. Doe olijven in een kom.\n" +
-            "3. Voeg knoflook, paprika, olie en citroen toe.\n" +
-            "4. Goed mengen.\n" +
-            "5. 30 minuten laten marineren.\n" +
-            "6. Serveer op kamertemperatuur."
+            "2. Doe de olijven in een kom.\n" +
+            "3. Voeg knoflook, paprikapoeder en oregano toe.\n" +
+            "4. Giet olijfolie en citroensap erbij.\n" +
+            "5. Voeg zwarte peper toe.\n" +
+            "6. Meng goed.\n" +
+            "7. Dek af en laat 30 minuten marineren in de koelkast.\n" +
+            "8. Haal 10 minuten voor het serveren uit de koelkast.\n" +
+            "9. Serveer op kamertemperatuur."
     },
     ar: {
         title: "زيتون متبل (إسبانيا)",
         equipment: [
-            "1 وعاء",
-            "1 سكين",
-            "1 ملعقة"
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة",
+            "غطاء بلاستيكي"
         ],
         ingredients: [
             "300 غ زيتون أخضر منزوع النوى",
             "1 فص ثوم",
             "1 ملعقة صغيرة بابريكا (2 غ)",
+            "1/2 ملعقة صغيرة أوريغانو مجفف",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1 ملعقة كبيرة عصير ليمون (15 مل)"
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "فلفل أسود حسب الذوق"
         ],
         preparation:
-            "1. فرم الثوم ناعماً.\n" +
+            "==============================\n" +
+            "تحضير التتبيلة\n" +
+            "==============================\n\n" +
+            "1. افرم الثوم ناعماً.\n" +
             "2. ضع الزيتون في وعاء.\n" +
-            "3. أضف الثوم، البابريكا، الزيت والليمون.\n" +
-            "4. اخلط جيداً.\n" +
-            "5. اتركه 30 دقيقة ليتتبل.\n" +
-            "6. يقدم بدرجة حرارة الغرفة."
+            "3. أضف الثوم والبابريكا والأوريغانو.\n" +
+            "4. أضف زيت الزيتون وعصير الليمون.\n" +
+            "5. أضف الفلفل الأسود.\n" +
+            "6. اخلط جيداً حتى يتغطى الزيتون بالتتبيلة.\n" +
+            "7. غطِّ الوعاء واتركه يتبل لمدة 30 دقيقة في الثلاجة.\n" +
+            "8. أخرجه قبل التقديم بـ10 دقائق.\n" +
+            "9. يُقدّم بدرجة حرارة الغرفة."
     }
 };
 recipesData.entree.pimientos_piquillo = {
@@ -52654,89 +52914,121 @@ recipesData.entree.pimientos_piquillo = {
     image: "images/pimientos_piquillo.jpg",
     meta: {
         servings: 4,
-        prepTime: 5,
-        cookTime: 5,
+        prepTime: 10,
+        cookTime: 8,
         difficulty: "easy"
     },
     fr: {
         title: "Pimientos del piquillo (Espagne)",
         equipment: [
             "1 poêle",
-            "1 cuillère"
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 passoire"
         ],
         ingredients: [
-            "250 g piments piquillo en bocal",
-            "2 cuillères à soupe huile d’olive (30 ml)",
+            "250 g de piments piquillo en bocal",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
             "1 gousse d’ail",
-            "1/2 cuillère à café sel (1 g)"
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "Poivre au goût"
         ],
         preparation:
-            "1. Égoutter les piments.\n" +
-            "2. Chauffer l’huile dans une poêle.\n" +
-            "3. Ajouter l’ail haché.\n" +
-            "4. Ajouter les piments.\n" +
-            "5. Faire revenir 5 minutes.\n" +
-            "6. Saler et servir."
+            "1. Égoutter soigneusement les piments à l’aide d’une passoire.\n" +
+            "2. Éplucher et émincer finement la gousse d’ail.\n" +
+            "3. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "4. Ajouter l’ail et cuire 1 minute sans le colorer.\n" +
+            "5. Ajouter les piments égouttés.\n" +
+            "6. Faire revenir 5 à 6 minutes en les retournant délicatement.\n" +
+            "7. Ajouter le jus de citron, le sel et le poivre.\n" +
+            "8. Mélanger doucement.\n" +
+            "9. Servir chaud ou tiède."
     },
     en: {
         title: "Piquillo Peppers (Spain)",
         equipment: [
             "1 frying pan",
-            "1 spoon"
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 colander"
         ],
         ingredients: [
             "250 g jarred piquillo peppers",
-            "2 tbsp olive oil (30 ml)",
+            "2 tablespoons olive oil (30 ml)",
             "1 garlic clove",
-            "1/2 tsp salt (1 g)"
+            "1 tablespoon lemon juice (15 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "Black pepper to taste"
         ],
         preparation:
-            "1. Drain peppers.\n" +
-            "2. Heat oil in a pan.\n" +
-            "3. Add chopped garlic.\n" +
-            "4. Add peppers.\n" +
-            "5. Sauté 5 minutes.\n" +
-            "6. Salt and serve."
+            "1. Drain the peppers thoroughly using a colander.\n" +
+            "2. Peel and finely slice the garlic.\n" +
+            "3. Heat olive oil in a frying pan over medium heat.\n" +
+            "4. Add garlic and cook for 1 minute without browning.\n" +
+            "5. Add the drained peppers.\n" +
+            "6. Sauté for 5–6 minutes, turning gently.\n" +
+            "7. Stir in lemon juice, salt and pepper.\n" +
+            "8. Mix gently.\n" +
+            "9. Serve warm or at room temperature."
     },
     nl: {
         title: "Piquillo paprika (Spanje)",
         equipment: [
             "1 pan",
-            "1 lepel"
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 vergiet"
         ],
         ingredients: [
             "250 g piquillo paprika uit pot",
             "2 eetlepels olijfolie (30 ml)",
             "1 teentje knoflook",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel citroensap (15 ml)",
+            "1/2 theelepel zout (3 g)",
+            "Zwarte peper naar smaak"
         ],
         preparation:
-            "1. Laat paprika uitlekken.\n" +
-            "2. Verhit olie in pan.\n" +
-            "3. Voeg knoflook toe.\n" +
-            "4. Voeg paprika toe.\n" +
-            "5. Bak 5 minuten.\n" +
-            "6. Zout en serveer."
+            "1. Laat de paprika goed uitlekken in een vergiet.\n" +
+            "2. Pel en snijd de knoflook fijn.\n" +
+            "3. Verhit olijfolie in een pan op middelhoog vuur.\n" +
+            "4. Voeg knoflook toe en bak 1 minuut zonder te kleuren.\n" +
+            "5. Voeg de paprika toe.\n" +
+            "6. Bak 5–6 minuten en draai voorzichtig om.\n" +
+            "7. Voeg citroensap, zout en peper toe.\n" +
+            "8. Meng voorzichtig.\n" +
+            "9. Serveer warm of op kamertemperatuur."
     },
     ar: {
         title: "فلفل بيكيّو (إسبانيا)",
         equipment: [
-            "1 مقلاة",
-            "1 ملعقة"
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مصفاة"
         ],
         ingredients: [
             "250 غ فلفل بيكيّو معلب",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "1 فص ثوم",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "فلفل أسود حسب الذوق"
         ],
         preparation:
-            "1. صفِّ الفلفل.\n" +
-            "2. سخن الزيت.\n" +
-            "3. أضف الثوم.\n" +
-            "4. أضف الفلفل.\n" +
-            "5. اطبخ 5 دقائق.\n" +
-            "6. أضف الملح وقدم."
+            "1. صفِّ الفلفل جيداً باستخدام مصفاة.\n" +
+            "2. قشّر الثوم وقطّعه شرائح رفيعة.\n" +
+            "3. سخّن زيت الزيتون في مقلاة على نار متوسطة.\n" +
+            "4. أضف الثوم واطهه دقيقة دون أن يتحمر.\n" +
+            "5. أضف الفلفل.\n" +
+            "6. اطهه لمدة 5 إلى 6 دقائق مع التقليب برفق.\n" +
+            "7. أضف عصير الليمون والملح والفلفل.\n" +
+            "8. حرّك بلطف.\n" +
+            "9. يُقدّم دافئاً أو بدرجة حرارة الغرفة."
     }
 };
 recipesData.entree.ensaladilla_espagne = {
@@ -52745,7 +53037,7 @@ recipesData.entree.ensaladilla_espagne = {
     image: "images/ensaladilla_espagne.jpg",
     meta: {
         servings: 4,
-        prepTime: 20,
+        prepTime: 25,
         cookTime: 25,
         difficulty: "easy"
     },
@@ -52753,137 +53045,157 @@ recipesData.entree.ensaladilla_espagne = {
         title: "Ensaladilla espagnole (Espagne)",
         equipment: [
             "1 grande casserole",
+            "1 petite casserole",
             "1 passoire",
             "1 couteau",
             "1 planche à découper",
             "1 grand saladier",
-            "1 cuillère"
+            "1 cuillère en bois",
+            "1 film alimentaire"
         ],
         ingredients: [
-            "500 g pommes de terre",
-            "150 g carottes",
-            "100 g petits pois cuits",
+            "500 g de pommes de terre",
+            "150 g de carottes",
+            "100 g de petits pois cuits",
             "2 œufs",
-            "120 g thon nature",
-            "3 cuillères à soupe mayonnaise",
-            "1 cuillère à soupe huile d’olive (15 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0,5 g)"
+            "120 g de thon nature égoutté",
+            "3 cuillères à soupe de mayonnaise",
+            "1 cuillère à soupe d’huile d’olive (15 ml)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre (1 g)"
         ],
         preparation:
             "1. Éplucher les pommes de terre et les carottes.\n" +
-            "2. Les couper en petits dés.\n" +
-            "3. Cuire dans l’eau bouillante salée 15 minutes.\n" +
-            "4. Cuire les œufs durs 10 minutes puis les écaler.\n" +
-            "5. Égoutter et laisser refroidir les légumes.\n" +
-            "6. Émietter le thon.\n" +
-            "7. Couper les œufs en morceaux.\n" +
-            "8. Mélanger tous les ingrédients dans un saladier.\n" +
-            "9. Ajouter la mayonnaise, l’huile d’olive, le sel et le poivre.\n" +
-            "10. Mélanger délicatement.\n" +
-            "11. Mettre au frais 30 minutes avant de servir."
+            "2. Les couper en petits dés réguliers.\n" +
+            "3. Cuire les légumes dans une grande casserole d’eau salée pendant 15 minutes.\n" +
+            "4. Égoutter et laisser refroidir complètement.\n" +
+            "5. Cuire les œufs 10 minutes dans une petite casserole d’eau bouillante.\n" +
+            "6. Les écaler et les couper en petits morceaux.\n" +
+            "7. Émietter le thon.\n" +
+            "8. Mettre les légumes refroidis dans un grand saladier.\n" +
+            "9. Ajouter les petits pois, le thon et les œufs.\n" +
+            "10. Incorporer la mayonnaise, l’huile d’olive et le jus de citron.\n" +
+            "11. Saler et poivrer.\n" +
+            "12. Mélanger délicatement.\n" +
+            "13. Couvrir avec un film alimentaire et réfrigérer 30 minutes avant de servir."
     },
     en: {
         title: "Spanish Ensaladilla (Spain)",
         equipment: [
             "1 large pot",
+            "1 small saucepan",
             "1 colander",
             "1 knife",
             "1 cutting board",
             "1 large bowl",
-            "1 spoon"
+            "1 wooden spoon",
+            "plastic wrap"
         ],
         ingredients: [
             "500 g potatoes",
             "150 g carrots",
             "100 g cooked peas",
             "2 eggs",
-            "120 g tuna in water",
-            "3 tbsp mayonnaise",
-            "1 tbsp olive oil (15 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "120 g tuna in water, drained",
+            "3 tablespoons mayonnaise",
+            "1 tablespoon olive oil (15 ml)",
+            "1 tablespoon lemon juice (15 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon pepper (1 g)"
         ],
         preparation:
-            "1. Peel potatoes and carrots.\n" +
-            "2. Cut into small cubes.\n" +
-            "3. Boil in salted water 15 minutes.\n" +
-            "4. Boil eggs 10 minutes and peel.\n" +
-            "5. Drain and let vegetables cool.\n" +
-            "6. Flake the tuna.\n" +
-            "7. Chop the eggs.\n" +
-            "8. Mix all ingredients in a bowl.\n" +
-            "9. Add mayonnaise, olive oil, salt and pepper.\n" +
-            "10. Mix gently.\n" +
-            "11. Chill 30 minutes before serving."
+            "1. Peel the potatoes and carrots.\n" +
+            "2. Cut into small even cubes.\n" +
+            "3. Boil the vegetables in salted water for 15 minutes.\n" +
+            "4. Drain and let cool completely.\n" +
+            "5. Boil the eggs for 10 minutes.\n" +
+            "6. Peel and chop them.\n" +
+            "7. Flake the tuna.\n" +
+            "8. Place cooled vegetables in a large bowl.\n" +
+            "9. Add peas, tuna and eggs.\n" +
+            "10. Stir in mayonnaise, olive oil and lemon juice.\n" +
+            "11. Season with salt and pepper.\n" +
+            "12. Mix gently.\n" +
+            "13. Cover and chill for 30 minutes before serving."
     },
     nl: {
         title: "Spaanse Ensaladilla (Spanje)",
         equipment: [
             "1 grote kookpot",
+            "1 kleine pan",
             "1 vergiet",
             "1 mes",
             "1 snijplank",
             "1 grote kom",
-            "1 lepel"
+            "1 houten lepel",
+            "vershoudfolie"
         ],
         ingredients: [
             "500 g aardappelen",
             "150 g wortelen",
             "100 g gekookte erwten",
             "2 eieren",
-            "120 g tonijn naturel",
+            "120 g tonijn op water, uitgelekt",
             "3 eetlepels mayonaise",
             "1 eetlepel olijfolie (15 ml)",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)"
+            "1 eetlepel citroensap (15 ml)",
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel peper (1 g)"
         ],
         preparation:
             "1. Schil de aardappelen en wortelen.\n" +
             "2. Snijd in kleine blokjes.\n" +
             "3. Kook 15 minuten in gezouten water.\n" +
-            "4. Kook de eieren 10 minuten en pel ze.\n" +
-            "5. Laat groenten uitlekken en afkoelen.\n" +
-            "6. Verkruimel de tonijn.\n" +
-            "7. Snijd de eieren.\n" +
-            "8. Meng alles in een kom.\n" +
-            "9. Voeg mayonaise, olijfolie, zout en peper toe.\n" +
-            "10. Meng voorzichtig.\n" +
-            "11. Laat 30 minuten koelen."
+            "4. Giet af en laat volledig afkoelen.\n" +
+            "5. Kook de eieren 10 minuten.\n" +
+            "6. Pel en snijd ze fijn.\n" +
+            "7. Verkruimel de tonijn.\n" +
+            "8. Doe de afgekoelde groenten in een grote kom.\n" +
+            "9. Voeg erwten, tonijn en eieren toe.\n" +
+            "10. Meng mayonaise, olijfolie en citroensap erdoor.\n" +
+            "11. Breng op smaak met zout en peper.\n" +
+            "12. Meng voorzichtig.\n" +
+            "13. Dek af en laat 30 minuten koelen."
     },
     ar: {
         title: "سلطة إنسالاديّا الإسبانية (إسبانيا)",
         equipment: [
             "قدر كبير",
+            "قدر صغير",
             "مصفاة",
             "سكين",
             "لوح تقطيع",
             "وعاء كبير",
-            "ملعقة"
+            "ملعقة خشبية",
+            "غطاء بلاستيكي"
         ],
         ingredients: [
             "500 غ بطاطس",
             "150 غ جزر",
             "100 غ بازلاء مطبوخة",
             "2 بيض",
-            "120 غ تونة طبيعية",
+            "120 غ تونة مصفاة",
             "3 ملاعق كبيرة مايونيز",
             "1 ملعقة كبيرة زيت زيتون (15 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/4 ملعقة صغيرة فلفل (0,5 غ)"
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل (1 غ)"
         ],
         preparation:
             "1. قشر البطاطس والجزر.\n" +
-            "2. قطعها إلى مكعبات صغيرة.\n" +
-            "3. اسلقها في ماء مملح 15 دقيقة.\n" +
-            "4. اسلق البيض 10 دقائق ثم قشره.\n" +
-            "5. صفِّ الخضار واتركها تبرد.\n" +
-            "6. فتت التونة.\n" +
-            "7. قطع البيض.\n" +
-            "8. اخلط جميع المكونات في وعاء.\n" +
-            "9. أضف المايونيز وزيت الزيتون والملح والفلفل.\n" +
-            "10. اخلط برفق.\n" +
-            "11. بردها 30 دقيقة قبل التقديم."
+            "2. قطّعها إلى مكعبات صغيرة.\n" +
+            "3. اسلقها في ماء مملح لمدة 15 دقيقة.\n" +
+            "4. صفِّها واتركها تبرد تماماً.\n" +
+            "5. اسلق البيض لمدة 10 دقائق.\n" +
+            "6. قشّره وقطّعه.\n" +
+            "7. فتّت التونة.\n" +
+            "8. ضع الخضار في وعاء كبير.\n" +
+            "9. أضف البازلاء والتونة والبيض.\n" +
+            "10. أضف المايونيز وزيت الزيتون وعصير الليمون.\n" +
+            "11. أضف الملح والفلفل.\n" +
+            "12. اخلط برفق.\n" +
+            "13. غطِّ الوعاء وضعه في الثلاجة 30 دقيقة قبل التقديم."
     }
 };
 recipesData.entree.champinones_ajillo = {
@@ -52893,88 +53205,116 @@ recipesData.entree.champinones_ajillo = {
     meta: {
         servings: 4,
         prepTime: 10,
-        cookTime: 8,
+        cookTime: 10,
         difficulty: "easy"
     },
     fr: {
         title: "Champignons à l’ail (Espagne)",
         equipment: [
-            "1 poêle",
-            "1 couteau"
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
         ],
         ingredients: [
-            "400 g champignons de Paris",
+            "400 g de champignons de Paris",
             "3 gousses d’ail",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "Persil frais haché (optionnel)"
         ],
         preparation:
-            "1. Nettoyer et couper les champignons.\n" +
-            "2. Chauffer l’huile.\n" +
-            "3. Ajouter l’ail.\n" +
-            "4. Ajouter les champignons.\n" +
-            "5. Cuire 8 minutes.\n" +
-            "6. Saler et servir."
+            "1. Nettoyer les champignons avec un chiffon humide et les couper en deux ou en lamelles.\n" +
+            "2. Éplucher et émincer finement l’ail.\n" +
+            "3. Chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "4. Ajouter l’ail et cuire 1 minute sans le brûler.\n" +
+            "5. Ajouter les champignons.\n" +
+            "6. Cuire 8 à 10 minutes en remuant jusqu’à ce qu’ils soient tendres et légèrement dorés.\n" +
+            "7. Ajouter le jus de citron et le sel.\n" +
+            "8. Mélanger et cuire encore 1 minute.\n" +
+            "9. Parsemer de persil si désiré et servir chaud."
     },
     en: {
         title: "Garlic Mushrooms (Spain)",
         equipment: [
-            "1 frying pan",
-            "1 knife"
+            "1 large frying pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
         ],
         ingredients: [
-            "400 g mushrooms",
+            "400 g button mushrooms",
             "3 garlic cloves",
-            "3 tbsp olive oil (45 ml)",
-            "1/2 tsp salt (1 g)"
+            "3 tablespoons olive oil (45 ml)",
+            "1 tablespoon lemon juice (15 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "Fresh chopped parsley (optional)"
         ],
         preparation:
-            "1. Clean and slice mushrooms.\n" +
-            "2. Heat oil.\n" +
-            "3. Add garlic.\n" +
-            "4. Add mushrooms.\n" +
-            "5. Cook 8 minutes.\n" +
-            "6. Salt and serve."
+            "1. Clean the mushrooms with a damp cloth and slice if large.\n" +
+            "2. Peel and finely slice the garlic.\n" +
+            "3. Heat olive oil in a large pan over medium heat.\n" +
+            "4. Add garlic and cook for 1 minute without browning.\n" +
+            "5. Add mushrooms.\n" +
+            "6. Cook for 8–10 minutes, stirring, until tender and lightly golden.\n" +
+            "7. Add lemon juice and salt.\n" +
+            "8. Stir and cook 1 more minute.\n" +
+            "9. Sprinkle with parsley if desired and serve hot."
     },
     nl: {
         title: "Champignons met knoflook (Spanje)",
         equipment: [
-            "1 pan",
-            "1 mes"
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
         ],
         ingredients: [
             "400 g champignons",
             "3 teentjes knoflook",
             "3 eetlepels olijfolie (45 ml)",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel citroensap (15 ml)",
+            "1/2 theelepel zout (3 g)",
+            "Verse peterselie (optioneel)"
         ],
         preparation:
-            "1. Reinig en snijd champignons.\n" +
-            "2. Verhit olie.\n" +
-            "3. Voeg knoflook toe.\n" +
-            "4. Voeg champignons toe.\n" +
-            "5. Bak 8 minuten.\n" +
-            "6. Zout en serveer."
+            "1. Reinig de champignons met een vochtige doek en snijd indien nodig.\n" +
+            "2. Pel en snijd de knoflook fijn.\n" +
+            "3. Verhit olijfolie in een grote pan op middelhoog vuur.\n" +
+            "4. Voeg knoflook toe en bak 1 minuut zonder te kleuren.\n" +
+            "5. Voeg champignons toe.\n" +
+            "6. Bak 8–10 minuten tot ze zacht en licht goudbruin zijn.\n" +
+            "7. Voeg citroensap en zout toe.\n" +
+            "8. Meng en bak nog 1 minuut.\n" +
+            "9. Bestrooi met peterselie en serveer warm."
     },
     ar: {
         title: "فطر بالثوم (إسبانيا)",
         equipment: [
-            "1 مقلاة",
-            "1 سكين"
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
         ],
         ingredients: [
-            "400 غ فطر",
+            "400 غ فطر طازج",
             "3 فصوص ثوم",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "بقدونس طازج مفروم (اختياري)"
         ],
         preparation:
-            "1. نظف وقطع الفطر.\n" +
-            "2. سخن الزيت.\n" +
-            "3. أضف الثوم.\n" +
-            "4. أضف الفطر.\n" +
-            "5. اطبخ 8 دقائق.\n" +
-            "6. أضف الملح وقدم."
+            "1. نظف الفطر بقطعة قماش مبللة وقطّعه إذا كان كبيراً.\n" +
+            "2. قشّر الثوم وقطّعه شرائح رفيعة.\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة على نار متوسطة.\n" +
+            "4. أضف الثوم واطهه دقيقة دون أن يحترق.\n" +
+            "5. أضف الفطر.\n" +
+            "6. اطهه لمدة 8 إلى 10 دقائق حتى يصبح طرياً وذهبي اللون.\n" +
+            "7. أضف عصير الليمون والملح.\n" +
+            "8. حرّك واتركه دقيقة إضافية.\n" +
+            "9. رشّ البقدونس وقدّمه ساخناً."
     }
 };
 recipesData.entree.boquerones = {
@@ -52983,7 +53323,7 @@ recipesData.entree.boquerones = {
     image: "images/boquerones.jpg",
     meta: {
         servings: 4,
-        prepTime: 10,
+        prepTime: 20,
         cookTime: 0,
         marinationTime: 30,
         difficulty: "easy"
@@ -52991,185 +53331,268 @@ recipesData.entree.boquerones = {
     fr: {
         title: "Boquerones marinés (Espagne)",
         equipment: [
-            "1 bol",
-            "1 couteau"
+            "1 bol en verre",
+            "1 couteau fin",
+            "1 planche à découper",
+            "1 passoire",
+            "1 cuillère",
+            "film alimentaire"
         ],
         ingredients: [
-            "400 g filets d’anchois frais",
-            "3 cuillères à soupe jus de citron (45 ml)",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 gousse d’ail",
-            "1/2 cuillère à café sel (1 g)"
+            "400 g de filets d’anchois frais nettoyés",
+            "3 cuillères à soupe de jus de citron frais (45 ml)",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 gousse d’ail finement hachée",
+            "1 cuillère à soupe de persil frais haché",
+            "1/2 cuillère à café de sel (3 g)"
         ],
         preparation:
-            "1. Nettoyer les anchois.\n" +
-            "2. Ajouter citron et sel.\n" +
-            "3. Laisser mariner 30 minutes.\n" +
-            "4. Ajouter ail et huile.\n" +
-            "5. Mélanger doucement.\n" +
-            "6. Servir frais."
+            "==============================\n" +
+            "PRÉPARATION DES ANCHOIS\n" +
+            "==============================\n\n" +
+            "1. Rincer délicatement les filets d’anchois sous l’eau froide.\n" +
+            "2. Les égoutter soigneusement et retirer les éventuelles arêtes restantes.\n" +
+            "3. Les disposer à plat dans un bol en verre.\n\n" +
+            "==============================\n" +
+            "MARINADE\n" +
+            "==============================\n\n" +
+            "4. Arroser les anchois avec le jus de citron.\n" +
+            "5. Ajouter le sel.\n" +
+            "6. Couvrir et laisser mariner 30 minutes au réfrigérateur jusqu’à ce que la chair devienne plus claire.\n" +
+            "7. Égoutter légèrement l’excès de liquide.\n" +
+            "8. Ajouter l’ail haché, le persil et l’huile d’olive.\n" +
+            "9. Mélanger délicatement.\n" +
+            "10. Servir bien frais."
     },
     en: {
         title: "Marinated Anchovies (Spain)",
         equipment: [
-            "1 bowl",
-            "1 knife"
+            "1 glass bowl",
+            "1 small knife",
+            "1 cutting board",
+            "1 colander",
+            "1 spoon",
+            "plastic wrap"
         ],
         ingredients: [
-            "400 g fresh anchovy fillets",
-            "3 tbsp lemon juice (45 ml)",
-            "2 tbsp olive oil (30 ml)",
-            "1 garlic clove",
-            "1/2 tsp salt (1 g)"
+            "400 g fresh anchovy fillets, cleaned",
+            "3 tablespoons fresh lemon juice (45 ml)",
+            "2 tablespoons olive oil (30 ml)",
+            "1 garlic clove, finely chopped",
+            "1 tablespoon fresh chopped parsley",
+            "1/2 teaspoon salt (3 g)"
         ],
         preparation:
-            "1. Clean anchovies.\n" +
-            "2. Add lemon and salt.\n" +
-            "3. Marinate 30 minutes.\n" +
-            "4. Add garlic and oil.\n" +
-            "5. Mix gently.\n" +
-            "6. Serve chilled."
+            "==============================\n" +
+            "ANCHOVY PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Rinse the anchovy fillets gently under cold water.\n" +
+            "2. Drain well and remove any remaining bones.\n" +
+            "3. Lay them flat in a glass bowl.\n\n" +
+            "==============================\n" +
+            "MARINATION\n" +
+            "==============================\n\n" +
+            "4. Pour lemon juice over the anchovies.\n" +
+            "5. Add salt.\n" +
+            "6. Cover and marinate for 30 minutes in the refrigerator until the flesh becomes lighter.\n" +
+            "7. Lightly drain excess liquid.\n" +
+            "8. Add chopped garlic, parsley and olive oil.\n" +
+            "9. Mix gently.\n" +
+            "10. Serve well chilled."
     },
     nl: {
         title: "Gemarineerde ansjovis (Spanje)",
         equipment: [
-            "1 kom",
-            "1 mes"
+            "1 glazen kom",
+            "1 klein mes",
+            "1 snijplank",
+            "1 vergiet",
+            "1 lepel",
+            "vershoudfolie"
         ],
         ingredients: [
-            "400 g verse ansjovisfilets",
-            "3 eetlepels citroensap (45 ml)",
+            "400 g verse ansjovisfilets, schoongemaakt",
+            "3 eetlepels vers citroensap (45 ml)",
             "2 eetlepels olijfolie (30 ml)",
-            "1 teentje knoflook",
-            "1/2 tl zout (1 g)"
+            "1 teentje knoflook, fijngehakt",
+            "1 eetlepel verse peterselie, fijngehakt",
+            "1/2 theelepel zout (3 g)"
         ],
         preparation:
-            "1. Reinig ansjovis.\n" +
-            "2. Voeg citroen en zout toe.\n" +
-            "3. Laat 30 minuten marineren.\n" +
-            "4. Voeg knoflook en olie toe.\n" +
-            "5. Meng voorzichtig.\n" +
-            "6. Serveer koud."
+            "==============================\n" +
+            "VOORBEREIDING VAN DE ANSJOVIS\n" +
+            "==============================\n\n" +
+            "1. Spoel de ansjovisfilets voorzichtig onder koud water.\n" +
+            "2. Laat goed uitlekken en verwijder eventuele graten.\n" +
+            "3. Leg ze plat in een glazen kom.\n\n" +
+            "==============================\n" +
+            "MARINEREN\n" +
+            "==============================\n\n" +
+            "4. Giet het citroensap over de ansjovis.\n" +
+            "5. Voeg zout toe.\n" +
+            "6. Dek af en laat 30 minuten marineren in de koelkast tot het vlees lichter wordt.\n" +
+            "7. Giet overtollig vocht voorzichtig af.\n" +
+            "8. Voeg knoflook, peterselie en olijfolie toe.\n" +
+            "9. Meng voorzichtig.\n" +
+            "10. Serveer goed gekoeld."
     },
     ar: {
         title: "أنشوجة متبلة (إسبانيا)",
         equipment: [
-            "1 وعاء",
-            "1 سكين"
+            "وعاء زجاجي",
+            "سكين صغير",
+            "لوح تقطيع",
+            "مصفاة",
+            "ملعقة",
+            "غطاء بلاستيكي"
         ],
         ingredients: [
-            "400 غ فيليه أنشوجة طازجة",
-            "3 ملاعق كبيرة عصير ليمون (45 مل)",
+            "400 غ فيليه أنشوجة طازجة منظفة",
+            "3 ملاعق كبيرة عصير ليمون طازج (45 مل)",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1 فص ثوم",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 فص ثوم مفروم ناعماً",
+            "1 ملعقة كبيرة بقدونس طازج مفروم",
+            "1/2 ملعقة صغيرة ملح (3 غ)"
         ],
         preparation:
-            "1. نظف الأنشوجة.\n" +
-            "2. أضف الليمون والملح.\n" +
-            "3. اترك 30 دقيقة.\n" +
-            "4. أضف الثوم والزيت.\n" +
-            "5. اخلط بلطف.\n" +
-            "6. قدم بارداً."
+            "==============================\n" +
+            "تحضير الأنشوجة\n" +
+            "==============================\n\n" +
+            "1. اغسل فيليه الأنشوجة برفق تحت ماء بارد.\n" +
+            "2. صفِّها جيداً وأزل أي عظام متبقية.\n" +
+            "3. ضعها بشكل مسطح في وعاء زجاجي.\n\n" +
+            "==============================\n" +
+            "التتبيل\n" +
+            "==============================\n\n" +
+            "4. اسكب عصير الليمون فوق الأنشوجة.\n" +
+            "5. أضف الملح.\n" +
+            "6. غطِّها واتركها تتبل لمدة 30 دقيقة في الثلاجة حتى يتغير لونها.\n" +
+            "7. صفِّ السائل الزائد برفق.\n" +
+            "8. أضف الثوم والبقدونس وزيت الزيتون.\n" +
+            "9. اخلط بلطف.\n" +
+            "10. تُقدّم باردة."
     }
 };
+
 recipesData.entree.berenjenas_fritas = {
     country: "europe",
     countryName: "Espagne",
     image: "images/berenjenas_fritas.jpg",
     meta: {
         servings: 4,
-        prepTime: 10,
-        cookTime: 10,
+        prepTime: 15,
+        cookTime: 15,
         difficulty: "easy"
     },
     fr: {
         title: "Aubergines frites (Espagne)",
         equipment: [
-            "1 poêle",
-            "1 couteau"
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 passoire",
+            "papier absorbant",
+            "1 cuillère"
         ],
         ingredients: [
             "2 aubergines moyennes (500 g)",
-            "4 cuillères à soupe huile d’olive (60 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "4 cuillères à soupe d’huile d’olive (60 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1 cuillère à soupe de jus de citron (15 ml)"
         ],
         preparation:
-            "1. Couper les aubergines en rondelles.\n" +
-            "2. Chauffer l’huile.\n" +
-            "3. Faire frire les aubergines.\n" +
-            "4. Dorer des deux côtés.\n" +
-            "5. Saler.\n" +
-            "6. Servir chaud."
+            "1. Laver les aubergines et les couper en rondelles ou en bâtonnets.\n" +
+            "2. Les saupoudrer légèrement de sel et les laisser dégorger 10 minutes dans une passoire.\n" +
+            "3. Les rincer rapidement et les sécher avec du papier absorbant.\n" +
+            "4. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "5. Faire frire les aubergines en une seule couche.\n" +
+            "6. Cuire 6 à 8 minutes en les retournant jusqu’à ce qu’elles soient dorées des deux côtés.\n" +
+            "7. Déposer sur du papier absorbant pour retirer l’excès d’huile.\n" +
+            "8. Arroser légèrement de jus de citron.\n" +
+            "9. Servir chaud."
     },
     en: {
         title: "Fried Eggplant (Spain)",
         equipment: [
-            "1 frying pan",
-            "1 knife"
+            "1 large frying pan",
+            "1 knife",
+            "1 cutting board",
+            "1 colander",
+            "paper towels",
+            "1 spoon"
         ],
         ingredients: [
             "2 medium eggplants (500 g)",
-            "4 tbsp olive oil (60 ml)",
-            "1/2 tsp salt (1 g)"
+            "4 tablespoons olive oil (60 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1 tablespoon lemon juice (15 ml)"
         ],
         preparation:
-            "1. Slice eggplants.\n" +
-            "2. Heat oil.\n" +
-            "3. Fry eggplant slices.\n" +
-            "4. Brown on both sides.\n" +
-            "5. Salt.\n" +
-            "6. Serve hot."
+            "1. Wash the eggplants and slice into rounds or sticks.\n" +
+            "2. Lightly sprinkle with salt and let drain for 10 minutes in a colander.\n" +
+            "3. Rinse briefly and pat dry with paper towels.\n" +
+            "4. Heat olive oil in a large frying pan.\n" +
+            "5. Fry the eggplant in a single layer.\n" +
+            "6. Cook for 6–8 minutes, turning until golden on both sides.\n" +
+            "7. Transfer to paper towels to remove excess oil.\n" +
+            "8. Drizzle lightly with lemon juice.\n" +
+            "9. Serve hot."
     },
     nl: {
         title: "Gefrituurde aubergine (Spanje)",
         equipment: [
-            "1 pan",
-            "1 mes"
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 vergiet",
+            "keukenpapier",
+            "1 lepel"
         ],
         ingredients: [
             "2 middelgrote aubergines (500 g)",
             "4 eetlepels olijfolie (60 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)",
+            "1 eetlepel citroensap (15 ml)"
         ],
         preparation:
-            "1. Snijd aubergines in schijven.\n" +
-            "2. Verhit olie.\n" +
-            "3. Bak aubergine.\n" +
-            "4. Bak beide kanten goudbruin.\n" +
-            "5. Zout toevoegen.\n" +
-            "6. Warm serveren."
+            "1. Was de aubergines en snijd in plakken of reepjes.\n" +
+            "2. Bestrooi licht met zout en laat 10 minuten uitlekken in een vergiet.\n" +
+            "3. Spoel kort af en dep droog met keukenpapier.\n" +
+            "4. Verhit olijfolie in een grote pan.\n" +
+            "5. Bak de aubergine in één laag.\n" +
+            "6. Bak 6–8 minuten en draai om tot goudbruin.\n" +
+            "7. Laat uitlekken op keukenpapier.\n" +
+            "8. Besprenkel licht met citroensap.\n" +
+            "9. Serveer warm."
     },
     ar: {
         title: "باذنجان مقلي (إسبانيا)",
         equipment: [
-            "1 مقلاة",
-            "1 سكين"
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "مصفاة",
+            "ورق مطبخ",
+            "ملعقة"
         ],
         ingredients: [
-            "2 باذنجان متوسط (500 غ)",
+            "2 حبة باذنجان متوسطة (500 غ)",
             "4 ملاعق كبيرة زيت زيتون (60 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1 ملعقة كبيرة عصير ليمون (15 مل)"
         ],
         preparation:
-            "1. قطع الباذنجان شرائح.\n" +
-            "2. سخن الزيت.\n" +
-            "3. اقلي الباذنجان.\n" +
-            "4. حتى يصبح ذهبياً.\n" +
-            "5. أضف الملح.\n" +
-            "6. قدم ساخناً."
+            "1. اغسل الباذنجان وقطّعه إلى شرائح أو أصابع.\n" +
+            "2. رشّه بقليل من الملح واتركه في مصفاة لمدة 10 دقائق.\n" +
+            "3. اشطفه سريعاً وجففه بورق المطبخ.\n" +
+            "4. سخّن زيت الزيتون في مقلاة كبيرة.\n" +
+            "5. اقْلِ الباذنجان في طبقة واحدة.\n" +
+            "6. اطهه 6 إلى 8 دقائق مع التقليب حتى يصبح ذهبياً.\n" +
+            "7. ضع القطع على ورق مطبخ لامتصاص الزيت الزائد.\n" +
+            "8. أضف القليل من عصير الليمون.\n" +
+            "9. يُقدّم ساخناً."
     }
 };
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -53182,890 +53605,1697 @@ recipesData.entree.berenjenas_fritas = {
 
 recipesData.plat.paella_espagne = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/paella_espagne.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 25,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Paella végétarienne (Espagne, 4 personnes)",
+        title: "Paella végétarienne (Espagne)",
         equipment: [
-            "1 grande poêle à paella ou grande poêle",
+            "1 grande poêle à paella ou grande poêle large",
+            "1 casserole pour chauffer le bouillon",
             "1 cuillère en bois",
             "1 couteau",
             "1 planche à découper",
-            "1 bol",
+            "1 louche",
             "1 balance de cuisine"
         ],
         ingredients: [
-            "200 g riz rond",
+            "250 g de riz rond spécial paella",
             "1 poivron rouge (120 g), coupé en lanières",
             "1 poivron vert (120 g), coupé en lanières",
             "1 courgette moyenne (150 g), coupée en dés",
-            "100 g petits pois surgelés",
-            "1 tomate (100 g), pelée et concassée",
-            "1 gousse d’ail",
-            "750 ml bouillon de légumes",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café paprika doux (1 g)",
-            "1/4 cuillère à café sel (0.5 g)",
-            "1 pincée de safran ou curcuma pour couleur (facultatif)"
+            "100 g de petits pois",
+            "1 tomate mûre (120 g), pelée et concassée",
+            "1 gousse d’ail hachée",
+            "750 ml de bouillon de légumes chaud",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de paprika doux (2 g)",
+            "1 pincée de safran ou 1/4 cuillère à café de curcuma",
+            "1/2 cuillère à café de sel (3 g)",
+            "Poivre au goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile d’olive dans la poêle.\n" +
-            "2. Ajouter l’ail haché et faire revenir 1 minute.\n" +
-            "3. Ajouter poivrons, courgette et petits pois. Cuire 5-7 minutes en remuant.\n" +
-            "4. Ajouter la tomate concassée et paprika, mélanger 2 minutes.\n" +
-            "5. Ajouter le riz et mélanger pour bien enrober les grains.\n" +
-            "6. Verser le bouillon chaud, ajouter sel et safran.\n" +
-            "7. Cuire à feu moyen 15-20 minutes sans remuer.\n" +
-            "8. Vérifier que le riz est cuit et tout le liquide absorbé.\n" +
-            "9. Retirer du feu, laisser reposer 5 minutes avant de servir."
+            "1. Chauffer le bouillon dans une casserole et le maintenir chaud.\n" +
+            "2. Chauffer l’huile d’olive dans la poêle à paella à feu moyen.\n" +
+            "3. Ajouter l’ail haché et faire revenir 1 minute.\n" +
+            "4. Ajouter les poivrons et la courgette, cuire 5 à 7 minutes en remuant.\n" +
+            "5. Incorporer la tomate concassée et le paprika, cuire 2 minutes.\n" +
+            "6. Ajouter le riz et bien mélanger pour enrober les grains.\n" +
+            "7. Verser le bouillon chaud uniformément dans la poêle.\n" +
+            "8. Ajouter le safran ou le curcuma, le sel et le poivre.\n" +
+            "9. Répartir les petits pois sur le dessus sans mélanger.\n" +
+            "10. Laisser cuire 18 à 20 minutes à feu moyen sans remuer.\n" +
+            "11. Vérifier que le riz est tendre et que le liquide est absorbé.\n" +
+            "12. Retirer du feu et laisser reposer 5 minutes avant de servir."
     },
     en: {
-        title: "Vegetarian Paella (Spain, Serves 4)",
+        title: "Vegetarian Paella (Spain)",
         equipment: [
-            "1 large paella pan or skillet",
+            "1 large paella pan or wide skillet",
+            "1 saucepan for heating broth",
             "1 wooden spoon",
             "1 knife",
             "1 cutting board",
-            "1 bowl",
+            "1 ladle",
             "1 kitchen scale"
         ],
         ingredients: [
-            "200 g round rice",
+            "250 g round rice for paella",
             "1 red bell pepper (120 g), sliced",
             "1 green bell pepper (120 g), sliced",
             "1 medium zucchini (150 g), diced",
-            "100 g frozen peas",
-            "1 tomato (100 g), peeled and chopped",
-            "1 garlic clove",
-            "750 ml vegetable broth",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp sweet paprika (1 g)",
-            "1/4 tsp salt (0.5 g)",
-            "Pinch of saffron or turmeric (optional, for color)"
+            "100 g peas",
+            "1 ripe tomato (120 g), peeled and chopped",
+            "1 garlic clove, chopped",
+            "750 ml hot vegetable broth",
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon sweet paprika (2 g)",
+            "1 pinch saffron or 1/4 teaspoon turmeric",
+            "1/2 teaspoon salt (3 g)",
+            "Black pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat olive oil in pan.\n" +
-            "2. Add chopped garlic and sauté 1 minute.\n" +
-            "3. Add peppers, zucchini, and peas. Cook 5-7 minutes, stirring.\n" +
-            "4. Add chopped tomato and paprika, stir 2 minutes.\n" +
-            "5. Add rice and mix to coat grains.\n" +
-            "6. Pour hot broth, add salt and saffron.\n" +
-            "7. Cook over medium heat 15-20 minutes without stirring.\n" +
-            "8. Check rice is cooked and liquid absorbed.\n" +
-            "9. Remove from heat, let rest 5 minutes before serving."
+            "1. Heat the vegetable broth in a saucepan and keep warm.\n" +
+            "2. Heat olive oil in the paella pan over medium heat.\n" +
+            "3. Add chopped garlic and sauté for 1 minute.\n" +
+            "4. Add peppers and zucchini, cook for 5–7 minutes, stirring.\n" +
+            "5. Stir in chopped tomato and paprika, cook 2 minutes.\n" +
+            "6. Add the rice and mix well to coat the grains.\n" +
+            "7. Pour the hot broth evenly into the pan.\n" +
+            "8. Add saffron or turmeric, salt and pepper.\n" +
+            "9. Spread peas over the top without stirring.\n" +
+            "10. Cook for 18–20 minutes over medium heat without stirring.\n" +
+            "11. Check that the rice is tender and the liquid absorbed.\n" +
+            "12. Remove from heat and let rest 5 minutes before serving."
     },
     nl: {
-        title: "Vegetarische Paella (Spanje, voor 4 personen)",
+        title: "Vegetarische Paella (Spanje)",
         equipment: [
-            "1 grote paellapan of koekenpan",
+            "1 grote paellapan of brede koekenpan",
+            "1 steelpan voor bouillon",
             "1 houten lepel",
             "1 mes",
             "1 snijplank",
-            "1 kom",
+            "1 soeplepel",
             "1 keukenweegschaal"
         ],
         ingredients: [
-            "200 g ronde rijst",
+            "250 g ronde paellarijst",
             "1 rode paprika (120 g), in reepjes",
             "1 groene paprika (120 g), in reepjes",
             "1 middelgrote courgette (150 g), in blokjes",
-            "100 g diepvrieserwten",
-            "1 tomaat (100 g), gepeld en gehakt",
-            "1 teentje knoflook",
-            "750 ml groentebouillon",
+            "100 g erwten",
+            "1 rijpe tomaat (120 g), gepeld en gehakt",
+            "1 teentje knoflook, fijngehakt",
+            "750 ml hete groentebouillon",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zoete paprika (1 g)",
-            "1/4 tl zout (0,5 g)",
-            "Snufje saffraan of kurkuma (optioneel, voor kleur)"
+            "1/2 theelepel zoete paprika (2 g)",
+            "1 snufje saffraan of 1/4 theelepel kurkuma",
+            "1/2 theelepel zout (3 g)",
+            "Zwarte peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olijfolie in de pan.\n" +
-            "2. Voeg gehakte knoflook toe en bak 1 minuut.\n" +
-            "3. Voeg paprika, courgette en erwten toe. Bak 5-7 minuten onder voortdurend roeren.\n" +
-            "4. Voeg gehakte tomaat en paprika toe, roer 2 minuten.\n" +
-            "5. Voeg rijst toe en meng goed.\n" +
-            "6. Giet hete bouillon erbij, voeg zout en saffraan toe.\n" +
-            "7. Kook 15-20 minuten op middelhoog vuur zonder te roeren.\n" +
-            "8. Controleer of de rijst gaar is en het vocht opgenomen.\n" +
-            "9. Haal van het vuur en laat 5 minuten rusten voor het serveren."
+            "1. Verwarm de groentebouillon in een steelpan en houd warm.\n" +
+            "2. Verhit olijfolie in de paellapan op middelhoog vuur.\n" +
+            "3. Voeg knoflook toe en bak 1 minuut.\n" +
+            "4. Voeg paprika en courgette toe en bak 5–7 minuten.\n" +
+            "5. Voeg tomaat en paprikapoeder toe en bak 2 minuten.\n" +
+            "6. Voeg rijst toe en meng goed.\n" +
+            "7. Giet de hete bouillon gelijkmatig in de pan.\n" +
+            "8. Voeg saffraan of kurkuma, zout en peper toe.\n" +
+            "9. Verdeel de erwten bovenop zonder te roeren.\n" +
+            "10. Laat 18–20 minuten koken zonder te roeren.\n" +
+            "11. Controleer of de rijst gaar is en het vocht is opgenomen.\n" +
+            "12. Haal van het vuur en laat 5 minuten rusten."
     },
     ar: {
-        title: "باييلا نباتية (إسبانيا، تكفي 4 أشخاص)",
+        title: "باييلا نباتية (إسبانيا)",
         equipment: [
-            "1 مقلاة باييلا كبيرة أو مقلاة عميقة",
-            "1 ملعقة خشبية",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 وعاء",
-            "1 ميزان مطبخ"
+            "مقلاة باييلا كبيرة أو مقلاة واسعة",
+            "قدر صغير لتسخين المرق",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "مغرفة",
+            "ميزان مطبخ"
         ],
         ingredients: [
-            "200 غ أرز دائري",
+            "250 غ أرز دائري خاص بالباييلا",
             "1 فلفل أحمر (120 غ)، مقطع شرائح",
             "1 فلفل أخضر (120 غ)، مقطع شرائح",
             "1 كوسة متوسطة (150 غ)، مقطعة مكعبات",
-            "100 غ بازيلاء مجمدة",
-            "1 طماطم (100 غ)، مقشرة ومقطعة",
-            "1 فص ثوم",
-            "750 مل مرق خضار",
+            "100 غ بازلاء",
+            "1 طماطم ناضجة (120 غ)، مقشرة ومقطعة",
+            "1 فص ثوم مفروم",
+            "750 مل مرق خضار ساخن",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة بابريكا حلوة (1 غ)",
-            "1/4 ملعقة صغيرة ملح (0.5 غ)",
-            "رشة زعفران أو كركم (اختياري للون)"
+            "1/2 ملعقة صغيرة بابريكا حلوة (2 غ)",
+            "رشة زعفران أو 1/4 ملعقة صغيرة كركم",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "فلفل أسود حسب الذوق"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن زيت الزيتون في المقلاة.\n" +
-            "2. أضف الثوم المفروم وقلب دقيقة واحدة.\n" +
-            "3. أضف الفلفل والكوسة والبازيلاء. اطبخ 5-7 دقائق مع التحريك.\n" +
-            "4. أضف الطماطم المقطعة والبابريكا، قلب 2 دقيقة.\n" +
-            "5. أضف الأرز واخلط جيدًا.\n" +
-            "6. صب المرق الساخن وأضف الملح والزعفران.\n" +
-            "7. اطبخ 15-20 دقيقة على نار متوسطة دون تقليب.\n" +
-            "8. تحقق من نضج الأرز وامتصاص السوائل.\n" +
-            "9. ارفع عن النار واتركه 5 دقائق قبل التقديم."
+            "1. سخّن مرق الخضار في قدر صغير واتركه ساخناً.\n" +
+            "2. سخّن زيت الزيتون في مقلاة الباييلا على نار متوسطة.\n" +
+            "3. أضف الثوم وقلّبه لمدة دقيقة.\n" +
+            "4. أضف الفلفل والكوسة واطههما 5 إلى 7 دقائق.\n" +
+            "5. أضف الطماطم والبابريكا واطهه دقيقتين.\n" +
+            "6. أضف الأرز وامزجه جيداً.\n" +
+            "7. اسكب المرق الساخن بالتساوي في المقلاة.\n" +
+            "8. أضف الزعفران أو الكركم والملح والفلفل.\n" +
+            "9. وزّع البازلاء على السطح دون تحريك.\n" +
+            "10. اتركه يطهى 18 إلى 20 دقيقة دون تقليب.\n" +
+            "11. تأكد من نضج الأرز وامتصاص السائل.\n" +
+            "12. ارفعه من النار واتركه يرتاح 5 دقائق قبل التقديم."
     }
 };
 recipesData.plat.paella_poulet = {
     country: "europe",
-    countryName: "espagne",
+    countryName: "Espagne",
     image: "images/paella_poulet.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 25,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Paella au poulet (Espagne, 4 personnes)",
+        title: "Paella au poulet (Espagne)",
         equipment: [
-            "1 grande poêle",
+            "1 grande poêle à paella ou poêle large",
+            "1 casserole pour chauffer le bouillon",
             "1 couteau",
             "1 planche à découper",
-            "1 cuillère en bois"
+            "1 cuillère en bois",
+            "1 louche",
+            "1 balance de cuisine"
         ],
         ingredients: [
-            "300 g riz rond",
-            "400 g poulet en morceaux",
-            "1 oignon moyen",
-            "1 poivron rouge",
-            "2 tomates (200 g)",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1 cuillère à café paprika doux (2 g)",
-            "1/2 cuillère à café curcuma (1 g)",
-            "750 ml bouillon de volaille",
-            "1 cuillère à café sel (2 g)"
+            "300 g de riz rond spécial paella",
+            "400 g de poulet en morceaux",
+            "1 oignon moyen (120 g), émincé",
+            "1 poivron rouge (120 g), coupé en lanières",
+            "2 tomates mûres (200 g), pelées et concassées",
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "750 ml de bouillon de volaille chaud",
+            "1 cuillère à café de paprika doux (2 g)",
+            "1/2 cuillère à café de curcuma (1 g)",
+            "1/2 cuillère à café de sel (3 g)",
+            "Poivre au goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire dorer le poulet dans l’huile.\n" +
-            "2. Ajouter l’oignon et le poivron.\n" +
-            "3. Ajouter les tomates râpées et les épices.\n" +
-            "4. Incorporer le riz.\n" +
-            "5. Verser le bouillon chaud.\n" +
-            "6. Cuire 18 minutes sans remuer.\n" +
-            "7. Laisser reposer 5 minutes."
+            "1. Chauffer le bouillon dans une casserole et le maintenir chaud.\n" +
+            "2. Chauffer l’huile d’olive dans la poêle à feu moyen.\n" +
+            "3. Ajouter les morceaux de poulet et les faire dorer 5 à 7 minutes sur toutes les faces.\n" +
+            "4. Ajouter l’oignon émincé et cuire 2 minutes.\n" +
+            "5. Ajouter le poivron et poursuivre la cuisson 3 à 4 minutes.\n" +
+            "6. Incorporer les tomates concassées, le paprika et le curcuma.\n" +
+            "7. Mélanger et laisser mijoter 2 minutes.\n" +
+            "8. Ajouter le riz et bien mélanger pour enrober les grains.\n" +
+            "9. Verser le bouillon chaud uniformément dans la poêle.\n" +
+            "10. Ajouter le sel et le poivre.\n" +
+            "11. Cuire 18 à 20 minutes à feu moyen sans remuer.\n" +
+            "12. Vérifier que le riz est tendre et que le liquide est absorbé.\n" +
+            "13. Retirer du feu et laisser reposer 5 minutes avant de servir."
     },
     en: {
-        title: "Chicken Paella (Spain, Serves 4)",
+        title: "Chicken Paella (Spain)",
         equipment: [
-            "1 large pan",
+            "1 large paella pan or wide skillet",
+            "1 saucepan for heating stock",
             "1 knife",
             "1 cutting board",
-            "1 wooden spoon"
+            "1 wooden spoon",
+            "1 ladle",
+            "1 kitchen scale"
         ],
         ingredients: [
-            "300 g round rice",
+            "300 g round rice for paella",
             "400 g chicken pieces",
-            "1 medium onion",
-            "1 red bell pepper",
-            "2 tomatoes (200 g)",
-            "3 tbsp olive oil (45 ml)",
-            "1 tsp sweet paprika (2 g)",
-            "1/2 tsp turmeric (1 g)",
-            "750 ml chicken stock",
-            "1 tsp salt (2 g)"
+            "1 medium onion (120 g), sliced",
+            "1 red bell pepper (120 g), sliced",
+            "2 ripe tomatoes (200 g), peeled and chopped",
+            "3 tablespoons olive oil (45 ml)",
+            "750 ml hot chicken stock",
+            "1 teaspoon sweet paprika (2 g)",
+            "1/2 teaspoon turmeric (1 g)",
+            "1/2 teaspoon salt (3 g)",
+            "Black pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Brown chicken in oil.\n" +
-            "2. Add onion and pepper.\n" +
-            "3. Add tomatoes and spices.\n" +
-            "4. Stir in rice.\n" +
-            "5. Add hot stock.\n" +
-            "6. Cook 18 minutes without stirring.\n" +
-            "7. Rest 5 minutes."
+            "1. Heat the chicken stock in a saucepan and keep warm.\n" +
+            "2. Heat olive oil in the paella pan over medium heat.\n" +
+            "3. Brown the chicken pieces for 5–7 minutes on all sides.\n" +
+            "4. Add sliced onion and cook 2 minutes.\n" +
+            "5. Add red pepper and cook 3–4 minutes.\n" +
+            "6. Stir in chopped tomatoes, paprika and turmeric.\n" +
+            "7. Simmer for 2 minutes.\n" +
+            "8. Add the rice and mix well to coat.\n" +
+            "9. Pour the hot stock evenly into the pan.\n" +
+            "10. Add salt and pepper.\n" +
+            "11. Cook for 18–20 minutes over medium heat without stirring.\n" +
+            "12. Check that the rice is tender and liquid absorbed.\n" +
+            "13. Remove from heat and let rest 5 minutes before serving."
     },
     nl: {
-        title: "Paella met kip (Spanje, voor 4 personen)",
+        title: "Paella met kip (Spanje)",
         equipment: [
-            "1 grote pan",
+            "1 grote paellapan of brede koekenpan",
+            "1 steelpan voor bouillon",
             "1 mes",
             "1 snijplank",
-            "1 houten lepel"
+            "1 houten lepel",
+            "1 soeplepel",
+            "1 keukenweegschaal"
         ],
         ingredients: [
-            "300 g rondkorrelrijst",
+            "300 g ronde paellarijst",
             "400 g kipstukjes",
-            "1 middelgrote ui",
-            "1 rode paprika",
-            "2 tomaten (200 g)",
+            "1 middelgrote ui (120 g), in plakjes",
+            "1 rode paprika (120 g), in reepjes",
+            "2 rijpe tomaten (200 g), gepeld en gehakt",
             "3 eetlepels olijfolie (45 ml)",
-            "1 tl paprikapoeder (2 g)",
-            "1/2 tl kurkuma (1 g)",
-            "750 ml kippenbouillon",
-            "1 tl zout (2 g)"
+            "750 ml hete kippenbouillon",
+            "1 theelepel paprikapoeder (2 g)",
+            "1/2 theelepel kurkuma (1 g)",
+            "1/2 theelepel zout (3 g)",
+            "Zwarte peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bak de kip in olie.\n" +
-            "2. Voeg ui en paprika toe.\n" +
-            "3. Voeg tomaat en kruiden toe.\n" +
-            "4. Meng rijst erdoor.\n" +
-            "5. Giet bouillon erbij.\n" +
-            "6. Kook 18 minuten.\n" +
-            "7. Laat rusten."
+            "1. Verwarm de kippenbouillon in een steelpan en houd warm.\n" +
+            "2. Verhit olijfolie in de paellapan op middelhoog vuur.\n" +
+            "3. Bak de kip 5–7 minuten rondom goudbruin.\n" +
+            "4. Voeg ui toe en bak 2 minuten.\n" +
+            "5. Voeg paprika toe en bak 3–4 minuten.\n" +
+            "6. Voeg tomaten, paprikapoeder en kurkuma toe.\n" +
+            "7. Laat 2 minuten sudderen.\n" +
+            "8. Voeg rijst toe en meng goed.\n" +
+            "9. Giet de hete bouillon gelijkmatig in de pan.\n" +
+            "10. Voeg zout en peper toe.\n" +
+            "11. Kook 18–20 minuten zonder te roeren.\n" +
+            "12. Controleer of de rijst gaar is en het vocht is opgenomen.\n" +
+            "13. Haal van het vuur en laat 5 minuten rusten."
     },
     ar: {
-        title: "باييّا بالدجاج (إسبانيا، تكفي 4 أشخاص)",
+        title: "باييلا بالدجاج (إسبانيا)",
         equipment: [
-            "1 مقلاة كبيرة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية"
+            "مقلاة باييلا كبيرة أو مقلاة واسعة",
+            "قدر صغير لتسخين المرق",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مغرفة",
+            "ميزان مطبخ"
         ],
         ingredients: [
-            "300 غ أرز دائري",
+            "300 غ أرز دائري خاص بالباييلا",
             "400 غ دجاج مقطع",
-            "1 بصلة متوسطة",
-            "1 فلفل أحمر",
-            "2 طماطم (200 غ)",
+            "1 بصلة متوسطة (120 غ)، مقطعة شرائح",
+            "1 فلفل أحمر (120 غ)، مقطع شرائح",
+            "2 طماطم ناضجة (200 غ)، مقشرة ومقطعة",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "1 ملعقة صغيرة بابريكا (2 غ)",
+            "750 مل مرق دجاج ساخن",
+            "1 ملعقة صغيرة بابريكا حلوة (2 غ)",
             "1/2 ملعقة صغيرة كركم (1 غ)",
-            "750 مل مرق دجاج",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "فلفل أسود حسب الذوق"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حمّر الدجاج بالزيت.\n" +
-            "2. أضف البصل والفلفل.\n" +
-            "3. أضف الطماطم والتوابل.\n" +
-            "4. أضف الأرز.\n" +
-            "5. اسكب المرق.\n" +
-            "6. اطبخ 18 دقيقة.\n" +
-            "7. اتركه يرتاح."
+            "1. سخّن مرق الدجاج في قدر صغير واتركه ساخناً.\n" +
+            "2. سخّن زيت الزيتون في المقلاة على نار متوسطة.\n" +
+            "3. حمّر قطع الدجاج لمدة 5 إلى 7 دقائق حتى تكتسب لوناً ذهبياً.\n" +
+            "4. أضف البصل واطهه دقيقتين.\n" +
+            "5. أضف الفلفل الأحمر واطهه 3 إلى 4 دقائق.\n" +
+            "6. أضف الطماطم والبابريكا والكركم.\n" +
+            "7. اتركه يطهى دقيقتين.\n" +
+            "8. أضف الأرز وامزجه جيداً.\n" +
+            "9. اسكب المرق الساخن بالتساوي.\n" +
+            "10. أضف الملح والفلفل.\n" +
+            "11. اتركه يطهى 18 إلى 20 دقيقة دون تقليب.\n" +
+            "12. تأكد من نضج الأرز وامتصاص السائل.\n" +
+            "13. ارفعه من النار واتركه يرتاح 5 دقائق قبل التقديم."
     }
 };
-// Paella au poulet et légumes
 recipesData.plat.paella_poulet_legumes = {
     country: "europe",
     countryName: "Espagne",
     image: "images/paella_poulet_legumes.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 30,
+        cookTime: 25,
+        difficulty: "medium"
+    },
     fr: {
-        title: "Paella espagnole au poulet et légumes (Espagne 4 personnes)",
+        title: "Paella au poulet et légumes (Espagne)",
         equipment: [
-            "1 grande poêle ou poêle à paella",
+            "1 grande poêle à paella ou poêle large",
+            "1 casserole pour chauffer le bouillon",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois",
-            "1 verre doseur"
+            "1 louche",
+            "1 balance de cuisine"
         ],
         ingredients: [
-            "300 g riz rond",
-            "400 g poulet en morceaux",
-            "1 oignon moyen (100 g)",
-            "1 poivron rouge (120 g)",
-            "2 tomates (200 g)",
-            "100 g petits pois",
-            "2 gousses d’ail",
-            "750 ml bouillon de légumes",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1 cuillère à café paprika doux (2 g)",
-            "1/2 cuillère à café curcuma (1 g)",
-            "1 cuillère à café sel (2 g)",
-            "1/4 cuillère à café poivre (0,5 g)"
+            "300 g de riz rond spécial paella",
+            "400 g de poulet en morceaux",
+            "1 oignon moyen (100 g), émincé",
+            "2 gousses d’ail hachées",
+            "1 poivron rouge (120 g), coupé en lanières",
+            "2 tomates mûres (200 g), pelées et concassées",
+            "100 g de petits pois",
+            "750 ml de bouillon de légumes chaud",
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1 cuillère à café de paprika doux (2 g)",
+            "1/2 cuillère à café de curcuma (1 g)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper le poulet en morceaux.\n" +
-            "2. Émincer l’oignon et l’ail.\n" +
-            "3. Couper le poivron en lanières.\n" +
-            "4. Chauffer l’huile d’olive dans la poêle.\n" +
-            "5. Faire dorer le poulet 5 minutes.\n" +
-            "6. Ajouter oignon, ail et poivron.\n" +
-            "7. Incorporer les tomates coupées.\n" +
-            "8. Ajouter le riz, paprika et curcuma.\n" +
-            "9. Verser le bouillon chaud.\n" +
-            "10. Saler, poivrer et mélanger une fois.\n" +
-            "11. Laisser cuire à feu moyen 18 minutes sans remuer.\n" +
-            "12. Ajouter les petits pois en fin de cuisson.\n" +
-            "13. Laisser reposer 5 minutes avant de servir."
+            "1. Chauffer le bouillon de légumes dans une casserole et le maintenir chaud.\n" +
+            "2. Chauffer l’huile d’olive dans la poêle à feu moyen.\n" +
+            "3. Ajouter les morceaux de poulet et les faire dorer 5 à 7 minutes sur toutes les faces.\n" +
+            "4. Ajouter l’oignon et l’ail, cuire 2 minutes en remuant.\n" +
+            "5. Incorporer le poivron et cuire encore 3 à 4 minutes.\n" +
+            "6. Ajouter les tomates concassées, le paprika et le curcuma.\n" +
+            "7. Mélanger et laisser mijoter 2 minutes.\n" +
+            "8. Ajouter le riz et bien mélanger pour enrober les grains.\n" +
+            "9. Verser le bouillon chaud uniformément dans la poêle.\n" +
+            "10. Saler et poivrer.\n" +
+            "11. Cuire 18 à 20 minutes à feu moyen sans remuer.\n" +
+            "12. Ajouter les petits pois 5 minutes avant la fin de la cuisson sans mélanger.\n" +
+            "13. Vérifier que le riz est tendre et le liquide absorbé.\n" +
+            "14. Retirer du feu et laisser reposer 5 minutes avant de servir."
     },
     en: {
-        title: "Spanish Chicken and Vegetable Paella (Spain 4 persons)",
+        title: "Chicken and Vegetable Paella (Spain)",
         equipment: [
-            "1 large pan or paella pan",
+            "1 large paella pan or wide skillet",
+            "1 saucepan for heating broth",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
-            "1 measuring cup"
+            "1 ladle",
+            "1 kitchen scale"
         ],
         ingredients: [
-            "300 g round rice",
+            "300 g round rice for paella",
             "400 g chicken pieces",
-            "1 medium onion (100 g)",
-            "1 red bell pepper (120 g)",
-            "2 tomatoes (200 g)",
+            "1 medium onion (100 g), sliced",
+            "2 garlic cloves, chopped",
+            "1 red bell pepper (120 g), sliced",
+            "2 ripe tomatoes (200 g), peeled and chopped",
             "100 g peas",
-            "2 garlic cloves",
-            "750 ml vegetable broth",
-            "3 tbsp olive oil (45 ml)",
-            "1 tsp sweet paprika (2 g)",
-            "1/2 tsp turmeric (1 g)",
-            "1 tsp salt (2 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "750 ml hot vegetable broth",
+            "3 tablespoons olive oil (45 ml)",
+            "1 teaspoon sweet paprika (2 g)",
+            "1/2 teaspoon turmeric (1 g)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon pepper (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut chicken into pieces.\n" +
-            "2. Slice onion and garlic.\n" +
-            "3. Cut pepper into strips.\n" +
-            "4. Heat olive oil in the pan.\n" +
-            "5. Brown chicken for 5 minutes.\n" +
-            "6. Add onion, garlic and pepper.\n" +
-            "7. Add chopped tomatoes.\n" +
-            "8. Stir in rice, paprika and turmeric.\n" +
-            "9. Pour in hot vegetable broth.\n" +
+            "1. Heat the vegetable broth in a saucepan and keep warm.\n" +
+            "2. Heat olive oil in the paella pan over medium heat.\n" +
+            "3. Brown the chicken pieces for 5–7 minutes on all sides.\n" +
+            "4. Add onion and garlic, cook for 2 minutes.\n" +
+            "5. Stir in red pepper and cook 3–4 minutes.\n" +
+            "6. Add chopped tomatoes, paprika and turmeric.\n" +
+            "7. Simmer for 2 minutes.\n" +
+            "8. Add rice and mix well to coat.\n" +
+            "9. Pour the hot broth evenly into the pan.\n" +
             "10. Season with salt and pepper.\n" +
-            "11. Cook on medium heat 18 minutes without stirring.\n" +
-            "12. Add peas at the end of cooking.\n" +
-            "13. Let rest 5 minutes before serving."
+            "11. Cook 18–20 minutes over medium heat without stirring.\n" +
+            "12. Add peas during the last 5 minutes of cooking without stirring.\n" +
+            "13. Check rice is tender and liquid absorbed.\n" +
+            "14. Remove from heat and let rest 5 minutes before serving."
     },
     nl: {
-        title: "Spaanse paella met kip en groenten (Spanje 4 personen)",
+        title: "Paella met kip en groenten (Spanje)",
         equipment: [
-            "1 grote pan of paellapan",
+            "1 grote paellapan of brede koekenpan",
+            "1 steelpan voor bouillon",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
-            "1 maatbeker"
+            "1 soeplepel",
+            "1 keukenweegschaal"
         ],
         ingredients: [
-            "300 g ronde rijst",
-            "400 g kipstukken",
-            "1 middelgrote ui (100 g)",
-            "1 rode paprika (120 g)",
-            "2 tomaten (200 g)",
+            "300 g ronde paellarijst",
+            "400 g kipstukjes",
+            "1 middelgrote ui (100 g), in plakjes",
+            "2 teentjes knoflook, fijngehakt",
+            "1 rode paprika (120 g), in reepjes",
+            "2 rijpe tomaten (200 g), gepeld en gehakt",
             "100 g doperwten",
-            "2 teentjes knoflook",
-            "750 ml groentebouillon",
-            "3 el olijfolie (45 ml)",
-            "1 tl zoete paprika (2 g)",
-            "1/2 tl kurkuma (1 g)",
-            "1 tl zout (2 g)",
-            "1/4 tl peper (0,5 g)"
+            "750 ml hete groentebouillon",
+            "3 eetlepels olijfolie (45 ml)",
+            "1 theelepel paprikapoeder (2 g)",
+            "1/2 theelepel kurkuma (1 g)",
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel peper (1 g)"
         ],
         preparation:
-            "Recept voor 4 personen.\n" +
-            "1. Snijd de kip in stukken.\n" +
-            "2. Snijd ui en knoflook.\n" +
-            "3. Snijd paprika in reepjes.\n" +
-            "4. Verhit olijfolie in de pan.\n" +
-            "5. Bak de kip 5 minuten bruin.\n" +
-            "6. Voeg ui, knoflook en paprika toe.\n" +
-            "7. Voeg de tomaten toe.\n" +
-            "8. Roer de rijst, paprika en kurkuma erdoor.\n" +
-            "9. Giet de hete groentebouillon erbij.\n" +
+            "1. Verwarm de groentebouillon in een steelpan en houd warm.\n" +
+            "2. Verhit olijfolie in de paellapan op middelhoog vuur.\n" +
+            "3. Bak de kip 5–7 minuten rondom goudbruin.\n" +
+            "4. Voeg ui en knoflook toe en bak 2 minuten.\n" +
+            "5. Voeg paprika toe en bak 3–4 minuten.\n" +
+            "6. Voeg tomaten, paprikapoeder en kurkuma toe.\n" +
+            "7. Laat 2 minuten sudderen.\n" +
+            "8. Voeg rijst toe en meng goed.\n" +
+            "9. Giet de hete bouillon gelijkmatig in de pan.\n" +
             "10. Breng op smaak met zout en peper.\n" +
-            "11. Laat 18 minuten op middelhoog vuur koken zonder te roeren.\n" +
-            "12. Voeg op het einde de doperwten toe.\n" +
-            "13. Laat 5 minuten rusten voor het serveren."
+            "11. Kook 18–20 minuten zonder te roeren.\n" +
+            "12. Voeg de doperwten toe tijdens de laatste 5 minuten zonder te roeren.\n" +
+            "13. Controleer of de rijst gaar is en het vocht is opgenomen.\n" +
+            "14. Haal van het vuur en laat 5 minuten rusten."
     },
     ar: {
-        title: "باييلا الدجاج والخضار الإسبانية (إسبانيا 4 أشخاص)",
+        title: "باييلا بالدجاج والخضار (إسبانيا)",
         equipment: [
-            "مقلاة كبيرة أو مقلاة باييلا",
+            "مقلاة باييلا كبيرة أو مقلاة واسعة",
+            "قدر صغير لتسخين المرق",
             "سكين",
             "لوح تقطيع",
             "ملعقة خشبية",
-            "كوب قياس"
+            "مغرفة",
+            "ميزان مطبخ"
         ],
         ingredients: [
-            "300 جم أرز مدور",
-            "400 جم قطع دجاج",
-            "1 بصلة متوسطة (100 جم)",
-            "1 فلفل أحمر (120 جم)",
-            "2 طماطم (200 جم)",
-            "100 جم بازيلاء",
-            "2 فص ثوم",
-            "750 مل مرق خضار",
+            "300 غ أرز دائري خاص بالباييلا",
+            "400 غ دجاج مقطع",
+            "1 بصلة متوسطة (100 غ)، مقطعة شرائح",
+            "2 فص ثوم مفروم",
+            "1 فلفل أحمر (120 غ)، مقطع شرائح",
+            "2 طماطم ناضجة (200 غ)، مقشرة ومقطعة",
+            "100 غ بازلاء",
+            "750 مل مرق خضار ساخن",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "1 ملعقة صغيرة بابريكا حلوة (2 جم)",
-            "1/2 ملعقة صغيرة كركم (1 جم)",
-            "1 ملعقة صغيرة ملح (2 جم)",
-            "1/4 ملعقة صغيرة فلفل (0.5 جم)"
+            "1 ملعقة صغيرة بابريكا حلوة (2 غ)",
+            "1/2 ملعقة صغيرة كركم (1 غ)",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل (1 غ)"
         ],
         preparation:
-            "وصفة لأربعة أشخاص.\n" +
-            "1. قطع الدجاج إلى قطع.\n" +
-            "2. فرم البصل والثوم.\n" +
-            "3. قطع الفلفل إلى شرائح.\n" +
-            "4. سخن زيت الزيتون في المقلاة.\n" +
-            "5. حمّر الدجاج 5 دقائق.\n" +
-            "6. أضف البصل والثوم والفلفل.\n" +
-            "7. أضف الطماطم المقطعة.\n" +
-            "8. أضف الأرز، البابريكا والكركم.\n" +
-            "9. صب المرق الساخن.\n" +
-            "10. تبّل بالملح والفلفل.\n" +
-            "11. اتركه يطهى 18 دقيقة على نار متوسطة دون تقليب.\n" +
-            "12. أضف البازيلاء في نهاية الطهي.\n" +
-            "13. اتركه 5 دقائق قبل التقديم."
-}
+            "1. سخّن مرق الخضار في قدر صغير واتركه ساخناً.\n" +
+            "2. سخّن زيت الزيتون في المقلاة على نار متوسطة.\n" +
+            "3. حمّر قطع الدجاج لمدة 5 إلى 7 دقائق حتى تكتسب لوناً ذهبياً.\n" +
+            "4. أضف البصل والثوم واطههما دقيقتين.\n" +
+            "5. أضف الفلفل الأحمر واطهه 3 إلى 4 دقائق.\n" +
+            "6. أضف الطماطم والبابريكا والكركم.\n" +
+            "7. اتركه يطهى دقيقتين.\n" +
+            "8. أضف الأرز وامزجه جيداً.\n" +
+            "9. اسكب المرق الساخن بالتساوي.\n" +
+            "10. أضف الملح والفلفل.\n" +
+            "11. اتركه يطهى 18 إلى 20 دقيقة دون تقليب.\n" +
+            "12. أضف البازلاء خلال آخر 5 دقائق من الطهي دون تحريك.\n" +
+            "13. تأكد من نضج الأرز وامتصاص السائل.\n" +
+            "14. ارفعه من النار واتركه يرتاح 5 دقائق قبل التقديم."
+    }
 };
-// Poulet à l’ail espagnol
+recipesData.plat.paella_fruits_de_mer = {
+    country: "europe",
+    countryName: "Espagne",
+    image: "images/paella_fruits_de_mer.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 30,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+    fr: {
+        title: "Paella aux fruits de mer (Espagne)",
+        equipment: [
+            "1 grande poêle à paella ou poêle large",
+            "1 casserole pour chauffer le bouillon",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 louche",
+            "1 balance de cuisine"
+        ],
+        ingredients: [
+            "300 g de riz rond spécial paella",
+            "200 g de crevettes décortiquées",
+            "200 g de moules nettoyées",
+            "150 g d’anneaux de calamars",
+            "1 poivron rouge (120 g), coupé en lanières",
+            "2 tomates mûres (200 g), pelées et concassées",
+            "2 gousses d’ail hachées",
+            "750 ml de bouillon de poisson chaud",
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1 cuillère à café de paprika doux (2 g)",
+            "1 pincée de safran ou 1/4 cuillère à café de curcuma",
+            "1/2 cuillère à café de sel (3 g)",
+            "Poivre au goût"
+        ],
+        preparation:
+            "1. Chauffer le bouillon de poisson dans une casserole et le maintenir chaud.\n" +
+            "2. Chauffer l’huile d’olive dans la poêle à feu moyen.\n" +
+            "3. Ajouter l’ail haché et cuire 1 minute.\n" +
+            "4. Ajouter les calamars et cuire 2 minutes.\n" +
+            "5. Incorporer le poivron et cuire 3 minutes.\n" +
+            "6. Ajouter les tomates concassées et le paprika, cuire 2 minutes.\n" +
+            "7. Ajouter le riz et mélanger pour bien enrober les grains.\n" +
+            "8. Verser le bouillon chaud uniformément dans la poêle.\n" +
+            "9. Ajouter le safran, le sel et le poivre.\n" +
+            "10. Disposer les moules et les crevettes sur le dessus.\n" +
+            "11. Cuire 18 à 20 minutes à feu moyen sans remuer.\n" +
+            "12. Vérifier que le riz est tendre et le liquide absorbé.\n" +
+            "13. Retirer du feu et laisser reposer 5 minutes avant de servir."
+    },
+    en: {
+        title: "Seafood Paella (Spain)",
+        equipment: [
+            "1 large paella pan or wide skillet",
+            "1 saucepan for heating broth",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 ladle",
+            "1 kitchen scale"
+        ],
+        ingredients: [
+            "300 g round rice for paella",
+            "200 g peeled shrimp",
+            "200 g cleaned mussels",
+            "150 g squid rings",
+            "1 red bell pepper (120 g), sliced",
+            "2 ripe tomatoes (200 g), peeled and chopped",
+            "2 garlic cloves, chopped",
+            "750 ml hot fish broth",
+            "3 tablespoons olive oil (45 ml)",
+            "1 teaspoon sweet paprika (2 g)",
+            "1 pinch saffron or 1/4 teaspoon turmeric",
+            "1/2 teaspoon salt (3 g)",
+            "Black pepper to taste"
+        ],
+        preparation:
+            "1. Heat the fish broth in a saucepan and keep warm.\n" +
+            "2. Heat olive oil in the paella pan over medium heat.\n" +
+            "3. Add chopped garlic and cook for 1 minute.\n" +
+            "4. Add squid rings and cook 2 minutes.\n" +
+            "5. Add red pepper and cook 3 minutes.\n" +
+            "6. Stir in chopped tomatoes and paprika, cook 2 minutes.\n" +
+            "7. Add rice and mix to coat evenly.\n" +
+            "8. Pour the hot broth evenly into the pan.\n" +
+            "9. Add saffron, salt and pepper.\n" +
+            "10. Arrange mussels and shrimp on top.\n" +
+            "11. Cook 18–20 minutes over medium heat without stirring.\n" +
+            "12. Check rice is tender and liquid absorbed.\n" +
+            "13. Remove from heat and let rest 5 minutes before serving."
+    },
+    nl: {
+        title: "Paella met zeevruchten (Spanje)",
+        equipment: [
+            "1 grote paellapan of brede koekenpan",
+            "1 steelpan voor bouillon",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 soeplepel",
+            "1 keukenweegschaal"
+        ],
+        ingredients: [
+            "300 g ronde paellarijst",
+            "200 g gepelde garnalen",
+            "200 g schoongemaakte mosselen",
+            "150 g inktvisringen",
+            "1 rode paprika (120 g), in reepjes",
+            "2 rijpe tomaten (200 g), gepeld en gehakt",
+            "2 teentjes knoflook, fijngehakt",
+            "750 ml hete visbouillon",
+            "3 eetlepels olijfolie (45 ml)",
+            "1 theelepel paprikapoeder (2 g)",
+            "1 snufje saffraan of 1/4 theelepel kurkuma",
+            "1/2 theelepel zout (3 g)",
+            "Zwarte peper naar smaak"
+        ],
+        preparation:
+            "1. Verwarm de visbouillon in een steelpan en houd warm.\n" +
+            "2. Verhit olijfolie in de paellapan op middelhoog vuur.\n" +
+            "3. Voeg knoflook toe en bak 1 minuut.\n" +
+            "4. Voeg inktvisringen toe en bak 2 minuten.\n" +
+            "5. Voeg paprika toe en bak 3 minuten.\n" +
+            "6. Voeg tomaten en paprikapoeder toe en bak 2 minuten.\n" +
+            "7. Voeg rijst toe en meng goed.\n" +
+            "8. Giet de hete bouillon gelijkmatig in de pan.\n" +
+            "9. Voeg saffraan, zout en peper toe.\n" +
+            "10. Leg mosselen en garnalen bovenop.\n" +
+            "11. Kook 18–20 minuten zonder te roeren.\n" +
+            "12. Controleer of de rijst gaar is en het vocht is opgenomen.\n" +
+            "13. Haal van het vuur en laat 5 minuten rusten."
+    },
+    ar: {
+        title: "باييلا بالمأكولات البحرية (إسبانيا)",
+        equipment: [
+            "مقلاة باييلا كبيرة أو مقلاة واسعة",
+            "قدر صغير لتسخين المرق",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مغرفة",
+            "ميزان مطبخ"
+        ],
+        ingredients: [
+            "300 غ أرز دائري خاص بالباييلا",
+            "200 غ روبيان مقشر",
+            "200 غ بلح البحر منظف",
+            "150 غ حلقات حبار",
+            "1 فلفل أحمر (120 غ)، مقطع شرائح",
+            "2 طماطم ناضجة (200 غ)، مقشرة ومقطعة",
+            "2 فص ثوم مفروم",
+            "750 مل مرق سمك ساخن",
+            "3 ملاعق كبيرة زيت زيتون (45 مل)",
+            "1 ملعقة صغيرة بابريكا حلوة (2 غ)",
+            "رشة زعفران أو 1/4 ملعقة صغيرة كركم",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "فلفل أسود حسب الذوق"
+        ],
+        preparation:
+            "1. سخّن مرق السمك في قدر صغير واتركه ساخناً.\n" +
+            "2. سخّن زيت الزيتون في مقلاة الباييلا على نار متوسطة.\n" +
+            "3. أضف الثوم واطهه دقيقة واحدة.\n" +
+            "4. أضف حلقات الحبار واطهه دقيقتين.\n" +
+            "5. أضف الفلفل الأحمر واطهه 3 دقائق.\n" +
+            "6. أضف الطماطم والبابريكا واطهه دقيقتين.\n" +
+            "7. أضف الأرز وامزجه جيداً.\n" +
+            "8. اسكب المرق الساخن بالتساوي.\n" +
+            "9. أضف الزعفران والملح والفلفل.\n" +
+            "10. وزّع بلح البحر والروبيان فوق الأرز.\n" +
+            "11. اتركه يطهى 18 إلى 20 دقيقة دون تقليب.\n" +
+            "12. تأكد من نضج الأرز وامتصاص السائل.\n" +
+            "13. ارفعه من النار واتركه يرتاح 5 دقائق قبل التقديم."
+    }
+};
+recipesData.plat.paella_poulet_chorizo = {
+    country: "europe",
+    countryName: "Espagne",
+    image: "images/paella_poulet_chorizo.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+    fr: {
+        title: "Paella au poulet et saucisse épicée (Espagne)",
+        equipment: [
+            "1 grande poêle à paella ou poêle large",
+            "1 casserole pour chauffer le bouillon",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 louche",
+            "1 balance de cuisine"
+        ],
+        ingredients: [
+            "300 g de riz rond spécial paella",
+            "400 g de poulet en morceaux",
+            "150 g de saucisse épicée de bœuf ou de volaille en rondelles",
+            "1 oignon moyen (120 g), émincé",
+            "1 poivron rouge (120 g), coupé en lanières",
+            "2 tomates mûres (200 g), pelées et concassées",
+            "2 gousses d’ail hachées",
+            "750 ml de bouillon de volaille chaud",
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1 cuillère à café de paprika doux (2 g)",
+            "1/2 cuillère à café de curcuma (1 g)",
+            "1/2 cuillère à café de sel (3 g)",
+            "Poivre au goût"
+        ],
+        preparation:
+            "1. Chauffer le bouillon dans une casserole et le maintenir chaud.\n" +
+            "2. Chauffer l’huile d’olive dans la poêle à feu moyen.\n" +
+            "3. Ajouter les rondelles de saucisse et les faire dorer 2 à 3 minutes, puis réserver.\n" +
+            "4. Dans la même poêle, faire dorer le poulet 5 à 7 minutes.\n" +
+            "5. Ajouter l’oignon et l’ail, cuire 2 minutes.\n" +
+            "6. Incorporer le poivron et cuire 3 minutes.\n" +
+            "7. Ajouter les tomates, le paprika et le curcuma.\n" +
+            "8. Mélanger et laisser mijoter 2 minutes.\n" +
+            "9. Ajouter le riz et bien mélanger.\n" +
+            "10. Verser le bouillon chaud uniformément.\n" +
+            "11. Remettre les rondelles de saucisse sur le dessus.\n" +
+            "12. Saler, poivrer et cuire 18 à 20 minutes sans remuer.\n" +
+            "13. Vérifier la cuisson du riz.\n" +
+            "14. Retirer du feu et laisser reposer 5 minutes avant de servir."
+    },
+    en: {
+        title: "Chicken and Spiced Sausage Paella (Spain)",
+        equipment: [
+            "1 large paella pan or wide skillet",
+            "1 saucepan for heating stock",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 ladle",
+            "1 kitchen scale"
+        ],
+        ingredients: [
+            "300 g round rice for paella",
+            "400 g chicken pieces",
+            "150 g spiced beef or poultry sausage, sliced",
+            "1 medium onion (120 g), sliced",
+            "1 red bell pepper (120 g), sliced",
+            "2 ripe tomatoes (200 g), peeled and chopped",
+            "2 garlic cloves, chopped",
+            "750 ml hot chicken stock",
+            "3 tablespoons olive oil (45 ml)",
+            "1 teaspoon sweet paprika (2 g)",
+            "1/2 teaspoon turmeric (1 g)",
+            "1/2 teaspoon salt (3 g)",
+            "Black pepper to taste"
+        ],
+        preparation:
+            "1. Heat the stock in a saucepan and keep warm.\n" +
+            "2. Heat olive oil in the paella pan over medium heat.\n" +
+            "3. Brown the sliced sausage for 2–3 minutes, then set aside.\n" +
+            "4. In the same pan, brown the chicken for 5–7 minutes.\n" +
+            "5. Add onion and garlic, cook 2 minutes.\n" +
+            "6. Add red pepper and cook 3 minutes.\n" +
+            "7. Stir in tomatoes, paprika and turmeric.\n" +
+            "8. Simmer 2 minutes.\n" +
+            "9. Add rice and mix well.\n" +
+            "10. Pour in the hot stock evenly.\n" +
+            "11. Return sausage slices on top.\n" +
+            "12. Season and cook 18–20 minutes without stirring.\n" +
+            "13. Check rice is tender.\n" +
+            "14. Remove from heat and let rest 5 minutes."
+    },
+    nl: {
+        title: "Paella met kip en pittige worst (Spanje)",
+        equipment: [
+            "1 grote paellapan of brede koekenpan",
+            "1 steelpan voor bouillon",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 soeplepel",
+            "1 keukenweegschaal"
+        ],
+        ingredients: [
+            "300 g ronde paellarijst",
+            "400 g kipstukjes",
+            "150 g pittige rund- of gevogelteworst, in plakjes",
+            "1 middelgrote ui (120 g), in plakjes",
+            "1 rode paprika (120 g), in reepjes",
+            "2 rijpe tomaten (200 g), gepeld en gehakt",
+            "2 teentjes knoflook, fijngehakt",
+            "750 ml hete kippenbouillon",
+            "3 eetlepels olijfolie (45 ml)",
+            "1 theelepel paprikapoeder (2 g)",
+            "1/2 theelepel kurkuma (1 g)",
+            "1/2 theelepel zout (3 g)",
+            "Zwarte peper naar smaak"
+        ],
+        preparation:
+            "1. Verwarm de bouillon in een steelpan en houd warm.\n" +
+            "2. Verhit olijfolie in de paellapan.\n" +
+            "3. Bak de worst 2–3 minuten en zet apart.\n" +
+            "4. Bak de kip 5–7 minuten goudbruin.\n" +
+            "5. Voeg ui en knoflook toe en bak 2 minuten.\n" +
+            "6. Voeg paprika toe en bak 3 minuten.\n" +
+            "7. Voeg tomaten, paprikapoeder en kurkuma toe.\n" +
+            "8. Laat 2 minuten sudderen.\n" +
+            "9. Voeg rijst toe en meng goed.\n" +
+            "10. Giet de hete bouillon gelijkmatig in de pan.\n" +
+            "11. Leg de worstplakjes bovenop.\n" +
+            "12. Kook 18–20 minuten zonder te roeren.\n" +
+            "13. Controleer of de rijst gaar is.\n" +
+            "14. Haal van het vuur en laat 5 minuten rusten."
+    },
+    ar: {
+        title: "باييلا بالدجاج والنقانق المتبلة (إسبانيا)",
+        equipment: [
+            "مقلاة باييلا كبيرة أو مقلاة واسعة",
+            "قدر صغير لتسخين المرق",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مغرفة",
+            "ميزان مطبخ"
+        ],
+        ingredients: [
+            "300 غ أرز دائري خاص بالباييلا",
+            "400 غ دجاج مقطع",
+            "150 غ نقانق متبلة من لحم البقر أو الدواجن، مقطعة شرائح",
+            "1 بصلة متوسطة (120 غ)، مقطعة شرائح",
+            "1 فلفل أحمر (120 غ)، مقطع شرائح",
+            "2 طماطم ناضجة (200 غ)، مقشرة ومقطعة",
+            "2 فص ثوم مفروم",
+            "750 مل مرق دجاج ساخن",
+            "3 ملاعق كبيرة زيت زيتون (45 مل)",
+            "1 ملعقة صغيرة بابريكا حلوة (2 غ)",
+            "1/2 ملعقة صغيرة كركم (1 غ)",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "فلفل أسود حسب الذوق"
+        ],
+        preparation:
+            "1. سخّن المرق في قدر صغير واتركه ساخناً.\n" +
+            "2. سخّن زيت الزيتون في المقلاة على نار متوسطة.\n" +
+            "3. حمّر شرائح النقانق لمدة 2 إلى 3 دقائق ثم ارفعها جانباً.\n" +
+            "4. حمّر الدجاج لمدة 5 إلى 7 دقائق.\n" +
+            "5. أضف البصل والثوم واطههما دقيقتين.\n" +
+            "6. أضف الفلفل الأحمر واطهه 3 دقائق.\n" +
+            "7. أضف الطماطم والبابريكا والكركم.\n" +
+            "8. اتركه يطهى دقيقتين.\n" +
+            "9. أضف الأرز وامزجه جيداً.\n" +
+            "10. اسكب المرق الساخن بالتساوي.\n" +
+            "11. أعد شرائح النقانق فوق الأرز.\n" +
+            "12. أضف الملح والفلفل واتركه يطهى 18 إلى 20 دقيقة دون تقليب.\n" +
+            "13. تأكد من نضج الأرز.\n" +
+            "14. ارفعه من النار واتركه يرتاح 5 دقائق قبل التقديم."
+    }
+};
 recipesData.plat.pollo_al_ajillo = {
     country: "europe",
     countryName: "Espagne",
     image: "images/pollo_al_ajillo.jpg",
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
     fr: {
-        title: "Poulet à l’ail espagnol (Espagne 4 personnes)",
+        title: "Poulet à l’ail espagnol (Espagne)",
         equipment: [
             "1 grande poêle",
             "1 couteau",
             "1 planche à découper",
-            "1 cuillère en bois"
+            "1 cuillère en bois",
+            "1 couvercle"
         ],
         ingredients: [
-            "600 g poulet en morceaux",
+            "600 g de poulet en morceaux",
             "6 gousses d’ail",
-            "4 cuillères à soupe huile d’olive (60 ml)",
-            "1 cuillère à café paprika doux (2 g)",
-            "1 cuillère à café sel (2 g)",
-            "1/4 cuillère à café poivre (0,5 g)"
+            "4 cuillères à soupe d’huile d’olive (60 ml)",
+            "1 cuillère à café de paprika doux (2 g)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre (1 g)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1 cuillère à soupe de persil frais haché"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Éplucher et écraser légèrement l’ail.\n" +
-            "2. Chauffer l’huile d’olive dans la poêle.\n" +
-            "3. Faire revenir l’ail doucement.\n" +
-            "4. Ajouter le poulet.\n" +
-            "5. Faire dorer sur toutes les faces.\n" +
-            "6. Ajouter paprika, sel et poivre.\n" +
-            "7. Cuire à feu moyen 20 minutes.\n" +
-            "8. Servir bien chaud."
+            "1. Éplucher les gousses d’ail et les écraser légèrement avec le plat du couteau.\n" +
+            "2. Chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "3. Ajouter l’ail et le faire revenir doucement 2 minutes sans le brûler.\n" +
+            "4. Ajouter les morceaux de poulet.\n" +
+            "5. Faire dorer 8 à 10 minutes en les retournant régulièrement.\n" +
+            "6. Ajouter le paprika, le sel et le poivre.\n" +
+            "7. Couvrir et laisser cuire à feu moyen-doux 15 à 20 minutes jusqu’à ce que le poulet soit bien cuit.\n" +
+            "8. Ajouter le jus de citron en fin de cuisson.\n" +
+            "9. Parsemer de persil haché.\n" +
+            "10. Servir bien chaud."
     },
     en: {
-        title: "Spanish Garlic Chicken (Spain 4 persons)",
+        title: "Spanish Garlic Chicken (Spain)",
         equipment: [
-            "1 large pan",
+            "1 large frying pan",
             "1 knife",
             "1 cutting board",
-            "1 wooden spoon"
+            "1 wooden spoon",
+            "1 lid"
         ],
         ingredients: [
             "600 g chicken pieces",
             "6 garlic cloves",
-            "4 tbsp olive oil (60 ml)",
-            "1 tsp sweet paprika (2 g)",
-            "1 tsp salt (2 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "4 tablespoons olive oil (60 ml)",
+            "1 teaspoon sweet paprika (2 g)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon pepper (1 g)",
+            "1 tablespoon lemon juice (15 ml)",
+            "1 tablespoon fresh chopped parsley"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Peel and lightly crush garlic.\n" +
-            "2. Heat olive oil in pan.\n" +
-            "3. Gently fry garlic.\n" +
-            "4. Add chicken.\n" +
-            "5. Brown on all sides.\n" +
+            "1. Peel the garlic cloves and lightly crush them with the side of a knife.\n" +
+            "2. Heat olive oil in a large pan over medium heat.\n" +
+            "3. Add garlic and gently cook for 2 minutes without burning.\n" +
+            "4. Add the chicken pieces.\n" +
+            "5. Brown for 8–10 minutes, turning regularly.\n" +
             "6. Add paprika, salt and pepper.\n" +
-            "7. Cook 20 minutes on medium heat.\n" +
-            "8. Serve hot."
+            "7. Cover and cook on medium-low heat for 15–20 minutes until fully cooked.\n" +
+            "8. Add lemon juice at the end of cooking.\n" +
+            "9. Sprinkle with chopped parsley.\n" +
+            "10. Serve hot."
     },
     nl: {
-        title: "Spaanse knoflookkip (Spanje 4 personen)",
+        title: "Spaanse knoflookkip (Spanje)",
         equipment: [
             "1 grote pan",
             "1 mes",
             "1 snijplank",
-            "1 houten lepel"
+            "1 houten lepel",
+            "1 deksel"
         ],
         ingredients: [
             "600 g kip in stukken",
             "6 teentjes knoflook",
             "4 eetlepels olijfolie (60 ml)",
-            "1 tl zoete paprika (2 g)",
-            "1 tl zout (2 g)",
-            "1/4 tl peper (0,5 g)"
+            "1 theelepel zoete paprika (2 g)",
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel peper (1 g)",
+            "1 eetlepel citroensap (15 ml)",
+            "1 eetlepel verse peterselie, fijngehakt"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Pel en kneus de knoflook.\n" +
-            "2. Verhit olijfolie.\n" +
-            "3. Bak knoflook zachtjes.\n" +
-            "4. Voeg kip toe.\n" +
-            "5. Bak goudbruin.\n" +
-            "6. Voeg kruiden toe.\n" +
-            "7. Bak 20 minuten.\n" +
-            "8. Serveer warm."
+            "1. Pel de knoflook en kneus licht met de zijkant van een mes.\n" +
+            "2. Verhit olijfolie in een grote pan op middelhoog vuur.\n" +
+            "3. Voeg knoflook toe en bak 2 minuten zonder te verbranden.\n" +
+            "4. Voeg de kip toe.\n" +
+            "5. Bak 8–10 minuten goudbruin en draai regelmatig om.\n" +
+            "6. Voeg paprikapoeder, zout en peper toe.\n" +
+            "7. Dek af en laat 15–20 minuten zachtjes garen tot de kip gaar is.\n" +
+            "8. Voeg aan het einde citroensap toe.\n" +
+            "9. Bestrooi met peterselie.\n" +
+            "10. Serveer warm."
     },
     ar: {
-        title: "دجاج بالثوم على الطريقة الإسبانية (إسبانيا 4 أشخاص)",
+        title: "دجاج بالثوم على الطريقة الإسبانية (إسبانيا)",
         equipment: [
             "مقلاة كبيرة",
             "سكين",
             "لوح تقطيع",
-            "ملعقة خشبية"
+            "ملعقة خشبية",
+            "غطاء"
         ],
         ingredients: [
             "600 غ دجاج مقطع",
             "6 فصوص ثوم",
             "4 ملاعق كبيرة زيت زيتون (60 مل)",
             "1 ملعقة صغيرة بابريكا حلوة (2 غ)",
-            "1 ملعقة صغيرة ملح (2 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل (1 غ)",
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "1 ملعقة كبيرة بقدونس طازج مفروم"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قشر واسحق الثوم قليلاً.\n" +
-            "2. سخن زيت الزيتون.\n" +
-            "3. اقلي الثوم برفق.\n" +
-            "4. أضف الدجاج.\n" +
-            "5. حمّر من جميع الجهات.\n" +
-            "6. أضف التوابل.\n" +
-            "7. اطبخ 20 دقيقة.\n" +
-            "8. قدم ساخناً."
+            "1. قشّر فصوص الثوم واسحقها قليلاً باستخدام جانب السكين.\n" +
+            "2. سخّن زيت الزيتون في مقلاة كبيرة على نار متوسطة.\n" +
+            "3. أضف الثوم واطهه لمدة دقيقتين دون أن يحترق.\n" +
+            "4. أضف قطع الدجاج.\n" +
+            "5. حمّرها لمدة 8 إلى 10 دقائق مع التقليب باستمرار.\n" +
+            "6. أضف البابريكا والملح والفلفل.\n" +
+            "7. غطِّ المقلاة واترك الدجاج يطهى على نار متوسطة إلى هادئة لمدة 15 إلى 20 دقيقة حتى ينضج تماماً.\n" +
+            "8. أضف عصير الليمون في نهاية الطهي.\n" +
+            "9. رشّ البقدونس المفروم.\n" +
+            "10. يُقدّم ساخناً."
     }
 };
-
-// Patatas bravas
 recipesData.plat.patatas_bravas = {
     country: "europe",
     countryName: "Espagne",
-    image: "images/patatas_bravas.jpg",
+    image: "images/patatas-bravas.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Patatas bravas (Espagne 4 personnes)",
+        title: "Patatas bravas (Espagne)",
         equipment: [
+            "1 grande casserole",
             "1 grande poêle",
-            "1 casserole",
             "1 couteau",
-            "1 planche à découper"
+            "1 planche à découper",
+            "1 écumoire",
+            "1 passoire",
+            "1 cuillère en bois",
+            "1 bol",
+            "1 cuillère à soupe",
+            "1 cuillère à café"
         ],
         ingredients: [
-            "800 g pommes de terre",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1 cuillère à café paprika doux (2 g)",
-            "1/2 cuillère à café paprika fumé (1 g)",
-            "1 cuillère à café sel (2 g)",
-            "200 ml coulis de tomate"
+            "800 g de pommes de terre",
+            "1 litre d’eau",
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "200 ml de coulis de tomate",
+            "1 gousse d’ail",
+            "1 cuillère à café de paprika doux (2 g)",
+            "1/2 cuillère à café de paprika fumé (1 g)",
+            "1 pincée de piment fort",
+            "1 cuillère à café de sel (5 g)",
+            "1 pincée de poivre noir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Éplucher et couper les pommes de terre.\n" +
-            "2. Les cuire dans l’eau 10 minutes.\n" +
-            "3. Égoutter.\n" +
-            "4. Faire dorer dans l’huile d’olive.\n" +
-            "5. Chauffer le coulis de tomate.\n" +
-            "6. Ajouter paprika et sel.\n" +
-            "7. Servir les pommes de terre nappées de sauce."
+            "==============================\n" +
+            "PRÉPARATION DES POMMES DE TERRE\n" +
+            "==============================\n\n" +
+            "1. Éplucher les pommes de terre et les couper en cubes réguliers.\n" +
+            "2. Porter 1 litre d’eau à ébullition dans une grande casserole.\n" +
+            "3. Ajouter les cubes de pommes de terre et cuire 10 minutes à feu moyen.\n" +
+            "4. Égoutter soigneusement à l’aide d’une passoire.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE ET CUISSON\n" +
+            "==============================\n\n" +
+            "5. Éplucher et hacher finement l’ail.\n" +
+            "6. Chauffer 2 cuillères à soupe d’huile d’olive dans une poêle.\n" +
+            "7. Ajouter les pommes de terre et les faire dorer 10 à 15 minutes en remuant régulièrement jusqu’à ce qu’elles soient croustillantes.\n" +
+            "8. Dans une petite casserole, chauffer le coulis de tomate.\n" +
+            "9. Ajouter l’ail haché, le paprika doux, le paprika fumé et le piment.\n" +
+            "10. Saler, poivrer et laisser mijoter 5 minutes à feu doux.\n" +
+            "11. Servir les pommes de terre bien chaudes nappées de sauce."
     },
+
     en: {
-        title: "Patatas Bravas (Spain 4 persons)",
+        title: "Patatas Bravas (Spain)",
         equipment: [
-            "1 large pan",
-            "1 saucepan",
+            "1 large saucepan",
+            "1 large frying pan",
             "1 knife",
-            "1 cutting board"
+            "1 cutting board",
+            "1 slotted spoon",
+            "1 strainer",
+            "1 wooden spoon",
+            "1 bowl",
+            "1 tablespoon",
+            "1 teaspoon"
         ],
         ingredients: [
             "800 g potatoes",
-            "3 tbsp olive oil (45 ml)",
-            "1 tsp sweet paprika (2 g)",
-            "1/2 tsp smoked paprika (1 g)",
-            "1 tsp salt (2 g)",
-            "200 ml tomato sauce"
+            "1 liter water",
+            "3 tablespoons olive oil (45 ml)",
+            "200 ml tomato sauce",
+            "1 garlic clove",
+            "1 teaspoon sweet paprika (2 g)",
+            "1/2 teaspoon smoked paprika (1 g)",
+            "1 pinch hot chili powder",
+            "1 teaspoon salt (5 g)",
+            "1 pinch black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Peel and cut potatoes.\n" +
-            "2. Boil 10 minutes.\n" +
-            "3. Drain.\n" +
-            "4. Fry in olive oil.\n" +
-            "5. Heat tomato sauce.\n" +
-            "6. Add spices and salt.\n" +
-            "7. Serve potatoes with sauce."
+            "==============================\n" +
+            "POTATO PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Peel the potatoes and cut them into even cubes.\n" +
+            "2. Bring 1 liter of water to a boil in a large saucepan.\n" +
+            "3. Add the potatoes and cook for 10 minutes over medium heat.\n" +
+            "4. Drain thoroughly using a strainer.\n\n" +
+            "==============================\n" +
+            "SAUCE PREPARATION AND COOKING\n" +
+            "==============================\n\n" +
+            "5. Peel and finely chop the garlic.\n" +
+            "6. Heat 2 tablespoons of olive oil in a frying pan.\n" +
+            "7. Fry the potatoes for 10–15 minutes, stirring regularly, until golden and crispy.\n" +
+            "8. In a small saucepan, heat the tomato sauce.\n" +
+            "9. Add the chopped garlic, sweet paprika, smoked paprika and chili powder.\n" +
+            "10. Season with salt and pepper and simmer for 5 minutes over low heat.\n" +
+            "11. Serve the hot potatoes topped with the sauce."
     },
+
     nl: {
-        title: "Patatas bravas (Spanje 4 personen)",
+        title: "Patatas bravas (Spanje)",
         equipment: [
-            "1 grote pan",
-            "1 kookpot",
+            "1 grote kookpot",
+            "1 grote koekenpan",
             "1 mes",
-            "1 snijplank"
+            "1 snijplank",
+            "1 schuimspaan",
+            "1 vergiet",
+            "1 houten lepel",
+            "1 kom",
+            "1 eetlepel",
+            "1 theelepel"
         ],
         ingredients: [
             "800 g aardappelen",
+            "1 liter water",
             "3 eetlepels olijfolie (45 ml)",
-            "1 tl zoete paprika (2 g)",
-            "1/2 tl gerookte paprika (1 g)",
-            "1 tl zout (2 g)",
-            "200 ml tomatensaus"
+            "200 ml tomatensaus",
+            "1 teentje knoflook",
+            "1 theelepel zoete paprika (2 g)",
+            "1/2 theelepel gerookte paprika (1 g)",
+            "1 snufje chilipoeder",
+            "1 theelepel zout (5 g)",
+            "1 snufje zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Schil en snijd aardappelen.\n" +
-            "2. Kook 10 minuten.\n" +
-            "3. Laat uitlekken.\n" +
-            "4. Bak goudbruin.\n" +
-            "5. Verwarm tomatensaus.\n" +
-            "6. Voeg kruiden toe.\n" +
-            "7. Serveer samen."
+            "==============================\n" +
+            "BEREIDING VAN DE AARDAPPELEN\n" +
+            "==============================\n\n" +
+            "1. Schil de aardappelen en snijd ze in gelijke blokjes.\n" +
+            "2. Breng 1 liter water aan de kook in een grote kookpot.\n" +
+            "3. Voeg de aardappelen toe en kook 10 minuten op middelhoog vuur.\n" +
+            "4. Laat goed uitlekken in een vergiet.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE SAUS EN BAKKEN\n" +
+            "==============================\n\n" +
+            "5. Pel en hak de knoflook fijn.\n" +
+            "6. Verhit 2 eetlepels olijfolie in een koekenpan.\n" +
+            "7. Bak de aardappelen 10–15 minuten tot ze goudbruin en krokant zijn.\n" +
+            "8. Verwarm de tomatensaus in een kleine kookpot.\n" +
+            "9. Voeg knoflook, paprikapoeder en chilipoeder toe.\n" +
+            "10. Breng op smaak met zout en peper en laat 5 minuten zachtjes sudderen.\n" +
+            "11. Serveer de hete aardappelen met de saus erover."
     },
+
     ar: {
-        title: "بطاطس برافاس (إسبانيا 4 أشخاص)",
+        title: "بطاطس برافاس (إسبانيا)",
         equipment: [
+            "قدر كبير",
             "مقلاة كبيرة",
-            "قدر",
             "سكين",
-            "لوح تقطيع"
+            "لوح تقطيع",
+            "ملعقة مثقبة",
+            "مصفاة",
+            "ملعقة خشبية",
+            "وعاء",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة"
         ],
         ingredients: [
             "800 غ بطاطس",
+            "1 لتر ماء",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "1 ملعقة صغيرة بابريكا حلوة (2 غ)",
-            "1/2 ملعقة صغيرة بابريكا مدخنة (1 غ)",
-            "1 ملعقة صغيرة ملح (2 غ)",
-            "200 مل صلصة طماطم"
+            "200 مل صلصة طماطم",
+            "فص ثوم",
+            "ملعقة صغيرة بابريكا حلوة (2 غ)",
+            "نصف ملعقة صغيرة بابريكا مدخنة (1 غ)",
+            "رشة فلفل حار",
+            "ملعقة صغيرة ملح (5 غ)",
+            "رشة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قشر وقطع البطاطس.\n" +
-            "2. اسلق 10 دقائق.\n" +
-            "3. صفِّها.\n" +
-            "4. اقليها حتى ذهبية.\n" +
-            "5. سخن صلصة الطماطم.\n" +
-            "6. أضف التوابل.\n" +
-            "7. قدم مع الصلصة."
+            "==============================\n" +
+            "تحضير البطاطس\n" +
+            "==============================\n\n" +
+            "1. قشّر البطاطس وقطّعها إلى مكعبات متساوية.\n" +
+            "2. اغْلِ 1 لتر ماء في قدر كبير.\n" +
+            "3. أضف البطاطس واتركها تُسلق لمدة 10 دقائق.\n" +
+            "4. صفِّها جيداً باستخدام مصفاة.\n\n" +
+            "==============================\n" +
+            "تحضير الصلصة والطهي\n" +
+            "==============================\n\n" +
+            "5. قشّر الثوم وافرمه ناعماً.\n" +
+            "6. سخّن ملعقتين كبيرتين من زيت الزيتون في مقلاة.\n" +
+            "7. اقْلِ البطاطس لمدة 10 إلى 15 دقيقة حتى تصبح ذهبية ومقرمشة.\n" +
+            "8. سخّن صلصة الطماطم في قدر صغير.\n" +
+            "9. أضف الثوم والبابريكا والفلفل الحار.\n" +
+            "10. أضف الملح والفلفل الأسود واتركها تغلي برفق لمدة 5 دقائق.\n" +
+            "11. قدّم البطاطس ساخنة مع الصلصة فوقها."
     }
 };
-
-// Aubergines farcies espagnoles
 recipesData.plat.berenjenas_rellenas = {
     country: "europe",
     countryName: "Espagne",
-    image: "images/berenjenas_rellenas.jpg",
+    image: "images/berenjenas-rellenas.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 40,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Aubergines farcies espagnoles (Espagne 4 personnes)",
-        equipment: ["1 four", "1 couteau", "1 cuillère", "1 poêle", "1 plat allant au four"],
+        title: "Aubergines farcies (Espagne)",
+        equipment: [
+            "1 four",
+            "1 grand couteau",
+            "1 petite cuillère",
+            "1 planche à découper",
+            "1 grande poêle",
+            "1 cuillère en bois",
+            "1 plat allant au four",
+            "1 bol",
+            "1 pinceau de cuisine"
+        ],
         ingredients: [
             "2 grosses aubergines",
-            "300 g poulet haché",
+            "300 g de poulet haché",
             "1 oignon (100 g)",
             "2 tomates (200 g)",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à café sel (2 g)",
-            "1/4 cuillère à café poivre (0,5 g)"
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 gousse d’ail",
+            "1 cuillère à café de paprika doux (2 g)",
+            "1 cuillère à café de sel (5 g)",
+            "1/4 cuillère à café de poivre noir (0,5 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les aubergines en deux.\n" +
-            "2. Creuser la chair.\n" +
-            "3. Faire revenir oignon et poulet.\n" +
-            "4. Ajouter tomates et chair d’aubergine.\n" +
-            "5. Saler et poivrer.\n" +
-            "6. Farcir les aubergines.\n" +
-            "7. Cuire au four 180°C pendant 30 minutes."
+            "==============================\n" +
+            "PRÉPARATION DES AUBERGINES\n" +
+            "==============================\n\n" +
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Laver les aubergines puis les couper en deux dans le sens de la longueur.\n" +
+            "3. À l’aide d’une cuillère, retirer délicatement la chair sans percer la peau.\n" +
+            "4. Couper la chair en petits morceaux.\n" +
+            "5. Badigeonner légèrement les coques d’aubergines avec un peu d’huile d’olive.\n" +
+            "6. Les disposer dans un plat allant au four.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DE LA FARCE ET CUISSON\n" +
+            "==============================\n\n" +
+            "7. Éplucher et hacher finement l’oignon et l’ail.\n" +
+            "8. Chauffer le reste d’huile d’olive dans une grande poêle.\n" +
+            "9. Faire revenir l’oignon et l’ail pendant 3 minutes.\n" +
+            "10. Ajouter le poulet haché et cuire 5 à 7 minutes en émiettant.\n" +
+            "11. Incorporer les tomates coupées en petits dés et la chair d’aubergine.\n" +
+            "12. Ajouter le paprika, le sel et le poivre.\n" +
+            "13. Laisser mijoter 10 minutes à feu moyen en remuant.\n" +
+            "14. Garnir les demi-aubergines avec la farce.\n" +
+            "15. Enfourner pendant 30 minutes jusqu’à ce que les aubergines soient tendres.\n" +
+            "16. Servir chaud."
     },
+
     en: {
-        title: "Spanish Stuffed Eggplants (Spain 4 persons)",
-        equipment: ["1 oven", "1 knife", "1 spoon", "1 pan", "1 baking dish"],
+        title: "Stuffed Eggplants (Spain)",
+        equipment: [
+            "1 oven",
+            "1 large knife",
+            "1 spoon",
+            "1 cutting board",
+            "1 large frying pan",
+            "1 wooden spoon",
+            "1 baking dish",
+            "1 bowl",
+            "1 kitchen brush"
+        ],
         ingredients: [
             "2 large eggplants",
             "300 g ground chicken",
             "1 onion (100 g)",
             "2 tomatoes (200 g)",
-            "2 tbsp olive oil (30 ml)",
-            "1 tsp salt (2 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "2 tablespoons olive oil (30 ml)",
+            "1 garlic clove",
+            "1 teaspoon sweet paprika (2 g)",
+            "1 teaspoon salt (5 g)",
+            "1/4 teaspoon black pepper (0.5 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut eggplants in half.\n" +
-            "2. Scoop out flesh.\n" +
-            "3. Fry onion and chicken.\n" +
-            "4. Add tomatoes and eggplant flesh.\n" +
-            "5. Season.\n" +
-            "6. Stuff eggplants.\n" +
-            "7. Bake at 180°C for 30 minutes."
+            "==============================\n" +
+            "EGGPLANT PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Wash the eggplants and cut them in half lengthwise.\n" +
+            "3. Scoop out the flesh carefully without breaking the skin.\n" +
+            "4. Chop the flesh into small pieces.\n" +
+            "5. Lightly brush the eggplant shells with olive oil.\n" +
+            "6. Place them in a baking dish.\n\n" +
+            "==============================\n" +
+            "FILLING PREPARATION AND COOKING\n" +
+            "==============================\n\n" +
+            "7. Peel and finely chop the onion and garlic.\n" +
+            "8. Heat the remaining olive oil in a large pan.\n" +
+            "9. Sauté the onion and garlic for 3 minutes.\n" +
+            "10. Add the ground chicken and cook for 5–7 minutes, breaking it apart.\n" +
+            "11. Stir in the diced tomatoes and chopped eggplant flesh.\n" +
+            "12. Add paprika, salt and pepper.\n" +
+            "13. Simmer for 10 minutes over medium heat, stirring occasionally.\n" +
+            "14. Fill the eggplant halves with the mixture.\n" +
+            "15. Bake for 30 minutes until tender.\n" +
+            "16. Serve hot."
     },
+
     nl: {
-        title: "Gevulde aubergines (Spanje 4 personen)",
-        equipment: ["1 oven", "1 mes", "1 lepel", "1 pan", "1 ovenschaal"],
+        title: "Gevulde aubergines (Spanje)",
+        equipment: [
+            "1 oven",
+            "1 groot mes",
+            "1 lepel",
+            "1 snijplank",
+            "1 grote koekenpan",
+            "1 houten lepel",
+            "1 ovenschaal",
+            "1 kom",
+            "1 keukenkwast"
+        ],
         ingredients: [
             "2 grote aubergines",
             "300 g kipgehakt",
             "1 ui (100 g)",
             "2 tomaten (200 g)",
             "2 eetlepels olijfolie (30 ml)",
-            "1 tl zout (2 g)",
-            "1/4 tl peper (0,5 g)"
+            "1 teentje knoflook",
+            "1 theelepel paprikapoeder (2 g)",
+            "1 theelepel zout (5 g)",
+            "1/4 theelepel zwarte peper (0,5 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd aubergines doormidden.\n" +
-            "2. Hol ze uit.\n" +
-            "3. Bak ui en kip.\n" +
-            "4. Voeg tomaten en aubergine toe.\n" +
-            "5. Kruid.\n" +
-            "6. Vul aubergines.\n" +
-            "7. Bak 30 minuten op 180°C."
+            "==============================\n" +
+            "BEREIDING VAN DE AUBERGINES\n" +
+            "==============================\n\n" +
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Was de aubergines en snijd ze in de lengte doormidden.\n" +
+            "3. Hol ze voorzichtig uit zonder de schil te beschadigen.\n" +
+            "4. Snijd het vruchtvlees in kleine stukjes.\n" +
+            "5. Bestrijk de auberginehelften licht met olijfolie.\n" +
+            "6. Leg ze in een ovenschaal.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE VULLING EN BAKKEN\n" +
+            "==============================\n\n" +
+            "7. Pel en hak de ui en knoflook fijn.\n" +
+            "8. Verhit de resterende olijfolie in een grote koekenpan.\n" +
+            "9. Bak de ui en knoflook 3 minuten.\n" +
+            "10. Voeg het kipgehakt toe en bak 5–7 minuten.\n" +
+            "11. Voeg de tomatenblokjes en auberginestukjes toe.\n" +
+            "12. Breng op smaak met paprikapoeder, zout en peper.\n" +
+            "13. Laat 10 minuten zachtjes sudderen.\n" +
+            "14. Vul de aubergines met het mengsel.\n" +
+            "15. Bak 30 minuten in de oven tot ze zacht zijn.\n" +
+            "16. Serveer warm."
     },
+
     ar: {
-        title: "باذنجان محشي إسباني (إسبانيا 4 أشخاص)",
-        equipment: ["فرن", "سكين", "ملعقة", "مقلاة", "طبق فرن"],
+        title: "باذنجان محشي (إسبانيا)",
+        equipment: [
+            "فرن",
+            "سكين كبير",
+            "ملعقة",
+            "لوح تقطيع",
+            "مقلاة كبيرة",
+            "ملعقة خشبية",
+            "طبق فرن",
+            "وعاء",
+            "فرشاة مطبخ"
+        ],
         ingredients: [
-            "2 باذنجان كبير",
+            "2 حبة باذنجان كبيرة",
             "300 غ دجاج مفروم",
             "1 بصلة (100 غ)",
-            "2 طماطم (200 غ)",
+            "2 حبة طماطم (200 غ)",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1 ملعقة صغيرة ملح (2 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)"
+            "فص ثوم",
+            "ملعقة صغيرة بابريكا (2 غ)",
+            "ملعقة صغيرة ملح (5 غ)",
+            "ربع ملعقة صغيرة فلفل أسود (0.5 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الباذنجان نصفين.\n" +
-            "2. أفرغ اللب.\n" +
-            "3. اقلي البصل والدجاج.\n" +
-            "4. أضف الطماطم ولب الباذنجان.\n" +
-            "5. تبّل.\n" +
-            "6. احشُ الباذنجان.\n" +
-            "7. اخبز 30 دقيقة على 180°."
+            "==============================\n" +
+            "تحضير الباذنجان\n" +
+            "==============================\n\n" +
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. اغسل الباذنجان وقطّعه نصفين بالطول.\n" +
+            "3. أفرغ اللب بحذر دون إتلاف القشرة.\n" +
+            "4. قطّع اللب إلى قطع صغيرة.\n" +
+            "5. ادهن أنصاف الباذنجان بقليل من زيت الزيتون.\n" +
+            "6. ضعها في طبق الفرن.\n\n" +
+            "==============================\n" +
+            "تحضير الحشوة والطهي\n" +
+            "==============================\n\n" +
+            "7. قشّر البصل والثوم وافرمهما ناعماً.\n" +
+            "8. سخّن باقي زيت الزيتون في مقلاة كبيرة.\n" +
+            "9. قلّب البصل والثوم لمدة 3 دقائق.\n" +
+            "10. أضف الدجاج المفروم واطهه لمدة 5 إلى 7 دقائق.\n" +
+            "11. أضف مكعبات الطماطم ولب الباذنجان.\n" +
+            "12. أضف البابريكا والملح والفلفل.\n" +
+            "13. اترك الخليط يطهى 10 دقائق مع التحريك.\n" +
+            "14. احشُ أنصاف الباذنجان بالخليط.\n" +
+            "15. اخبز لمدة 30 دقيقة حتى يصبح الباذنجان طرياً.\n" +
+            "16. قدّم الطبق ساخناً."
     }
 };
-
-// Arroz à la Cubana
 recipesData.plat.arroz_cubana = {
     country: "europe",
     countryName: "Espagne",
-    image: "images/arroz_cubana.jpg",
+    image: "images/arroz-cubana.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Arroz à la cubana (Espagne 4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 couteau"],
+        title: "Arroz à la cubaine (Espagne)",
+        equipment: [
+            "1 grande casserole",
+            "1 poêle",
+            "1 petite casserole",
+            "1 cuillère en bois",
+            "1 spatule",
+            "1 passoire",
+            "1 verre doseur",
+            "1 cuillère à soupe",
+            "1 cuillère à café"
+        ],
         ingredients: [
-            "300 g riz",
+            "300 g de riz blanc",
+            "600 ml d’eau",
             "4 œufs",
-            "400 g tomates concassées",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à café sel (2 g)"
+            "400 g de tomates concassées",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 gousse d’ail",
+            "1 cuillère à café de sel (5 g)",
+            "1 pincée de poivre noir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Cuire le riz dans l’eau salée.\n" +
-            "2. Chauffer les tomates avec l’huile.\n" +
-            "3. Cuire les œufs au plat.\n" +
-            "4. Servir riz, sauce tomate et œuf."
+            "==============================\n" +
+            "CUISSON DU RIZ\n" +
+            "==============================\n\n" +
+            "1. Porter 600 ml d’eau à ébullition dans une grande casserole.\n" +
+            "2. Ajouter le riz et 1/2 cuillère à café de sel.\n" +
+            "3. Couvrir et laisser cuire à feu doux pendant 15 minutes.\n" +
+            "4. Égoutter si nécessaire et réserver au chaud.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE ET DES ŒUFS\n" +
+            "==============================\n\n" +
+            "5. Éplucher et hacher finement l’ail.\n" +
+            "6. Chauffer 1 cuillère à soupe d’huile d’olive dans une petite casserole.\n" +
+            "7. Ajouter l’ail puis les tomates concassées.\n" +
+            "8. Saler, poivrer et laisser mijoter 8 à 10 minutes.\n" +
+            "9. Dans une poêle, chauffer le reste d’huile.\n" +
+            "10. Casser les œufs et les cuire au plat jusqu’à ce que le blanc soit bien pris.\n" +
+            "11. Dresser le riz dans les assiettes, napper de sauce tomate et déposer un œuf au-dessus.\n" +
+            "12. Servir immédiatement."
     },
+
     en: {
-        title: "Arroz a la Cubana (Spain 4 persons)",
-        equipment: ["1 pot", "1 pan", "1 knife"],
+        title: "Arroz à la Cubana (Spain)",
+        equipment: [
+            "1 large pot",
+            "1 frying pan",
+            "1 small saucepan",
+            "1 wooden spoon",
+            "1 spatula",
+            "1 strainer",
+            "1 measuring cup",
+            "1 tablespoon",
+            "1 teaspoon"
+        ],
         ingredients: [
-            "300 g rice",
+            "300 g white rice",
+            "600 ml water",
             "4 eggs",
             "400 g crushed tomatoes",
-            "2 tbsp olive oil (30 ml)",
-            "1 tsp salt (2 g)"
+            "2 tablespoons olive oil (30 ml)",
+            "1 garlic clove",
+            "1 teaspoon salt (5 g)",
+            "1 pinch black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cook rice in salted water.\n" +
-            "2. Heat tomatoes with olive oil.\n" +
-            "3. Fry eggs.\n" +
-            "4. Serve together."
+            "==============================\n" +
+            "RICE COOKING\n" +
+            "==============================\n\n" +
+            "1. Bring 600 ml of water to a boil in a large pot.\n" +
+            "2. Add the rice and 1/2 teaspoon of salt.\n" +
+            "3. Cover and cook over low heat for 15 minutes.\n" +
+            "4. Drain if necessary and keep warm.\n\n" +
+            "==============================\n" +
+            "SAUCE AND EGGS PREPARATION\n" +
+            "==============================\n\n" +
+            "5. Peel and finely chop the garlic.\n" +
+            "6. Heat 1 tablespoon of olive oil in a small saucepan.\n" +
+            "7. Add the garlic and crushed tomatoes.\n" +
+            "8. Season with salt and pepper and simmer for 8–10 minutes.\n" +
+            "9. Heat the remaining oil in a frying pan.\n" +
+            "10. Fry the eggs until the whites are fully set.\n" +
+            "11. Serve the rice topped with tomato sauce and a fried egg.\n" +
+            "12. Serve immediately."
     },
+
     nl: {
-        title: "Arroz à la Cubana (Spanje 4 personen)",
-        equipment: ["1 kookpot", "1 pan", "1 mes"],
+        title: "Arroz à la Cubana (Spanje)",
+        equipment: [
+            "1 grote kookpot",
+            "1 koekenpan",
+            "1 kleine kookpot",
+            "1 houten lepel",
+            "1 spatel",
+            "1 vergiet",
+            "1 maatbeker",
+            "1 eetlepel",
+            "1 theelepel"
+        ],
         ingredients: [
-            "300 g rijst",
+            "300 g witte rijst",
+            "600 ml water",
             "4 eieren",
             "400 g tomatenblokjes",
             "2 eetlepels olijfolie (30 ml)",
-            "1 tl zout (2 g)"
+            "1 teentje knoflook",
+            "1 theelepel zout (5 g)",
+            "1 snufje zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Kook rijst.\n" +
-            "2. Verwarm tomaten met olie.\n" +
-            "3. Bak eieren.\n" +
-            "4. Serveer samen."
+            "==============================\n" +
+            "RIJST BEREIDEN\n" +
+            "==============================\n\n" +
+            "1. Breng 600 ml water aan de kook in een grote kookpot.\n" +
+            "2. Voeg de rijst en 1/2 theelepel zout toe.\n" +
+            "3. Laat 15 minuten zachtjes koken met deksel.\n" +
+            "4. Giet af indien nodig en houd warm.\n\n" +
+            "==============================\n" +
+            "SAUS EN EIEREN BEREIDEN\n" +
+            "==============================\n\n" +
+            "5. Pel en hak de knoflook fijn.\n" +
+            "6. Verhit 1 eetlepel olijfolie in een kleine kookpot.\n" +
+            "7. Voeg knoflook en tomaten toe.\n" +
+            "8. Breng op smaak met zout en peper en laat 8–10 minuten sudderen.\n" +
+            "9. Verhit de resterende olie in een koekenpan.\n" +
+            "10. Bak de eieren tot het eiwit volledig gestold is.\n" +
+            "11. Serveer de rijst met tomatensaus en een gebakken ei erbovenop.\n" +
+            "12. Serveer direct."
     },
+
     ar: {
-        title: "أرز على الطريقة الكوبية (إسبانيا 4 أشخاص)",
-        equipment: ["قدر", "مقلاة", "سكين"],
+        title: "أرز على الطريقة الكوبية (إسبانيا)",
+        equipment: [
+            "قدر كبير",
+            "مقلاة",
+            "قدر صغير",
+            "ملعقة خشبية",
+            "ملعقة مسطحة",
+            "مصفاة",
+            "كوب قياس",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة"
+        ],
         ingredients: [
-            "300 غ أرز",
+            "300 غ أرز أبيض",
+            "600 مل ماء",
             "4 بيض",
             "400 غ طماطم مطحونة",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "فص ثوم",
+            "ملعقة صغيرة ملح (5 غ)",
+            "رشة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اطبخ الأرز.\n" +
-            "2. سخن الطماطم مع الزيت.\n" +
-            "3. اقلي البيض.\n" +
-            "4. قدم المكونات معاً."
+            "==============================\n" +
+            "طهي الأرز\n" +
+            "==============================\n\n" +
+            "1. اغْلِ 600 مل من الماء في قدر كبير.\n" +
+            "2. أضف الأرز ونصف ملعقة صغيرة من الملح.\n" +
+            "3. غطِّ القدر واتركه يطهى على نار هادئة لمدة 15 دقيقة.\n" +
+            "4. صفِّ الأرز إذا لزم الأمر واحتفظ به ساخناً.\n\n" +
+            "==============================\n" +
+            "تحضير الصلصة والبيض\n" +
+            "==============================\n\n" +
+            "5. قشّر الثوم وافرمه ناعماً.\n" +
+            "6. سخّن ملعقة كبيرة من زيت الزيتون في قدر صغير.\n" +
+            "7. أضف الثوم ثم الطماطم المطحونة.\n" +
+            "8. أضف الملح والفلفل واتركها تغلي برفق 8 إلى 10 دقائق.\n" +
+            "9. سخّن باقي الزيت في مقلاة.\n" +
+            "10. اقْلِ البيض حتى ينضج بياضه جيداً.\n" +
+            "11. قدّم الأرز مع صلصة الطماطم وضع بيضة فوق كل طبق.\n" +
+            "12. قدّم الطبق فوراً."
     }
 };
 
-// Riz espagnol aux légumes
 recipesData.plat.arroz_legumes_espagne = {
     country: "europe",
     countryName: "Espagne",
-    image: "images/arroz_legumes_espagne.jpg",
+    image: "images/arroz-legumes-espagne.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Riz espagnol aux légumes (Espagne 4 personnes)",
-        equipment: ["1 grande poêle", "1 couteau"],
+        title: "Riz espagnol aux légumes (Espagne)",
+        equipment: [
+            "1 grande poêle profonde",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 verre doseur",
+            "1 couvercle"
+        ],
         ingredients: [
-            "300 g riz",
+            "300 g de riz",
             "1 courgette",
             "1 poivron",
             "1 oignon",
-            "750 ml bouillon de légumes",
-            "3 cuillères à soupe huile d’olive (45 ml)",
-            "1 cuillère à café paprika (2 g)",
-            "1 cuillère à café sel (2 g)"
+            "750 ml de bouillon de légumes",
+            "3 cuillères à soupe d’huile d’olive (45 ml)",
+            "1 gousse d’ail",
+            "1 cuillère à café de paprika (2 g)",
+            "1 cuillère à café de sel (5 g)",
+            "1 pincée de poivre noir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les légumes.\n" +
-            "2. Les faire revenir dans l’huile.\n" +
-            "3. Ajouter le riz et les épices.\n" +
-            "4. Verser le bouillon.\n" +
-            "5. Cuire 18 minutes."
+            "1. Éplucher l’oignon et l’ail puis les hacher finement.\n" +
+            "2. Laver la courgette et le poivron puis les couper en petits dés.\n" +
+            "3. Chauffer l’huile d’olive dans une grande poêle.\n" +
+            "4. Faire revenir l’oignon et l’ail 3 minutes.\n" +
+            "5. Ajouter les légumes et cuire 5 minutes en remuant.\n" +
+            "6. Incorporer le riz et le paprika.\n" +
+            "7. Mélanger pendant 1 minute.\n" +
+            "8. Verser le bouillon chaud.\n" +
+            "9. Saler, poivrer et couvrir.\n" +
+            "10. Laisser cuire 18 minutes à feu doux sans remuer.\n" +
+            "11. Retirer du feu et laisser reposer 5 minutes avant de servir."
     },
+
     en: {
-        title: "Spanish Vegetable Rice (Spain 4 persons)",
-        equipment: ["1 large pan", "1 knife"],
+        title: "Spanish Vegetable Rice (Spain)",
+        equipment: [
+            "1 deep large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 measuring cup",
+            "1 lid"
+        ],
         ingredients: [
             "300 g rice",
             "1 zucchini",
             "1 bell pepper",
             "1 onion",
             "750 ml vegetable broth",
-            "3 tbsp olive oil (45 ml)",
-            "1 tsp paprika (2 g)",
-            "1 tsp salt (2 g)"
+            "3 tablespoons olive oil (45 ml)",
+            "1 garlic clove",
+            "1 teaspoon paprika (2 g)",
+            "1 teaspoon salt (5 g)",
+            "1 pinch black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut vegetables.\n" +
-            "2. Fry in olive oil.\n" +
-            "3. Add rice and spices.\n" +
-            "4. Pour broth.\n" +
-            "5. Cook 18 minutes."
+            "1. Peel and finely chop the onion and garlic.\n" +
+            "2. Wash and dice the zucchini and bell pepper.\n" +
+            "3. Heat the olive oil in a large deep pan.\n" +
+            "4. Sauté the onion and garlic for 3 minutes.\n" +
+            "5. Add the vegetables and cook for 5 minutes, stirring.\n" +
+            "6. Stir in the rice and paprika.\n" +
+            "7. Mix for 1 minute.\n" +
+            "8. Pour in the hot broth.\n" +
+            "9. Season with salt and pepper and cover.\n" +
+            "10. Cook for 18 minutes over low heat without stirring.\n" +
+            "11. Remove from heat and let rest 5 minutes before serving."
     },
+
     nl: {
-        title: "Spaanse rijst met groenten (Spanje 4 personen)",
-        equipment: ["1 grote pan", "1 mes"],
+        title: "Spaanse rijst met groenten (Spanje)",
+        equipment: [
+            "1 diepe grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 maatbeker",
+            "1 deksel"
+        ],
         ingredients: [
             "300 g rijst",
             "1 courgette",
@@ -54073,39 +55303,88 @@ recipesData.plat.arroz_legumes_espagne = {
             "1 ui",
             "750 ml groentebouillon",
             "3 eetlepels olijfolie (45 ml)",
-            "1 tl paprika (2 g)",
-            "1 tl zout (2 g)"
+            "1 teentje knoflook",
+            "1 theelepel paprikapoeder (2 g)",
+            "1 theelepel zout (5 g)",
+            "1 snufje zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd groenten.\n" +
-            "2. Bak in olie.\n" +
-            "3. Voeg rijst toe.\n" +
-            "4. Voeg bouillon toe.\n" +
-            "5. Kook 18 minuten."
+            "1. Pel en hak de ui en knoflook fijn.\n" +
+            "2. Was en snijd de courgette en paprika in blokjes.\n" +
+            "3. Verhit de olijfolie in een diepe pan.\n" +
+            "4. Bak de ui en knoflook 3 minuten.\n" +
+            "5. Voeg de groenten toe en bak 5 minuten.\n" +
+            "6. Voeg de rijst en paprikapoeder toe.\n" +
+            "7. Roer 1 minuut.\n" +
+            "8. Giet de warme bouillon erbij.\n" +
+            "9. Breng op smaak met zout en peper en dek af.\n" +
+            "10. Laat 18 minuten zachtjes koken zonder te roeren.\n" +
+            "11. Haal van het vuur en laat 5 minuten rusten voor het serveren."
     },
+
     ar: {
-        title: "أرز إسباني بالخضار (إسبانيا 4 أشخاص)",
-        equipment: ["مقلاة كبيرة", "سكين"],
+        title: "أرز إسباني بالخضار (إسبانيا)",
+        equipment: [
+            "مقلاة عميقة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "كوب قياس",
+            "غطاء"
+        ],
         ingredients: [
             "300 غ أرز",
             "1 كوسة",
-            "1 فلفل",
+            "1 فلفل حلو",
             "1 بصلة",
             "750 مل مرق خضار",
             "3 ملاعق كبيرة زيت زيتون (45 مل)",
-            "1 ملعقة صغيرة بابريكا (2 غ)",
-            "1 ملعقة صغيرة ملح (2 غ)"
+            "فص ثوم",
+            "ملعقة صغيرة بابريكا (2 غ)",
+            "ملعقة صغيرة ملح (5 غ)",
+            "رشة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الخضار.\n" +
-            "2. اقليها بالزيت.\n" +
-            "3. أضف الأرز.\n" +
-            "4. أضف المرق.\n" +
-            "5. اطبخ 18 دقيقة."
+            "1. قشّر البصل والثوم وافرمهما ناعماً.\n" +
+            "2. اغسل الكوسة والفلفل وقطّعهما إلى مكعبات.\n" +
+            "3. سخّن زيت الزيتون في مقلاة عميقة.\n" +
+            "4. قلّب البصل والثوم لمدة 3 دقائق.\n" +
+            "5. أضف الخضار واطهها 5 دقائق مع التحريك.\n" +
+            "6. أضف الأرز والبابريكا.\n" +
+            "7. حرّك لمدة دقيقة.\n" +
+            "8. اسكب المرق الساخن.\n" +
+            "9. أضف الملح والفلفل وغطِّ المقلاة.\n" +
+            "10. اتركه يطهى لمدة 18 دقيقة دون تحريك.\n" +
+            "11. ارفعه من النار واتركه يرتاح 5 دقائق قبل التقديم."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Les autres recettes (Poivrons farcis, Courgettes sautées, Poisson, Calamars) suivent exactement le même modèle.
 // Poivrons farcis espagnols
