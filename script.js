@@ -57611,51 +57611,73 @@ recipesData.patisserie.churros_espagne = {
 
 
 
+
+
 recipesData.entree.soupe_legumes_suisse = {
     country: "europe",
     countryName: "suisse",
-    image: "images/soupe_legumes_suisse.jpg",
+    image: "images/soupe-legumes-suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Soupe aux légumes (Suisse, 4 personnes)",
+        title: "Soupe aux légumes (Suisse)",
         equipment: [
-            "1 grande casserole",
-            "1 cuillère en bois",
+            "1 grande casserole ou marmite",
+            "1 couvercle",
             "1 couteau",
+            "1 économe",
             "1 planche à découper",
-            "1 bol",
-            "1 balance de cuisine"
+            "1 cuillère en bois",
+            "1 louche",
+            "1 mixeur plongeant (optionnel)",
+            "1 bol"
         ],
         ingredients: [
             "2 carottes moyennes (200 g), coupées en dés",
             "2 pommes de terre moyennes (250 g), coupées en dés",
             "1 poireau (150 g), émincé",
-            "1 branche de céleri (50 g), coupée",
+            "1 branche de céleri (50 g), coupée en petits morceaux",
             "1 oignon (100 g), haché",
-            "1 gousse d’ail",
-            "750 ml bouillon de légumes",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)"
+            "1 gousse d’ail, hachée",
+            "750 ml de bouillon de légumes",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel (1 g)",
+            "1/4 cuillère à café de poivre (0,5 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile dans la casserole.\n" +
-            "2. Ajouter l’oignon et l’ail, faire revenir 2 minutes.\n" +
-            "3. Ajouter carottes, pommes de terre, poireau et céleri. Cuire 5-7 minutes.\n" +
-            "4. Verser le bouillon, ajouter sel et poivre.\n" +
-            "5. Porter à ébullition, puis laisser mijoter 20-25 minutes jusqu’à ce que les légumes soient tendres.\n" +
-            "6. Mixer si désiré pour une soupe lisse.\n" +
-            "7. Servir chaud."
+            "1. Éplucher les carottes et les pommes de terre, puis les couper en petits dés réguliers.\n" +
+            "2. Nettoyer le poireau et le couper en fines rondelles.\n" +
+            "3. Laver la branche de céleri et la couper en petits morceaux.\n" +
+            "4. Éplucher et hacher finement l’oignon et l’ail.\n" +
+            "5. Chauffer l’huile d’olive dans la casserole à feu moyen.\n" +
+            "6. Ajouter l’oignon et l’ail, puis faire revenir 2 à 3 minutes en remuant.\n" +
+            "7. Ajouter les carottes, les pommes de terre, le poireau et le céleri.\n" +
+            "8. Faire revenir l’ensemble 5 à 7 minutes pour développer les arômes.\n" +
+            "9. Verser le bouillon de légumes.\n" +
+            "10. Ajouter le sel et le poivre.\n" +
+            "11. Porter à ébullition, puis couvrir et laisser mijoter 20 à 25 minutes jusqu’à ce que les légumes soient tendres.\n" +
+            "12. Mixer avec un mixeur plongeant si vous souhaitez une soupe lisse.\n" +
+            "13. Rectifier l’assaisonnement si nécessaire et servir chaud."
     },
+
     en: {
-        title: "Vegetable Soup (Switzerland, Serves 4)",
+        title: "Vegetable Soup (Switzerland)",
         equipment: [
             "1 large pot",
-            "1 wooden spoon",
+            "1 lid",
             "1 knife",
+            "1 peeler",
             "1 cutting board",
-            "1 bowl",
-            "1 kitchen scale"
+            "1 wooden spoon",
+            "1 ladle",
+            "1 hand blender (optional)",
+            "1 bowl"
         ],
         ingredients: [
             "2 medium carrots (200 g), diced",
@@ -57663,585 +57685,1031 @@ recipesData.entree.soupe_legumes_suisse = {
             "1 leek (150 g), sliced",
             "1 celery stalk (50 g), chopped",
             "1 onion (100 g), chopped",
-            "1 garlic clove",
+            "1 garlic clove, minced",
             "750 ml vegetable broth",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt (1 g)",
+            "1/4 teaspoon pepper (0.5 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in pot.\n" +
-            "2. Add onion and garlic, sauté 2 minutes.\n" +
-            "3. Add carrots, potatoes, leek, and celery. Cook 5-7 minutes.\n" +
-            "4. Pour in broth, add salt and pepper.\n" +
-            "5. Bring to boil, then simmer 20-25 minutes until vegetables are tender.\n" +
-            "6. Blend if desired for smooth soup.\n" +
-            "7. Serve hot."
+            "1. Peel the carrots and potatoes, then cut them into small even cubes.\n" +
+            "2. Clean the leek and slice it thinly.\n" +
+            "3. Wash the celery stalk and cut it into small pieces.\n" +
+            "4. Peel and finely chop the onion and garlic.\n" +
+            "5. Heat the olive oil in the pot over medium heat.\n" +
+            "6. Add the onion and garlic and sauté for 2–3 minutes.\n" +
+            "7. Add the carrots, potatoes, leek, and celery.\n" +
+            "8. Cook for 5–7 minutes to enhance the flavors.\n" +
+            "9. Pour in the vegetable broth.\n" +
+            "10. Add salt and pepper.\n" +
+            "11. Bring to a boil, then cover and simmer for 20–25 minutes until the vegetables are tender.\n" +
+            "12. Blend with a hand blender if a smooth texture is desired.\n" +
+            "13. Adjust seasoning if needed and serve hot."
     },
+
     nl: {
-        title: "Groentesoep (Zwitserland, voor 4 personen)",
+        title: "Groentesoep (Zwitserland)",
         equipment: [
             "1 grote pan",
-            "1 houten lepel",
+            "1 deksel",
             "1 mes",
+            "1 dunschiller",
             "1 snijplank",
-            "1 kom",
-            "1 keukenweegschaal"
+            "1 houten lepel",
+            "1 soeplepel",
+            "1 staafmixer (optioneel)",
+            "1 kom"
         ],
         ingredients: [
             "2 middelgrote wortels (200 g), in blokjes",
-            "2 middelgrote aardappels (250 g), in blokjes",
-            "1 prei (150 g), in plakjes",
-            "1 selderijstengel (50 g), gehakt",
-            "1 ui (100 g), gehakt",
-            "1 teentje knoflook",
+            "2 middelgrote aardappelen (250 g), in blokjes",
+            "1 prei (150 g), in ringen",
+            "1 selderijstengel (50 g), in stukjes",
+            "1 ui (100 g), gesnipperd",
+            "1 teentje knoflook, fijngehakt",
             "750 ml groentebouillon",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)"
+            "1/2 theelepel zout (1 g)",
+            "1/4 theelepel peper (0,5 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan.\n" +
-            "2. Voeg ui en knoflook toe, bak 2 minuten.\n" +
-            "3. Voeg wortels, aardappels, prei en selderij toe. Bak 5-7 minuten.\n" +
-            "4. Voeg bouillon, zout en peper toe.\n" +
-            "5. Breng aan de kook, laat vervolgens 20-25 minuten sudderen tot groenten gaar zijn.\n" +
-            "6. Mix indien gewenst tot een gladde soep.\n" +
-            "7. Serveer warm."
+            "1. Schil de wortels en aardappelen en snijd ze in kleine blokjes.\n" +
+            "2. Maak de prei schoon en snijd in dunne ringen.\n" +
+            "3. Was de selderij en snijd in kleine stukjes.\n" +
+            "4. Pel en snipper de ui en knoflook fijn.\n" +
+            "5. Verhit de olijfolie in de pan op middelhoog vuur.\n" +
+            "6. Voeg ui en knoflook toe en bak 2–3 minuten.\n" +
+            "7. Voeg wortels, aardappelen, prei en selderij toe.\n" +
+            "8. Bak 5–7 minuten om de smaken te versterken.\n" +
+            "9. Giet de groentebouillon erbij.\n" +
+            "10. Voeg zout en peper toe.\n" +
+            "11. Breng aan de kook, zet het vuur lager en laat 20–25 minuten sudderen tot de groenten gaar zijn.\n" +
+            "12. Mix met een staafmixer indien gewenst.\n" +
+            "13. Breng eventueel verder op smaak en serveer warm."
     },
+
     ar: {
-        title: "حساء الخضار (سويسرا، تكفي 4 أشخاص)",
+        title: "حساء الخضار (سويسرا)",
         equipment: [
-            "1 قدر كبير",
-            "1 ملعقة خشبية",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 وعاء",
-            "1 ميزان مطبخ"
+            "قدر كبير",
+            "غطاء للقدر",
+            "سكين",
+            "مقشرة خضار",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مغرفة",
+            "خلاط يدوي (اختياري)",
+            "وعاء"
         ],
         ingredients: [
-            "2 جزر متوسط (200 غ)، مقطع مكعبات",
-            "2 بطاطس متوسطة (250 غ)، مقطعة مكعبات",
-            "1 كراث (150 غ)، مقطع شرائح",
-            "1 عود كرفس (50 غ)، مقطع",
-            "1 بصل (100 غ)، مفروم",
-            "1 فص ثوم",
+            "2 حبة جزر متوسطة (200 غ)، مقطعة مكعبات",
+            "2 حبة بطاطس متوسطة (250 غ)، مقطعة مكعبات",
+            "1 حبة كراث (150 غ)، مقطعة شرائح",
+            "1 عود كرفس (50 غ)، مقطع قطع صغيرة",
+            "1 بصلة (100 غ)، مفرومة",
+            "1 فص ثوم مفروم",
             "750 مل مرق خضار",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "1/2 ملعقة صغيرة ملح (1 غ)",
             "1/4 ملعقة صغيرة فلفل (0.5 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت في القدر.\n" +
-            "2. أضف البصل والثوم، قلب 2 دقيقة.\n" +
-            "3. أضف الجزر والبطاطس والكراث والكرفس. اطبخ 5-7 دقائق.\n" +
-            "4. أضف المرق، الملح والفلفل.\n" +
-            "5. اتركه يغلي ثم اخفض النار واتركه 20-25 دقيقة حتى تنضج الخضار.\n" +
-            "6. اخلط إذا رغبت للحصول على حساء ناعم.\n" +
-            "7. قدمه ساخناً."
+            "1. قشر الجزر والبطاطس وقطعهما إلى مكعبات صغيرة متساوية.\n" +
+            "2. نظف الكراث وقطعه إلى شرائح رفيعة.\n" +
+            "3. اغسل الكرفس وقطعه إلى قطع صغيرة.\n" +
+            "4. قشر البصل والثوم وافرمهما ناعماً.\n" +
+            "5. سخن زيت الزيتون في القدر على نار متوسطة.\n" +
+            "6. أضف البصل والثوم وقلّب لمدة 2 إلى 3 دقائق.\n" +
+            "7. أضف الجزر والبطاطس والكراث والكرفس.\n" +
+            "8. قلّب لمدة 5 إلى 7 دقائق لتعزيز النكهة.\n" +
+            "9. أضف مرق الخضار.\n" +
+            "10. أضف الملح والفلفل.\n" +
+            "11. اتركه حتى يغلي ثم غطِّ القدر واتركه يطهى لمدة 20 إلى 25 دقيقة حتى تنضج الخضار.\n" +
+            "12. اخلطه بالخلاط اليدوي إذا رغبت بقوام ناعم.\n" +
+            "13. عدّل التتبيل عند الحاجة وقدمه ساخناً."
     }
 };
 recipesData.entree.soupe_courge = {
     country: "europe",
     countryName: "suisse",
-    image: "images/soupe_courge_suisse.jpg",
+    image: "images/soupe-courge-suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Soupe à la courge (Suisse, 4 personnes)",
-        equipment: ["1 casserole", "1 mixeur plongeant", "1 couteau", "1 planche à découper"],
+        title: "Soupe à la courge (Suisse)",
+        equipment: [
+            "1 grande casserole ou marmite",
+            "1 couvercle",
+            "1 couteau",
+            "1 économe",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 louche",
+            "1 mixeur plongeant",
+            "1 bol"
+        ],
         ingredients: [
-            "500 g courge (butternut ou potimarron), pelée et coupée en dés",
-            "1 oignon",
-            "2 carottes",
-            "1 pomme de terre",
-            "750 ml bouillon de légumes",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "Sel et poivre selon goût"
+            "500 g de courge (butternut ou potimarron), pelée et coupée en dés",
+            "1 oignon moyen (120 g), haché",
+            "2 carottes (200 g), coupées en rondelles",
+            "1 pomme de terre moyenne (150 g), coupée en dés",
+            "750 ml de bouillon de légumes",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Éplucher et couper tous les légumes.\n" +
-            "2. Dans une casserole, faire revenir l’oignon dans l’huile d’olive.\n" +
-            "3. Ajouter la courge, les carottes, la pomme de terre et le bouillon.\n" +
-            "4. Cuire 25 minutes à feu moyen jusqu’à tendreté.\n" +
-            "5. Mixer la soupe jusqu’à obtenir une texture lisse.\n" +
-            "6. Assaisonner avec sel et poivre et servir chaud."
+            "1. Éplucher la courge si nécessaire, les carottes et la pomme de terre.\n" +
+            "2. Couper la courge et la pomme de terre en dés réguliers et les carottes en rondelles.\n" +
+            "3. Éplucher et hacher finement l’oignon.\n" +
+            "4. Chauffer l’huile d’olive dans la casserole à feu moyen.\n" +
+            "5. Ajouter l’oignon et faire revenir 2 à 3 minutes jusqu’à ce qu’il devienne translucide.\n" +
+            "6. Ajouter la courge, les carottes et la pomme de terre.\n" +
+            "7. Mélanger et laisser revenir 3 à 4 minutes.\n" +
+            "8. Verser le bouillon de légumes jusqu’à couvrir les légumes.\n" +
+            "9. Porter à ébullition, puis couvrir et laisser cuire 20 à 25 minutes jusqu’à ce que les légumes soient tendres.\n" +
+            "10. Mixer la soupe à l’aide du mixeur plongeant jusqu’à obtenir une texture lisse et homogène.\n" +
+            "11. Ajouter le sel et le poivre, puis ajuster l’assaisonnement si nécessaire.\n" +
+            "12. Servir bien chaud."
     },
+
     en: {
-        title: "Pumpkin Soup (Switzerland, Serves 4)",
-        equipment: ["1 pot", "1 hand blender", "1 knife", "1 cutting board"],
+        title: "Pumpkin Soup (Switzerland)",
+        equipment: [
+            "1 large pot",
+            "1 lid",
+            "1 knife",
+            "1 peeler",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 ladle",
+            "1 hand blender",
+            "1 bowl"
+        ],
         ingredients: [
             "500 g pumpkin (butternut or red kuri), peeled and diced",
-            "1 onion",
-            "2 carrots",
-            "1 potato",
+            "1 medium onion (120 g), chopped",
+            "2 carrots (200 g), sliced",
+            "1 medium potato (150 g), diced",
             "750 ml vegetable broth",
-            "2 tbsp olive oil (30 ml)",
-            "Salt and pepper to taste"
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Peel and cut all vegetables.\n" +
-            "2. Sauté onion in olive oil in a pot.\n" +
-            "3. Add pumpkin, carrots, potato, and broth.\n" +
-            "4. Cook 25 min until tender.\n" +
-            "5. Blend until smooth.\n" +
-            "6. Season with salt and pepper and serve hot."
+            "1. Peel the pumpkin if needed, as well as the carrots and potato.\n" +
+            "2. Cut the pumpkin and potato into even cubes and slice the carrots.\n" +
+            "3. Peel and finely chop the onion.\n" +
+            "4. Heat the olive oil in the pot over medium heat.\n" +
+            "5. Add the onion and sauté for 2–3 minutes until translucent.\n" +
+            "6. Add the pumpkin, carrots and potato.\n" +
+            "7. Stir and cook for 3–4 minutes.\n" +
+            "8. Pour in the vegetable broth until the vegetables are covered.\n" +
+            "9. Bring to a boil, then cover and cook for 20–25 minutes until tender.\n" +
+            "10. Blend with a hand blender until smooth and creamy.\n" +
+            "11. Add salt and pepper and adjust seasoning if needed.\n" +
+            "12. Serve hot."
     },
+
     nl: {
-        title: "Pompoensoep (Zwitserland, voor 4 personen)",
-        equipment: ["1 pot", "1 staafmixer", "1 mes", "1 snijplank"],
+        title: "Pompoensoep (Zwitserland)",
+        equipment: [
+            "1 grote pan",
+            "1 deksel",
+            "1 mes",
+            "1 dunschiller",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 soeplepel",
+            "1 staafmixer",
+            "1 kom"
+        ],
         ingredients: [
             "500 g pompoen (butternut of potimarron), geschild en in blokjes",
-            "1 ui",
-            "2 wortels",
-            "1 aardappel",
+            "1 middelgrote ui (120 g), gesnipperd",
+            "2 wortels (200 g), in plakjes",
+            "1 middelgrote aardappel (150 g), in blokjes",
             "750 ml groentebouillon",
             "2 eetlepels olijfolie (30 ml)",
-            "Zout en peper naar smaak"
+            "1/2 theelepel zout",
+            "1/4 theelepel peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Schil en snijd alle groenten.\n" +
-            "2. Bak ui in olijfolie in een pot.\n" +
-            "3. Voeg pompoen, wortels, aardappel en bouillon toe.\n" +
-            "4. Kook 25 min tot gaar.\n" +
-            "5. Pureer tot een gladde soep.\n" +
-            "6. Breng op smaak met zout en peper en serveer warm."
+            "1. Schil indien nodig de pompoen, wortels en aardappel.\n" +
+            "2. Snijd de pompoen en aardappel in gelijke blokjes en de wortels in plakjes.\n" +
+            "3. Pel en snipper de ui fijn.\n" +
+            "4. Verhit de olijfolie in de pan op middelhoog vuur.\n" +
+            "5. Voeg de ui toe en bak 2–3 minuten tot glazig.\n" +
+            "6. Voeg pompoen, wortels en aardappel toe.\n" +
+            "7. Roer goed en bak 3–4 minuten.\n" +
+            "8. Giet de groentebouillon erbij tot de groenten onderstaan.\n" +
+            "9. Breng aan de kook, doe het deksel op de pan en laat 20–25 minuten sudderen.\n" +
+            "10. Mix met een staafmixer tot een gladde soep.\n" +
+            "11. Voeg zout en peper toe en breng verder op smaak indien nodig.\n" +
+            "12. Serveer warm."
     },
+
     ar: {
-        title: "شوربة اليقطين (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "خلاط يدوي", "سكين", "لوح تقطيع"],
+        title: "شوربة اليقطين (سويسرا)",
+        equipment: [
+            "قدر كبير",
+            "غطاء للقدر",
+            "سكين",
+            "مقشرة خضار",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مغرفة",
+            "خلاط يدوي",
+            "وعاء"
+        ],
         ingredients: [
             "500 غ يقطين (بوتيرنات أو بوتيمارون)، مقشر ومقطع مكعبات",
-            "1 بصل",
-            "2 جزرات",
-            "1 بطاطس",
+            "1 بصلة متوسطة (120 غ)، مفرومة",
+            "2 جزرتان (200 غ)، مقطعتان شرائح",
+            "1 حبة بطاطس متوسطة (150 غ)، مقطعة مكعبات",
             "750 مل مرق خضار",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "ملح وفلفل حسب الرغبة"
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قشر وقطع جميع الخضار.\n" +
-            "2. اقلي البصل في الزيت في القدر.\n" +
-            "3. أضف اليقطين والجزر والبطاطس والمرق.\n" +
-            "4. اطبخ 25 دقيقة حتى تنضج.\n" +
-            "5. اخلط حتى تصبح شوربة ناعمة.\n" +
-            "6. تبّل بالملح والفلفل وقدّم ساخناً."
+            "1. قشر اليقطين عند الحاجة وكذلك الجزر والبطاطس.\n" +
+            "2. قطع اليقطين والبطاطس إلى مكعبات متساوية والجزر إلى شرائح.\n" +
+            "3. قشر البصل وافرمه ناعماً.\n" +
+            "4. سخن زيت الزيتون في القدر على نار متوسطة.\n" +
+            "5. أضف البصل وقلّبه لمدة 2 إلى 3 دقائق حتى يذبل.\n" +
+            "6. أضف اليقطين والجزر والبطاطس.\n" +
+            "7. قلّب المكونات لمدة 3 إلى 4 دقائق.\n" +
+            "8. أضف مرق الخضار حتى يغطي الخضار.\n" +
+            "9. اتركه يغلي ثم غطِّ القدر واتركه يطهى لمدة 20 إلى 25 دقيقة حتى تنضج الخضار.\n" +
+            "10. اخلط الشوربة بالخلاط اليدوي حتى تصبح ناعمة.\n" +
+            "11. أضف الملح والفلفل وعدّل التتبيل حسب الرغبة.\n" +
+            "12. قدّمها ساخنة."
     }
 };
 recipesData.entree.salade_pdt = {
     country: "europe",
     countryName: "suisse",
-    image: "images/salade_pdt_suisse.jpg",
+    image: "images/salade-pommes-terre-suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade de pommes de terre (Suisse, 4 personnes)",
-        equipment: ["1 casserole", "1 saladier", "1 couteau", "1 planche à découper"],
+        title: "Salade de pommes de terre (Suisse)",
+        equipment: [
+            "1 grande casserole",
+            "1 couvercle",
+            "1 passoire",
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "500 g pommes de terre",
-            "1 oignon",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à soupe moutarde douce (15 ml)",
-            "1 cuillère à soupe jus de citron (15 ml)",
-            "Sel et poivre selon goût",
-            "Persil frais pour garnir"
+            "500 g de pommes de terre",
+            "1 oignon moyen, finement émincé",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de moutarde douce (15 ml)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "2 cuillères à soupe de persil frais haché"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Cuire les pommes de terre à l’eau bouillante 20 minutes.\n" +
-            "2. Laisser refroidir et couper en cubes.\n" +
-            "3. Mélanger huile, moutarde et jus de citron.\n" +
-            "4. Ajouter pommes de terre et oignon émincé.\n" +
-            "5. Assaisonner sel et poivre.\n" +
-            "6. Garnir de persil et servir."
+            "1. Laver les pommes de terre sans les éplucher.\n" +
+            "2. Les placer dans une casserole et couvrir d’eau froide.\n" +
+            "3. Porter à ébullition et cuire environ 20 minutes jusqu’à ce qu’elles soient tendres.\n" +
+            "4. Égoutter puis laisser tiédir.\n" +
+            "5. Éplucher si désiré, puis couper en cubes réguliers.\n" +
+            "6. Dans un saladier, mélanger l’huile d’olive, la moutarde et le jus de citron.\n" +
+            "7. Ajouter le sel et le poivre, puis bien mélanger.\n" +
+            "8. Incorporer les pommes de terre encore légèrement tièdes et l’oignon émincé.\n" +
+            "9. Mélanger délicatement pour ne pas écraser les morceaux.\n" +
+            "10. Ajouter le persil haché.\n" +
+            "11. Laisser reposer 10 minutes avant de servir.\n" +
+            "12. Servir à température ambiante."
     },
+
     en: {
-        title: "Potato Salad (Switzerland, Serves 4)",
-        equipment: ["1 pot", "1 bowl", "1 knife", "1 cutting board"],
+        title: "Potato Salad (Switzerland)",
+        equipment: [
+            "1 large pot",
+            "1 lid",
+            "1 strainer",
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "500 g potatoes",
-            "1 onion",
-            "2 tbsp olive oil (30 ml)",
-            "1 tbsp mild mustard (15 ml)",
-            "1 tbsp lemon juice (15 ml)",
-            "Salt and pepper to taste",
-            "Fresh parsley to garnish"
+            "1 medium onion, thinly sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon mild mustard (15 ml)",
+            "1 tablespoon lemon juice (15 ml)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "2 tablespoons fresh parsley, chopped"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Boil potatoes 20 min.\n" +
-            "2. Cool and cut into cubes.\n" +
-            "3. Mix oil, mustard, and lemon juice.\n" +
-            "4. Add potatoes and sliced onion.\n" +
-            "5. Season with salt and pepper.\n" +
-            "6. Garnish with parsley and serve."
+            "1. Wash the potatoes without peeling them.\n" +
+            "2. Place them in a pot and cover with cold water.\n" +
+            "3. Bring to a boil and cook for about 20 minutes until tender.\n" +
+            "4. Drain and let them cool slightly.\n" +
+            "5. Peel if desired and cut into even cubes.\n" +
+            "6. In a large bowl, mix olive oil, mustard, and lemon juice.\n" +
+            "7. Add salt and pepper and stir well.\n" +
+            "8. Add the slightly warm potatoes and sliced onion.\n" +
+            "9. Toss gently to avoid breaking the potatoes.\n" +
+            "10. Add chopped parsley.\n" +
+            "11. Let rest for 10 minutes before serving.\n" +
+            "12. Serve at room temperature."
     },
+
     nl: {
-        title: "Aardappelsalade (Zwitserland, voor 4 personen)",
-        equipment: ["1 pot", "1 kom", "1 mes", "1 snijplank"],
+        title: "Aardappelsalade (Zwitserland)",
+        equipment: [
+            "1 grote pan",
+            "1 deksel",
+            "1 vergiet",
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 houten lepel"
+        ],
         ingredients: [
             "500 g aardappelen",
-            "1 ui",
+            "1 middelgrote ui, dun gesneden",
             "2 eetlepels olijfolie (30 ml)",
             "1 eetlepel milde mosterd (15 ml)",
             "1 eetlepel citroensap (15 ml)",
-            "Zout en peper naar smaak",
-            "Verse peterselie voor garnering"
+            "1/2 theelepel zout",
+            "1/4 theelepel peper",
+            "2 eetlepels verse peterselie, fijngehakt"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Kook aardappelen 20 min.\n" +
-            "2. Laat afkoelen en snijd in blokjes.\n" +
-            "3. Meng olie, mosterd en citroensap.\n" +
-            "4. Voeg aardappelen en gesneden ui toe.\n" +
-            "5. Breng op smaak met zout en peper.\n" +
-            "6. Garneer met peterselie en serveer."
+            "1. Was de aardappelen zonder ze te schillen.\n" +
+            "2. Doe ze in een pan en bedek met koud water.\n" +
+            "3. Breng aan de kook en kook ongeveer 20 minuten tot ze gaar zijn.\n" +
+            "4. Giet af en laat iets afkoelen.\n" +
+            "5. Schil indien gewenst en snijd in gelijke blokjes.\n" +
+            "6. Meng in een kom olijfolie, mosterd en citroensap.\n" +
+            "7. Voeg zout en peper toe en roer goed.\n" +
+            "8. Voeg de nog licht warme aardappelen en ui toe.\n" +
+            "9. Meng voorzichtig zodat de aardappelen heel blijven.\n" +
+            "10. Voeg de peterselie toe.\n" +
+            "11. Laat 10 minuten rusten voor het serveren.\n" +
+            "12. Serveer op kamertemperatuur."
     },
+
     ar: {
-        title: "سلطة البطاطس (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "وعاء", "سكين", "لوح تقطيع"],
+        title: "سلطة البطاطس (سويسرا)",
+        equipment: [
+            "قدر كبير",
+            "غطاء",
+            "مصفاة",
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "500 غ بطاطس",
-            "1 بصل",
+            "1 بصلة متوسطة مقطعة شرائح رفيعة",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "1 ملعقة كبيرة خردل خفيف (15 مل)",
             "1 ملعقة كبيرة عصير ليمون (15 مل)",
-            "ملح وفلفل حسب الرغبة",
-            "بقدونس طازج للتزيين"
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل",
+            "2 ملعقة كبيرة بقدونس طازج مفروم"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اطبخ البطاطس 20 دقيقة.\n" +
-            "2. اتركها تبرد وقطعها مكعبات.\n" +
-            "3. اخلط الزيت، الخردل وعصير الليمون.\n" +
-            "4. أضف البطاطس والبصل المقطع.\n" +
-            "5. تبّل بالملح والفلفل.\n" +
-            "6. زيّن بالبقدونس وقدّم."
+            "1. اغسل البطاطس دون تقشيرها.\n" +
+            "2. ضعها في قدر وغطها بالماء البارد.\n" +
+            "3. اتركها تغلي واطبخها حوالي 20 دقيقة حتى تنضج.\n" +
+            "4. صفِّها واتركها تبرد قليلاً.\n" +
+            "5. قشرها إذا رغبت ثم قطعها إلى مكعبات متساوية.\n" +
+            "6. في وعاء كبير اخلط زيت الزيتون والخردل وعصير الليمون.\n" +
+            "7. أضف الملح والفلفل وامزج جيداً.\n" +
+            "8. أضف البطاطس وهي دافئة قليلاً والبصل.\n" +
+            "9. اخلط برفق حتى لا تتفتت البطاطس.\n" +
+            "10. أضف البقدونس المفروم.\n" +
+            "11. اتركها ترتاح 10 دقائق قبل التقديم.\n" +
+            "12. قدّمها في درجة حرارة الغرفة."
     }
 };
 recipesData.entree.salade_tomate_concombre = {
     country: "europe",
     countryName: "suisse",
-    image: "images/salade_tomate_concombre_suisse.jpg",
+    image: "images/salade-tomate-concombre-suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade de tomates et concombre (Suisse, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche à découper"],
+        title: "Salade de tomates et concombre (Suisse)",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "3 tomates",
-            "1 concombre",
-            "1 oignon rouge",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à soupe jus de citron (15 ml)",
-            "Sel et poivre selon goût",
-            "Herbes fraîches (persil ou ciboulette)"
+            "3 tomates mûres, coupées en dés",
+            "1 concombre, coupé en dés",
+            "1 oignon rouge, finement émincé",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "2 cuillères à soupe d’herbes fraîches hachées (persil ou ciboulette)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper tomates et concombre en dés.\n" +
-            "2. Émincer l’oignon.\n" +
-            "3. Mélanger huile, jus de citron, sel et poivre.\n" +
-            "4. Ajouter légumes et herbes.\n" +
-            "5. Mélanger et servir frais."
+            "1. Laver soigneusement les tomates et le concombre.\n" +
+            "2. Couper les tomates en dés réguliers.\n" +
+            "3. Éplucher le concombre si nécessaire et le couper en dés.\n" +
+            "4. Émincer finement l’oignon rouge.\n" +
+            "5. Dans un saladier, mélanger l’huile d’olive et le jus de citron.\n" +
+            "6. Ajouter le sel et le poivre puis mélanger.\n" +
+            "7. Incorporer les tomates, le concombre et l’oignon.\n" +
+            "8. Ajouter les herbes fraîches hachées.\n" +
+            "9. Mélanger délicatement.\n" +
+            "10. Placer au frais 10 minutes avant de servir.\n" +
+            "11. Servir bien frais."
     },
+
     en: {
-        title: "Tomato and Cucumber Salad (Switzerland, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board"],
+        title: "Tomato and Cucumber Salad (Switzerland)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 wooden spoon"
+        ],
         ingredients: [
-            "3 tomatoes",
-            "1 cucumber",
-            "1 red onion",
-            "2 tbsp olive oil (30 ml)",
-            "1 tbsp lemon juice (15 ml)",
-            "Salt and pepper to taste",
-            "Fresh herbs (parsley or chives)"
+            "3 ripe tomatoes, diced",
+            "1 cucumber, diced",
+            "1 red onion, thinly sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon lemon juice (15 ml)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "2 tablespoons fresh herbs, chopped (parsley or chives)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Dice tomatoes and cucumber.\n" +
-            "2. Slice onion.\n" +
-            "3. Mix oil, lemon juice, salt, and pepper.\n" +
-            "4. Add vegetables and herbs.\n" +
-            "5. Toss and serve chilled."
+            "1. Wash the tomatoes and cucumber thoroughly.\n" +
+            "2. Dice the tomatoes evenly.\n" +
+            "3. Peel the cucumber if needed and dice it.\n" +
+            "4. Thinly slice the red onion.\n" +
+            "5. In a bowl, mix olive oil and lemon juice.\n" +
+            "6. Add salt and pepper and stir.\n" +
+            "7. Add tomatoes, cucumber, and onion.\n" +
+            "8. Add chopped fresh herbs.\n" +
+            "9. Toss gently to combine.\n" +
+            "10. Chill for 10 minutes before serving.\n" +
+            "11. Serve fresh."
     },
+
     nl: {
-        title: "Tomaat-komkommersalade (Zwitserland, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank"],
+        title: "Tomaat-komkommersalade (Zwitserland)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 houten lepel"
+        ],
         ingredients: [
-            "3 tomaten",
-            "1 komkommer",
-            "1 rode ui",
+            "3 rijpe tomaten, in blokjes",
+            "1 komkommer, in blokjes",
+            "1 rode ui, dun gesneden",
             "2 eetlepels olijfolie (30 ml)",
             "1 eetlepel citroensap (15 ml)",
-            "Zout en peper naar smaak",
-            "Verse kruiden (peterselie of bieslook)"
+            "1/2 theelepel zout",
+            "1/4 theelepel peper",
+            "2 eetlepels verse kruiden, fijngehakt (peterselie of bieslook)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd tomaten en komkommer in blokjes.\n" +
-            "2. Snijd ui in dunne ringen.\n" +
-            "3. Meng olie, citroensap, zout en peper.\n" +
-            "4. Voeg groenten en kruiden toe.\n" +
-            "5. Meng en serveer gekoeld."
+            "1. Was de tomaten en komkommer grondig.\n" +
+            "2. Snijd de tomaten in gelijke blokjes.\n" +
+            "3. Schil de komkommer indien nodig en snijd in blokjes.\n" +
+            "4. Snijd de rode ui in dunne ringen.\n" +
+            "5. Meng in een kom olijfolie en citroensap.\n" +
+            "6. Voeg zout en peper toe en roer.\n" +
+            "7. Voeg tomaten, komkommer en ui toe.\n" +
+            "8. Voeg de fijngehakte kruiden toe.\n" +
+            "9. Meng voorzichtig.\n" +
+            "10. Laat 10 minuten koelen voor het serveren.\n" +
+            "11. Serveer fris."
     },
+
     ar: {
-        title: "سلطة الطماطم والخيار (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع"],
+        title: "سلطة الطماطم والخيار (سويسرا)",
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة خشبية"
+        ],
         ingredients: [
-            "3 طماطم",
-            "1 خيار",
-            "1 بصل أحمر",
+            "3 حبات طماطم ناضجة، مقطعة مكعبات",
+            "1 حبة خيار، مقطعة مكعبات",
+            "1 بصلة حمراء، مقطعة شرائح رفيعة",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "1 ملعقة كبيرة عصير ليمون (15 مل)",
-            "ملح وفلفل حسب الرغبة",
-            "أعشاب طازجة (بقدونس أو ثوم معمر)"
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل",
+            "2 ملعقة كبيرة أعشاب طازجة مفرومة (بقدونس أو ثوم معمر)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الطماطم والخيار مكعبات.\n" +
-            "2. قطع البصل شرائح رقيقة.\n" +
-            "3. اخلط الزيت، عصير الليمون، الملح والفلفل.\n" +
-            "4. أضف الخضار والأعشاب.\n" +
-            "5. امزج وقدّم بارداً."
+            "1. اغسل الطماطم والخيار جيداً.\n" +
+            "2. قطع الطماطم إلى مكعبات متساوية.\n" +
+            "3. قشر الخيار إذا لزم الأمر وقطعه مكعبات.\n" +
+            "4. قطع البصل الأحمر إلى شرائح رفيعة.\n" +
+            "5. في وعاء اخلط زيت الزيتون وعصير الليمون.\n" +
+            "6. أضف الملح والفلفل وامزج.\n" +
+            "7. أضف الطماطم والخيار والبصل.\n" +
+            "8. أضف الأعشاب الطازجة المفرومة.\n" +
+            "9. امزج بلطف.\n" +
+            "10. ضعها في الثلاجة لمدة 10 دقائق قبل التقديم.\n" +
+            "11. قدّمها طازجة."
     }
 };
 recipesData.entree.roesti = {
     country: "europe",
     countryName: "suisse",
-    image: "images/roesti_suisse.jpg",
+    image: "images/roesti-suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Rösti (Suisse, 4 personnes)",
-        equipment: ["1 poêle", "1 râpe", "1 spatule"],
+        title: "Rösti (Suisse)",
+        equipment: [
+            "1 grande poêle antiadhésive",
+            "1 râpe à gros trous",
+            "1 saladier",
+            "1 torchon propre",
+            "1 spatule large",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe"
+        ],
         ingredients: [
-            "500 g pommes de terre",
-            "2 cuillères à soupe huile (30 ml)",
-            "Sel et poivre selon goût"
+            "500 g de pommes de terre",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Râper les pommes de terre crues.\n" +
-            "2. Presser l’excédent d’eau.\n" +
-            "3. Chauffer l’huile dans une poêle.\n" +
-            "4. Étaler les pommes de terre et cuire 10-12 minutes par côté.\n" +
-            "5. Assaisonner sel et poivre et servir chaud."
+            "1. Éplucher les pommes de terre puis les rincer rapidement.\n" +
+            "2. Les râper à l’aide d’une râpe à gros trous.\n" +
+            "3. Placer les pommes de terre râpées dans un torchon propre et presser fortement pour retirer l’excédent d’eau.\n" +
+            "4. Mettre les pommes de terre dans un saladier.\n" +
+            "5. Ajouter le sel et le poivre puis mélanger.\n" +
+            "6. Chauffer l’huile dans la poêle à feu moyen.\n" +
+            "7. Répartir les pommes de terre râpées dans la poêle en formant une galette compacte.\n" +
+            "8. Tasser légèrement avec la spatule.\n" +
+            "9. Cuire 10 à 12 minutes jusqu’à ce que le dessous soit bien doré.\n" +
+            "10. Retourner délicatement à l’aide d’une assiette ou de la spatule.\n" +
+            "11. Cuire encore 10 à 12 minutes jusqu’à ce que l’autre côté soit croustillant.\n" +
+            "12. Servir chaud, coupé en parts."
     },
+
     en: {
-        title: "Rösti (Switzerland, Serves 4)",
-        equipment: ["1 pan", "1 grater", "1 spatula"],
+        title: "Rösti (Switzerland)",
+        equipment: [
+            "1 large non-stick pan",
+            "1 coarse grater",
+            "1 mixing bowl",
+            "1 clean kitchen towel",
+            "1 wide spatula",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon"
+        ],
         ingredients: [
             "500 g potatoes",
-            "2 tbsp oil (30 ml)",
-            "Salt and pepper to taste"
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Grate raw potatoes.\n" +
-            "2. Squeeze excess water.\n" +
-            "3. Heat oil in pan.\n" +
-            "4. Spread potatoes and cook 10-12 min per side.\n" +
-            "5. Season with salt and pepper and serve hot."
+            "1. Peel the potatoes and rinse them briefly.\n" +
+            "2. Grate them using a coarse grater.\n" +
+            "3. Place the grated potatoes in a clean towel and squeeze firmly to remove excess moisture.\n" +
+            "4. Transfer to a mixing bowl.\n" +
+            "5. Add salt and pepper and mix well.\n" +
+            "6. Heat the oil in the pan over medium heat.\n" +
+            "7. Spread the grated potatoes evenly in the pan, forming a compact cake.\n" +
+            "8. Press down gently with a spatula.\n" +
+            "9. Cook for 10–12 minutes until golden brown underneath.\n" +
+            "10. Carefully flip using a plate or spatula.\n" +
+            "11. Cook another 10–12 minutes until crispy and golden.\n" +
+            "12. Serve hot, cut into portions."
     },
+
     nl: {
-        title: "Rösti (Zwitserland, voor 4 personen)",
-        equipment: ["1 pan", "1 rasp", "1 spatel"],
+        title: "Rösti (Zwitserland)",
+        equipment: [
+            "1 grote antiaanbakpan",
+            "1 grove rasp",
+            "1 mengkom",
+            "1 schone keukendoek",
+            "1 brede spatel",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel"
+        ],
         ingredients: [
             "500 g aardappelen",
-            "2 eetlepels olie (30 ml)",
-            "Zout en peper naar smaak"
+            "2 eetlepels plantaardige olie (30 ml)",
+            "1/2 theelepel zout",
+            "1/4 theelepel peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Rasp rauwe aardappelen.\n" +
-            "2. Knijp overtollig water eruit.\n" +
-            "3. Verhit olie in pan.\n" +
-            "4. Spreid aardappelen en bak 10-12 min per kant.\n" +
-            "5. Breng op smaak met zout en peper en serveer warm."
+            "1. Schil de aardappelen en spoel ze kort af.\n" +
+            "2. Rasp ze met een grove rasp.\n" +
+            "3. Doe de geraspte aardappelen in een schone doek en knijp het overtollige vocht eruit.\n" +
+            "4. Doe ze in een mengkom.\n" +
+            "5. Voeg zout en peper toe en meng goed.\n" +
+            "6. Verhit de olie in de pan op middelhoog vuur.\n" +
+            "7. Verdeel de aardappelen gelijkmatig in de pan en vorm een stevige koek.\n" +
+            "8. Druk licht aan met een spatel.\n" +
+            "9. Bak 10–12 minuten tot de onderkant goudbruin is.\n" +
+            "10. Draai voorzichtig om met behulp van een bord of spatel.\n" +
+            "11. Bak nog eens 10–12 minuten tot krokant en goudbruin.\n" +
+            "12. Serveer warm in punten gesneden."
     },
+
     ar: {
-        title: "روستي (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["مقلاة", "مبشرة", "ملعقة مسطحة"],
+        title: "روستي (سويسرا)",
+        equipment: [
+            "مقلاة كبيرة غير لاصقة",
+            "مبشرة خشنة",
+            "وعاء خلط",
+            "قطعة قماش مطبخ نظيفة",
+            "ملعقة مسطحة عريضة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة"
+        ],
         ingredients: [
             "500 غ بطاطس",
-            "2 ملعقة كبيرة زيت (30 مل)",
-            "ملح وفلفل حسب الرغبة"
+            "2 ملعقة كبيرة زيت نباتي (30 مل)",
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. ابشر البطاطس النيئة.\n" +
-            "2. اعصر الماء الزائد.\n" +
-            "3. سخن الزيت في المقلاة.\n" +
-            "4. وزع البطاطس واطبخ 10-12 دقيقة لكل جانب.\n" +
-            "5. تبّل بالملح والفلفل وقدّم ساخناً."
+            "1. قشر البطاطس واغسلها سريعاً.\n" +
+            "2. ابشرها باستخدام مبشرة خشنة.\n" +
+            "3. ضع البطاطس المبشورة في قطعة قماش نظيفة واعصرها جيداً للتخلص من الماء الزائد.\n" +
+            "4. انقلها إلى وعاء خلط.\n" +
+            "5. أضف الملح والفلفل وامزج جيداً.\n" +
+            "6. سخن الزيت في المقلاة على نار متوسطة.\n" +
+            "7. وزع البطاطس في المقلاة على شكل قرص متماسك.\n" +
+            "8. اضغط عليها برفق باستخدام الملعقة المسطحة.\n" +
+            "9. اطبخ لمدة 10 إلى 12 دقيقة حتى يصبح القاع ذهبياً.\n" +
+            "10. اقلبها بحذر باستخدام طبق أو ملعقة مسطحة.\n" +
+            "11. اطبخ الجانب الآخر 10 إلى 12 دقيقة حتى يصبح مقرمشاً.\n" +
+            "12. قدمها ساخنة ومقطعة إلى أجزاء."
     }
 };
+
 recipesData.entree.salade_betterave = {
     country: "europe",
     countryName: "suisse",
-    image: "images/salade_betterave_suisse.jpg",
+    image: "images/salade-betterave-suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade de betteraves (Suisse, 4 personnes)",
-        equipment: ["1 casserole", "1 saladier", "1 couteau", "1 planche à découper"],
+        title: "Salade de betteraves (Suisse)",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "400 g betteraves cuites",
-            "1 oignon rouge",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à soupe jus de citron (15 ml)",
-            "Sel et poivre selon goût",
-            "Persil frais pour garnir"
+            "400 g de betteraves cuites, coupées en cubes",
+            "1 oignon rouge, finement émincé",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre",
+            "2 cuillères à soupe de persil frais haché"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les betteraves en cubes.\n" +
-            "2. Émincer l’oignon.\n" +
-            "3. Mélanger huile, jus de citron, sel et poivre.\n" +
-            "4. Ajouter betteraves et oignon.\n" +
-            "5. Mélanger et garnir de persil."
+            "1. Couper les betteraves cuites en cubes réguliers.\n" +
+            "2. Émincer finement l’oignon rouge.\n" +
+            "3. Dans un saladier, mélanger l’huile d’olive et le jus de citron.\n" +
+            "4. Ajouter le sel et le poivre puis bien mélanger.\n" +
+            "5. Incorporer les betteraves et l’oignon.\n" +
+            "6. Mélanger délicatement.\n" +
+            "7. Ajouter le persil haché.\n" +
+            "8. Placer au frais 10 minutes avant de servir.\n" +
+            "9. Servir frais."
     },
+
     en: {
-        title: "Beetroot Salad (Switzerland, Serves 4)",
-        equipment: ["1 pot", "1 bowl", "1 knife", "1 cutting board"],
+        title: "Beetroot Salad (Switzerland)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 wooden spoon"
+        ],
         ingredients: [
-            "400 g cooked beets",
-            "1 red onion",
-            "2 tbsp olive oil (30 ml)",
-            "1 tbsp lemon juice (15 ml)",
-            "Salt and pepper to taste",
-            "Fresh parsley to garnish"
+            "400 g cooked beetroot, diced",
+            "1 red onion, thinly sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon lemon juice (15 ml)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "2 tablespoons fresh parsley, chopped"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut beets into cubes.\n" +
-            "2. Slice onion.\n" +
-            "3. Mix oil, lemon juice, salt, and pepper.\n" +
-            "4. Add beets and onion.\n" +
-            "5. Toss and garnish with parsley."
+            "1. Cut the cooked beetroot into even cubes.\n" +
+            "2. Thinly slice the red onion.\n" +
+            "3. In a bowl, mix olive oil and lemon juice.\n" +
+            "4. Add salt and pepper and stir well.\n" +
+            "5. Add beetroot and onion.\n" +
+            "6. Toss gently to combine.\n" +
+            "7. Add chopped parsley.\n" +
+            "8. Chill for 10 minutes before serving.\n" +
+            "9. Serve fresh."
     },
+
     nl: {
-        title: "Bietensalade (Zwitserland, voor 4 personen)",
-        equipment: ["1 pot", "1 kom", "1 mes", "1 snijplank"],
+        title: "Bietensalade (Zwitserland)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 houten lepel"
+        ],
         ingredients: [
-            "400 g gekookte bieten",
-            "1 rode ui",
+            "400 g gekookte bieten, in blokjes",
+            "1 rode ui, dun gesneden",
             "2 eetlepels olijfolie (30 ml)",
             "1 eetlepel citroensap (15 ml)",
-            "Zout en peper naar smaak",
-            "Verse peterselie voor garnering"
+            "1/2 theelepel zout",
+            "1/4 theelepel peper",
+            "2 eetlepels verse peterselie, fijngehakt"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd bieten in blokjes.\n" +
-            "2. Snijd ui in dunne ringen.\n" +
-            "3. Meng olie, citroensap, zout en peper.\n" +
-            "4. Voeg bieten en ui toe.\n" +
-            "5. Meng en garneer met peterselie."
+            "1. Snijd de gekookte bieten in gelijke blokjes.\n" +
+            "2. Snijd de rode ui in dunne ringen.\n" +
+            "3. Meng in een kom olijfolie en citroensap.\n" +
+            "4. Voeg zout en peper toe en roer goed.\n" +
+            "5. Voeg bieten en ui toe.\n" +
+            "6. Meng voorzichtig.\n" +
+            "7. Voeg de fijngehakte peterselie toe.\n" +
+            "8. Laat 10 minuten koelen voor het serveren.\n" +
+            "9. Serveer fris."
     },
+
     ar: {
-        title: "سلطة الشمندر (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "وعاء", "سكين", "لوح تقطيع"],
+        title: "سلطة الشمندر (سويسرا)",
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة خشبية"
+        ],
         ingredients: [
-            "400 غ شمندر مطبوخ",
-            "1 بصل أحمر",
+            "400 غ شمندر مطبوخ، مقطع مكعبات",
+            "1 بصلة حمراء، مقطعة شرائح رفيعة",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "1 ملعقة كبيرة عصير ليمون (15 مل)",
-            "ملح وفلفل حسب الرغبة",
-            "بقدونس طازج للتزيين"
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل",
+            "2 ملعقة كبيرة بقدونس طازج مفروم"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الشمندر مكعبات.\n" +
-            "2. قطع البصل شرائح رقيقة.\n" +
-            "3. اخلط الزيت، عصير الليمون، الملح والفلفل.\n" +
-            "4. أضف الشمندر والبصل.\n" +
-            "5. اخلط وزيّن بالبقدونس."
+            "1. قطع الشمندر المطبوخ إلى مكعبات متساوية.\n" +
+            "2. قطع البصل الأحمر إلى شرائح رفيعة.\n" +
+            "3. في وعاء اخلط زيت الزيتون وعصير الليمون.\n" +
+            "4. أضف الملح والفلفل وامزج جيداً.\n" +
+            "5. أضف الشمندر والبصل.\n" +
+            "6. اخلط بلطف.\n" +
+            "7. أضف البقدونس المفروم.\n" +
+            "8. ضعها في الثلاجة لمدة 10 دقائق قبل التقديم.\n" +
+            "9. قدّمها طازجة."
     }
 };
 recipesData.entree.fondue_legumes = {
     country: "europe",
     countryName: "suisse",
-    image: "images/fondue_legumes_suisse.jpg",
+    image: "images/fondue-legumes-suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Fondue de légumes (Suisse, 4 personnes)",
-        equipment: ["1 casserole", "1 couteau", "1 planche à découper", "1 fouet"],
+        title: "Fondue de légumes (Suisse)",
+        equipment: [
+            "1 grande casserole",
+            "1 couvercle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 fouet",
+            "1 louche",
+            "1 bol"
+        ],
         ingredients: [
-            "200 g poireaux",
-            "200 g carottes",
-            "200 g courgettes",
-            "200 ml bouillon de légumes",
-            "2 cuillères à soupe crème fraîche (30 ml)",
-            "1 cuillère à soupe huile d’olive (15 ml)",
-            "Sel et poivre selon goût"
+            "200 g de poireaux, émincés",
+            "200 g de carottes, coupées en fines rondelles",
+            "200 g de courgettes, coupées en dés",
+            "200 ml de bouillon de légumes",
+            "2 cuillères à soupe de crème fraîche (30 ml)",
+            "1 cuillère à soupe d’huile d’olive (15 ml)",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper tous les légumes en rondelles ou dés.\n" +
-            "2. Chauffer l’huile dans la casserole.\n" +
-            "3. Ajouter les légumes et faire revenir 5 minutes.\n" +
-            "4. Ajouter le bouillon et cuire 15 minutes jusqu’à tendreté.\n" +
-            "5. Incorporer la crème, assaisonner et servir chaud."
+            "1. Laver soigneusement les poireaux, les carottes et les courgettes.\n" +
+            "2. Couper les poireaux en fines rondelles, les carottes en rondelles et les courgettes en petits dés.\n" +
+            "3. Chauffer l’huile d’olive dans la casserole à feu moyen.\n" +
+            "4. Ajouter les poireaux et faire revenir 2 à 3 minutes.\n" +
+            "5. Ajouter les carottes et les courgettes.\n" +
+            "6. Mélanger et laisser cuire 5 minutes en remuant régulièrement.\n" +
+            "7. Verser le bouillon de légumes.\n" +
+            "8. Couvrir et laisser cuire 15 minutes jusqu’à ce que les légumes soient tendres.\n" +
+            "9. Incorporer la crème fraîche en fouettant légèrement.\n" +
+            "10. Ajouter le sel et le poivre puis mélanger.\n" +
+            "11. Laisser mijoter 2 minutes supplémentaires.\n" +
+            "12. Servir bien chaud."
     },
+
     en: {
-        title: "Vegetable Fondue (Switzerland, Serves 4)",
-        equipment: ["1 pot", "1 knife", "1 cutting board", "1 whisk"],
+        title: "Vegetable Fondue (Switzerland)",
+        equipment: [
+            "1 large pot",
+            "1 lid",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 whisk",
+            "1 ladle",
+            "1 bowl"
+        ],
         ingredients: [
-            "200 g leeks",
-            "200 g carrots",
-            "200 g zucchini",
+            "200 g leeks, sliced",
+            "200 g carrots, thinly sliced",
+            "200 g zucchini, diced",
             "200 ml vegetable broth",
-            "2 tbsp cream (30 ml)",
-            "1 tbsp olive oil (15 ml)",
-            "Salt and pepper to taste"
+            "2 tablespoons cream (30 ml)",
+            "1 tablespoon olive oil (15 ml)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut all vegetables into slices or cubes.\n" +
-            "2. Heat oil in pot.\n" +
-            "3. Add vegetables and sauté 5 min.\n" +
-            "4. Add broth and cook 15 min until tender.\n" +
-            "5. Stir in cream, season, and serve hot."
+            "1. Wash the leeks, carrots, and zucchini thoroughly.\n" +
+            "2. Slice the leeks, cut the carrots into thin rounds, and dice the zucchini.\n" +
+            "3. Heat the olive oil in the pot over medium heat.\n" +
+            "4. Add the leeks and sauté for 2–3 minutes.\n" +
+            "5. Add the carrots and zucchini.\n" +
+            "6. Stir and cook for 5 minutes, stirring regularly.\n" +
+            "7. Pour in the vegetable broth.\n" +
+            "8. Cover and cook for 15 minutes until vegetables are tender.\n" +
+            "9. Stir in the cream using a whisk.\n" +
+            "10. Add salt and pepper and mix well.\n" +
+            "11. Simmer for 2 more minutes.\n" +
+            "12. Serve hot."
     },
+
     nl: {
-        title: "Groentefondue (Zwitserland, voor 4 personen)",
-        equipment: ["1 pot", "1 mes", "1 snijplank", "1 garde"],
+        title: "Groentefondue (Zwitserland)",
+        equipment: [
+            "1 grote pan",
+            "1 deksel",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 garde",
+            "1 soeplepel",
+            "1 kom"
+        ],
         ingredients: [
-            "200 g prei",
-            "200 g wortels",
-            "200 g courgette",
+            "200 g prei, in ringen",
+            "200 g wortels, in dunne plakjes",
+            "200 g courgette, in blokjes",
             "200 ml groentebouillon",
             "2 eetlepels room (30 ml)",
             "1 eetlepel olijfolie (15 ml)",
-            "Zout en peper naar smaak"
+            "1/2 theelepel zout",
+            "1/4 theelepel peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd alle groenten in plakjes of blokjes.\n" +
-            "2. Verhit olie in pot.\n" +
-            "3. Voeg groenten toe en bak 5 min.\n" +
-            "4. Voeg bouillon toe en kook 15 min tot gaar.\n" +
-            "5. Voeg room toe, breng op smaak en serveer warm."
+            "1. Was de prei, wortels en courgette grondig.\n" +
+            "2. Snijd de prei in ringen, de wortels in dunne plakjes en de courgette in blokjes.\n" +
+            "3. Verhit de olijfolie in de pan op middelhoog vuur.\n" +
+            "4. Voeg de prei toe en bak 2–3 minuten.\n" +
+            "5. Voeg wortels en courgette toe.\n" +
+            "6. Roer en bak 5 minuten, regelmatig roerend.\n" +
+            "7. Giet de groentebouillon erbij.\n" +
+            "8. Dek af en laat 15 minuten sudderen tot de groenten gaar zijn.\n" +
+            "9. Roer de room erdoor met een garde.\n" +
+            "10. Voeg zout en peper toe en meng goed.\n" +
+            "11. Laat nog 2 minuten zachtjes koken.\n" +
+            "12. Serveer warm."
     },
+
     ar: {
-        title: "فوندو الخضار (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "سكين", "لوح تقطيع", "خفاق"],
+        title: "فوندو الخضار (سويسرا)",
+        equipment: [
+            "قدر كبير",
+            "غطاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "خفاق",
+            "مغرفة",
+            "وعاء"
+        ],
         ingredients: [
-            "200 غ كرات",
-            "200 غ جزر",
-            "200 غ كوسة",
+            "200 غ كرات مقطع شرائح",
+            "200 غ جزر مقطع شرائح رفيعة",
+            "200 غ كوسة مقطعة مكعبات",
             "200 مل مرق خضار",
             "2 ملعقة كبيرة كريمة (30 مل)",
             "1 ملعقة كبيرة زيت زيتون (15 مل)",
-            "ملح وفلفل حسب الرغبة"
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع جميع الخضار إلى شرائح أو مكعبات.\n" +
-            "2. سخن الزيت في القدر.\n" +
-            "3. أضف الخضار وقلب 5 دقائق.\n" +
-            "4. أضف المرق واطبخ 15 دقيقة حتى تنضج.\n" +
-            "5. أضف الكريمة، تبّل وقدّم ساخناً."
+            "1. اغسل الكرات والجزر والكوسة جيداً.\n" +
+            "2. قطع الكرات إلى شرائح، والجزر إلى شرائح رفيعة، والكوسة إلى مكعبات.\n" +
+            "3. سخن زيت الزيتون في القدر على نار متوسطة.\n" +
+            "4. أضف الكرات وقلّب لمدة 2 إلى 3 دقائق.\n" +
+            "5. أضف الجزر والكوسة.\n" +
+            "6. قلّب واتركها تطهى 5 دقائق مع التحريك.\n" +
+            "7. أضف مرق الخضار.\n" +
+            "8. غطِّ القدر واتركه يطهى 15 دقيقة حتى تنضج الخضار.\n" +
+            "9. أضف الكريمة وامزج باستخدام الخفاق.\n" +
+            "10. أضف الملح والفلفل وامزج جيداً.\n" +
+            "11. اتركه يطهى دقيقتين إضافيتين.\n" +
+            "12. قدّم ساخناً."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 recipesData.plat.legumes_suisse = {
     country: "europe",
     countryName: "suisse",
