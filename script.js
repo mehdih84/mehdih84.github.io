@@ -58704,368 +58704,849 @@ recipesData.entree.fondue_legumes = {
 
 
 
-
-
-
-
-
-
 recipesData.plat.legumes_suisse = {
     country: "europe",
     countryName: "suisse",
-    image: "images/plat_legumes_suisse.jpg",
+    image: "images/plat-legumes-suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Plat de légumes (Suisse, 4 personnes)",
-        equipment: ["1 poêle", "1 couteau", "1 planche à découper"],
+        title: "Plat de légumes (Suisse)",
+        equipment: [
+            "1 grande poêle",
+            "1 couvercle",
+            "1 couteau",
+            "1 économe",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 spatule"
+        ],
         ingredients: [
-            "200 g carottes",
-            "200 g courgettes",
-            "200 g poireaux",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "Sel et poivre selon goût"
+            "200 g de carottes, coupées en rondelles",
+            "200 g de courgettes, coupées en demi-rondelles",
+            "200 g de poireaux, émincés",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper tous les légumes en morceaux.\n" +
-            "2. Chauffer l’huile et faire revenir les légumes 10-12 minutes.\n" +
-            "3. Assaisonner sel et poivre et servir chaud."
+            "1. Laver et préparer tous les légumes.\n" +
+            "2. Éplucher les carottes et les couper en rondelles.\n" +
+            "3. Couper les courgettes en demi-rondelles.\n" +
+            "4. Nettoyer les poireaux et les émincer finement.\n" +
+            "5. Chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "6. Ajouter les carottes et faire revenir 3 minutes.\n" +
+            "7. Ajouter les poireaux et poursuivre la cuisson 3 minutes.\n" +
+            "8. Incorporer les courgettes.\n" +
+            "9. Mélanger régulièrement et cuire 8 à 10 minutes jusqu’à ce que les légumes soient tendres mais encore légèrement croquants.\n" +
+            "10. Assaisonner avec le sel et le poivre.\n" +
+            "11. Mélanger une dernière fois et servir chaud."
     },
+
     en: {
-        title: "Swiss Vegetable Dish (Switzerland, Serves 4)",
-        equipment: ["1 pan", "1 knife", "1 cutting board"],
+        title: "Vegetable Dish (Switzerland)",
+        equipment: [
+            "1 large pan",
+            "1 lid",
+            "1 knife",
+            "1 peeler",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 spatula"
+        ],
         ingredients: [
-            "200 g carrots",
-            "200 g zucchini",
-            "200 g leeks",
-            "2 tbsp olive oil (30 ml)",
-            "Salt and pepper to taste"
+            "200 g carrots, sliced",
+            "200 g zucchini, sliced",
+            "200 g leeks, sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cut all vegetables into pieces.\n" +
-            "2. Heat oil and sauté vegetables 10-12 min.\n" +
-            "3. Season with salt and pepper and serve hot."
+            "1. Wash and prepare all vegetables.\n" +
+            "2. Peel the carrots and slice them.\n" +
+            "3. Slice the zucchini into half rounds.\n" +
+            "4. Clean and finely slice the leeks.\n" +
+            "5. Heat the olive oil in a large pan over medium heat.\n" +
+            "6. Add the carrots and sauté for 3 minutes.\n" +
+            "7. Add the leeks and cook for another 3 minutes.\n" +
+            "8. Stir in the zucchini.\n" +
+            "9. Cook for 8–10 minutes, stirring regularly, until vegetables are tender but slightly crisp.\n" +
+            "10. Season with salt and pepper.\n" +
+            "11. Stir once more and serve hot."
     },
+
     nl: {
-        title: "Zwitserse Groenteschotel (Zwitserland, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank"],
+        title: "Groenteschotel (Zwitserland)",
+        equipment: [
+            "1 grote pan",
+            "1 deksel",
+            "1 mes",
+            "1 dunschiller",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 spatel"
+        ],
         ingredients: [
-            "200 g wortels",
-            "200 g courgette",
-            "200 g prei",
+            "200 g wortels, in plakjes",
+            "200 g courgette, in halve plakjes",
+            "200 g prei, in ringen",
             "2 eetlepels olijfolie (30 ml)",
-            "Zout en peper naar smaak"
+            "1/2 theelepel zout",
+            "1/4 theelepel peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd alle groenten in stukken.\n" +
-            "2. Verhit olie en bak groenten 10-12 min.\n" +
-            "3. Breng op smaak met zout en peper en serveer warm."
+            "1. Was en bereid alle groenten.\n" +
+            "2. Schil de wortels en snijd ze in plakjes.\n" +
+            "3. Snijd de courgette in halve plakjes.\n" +
+            "4. Maak de prei schoon en snijd in dunne ringen.\n" +
+            "5. Verhit de olijfolie in een grote pan op middelhoog vuur.\n" +
+            "6. Voeg de wortels toe en bak 3 minuten.\n" +
+            "7. Voeg de prei toe en bak nog 3 minuten.\n" +
+            "8. Voeg de courgette toe.\n" +
+            "9. Bak 8–10 minuten en roer regelmatig tot de groenten gaar maar licht knapperig zijn.\n" +
+            "10. Breng op smaak met zout en peper.\n" +
+            "11. Roer nogmaals en serveer warm."
     },
+
     ar: {
-        title: "طبق خضار سويسري (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["مقلاة", "سكين", "لوح تقطيع"],
+        title: "طبق خضار (سويسرا)",
+        equipment: [
+            "مقلاة كبيرة",
+            "غطاء",
+            "سكين",
+            "مقشرة خضار",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "ملعقة مسطحة"
+        ],
         ingredients: [
-            "200 غ جزر",
-            "200 غ كوسة",
-            "200 غ كرات",
+            "200 غ جزر مقطع شرائح",
+            "200 غ كوسة مقطعة شرائح نصف دائرية",
+            "200 غ كرات مقطع شرائح",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "ملح وفلفل حسب الرغبة"
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع جميع الخضار إلى قطع.\n" +
-            "2. سخن الزيت واقلب الخضار 10-12 دقيقة.\n" +
-            "3. تبّل بالملح والفلفل وقدّم ساخناً."
+            "1. اغسل وجهّز جميع الخضار.\n" +
+            "2. قشر الجزر وقطعه إلى شرائح.\n" +
+            "3. قطع الكوسة إلى شرائح نصف دائرية.\n" +
+            "4. نظف الكرات وقطعه إلى شرائح رفيعة.\n" +
+            "5. سخن زيت الزيتون في مقلاة كبيرة على نار متوسطة.\n" +
+            "6. أضف الجزر وقلّبه لمدة 3 دقائق.\n" +
+            "7. أضف الكرات واطهه 3 دقائق إضافية.\n" +
+            "8. أضف الكوسة.\n" +
+            "9. اطه لمدة 8 إلى 10 دقائق مع التحريك حتى تنضج الخضار وتبقى مقرمشة قليلاً.\n" +
+            "10. أضف الملح والفلفل.\n" +
+            "11. حرّك مرة أخيرة وقدّم ساخناً."
     }
 };
 recipesData.plat.cordon_bleu_poulet = {
     country: "europe",
     countryName: "suisse",
-    image: "images/cordon_bleu_poulet_suisse.jpg",
+    image: "images/cordon-bleu-poulet-suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Cordon bleu de poulet (Suisse, 4 personnes)",
-        equipment: ["1 poêle", "1 couteau", "1 planche à découper"],
+        title: "Cordon bleu de poulet (Suisse)",
+        equipment: [
+            "1 grande poêle",
+            "1 couteau bien aiguisé",
+            "1 planche à découper",
+            "1 rouleau à pâtisserie ou attendrisseur",
+            "3 assiettes creuses",
+            "1 fourchette",
+            "1 spatule",
+            "1 essuie-tout"
+        ],
         ingredients: [
-            "4 escalopes de poulet",
-            "4 tranches de fromage",
-            "2 cuillères à soupe farine (20 g)",
+            "4 escalopes de poulet (environ 150 g chacune)",
+            "4 tranches de fromage à pâte dure",
+            "2 cuillères à soupe de farine (20 g)",
             "2 œufs",
-            "100 g chapelure",
-            "2 cuillères à soupe huile (30 ml)",
-            "Sel et poivre selon goût"
+            "100 g de chapelure",
+            "4 cuillères à soupe d’huile végétale (60 ml)",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Aplatir les escalopes de poulet.\n" +
-            "2. Placer le fromage sur chaque escalope et refermer.\n" +
-            "3. Passer dans farine, œuf battu, puis chapelure.\n" +
-            "4. Chauffer l’huile et cuire 6-8 min par côté.\n" +
-            "5. Servir chaud."
+            "1. Déposer chaque escalope entre deux feuilles de papier cuisson et l’aplatir à l’aide d’un rouleau.\n" +
+            "2. Assaisonner les deux côtés avec le sel et le poivre.\n" +
+            "3. Placer une tranche de fromage au centre de chaque escalope.\n" +
+            "4. Replier soigneusement l’escalope en deux et presser les bords pour bien enfermer le fromage.\n" +
+            "5. Préparer trois assiettes : une avec la farine, une avec les œufs battus, une avec la chapelure.\n" +
+            "6. Passer chaque cordon bleu dans la farine, puis dans l’œuf battu.\n" +
+            "7. Enrober ensuite de chapelure en appuyant légèrement.\n" +
+            "8. Chauffer l’huile dans la poêle à feu moyen.\n" +
+            "9. Déposer les cordons bleus dans la poêle chaude.\n" +
+            "10. Cuire 6 à 8 minutes de chaque côté jusqu’à ce qu’ils soient bien dorés et cuits à cœur.\n" +
+            "11. Égoutter sur du papier absorbant.\n" +
+            "12. Servir chaud."
     },
+
     en: {
-        title: "Chicken Cordon Bleu (Switzerland, Serves 4)",
-        equipment: ["1 pan", "1 knife", "1 cutting board"],
+        title: "Chicken Cordon Bleu (Switzerland)",
+        equipment: [
+            "1 large pan",
+            "1 sharp knife",
+            "1 cutting board",
+            "1 rolling pin or meat mallet",
+            "3 shallow plates",
+            "1 fork",
+            "1 spatula",
+            "1 paper towel"
+        ],
         ingredients: [
-            "4 chicken breasts",
-            "4 slices cheese",
-            "2 tbsp flour (20 g)",
+            "4 chicken breasts (about 150 g each)",
+            "4 slices firm cheese",
+            "2 tablespoons flour (20 g)",
             "2 eggs",
             "100 g breadcrumbs",
-            "2 tbsp oil (30 ml)",
-            "Salt and pepper to taste"
+            "4 tablespoons vegetable oil (60 ml)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Flatten chicken breasts.\n" +
-            "2. Place cheese inside and fold.\n" +
-            "3. Coat in flour, beaten egg, then breadcrumbs.\n" +
-            "4. Heat oil and cook 6-8 min per side.\n" +
-            "5. Serve hot."
+            "1. Place each chicken breast between two sheets of baking paper and flatten with a rolling pin.\n" +
+            "2. Season both sides with salt and pepper.\n" +
+            "3. Place one slice of cheese in the center of each breast.\n" +
+            "4. Fold the chicken over and press the edges firmly to seal.\n" +
+            "5. Prepare three plates: one with flour, one with beaten eggs, and one with breadcrumbs.\n" +
+            "6. Coat each piece first in flour, then in beaten egg.\n" +
+            "7. Finally coat with breadcrumbs, pressing lightly.\n" +
+            "8. Heat the oil in a pan over medium heat.\n" +
+            "9. Place the cordon bleus in the hot pan.\n" +
+            "10. Cook for 6–8 minutes per side until golden brown and fully cooked.\n" +
+            "11. Drain on paper towel.\n" +
+            "12. Serve hot."
     },
+
     nl: {
-        title: "Kip Cordon Bleu (Zwitserland, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank"],
+        title: "Kip Cordon Bleu (Zwitserland)",
+        equipment: [
+            "1 grote pan",
+            "1 scherp mes",
+            "1 snijplank",
+            "1 deegroller of vleeshamer",
+            "3 diepe borden",
+            "1 vork",
+            "1 spatel",
+            "1 keukenpapier"
+        ],
         ingredients: [
-            "4 kipfilets",
-            "4 plakjes kaas",
+            "4 kipfilets (ongeveer 150 g per stuk)",
+            "4 plakjes harde kaas",
             "2 eetlepels bloem (20 g)",
             "2 eieren",
             "100 g paneermeel",
-            "2 eetlepels olie (30 ml)",
-            "Zout en peper naar smaak"
+            "4 eetlepels plantaardige olie (60 ml)",
+            "1/2 theelepel zout",
+            "1/4 theelepel peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Plat de kipfilets.\n" +
-            "2. Leg kaas erop en vouw dicht.\n" +
-            "3. Haal door bloem, losgeklopt ei, dan paneermeel.\n" +
-            "4. Verhit olie en bak 6-8 min per kant.\n" +
-            "5. Serveer warm."
+            "1. Leg elke kipfilet tussen twee vellen bakpapier en sla plat met een deegroller.\n" +
+            "2. Breng beide kanten op smaak met zout en peper.\n" +
+            "3. Leg een plakje kaas in het midden van elke filet.\n" +
+            "4. Vouw de kip dicht en druk de randen stevig aan.\n" +
+            "5. Zet drie borden klaar: één met bloem, één met losgeklopte eieren en één met paneermeel.\n" +
+            "6. Haal elke cordon bleu eerst door de bloem, daarna door het ei.\n" +
+            "7. Bedek vervolgens met paneermeel en druk licht aan.\n" +
+            "8. Verhit de olie in de pan op middelhoog vuur.\n" +
+            "9. Leg de cordon bleus in de hete pan.\n" +
+            "10. Bak 6–8 minuten per kant tot goudbruin en gaar.\n" +
+            "11. Laat uitlekken op keukenpapier.\n" +
+            "12. Serveer warm."
     },
+
     ar: {
-        title: "كوردون بلو دجاج (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["مقلاة", "سكين", "لوح تقطيع"],
+        title: "كوردون بلو دجاج (سويسرا)",
+        equipment: [
+            "مقلاة كبيرة",
+            "سكين حاد",
+            "لوح تقطيع",
+            "مدلكة لحم أو نشابة",
+            "3 أطباق عميقة",
+            "شوكة",
+            "ملعقة مسطحة",
+            "ورق مطبخ"
+        ],
         ingredients: [
-            "4 صدور دجاج",
-            "4 شرائح جبن",
+            "4 صدور دجاج (حوالي 150 غ لكل قطعة)",
+            "4 شرائح جبن صلب",
             "2 ملعقة كبيرة دقيق (20 غ)",
             "2 بيض",
             "100 غ بقسماط",
-            "2 ملعقة كبيرة زيت (30 مل)",
-            "ملح وفلفل حسب الرغبة"
+            "4 ملاعق كبيرة زيت نباتي (60 مل)",
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. افرد صدور الدجاج.\n" +
-            "2. ضع الجبن داخل واغلقها.\n" +
-            "3. غلف بالدقيق، البيض المخفوق، ثم البقسماط.\n" +
-            "4. سخن الزيت واطبخ 6-8 دقائق لكل جانب.\n" +
-            "5. قدمها ساخنة."
+            "1. ضع كل صدر دجاج بين ورقتين خبز واضغط عليه بالنشابة حتى يصبح رقيقاً.\n" +
+            "2. تبّل الجانبين بالملح والفلفل.\n" +
+            "3. ضع شريحة جبن في وسط كل قطعة.\n" +
+            "4. اطوِ الدجاج وأغلق الحواف جيداً.\n" +
+            "5. حضّر ثلاثة أطباق: واحد للدقيق، واحد للبيض المخفوق، وواحد للبقسماط.\n" +
+            "6. غلّف كل قطعة بالدقيق ثم بالبيض.\n" +
+            "7. غلّفها بعد ذلك بالبقسماط مع الضغط الخفيف.\n" +
+            "8. سخّن الزيت في المقلاة على نار متوسطة.\n" +
+            "9. ضع قطع الكوردون بلو في الزيت الساخن.\n" +
+            "10. اطه لمدة 6 إلى 8 دقائق لكل جانب حتى يصبح لونها ذهبياً وتنضج تماماً.\n" +
+            "11. ضعها على ورق مطبخ لامتصاص الزيت الزائد.\n" +
+            "12. قدّمها ساخنة."
     }
 };
 recipesData.plat.raclette = {
     country: "europe",
     countryName: "suisse",
-    image: "images/raclette_suisse.jpg",
+    image: "images/raclette-suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Raclette (Suisse, 4 personnes)",
-        equipment: ["1 appareil à raclette", "1 couteau", "1 planche à découper"],
+        title: "Raclette (Suisse)",
+        equipment: [
+            "1 appareil à raclette (traditionnel ou moderne)",
+            "1 couteau",
+            "1 planche à découper",
+            "1 casserole",
+            "1 passoire",
+            "1 spatule",
+            "1 plat de service"
+        ],
         ingredients: [
-            "400 g fromage à raclette",
-            "400 g pommes de terre cuites",
-            "Cornichons et oignons au goût",
-            "Sel et poivre selon goût"
+            "400 g de fromage à raclette (en bloc pour appareil traditionnel ou en tranches pour appareil moderne)",
+            "400 g de pommes de terre",
+            "1 pain de campagne ou baguette, coupé en tranches",
+            "Cornichons au goût",
+            "Petits oignons au goût",
+            "1/2 cuillère à café de sel",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper le fromage en tranches.\n" +
-            "2. Cuire les pommes de terre et les garder au chaud.\n" +
-            "3. Faire fondre le fromage dans l’appareil à raclette.\n" +
-            "4. Verser sur les pommes de terre et accompagner de cornichons et oignons.\n" +
-            "5. Assaisonner sel et poivre et servir immédiatement."
+            "1. Laver les pommes de terre sans les éplucher.\n" +
+            "2. Les placer dans une casserole, couvrir d’eau froide et porter à ébullition.\n" +
+            "3. Cuire environ 20 minutes jusqu’à ce qu’elles soient tendres.\n" +
+            "4. Égoutter et garder au chaud.\n" +
+            "5. Couper le fromage en tranches adaptées à l’appareil ou préparer le bloc pour l’appareil traditionnel.\n" +
+            "6. Couper le pain en tranches et le disposer dans un plat de service.\n" +
+            "7. Disposer les accompagnements dans des plats de service.\n" +
+            "8. Faire fondre le fromage dans l’appareil à raclette.\n" +
+            "9. Verser le fromage fondu sur les pommes de terre chaudes ou sur le pain.\n" +
+            "10. Ajouter cornichons et petits oignons selon le goût.\n" +
+            "11. Assaisonner légèrement et servir immédiatement.\n\n" +
+            "==============================\n" +
+            "INFORMATIONS ET CONSEILS\n" +
+            "==============================\n\n" +
+            "Pour ce plat à raclette, il existe différentes manières de la préparer, toutes aussi conviviales les unes que les autres.\n" +
+            "À l’origine, la raclette est un plat hivernal venant des montagnes suisses.\n" +
+            "On pouvait prendre un bloc de fromage et le faire fondre au feu de bois, à l’extérieur ou dans un abri.\n" +
+            "Il existe aujourd’hui deux sortes d’appareils : le traditionnel, où l’on fait fondre un bloc de fromage que l’on racle au fur et à mesure pour le déposer sur du pain ou une pomme de terre, et le modèle moderne avec des petits poêlons individuels dans lesquels on place des tranches de fromage disponibles en différentes variétés.\n" +
+            "On peut trouver des plateaux déjà composés ou choisir directement ses fromages chez un fromager.\n" +
+            "Avec le deuxième type d’appareil, il est possible de cuire sur la pierre de la viande ou d’autres accompagnements.\n" +
+            "Pour conserver la pierre plus longtemps et faciliter le nettoyage, il est conseillé de passer un peu d’huile alimentaire sur toute la surface avant utilisation.\n" +
+            "Vous pouvez trouver les deux sortes d’appareils à raclette dans la rubrique boutique, avec différents modèles disponibles."
     },
+
     en: {
-        title: "Raclette (Switzerland, Serves 4)",
-        equipment: ["1 raclette grill", "1 knife", "1 cutting board"],
+        title: "Raclette (Switzerland)",
+        equipment: [
+            "1 raclette grill (traditional or modern)",
+            "1 knife",
+            "1 cutting board",
+            "1 pot",
+            "1 strainer",
+            "1 spatula",
+            "1 serving dish"
+        ],
         ingredients: [
-            "400 g raclette cheese",
-            "400 g boiled potatoes",
-            "Pickles and onions to taste",
-            "Salt and pepper to taste"
+            "400 g raclette cheese (block for traditional device or sliced for modern device)",
+            "400 g potatoes",
+            "1 country loaf or baguette, sliced",
+            "Pickles to taste",
+            "Small onions to taste",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Slice the cheese.\n" +
-            "2. Boil potatoes and keep warm.\n" +
-            "3. Melt cheese in the raclette grill.\n" +
-            "4. Pour over potatoes and serve with pickles and onions.\n" +
-            "5. Season with salt and pepper and serve immediately."
+            "1. Wash the potatoes without peeling them.\n" +
+            "2. Place them in a pot, cover with cold water and bring to a boil.\n" +
+            "3. Cook for about 20 minutes until tender.\n" +
+            "4. Drain and keep warm.\n" +
+            "5. Slice the cheese to fit the raclette grill or prepare the block for the traditional device.\n" +
+            "6. Slice the bread and arrange it on a serving dish.\n" +
+            "7. Arrange the side dishes on serving plates.\n" +
+            "8. Melt the cheese in the raclette grill.\n" +
+            "9. Pour the melted cheese over the warm potatoes or bread.\n" +
+            "10. Add pickles and onions to taste.\n" +
+            "11. Season lightly and serve immediately.\n\n" +
+            "==============================\n" +
+            "INFORMATION AND TIPS\n" +
+            "==============================\n\n" +
+            "There are different ways to prepare raclette, all equally convivial.\n" +
+            "Originally, raclette is a winter dish from the Swiss mountains.\n" +
+            "A block of cheese was melted over a wood fire, outdoors or in a shelter.\n" +
+            "Today, there are two types of devices: the traditional one, where a half wheel of cheese is melted and scraped onto bread or potatoes, and the modern one with small individual pans for slices of cheese available in various varieties.\n" +
+            "Ready-made cheese assortments can be found, or you can choose your own selection from a cheesemonger.\n" +
+            "With the modern device, meat or other accompaniments can be cooked on the stone plate.\n" +
+            "To preserve the stone and make cleaning easier, lightly brush it with oil before use.\n" +
+            "Both types of raclette grills are available in the shop section with different models."
     },
+
     nl: {
-        title: "Raclette (Zwitserland, voor 4 personen)",
-        equipment: ["1 raclette-apparaat", "1 mes", "1 snijplank"],
+        title: "Raclette (Zwitserland)",
+        equipment: [
+            "1 raclette-apparaat (traditioneel of modern)",
+            "1 mes",
+            "1 snijplank",
+            "1 pan",
+            "1 vergiet",
+            "1 spatel",
+            "1 serveerschaal"
+        ],
         ingredients: [
-            "400 g raclettekaas",
-            "400 g gekookte aardappelen",
-            "Augurken en uien naar smaak",
-            "Zout en peper naar smaak"
+            "400 g raclettekaas (blok voor traditioneel apparaat of plakjes voor modern apparaat)",
+            "400 g aardappelen",
+            "1 boerenbrood of baguette, in plakjes",
+            "Augurken naar smaak",
+            "Zilveruitjes naar smaak",
+            "1/2 theelepel zout",
+            "1/4 theelepel peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd de kaas in plakjes.\n" +
-            "2. Kook de aardappelen en houd warm.\n" +
-            "3. Smelt de kaas in het raclette-apparaat.\n" +
-            "4. Giet over de aardappelen en serveer met augurken en uien.\n" +
-            "5. Breng op smaak met zout en peper en serveer onmiddellijk."
+            "1. Was de aardappelen zonder ze te schillen.\n" +
+            "2. Doe ze in een pan, bedek met koud water en breng aan de kook.\n" +
+            "3. Kook ongeveer 20 minuten tot ze gaar zijn.\n" +
+            "4. Giet af en houd warm.\n" +
+            "5. Snijd de kaas in plakjes passend bij het apparaat of bereid het blok voor het traditionele apparaat.\n" +
+            "6. Snijd het brood in plakjes en leg het op een serveerschaal.\n" +
+            "7. Zet de bijgerechten klaar op serveerschalen.\n" +
+            "8. Smelt de kaas in het raclette-apparaat.\n" +
+            "9. Giet de gesmolten kaas over de warme aardappelen of het brood.\n" +
+            "10. Voeg augurken en uitjes toe naar smaak.\n" +
+            "11. Breng licht op smaak en serveer direct.\n\n" +
+            "==============================\n" +
+            "INFORMATIE EN TIPS\n" +
+            "==============================\n\n" +
+            "Er zijn verschillende manieren om raclette te bereiden, allemaal even gezellig.\n" +
+            "Oorspronkelijk is raclette een wintergerecht uit de Zwitserse bergen.\n" +
+            "Een stuk kaas werd gesmolten boven een houtvuur, buiten of in een schuilplaats.\n" +
+            "Vandaag bestaan er twee soorten apparaten: het traditionele model waarbij een halve kaas wordt gesmolten en afgeschaafd over brood of aardappelen, en het moderne model met kleine pannetjes voor plakjes kaas in verschillende varianten.\n" +
+            "Er zijn kant-en-klare kaasschotels verkrijgbaar of u kunt zelf een selectie kiezen bij een kaaswinkel.\n" +
+            "Bij het moderne apparaat kan men vlees of andere bijgerechten bakken op de steenplaat.\n" +
+            "Om de steen langer te behouden en het schoonmaken te vergemakkelijken, is het aan te raden deze licht met olie in te wrijven voor gebruik.\n" +
+            "Beide soorten raclette-apparaten zijn verkrijgbaar in de winkelrubriek met verschillende modellen."
     },
+
     ar: {
-        title: "راكلات (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["جهاز راكلات", "سكين", "لوح تقطيع"],
+        title: "راكلات (سويسرا)",
+        equipment: [
+            "جهاز راكلات (تقليدي أو حديث)",
+            "سكين",
+            "لوح تقطيع",
+            "قدر",
+            "مصفاة",
+            "ملعقة مسطحة",
+            "طبق تقديم"
+        ],
         ingredients: [
-            "400 غ جبن راكلات",
-            "400 غ بطاطس مسلوقة",
-            "مخللات وبصل حسب الرغبة",
-            "ملح وفلفل حسب الرغبة"
+            "400 غ جبن راكلات (قطعة كاملة للجهاز التقليدي أو شرائح للجهاز الحديث)",
+            "400 غ بطاطس",
+            "رغيف خبز قروي أو باغيت مقطع شرائح",
+            "مخللات حسب الرغبة",
+            "بصل صغير حسب الرغبة",
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الجبن إلى شرائح.\n" +
-            "2. اطبخ البطاطس وحافظ عليها دافئة.\n" +
-            "3. قم بإذابة الجبن في جهاز الراكلات.\n" +
-            "4. صب الجبن على البطاطس وقدم مع المخللات والبصل.\n" +
-            "5. تبّل بالملح والفلفل وقدّم فوراً."
+            "1. اغسل البطاطس دون تقشيرها.\n" +
+            "2. ضعها في قدر وغطها بالماء البارد واتركها تغلي.\n" +
+            "3. اطبخها حوالي 20 دقيقة حتى تنضج.\n" +
+            "4. صفِّها وحافظ عليها دافئة.\n" +
+            "5. قطّع الجبن إلى شرائح مناسبة للجهاز أو حضّر القطعة الكاملة للجهاز التقليدي.\n" +
+            "6. قطّع الخبز إلى شرائح وضعه في طبق التقديم.\n" +
+            "7. جهّز المخللات والبصل في أطباق تقديم.\n" +
+            "8. أذب الجبن في جهاز الراكلات.\n" +
+            "9. اسكب الجبن المذاب فوق البطاطس الساخنة أو فوق الخبز.\n" +
+            "10. أضف المخللات والبصل حسب الرغبة.\n" +
+            "11. تبّل قليلاً وقدّم فوراً.\n\n" +
+            "==============================\n" +
+            "معلومات ونصائح\n" +
+            "==============================\n\n" +
+            "هناك طرق متعددة لتحضير الراكلات، وجميعها تضفي أجواءً دافئة وممتعة.\n" +
+            "في الأصل، الراكلات طبق شتوي قادم من جبال سويسرا.\n" +
+            "كان يتم إذابة قطعة جبن كبيرة على نار الحطب في الهواء الطلق أو داخل مأوى.\n" +
+            "يوجد اليوم نوعان من الأجهزة: التقليدي حيث يتم إذابة نصف قالب جبن وكشطه تدريجياً فوق الخبز أو البطاطس، والحديث الذي يحتوي على أوعية صغيرة فردية توضع فيها شرائح الجبن المتوفرة بأنواع مختلفة.\n" +
+            "يمكن شراء أطباق جبن جاهزة أو اختيار الأنواع مباشرة من متجر الأجبان.\n" +
+            "في الجهاز الحديث يمكن طهي اللحم أو المرافق الأخرى على الحجر العلوي.\n" +
+            "للحفاظ على الحجر وتسهيل التنظيف، يُنصح بدهنه بقليل من الزيت قبل الاستعمال.\n" +
+            "يمكن العثور على كلا النوعين من أجهزة الراكلات في قسم المتجر مع توفر نماذج مختلفة."
     }
 };
 recipesData.plat.fondue = {
     country: "europe",
     countryName: "suisse",
     image: "images/fondue_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Fondue suisse (4 personnes)",
-        equipment: ["1 caquelon à fondue", "1 cuillère en bois", "1 fourchette à fondue"],
+        title: "Fondue (Suisse)",
+        equipment: [
+            "1 caquelon à fondue",
+            "1 réchaud à fondue",
+            "1 cuillère en bois",
+            "4 fourchettes à fondue",
+            "1 couteau",
+            "1 planche à découper",
+            "1 bol"
+        ],
         ingredients: [
-            "400 g fromage suisse râpé (Gruyère et Emmental)",
-            "200 ml bouillon de légumes",
+            "400 g de fromage suisse râpé (Gruyère et Emmental)",
+            "200 ml de bouillon de légumes",
             "1 gousse d’ail",
-            "1 cuillère à café fécule de maïs (3 g)",
-            "Pain coupé en cubes pour tremper",
+            "1 cuillère à café de fécule de maïs (3 g)",
+            "1 pain de campagne coupé en cubes",
             "Poivre selon goût"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Frotter le caquelon avec la gousse d’ail.\n" +
-            "2. Chauffer le bouillon puis ajouter le fromage progressivement.\n" +
-            "3. Dissoudre la fécule dans un peu de bouillon et ajouter pour épaissir.\n" +
-            "4. Remuer jusqu’à obtenir un mélange lisse.\n" +
-            "5. Poivrer selon goût.\n" +
-            "6. Tremper les cubes de pain et servir chaud."
+            "1. Couper le pain en cubes et réserver.\n" +
+            "2. Frotter l’intérieur du caquelon avec la gousse d’ail coupée en deux.\n" +
+            "3. Verser le bouillon de légumes dans le caquelon et chauffer à feu doux.\n" +
+            "4. Ajouter le fromage râpé progressivement en remuant avec une cuillère en bois.\n" +
+            "5. Mélanger jusqu’à ce que le fromage soit complètement fondu.\n" +
+            "6. Dissoudre la fécule de maïs dans un petit bol avec un peu de bouillon froid.\n" +
+            "7. Ajouter le mélange dans le caquelon et remuer pour épaissir légèrement.\n" +
+            "8. Poivrer selon le goût.\n" +
+            "9. Placer le caquelon sur le réchaud au centre de la table.\n" +
+            "10. Tremper les cubes de pain dans le fromage fondu et servir immédiatement."
     },
+
     en: {
-        title: "Swiss Fondue (Serves 4)",
-        equipment: ["1 fondue pot", "1 wooden spoon", "1 fondue fork"],
+        title: "Fondue (Switzerland)",
+        equipment: [
+            "1 fondue pot",
+            "1 fondue burner",
+            "1 wooden spoon",
+            "4 fondue forks",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl"
+        ],
         ingredients: [
             "400 g grated Swiss cheese (Gruyère and Emmental)",
             "200 ml vegetable broth",
             "1 garlic clove",
-            "1 tsp cornstarch (3 g)",
-            "Bread cubes for dipping",
+            "1 teaspoon cornstarch (3 g)",
+            "1 country loaf cut into cubes",
             "Pepper to taste"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Rub the fondue pot with garlic.\n" +
-            "2. Heat broth and gradually add cheese.\n" +
-            "3. Dissolve cornstarch in a little broth and add to thicken.\n" +
-            "4. Stir until smooth.\n" +
-            "5. Season with pepper.\n" +
-            "6. Dip bread cubes and serve hot."
+            "1. Cut the bread into cubes and set aside.\n" +
+            "2. Rub the inside of the fondue pot with the halved garlic clove.\n" +
+            "3. Pour the vegetable broth into the pot and heat gently.\n" +
+            "4. Gradually add the grated cheese while stirring with a wooden spoon.\n" +
+            "5. Stir until the cheese is completely melted.\n" +
+            "6. Dissolve the cornstarch in a small bowl with a little cold broth.\n" +
+            "7. Add it to the pot and stir to slightly thicken the mixture.\n" +
+            "8. Season with pepper to taste.\n" +
+            "9. Place the pot on the burner at the center of the table.\n" +
+            "10. Dip the bread cubes into the melted cheese and serve immediately."
     },
+
     nl: {
-        title: "Zwitserse Fondue (voor 4 personen)",
-        equipment: ["1 fonduepot", "1 houten lepel", "1 fonduevork"],
+        title: "Fondue (Zwitserland)",
+        equipment: [
+            "1 fonduepot",
+            "1 fonduebrander",
+            "1 houten lepel",
+            "4 fonduevorken",
+            "1 mes",
+            "1 snijplank",
+            "1 kom"
+        ],
         ingredients: [
             "400 g geraspte Zwitserse kaas (Gruyère en Emmentaler)",
             "200 ml groentebouillon",
             "1 teentje knoflook",
-            "1 tl maïzena (3 g)",
-            "Broodblokjes om te dippen",
+            "1 theelepel maïzena (3 g)",
+            "1 boerenbrood in blokjes gesneden",
             "Peper naar smaak"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Wrijf de fonduepot in met knoflook.\n" +
-            "2. Verhit bouillon en voeg geleidelijk kaas toe.\n" +
-            "3. Los maïzena op in wat bouillon en voeg toe om te verdikken.\n" +
-            "4. Roer tot een glad mengsel.\n" +
-            "5. Breng op smaak met peper.\n" +
-            "6. Dip broodblokjes en serveer warm."
+            "1. Snijd het brood in blokjes en zet apart.\n" +
+            "2. Wrijf de binnenkant van de fonduepot in met het doorgesneden teentje knoflook.\n" +
+            "3. Giet de groentebouillon in de pot en verwarm zachtjes.\n" +
+            "4. Voeg geleidelijk de geraspte kaas toe terwijl je roert met een houten lepel.\n" +
+            "5. Roer tot de kaas volledig gesmolten is.\n" +
+            "6. Los de maïzena op in een kleine kom met wat koude bouillon.\n" +
+            "7. Voeg dit toe aan de pot en roer om licht te verdikken.\n" +
+            "8. Breng op smaak met peper.\n" +
+            "9. Zet de pot op de brander in het midden van de tafel.\n" +
+            "10. Dip de broodblokjes in de gesmolten kaas en serveer direct."
     },
+
     ar: {
-        title: "فوندو سويسري (تكفي 4 أشخاص)",
-        equipment: ["قدر فوندو", "ملعقة خشبية", "شوكة فوندو"],
+        title: "فوندو (سويسرا)",
+        equipment: [
+            "قدر فوندو",
+            "موقد فوندو",
+            "ملعقة خشبية",
+            "4 شوك فوندو",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء صغير"
+        ],
         ingredients: [
             "400 غ جبن سويسري مبشور (غرويير وإمنتال)",
             "200 مل مرق خضار",
             "1 فص ثوم",
             "1 ملعقة صغيرة نشا الذرة (3 غ)",
-            "مكعبات خبز للتغميس",
+            "رغيف خبز قروي مقطع مكعبات",
             "فلفل حسب الرغبة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. افرك القدر بالفص الثوم.\n" +
-            "2. سخّن المرق وأضف الجبن تدريجياً.\n" +
-            "3. أذِب النشا في قليل من المرق وأضفه للتكثيف.\n" +
-            "4. قلب حتى يصبح المزيج ناعماً.\n" +
-            "5. تبّل بالفلفل.\n" +
-            "6. اغمس مكعبات الخبز وقدّم ساخناً."
+            "1. قطّع الخبز إلى مكعبات واتركه جانباً.\n" +
+            "2. افرك داخل قدر الفوندو بفص الثوم المقطوع نصفين.\n" +
+            "3. اسكب مرق الخضار في القدر وسخّنه على نار هادئة.\n" +
+            "4. أضف الجبن المبشور تدريجياً مع التحريك بملعقة خشبية.\n" +
+            "5. حرّك حتى يذوب الجبن تماماً.\n" +
+            "6. أذِب نشا الذرة في وعاء صغير مع قليل من المرق البارد.\n" +
+            "7. أضف الخليط إلى القدر وحرّك حتى يتكاثف قليلاً.\n" +
+            "8. تبّل بالفلفل حسب الرغبة.\n" +
+            "9. ضع القدر على الموقد في وسط المائدة.\n" +
+            "10. اغمس مكعبات الخبز في الجبن المذاب وقدّم فوراً."
     }
 };
+recipesData.plat.fondue_viande = {
+    country: "europe",
+    countryName: "suisse",
+    image: "images/fondue_viande_suisse.jpg",
 
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
+    fr: {
+        title: "Fondue à la viande (Suisse)",
+        equipment: [
+            "1 caquelon ou marmite à fondue",
+            "1 réchaud à fondue",
+            "1 écumoire",
+            "4 fourchettes à fondue",
+            "1 couteau",
+            "1 planche à découper",
+            "4 petites assiettes",
+            "4 petits bols"
+        ],
+        ingredients: [
+            "800 g de viande (bœuf ou poulet) coupée en cubes",
+            "1 litre de bouillon de légumes",
+            "1 pincée de sel",
+            "1 pincée de poivre",
+            "Sauces au choix (sauce à l’ail, sauce tomate, sauce au yaourt)",
+            "Pain ou pommes de terre en accompagnement"
+        ],
+        preparation:
+            "1. Couper la viande en cubes réguliers et les répartir dans des assiettes.\n" +
+            "2. Verser le bouillon de légumes dans le caquelon.\n" +
+            "3. Chauffer jusqu’à légère ébullition.\n" +
+            "4. Placer le caquelon sur le réchaud au centre de la table.\n" +
+            "5. Piquer un morceau de viande avec une fourchette à fondue.\n" +
+            "6. Plonger la viande dans le bouillon chaud.\n" +
+            "7. Laisser cuire 2 à 3 minutes selon la cuisson souhaitée.\n" +
+            "8. Retirer à l’aide de l’écumoire si nécessaire.\n" +
+            "9. Assaisonner légèrement avec sel et poivre.\n" +
+            "10. Tremper dans la sauce de votre choix.\n" +
+            "11. Servir avec du pain ou des pommes de terre chaudes."
+    },
+
+    en: {
+        title: "Meat Fondue (Switzerland)",
+        equipment: [
+            "1 fondue pot",
+            "1 fondue burner",
+            "1 skimmer",
+            "4 fondue forks",
+            "1 knife",
+            "1 cutting board",
+            "4 small plates",
+            "4 small bowls"
+        ],
+        ingredients: [
+            "800 g meat (beef or chicken) cut into cubes",
+            "1 liter vegetable broth",
+            "A pinch of salt",
+            "A pinch of pepper",
+            "Sauces of choice (garlic sauce, tomato sauce, yogurt sauce)",
+            "Bread or potatoes as side"
+        ],
+        preparation:
+            "1. Cut the meat into even cubes and place on plates.\n" +
+            "2. Pour the vegetable broth into the fondue pot.\n" +
+            "3. Heat until gently boiling.\n" +
+            "4. Place the pot on the burner in the center of the table.\n" +
+            "5. Spear a piece of meat with a fondue fork.\n" +
+            "6. Dip the meat into the hot broth.\n" +
+            "7. Cook for 2 to 3 minutes depending on desired doneness.\n" +
+            "8. Remove carefully using a skimmer if needed.\n" +
+            "9. Season lightly with salt and pepper.\n" +
+            "10. Dip into your preferred sauce.\n" +
+            "11. Serve with bread or warm potatoes."
+    },
+
+    nl: {
+        title: "Vleesfondue (Zwitserland)",
+        equipment: [
+            "1 fonduepot",
+            "1 fonduebrander",
+            "1 schuimspaan",
+            "4 fonduevorken",
+            "1 mes",
+            "1 snijplank",
+            "4 kleine borden",
+            "4 kleine kommetjes"
+        ],
+        ingredients: [
+            "800 g vlees (rund of kip) in blokjes",
+            "1 liter groentebouillon",
+            "Snufje zout",
+            "Snufje peper",
+            "Sauzen naar keuze (knoflooksaus, tomatensaus, yoghurtsaus)",
+            "Brood of aardappelen als bijgerecht"
+        ],
+        preparation:
+            "1. Snijd het vlees in gelijke blokjes en verdeel over borden.\n" +
+            "2. Giet de groentebouillon in de fonduepot.\n" +
+            "3. Verwarm tot het zachtjes kookt.\n" +
+            "4. Plaats de pot op de brander in het midden van de tafel.\n" +
+            "5. Prik een stuk vlees aan een fonduevork.\n" +
+            "6. Dompel het vlees in de hete bouillon.\n" +
+            "7. Bak 2 tot 3 minuten naar gewenste gaarheid.\n" +
+            "8. Haal voorzichtig uit met een schuimspaan indien nodig.\n" +
+            "9. Breng licht op smaak met zout en peper.\n" +
+            "10. Dip in een saus naar keuze.\n" +
+            "11. Serveer met brood of warme aardappelen."
+    },
+
+    ar: {
+        title: "فوندو باللحم (سويسرا)",
+        equipment: [
+            "قدر فوندو",
+            "موقد فوندو",
+            "ملعقة مثقبة",
+            "4 شوك فوندو",
+            "سكين",
+            "لوح تقطيع",
+            "4 أطباق صغيرة",
+            "4 أوعية صغيرة"
+        ],
+        ingredients: [
+            "800 غ لحم (بقر أو دجاج) مقطع مكعبات",
+            "1 لتر مرق خضار",
+            "رشة ملح",
+            "رشة فلفل",
+            "صلصات حسب الاختيار (صلصة ثوم، صلصة طماطم، صلصة زبادي)",
+            "خبز أو بطاطس كمرافق"
+        ],
+        preparation:
+            "1. قطّع اللحم إلى مكعبات متساوية ووزّعه على الأطباق.\n" +
+            "2. اسكب مرق الخضار في قدر الفوندو.\n" +
+            "3. سخّن حتى يبدأ بالغليان الخفيف.\n" +
+            "4. ضع القدر على الموقد في وسط المائدة.\n" +
+            "5. اغرس قطعة لحم في شوكة الفوندو.\n" +
+            "6. اغمس اللحم في المرق الساخن.\n" +
+            "7. اتركه يطهى لمدة 2 إلى 3 دقائق حسب درجة النضج المطلوبة.\n" +
+            "8. أخرجه بحذر باستخدام الملعقة المثقبة عند الحاجة.\n" +
+            "9. أضف رشة ملح وفلفل.\n" +
+            "10. اغمس في الصلصة المفضلة.\n" +
+            "11. قدّم مع الخبز أو البطاطس الساخنة."
+    }
+};
 recipesData.plat.roesti_legumes_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/roesti_legumes_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Rösti aux légumes (Suisse, 4 personnes)",
+        title: "Rösti aux légumes (Suisse)",
         equipment: [
             "1 grande poêle antiadhésive",
             "1 râpe à légumes",
-            "1 cuillère en bois",
-            "1 planche à découper",
             "1 couteau",
-            "1 bol",
+            "1 planche à découper",
+            "1 grand bol",
+            "1 torchon propre",
+            "1 cuillère en bois ou spatule",
+            "1 assiette large (pour retourner)",
             "1 balance de cuisine"
         ],
         ingredients: [
-            "600 g pommes de terre, pelées et râpées",
+            "600 g de pommes de terre, pelées et râpées",
             "1 carotte (100 g), râpée",
             "1 courgette (150 g), râpée",
-            "1 oignon (100 g), haché finement",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)"
+            "1 oignon (100 g), finement haché",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Râper les pommes de terre, carotte et courgette. Presser pour enlever l’excès d’eau.\n" +
-            "2. Dans un bol, mélanger les légumes râpés et l’oignon, ajouter sel et poivre.\n" +
-            "3. Chauffer l’huile dans la poêle à feu moyen.\n" +
-            "4. Verser le mélange de légumes dans la poêle et étaler uniformément.\n" +
-            "5. Cuire 8-10 minutes jusqu’à ce que le dessous soit doré.\n" +
-            "6. Retourner délicatement le rösti à l’aide d’une assiette et faire cuire encore 8-10 minutes.\n" +
-            "7. Servir chaud comme plat principal ou accompagnement."
+            "1. Râper les pommes de terre, la carotte et la courgette.\n" +
+            "2. Déposer les légumes râpés dans un torchon propre et presser fortement pour retirer un maximum d’eau.\n" +
+            "3. Mettre les légumes essorés dans un grand bol.\n" +
+            "4. Ajouter l’oignon haché, le sel et le poivre.\n" +
+            "5. Mélanger soigneusement afin de bien répartir les ingrédients.\n" +
+            "6. Chauffer l’huile dans la poêle à feu moyen.\n" +
+            "7. Verser le mélange dans la poêle et tasser avec une spatule pour former une galette compacte et régulière.\n" +
+            "8. Cuire environ 8 à 10 minutes jusqu’à ce que le dessous soit bien doré et croustillant.\n" +
+            "9. Poser une grande assiette sur la poêle et retourner délicatement le rösti.\n" +
+            "10. Faire glisser le rösti dans la poêle et cuire encore 8 à 10 minutes.\n" +
+            "11. Servir chaud, coupé en parts."
     },
+
     en: {
-        title: "Vegetable Rösti (Switzerland, Serves 4)",
+        title: "Vegetable Rösti (Switzerland)",
         equipment: [
             "1 large non-stick pan",
             "1 vegetable grater",
-            "1 wooden spoon",
-            "1 cutting board",
             "1 knife",
-            "1 bowl",
+            "1 cutting board",
+            "1 large bowl",
+            "1 clean kitchen towel",
+            "1 wooden spoon or spatula",
+            "1 large plate (for flipping)",
             "1 kitchen scale"
         ],
         ingredients: [
@@ -59073,29 +59554,35 @@ recipesData.plat.roesti_legumes_suisse = {
             "1 carrot (100 g), grated",
             "1 zucchini (150 g), grated",
             "1 onion (100 g), finely chopped",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon pepper (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Grate potatoes, carrot, and zucchini. Squeeze out excess water.\n" +
-            "2. In a bowl, mix grated vegetables with onion, add salt and pepper.\n" +
-            "3. Heat oil in pan over medium heat.\n" +
-            "4. Pour vegetable mixture into pan and spread evenly.\n" +
-            "5. Cook 8-10 minutes until the bottom is golden.\n" +
-            "6. Carefully flip the rösti using a plate and cook another 8-10 minutes.\n" +
-            "7. Serve hot as main dish or side."
+            "1. Grate the potatoes, carrot, and zucchini.\n" +
+            "2. Place the grated vegetables in a clean kitchen towel and squeeze firmly to remove excess moisture.\n" +
+            "3. Transfer the drained vegetables to a large bowl.\n" +
+            "4. Add the chopped onion, salt, and pepper.\n" +
+            "5. Mix thoroughly to combine.\n" +
+            "6. Heat the oil in the pan over medium heat.\n" +
+            "7. Add the mixture to the pan and press it down with a spatula to form a compact, even layer.\n" +
+            "8. Cook for 8 to 10 minutes until the bottom is golden and crispy.\n" +
+            "9. Place a large plate over the pan and carefully flip the rösti.\n" +
+            "10. Slide it back into the pan and cook another 8 to 10 minutes.\n" +
+            "11. Serve hot, cut into portions."
     },
+
     nl: {
-        title: "Groente Rösti (Zwitserland, voor 4 personen)",
+        title: "Groente Rösti (Zwitserland)",
         equipment: [
             "1 grote antiaanbakpan",
             "1 groenterasp",
-            "1 houten lepel",
-            "1 snijplank",
             "1 mes",
-            "1 kom",
+            "1 snijplank",
+            "1 grote kom",
+            "1 schone keukendoek",
+            "1 houten lepel of spatel",
+            "1 groot bord (om om te draaien)",
             "1 keukenweegschaal"
         ],
         ingredients: [
@@ -59104,624 +59591,1157 @@ recipesData.plat.roesti_legumes_suisse = {
             "1 courgette (150 g), geraspt",
             "1 ui (100 g), fijngehakt",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)"
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel peper (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Rasp aardappelen, wortel en courgette. Knijp overtollig vocht eruit.\n" +
-            "2. Meng in een kom de geraspte groenten met ui, voeg zout en peper toe.\n" +
-            "3. Verhit olie in pan op middelhoog vuur.\n" +
-            "4. Doe het groentemengsel in de pan en spreid gelijkmatig uit.\n" +
-            "5. Bak 8-10 minuten tot de onderkant goudbruin is.\n" +
-            "6. Draai de rösti voorzichtig met een bord om en bak nog eens 8-10 minuten.\n" +
-            "7. Serveer warm als hoofdgerecht of bijgerecht."
+            "1. Rasp de aardappelen, wortel en courgette.\n" +
+            "2. Doe de geraspte groenten in een schone keukendoek en knijp zoveel mogelijk vocht eruit.\n" +
+            "3. Doe de uitgelekte groenten in een grote kom.\n" +
+            "4. Voeg de fijngehakte ui, zout en peper toe.\n" +
+            "5. Meng alles goed door elkaar.\n" +
+            "6. Verhit de olie in de pan op middelhoog vuur.\n" +
+            "7. Doe het mengsel in de pan en druk het aan tot een stevige, gelijkmatige laag.\n" +
+            "8. Bak 8 tot 10 minuten tot de onderkant goudbruin en krokant is.\n" +
+            "9. Leg een groot bord op de pan en draai de rösti voorzichtig om.\n" +
+            "10. Laat terug in de pan glijden en bak nog 8 tot 10 minuten.\n" +
+            "11. Serveer warm, in stukken gesneden."
     },
+
     ar: {
-        title: "روستي بالخضار (سويسرا، تكفي 4 أشخاص)",
+        title: "روستي بالخضار (سويسرا)",
         equipment: [
-            "1 مقلاة كبيرة غير لاصقة",
-            "1 مبشرة خضار",
-            "1 ملعقة خشبية",
-            "1 لوح تقطيع",
-            "1 سكين",
-            "1 وعاء",
-            "1 ميزان مطبخ"
+            "مقلاة كبيرة غير لاصقة",
+            "مبشرة خضار",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء كبير",
+            "منشفة مطبخ نظيفة",
+            "ملعقة خشبية أو ملعقة مسطحة",
+            "طبق كبير (للقلب)",
+            "ميزان مطبخ"
         ],
         ingredients: [
-            "600 غ بطاطس، مقشرة ومبشورة",
-            "1 جزرة (100 غ)، مبشورة",
-            "1 كوسة (150 غ)، مبشورة",
-            "1 بصل (100 غ)، مفروم ناعماً",
+            "600 غ بطاطس مقشرة ومبشورة",
+            "1 جزرة (100 غ) مبشورة",
+            "1 كوسة (150 غ) مبشورة",
+            "1 بصلة (100 غ) مفرومة ناعماً",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. ابشر البطاطس والجزر والكوسة، واعصر الماء الزائد.\n" +
-            "2. في وعاء، اخلط الخضار المبشورة مع البصل، أضف الملح والفلفل.\n" +
-            "3. سخن الزيت في المقلاة على حرارة متوسطة.\n" +
-            "4. ضع خليط الخضار في المقلاة وافرده بالتساوي.\n" +
-            "5. اطبخ 8-10 دقائق حتى يصبح القاع ذهبي.\n" +
-            "6. اقلب الروستي بحذر باستخدام طبق، واطبخ 8-10 دقائق أخرى.\n" +
-            "7. قدمه ساخناً كطبق رئيسي أو جانبي."
+            "1. ابشر البطاطس والجزر والكوسة.\n" +
+            "2. ضع الخضار المبشورة في منشفة مطبخ نظيفة واعصرها جيداً للتخلص من الماء الزائد.\n" +
+            "3. انقل الخضار المعصورة إلى وعاء كبير.\n" +
+            "4. أضف البصل المفروم والملح والفلفل.\n" +
+            "5. اخلط المكونات جيداً.\n" +
+            "6. سخن الزيت في المقلاة على نار متوسطة.\n" +
+            "7. ضع الخليط في المقلاة واضغط عليه لتشكيل طبقة متماسكة ومتساوية.\n" +
+            "8. اطهه لمدة 8 إلى 10 دقائق حتى يصبح القاع ذهبياً ومقرمشاً.\n" +
+            "9. ضع طبقاً كبيراً فوق المقلاة واقلب الروستي بحذر.\n" +
+            "10. أعده إلى المقلاة واطهه 8 إلى 10 دقائق أخرى.\n" +
+            "11. قدّمه ساخناً ومقطعاً إلى أجزاء."
     }
 };
+
+
+
+
+
+
+
+
+
+
 recipesData.dessert.tarte_pommes_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/tarte_pommes_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tarte aux pommes (Suisse, 4 personnes)",
-        equipment: ["1 moule à tarte", "1 couteau", "1 planche à découper", "1 four"],
+        title: "Tarte aux pommes (Suisse)",
+        equipment: [
+            "1 moule à tarte (24 cm)",
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 éplucheur",
+            "1 cuillère",
+            "1 four"
+        ],
         ingredients: [
-            "1 pâte brisée",
+            "1 pâte brisée (250 g)",
             "4 pommes",
-            "30 g sucre",
-            "1 cuillère à café cannelle",
-            "10 g beurre"
+            "30 g de sucre",
+            "1 cuillère à café de cannelle",
+            "10 g de beurre",
+            "1 cuillère à soupe de jus de citron"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Étaler la pâte dans le moule.\n" +
-            "3. Éplucher et couper les pommes en fines tranches.\n" +
-            "4. Disposer les pommes sur la pâte.\n" +
-            "5. Saupoudrer sucre et cannelle, ajouter quelques noisettes de beurre.\n" +
-            "6. Cuire 30-35 minutes jusqu’à doré.\n" +
-            "7. Laisser refroidir avant de servir."
+            "2. Étaler la pâte brisée dans le moule et piquer le fond avec une fourchette.\n" +
+            "3. Éplucher les pommes, retirer le cœur et les couper en fines tranches.\n" +
+            "4. Mettre les tranches dans un saladier et ajouter le jus de citron pour éviter qu’elles ne noircissent.\n" +
+            "5. Disposer harmonieusement les pommes sur la pâte.\n" +
+            "6. Saupoudrer de sucre et de cannelle.\n" +
+            "7. Répartir le beurre en petites noisettes sur le dessus.\n" +
+            "8. Enfourner pendant 30 à 35 minutes jusqu’à ce que la tarte soit dorée.\n" +
+            "9. Laisser tiédir avant de servir."
     },
+
     en: {
-        title: "Apple Tart (Switzerland, Serves 4)",
-        equipment: ["1 tart pan", "1 knife", "1 cutting board", "1 oven"],
+        title: "Apple Tart (Switzerland)",
+        equipment: [
+            "1 tart pan (24 cm)",
+            "1 mixing bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 peeler",
+            "1 spoon",
+            "1 oven"
+        ],
         ingredients: [
-            "1 shortcrust pastry",
+            "1 shortcrust pastry (250 g)",
             "4 apples",
             "30 g sugar",
-            "1 tsp cinnamon",
-            "10 g butter"
+            "1 teaspoon cinnamon",
+            "10 g butter",
+            "1 tablespoon lemon juice"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Spread pastry in the pan.\n" +
-            "3. Peel and slice apples thinly.\n" +
-            "4. Arrange apples on pastry.\n" +
-            "5. Sprinkle sugar and cinnamon, add butter.\n" +
-            "6. Bake 30-35 minutes until golden.\n" +
-            "7. Cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Roll out the pastry in the tart pan and prick the base with a fork.\n" +
+            "3. Peel the apples, remove the cores and slice them thinly.\n" +
+            "4. Place the slices in a bowl and add lemon juice to prevent browning.\n" +
+            "5. Arrange the apple slices evenly over the pastry.\n" +
+            "6. Sprinkle with sugar and cinnamon.\n" +
+            "7. Dot the top with small pieces of butter.\n" +
+            "8. Bake for 30 to 35 minutes until golden.\n" +
+            "9. Let cool slightly before serving."
     },
+
     nl: {
-        title: "Appeltaart (Zwitserland, voor 4 personen)",
-        equipment: ["1 taartvorm", "1 mes", "1 snijplank", "1 oven"],
+        title: "Appeltaart (Zwitserland)",
+        equipment: [
+            "1 taartvorm (24 cm)",
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 dunschiller",
+            "1 lepel",
+            "1 oven"
+        ],
         ingredients: [
-            "1 zanddeeg",
+            "1 zanddeeg (250 g)",
             "4 appels",
             "30 g suiker",
-            "1 tl kaneel",
-            "10 g boter"
+            "1 theelepel kaneel",
+            "10 g boter",
+            "1 eetlepel citroensap"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Leg deeg in de vorm.\n" +
-            "3. Schil en snijd appels in dunne plakjes.\n" +
-            "4. Leg appels op het deeg.\n" +
-            "5. Bestrooi met suiker en kaneel, voeg boter toe.\n" +
-            "6. Bak 30-35 minuten tot goudbruin.\n" +
-            "7. Laat afkoelen voor serveren."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Leg het deeg in de taartvorm en prik gaatjes in de bodem met een vork.\n" +
+            "3. Schil de appels, verwijder het klokhuis en snijd ze in dunne plakjes.\n" +
+            "4. Doe de plakjes in een kom en voeg citroensap toe om verkleuring te voorkomen.\n" +
+            "5. Verdeel de appels gelijkmatig over het deeg.\n" +
+            "6. Bestrooi met suiker en kaneel.\n" +
+            "7. Verdeel kleine stukjes boter over de bovenkant.\n" +
+            "8. Bak 30 tot 35 minuten tot goudbruin.\n" +
+            "9. Laat iets afkoelen voor het serveren."
     },
+
     ar: {
-        title: "فطيرة التفاح (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["صينية فطيرة", "سكين", "لوح تقطيع", "فرن"],
+        title: "فطيرة التفاح (سويسرا)",
+        equipment: [
+            "قالب تارت (24 سم)",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "مقشرة",
+            "ملعقة",
+            "فرن"
+        ],
         ingredients: [
-            "1 عجينة قصيرة",
+            "1 عجينة قصيرة (250 غ)",
             "4 تفاحات",
             "30 غ سكر",
             "1 ملعقة صغيرة قرفة",
-            "10 غ زبدة"
+            "10 غ زبدة",
+            "1 ملعقة كبيرة عصير ليمون"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الفرن إلى 180°م.\n" +
-            "2. ضع العجينة في الصينية.\n" +
-            "3. قشر وقطع التفاح إلى شرائح رقيقة.\n" +
-            "4. رتب التفاح على العجينة.\n" +
-            "5. رش السكر والقرفة، أضف الزبدة.\n" +
-            "6. اخبز 30-35 دقيقة حتى يصبح ذهبي.\n" +
-            "7. اتركه يبرد قبل التقديم."
+            "1. سخّن الفرن إلى 180 درجة مئوية.\n" +
+            "2. ضع العجينة في القالب واثقب القاعدة بالشوكة.\n" +
+            "3. قشّر التفاح وأزل البذور وقطّعه إلى شرائح رقيقة.\n" +
+            "4. ضع الشرائح في وعاء وأضف عصير الليمون لمنع تغيّر اللون.\n" +
+            "5. رتّب شرائح التفاح فوق العجينة بشكل متناسق.\n" +
+            "6. رشّ السكر والقرفة فوقها.\n" +
+            "7. وزّع قطعاً صغيرة من الزبدة على الوجه.\n" +
+            "8. اخبز لمدة 30 إلى 35 دقيقة حتى يصبح اللون ذهبياً.\n" +
+            "9. اتركها تبرد قليلاً قبل التقديم."
     }
 };
+
 recipesData.dessert.muesli_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/muesli_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Muesli suisse (4 personnes)",
-        equipment: ["1 bol", "1 cuillère"],
+        title: "Muesli (Suisse)",
+        equipment: [
+            "1 grand bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère"
+        ],
         ingredients: [
-            "100 g flocons d’avoine",
-            "50 g raisins secs",
-            "1 pomme coupée en dés",
-            "200 ml yaourt nature",
-            "1 cuillère à soupe miel"
+            "100 g de flocons d’avoine",
+            "50 g de raisins secs",
+            "1 pomme",
+            "200 ml de yaourt nature",
+            "1 cuillère à soupe de miel",
+            "2 cuillères à soupe de lait"
         ],
         preparation:
-            "1. Mélanger flocons d’avoine et raisins secs.\n" +
-            "2. Ajouter pomme en dés.\n" +
-            "3. Verser yaourt et miel.\n" +
-            "4. Mélanger et servir frais."
+            "1. Couper la pomme en petits dés.\n" +
+            "2. Dans un grand bol, mélanger les flocons d’avoine et les raisins secs.\n" +
+            "3. Ajouter les dés de pomme.\n" +
+            "4. Incorporer le yaourt, le lait et le miel.\n" +
+            "5. Mélanger soigneusement.\n" +
+            "6. Laisser reposer 5 minutes avant de servir frais."
     },
+
     en: {
-        title: "Swiss Muesli (Serves 4)",
-        equipment: ["1 bowl", "1 spoon"],
+        title: "Muesli (Switzerland)",
+        equipment: [
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon"
+        ],
         ingredients: [
             "100 g rolled oats",
             "50 g raisins",
-            "1 apple, diced",
+            "1 apple",
             "200 ml plain yogurt",
-            "1 tbsp honey"
+            "1 tablespoon honey",
+            "2 tablespoons milk"
         ],
         preparation:
-            "1. Mix oats and raisins.\n" +
-            "2. Add diced apple.\n" +
-            "3. Pour yogurt and honey.\n" +
-            "4. Mix and serve chilled."
+            "1. Dice the apple into small cubes.\n" +
+            "2. In a large bowl, mix the oats and raisins.\n" +
+            "3. Add the diced apple.\n" +
+            "4. Stir in the yogurt, milk and honey.\n" +
+            "5. Mix well.\n" +
+            "6. Let rest for 5 minutes before serving chilled."
     },
+
     nl: {
-        title: "Zwitserse Muesli (voor 4 personen)",
-        equipment: ["1 kom", "1 lepel"],
+        title: "Muesli (Zwitserland)",
+        equipment: [
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel"
+        ],
         ingredients: [
             "100 g havervlokken",
             "50 g rozijnen",
-            "1 appel, in blokjes",
+            "1 appel",
             "200 ml yoghurt naturel",
-            "1 el honing"
+            "1 eetlepel honing",
+            "2 eetlepels melk"
         ],
         preparation:
-            "1. Meng havervlokken en rozijnen.\n" +
-            "2. Voeg appelblokjes toe.\n" +
-            "3. Voeg yoghurt en honing toe.\n" +
-            "4. Meng en serveer koud."
+            "1. Snijd de appel in kleine blokjes.\n" +
+            "2. Meng in een grote kom de havervlokken en rozijnen.\n" +
+            "3. Voeg de appelblokjes toe.\n" +
+            "4. Roer de yoghurt, melk en honing erdoor.\n" +
+            "5. Meng goed.\n" +
+            "6. Laat 5 minuten rusten en serveer koel."
     },
+
     ar: {
-        title: "موسلي سويسري (تكفي 4 أشخاص)",
-        equipment: ["وعاء", "ملعقة"],
+        title: "موسلي (سويسرا)",
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
             "100 غ رقائق الشوفان",
             "50 غ زبيب",
-            "1 تفاحة مقطعة مكعبات",
+            "1 تفاحة",
             "200 مل زبادي طبيعي",
-            "1 ملعقة كبيرة عسل"
+            "1 ملعقة كبيرة عسل",
+            "2 ملاعق كبيرة حليب"
         ],
         preparation:
-            "1. اخلط رقائق الشوفان والزبيب.\n" +
-            "2. أضف التفاح المقطع.\n" +
-            "3. أضف الزبادي والعسل.\n" +
-            "4. اخلط وقدّم بارد."
+            "1. قطّع التفاحة إلى مكعبات صغيرة.\n" +
+            "2. اخلط رقائق الشوفان والزبيب في وعاء كبير.\n" +
+            "3. أضف مكعبات التفاح.\n" +
+            "4. أضف الزبادي والحليب والعسل.\n" +
+            "5. امزج جيداً.\n" +
+            "6. اتركه يرتاح 5 دقائق ثم قدّمه بارداً."
     }
 };
+
 recipesData.dessert.tartelette_fruits_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/tartelette_fruits_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Tartelettes aux fruits (Suisse, 4 personnes)",
-        equipment: ["1 moule à tartelettes", "1 fouet", "1 four"],
+        title: "Tartelettes aux fruits (Suisse)",
+        equipment: [
+            "4 moules à tartelettes",
+            "1 saladier",
+            "1 fouet",
+            "1 couteau",
+            "1 planche à découper",
+            "1 four",
+            "1 cuillère"
+        ],
         ingredients: [
-            "200 g pâte sablée",
-            "100 ml crème pâtissière",
-            "200 g fruits frais de saison"
+            "200 g de pâte sablée",
+            "250 ml de lait",
+            "2 jaunes d’œufs",
+            "40 g de sucre",
+            "20 g de maïzena",
+            "200 g de fruits frais de saison"
         ],
         preparation:
-            "1. Préchauffer le four à 180°C.\n" +
-            "2. Garnir les moules avec pâte sablée.\n" +
-            "3. Cuire 10 min à blanc.\n" +
-            "4. Remplir de crème pâtissière.\n" +
-            "5. Disposer les fruits dessus.\n" +
-            "6. Servir frais."
+            "==============================\n" +
+            "PRÉPARATION DE LA CRÈME PÂTISSIÈRE\n" +
+            "==============================\n\n" +
+            "1. Chauffer le lait dans une casserole sans le faire bouillir.\n" +
+            "2. Dans un saladier, fouetter les jaunes d’œufs avec le sucre.\n" +
+            "3. Ajouter la maïzena et mélanger.\n" +
+            "4. Verser le lait chaud progressivement tout en fouettant.\n" +
+            "5. Remettre le mélange dans la casserole.\n" +
+            "6. Cuire à feu doux en remuant jusqu’à épaississement.\n" +
+            "7. Laisser refroidir.\n\n" +
+            "==============================\n" +
+            "MONTAGE DES TARTELETTES\n" +
+            "==============================\n\n" +
+            "8. Préchauffer le four à 180°C.\n" +
+            "9. Garnir les moules avec la pâte et piquer le fond.\n" +
+            "10. Cuire à blanc pendant 12 à 15 minutes.\n" +
+            "11. Laisser refroidir les fonds de tartelettes.\n" +
+            "12. Remplir de crème pâtissière.\n" +
+            "13. Couper les fruits et les disposer harmonieusement dessus.\n" +
+            "14. Réserver au frais avant de servir."
     },
+
     en: {
-        title: "Fruit Tartlets (Switzerland, Serves 4)",
-        equipment: ["1 tartlet pan", "1 whisk", "1 oven"],
+        title: "Fruit Tartlets (Switzerland)",
+        equipment: [
+            "4 tartlet pans",
+            "1 mixing bowl",
+            "1 whisk",
+            "1 knife",
+            "1 cutting board",
+            "1 oven",
+            "1 spoon",
+            "1 saucepan"
+        ],
         ingredients: [
             "200 g shortcrust pastry",
-            "100 ml custard",
-            "200 g seasonal fresh fruits"
+            "250 ml milk",
+            "2 egg yolks",
+            "40 g sugar",
+            "20 g cornstarch",
+            "200 g fresh seasonal fruits"
         ],
         preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Line tartlet pans with pastry.\n" +
-            "3. Bake 10 min blind.\n" +
-            "4. Fill with custard.\n" +
-            "5. Top with fruits.\n" +
-            "6. Serve chilled."
+            "==============================\n" +
+            "CUSTARD PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Heat the milk in a saucepan without boiling.\n" +
+            "2. In a bowl, whisk the egg yolks with sugar.\n" +
+            "3. Add the cornstarch and mix.\n" +
+            "4. Gradually pour in the hot milk while whisking.\n" +
+            "5. Return the mixture to the saucepan.\n" +
+            "6. Cook over low heat, stirring until thickened.\n" +
+            "7. Let cool.\n\n" +
+            "==============================\n" +
+            "ASSEMBLY\n" +
+            "==============================\n\n" +
+            "8. Preheat the oven to 180°C.\n" +
+            "9. Line the pans with pastry and prick the base.\n" +
+            "10. Bake blind for 12 to 15 minutes.\n" +
+            "11. Let the tartlet shells cool.\n" +
+            "12. Fill with custard.\n" +
+            "13. Slice the fruits and arrange on top.\n" +
+            "14. Chill before serving."
     },
+
     nl: {
-        title: "Fruit Tartelettes (Zwitserland, voor 4 personen)",
-        equipment: ["1 taartvorm", "1 garde", "1 oven"],
+        title: "Fruit Tartelettes (Zwitserland)",
+        equipment: [
+            "4 taartvormpjes",
+            "1 kom",
+            "1 garde",
+            "1 mes",
+            "1 snijplank",
+            "1 oven",
+            "1 lepel",
+            "1 steelpan"
+        ],
         ingredients: [
             "200 g zanddeeg",
-            "100 ml banketroom",
-            "200 g seizoensfruit"
+            "250 ml melk",
+            "2 eidooiers",
+            "40 g suiker",
+            "20 g maïzena",
+            "200 g vers seizoensfruit"
         ],
         preparation:
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Bekleed vormpjes met deeg.\n" +
-            "3. Bak 10 min blind.\n" +
-            "4. Vul met banketroom.\n" +
-            "5. Leg fruit erop.\n" +
-            "6. Serveer koud."
+            "==============================\n" +
+            "BEREIDING VAN DE BANKETROOM\n" +
+            "==============================\n\n" +
+            "1. Verwarm de melk in een steelpan zonder te koken.\n" +
+            "2. Klop de eidooiers met suiker in een kom.\n" +
+            "3. Voeg maïzena toe en meng.\n" +
+            "4. Giet de warme melk al roerend erbij.\n" +
+            "5. Doe het mengsel terug in de pan.\n" +
+            "6. Laat op laag vuur indikken terwijl je roert.\n" +
+            "7. Laat afkoelen.\n\n" +
+            "==============================\n" +
+            "SAMENSTELLEN\n" +
+            "==============================\n\n" +
+            "8. Verwarm de oven voor op 180°C.\n" +
+            "9. Bekleed de vormpjes met deeg en prik de bodem.\n" +
+            "10. Bak blind gedurende 12 tot 15 minuten.\n" +
+            "11. Laat de bodems afkoelen.\n" +
+            "12. Vul met banketroom.\n" +
+            "13. Snijd het fruit en verdeel bovenop.\n" +
+            "14. Zet koel weg voor het serveren."
     },
+
     ar: {
-        title: "تارت صغيرة بالفواكه (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["قالب تارت صغير", "خفاق", "فرن"],
+        title: "تارت صغيرة بالفواكه (سويسرا)",
+        equipment: [
+            "4 قوالب تارت صغيرة",
+            "وعاء",
+            "خفاق",
+            "سكين",
+            "لوح تقطيع",
+            "فرن",
+            "ملعقة",
+            "قدر صغير"
+        ],
         ingredients: [
             "200 غ عجينة قصيرة",
-            "100 مل كريم باتيسير",
+            "250 مل حليب",
+            "2 صفار بيض",
+            "40 غ سكر",
+            "20 غ نشا الذرة",
             "200 غ فواكه طازجة موسمية"
         ],
         preparation:
-            "1. سخن الفرن إلى 180°م.\n" +
-            "2. ضع العجينة في القوالب.\n" +
-            "3. اخبز 10 دقائق بدون حشوة.\n" +
-            "4. ضع الكريم.\n" +
-            "5. ضع الفواكه فوقه.\n" +
-            "6. قدم بارد."
+            "==============================\n" +
+            "تحضير الكريمة\n" +
+            "==============================\n\n" +
+            "1. سخّن الحليب في قدر دون أن يغلي.\n" +
+            "2. اخفق صفار البيض مع السكر في وعاء.\n" +
+            "3. أضف نشا الذرة وامزج.\n" +
+            "4. أضف الحليب الساخن تدريجياً مع الخفق.\n" +
+            "5. أعد الخليط إلى القدر.\n" +
+            "6. اطهه على نار هادئة حتى يثخن مع التحريك.\n" +
+            "7. اتركه يبرد.\n\n" +
+            "==============================\n" +
+            "تجميع التارت\n" +
+            "==============================\n\n" +
+            "8. سخّن الفرن إلى 180 درجة مئوية.\n" +
+            "9. ضع العجينة في القوالب واثقب القاعدة.\n" +
+            "10. اخبزها دون حشوة لمدة 12 إلى 15 دقيقة.\n" +
+            "11. اترك القواعد تبرد.\n" +
+            "12. املأها بالكريمة.\n" +
+            "13. قطّع الفواكه ورتّبها فوقها.\n" +
+            "14. ضعها في الثلاجة قبل التقديم."
     }
 };
 recipesData.dessert.biscuits_beurre_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/biscuits_beurre_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Biscuits au beurre (Suisse, 4 personnes)",
-        equipment: ["1 saladier", "1 four", "1 plaque de cuisson"],
+        title: "Biscuits au beurre (Suisse)",
+        equipment: [
+            "1 saladier",
+            "1 fouet ou spatule",
+            "1 balance de cuisine",
+            "1 plaque de cuisson",
+            "1 papier sulfurisé",
+            "1 four"
+        ],
         ingredients: [
-            "100 g beurre",
-            "100 g sucre",
-            "200 g farine",
-            "1 œuf"
+            "100 g de beurre mou",
+            "100 g de sucre",
+            "200 g de farine",
+            "1 œuf",
+            "1 pincée de sel"
         ],
         preparation:
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger beurre et sucre.\n" +
-            "3. Ajouter œuf et farine.\n" +
-            "4. Former des biscuits.\n" +
-            "5. Cuire 12-15 min jusqu’à doré.\n" +
-            "6. Laisser refroidir."
+            "2. Dans un saladier, mélanger le beurre mou et le sucre jusqu’à obtenir une texture crémeuse.\n" +
+            "3. Ajouter l’œuf et mélanger.\n" +
+            "4. Incorporer la farine et le sel, puis mélanger jusqu’à former une pâte homogène.\n" +
+            "5. Former des petites boules et les disposer sur une plaque recouverte de papier sulfurisé.\n" +
+            "6. Aplatir légèrement chaque biscuit avec la main ou une fourchette.\n" +
+            "7. Cuire 12 à 15 minutes jusqu’à ce que les bords soient légèrement dorés.\n" +
+            "8. Laisser refroidir sur une grille avant de servir."
     },
+
     en: {
-        title: "Butter Cookies (Switzerland, Serves 4)",
-        equipment: ["1 bowl", "1 oven", "1 baking tray"],
+        title: "Butter Cookies (Switzerland)",
+        equipment: [
+            "1 mixing bowl",
+            "1 whisk or spatula",
+            "1 kitchen scale",
+            "1 baking tray",
+            "1 parchment paper",
+            "1 oven"
+        ],
         ingredients: [
-            "100 g butter",
+            "100 g softened butter",
             "100 g sugar",
             "200 g flour",
-            "1 egg"
+            "1 egg",
+            "1 pinch of salt"
         ],
         preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Mix butter and sugar.\n" +
-            "3. Add egg and flour.\n" +
-            "4. Shape cookies.\n" +
-            "5. Bake 12-15 min until golden.\n" +
-            "6. Cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. In a bowl, mix softened butter and sugar until creamy.\n" +
+            "3. Add the egg and mix well.\n" +
+            "4. Stir in flour and salt until a smooth dough forms.\n" +
+            "5. Shape small balls and place them on a parchment-lined tray.\n" +
+            "6. Slightly flatten each cookie with your hand or a fork.\n" +
+            "7. Bake for 12 to 15 minutes until edges are lightly golden.\n" +
+            "8. Let cool on a rack before serving."
     },
+
     nl: {
-        title: "Boterkoekjes (Zwitserland, voor 4 personen)",
-        equipment: ["1 kom", "1 oven", "1 bakplaat"],
+        title: "Boterkoekjes (Zwitserland)",
+        equipment: [
+            "1 kom",
+            "1 garde of spatel",
+            "1 keukenweegschaal",
+            "1 bakplaat",
+            "1 bakpapier",
+            "1 oven"
+        ],
         ingredients: [
-            "100 g boter",
+            "100 g zachte boter",
             "100 g suiker",
             "200 g bloem",
-            "1 ei"
+            "1 ei",
+            "1 snufje zout"
         ],
         preparation:
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Meng boter en suiker.\n" +
-            "3. Voeg ei en bloem toe.\n" +
-            "4. Vorm koekjes.\n" +
-            "5. Bak 12-15 min tot goudbruin.\n" +
-            "6. Laat afkoelen."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Meng de zachte boter met de suiker tot een romige massa.\n" +
+            "3. Voeg het ei toe en meng goed.\n" +
+            "4. Voeg bloem en zout toe en meng tot een glad deeg.\n" +
+            "5. Vorm kleine balletjes en leg ze op een met bakpapier beklede bakplaat.\n" +
+            "6. Druk elk koekje lichtjes plat met de hand of een vork.\n" +
+            "7. Bak 12 tot 15 minuten tot de randen goudbruin zijn.\n" +
+            "8. Laat afkoelen op een rooster voor het serveren."
     },
+
     ar: {
-        title: "بسكويت بالزبدة (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "فرن", "صينية خبز"],
+        title: "بسكويت بالزبدة (سويسرا)",
+        equipment: [
+            "وعاء",
+            "خفاق أو ملعقة",
+            "ميزان مطبخ",
+            "صينية خبز",
+            "ورق زبدة",
+            "فرن"
+        ],
         ingredients: [
-            "100 غ زبدة",
+            "100 غ زبدة طرية",
             "100 غ سكر",
             "200 غ دقيق",
-            "1 بيضة"
+            "1 بيضة",
+            "رشة ملح"
         ],
         preparation:
-            "1. سخن الفرن إلى 180°م.\n" +
-            "2. اخلط الزبدة والسكر.\n" +
-            "3. أضف البيضة والدقيق.\n" +
-            "4. شكل البسكويت.\n" +
-            "5. اخبز 12-15 دقيقة حتى يصبح ذهبي.\n" +
-            "6. اتركه يبرد."
+            "1. سخّن الفرن إلى 180 درجة مئوية.\n" +
+            "2. اخلط الزبدة الطرية مع السكر حتى يصبح الخليط كريمياً.\n" +
+            "3. أضف البيضة واخلط جيداً.\n" +
+            "4. أضف الدقيق والملح وامزج حتى تحصل على عجينة متجانسة.\n" +
+            "5. شكّل كرات صغيرة وضعها على صينية مغطاة بورق الزبدة.\n" +
+            "6. اضغط قليلاً على كل قطعة.\n" +
+            "7. اخبز لمدة 12 إلى 15 دقيقة حتى تتحمر الحواف قليلاً.\n" +
+            "8. اتركها تبرد قبل التقديم."
     }
 };
+
 recipesData.dessert.creme_vanille_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/creme_vanille_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Crème à la vanille (Suisse, 4 personnes)",
-        equipment: ["1 casserole", "1 fouet", "1 bol"],
+        title: "Crème à la vanille (Suisse)",
+        equipment: [
+            "1 casserole",
+            "1 fouet",
+            "1 saladier",
+            "1 spatule",
+            "4 ramequins"
+        ],
         ingredients: [
-            "500 ml lait",
+            "500 ml de lait",
             "3 jaunes d'œufs",
-            "60 g sucre",
-            "1 cuillère à café vanille"
+            "60 g de sucre",
+            "1 cuillère à café d’extrait de vanille",
+            "1 cuillère à café de maïzena"
         ],
         preparation:
-            "1. Chauffer le lait avec la vanille.\n" +
-            "2. Fouetter les jaunes avec le sucre.\n" +
-            "3. Verser le lait chaud progressivement sur les jaunes.\n" +
-            "4. Remettre dans la casserole et cuire à feu doux jusqu’à épaississement.\n" +
-            "5. Laisser refroidir et servir."
+            "1. Chauffer le lait avec la vanille dans une casserole sans faire bouillir.\n" +
+            "2. Dans un saladier, fouetter les jaunes d'œufs avec le sucre.\n" +
+            "3. Ajouter la maïzena et mélanger.\n" +
+            "4. Verser le lait chaud progressivement tout en fouettant.\n" +
+            "5. Remettre le mélange dans la casserole.\n" +
+            "6. Cuire à feu doux en remuant jusqu’à épaississement.\n" +
+            "7. Verser dans des ramequins.\n" +
+            "8. Laisser refroidir puis placer au réfrigérateur avant de servir."
     },
+
     en: {
-        title: "Vanilla Cream (Switzerland, Serves 4)",
-        equipment: ["1 saucepan", "1 whisk", "1 bowl"],
+        title: "Vanilla Cream (Switzerland)",
+        equipment: [
+            "1 saucepan",
+            "1 whisk",
+            "1 bowl",
+            "1 spatula",
+            "4 ramekins"
+        ],
         ingredients: [
             "500 ml milk",
             "3 egg yolks",
             "60 g sugar",
-            "1 tsp vanilla"
+            "1 teaspoon vanilla extract",
+            "1 teaspoon cornstarch"
         ],
         preparation:
-            "1. Heat milk with vanilla.\n" +
-            "2. Whisk yolks with sugar.\n" +
-            "3. Gradually pour hot milk over yolks.\n" +
-            "4. Return to pan and cook over low heat until thickened.\n" +
-            "5. Cool and serve."
+            "1. Heat the milk with vanilla in a saucepan without boiling.\n" +
+            "2. In a bowl, whisk egg yolks with sugar.\n" +
+            "3. Add cornstarch and mix.\n" +
+            "4. Gradually pour hot milk over the mixture while whisking.\n" +
+            "5. Return to the saucepan.\n" +
+            "6. Cook over low heat, stirring until thickened.\n" +
+            "7. Pour into ramekins.\n" +
+            "8. Let cool and refrigerate before serving."
     },
+
     nl: {
-        title: "Vanillecrème (Zwitserland, voor 4 personen)",
-        equipment: ["1 steelpan", "1 garde", "1 kom"],
+        title: "Vanillecrème (Zwitserland)",
+        equipment: [
+            "1 steelpan",
+            "1 garde",
+            "1 kom",
+            "1 spatel",
+            "4 schaaltjes"
+        ],
         ingredients: [
             "500 ml melk",
             "3 eierdooiers",
             "60 g suiker",
-            "1 tl vanille"
+            "1 theelepel vanille-extract",
+            "1 theelepel maïzena"
         ],
         preparation:
-            "1. Verhit melk met vanille.\n" +
-            "2. Klop de dooiers met suiker.\n" +
-            "3. Giet langzaam de hete melk bij de dooiers.\n" +
-            "4. Zet terug in de pan en kook op laag vuur tot het dik wordt.\n" +
-            "5. Laat afkoelen en serveer."
+            "1. Verwarm de melk met vanille in een steelpan zonder te koken.\n" +
+            "2. Klop de dooiers met suiker in een kom.\n" +
+            "3. Voeg maïzena toe en meng.\n" +
+            "4. Giet de warme melk al roerend erbij.\n" +
+            "5. Zet terug op laag vuur en roer tot het indikt.\n" +
+            "6. Verdeel over schaaltjes.\n" +
+            "7. Laat afkoelen en zet in de koelkast voor het serveren."
     },
+
     ar: {
-        title: "كريمة الفانيليا (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "خفاق", "وعاء"],
+        title: "كريمة الفانيليا (سويسرا)",
+        equipment: [
+            "قدر",
+            "خفاق",
+            "وعاء",
+            "ملعقة مطاطية",
+            "4 قوالب صغيرة"
+        ],
         ingredients: [
             "500 مل حليب",
             "3 صفار بيض",
             "60 غ سكر",
-            "1 ملعقة صغيرة فانيليا"
+            "1 ملعقة صغيرة خلاصة الفانيليا",
+            "1 ملعقة صغيرة نشا الذرة"
         ],
         preparation:
-            "1. سخن الحليب مع الفانيليا.\n" +
-            "2. اخفق الصفار مع السكر.\n" +
-            "3. أضف الحليب الساخن تدريجياً على الصفار.\n" +
-            "4. ضع الخليط على نار هادئة حتى يثخن.\n" +
-            "5. اتركه يبرد ثم قدمه."
+            "1. سخّن الحليب مع الفانيليا دون أن يغلي.\n" +
+            "2. اخفق صفار البيض مع السكر في وعاء.\n" +
+            "3. أضف نشا الذرة وامزج.\n" +
+            "4. أضف الحليب الساخن تدريجياً مع الخفق.\n" +
+            "5. أعد الخليط إلى القدر.\n" +
+            "6. اطهه على نار هادئة مع التحريك حتى يثخن.\n" +
+            "7. اسكب في قوالب صغيرة.\n" +
+            "8. اتركه يبرد ثم ضعه في الثلاجة قبل التقديم."
     }
 };
 recipesData.dessert.tarte_chocolat_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/tarte_chocolat_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 25,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Tarte au chocolat (Suisse, 4 personnes)",
-        equipment: ["1 moule à tarte", "1 four", "1 bol"],
+        title: "Tarte au chocolat (Suisse)",
+        equipment: [
+            "1 moule à tarte (24 cm)",
+            "1 casserole",
+            "1 saladier",
+            "1 fouet",
+            "1 spatule",
+            "1 four",
+            "1 papier sulfurisé"
+        ],
         ingredients: [
-            "1 pâte sablée",
-            "200 g chocolat noir",
-            "150 ml crème",
-            "1 œuf"
+            "1 pâte sablée (250 g)",
+            "200 g de chocolat noir",
+            "150 ml de crème liquide",
+            "1 œuf",
+            "20 g de sucre"
         ],
         preparation:
+            "==============================\n" +
+            "PRÉPARATION DU FOND DE TARTE\n" +
+            "==============================\n\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Cuire la pâte à blanc 10 min.\n" +
-            "3. Faire fondre le chocolat avec la crème.\n" +
-            "4. Ajouter l’œuf et bien mélanger.\n" +
-            "5. Verser sur la pâte et cuire 15 min.\n" +
-            "6. Laisser refroidir avant de servir."
+            "2. Étaler la pâte dans le moule et piquer le fond avec une fourchette.\n" +
+            "3. Recouvrir de papier sulfurisé et cuire à blanc 10 à 12 minutes.\n" +
+            "4. Retirer le papier et laisser tiédir.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DE LA GARNITURE\n" +
+            "==============================\n\n" +
+            "5. Faire chauffer la crème dans une casserole sans la faire bouillir.\n" +
+            "6. Ajouter le chocolat coupé en morceaux et mélanger jusqu’à ce qu’il soit fondu.\n" +
+            "7. Dans un saladier, battre l’œuf avec le sucre.\n" +
+            "8. Incorporer le mélange chocolat-crème.\n" +
+            "9. Verser la préparation sur le fond de tarte.\n" +
+            "10. Enfourner 12 à 15 minutes.\n" +
+            "11. Laisser refroidir complètement avant de servir."
     },
+
     en: {
-        title: "Chocolate Tart (Switzerland, Serves 4)",
-        equipment: ["1 tart pan", "1 oven", "1 bowl"],
+        title: "Chocolate Tart (Switzerland)",
+        equipment: [
+            "1 tart pan (24 cm)",
+            "1 saucepan",
+            "1 mixing bowl",
+            "1 whisk",
+            "1 spatula",
+            "1 oven",
+            "1 parchment paper"
+        ],
         ingredients: [
-            "1 shortcrust pastry",
+            "1 shortcrust pastry (250 g)",
             "200 g dark chocolate",
-            "150 ml cream",
-            "1 egg"
+            "150 ml heavy cream",
+            "1 egg",
+            "20 g sugar"
         ],
         preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Bake pastry blind for 10 min.\n" +
-            "3. Melt chocolate with cream.\n" +
-            "4. Add egg and mix.\n" +
-            "5. Pour over pastry and bake 15 min.\n" +
-            "6. Cool before serving."
+            "==============================\n" +
+            "TART BASE PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Roll out the pastry in the pan and prick the base with a fork.\n" +
+            "3. Line with parchment paper and bake blind for 10 to 12 minutes.\n" +
+            "4. Remove paper and let cool slightly.\n\n" +
+            "==============================\n" +
+            "FILLING PREPARATION\n" +
+            "==============================\n\n" +
+            "5. Heat the cream in a saucepan without boiling.\n" +
+            "6. Add chopped chocolate and stir until melted.\n" +
+            "7. In a bowl, beat the egg with sugar.\n" +
+            "8. Stir in the chocolate-cream mixture.\n" +
+            "9. Pour over the tart base.\n" +
+            "10. Bake for 12 to 15 minutes.\n" +
+            "11. Let cool completely before serving."
     },
+
     nl: {
-        title: "Chocoladetaart (Zwitserland, voor 4 personen)",
-        equipment: ["1 taartvorm", "1 oven", "1 kom"],
+        title: "Chocoladetaart (Zwitserland)",
+        equipment: [
+            "1 taartvorm (24 cm)",
+            "1 steelpan",
+            "1 kom",
+            "1 garde",
+            "1 spatel",
+            "1 oven",
+            "1 bakpapier"
+        ],
         ingredients: [
-            "1 zanddeeg",
+            "1 zanddeeg (250 g)",
             "200 g pure chocolade",
             "150 ml room",
-            "1 ei"
+            "1 ei",
+            "20 g suiker"
         ],
         preparation:
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Bak deeg 10 min blind.\n" +
-            "3. Smelt chocolade met room.\n" +
-            "4. Voeg ei toe en meng.\n" +
-            "5. Giet op deeg en bak 15 min.\n" +
-            "6. Laat afkoelen."
+            "==============================\n" +
+            "BEREIDING VAN DE BODEM\n" +
+            "==============================\n\n" +
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Leg het deeg in de vorm en prik gaatjes in de bodem.\n" +
+            "3. Bedek met bakpapier en bak blind 10 tot 12 minuten.\n" +
+            "4. Verwijder het papier en laat iets afkoelen.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE VULLING\n" +
+            "==============================\n\n" +
+            "5. Verwarm de room in een steelpan zonder te koken.\n" +
+            "6. Voeg de gehakte chocolade toe en roer tot gesmolten.\n" +
+            "7. Klop in een kom het ei met suiker.\n" +
+            "8. Meng het chocolade-roommengsel erdoor.\n" +
+            "9. Giet op de taartbodem.\n" +
+            "10. Bak 12 tot 15 minuten.\n" +
+            "11. Laat volledig afkoelen voor het serveren."
     },
+
     ar: {
-        title: "تارت الشوكولاتة (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["قالب تارت", "فرن", "وعاء"],
+        title: "تارت الشوكولاتة (سويسرا)",
+        equipment: [
+            "قالب تارت (24 سم)",
+            "قدر",
+            "وعاء",
+            "خفاق",
+            "ملعقة مطاطية",
+            "فرن",
+            "ورق زبدة"
+        ],
         ingredients: [
-            "1 عجينة قصيرة",
-            "200 غ شوكولاتة سوداء",
-            "150 مل كريمة",
-            "1 بيضة"
+            "1 عجينة قصيرة (250 غ)",
+            "200 غ شوكولاتة داكنة",
+            "150 مل كريمة سائلة",
+            "1 بيضة",
+            "20 غ سكر"
         ],
         preparation:
-            "1. سخن الفرن إلى 180°م.\n" +
-            "2. اخبز العجينة 10 دقائق بدون حشوة.\n" +
-            "3. ذوب الشوكولاتة مع الكريمة.\n" +
-            "4. أضف البيضة وامزج.\n" +
-            "5. اسكب على العجينة واخبز 15 دقيقة.\n" +
-            "6. اتركها لتبرد."
+            "==============================\n" +
+            "تحضير قاعدة التارت\n" +
+            "==============================\n\n" +
+            "1. سخّن الفرن إلى 180 درجة مئوية.\n" +
+            "2. ضع العجينة في القالب واثقب القاعدة بالشوكة.\n" +
+            "3. غطّها بورق الزبدة واخبزها دون حشوة لمدة 10 إلى 12 دقيقة.\n" +
+            "4. أزل الورق واتركها تبرد قليلاً.\n\n" +
+            "==============================\n" +
+            "تحضير الحشوة\n" +
+            "==============================\n\n" +
+            "5. سخّن الكريمة في قدر دون أن تغلي.\n" +
+            "6. أضف الشوكولاتة المقطعة وحرّك حتى تذوب.\n" +
+            "7. اخفق البيضة مع السكر في وعاء.\n" +
+            "8. أضف خليط الشوكولاتة والكريمة وامزج جيداً.\n" +
+            "9. اسكب الخليط فوق القاعدة.\n" +
+            "10. اخبز لمدة 12 إلى 15 دقيقة.\n" +
+            "11. اتركها تبرد تماماً قبل التقديم."
     }
 };
+
 recipesData.dessert.compote_pommes_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/compote_pommes_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Compote de pommes (Suisse, 4 personnes)",
-        equipment: ["1 casserole", "1 cuillère en bois"],
+        title: "Compote de pommes (Suisse)",
+        equipment: [
+            "1 casserole",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 éplucheur"
+        ],
         ingredients: [
             "6 pommes",
-            "100 ml eau",
-            "1 cuillère à café cannelle"
+            "100 ml d’eau",
+            "1 cuillère à café de cannelle",
+            "1 cuillère à soupe de sucre",
+            "1 cuillère à soupe de jus de citron"
         ],
         preparation:
-            "1. Éplucher et couper les pommes.\n" +
-            "2. Cuire avec eau 20 min.\n" +
-            "3. Écraser pour obtenir compote.\n" +
-            "4. Ajouter cannelle et mélanger.\n" +
-            "5. Servir tiède ou froid."
+            "1. Éplucher les pommes, retirer le cœur et les couper en morceaux.\n" +
+            "2. Mettre les pommes dans une casserole avec l’eau et le jus de citron.\n" +
+            "3. Cuire à feu moyen pendant 15 à 20 minutes en remuant régulièrement.\n" +
+            "4. Écraser les pommes à l’aide d’une cuillère en bois.\n" +
+            "5. Ajouter le sucre et la cannelle.\n" +
+            "6. Mélanger et laisser tiédir avant de servir."
     },
+
     en: {
-        title: "Apple Compote (Switzerland, Serves 4)",
-        equipment: ["1 saucepan", "1 wooden spoon"],
+        title: "Apple Compote (Switzerland)",
+        equipment: [
+            "1 saucepan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 peeler"
+        ],
         ingredients: [
             "6 apples",
             "100 ml water",
-            "1 tsp cinnamon"
+            "1 teaspoon cinnamon",
+            "1 tablespoon sugar",
+            "1 tablespoon lemon juice"
         ],
         preparation:
-            "1. Peel and cut apples.\n" +
-            "2. Cook with water 20 min.\n" +
-            "3. Mash into compote.\n" +
-            "4. Add cinnamon and mix.\n" +
-            "5. Serve warm or cold."
+            "1. Peel the apples, remove the cores and cut into pieces.\n" +
+            "2. Place apples in a saucepan with water and lemon juice.\n" +
+            "3. Cook over medium heat for 15 to 20 minutes, stirring regularly.\n" +
+            "4. Mash using a wooden spoon.\n" +
+            "5. Add sugar and cinnamon.\n" +
+            "6. Stir and let cool slightly before serving."
     },
+
     nl: {
-        title: "Appelcompote (Zwitserland, voor 4 personen)",
-        equipment: ["1 steelpan", "1 houten lepel"],
+        title: "Appelcompote (Zwitserland)",
+        equipment: [
+            "1 steelpan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 dunschiller"
+        ],
         ingredients: [
             "6 appels",
             "100 ml water",
-            "1 tl kaneel"
+            "1 theelepel kaneel",
+            "1 eetlepel suiker",
+            "1 eetlepel citroensap"
         ],
         preparation:
-            "1. Schil en snijd appels.\n" +
-            "2. Kook met water 20 min.\n" +
-            "3. Pureer tot compote.\n" +
-            "4. Voeg kaneel toe en meng.\n" +
-            "5. Serveer warm of koud."
+            "1. Schil de appels, verwijder het klokhuis en snijd in stukken.\n" +
+            "2. Doe de appels in een pan met water en citroensap.\n" +
+            "3. Kook 15 tot 20 minuten op middelhoog vuur en roer regelmatig.\n" +
+            "4. Pureer met een houten lepel.\n" +
+            "5. Voeg suiker en kaneel toe.\n" +
+            "6. Roer en laat iets afkoelen voor het serveren."
     },
+
     ar: {
-        title: "مهروس التفاح (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["قدر", "ملعقة خشبية"],
+        title: "مهروس التفاح (سويسرا)",
+        equipment: [
+            "قدر",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مقشرة"
+        ],
         ingredients: [
             "6 تفاحات",
             "100 مل ماء",
-            "1 ملعقة صغيرة قرفة"
+            "1 ملعقة صغيرة قرفة",
+            "1 ملعقة كبيرة سكر",
+            "1 ملعقة كبيرة عصير ليمون"
         ],
         preparation:
-            "1. قشر وقطع التفاح.\n" +
-            "2. اطبخه مع الماء 20 دقيقة.\n" +
-            "3. اهرس للحصول على مهروس.\n" +
-            "4. أضف القرفة وامزج.\n" +
-            "5. قدمه دافئًا أو باردًا."
+            "1. قشّر التفاح وأزل البذور وقطّعه إلى قطع.\n" +
+            "2. ضع التفاح في قدر مع الماء وعصير الليمون.\n" +
+            "3. اطهه على نار متوسطة لمدة 15 إلى 20 دقيقة مع التحريك.\n" +
+            "4. اهرسه باستخدام ملعقة خشبية.\n" +
+            "5. أضف السكر والقرفة.\n" +
+            "6. امزج واتركه يبرد قليلاً قبل التقديم."
     }
 };
 recipesData.dessert.gateau_simple_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/gateau_simple_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 35,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Gâteau simple (Suisse, 4 personnes)",
-        equipment: ["1 saladier", "1 four", "1 moule"],
+        title: "Gâteau simple (Suisse)",
+        equipment: [
+            "1 saladier",
+            "1 fouet",
+            "1 spatule",
+            "1 balance de cuisine",
+            "1 moule à gâteau (22 cm)",
+            "1 papier sulfurisé",
+            "1 four"
+        ],
         ingredients: [
             "3 œufs",
-            "150 g sucre",
-            "150 g farine",
-            "100 g beurre"
+            "150 g de sucre",
+            "150 g de farine",
+            "100 g de beurre fondu",
+            "1 sachet de levure chimique (10 g)",
+            "1 pincée de sel"
         ],
         preparation:
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger œufs et sucre.\n" +
-            "3. Ajouter beurre fondu et farine.\n" +
-            "4. Verser dans un moule.\n" +
-            "5. Cuire 35 min.\n" +
-            "6. Laisser refroidir avant de servir."
+            "2. Fouetter les œufs avec le sucre jusqu’à ce que le mélange blanchisse.\n" +
+            "3. Ajouter le beurre fondu et mélanger.\n" +
+            "4. Incorporer la farine, la levure et le sel.\n" +
+            "5. Mélanger jusqu’à obtenir une pâte lisse et homogène.\n" +
+            "6. Verser la préparation dans un moule chemisé de papier sulfurisé.\n" +
+            "7. Enfourner pendant 30 à 35 minutes.\n" +
+            "8. Vérifier la cuisson avec la pointe d’un couteau.\n" +
+            "9. Laisser refroidir avant de démouler et servir."
     },
+
     en: {
-        title: "Simple Cake (Switzerland, Serves 4)",
-        equipment: ["1 bowl", "1 oven", "1 cake pan"],
+        title: "Simple Cake (Switzerland)",
+        equipment: [
+            "1 mixing bowl",
+            "1 whisk",
+            "1 spatula",
+            "1 kitchen scale",
+            "1 cake pan (22 cm)",
+            "1 parchment paper",
+            "1 oven"
+        ],
         ingredients: [
             "3 eggs",
             "150 g sugar",
             "150 g flour",
-            "100 g butter"
+            "100 g melted butter",
+            "1 packet baking powder (10 g)",
+            "1 pinch of salt"
         ],
         preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Mix eggs and sugar.\n" +
-            "3. Add melted butter and flour.\n" +
-            "4. Pour into cake pan.\n" +
-            "5. Bake 35 min.\n" +
-            "6. Cool before serving."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Whisk eggs and sugar until pale and fluffy.\n" +
+            "3. Add melted butter and mix.\n" +
+            "4. Stir in flour, baking powder and salt.\n" +
+            "5. Mix until smooth.\n" +
+            "6. Pour into a parchment-lined cake pan.\n" +
+            "7. Bake for 30 to 35 minutes.\n" +
+            "8. Check doneness with a knife tip.\n" +
+            "9. Let cool before unmolding and serving."
     },
+
     nl: {
-        title: "Eenvoudige cake (Zwitserland, voor 4 personen)",
-        equipment: ["1 kom", "1 oven", "1 cakevorm"],
+        title: "Eenvoudige cake (Zwitserland)",
+        equipment: [
+            "1 kom",
+            "1 garde",
+            "1 spatel",
+            "1 keukenweegschaal",
+            "1 cakevorm (22 cm)",
+            "1 bakpapier",
+            "1 oven"
+        ],
         ingredients: [
             "3 eieren",
             "150 g suiker",
             "150 g bloem",
-            "100 g boter"
+            "100 g gesmolten boter",
+            "1 zakje bakpoeder (10 g)",
+            "1 snufje zout"
         ],
         preparation:
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Meng eieren en suiker.\n" +
-            "3. Voeg gesmolten boter en bloem toe.\n" +
-            "4. Giet in cakevorm.\n" +
-            "5. Bak 35 min.\n" +
-            "6. Laat afkoelen."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Klop eieren en suiker tot een luchtig mengsel.\n" +
+            "3. Voeg gesmolten boter toe en meng.\n" +
+            "4. Voeg bloem, bakpoeder en zout toe.\n" +
+            "5. Meng tot een glad beslag.\n" +
+            "6. Giet in een met bakpapier beklede cakevorm.\n" +
+            "7. Bak 30 tot 35 minuten.\n" +
+            "8. Controleer met een mes of de cake gaar is.\n" +
+            "9. Laat afkoelen voor het serveren."
     },
+
     ar: {
-        title: "كعكة بسيطة (سويسرا، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "فرن", "قالب كعك"],
+        title: "كعكة بسيطة (سويسرا)",
+        equipment: [
+            "وعاء",
+            "خفاق",
+            "ملعقة مطاطية",
+            "ميزان مطبخ",
+            "قالب كعك (22 سم)",
+            "ورق زبدة",
+            "فرن"
+        ],
         ingredients: [
             "3 بيض",
             "150 غ سكر",
             "150 غ دقيق",
-            "100 غ زبدة"
+            "100 غ زبدة مذابة",
+            "1 كيس بيكنج باودر (10 غ)",
+            "رشة ملح"
         ],
         preparation:
-            "1. سخن الفرن إلى 180°م.\n" +
-            "2. اخلط البيض والسكر.\n" +
-            "3. أضف الزبدة المذابة والدقيق.\n" +
-            "4. اسكب في القالب.\n" +
-            "5. اخبز 35 دقيقة.\n" +
-            "6. اتركه ليبرد قبل التقديم."
+            "1. سخّن الفرن إلى 180 درجة مئوية.\n" +
+            "2. اخفق البيض مع السكر حتى يصبح الخليط فاتح اللون.\n" +
+            "3. أضف الزبدة المذابة وامزج.\n" +
+            "4. أضف الدقيق والبيكنج باودر والملح.\n" +
+            "5. امزج حتى تحصل على خليط ناعم.\n" +
+            "6. اسكب الخليط في قالب مغطى بورق الزبدة.\n" +
+            "7. اخبز لمدة 30 إلى 35 دقيقة.\n" +
+            "8. تأكد من النضج بواسطة طرف سكين.\n" +
+            "9. اتركها تبرد قبل التقديم."
     }
 };
 
@@ -59729,318 +60749,435 @@ recipesData.dessert.flan_oeufs_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/flan_oeufs_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 40,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Flan aux œufs (Suisse, 4 personnes)",
-        equipment: ["1 saladier", "1 fouet", "1 moule", "1 four"],
+        title: "Flan aux œufs (Suisse)",
+        equipment: [
+            "1 saladier",
+            "1 fouet",
+            "1 moule",
+            "1 plat pour bain-marie",
+            "1 four",
+            "1 casserole"
+        ],
         ingredients: [
             "4 œufs",
-            "500 ml lait",
-            "80 g sucre",
-            "1 cuillère à café vanille"
+            "500 ml de lait",
+            "80 g de sucre",
+            "1 cuillère à café d’extrait de vanille",
+            "2 cuillères à soupe d’eau"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préchauffer le four à 170°C.\n" +
-            "2. Fouetter les œufs avec le sucre.\n" +
-            "3. Ajouter le lait et la vanille.\n" +
-            "4. Verser dans un moule.\n" +
-            "5. Cuire au bain-marie 40 minutes.\n" +
-            "6. Laisser refroidir puis réfrigérer."
+            "==============================\n" +
+            "PRÉPARATION DU CARAMEL\n" +
+            "==============================\n\n" +
+            "1. Mettre le sucre et l’eau dans une casserole.\n" +
+            "2. Chauffer à feu moyen jusqu’à obtention d’un caramel doré.\n" +
+            "3. Verser immédiatement dans le fond du moule.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DU FLAN\n" +
+            "==============================\n\n" +
+            "4. Préchauffer le four à 170°C.\n" +
+            "5. Fouetter les œufs dans un saladier.\n" +
+            "6. Chauffer le lait avec la vanille.\n" +
+            "7. Verser le lait chaud sur les œufs en mélangeant.\n" +
+            "8. Verser la préparation dans le moule.\n" +
+            "9. Placer le moule dans un plat rempli d’eau chaude.\n" +
+            "10. Cuire au bain-marie pendant 40 minutes.\n" +
+            "11. Laisser refroidir puis réfrigérer avant de démouler."
     },
+
     en: {
-        title: "Egg Custard (Switzerland, Serves 4)",
-        equipment: ["1 bowl", "1 whisk", "1 mold", "1 oven"],
+        title: "Egg Custard (Switzerland)",
+        equipment: [
+            "1 bowl",
+            "1 whisk",
+            "1 mold",
+            "1 baking dish for water bath",
+            "1 oven",
+            "1 saucepan"
+        ],
         ingredients: [
             "4 eggs",
             "500 ml milk",
             "80 g sugar",
-            "1 tsp vanilla"
+            "1 teaspoon vanilla extract",
+            "2 tablespoons water"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 170°C.\n" +
-            "2. Whisk eggs with sugar.\n" +
-            "3. Add milk and vanilla.\n" +
-            "4. Pour into mold.\n" +
-            "5. Bake in water bath for 40 minutes.\n" +
-            "6. Cool and refrigerate."
+            "==============================\n" +
+            "CARAMEL PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Place sugar and water in a saucepan.\n" +
+            "2. Heat over medium heat until golden caramel forms.\n" +
+            "3. Immediately pour into the bottom of the mold.\n\n" +
+            "==============================\n" +
+            "CUSTARD PREPARATION\n" +
+            "==============================\n\n" +
+            "4. Preheat oven to 170°C.\n" +
+            "5. Whisk eggs in a bowl.\n" +
+            "6. Heat milk with vanilla.\n" +
+            "7. Gradually pour hot milk over eggs while mixing.\n" +
+            "8. Pour mixture into the mold.\n" +
+            "9. Place mold in a dish filled with hot water.\n" +
+            "10. Bake in a water bath for 40 minutes.\n" +
+            "11. Let cool and refrigerate before unmolding."
     },
+
     nl: {
-        title: "Eivla (Zwitserland, voor 4 personen)",
-        equipment: ["1 kom", "1 garde", "1 vorm", "1 oven"],
+        title: "Eivla (Zwitserland)",
+        equipment: [
+            "1 kom",
+            "1 garde",
+            "1 vorm",
+            "1 ovenschaal voor waterbad",
+            "1 oven",
+            "1 steelpan"
+        ],
         ingredients: [
             "4 eieren",
             "500 ml melk",
             "80 g suiker",
-            "1 tl vanille"
+            "1 theelepel vanille-extract",
+            "2 eetlepels water"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 170°C.\n" +
-            "2. Klop eieren en suiker.\n" +
-            "3. Voeg melk en vanille toe.\n" +
-            "4. Giet in vorm.\n" +
-            "5. Bak au bain-marie 40 min.\n" +
-            "6. Laat afkoelen en koel bewaren."
+            "==============================\n" +
+            "BEREIDING VAN DE KARAMEL\n" +
+            "==============================\n\n" +
+            "1. Doe suiker en water in een steelpan.\n" +
+            "2. Verhit tot een goudbruine karamel ontstaat.\n" +
+            "3. Giet direct in de bodem van de vorm.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE VLA\n" +
+            "==============================\n\n" +
+            "4. Verwarm de oven voor op 170°C.\n" +
+            "5. Klop de eieren in een kom.\n" +
+            "6. Verwarm melk met vanille.\n" +
+            "7. Giet de warme melk al roerend bij de eieren.\n" +
+            "8. Giet in de vorm.\n" +
+            "9. Zet de vorm in een ovenschaal met heet water.\n" +
+            "10. Bak 40 minuten au bain-marie.\n" +
+            "11. Laat afkoelen en zet in de koelkast voor het serveren."
     },
+
     ar: {
-        title: "فلان بالبيض (سويسرا، 4 أشخاص)",
-        equipment: ["وعاء", "خفاق", "قالب", "فرن"],
+        title: "فلان بالبيض (سويسرا)",
+        equipment: [
+            "وعاء",
+            "خفاق",
+            "قالب",
+            "طبق للحمام المائي",
+            "فرن",
+            "قدر"
+        ],
         ingredients: [
             "4 بيض",
             "500 مل حليب",
             "80 غ سكر",
-            "1 ملعقة صغيرة فانيليا"
+            "1 ملعقة صغيرة خلاصة الفانيليا",
+            "2 ملعقة كبيرة ماء"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الفرن إلى 170°.\n" +
-            "2. اخفق البيض مع السكر.\n" +
-            "3. أضف الحليب والفانيليا.\n" +
-            "4. اسكب في القالب.\n" +
-            "5. اطبخ في حمام مائي 40 دقيقة.\n" +
-            "6. اتركه يبرد ثم برده."
+            "==============================\n" +
+            "تحضير الكراميل\n" +
+            "==============================\n\n" +
+            "1. ضع السكر والماء في قدر.\n" +
+            "2. سخّن حتى يتحول إلى كراميل ذهبي.\n" +
+            "3. اسكبه فوراً في قاع القالب.\n\n" +
+            "==============================\n" +
+            "تحضير الفلان\n" +
+            "==============================\n\n" +
+            "4. سخّن الفرن إلى 170 درجة مئوية.\n" +
+            "5. اخفق البيض في وعاء.\n" +
+            "6. سخّن الحليب مع الفانيليا.\n" +
+            "7. أضف الحليب الساخن تدريجياً مع التحريك.\n" +
+            "8. اسكب الخليط في القالب.\n" +
+            "9. ضع القالب في طبق يحتوي على ماء ساخن.\n" +
+            "10. اخبز في حمام مائي لمدة 40 دقيقة.\n" +
+            "11. اتركه يبرد ثم ضعه في الثلاجة قبل التقديم."
     }
 };
-
 recipesData.dessert.mousse_chocolat_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/mousse_chocolat_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 5,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Mousse au chocolat végétalienne (Suisse, 4 personnes)",
+        title: "Mousse au chocolat (Suisse)",
         equipment: [
-            "1 grand bol",
-            "1 fouet électrique ou manuel",
+            "1 saladier",
             "1 casserole",
             "1 spatule",
-            "1 balance de cuisine",
-            "4 ramequins ou verrines"
+            "1 fouet",
+            "1 batteur électrique",
+            "4 ramequins"
         ],
         ingredients: [
-            "200 g chocolat noir végétalien (sans lait ni gélatine)",
-            "400 ml crème de coco bien froide",
-            "2 cuillères à soupe sirop d’érable (30 ml)",
-            "1 cuillère à café extrait de vanille (5 ml)",
-            "Une pincée de sel (0,5 g)"
+            "200 g de chocolat noir",
+            "4 œufs",
+            "30 g de sucre",
+            "1 pincée de sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire fondre le chocolat au bain-marie ou à feu très doux en remuant régulièrement.\n" +
-            "2. Dans un grand bol, fouetter la crème de coco froide avec le sel jusqu’à obtenir une texture ferme.\n" +
-            "3. Ajouter le sirop d’érable et l’extrait de vanille, fouetter encore 1 minute.\n" +
-            "4. Incorporer délicatement le chocolat fondu à la crème fouettée à l’aide d’une spatule, en effectuant des mouvements enveloppants pour ne pas faire retomber la mousse.\n" +
-            "5. Répartir la mousse dans 4 ramequins.\n" +
-            "6. Réfrigérer au moins 2 heures avant de servir."
+            "1. Faire fondre le chocolat au bain-marie ou à feu très doux.\n" +
+            "2. Séparer les blancs des jaunes d’œufs.\n" +
+            "3. Incorporer les jaunes au chocolat fondu et mélanger.\n" +
+            "4. Monter les blancs en neige avec une pincée de sel.\n" +
+            "5. Ajouter le sucre aux blancs et fouetter encore 1 minute.\n" +
+            "6. Incorporer délicatement les blancs au mélange chocolaté à l’aide d’une spatule.\n" +
+            "7. Répartir dans des ramequins.\n" +
+            "8. Placer au réfrigérateur pendant au moins 2 heures avant de servir."
     },
+
     en: {
-        title: "Vegan Chocolate Mousse (Switzerland, Serves 4)",
+        title: "Chocolate Mousse (Switzerland)",
         equipment: [
-            "1 large bowl",
-            "1 electric or manual whisk",
+            "1 mixing bowl",
             "1 saucepan",
             "1 spatula",
-            "1 kitchen scale",
-            "4 ramekins or cups"
+            "1 whisk",
+            "1 electric mixer",
+            "4 ramekins"
         ],
         ingredients: [
-            "200 g vegan dark chocolate (dairy-free, gelatin-free)",
-            "400 ml coconut cream, well chilled",
-            "2 tbsp maple syrup (30 ml)",
-            "1 tsp vanilla extract (5 ml)",
-            "A pinch of salt (0.5 g)"
+            "200 g dark chocolate",
+            "4 eggs",
+            "30 g sugar",
+            "1 pinch of salt"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Melt chocolate in a bain-marie or over very low heat, stirring regularly.\n" +
-            "2. In a large bowl, whip the chilled coconut cream with salt until firm.\n" +
-            "3. Add maple syrup and vanilla extract, whip for another minute.\n" +
-            "4. Gently fold melted chocolate into whipped cream using a spatula, using folding motions to keep mousse airy.\n" +
-            "5. Divide mousse into 4 ramekins.\n" +
-            "6. Refrigerate at least 2 hours before serving."
+            "1. Melt chocolate in a bain-marie or over very low heat.\n" +
+            "2. Separate egg whites from yolks.\n" +
+            "3. Stir yolks into melted chocolate.\n" +
+            "4. Beat egg whites with a pinch of salt until stiff.\n" +
+            "5. Add sugar and beat for another minute.\n" +
+            "6. Gently fold egg whites into chocolate mixture using a spatula.\n" +
+            "7. Divide into ramekins.\n" +
+            "8. Refrigerate for at least 2 hours before serving."
     },
+
     nl: {
-        title: "Vegan Chocolademousse (Zwitserland, voor 4 personen)",
+        title: "Chocolademousse (Zwitserland)",
         equipment: [
-            "1 grote kom",
-            "1 elektrische of handmixer",
+            "1 kom",
             "1 steelpan",
             "1 spatel",
-            "1 keukenweegschaal",
-            "4 ramekins of glazen"
+            "1 garde",
+            "1 elektrische mixer",
+            "4 schaaltjes"
         ],
         ingredients: [
-            "200 g vegan pure chocolade (melkvrij, gelatinevrij)",
-            "400 ml kokosroom, goed koud",
-            "2 eetlepels ahornsiroop (30 ml)",
-            "1 tl vanille-extract (5 ml)",
-            "Een snufje zout (0,5 g)"
+            "200 g pure chocolade",
+            "4 eieren",
+            "30 g suiker",
+            "1 snufje zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Smelt de chocolade au bain-marie of op zeer laag vuur, regelmatig roeren.\n" +
-            "2. Klop in een grote kom de koude kokosroom met zout tot een stevige textuur.\n" +
-            "3. Voeg ahornsiroop en vanille-extract toe, klop nog 1 minuut.\n" +
-            "4. Spatel de gesmolten chocolade voorzichtig door de room, gebruik vouwbewegingen om de mousse luchtig te houden.\n" +
-            "5. Verdeel de mousse over 4 ramekins.\n" +
-            "6. Koel minimaal 2 uur voor het serveren."
+            "1. Smelt de chocolade au bain-marie of op zeer laag vuur.\n" +
+            "2. Scheid de eieren.\n" +
+            "3. Meng de dooiers door de gesmolten chocolade.\n" +
+            "4. Klop de eiwitten stijf met een snufje zout.\n" +
+            "5. Voeg suiker toe en klop nog 1 minuut.\n" +
+            "6. Spatel de eiwitten voorzichtig door het chocolademengsel.\n" +
+            "7. Verdeel over schaaltjes.\n" +
+            "8. Zet minstens 2 uur in de koelkast voor het serveren."
     },
+
     ar: {
-        title: "موس الشوكولاتة نباتي (سويسرا، تكفي 4 أشخاص)",
+        title: "موس الشوكولاتة (سويسرا)",
         equipment: [
-            "1 وعاء كبير",
-            "1 مضرب كهربائي أو يدوي",
-            "1 قدر",
-            "1 ملعقة مطاطية",
-            "1 ميزان مطبخ",
-            "4 كؤوس تقديم أو راميكين"
+            "وعاء",
+            "قدر",
+            "ملعقة مطاطية",
+            "خفاق",
+            "خلاط كهربائي",
+            "4 قوالب صغيرة"
         ],
         ingredients: [
-            "200 غ شوكولاتة داكنة نباتية (خالٍ من الحليب والجيلاتين)",
-            "400 مل كريمة جوز الهند باردة جداً",
-            "2 ملعقة كبيرة شراب القيقب (30 مل)",
-            "1 ملعقة صغيرة فانيليا (5 مل)",
-            "رشة ملح (0.5 غ)"
+            "200 غ شوكولاتة داكنة",
+            "4 بيض",
+            "30 غ سكر",
+            "رشة ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. ذوب الشوكولاتة في حمام مائي أو على نار هادئة جداً مع التحريك المستمر.\n" +
-            "2. في وعاء كبير، اخفق كريمة جوز الهند الباردة مع الملح حتى تصبح ثابتة.\n" +
-            "3. أضف شراب القيقب والفانيليا، اخفق لمدة دقيقة إضافية.\n" +
-            "4. ضع الشوكولاتة المذابة بلطف في الكريمة المخفوقة باستخدام ملعقة مطاطية، مع الحركات الطفيفة للحفاظ على هشاشة الموس.\n" +
-            "5. وزع الموس في 4 كؤوس تقديم.\n" +
-            "6. برد في الثلاجة لمدة ساعتين على الأقل قبل التقديم."
+            "1. ذوب الشوكولاتة في حمام مائي أو على نار هادئة جداً.\n" +
+            "2. افصل صفار البيض عن البياض.\n" +
+            "3. أضف الصفار إلى الشوكولاتة المذابة وامزج.\n" +
+            "4. اخفق بياض البيض مع رشة ملح حتى يصبح متماسكاً.\n" +
+            "5. أضف السكر واخفق دقيقة إضافية.\n" +
+            "6. أدمج البياض برفق في خليط الشوكولاتة باستخدام ملعقة مطاطية.\n" +
+            "7. وزّع في قوالب صغيرة.\n" +
+            "8. ضع في الثلاجة لمدة ساعتين على الأقل قبل التقديم."
     }
 };
+
 recipesData.patisserie.brunsli_suisse = {
     country: "europe",
     countryName: "suisse",
     image: "images/brunsli_suisse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "medium"
+    },
+
     fr: {
-        title: "Brunsli (biscuits au chocolat, Suisse, 4 personnes)",
+        title: "Brunsli (Suisse)",
         equipment: [
-            "1 bol moyen",
+            "1 saladier",
             "1 spatule",
+            "1 batteur",
             "1 balance de cuisine",
             "1 plaque de cuisson",
             "1 papier sulfurisé",
             "1 four"
         ],
         ingredients: [
-            "100 g poudre d’amandes",
-            "100 g sucre glace",
-            "1 cuillère à café cacao en poudre (5 g)",
-            "1/2 cuillère à café cannelle (1 g)",
-            "100 g chocolat noir végétalien",
-            "1 blanc d’œuf (30 g)"
+            "200 g de poudre d’amandes",
+            "150 g de sucre glace",
+            "2 cuillères à soupe de cacao en poudre",
+            "1 cuillère à café de cannelle",
+            "2 blancs d’œufs",
+            "1 pincée de sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 160°C.\n" +
-            "2. Hacher finement le chocolat noir.\n" +
-            "3. Mélanger la poudre d’amandes, le sucre glace, le cacao et la cannelle dans un bol.\n" +
-            "4. Incorporer le chocolat haché.\n" +
-            "5. Monter le blanc d’œuf en neige ferme.\n" +
-            "6. Incorporer délicatement le blanc d’œuf au mélange chocolat-amandes à l’aide d’une spatule.\n" +
-            "7. Étaler la pâte sur une plaque recouverte de papier sulfurisé sur 1 cm d’épaisseur.\n" +
-            "8. Découper des biscuits de la taille désirée.\n" +
-            "9. Cuire au four pendant 12-15 minutes.\n" +
-            "10. Laisser refroidir avant de servir."
+            "2. Mélanger la poudre d’amandes, le sucre glace, le cacao et la cannelle.\n" +
+            "3. Monter les blancs d’œufs en neige avec une pincée de sel.\n" +
+            "4. Incorporer délicatement les blancs au mélange sec.\n" +
+            "5. Former une pâte souple.\n" +
+            "6. Étaler la pâte sur une plaque recouverte de papier sulfurisé.\n" +
+            "7. Découper des formes à l’aide d’un emporte-pièce.\n" +
+            "8. Cuire 12 à 15 minutes.\n" +
+            "9. Laisser refroidir avant de servir."
     },
+
     en: {
-        title: "Brunsli (Chocolate Cookies, Switzerland, Serves 4)",
+        title: "Brunsli (Switzerland)",
         equipment: [
-            "1 medium bowl",
+            "1 mixing bowl",
             "1 spatula",
+            "1 mixer",
             "1 kitchen scale",
             "1 baking tray",
             "1 parchment paper",
             "1 oven"
         ],
         ingredients: [
-            "100 g almond powder",
-            "100 g powdered sugar",
-            "1 tsp cocoa powder (5 g)",
-            "1/2 tsp cinnamon (1 g)",
-            "100 g vegan dark chocolate",
-            "1 egg white (30 g)"
+            "200 g almond powder",
+            "150 g powdered sugar",
+            "2 tablespoons cocoa powder",
+            "1 teaspoon cinnamon",
+            "2 egg whites",
+            "1 pinch of salt"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 160°C.\n" +
-            "2. Finely chop dark chocolate.\n" +
-            "3. Mix almond powder, powdered sugar, cocoa, and cinnamon in a bowl.\n" +
-            "4. Fold in chopped chocolate.\n" +
-            "5. Whip egg white until stiff peaks form.\n" +
-            "6. Gently fold egg white into chocolate-almond mixture with a spatula.\n" +
-            "7. Spread dough on parchment-lined tray to 1 cm thickness.\n" +
-            "8. Cut cookies to desired size.\n" +
-            "9. Bake for 12-15 minutes.\n" +
-            "10. Let cool before serving."
+            "2. Mix almond powder, powdered sugar, cocoa and cinnamon.\n" +
+            "3. Beat egg whites with salt until stiff.\n" +
+            "4. Gently fold into dry mixture.\n" +
+            "5. Form a soft dough.\n" +
+            "6. Roll out on parchment-lined tray.\n" +
+            "7. Cut shapes with a cookie cutter.\n" +
+            "8. Bake 12 to 15 minutes.\n" +
+            "9. Let cool before serving."
     },
+
     nl: {
-        title: "Brunsli (Chocoladekoekjes, Zwitserland, voor 4 personen)",
+        title: "Brunsli (Zwitserland)",
         equipment: [
-            "1 middelgrote kom",
+            "1 kom",
             "1 spatel",
+            "1 mixer",
             "1 keukenweegschaal",
             "1 bakplaat",
             "1 bakpapier",
             "1 oven"
         ],
         ingredients: [
-            "100 g amandelpoeder",
-            "100 g poedersuiker",
-            "1 tl cacaopoeder (5 g)",
-            "1/2 tl kaneel (1 g)",
-            "100 g vegan pure chocolade",
-            "1 eiwit (30 g)"
+            "200 g amandelpoeder",
+            "150 g poedersuiker",
+            "2 eetlepels cacaopoeder",
+            "1 theelepel kaneel",
+            "2 eiwitten",
+            "1 snufje zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 160°C.\n" +
-            "2. Hak de pure chocolade fijn.\n" +
-            "3. Meng amandelpoeder, poedersuiker, cacao en kaneel in een kom.\n" +
-            "4. Voeg de gehakte chocolade toe.\n" +
-            "5. Klop het eiwit stijf.\n" +
-            "6. Spatel het eiwit voorzichtig door het chocolade-amandelmengsel.\n" +
-            "7. Spreid het deeg op een met bakpapier beklede bakplaat tot 1 cm dikte.\n" +
-            "8. Snijd koekjes in gewenste grootte.\n" +
-            "9. Bak 12-15 minuten.\n" +
-            "10. Laat afkoelen voor het serveren."
+            "2. Meng amandelpoeder, poedersuiker, cacao en kaneel.\n" +
+            "3. Klop eiwitten met zout stijf.\n" +
+            "4. Spatel voorzichtig door het droge mengsel.\n" +
+            "5. Vorm een soepel deeg.\n" +
+            "6. Rol uit op bakpapier.\n" +
+            "7. Steek vormpjes uit.\n" +
+            "8. Bak 12 tot 15 minuten.\n" +
+            "9. Laat afkoelen voor het serveren."
     },
+
     ar: {
-        title: "برونسلي (بسكويت الشوكولاتة، سويسرا، تكفي 4 أشخاص)",
+        title: "برونسلي (سويسرا)",
         equipment: [
-            "1 وعاء متوسط",
-            "1 ملعقة مطاطية",
-            "1 ميزان مطبخ",
-            "1 صينية خبز",
-            "1 ورق زبدة",
-            "1 فرن"
+            "وعاء",
+            "ملعقة مطاطية",
+            "خلاط",
+            "ميزان مطبخ",
+            "صينية خبز",
+            "ورق زبدة",
+            "فرن"
         ],
         ingredients: [
-            "100 غ دقيق اللوز",
-            "100 غ سكر بودرة",
-            "1 ملعقة صغيرة كاكاو (5 غ)",
-            "1/2 ملعقة صغيرة قرفة (1 غ)",
-            "100 غ شوكولاتة داكنة نباتية",
-            "1 بياض بيض (30 غ)"
+            "200 غ دقيق لوز",
+            "150 غ سكر بودرة",
+            "2 ملعقة كبيرة كاكاو",
+            "1 ملعقة صغيرة قرفة",
+            "2 بياض بيض",
+            "رشة ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الفرن على 160°م.\n" +
-            "2. قطع الشوكولاتة الداكنة ناعماً.\n" +
-            "3. اخلط دقيق اللوز، السكر البودرة، الكاكاو والقرفة في وعاء.\n" +
-            "4. أضف الشوكولاتة المقطعة.\n" +
-            "5. اخفق بياض البيض حتى يصبح قاسياً.\n" +
-            "6. ضع بياض البيض برفق في خليط الشوكولاتة واللوز باستخدام الملعقة المطاطية.\n" +
-            "7. افرد العجين على صينية مغطاة بورق الزبدة بسماكة 1 سم.\n" +
-            "8. قطع البسكويت بالحجم المرغوب.\n" +
-            "9. اخبز 12-15 دقيقة.\n" +
-            "10. اتركه ليبرد قبل التقديم."
+            "1. سخّن الفرن إلى 160 درجة مئوية.\n" +
+            "2. اخلط دقيق اللوز والسكر البودرة والكاكاو والقرفة.\n" +
+            "3. اخفق بياض البيض مع رشة ملح حتى يتماسك.\n" +
+            "4. أضف البياض إلى الخليط الجاف برفق.\n" +
+            "5. شكّل عجينة لينة.\n" +
+            "6. افردها على صينية مغطاة بورق الزبدة.\n" +
+            "7. قطّع أشكالاً باستخدام قاطع بسكويت.\n" +
+            "8. اخبز 12 إلى 15 دقيقة.\n" +
+            "9. اتركها تبرد قبل التقديم."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 recipesData.entree.soupe_mais_usa = {
     country: "amerique",
     countryName: "usa",
