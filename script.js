@@ -11415,6 +11415,227 @@ recipesData.entree.saladeChiconsPommes = {
 
 
 
+recipesData.plat.soupeTomateBoulettesMehdi = {
+    country: "belgique",
+    image: "images/soupe-tomate-boulettes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 35,
+        difficulty: "easy",
+        keywords: [
+            "soupe tomate boulettes belge",
+            "tomato soup meatballs belgium",
+            "soupe hivernale facile",
+            "recette familiale soupe",
+            "soupe tomate kefta",
+            "comfort food hiver",
+            "soupe belge traditionnelle"
+        ],
+        description: "Une soupe tomate aux boulettes inspirée de la tradition belge, réconfortante, savoureuse et idéale pour les journées froides."
+    },
+
+    fr: {
+        title: "Soupe tomate boulettes — version Mehdi",
+        description: "Voici un plat que ma grand-mère faisait aussi de temps à autre, mais à ma façon car je n’ai pas eu l’occasion de lui demander la recette. J’aime bien ajouter des vermicelles et/ou des petits croûtons (morceaux de pain grillé ou tout prêts, nature ou à l’ail). C’est un vrai régal et très facile à préparer, idéal pour se réchauffer les jours d’hiver.",
+
+        equipment: [
+            "1 grande casserole",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 bol"
+        ],
+
+        ingredients: [
+            "1 kg de tomates pelées en boîte ou tomates fraîches",
+            "500 g de kefta nature ou préparée",
+            "1 à 2 oignons",
+            "1 branche de céleri",
+            "2 L de bouillon de légumes",
+            "1 petite boîte de concentré de tomate",
+            "Sel",
+            "Poivre",
+            "Pili-pili (optionnel)",
+            "Vermicelles (optionnel)",
+            "Croûtons ou pain grillé (optionnel)"
+        ],
+
+        preparation:
+            "1. Former de petites boulettes avec la kefta et réserver.\n" +
+            "2. Éplucher et émincer les oignons.\n" +
+            "3. Couper le céleri en petits morceaux.\n" +
+            "4. Si tomates fraîches : les peler et couper en morceaux.\n" +
+            "5. Chauffer un filet d’huile dans la casserole.\n" +
+            "6. Faire revenir les oignons 3 à 4 minutes.\n" +
+            "7. Ajouter le céleri.\n" +
+            "8. Faire revenir 3 minutes supplémentaires.\n" +
+            "9. Ajouter les tomates.\n" +
+            "10. Ajouter le concentré de tomate.\n" +
+            "11. Mélanger et laisser mijoter 5 minutes pour développer les arômes.\n" +
+            "12. Verser le bouillon de légumes.\n" +
+            "13. Porter à ébullition.\n" +
+            "14. Ajouter délicatement les boulettes.\n" +
+            "15. Laisser cuire à feu doux 15 à 20 minutes.\n" +
+            "16. Saler, poivrer et ajouter le pili-pili selon le goût.\n" +
+            "17. Ajouter les vermicelles (optionnel).\n" +
+            "18. Cuire selon le temps indiqué sur le paquet.\n" +
+            "19. Servir chaud avec des croûtons ou du pain grillé.\n\n" +
+
+            "==============================\n" +
+            "CONSEILS ET ASTUCES\n" +
+            "==============================\n\n" +
+            "Cette soupe est un grand classique des cuisines familiales belges.\n" +
+            "Les boulettes cuisent directement dans le bouillon, ce qui leur permet de rester tendres et savoureuses.\n\n" +
+            "Les vermicelles apportent une texture plus consistante tandis que les croûtons ajoutent du croquant.\n\n" +
+            "Idéale pour les journées froides, cette soupe est nourrissante, économique et très facile à préparer."
+    },
+
+    en: {
+        title: "Tomato Meatball Soup — Mehdi’s Version",
+        description: "My grandmother used to make this soup from time to time. This is my version, as I never had the chance to ask for her exact recipe. I like adding vermicelli and small croutons for extra texture. It’s comforting, delicious and perfect for cold days.",
+
+        equipment: [
+            "1 large pot",
+            "knife",
+            "cutting board",
+            "wooden spoon",
+            "1 bowl"
+        ],
+
+        ingredients: [
+            "1 kg canned peeled tomatoes or fresh tomatoes",
+            "500 g ground meat (kefta)",
+            "1–2 onions",
+            "1 celery stalk",
+            "2 L vegetable broth",
+            "1 small can tomato paste",
+            "Salt",
+            "Pepper",
+            "Chili flakes (optional)",
+            "Vermicelli (optional)",
+            "Croutons or toasted bread (optional)"
+        ],
+
+        preparation:
+            "1. Shape small meatballs and set aside.\n" +
+            "2. Slice the onions.\n" +
+            "3. Cut the celery into small pieces.\n" +
+            "4. If using fresh tomatoes, peel and chop them.\n" +
+            "5. Heat a little oil in the pot.\n" +
+            "6. Sauté onions for 3–4 minutes.\n" +
+            "7. Add celery.\n" +
+            "8. Cook 3 more minutes.\n" +
+            "9. Add tomatoes.\n" +
+            "10. Stir in tomato paste.\n" +
+            "11. Simmer 5 minutes.\n" +
+            "12. Pour in the vegetable broth.\n" +
+            "13. Bring to a boil.\n" +
+            "14. Add meatballs gently.\n" +
+            "15. Simmer 15–20 minutes.\n" +
+            "16. Season to taste.\n" +
+            "17. Add vermicelli if desired.\n" +
+            "18. Cook according to package instructions.\n" +
+            "19. Serve hot with croutons or toasted bread.\n"
+    },
+
+    nl: {
+        title: "Tomatensoep met gehaktballetjes — Mehdi’s versie",
+        description: "Mijn grootmoeder maakte deze soep af en toe. Dit is mijn versie, omdat ik haar recept nooit heb kunnen vragen. Ik voeg graag vermicelli en croutons toe voor extra textuur. Perfect om op te warmen tijdens koude dagen.",
+
+        equipment: [
+            "1 grote pan",
+            "mes",
+            "snijplank",
+            "houten lepel",
+            "kom"
+        ],
+
+        ingredients: [
+            "1 kg gepelde tomaten uit blik of verse tomaten",
+            "500 g gehakt",
+            "1–2 uien",
+            "1 selderijstengel",
+            "2 L groentebouillon",
+            "1 klein blikje tomatenpuree",
+            "Zout",
+            "Peper",
+            "Chilivlokken (optioneel)",
+            "Vermicelli (optioneel)",
+            "Croutons of geroosterd brood (optioneel)"
+        ],
+
+        preparation:
+            "1. Vorm kleine gehaktballetjes.\n" +
+            "2. Snijd de uien.\n" +
+            "3. Snijd de selderij.\n" +
+            "4. Pel en snijd verse tomaten indien gebruikt.\n" +
+            "5. Verhit wat olie.\n" +
+            "6. Bak de uien 3–4 minuten.\n" +
+            "7. Voeg selderij toe.\n" +
+            "8. Bak nog 3 minuten.\n" +
+            "9. Voeg tomaten toe.\n" +
+            "10. Voeg tomatenpuree toe.\n" +
+            "11. Laat 5 minuten sudderen.\n" +
+            "12. Voeg bouillon toe.\n" +
+            "13. Breng aan de kook.\n" +
+            "14. Voeg de balletjes toe.\n" +
+            "15. Laat 15–20 minuten sudderen.\n" +
+            "16. Breng op smaak.\n" +
+            "17. Voeg vermicelli toe indien gewenst.\n" +
+            "18. Kook volgens verpakking.\n" +
+            "19. Serveer warm met croutons.\n"
+    },
+
+    ar: {
+        title: "شوربة الطماطم مع كرات اللحم — نسخة مهدي",
+        description: "كانت جدتي تحضّر هذه الشوربة أحيانًا. هذه نسختي الخاصة لأنني لم أتمكن من معرفة وصفتها الأصلية. أحب إضافة الشعيرية وقطع الخبز المحمصة. إنها شوربة دافئة ومثالية لأيام الشتاء.",
+
+        equipment: [
+            "قدر كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء"
+        ],
+
+        ingredients: [
+            "1 كغ طماطم مقشرة معلبة أو طازجة",
+            "500 غ لحم مفروم",
+            "1 إلى 2 بصلة",
+            "عود كرفس",
+            "2 لتر مرق خضار",
+            "علبة صغيرة معجون طماطم",
+            "ملح",
+            "فلفل",
+            "فلفل حار (اختياري)",
+            "شعيرية (اختياري)",
+            "خبز محمص (اختياري)"
+        ],
+
+        preparation:
+            "1. شكّل كرات لحم صغيرة.\n" +
+            "2. قطّع البصل.\n" +
+            "3. قطّع الكرفس.\n" +
+            "4. إذا كانت الطماطم طازجة فقشّرها وقطّعها.\n" +
+            "5. سخّن قليلاً من الزيت.\n" +
+            "6. اقلي البصل 3–4 دقائق.\n" +
+            "7. أضف الكرفس.\n" +
+            "8. اطبخ 3 دقائق إضافية.\n" +
+            "9. أضف الطماطم.\n" +
+            "10. أضف معجون الطماطم.\n" +
+            "11. اتركها تغلي 5 دقائق.\n" +
+            "12. أضف مرق الخضار.\n" +
+            "13. اتركه يغلي.\n" +
+            "14. أضف كرات اللحم.\n" +
+            "15. اطبخ على نار هادئة 15–20 دقيقة.\n" +
+            "16. أضف الملح والتوابل.\n" +
+            "17. أضف الشعيرية عند الرغبة.\n" +
+            "18. اطبخ حسب التعليمات.\n" +
+            "19. قدّم ساخناً مع الخبز المحمص.\n"
+    }
+};
 recipesData.plat.stoofvleesPoulet = {
     country: "belgique",
     image: "images/stoofvlees-poulet.jpg",
@@ -11846,217 +12067,232 @@ recipesData.plat.moulesFrites = {
         servings: 4,
         prepTime: 20,
         cookTime: 20,
-        difficulty: "easy"
+        difficulty: "easy",
+        keywords: [
+            "moules frites belgique",
+            "recette moules marinières",
+            "moules frites traditionnelles",
+            "plat belge typique",
+            "moules faciles",
+            "moules maison",
+            "moules nord mer",
+            "cuisine belge traditionnelle"
+        ],
+        description: "Les moules-frites sont un grand classique belge : des moules savoureuses cuites à la vapeur et servies avec des frites croustillantes."
     },
 
     fr: {
         title: "Moules-frites",
+        description: "Version simple et traditionnelle des moules-frites. Pour une version plus savoureuse encore, découvrez la recette des moules aux légumes plus bas.",
+
         equipment: [
             "1 grande casserole",
             "1 passoire",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois",
-            "1 friteuse ou grande poêle",            
+            "1 friteuse ou grande poêle"
         ],
+
         ingredients: [
             "2 kg de moules fraîches",
-            "1 pomme de terre",
-            "2 cuillères à soupe d’huile d’olive",
-            "1 oignon moyen (120 g)",
+            "1 oignon moyen",
             "1 branche de céleri",
             "2 gousses d’ail",
+            "1 petit verre d’eau",
+            "2 cuillères à soupe d’huile d’olive",
             "Sel",
             "Poivre",
             "Persil frais"
         ],
+
         preparation:
             "1. Laver les moules à l’eau froide.\n" +
             "2. Retirer les barbes.\n" +
-            "3. Jeter les moules ouvertes.\n" +
-            "4. Éplucher l’oignon.\n" +
-            "5. Émincer l’oignon.\n" +
-            "6. Laver le céleri.\n" +
-            "7. Couper le céleri.\n" +
-            "8. Éplucher l’ail.\n" +
-            "9. Hacher l’ail.\n" +
-            "10. Mettre la casserole sur feu moyen.\n" +
-            "11. Ajouter l’huile d’olive.\n" +
-            "12. Ajouter l’oignon.\n" +
-            "13. Faire revenir 3 minutes.\n" +
-            "14. Ajouter le céleri.\n" +
-            "15. Ajouter l’ail.\n" +
-            "16. Mélanger.\n" +
-            "17. Ajouter les moules.\n" +
-            "18. Couvrir la casserole.\n" +
-            "19. Cuire jusqu’à ce que les moules s’ouvrent.\n" +
-            "20. Ajouter le sel et le poivre.\n" +
-            "21. Mélanger.\n" +
-            "22. Éplucher la pomme de terre.\n" +
-            "23. Couper en frites.\n" +
-            "24. Faire frire jusqu’à doré.\n" +
-            "25. Parsemer de persil.\n" +
-            "26. Servir les moules dans une assiette creuse ou un bol avec leur jus.\n" +
-            "27. Le jus peut être consommé comme un bouillon.\n" +
-            "28. Servir les frites à part.\n"
+            "3. Jeter les moules ouvertes ou cassées.\n" +
+            "4. Éplucher et émincer l’oignon.\n" +
+            "5. Couper le céleri en petits morceaux.\n" +
+            "6. Hacher l’ail.\n" +
+            "7. Chauffer l’huile d’olive dans la casserole.\n" +
+            "8. Faire revenir l’oignon et le céleri 3 minutes.\n" +
+            "9. Ajouter l’ail et mélanger.\n" +
+            "10. Ajouter les moules.\n" +
+            "11. Verser un petit verre d’eau.\n" +
+            "12. Mélanger une seule fois.\n" +
+            "13. Couvrir immédiatement.\n" +
+            "14. Cuire 8 à 10 minutes sans remuer.\n" +
+            "15. Secouer légèrement la casserole en fin de cuisson.\n" +
+            "16. Saler et poivrer.\n" +
+            "17. Parsemer de persil frais.\n" +
+            "18. Servir dans une assiette creuse avec le jus.\n" +
+            "19. Le jus peut être dégusté comme un bouillon.\n" +
+            "20. Servir avec des frites croustillantes.\n\n" +
+
+            "==============================\n" +
+            "INFORMATIONS ET CONSEILS\n" +
+            "==============================\n\n" +
+
+            "Les moules-frites sont un plat emblématique de la Belgique et de la côte de la mer du Nord.\n" +
+            "Ce petit crustacé vit en grappes fixées aux rochers et reste fermé dans la nature.\n" +
+            "C’est uniquement à la cuisson qu’il s’ouvre pour révéler toute sa saveur.\n\n" +
+
+            "Bien qu’elles puissent sembler peu appétissantes au premier regard, les moules sont un véritable délice pour petits et grands.\n\n" +
+
+            "Pour manger facilement, commencez par en ouvrir une et gardez les deux coquilles attachées.\n" +
+            "Vous pourrez ensuite l’utiliser comme une pince pour attraper les autres sans vous salir les doigts.\n\n" +
+
+            "Prévoyez un grand bol pour déposer les coquilles vides : elles prennent vite de la place dans l’assiette.\n\n" +
+
+            "⚠️ Si une moule reste fermée après cuisson, jetez-la : elle pourrait être impropre à la consommation.\n\n" +
+
+            "👉 Pour une version encore plus savoureuse, essayez la recette des moules aux légumes.\n"
     },
 
     en: {
         title: "Mussels with Fries",
+        description: "A simple and traditional version of Belgian mussels and fries. For more flavor, try the vegetable mussels version below.",
+
         equipment: [
             "1 large pot",
             "1 colander",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
-            "1 fryer or large pan",            
+            "1 fryer or large pan"
         ],
+
         ingredients: [
             "2 kg fresh mussels",
-            "1 potato",
-            "2 tbsp olive oil",
-            "1 medium onion (120 g)",
+            "1 onion",
             "1 celery stalk",
             "2 garlic cloves",
+            "1 small glass of water",
+            "2 tbsp olive oil",
             "Salt",
             "Pepper",
             "Fresh parsley"
         ],
+
         preparation:
-            "1. Rinse the mussels under cold water.\n" +
+            "1. Rinse the mussels in cold water.\n" +
             "2. Remove the beards.\n" +
-            "3. Discard open mussels.\n" +
-            "4. Peel the onion.\n" +
-            "5. Slice the onion.\n" +
-            "6. Wash the celery.\n" +
-            "7. Cut the celery.\n" +
-            "8. Peel the garlic.\n" +
-            "9. Chop the garlic.\n" +
-            "10. Heat the pot.\n" +
-            "11. Add the olive oil.\n" +
-            "12. Add the onion.\n" +
-            "13. Cook for 3 minutes.\n" +
-            "14. Add the celery.\n" +
-            "15. Add the garlic.\n" +
-            "16. Stir.\n" +
-            "17. Add the mussels.\n" +
-            "18. Cover the pot.\n" +
-            "19. Cook until the mussels open.\n" +
-            "20. Add salt and pepper.\n" +
-            "21. Stir.\n" +
-            "22. Peel the potato.\n" +
-            "23. Cut into fries.\n" +
-            "24. Fry until golden.\n" +
-            "25. Sprinkle with parsley.\n" +
-            "26. Serve the mussels in a deep plate or bowl with the broth.\n" +
-            "27. The broth can be enjoyed as a soup.\n" +
-            "28. Serve the fries separately.\n"
+            "3. Discard open or broken mussels.\n" +
+            "4. Slice the onion.\n" +
+            "5. Cut the celery.\n" +
+            "6. Chop the garlic.\n" +
+            "7. Heat olive oil in the pot.\n" +
+            "8. Sauté onion and celery for 3 minutes.\n" +
+            "9. Add garlic and stir.\n" +
+            "10. Add the mussels.\n" +
+            "11. Pour in a small glass of water.\n" +
+            "12. Stir once.\n" +
+            "13. Cover immediately.\n" +
+            "14. Cook 8–10 minutes without stirring.\n" +
+            "15. Gently shake the pot at the end.\n" +
+            "16. Season with salt and pepper.\n" +
+            "17. Sprinkle fresh parsley.\n" +
+            "18. Serve in a deep plate with the broth.\n" +
+            "19. The broth can be enjoyed as a soup.\n" +
+            "20. Serve with crispy fries.\n"
     },
 
     nl: {
         title: "Mosselen met frieten",
+        description: "Een eenvoudige en traditionele versie van mosselen met frieten. Voor meer smaak kunt u de versie met groenten proberen.",
+
         equipment: [
             "1 grote pan",
             "1 vergiet",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
-            "1 friteuse of grote pan",            
+            "1 friteuse of grote pan"
         ],
+
         ingredients: [
             "2 kg verse mosselen",
-            "1 aardappel",
-            "2 eetlepels olijfolie",
-            "1 middelgrote ui (120 g)",
+            "1 ui",
             "1 selderijstengel",
             "2 teentjes knoflook",
+            "1 klein glas water",
+            "2 eetlepels olijfolie",
             "Zout",
             "Peper",
             "Verse peterselie"
         ],
+
         preparation:
             "1. Spoel de mosselen met koud water.\n" +
             "2. Verwijder de baarden.\n" +
-            "3. Gooi open mosselen weg.\n" +
-            "4. Pel de ui.\n" +
-            "5. Snijd de ui fijn.\n" +
-            "6. Was de selderij.\n" +
-            "7. Snijd de selderij.\n" +
-            "8. Pel de knoflook.\n" +
-            "9. Hak de knoflook.\n" +
-            "10. Verhit de pan.\n" +
-            "11. Voeg olijfolie toe.\n" +
-            "12. Voeg de ui toe.\n" +
-            "13. Bak 3 minuten.\n" +
-            "14. Voeg de selderij toe.\n" +
-            "15. Voeg de knoflook toe.\n" +
-            "16. Roer.\n" +
-            "17. Voeg de mosselen toe.\n" +
-            "18. Dek af.\n" +
-            "19. Kook tot ze opengaan.\n" +
-            "20. Voeg zout en peper toe.\n" +
-            "21. Meng.\n" +
-            "22. Schil de aardappel.\n" +
-            "23. Snijd in frieten.\n" +
-            "24. Bak goudbruin.\n" +
-            "25. Bestrooi met peterselie.\n" +
-            "26. Serveer in een diep bord of kom met het kookvocht.\n" +
-            "27. Het vocht kan als soep worden gedronken.\n" +
-            "28. Serveer de frieten apart.\n"
+            "3. Gooi open of kapotte mosselen weg.\n" +
+            "4. Snijd de ui.\n" +
+            "5. Snijd de selderij.\n" +
+            "6. Hak de knoflook.\n" +
+            "7. Verhit olijfolie in de pan.\n" +
+            "8. Bak ui en selderij 3 minuten.\n" +
+            "9. Voeg knoflook toe.\n" +
+            "10. Voeg de mosselen toe.\n" +
+            "11. Voeg een klein glas water toe.\n" +
+            "12. Meng één keer.\n" +
+            "13. Dek onmiddellijk af.\n" +
+            "14. Kook 8–10 minuten zonder te roeren.\n" +
+            "15. Schud de pan licht op het einde.\n" +
+            "16. Breng op smaak.\n" +
+            "17. Bestrooi met peterselie.\n" +
+            "18. Serveer in een diep bord met het kookvocht.\n" +
+            "19. Het vocht kan als soep worden gedronken.\n" +
+            "20. Serveer met frieten.\n"
     },
 
     ar: {
-        title: "المحار مع البطاطس المقلية",
+        title: "بلح البحر مع البطاطس المقلية",
+        description: "نسخة بسيطة وتقليدية من طبق بلح البحر البلجيكي مع البطاطس المقلية. يمكن تجربة النسخة بالخضار لمذاق أغنى.",
+
         equipment: [
             "قدر كبير",
             "مصفاة",
             "سكين",
             "لوح تقطيع",
             "ملعقة خشبية",
-            "مقلاة أو قلاية",            
+            "مقلاة أو قلاية"
         ],
+
         ingredients: [
-            "2 كغ محار طازج",
-            "1 حبة بطاطس",
-            "2 ملاعق كبيرة زيت زيتون",
-            "1 بصلة متوسطة (120غ)",
-            "1 عود كرفس",
+            "2 كغ بلح بحر طازج",
+            "بصلة",
+            "عود كرفس",
             "2 فص ثوم",
+            "كوب صغير من الماء",
+            "2 ملعقة كبيرة زيت زيتون",
             "ملح",
             "فلفل",
             "بقدونس طازج"
         ],
+
         preparation:
-            "1. اغسل المحار بالماء البارد.\n" +
+            "1. اغسل بلح البحر بالماء البارد.\n" +
             "2. أزل الشعيرات.\n" +
-            "3. تخلّص من المحار المفتوح.\n" +
-            "4. قشّر البصل.\n" +
-            "5. قطّعه.\n" +
-            "6. اغسل الكرفس.\n" +
-            "7. قطّعه.\n" +
-            "8. قشّر الثوم.\n" +
-            "9. افرمه.\n" +
-            "10. سخّن القدر.\n" +
-            "11. أضف زيت الزيتون.\n" +
-            "12. أضف البصل.\n" +
-            "13. اطبخ 3 دقائق.\n" +
-            "14. أضف الكرفس.\n" +
-            "15. أضف الثوم.\n" +
-            "16. حرّك.\n" +
-            "17. أضف المحار.\n" +
-            "18. غطِّ القدر.\n" +
-            "19. اطبخ حتى يفتح المحار.\n" +
-            "20. أضف الملح والفلفل.\n" +
-            "21. حرّك.\n" +
-            "22. قشّر البطاطس.\n" +
-            "23. قطّعها إلى أصابع.\n" +
-            "24. اقْلِها حتى تصبح ذهبية.\n" +
-            "25. زيّن بالبقدونس.\n" +
-            "26. قدّم المحار في وعاء أو طبق عميق مع المرق.\n" +
-            "27. يمكن شرب المرق كحساء.\n" +
-            "28. قدّم البطاطس المقلية بشكل منفصل.\n"
+            "3. تخلّص من المفتوح أو المكسور.\n" +
+            "4. قطّع البصل.\n" +
+            "5. قطّع الكرفس.\n" +
+            "6. افرم الثوم.\n" +
+            "7. سخّن زيت الزيتون.\n" +
+            "8. أضف البصل والكرفس واطبخ 3 دقائق.\n" +
+            "9. أضف الثوم.\n" +
+            "10. أضف بلح البحر.\n" +
+            "11. أضف كوباً صغيراً من الماء.\n" +
+            "12. حرّك مرة واحدة.\n" +
+            "13. غطِّ القدر فوراً.\n" +
+            "14. اطبخ 8–10 دقائق دون تحريك.\n" +
+            "15. هز القدر برفق في النهاية.\n" +
+            "16. أضف الملح والفلفل.\n" +
+            "17. رش البقدونس.\n" +
+            "18. قدّم مع المرق.\n" +
+            "19. يمكن شرب المرق كحساء.\n" +
+            "20. قدّم مع البطاطس المقلية.\n"
     }
 };
+
 
 recipesData.plat.carbonadeVlaamse = {
     country: "belgique",
@@ -12433,16 +12669,33 @@ recipesData.plat.fritesBelges = {
     country: "belgique",
     image: "images/frites-belges.jpg",
 
-   meta: {
-    servings: 4,
-    prepTime: 20,
-    cookTime: 30,
-    difficulty: "easy"
-},
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy",
 
+        keywords: [
+            "frites belges",
+            "recette frites maison",
+            "frites croustillantes",
+            "double cuisson frites",
+            "belgian fries recipe",
+            "crispy fries",
+            "Belgische frieten recept"
+        ],
+
+        description: {
+            fr: "Préparez de véritables frites belges croustillantes et fondantes grâce à la double cuisson traditionnelle.",
+            en: "Learn how to make authentic Belgian fries with a crispy exterior and fluffy interior.",
+            nl: "Ontdek hoe u echte Belgische frieten maakt met een knapperige buitenkant en zachte binnenkant.",
+            ar: "تعرف على طريقة تحضير البطاطس المقلية البلجيكية المقرمشة بطريقة القلي المزدوج."
+        }
+    },
 
     fr: {
         title: "Frites belges",
+        description: "Des frites croustillantes à l’extérieur et fondantes à l’intérieur grâce à la double cuisson traditionnelle.",
         equipment: [
             "1 grande casserole ou friteuse",
             "1 écumoire",
@@ -12453,196 +12706,180 @@ recipesData.plat.fritesBelges = {
             "1 Airfryer (optionnel)"
         ],
         ingredients: [
-            "1 kg de pommes de terre à chair ferme",
+            "1 kg de pommes de terre (Bintje, Agria ou Maris Piper)",
             "Graisse de bœuf ou huile neutre",
             "Sel"
         ],
         preparation:
-            "==============================\n" +
-            "PRÉPARATION DES POMMES DE TERRE\n" +
-            "==============================\n\n" +
-            "1. Éplucher les pommes de terre.\n" +
-            "2. Couper en bâtonnets d’environ 1 cm.\n" +
-            "3. Rincer à l’eau froide.\n" +
-            "4. Bien sécher les frites.\n\n" +
+"==============================\n" +
+"PRÉPARATION DES POMMES DE TERRE\n" +
+"==============================\n\n" +
+"1. Éplucher les pommes de terre.\n" +
+"2. Couper en bâtonnets d’environ 1 cm.\n" +
+"3. Rincer à l’eau froide pour retirer l’amidon.\n" +
+"4. Bien sécher les frites.\n\n" +
 
-            "==============================\n" +
-            "MÉTHODE TRADITIONNELLE (HUILE)\n" +
-            "==============================\n\n" +
-            "5. Chauffer la graisse à 130°C.\n" +
-            "6. Frire 5 à 6 minutes sans colorer.\n" +
-            "7. Égoutter sur du papier absorbant.\n" +
-            "8. Laisser reposer 30 minutes.\n" +
-            "9. Chauffer la graisse à 175°C.\n" +
-            "10. Frire 2 à 3 minutes jusqu’à doré.\n" +
-            "11. Égoutter et saler.\n" +
-            "12. Servir avec une sauce au choix (mayonnaise, andalouse, cocktail, ketchup, etc.).\n\n" +
+"==============================\n" +
+"MÉTHODE TRADITIONNELLE (DOUBLE CUISSON)\n" +
+"==============================\n\n" +
+"5. Chauffer la graisse à 130°C.\n" +
+"6. Frire 5 à 6 minutes sans colorer.\n" +
+"7. Égoutter.\n" +
+"8. Laisser reposer 30 minutes.\n" +
+"9. Chauffer la graisse à 175°C.\n" +
+"10. Frire 2 à 3 minutes jusqu’à doré.\n" +
+"11. Égoutter et saler.\n\n" +
 
-            "==============================\n" +
-            "MÉTHODE SANS HUILE (AIRFRYER)\n" +
-            "==============================\n\n" +
-            "13. Préchauffer l’Airfryer à 160°C.\n" +
-            "14. Mettre les frites en une seule couche.\n" +
-            "15. Cuire 10 à 12 minutes.\n" +
-            "16. Secouer à mi-cuisson.\n" +
-            "17. Laisser reposer 15 minutes.\n" +
-            "18. Monter la température à 200°C.\n" +
-            "19. Cuire 5 à 6 minutes.\n" +
-            "20. Saler.\n" +
-            "21. Servir avec une sauce au choix (mayonnaise, andalouse, cocktail, ketchup, etc.).\n"
+"==============================\n" +
+"INFORMATIONS ET CONSEILS\n" +
+"==============================\n\n" +
+"La frite, connue comme étant belge, fait pourtant débat. Une tradition situe son origine vers 1680 dans la vallée de la Meuse, tandis que certains historiens évoquent des pommes de terre frites vendues à Paris à la fin du XVIIIᵉ siècle. Ceci étant dit, même si je ne suis peut-être pas totalement objectif, la frite moderne est devenue un véritable symbole culinaire de la Belgique… et il faut bien l’avouer : elle y est souvent meilleure 😊.\n\n" +
+"Le secret d’une frite parfaite repose sur le choix de la pomme de terre et la double cuisson. Les variétés riches en amidon comme la Bintje, l’Agria ou la Maris Piper permettent d’obtenir des frites croustillantes à l’extérieur et fondantes à l’intérieur.\n\n" +
+"La cuisson dans la graisse de bœuf apporte une saveur authentique incomparable.\n\n" +
+"Je vais être totalement honnête : cette méthode donne des frites délicieuses mais assez grasses. À consommer avec modération. La cuisson avec peu d’huile ou à l’Airfryer permet une alternative plus légère.\n\n" +
+"La frite accompagne de nombreux plats mais peut aussi se déguster seule avec une sauce. En Belgique, il n’est pas rare d’en manger lors de festivités.\n\n" +
+"👉 Il existe différents modèles de friteuses adaptés à tous les besoins. Vous pouvez en découvrir via les liens recommandés dans la rubrique boutique du site.\n"
     },
 
     en: {
         title: "Belgian Fries",
+        description: "Crispy on the outside and fluffy inside thanks to the traditional double frying method.",
         equipment: [
-            "1 large pot or fryer",
-            "1 skimmer",
-            "1 bowl",
-            "1 knife",
-            "1 cutting board",
-            "1 paper towel",
-            "1 Airfryer (optional)"
+            "large pot or fryer",
+            "skimmer",
+            "knife",
+            "cutting board",
+            "paper towels",
+            "Airfryer (optional)"
         ],
         ingredients: [
-            "1 kg firm potatoes",
-            "Beef fat or neutral oil",
-            "Salt"
+            "1 kg potatoes (Bintje, Agria or Maris Piper)",
+            "beef fat or neutral oil",
+            "salt"
         ],
         preparation:
-            "==============================\n" +
-            "POTATO PREPARATION\n" +
-            "==============================\n\n" +
-            "1. Peel the potatoes.\n" +
-            "2. Cut into 1 cm sticks.\n" +
-            "3. Rinse under cold water.\n" +
-            "4. Dry the fries well.\n\n" +
+"==============================\n" +
+"POTATO PREPARATION\n" +
+"==============================\n\n" +
+"1. Peel the potatoes.\n" +
+"2. Cut into 1 cm sticks.\n" +
+"3. Rinse under cold water.\n" +
+"4. Dry thoroughly.\n\n" +
 
-            "==============================\n" +
-            "TRADITIONAL METHOD (OIL)\n" +
-            "==============================\n\n" +
-            "5. Heat fat to 130°C.\n" +
-            "6. Fry for 5–6 minutes without coloring.\n" +
-            "7. Drain on paper towels.\n" +
-            "8. Let rest 30 minutes.\n" +
-            "9. Heat fat to 175°C.\n" +
-            "10. Fry 2–3 minutes until golden.\n" +
-            "11. Drain and salt.\n" +
-            "12. Serve with a sauce of your choice (mayonnaise, andalouse, cocktail, ketchup, etc.).\n\n" +
+"==============================\n" +
+"TRADITIONAL DOUBLE FRYING METHOD\n" +
+"==============================\n\n" +
+"5. Heat fat to 130°C.\n" +
+"6. Fry 5–6 minutes without browning.\n" +
+"7. Drain.\n" +
+"8. Let rest 30 minutes.\n" +
+"9. Heat fat to 175°C.\n" +
+"10. Fry until golden.\n" +
+"11. Drain and salt.\n\n" +
 
-            "==============================\n" +
-            "AIRFRYER METHOD (NO OIL)\n" +
-            "==============================\n\n" +
-            "13. Preheat Airfryer to 160°C.\n" +
-            "14. Place fries in one layer.\n" +
-            "15. Cook 10–12 minutes.\n" +
-            "16. Shake halfway.\n" +
-            "17. Let rest 15 minutes.\n" +
-            "18. Increase to 200°C.\n" +
-            "19. Cook 5–6 minutes.\n" +
-            "20. Salt.\n" +
-            "21. Serve with a sauce of your choice (mayonnaise, andalouse, cocktail, ketchup, etc.).\n"
+"==============================\n" +
+"INFORMATION AND TIPS\n" +
+"==============================\n\n" +
+"Fries are widely associated with Belgium, although fried potatoes were also sold in Paris in the late 18th century. Today, Belgian fries are a true national symbol… and many would agree they taste best in Belgium 😊.\n\n" +
+"The secret of perfect fries lies in the potato choice and double frying. High-starch varieties such as Bintje, Agria or Maris Piper create a crispy exterior and fluffy interior.\n\n" +
+"Cooking in beef fat provides an authentic and rich flavor.\n\n" +
+"To be honest, this method produces delicious but fairly rich fries. Enjoy in moderation. Using less oil or an Airfryer offers a lighter alternative.\n\n" +
+"Fries can accompany many dishes or be enjoyed on their own with sauce.\n\n" +
+"👉 Various fryer models are available to suit different needs. You can explore recommended options in the shop section of the website.\n"
     },
 
     nl: {
         title: "Belgische frieten",
+        description: "Knapperig van buiten en zacht van binnen dankzij de dubbele bakmethode.",
         equipment: [
-            "1 grote pan of friteuse",
-            "1 schuimspaan",
-            "1 kom",
-            "1 mes",
-            "1 snijplank",
-            "1 keukenpapier",
-            "1 Airfryer (optioneel)"
+            "grote pan of friteuse",
+            "schuimspaan",
+            "mes",
+            "snijplank",
+            "keukenpapier",
+            "Airfryer (optioneel)"
         ],
         ingredients: [
-            "1 kg vastkokende aardappelen",
-            "Rundervet of neutrale olie",
-            "Zout"
+            "1 kg aardappelen (Bintje, Agria of Maris Piper)",
+            "rundervet of neutrale olie",
+            "zout"
         ],
         preparation:
-            "==============================\n" +
-            "VOORBEREIDING VAN DE AARDAPPELEN\n" +
-            "==============================\n\n" +
-            "1. Schil de aardappelen.\n" +
-            "2. Snijd in staafjes van 1 cm.\n" +
-            "3. Spoel met koud water.\n" +
-            "4. Dep goed droog.\n\n" +
+"==============================\n" +
+"VOORBEREIDING VAN DE AARDAPPELEN\n" +
+"==============================\n\n" +
+"1. Schil de aardappelen.\n" +
+"2. Snijd in staafjes van 1 cm.\n" +
+"3. Spoel met koud water.\n" +
+"4. Dep goed droog.\n\n" +
 
-            "==============================\n" +
-            "TRADITIONELE METHODE (OLIE)\n" +
-            "==============================\n\n" +
-            "5. Verhit vet tot 130°C.\n" +
-            "6. Frituur 5–6 minuten zonder kleuren.\n" +
-            "7. Laat uitlekken op keukenpapier.\n" +
-            "8. Laat 30 minuten rusten.\n" +
-            "9. Verhit vet tot 175°C.\n" +
-            "10. Frituur goudbruin.\n" +
-            "11. Zout toevoegen.\n" +
-            "12. Serveer met saus naar keuze (mayonaise, andalouse, cocktail, ketchup, enz.).\n\n" +
+"==============================\n" +
+"TRADITIONELE DUBBELE BAKMETHODE\n" +
+"==============================\n\n" +
+"5. Verhit vet tot 130°C.\n" +
+"6. Frituur 5–6 minuten zonder kleuren.\n" +
+"7. Laat uitlekken.\n" +
+"8. Laat 30 minuten rusten.\n" +
+"9. Verhit vet tot 175°C.\n" +
+"10. Bak goudbruin.\n" +
+"11. Zout toevoegen.\n\n" +
 
-            "==============================\n" +
-            "AIRFRYER METHODE (ZONDER OLIE)\n" +
-            "==============================\n\n" +
-            "13. Verwarm voor op 160°C.\n" +
-            "14. Leg frieten in één laag.\n" +
-            "15. Bak 10–12 minuten.\n" +
-            "16. Schud halverwege.\n" +
-            "17. Laat 15 minuten rusten.\n" +
-            "18. Verhoog naar 200°C.\n" +
-            "19. Bak 5–6 minuten.\n" +
-            "20. Zout toevoegen.\n" +
-            "21. Serveer met saus naar keuze (mayonaise, andalouse, cocktail, ketchup, enz.).\n"
+"==============================\n" +
+"INFORMATIE EN TIPS\n" +
+"==============================\n\n" +
+"Frieten worden sterk met België geassocieerd, hoewel gefrituurde aardappelen ook in Parijs werden verkocht aan het einde van de 18e eeuw. Vandaag zijn Belgische frieten een echt nationaal symbool 😊.\n\n" +
+"Het geheim van perfecte frieten ligt in de aardappelkeuze en de dubbele bakmethode. Zetmeelrijke variëteiten zoals Bintje of Agria zorgen voor een knapperige buitenkant en zachte binnenkant.\n\n" +
+"Bakken in rundervet geeft een authentieke smaak.\n\n" +
+"Eerlijk is eerlijk: deze methode maakt frieten heerlijk maar vrij vet. Met minder olie of een Airfryer krijgt u een lichtere versie.\n\n" +
+"Frieten passen bij vele gerechten of kunnen alleen met saus worden gegeten.\n\n" +
+"👉 In de winkelrubriek vindt u verschillende friteuses voor elk gebruik.\n"
     },
 
     ar: {
         title: "البطاطس المقلية البلجيكية",
+        description: "مقرمشة من الخارج وطرية من الداخل بفضل طريقة القلي المزدوج.",
         equipment: [
-            "قدر كبير أو قلاية",
+            "قدر أو قلاية",
             "مصفاة",
-            "وعاء",
             "سكين",
             "لوح تقطيع",
             "منشفة ورقية",
             "جهاز Airfryer (اختياري)"
         ],
         ingredients: [
-            "1 كغ بطاطس متماسكة",
-            "دهن بقر أو زيت محايد",
+            "1 كغ بطاطس (بنتجي أو أغريا)",
+            "دهن بقر أو زيت",
             "ملح"
         ],
         preparation:
-            "==============================\n" +
-            "تحضير البطاطس\n" +
-            "==============================\n\n" +
-            "1. قشّر البطاطس.\n" +
-            "2. قطّعها إلى أعواد 1 سم.\n" +
-            "3. اغسلها بالماء البارد.\n" +
-            "4. جففها جيدًا.\n\n" +
+"==============================\n" +
+"تحضير البطاطس\n" +
+"==============================\n\n" +
+"1. قشّر البطاطس.\n" +
+"2. قطّعها إلى أعواد 1 سم.\n" +
+"3. اغسلها بالماء البارد.\n" +
+"4. جففها جيدًا.\n\n" +
 
-            "==============================\n" +
-            "الطريقة التقليدية (بالزيت)\n" +
-            "==============================\n\n" +
-            "5. سخّن الدهن إلى 130°C.\n" +
-            "6. اقلي 5–6 دقائق دون أن تكتسب اللون.\n" +
-            "7. صفِّها على ورق.\n" +
-            "8. اتركها 30 دقيقة.\n" +
-            "9. سخّن الدهن إلى 175°C.\n" +
-            "10. اقلي حتى تصبح ذهبية.\n" +
-            "11. أضف الملح.\n" +
-            "12. قدّمها مع صلصة من اختيارك (مايونيز، أندالوس، كوكتيل، كاتشب، إلخ).\n\n" +
+"==============================\n" +
+"طريقة القلي المزدوج التقليدية\n" +
+"==============================\n\n" +
+"5. سخّن الدهن إلى 130°C.\n" +
+"6. اقلي 5–6 دقائق دون أن تكتسب اللون.\n" +
+"7. صفِّها.\n" +
+"8. اتركها 30 دقيقة.\n" +
+"9. سخّن الدهن إلى 175°C.\n" +
+"10. اقلي حتى تصبح ذهبية.\n" +
+"11. أضف الملح.\n\n" +
 
-            "==============================\n" +
-            "طريقة Airfryer بدون زيت\n" +
-            "==============================\n\n" +
-            "13. سخّن الجهاز إلى 160°C.\n" +
-            "14. ضع البطاطس بطبقة واحدة.\n" +
-            "15. اطبخ 10–12 دقيقة.\n" +
-            "16. رجّها في منتصف الوقت.\n" +
-            "17. اتركها 15 دقيقة.\n" +
-            "18. ارفع الحرارة إلى 200°C.\n" +
-            "19. اطبخ 5–6 دقائق.\n" +
-            "20. أضف الملح.\n" +
-            "21. قدّمها مع صلصة من اختيارك (مايونيز، أندالوس، كوكتيل، كاتشب، إلخ).\n"
+"==============================\n" +
+"معلومات ونصائح\n" +
+"==============================\n\n" +
+"ترتبط البطاطس المقلية ببلجيكا، رغم أنها كانت تُباع أيضاً في باريس في أواخر القرن الثامن عشر. واليوم أصبحت رمزاً وطنياً حقيقياً 😊.\n\n" +
+"سر البطاطس المقلية المثالية يكمن في اختيار البطاطس وطريقة القلي المزدوج. البطاطس الغنية بالنشا تعطي قرمشة خارجية وطراوة داخلية.\n\n" +
+"القلي في دهن البقر يمنح نكهة تقليدية مميزة.\n\n" +
+"بصراحة، هذه الطريقة لذيذة لكنها غنية بالدهون. يمكن استخدام كمية زيت أقل أو جهاز Airfryer للحصول على خيار أخف.\n\n" +
+"يمكن تقديم البطاطس مع العديد من الأطباق أو تناولها مع الصلصات.\n\n" +
+"👉 تتوفر أنواع مختلفة من القلايات يمكنكم الاطلاع عليها في قسم المتجر بالموقع.\n"
     }
 };
 recipesData.plat.potjevleesch = {
@@ -13106,194 +13343,173 @@ recipesData.plat.moulesFritesLegumes = {
     country: "belgique",
     image: "images/moules-légume-frites.jpg",
 
-   meta: {
-    servings: 4,
-    prepTime: 15,
-    cookTime: 15,
-    difficulty: "easy"
-},
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy",
 
+        keywords: [
+            "moules frites",
+            "recette moules belges",
+            "moules marinières",
+            "plat belge traditionnel",
+            "mussels and fries",
+            "belgian mussels recipe",
+            "north sea mussels"
+        ],
+
+        description: {
+            fr: "Découvrez les moules-frites belges, une spécialité conviviale de la mer du Nord accompagnée de frites croustillantes.",
+            en: "Discover Belgian mussels and fries, a North Sea specialty served with crispy fries.",
+            nl: "Ontdek Belgische mosselen met frieten, een specialiteit uit de Noordzee geserveerd met knapperige frieten.",
+            ar: "اكتشف بلح البحر البلجيكي مع البطاطس المقلية، وهو طبق تقليدي من بحر الشمال."
+        }
+    },
 
     fr: {
         title: "Moules-frites aux légumes",
+        description: "Spécialité belge incontournable venue de la mer du Nord, conviviale et savoureuse.",
         equipment: [
-            "1 grande casserole",
+            "1 grande casserole avec couvercle",
             "1 couteau",
             "1 planche à découper",
-            "1 cuillère en bois",            
+            "1 cuillère en bois"
         ],
         ingredients: [
             "1 kg de moules nettoyées",
-            "1 oignon moyen (120 g)",
-            "1 carotte moyenne (100 g)",
+            "1 oignon",
+            "1 carotte",
             "1 branche de céleri",
+            "1 poireau (optionnel)",
             "2 gousses d’ail",
-            "500 ml de bouillon de légumes",
+            "1 cube de bouillon de légumes",
+            "1 verre d’eau",
             "2 cuillères à soupe d’huile d’olive",
             "Sel",
             "Poivre"
         ],
         preparation:
-            "1. Éplucher l’oignon.\n" +
-            "2. Couper l’oignon en lamelles.\n" +
-            "3. Éplucher la carotte.\n" +
-            "4. Couper la carotte en rondelles.\n" +
-            "5. Laver le céleri.\n" +
-            "6. Couper le céleri en morceaux.\n" +
-            "7. Éplucher l’ail.\n" +
-            "8. Hacher l’ail.\n" +
-            "9. Chauffer l’huile dans la casserole.\n" +
-            "10. Ajouter l’oignon, la carotte et le céleri.\n" +
-            "11. Faire revenir 5 minutes.\n" +
-            "12. Ajouter l’ail.\n" +
-            "13. Mélanger.\n" +
-            "14. Ajouter les moules.\n" +
-            "15. Verser le bouillon de légumes.\n" +
-            "16. Couvrir la casserole.\n" +
-            "17. Cuire 8 à 10 minutes.\n" +
-            "18. Remuer de temps en temps.\n" +
-            "19. Vérifier que les moules sont ouvertes.\n" +
-            "20. Saler et poivrer.\n" +
-            "21. Servir les moules dans une assiette creuse ou un bol avec leur jus.\n" +
-            "22. Le jus peut être consommé comme un bouillon.\n" +
-            "23. Servir les frites à part.\n"
+"==============================\n" +
+"PRÉPARATION\n" +
+"==============================\n\n" +
+"1. Dissoudre le cube de bouillon dans un verre d’eau chaude ou tiède.\n" +
+"2. Émincer l’oignon, la carotte, le céleri et le poireau.\n" +
+"3. Hacher l’ail.\n" +
+"4. Chauffer l’huile dans la casserole.\n" +
+"5. Faire revenir les légumes 5 minutes.\n" +
+"6. Ajouter le bouillon préparé et mélanger.\n" +
+"7. Ajouter les moules.\n" +
+"8. Mélanger une seule fois pour répartir les légumes.\n" +
+"9. Couvrir immédiatement.\n" +
+"10. Cuire 8 à 10 minutes sans remuer.\n" +
+"11. Secouer légèrement la casserole en fin de cuisson si nécessaire.\n" +
+"12. Vérifier que les moules sont ouvertes.\n" +
+"13. Assaisonner.\n" +
+"14. Servir avec le jus de cuisson.\n" +
+"15. Servir les frites séparément.\n\n" +
+
+"==============================\n" +
+"INFORMATIONS ET CONSEILS\n" +
+"==============================\n\n" +
+"Les moules sont un plat typiquement belge provenant de la côte de la mer du Nord.\n" +
+"Ce petit crustacé vit en groupe, souvent accroché en grappes. Dans la nature, on ne voit que sa coquille fermée.\n" +
+"C’est uniquement lors de la cuisson qu’elle s’ouvre et régale petits et grands.\n\n" +
+"Bien sûr, que serait un plat belge sans frites ? 😊\n\n" +
+"La base classique est céleri, oignon et ail. J’aime ajouter carotte et poireau.\n" +
+"Depuis quelque temps, sur conseil d’un ami, j’ajoute un cube de bouillon de légumes : le goût est encore plus riche.\n\n" +
+"Le bouillon restant est délicieux : je trempe mes frites dedans et je termine comme une soupe.\n\n" +
+"Pour manger facilement, utilisez une coquille vide comme pince.\n" +
+"Prévoyez un grand bol pour les coquilles vides.\n\n" +
+"⚠️ Si une moule reste fermée après cuisson, jetez-la."
     },
 
     en: {
-        title: "Mussels with Vegetables and Fries",
-        equipment: [
-            "1 large pot",
-            "1 knife",
-            "1 cutting board",
-            "1 wooden spoon",            
-        ],
+        title: "Mussels and Fries with Vegetables",
+        description: "A Belgian coastal classic from the North Sea, flavorful and convivial.",
+        equipment: ["large pot with lid","knife","cutting board","wooden spoon"],
         ingredients: [
             "1 kg cleaned mussels",
-            "1 medium onion (120 g)",
-            "1 carrot (100 g)",
+            "1 onion",
+            "1 carrot",
             "1 celery stalk",
+            "1 leek (optional)",
             "2 garlic cloves",
-            "500 ml vegetable broth",
+            "1 vegetable stock cube",
+            "1 glass of water",
             "2 tbsp olive oil",
-            "Salt",
-            "Pepper"
+            "salt",
+            "pepper"
         ],
         preparation:
-            "1. Peel the onion.\n" +
-            "2. Slice the onion.\n" +
-            "3. Peel the carrot.\n" +
-            "4. Slice the carrot.\n" +
-            "5. Wash the celery.\n" +
-            "6. Cut the celery.\n" +
-            "7. Peel the garlic.\n" +
-            "8. Chop the garlic.\n" +
-            "9. Heat the oil in the pot.\n" +
-            "10. Add onion, carrot and celery.\n" +
-            "11. Sauté for 5 minutes.\n" +
-            "12. Add the garlic.\n" +
-            "13. Stir.\n" +
-            "14. Add the mussels.\n" +
-            "15. Pour in the vegetable broth.\n" +
-            "16. Cover the pot.\n" +
-            "17. Cook for 8–10 minutes.\n" +
-            "18. Stir occasionally.\n" +
-            "19. Check that the mussels are open.\n" +
-            "20. Season with salt and pepper.\n" +
-            "21. Serve the mussels in a deep plate or bowl with the broth.\n" +
-            "22. The broth can be enjoyed as a soup.\n" +
-            "23. Serve the fries separately.\n"
+"1. Dissolve the stock cube in a glass of warm water.\n" +
+"2. Slice the vegetables.\n" +
+"3. Heat oil and sauté vegetables.\n" +
+"4. Add the broth and stir.\n" +
+"5. Add mussels and stir once.\n" +
+"6. Cover immediately.\n" +
+"7. Cook 8–10 minutes without stirring.\n" +
+"8. Shake pot gently at the end if needed.\n" +
+"9. Check mussels are open and serve with broth and fries.\n"
     },
 
     nl: {
-        title: "Mosselen met groenten en frieten",
-        equipment: [
-            "1 grote pan",
-            "1 mes",
-            "1 snijplank",
-            "1 houten lepel",            
-        ],
+        title: "Mosselen met frieten en groenten",
+        description: "Een Belgische klassieker uit de Noordzee, gezellig en vol smaak.",
+        equipment: ["grote pan met deksel","mes","snijplank","houten lepel"],
         ingredients: [
-            "1 kg schoongemaakte mosselen",
-            "1 middelgrote ui (120 g)",
-            "1 wortel (100 g)",
+            "1 kg mosselen",
+            "1 ui",
+            "1 wortel",
             "1 selderijstengel",
+            "1 prei (optioneel)",
             "2 teentjes knoflook",
-            "500 ml groentebouillon",
-            "2 eetlepels olijfolie",
-            "Zout",
-            "Peper"
+            "1 bouillonblokje",
+            "1 glas water",
+            "2 el olijfolie",
+            "zout",
+            "peper"
         ],
         preparation:
-            "1. Pel de ui.\n" +
-            "2. Snijd de ui.\n" +
-            "3. Schil de wortel.\n" +
-            "4. Snijd de wortel.\n" +
-            "5. Was de selderij.\n" +
-            "6. Snijd de selderij.\n" +
-            "7. Pel de knoflook.\n" +
-            "8. Hak de knoflook.\n" +
-            "9. Verhit de olie in de pan.\n" +
-            "10. Voeg ui, wortel en selderij toe.\n" +
-            "11. Bak 5 minuten.\n" +
-            "12. Voeg knoflook toe.\n" +
-            "13. Roer.\n" +
-            "14. Voeg de mosselen toe.\n" +
-            "15. Giet de bouillon erbij.\n" +
-            "16. Dek af.\n" +
-            "17. Kook 8–10 minuten.\n" +
-            "18. Roer af en toe.\n" +
-            "19. Controleer of de mosselen open zijn.\n" +
-            "20. Breng op smaak.\n" +
-            "21. Serveer in een diep bord of kom met het kookvocht.\n" +
-            "22. Het vocht kan als soep worden gedronken.\n" +
-            "23. Serveer de frieten apart.\n"
+"1. Los het bouillonblokje op in warm water.\n" +
+"2. Snijd de groenten.\n" +
+"3. Bak groenten kort.\n" +
+"4. Voeg bouillon toe.\n" +
+"5. Voeg mosselen toe en meng één keer.\n" +
+"6. Dek af en kook 8–10 min zonder roeren.\n" +
+"7. Schud pan licht.\n" +
+"8. Controleer geopende mosselen en serveer.\n"
     },
 
     ar: {
-        title: "بلح البحر بالخضار والبطاطس المقلية",
-        equipment: [
-            "قدر كبير",
-            "سكين",
-            "لوح تقطيع",
-            "ملعقة خشبية",            
-        ],
+        title: "بلح البحر مع البطاطس المقلية والخضار",
+        description: "طبق بلجيكي تقليدي من بحر الشمال غني بالنكهة.",
+        equipment: ["قدر بغطاء","سكين","لوح تقطيع","ملعقة خشبية"],
         ingredients: [
-            "1 كغ بلح البحر منظف",
-            "1 بصلة متوسطة (120غ)",
-            "1 جزرة متوسطة (100غ)",
-            "1 عود كرفس",
+            "1 كغ بلح بحر",
+            "بصلة",
+            "جزرة",
+            "عود كرفس",
+            "كراث (اختياري)",
             "2 فص ثوم",
-            "500 مل مرق خضار",
-            "2 ملاعق كبيرة زيت زيتون",
+            "مكعب مرق خضار",
+            "كوب ماء",
+            "زيت زيتون",
             "ملح",
             "فلفل"
         ],
         preparation:
-            "1. قشّر البصل.\n" +
-            "2. قطّع البصل.\n" +
-            "3. قشّر الجزرة.\n" +
-            "4. قطّع الجزرة.\n" +
-            "5. اغسل الكرفس.\n" +
-            "6. قطّع الكرفس.\n" +
-            "7. قشّر الثوم.\n" +
-            "8. افرم الثوم.\n" +
-            "9. سخّن الزيت في القدر.\n" +
-            "10. أضف البصل والجزر والكرفس.\n" +
-            "11. قلّب 5 دقائق.\n" +
-            "12. أضف الثوم.\n" +
-            "13. حرّك.\n" +
-            "14. أضف بلح البحر.\n" +
-            "15. اسكب مرق الخضار.\n" +
-            "16. غطِّ القدر.\n" +
-            "17. اطبخ 8–10 دقائق.\n" +
-            "18. حرّك أحياناً.\n" +
-            "19. تأكد أن المحار مفتوح.\n" +
-            "20. أضف الملح والفلفل.\n" +
-            "21. قدّم بلح البحر في وعاء أو طبق عميق مع المرق.\n" +
-            "22. يمكن شرب المرق كحساء.\n" +
-            "23. قدّم البطاطس المقلية بشكل منفصل.\n"
+"1. أذب مكعب المرق في كوب ماء دافئ.\n" +
+"2. قطّع الخضار.\n" +
+"3. اقلي الخضار قليلاً.\n" +
+"4. أضف المرق.\n" +
+"5. أضف بلح البحر وحرّك مرة واحدة.\n" +
+"6. غطِّ القدر واطبخ 8–10 دقائق دون تحريك.\n" +
+"7. حرّك القدر برفق.\n" +
+"8. تأكد من فتح القواقع وقدّم.\n"
     }
 };
+
 recipesData.plat.compotePommesNature = {
     country: "belgique",
     image: "images/compote-pommes-nature.jpg",
@@ -13450,16 +13666,33 @@ recipesData.plat.pouletRoti = {
     country: "belgique",
     image: "images/poulet-roti.jpg",
 
-   meta: {
-    servings: 4,
-    prepTime: 15,
-    cookTime: 75,
-    difficulty: "easy"
-},
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 75,
+        difficulty: "easy",
 
+        keywords: [
+            "poulet rôti",
+            "recette poulet rôti au four",
+            "poulet croustillant four",
+            "repas familial facile",
+            "roast chicken recipe",
+            "oven roasted chicken",
+            "family dinner chicken"
+        ],
+
+        description: {
+            fr: "Découvrez la recette du poulet rôti au four, croustillant à l’extérieur et tendre à l’intérieur, un plat familial simple et délicieux.",
+            en: "Discover oven roasted chicken with crispy skin and juicy meat, a simple and delicious family meal.",
+            nl: "Ontdek geroosterde kip uit de oven met krokante huid en sappig vlees, een eenvoudig familiegerecht.",
+            ar: "اكتشف وصفة الدجاج المشوي في الفرن بجلد مقرمش ولحم طري، وجبة عائلية بسيطة ولذيذة."
+        }
+    },
 
     fr: {
         title: "Poulet rôti au four",
+        description: "Un grand classique familial croustillant et savoureux qui plaît aux petits comme aux grands.",
         equipment: [
             "1 plat allant au four",
             "1 couteau",
@@ -13477,32 +13710,44 @@ recipesData.plat.pouletRoti = {
             "Poivre"
         ],
         preparation:
-            "1. Préchauffer le four à 180°C.\n" +
-            "2. Éplucher les gousses d’ail.\n" +
-            "3. Hacher l’ail.\n" +
-            "4. Déposer le poulet dans le plat.\n" +
-            "5. Badigeonner le poulet avec l’huile d’olive.\n" +
-            "6. Ajouter l’ail.\n" +
-            "7. Saupoudrer de paprika.\n" +
-            "8. Ajouter les herbes de Provence.\n" +
-            "9. Saler et poivrer.\n" +
-            "10. Mettre le plat au four.\n" +
-            "11. Cuire 1h15 en arrosant toutes les 20 minutes.\n" +
-            "12. Vérifier que le poulet est bien doré.\n" +
-            "13. Sortir du four.\n" +
-            "14. Découper le poulet.\n" +
-            "15. Servir chaud.\n" +
-            "16. Accompagner de frites et de compote de pommes nature.\n"
+"==============================\n" +
+"PRÉPARATION\n" +
+"==============================\n\n" +
+"1. Préchauffer le four à 180°C.\n" +
+"2. Éplucher et hacher l’ail.\n" +
+"3. Déposer le poulet dans le plat.\n" +
+"4. Badigeonner avec l’huile d’olive.\n" +
+"5. Ajouter l’ail.\n" +
+"6. Saupoudrer de paprika et d’herbes.\n" +
+"7. Saler et poivrer.\n" +
+"8. Enfourner.\n" +
+"9. Cuire 1h15 en arrosant toutes les 20 minutes.\n" +
+"10. Vérifier que la peau est bien dorée.\n" +
+"11. Sortir du four.\n" +
+"12. Découper.\n" +
+"13. Servir chaud.\n" +
+"14. Accompagner de frites et de compote de pommes nature.\n\n" +
+
+"==============================\n" +
+"INFORMATIONS ET CONSEILS\n" +
+"==============================\n\n" +
+"Ce plat plaira à coup sûr aux enfants, je vous le garantis.\n\n" +
+"Lorsque j’étais enfant, mes grands-parents venaient me chercher le mercredi après l’école avec mes cousines et ma sœur. Lorsqu’elle nous préparait du poulet rôti, c’était toujours accompagné de compote et de frites.\n\n" +
+"Je ne me rappelle pas avoir vu des restes tellement nous nous régalions.\n\n" +
+"Il n’y a même pas besoin d’ajouter une sauce type mayonnaise ou autre, mais vous pouvez bien sûr selon vos goûts.\n\n" +
+"Vous pouvez aussi cuire des pommes de terre dans le plat avec le poulet : elles absorberont le jus de cuisson et auront un goût encore meilleur.\n\n" +
+"Le poulet rôti est un plat familial convivial qui accompagne parfaitement les repas du week-end."
     },
 
     en: {
         title: "Oven Roasted Chicken",
+        description: "A crispy, juicy family classic loved by both kids and adults.",
         equipment: [
-            "1 oven dish",
-            "1 knife",
-            "1 cutting board",
-            "1 spoon",
-            "1 kitchen tongs"
+            "oven dish",
+            "knife",
+            "cutting board",
+            "spoon",
+            "kitchen tongs"
         ],
         ingredients: [
             "1 whole chicken (about 1.5 kg)",
@@ -13510,67 +13755,83 @@ recipesData.plat.pouletRoti = {
             "2 garlic cloves",
             "1 tsp paprika",
             "1 tsp herbes de Provence",
-            "Salt",
-            "Pepper"
+            "salt",
+            "pepper"
         ],
         preparation:
-            "1. Preheat the oven to 180°C.\n" +
-            "2. Peel the garlic.\n" +
-            "3. Chop the garlic.\n" +
-            "4. Place the chicken in the dish.\n" +
-            "5. Brush with olive oil.\n" +
-            "6. Add the garlic.\n" +
-            "7. Sprinkle paprika.\n" +
-            "8. Add herbes de Provence.\n" +
-            "9. Season with salt and pepper.\n" +
-            "10. Put in the oven.\n" +
-            "11. Roast for 1h15, basting every 20 minutes.\n" +
-            "12. Check the chicken is golden.\n" +
-            "13. Remove from oven.\n" +
-            "14. Cut the chicken.\n" +
-            "15. Serve hot.\n" +
-            "16. Serve with fries and plain apple compote.\n"
+"==============================\n" +
+"PREPARATION\n" +
+"==============================\n\n" +
+"1. Preheat oven to 180°C.\n" +
+"2. Peel and chop garlic.\n" +
+"3. Place chicken in the dish.\n" +
+"4. Brush with olive oil.\n" +
+"5. Add garlic and spices.\n" +
+"6. Season with salt and pepper.\n" +
+"7. Roast for 1h15, basting every 20 minutes.\n" +
+"8. Check skin is golden and crispy.\n" +
+"9. Remove from oven.\n" +
+"10. Carve and serve hot.\n" +
+"11. Serve with fries and apple compote.\n\n" +
+
+"==============================\n" +
+"INFORMATION AND TIPS\n" +
+"==============================\n\n" +
+"This dish is guaranteed to be a hit with children.\n\n" +
+"When I was a child, my grandparents picked me up from school on Wednesdays with my cousins and sister. Whenever roast chicken was on the menu, it was always served with fries and applesauce.\n\n" +
+"I don’t remember leftovers — we enjoyed it too much.\n\n" +
+"No sauce is really needed, but you can add one if you like.\n\n" +
+"You can also roast potatoes in the dish with the chicken to absorb the juices and enhance their flavor.\n"
     },
 
     nl: {
         title: "Geroosterde kip uit de oven",
+        description: "Een krokant en sappig familiegerecht waar kinderen dol op zijn.",
         equipment: [
-            "1 ovenschaal",
-            "1 mes",
-            "1 snijplank",
-            "1 lepel",
-            "1 keukentang"
+            "ovenschaal",
+            "mes",
+            "snijplank",
+            "lepel",
+            "keukentang"
         ],
         ingredients: [
             "1 hele kip (ongeveer 1,5 kg)",
-            "2 eetlepels olijfolie",
+            "2 el olijfolie",
             "2 teentjes knoflook",
-            "1 theelepel paprika",
-            "1 theelepel Provençaalse kruiden",
-            "Zout",
-            "Peper"
+            "1 tl paprika",
+            "1 tl Provençaalse kruiden",
+            "zout",
+            "peper"
         ],
         preparation:
-            "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Pel de knoflook.\n" +
-            "3. Hak de knoflook.\n" +
-            "4. Leg de kip in de ovenschaal.\n" +
-            "5. Bestrijk met olijfolie.\n" +
-            "6. Voeg knoflook toe.\n" +
-            "7. Bestrooi met paprika.\n" +
-            "8. Voeg kruiden toe.\n" +
-            "9. Breng op smaak.\n" +
-            "10. Zet in de oven.\n" +
-            "11. Bak 1u15 en bedruip elke 20 minuten.\n" +
-            "12. Controleer of de kip goudbruin is.\n" +
-            "13. Haal uit de oven.\n" +
-            "14. Snijd de kip.\n" +
-            "15. Serveer warm.\n" +
-            "16. Serveer met frieten en naturel appelmoes.\n"
+"==============================\n" +
+"BEREIDING\n" +
+"==============================\n\n" +
+"1. Verwarm de oven voor op 180°C.\n" +
+"2. Pel en hak de knoflook.\n" +
+"3. Leg de kip in de ovenschaal.\n" +
+"4. Bestrijk met olijfolie.\n" +
+"5. Voeg knoflook en kruiden toe.\n" +
+"6. Breng op smaak met zout en peper.\n" +
+"7. Bak 1u15 en bedruip elke 20 minuten.\n" +
+"8. Controleer of de huid goudbruin is.\n" +
+"9. Haal uit de oven.\n" +
+"10. Snijd en serveer warm.\n" +
+"11. Serveer met frieten en appelmoes.\n\n" +
+
+"==============================\n" +
+"INFORMATIE EN TIPS\n" +
+"==============================\n\n" +
+"Dit gerecht valt altijd in de smaak bij kinderen.\n\n" +
+"Toen ik klein was, haalden mijn grootouders mij op woensdag van school met mijn nichtjes en zus. Wanneer er geroosterde kip was, werd die altijd geserveerd met frieten en appelmoes.\n\n" +
+"Er bleven nooit restjes over.\n\n" +
+"Een saus is niet nodig, maar kan natuurlijk naar smaak.\n\n" +
+"Aardappelen mee roosteren in de schaal zorgt voor extra smaak.\n"
     },
 
     ar: {
         title: "دجاج مشوي في الفرن",
+        description: "وجبة عائلية شهية بجلد مقرمش ولحم طري يحبها الأطفال والكبار.",
         equipment: [
             "طبق فرن",
             "سكين",
@@ -13579,8 +13840,8 @@ recipesData.plat.pouletRoti = {
             "ملقط مطبخ"
         ],
         ingredients: [
-            "1 دجاجة كاملة (حوالي 1.5 كغ)",
-            "2 ملاعق كبيرة زيت زيتون",
+            "دجاجة كاملة (حوالي 1.5 كغ)",
+            "2 ملعقة كبيرة زيت زيتون",
             "2 فص ثوم",
             "1 ملعقة صغيرة بابريكا",
             "1 ملعقة صغيرة أعشاب",
@@ -13588,24 +13849,32 @@ recipesData.plat.pouletRoti = {
             "فلفل"
         ],
         preparation:
-            "1. سخّن الفرن على 180°C.\n" +
-            "2. قشّر الثوم.\n" +
-            "3. افرم الثوم.\n" +
-            "4. ضع الدجاج في طبق الفرن.\n" +
-            "5. ادهنه بزيت الزيتون.\n" +
-            "6. أضف الثوم.\n" +
-            "7. رش البابريكا.\n" +
-            "8. أضف الأعشاب.\n" +
-            "9. أضف الملح والفلفل.\n" +
-            "10. أدخل الطبق إلى الفرن.\n" +
-            "11. اشوه 1 ساعة و15 دقيقة مع سكب العصارة كل 20 دقيقة.\n" +
-            "12. تأكد أن الدجاج أصبح ذهبياً.\n" +
-            "13. أخرجه من الفرن.\n" +
-            "14. قطّعه.\n" +
-            "15. قدّمه ساخناً.\n" +
-            "16. قدّمه مع البطاطس المقلية وكمبوت التفاح الطبيعي.\n"
+"==============================\n" +
+"طريقة التحضير\n" +
+"==============================\n\n" +
+"1. سخّن الفرن إلى 180°C.\n" +
+"2. قشّر الثوم وافرمه.\n" +
+"3. ضع الدجاج في طبق الفرن.\n" +
+"4. ادهنه بزيت الزيتون.\n" +
+"5. أضف الثوم والتوابل.\n" +
+"6. أضف الملح والفلفل.\n" +
+"7. اشوه لمدة ساعة و15 دقيقة مع سكب العصارة كل 20 دقيقة.\n" +
+"8. تأكد من أن الجلد أصبح ذهبياً.\n" +
+"9. أخرجه من الفرن.\n" +
+"10. قطّعه وقدّمه ساخناً.\n" +
+"11. يُقدّم مع البطاطس المقلية وكمبوت التفاح.\n\n" +
+
+"==============================\n" +
+"معلومات ونصائح\n" +
+"==============================\n\n" +
+"هذا الطبق محبوب لدى الأطفال والكبار.\n\n" +
+"عندما كنت صغيراً، كان أجدادي يأخذونني من المدرسة يوم الأربعاء مع أخواتي وأبناء عمي. وكان الدجاج المشوي يُقدّم دائماً مع البطاطس المقلية وكمبوت التفاح.\n\n" +
+"لم تكن هناك بقايا أبداً لأننا كنا نستمتع به كثيراً.\n\n" +
+"لا حاجة لإضافة صلصات، لكن يمكن ذلك حسب الرغبة.\n\n" +
+"يمكن شوي البطاطس مع الدجاج لامتصاص العصارة واكتساب نكهة أفضل.\n"
     }
 };
+
 
 
 
@@ -13783,18 +14052,37 @@ recipesData.dessert.speculoos = {
         servings: 4,
         prepTime: 20,
         cookTime: 15,
-        difficulty: "easy"
+        difficulty: "easy",
+
+        keywords: [
+            "speculoos",
+            "spéculoos belge",
+            "biscuit speculoos maison",
+            "recette speculoos",
+            "biscuit saint nicolas",
+            "belgian speculoos",
+            "speculoos cookies recipe",
+            "spiced biscuits"
+        ],
+
+        description: {
+            fr: "Découvrez la recette authentique du spéculoos belge, un biscuit épicé croustillant traditionnellement dégusté avec le café.",
+            en: "Discover authentic Belgian speculoos, a crispy spiced biscuit traditionally enjoyed with coffee.",
+            nl: "Ontdek authentieke Belgische speculoos, een knapperig gekruid koekje dat traditioneel bij koffie wordt gegeten.",
+            ar: "اكتشف بسكويت سبيكولوس البلجيكي المقرمش والمتبل، والذي يُقدم تقليدياً مع القهوة."
+        }
     },
 
     fr: {
-        title: "Speculoos maison",
+        title: "Spéculoos maison",
+        description: "Biscuit belge traditionnel aux épices, croustillant et parfumé, parfait avec un café.",
         equipment: [
             "1 saladier",
             "1 rouleau à pâtisserie",
             "1 plaque de cuisson",
             "1 fouet",
             "1 cuillère en bois",
-            "1 papier cuisson"
+            "papier cuisson"
         ],
         ingredients: [
             "250 g de farine",
@@ -13806,29 +14094,42 @@ recipesData.dessert.speculoos = {
             "1 pincée de sel"
         ],
         preparation:
-            "1. Préchauffer le four à 180°C.\n" +
-            "2. Mettre la farine, les épices et le sel dans un saladier.\n" +
-            "3. Ajouter la cassonade.\n" +
-            "4. Ajouter le beurre ramolli.\n" +
-            "5. Mélanger jusqu’à obtenir une pâte homogène.\n" +
-            "6. Former une boule de pâte.\n" +
-            "7. Étaler la pâte sur un plan fariné.\n" +
-            "8. Découper les biscuits.\n" +
-            "9. Déposer sur une plaque avec papier cuisson.\n" +
-            "10. Enfourner 12 à 15 minutes.\n" +
-            "11. Laisser refroidir.\n" +
-            "12. Servir.\n"
+"==============================\n" +
+"PRÉPARATION\n" +
+"==============================\n\n" +
+"1. Préchauffer le four à 180°C.\n" +
+"2. Mélanger la farine, les épices et le sel.\n" +
+"3. Ajouter la cassonade.\n" +
+"4. Incorporer le beurre ramolli.\n" +
+"5. Mélanger jusqu’à obtenir une pâte homogène.\n" +
+"6. Former une boule.\n" +
+"7. Étaler la pâte sur un plan fariné.\n" +
+"8. Découper les biscuits.\n" +
+"9. Déposer sur une plaque recouverte de papier cuisson.\n" +
+"10. Cuire 12 à 15 minutes.\n" +
+"11. Laisser refroidir pour qu’ils deviennent croustillants.\n" +
+"12. Servir.\n\n" +
+
+"==============================\n" +
+"INFORMATIONS ET CONSEILS\n" +
+"==============================\n\n" +
+"Le spéculoos est une friandise typiquement belge, souvent offerte aux enfants lors de la période de la Saint-Nicolas.\n" +
+"On les trouve d’ailleurs en forme de Saint-Nicolas, dans différentes tailles… mais pas uniquement.\n\n" +
+"Je vous conseille de les déguster avec un bon café ou un thé. En Belgique, on reçoit d’ailleurs très souvent un spéculoos lorsque l’on commande un café dans un établissement.\n\n" +
+"Vous pouvez les tremper dedans sans problème : c’est un biscuit assez dur qui ne se cassera pas en s’imbibant du café.\n\n" +
+"Le mélange d’épices (cannelle, clou de girofle, gingembre) donne au spéculoos son parfum chaleureux typique des fêtes d’hiver.\n"
     },
 
     en: {
         title: "Homemade Speculoos",
+        description: "Traditional Belgian spiced biscuit, crispy and aromatic, perfect with coffee.",
         equipment: [
-            "1 mixing bowl",
-            "1 rolling pin",
-            "1 baking tray",
-            "1 whisk",
-            "1 wooden spoon",
-            "1 baking paper"
+            "mixing bowl",
+            "rolling pin",
+            "baking tray",
+            "whisk",
+            "wooden spoon",
+            "baking paper"
         ],
         ingredients: [
             "250 g flour",
@@ -13837,32 +14138,45 @@ recipesData.dessert.speculoos = {
             "1 tsp cinnamon",
             "1/2 tsp ground ginger",
             "1/4 tsp ground cloves",
-            "1 pinch of salt"
+            "1 pinch salt"
         ],
         preparation:
-            "1. Preheat the oven to 180°C.\n" +
-            "2. Put flour, spices and salt in a bowl.\n" +
-            "3. Add brown sugar.\n" +
-            "4. Add softened butter.\n" +
-            "5. Mix until smooth dough forms.\n" +
-            "6. Shape into a ball.\n" +
-            "7. Roll out on floured surface.\n" +
-            "8. Cut out cookies.\n" +
-            "9. Place on baking tray with paper.\n" +
-            "10. Bake for 12–15 minutes.\n" +
-            "11. Let cool.\n" +
-            "12. Serve.\n"
+"==============================\n" +
+"PREPARATION\n" +
+"==============================\n\n" +
+"1. Preheat the oven to 180°C.\n" +
+"2. Mix flour, spices and salt.\n" +
+"3. Add brown sugar.\n" +
+"4. Incorporate softened butter.\n" +
+"5. Mix into a smooth dough.\n" +
+"6. Form a ball.\n" +
+"7. Roll out on a floured surface.\n" +
+"8. Cut into cookies.\n" +
+"9. Place on a lined baking tray.\n" +
+"10. Bake 12–15 minutes.\n" +
+"11. Let cool to become crispy.\n" +
+"12. Serve.\n\n" +
+
+"==============================\n" +
+"INFORMATION AND TIPS\n" +
+"==============================\n\n" +
+"Speculoos is a traditional Belgian treat often given to children during Saint Nicholas celebrations.\n" +
+"They are commonly shaped like Saint Nicholas and come in many sizes.\n\n" +
+"In Belgium, speculoos is frequently served alongside coffee in cafés.\n\n" +
+"You can dip it into coffee without worry — it is firm enough to absorb liquid without breaking.\n\n" +
+"The warm spice blend gives speculoos its signature winter flavor.\n"
     },
 
     nl: {
         title: "Zelfgemaakte speculoos",
+        description: "Traditioneel Belgisch gekruid koekje, knapperig en aromatisch, perfect bij koffie.",
         equipment: [
-            "1 kom",
-            "1 deegroller",
-            "1 bakplaat",
-            "1 garde",
-            "1 houten lepel",
-            "1 bakpapier"
+            "kom",
+            "deegroller",
+            "bakplaat",
+            "garde",
+            "houten lepel",
+            "bakpapier"
         ],
         ingredients: [
             "250 g bloem",
@@ -13871,25 +14185,38 @@ recipesData.dessert.speculoos = {
             "1 tl kaneel",
             "1/2 tl gemberpoeder",
             "1/4 tl kruidnagel",
-            "1 snufje zout"
+            "snufje zout"
         ],
         preparation:
-            "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Doe bloem, kruiden en zout in een kom.\n" +
-            "3. Voeg suiker toe.\n" +
-            "4. Voeg boter toe.\n" +
-            "5. Meng tot een deeg.\n" +
-            "6. Vorm een bol.\n" +
-            "7. Rol het deeg uit.\n" +
-            "8. Steek koekjes uit.\n" +
-            "9. Leg op bakplaat met bakpapier.\n" +
-            "10. Bak 12–15 minuten.\n" +
-            "11. Laat afkoelen.\n" +
-            "12. Serveer.\n"
+"==============================\n" +
+"BEREIDING\n" +
+"==============================\n\n" +
+"1. Verwarm de oven voor op 180°C.\n" +
+"2. Meng bloem, kruiden en zout.\n" +
+"3. Voeg suiker toe.\n" +
+"4. Voeg boter toe.\n" +
+"5. Meng tot een deeg.\n" +
+"6. Vorm een bol.\n" +
+"7. Rol het deeg uit.\n" +
+"8. Steek koekjes uit.\n" +
+"9. Leg op bakplaat met bakpapier.\n" +
+"10. Bak 12–15 minuten.\n" +
+"11. Laat afkoelen.\n" +
+"12. Serveer.\n\n" +
+
+"==============================\n" +
+"INFORMATIE EN TIPS\n" +
+"==============================\n\n" +
+"Speculoos is een typisch Belgisch koekje dat vaak aan kinderen wordt gegeven tijdens het Sinterklaasfeest.\n" +
+"Ze worden vaak gemaakt in de vorm van Sinterklaas en bestaan in verschillende maten.\n\n" +
+"In België krijg je vaak een speculoos bij een kop koffie in cafés.\n\n" +
+"Je kunt het koekje gerust in koffie dopen — het is stevig genoeg om niet te breken.\n\n" +
+"De warme kruiden geven speculoos zijn typische wintersmaak.\n"
     },
 
     ar: {
-        title: "سبكولوس منزلي",
+        title: "بسكويت سبيكولوس منزلي",
+        description: "بسكويت بلجيكي متبل ومقرمش، مثالي لتناوله مع القهوة.",
         equipment: [
             "وعاء",
             "شوبك عجين",
@@ -13903,25 +14230,38 @@ recipesData.dessert.speculoos = {
             "125 غ سكر بني",
             "125 غ زبدة طرية",
             "1 ملعقة صغيرة قرفة",
-            "1/2 ملعقة صغيرة زنجبيل مطحون",
-            "1/4 ملعقة صغيرة قرنفل مطحون",
+            "1/2 ملعقة صغيرة زنجبيل",
+            "1/4 ملعقة صغيرة قرنفل",
             "رشة ملح"
         ],
         preparation:
-            "1. سخّن الفرن إلى 180°C.\n" +
-            "2. ضع الدقيق والتوابل والملح في وعاء.\n" +
-            "3. أضف السكر.\n" +
-            "4. أضف الزبدة.\n" +
-            "5. اخلط حتى تتشكل عجينة.\n" +
-            "6. شكّل كرة.\n" +
-            "7. افرد العجين.\n" +
-            "8. قطّع البسكويت.\n" +
-            "9. ضعها في صينية مع ورق خبز.\n" +
-            "10. اخبز 12–15 دقيقة.\n" +
-            "11. اتركها تبرد.\n" +
-            "12. قدّمها.\n"
+"==============================\n" +
+"طريقة التحضير\n" +
+"==============================\n\n" +
+"1. سخّن الفرن إلى 180°C.\n" +
+"2. اخلط الدقيق والتوابل والملح.\n" +
+"3. أضف السكر.\n" +
+"4. أضف الزبدة.\n" +
+"5. اخلط حتى تتكوّن عجينة.\n" +
+"6. شكّل كرة.\n" +
+"7. افرد العجين.\n" +
+"8. قطّع البسكويت.\n" +
+"9. ضعها على صينية مبطنة.\n" +
+"10. اخبز 12–15 دقيقة.\n" +
+"11. اتركها تبرد.\n" +
+"12. قدّمها.\n\n" +
+
+"==============================\n" +
+"معلومات ونصائح\n" +
+"==============================\n\n" +
+"يُعد سبيكولوس من الحلويات البلجيكية التقليدية التي تُقدّم للأطفال خلال احتفالات القديس نيكولا.\n" +
+"وغالباً ما يُصنع على شكل القديس نيكولا وبأحجام مختلفة.\n\n" +
+"في بلجيكا يُقدَّم هذا البسكويت كثيراً مع القهوة في المقاهي.\n\n" +
+"يمكن غمسه في القهوة دون أن يتكسر لأنه يتميز بقوام متماسك.\n\n" +
+"مزيج التوابل يمنحه نكهته الدافئة المميزة لفصل الشتاء.\n"
     }
 };
+
 recipesData.dessert.crepesLiegeoises = {
     country: "belgique",
     image: "images/crepes-liegeoises.jpg",
@@ -14415,137 +14755,183 @@ recipesData.dessert.couqueDinant = {
         servings: 4,
         prepTime: 10,
         cookTime: 25,
-        difficulty: "easy"
+        difficulty: "easy",
+
+        keywords: [
+            "couque de dinant",
+            "biscuit belge traditionnel",
+            "spécialité de dinant",
+            "dessert belge",
+            "recette couque de dinant",
+            "Belgian hard biscuit",
+            "Dinant cookie recipe"
+        ],
+
+        description: {
+            fr: "Découvrez la couque de Dinant, un biscuit belge traditionnel au miel et à la texture très dure, spécialité emblématique de la ville de Dinant.",
+            en: "Discover Couque de Dinant, a traditional Belgian honey biscuit known for its extremely hard texture and historic origins.",
+            nl: "Ontdek de Couque de Dinant, een traditioneel Belgisch honingkoekje dat bekend staat om zijn zeer harde textuur.",
+            ar: "اكتشف كوك دي دينانت، وهو بسكويت بلجيكي تقليدي بالعسل يتميز بقوامه الصلب جداً."
+        }
     },
 
     fr: {
         title: "Couque de Dinant",
+        description: "Spécialité belge emblématique, la couque de Dinant est un biscuit traditionnel au miel réputé pour sa texture très dure.",
         equipment: [
-            "1 moule à cake",
+            "1 moule ou plaque de cuisson",
             "1 bol",
             "1 casserole",
             "1 cuillère en bois"
         ],
         ingredients: [
             "250 g de farine",
-            "250 g de sucre",
+            "250 g de miel",
             "125 ml d’eau",
-            "1 cuillère à café de cannelle",
-            "1 pincée de sel"
+            "1 cuillère à café de cannelle (optionnel)"
         ],
         preparation:
-            "1. Préchauffer le four à 180°C.\n" +
-            "2. Verser le sucre et l’eau dans la casserole.\n" +
-            "3. Porter à ébullition.\n" +
-            "4. Retirer du feu.\n" +
-            "5. Ajouter la farine.\n" +
-            "6. Ajouter la cannelle.\n" +
-            "7. Ajouter le sel.\n" +
-            "8. Mélanger jusqu’à obtenir une pâte homogène.\n" +
-            "9. Beurrer le moule.\n" +
-            "10. Verser la pâte dans le moule.\n" +
-            "11. Enfourner pour 20 à 25 minutes.\n" +
-            "12. Sortir du four.\n" +
-            "13. Laisser refroidir.\n" +
-            "14. Démouler et servir.\n"
+"==============================\n" +
+"PRÉPARATION\n" +
+"==============================\n\n" +
+"1. Préchauffer le four à 180°C.\n" +
+"2. Verser le miel et l’eau dans une casserole.\n" +
+"3. Porter à ébullition puis retirer du feu.\n" +
+"4. Ajouter la farine progressivement.\n" +
+"5. Ajouter la cannelle si désiré.\n" +
+"6. Mélanger jusqu’à obtenir une pâte ferme.\n" +
+"7. Former des biscuits ou utiliser un moule.\n" +
+"8. Déposer sur une plaque.\n" +
+"9. Cuire 20 à 25 minutes.\n" +
+"10. Laisser refroidir complètement avant dégustation.\n\n" +
+
+"==============================\n" +
+"INFORMATIONS ET CONSEILS\n" +
+"==============================\n\n" +
+"La couque de Dinant vient de la ville de Dinant, située au sud de la province de Namur en Belgique, proche de la frontière française et bordée par la Meuse. Cette petite ville est connue pour sa citadelle impressionnante ainsi que pour Adolphe Sax, l’inventeur du saxophone.\n\n" +
+"C’est une jolie ville que je vous conseille de visiter en famille. Mais pour en revenir à ce qui nous intéresse, la couque de Dinant pourrait bien vous casser les dents au sens propre 😊 tant ce biscuit est dur.\n\n" +
+"Si vous souhaitez la déguster plus facilement, je vous conseille de la tremper dans un bon café afin de la ramollir.\n\n" +
+"Ce biscuit traditionnel était autrefois moulé avec des motifs décoratifs et pouvait se conserver très longtemps.\n"
     },
 
     en: {
         title: "Couque de Dinant",
+        description: "A traditional Belgian honey biscuit known for its extremely hard texture and long preservation.",
         equipment: [
-            "1 loaf pan",
-            "1 bowl",
-            "1 saucepan",
-            "1 wooden spoon"
+            "baking tray",
+            "bowl",
+            "saucepan",
+            "wooden spoon"
         ],
         ingredients: [
             "250 g flour",
-            "250 g sugar",
+            "250 g honey",
             "125 ml water",
-            "1 tsp cinnamon",
-            "1 pinch of salt"
+            "1 tsp cinnamon (optional)"
         ],
         preparation:
-            "1. Preheat the oven to 180°C.\n" +
-            "2. Pour sugar and water into a saucepan.\n" +
-            "3. Bring to a boil.\n" +
-            "4. Remove from heat.\n" +
-            "5. Add the flour.\n" +
-            "6. Add the cinnamon.\n" +
-            "7. Add the salt.\n" +
-            "8. Mix until smooth.\n" +
-            "9. Grease the loaf pan.\n" +
-            "10. Pour the batter into the pan.\n" +
-            "11. Bake for 20–25 minutes.\n" +
-            "12. Remove from the oven.\n" +
-            "13. Let cool.\n" +
-            "14. Unmold and serve.\n"
+"==============================\n" +
+"PREPARATION\n" +
+"==============================\n\n" +
+"1. Preheat the oven to 180°C.\n" +
+"2. Heat honey and water in a saucepan.\n" +
+"3. Bring to a boil and remove from heat.\n" +
+"4. Gradually add the flour.\n" +
+"5. Add cinnamon if desired.\n" +
+"6. Mix into a firm dough.\n" +
+"7. Shape biscuits or use molds.\n" +
+"8. Place on a baking tray.\n" +
+"9. Bake for 20–25 minutes.\n" +
+"10. Let cool completely.\n\n" +
+
+"==============================\n" +
+"INFORMATION AND TIPS\n" +
+"==============================\n\n" +
+"Couque de Dinant originates from the town of Dinant in southern Belgium, along the Meuse River near the French border. The town is famous for its citadel and as the birthplace of Adolphe Sax, the inventor of the saxophone.\n\n" +
+"It is a charming town worth visiting with family. But back to the biscuit: Couque de Dinant might literally break your teeth 😊 because it is extremely hard.\n\n" +
+"To enjoy it more easily, dip it in coffee to soften it.\n\n" +
+"This traditional biscuit was historically molded with decorative patterns and could be stored for a very long time.\n"
     },
 
     nl: {
         title: "Couque de Dinant",
+        description: "Een traditioneel Belgisch honingkoekje dat bekend staat om zijn extreem harde textuur.",
         equipment: [
-            "1 cakevorm",
-            "1 kom",
-            "1 steelpan",
-            "1 houten lepel"
+            "bakplaat",
+            "kom",
+            "steelpan",
+            "houten lepel"
         ],
         ingredients: [
             "250 g bloem",
-            "250 g suiker",
+            "250 g honing",
             "125 ml water",
-            "1 tl kaneel",
-            "1 snufje zout"
+            "1 tl kaneel (optioneel)"
         ],
         preparation:
-            "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Doe suiker en water in de pan.\n" +
-            "3. Breng aan de kook.\n" +
-            "4. Haal van het vuur.\n" +
-            "5. Voeg de bloem toe.\n" +
-            "6. Voeg kaneel toe.\n" +
-            "7. Voeg zout toe.\n" +
-            "8. Meng tot een glad deeg.\n" +
-            "9. Vet de cakevorm in.\n" +
-            "10. Giet het deeg in de vorm.\n" +
-            "11. Bak 20–25 minuten.\n" +
-            "12. Haal uit de oven.\n" +
-            "13. Laat afkoelen.\n" +
-            "14. Stort en serveer.\n"
+"==============================\n" +
+"BEREIDING\n" +
+"==============================\n\n" +
+"1. Verwarm de oven voor op 180°C.\n" +
+"2. Verwarm honing en water in een pan.\n" +
+"3. Breng aan de kook en haal van het vuur.\n" +
+"4. Voeg geleidelijk de bloem toe.\n" +
+"5. Voeg kaneel toe indien gewenst.\n" +
+"6. Meng tot een stevig deeg.\n" +
+"7. Vorm koekjes of gebruik mallen.\n" +
+"8. Leg op een bakplaat.\n" +
+"9. Bak 20–25 minuten.\n" +
+"10. Laat volledig afkoelen.\n\n" +
+
+"==============================\n" +
+"INFORMATIE EN TIPS\n" +
+"==============================\n\n" +
+"De Couque de Dinant komt uit de stad Dinant in het zuiden van de provincie Namen, langs de Maas en dicht bij de Franse grens. De stad staat bekend om haar citadel en als geboorteplaats van Adolphe Sax, de uitvinder van de saxofoon.\n\n" +
+"Het is een mooie stad om met het gezin te bezoeken. Maar terug naar het koekje: de Couque de Dinant kan letterlijk je tanden breken 😊 zo hard is hij.\n\n" +
+"Om hem makkelijker te eten, kunt u hem in koffie dopen zodat hij zachter wordt.\n\n" +
+"Dit traditionele koekje werd vroeger met decoratieve vormen gemaakt en kon zeer lang bewaard worden.\n"
     },
 
     ar: {
         title: "كوك دي دينانت",
+        description: "بسكويت بلجيكي تقليدي بالعسل يتميز بقوامه الصلب جداً وإمكانية حفظه لفترة طويلة.",
         equipment: [
-            "قالب كيك",
+            "صينية خبز",
             "وعاء",
             "قدر",
             "ملعقة خشبية"
         ],
         ingredients: [
             "250 غ دقيق",
-            "250 غ سكر",
+            "250 غ عسل",
             "125 مل ماء",
-            "1 ملعقة صغيرة قرفة",
-            "رشة ملح"
+            "1 ملعقة صغيرة قرفة (اختياري)"
         ],
         preparation:
-            "1. سخّن الفرن إلى 180°C.\n" +
-            "2. ضع السكر والماء في القدر.\n" +
-            "3. اتركه حتى يغلي.\n" +
-            "4. ارفعه عن النار.\n" +
-            "5. أضف الدقيق.\n" +
-            "6. أضف القرفة.\n" +
-            "7. أضف الملح.\n" +
-            "8. اخلط حتى تتكوّن عجينة متجانسة.\n" +
-            "9. ادهن قالب الكيك.\n" +
-            "10. اسكب العجينة في القالب.\n" +
-            "11. اخبز 20–25 دقيقة.\n" +
-            "12. أخرج من الفرن.\n" +
-            "13. اتركه يبرد.\n" +
-            "14. قدّمه.\n"
+"==============================\n" +
+"طريقة التحضير\n" +
+"==============================\n\n" +
+"1. سخّن الفرن إلى 180°C.\n" +
+"2. سخّن العسل والماء في قدر.\n" +
+"3. اتركه حتى يغلي ثم ارفعه عن النار.\n" +
+"4. أضف الدقيق تدريجياً.\n" +
+"5. أضف القرفة إذا رغبت.\n" +
+"6. اخلط حتى تتكوّن عجينة متماسكة.\n" +
+"7. شكّل البسكويت أو استخدم قوالب.\n" +
+"8. ضعها على صينية خبز.\n" +
+"9. اخبز 20–25 دقيقة.\n" +
+"10. اتركه يبرد تماماً.\n\n" +
+
+"==============================\n" +
+"معلومات ونصائح\n" +
+"==============================\n\n" +
+"يعود أصل كوك دي دينانت إلى مدينة دينانت في جنوب بلجيكا على ضفاف نهر الميز بالقرب من الحدود الفرنسية. تشتهر المدينة بقلعتها وبكونها مسقط رأس أدولف ساكس مخترع آلة الساكسفون.\n\n" +
+"إنها مدينة جميلة تستحق الزيارة مع العائلة. أما البسكويت نفسه فقد يكسر أسنانك حرفياً 😊 بسبب قساوته الشديدة.\n\n" +
+"لتناوله بسهولة أكبر، يمكن غمسه في القهوة ليصبح أكثر ليونة.\n\n" +
+"كان هذا البسكويت التقليدي يُصنع بقوالب مزخرفة ويمكن حفظه لفترة طويلة.\n"
     }
 };
+
 recipesData.dessert.cuberdon = {
     country: "belgique",
     image: "images/cuberdon.jpg",
@@ -59008,7 +59394,7 @@ recipesData.plat.cordon_bleu_poulet = {
             "12. قدّمها ساخنة."
     }
 };
-recipesData.plat.raclette = {
+recipesData.plat.raclette = { 
     country: "europe",
     countryName: "suisse",
     image: "images/raclette-suisse.jpg",
@@ -59017,11 +59403,22 @@ recipesData.plat.raclette = {
         servings: 4,
         prepTime: 15,
         cookTime: 20,
-        difficulty: "easy"
+        difficulty: "easy",
+        keywords: [
+            "raclette suisse",
+            "recette raclette traditionnelle",
+            "fromage raclette",
+            "raclette maison",
+            "plat convivial hiver",
+            "raclette facile",
+            "raclette appareil",
+            "repas convivial entre amis"
+        ]
     },
 
     fr: {
-        title: "Raclette (Suisse)",
+        title: "Raclette suisse traditionnelle",
+        description: "La raclette suisse traditionnelle est un plat convivial à base de fromage fondu servi avec pommes de terre et accompagnements. Idéale pour un repas chaleureux en hiver.",
         equipment: [
             "1 appareil à raclette (traditionnel ou moderne)",
             "1 couteau",
@@ -59032,41 +59429,48 @@ recipesData.plat.raclette = {
             "1 plat de service"
         ],
         ingredients: [
-            "400 g de fromage à raclette (en bloc pour appareil traditionnel ou en tranches pour appareil moderne)",
+            "400 g de fromage à raclette",
             "400 g de pommes de terre",
             "1 pain de campagne ou baguette, coupé en tranches",
             "Cornichons au goût",
             "Petits oignons au goût",
-            "1/2 cuillère à café de sel",
-            "1/4 cuillère à café de poivre"
+            "Poivre noir au goût"
         ],
         preparation:
             "1. Laver les pommes de terre sans les éplucher.\n" +
             "2. Les placer dans une casserole, couvrir d’eau froide et porter à ébullition.\n" +
             "3. Cuire environ 20 minutes jusqu’à ce qu’elles soient tendres.\n" +
             "4. Égoutter et garder au chaud.\n" +
-            "5. Couper le fromage en tranches adaptées à l’appareil ou préparer le bloc pour l’appareil traditionnel.\n" +
-            "6. Couper le pain en tranches et le disposer dans un plat de service.\n" +
-            "7. Disposer les accompagnements dans des plats de service.\n" +
+            "5. Couper le fromage en tranches adaptées à l’appareil.\n" +
+            "6. Couper le pain et le disposer dans un plat de service.\n" +
+            "7. Préparer cornichons et petits oignons dans des bols.\n" +
             "8. Faire fondre le fromage dans l’appareil à raclette.\n" +
-            "9. Verser le fromage fondu sur les pommes de terre chaudes ou sur le pain.\n" +
-            "10. Ajouter cornichons et petits oignons selon le goût.\n" +
-            "11. Assaisonner légèrement et servir immédiatement.\n\n" +
+            "9. Verser le fromage fondu sur les pommes de terre chaudes ou le pain.\n" +
+            "10. Ajouter les accompagnements selon le goût.\n" +
+            "11. Poivrer légèrement et servir immédiatement.\n\n" +
+
             "==============================\n" +
             "INFORMATIONS ET CONSEILS\n" +
             "==============================\n\n" +
-            "Pour ce plat à raclette, il existe différentes manières de la préparer, toutes aussi conviviales les unes que les autres.\n" +
-            "À l’origine, la raclette est un plat hivernal venant des montagnes suisses.\n" +
-            "On pouvait prendre un bloc de fromage et le faire fondre au feu de bois, à l’extérieur ou dans un abri.\n" +
-            "Il existe aujourd’hui deux sortes d’appareils : le traditionnel, où l’on fait fondre un bloc de fromage que l’on racle au fur et à mesure pour le déposer sur du pain ou une pomme de terre, et le modèle moderne avec des petits poêlons individuels dans lesquels on place des tranches de fromage disponibles en différentes variétés.\n" +
-            "On peut trouver des plateaux déjà composés ou choisir directement ses fromages chez un fromager.\n" +
-            "Avec le deuxième type d’appareil, il est possible de cuire sur la pierre de la viande ou d’autres accompagnements.\n" +
-            "Pour conserver la pierre plus longtemps et faciliter le nettoyage, il est conseillé de passer un peu d’huile alimentaire sur toute la surface avant utilisation.\n" +
-            "Vous pouvez trouver les deux sortes d’appareils à raclette dans la rubrique boutique, avec différents modèles disponibles."
+
+            "La raclette est un plat hivernal emblématique des montagnes suisses.\n" +
+            "À l’origine, une demi-meule de fromage était fondue près du feu puis raclée sur des pommes de terre chaudes.\n\n" +
+
+            "Aujourd’hui, deux types d’appareils existent :\n" +
+            "- le modèle traditionnel où l’on racle le fromage fondu,\n" +
+            "- l’appareil moderne avec petits poêlons individuels.\n\n" +
+
+            "Vous pouvez acheter des plateaux de fromages prêts à l’emploi ou sélectionner vos variétés chez un fromager.\n" +
+            "Certains appareils modernes permettent aussi de cuire de la viande, des légumes ou des champignons sur la pierre supérieure.\n\n" +
+
+            "Astuce : passer un léger film d’huile sur la pierre avant utilisation facilite la cuisson et le nettoyage.\n\n" +
+
+            "👉 Vous pouvez trouver différents modèles d’appareils à raclette ainsi que les accessoires recommandés dans la rubrique boutique du site."
     },
 
     en: {
-        title: "Raclette (Switzerland)",
+        title: "Traditional Swiss Raclette",
+        description: "Traditional Swiss raclette is a convivial melted cheese dish served with potatoes and accompaniments. Ideal for warm and friendly winter meals.",
         equipment: [
             "1 raclette grill (traditional or modern)",
             "1 knife",
@@ -59077,41 +59481,48 @@ recipesData.plat.raclette = {
             "1 serving dish"
         ],
         ingredients: [
-            "400 g raclette cheese (block for traditional device or sliced for modern device)",
+            "400 g raclette cheese",
             "400 g potatoes",
             "1 country loaf or baguette, sliced",
             "Pickles to taste",
             "Small onions to taste",
-            "1/2 teaspoon salt",
-            "1/4 teaspoon pepper"
+            "Black pepper to taste"
         ],
         preparation:
             "1. Wash the potatoes without peeling them.\n" +
             "2. Place them in a pot, cover with cold water and bring to a boil.\n" +
             "3. Cook for about 20 minutes until tender.\n" +
             "4. Drain and keep warm.\n" +
-            "5. Slice the cheese to fit the raclette grill or prepare the block for the traditional device.\n" +
-            "6. Slice the bread and arrange it on a serving dish.\n" +
-            "7. Arrange the side dishes on serving plates.\n" +
+            "5. Slice the cheese to fit the raclette grill or prepare the block for a traditional device.\n" +
+            "6. Slice the bread and place it on a serving dish.\n" +
+            "7. Prepare pickles and onions in small bowls.\n" +
             "8. Melt the cheese in the raclette grill.\n" +
-            "9. Pour the melted cheese over the warm potatoes or bread.\n" +
-            "10. Add pickles and onions to taste.\n" +
+            "9. Pour the melted cheese over warm potatoes or bread.\n" +
+            "10. Add accompaniments to taste.\n" +
             "11. Season lightly and serve immediately.\n\n" +
+
             "==============================\n" +
             "INFORMATION AND TIPS\n" +
             "==============================\n\n" +
-            "There are different ways to prepare raclette, all equally convivial.\n" +
-            "Originally, raclette is a winter dish from the Swiss mountains.\n" +
-            "A block of cheese was melted over a wood fire, outdoors or in a shelter.\n" +
-            "Today, there are two types of devices: the traditional one, where a half wheel of cheese is melted and scraped onto bread or potatoes, and the modern one with small individual pans for slices of cheese available in various varieties.\n" +
-            "Ready-made cheese assortments can be found, or you can choose your own selection from a cheesemonger.\n" +
-            "With the modern device, meat or other accompaniments can be cooked on the stone plate.\n" +
-            "To preserve the stone and make cleaning easier, lightly brush it with oil before use.\n" +
-            "Both types of raclette grills are available in the shop section with different models."
+
+            "Raclette is an iconic winter dish from the Swiss mountains.\n" +
+            "Originally, a half wheel of cheese was melted near a fire and scraped onto hot potatoes.\n\n" +
+
+            "Today, two types of devices exist:\n" +
+            "- the traditional model where melted cheese is scraped,\n" +
+            "- the modern grill with individual pans.\n\n" +
+
+            "Ready-made cheese platters are available, or you can select varieties from a cheesemonger.\n" +
+            "Modern devices also allow cooking meat, vegetables, or mushrooms on the top stone.\n\n" +
+
+            "Tip: lightly oil the stone before use to make cooking and cleaning easier.\n\n" +
+
+            "👉 You can find different raclette grills and recommended accessories in the shop section of the website."
     },
 
     nl: {
-        title: "Raclette (Zwitserland)",
+        title: "Traditionele Zwitserse raclette",
+        description: "Traditionele Zwitserse raclette is een gezellig gerecht met gesmolten kaas geserveerd met aardappelen en bijgerechten.",
         equipment: [
             "1 raclette-apparaat (traditioneel of modern)",
             "1 mes",
@@ -59122,41 +59533,48 @@ recipesData.plat.raclette = {
             "1 serveerschaal"
         ],
         ingredients: [
-            "400 g raclettekaas (blok voor traditioneel apparaat of plakjes voor modern apparaat)",
+            "400 g raclettekaas",
             "400 g aardappelen",
             "1 boerenbrood of baguette, in plakjes",
             "Augurken naar smaak",
             "Zilveruitjes naar smaak",
-            "1/2 theelepel zout",
-            "1/4 theelepel peper"
+            "Zwarte peper naar smaak"
         ],
         preparation:
             "1. Was de aardappelen zonder ze te schillen.\n" +
             "2. Doe ze in een pan, bedek met koud water en breng aan de kook.\n" +
             "3. Kook ongeveer 20 minuten tot ze gaar zijn.\n" +
             "4. Giet af en houd warm.\n" +
-            "5. Snijd de kaas in plakjes passend bij het apparaat of bereid het blok voor het traditionele apparaat.\n" +
-            "6. Snijd het brood in plakjes en leg het op een serveerschaal.\n" +
-            "7. Zet de bijgerechten klaar op serveerschalen.\n" +
+            "5. Snijd de kaas passend voor het apparaat.\n" +
+            "6. Snijd het brood en leg het op een serveerschaal.\n" +
+            "7. Zet de bijgerechten klaar.\n" +
             "8. Smelt de kaas in het raclette-apparaat.\n" +
-            "9. Giet de gesmolten kaas over de warme aardappelen of het brood.\n" +
-            "10. Voeg augurken en uitjes toe naar smaak.\n" +
+            "9. Giet over de warme aardappelen of het brood.\n" +
+            "10. Voeg bijgerechten toe naar smaak.\n" +
             "11. Breng licht op smaak en serveer direct.\n\n" +
+
             "==============================\n" +
             "INFORMATIE EN TIPS\n" +
             "==============================\n\n" +
-            "Er zijn verschillende manieren om raclette te bereiden, allemaal even gezellig.\n" +
-            "Oorspronkelijk is raclette een wintergerecht uit de Zwitserse bergen.\n" +
-            "Een stuk kaas werd gesmolten boven een houtvuur, buiten of in een schuilplaats.\n" +
-            "Vandaag bestaan er twee soorten apparaten: het traditionele model waarbij een halve kaas wordt gesmolten en afgeschaafd over brood of aardappelen, en het moderne model met kleine pannetjes voor plakjes kaas in verschillende varianten.\n" +
-            "Er zijn kant-en-klare kaasschotels verkrijgbaar of u kunt zelf een selectie kiezen bij een kaaswinkel.\n" +
-            "Bij het moderne apparaat kan men vlees of andere bijgerechten bakken op de steenplaat.\n" +
-            "Om de steen langer te behouden en het schoonmaken te vergemakkelijken, is het aan te raden deze licht met olie in te wrijven voor gebruik.\n" +
-            "Beide soorten raclette-apparaten zijn verkrijgbaar in de winkelrubriek met verschillende modellen."
+
+            "Raclette is een wintergerecht uit de Zwitserse bergen.\n" +
+            "Vroeger werd een halve kaas boven een houtvuur gesmolten en over aardappelen geschraapt.\n\n" +
+
+            "Vandaag bestaan er twee soorten apparaten:\n" +
+            "- het traditionele model waarbij de kaas wordt geschraapt,\n" +
+            "- het moderne apparaat met kleine pannetjes.\n\n" +
+
+            "Kaasplateaus zijn kant-en-klaar verkrijgbaar of u kunt zelf kiezen bij een kaaswinkel.\n" +
+            "Moderne apparaten laten ook toe vlees, groenten of champignons te bakken op de bovenplaat.\n\n" +
+
+            "Tip: wrijf de steen licht in met olie om aanbakken te voorkomen en reinigen te vergemakkelijken.\n\n" +
+
+            "👉 In de winkelrubriek van de website vindt u verschillende raclette-apparaten en accessoires."
     },
 
     ar: {
-        title: "راكلات (سويسرا)",
+        title: "الراكليت السويسرية التقليدية",
+        description: "الراكليت السويسرية طبق تقليدي دافئ يعتمد على الجبن المذاب ويُقدم مع البطاطس والمقبلات.",
         equipment: [
             "جهاز راكلات (تقليدي أو حديث)",
             "سكين",
@@ -59167,39 +59585,45 @@ recipesData.plat.raclette = {
             "طبق تقديم"
         ],
         ingredients: [
-            "400 غ جبن راكلات (قطعة كاملة للجهاز التقليدي أو شرائح للجهاز الحديث)",
+            "400 غ جبن راكلات",
             "400 غ بطاطس",
-            "رغيف خبز قروي أو باغيت مقطع شرائح",
+            "خبز مقطع",
             "مخللات حسب الرغبة",
             "بصل صغير حسب الرغبة",
-            "1/2 ملعقة صغيرة ملح",
-            "1/4 ملعقة صغيرة فلفل"
+            "فلفل أسود حسب الرغبة"
         ],
         preparation:
             "1. اغسل البطاطس دون تقشيرها.\n" +
-            "2. ضعها في قدر وغطها بالماء البارد واتركها تغلي.\n" +
-            "3. اطبخها حوالي 20 دقيقة حتى تنضج.\n" +
+            "2. ضعها في قدر وغطها بالماء واتركها تغلي.\n" +
+            "3. اطبخها لمدة 20 دقيقة حتى تنضج.\n" +
             "4. صفِّها وحافظ عليها دافئة.\n" +
-            "5. قطّع الجبن إلى شرائح مناسبة للجهاز أو حضّر القطعة الكاملة للجهاز التقليدي.\n" +
-            "6. قطّع الخبز إلى شرائح وضعه في طبق التقديم.\n" +
-            "7. جهّز المخللات والبصل في أطباق تقديم.\n" +
-            "8. أذب الجبن في جهاز الراكلات.\n" +
-            "9. اسكب الجبن المذاب فوق البطاطس الساخنة أو فوق الخبز.\n" +
-            "10. أضف المخللات والبصل حسب الرغبة.\n" +
-            "11. تبّل قليلاً وقدّم فوراً.\n\n" +
+            "5. حضّر الجبن للجهاز.\n" +
+            "6. جهّز الخبز والأطباق الجانبية.\n" +
+            "7. أذب الجبن في جهاز الراكلات.\n" +
+            "8. اسكبه فوق البطاطس أو الخبز.\n" +
+            "9. أضف المخللات حسب الرغبة.\n" +
+            "10. قدّم الطبق ساخناً.\n\n" +
+
             "==============================\n" +
             "معلومات ونصائح\n" +
             "==============================\n\n" +
-            "هناك طرق متعددة لتحضير الراكلات، وجميعها تضفي أجواءً دافئة وممتعة.\n" +
-            "في الأصل، الراكلات طبق شتوي قادم من جبال سويسرا.\n" +
-            "كان يتم إذابة قطعة جبن كبيرة على نار الحطب في الهواء الطلق أو داخل مأوى.\n" +
-            "يوجد اليوم نوعان من الأجهزة: التقليدي حيث يتم إذابة نصف قالب جبن وكشطه تدريجياً فوق الخبز أو البطاطس، والحديث الذي يحتوي على أوعية صغيرة فردية توضع فيها شرائح الجبن المتوفرة بأنواع مختلفة.\n" +
-            "يمكن شراء أطباق جبن جاهزة أو اختيار الأنواع مباشرة من متجر الأجبان.\n" +
-            "في الجهاز الحديث يمكن طهي اللحم أو المرافق الأخرى على الحجر العلوي.\n" +
-            "للحفاظ على الحجر وتسهيل التنظيف، يُنصح بدهنه بقليل من الزيت قبل الاستعمال.\n" +
-            "يمكن العثور على كلا النوعين من أجهزة الراكلات في قسم المتجر مع توفر نماذج مختلفة."
+
+            "الراكليت طبق شتوي تقليدي من جبال سويسرا.\n" +
+            "في الماضي كان يتم إذابة نصف قالب جبن قرب النار ثم كشطه فوق البطاطس الساخنة.\n\n" +
+
+            "يوجد اليوم نوعان من الأجهزة:\n" +
+            "- الجهاز التقليدي حيث يتم كشط الجبن المذاب،\n" +
+            "- الجهاز الحديث المزود بمقالي صغيرة فردية.\n\n" +
+
+            "يمكن شراء أطباق جبن جاهزة أو اختيار الأنواع من متجر الأجبان.\n" +
+            "تسمح الأجهزة الحديثة أيضاً بطهي اللحم أو الخضار أو الفطر على السطح العلوي.\n\n" +
+
+            "نصيحة: دهن الحجر بقليل من الزيت يسهل الطهي والتنظيف.\n\n" +
+
+            "👉 يمكنكم العثور على أجهزة الراكليت والملحقات في قسم المتجر بالموقع."
     }
 };
+
 recipesData.plat.fondue = {
     country: "europe",
     countryName: "suisse",
@@ -61172,521 +61596,925 @@ recipesData.patisserie.brunsli_suisse = {
 
 
 
-
-
-
-
-
-
 recipesData.entree.soupe_mais_usa = {
     country: "amerique",
     countryName: "usa",
     image: "images/soupe_mais_usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Soupe de maïs crémeuse (USA, 4 personnes)",
+        title: "Soupe de maïs crémeuse (États-Unis)",
         equipment: [
             "1 casserole moyenne",
             "1 couteau",
             "1 planche à découper",
             "1 mixeur plongeant ou blender",
             "1 cuillère en bois",
-            "1 bol",
+            "1 louche",
+            "1 verre doseur",
             "1 balance de cuisine"
         ],
         ingredients: [
-            "400 g maïs doux en grains (frais ou surgelé)",
-            "1 oignon (100 g), haché finement",
-            "1 carotte (100 g), coupée en dés",
-            "500 ml bouillon de légumes halal",
-            "200 ml lait de coco",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)"
+            "400 g de maïs doux en grains (frais ou surgelé)",
+            "1 oignon moyen (100 g), haché finement",
+            "1 carotte (100 g), coupée en petits dés",
+            "1 pomme de terre moyenne (150 g), coupée en dés",
+            "500 ml de bouillon de légumes",
+            "200 ml de lait de coco",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile dans une casserole à feu moyen.\n" +
-            "2. Ajouter l’oignon et la carotte, faire revenir 5 minutes.\n" +
-            "3. Ajouter le maïs et le bouillon, porter à ébullition.\n" +
-            "4. Réduire le feu et cuire 15 minutes.\n" +
-            "5. Mixer la soupe avec un mixeur plongeant jusqu’à texture lisse.\n" +
-            "6. Ajouter le lait de coco, sel et poivre, mélanger et chauffer encore 3 minutes.\n" +
-            "7. Servir chaud avec un peu de persil frais si désiré."
+            "1. Éplucher l’oignon et la pomme de terre puis les couper en petits morceaux.\n" +
+            "2. Chauffer l’huile dans une casserole à feu moyen.\n" +
+            "3. Ajouter l’oignon et la carotte puis faire revenir 5 minutes en remuant.\n" +
+            "4. Ajouter la pomme de terre et le maïs.\n" +
+            "5. Verser le bouillon de légumes et porter à ébullition.\n" +
+            "6. Réduire le feu et laisser cuire 15 minutes jusqu’à ce que les légumes soient tendres.\n" +
+            "7. Mixer la soupe à l’aide d’un mixeur plongeant jusqu’à obtention d’une texture lisse et crémeuse.\n" +
+            "8. Ajouter le lait de coco, le sel et le poivre.\n" +
+            "9. Mélanger et laisser chauffer encore 2 à 3 minutes.\n" +
+            "10. Servir chaud."
     },
+
     en: {
-        title: "Creamy Corn Soup (USA, Serves 4)",
+        title: "Creamy Corn Soup (United States)",
         equipment: [
             "1 medium saucepan",
             "1 knife",
             "1 cutting board",
             "1 hand blender or regular blender",
             "1 wooden spoon",
-            "1 bowl",
+            "1 ladle",
+            "1 measuring cup",
             "1 kitchen scale"
         ],
         ingredients: [
             "400 g sweet corn kernels (fresh or frozen)",
-            "1 onion (100 g), finely chopped",
+            "1 medium onion (100 g), finely chopped",
             "1 carrot (100 g), diced",
-            "500 ml halal vegetable broth",
+            "1 medium potato (150 g), diced",
+            "500 ml vegetable broth",
             "200 ml coconut milk",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon pepper (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in saucepan over medium heat.\n" +
-            "2. Add onion and carrot, sauté for 5 minutes.\n" +
-            "3. Add corn and broth, bring to a boil.\n" +
-            "4. Reduce heat and simmer 15 minutes.\n" +
-            "5. Blend soup with hand blender until smooth.\n" +
-            "6. Add coconut milk, salt, and pepper, stir and heat 3 more minutes.\n" +
-            "7. Serve hot, optionally with fresh parsley."
+            "1. Peel and chop the onion and potato into small pieces.\n" +
+            "2. Heat the oil in a saucepan over medium heat.\n" +
+            "3. Add the onion and carrot and sauté for 5 minutes, stirring.\n" +
+            "4. Add the potato and corn.\n" +
+            "5. Pour in the vegetable broth and bring to a boil.\n" +
+            "6. Reduce the heat and simmer for 15 minutes until the vegetables are tender.\n" +
+            "7. Blend the soup with a hand blender until smooth and creamy.\n" +
+            "8. Add the coconut milk, salt, and pepper.\n" +
+            "9. Stir and heat for another 2 to 3 minutes.\n" +
+            "10. Serve hot."
     },
+
     nl: {
-        title: "Romige Maïssoep (VS, voor 4 personen)",
+        title: "Romige Maïssoep (Verenigde Staten)",
         equipment: [
             "1 middelgrote pan",
             "1 mes",
             "1 snijplank",
             "1 staafmixer of blender",
             "1 houten lepel",
-            "1 kom",
+            "1 soeplepel",
+            "1 maatbeker",
             "1 keukenweegschaal"
         ],
         ingredients: [
             "400 g zoete maïskorrels (vers of diepvries)",
-            "1 ui (100 g), fijngehakt",
+            "1 middelgrote ui (100 g), fijngehakt",
             "1 wortel (100 g), in blokjes",
-            "500 ml halal groentebouillon",
+            "1 middelgrote aardappel (150 g), in blokjes",
+            "500 ml groentebouillon",
             "200 ml kokosmelk",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)"
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel peper (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan op middelhoog vuur.\n" +
-            "2. Voeg ui en wortel toe, bak 5 minuten.\n" +
-            "3. Voeg maïs en bouillon toe, breng aan de kook.\n" +
-            "4. Zet het vuur laag en laat 15 minuten sudderen.\n" +
-            "5. Pureer de soep met staafmixer tot een glad mengsel.\n" +
-            "6. Voeg kokosmelk, zout en peper toe, roer en verwarm nog 3 minuten.\n" +
-            "7. Serveer warm, eventueel met verse peterselie."
+            "1. Schil en snijd de ui en aardappel in kleine stukjes.\n" +
+            "2. Verhit de olie in een pan op middelhoog vuur.\n" +
+            "3. Voeg ui en wortel toe en bak 5 minuten terwijl je roert.\n" +
+            "4. Voeg de aardappel en maïs toe.\n" +
+            "5. Giet de groentebouillon erbij en breng aan de kook.\n" +
+            "6. Zet het vuur lager en laat 15 minuten sudderen tot de groenten zacht zijn.\n" +
+            "7. Pureer de soep met een staafmixer tot een gladde, romige structuur.\n" +
+            "8. Voeg kokosmelk, zout en peper toe.\n" +
+            "9. Roer goed en verwarm nog 2 tot 3 minuten.\n" +
+            "10. Serveer warm."
     },
+
     ar: {
-        title: "شوربة الذرة الكريمية (الولايات المتحدة، تكفي 4 أشخاص)",
+        title: "شوربة الذرة الكريمية (الولايات المتحدة)",
         equipment: [
-            "1 قدر متوسط",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 خلاط يدوي أو عادي",
-            "1 ملعقة خشبية",
-            "1 وعاء",
-            "1 ميزان مطبخ"
+            "قدر متوسط",
+            "سكين",
+            "لوح تقطيع",
+            "خلاط يدوي أو عادي",
+            "ملعقة خشبية",
+            "مغرفة",
+            "كوب قياس",
+            "ميزان مطبخ"
         ],
         ingredients: [
             "400 غ حبوب الذرة الحلوة (طازجة أو مجمدة)",
-            "1 بصل (100 غ)، مفروم ناعماً",
-            "1 جزرة (100 غ)، مقطعة مكعبات",
-            "500 مل مرق خضار حلال",
+            "بصلة متوسطة (100 غ) مفرومة ناعماً",
+            "جزرة (100 غ) مقطعة مكعبات",
+            "حبة بطاطس متوسطة (150 غ) مقطعة مكعبات",
+            "500 مل مرق خضار",
             "200 مل حليب جوز الهند",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت في القدر على حرارة متوسطة.\n" +
-            "2. أضف البصل والجزر، وحمّرهما لمدة 5 دقائق.\n" +
-            "3. أضف الذرة والمرق، واتركه يغلي.\n" +
-            "4. قلل الحرارة واتركه ينضج لمدة 15 دقيقة.\n" +
-            "5. امزج الشوربة بالخلاط حتى تصبح ناعمة.\n" +
-            "6. أضف حليب جوز الهند والملح والفلفل، وحرّك وسخن 3 دقائق إضافية.\n" +
-            "7. قدمه ساخناً، ويمكن تزيينه بالبقدونس الطازج."
+            "1. قشر البصل والبطاطس وقطعهما إلى قطع صغيرة.\n" +
+            "2. سخّن الزيت في القدر على نار متوسطة.\n" +
+            "3. أضف البصل والجزر وقلّبهما لمدة 5 دقائق.\n" +
+            "4. أضف البطاطس والذرة.\n" +
+            "5. اسكب مرق الخضار واتركه حتى يغلي.\n" +
+            "6. خفف النار واتركه يطهى لمدة 15 دقيقة حتى تنضج الخضار.\n" +
+            "7. اخلط الشوربة بالخلاط حتى تصبح ناعمة وكريمية.\n" +
+            "8. أضف حليب جوز الهند والملح والفلفل.\n" +
+            "9. حرّك جيداً واتركها تسخن لمدة 2 إلى 3 دقائق إضافية.\n" +
+            "10. قدّمها ساخنة."
     }
 };
 recipesData.entree.salade_avocat_mexique = {
     country: "amerique",
     countryName: "mexique",
     image: "images/salade_avocat_mexique.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade d’avocat mexicaine (Mexique, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
+        title: "Salade d’avocat mexicaine (Mexique)",
+        equipment: [
+            "1 saladier",
+            "1 petit bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 presse-agrumes",
+            "1 cuillère à soupe"
+        ],
         ingredients: [
             "2 avocats mûrs",
-            "1 tomate",
+            "2 tomates moyennes",
             "1/2 oignon rouge",
-            "1 citron",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)"
+            "1 citron vert",
+            "1 cuillère à soupe de coriandre fraîche hachée",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les avocats, la tomate et l’oignon en dés.\n" +
-            "2. Presser le citron et mélanger avec l’huile, sel et poivre.\n" +
-            "3. Ajouter les légumes et mélanger délicatement.\n" +
-            "4. Servir frais."
+            "1. Laver les tomates et la coriandre.\n" +
+            "2. Couper les avocats en deux, retirer le noyau et couper la chair en dés.\n" +
+            "3. Couper les tomates en petits dés.\n" +
+            "4. Éplucher et émincer finement l’oignon rouge.\n" +
+            "5. Presser le citron vert à l’aide d’un presse-agrumes.\n" +
+            "6. Dans un petit bol, mélanger le jus de citron vert avec l’huile d’olive, le sel et le poivre.\n" +
+            "7. Placer les avocats, les tomates, l’oignon et la coriandre dans le saladier.\n" +
+            "8. Verser la sauce par-dessus.\n" +
+            "9. Mélanger délicatement pour ne pas écraser l’avocat.\n" +
+            "10. Servir immédiatement ou réserver au frais jusqu’au moment de servir."
     },
+
     en: {
-        title: "Mexican Avocado Salad (Mexico, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Mexican Avocado Salad (Mexico)",
+        equipment: [
+            "1 large bowl",
+            "1 small bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 citrus juicer",
+            "1 tablespoon"
+        ],
         ingredients: [
             "2 ripe avocados",
-            "1 tomato",
+            "2 medium tomatoes",
             "1/2 red onion",
-            "1 lemon",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "1 lime",
+            "1 tablespoon fresh chopped coriander",
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon pepper (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Dice avocados, tomato, and onion.\n" +
-            "2. Squeeze lemon and mix with oil, salt, and pepper.\n" +
-            "3. Add vegetables and gently toss.\n" +
-            "4. Serve chilled."
+            "1. Wash the tomatoes and coriander.\n" +
+            "2. Cut the avocados in half, remove the pit, and dice the flesh.\n" +
+            "3. Dice the tomatoes into small pieces.\n" +
+            "4. Peel and finely slice the red onion.\n" +
+            "5. Squeeze the lime using a citrus juicer.\n" +
+            "6. In a small bowl, mix the lime juice with olive oil, salt, and pepper.\n" +
+            "7. Place the avocados, tomatoes, onion, and coriander in the large bowl.\n" +
+            "8. Pour the dressing over the salad.\n" +
+            "9. Gently toss to avoid mashing the avocado.\n" +
+            "10. Serve immediately or keep chilled until serving."
     },
+
     nl: {
-        title: "Mexicaanse Avocadosalade (Mexico, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Mexicaanse Avocadosalade (Mexico)",
+        equipment: [
+            "1 grote kom",
+            "1 kleine kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 citruspers",
+            "1 eetlepel"
+        ],
         ingredients: [
             "2 rijpe avocado's",
-            "1 tomaat",
+            "2 middelgrote tomaten",
             "1/2 rode ui",
-            "1 citroen",
+            "1 limoen",
+            "1 eetlepel verse gehakte koriander",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)"
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel peper (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd avocado, tomaat en ui in blokjes.\n" +
-            "2. Pers de citroen en meng met olie, zout en peper.\n" +
-            "3. Voeg groenten toe en meng voorzichtig.\n" +
-            "4. Serveer koud."
+            "1. Was de tomaten en koriander.\n" +
+            "2. Halveer de avocado's, verwijder de pit en snijd het vruchtvlees in blokjes.\n" +
+            "3. Snijd de tomaten in kleine blokjes.\n" +
+            "4. Pel en snijd de rode ui fijn.\n" +
+            "5. Pers de limoen met een citruspers.\n" +
+            "6. Meng in een kleine kom het limoensap met olijfolie, zout en peper.\n" +
+            "7. Doe de avocado, tomaten, ui en koriander in de grote kom.\n" +
+            "8. Giet de dressing erover.\n" +
+            "9. Meng voorzichtig zodat de avocado niet wordt geplet.\n" +
+            "10. Serveer direct of bewaar koel tot het serveren."
     },
+
     ar: {
-        title: "سلطة الأفوكادو المكسيكية (المكسيك، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع", "ملعقة خشبية"],
+        title: "سلطة الأفوكادو المكسيكية (المكسيك)",
+        equipment: [
+            "وعاء كبير",
+            "وعاء صغير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "عصارة حمضيات",
+            "ملعقة كبيرة"
+        ],
         ingredients: [
             "2 حبة أفوكادو ناضجة",
-            "1 حبة طماطم",
+            "2 حبة طماطم متوسطة",
             "1/2 بصلة حمراء",
-            "1 ليمونة",
+            "1 حبة ليمون أخضر",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الأفوكادو والطماطم والبصل إلى مكعبات.\n" +
-            "2. اعصر الليمون وامزجه مع الزيت والملح والفلفل.\n" +
-            "3. أضف الخضار وقلّب برفق.\n" +
-            "4. قدمه بارداً."
+            "1. اغسل الطماطم والكزبرة جيداً.\n" +
+            "2. اقطع الأفوكادو إلى نصفين وأزل النواة ثم قطّع اللب إلى مكعبات.\n" +
+            "3. قطّع الطماطم إلى مكعبات صغيرة.\n" +
+            "4. قشّر البصل الأحمر وقطّعه شرائح رفيعة.\n" +
+            "5. اعصر الليمون الأخضر باستخدام عصارة.\n" +
+            "6. في وعاء صغير اخلط عصير الليمون مع زيت الزيتون والملح والفلفل.\n" +
+            "7. ضع الأفوكادو والطماطم والبصل والكزبرة في الوعاء الكبير.\n" +
+            "8. اسكب الصلصة فوق المكونات.\n" +
+            "9. قلّب برفق حتى لا يتهرس الأفوكادو.\n" +
+            "10. قدّمها فوراً أو احفظها في الثلاجة حتى وقت التقديم."
     }
 };
-
 recipesData.entree.ceviche_bresil = {
     country: "amerique",
-    countryName: "brazil",
+    countryName: "bresil",
     image: "images/ceviche_bresil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        marinationTime: 10,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Ceviche de crevettes brésilien (Brésil, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
+        title: "Ceviche de crevettes brésilien (Brésil)",
+        equipment: [
+            "1 saladier",
+            "1 petit bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 presse-agrumes",
+            "1 passoire"
+        ],
         ingredients: [
-            "300 g crevettes décortiquées cuites",
+            "300 g de crevettes cuites décortiquées",
             "1 poivron rouge",
+            "1/2 oignon rouge",
             "1 concombre",
-            "1 citron vert",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)"
+            "2 citrons verts",
+            "1 cuillère à soupe de coriandre fraîche hachée",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper poivron et concombre en dés.\n" +
-            "2. Mélanger avec les crevettes.\n" +
-            "3. Presser le citron vert, ajouter l’huile, sel et poivre.\n" +
-            "4. Verser sur le mélange et laisser mariner 10 minutes au frais.\n" +
-            "5. Servir frais."
+            "==============================\n" +
+            "PRÉPARATION DES INGRÉDIENTS\n" +
+            "==============================\n\n" +
+            "1. Laver le poivron, le concombre et la coriandre.\n" +
+            "2. Couper le poivron en petits dés.\n" +
+            "3. Éplucher le concombre si nécessaire puis le couper en dés.\n" +
+            "4. Éplucher et émincer finement l’oignon rouge.\n" +
+            "5. Égoutter les crevettes à l’aide d’une passoire.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DE LA MARINADE ET ASSEMBLAGE\n" +
+            "==============================\n\n" +
+            "6. Presser les citrons verts à l’aide d’un presse-agrumes.\n" +
+            "7. Dans un petit bol, mélanger le jus de citron vert avec l’huile d’olive, le sel et le poivre.\n" +
+            "8. Placer les crevettes, le poivron, le concombre et l’oignon dans le saladier.\n" +
+            "9. Ajouter la coriandre hachée.\n" +
+            "10. Verser la marinade sur le mélange.\n" +
+            "11. Mélanger délicatement.\n" +
+            "12. Couvrir et laisser mariner 10 minutes au réfrigérateur.\n" +
+            "13. Servir bien frais."
     },
+
     en: {
-        title: "Brazilian Shrimp Ceviche (Brazil, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Brazilian Shrimp Ceviche (Brazil)",
+        equipment: [
+            "1 large bowl",
+            "1 small bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 citrus juicer",
+            "1 strainer"
+        ],
         ingredients: [
             "300 g cooked peeled shrimp",
             "1 red bell pepper",
+            "1/2 red onion",
             "1 cucumber",
-            "1 lime",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "2 limes",
+            "1 tablespoon fresh chopped coriander",
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon pepper (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Dice bell pepper and cucumber.\n" +
-            "2. Mix with shrimp.\n" +
-            "3. Squeeze lime, add oil, salt, and pepper.\n" +
-            "4. Pour over mixture and chill 10 minutes.\n" +
-            "5. Serve cold."
+            "==============================\n" +
+            "INGREDIENT PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Wash the bell pepper, cucumber, and coriander.\n" +
+            "2. Dice the bell pepper into small cubes.\n" +
+            "3. Peel the cucumber if needed and dice it.\n" +
+            "4. Peel and finely slice the red onion.\n" +
+            "5. Drain the shrimp using a strainer.\n\n" +
+            "==============================\n" +
+            "MARINADE AND ASSEMBLY\n" +
+            "==============================\n\n" +
+            "6. Squeeze the limes using a citrus juicer.\n" +
+            "7. In a small bowl, mix the lime juice with olive oil, salt, and pepper.\n" +
+            "8. Place the shrimp, bell pepper, cucumber, and onion in the large bowl.\n" +
+            "9. Add the chopped coriander.\n" +
+            "10. Pour the marinade over the mixture.\n" +
+            "11. Gently mix.\n" +
+            "12. Cover and refrigerate for 10 minutes to marinate.\n" +
+            "13. Serve well chilled."
     },
+
     nl: {
-        title: "Braziliaanse Garnalenceviche (Brazilië, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Braziliaanse Garnalenceviche (Brazilië)",
+        equipment: [
+            "1 grote kom",
+            "1 kleine kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 citruspers",
+            "1 vergiet"
+        ],
         ingredients: [
             "300 g gekookte gepelde garnalen",
             "1 rode paprika",
+            "1/2 rode ui",
             "1 komkommer",
-            "1 limoen",
+            "2 limoenen",
+            "1 eetlepel verse gehakte koriander",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)"
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel peper (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd paprika en komkommer in blokjes.\n" +
-            "2. Meng met garnalen.\n" +
-            "3. Pers limoen, voeg olie, zout en peper toe.\n" +
-            "4. Giet over mengsel en laat 10 minuten in de koelkast.\n" +
-            "5. Serveer koud."
+            "==============================\n" +
+            "VOORBEREIDING VAN DE INGREDIËNTEN\n" +
+            "==============================\n\n" +
+            "1. Was de paprika, komkommer en koriander.\n" +
+            "2. Snijd de paprika in kleine blokjes.\n" +
+            "3. Schil indien nodig de komkommer en snijd in blokjes.\n" +
+            "4. Pel en snijd de rode ui fijn.\n" +
+            "5. Laat de garnalen uitlekken in een vergiet.\n\n" +
+            "==============================\n" +
+            "MARINADE EN SAMENSTELLING\n" +
+            "==============================\n\n" +
+            "6. Pers de limoenen met een citruspers.\n" +
+            "7. Meng in een kleine kom het limoensap met olijfolie, zout en peper.\n" +
+            "8. Doe de garnalen, paprika, komkommer en ui in de grote kom.\n" +
+            "9. Voeg de gehakte koriander toe.\n" +
+            "10. Giet de marinade erover.\n" +
+            "11. Meng voorzichtig.\n" +
+            "12. Dek af en laat 10 minuten marineren in de koelkast.\n" +
+            "13. Serveer goed gekoeld."
     },
+
     ar: {
-        title: "سيفيتشي الجمبري البرازيلي (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع", "ملعقة خشبية"],
+        title: "سيفيتشي الجمبري البرازيلي (البرازيل)",
+        equipment: [
+            "وعاء كبير",
+            "وعاء صغير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "عصارة حمضيات",
+            "مصفاة"
+        ],
         ingredients: [
-            "300 غ جمبري مسلوق ومقشر",
+            "300 غ جمبري مطبوخ ومقشر",
             "1 فلفل أحمر",
+            "1/2 بصلة حمراء",
             "1 خيار",
-            "1 ليمونة خضراء",
+            "2 حبة ليمون أخضر",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الفلفل والخيار إلى مكعبات.\n" +
-            "2. اخلط مع الجمبري.\n" +
-            "3. اعصر الليمون، وأضف الزيت والملح والفلفل.\n" +
-            "4. صب فوق الخليط واتركه يبرد 10 دقائق.\n" +
-            "5. قدمه بارداً."
+            "==============================\n" +
+            "تحضير المكونات\n" +
+            "==============================\n\n" +
+            "1. اغسل الفلفل والخيار والكزبرة.\n" +
+            "2. قطّع الفلفل إلى مكعبات صغيرة.\n" +
+            "3. قشّر الخيار إذا لزم الأمر وقطّعه مكعبات.\n" +
+            "4. قشّر البصل الأحمر وقطّعه شرائح رفيعة.\n" +
+            "5. صفِّ الجمبري باستخدام المصفاة.\n\n" +
+            "==============================\n" +
+            "تحضير التتبيلة والتجميع\n" +
+            "==============================\n\n" +
+            "6. اعصر الليمون الأخضر باستخدام العصارة.\n" +
+            "7. في وعاء صغير اخلط عصير الليمون مع زيت الزيتون والملح والفلفل.\n" +
+            "8. ضع الجمبري والفلفل والخيار والبصل في الوعاء الكبير.\n" +
+            "9. أضف الكزبرة المفرومة.\n" +
+            "10. اسكب التتبيلة فوق المكونات.\n" +
+            "11. قلّب برفق.\n" +
+            "12. غطِّ الوعاء واتركه في الثلاجة لمدة 10 دقائق ليتشرب النكهات.\n" +
+            "13. قدّمها باردة."
     }
 };
-
 recipesData.entree.tostones_cuba = {
     country: "amerique",
     countryName: "cuba",
     image: "images/tostones_cuba.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Tostones croustillants cubains (Cuba, 4 personnes)",
-        equipment: ["1 poêle", "1 couteau", "1 planche à découper", "1 bol"],
+        title: "Tostones croustillants cubains (Cuba)",
+        equipment: [
+            "1 poêle profonde",
+            "1 couteau",
+            "1 planche à découper",
+            "1 écumoire",
+            "1 assiette",
+            "papier absorbant",
+            "1 bol",
+            "1 verre ou presse-purée pour écraser"
+        ],
         ingredients: [
             "2 bananes plantain vertes",
             "huile végétale pour friture (environ 200 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "1/2 cuillère à café de sel (3 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Éplucher les bananes et couper en rondelles.\n" +
-            "2. Faire frire les rondelles 3-4 minutes.\n" +
-            "3. Écraser légèrement les rondelles et frire à nouveau 2-3 minutes.\n" +
-            "4. Saler et servir chaud."
+            "1. Éplucher les bananes plantain et les couper en rondelles épaisses d’environ 2 cm.\n" +
+            "2. Chauffer l’huile dans une poêle profonde à feu moyen.\n" +
+            "3. Faire frire les rondelles pendant 3 à 4 minutes jusqu’à ce qu’elles soient légèrement dorées.\n" +
+            "4. Retirer les rondelles à l’aide d’une écumoire et les déposer sur une assiette recouverte de papier absorbant.\n" +
+            "5. Aplatir chaque rondelle à l’aide du fond d’un verre ou d’un presse-purée.\n" +
+            "6. Remettre les rondelles aplaties dans l’huile chaude.\n" +
+            "7. Faire frire à nouveau 2 à 3 minutes jusqu’à ce qu’elles soient bien dorées et croustillantes.\n" +
+            "8. Égoutter sur du papier absorbant.\n" +
+            "9. Saler immédiatement.\n" +
+            "10. Servir chaud."
     },
+
     en: {
-        title: "Crispy Cuban Tostones (Cuba, Serves 4)",
-        equipment: ["1 pan", "1 knife", "1 cutting board", "1 bowl"],
+        title: "Crispy Cuban Tostones (Cuba)",
+        equipment: [
+            "1 deep frying pan",
+            "1 knife",
+            "1 cutting board",
+            "1 slotted spoon",
+            "1 plate",
+            "paper towels",
+            "1 bowl",
+            "1 glass or potato masher for pressing"
+        ],
         ingredients: [
             "2 green plantains",
-            "vegetable oil for frying (approx. 200 ml)",
-            "1/2 tsp salt (1 g)"
+            "vegetable oil for frying (about 200 ml)",
+            "1/2 teaspoon salt (3 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Peel and slice plantains.\n" +
-            "2. Fry slices 3-4 minutes.\n" +
-            "3. Slightly smash slices and fry again 2-3 minutes.\n" +
-            "4. Salt and serve hot."
+            "1. Peel the plantains and cut them into thick slices about 2 cm.\n" +
+            "2. Heat the oil in a deep pan over medium heat.\n" +
+            "3. Fry the slices for 3 to 4 minutes until lightly golden.\n" +
+            "4. Remove them with a slotted spoon and place on a plate lined with paper towels.\n" +
+            "5. Flatten each slice using the bottom of a glass or a potato masher.\n" +
+            "6. Return the flattened slices to the hot oil.\n" +
+            "7. Fry again for 2 to 3 minutes until golden and crispy.\n" +
+            "8. Drain on paper towels.\n" +
+            "9. Sprinkle with salt immediately.\n" +
+            "10. Serve hot."
     },
+
     nl: {
-        title: "Knapperige Cubaanse Tostones (Cuba, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank", "1 kom"],
+        title: "Knapperige Cubaanse Tostones (Cuba)",
+        equipment: [
+            "1 diepe pan",
+            "1 mes",
+            "1 snijplank",
+            "1 schuimspaan",
+            "1 bord",
+            "keukenpapier",
+            "1 kom",
+            "1 glas of pureestamper om te pletten"
+        ],
         ingredients: [
             "2 groene bakbananen",
-            "plantaardige olie om te frituren (ca. 200 ml)",
-            "1/2 tl zout (1 g)"
+            "plantaardige olie om te frituren (ongeveer 200 ml)",
+            "1/2 theelepel zout (3 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Schil en snijd bananen in plakjes.\n" +
-            "2. Bak de plakjes 3-4 minuten.\n" +
-            "3. Druk de plakjes iets plat en bak opnieuw 2-3 minuten.\n" +
-            "4. Zout en serveer warm."
+            "1. Schil de bakbananen en snijd ze in dikke plakjes van ongeveer 2 cm.\n" +
+            "2. Verhit de olie in een diepe pan op middelhoog vuur.\n" +
+            "3. Bak de plakjes 3 tot 4 minuten tot ze licht goudbruin zijn.\n" +
+            "4. Haal ze uit de pan met een schuimspaan en leg ze op een bord met keukenpapier.\n" +
+            "5. Druk elk plakje plat met de onderkant van een glas of een pureestamper.\n" +
+            "6. Leg de platgedrukte plakjes terug in de hete olie.\n" +
+            "7. Bak opnieuw 2 tot 3 minuten tot ze goudbruin en knapperig zijn.\n" +
+            "8. Laat uitlekken op keukenpapier.\n" +
+            "9. Bestrooi direct met zout.\n" +
+            "10. Serveer warm."
     },
+
     ar: {
-        title: "تستونس مقرمشة كوبية (كوبا، تكفي 4 أشخاص)",
-        equipment: ["مقلاة", "سكين", "لوح تقطيع", "وعاء"],
+        title: "تستونس مقرمشة كوبية (كوبا)",
+        equipment: [
+            "مقلاة عميقة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة مثقبة",
+            "طبق",
+            "ورق مطبخ",
+            "وعاء",
+            "كوب أو أداة هرس للضغط"
+        ],
         ingredients: [
             "2 موز بلانتين أخضر",
             "زيت نباتي للقلي (حوالي 200 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قشر الموز وقطع إلى شرائح.\n" +
-            "2. اقلي الشرائح 3-4 دقائق.\n" +
-            "3. اضغط الشرائح قليلاً واقلي مرة أخرى 2-3 دقائق.\n" +
-            "4. أضف الملح وقدمها ساخنة."
+            "1. قشر الموز وقطّعه إلى شرائح سميكة حوالي 2 سم.\n" +
+            "2. سخّن الزيت في مقلاة عميقة على نار متوسطة.\n" +
+            "3. اقْلِ الشرائح لمدة 3 إلى 4 دقائق حتى تصبح ذهبية فاتحة.\n" +
+            "4. أخرجها باستخدام ملعقة مثقبة وضعها على طبق مبطن بورق المطبخ.\n" +
+            "5. اضغط كل شريحة برفق باستخدام قاع كوب أو أداة هرس.\n" +
+            "6. أعد الشرائح المفلطحة إلى الزيت الساخن.\n" +
+            "7. اقْلِ مرة أخرى لمدة 2 إلى 3 دقائق حتى تصبح ذهبية ومقرمشة.\n" +
+            "8. ارفعها واتركها لتتصفى على ورق المطبخ.\n" +
+            "9. رشّ الملح فوراً.\n" +
+            "10. قدّمها ساخنة."
     }
 };
-
 recipesData.entree.guacamole_usa = {
     country: "amerique",
     countryName: "usa",
     image: "images/guacamole_usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Guacamole classique américain (USA, 4 personnes)",
-        equipment: ["1 bol", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
+        title: "Guacamole classique américain (États-Unis)",
+        equipment: [
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 presse-agrumes",
+            "1 fourchette"
+        ],
         ingredients: [
             "2 avocats mûrs",
-            "1 tomate",
-            "1/2 oignon",
+            "2 tomates moyennes",
+            "1/2 oignon rouge",
             "1 citron vert",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)"
+            "1 cuillère à soupe de coriandre fraîche hachée",
+            "1 cuillère à soupe d’huile d’olive (15 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Écraser les avocats dans un bol.\n" +
-            "2. Ajouter tomate et oignon coupés en dés.\n" +
-            "3. Presser le citron vert et mélanger.\n" +
-            "4. Ajouter sel et poivre, mélanger et servir."
+            "1. Laver les tomates et la coriandre.\n" +
+            "2. Couper les avocats en deux, retirer le noyau et récupérer la chair dans un bol.\n" +
+            "3. Écraser grossièrement l’avocat à l’aide d’une fourchette.\n" +
+            "4. Couper les tomates en petits dés.\n" +
+            "5. Éplucher et hacher finement l’oignon rouge.\n" +
+            "6. Presser le citron vert à l’aide d’un presse-agrumes.\n" +
+            "7. Ajouter les tomates, l’oignon et la coriandre dans le bol.\n" +
+            "8. Verser le jus de citron vert et l’huile d’olive.\n" +
+            "9. Ajouter le sel et le poivre.\n" +
+            "10. Mélanger délicatement jusqu’à obtention d’une texture homogène.\n" +
+            "11. Servir immédiatement."
     },
+
     en: {
-        title: "Classic American Guacamole (USA, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Classic American Guacamole (United States)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 citrus juicer",
+            "1 fork"
+        ],
         ingredients: [
             "2 ripe avocados",
-            "1 tomato",
-            "1/2 onion",
+            "2 medium tomatoes",
+            "1/2 red onion",
             "1 lime",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "1 tablespoon fresh chopped coriander",
+            "1 tablespoon olive oil (15 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon pepper (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mash avocados in a bowl.\n" +
-            "2. Add diced tomato and onion.\n" +
-            "3. Squeeze lime and mix.\n" +
-            "4. Add salt and pepper, stir, and serve."
+            "1. Wash the tomatoes and coriander.\n" +
+            "2. Cut the avocados in half, remove the pit, and scoop the flesh into a bowl.\n" +
+            "3. Mash the avocado roughly with a fork.\n" +
+            "4. Dice the tomatoes into small cubes.\n" +
+            "5. Peel and finely chop the red onion.\n" +
+            "6. Squeeze the lime using a citrus juicer.\n" +
+            "7. Add the tomatoes, onion, and coriander to the bowl.\n" +
+            "8. Pour in the lime juice and olive oil.\n" +
+            "9. Add salt and pepper.\n" +
+            "10. Gently mix until evenly combined.\n" +
+            "11. Serve immediately."
     },
+
     nl: {
-        title: "Klassieke Amerikaanse Guacamole (VS, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Klassieke Amerikaanse Guacamole (Verenigde Staten)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 citruspers",
+            "1 vork"
+        ],
         ingredients: [
             "2 rijpe avocado's",
-            "1 tomaat",
-            "1/2 ui",
+            "2 middelgrote tomaten",
+            "1/2 rode ui",
             "1 limoen",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)"
+            "1 eetlepel verse gehakte koriander",
+            "1 eetlepel olijfolie (15 ml)",
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel peper (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Pureer avocado in een kom.\n" +
-            "2. Voeg in blokjes gesneden tomaat en ui toe.\n" +
-            "3. Pers limoen en meng.\n" +
-            "4. Voeg zout en peper toe, meng en serveer."
+            "1. Was de tomaten en koriander.\n" +
+            "2. Halveer de avocado's, verwijder de pit en schep het vruchtvlees in een kom.\n" +
+            "3. Prak de avocado grof met een vork.\n" +
+            "4. Snijd de tomaten in kleine blokjes.\n" +
+            "5. Pel en snijd de rode ui fijn.\n" +
+            "6. Pers de limoen met een citruspers.\n" +
+            "7. Voeg tomaten, ui en koriander toe aan de kom.\n" +
+            "8. Giet het limoensap en de olijfolie erbij.\n" +
+            "9. Voeg zout en peper toe.\n" +
+            "10. Meng voorzichtig tot alles goed verdeeld is.\n" +
+            "11. Serveer direct."
     },
+
     ar: {
-        title: "جواكامولي أمريكي كلاسيكي (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع", "ملعقة خشبية"],
+        title: "جواكامولي أمريكي كلاسيكي (الولايات المتحدة)",
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "عصارة حمضيات",
+            "شوكة"
+        ],
         ingredients: [
             "2 حبة أفوكادو ناضجة",
-            "1 طماطم",
-            "1/2 بصلة",
-            "1 ليمونة خضراء",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)"
+            "2 حبة طماطم متوسطة",
+            "1/2 بصلة حمراء",
+            "1 حبة ليمون أخضر",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة",
+            "1 ملعقة كبيرة زيت زيتون (15 مل)",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اهرس الأفوكادو في وعاء.\n" +
-            "2. أضف الطماطم والبصل المقطع.\n" +
-            "3. اعصر الليمون وامزج.\n" +
-            "4. أضف الملح والفلفل وقدم."
+            "1. اغسل الطماطم والكزبرة.\n" +
+            "2. اقطع الأفوكادو إلى نصفين وأزل النواة ثم استخرج اللب وضعه في وعاء.\n" +
+            "3. اهرس الأفوكادو بالشوكة بشكل خشن.\n" +
+            "4. قطّع الطماطم إلى مكعبات صغيرة.\n" +
+            "5. قشّر البصل الأحمر وافرمه ناعماً.\n" +
+            "6. اعصر الليمون الأخضر باستخدام العصارة.\n" +
+            "7. أضف الطماطم والبصل والكزبرة إلى الوعاء.\n" +
+            "8. اسكب عصير الليمون وزيت الزيتون.\n" +
+            "9. أضف الملح والفلفل.\n" +
+            "10. اخلط برفق حتى تتجانس المكونات.\n" +
+            "11. قدّمها فوراً."
     }
 };
 recipesData.entree.papaya_salad_bresil = {
     country: "amerique",
-    countryName: "brazil",
+    countryName: "bresil",
     image: "images/papaya_salad_bresil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy"
+    },
+
     fr: {
-        title: "Salade de papaye brésilienne (Brésil, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
+        title: "Salade de papaye brésilienne (Brésil)",
+        equipment: [
+            "1 saladier",
+            "1 petit bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 presse-agrumes"
+        ],
         ingredients: [
-            "1 papaye mûre",
+            "1 grande papaye mûre",
             "1 citron vert",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "1 cuillère à soupe de miel",
+            "1 cuillère à soupe de coriandre fraîche hachée",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 pincée de sel (2 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Éplucher et couper la papaye en dés.\n" +
-            "2. Presser le citron vert et mélanger avec l’huile et le sel.\n" +
-            "3. Ajouter la papaye et mélanger délicatement.\n" +
-            "4. Servir frais."
+            "1. Éplucher la papaye, retirer les graines et couper la chair en petits dés.\n" +
+            "2. Presser le citron vert à l’aide d’un presse-agrumes.\n" +
+            "3. Dans un petit bol, mélanger le jus de citron vert, le miel, l’huile d’olive et le sel.\n" +
+            "4. Placer les dés de papaye dans le saladier.\n" +
+            "5. Ajouter la coriandre fraîche hachée.\n" +
+            "6. Verser la sauce sur la papaye.\n" +
+            "7. Mélanger délicatement.\n" +
+            "8. Réserver au frais 10 minutes avant de servir.\n" +
+            "9. Servir bien frais."
     },
+
     en: {
-        title: "Brazilian Papaya Salad (Brazil, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Brazilian Papaya Salad (Brazil)",
+        equipment: [
+            "1 large bowl",
+            "1 small bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 citrus juicer"
+        ],
         ingredients: [
-            "1 ripe papaya",
+            "1 large ripe papaya",
             "1 lime",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "1 tablespoon honey",
+            "1 tablespoon fresh chopped coriander",
+            "2 tablespoons olive oil (30 ml)",
+            "1 pinch of salt (2 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Peel and dice papaya.\n" +
-            "2. Squeeze lime and mix with oil and salt.\n" +
-            "3. Add papaya and gently toss.\n" +
-            "4. Serve chilled."
+            "1. Peel the papaya, remove the seeds, and dice the flesh into small cubes.\n" +
+            "2. Squeeze the lime using a citrus juicer.\n" +
+            "3. In a small bowl, mix the lime juice, honey, olive oil, and salt.\n" +
+            "4. Place the papaya cubes in the large bowl.\n" +
+            "5. Add the chopped fresh coriander.\n" +
+            "6. Pour the dressing over the papaya.\n" +
+            "7. Gently toss to combine.\n" +
+            "8. Chill for 10 minutes before serving.\n" +
+            "9. Serve well chilled."
     },
+
     nl: {
-        title: "Braziliaanse Papajasalade (Brazilië, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Braziliaanse Papajasalade (Brazilië)",
+        equipment: [
+            "1 grote kom",
+            "1 kleine kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 citruspers"
+        ],
         ingredients: [
-            "1 rijpe papaja",
+            "1 grote rijpe papaja",
             "1 limoen",
+            "1 eetlepel honing",
+            "1 eetlepel verse gehakte koriander",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 snufje zout (2 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Schil en snijd papaja in blokjes.\n" +
-            "2. Pers limoen en meng met olie en zout.\n" +
-            "3. Voeg papaja toe en meng voorzichtig.\n" +
-            "4. Serveer koud."
+            "1. Schil de papaja, verwijder de zaden en snijd het vruchtvlees in kleine blokjes.\n" +
+            "2. Pers de limoen met een citruspers.\n" +
+            "3. Meng in een kleine kom het limoensap met honing, olijfolie en zout.\n" +
+            "4. Doe de papajablokjes in de grote kom.\n" +
+            "5. Voeg de gehakte koriander toe.\n" +
+            "6. Giet de dressing over de papaja.\n" +
+            "7. Meng voorzichtig.\n" +
+            "8. Zet 10 minuten in de koelkast voor het serveren.\n" +
+            "9. Serveer goed gekoeld."
     },
+
     ar: {
-        title: "سلطة البابايا البرازيلية (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع", "ملعقة خشبية"],
+        title: "سلطة البابايا البرازيلية (البرازيل)",
+        equipment: [
+            "وعاء كبير",
+            "وعاء صغير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "عصارة حمضيات"
+        ],
         ingredients: [
-            "1 حبة بابايا ناضجة",
-            "1 ليمونة خضراء",
+            "1 حبة بابايا كبيرة ناضجة",
+            "1 حبة ليمون أخضر",
+            "1 ملعقة كبيرة عسل",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "رشة ملح (2 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قشر البابايا وقطعها إلى مكعبات.\n" +
-            "2. اعصر الليمون وامزجه مع الزيت والملح.\n" +
-            "3. أضف البابايا وقلّب برفق.\n" +
-            "4. قدمها بارداً."
+            "1. قشر البابايا وأزل البذور ثم قطّع اللب إلى مكعبات صغيرة.\n" +
+            "2. اعصر الليمون الأخضر باستخدام العصارة.\n" +
+            "3. في وعاء صغير اخلط عصير الليمون مع العسل وزيت الزيتون والملح.\n" +
+            "4. ضع مكعبات البابايا في الوعاء الكبير.\n" +
+            "5. أضف الكزبرة المفرومة.\n" +
+            "6. اسكب الصلصة فوق البابايا.\n" +
+            "7. قلّب برفق حتى تتجانس المكونات.\n" +
+            "8. ضعها في الثلاجة لمدة 10 دقائق قبل التقديم.\n" +
+            "9. قدّمها باردة."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 recipesData.entree.corn_salad_mexique = {
     country: "amerique",
@@ -68659,6 +69487,7 @@ const homeImage = document.getElementById("homeImage");
 const recipeContainer = document.getElementById("recipeContainer");
 const recipeTitle = document.getElementById("recipeTitle");
 const recipeImage = document.getElementById("recipeImage");
+const recipeDescription = document.getElementById("recipeDescription");
 const recipeEquipment = document.getElementById("recipeEquipment");
 const recipeIngredients = document.getElementById("recipeIngredients");
 const recipePreparation = document.getElementById("recipePreparation");
@@ -68765,8 +69594,21 @@ recipeSelect.addEventListener("change", () => {
 function displayRecipe(recipeKey, type) {
     const data = recipesData[type][recipeKey][currentLang];
 
-    recipeTitle.textContent = data.title;
-    const imageData = recipesData[type][recipeKey].image;
+    
+
+// 👉 affichage description SEO
+recipeTitle.textContent = data.title;
+
+// description
+const meta = recipesData[type][recipeKey].meta;
+recipeDescription.textContent =
+    data.description || meta?.description || "";
+
+const imageData = recipesData[type][recipeKey].image;
+
+
+
+
 
 if (Array.isArray(imageData)) {
     recipeImage.src = imageData[0];
@@ -68825,6 +69667,9 @@ metaDiv.innerHTML = `
     homeImage.classList.add("hidden");
     recipeContainer.classList.remove("hidden");
     document.getElementById("home-intro").classList.add("hidden");
+    // corrige les titres restés dans l’ancienne langue
+applyTranslations(currentLang);
+
 
 }
 /* --------- INITIALISATION --------- */
