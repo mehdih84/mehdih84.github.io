@@ -233,5 +233,15 @@ img, video {
         font-size: 17px;
     }
 }
+.home-text p {
+    text-align: justify;
+}
+
+/* Très petits écrans */
+@media (max-width: 480px) {
+  .home-text p {
+    text-align: left;
+  }
+}
 
 
