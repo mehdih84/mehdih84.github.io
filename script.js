@@ -207,57 +207,103 @@ const translations = {
     }
 };
 const homeIntro = {
+
   fr: {
-    title: "Recettes halal authentiques et gourmandes",
-    p1: "Salam Aleykoum, bonjour et bienvenue sur Cuisine du Monde Halal, un site dédié aux recettes halal traditionnelles et modernes, inspirées de différentes cuisines du monde.",
-    p2: "Vous trouverez ici des plats faits maison, préparés sans porc, sans alcool et sans ingrédients contenant de l’alcool, afin de respecter les principes de l’alimentation halal.",
-    p3: "Ce site s’adresse aux familles musulmanes, aux personnes ayant des restrictions alimentaires ainsi qu’à toute personne curieuse de découvrir une cuisine saine et savoureuse.",
-    p4: "Chaque recette est expliquée simplement avec les ingrédients, le matériel nécessaire et des étapes claires pour réussir vos plats à la maison.",
-    p5: "De nouvelles recettes sont ajoutées régulièrement : plats marocains, orientaux, desserts traditionnels et spécialités internationales revisitées en version halal."
+    title: "Bienvenue sur Cuisine du Monde Halal",
+    p1: "Salam Aleykoum, bonjour et bienvenue.",
+    p2: "Je m’appelle Mehdi. Je ne suis pas chef cuisinier de profession. J’ai travaillé de nombreuses années dans le jardinage, puis dans la sécurité, et aujourd’hui je suis chauffeur de bus.",
+    p3: "Comme beaucoup d’entre nous, j’ai longtemps pensé que la cuisine était compliquée… mais j’ai toujours aimé bien manger 😊. Avec le temps, et surtout grâce à ma femme, j’ai appris à cuisiner de temps en temps et à prendre plaisir à préparer des plats simples à la maison.",
+    p4: "Étant d’origine non musulmane, certains plats contenant du porc ou de l’alcool pouvaient parfois me manquer. J’ai donc cherché des alternatives halal, mais il n’est pas toujours facile de trouver des recettes variées, fiables et adaptées au quotidien.",
+    p5: "C’est ainsi qu’est née l’idée de ce site : proposer des recettes du monde entier en version 100 % halal, sans porc, sans alcool et en évitant les ingrédients pouvant en contenir.",
+    p6: "Aujourd’hui, l’alcool ou la gélatine peuvent se cacher dans des produits insoupçonnés. C’est pourquoi je recommande, lorsque c’est possible, de cuisiner soi-même pour garder le contrôle sur ce que l’on mange.",
+    p7: "Vous trouverez ici des recettes simples, accessibles et expliquées clairement : entrées, plats, desserts, pâtisseries et sauces inspirés de différentes cuisines du monde.",
+    p8: "Le site est disponible en plusieurs langues afin de permettre au plus grand nombre d’en profiter. Bien que le public musulman soit prioritaire, tout le monde est bienvenu.",
+    p9: "Une rubrique boutique propose également des ustensiles et produits utiles pour la cuisine. Les liens sont affiliés : cela ne vous coûte rien de plus, mais permet de soutenir le site et le temps consacré à sa création.",
+    p10: "Le site est gratuit et le restera.",
+    p11: "Choisissez votre langue, explorez les recettes, cuisinez… et régalez-vous 😊",
+    p12: "Bonne visite et bon appétit.",
+    p13: "Besahtkom !"
   },
 
   en: {
-    title: "Authentic and delicious halal recipes",
-    p1: "Welcome to Cuisine du Monde Halal, a website dedicated to traditional and modern halal recipes inspired by cuisines from around the world.",
-    p2: "All recipes are homemade, without pork, without alcohol and without ingredients containing alcohol.",
-    p3: "This website is intended for Muslim families, people with dietary restrictions and anyone curious to discover healthy and flavorful cuisine.",
-    p4: "Each recipe is clearly explained with ingredients, required equipment and easy-to-follow steps.",
-    p5: "New recipes are added regularly, including Moroccan dishes, oriental cuisine and traditional desserts."
-  },
-
-  ar: {
-    title: "وصفات حلال أصلية ولذيذة",
-    p1: "مرحباً بكم في موقع مطبخ العالم الحلال، المخصص للوصفات الحلال التقليدية والعصرية من مختلف مطابخ العالم.",
-    p2: "جميع الوصفات منزلية وخالية من لحم الخنزير والكحول والمكونات التي تحتوي على الكحول.",
-    p3: "الموقع موجه للعائلات المسلمة وللأشخاص ذوي القيود الغذائية ولكل من يحب اكتشاف مطبخ صحي ولذيذ.",
-    p4: "كل وصفة مشروحة بطريقة بسيطة مع المكونات والأدوات والخطوات الواضحة.",
-    p5: "نضيف وصفات جديدة بانتظام تشمل أطباقاً مغربية وشرقية وحلويات تقليدية."
+    title: "Welcome to Cuisine du Monde Halal",
+    p1: "Salam Aleykoum, hello and welcome.",
+    p2: "My name is Mehdi. I am not a professional chef. I worked for many years in gardening, then in security, and today I drive buses.",
+    p3: "Like many of us, I long believed cooking was complicated… but I have always loved good food 😊. Over time, and especially thanks to my wife, I learned to cook from time to time and enjoy preparing simple meals at home.",
+    p4: "Being of non-Muslim origin, I sometimes missed dishes containing pork or alcohol. I searched for halal alternatives, but it is not always easy to find varied, reliable recipes suitable for everyday life.",
+    p5: "This is how the idea for this website was born: to offer recipes from around the world in a 100% halal version, without pork, without alcohol, and avoiding ingredients that may contain it.",
+    p6: "Today, alcohol or gelatin can be hidden in products we would never suspect. That is why I recommend cooking at home whenever possible to better control what we eat.",
+    p7: "Here you will find simple and accessible recipes clearly explained: starters, main dishes, desserts, pastries and sauces inspired by cuisines from around the world.",
+    p8: "The site is available in several languages so that as many people as possible can benefit. Although Muslim families are the primary audience, everyone is welcome.",
+    p9: "A shop section also offers useful kitchen tools and products. The links are affiliate links: this costs you nothing extra but helps support the site and the time spent creating it.",
+    p10: "The site is free and will remain so.",
+    p11: "Choose your language, explore the recipes, cook… and enjoy 😊",
+    p12: "Enjoy your visit and bon appétit.",
+    p13: "Besahtkom!"
   },
 
   nl: {
-    title: "Authentieke en smakelijke halal recepten",
-    p1: "Welkom bij Cuisine du Monde Halal, een website met traditionele en moderne halal recepten uit keukens over de hele wereld.",
-    p2: "Alle recepten zijn huisgemaakt, zonder varkensvlees, zonder alcohol en zonder ingrediënten die alcohol bevatten.",
-    p3: "Deze website is bedoeld voor moslimgezinnen, mensen met voedingsbeperkingen en nieuwsgierige fijnproevers.",
-    p4: "Elk recept wordt eenvoudig uitgelegd met ingrediënten, benodigd materiaal en duidelijke stappen.",
-    p5: "Er worden regelmatig nieuwe recepten toegevoegd, waaronder Marokkaanse en oosterse gerechten."
+    title: "Welkom bij Cuisine du Monde Halal",
+    p1: "Salam Aleykoum, hallo en welkom.",
+    p2: "Mijn naam is Mehdi. Ik ben geen professionele chef. Ik werkte vele jaren in de tuinbouw, daarna in de beveiliging en vandaag ben ik buschauffeur.",
+    p3: "Zoals veel mensen dacht ik lang dat koken moeilijk was… maar ik heb altijd van lekker eten gehouden 😊. Met de tijd, en vooral dankzij mijn vrouw, leerde ik af en toe koken en eenvoudige maaltijden thuis bereiden.",
+    p4: "Omdat ik van niet-moslim afkomst ben, miste ik soms gerechten met varkensvlees of alcohol. Ik zocht halal alternatieven, maar het is niet altijd eenvoudig om gevarieerde en betrouwbare recepten te vinden voor het dagelijks leven.",
+    p5: "Zo ontstond het idee voor deze website: recepten van over de hele wereld aanbieden in een 100% halal versie, zonder varkensvlees, zonder alcohol en met aandacht voor verborgen ingrediënten.",
+    p6: "Tegenwoordig kunnen alcohol of gelatine verborgen zitten in producten zonder dat we het beseffen. Daarom raad ik aan, wanneer mogelijk, zelf te koken om beter te controleren wat we eten.",
+    p7: "Hier vind je eenvoudige en duidelijke recepten: voorgerechten, hoofdgerechten, desserts, gebak en sauzen geïnspireerd door keukens uit de hele wereld.",
+    p8: "De website is beschikbaar in meerdere talen zodat zoveel mogelijk mensen ervan kunnen genieten. Hoewel moslimgezinnen de prioritaire doelgroep zijn, is iedereen welkom.",
+    p9: "De shoprubriek biedt ook nuttige keukenproducten en materialen aan. De links zijn affiliate links: dit kost je niets extra maar helpt de website te ondersteunen.",
+    p10: "De website is gratis en zal dat blijven.",
+    p11: "Kies je taal, ontdek de recepten, kook… en geniet 😊",
+    p12: "Fijne bezoek en eet smakelijk.",
+    p13: "Besahtkom!"
+  },
+
+  ar: {
+    title: "مرحبًا بكم في مطبخ العالم الحلال",
+    p1: "السلام عليكم، مرحباً بكم.",
+    p2: "اسمي مهدي. لست طاهياً محترفاً. عملت لسنوات طويلة في البستنة ثم في الأمن، واليوم أعمل سائق حافلة.",
+    p3: "مثل الكثير من الناس، كنت أعتقد أن الطبخ أمر معقد… لكنني أحببت الطعام الجيد دائماً 😊. مع الوقت، وبفضل زوجتي خاصة، تعلمت الطهي من حين لآخر والاستمتاع بإعداد وجبات بسيطة في المنزل.",
+    p4: "كوني من أصل غير مسلم، كنت أفتقد أحياناً أطباقاً تحتوي على لحم الخنزير أو الكحول. بحثت عن بدائل حلال، لكن ليس من السهل دائماً العثور على وصفات متنوعة وموثوقة للحياة اليومية.",
+    p5: "هكذا وُلدت فكرة هذا الموقع: تقديم وصفات من مختلف مطابخ العالم بنسخة حلال 100٪، بدون لحم خنزير وبدون كحول وتجنب المكونات التي قد تحتوي عليه.",
+    p6: "اليوم قد توجد الكحول أو الجيلاتين في منتجات لا نتوقعها. لذلك أنصح، كلما أمكن، بالطهي في المنزل للتحكم بشكل أفضل فيما نأكله.",
+    p7: "ستجد هنا وصفات بسيطة وواضحة: مقبلات، أطباق رئيسية، حلويات، معجنات وصلصات مستوحاة من مطابخ العالم.",
+    p8: "الموقع متوفر بعدة لغات ليستفيد منه أكبر عدد ممكن من الزوار. ورغم أن العائلات المسلمة هي الجمهور الأساسي، فالجميع مرحب بهم.",
+    p9: "يوفر قسم المتجر أيضاً أدوات ومنتجات مفيدة للمطبخ. الروابط تابعة لنظام التسويق بالعمولة، ولن تكلفكم شيئاً إضافياً لكنها تساعد في دعم الموقع.",
+    p10: "الموقع مجاني وسيبقى كذلك.",
+    p11: "اختر لغتك، اكتشف الوصفات، اطبخ… واستمتع 😊",
+    p12: "نتمنى لكم زيارة ممتعة وصحة وعافية.",
+    p13: "بصحتكم!"
   }
+
 };
+
+
+
 function renderHomeIntro(lang) {
   const container = document.getElementById("home-intro");
   if (!container || !homeIntro[lang]) return;
 
   const t = homeIntro[lang];
 
-  container.innerHTML = `
-    <h2>${t.title}</h2>
-    <p>${t.p1}</p>
-    <p>${t.p2}</p>
-    <p>${t.p3}</p>
-    <p>${t.p4}</p>
-    <p>${t.p5}</p>
-  `;
+  // vide le conteneur
+  container.innerHTML = "";
+
+  // ajoute le titre
+  const title = document.createElement("h2");
+  title.textContent = t.title;
+  container.appendChild(title);
+
+  // ajoute tous les paragraphes automatiquement
+  Object.keys(t).forEach(key => {
+    if (key !== "title") {
+      const p = document.createElement("p");
+      p.textContent = t[key];
+      container.appendChild(p);
+    }
+  });
 }
+
 
 
 
@@ -69602,7 +69648,8 @@ recipeTitle.textContent = data.title;
 // description
 const meta = recipesData[type][recipeKey].meta;
 recipeDescription.textContent =
-    data.description || meta?.description || "";
+    data.description || meta?.description?.[currentLang] || "";
+
 
 const imageData = recipesData[type][recipeKey].image;
 

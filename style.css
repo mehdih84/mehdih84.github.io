@@ -204,5 +204,34 @@ img, video {
         gap: 6px;
     }
 }
+/* ===== TEXTE ACCUEIL ===== */
+
+.home-text {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: #000;
+}
+
+.home-text h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    margin-bottom: 16px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .home-text {
+        padding: 15px;
+    }
+
+    .home-text p {
+        font-size: 17px;
+    }
+}
 
 
