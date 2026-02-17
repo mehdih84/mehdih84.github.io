@@ -61645,13 +61645,58 @@ recipesData.patisserie.brunsli_suisse = {
 recipesData.entree.soupe_mais_usa = {
     country: "amerique",
     countryName: "usa",
-    image: "images/soupe_mais_usa.jpg",
+    image: "images/soupe-mais-usa.jpg",
 
     meta: {
         servings: 4,
         prepTime: 10,
-        cookTime: 20,
-        difficulty: "easy"
+        cookTime: 25,
+        difficulty: "easy",
+        seo: {
+            slug: "soupe-mais-usa",
+            title: "Soupe de maïs (États-Unis) – Recette facile",
+            description: "Découvrez comment préparer une soupe de maïs crémeuse des États-Unis, une recette simple, douce et réconfortante idéale en toute saison.",
+            keywords: [
+                "recette soupe de mais",
+                "soupe mais usa",
+                "cuisine americaine",
+                "recette soupe facile",
+                "soupe traditionnelle etats unis",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Soupe de maïs crémeuse (États-Unis)",
+            "description": "Une soupe de maïs crémeuse et réconfortante inspirée de la cuisine des États-Unis, facile à préparer et idéale pour toute la famille.",
+            "recipeCuisine": "États-Unis",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT25M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "400 g de maïs doux en grains",
+                "1 oignon moyen",
+                "1 carotte",
+                "1 pomme de terre moyenne",
+                "1 gousse d’ail",
+                "500 ml de bouillon de légumes",
+                "200 ml de lait de coco",
+                "2 cuillères à soupe d’huile végétale",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": [
+                "Éplucher et couper les légumes en petits morceaux.",
+                "Faire revenir l’oignon, l’ail et la carotte dans l’huile chaude.",
+                "Ajouter la pomme de terre et le maïs.",
+                "Verser le bouillon et cuire jusqu’à tendreté.",
+                "Mixer la soupe jusqu’à texture lisse.",
+                "Ajouter le lait de coco, assaisonner et réchauffer avant de servir."
+            ]
+        }
     },
 
     fr: {
@@ -61660,6 +61705,7 @@ recipesData.entree.soupe_mais_usa = {
             "1 casserole moyenne",
             "1 couteau",
             "1 planche à découper",
+            "1 économe",
             "1 mixeur plongeant ou blender",
             "1 cuillère en bois",
             "1 louche",
@@ -61671,23 +61717,24 @@ recipesData.entree.soupe_mais_usa = {
             "1 oignon moyen (100 g), haché finement",
             "1 carotte (100 g), coupée en petits dés",
             "1 pomme de terre moyenne (150 g), coupée en dés",
-            "500 ml de bouillon de légumes",
+            "1 gousse d’ail, hachée",
+            "500 ml de bouillon de légumes chaud",
             "200 ml de lait de coco",
             "2 cuillères à soupe d’huile végétale (30 ml)",
             "1/2 cuillère à café de sel (3 g)",
             "1/4 cuillère à café de poivre (1 g)"
         ],
         preparation:
-            "1. Éplucher l’oignon et la pomme de terre puis les couper en petits morceaux.\n" +
+            "1. Éplucher l’oignon, l’ail et la pomme de terre puis les couper en petits morceaux.\n" +
             "2. Chauffer l’huile dans une casserole à feu moyen.\n" +
-            "3. Ajouter l’oignon et la carotte puis faire revenir 5 minutes en remuant.\n" +
-            "4. Ajouter la pomme de terre et le maïs.\n" +
-            "5. Verser le bouillon de légumes et porter à ébullition.\n" +
-            "6. Réduire le feu et laisser cuire 15 minutes jusqu’à ce que les légumes soient tendres.\n" +
+            "3. Ajouter l’oignon, l’ail et la carotte puis faire revenir 5 minutes en remuant régulièrement.\n" +
+            "4. Ajouter la pomme de terre et le maïs puis mélanger.\n" +
+            "5. Verser le bouillon chaud et porter à ébullition.\n" +
+            "6. Réduire le feu et laisser cuire environ 15 à 20 minutes jusqu’à ce que les légumes soient bien tendres.\n" +
             "7. Mixer la soupe à l’aide d’un mixeur plongeant jusqu’à obtention d’une texture lisse et crémeuse.\n" +
             "8. Ajouter le lait de coco, le sel et le poivre.\n" +
-            "9. Mélanger et laisser chauffer encore 2 à 3 minutes.\n" +
-            "10. Servir chaud."
+            "9. Mélanger et laisser chauffer encore 2 à 3 minutes à feu doux.\n" +
+            "10. Rectifier l’assaisonnement si nécessaire et servir bien chaud."
     },
 
     en: {
@@ -61696,6 +61743,7 @@ recipesData.entree.soupe_mais_usa = {
             "1 medium saucepan",
             "1 knife",
             "1 cutting board",
+            "1 vegetable peeler",
             "1 hand blender or regular blender",
             "1 wooden spoon",
             "1 ladle",
@@ -61707,23 +61755,24 @@ recipesData.entree.soupe_mais_usa = {
             "1 medium onion (100 g), finely chopped",
             "1 carrot (100 g), diced",
             "1 medium potato (150 g), diced",
-            "500 ml vegetable broth",
+            "1 garlic clove, minced",
+            "500 ml hot vegetable broth",
             "200 ml coconut milk",
             "2 tablespoons vegetable oil (30 ml)",
             "1/2 teaspoon salt (3 g)",
             "1/4 teaspoon pepper (1 g)"
         ],
         preparation:
-            "1. Peel and chop the onion and potato into small pieces.\n" +
+            "1. Peel and chop the onion, garlic, and potato into small pieces.\n" +
             "2. Heat the oil in a saucepan over medium heat.\n" +
-            "3. Add the onion and carrot and sauté for 5 minutes, stirring.\n" +
-            "4. Add the potato and corn.\n" +
-            "5. Pour in the vegetable broth and bring to a boil.\n" +
-            "6. Reduce the heat and simmer for 15 minutes until the vegetables are tender.\n" +
+            "3. Add the onion, garlic, and carrot and sauté for about 5 minutes, stirring regularly.\n" +
+            "4. Add the potato and corn and stir well.\n" +
+            "5. Pour in the hot vegetable broth and bring to a boil.\n" +
+            "6. Reduce the heat and simmer for 15 to 20 minutes until the vegetables are tender.\n" +
             "7. Blend the soup with a hand blender until smooth and creamy.\n" +
             "8. Add the coconut milk, salt, and pepper.\n" +
-            "9. Stir and heat for another 2 to 3 minutes.\n" +
-            "10. Serve hot."
+            "9. Stir and heat gently for another 2 to 3 minutes.\n" +
+            "10. Adjust seasoning if needed and serve hot."
     },
 
     nl: {
@@ -61732,6 +61781,7 @@ recipesData.entree.soupe_mais_usa = {
             "1 middelgrote pan",
             "1 mes",
             "1 snijplank",
+            "1 dunschiller",
             "1 staafmixer of blender",
             "1 houten lepel",
             "1 soeplepel",
@@ -61743,23 +61793,24 @@ recipesData.entree.soupe_mais_usa = {
             "1 middelgrote ui (100 g), fijngehakt",
             "1 wortel (100 g), in blokjes",
             "1 middelgrote aardappel (150 g), in blokjes",
-            "500 ml groentebouillon",
+            "1 teentje knoflook, fijngehakt",
+            "500 ml warme groentebouillon",
             "200 ml kokosmelk",
             "2 eetlepels plantaardige olie (30 ml)",
             "1/2 theelepel zout (3 g)",
             "1/4 theelepel peper (1 g)"
         ],
         preparation:
-            "1. Schil en snijd de ui en aardappel in kleine stukjes.\n" +
+            "1. Schil en snijd de ui, knoflook en aardappel in kleine stukjes.\n" +
             "2. Verhit de olie in een pan op middelhoog vuur.\n" +
-            "3. Voeg ui en wortel toe en bak 5 minuten terwijl je roert.\n" +
-            "4. Voeg de aardappel en maïs toe.\n" +
-            "5. Giet de groentebouillon erbij en breng aan de kook.\n" +
-            "6. Zet het vuur lager en laat 15 minuten sudderen tot de groenten zacht zijn.\n" +
+            "3. Voeg ui, knoflook en wortel toe en bak 5 minuten terwijl je regelmatig roert.\n" +
+            "4. Voeg de aardappel en maïs toe en meng goed.\n" +
+            "5. Giet de warme groentebouillon erbij en breng aan de kook.\n" +
+            "6. Zet het vuur lager en laat 15 tot 20 minuten sudderen tot de groenten zacht zijn.\n" +
             "7. Pureer de soep met een staafmixer tot een gladde, romige structuur.\n" +
             "8. Voeg kokosmelk, zout en peper toe.\n" +
             "9. Roer goed en verwarm nog 2 tot 3 minuten.\n" +
-            "10. Serveer warm."
+            "10. Breng indien nodig extra op smaak en serveer warm."
     },
 
     ar: {
@@ -61768,6 +61819,7 @@ recipesData.entree.soupe_mais_usa = {
             "قدر متوسط",
             "سكين",
             "لوح تقطيع",
+            "مقشرة خضار",
             "خلاط يدوي أو عادي",
             "ملعقة خشبية",
             "مغرفة",
@@ -61777,37 +61829,81 @@ recipesData.entree.soupe_mais_usa = {
         ingredients: [
             "400 غ حبوب الذرة الحلوة (طازجة أو مجمدة)",
             "بصلة متوسطة (100 غ) مفرومة ناعماً",
-            "جزرة (100 غ) مقطعة مكعبات",
+            "جزرة (100 غ) مقطعة مكعبات صغيرة",
             "حبة بطاطس متوسطة (150 غ) مقطعة مكعبات",
-            "500 مل مرق خضار",
+            "فص ثوم مفروم",
+            "500 مل مرق خضار ساخن",
             "200 مل حليب جوز الهند",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
             "1/2 ملعقة صغيرة ملح (3 غ)",
             "1/4 ملعقة صغيرة فلفل (1 غ)"
         ],
         preparation:
-            "1. قشر البصل والبطاطس وقطعهما إلى قطع صغيرة.\n" +
+            "1. قشر البصل والثوم والبطاطس وقطّعها إلى قطع صغيرة.\n" +
             "2. سخّن الزيت في القدر على نار متوسطة.\n" +
-            "3. أضف البصل والجزر وقلّبهما لمدة 5 دقائق.\n" +
-            "4. أضف البطاطس والذرة.\n" +
-            "5. اسكب مرق الخضار واتركه حتى يغلي.\n" +
-            "6. خفف النار واتركه يطهى لمدة 15 دقيقة حتى تنضج الخضار.\n" +
+            "3. أضف البصل والثوم والجزر وقلّب لمدة 5 دقائق.\n" +
+            "4. أضف البطاطس والذرة وامزج جيداً.\n" +
+            "5. اسكب مرق الخضار الساخن واتركه حتى يغلي.\n" +
+            "6. خفف النار واتركه يطهى من 15 إلى 20 دقيقة حتى تنضج الخضار تماماً.\n" +
             "7. اخلط الشوربة بالخلاط حتى تصبح ناعمة وكريمية.\n" +
             "8. أضف حليب جوز الهند والملح والفلفل.\n" +
             "9. حرّك جيداً واتركها تسخن لمدة 2 إلى 3 دقائق إضافية.\n" +
-            "10. قدّمها ساخنة."
+            "10. عدّل التتبيل حسب الرغبة وقدّمها ساخنة."
     }
 };
 recipesData.entree.salade_avocat_mexique = {
     country: "amerique",
     countryName: "mexique",
-    image: "images/salade_avocat_mexique.jpg",
+    image: "images/salade-avocat-mexique.jpg",
 
     meta: {
         servings: 4,
         prepTime: 15,
         cookTime: 0,
-        difficulty: "easy"
+        difficulty: "easy",
+        seo: {
+            slug: "salade-avocat-mexique",
+            title: "Salade d’avocat (Mexique) – Recette fraîche et facile",
+            description: "Préparez une salade d’avocat mexicaine fraîche et savoureuse, une spécialité du Mexique simple et rapide idéale en entrée légère.",
+            keywords: [
+                "recette salade avocat",
+                "salade avocat mexique",
+                "cuisine mexicaine",
+                "entree facile",
+                "salade traditionnelle mexique",
+                "recette fraiche maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade d’avocat mexicaine (Mexique)",
+            "description": "Une salade d’avocat mexicaine fraîche et parfumée, typique du Mexique, parfaite en entrée légère et rapide.",
+            "recipeCuisine": "Mexique",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT0M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "2 avocats mûrs",
+                "2 tomates moyennes",
+                "1/2 oignon rouge",
+                "1 citron vert",
+                "1 cuillère à soupe de coriandre fraîche",
+                "2 cuillères à soupe d’huile d’olive",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": [
+                "Couper les avocats et les tomates en dés.",
+                "Émincer finement l’oignon rouge.",
+                "Presser le citron vert.",
+                "Mélanger le jus de citron avec l’huile, le sel et le poivre.",
+                "Assembler les ingrédients et mélanger délicatement.",
+                "Servir frais."
+            ]
+        }
     },
 
     fr: {
@@ -61833,15 +61929,15 @@ recipesData.entree.salade_avocat_mexique = {
         ],
         preparation:
             "1. Laver les tomates et la coriandre.\n" +
-            "2. Couper les avocats en deux, retirer le noyau et couper la chair en dés.\n" +
-            "3. Couper les tomates en petits dés.\n" +
+            "2. Couper les avocats en deux, retirer le noyau et couper la chair en dés réguliers.\n" +
+            "3. Couper les tomates en petits dés en retirant l’excès de jus si nécessaire.\n" +
             "4. Éplucher et émincer finement l’oignon rouge.\n" +
             "5. Presser le citron vert à l’aide d’un presse-agrumes.\n" +
             "6. Dans un petit bol, mélanger le jus de citron vert avec l’huile d’olive, le sel et le poivre.\n" +
             "7. Placer les avocats, les tomates, l’oignon et la coriandre dans le saladier.\n" +
             "8. Verser la sauce par-dessus.\n" +
             "9. Mélanger délicatement pour ne pas écraser l’avocat.\n" +
-            "10. Servir immédiatement ou réserver au frais jusqu’au moment de servir."
+            "10. Servir immédiatement bien frais."
     },
 
     en: {
@@ -61867,15 +61963,15 @@ recipesData.entree.salade_avocat_mexique = {
         ],
         preparation:
             "1. Wash the tomatoes and coriander.\n" +
-            "2. Cut the avocados in half, remove the pit, and dice the flesh.\n" +
-            "3. Dice the tomatoes into small pieces.\n" +
+            "2. Cut the avocados in half, remove the pit, and dice the flesh evenly.\n" +
+            "3. Dice the tomatoes and remove excess juice if needed.\n" +
             "4. Peel and finely slice the red onion.\n" +
             "5. Squeeze the lime using a citrus juicer.\n" +
             "6. In a small bowl, mix the lime juice with olive oil, salt, and pepper.\n" +
             "7. Place the avocados, tomatoes, onion, and coriander in the large bowl.\n" +
             "8. Pour the dressing over the salad.\n" +
             "9. Gently toss to avoid mashing the avocado.\n" +
-            "10. Serve immediately or keep chilled until serving."
+            "10. Serve immediately while fresh."
     },
 
     nl: {
@@ -61901,15 +61997,15 @@ recipesData.entree.salade_avocat_mexique = {
         ],
         preparation:
             "1. Was de tomaten en koriander.\n" +
-            "2. Halveer de avocado's, verwijder de pit en snijd het vruchtvlees in blokjes.\n" +
-            "3. Snijd de tomaten in kleine blokjes.\n" +
+            "2. Halveer de avocado's, verwijder de pit en snijd het vruchtvlees in gelijke blokjes.\n" +
+            "3. Snijd de tomaten in kleine blokjes en verwijder overtollig sap indien nodig.\n" +
             "4. Pel en snijd de rode ui fijn.\n" +
             "5. Pers de limoen met een citruspers.\n" +
             "6. Meng in een kleine kom het limoensap met olijfolie, zout en peper.\n" +
             "7. Doe de avocado, tomaten, ui en koriander in de grote kom.\n" +
             "8. Giet de dressing erover.\n" +
             "9. Meng voorzichtig zodat de avocado niet wordt geplet.\n" +
-            "10. Serveer direct of bewaar koel tot het serveren."
+            "10. Serveer direct en koel."
     },
 
     ar: {
@@ -61935,28 +62031,72 @@ recipesData.entree.salade_avocat_mexique = {
         ],
         preparation:
             "1. اغسل الطماطم والكزبرة جيداً.\n" +
-            "2. اقطع الأفوكادو إلى نصفين وأزل النواة ثم قطّع اللب إلى مكعبات.\n" +
-            "3. قطّع الطماطم إلى مكعبات صغيرة.\n" +
+            "2. اقطع الأفوكادو إلى نصفين وأزل النواة ثم قطّع اللب إلى مكعبات متساوية.\n" +
+            "3. قطّع الطماطم إلى مكعبات صغيرة مع إزالة العصير الزائد إذا لزم الأمر.\n" +
             "4. قشّر البصل الأحمر وقطّعه شرائح رفيعة.\n" +
             "5. اعصر الليمون الأخضر باستخدام عصارة.\n" +
             "6. في وعاء صغير اخلط عصير الليمون مع زيت الزيتون والملح والفلفل.\n" +
             "7. ضع الأفوكادو والطماطم والبصل والكزبرة في الوعاء الكبير.\n" +
             "8. اسكب الصلصة فوق المكونات.\n" +
             "9. قلّب برفق حتى لا يتهرس الأفوكادو.\n" +
-            "10. قدّمها فوراً أو احفظها في الثلاجة حتى وقت التقديم."
+            "10. قدّمها فوراً وهي طازجة."
     }
 };
 recipesData.entree.ceviche_bresil = {
     country: "amerique",
     countryName: "bresil",
-    image: "images/ceviche_bresil.jpg",
+    image: "images/ceviche-bresil.jpg",
 
     meta: {
         servings: 4,
         prepTime: 20,
         marinationTime: 10,
         cookTime: 0,
-        difficulty: "easy"
+        difficulty: "easy",
+        seo: {
+            slug: "ceviche-bresil",
+            title: "Ceviche de crevettes (Brésil) – Recette fraîche",
+            description: "Découvrez le ceviche de crevettes du Brésil, une entrée fraîche et légère aux saveurs citronnées, simple et rapide à préparer.",
+            keywords: [
+                "recette ceviche",
+                "ceviche bresil",
+                "ceviche crevettes",
+                "cuisine bresilienne",
+                "entree fraiche",
+                "recette facile fruits de mer"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Ceviche de crevettes brésilien (Brésil)",
+            "description": "Un ceviche de crevettes frais et parfumé inspiré du Brésil, mariné au citron vert avec des légumes croquants.",
+            "recipeCuisine": "Brésil",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT0M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "300 g de crevettes cuites décortiquées",
+                "1 poivron rouge",
+                "1/2 oignon rouge",
+                "1 concombre",
+                "2 citrons verts",
+                "1 cuillère à soupe de coriandre fraîche",
+                "2 cuillères à soupe d’huile d’olive",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": [
+                "Couper les légumes en petits dés.",
+                "Presser les citrons verts.",
+                "Préparer la marinade avec le jus, l’huile et les assaisonnements.",
+                "Mélanger les crevettes et les légumes.",
+                "Verser la marinade et laisser reposer 10 minutes au frais.",
+                "Servir bien frais."
+            ]
+        }
     },
 
     fr: {
@@ -61968,7 +62108,8 @@ recipesData.entree.ceviche_bresil = {
             "1 planche à découper",
             "1 cuillère en bois",
             "1 presse-agrumes",
-            "1 passoire"
+            "1 passoire",
+            "1 film alimentaire"
         ],
         ingredients: [
             "300 g de crevettes cuites décortiquées",
@@ -61986,10 +62127,10 @@ recipesData.entree.ceviche_bresil = {
             "PRÉPARATION DES INGRÉDIENTS\n" +
             "==============================\n\n" +
             "1. Laver le poivron, le concombre et la coriandre.\n" +
-            "2. Couper le poivron en petits dés.\n" +
-            "3. Éplucher le concombre si nécessaire puis le couper en dés.\n" +
+            "2. Couper le poivron en petits dés réguliers.\n" +
+            "3. Éplucher le concombre si nécessaire puis le couper en petits dés.\n" +
             "4. Éplucher et émincer finement l’oignon rouge.\n" +
-            "5. Égoutter les crevettes à l’aide d’une passoire.\n\n" +
+            "5. Égoutter soigneusement les crevettes à l’aide d’une passoire.\n\n" +
             "==============================\n" +
             "PRÉPARATION DE LA MARINADE ET ASSEMBLAGE\n" +
             "==============================\n\n" +
@@ -61998,8 +62139,8 @@ recipesData.entree.ceviche_bresil = {
             "8. Placer les crevettes, le poivron, le concombre et l’oignon dans le saladier.\n" +
             "9. Ajouter la coriandre hachée.\n" +
             "10. Verser la marinade sur le mélange.\n" +
-            "11. Mélanger délicatement.\n" +
-            "12. Couvrir et laisser mariner 10 minutes au réfrigérateur.\n" +
+            "11. Mélanger délicatement pour bien enrober les ingrédients.\n" +
+            "12. Couvrir avec un film alimentaire et laisser mariner 10 minutes au réfrigérateur.\n" +
             "13. Servir bien frais."
     },
 
@@ -62012,7 +62153,8 @@ recipesData.entree.ceviche_bresil = {
             "1 cutting board",
             "1 wooden spoon",
             "1 citrus juicer",
-            "1 strainer"
+            "1 strainer",
+            "plastic wrap"
         ],
         ingredients: [
             "300 g cooked peeled shrimp",
@@ -62030,10 +62172,10 @@ recipesData.entree.ceviche_bresil = {
             "INGREDIENT PREPARATION\n" +
             "==============================\n\n" +
             "1. Wash the bell pepper, cucumber, and coriander.\n" +
-            "2. Dice the bell pepper into small cubes.\n" +
+            "2. Dice the bell pepper into small even cubes.\n" +
             "3. Peel the cucumber if needed and dice it.\n" +
             "4. Peel and finely slice the red onion.\n" +
-            "5. Drain the shrimp using a strainer.\n\n" +
+            "5. Drain the shrimp thoroughly using a strainer.\n\n" +
             "==============================\n" +
             "MARINADE AND ASSEMBLY\n" +
             "==============================\n\n" +
@@ -62042,8 +62184,8 @@ recipesData.entree.ceviche_bresil = {
             "8. Place the shrimp, bell pepper, cucumber, and onion in the large bowl.\n" +
             "9. Add the chopped coriander.\n" +
             "10. Pour the marinade over the mixture.\n" +
-            "11. Gently mix.\n" +
-            "12. Cover and refrigerate for 10 minutes to marinate.\n" +
+            "11. Gently mix to coat evenly.\n" +
+            "12. Cover with plastic wrap and refrigerate for 10 minutes to marinate.\n" +
             "13. Serve well chilled."
     },
 
@@ -62056,7 +62198,8 @@ recipesData.entree.ceviche_bresil = {
             "1 snijplank",
             "1 houten lepel",
             "1 citruspers",
-            "1 vergiet"
+            "1 vergiet",
+            "vershoudfolie"
         ],
         ingredients: [
             "300 g gekookte gepelde garnalen",
@@ -62074,10 +62217,10 @@ recipesData.entree.ceviche_bresil = {
             "VOORBEREIDING VAN DE INGREDIËNTEN\n" +
             "==============================\n\n" +
             "1. Was de paprika, komkommer en koriander.\n" +
-            "2. Snijd de paprika in kleine blokjes.\n" +
+            "2. Snijd de paprika in kleine gelijke blokjes.\n" +
             "3. Schil indien nodig de komkommer en snijd in blokjes.\n" +
             "4. Pel en snijd de rode ui fijn.\n" +
-            "5. Laat de garnalen uitlekken in een vergiet.\n\n" +
+            "5. Laat de garnalen goed uitlekken in een vergiet.\n\n" +
             "==============================\n" +
             "MARINADE EN SAMENSTELLING\n" +
             "==============================\n\n" +
@@ -62086,8 +62229,8 @@ recipesData.entree.ceviche_bresil = {
             "8. Doe de garnalen, paprika, komkommer en ui in de grote kom.\n" +
             "9. Voeg de gehakte koriander toe.\n" +
             "10. Giet de marinade erover.\n" +
-            "11. Meng voorzichtig.\n" +
-            "12. Dek af en laat 10 minuten marineren in de koelkast.\n" +
+            "11. Meng voorzichtig zodat alles gelijkmatig bedekt is.\n" +
+            "12. Dek af met vershoudfolie en laat 10 minuten marineren in de koelkast.\n" +
             "13. Serveer goed gekoeld."
     },
 
@@ -62100,7 +62243,8 @@ recipesData.entree.ceviche_bresil = {
             "لوح تقطيع",
             "ملعقة خشبية",
             "عصارة حمضيات",
-            "مصفاة"
+            "مصفاة",
+            "غطاء بلاستيكي غذائي"
         ],
         ingredients: [
             "300 غ جمبري مطبوخ ومقشر",
@@ -62117,11 +62261,11 @@ recipesData.entree.ceviche_bresil = {
             "==============================\n" +
             "تحضير المكونات\n" +
             "==============================\n\n" +
-            "1. اغسل الفلفل والخيار والكزبرة.\n" +
-            "2. قطّع الفلفل إلى مكعبات صغيرة.\n" +
-            "3. قشّر الخيار إذا لزم الأمر وقطّعه مكعبات.\n" +
+            "1. اغسل الفلفل والخيار والكزبرة جيداً.\n" +
+            "2. قطّع الفلفل إلى مكعبات صغيرة متساوية.\n" +
+            "3. قشّر الخيار إذا لزم الأمر وقطّعه إلى مكعبات.\n" +
             "4. قشّر البصل الأحمر وقطّعه شرائح رفيعة.\n" +
-            "5. صفِّ الجمبري باستخدام المصفاة.\n\n" +
+            "5. صفِّ الجمبري جيداً باستخدام المصفاة.\n\n" +
             "==============================\n" +
             "تحضير التتبيلة والتجميع\n" +
             "==============================\n\n" +
@@ -62130,21 +62274,58 @@ recipesData.entree.ceviche_bresil = {
             "8. ضع الجمبري والفلفل والخيار والبصل في الوعاء الكبير.\n" +
             "9. أضف الكزبرة المفرومة.\n" +
             "10. اسكب التتبيلة فوق المكونات.\n" +
-            "11. قلّب برفق.\n" +
+            "11. قلّب برفق حتى تتوزع النكهات.\n" +
             "12. غطِّ الوعاء واتركه في الثلاجة لمدة 10 دقائق ليتشرب النكهات.\n" +
-            "13. قدّمها باردة."
+            "13. قدّمها باردة ومنعشة."
     }
 };
 recipesData.entree.tostones_cuba = {
     country: "amerique",
     countryName: "cuba",
-    image: "images/tostones_cuba.jpg",
+    image: "images/tostones-cuba.jpg",
 
     meta: {
         servings: 4,
         prepTime: 10,
-        cookTime: 10,
-        difficulty: "easy"
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "tostones-cuba",
+            title: "Tostones (Cuba) – Recette croustillante facile",
+            description: "Découvrez les tostones de Cuba, des rondelles de banane plantain frites deux fois pour un résultat doré et croustillant, parfait en entrée.",
+            keywords: [
+                "recette tostones",
+                "tostones cuba",
+                "banane plantain frite",
+                "cuisine cubaine",
+                "entree croustillante",
+                "recette facile cuba"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Tostones croustillants cubains (Cuba)",
+            "description": "Des tostones cubains croustillants préparés avec de la banane plantain verte, frits deux fois pour une texture dorée et savoureuse.",
+            "recipeCuisine": "Cuba",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT15M",
+            "totalTime": "PT25M",
+            "recipeIngredient": [
+                "2 bananes plantain vertes",
+                "Huile végétale pour friture",
+                "Sel"
+            ],
+            "recipeInstructions": [
+                "Éplucher et couper les plantains en rondelles épaisses.",
+                "Faire frire une première fois jusqu’à légère coloration.",
+                "Égoutter puis aplatir les rondelles.",
+                "Frire une seconde fois jusqu’à texture croustillante.",
+                "Égoutter, saler et servir chaud."
+            ]
+        }
     },
 
     fr: {
@@ -62157,24 +62338,25 @@ recipesData.entree.tostones_cuba = {
             "1 assiette",
             "papier absorbant",
             "1 bol",
-            "1 verre ou presse-purée pour écraser"
+            "1 verre ou presse-purée pour écraser",
+            "1 pince de cuisine"
         ],
         ingredients: [
             "2 bananes plantain vertes",
-            "huile végétale pour friture (environ 200 ml)",
+            "huile végétale pour friture (environ 200 à 300 ml)",
             "1/2 cuillère à café de sel (3 g)"
         ],
         preparation:
-            "1. Éplucher les bananes plantain et les couper en rondelles épaisses d’environ 2 cm.\n" +
-            "2. Chauffer l’huile dans une poêle profonde à feu moyen.\n" +
-            "3. Faire frire les rondelles pendant 3 à 4 minutes jusqu’à ce qu’elles soient légèrement dorées.\n" +
-            "4. Retirer les rondelles à l’aide d’une écumoire et les déposer sur une assiette recouverte de papier absorbant.\n" +
-            "5. Aplatir chaque rondelle à l’aide du fond d’un verre ou d’un presse-purée.\n" +
-            "6. Remettre les rondelles aplaties dans l’huile chaude.\n" +
-            "7. Faire frire à nouveau 2 à 3 minutes jusqu’à ce qu’elles soient bien dorées et croustillantes.\n" +
-            "8. Égoutter sur du papier absorbant.\n" +
-            "9. Saler immédiatement.\n" +
-            "10. Servir chaud."
+            "1. Éplucher les bananes plantain en retirant la peau épaisse à l’aide d’un couteau.\n" +
+            "2. Les couper en rondelles épaisses d’environ 2 cm.\n" +
+            "3. Chauffer l’huile dans une poêle profonde à feu moyen.\n" +
+            "4. Plonger les rondelles dans l’huile chaude et faire frire 3 à 4 minutes jusqu’à légère coloration.\n" +
+            "5. Retirer à l’aide d’une écumoire et déposer sur une assiette recouverte de papier absorbant.\n" +
+            "6. Aplatir chaque rondelle encore chaude avec le fond d’un verre ou un presse-purée.\n" +
+            "7. Remettre délicatement les rondelles aplaties dans l’huile chaude.\n" +
+            "8. Faire frire à nouveau 2 à 3 minutes jusqu’à ce qu’elles soient bien dorées et croustillantes.\n" +
+            "9. Égoutter sur du papier absorbant.\n" +
+            "10. Saler immédiatement et servir chaud."
     },
 
     en: {
@@ -62187,24 +62369,25 @@ recipesData.entree.tostones_cuba = {
             "1 plate",
             "paper towels",
             "1 bowl",
-            "1 glass or potato masher for pressing"
+            "1 glass or potato masher for pressing",
+            "1 kitchen tongs"
         ],
         ingredients: [
             "2 green plantains",
-            "vegetable oil for frying (about 200 ml)",
+            "vegetable oil for frying (about 200 to 300 ml)",
             "1/2 teaspoon salt (3 g)"
         ],
         preparation:
-            "1. Peel the plantains and cut them into thick slices about 2 cm.\n" +
-            "2. Heat the oil in a deep pan over medium heat.\n" +
-            "3. Fry the slices for 3 to 4 minutes until lightly golden.\n" +
-            "4. Remove them with a slotted spoon and place on a plate lined with paper towels.\n" +
-            "5. Flatten each slice using the bottom of a glass or a potato masher.\n" +
-            "6. Return the flattened slices to the hot oil.\n" +
-            "7. Fry again for 2 to 3 minutes until golden and crispy.\n" +
-            "8. Drain on paper towels.\n" +
-            "9. Sprinkle with salt immediately.\n" +
-            "10. Serve hot."
+            "1. Peel the plantains by cutting through the thick skin with a knife.\n" +
+            "2. Cut them into thick slices about 2 cm.\n" +
+            "3. Heat the oil in a deep pan over medium heat.\n" +
+            "4. Fry the slices for 3 to 4 minutes until lightly golden.\n" +
+            "5. Remove them with a slotted spoon and place on a plate lined with paper towels.\n" +
+            "6. Flatten each warm slice using the bottom of a glass or a potato masher.\n" +
+            "7. Carefully return the flattened slices to the hot oil.\n" +
+            "8. Fry again for 2 to 3 minutes until golden and crispy.\n" +
+            "9. Drain on paper towels.\n" +
+            "10. Sprinkle with salt immediately and serve hot."
     },
 
     nl: {
@@ -62217,24 +62400,25 @@ recipesData.entree.tostones_cuba = {
             "1 bord",
             "keukenpapier",
             "1 kom",
-            "1 glas of pureestamper om te pletten"
+            "1 glas of pureestamper om te pletten",
+            "1 keukentang"
         ],
         ingredients: [
             "2 groene bakbananen",
-            "plantaardige olie om te frituren (ongeveer 200 ml)",
+            "plantaardige olie om te frituren (ongeveer 200 tot 300 ml)",
             "1/2 theelepel zout (3 g)"
         ],
         preparation:
-            "1. Schil de bakbananen en snijd ze in dikke plakjes van ongeveer 2 cm.\n" +
-            "2. Verhit de olie in een diepe pan op middelhoog vuur.\n" +
-            "3. Bak de plakjes 3 tot 4 minuten tot ze licht goudbruin zijn.\n" +
-            "4. Haal ze uit de pan met een schuimspaan en leg ze op een bord met keukenpapier.\n" +
-            "5. Druk elk plakje plat met de onderkant van een glas of een pureestamper.\n" +
-            "6. Leg de platgedrukte plakjes terug in de hete olie.\n" +
-            "7. Bak opnieuw 2 tot 3 minuten tot ze goudbruin en knapperig zijn.\n" +
-            "8. Laat uitlekken op keukenpapier.\n" +
-            "9. Bestrooi direct met zout.\n" +
-            "10. Serveer warm."
+            "1. Schil de bakbananen door de dikke schil met een mes in te snijden.\n" +
+            "2. Snijd ze in dikke plakjes van ongeveer 2 cm.\n" +
+            "3. Verhit de olie in een diepe pan op middelhoog vuur.\n" +
+            "4. Bak de plakjes 3 tot 4 minuten tot ze licht goudbruin zijn.\n" +
+            "5. Haal ze uit de pan met een schuimspaan en leg ze op keukenpapier.\n" +
+            "6. Druk elk warm plakje plat met de onderkant van een glas of een pureestamper.\n" +
+            "7. Leg de platgedrukte plakjes voorzichtig terug in de hete olie.\n" +
+            "8. Bak opnieuw 2 tot 3 minuten tot ze goudbruin en knapperig zijn.\n" +
+            "9. Laat uitlekken op keukenpapier.\n" +
+            "10. Bestrooi direct met zout en serveer warm."
     },
 
     ar: {
@@ -62247,24 +62431,25 @@ recipesData.entree.tostones_cuba = {
             "طبق",
             "ورق مطبخ",
             "وعاء",
-            "كوب أو أداة هرس للضغط"
+            "كوب أو أداة هرس للضغط",
+            "ملقط مطبخ"
         ],
         ingredients: [
             "2 موز بلانتين أخضر",
-            "زيت نباتي للقلي (حوالي 200 مل)",
+            "زيت نباتي للقلي (حوالي 200 إلى 300 مل)",
             "1/2 ملعقة صغيرة ملح (3 غ)"
         ],
         preparation:
-            "1. قشر الموز وقطّعه إلى شرائح سميكة حوالي 2 سم.\n" +
-            "2. سخّن الزيت في مقلاة عميقة على نار متوسطة.\n" +
-            "3. اقْلِ الشرائح لمدة 3 إلى 4 دقائق حتى تصبح ذهبية فاتحة.\n" +
-            "4. أخرجها باستخدام ملعقة مثقبة وضعها على طبق مبطن بورق المطبخ.\n" +
-            "5. اضغط كل شريحة برفق باستخدام قاع كوب أو أداة هرس.\n" +
-            "6. أعد الشرائح المفلطحة إلى الزيت الساخن.\n" +
-            "7. اقْلِ مرة أخرى لمدة 2 إلى 3 دقائق حتى تصبح ذهبية ومقرمشة.\n" +
-            "8. ارفعها واتركها لتتصفى على ورق المطبخ.\n" +
-            "9. رشّ الملح فوراً.\n" +
-            "10. قدّمها ساخنة."
+            "1. قشّر الموز بشق القشرة السميكة باستخدام السكين.\n" +
+            "2. قطّعه إلى شرائح سميكة حوالي 2 سم.\n" +
+            "3. سخّن الزيت في مقلاة عميقة على نار متوسطة.\n" +
+            "4. اقْلِ الشرائح لمدة 3 إلى 4 دقائق حتى تصبح ذهبية فاتحة.\n" +
+            "5. أخرجها بملعقة مثقبة وضعها على طبق مبطن بورق المطبخ.\n" +
+            "6. اضغط كل شريحة وهي دافئة باستخدام قاع كوب أو أداة هرس.\n" +
+            "7. أعد الشرائح المفلطحة بحذر إلى الزيت الساخن.\n" +
+            "8. اقْلِ مرة أخرى لمدة 2 إلى 3 دقائق حتى تصبح ذهبية ومقرمشة.\n" +
+            "9. ارفعها واتركها لتتصفى على ورق المطبخ.\n" +
+            "10. رشّ الملح فوراً وقدّمها ساخنة."
     }
 };
 recipesData.entree.guacamole_usa = {
@@ -62276,11 +62461,55 @@ recipesData.entree.guacamole_usa = {
         servings: 4,
         prepTime: 15,
         cookTime: 0,
-        difficulty: "easy"
+        difficulty: "easy",
+        seo: {
+            slug: "guacamole-etats-unis",
+            title: "Guacamole (États-Unis) – Recette facile et authentique",
+            description: "Découvrez comment préparer le guacamole, une spécialité populaire des États-Unis, avec des avocats frais et une préparation simple et rapide.",
+            keywords: [
+                "recette guacamole",
+                "guacamole etats unis",
+                "cuisine americaine",
+                "recette facile",
+                "entree fraiche",
+                "dip maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Guacamole (États-Unis)",
+            "description": "Guacamole frais et onctueux préparé avec des avocats mûrs, des tomates et du citron vert.",
+            "recipeCuisine": "États-Unis",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT0M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "2 avocats mûrs",
+                "2 tomates moyennes",
+                "1/2 oignon rouge",
+                "1 citron vert",
+                "1 cuillère à soupe de coriandre fraîche hachée",
+                "1 cuillère à soupe d’huile d’olive",
+                "1/2 cuillère à café de sel",
+                "1/4 cuillère à café de poivre"
+            ],
+            "recipeInstructions": [
+                "Couper les avocats et récupérer la chair.",
+                "Écraser grossièrement à la fourchette.",
+                "Couper les tomates en petits dés.",
+                "Hacher finement l’oignon rouge.",
+                "Presser le citron vert.",
+                "Mélanger tous les ingrédients dans un bol.",
+                "Assaisonner et servir immédiatement."
+            ]
+        }
     },
 
     fr: {
-        title: "Guacamole classique américain (États-Unis)",
+        title: "Guacamole (États-Unis)",
         equipment: [
             "1 bol",
             "1 couteau",
@@ -62310,11 +62539,12 @@ recipesData.entree.guacamole_usa = {
             "8. Verser le jus de citron vert et l’huile d’olive.\n" +
             "9. Ajouter le sel et le poivre.\n" +
             "10. Mélanger délicatement jusqu’à obtention d’une texture homogène.\n" +
-            "11. Servir immédiatement."
+            "11. Goûter et ajuster l’assaisonnement si nécessaire.\n" +
+            "12. Servir immédiatement avec du pain ou des légumes croquants."
     },
 
     en: {
-        title: "Classic American Guacamole (United States)",
+        title: "Guacamole (United States)",
         equipment: [
             "1 bowl",
             "1 knife",
@@ -62344,11 +62574,12 @@ recipesData.entree.guacamole_usa = {
             "8. Pour in the lime juice and olive oil.\n" +
             "9. Add salt and pepper.\n" +
             "10. Gently mix until evenly combined.\n" +
-            "11. Serve immediately."
+            "11. Taste and adjust seasoning if needed.\n" +
+            "12. Serve immediately with bread or fresh vegetables."
     },
 
     nl: {
-        title: "Klassieke Amerikaanse Guacamole (Verenigde Staten)",
+        title: "Guacamole (Verenigde Staten)",
         equipment: [
             "1 kom",
             "1 mes",
@@ -62378,11 +62609,12 @@ recipesData.entree.guacamole_usa = {
             "8. Giet het limoensap en de olijfolie erbij.\n" +
             "9. Voeg zout en peper toe.\n" +
             "10. Meng voorzichtig tot alles goed verdeeld is.\n" +
-            "11. Serveer direct."
+            "11. Proef en pas de kruiden aan indien nodig.\n" +
+            "12. Serveer direct met brood of rauwe groenten."
     },
 
     ar: {
-        title: "جواكامولي أمريكي كلاسيكي (الولايات المتحدة)",
+        title: "جواكامولي (الولايات المتحدة)",
         equipment: [
             "وعاء",
             "سكين",
@@ -62402,9 +62634,9 @@ recipesData.entree.guacamole_usa = {
             "1/4 ملعقة صغيرة فلفل (1 غ)"
         ],
         preparation:
-            "1. اغسل الطماطم والكزبرة.\n" +
+            "1. اغسل الطماطم والكزبرة جيداً.\n" +
             "2. اقطع الأفوكادو إلى نصفين وأزل النواة ثم استخرج اللب وضعه في وعاء.\n" +
-            "3. اهرس الأفوكادو بالشوكة بشكل خشن.\n" +
+            "3. اهرس الأفوكادو بالشوكة حتى يصبح القوام خشناً قليلاً.\n" +
             "4. قطّع الطماطم إلى مكعبات صغيرة.\n" +
             "5. قشّر البصل الأحمر وافرمه ناعماً.\n" +
             "6. اعصر الليمون الأخضر باستخدام العصارة.\n" +
@@ -62412,7 +62644,8 @@ recipesData.entree.guacamole_usa = {
             "8. اسكب عصير الليمون وزيت الزيتون.\n" +
             "9. أضف الملح والفلفل.\n" +
             "10. اخلط برفق حتى تتجانس المكونات.\n" +
-            "11. قدّمها فوراً."
+            "11. تذوق وعدّل التتبيل حسب الرغبة.\n" +
+            "12. قدّمها فوراً مع الخبز أو الخضار الطازجة."
     }
 };
 recipesData.entree.papaya_salad_bresil = {
@@ -62424,11 +62657,52 @@ recipesData.entree.papaya_salad_bresil = {
         servings: 4,
         prepTime: 15,
         cookTime: 0,
-        difficulty: "easy"
+        difficulty: "easy",
+        seo: {
+            slug: "salade-papaye-bresil",
+            title: "Salade de papaye (Brésil) – Recette fraîche et facile",
+            description: "Découvrez comment préparer la salade de papaye du Brésil, une entrée fraîche et légère aux saveurs exotiques, simple et rapide à réaliser.",
+            keywords: [
+                "recette salade papaye",
+                "papaye bresil",
+                "cuisine bresilienne",
+                "entree exotique",
+                "recette facile",
+                "salade fraiche"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade de papaye (Brésil)",
+            "description": "Salade de papaye fraîche et parfumée inspirée de la cuisine du Brésil, idéale en entrée légère.",
+            "recipeCuisine": "Brésil",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT0M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "1 grande papaye mûre",
+                "1 citron vert",
+                "1 cuillère à soupe de miel",
+                "1 cuillère à soupe de coriandre fraîche hachée",
+                "2 cuillères à soupe d’huile d’olive",
+                "1 pincée de sel"
+            ],
+            "recipeInstructions": [
+                "Éplucher et couper la papaye en dés.",
+                "Presser le citron vert.",
+                "Mélanger le jus avec le miel, l’huile et le sel.",
+                "Ajouter la coriandre à la papaye.",
+                "Verser la sauce et mélanger délicatement.",
+                "Réfrigérer 10 minutes avant de servir."
+            ]
+        }
     },
 
     fr: {
-        title: "Salade de papaye brésilienne (Brésil)",
+        title: "Salade de papaye (Brésil)",
         equipment: [
             "1 saladier",
             "1 petit bol",
@@ -62446,19 +62720,26 @@ recipesData.entree.papaya_salad_bresil = {
             "1 pincée de sel (2 g)"
         ],
         preparation:
-            "1. Éplucher la papaye, retirer les graines et couper la chair en petits dés.\n" +
-            "2. Presser le citron vert à l’aide d’un presse-agrumes.\n" +
-            "3. Dans un petit bol, mélanger le jus de citron vert, le miel, l’huile d’olive et le sel.\n" +
-            "4. Placer les dés de papaye dans le saladier.\n" +
-            "5. Ajouter la coriandre fraîche hachée.\n" +
-            "6. Verser la sauce sur la papaye.\n" +
-            "7. Mélanger délicatement.\n" +
-            "8. Réserver au frais 10 minutes avant de servir.\n" +
-            "9. Servir bien frais."
+            "==============================\n" +
+            "PRÉPARATION DE LA SAUCE\n" +
+            "==============================\n\n" +
+            "1. Presser le citron vert à l’aide d’un presse-agrumes.\n" +
+            "2. Dans un petit bol, mélanger le jus de citron vert, le miel, l’huile d’olive et le sel.\n" +
+            "3. Mélanger jusqu’à obtention d’une sauce homogène.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DE LA SALADE\n" +
+            "==============================\n\n" +
+            "4. Éplucher la papaye, retirer les graines et couper la chair en petits dés.\n" +
+            "5. Placer les dés de papaye dans le saladier.\n" +
+            "6. Ajouter la coriandre fraîche hachée.\n" +
+            "7. Verser la sauce sur la papaye.\n" +
+            "8. Mélanger délicatement pour ne pas écraser les morceaux.\n" +
+            "9. Réserver au frais 10 minutes avant de servir.\n" +
+            "10. Servir bien frais."
     },
 
     en: {
-        title: "Brazilian Papaya Salad (Brazil)",
+        title: "Papaya Salad (Brazil)",
         equipment: [
             "1 large bowl",
             "1 small bowl",
@@ -62476,19 +62757,26 @@ recipesData.entree.papaya_salad_bresil = {
             "1 pinch of salt (2 g)"
         ],
         preparation:
-            "1. Peel the papaya, remove the seeds, and dice the flesh into small cubes.\n" +
-            "2. Squeeze the lime using a citrus juicer.\n" +
-            "3. In a small bowl, mix the lime juice, honey, olive oil, and salt.\n" +
-            "4. Place the papaya cubes in the large bowl.\n" +
-            "5. Add the chopped fresh coriander.\n" +
-            "6. Pour the dressing over the papaya.\n" +
-            "7. Gently toss to combine.\n" +
-            "8. Chill for 10 minutes before serving.\n" +
-            "9. Serve well chilled."
+            "==============================\n" +
+            "DRESSING PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Squeeze the lime using a citrus juicer.\n" +
+            "2. In a small bowl, mix the lime juice, honey, olive oil, and salt.\n" +
+            "3. Stir until well combined.\n\n" +
+            "==============================\n" +
+            "SALAD PREPARATION\n" +
+            "==============================\n\n" +
+            "4. Peel the papaya, remove the seeds, and cut the flesh into small cubes.\n" +
+            "5. Place the papaya cubes in the large bowl.\n" +
+            "6. Add the chopped fresh coriander.\n" +
+            "7. Pour the dressing over the papaya.\n" +
+            "8. Gently toss to combine without crushing the fruit.\n" +
+            "9. Chill for 10 minutes before serving.\n" +
+            "10. Serve well chilled."
     },
 
     nl: {
-        title: "Braziliaanse Papajasalade (Brazilië)",
+        title: "Papajasalade (Brazilië)",
         equipment: [
             "1 grote kom",
             "1 kleine kom",
@@ -62506,19 +62794,26 @@ recipesData.entree.papaya_salad_bresil = {
             "1 snufje zout (2 g)"
         ],
         preparation:
-            "1. Schil de papaja, verwijder de zaden en snijd het vruchtvlees in kleine blokjes.\n" +
-            "2. Pers de limoen met een citruspers.\n" +
-            "3. Meng in een kleine kom het limoensap met honing, olijfolie en zout.\n" +
-            "4. Doe de papajablokjes in de grote kom.\n" +
-            "5. Voeg de gehakte koriander toe.\n" +
-            "6. Giet de dressing over de papaja.\n" +
-            "7. Meng voorzichtig.\n" +
-            "8. Zet 10 minuten in de koelkast voor het serveren.\n" +
-            "9. Serveer goed gekoeld."
+            "==============================\n" +
+            "BEREIDING VAN DE DRESSING\n" +
+            "==============================\n\n" +
+            "1. Pers de limoen met een citruspers.\n" +
+            "2. Meng in een kleine kom het limoensap met honing, olijfolie en zout.\n" +
+            "3. Roer goed door.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE SALADE\n" +
+            "==============================\n\n" +
+            "4. Schil de papaja, verwijder de zaden en snijd het vruchtvlees in kleine blokjes.\n" +
+            "5. Doe de papajablokjes in de grote kom.\n" +
+            "6. Voeg de gehakte koriander toe.\n" +
+            "7. Giet de dressing over de papaja.\n" +
+            "8. Meng voorzichtig zodat de stukjes heel blijven.\n" +
+            "9. Zet 10 minuten in de koelkast voor het serveren.\n" +
+            "10. Serveer goed gekoeld."
     },
 
     ar: {
-        title: "سلطة البابايا البرازيلية (البرازيل)",
+        title: "سلطة البابايا (البرازيل)",
         equipment: [
             "وعاء كبير",
             "وعاء صغير",
@@ -62536,107 +62831,210 @@ recipesData.entree.papaya_salad_bresil = {
             "رشة ملح (2 غ)"
         ],
         preparation:
-            "1. قشر البابايا وأزل البذور ثم قطّع اللب إلى مكعبات صغيرة.\n" +
-            "2. اعصر الليمون الأخضر باستخدام العصارة.\n" +
-            "3. في وعاء صغير اخلط عصير الليمون مع العسل وزيت الزيتون والملح.\n" +
-            "4. ضع مكعبات البابايا في الوعاء الكبير.\n" +
-            "5. أضف الكزبرة المفرومة.\n" +
-            "6. اسكب الصلصة فوق البابايا.\n" +
-            "7. قلّب برفق حتى تتجانس المكونات.\n" +
-            "8. ضعها في الثلاجة لمدة 10 دقائق قبل التقديم.\n" +
-            "9. قدّمها باردة."
+            "==============================\n" +
+            "تحضير الصلصة\n" +
+            "==============================\n\n" +
+            "1. اعصر الليمون الأخضر باستخدام العصارة.\n" +
+            "2. في وعاء صغير اخلط عصير الليمون مع العسل وزيت الزيتون والملح.\n" +
+            "3. امزج جيداً حتى تتجانس المكونات.\n\n" +
+            "==============================\n" +
+            "تحضير السلطة\n" +
+            "==============================\n\n" +
+            "4. قشر البابايا وأزل البذور ثم قطّع اللب إلى مكعبات صغيرة.\n" +
+            "5. ضع مكعبات البابايا في الوعاء الكبير.\n" +
+            "6. أضف الكزبرة المفرومة.\n" +
+            "7. اسكب الصلصة فوق البابايا.\n" +
+            "8. قلّب برفق حتى تتجانس دون هرس القطع.\n" +
+            "9. ضعها في الثلاجة لمدة 10 دقائق قبل التقديم.\n" +
+            "10. قدّمها باردة ومنعشة."
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 recipesData.entree.corn_salad_mexique = {
     country: "amerique",
     countryName: "mexique",
     image: "images/corn_salad_mexique.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-mais-mexique",
+            title: "Salade de maïs (Mexique) – Recette facile et fraîche",
+            description: "Découvrez la salade de maïs du Mexique, une entrée fraîche, colorée et facile à préparer avec des ingrédients simples et savoureux.",
+            keywords: [
+                "recette salade mais",
+                "salade mais mexique",
+                "cuisine mexicaine",
+                "entree facile",
+                "salade fraiche maison",
+                "plat traditionnel mexique"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade de maïs (Mexique)",
+            "description": "Salade de maïs mexicaine fraîche et colorée, idéale en entrée légère.",
+            "recipeCuisine": "Mexique",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT0M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "300 g de maïs doux",
+                "1 poivron rouge",
+                "1 petit oignon rouge",
+                "1 tomate",
+                "1 citron vert",
+                "2 cuillères à soupe d’huile d’olive",
+                "1/2 cuillère à café de sel",
+                "1/4 cuillère à café de poivre",
+                "1 cuillère à soupe de coriandre fraîche hachée"
+            ],
+            "recipeInstructions": [
+                "Couper le poivron, la tomate et l’oignon en petits dés.",
+                "Égoutter le maïs.",
+                "Mélanger tous les légumes dans un saladier.",
+                "Ajouter le jus de citron vert et l’huile d’olive.",
+                "Assaisonner avec le sel et le poivre.",
+                "Parsemer de coriandre et servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade de maïs mexicaine (Mexique, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
+        title: "Salade de maïs (Mexique)",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 presse-agrumes",
+            "1 passoire"
+        ],
         ingredients: [
-            "300 g maïs doux",
+            "300 g de maïs doux",
             "1 poivron rouge",
-            "1/2 oignon",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)"
+            "1 petit oignon rouge",
+            "1 tomate",
+            "1 citron vert",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre (1 g)",
+            "1 cuillère à soupe de coriandre fraîche hachée"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper le poivron et l’oignon en dés.\n" +
-            "2. Mélanger avec le maïs.\n" +
-            "3. Ajouter huile, sel et poivre.\n" +
-            "4. Servir frais."
+            "1. Égoutter soigneusement le maïs dans une passoire.\n" +
+            "2. Laver le poivron et la tomate.\n" +
+            "3. Couper le poivron, la tomate et l’oignon en petits dés réguliers.\n" +
+            "4. Mettre tous les légumes dans un grand saladier.\n" +
+            "5. Presser le citron vert à l’aide d’un presse-agrumes.\n" +
+            "6. Verser le jus de citron et l’huile d’olive sur la préparation.\n" +
+            "7. Ajouter le sel, le poivre et la coriandre hachée.\n" +
+            "8. Mélanger délicatement.\n" +
+            "9. Placer au frais 10 minutes avant de servir."
     },
+
     en: {
-        title: "Mexican Corn Salad (Mexico, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Corn Salad (Mexico)",
+        equipment: [
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 citrus juicer",
+            "1 strainer"
+        ],
         ingredients: [
             "300 g sweet corn",
             "1 red bell pepper",
-            "1/2 onion",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)"
+            "1 small red onion",
+            "1 tomato",
+            "1 lime",
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon pepper (1 g)",
+            "1 tablespoon fresh chopped coriander"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Dice bell pepper and onion.\n" +
-            "2. Mix with corn.\n" +
-            "3. Add oil, salt, and pepper.\n" +
-            "4. Serve chilled."
+            "1. Drain the corn thoroughly using a strainer.\n" +
+            "2. Wash the bell pepper and tomato.\n" +
+            "3. Dice the bell pepper, tomato, and onion into small cubes.\n" +
+            "4. Place all vegetables in a large bowl.\n" +
+            "5. Squeeze the lime using a citrus juicer.\n" +
+            "6. Pour the lime juice and olive oil over the salad.\n" +
+            "7. Add salt, pepper, and chopped coriander.\n" +
+            "8. Mix gently until well combined.\n" +
+            "9. Chill for 10 minutes before serving."
     },
+
     nl: {
-        title: "Mexicaanse Maïssalade (Mexico, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Maïssalade (Mexico)",
+        equipment: [
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 citruspers",
+            "1 vergiet"
+        ],
         ingredients: [
             "300 g zoete maïs",
             "1 rode paprika",
-            "1/2 ui",
+            "1 kleine rode ui",
+            "1 tomaat",
+            "1 limoen",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)"
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel peper (1 g)",
+            "1 eetlepel fijngehakte verse koriander"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd paprika en ui in blokjes.\n" +
-            "2. Meng met maïs.\n" +
-            "3. Voeg olie, zout en peper toe.\n" +
-            "4. Serveer koud."
+            "1. Laat de maïs goed uitlekken in een vergiet.\n" +
+            "2. Was de paprika en de tomaat.\n" +
+            "3. Snijd paprika, tomaat en ui in kleine blokjes.\n" +
+            "4. Doe alle groenten in een grote kom.\n" +
+            "5. Pers de limoen met een citruspers.\n" +
+            "6. Voeg het limoensap en de olijfolie toe.\n" +
+            "7. Breng op smaak met zout, peper en koriander.\n" +
+            "8. Meng voorzichtig.\n" +
+            "9. Zet 10 minuten in de koelkast voor het serveren."
     },
+
     ar: {
-        title: "سلطة الذرة المكسيكية (المكسيك، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع", "ملعقة خشبية"],
+        title: "سلطة الذرة (المكسيك)",
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "عصارة حمضيات",
+            "مصفاة"
+        ],
         ingredients: [
             "300 غ ذرة حلوة",
             "1 فلفل أحمر",
-            "1/2 بصلة",
+            "1 بصلة حمراء صغيرة",
+            "1 حبة طماطم",
+            "1 ليمونة خضراء",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل (1 غ)",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الفلفل والبصل.\n" +
-            "2. اخلطه مع الذرة.\n" +
-            "3. أضف الزيت والملح والفلفل.\n" +
-            "4. قدمها بارداً."
+            "1. صفِّ الذرة جيداً باستخدام المصفاة.\n" +
+            "2. اغسل الفلفل والطماطم.\n" +
+            "3. قطّع الفلفل والطماطم والبصل إلى مكعبات صغيرة.\n" +
+            "4. ضع جميع الخضروات في وعاء كبير.\n" +
+            "5. اعصر الليمونة باستخدام عصارة.\n" +
+            "6. أضف عصير الليمون وزيت الزيتون.\n" +
+            "7. أضف الملح والفلفل والكزبرة.\n" +
+            "8. اخلط بلطف حتى تتجانس المكونات.\n" +
+            "9. ضعها في الثلاجة لمدة 10 دقائق قبل التقديم."
     }
 };
 
@@ -62644,310 +63042,754 @@ recipesData.entree.mango_salsa_cuba = {
     country: "amerique",
     countryName: "cuba",
     image: "images/mango_salsa_cuba.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "salsa-mangue-cuba",
+            title: "Salsa de mangue (Cuba) – Recette fraîche et facile",
+            description: "Découvrez la salsa de mangue de Cuba, une entrée sucrée-salée, fraîche et rapide à préparer pour accompagner vos plats.",
+            keywords: [
+                "recette salsa mangue",
+                "salsa mangue cuba",
+                "cuisine cubaine",
+                "entree facile",
+                "salsa maison",
+                "recette exotique"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salsa de mangue (Cuba)",
+            "description": "Salsa cubaine à la mangue, fraîche et légèrement acidulée.",
+            "recipeCuisine": "Cuba",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT0M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "1 mangue mûre",
+                "1/2 oignon rouge",
+                "1 citron vert",
+                "2 cuillères à soupe d’huile d’olive",
+                "1/2 cuillère à café de sel",
+                "1 pincée de poivre",
+                "1 cuillère à soupe de coriandre fraîche"
+            ],
+            "recipeInstructions": [
+                "Couper la mangue en petits dés.",
+                "Hacher finement l’oignon.",
+                "Presser le citron vert.",
+                "Mélanger tous les ingrédients.",
+                "Assaisonner et servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salsa de mangue cubaine (Cuba, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
+        title: "Salsa de mangue (Cuba)",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 presse-agrumes"
+        ],
         ingredients: [
             "1 mangue mûre",
             "1/2 oignon rouge",
             "1 citron vert",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1 pincée de poivre",
+            "1 cuillère à soupe de coriandre fraîche hachée"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper la mangue et l’oignon en petits dés.\n" +
-            "2. Presser le citron vert et ajouter l’huile et le sel.\n" +
-            "3. Mélanger avec la mangue et l’oignon.\n" +
-            "4. Servir frais."
+            "1. Éplucher la mangue et la couper en petits dés.\n" +
+            "2. Émincer très finement l’oignon rouge.\n" +
+            "3. Presser le citron vert.\n" +
+            "4. Mettre la mangue et l’oignon dans un saladier.\n" +
+            "5. Ajouter le jus de citron et l’huile d’olive.\n" +
+            "6. Saler, poivrer et ajouter la coriandre.\n" +
+            "7. Mélanger délicatement.\n" +
+            "8. Réserver au frais 10 minutes avant de servir."
     },
+
     en: {
-        title: "Cuban Mango Salsa (Cuba, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Mango Salsa (Cuba)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 citrus juicer"
+        ],
         ingredients: [
             "1 ripe mango",
             "1/2 red onion",
             "1 lime",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "A pinch of pepper",
+            "1 tablespoon fresh chopped coriander"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Dice mango and onion.\n" +
-            "2. Squeeze lime, add oil and salt.\n" +
-            "3. Mix with mango and onion.\n" +
-            "4. Serve chilled."
+            "1. Peel and dice the mango into small cubes.\n" +
+            "2. Finely chop the red onion.\n" +
+            "3. Squeeze the lime.\n" +
+            "4. Place mango and onion in a bowl.\n" +
+            "5. Add lime juice and olive oil.\n" +
+            "6. Season with salt, pepper, and coriander.\n" +
+            "7. Mix gently.\n" +
+            "8. Chill for 10 minutes before serving."
     },
+
     nl: {
-        title: "Cubaanse Mangosalsa (Cuba, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Mangosalsa (Cuba)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 citruspers"
+        ],
         ingredients: [
             "1 rijpe mango",
             "1/2 rode ui",
             "1 limoen",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)",
+            "Snufje peper",
+            "1 eetlepel fijngehakte verse koriander"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd mango en ui in kleine blokjes.\n" +
-            "2. Pers limoen en voeg olie en zout toe.\n" +
-            "3. Meng met mango en ui.\n" +
-            "4. Serveer koud."
+            "1. Schil de mango en snijd in kleine blokjes.\n" +
+            "2. Snijd de ui zeer fijn.\n" +
+            "3. Pers de limoen uit.\n" +
+            "4. Doe mango en ui in een kom.\n" +
+            "5. Voeg limoensap en olijfolie toe.\n" +
+            "6. Breng op smaak met zout, peper en koriander.\n" +
+            "7. Meng voorzichtig.\n" +
+            "8. Zet 10 minuten koel voor het serveren."
     },
+
     ar: {
-        title: "صلصة المانجو الكوبية (كوبا، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع", "ملعقة خشبية"],
+        title: "صلصة المانجو (كوبا)",
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "عصارة حمضيات"
+        ],
         ingredients: [
             "1 حبة مانجو ناضجة",
             "1/2 بصلة حمراء",
             "1 ليمونة خضراء",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "رشة فلفل",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع المانجو والبصل.\n" +
-            "2. اعصر الليمون وأضف الزيت والملح.\n" +
-            "3. اخلط مع المانجو والبصل.\n" +
-            "4. قدمها بارداً."
+            "1. قشّر المانجو وقطّعها إلى مكعبات صغيرة.\n" +
+            "2. قطّع البصل الأحمر ناعماً.\n" +
+            "3. اعصر الليمونة.\n" +
+            "4. ضع المانجو والبصل في وعاء.\n" +
+            "5. أضف عصير الليمون وزيت الزيتون.\n" +
+            "6. أضف الملح والفلفل والكزبرة.\n" +
+            "7. اخلط برفق حتى تتجانس المكونات.\n" +
+            "8. ضعها في الثلاجة لمدة 10 دقائق قبل التقديم."
     }
 };
 recipesData.entree.quinoa_salad_usa = {
     country: "amerique",
     countryName: "usa",
     image: "images/quinoa_salad_usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-quinoa-usa",
+            title: "Salade de quinoa (USA) – Recette saine et facile",
+            description: "Découvrez la salade de quinoa des USA, une entrée saine, colorée et facile à préparer, parfaite pour un repas léger et équilibré.",
+            keywords: [
+                "recette salade quinoa",
+                "salade quinoa usa",
+                "cuisine americaine",
+                "entree saine",
+                "salade maison facile",
+                "plat leger quinoa"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade de quinoa (USA)",
+            "description": "Salade de quinoa américaine fraîche et équilibrée, idéale en entrée légère.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT15M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "150 g quinoa cru",
+                "300 ml eau",
+                "1 poivron jaune",
+                "1/2 concombre",
+                "10 tomates cerises",
+                "2 cuillères à soupe d’huile d’olive",
+                "1 citron",
+                "1/2 cuillère à café de sel",
+                "1 pincée de poivre",
+                "1 cuillère à soupe de persil frais haché"
+            ],
+            "recipeInstructions": [
+                "Rincer le quinoa.",
+                "Cuire le quinoa 15 minutes dans l’eau.",
+                "Laisser refroidir.",
+                "Couper les légumes en dés.",
+                "Mélanger avec le quinoa.",
+                "Ajouter citron, huile et assaisonnement.",
+                "Servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade de quinoa américaine (USA, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
+        title: "Salade de quinoa (USA)",
+        equipment: [
+            "1 casserole moyenne",
+            "1 couvercle",
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 presse-agrumes"
+        ],
         ingredients: [
-            "200 g quinoa cuit",
+            "150 g de quinoa cru",
+            "300 ml d’eau",
             "1 poivron jaune",
             "1/2 concombre",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "10 tomates cerises",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 citron",
+            "1/2 cuillère à café de sel (3 g)",
+            "1 pincée de poivre",
+            "1 cuillère à soupe de persil frais haché"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper le poivron et le concombre en dés.\n" +
-            "2. Mélanger avec le quinoa cuit.\n" +
-            "3. Ajouter huile et sel.\n" +
-            "4. Servir frais."
+            "1. Rincer le quinoa dans une passoire sous l’eau froide.\n" +
+            "2. Verser le quinoa et l’eau dans une casserole.\n" +
+            "3. Porter à ébullition puis couvrir et cuire 15 minutes à feu doux.\n" +
+            "4. Retirer du feu et laisser reposer 5 minutes.\n" +
+            "5. Aérer le quinoa avec une fourchette et laisser refroidir.\n" +
+            "6. Laver le poivron, le concombre et les tomates.\n" +
+            "7. Couper les légumes en petits dés.\n" +
+            "8. Mettre le quinoa refroidi dans un saladier.\n" +
+            "9. Ajouter les légumes.\n" +
+            "10. Presser le citron et verser le jus.\n" +
+            "11. Ajouter l’huile d’olive, le sel, le poivre et le persil.\n" +
+            "12. Mélanger délicatement et servir frais."
     },
+
     en: {
-        title: "American Quinoa Salad (USA, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Quinoa Salad (USA)",
+        equipment: [
+            "1 medium saucepan",
+            "1 lid",
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 strainer",
+            "1 citrus juicer"
+        ],
         ingredients: [
-            "200 g cooked quinoa",
+            "150 g raw quinoa",
+            "300 ml water",
             "1 yellow bell pepper",
             "1/2 cucumber",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "10 cherry tomatoes",
+            "2 tablespoons olive oil (30 ml)",
+            "1 lemon",
+            "1/2 teaspoon salt (3 g)",
+            "A pinch of pepper",
+            "1 tablespoon fresh chopped parsley"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Dice bell pepper and cucumber.\n" +
-            "2. Mix with cooked quinoa.\n" +
-            "3. Add oil and salt.\n" +
-            "4. Serve chilled."
+            "1. Rinse the quinoa under cold water using a strainer.\n" +
+            "2. Place quinoa and water in a saucepan.\n" +
+            "3. Bring to a boil, cover and cook for 15 minutes on low heat.\n" +
+            "4. Remove from heat and let rest for 5 minutes.\n" +
+            "5. Fluff with a fork and allow to cool.\n" +
+            "6. Wash and dice the vegetables.\n" +
+            "7. Place cooled quinoa in a bowl.\n" +
+            "8. Add the vegetables.\n" +
+            "9. Squeeze the lemon and add the juice.\n" +
+            "10. Add olive oil, salt, pepper and parsley.\n" +
+            "11. Mix gently and serve chilled."
     },
+
     nl: {
-        title: "Amerikaanse Quinoasalade (VS, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Quinoasalade (USA)",
+        equipment: [
+            "1 middelgrote pan",
+            "1 deksel",
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 citruspers"
+        ],
         ingredients: [
-            "200 g gekookte quinoa",
+            "150 g rauwe quinoa",
+            "300 ml water",
             "1 gele paprika",
             "1/2 komkommer",
+            "10 kerstomaten",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 citroen",
+            "1/2 theelepel zout (3 g)",
+            "Snufje peper",
+            "1 eetlepel fijngehakte verse peterselie"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd paprika en komkommer in blokjes.\n" +
-            "2. Meng met gekookte quinoa.\n" +
-            "3. Voeg olie en zout toe.\n" +
-            "4. Serveer koud."
+            "1. Spoel de quinoa onder koud water in een vergiet.\n" +
+            "2. Doe quinoa en water in een pan.\n" +
+            "3. Breng aan de kook, dek af en kook 15 minuten op laag vuur.\n" +
+            "4. Haal van het vuur en laat 5 minuten rusten.\n" +
+            "5. Maak los met een vork en laat afkoelen.\n" +
+            "6. Was en snijd de groenten in blokjes.\n" +
+            "7. Doe de afgekoelde quinoa in een kom.\n" +
+            "8. Voeg de groenten toe.\n" +
+            "9. Pers de citroen en voeg het sap toe.\n" +
+            "10. Voeg olijfolie, zout, peper en peterselie toe.\n" +
+            "11. Meng voorzichtig en serveer koud."
     },
+
     ar: {
-        title: "سلطة الكينوا الأمريكية (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع", "ملعقة خشبية"],
+        title: "سلطة الكينوا (الولايات المتحدة)",
+        equipment: [
+            "قدر متوسط",
+            "غطاء",
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مصفاة",
+            "عصارة حمضيات"
+        ],
         ingredients: [
-            "200 غ كينوا مطبوخة",
+            "150 غ كينوا نيئة",
+            "300 مل ماء",
             "1 فلفل أصفر",
             "1/2 خيار",
+            "10 حبات طماطم كرزية",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ليمونة",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "رشة فلفل",
+            "1 ملعقة كبيرة بقدونس مفروم"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الفلفل والخيار.\n" +
-            "2. اخلط مع الكينوا المطبوخة.\n" +
-            "3. أضف الزيت والملح.\n" +
-            "4. قدمها بارداً."
+            "1. اغسل الكينوا جيداً تحت الماء البارد باستخدام المصفاة.\n" +
+            "2. ضع الكينوا والماء في قدر.\n" +
+            "3. اتركه يغلي ثم غطِّ القدر واطهه لمدة 15 دقيقة على نار هادئة.\n" +
+            "4. ارفعه من النار واتركه يرتاح 5 دقائق.\n" +
+            "5. حرّكه بالشوكة واتركه يبرد.\n" +
+            "6. اغسل الخضروات وقطّعها إلى مكعبات صغيرة.\n" +
+            "7. ضع الكينوا المبردة في وعاء.\n" +
+            "8. أضف الخضروات.\n" +
+            "9. اعصر الليمونة وأضف العصير.\n" +
+            "10. أضف زيت الزيتون والملح والفلفل والبقدونس.\n" +
+            "11. اخلط برفق وقدّمها باردة."
     }
 };
 
 recipesData.entree.mini_empanadas_bresil = {
     country: "amerique",
-    countryName: "brazil",
+    countryName: "bresil",
     image: "images/mini_empanadas_bresil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "mini-empanadas-bresil",
+            title: "Mini empanadas (Brésil) – Recette facile au four",
+            description: "Préparez de délicieuses mini empanadas du Brésil, croustillantes et savoureuses, parfaites en entrée ou pour un apéritif convivial.",
+            keywords: [
+                "recette empanadas",
+                "mini empanadas bresil",
+                "cuisine bresilienne",
+                "entree facile",
+                "empanadas au four",
+                "recette aperitif maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Mini empanadas (Brésil)",
+            "description": "Mini empanadas brésiliennes croustillantes garnies de légumes et haricots.",
+            "recipeCuisine": "Brésil",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT15M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "4 petites tortillas de maïs",
+                "100 g haricots noirs cuits",
+                "1/2 poivron rouge",
+                "1 petit oignon",
+                "2 cuillères à soupe huile d’olive",
+                "1/2 cuillère à café sel",
+                "1 pincée de paprika"
+            ],
+            "recipeInstructions": [
+                "Préchauffer le four à 180°C.",
+                "Couper les légumes en petits dés.",
+                "Mélanger avec les haricots.",
+                "Garnir les tortillas.",
+                "Plier et badigeonner d’huile.",
+                "Cuire 15 minutes jusqu’à doré."
+            ]
+        }
+    },
+
     fr: {
-        title: "Mini empanadas végétariennes brésiliennes (Brésil, 4 personnes)",
-        equipment: ["1 four", "1 plaque de cuisson", "1 saladier", "1 cuillère"],
+        title: "Mini empanadas (Brésil)",
+        equipment: [
+            "1 four",
+            "1 plaque de cuisson",
+            "1 papier cuisson",
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère",
+            "1 pinceau de cuisine"
+        ],
         ingredients: [
             "4 petites tortillas de maïs",
-            "100 g haricots noirs cuits",
+            "100 g de haricots noirs cuits",
             "1/2 poivron rouge",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "1 petit oignon",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1 pincée de paprika"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger haricots et poivron en dés.\n" +
-            "3. Remplir les tortillas avec le mélange.\n" +
-            "4. Plier et badigeonner d’huile.\n" +
-            "5. Cuire 15 minutes."
+            "2. Couper le poivron et l’oignon en petits dés.\n" +
+            "3. Mélanger les haricots noirs avec les légumes dans un saladier.\n" +
+            "4. Ajouter le sel et le paprika.\n" +
+            "5. Garnir chaque tortilla avec une portion de farce.\n" +
+            "6. Plier en demi-lune et presser les bords.\n" +
+            "7. Déposer sur une plaque recouverte de papier cuisson.\n" +
+            "8. Badigeonner légèrement d’huile d’olive.\n" +
+            "9. Cuire 15 minutes jusqu’à ce qu’elles soient légèrement dorées.\n" +
+            "10. Servir chaud."
     },
+
     en: {
-        title: "Brazilian Vegetarian Mini Empanadas (Brazil, Serves 4)",
-        equipment: ["1 oven", "1 baking sheet", "1 bowl", "1 spoon"],
+        title: "Mini Empanadas (Brazil)",
+        equipment: [
+            "1 oven",
+            "1 baking sheet",
+            "1 baking paper",
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon",
+            "1 kitchen brush"
+        ],
         ingredients: [
             "4 small corn tortillas",
             "100 g cooked black beans",
             "1/2 red bell pepper",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "1 small onion",
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "A pinch of paprika"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Mix beans and diced bell pepper.\n" +
-            "3. Fill tortillas with mixture.\n" +
-            "4. Fold and brush with oil.\n" +
-            "5. Bake 15 minutes."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Dice the bell pepper and onion.\n" +
+            "3. Mix black beans and vegetables in a bowl.\n" +
+            "4. Add salt and paprika.\n" +
+            "5. Fill each tortilla with the mixture.\n" +
+            "6. Fold into half-moons and seal the edges.\n" +
+            "7. Place on a baking sheet lined with paper.\n" +
+            "8. Brush lightly with olive oil.\n" +
+            "9. Bake for 15 minutes until lightly golden.\n" +
+            "10. Serve warm."
     },
+
     nl: {
-        title: "Braziliaanse Mini Vegetarische Empanadas (Brazilië, voor 4 personen)",
-        equipment: ["1 oven", "1 bakplaat", "1 kom", "1 lepel"],
+        title: "Mini Empanadas (Brazilië)",
+        equipment: [
+            "1 oven",
+            "1 bakplaat",
+            "1 bakpapier",
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel",
+            "1 keukenkwast"
+        ],
         ingredients: [
             "4 kleine maïstortilla's",
             "100 g gekookte zwarte bonen",
             "1/2 rode paprika",
+            "1 kleine ui",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)",
+            "Snufje paprikapoeder"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Meng bonen en paprika.\n" +
-            "3. Vul tortilla's met mengsel.\n" +
-            "4. Vouw en bestrijk met olie.\n" +
-            "5. Bak 15 minuten."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Snijd paprika en ui in kleine blokjes.\n" +
+            "3. Meng de zwarte bonen met de groenten.\n" +
+            "4. Voeg zout en paprikapoeder toe.\n" +
+            "5. Vul elke tortilla met het mengsel.\n" +
+            "6. Vouw dicht en druk de randen aan.\n" +
+            "7. Leg op een met bakpapier beklede bakplaat.\n" +
+            "8. Bestrijk licht met olijfolie.\n" +
+            "9. Bak 15 minuten tot licht goudbruin.\n" +
+            "10. Serveer warm."
     },
+
     ar: {
-        title: "إمباناداس نباتية صغيرة برازيلية (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["فرن", "صينية خبز", "وعاء", "ملعقة"],
+        title: "إمباناداس صغيرة (البرازيل)",
+        equipment: [
+            "فرن",
+            "صينية خبز",
+            "ورق خبز",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة",
+            "فرشاة مطبخ"
+        ],
         ingredients: [
             "4 تورتيلا صغيرة من الذرة",
             "100 غ فاصوليا سوداء مطبوخة",
             "1/2 فلفل أحمر",
+            "1 بصلة صغيرة",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "رشة بابريكا"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الفرن على 180°C.\n" +
-            "2. اخلط الفاصوليا والفلفل.\n" +
-            "3. املأ التورتيلا بالخليط.\n" +
-            "4. اطوِ وادهن بالزيت.\n" +
-            "5. اخبز 15 دقيقة."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. قطّع الفلفل والبصل إلى مكعبات صغيرة.\n" +
+            "3. اخلط الفاصوليا السوداء مع الخضروات في وعاء.\n" +
+            "4. أضف الملح والبابريكا.\n" +
+            "5. ضع الحشوة داخل كل تورتيلا.\n" +
+            "6. اطوِها على شكل نصف دائرة واضغط الحواف.\n" +
+            "7. ضعها على صينية مغطاة بورق الخبز.\n" +
+            "8. ادهنها بقليل من زيت الزيتون.\n" +
+            "9. اخبز لمدة 15 دقيقة حتى تصبح ذهبية قليلاً.\n" +
+            "10. قدّمها ساخنة."
     }
 };
-
 recipesData.entree.black_bean_soup_mexique = {
     country: "amerique",
     countryName: "mexique",
     image: "images/black_bean_soup_mexique.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "soupe-haricots-noirs-mexique",
+            title: "Soupe de haricots noirs (Mexique) – Recette facile",
+            description: "Découvrez la soupe de haricots noirs du Mexique, un plat réconfortant, savoureux et simple à préparer avec des ingrédients du quotidien.",
+            keywords: [
+                "recette soupe haricots noirs",
+                "soupe haricots noirs mexique",
+                "cuisine mexicaine",
+                "entree chaude facile",
+                "soupe maison",
+                "plat traditionnel mexique"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Soupe de haricots noirs (Mexique)",
+            "description": "Soupe mexicaine onctueuse aux haricots noirs, parfumée et réconfortante.",
+            "recipeCuisine": "Mexique",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT20M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "200 g haricots noirs cuits",
+                "1 oignon",
+                "1 gousse d’ail",
+                "500 ml bouillon de légumes",
+                "2 cuillères à soupe huile d’olive",
+                "1/2 cuillère à café sel",
+                "1/2 cuillère à café cumin",
+                "1 pincée de paprika"
+            ],
+            "recipeInstructions": [
+                "Hacher l’oignon et l’ail.",
+                "Faire revenir dans l’huile.",
+                "Ajouter les haricots et le bouillon.",
+                "Assaisonner et cuire 20 minutes.",
+                "Mixer jusqu’à texture lisse.",
+                "Servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Soupe de haricots noirs mexicaine (Mexique, 4 personnes)",
-        equipment: ["1 casserole moyenne", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
+        title: "Soupe de haricots noirs (Mexique)",
+        equipment: [
+            "1 casserole moyenne",
+            "1 mixeur plongeant",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 louche"
+        ],
         ingredients: [
-            "200 g haricots noirs cuits",
-            "1/2 oignon",
+            "200 g de haricots noirs cuits",
+            "1 oignon moyen",
             "1 gousse d’ail",
-            "500 ml bouillon de légumes",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "500 ml de bouillon de légumes",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/2 cuillère à café de cumin",
+            "1 pincée de paprika"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Émincer l’oignon et l’ail.\n" +
-            "2. Faire revenir dans l’huile 5 minutes.\n" +
-            "3. Ajouter haricots et bouillon.\n" +
-            "4. Cuire 15 minutes.\n" +
-            "5. Mixer jusqu’à consistance lisse.\n" +
-            "6. Servir chaud."
+            "1. Éplucher et hacher finement l’oignon et l’ail.\n" +
+            "2. Chauffer l’huile d’olive dans une casserole à feu moyen.\n" +
+            "3. Ajouter l’oignon et l’ail puis faire revenir 5 minutes.\n" +
+            "4. Ajouter les haricots noirs égouttés.\n" +
+            "5. Verser le bouillon de légumes.\n" +
+            "6. Ajouter le sel, le cumin et le paprika.\n" +
+            "7. Laisser cuire 20 minutes à feu doux.\n" +
+            "8. Mixer jusqu’à obtention d’une texture lisse.\n" +
+            "9. Servir bien chaud."
     },
+
     en: {
-        title: "Mexican Black Bean Soup (Mexico, Serves 4)",
-        equipment: ["1 medium saucepan", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Black Bean Soup (Mexico)",
+        equipment: [
+            "1 medium saucepan",
+            "1 hand blender",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 ladle"
+        ],
         ingredients: [
             "200 g cooked black beans",
-            "1/2 onion",
+            "1 medium onion",
             "1 garlic clove",
             "500 ml vegetable broth",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "2 tablespoons olive oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/2 teaspoon cumin",
+            "A pinch of paprika"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Chop onion and garlic.\n" +
-            "2. Sauté in oil 5 minutes.\n" +
-            "3. Add beans and broth.\n" +
-            "4. Cook 15 minutes.\n" +
-            "5. Blend until smooth.\n" +
-            "6. Serve hot."
+            "1. Peel and finely chop the onion and garlic.\n" +
+            "2. Heat olive oil in a saucepan over medium heat.\n" +
+            "3. Sauté onion and garlic for 5 minutes.\n" +
+            "4. Add the drained black beans.\n" +
+            "5. Pour in the vegetable broth.\n" +
+            "6. Add salt, cumin and paprika.\n" +
+            "7. Simmer for 20 minutes.\n" +
+            "8. Blend until smooth.\n" +
+            "9. Serve hot."
     },
+
     nl: {
-        title: "Mexicaanse Zwarte Bonensoep (Mexico, voor 4 personen)",
-        equipment: ["1 middelgrote pan", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Zwarte Bonensoep (Mexico)",
+        equipment: [
+            "1 middelgrote pan",
+            "1 staafmixer",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 soeplepel"
+        ],
         ingredients: [
             "200 g gekookte zwarte bonen",
-            "1/2 ui",
+            "1 middelgrote ui",
             "1 teentje knoflook",
             "500 ml groentebouillon",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)",
+            "1/2 theelepel komijn",
+            "Snufje paprikapoeder"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd ui en knoflook.\n" +
-            "2. Bak in olie 5 minuten.\n" +
-            "3. Voeg bonen en bouillon toe.\n" +
-            "4. Kook 15 minuten.\n" +
-            "5. Pureer tot glad.\n" +
-            "6. Serveer warm."
+            "1. Pel en snipper de ui en knoflook fijn.\n" +
+            "2. Verhit de olijfolie in een pan op middelhoog vuur.\n" +
+            "3. Bak ui en knoflook 5 minuten.\n" +
+            "4. Voeg de zwarte bonen toe.\n" +
+            "5. Giet de groentebouillon erbij.\n" +
+            "6. Voeg zout, komijn en paprikapoeder toe.\n" +
+            "7. Laat 20 minuten zachtjes koken.\n" +
+            "8. Pureer tot een gladde soep.\n" +
+            "9. Serveer warm."
     },
+
     ar: {
-        title: "حساء الفاصوليا السوداء المكسيكي (المكسيك، تكفي 4 أشخاص)",
-        equipment: ["وعاء متوسط", "سكين", "لوح تقطيع", "ملعقة خشبية"],
+        title: "حساء الفاصوليا السوداء (المكسيك)",
+        equipment: [
+            "قدر متوسط",
+            "خلاط يدوي",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مغرفة"
+        ],
         ingredients: [
             "200 غ فاصوليا سوداء مطبوخة",
-            "1/2 بصلة",
+            "1 بصلة متوسطة",
             "1 فص ثوم",
             "500 مل مرق خضار",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/2 ملعقة صغيرة كمون",
+            "رشة بابريكا"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع البصل والثوم.\n" +
-            "2. اقلي في الزيت 5 دقائق.\n" +
-            "3. أضف الفاصوليا والمرق.\n" +
-            "4. اطبخ 15 دقيقة.\n" +
-            "5. امزج حتى تصبح ناعمة.\n" +
-            "6. قدمه ساخناً."
+            "1. قشّر البصل والثوم وقطّعهما ناعماً.\n" +
+            "2. سخّن زيت الزيتون في قدر على نار متوسطة.\n" +
+            "3. أضف البصل والثوم وقلّب لمدة 5 دقائق.\n" +
+            "4. أضف الفاصوليا السوداء.\n" +
+            "5. أضف مرق الخضار.\n" +
+            "6. أضف الملح والكمون والبابريكا.\n" +
+            "7. اتركه يطهى لمدة 20 دقيقة.\n" +
+            "8. اخلطه بالخلاط حتى يصبح ناعماً.\n" +
+            "9. قدّمه ساخناً."
     }
 };
 
@@ -62955,1011 +63797,2328 @@ recipesData.entree.avocado_toast_cuba = {
     country: "amerique",
     countryName: "cuba",
     image: "images/avocado_toast_cuba.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 5,
+        difficulty: "easy",
+        seo: {
+            slug: "toast-avocat-cuba",
+            title: "Toast à l’avocat (Cuba) – Recette simple et rapide",
+            description: "Découvrez le toast à l’avocat façon Cuba, une entrée rapide, savoureuse et idéale pour un repas léger et équilibré.",
+            keywords: [
+                "recette toast avocat",
+                "toast avocat cuba",
+                "cuisine cubaine",
+                "entree rapide",
+                "recette facile maison",
+                "toast sain"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Toast à l’avocat (Cuba)",
+            "description": "Toast cubain à l’avocat, frais et savoureux, parfait pour une entrée légère.",
+            "recipeCuisine": "Cuba",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT5M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "4 tranches de pain complet",
+                "1 avocat mûr",
+                "1/2 citron",
+                "1 cuillère à soupe huile d’olive",
+                "1/2 cuillère à café sel",
+                "Poivre",
+                "1 cuillère à soupe coriandre fraîche"
+            ],
+            "recipeInstructions": [
+                "Griller le pain.",
+                "Écraser l’avocat.",
+                "Ajouter citron, huile et assaisonnement.",
+                "Étaler sur le pain.",
+                "Servir immédiatement."
+            ]
+        }
+    },
+
     fr: {
-        title: "Toast à l’avocat cubain (Cuba, 4 personnes)",
-        equipment: ["1 grille-pain", "1 couteau", "1 planche à découper", "1 bol"],
+        title: "Toast à l’avocat (Cuba)",
+        equipment: [
+            "1 grille-pain",
+            "1 couteau",
+            "1 planche à découper",
+            "1 bol",
+            "1 fourchette",
+            "1 cuillère"
+        ],
         ingredients: [
             "4 tranches de pain complet",
             "1 avocat mûr",
             "1/2 citron",
-            "1/2 cuillère à café sel (1 g)",
-            "Poivre au goût"
+            "1 cuillère à soupe d’huile d’olive (15 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "Poivre au goût",
+            "1 cuillère à soupe de coriandre fraîche hachée"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Griller le pain.\n" +
-            "2. Écraser l’avocat avec sel, poivre et jus de citron.\n" +
-            "3. Étaler sur le pain.\n" +
-            "4. Servir immédiatement."
+            "1. Faire griller les tranches de pain jusqu’à ce qu’elles soient dorées.\n" +
+            "2. Couper l’avocat en deux, retirer le noyau et récupérer la chair.\n" +
+            "3. Écraser la chair à la fourchette dans un bol.\n" +
+            "4. Presser le citron et ajouter le jus.\n" +
+            "5. Ajouter l’huile d’olive, le sel, le poivre et la coriandre.\n" +
+            "6. Mélanger jusqu’à texture homogène.\n" +
+            "7. Étaler généreusement sur les tranches de pain grillé.\n" +
+            "8. Servir immédiatement."
     },
+
     en: {
-        title: "Cuban Avocado Toast (Cuba, Serves 4)",
-        equipment: ["1 toaster", "1 knife", "1 cutting board", "1 bowl"],
+        title: "Avocado Toast (Cuba)",
+        equipment: [
+            "1 toaster",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "1 fork",
+            "1 spoon"
+        ],
         ingredients: [
             "4 slices whole wheat bread",
             "1 ripe avocado",
             "1/2 lemon",
-            "1/2 tsp salt (1 g)",
-            "Pepper to taste"
+            "1 tablespoon olive oil (15 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "Pepper to taste",
+            "1 tablespoon fresh chopped coriander"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Toast the bread.\n" +
-            "2. Mash avocado with salt, pepper and lemon juice.\n" +
-            "3. Spread on bread.\n" +
-            "4. Serve immediately."
+            "1. Toast the bread until golden.\n" +
+            "2. Cut the avocado in half and remove the pit.\n" +
+            "3. Scoop out the flesh and mash with a fork.\n" +
+            "4. Squeeze in the lemon juice.\n" +
+            "5. Add olive oil, salt, pepper and coriander.\n" +
+            "6. Mix until smooth.\n" +
+            "7. Spread generously over the toasted bread.\n" +
+            "8. Serve immediately."
     },
+
     nl: {
-        title: "Cubaanse Avocadotoast (Cuba, voor 4 personen)",
-        equipment: ["1 broodrooster", "1 mes", "1 snijplank", "1 kom"],
+        title: "Avocadotoast (Cuba)",
+        equipment: [
+            "1 broodrooster",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "1 vork",
+            "1 lepel"
+        ],
         ingredients: [
             "4 sneetjes volkorenbrood",
             "1 rijpe avocado",
             "1/2 citroen",
-            "1/2 tl zout (1 g)",
-            "Peper naar smaak"
+            "1 eetlepel olijfolie (15 ml)",
+            "1/2 theelepel zout (3 g)",
+            "Peper naar smaak",
+            "1 eetlepel fijngehakte verse koriander"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Toast het brood.\n" +
-            "2. Pureer avocado met zout, peper en citroensap.\n" +
-            "3. Besmeer het brood.\n" +
-            "4. Serveer direct."
+            "1. Rooster het brood goudbruin.\n" +
+            "2. Halveer de avocado en verwijder de pit.\n" +
+            "3. Schep het vruchtvlees eruit en prak met een vork.\n" +
+            "4. Voeg citroensap toe.\n" +
+            "5. Voeg olijfolie, zout, peper en koriander toe.\n" +
+            "6. Meng tot een smeuïge massa.\n" +
+            "7. Besmeer het geroosterde brood royaal.\n" +
+            "8. Serveer direct."
     },
+
     ar: {
-        title: "توست الأفوكادو الكوبي (كوبا، تكفي 4 أشخاص)",
-        equipment: ["محمصة خبز", "سكين", "لوح تقطيع", "وعاء"],
+        title: "توست الأفوكادو (كوبا)",
+        equipment: [
+            "محمصة خبز",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "شوكة",
+            "ملعقة"
+        ],
         ingredients: [
             "4 شرائح خبز كامل",
             "1 أفوكادو ناضج",
-            "1/2 ليمون",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "فلفل حسب الرغبة"
+            "1/2 ليمونة",
+            "1 ملعقة كبيرة زيت زيتون (15 مل)",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "فلفل حسب الرغبة",
+            "1 ملعقة كبيرة كزبرة مفرومة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حمص الخبز.\n" +
-            "2. اهرس الأفوكادو مع الملح والفلفل وعصير الليمون.\n" +
-            "3. ضع الخليط على الخبز.\n" +
-            "4. قدمه فوراً."
+            "1. حمّص شرائح الخبز حتى تصبح ذهبية.\n" +
+            "2. اقطع الأفوكادو إلى نصفين وأزل النواة.\n" +
+            "3. استخرج اللب واهرِسه بالشوكة في وعاء.\n" +
+            "4. أضف عصير الليمون.\n" +
+            "5. أضف زيت الزيتون والملح والفلفل والكزبرة.\n" +
+            "6. اخلط حتى يصبح القوام ناعماً.\n" +
+            "7. افرد الخليط فوق الخبز المحمص.\n" +
+            "8. قدّمه فوراً."
     }
 };
-
-recipesData.entree.corn_salad_mexique = {
-    country: "amerique",
-    countryName: "mexique",
-    image: "images/corn_salad_mexique.jpg",
-    fr: {
-        title: "Salade de maïs mexicaine (Mexique, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche à découper", "1 cuillère en bois"],
-        ingredients: [
-            "300 g maïs cuit",
-            "1 poivron rouge",
-            "1/2 oignon",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper le poivron et l’oignon.\n" +
-            "2. Mélanger avec le maïs.\n" +
-            "3. Ajouter huile et sel.\n" +
-            "4. Servir frais."
-    },
-    en: {
-        title: "Mexican Corn Salad (Mexico, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 wooden spoon"],
-        ingredients: [
-            "300 g cooked corn",
-            "1 red bell pepper",
-            "1/2 onion",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Dice bell pepper and onion.\n" +
-            "2. Mix with corn.\n" +
-            "3. Add oil and salt.\n" +
-            "4. Serve chilled."
-    },
-    nl: {
-        title: "Mexicaanse Maïssalade (Mexico, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 houten lepel"],
-        ingredients: [
-            "300 g gekookte maïs",
-            "1 rode paprika",
-            "1/2 ui",
-            "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd paprika en ui.\n" +
-            "2. Meng met maïs.\n" +
-            "3. Voeg olie en zout toe.\n" +
-            "4. Serveer koud."
-    },
-    ar: {
-        title: "سلطة الذرة المكسيكية (المكسيك، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع", "ملعقة خشبية"],
-        ingredients: [
-            "300 غ ذرة مطبوخة",
-            "1 فلفل أحمر",
-            "1/2 بصلة",
-            "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الفلفل والبصل.\n" +
-            "2. اخلط مع الذرة.\n" +
-            "3. أضف الزيت والملح.\n" +
-            "4. قدمها بارداً."
-    }
-};
-
 recipesData.entree.stuffed_peppers_bresil = {
     country: "amerique",
     countryName: "brazil",
-    image: "images/stuffed_peppers_bresil.jpg",
+    image: "images/stuffed-peppers-brazil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy",
+        seo: {
+            slug: "stuffed-peppers-brazil",
+            title: "Poivrons farcis (Brésil) – Recette facile et maison",
+            description: "Découvrez les poivrons farcis du Brésil, une recette familiale savoureuse et facile à préparer avec du riz, des légumes et des épices parfumées.",
+            keywords: [
+                "recette poivrons farcis",
+                "poivrons farcis bresil",
+                "cuisine bresilienne",
+                "recette facile",
+                "plat traditionnel",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Poivrons farcis (Brésil)",
+            "description": "Poivrons farcis brésiliens garnis de riz, légumes et épices, cuits au four pour un plat familial savoureux.",
+            "recipeCuisine": "Brazil",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT30M",
+            "totalTime": "PT50M",
+            "recipeIngredient": [
+                "4 poivrons moyens",
+                "150 g de riz cuit",
+                "100 g de maïs",
+                "1 oignon moyen haché",
+                "1 tomate coupée en petits dés",
+                "1 gousse d’ail hachée",
+                "2 cuillères à soupe d’huile d’olive",
+                "1 cuillère à café de paprika",
+                "1/2 cuillère à café de cumin",
+                "Sel",
+                "Poivre",
+                "Persil frais haché"
+            ],
+            "recipeInstructions": [
+                "Préchauffer le four à 180°C.",
+                "Couper les chapeaux des poivrons et retirer les graines.",
+                "Faire revenir l’oignon et l’ail dans l’huile d’olive.",
+                "Ajouter la tomate et cuire quelques minutes.",
+                "Incorporer le riz, le maïs et les épices.",
+                "Farcir les poivrons avec la préparation.",
+                "Déposer dans un plat huilé et cuire 30 minutes."
+            ]
+        }
+    },
+
     fr: {
-        title: "Poivrons farcis brésiliens (Brésil, 4 personnes)",
-        equipment: ["1 four", "1 plat allant au four", "1 saladier", "1 cuillère"],
+        title: "Poivrons farcis (Brésil)",
+        equipment: [
+            "1 four",
+            "1 plat allant au four",
+            "1 poêle",
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 cuillère",
+            "1 presse-ail"
+        ],
         ingredients: [
             "4 poivrons moyens",
-            "150 g riz cuit",
-            "50 g maïs",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "150 g de riz cuit",
+            "100 g de maïs",
+            "1 oignon moyen",
+            "1 tomate",
+            "1 gousse d’ail",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à café de paprika",
+            "1/2 cuillère à café de cumin",
+            "Sel",
+            "Poivre",
+            "Persil frais haché"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Couper les chapeaux des poivrons et retirer graines.\n" +
-            "3. Mélanger riz et maïs, saler.\n" +
-            "4. Remplir les poivrons.\n" +
-            "5. Cuire 25 minutes."
+            "2. Laver les poivrons, couper les chapeaux et retirer soigneusement les graines.\n" +
+            "3. Éplucher et hacher l’oignon et l’ail. Couper la tomate en petits dés.\n" +
+            "4. Chauffer l’huile d’olive dans une poêle à feu moyen.\n" +
+            "5. Faire revenir l’oignon et l’ail pendant 3 minutes.\n" +
+            "6. Ajouter la tomate et cuire 5 minutes supplémentaires.\n" +
+            "7. Incorporer le riz cuit, le maïs, le paprika, le cumin, le sel et le poivre.\n" +
+            "8. Mélanger soigneusement puis retirer du feu.\n" +
+            "9. Garnir les poivrons avec la farce.\n" +
+            "10. Déposer les poivrons dans un plat légèrement huilé.\n" +
+            "11. Enfourner pendant 30 minutes jusqu’à ce qu’ils soient tendres.\n" +
+            "12. Parsemer de persil frais avant de servir."
     },
+
     en: {
-        title: "Brazilian Stuffed Peppers (Brazil, Serves 4)",
-        equipment: ["1 oven", "1 baking dish", "1 bowl", "1 spoon"],
+        title: "Stuffed Peppers (Brazil)",
+        equipment: [
+            "1 oven",
+            "1 baking dish",
+            "1 frying pan",
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 spoon",
+            "1 garlic press"
+        ],
         ingredients: [
             "4 medium bell peppers",
             "150 g cooked rice",
-            "50 g corn",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "100 g corn",
+            "1 medium onion",
+            "1 tomato",
+            "1 garlic clove",
+            "2 tablespoons olive oil (30 ml)",
+            "1 teaspoon paprika",
+            "1/2 teaspoon cumin",
+            "Salt",
+            "Black pepper",
+            "Fresh chopped parsley"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Cut tops and remove seeds.\n" +
-            "3. Mix rice and corn, add salt.\n" +
-            "4. Fill peppers.\n" +
-            "5. Bake 25 minutes."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Wash the peppers, cut off the tops and remove the seeds.\n" +
+            "3. Peel and chop the onion and garlic. Dice the tomato.\n" +
+            "4. Heat olive oil in a frying pan over medium heat.\n" +
+            "5. Sauté the onion and garlic for 3 minutes.\n" +
+            "6. Add the tomato and cook for 5 more minutes.\n" +
+            "7. Stir in the cooked rice, corn, paprika, cumin, salt and pepper.\n" +
+            "8. Mix well and remove from heat.\n" +
+            "9. Fill the peppers with the mixture.\n" +
+            "10. Place them in a lightly oiled baking dish.\n" +
+            "11. Bake for 30 minutes until tender.\n" +
+            "12. Sprinkle with fresh parsley before serving."
     },
+
     nl: {
-        title: "Braziliaanse Gevulde Paprika's (Brazilië, voor 4 personen)",
-        equipment: ["1 oven", "1 ovenschaal", "1 kom", "1 lepel"],
+        title: "Gevulde Paprika's (Brazilië)",
+        equipment: [
+            "1 oven",
+            "1 ovenschaal",
+            "1 koekenpan",
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 lepel",
+            "1 knoflookpers"
+        ],
         ingredients: [
             "4 middelgrote paprika's",
             "150 g gekookte rijst",
-            "50 g maïs",
+            "100 g maïs",
+            "1 middelgrote ui",
+            "1 tomaat",
+            "1 teentje knoflook",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 theelepel paprikapoeder",
+            "1/2 theelepel komijn",
+            "Zout",
+            "Zwarte peper",
+            "Verse peterselie, gehakt"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Snijd de bovenkant en verwijder zaden.\n" +
-            "3. Meng rijst en maïs, zout toevoegen.\n" +
-            "4. Vul paprika's.\n" +
-            "5. Bak 25 minuten."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Was de paprika's, snijd de bovenkant af en verwijder de zaden.\n" +
+            "3. Pel en snipper de ui en knoflook. Snijd de tomaat in blokjes.\n" +
+            "4. Verhit de olijfolie in een pan op middelhoog vuur.\n" +
+            "5. Bak de ui en knoflook 3 minuten.\n" +
+            "6. Voeg de tomaat toe en bak nog 5 minuten.\n" +
+            "7. Voeg rijst, maïs en kruiden toe.\n" +
+            "8. Meng goed en haal van het vuur.\n" +
+            "9. Vul de paprika's met het mengsel.\n" +
+            "10. Plaats ze in een licht ingevette ovenschaal.\n" +
+            "11. Bak 30 minuten tot ze zacht zijn.\n" +
+            "12. Bestrooi met verse peterselie voor het serveren."
     },
+
     ar: {
-        title: "فلفل محشي برازيلي (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["فرن", "طبق فرن", "وعاء", "ملعقة"],
+        title: "فلفل محشي (البرازيل)",
+        equipment: [
+            "فرن",
+            "طبق فرن",
+            "مقلاة",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "ملعقة",
+            "عصارة ثوم"
+        ],
         ingredients: [
-            "4 فلفل متوسط",
+            "4 حبات فلفل متوسطة",
             "150 غ أرز مطبوخ",
-            "50 غ ذرة",
+            "100 غ ذرة",
+            "بصلة متوسطة",
+            "حبة طماطم",
+            "فص ثوم",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "ملعقة صغيرة بابريكا",
+            "نصف ملعقة صغيرة كمون",
+            "ملح",
+            "فلفل أسود",
+            "بقدونس طازج مفروم"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الفرن على 180°C.\n" +
-            "2. اقطع القمم وأزل البذور.\n" +
-            "3. اخلط الأرز والذرة وأضف الملح.\n" +
-            "4. احشي الفلفل.\n" +
-            "5. اخبز 25 دقيقة."
+            "1. سخن الفرن على 180 درجة مئوية.\n" +
+            "2. اغسل حبات الفلفل واقطع الجزء العلوي وأزل البذور.\n" +
+            "3. قشر البصل والثوم وافرمهما، وقطع الطماطم إلى مكعبات صغيرة.\n" +
+            "4. سخن زيت الزيتون في مقلاة على نار متوسطة.\n" +
+            "5. أضف البصل والثوم وقلّب لمدة 3 دقائق.\n" +
+            "6. أضف الطماطم واتركها تطهى 5 دقائق.\n" +
+            "7. أضف الأرز والذرة والتوابل والملح والفلفل.\n" +
+            "8. اخلط جيداً ثم ارفع المقلاة عن النار.\n" +
+            "9. احشِ الفلفل بالخليط.\n" +
+            "10. ضع الحبات في طبق مدهون بقليل من الزيت.\n" +
+            "11. أدخل الطبق إلى الفرن لمدة 30 دقيقة حتى ينضج.\n" +
+            "12. زيّن بالبقدونس الطازج قبل التقديم."
     }
 };
-
-recipesData.entree.mango_salsa_usa = {
-    country: "amerique",
-    countryName: "usa",
-    image: "images/mango_salsa_usa.jpg",
-    fr: {
-        title: "Salsa mangue américaine (USA, 4 personnes)",
-        equipment: ["1 bol", "1 couteau", "1 planche à découper", "1 cuillère"],
-        ingredients: [
-            "1 mangue mûre",
-            "1/2 poivron rouge",
-            "1/2 oignon",
-            "1 cuillère à soupe jus de citron (15 ml)",
-            "1/2 cuillère à café sel (1 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper mangue, poivron et oignon en petits dés.\n" +
-            "2. Mélanger avec jus de citron et sel.\n" +
-            "3. Servir frais en accompagnement."
-    },
-    en: {
-        title: "American Mango Salsa (USA, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 spoon"],
-        ingredients: [
-            "1 ripe mango",
-            "1/2 red bell pepper",
-            "1/2 onion",
-            "1 tbsp lemon juice (15 ml)",
-            "1/2 tsp salt (1 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Dice mango, bell pepper and onion.\n" +
-            "2. Mix with lemon juice and salt.\n" +
-            "3. Serve chilled as a side."
-    },
-    nl: {
-        title: "Amerikaanse Mangosalsa (VS, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 lepel"],
-        ingredients: [
-            "1 rijpe mango",
-            "1/2 rode paprika",
-            "1/2 ui",
-            "1 eetlepel citroensap (15 ml)",
-            "1/2 tl zout (1 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd mango, paprika en ui in kleine blokjes.\n" +
-            "2. Meng met citroensap en zout.\n" +
-            "3. Serveer koud als bijgerecht."
-    },
-    ar: {
-        title: "صلصة المانجو الأمريكية (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["وعاء", "سكين", "لوح تقطيع", "ملعقة"],
-        ingredients: [
-            "1 مانجو ناضج",
-            "1/2 فلفل أحمر",
-            "1/2 بصل",
-            "1 ملعقة كبيرة عصير ليمون (15 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع المانجو والفلفل والبصل.\n" +
-            "2. اخلط مع عصير الليمون والملح.\n" +
-            "3. قدمه بارداً كمقبلات."
-    }
-};
-
 recipesData.entree.tropical_fruit_plate_bresil = {
     country: "amerique",
     countryName: "brazil",
-    image: "images/tropical_fruit_plate_bresil.jpg",
+    image: "images/tropical-fruit-plate-brazil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "tropical-fruit-plate-brazil",
+            title: "Assiette de fruits tropicaux (Brésil) – Frais et facile",
+            description: "Découvrez l’assiette de fruits tropicaux du Brésil, une recette fraîche, colorée et légère à base de mangue, ananas et papaye.",
+            keywords: [
+                "recette fruits tropicaux",
+                "assiette fruits bresil",
+                "cuisine bresilienne",
+                "dessert facile",
+                "recette fraiche",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Assiette de fruits tropicaux (Brésil)",
+            "description": "Assiette de fruits tropicaux brésiliens composée de mangue, ananas, papaye et kiwi, idéale en entrée ou dessert léger.",
+            "recipeCuisine": "Brazil",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT0M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "1 mangue mûre",
+                "1/2 ananas frais",
+                "1 kiwi",
+                "1/2 papaye",
+                "1 banane",
+                "1 cuillère à soupe de jus de citron",
+                "Feuilles de menthe fraîche"
+            ],
+            "recipeInstructions": [
+                "Éplucher et couper tous les fruits en morceaux réguliers.",
+                "Disposer harmonieusement sur un grand plat.",
+                "Arroser de jus de citron.",
+                "Décorer avec des feuilles de menthe.",
+                "Servir bien frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Assiette de fruits tropicaux brésilienne (Brésil, 4 personnes)",
-        equipment: ["1 planche à découper", "1 couteau", "1 assiette"],
+        title: "Assiette de fruits tropicaux (Brésil)",
+        equipment: [
+            "1 planche à découper",
+            "1 couteau bien aiguisé",
+            "1 économe",
+            "1 grand plat de service",
+            "1 cuillère à soupe",
+            "1 petit bol"
+        ],
         ingredients: [
-            "1 mangue",
-            "1/2 ananas",
+            "1 mangue mûre",
+            "1/2 ananas frais",
             "1 kiwi",
             "1/2 papaye",
-            "1 cuillère à soupe jus de citron (15 ml)"
+            "1 banane",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "Quelques feuilles de menthe fraîche"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Éplucher et couper tous les fruits.\n" +
-            "2. Disposer sur une assiette.\n" +
-            "3. Arroser de jus de citron.\n" +
-            "4. Servir frais."
+            "1. Éplucher la mangue, la papaye et le kiwi puis les couper en cubes ou en tranches.\n" +
+            "2. Retirer la peau de l’ananas et découper la chair en morceaux réguliers.\n" +
+            "3. Éplucher la banane et la couper en rondelles.\n" +
+            "4. Déposer tous les fruits harmonieusement sur un grand plat de service.\n" +
+            "5. Verser le jus de citron dans un petit bol puis arroser légèrement les fruits.\n" +
+            "6. Ajouter quelques feuilles de menthe pour apporter une touche de fraîcheur.\n" +
+            "7. Réserver au frais jusqu’au moment de servir."
     },
+
     en: {
-        title: "Brazilian Tropical Fruit Plate (Brazil, Serves 4)",
-        equipment: ["1 cutting board", "1 knife", "1 plate"],
+        title: "Tropical Fruit Plate (Brazil)",
+        equipment: [
+            "1 cutting board",
+            "1 sharp knife",
+            "1 peeler",
+            "1 large serving plate",
+            "1 tablespoon",
+            "1 small bowl"
+        ],
         ingredients: [
-            "1 mango",
-            "1/2 pineapple",
+            "1 ripe mango",
+            "1/2 fresh pineapple",
             "1 kiwi",
             "1/2 papaya",
-            "1 tbsp lemon juice (15 ml)"
+            "1 banana",
+            "1 tablespoon lemon juice (15 ml)",
+            "Fresh mint leaves"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Peel and cut all fruits.\n" +
-            "2. Arrange on plate.\n" +
-            "3. Drizzle with lemon juice.\n" +
-            "4. Serve chilled."
+            "1. Peel the mango, papaya, and kiwi, then cut them into cubes or slices.\n" +
+            "2. Remove the pineapple skin and cut the flesh into even pieces.\n" +
+            "3. Peel the banana and slice it into rounds.\n" +
+            "4. Arrange all the fruits nicely on a large serving plate.\n" +
+            "5. Pour the lemon juice into a small bowl and lightly drizzle over the fruits.\n" +
+            "6. Garnish with fresh mint leaves.\n" +
+            "7. Keep refrigerated until ready to serve."
     },
+
     nl: {
-        title: "Braziliaans Tropisch Fruitbord (Brazilië, voor 4 personen)",
-        equipment: ["1 snijplank", "1 mes", "1 bord"],
+        title: "Tropisch Fruitbord (Brazilië)",
+        equipment: [
+            "1 snijplank",
+            "1 scherp mes",
+            "1 dunschiller",
+            "1 grote serveerschaal",
+            "1 eetlepel",
+            "1 klein kommetje"
+        ],
         ingredients: [
-            "1 mango",
-            "1/2 ananas",
+            "1 rijpe mango",
+            "1/2 verse ananas",
             "1 kiwi",
             "1/2 papaja",
-            "1 eetlepel citroensap (15 ml)"
+            "1 banaan",
+            "1 eetlepel citroensap (15 ml)",
+            "Verse muntblaadjes"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Schil en snijd alle vruchten.\n" +
-            "2. Leg op bord.\n" +
-            "3. Besprenkel met citroensap.\n" +
-            "4. Serveer koud."
+            "1. Schil de mango, papaja en kiwi en snijd ze in blokjes of plakjes.\n" +
+            "2. Verwijder de schil van de ananas en snijd het vruchtvlees in gelijke stukken.\n" +
+            "3. Schil de banaan en snijd in plakjes.\n" +
+            "4. Leg alle vruchten mooi op een grote serveerschaal.\n" +
+            "5. Giet het citroensap in een kommetje en besprenkel het fruit licht.\n" +
+            "6. Garneer met verse muntblaadjes.\n" +
+            "7. Zet koel tot het moment van serveren."
     },
+
     ar: {
-        title: "طبق فواكه استوائية برازيلي (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["لوح تقطيع", "سكين", "طبق"],
+        title: "طبق فواكه استوائية (البرازيل)",
+        equipment: [
+            "لوح تقطيع",
+            "سكين حاد",
+            "مقشرة",
+            "طبق تقديم كبير",
+            "ملعقة كبيرة",
+            "وعاء صغير"
+        ],
         ingredients: [
-            "1 مانجو",
-            "1/2 أناناس",
-            "1 كيوي",
-            "1/2 بابايا",
-            "1 ملعقة كبيرة عصير ليمون (15 مل)"
+            "1 حبة مانجو ناضجة",
+            "1/2 حبة أناناس طازج",
+            "1 حبة كيوي",
+            "1/2 حبة بابايا",
+            "1 حبة موز",
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "أوراق نعناع طازجة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قشر وقطع جميع الفواكه.\n" +
-            "2. رتبها في طبق.\n" +
-            "3. رش عصير الليمون.\n" +
-            "4. قدمه بارداً."
+            "1. قشر المانجو والبابايا والكيوي ثم قطّعها إلى مكعبات أو شرائح.\n" +
+            "2. أزل قشرة الأناناس وقطّع اللب إلى قطع متساوية.\n" +
+            "3. قشر الموز وقطّعه إلى دوائر.\n" +
+            "4. رتب جميع الفواكه بشكل جميل في طبق تقديم كبير.\n" +
+            "5. ضع عصير الليمون في وعاء صغير ثم اسكب القليل فوق الفواكه.\n" +
+            "6. زيّن بأوراق النعناع الطازجة.\n" +
+            "7. احفظه في الثلاجة حتى وقت التقديم."
     }
 };
-// 3. Cocktail crevettes à l’ananas (USA)
 recipesData.entree.cocktail_crevettes_ananas_usa = {
     country: "amerique",
     countryName: "usa",
-    image: "images/cocktail_crevettes_ananas_usa.jpg",
+    image: "images/cocktail-crevettes-ananas-usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "cocktail-crevettes-ananas-usa",
+            title: "Cocktail crevettes ananas (USA) – Frais et facile",
+            description: "Découvrez le cocktail de crevettes à l’ananas des USA, une entrée fraîche et légère parfaite pour un repas estival.",
+            keywords: [
+                "cocktail crevettes",
+                "crevettes ananas usa",
+                "recette americaine",
+                "entree fraiche",
+                "recette facile",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Cocktail crevettes ananas (USA)",
+            "description": "Cocktail de crevettes à l’ananas inspiré des USA, frais, léger et idéal en entrée.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT0M",
+            "totalTime": "PT20M",
+            "recipeIngredient": [
+                "200 g de crevettes cuites et décortiquées",
+                "150 g d’ananas frais en dés",
+                "1/2 oignon rouge finement émincé",
+                "1 cuillère à soupe de jus de citron",
+                "2 cuillères à soupe de yaourt nature",
+                "1 cuillère à soupe d’huile d’olive",
+                "Sel",
+                "Poivre",
+                "Quelques feuilles de laitue"
+            ],
+            "recipeInstructions": [
+                "Couper l’ananas en petits dés et émincer l’oignon rouge.",
+                "Mélanger les crevettes, l’ananas et l’oignon.",
+                "Ajouter le jus de citron, le yaourt et l’huile d’olive.",
+                "Assaisonner avec sel et poivre.",
+                "Servir frais sur des feuilles de laitue."
+            ]
+        }
+    },
+
     fr: {
-        title: "Cocktail crevettes à l’ananas américain (USA, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche", "1 cuillère"],
+        title: "Cocktail crevettes ananas (États-Unis)",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère",
+            "1 petit bol",
+            "1 presse-citron"
+        ],
         ingredients: [
-            "200 g crevettes cuites décortiquées",
-            "150 g ananas frais en dés",
+            "200 g de crevettes cuites décortiquées",
+            "150 g d’ananas frais en dés",
             "1/2 oignon rouge",
-            "1 cuillère à soupe jus de citron (15 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "2 cuillères à soupe de yaourt nature",
+            "1 cuillère à soupe d’huile d’olive",
+            "Sel",
+            "Poivre",
+            "Quelques feuilles de laitue"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper ananas et oignon.\n" +
-            "2. Mélanger avec crevettes.\n" +
-            "3. Ajouter jus de citron et sel.\n" +
-            "4. Servir frais."
+            "1. Couper l’ananas en petits dés réguliers.\n" +
+            "2. Éplucher et émincer finement le demi-oignon rouge.\n" +
+            "3. Dans un saladier, déposer les crevettes, l’ananas et l’oignon.\n" +
+            "4. Dans un petit bol, mélanger le jus de citron, le yaourt et l’huile d’olive.\n" +
+            "5. Verser la sauce sur la préparation.\n" +
+            "6. Saler et poivrer selon le goût.\n" +
+            "7. Mélanger délicatement.\n" +
+            "8. Disposer des feuilles de laitue dans des verrines ou assiettes.\n" +
+            "9. Répartir le cocktail par-dessus.\n" +
+            "10. Réserver au frais 15 minutes avant de servir."
     },
+
     en: {
-        title: "American Pineapple Shrimp Cocktail (USA, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 spoon"],
+        title: "Shrimp Pineapple Cocktail (United States)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon",
+            "1 small bowl",
+            "1 lemon squeezer"
+        ],
         ingredients: [
             "200 g cooked peeled shrimp",
             "150 g fresh pineapple, diced",
             "1/2 red onion",
-            "1 tbsp lemon juice (15 ml)",
-            "1/2 tsp salt (1 g)"
+            "1 tablespoon lemon juice (15 ml)",
+            "2 tablespoons plain yogurt",
+            "1 tablespoon olive oil",
+            "Salt",
+            "Black pepper",
+            "Lettuce leaves"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Dice pineapple and onion.\n" +
-            "2. Mix with shrimp.\n" +
-            "3. Add lemon juice and salt.\n" +
-            "4. Serve chilled."
+            "1. Dice the pineapple into small pieces.\n" +
+            "2. Peel and finely slice the red onion.\n" +
+            "3. Place the shrimp, pineapple and onion in a bowl.\n" +
+            "4. In a small bowl, mix lemon juice, yogurt and olive oil.\n" +
+            "5. Pour the dressing over the mixture.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Gently combine everything.\n" +
+            "8. Arrange lettuce leaves in serving glasses or plates.\n" +
+            "9. Spoon the shrimp cocktail on top.\n" +
+            "10. Chill for 15 minutes before serving."
     },
+
     nl: {
-        title: "Garnalencocktail met ananas (VS, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 lepel"],
+        title: "Garnalen ananas cocktail (Verenigde Staten)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel",
+            "1 klein kommetje",
+            "1 citruspers"
+        ],
         ingredients: [
             "200 g gekookte gepelde garnalen",
-            "150 g verse ananas, in blokjes",
+            "150 g verse ananas in blokjes",
             "1/2 rode ui",
-            "1 el citroensap (15 ml)",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel citroensap (15 ml)",
+            "2 eetlepels natuuryoghurt",
+            "1 eetlepel olijfolie",
+            "Zout",
+            "Zwarte peper",
+            "Sla bladeren"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd ananas en ui.\n" +
-            "2. Meng met garnalen.\n" +
-            "3. Voeg citroensap en zout toe.\n" +
-            "4. Serveer koud."
+            "1. Snijd de ananas in kleine blokjes.\n" +
+            "2. Pel en snijd de rode ui fijn.\n" +
+            "3. Doe de garnalen, ananas en ui in een kom.\n" +
+            "4. Meng in een klein kommetje het citroensap, de yoghurt en olijfolie.\n" +
+            "5. Giet de saus over het mengsel.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Meng voorzichtig.\n" +
+            "8. Leg slablaadjes in glazen of op borden.\n" +
+            "9. Verdeel de garnalencocktail erover.\n" +
+            "10. Zet 15 minuten koel voor het serveren."
     },
+
     ar: {
-        title: "كوكتيل الروبيان والأناناس الأمريكي (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة"],
+        title: "كوكتيل الروبيان والأناناس (الولايات المتحدة)",
+        equipment: [
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة",
+            "وعاء صغير",
+            "عصارة ليمون"
+        ],
         ingredients: [
             "200 غ روبيان مطبوخ ومقشر",
-            "150 غ أناناس طازج، مقطع مكعبات",
-            "1/2 بصل أحمر",
+            "150 غ أناناس طازج مقطع مكعبات",
+            "1/2 بصلة حمراء",
             "1 ملعقة كبيرة عصير ليمون (15 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "2 ملعقة كبيرة لبن طبيعي",
+            "1 ملعقة كبيرة زيت زيتون",
+            "ملح",
+            "فلفل أسود",
+            "أوراق خس"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الأناناس والبصل.\n" +
-            "2. اخلط مع الروبيان.\n" +
-            "3. أضف عصير الليمون والملح.\n" +
-            "4. قدمها باردة."
-    }
-};recipesData.entree.ceviche_legumes_perou = {
-    country: "amerique",
-    countryName: "perou",
-    image: "images/ceviche_legumes_perou.jpg",
-    fr: {
-        title: "Ceviche de légumes péruvien (Pérou, 4 personnes)",
-        equipment: ["1 bol", "1 couteau", "1 planche", "1 cuillère"],
-        ingredients: [
-            "1 carotte, coupée en dés",
-            "1 concombre, coupé en dés",
-            "1/2 oignon rouge",
-            "1 cuillère à soupe jus de citron (15 ml)",
-            "1/2 cuillère à café sel (1 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper tous les légumes.\n" +
-            "2. Mélanger avec jus de citron et sel.\n" +
-            "3. Laisser mariner 10 min.\n" +
-            "4. Servir frais."
-    },
-    en: {
-        title: "Peruvian Vegetable Ceviche (Peru, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 spoon"],
-        ingredients: [
-            "1 carrot, diced",
-            "1 cucumber, diced",
-            "1/2 red onion",
-            "1 tbsp lemon juice (15 ml)",
-            "1/2 tsp salt (1 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Dice all vegetables.\n" +
-            "2. Mix with lemon juice and salt.\n" +
-            "3. Marinate 10 min.\n" +
-            "4. Serve chilled."
-    },
-    nl: {
-        title: "Groente Ceviche (Peru, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 lepel"],
-        ingredients: [
-            "1 wortel, in blokjes",
-            "1 komkommer, in blokjes",
-            "1/2 rode ui",
-            "1 el citroensap (15 ml)",
-            "1/2 tl zout (1 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd alle groenten.\n" +
-            "2. Meng met citroensap en zout.\n" +
-            "3. Laat 10 min marineren.\n" +
-            "4. Serveer koud."
-    },
-    ar: {
-        title: "سيفيتشي الخضار البيروفي (بيرو، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة"],
-        ingredients: [
-            "1 جزرة، مقطعة مكعبات",
-            "1 خيار، مقطع مكعبات",
-            "1/2 بصل أحمر",
-            "1 ملعقة كبيرة عصير ليمون (15 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع جميع الخضار.\n" +
-            "2. اخلط مع عصير الليمون والملح.\n" +
-            "3. اتركه 10 دقائق لينقع.\n" +
-            "4. قدمها باردة."
+            "1. قطّع الأناناس إلى مكعبات صغيرة.\n" +
+            "2. قشّر البصل الأحمر وقطّعه شرائح رفيعة.\n" +
+            "3. ضع الروبيان والأناناس والبصل في وعاء.\n" +
+            "4. في وعاء صغير اخلط عصير الليمون واللبن وزيت الزيتون.\n" +
+            "5. اسكب الصلصة فوق المكونات.\n" +
+            "6. أضف الملح والفلفل حسب الرغبة.\n" +
+            "7. اخلط بلطف.\n" +
+            "8. ضع أوراق الخس في أطباق التقديم.\n" +
+            "9. وزّع خليط الروبيان فوقها.\n" +
+            "10. اتركه في الثلاجة 15 دقيقة قبل التقديم."
     }
 };
+recipesData.entree.ceviche_legumes_perou = {
+    country: "amerique",
+    countryName: "perou",
+    image: "images/ceviche-legumes-perou.jpg",
 
-// 8. Salade de tomates et maïs (Chili)
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        marinationTime: 10,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "ceviche-legumes-perou",
+            title: "Ceviche de légumes (Pérou) – Frais et facile",
+            description: "Découvrez le ceviche de légumes du Pérou, une entrée fraîche, citronnée et colorée idéale pour un repas léger.",
+            keywords: [
+                "ceviche legumes",
+                "ceviche perou",
+                "recette peruvienne",
+                "entree fraiche",
+                "recette facile",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Ceviche de légumes (Pérou)",
+            "description": "Ceviche de légumes péruvien frais et citronné à base de légumes croquants et de jus de citron.",
+            "recipeCuisine": "Peru",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT0M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "1 carotte coupée en petits dés",
+                "1 concombre coupé en dés",
+                "1/2 oignon rouge finement émincé",
+                "1 poivron rouge en petits dés",
+                "1 tomate en petits cubes",
+                "2 cuillères à soupe de jus de citron",
+                "1 cuillère à soupe d’huile d’olive",
+                "Sel",
+                "Poivre",
+                "Coriandre fraîche hachée"
+            ],
+            "recipeInstructions": [
+                "Couper tous les légumes en petits dés réguliers.",
+                "Placer les légumes dans un grand bol.",
+                "Ajouter le jus de citron et l’huile d’olive.",
+                "Assaisonner avec sel et poivre.",
+                "Laisser mariner 10 minutes au frais.",
+                "Parsemer de coriandre avant de servir."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Ceviche de légumes (Pérou)",
+        equipment: [
+            "1 grand bol",
+            "1 couteau bien aiguisé",
+            "1 planche à découper",
+            "1 cuillère",
+            "1 presse-citron",
+            "1 saladier de service"
+        ],
+        ingredients: [
+            "1 carotte",
+            "1 concombre",
+            "1/2 oignon rouge",
+            "1 poivron rouge",
+            "1 tomate",
+            "2 cuillères à soupe de jus de citron (30 ml)",
+            "1 cuillère à soupe d’huile d’olive",
+            "Sel",
+            "Poivre",
+            "Coriandre fraîche hachée"
+        ],
+        preparation:
+            "==============================\n" +
+            "PRÉPARATION DES LÉGUMES\n" +
+            "==============================\n\n" +
+            "1. Éplucher la carotte et la couper en petits dés.\n" +
+            "2. Couper le concombre en dés réguliers.\n" +
+            "3. Émincer finement le demi-oignon rouge.\n" +
+            "4. Couper le poivron et la tomate en petits cubes.\n\n" +
+            "==============================\n" +
+            "MARINADE ET REPOS\n" +
+            "==============================\n\n" +
+            "5. Placer tous les légumes dans un grand bol.\n" +
+            "6. Ajouter le jus de citron fraîchement pressé.\n" +
+            "7. Verser l’huile d’olive.\n" +
+            "8. Saler et poivrer selon le goût.\n" +
+            "9. Mélanger délicatement.\n" +
+            "10. Couvrir et laisser mariner 10 minutes au réfrigérateur.\n" +
+            "11. Ajouter la coriandre fraîche avant de servir.\n" +
+            "12. Servir bien frais."
+    },
+
+    en: {
+        title: "Vegetable Ceviche (Peru)",
+        equipment: [
+            "1 large bowl",
+            "1 sharp knife",
+            "1 cutting board",
+            "1 spoon",
+            "1 lemon squeezer",
+            "1 serving bowl"
+        ],
+        ingredients: [
+            "1 carrot",
+            "1 cucumber",
+            "1/2 red onion",
+            "1 red bell pepper",
+            "1 tomato",
+            "2 tablespoons lemon juice (30 ml)",
+            "1 tablespoon olive oil",
+            "Salt",
+            "Black pepper",
+            "Fresh chopped coriander"
+        ],
+        preparation:
+            "==============================\n" +
+            "VEGETABLE PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Peel the carrot and cut into small cubes.\n" +
+            "2. Dice the cucumber evenly.\n" +
+            "3. Thinly slice the red onion.\n" +
+            "4. Cut the bell pepper and tomato into small pieces.\n\n" +
+            "==============================\n" +
+            "MARINATION\n" +
+            "==============================\n\n" +
+            "5. Place all vegetables in a large bowl.\n" +
+            "6. Add freshly squeezed lemon juice.\n" +
+            "7. Pour in the olive oil.\n" +
+            "8. Season with salt and pepper.\n" +
+            "9. Mix gently.\n" +
+            "10. Cover and refrigerate for 10 minutes.\n" +
+            "11. Sprinkle with fresh coriander before serving.\n" +
+            "12. Serve chilled."
+    },
+
+    nl: {
+        title: "Groente Ceviche (Peru)",
+        equipment: [
+            "1 grote kom",
+            "1 scherp mes",
+            "1 snijplank",
+            "1 lepel",
+            "1 citruspers",
+            "1 serveerschaal"
+        ],
+        ingredients: [
+            "1 wortel",
+            "1 komkommer",
+            "1/2 rode ui",
+            "1 rode paprika",
+            "1 tomaat",
+            "2 eetlepels citroensap (30 ml)",
+            "1 eetlepel olijfolie",
+            "Zout",
+            "Zwarte peper",
+            "Verse koriander, gehakt"
+        ],
+        preparation:
+            "==============================\n" +
+            "BEREIDING VAN DE GROENTEN\n" +
+            "==============================\n\n" +
+            "1. Schil de wortel en snijd in kleine blokjes.\n" +
+            "2. Snijd de komkommer in gelijke blokjes.\n" +
+            "3. Snijd de rode ui in dunne reepjes.\n" +
+            "4. Snijd paprika en tomaat in kleine stukjes.\n\n" +
+            "==============================\n" +
+            "MARINEREN\n" +
+            "==============================\n\n" +
+            "5. Doe alle groenten in een grote kom.\n" +
+            "6. Voeg vers citroensap toe.\n" +
+            "7. Voeg de olijfolie toe.\n" +
+            "8. Breng op smaak met zout en peper.\n" +
+            "9. Meng voorzichtig.\n" +
+            "10. Dek af en laat 10 minuten in de koelkast marineren.\n" +
+            "11. Bestrooi met verse koriander voor het serveren.\n" +
+            "12. Serveer koud."
+    },
+
+    ar: {
+        title: "سيفيتشي الخضار (بيرو)",
+        equipment: [
+            "وعاء كبير",
+            "سكين حاد",
+            "لوح تقطيع",
+            "ملعقة",
+            "عصارة ليمون",
+            "طبق تقديم"
+        ],
+        ingredients: [
+            "1 جزرة",
+            "1 خيار",
+            "1/2 بصلة حمراء",
+            "1 فلفل أحمر",
+            "1 حبة طماطم",
+            "2 ملعقة كبيرة عصير ليمون (30 مل)",
+            "1 ملعقة كبيرة زيت زيتون",
+            "ملح",
+            "فلفل أسود",
+            "كزبرة طازجة مفرومة"
+        ],
+        preparation:
+            "==============================\n" +
+            "تحضير الخضار\n" +
+            "==============================\n\n" +
+            "1. قشر الجزرة وقطعها إلى مكعبات صغيرة.\n" +
+            "2. قطع الخيار إلى مكعبات متساوية.\n" +
+            "3. اقطع البصل الأحمر شرائح رفيعة.\n" +
+            "4. قطع الفلفل والطماطم إلى قطع صغيرة.\n\n" +
+            "==============================\n" +
+            "التتبيل والانتظار\n" +
+            "==============================\n\n" +
+            "5. ضع جميع الخضار في وعاء كبير.\n" +
+            "6. أضف عصير الليمون الطازج.\n" +
+            "7. أضف زيت الزيتون.\n" +
+            "8. تبّل بالملح والفلفل حسب الرغبة.\n" +
+            "9. اخلط بلطف.\n" +
+            "10. غطِّ الوعاء واتركه في الثلاجة لمدة 10 دقائق.\n" +
+            "11. أضف الكزبرة الطازجة قبل التقديم.\n" +
+            "12. قدّم بارداً."
+    }
+};
 recipesData.entree.salade_tomates_mais_chili = {
     country: "amerique",
     countryName: "chili",
-    image: "images/salade_tomates_mais_chili.jpg",
+    image: "images/salade-tomates-mais-chili.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-tomates-mais-chili",
+            title: "Salade tomates-maïs (Chili) – Recette facile et fraîche",
+            description: "Découvrez la salade tomates-maïs du Chili, une recette fraîche, colorée et facile à préparer avec des ingrédients simples et savoureux.",
+            keywords: [
+                "recette salade tomates maïs",
+                "salade tomates maïs chili",
+                "cuisine chilienne",
+                "recette entrée facile",
+                "salade fraîche maison",
+                "plat traditionnel chili"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade tomates-maïs (Chili)",
+            "description": "Salade tomates-maïs (Chili), une entrée fraîche et colorée idéale pour accompagner vos repas.",
+            "recipeCuisine": "Chili",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT0M",
+            "totalTime": "PT10M",
+            "recipeIngredient": [
+                "3 tomates mûres coupées en dés",
+                "200 g de maïs cuit et égoutté",
+                "1/2 oignon rouge finement émincé",
+                "2 cuillères à soupe d’huile d’olive",
+                "1 cuillère à soupe de jus de citron",
+                "1 cuillère à soupe de coriandre fraîche hachée",
+                "1/2 cuillère à café de sel",
+                "1 pincée de poivre noir"
+            ],
+            "recipeInstructions": [
+                "Couper les tomates en dés.",
+                "Émincer finement l’oignon rouge.",
+                "Mélanger tomates, maïs et oignon dans un saladier.",
+                "Ajouter l’huile d’olive, le jus de citron et la coriandre.",
+                "Assaisonner avec le sel et le poivre.",
+                "Mélanger délicatement et servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade tomates-maïs chilienne (Chili, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche", "1 cuillère"],
+        title: "Salade tomates-maïs (Chili)",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère en bois",
+            "1 presse-citron"
+        ],
         ingredients: [
-            "2 tomates, coupées en dés",
-            "150 g maïs cuit",
-            "1/2 oignon",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "3 tomates mûres, coupées en dés",
+            "200 g de maïs cuit et égoutté",
+            "1/2 oignon rouge, finement émincé",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1 cuillère à soupe de coriandre fraîche hachée",
+            "1/2 cuillère à café de sel (3 g)",
+            "1 pincée de poivre noir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper tomates et oignon.\n" +
-            "2. Mélanger avec maïs.\n" +
-            "3. Ajouter huile et sel.\n" +
-            "4. Servir frais."
+            "1. Laver soigneusement les tomates.\n" +
+            "2. Les couper en petits dés réguliers.\n" +
+            "3. Éplucher et émincer finement l’oignon rouge.\n" +
+            "4. Égoutter le maïs s’il est en conserve.\n" +
+            "5. Déposer les tomates, le maïs et l’oignon dans un saladier.\n" +
+            "6. Ajouter l’huile d’olive et le jus de citron fraîchement pressé.\n" +
+            "7. Incorporer la coriandre hachée.\n" +
+            "8. Saler et poivrer selon votre goût.\n" +
+            "9. Mélanger délicatement pour ne pas écraser les tomates.\n" +
+            "10. Placer au frais 10 minutes avant de servir."
     },
+
     en: {
-        title: "Chilean Tomato-Corn Salad (Chile, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 spoon"],
+        title: "Tomato-Corn Salad (Chile)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 wooden spoon",
+            "1 citrus juicer"
+        ],
         ingredients: [
-            "2 tomatoes, diced",
-            "150 g cooked corn",
-            "1/2 onion",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "3 ripe tomatoes, diced",
+            "200 g cooked and drained corn",
+            "1/2 red onion, finely sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon lemon juice (15 ml)",
+            "1 tablespoon chopped fresh coriander",
+            "1/2 teaspoon salt (3 g)",
+            "1 pinch black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Dice tomatoes and onion.\n" +
-            "2. Mix with corn.\n" +
-            "3. Add oil and salt.\n" +
-            "4. Serve chilled."
+            "1. Wash the tomatoes thoroughly.\n" +
+            "2. Dice them into small, even cubes.\n" +
+            "3. Peel and finely slice the red onion.\n" +
+            "4. Drain the corn if using canned corn.\n" +
+            "5. Place tomatoes, corn and onion in a bowl.\n" +
+            "6. Add olive oil and freshly squeezed lemon juice.\n" +
+            "7. Stir in the chopped coriander.\n" +
+            "8. Season with salt and black pepper.\n" +
+            "9. Gently mix to avoid crushing the tomatoes.\n" +
+            "10. Chill for 10 minutes before serving."
     },
+
     nl: {
-        title: "Tomaat-Maïs Salade (Chili, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 lepel"],
+        title: "Tomaat-Maïssalade (Chili)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 houten lepel",
+            "1 citruspers"
+        ],
         ingredients: [
-            "2 tomaten, in blokjes",
-            "150 g gekookte maïs",
-            "1/2 ui",
+            "3 rijpe tomaten, in blokjes",
+            "200 g gekookte en uitgelekte maïs",
+            "1/2 rode ui, fijn gesneden",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel citroensap (15 ml)",
+            "1 eetlepel fijngehakte verse koriander",
+            "1/2 theelepel zout (3 g)",
+            "1 snufje zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd tomaten en ui.\n" +
-            "2. Meng met maïs.\n" +
-            "3. Voeg olie en zout toe.\n" +
-            "4. Serveer koud."
+            "1. Was de tomaten grondig.\n" +
+            "2. Snijd ze in kleine blokjes.\n" +
+            "3. Pel en snijd de rode ui fijn.\n" +
+            "4. Laat de maïs uitlekken indien nodig.\n" +
+            "5. Doe tomaten, maïs en ui in een kom.\n" +
+            "6. Voeg olijfolie en vers citroensap toe.\n" +
+            "7. Meng de gehakte koriander erdoor.\n" +
+            "8. Breng op smaak met zout en peper.\n" +
+            "9. Meng voorzichtig zodat de tomaten heel blijven.\n" +
+            "10. Zet 10 minuten koel voor het serveren."
     },
+
     ar: {
-        title: "سلطة الطماطم والذرة التشيلية (تشيلي، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة"],
+        title: "سلطة الطماطم والذرة (تشيلي)",
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة خشبية",
+            "عصارة ليمون"
+        ],
         ingredients: [
-            "2 طماطم، مقطعة مكعبات",
-            "150 غ ذرة مطبوخة",
-            "1/2 بصل",
+            "3 حبات طماطم ناضجة، مقطعة مكعبات",
+            "200 غ ذرة مطبوخة ومصفاة",
+            "1/2 بصلة حمراء، مفرومة ناعماً",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "رشة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الطماطم والبصل.\n" +
-            "2. اخلط مع الذرة.\n" +
-            "3. أضف الزيت والملح.\n" +
-            "4. قدمها باردة."
+            "1. اغسل الطماطم جيداً.\n" +
+            "2. قطعها إلى مكعبات صغيرة.\n" +
+            "3. قشر البصل الأحمر وافرمه ناعماً.\n" +
+            "4. صفِّ الذرة جيداً إذا كانت معلبة.\n" +
+            "5. ضع الطماطم والذرة والبصل في وعاء.\n" +
+            "6. أضف زيت الزيتون وعصير الليمون الطازج.\n" +
+            "7. أضف الكزبرة المفرومة.\n" +
+            "8. تبّل بالملح والفلفل حسب الذوق.\n" +
+            "9. اخلط بلطف حتى لا تتفتت الطماطم.\n" +
+            "10. ضعها في الثلاجة لمدة 10 دقائق قبل التقديم."
     }
 };
 recipesData.entree.salade_patate_douce_haricot_portorico = {
     country: "amerique",
     countryName: "porto_rico",
-    image: "images/salade_patate_douce_haricot_portorico.jpg",
+    image: "images/salade-patate-douce-haricot-portorico.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-patate-douce-haricot-porto-rico",
+            title: "Salade patate douce-haricots (Porto Rico) – Recette facile",
+            description: "Découvrez la salade patate douce et haricots rouges de Porto Rico, une recette colorée, nourrissante et facile à préparer pour toute la famille.",
+            keywords: [
+                "recette salade patate douce",
+                "salade haricots rouges porto rico",
+                "cuisine porto ricaine",
+                "recette entree facile",
+                "salade froide maison",
+                "plat traditionnel porto rico"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade patate douce-haricots (Porto Rico)",
+            "description": "Salade patate douce-haricots (Porto Rico), une entrée colorée et savoureuse parfaite pour un repas léger.",
+            "recipeCuisine": "Porto Rico",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT20M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "300 g de patate douce",
+                "200 g de haricots rouges cuits et égouttés",
+                "1/2 oignon rouge finement émincé",
+                "2 cuillères à soupe d’huile d’olive",
+                "1 cuillère à soupe de jus de citron",
+                "1 cuillère à soupe de coriandre fraîche hachée",
+                "1/2 cuillère à café de sel",
+                "1 pincée de poivre noir"
+            ],
+            "recipeInstructions": [
+                "Éplucher et couper la patate douce en dés.",
+                "Cuire les dés 15 à 20 minutes dans l’eau bouillante puis égoutter.",
+                "Laisser refroidir complètement.",
+                "Mélanger patate douce, haricots rouges et oignon.",
+                "Ajouter huile d’olive, jus de citron et coriandre.",
+                "Assaisonner, mélanger délicatement et servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade patate douce-haricots rouges portoricaine (Porto Rico, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche", "1 cuillère"],
+        title: "Salade patate douce-haricots (Porto Rico)",
+        equipment: [
+            "1 casserole",
+            "1 passoire",
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 presse-citron"
+        ],
         ingredients: [
-            "200 g patate douce cuite, en dés",
-            "150 g haricots rouges cuits",
-            "1/2 oignon",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "300 g de patate douce, coupée en dés",
+            "200 g de haricots rouges cuits et égouttés",
+            "1/2 oignon rouge, finement émincé",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1 cuillère à soupe de coriandre fraîche hachée",
+            "1/2 cuillère à café de sel (3 g)",
+            "1 pincée de poivre noir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger patate douce, haricots et oignon.\n" +
-            "2. Ajouter huile et sel.\n" +
-            "3. Servir frais."
+            "1. Éplucher la patate douce et la couper en petits dés réguliers.\n" +
+            "2. Porter une casserole d’eau à ébullition.\n" +
+            "3. Plonger les dés de patate douce et cuire 15 à 20 minutes jusqu’à tendreté.\n" +
+            "4. Égoutter soigneusement et laisser refroidir complètement.\n" +
+            "5. Émincer finement l’oignon rouge.\n" +
+            "6. Rincer et égoutter les haricots rouges si nécessaire.\n" +
+            "7. Déposer la patate douce refroidie, les haricots et l’oignon dans un saladier.\n" +
+            "8. Ajouter l’huile d’olive et le jus de citron fraîchement pressé.\n" +
+            "9. Incorporer la coriandre hachée.\n" +
+            "10. Saler, poivrer et mélanger délicatement.\n" +
+            "11. Placer au frais 10 minutes avant de servir."
     },
+
     en: {
-        title: "Puerto Rican Sweet Potato-Red Bean Salad (Puerto Rico, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 spoon"],
+        title: "Sweet Potato-Red Bean Salad (Puerto Rico)",
+        equipment: [
+            "1 saucepan",
+            "1 strainer",
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 citrus juicer"
+        ],
         ingredients: [
-            "200 g cooked sweet potato, diced",
-            "150 g cooked red beans",
-            "1/2 onion",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "300 g sweet potato, diced",
+            "200 g cooked and drained red beans",
+            "1/2 red onion, finely sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon lemon juice (15 ml)",
+            "1 tablespoon chopped fresh coriander",
+            "1/2 teaspoon salt (3 g)",
+            "1 pinch black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mix sweet potato, beans, and onion.\n" +
-            "2. Add oil and salt.\n" +
-            "3. Serve chilled."
+            "1. Peel the sweet potato and cut into small cubes.\n" +
+            "2. Bring a saucepan of water to a boil.\n" +
+            "3. Cook the sweet potato cubes for 15–20 minutes until tender.\n" +
+            "4. Drain well and allow to cool completely.\n" +
+            "5. Finely slice the red onion.\n" +
+            "6. Rinse and drain the red beans if needed.\n" +
+            "7. Combine sweet potato, beans and onion in a bowl.\n" +
+            "8. Add olive oil and freshly squeezed lemon juice.\n" +
+            "9. Stir in chopped coriander.\n" +
+            "10. Season with salt and pepper.\n" +
+            "11. Mix gently and chill for 10 minutes before serving."
     },
+
     nl: {
-        title: "Zoete Aardappel-Rode Bonen Salade (Puerto Rico, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 lepel"],
+        title: "Zoete Aardappel-Rode Bonensalade (Puerto Rico)",
+        equipment: [
+            "1 kookpan",
+            "1 vergiet",
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 citruspers"
+        ],
         ingredients: [
-            "200 g gekookte zoete aardappel, in blokjes",
-            "150 g gekookte rode bonen",
-            "1/2 ui",
+            "300 g zoete aardappel, in blokjes",
+            "200 g gekookte en uitgelekte rode bonen",
+            "1/2 rode ui, fijn gesneden",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel citroensap (15 ml)",
+            "1 eetlepel fijngehakte verse koriander",
+            "1/2 theelepel zout (3 g)",
+            "1 snufje zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng zoete aardappel, bonen en ui.\n" +
-            "2. Voeg olie en zout toe.\n" +
-            "3. Serveer koud."
+            "1. Schil de zoete aardappel en snijd in kleine blokjes.\n" +
+            "2. Breng een pan water aan de kook.\n" +
+            "3. Kook de blokjes 15–20 minuten tot ze zacht zijn.\n" +
+            "4. Giet af en laat volledig afkoelen.\n" +
+            "5. Snijd de rode ui fijn.\n" +
+            "6. Spoel en laat de bonen uitlekken indien nodig.\n" +
+            "7. Meng zoete aardappel, bonen en ui in een kom.\n" +
+            "8. Voeg olijfolie en vers citroensap toe.\n" +
+            "9. Meng de koriander erdoor.\n" +
+            "10. Breng op smaak met zout en peper.\n" +
+            "11. Meng voorzichtig en laat 10 minuten koelen voor het serveren."
     },
+
     ar: {
-        title: "سلطة البطاطا الحلوة والفاصوليا الحمراء البورتوريكية (بورتو ريكو، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة"],
+        title: "سلطة البطاطا الحلوة والفاصوليا (بورتو ريكو)",
+        equipment: [
+            "قدر",
+            "مصفاة",
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "عصارة ليمون"
+        ],
         ingredients: [
-            "200 غ بطاطا حلوة مطبوخة، مقطعة مكعبات",
-            "150 غ فاصوليا حمراء مطبوخة",
-            "1/2 بصل",
+            "300 غ بطاطا حلوة، مقطعة مكعبات",
+            "200 غ فاصوليا حمراء مطبوخة ومصفاة",
+            "1/2 بصلة حمراء مفرومة ناعماً",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "رشة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط البطاطا الحلوة والفاصوليا والبصل.\n" +
-            "2. أضف الزيت والملح.\n" +
-            "3. قدمها باردة."
+            "1. قشّر البطاطا الحلوة وقطعها إلى مكعبات صغيرة.\n" +
+            "2. اغْلِ الماء في قدر.\n" +
+            "3. اطهِ البطاطا الحلوة لمدة 15 إلى 20 دقيقة حتى تصبح طرية.\n" +
+            "4. صفِّها واتركها تبرد تماماً.\n" +
+            "5. افرم البصل الأحمر ناعماً.\n" +
+            "6. اغسل الفاصوليا وصفِّها إذا لزم الأمر.\n" +
+            "7. ضع البطاطا الحلوة والفاصوليا والبصل في وعاء.\n" +
+            "8. أضف زيت الزيتون وعصير الليمون الطازج.\n" +
+            "9. أضف الكزبرة المفرومة.\n" +
+            "10. تبّل بالملح والفلفل حسب الذوق.\n" +
+            "11. اخلط بلطف وضعها في الثلاجة لمدة 10 دقائق قبل التقديم."
     }
 };
 recipesData.entree.salade_legumes_grilles_colombie = {
     country: "amerique",
     countryName: "colombie",
     image: "images/salade_legumes_grilles_colombie.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-legumes-grilles-colombie",
+            title: "Salade de légumes grillés (Colombie) – Recette facile",
+            description: "Découvrez la salade de légumes grillés, une spécialité colorée de Colombie, simple à préparer et parfaite pour un repas léger et savoureux.",
+            keywords: [
+                "recette salade legumes",
+                "salade legumes grilles colombie",
+                "cuisine colombienne",
+                "entree facile",
+                "plat traditionnel colombie",
+                "salade maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade de légumes grillés (Colombie)",
+            "description": "Salade de légumes grillés inspirée de la cuisine colombienne, fraîche, colorée et facile à préparer.",
+            "recipeCuisine": "Colombie",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT15M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "1 courgette tranchée",
+                "1 poivron rouge tranché",
+                "1 aubergine tranchée",
+                "1 oignon rouge émincé",
+                "2 cuillères à soupe d’huile d’olive",
+                "1 cuillère à soupe de jus de citron frais",
+                "1 cuillère à soupe de coriandre fraîche hachée",
+                "1/2 cuillère à café de sel",
+                "1/4 cuillère à café de poivre noir"
+            ],
+            "recipeInstructions": [
+                "Laver et couper tous les légumes.",
+                "Chauffer une poêle avec l’huile d’olive.",
+                "Faire griller les légumes 10 à 15 minutes.",
+                "Laisser tiédir.",
+                "Ajouter le jus de citron et la coriandre.",
+                "Mélanger et servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade de légumes grillés colombienne (Colombie, 4 personnes)",
-        equipment: ["1 saladier", "1 poêle", "1 couteau", "1 planche", "1 cuillère"],
+        title: "Salade de légumes grillés (Colombie)",
+        equipment: [
+            "1 saladier",
+            "1 grande poêle ou poêle grill",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 pince de cuisine",
+            "1 presse-citron"
+        ],
         ingredients: [
-            "1 courgette, tranchée",
+            "1 courgette moyenne, tranchée",
             "1 poivron rouge, tranché",
-            "1 aubergine, tranchée",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "1 aubergine moyenne, tranchée",
+            "1 oignon rouge, émincé",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de jus de citron frais (15 ml)",
+            "1 cuillère à soupe de coriandre fraîche hachée",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre noir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire griller tous les légumes à la poêle avec huile et sel.\n" +
-            "2. Laisser refroidir.\n" +
-            "3. Mélanger dans un saladier.\n" +
-            "4. Servir frais."
+            "1. Laver soigneusement tous les légumes.\n" +
+            "2. Couper la courgette, l’aubergine et le poivron en tranches régulières.\n" +
+            "3. Émincer finement l’oignon rouge.\n" +
+            "4. Chauffer une grande poêle avec l’huile d’olive à feu moyen.\n" +
+            "5. Ajouter les légumes en une seule couche.\n" +
+            "6. Faire griller 10 à 15 minutes en retournant régulièrement jusqu’à ce qu’ils soient tendres et légèrement dorés.\n" +
+            "7. Saler et poivrer pendant la cuisson.\n" +
+            "8. Retirer du feu et laisser tiédir.\n" +
+            "9. Déposer les légumes dans un saladier.\n" +
+            "10. Ajouter le jus de citron frais et la coriandre hachée.\n" +
+            "11. Mélanger délicatement.\n" +
+            "12. Servir frais en entrée ou en accompagnement."
     },
+
     en: {
-        title: "Colombian Grilled Vegetable Salad (Colombia, Serves 4)",
-        equipment: ["1 bowl", "1 pan", "1 knife", "1 cutting board", "1 spoon"],
+        title: "Grilled Vegetable Salad (Colombia)",
+        equipment: [
+            "1 large bowl",
+            "1 large pan or grill pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 kitchen tongs",
+            "1 citrus juicer"
+        ],
         ingredients: [
-            "1 zucchini, sliced",
+            "1 medium zucchini, sliced",
             "1 red bell pepper, sliced",
-            "1 eggplant, sliced",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "1 medium eggplant, sliced",
+            "1 red onion, thinly sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon fresh lemon juice (15 ml)",
+            "1 tablespoon chopped fresh coriander",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Grill all vegetables in pan with oil and salt.\n" +
-            "2. Cool.\n" +
-            "3. Mix in a bowl.\n" +
-            "4. Serve chilled."
+            "1. Wash all the vegetables thoroughly.\n" +
+            "2. Slice the zucchini, eggplant and bell pepper evenly.\n" +
+            "3. Thinly slice the red onion.\n" +
+            "4. Heat a large pan with olive oil over medium heat.\n" +
+            "5. Add the vegetables in a single layer.\n" +
+            "6. Grill for 10 to 15 minutes, turning regularly until tender and lightly golden.\n" +
+            "7. Season with salt and pepper while cooking.\n" +
+            "8. Remove from heat and let cool slightly.\n" +
+            "9. Transfer to a large bowl.\n" +
+            "10. Add fresh lemon juice and chopped coriander.\n" +
+            "11. Toss gently to combine.\n" +
+            "12. Serve chilled as a starter or side dish."
     },
+
     nl: {
-        title: "Gegrilde Groentesalade (Colombia, voor 4 personen)",
-        equipment: ["1 kom", "1 pan", "1 mes", "1 snijplank", "1 lepel"],
+        title: "Gegrilde Groentesalade (Colombia)",
+        equipment: [
+            "1 grote kom",
+            "1 grote pan of grillpan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 keukentang",
+            "1 citruspers"
+        ],
         ingredients: [
-            "1 courgette, in plakjes",
+            "1 middelgrote courgette, in plakjes",
             "1 rode paprika, in plakjes",
-            "1 aubergine, in plakjes",
+            "1 middelgrote aubergine, in plakjes",
+            "1 rode ui, fijn gesneden",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel vers citroensap (15 ml)",
+            "1 eetlepel fijngehakte verse koriander",
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Grill alle groenten in pan met olie en zout.\n" +
-            "2. Laat afkoelen.\n" +
-            "3. Meng in een kom.\n" +
-            "4. Serveer koud."
+            "1. Was alle groenten grondig.\n" +
+            "2. Snijd de courgette, aubergine en paprika in gelijke plakjes.\n" +
+            "3. Snijd de rode ui fijn.\n" +
+            "4. Verhit een grote pan met olijfolie op middelhoog vuur.\n" +
+            "5. Leg de groenten in één laag in de pan.\n" +
+            "6. Grill 10 tot 15 minuten en draai regelmatig om tot ze zacht en goudbruin zijn.\n" +
+            "7. Breng tijdens het bakken op smaak met zout en peper.\n" +
+            "8. Haal van het vuur en laat iets afkoelen.\n" +
+            "9. Doe de groenten in een grote kom.\n" +
+            "10. Voeg citroensap en koriander toe.\n" +
+            "11. Meng voorzichtig.\n" +
+            "12. Serveer koud als voorgerecht of bijgerecht."
     },
+
     ar: {
-        title: "سلطة الخضار المشوية الكولومبية (كولومبيا، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 مقلاة", "1 سكين", "1 لوح تقطيع", "1 ملعقة"],
+        title: "سلطة الخضار المشوية (كولومبيا)",
+        equipment: [
+            "وعاء كبير",
+            "مقلاة كبيرة أو مقلاة شواء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "ملقط مطبخ",
+            "عصارة ليمون"
+        ],
         ingredients: [
-            "1 كوسة، مقطعة شرائح",
-            "1 فلفل أحمر، مقطع شرائح",
-            "1 باذنجان، مقطع شرائح",
+            "1 حبة كوسة متوسطة، مقطعة شرائح",
+            "1 حبة فلفل أحمر، مقطعة شرائح",
+            "1 حبة باذنجان متوسطة، مقطعة شرائح",
+            "1 بصلة حمراء، مقطعة رفيعاً",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ملعقة كبيرة عصير ليمون طازج (15 مل)",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اشوي جميع الخضار في المقلاة مع الزيت والملح.\n" +
-            "2. دعها تبرد.\n" +
-            "3. اخلطها في وعاء.\n" +
-            "4. قدمها باردة."
+            "1. اغسل جميع الخضار جيداً.\n" +
+            "2. قطّع الكوسة والباذنجان والفلفل إلى شرائح متساوية.\n" +
+            "3. قطّع البصل الأحمر إلى شرائح رفيعة.\n" +
+            "4. سخّن مقلاة كبيرة مع زيت الزيتون على نار متوسطة.\n" +
+            "5. أضف الخضار في طبقة واحدة.\n" +
+            "6. اشوِ لمدة 10 إلى 15 دقيقة مع التقليب حتى تصبح طرية وذهبية اللون.\n" +
+            "7. أضف الملح والفلفل أثناء الطهي.\n" +
+            "8. ارفعها عن النار واتركها تبرد قليلاً.\n" +
+            "9. ضع الخضار في وعاء كبير.\n" +
+            "10. أضف عصير الليمون والكزبرة المفرومة.\n" +
+            "11. اخلط برفق.\n" +
+            "12. قدّمها باردة كمقبلات أو طبق جانبي."
     }
 };
 recipesData.entree.salade_haricot_noir_mais_bresil = {
     country: "amerique",
     countryName: "bresil",
     image: "images/salade_haricot_noir_mais_bresil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 5,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-haricot-noir-mais-bresil",
+            title: "Salade haricots noirs maïs (Brésil) – Facile",
+            description: "Découvrez la salade haricots noirs et maïs du Brésil, une entrée fraîche, colorée et rapide à préparer pour un repas léger et savoureux.",
+            keywords: [
+                "recette salade haricot noir",
+                "salade mais bresil",
+                "cuisine bresilienne",
+                "entree facile",
+                "salade fraiche",
+                "recette bresil"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade haricots noirs maïs (Brésil)",
+            "description": "Salade fraîche de haricots noirs et maïs inspirée de la cuisine du Brésil, simple et rapide à préparer.",
+            "recipeCuisine": "Brésil",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT5M",
+            "totalTime": "PT20M",
+            "recipeIngredient": [
+                "150 g haricots noirs cuits",
+                "150 g maïs cuit",
+                "1 poivron rouge en dés",
+                "1/2 oignon rouge émincé",
+                "2 cuillères à soupe huile d’olive",
+                "1 cuillère à soupe jus de citron",
+                "1/2 cuillère à café sel",
+                "1/4 cuillère à café poivre"
+            ],
+            "recipeInstructions": [
+                "Rincer et égoutter les haricots noirs et le maïs.",
+                "Couper le poivron et l’oignon.",
+                "Mélanger tous les ingrédients dans un saladier.",
+                "Assaisonner avec huile, citron, sel et poivre.",
+                "Servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade haricots noirs-maïs brésilienne (Brésil, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche", "1 cuillère"],
+        title: "Salade haricots noirs maïs (Brésil)",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 presse-citron"
+        ],
         ingredients: [
-            "150 g haricots noirs cuits",
-            "150 g maïs cuit",
-            "1 poivron rouge, coupé en dés",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "150 g de haricots noirs cuits et égouttés",
+            "150 g de maïs cuit et égoutté",
+            "1 poivron rouge, coupé en petits dés",
+            "1/2 oignon rouge, finement émincé",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de jus de citron frais (15 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre noir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger haricots, maïs et poivron.\n" +
-            "2. Ajouter huile et sel.\n" +
-            "3. Servir frais."
+            "1. Rincer et égoutter soigneusement les haricots noirs et le maïs.\n" +
+            "2. Laver le poivron puis le couper en petits dés.\n" +
+            "3. Émincer finement l’oignon rouge.\n" +
+            "4. Mettre les haricots, le maïs, le poivron et l’oignon dans un saladier.\n" +
+            "5. Ajouter l’huile d’olive et le jus de citron.\n" +
+            "6. Saler et poivrer selon votre goût.\n" +
+            "7. Mélanger délicatement pour ne pas écraser les haricots.\n" +
+            "8. Réserver au frais 10 minutes avant de servir."
     },
+
     en: {
-        title: "Brazilian Black Bean-Corn Salad (Brazil, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 spoon"],
+        title: "Black Bean Corn Salad (Brazil)",
+        equipment: [
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 strainer",
+            "1 citrus juicer"
+        ],
         ingredients: [
-            "150 g cooked black beans",
-            "150 g cooked corn",
+            "150 g cooked and drained black beans",
+            "150 g cooked and drained corn",
             "1 red bell pepper, diced",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "1/2 red onion, thinly sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon fresh lemon juice (15 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mix beans, corn, and pepper.\n" +
-            "2. Add oil and salt.\n" +
-            "3. Serve chilled."
+            "1. Rinse and drain the black beans and corn thoroughly.\n" +
+            "2. Wash and dice the red bell pepper.\n" +
+            "3. Thinly slice the red onion.\n" +
+            "4. Place beans, corn, pepper and onion in a large bowl.\n" +
+            "5. Add olive oil and fresh lemon juice.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Toss gently to combine.\n" +
+            "8. Chill for 10 minutes before serving."
     },
+
     nl: {
-        title: "Zwarte Bonen-Maïs Salade (Brazilië, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 lepel"],
+        title: "Zwarte Bonen Maïs Salade (Brazilië)",
+        equipment: [
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 citruspers"
+        ],
         ingredients: [
-            "150 g gekookte zwarte bonen",
-            "150 g gekookte maïs",
+            "150 g gekookte en uitgelekte zwarte bonen",
+            "150 g gekookte en uitgelekte maïs",
             "1 rode paprika, in blokjes",
+            "1/2 rode ui, fijn gesneden",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel vers citroensap (15 ml)",
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng bonen, maïs en paprika.\n" +
-            "2. Voeg olie en zout toe.\n" +
-            "3. Serveer koud."
+            "1. Spoel en laat de zwarte bonen en maïs goed uitlekken.\n" +
+            "2. Was en snijd de paprika in kleine blokjes.\n" +
+            "3. Snijd de rode ui fijn.\n" +
+            "4. Doe bonen, maïs, paprika en ui in een grote kom.\n" +
+            "5. Voeg olijfolie en citroensap toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Meng voorzichtig.\n" +
+            "8. Laat 10 minuten in de koelkast rusten voor het serveren."
     },
+
     ar: {
-        title: "سلطة الفاصوليا السوداء والذرة البرازيلية (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة"],
+        title: "سلطة الفاصوليا السوداء والذرة (البرازيل)",
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مصفاة",
+            "عصارة ليمون"
+        ],
         ingredients: [
-            "150 غ فاصوليا سوداء مطبوخة",
-            "150 غ ذرة مطبوخة",
-            "1 فلفل أحمر، مقطع مكعبات",
+            "150 غ فاصوليا سوداء مطبوخة ومصفاة",
+            "150 غ ذرة مطبوخة ومصفاة",
+            "1 فلفل أحمر مقطع مكعبات",
+            "1/2 بصلة حمراء مفرومة ناعماً",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ملعقة كبيرة عصير ليمون طازج (15 مل)",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط الفاصوليا والذرة والفلفل.\n" +
-            "2. أضف الزيت والملح.\n" +
-            "3. قدمها باردة."
+            "1. اغسل الفاصوليا السوداء والذرة وصفِّهما جيداً.\n" +
+            "2. قطّع الفلفل الأحمر إلى مكعبات صغيرة.\n" +
+            "3. افرم البصل الأحمر ناعماً.\n" +
+            "4. ضع جميع المكونات في وعاء كبير.\n" +
+            "5. أضف زيت الزيتون وعصير الليمون.\n" +
+            "6. أضف الملح والفلفل حسب الرغبة.\n" +
+            "7. اخلط برفق.\n" +
+            "8. ضعها في الثلاجة لمدة 10 دقائق قبل التقديم."
     }
 };
+
 recipesData.entree.salade_patate_douce_mais_mexique = {
     country: "amerique",
     countryName: "mexique",
     image: "images/salade_patate_douce_mais_mexique.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-patate-douce-mais-mexique",
+            title: "Salade patate douce maïs (Mexique) – Facile",
+            description: "Savourez la salade patate douce et maïs du Mexique, une entrée colorée, douce et légèrement relevée, parfaite pour un repas équilibré.",
+            keywords: [
+                "recette patate douce mexique",
+                "salade mais mexique",
+                "cuisine mexicaine",
+                "entree facile",
+                "salade patate douce",
+                "recette mexique"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade patate douce maïs (Mexique)",
+            "description": "Salade de patate douce et maïs inspirée de la cuisine du Mexique, colorée et simple à préparer.",
+            "recipeCuisine": "Mexique",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT20M",
+            "totalTime": "PT40M",
+            "recipeIngredient": [
+                "200 g patate douce en dés",
+                "150 g maïs cuit",
+                "1/2 oignon rouge",
+                "2 cuillères à soupe huile d’olive",
+                "1 cuillère à soupe jus de citron",
+                "1/2 cuillère à café sel",
+                "1/4 cuillère à café poivre",
+                "1 cuillère à soupe coriandre fraîche"
+            ],
+            "recipeInstructions": [
+                "Cuire la patate douce en dés 15 à 20 minutes.",
+                "Égoutter et laisser refroidir.",
+                "Couper l’oignon finement.",
+                "Mélanger patate douce, maïs et oignon.",
+                "Assaisonner avec huile, citron, sel et poivre.",
+                "Servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade patate douce-maïs mexicaine (Mexique, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche", "1 cuillère"],
+        title: "Salade patate douce maïs (Mexique)",
+        equipment: [
+            "1 saladier",
+            "1 casserole",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 presse-citron"
+        ],
         ingredients: [
-            "200 g patate douce cuite, en dés",
-            "150 g maïs cuit",
-            "1/2 oignon",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "200 g de patate douce, coupée en dés",
+            "150 g de maïs cuit et égoutté",
+            "1/2 oignon rouge, finement émincé",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de jus de citron frais (15 ml)",
+            "1 cuillère à soupe de coriandre fraîche hachée",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre noir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger patate douce, maïs et oignon.\n" +
-            "2. Ajouter huile et sel.\n" +
-            "3. Servir frais."
+            "1. Éplucher la patate douce et la couper en petits dés réguliers.\n" +
+            "2. Porter une casserole d’eau à ébullition.\n" +
+            "3. Cuire les dés de patate douce pendant 15 à 20 minutes jusqu’à ce qu’ils soient tendres.\n" +
+            "4. Égoutter et laisser refroidir complètement.\n" +
+            "5. Émincer finement l’oignon rouge.\n" +
+            "6. Mettre la patate douce refroidie, le maïs et l’oignon dans un saladier.\n" +
+            "7. Ajouter l’huile d’olive et le jus de citron.\n" +
+            "8. Ajouter la coriandre, le sel et le poivre.\n" +
+            "9. Mélanger délicatement.\n" +
+            "10. Réserver au frais avant de servir."
     },
+
     en: {
-        title: "Mexican Sweet Potato-Corn Salad (Mexico, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 spoon"],
+        title: "Sweet Potato Corn Salad (Mexico)",
+        equipment: [
+            "1 large bowl",
+            "1 saucepan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 strainer",
+            "1 citrus juicer"
+        ],
         ingredients: [
-            "200 g cooked sweet potato, diced",
-            "150 g cooked corn",
-            "1/2 onion",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "200 g sweet potato, diced",
+            "150 g cooked and drained corn",
+            "1/2 red onion, thinly sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon fresh lemon juice (15 ml)",
+            "1 tablespoon chopped fresh coriander",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mix sweet potato, corn, and onion.\n" +
-            "2. Add oil and salt.\n" +
-            "3. Serve chilled."
+            "1. Peel and dice the sweet potato evenly.\n" +
+            "2. Bring a saucepan of water to a boil.\n" +
+            "3. Cook the sweet potato cubes for 15 to 20 minutes until tender.\n" +
+            "4. Drain and let cool completely.\n" +
+            "5. Thinly slice the red onion.\n" +
+            "6. Combine sweet potato, corn and onion in a large bowl.\n" +
+            "7. Add olive oil and lemon juice.\n" +
+            "8. Add coriander, salt and pepper.\n" +
+            "9. Toss gently.\n" +
+            "10. Chill before serving."
     },
+
     nl: {
-        title: "Zoete Aardappel-Maïs Salade (Mexico, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 lepel"],
+        title: "Zoete Aardappel Maïs Salade (Mexico)",
+        equipment: [
+            "1 grote kom",
+            "1 kookpan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 citruspers"
+        ],
         ingredients: [
-            "200 g gekookte zoete aardappel, in blokjes",
-            "150 g gekookte maïs",
-            "1/2 ui",
+            "200 g zoete aardappel, in blokjes",
+            "150 g gekookte en uitgelekte maïs",
+            "1/2 rode ui, fijn gesneden",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel vers citroensap (15 ml)",
+            "1 eetlepel fijngehakte verse koriander",
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng zoete aardappel, maïs en ui.\n" +
-            "2. Voeg olie en zout toe.\n" +
-            "3. Serveer koud."
+            "1. Schil en snijd de zoete aardappel in gelijke blokjes.\n" +
+            "2. Breng een pan met water aan de kook.\n" +
+            "3. Kook de blokjes 15 tot 20 minuten tot ze zacht zijn.\n" +
+            "4. Laat uitlekken en volledig afkoelen.\n" +
+            "5. Snijd de rode ui fijn.\n" +
+            "6. Meng zoete aardappel, maïs en ui in een grote kom.\n" +
+            "7. Voeg olijfolie en citroensap toe.\n" +
+            "8. Voeg koriander, zout en peper toe.\n" +
+            "9. Meng voorzichtig.\n" +
+            "10. Laat in de koelkast rusten voor het serveren."
     },
+
     ar: {
-        title: "سلطة البطاطا الحلوة والذرة المكسيكية (المكسيك، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة"],
+        title: "سلطة البطاطا الحلوة والذرة (المكسيك)",
+        equipment: [
+            "وعاء كبير",
+            "قدر",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مصفاة",
+            "عصارة ليمون"
+        ],
         ingredients: [
-            "200 غ بطاطا حلوة مطبوخة، مقطعة مكعبات",
-            "150 غ ذرة مطبوخة",
-            "1/2 بصل",
+            "200 غ بطاطا حلوة مقطعة مكعبات",
+            "150 غ ذرة مطبوخة ومصفاة",
+            "1/2 بصلة حمراء مفرومة ناعماً",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ملعقة كبيرة عصير ليمون طازج (15 مل)",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة",
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط البطاطا الحلوة والذرة والبصل.\n" +
-            "2. أضف الزيت والملح.\n" +
-            "3. قدمها باردة."
+            "1. قشر البطاطا الحلوة وقطّعها إلى مكعبات متساوية.\n" +
+            "2. اغْلِ قدراً من الماء.\n" +
+            "3. اطهِ المكعبات لمدة 15 إلى 20 دقيقة حتى تصبح طرية.\n" +
+            "4. صفِّها واتركها تبرد تماماً.\n" +
+            "5. افرم البصل الأحمر ناعماً.\n" +
+            "6. ضع البطاطا والذرة والبصل في وعاء كبير.\n" +
+            "7. أضف زيت الزيتون وعصير الليمون.\n" +
+            "8. أضف الكزبرة والملح والفلفل.\n" +
+            "9. اخلط برفق.\n" +
+            "10. ضعها في الثلاجة قبل التقديم."
     }
 };
 recipesData.entree.salade_pois_chiches_tomates_venezuela = {
     country: "amerique",
     countryName: "venezuela",
     image: "images/salade_pois_chiches_tomates_venezuela.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-pois-chiches-tomates-venezuela",
+            title: "Salade pois chiches-tomates (Venezuela) – Recette facile",
+            description: "Découvrez la salade pois chiches-tomates du Venezuela, une entrée fraîche et colorée, simple à préparer et parfaite pour un repas léger.",
+            keywords: [
+                "recette salade pois chiches",
+                "salade pois chiches venezuela",
+                "cuisine venezuela",
+                "entree facile",
+                "salade traditionnelle",
+                "recette maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade pois chiches-tomates (Venezuela)",
+            "description": "Salade pois chiches-tomates fraîche et légère inspirée du Venezuela.",
+            "recipeCuisine": "Venezuela",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT0M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "150 g pois chiches cuits",
+                "2 tomates",
+                "1/2 oignon rouge",
+                "2 cuillères à soupe huile d’olive",
+                "1 cuillère à soupe jus de citron",
+                "1/2 cuillère à café sel",
+                "1 pincée de poivre",
+                "1 cuillère à soupe coriandre fraîche hachée"
+            ],
+            "recipeInstructions": [
+                "Couper les tomates en dés.",
+                "Émincer finement l’oignon rouge.",
+                "Mélanger les pois chiches, les tomates et l’oignon.",
+                "Ajouter l’huile d’olive et le jus de citron.",
+                "Assaisonner avec le sel et le poivre.",
+                "Ajouter la coriandre et mélanger avant de servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade pois chiches-tomates vénézuélienne (Venezuela, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche", "1 cuillère"],
+        title: "Salade pois chiches-tomates (Venezuela)",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère à café",
+            "1 presse-citron"
+        ],
         ingredients: [
-            "150 g pois chiches cuits",
-            "2 tomates, coupées en dés",
-            "1/2 oignon",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "150 g de pois chiches cuits et égouttés",
+            "2 tomates mûres, coupées en dés",
+            "1/2 oignon rouge, finement émincé",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de jus de citron frais",
+            "1/2 cuillère à café de sel (2 g)",
+            "1 pincée de poivre",
+            "1 cuillère à soupe de coriandre fraîche hachée"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger pois chiches, tomates et oignon.\n" +
-            "2. Ajouter huile et sel.\n" +
-            "3. Servir frais."
+            "1. Rincer et égoutter les pois chiches si nécessaire.\n" +
+            "2. Couper les tomates en petits dés réguliers.\n" +
+            "3. Émincer très finement l’oignon rouge.\n" +
+            "4. Presser le citron pour en extraire le jus.\n" +
+            "5. Dans un saladier, mélanger les pois chiches, les tomates et l’oignon.\n" +
+            "6. Ajouter l’huile d’olive et le jus de citron.\n" +
+            "7. Saler, poivrer et ajouter la coriandre hachée.\n" +
+            "8. Mélanger délicatement et laisser reposer 10 minutes au frais avant de servir."
     },
+
     en: {
-        title: "Venezuelan Chickpea-Tomato Salad (Venezuela, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 spoon"],
+        title: "Chickpea Tomato Salad (Venezuela)",
+        equipment: [
+            "1 mixing bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 teaspoon",
+            "1 citrus juicer"
+        ],
         ingredients: [
-            "150 g cooked chickpeas",
-            "2 tomatoes, diced",
-            "1/2 onion",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "150 g cooked and drained chickpeas",
+            "2 ripe tomatoes, diced",
+            "1/2 red onion, finely sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon fresh lemon juice",
+            "1/2 teaspoon salt",
+            "1 pinch black pepper",
+            "1 tablespoon chopped fresh coriander"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mix chickpeas, tomatoes, and onion.\n" +
-            "2. Add oil and salt.\n" +
-            "3. Serve chilled."
+            "1. Rinse and drain the chickpeas if needed.\n" +
+            "2. Dice the tomatoes into small even cubes.\n" +
+            "3. Finely slice the red onion.\n" +
+            "4. Squeeze the lemon to extract the juice.\n" +
+            "5. In a bowl, combine chickpeas, tomatoes and onion.\n" +
+            "6. Add olive oil and lemon juice.\n" +
+            "7. Season with salt and pepper and add coriander.\n" +
+            "8. Toss gently and chill for 10 minutes before serving."
     },
+
     nl: {
-        title: "Kikkererwten-Tomaat Salade (Venezuela, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 lepel"],
+        title: "Kikkererwten-Tomaatsalade (Venezuela)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 theelepel",
+            "1 citruspers"
+        ],
         ingredients: [
-            "150 g gekookte kikkererwten",
-            "2 tomaten, in blokjes",
-            "1/2 ui",
+            "150 g gekookte en uitgelekte kikkererwten",
+            "2 rijpe tomaten, in blokjes",
+            "1/2 rode ui, fijn gesneden",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel vers citroensap",
+            "1/2 theelepel zout",
+            "1 snuf zwarte peper",
+            "1 eetlepel fijngehakte verse koriander"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng kikkererwten, tomaten en ui.\n" +
-            "2. Voeg olie en zout toe.\n" +
-            "3. Serveer koud."
+            "1. Spoel en laat de kikkererwten uitlekken.\n" +
+            "2. Snijd de tomaten in kleine blokjes.\n" +
+            "3. Snijd de rode ui zeer fijn.\n" +
+            "4. Pers de citroen uit.\n" +
+            "5. Meng kikkererwten, tomaten en ui in een kom.\n" +
+            "6. Voeg olijfolie en citroensap toe.\n" +
+            "7. Breng op smaak met zout en peper en voeg koriander toe.\n" +
+            "8. Meng voorzichtig en laat 10 minuten rusten in de koelkast."
     },
+
     ar: {
-        title: "سلطة الحمص والطماطم الفنزويلية (فنزويلا، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة"],
+        title: "سلطة الحمص والطماطم (فنزويلا)",
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة",
+            "عصارة ليمون"
+        ],
         ingredients: [
-            "150 غ حمص مطبوخ",
-            "2 طماطم، مقطعة مكعبات",
-            "1/2 بصل",
+            "150 غ حمص مطبوخ ومصفى",
+            "2 حبة طماطم ناضجة مقطعة مكعبات",
+            "1/2 بصلة حمراء مفرومة ناعماً",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ملعقة كبيرة عصير ليمون طازج",
+            "1/2 ملعقة صغيرة ملح",
+            "رشة فلفل أسود",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط الحمص والطماطم والبصل.\n" +
-            "2. أضف الزيت والملح.\n" +
-            "3. قدمها باردة."
+            "1. اغسل الحمص وصفّه جيداً.\n" +
+            "2. قطّع الطماطم إلى مكعبات صغيرة.\n" +
+            "3. افرم البصل الأحمر ناعماً.\n" +
+            "4. اعصر الليمون لاستخراج العصير.\n" +
+            "5. في وعاء، اخلط الحمص والطماطم والبصل.\n" +
+            "6. أضف زيت الزيتون وعصير الليمون.\n" +
+            "7. أضف الملح والفلفل والكزبرة.\n" +
+            "8. اخلط برفق واتركها تبرد لمدة 10 دقائق قبل التقديم."
     }
 };
 recipesData.entree.salade_avocat_tomates_costarica = {
     country: "amerique",
     countryName: "costa_rica",
     image: "images/salade_avocat_tomates_costarica.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-avocat-tomates-costa-rica",
+            title: "Salade avocat-tomates (Costa Rica) – Fraîche et facile",
+            description: "Savourez la salade avocat-tomates du Costa Rica, une entrée fraîche, colorée et rapide à préparer pour un repas léger et équilibré.",
+            keywords: [
+                "recette salade avocat",
+                "salade avocat costa rica",
+                "cuisine costa rica",
+                "entree fraiche",
+                "salade traditionnelle",
+                "recette facile maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade avocat-tomates (Costa Rica)",
+            "description": "Salade avocat-tomates fraîche et simple inspirée du Costa Rica.",
+            "recipeCuisine": "Costa Rica",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT0M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "2 avocats",
+                "2 tomates",
+                "1/2 oignon rouge",
+                "2 cuillères à soupe huile d’olive",
+                "1 cuillère à soupe jus de citron",
+                "1/2 cuillère à café sel",
+                "1 pincée de poivre",
+                "1 cuillère à soupe coriandre fraîche"
+            ],
+            "recipeInstructions": [
+                "Couper les avocats et les tomates en dés.",
+                "Émincer finement l’oignon.",
+                "Mélanger tous les ingrédients dans un saladier.",
+                "Ajouter l’huile et le jus de citron.",
+                "Assaisonner et servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade avocat-tomates costaricienne (Costa Rica, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche", "1 cuillère"],
+        title: "Salade avocat-tomates (Costa Rica)",
+        equipment: [
+            "1 saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère à café",
+            "1 presse-citron"
+        ],
         ingredients: [
-            "2 avocats, coupés en dés",
-            "2 tomates, coupées en dés",
-            "1/2 oignon",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "2 avocats mûrs, coupés en dés",
+            "2 tomates mûres, coupées en dés",
+            "1/2 oignon rouge, finement émincé",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à soupe de jus de citron frais",
+            "1/2 cuillère à café de sel (2 g)",
+            "1 pincée de poivre",
+            "1 cuillère à soupe de coriandre fraîche hachée"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger avocats, tomates et oignon.\n" +
-            "2. Ajouter huile et sel.\n" +
-            "3. Servir frais."
+            "1. Couper les avocats en deux, retirer le noyau et détailler la chair en dés.\n" +
+            "2. Couper les tomates en petits morceaux réguliers.\n" +
+            "3. Émincer finement l’oignon rouge.\n" +
+            "4. Presser le citron pour obtenir le jus.\n" +
+            "5. Mélanger délicatement les avocats, les tomates et l’oignon dans un saladier.\n" +
+            "6. Ajouter l’huile d’olive et le jus de citron.\n" +
+            "7. Saler, poivrer et ajouter la coriandre.\n" +
+            "8. Mélanger doucement pour ne pas écraser l’avocat et servir immédiatement."
     },
+
     en: {
-        title: "Costa Rican Avocado-Tomato Salad (Costa Rica, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 spoon"],
+        title: "Avocado Tomato Salad (Costa Rica)",
+        equipment: [
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 teaspoon",
+            "1 citrus juicer"
+        ],
         ingredients: [
-            "2 avocados, diced",
-            "2 tomatoes, diced",
-            "1/2 onion",
-            "2 tbsp olive oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "2 ripe avocados, diced",
+            "2 ripe tomatoes, diced",
+            "1/2 red onion, finely sliced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 tablespoon fresh lemon juice",
+            "1/2 teaspoon salt",
+            "1 pinch black pepper",
+            "1 tablespoon chopped fresh coriander"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mix avocados, tomatoes, and onion.\n" +
-            "2. Add oil and salt.\n" +
-            "3. Serve chilled."
+            "1. Cut the avocados in half, remove the pit and dice the flesh.\n" +
+            "2. Dice the tomatoes into small pieces.\n" +
+            "3. Finely slice the red onion.\n" +
+            "4. Squeeze the lemon to extract the juice.\n" +
+            "5. Gently combine avocados, tomatoes and onion in a bowl.\n" +
+            "6. Add olive oil and lemon juice.\n" +
+            "7. Season with salt, pepper and coriander.\n" +
+            "8. Toss carefully to avoid mashing the avocado and serve immediately."
     },
+
     nl: {
-        title: "Avocado-Tomaat Salade (Costa Rica, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 lepel"],
+        title: "Avocado-Tomaatsalade (Costa Rica)",
+        equipment: [
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 theelepel",
+            "1 citruspers"
+        ],
         ingredients: [
-            "2 avocado's, in blokjes",
-            "2 tomaten, in blokjes",
-            "1/2 ui",
+            "2 rijpe avocado’s, in blokjes",
+            "2 rijpe tomaten, in blokjes",
+            "1/2 rode ui, fijn gesneden",
             "2 eetlepels olijfolie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel vers citroensap",
+            "1/2 theelepel zout",
+            "1 snuf zwarte peper",
+            "1 eetlepel fijngehakte verse koriander"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng avocado's, tomaten en ui.\n" +
-            "2. Voeg olie en zout toe.\n" +
-            "3. Serveer koud."
+            "1. Halveer de avocado’s, verwijder de pit en snijd het vruchtvlees in blokjes.\n" +
+            "2. Snijd de tomaten in kleine stukjes.\n" +
+            "3. Snijd de rode ui zeer fijn.\n" +
+            "4. Pers de citroen uit.\n" +
+            "5. Meng avocado, tomaten en ui voorzichtig in een kom.\n" +
+            "6. Voeg olijfolie en citroensap toe.\n" +
+            "7. Breng op smaak met zout, peper en koriander.\n" +
+            "8. Meng voorzichtig en serveer direct."
     },
+
     ar: {
-        title: "سلطة الأفوكادو والطماطم الكوستاريكية (كوستاريكا، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة"],
+        title: "سلطة الأفوكادو والطماطم (كوستاريكا)",
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة",
+            "عصارة ليمون"
+        ],
         ingredients: [
-            "2 أفوكادو، مقطع مكعبات",
-            "2 طماطم، مقطعة مكعبات",
-            "1/2 بصل",
+            "2 حبة أفوكادو ناضجة مقطعة مكعبات",
+            "2 حبة طماطم ناضجة مقطعة مكعبات",
+            "1/2 بصلة حمراء مفرومة ناعماً",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ملعقة كبيرة عصير ليمون طازج",
+            "1/2 ملعقة صغيرة ملح",
+            "رشة فلفل أسود",
+            "1 ملعقة كبيرة كزبرة طازجة مفرومة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط الأفوكادو والطماطم والبصل.\n" +
-            "2. أضف الزيت والملح.\n" +
-            "3. قدمها باردة."
+            "1. اقطع الأفوكادو إلى نصفين وأزل النواة ثم قطّعه مكعبات.\n" +
+            "2. قطّع الطماطم إلى مكعبات صغيرة.\n" +
+            "3. افرم البصل الأحمر ناعماً.\n" +
+            "4. اعصر الليمون لاستخراج العصير.\n" +
+            "5. اخلط الأفوكادو والطماطم والبصل برفق في وعاء.\n" +
+            "6. أضف زيت الزيتون وعصير الليمون.\n" +
+            "7. أضف الملح والفلفل والكزبرة.\n" +
+            "8. اخلط بلطف حتى لا يتهرس الأفوكادو وقدّمها فوراً."
     }
 };
-// 1. Poulet à la mexicaine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 recipesData.plat.poulet_mexique = {
     country: "amerique",
     countryName: "mexique",
