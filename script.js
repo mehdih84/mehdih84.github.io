@@ -76113,7 +76113,10 @@ applyTranslations(currentLang);
 
 }
 /* --------- INITIALISATION --------- */
-const savedLang = localStorage.getItem("language") || "fr";
-setLanguage(savedLang);
 
-setCountry("all");
+document.addEventListener("DOMContentLoaded", () => {
+    const savedLang = localStorage.getItem("language") || "fr";
+    setLanguage(savedLang);
+    setCountry("all");
+});
+
