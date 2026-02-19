@@ -76113,5 +76113,7 @@ applyTranslations(currentLang);
 
 }
 /* --------- INITIALISATION --------- */
-setLanguage("fr");
+const savedLang = localStorage.getItem("language") || "fr";
+setLanguage(savedLang);
+
 setCountry("all");
