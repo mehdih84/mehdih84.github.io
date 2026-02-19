@@ -75141,7 +75141,7 @@ recipesData.plat.riz_saute_scampi = {
 recipesData.plat.riz_saute_poulet = {
     country: "asie",
     countryName: "chine",
-    image: "images/riz_saute_poulet.jpg",
+    image: "images/riz-saute-poulet-2.jpg",
 
     meta: {
         servings: 4,
