@@ -66107,2204 +66107,3938 @@ recipesData.entree.salade_avocat_tomates_costarica = {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 recipesData.plat.poulet_mexique = {
     country: "amerique",
     countryName: "mexique",
-    image: "images/poulet_mexique.jpg",
+    image: "images/poulet-mexique.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "poulet-mexique",
+            title: "Poulet à la mexicaine (Mexique) – Recette facile",
+            description: "Découvrez comment préparer le Poulet à la mexicaine, une spécialité traditionnelle du Mexique, savoureuse et simple à réaliser à la maison.",
+            keywords: [
+                "recette poulet mexicain",
+                "poulet mexique facile",
+                "cuisine mexique",
+                "plat traditionnel mexicain",
+                "recette poulet poivrons",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Poulet à la mexicaine (Mexique)",
+            "description": "Poulet à la mexicaine savoureux aux poivrons et tomates, inspiré de la cuisine traditionnelle du Mexique.",
+            "recipeCuisine": "Mexique",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT20M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "500 g de blancs de poulet",
+                "1 poivron rouge",
+                "1 poivron vert",
+                "1 oignon",
+                "2 tomates",
+                "2 cuillères à soupe d’huile d’olive",
+                "1 cuillère à café de paprika",
+                "1/2 cuillère à café de cumin",
+                "1/2 cuillère à café de sel",
+                "1/4 cuillère à café de poivre",
+                "1 gousse d’ail"
+            ],
+            "recipeInstructions": [
+                "Couper le poulet en morceaux.",
+                "Émincer l’oignon et couper les poivrons en lanières.",
+                "Faire revenir l’oignon et l’ail dans l’huile chaude.",
+                "Ajouter le poulet et cuire jusqu’à coloration.",
+                "Incorporer les poivrons et les tomates.",
+                "Ajouter les épices et laisser mijoter 10 minutes.",
+                "Servir chaud avec du riz ou des tortillas."
+            ]
+        }
+    },
+
     fr: {
-        title: "Poulet à la mexicaine (Mexique, 4 personnes)",
-        equipment: ["1 grande poêle", "1 couteau", "1 planche", "1 cuillère en bois"],
+        title: "Poulet à la mexicaine (Mexique)",
+        equipment: [
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 bol",
+            "1 presse-ail"
+        ],
         ingredients: [
-            "500 g blancs de poulet",
-            "1 poivron rouge, coupé en lanières",
-            "1 oignon, émincé",
-            "2 tomates, coupées en dés",
-            "2 cuillères à soupe huile d’olive (30 ml)",
-            "1 cuillère à café paprika (2 g)",
-            "1/2 cuillère à café sel (1 g)"
+            "500 g de blancs de poulet coupés en morceaux",
+            "1 poivron rouge coupé en lanières",
+            "1 poivron vert coupé en lanières",
+            "1 oignon émincé",
+            "2 tomates coupées en dés",
+            "1 gousse d’ail hachée",
+            "2 cuillères à soupe d’huile d’olive (30 ml)",
+            "1 cuillère à café de paprika (2 g)",
+            "1/2 cuillère à café de cumin (1 g)",
+            "1/2 cuillère à café de sel (1 g)",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire chauffer l’huile dans la poêle.\n" +
-            "2. Ajouter oignon et poivron, faire revenir 5 minutes.\n" +
-            "3. Ajouter le poulet et cuire jusqu’à doré.\n" +
-            "4. Ajouter tomates et épices, cuire 10 minutes.\n" +
-            "5. Servir chaud avec du riz ou tortillas."
+            "1. Couper les blancs de poulet en morceaux réguliers.\n" +
+            "2. Émincer l’oignon, hacher l’ail et couper les poivrons en lanières.\n" +
+            "3. Faire chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "4. Ajouter l’oignon et l’ail, puis faire revenir 3 à 4 minutes jusqu’à ce qu’ils deviennent translucides.\n" +
+            "5. Ajouter le poulet et cuire 6 à 8 minutes jusqu’à ce qu’il soit bien doré.\n" +
+            "6. Incorporer les poivrons et poursuivre la cuisson 5 minutes en remuant.\n" +
+            "7. Ajouter les tomates, le paprika, le cumin, le sel et le poivre.\n" +
+            "8. Mélanger soigneusement et laisser mijoter 10 minutes à feu doux.\n" +
+            "9. Servir chaud avec du riz blanc ou des tortillas."
     },
+
     en: {
-        title: "Mexican Chicken (Mexico, Serves 4)",
-        equipment: ["1 large pan", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Mexican Chicken (Mexico)",
+        equipment: [
+            "1 large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 bowl",
+            "1 garlic press"
+        ],
         ingredients: [
-            "500 g chicken breasts",
-            "1 red bell pepper, sliced",
-            "1 onion, sliced",
-            "2 tomatoes, diced",
-            "2 tbsp olive oil (30 ml)",
-            "1 tsp paprika (2 g)",
-            "1/2 tsp salt (1 g)"
+            "500 g chicken breasts cut into pieces",
+            "1 red bell pepper sliced",
+            "1 green bell pepper sliced",
+            "1 onion sliced",
+            "2 tomatoes diced",
+            "1 garlic clove minced",
+            "2 tablespoons olive oil (30 ml)",
+            "1 teaspoon paprika (2 g)",
+            "1/2 teaspoon cumin (1 g)",
+            "1/2 teaspoon salt (1 g)",
+            "1/4 teaspoon black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in pan.\n" +
-            "2. Add onion and pepper, sauté 5 minutes.\n" +
-            "3. Add chicken and cook until golden.\n" +
-            "4. Add tomatoes and spices, cook 10 minutes.\n" +
-            "5. Serve hot with rice or tortillas."
+            "1. Cut the chicken breasts into even pieces.\n" +
+            "2. Slice the onion, mince the garlic, and cut the peppers into strips.\n" +
+            "3. Heat the olive oil in a large pan over medium heat.\n" +
+            "4. Add the onion and garlic and sauté for 3 to 4 minutes until soft.\n" +
+            "5. Add the chicken and cook for 6 to 8 minutes until golden.\n" +
+            "6. Stir in the peppers and cook for another 5 minutes.\n" +
+            "7. Add the tomatoes, paprika, cumin, salt, and pepper.\n" +
+            "8. Mix well and simmer for 10 minutes on low heat.\n" +
+            "9. Serve hot with rice or tortillas."
     },
+
     nl: {
-        title: "Mexicaanse Kip (Mexico, voor 4 personen)",
-        equipment: ["1 grote pan", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Mexicaanse Kip (Mexico)",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 kom",
+            "1 knoflookpers"
+        ],
         ingredients: [
-            "500 g kipfilet",
-            "1 rode paprika, in reepjes",
-            "1 ui, gesneden",
-            "2 tomaten, in blokjes",
+            "500 g kipfilet in stukken",
+            "1 rode paprika in reepjes",
+            "1 groene paprika in reepjes",
+            "1 ui gesneden",
+            "2 tomaten in blokjes",
+            "1 teentje knoflook fijngehakt",
             "2 eetlepels olijfolie (30 ml)",
-            "1 tl paprika (2 g)",
-            "1/2 tl zout (1 g)"
+            "1 theelepel paprikapoeder (2 g)",
+            "1/2 theelepel komijn (1 g)",
+            "1/2 theelepel zout (1 g)",
+            "1/4 theelepel zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan.\n" +
-            "2. Voeg ui en paprika toe, bak 5 minuten.\n" +
-            "3. Voeg kip toe en bak goudbruin.\n" +
-            "4. Voeg tomaten en kruiden toe, bak 10 minuten.\n" +
-            "5. Serveer heet met rijst of tortilla's."
+            "1. Snijd de kipfilet in gelijke stukken.\n" +
+            "2. Snijd de ui, hak de knoflook en snijd de paprika’s in reepjes.\n" +
+            "3. Verhit de olijfolie in een grote pan op middelhoog vuur.\n" +
+            "4. Voeg ui en knoflook toe en bak 3 tot 4 minuten.\n" +
+            "5. Voeg de kip toe en bak 6 tot 8 minuten goudbruin.\n" +
+            "6. Voeg de paprika’s toe en bak nog 5 minuten.\n" +
+            "7. Voeg tomaten, paprikapoeder, komijn, zout en peper toe.\n" +
+            "8. Meng goed en laat 10 minuten zachtjes sudderen.\n" +
+            "9. Serveer warm met rijst of tortilla’s."
     },
+
     ar: {
-        title: "الدجاج المكسيكي (المكسيك، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة كبيرة", "1 سكين", "1 لوح تقطيع", "1 ملعقة خشبية"],
+        title: "الدجاج المكسيكي (المكسيك)",
+        equipment: [
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء",
+            "أداة هرس الثوم"
+        ],
         ingredients: [
-            "500 غ صدور دجاج",
-            "1 فلفل أحمر، مقطع شرائح",
-            "1 بصل، مقطع شرائح",
-            "2 طماطم، مقطعة مكعبات",
+            "500 غ صدور دجاج مقطعة قطع",
+            "1 فلفل أحمر مقطع شرائح",
+            "1 فلفل أخضر مقطع شرائح",
+            "1 بصلة مقطعة",
+            "2 طماطم مقطعة مكعبات",
+            "1 فص ثوم مفروم",
             "2 ملعقة كبيرة زيت زيتون (30 مل)",
             "1 ملعقة صغيرة بابريكا (2 غ)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة كمون (1 غ)",
+            "1/2 ملعقة صغيرة ملح (1 غ)",
+            "1/4 ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت في المقلاة.\n" +
-            "2. أضف البصل والفلفل، قلب 5 دقائق.\n" +
-            "3. أضف الدجاج واطبخ حتى يتحمر.\n" +
-            "4. أضف الطماطم والتوابل، اطبخ 10 دقائق.\n" +
-            "5. قدمه ساخناً مع الأرز أو التورتيلا."
-    }
-};
-
-// 2. Riz sauté aux crevettes (USA)
-recipesData.plat.riz_sauté_crevettes_usa = {
-    country: "amerique",
-    countryName: "usa",
-    image: "images/riz_sauté_crevettes_usa.jpg",
-    fr: {
-        title: "Riz sauté aux crevettes (USA, 4 personnes)",
-        equipment: ["1 grande poêle", "1 couteau", "1 planche", "1 cuillère en bois"],
-        ingredients: [
-            "300 g riz cuit",
-            "200 g crevettes décortiquées",
-            "1 carotte, coupée en dés",
-            "1 oignon, émincé",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire chauffer l’huile dans la poêle.\n" +
-            "2. Ajouter oignon et carotte, faire revenir 5 minutes.\n" +
-            "3. Ajouter crevettes et cuire 5 minutes.\n" +
-            "4. Ajouter riz et sel, mélanger et chauffer 5 minutes.\n" +
-            "5. Servir chaud."
-    },
-    en: {
-        title: "Shrimp Fried Rice (USA, Serves 4)",
-        equipment: ["1 large pan", "1 knife", "1 cutting board", "1 wooden spoon"],
-        ingredients: [
-            "300 g cooked rice",
-            "200 g peeled shrimp",
-            "1 carrot, diced",
-            "1 onion, sliced",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in pan.\n" +
-            "2. Add onion and carrot, sauté 5 minutes.\n" +
-            "3. Add shrimp, cook 5 minutes.\n" +
-            "4. Add rice and salt, mix and heat 5 minutes.\n" +
-            "5. Serve hot."
-    },
-    nl: {
-        title: "Gebakken Rijst met Garnalen (VS, voor 4 personen)",
-        equipment: ["1 grote pan", "1 mes", "1 snijplank", "1 houten lepel"],
-        ingredients: [
-            "300 g gekookte rijst",
-            "200 g gepelde garnalen",
-            "1 wortel, in blokjes",
-            "1 ui, gesneden",
-            "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan.\n" +
-            "2. Voeg ui en wortel toe, bak 5 minuten.\n" +
-            "3. Voeg garnalen toe, bak 5 minuten.\n" +
-            "4. Voeg rijst en zout toe, meng en verwarm 5 minuten.\n" +
-            "5. Serveer heet."
-    },
-    ar: {
-        title: "أرز مقلي بالروبيان (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة كبيرة", "1 سكين", "1 لوح تقطيع", "1 ملعقة خشبية"],
-        ingredients: [
-            "300 غ أرز مطبوخ",
-            "200 غ روبيان مقشر",
-            "1 جزرة، مقطعة مكعبات",
-            "1 بصل، مقطع شرائح",
-            "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت في المقلاة.\n" +
-            "2. أضف البصل والجزر، قلب 5 دقائق.\n" +
-            "3. أضف الروبيان، اطبخ 5 دقائق.\n" +
-            "4. أضف الأرز والملح، اخلط وسخن 5 دقائق.\n" +
-            "5. قدمه ساخناً."
+            "1. قطّع صدور الدجاج إلى قطع متساوية.\n" +
+            "2. قطّع البصل وافرُم الثوم وقطّع الفلفل إلى شرائح.\n" +
+            "3. سخّن زيت الزيتون في مقلاة كبيرة على نار متوسطة.\n" +
+            "4. أضف البصل والثوم وقلّب لمدة 3 إلى 4 دقائق.\n" +
+            "5. أضف الدجاج واطهه لمدة 6 إلى 8 دقائق حتى يتحمر.\n" +
+            "6. أضف الفلفل واطهه 5 دقائق إضافية.\n" +
+            "7. أضف الطماطم والبابريكا والكمون والملح والفلفل.\n" +
+            "8. اخلط جيداً واتركه يطهى على نار هادئة 10 دقائق.\n" +
+            "9. قدّمه ساخناً مع الأرز أو خبز التورتيلا."
     }
 };
 recipesData.plat.feijoada_bresil = {
     country: "amerique",
     countryName: "bresil",
-    image: "images/feijoada_bresil.jpg",
+    image: "images/feijoada-bresil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy",
+        seo: {
+            slug: "feijoada-vegetarienne-bresil",
+            title: "Feijoada végétarienne (Brésil) – Recette facile",
+            description: "Découvrez la Feijoada végétarienne, version savoureuse et traditionnelle du Brésil, préparée avec des haricots noirs et des légumes simples.",
+            keywords: [
+                "feijoada vegetarienne",
+                "recette feijoada bresil",
+                "cuisine bresilienne",
+                "plat traditionnel bresilien",
+                "haricots noirs recette",
+                "recette facile"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Feijoada végétarienne (Brésil)",
+            "description": "Feijoada végétarienne inspirée du Brésil, mijotée avec haricots noirs, légumes et épices douces.",
+            "recipeCuisine": "Brésil",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT30M",
+            "totalTime": "PT45M",
+            "recipeIngredient": [
+                "400 g de haricots noirs cuits",
+                "1 poivron vert",
+                "1 poivron rouge",
+                "1 oignon",
+                "2 tomates",
+                "2 gousses d’ail",
+                "2 cuillères à soupe d’huile végétale",
+                "1/2 cuillère à café de paprika",
+                "1/2 cuillère à café de cumin",
+                "1/2 cuillère à café de sel",
+                "1/4 cuillère à café de poivre"
+            ],
+            "recipeInstructions": [
+                "Émincer l’oignon, l’ail et les poivrons.",
+                "Faire revenir l’oignon et l’ail dans l’huile chaude.",
+                "Ajouter les poivrons et cuire 5 minutes.",
+                "Incorporer les tomates et les haricots noirs.",
+                "Ajouter les épices et laisser mijoter 20 minutes.",
+                "Servir chaud avec du riz blanc."
+            ]
+        }
+    },
+
     fr: {
-        title: "Feijoada végétarienne (Brésil, 4 personnes)",
-        equipment: ["1 grande casserole", "1 couteau", "1 planche", "1 cuillère en bois"],
+        title: "Feijoada végétarienne (Brésil)",
+        equipment: [
+            "1 grande casserole",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 bol"
+        ],
         ingredients: [
-            "200 g haricots noirs cuits",
-            "1 poivron vert, émincé",
-            "1 oignon, haché",
-            "2 tomates, coupées en dés",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/2 cuillère à café paprika (1 g)"
+            "400 g de haricots noirs cuits et égouttés",
+            "1 poivron vert émincé",
+            "1 poivron rouge émincé",
+            "1 oignon haché",
+            "2 tomates coupées en dés",
+            "2 gousses d’ail hachées",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de paprika (1 g)",
+            "1/2 cuillère à café de cumin (1 g)",
+            "1/2 cuillère à café de sel (1 g)",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile dans la casserole.\n" +
-            "2. Ajouter oignon et poivron, cuire 5 minutes.\n" +
-            "3. Ajouter haricots et tomates, assaisonner.\n" +
-            "4. Cuire à feu doux 15 minutes.\n" +
-            "5. Servir chaud avec du riz."
+            "1. Égoutter les haricots noirs s’ils sont en conserve.\n" +
+            "2. Émincer l’oignon, hacher l’ail et couper les poivrons en fines lanières.\n" +
+            "3. Faire chauffer l’huile dans une grande casserole à feu moyen.\n" +
+            "4. Ajouter l’oignon et l’ail, puis faire revenir 3 minutes.\n" +
+            "5. Incorporer les poivrons et cuire encore 5 minutes en remuant.\n" +
+            "6. Ajouter les tomates et laisser fondre 5 minutes.\n" +
+            "7. Ajouter les haricots noirs, le paprika, le cumin, le sel et le poivre.\n" +
+            "8. Mélanger soigneusement et laisser mijoter 20 minutes à feu doux.\n" +
+            "9. Servir bien chaud accompagné de riz blanc."
     },
+
     en: {
-        title: "Vegetarian Feijoada (Brazil, Serves 4)",
-        equipment: ["1 large pot", "1 knife", "1 cutting board", "1 wooden spoon"],
+        title: "Vegetarian Feijoada (Brazil)",
+        equipment: [
+            "1 large pot",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 strainer",
+            "1 bowl"
+        ],
         ingredients: [
-            "200 g cooked black beans",
-            "1 green bell pepper, sliced",
-            "1 onion, chopped",
-            "2 tomatoes, diced",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/2 tsp paprika (1 g)"
+            "400 g cooked black beans, drained",
+            "1 green bell pepper sliced",
+            "1 red bell pepper sliced",
+            "1 onion chopped",
+            "2 tomatoes diced",
+            "2 garlic cloves minced",
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon paprika (1 g)",
+            "1/2 teaspoon cumin (1 g)",
+            "1/2 teaspoon salt (1 g)",
+            "1/4 teaspoon black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in pot.\n" +
-            "2. Add onion and pepper, cook 5 minutes.\n" +
-            "3. Add beans and tomatoes, season.\n" +
-            "4. Simmer 15 minutes.\n" +
-            "5. Serve hot with rice."
+            "1. Drain the black beans if using canned beans.\n" +
+            "2. Slice the onion, mince the garlic, and cut the peppers into strips.\n" +
+            "3. Heat the oil in a large pot over medium heat.\n" +
+            "4. Add the onion and garlic and sauté for 3 minutes.\n" +
+            "5. Stir in the peppers and cook for 5 minutes.\n" +
+            "6. Add the tomatoes and cook until softened.\n" +
+            "7. Add the black beans, paprika, cumin, salt, and pepper.\n" +
+            "8. Mix well and simmer for 20 minutes on low heat.\n" +
+            "9. Serve hot with white rice."
     },
+
     nl: {
-        title: "Vegetarische Feijoada (Brazilië, voor 4 personen)",
-        equipment: ["1 grote pan", "1 mes", "1 snijplank", "1 houten lepel"],
+        title: "Vegetarische Feijoada (Brazilië)",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 kom"
+        ],
         ingredients: [
-            "200 g gekookte zwarte bonen",
-            "1 groene paprika, gesneden",
-            "1 ui, gehakt",
-            "2 tomaten, in blokjes",
+            "400 g gekookte zwarte bonen, uitgelekt",
+            "1 groene paprika in reepjes",
+            "1 rode paprika in reepjes",
+            "1 ui gehakt",
+            "2 tomaten in blokjes",
+            "2 teentjes knoflook fijngehakt",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)",
-            "1/2 tl paprika (1 g)"
+            "1/2 theelepel paprikapoeder (1 g)",
+            "1/2 theelepel komijn (1 g)",
+            "1/2 theelepel zout (1 g)",
+            "1/4 theelepel zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan.\n" +
-            "2. Voeg ui en paprika toe, bak 5 minuten.\n" +
-            "3. Voeg bonen en tomaten toe, breng op smaak.\n" +
-            "4. Laat 15 minuten sudderen.\n" +
-            "5. Serveer heet met rijst."
+            "1. Laat de zwarte bonen uitlekken indien nodig.\n" +
+            "2. Snijd de ui, hak de knoflook en snijd de paprika’s in reepjes.\n" +
+            "3. Verhit de olie in een grote pan op middelhoog vuur.\n" +
+            "4. Bak de ui en knoflook 3 minuten.\n" +
+            "5. Voeg de paprika’s toe en bak 5 minuten.\n" +
+            "6. Voeg de tomaten toe en laat zacht worden.\n" +
+            "7. Voeg de bonen en kruiden toe.\n" +
+            "8. Laat 20 minuten zachtjes sudderen.\n" +
+            "9. Serveer warm met witte rijst."
     },
+
     ar: {
-        title: "فايجوادا نباتية (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["1 قدر كبير", "1 سكين", "1 لوح تقطيع", "1 ملعقة خشبية"],
+        title: "فايجوادا نباتية (البرازيل)",
+        equipment: [
+            "قدر كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مصفاة",
+            "وعاء"
+        ],
         ingredients: [
-            "200 غ فاصولياء سوداء مطبوخة",
-            "1 فلفل أخضر، مقطع شرائح",
-            "1 بصل، مفروم",
-            "2 طماطم، مقطعة مكعبات",
+            "400 غ فاصولياء سوداء مطبوخة ومصفاة",
+            "1 فلفل أخضر مقطع شرائح",
+            "1 فلفل أحمر مقطع شرائح",
+            "1 بصلة مفرومة",
+            "2 طماطم مقطعة مكعبات",
+            "2 فص ثوم مفروم",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
+            "1/2 ملعقة صغيرة بابريكا (1 غ)",
+            "1/2 ملعقة صغيرة كمون (1 غ)",
             "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/2 ملعقة صغيرة بابريكا (1 غ)"
+            "1/4 ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت في القدر.\n" +
-            "2. أضف البصل والفلفل، اطبخ 5 دقائق.\n" +
-            "3. أضف الفاصولياء والطماطم، تبّل.\n" +
-            "4. اتركه على نار هادئة 15 دقيقة.\n" +
-            "5. قدمه ساخناً مع الأرز."
+            "1. صفِّ الفاصولياء السوداء إذا كانت معلبة.\n" +
+            "2. قطّع البصل وافرُم الثوم وقطّع الفلفل إلى شرائح.\n" +
+            "3. سخّن الزيت في قدر كبير على نار متوسطة.\n" +
+            "4. أضف البصل والثوم وقلّب لمدة 3 دقائق.\n" +
+            "5. أضف الفلفل واطهه 5 دقائق.\n" +
+            "6. أضف الطماطم واتركها تطرى.\n" +
+            "7. أضف الفاصولياء والتوابل والملح والفلفل.\n" +
+            "8. اخلط جيداً واتركه يطهى على نار هادئة 20 دقيقة.\n" +
+            "9. قدّم الطبق ساخناً مع الأرز الأبيض."
     }
 };
-// 4. Tacos végétariens (Mexique)
 recipesData.plat.tacos_vegetariens_mexique = {
     country: "amerique",
     countryName: "mexique",
-    image: "images/tacos_vegetariens_mexique.jpg",
+    image: "images/tacos-vegetariens-mexique.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 10,
+        difficulty: "easy",
+        seo: {
+            slug: "tacos-vegetariens-mexique",
+            title: "Tacos végétariens (Mexique) – Recette facile",
+            description: "Préparez de délicieux tacos végétariens inspirés du Mexique, garnis de légumes et de haricots, simples et savoureux pour un repas convivial.",
+            keywords: [
+                "tacos vegetariens",
+                "recette tacos mexique",
+                "cuisine mexicaine",
+                "plat mexicain facile",
+                "tortillas mais recette",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Tacos végétariens (Mexique)",
+            "description": "Tacos végétariens inspirés du Mexique, garnis de légumes sautés et de haricots rouges savoureux.",
+            "recipeCuisine": "Mexique",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT10M",
+            "totalTime": "PT25M",
+            "recipeIngredient": [
+                "8 tortillas de maïs",
+                "1 poivron rouge",
+                "1 poivron jaune",
+                "1 oignon",
+                "150 g haricots rouges cuits",
+                "1 gousse d’ail",
+                "2 cuillères à soupe d’huile végétale",
+                "1/2 cuillère à café de sel",
+                "1/4 cuillère à café de cumin",
+                "1/4 cuillère à café de paprika"
+            ],
+            "recipeInstructions": [
+                "Émincer l’oignon et couper les poivrons en lanières.",
+                "Faire revenir l’oignon et l’ail dans l’huile chaude.",
+                "Ajouter les poivrons et cuire 5 minutes.",
+                "Incorporer les haricots et les épices.",
+                "Chauffer les tortillas.",
+                "Garnir les tortillas avec la préparation et servir."
+            ]
+        }
+    },
+
     fr: {
-        title: "Tacos végétariens (Mexique, 4 personnes)",
-        equipment: ["1 poêle", "1 couteau", "1 planche", "1 bol"],
+        title: "Tacos végétariens (Mexique)",
+        equipment: [
+            "1 poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 bol",
+            "1 cuillère en bois",
+            "1 spatule"
+        ],
         ingredients: [
             "8 tortillas de maïs",
-            "1 poivron rouge, coupé en lanières",
-            "1 oignon, émincé",
-            "150 g haricots rouges cuits",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "1 poivron rouge coupé en lanières",
+            "1 poivron jaune coupé en lanières",
+            "1 oignon émincé",
+            "150 g de haricots rouges cuits et égouttés",
+            "1 gousse d’ail hachée",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (1 g)",
+            "1/4 cuillère à café de cumin",
+            "1/4 cuillère à café de paprika"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire revenir oignon et poivron dans l’huile 5 minutes.\n" +
-            "2. Ajouter les haricots et mélanger.\n" +
-            "3. Garnir les tortillas avec le mélange.\n" +
-            "4. Servir chaud."
+            "1. Émincer l’oignon, hacher l’ail et couper les poivrons en fines lanières.\n" +
+            "2. Faire chauffer l’huile dans une poêle à feu moyen.\n" +
+            "3. Ajouter l’oignon et l’ail, puis faire revenir 3 minutes.\n" +
+            "4. Incorporer les poivrons et cuire 5 minutes en remuant régulièrement.\n" +
+            "5. Ajouter les haricots rouges, le sel, le cumin et le paprika.\n" +
+            "6. Mélanger et laisser chauffer 3 à 4 minutes supplémentaires.\n" +
+            "7. Réchauffer les tortillas quelques secondes dans une poêle chaude.\n" +
+            "8. Garnir chaque tortilla avec la préparation chaude.\n" +
+            "9. Servir immédiatement."
     },
+
     en: {
-        title: "Vegetarian Tacos (Mexico, Serves 4)",
-        equipment: ["1 pan", "1 knife", "1 cutting board", "1 bowl"],
+        title: "Vegetarian Tacos (Mexico)",
+        equipment: [
+            "1 pan",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 spatula"
+        ],
         ingredients: [
             "8 corn tortillas",
-            "1 red bell pepper, sliced",
-            "1 onion, sliced",
-            "150 g cooked red beans",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "1 red bell pepper sliced",
+            "1 yellow bell pepper sliced",
+            "1 onion sliced",
+            "150 g cooked red beans, drained",
+            "1 garlic clove minced",
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (1 g)",
+            "1/4 teaspoon cumin",
+            "1/4 teaspoon paprika"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Sauté onion and pepper in oil 5 minutes.\n" +
-            "2. Add beans and mix.\n" +
-            "3. Fill tortillas with mixture.\n" +
-            "4. Serve hot."
+            "1. Slice the onion, mince the garlic, and cut the peppers into strips.\n" +
+            "2. Heat the oil in a pan over medium heat.\n" +
+            "3. Add the onion and garlic and sauté for 3 minutes.\n" +
+            "4. Add the peppers and cook for 5 minutes, stirring regularly.\n" +
+            "5. Stir in the red beans, salt, cumin, and paprika.\n" +
+            "6. Cook for another 3 to 4 minutes.\n" +
+            "7. Warm the tortillas briefly in a hot pan.\n" +
+            "8. Fill each tortilla with the hot mixture.\n" +
+            "9. Serve immediately."
     },
+
     nl: {
-        title: "Vegetarische Tacos (Mexico, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank", "1 kom"],
+        title: "Vegetarische Tacos (Mexico)",
+        equipment: [
+            "1 pan",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "1 houten lepel",
+            "1 spatel"
+        ],
         ingredients: [
             "8 maïstortilla's",
-            "1 rode paprika, in reepjes",
-            "1 ui, gesneden",
-            "150 g gekookte rode bonen",
+            "1 rode paprika in reepjes",
+            "1 gele paprika in reepjes",
+            "1 ui gesneden",
+            "150 g gekookte rode bonen, uitgelekt",
+            "1 teentje knoflook fijngehakt",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (1 g)",
+            "1/4 theelepel komijn",
+            "1/4 theelepel paprikapoeder"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bak ui en paprika 5 minuten in olie.\n" +
-            "2. Voeg bonen toe en meng.\n" +
-            "3. Vul tortilla's met mengsel.\n" +
-            "4. Serveer heet."
+            "1. Snijd de ui, hak de knoflook en snijd de paprika’s in reepjes.\n" +
+            "2. Verhit de olie in een pan op middelhoog vuur.\n" +
+            "3. Bak de ui en knoflook 3 minuten.\n" +
+            "4. Voeg de paprika’s toe en bak 5 minuten.\n" +
+            "5. Voeg de bonen, zout en kruiden toe.\n" +
+            "6. Bak nog 3 tot 4 minuten.\n" +
+            "7. Verwarm de tortilla’s kort in een hete pan.\n" +
+            "8. Vul elke tortilla met het warme mengsel.\n" +
+            "9. Serveer direct."
     },
+
     ar: {
-        title: "تاكو نباتي (المكسيك، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 سكين", "1 لوح تقطيع", "1 وعاء"],
+        title: "تاكو نباتي (المكسيك)",
+        equipment: [
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "ملعقة خشبية",
+            "ملعقة مسطحة"
+        ],
         ingredients: [
-            "8 تورتيلا ذرة",
-            "1 فلفل أحمر، مقطع شرائح",
-            "1 بصل، مقطع شرائح",
-            "150 غ فاصولياء حمراء مطبوخة",
+            "8 خبز تورتيلا من الذرة",
+            "1 فلفل أحمر مقطع شرائح",
+            "1 فلفل أصفر مقطع شرائح",
+            "1 بصلة مقطعة",
+            "150 غ فاصولياء حمراء مطبوخة ومصفاة",
+            "1 فص ثوم مفروم",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (1 غ)",
+            "1/4 ملعقة صغيرة كمون",
+            "1/4 ملعقة صغيرة بابريكا"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اقلي البصل والفلفل في الزيت 5 دقائق.\n" +
-            "2. أضف الفاصولياء واخلط.\n" +
-            "3. املأ التورتيلا بالمزيج.\n" +
-            "4. قدمه ساخناً."
+            "1. قطّع البصل وافرُم الثوم وقطّع الفلفل إلى شرائح.\n" +
+            "2. سخّن الزيت في مقلاة على نار متوسطة.\n" +
+            "3. أضف البصل والثوم وقلّب لمدة 3 دقائق.\n" +
+            "4. أضف الفلفل واطهه لمدة 5 دقائق مع التحريك.\n" +
+            "5. أضف الفاصولياء والملح والتوابل.\n" +
+            "6. اتركه يطهى 3 إلى 4 دقائق إضافية.\n" +
+            "7. سخّن خبز التورتيلا لبضع ثوانٍ في مقلاة ساخنة.\n" +
+            "8. املأ كل قطعة تورتيلا بالحشوة الساخنة.\n" +
+            "9. قدّمها مباشرة."
     }
 };
-
-// 5. Empanadas aux légumes (Cuba)
 recipesData.plat.empanadas_legumes_cuba = {
     country: "amerique",
     countryName: "cuba",
-    image: "images/empanadas_legumes_cuba.jpg",
+    image: "images/empanadas-legumes-cuba.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "empanadas-legumes-cuba",
+            title: "Empanadas aux légumes (Cuba) – Recette facile",
+            description: "Découvrez les empanadas aux légumes inspirées de Cuba, croustillantes et savoureuses, garnies de légumes fondants et faciles à préparer.",
+            keywords: [
+                "empanadas legumes",
+                "recette empanadas cuba",
+                "cuisine cubaine",
+                "chaussons sales maison",
+                "recette facile four",
+                "plat traditionnel cubain"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Empanadas aux légumes (Cuba)",
+            "description": "Empanadas aux légumes croustillantes inspirées de la cuisine traditionnelle de Cuba.",
+            "recipeCuisine": "Cuba",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT20M",
+            "totalTime": "PT40M",
+            "recipeIngredient": [
+                "4 disques de pâte à empanadas",
+                "1 carotte râpée",
+                "1 courgette râpée",
+                "1 oignon haché",
+                "1 gousse d’ail hachée",
+                "2 cuillères à soupe d’huile végétale",
+                "1/2 cuillère à café de sel",
+                "1/4 cuillère à café de poivre",
+                "1/4 cuillère à café de paprika"
+            ],
+            "recipeInstructions": [
+                "Préchauffer le four à 180°C.",
+                "Faire revenir l’oignon et l’ail dans l’huile.",
+                "Ajouter la carotte et la courgette et cuire 5 minutes.",
+                "Assaisonner et laisser tiédir.",
+                "Garnir les disques de pâte avec la préparation.",
+                "Replier, sceller les bords et enfourner 20 minutes.",
+                "Servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Empanadas aux légumes (Cuba, 4 personnes)",
-        equipment: ["1 four", "1 rouleau à pâtisserie", "1 bol"],
+        title: "Empanadas aux légumes (Cuba)",
+        equipment: [
+            "1 four",
+            "1 plaque de cuisson",
+            "1 papier cuisson",
+            "1 poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 bol",
+            "1 cuillère en bois",
+            "1 râpe",
+            "1 pinceau de cuisine"
+        ],
         ingredients: [
-            "4 pâtes à empanadas",
-            "1 carotte, râpée",
-            "1 courgette, râpée",
-            "1 oignon, haché",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "4 disques de pâte à empanadas",
+            "1 carotte râpée",
+            "1 courgette râpée",
+            "1 oignon finement haché",
+            "1 gousse d’ail hachée",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (1 g)",
+            "1/4 cuillère à café de poivre",
+            "1/4 cuillère à café de paprika",
+            "1 cuillère à soupe d’eau pour sceller les bords"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire revenir oignon, carotte et courgette 5 minutes.\n" +
-            "2. Garnir les pâtes avec légumes.\n" +
-            "3. Replier et sceller.\n" +
-            "4. Cuire au four 20 minutes.\n" +
-            "5. Servir chaud."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Éplucher et hacher l’oignon et l’ail.\n" +
+            "3. Râper la carotte et la courgette.\n" +
+            "4. Faire chauffer l’huile dans une poêle à feu moyen.\n" +
+            "5. Ajouter l’oignon et l’ail, puis faire revenir 3 minutes.\n" +
+            "6. Incorporer la carotte et la courgette et cuire 5 minutes jusqu’à ce qu’elles soient tendres.\n" +
+            "7. Ajouter le sel, le poivre et le paprika. Mélanger puis laisser tiédir.\n" +
+            "8. Déposer une portion de garniture au centre de chaque disque de pâte.\n" +
+            "9. Humidifier légèrement les bords avec un peu d’eau.\n" +
+            "10. Replier la pâte en demi-lune et sceller en appuyant avec une fourchette.\n" +
+            "11. Déposer les empanadas sur une plaque recouverte de papier cuisson.\n" +
+            "12. Enfourner 20 minutes jusqu’à ce qu’elles soient dorées.\n" +
+            "13. Servir chaud."
     },
+
     en: {
-        title: "Vegetable Empanadas (Cuba, Serves 4)",
-        equipment: ["1 oven", "1 rolling pin", "1 bowl"],
+        title: "Vegetable Empanadas (Cuba)",
+        equipment: [
+            "1 oven",
+            "1 baking tray",
+            "1 parchment paper",
+            "1 pan",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 grater",
+            "1 kitchen brush"
+        ],
         ingredients: [
-            "4 empanada doughs",
-            "1 carrot, grated",
-            "1 zucchini, grated",
-            "1 onion, chopped",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "4 empanada dough discs",
+            "1 carrot grated",
+            "1 zucchini grated",
+            "1 onion finely chopped",
+            "1 garlic clove minced",
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (1 g)",
+            "1/4 teaspoon black pepper",
+            "1/4 teaspoon paprika",
+            "1 tablespoon water for sealing"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Sauté onion, carrot, zucchini 5 minutes.\n" +
-            "2. Fill dough with vegetables.\n" +
-            "3. Fold and seal.\n" +
-            "4. Bake 20 minutes.\n" +
-            "5. Serve hot."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Chop the onion and mince the garlic.\n" +
+            "3. Grate the carrot and zucchini.\n" +
+            "4. Heat the oil in a pan over medium heat.\n" +
+            "5. Sauté the onion and garlic for 3 minutes.\n" +
+            "6. Add the carrot and zucchini and cook for 5 minutes until soft.\n" +
+            "7. Season with salt, pepper, and paprika. Let cool slightly.\n" +
+            "8. Place a spoonful of filling in the center of each dough disc.\n" +
+            "9. Lightly moisten the edges with water.\n" +
+            "10. Fold into a half-moon shape and seal with a fork.\n" +
+            "11. Arrange on a lined baking tray.\n" +
+            "12. Bake for 20 minutes until golden.\n" +
+            "13. Serve hot."
     },
+
     nl: {
-        title: "Groente Empanadas (Cuba, voor 4 personen)",
-        equipment: ["1 oven", "1 deegroller", "1 kom"],
+        title: "Groente Empanadas (Cuba)",
+        equipment: [
+            "1 oven",
+            "1 bakplaat",
+            "1 bakpapier",
+            "1 pan",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "1 houten lepel",
+            "1 rasp",
+            "1 keukenkwast"
+        ],
         ingredients: [
-            "4 empanada-degen",
-            "1 wortel, geraspt",
-            "1 courgette, geraspt",
-            "1 ui, gehakt",
+            "4 deegschijven voor empanadas",
+            "1 wortel geraspt",
+            "1 courgette geraspt",
+            "1 ui fijngehakt",
+            "1 teentje knoflook fijngehakt",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (1 g)",
+            "1/4 theelepel zwarte peper",
+            "1/4 theelepel paprikapoeder",
+            "1 eetlepel water om te sluiten"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bak ui, wortel, courgette 5 minuten.\n" +
-            "2. Vul deeg met groenten.\n" +
-            "3. Vouw en sluit.\n" +
-            "4. Bak 20 minuten.\n" +
-            "5. Serveer heet."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Hak de ui en knoflook fijn.\n" +
+            "3. Rasp de wortel en courgette.\n" +
+            "4. Verhit de olie in een pan op middelhoog vuur.\n" +
+            "5. Bak de ui en knoflook 3 minuten.\n" +
+            "6. Voeg de wortel en courgette toe en bak 5 minuten tot ze zacht zijn.\n" +
+            "7. Breng op smaak met zout, peper en paprikapoeder en laat iets afkoelen.\n" +
+            "8. Leg een lepel vulling in het midden van elke deegschijf.\n" +
+            "9. Maak de randen licht vochtig met water.\n" +
+            "10. Vouw dicht en druk aan met een vork.\n" +
+            "11. Leg op een met bakpapier beklede bakplaat.\n" +
+            "12. Bak 20 minuten tot goudbruin.\n" +
+            "13. Serveer warm."
     },
+
     ar: {
-        title: "إمباناداس بالخضار (كوبا، تكفي 4 أشخاص)",
-        equipment: ["1 فرن", "1 شوبك", "1 وعاء"],
+        title: "إمباناداس بالخضار (كوبا)",
+        equipment: [
+            "فرن",
+            "صينية خبز",
+            "ورق خبز",
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "ملعقة خشبية",
+            "مبشرة",
+            "فرشاة مطبخ"
+        ],
         ingredients: [
-            "4 عجائن إمباناداس",
-            "1 جزرة، مبشورة",
-            "1 كوسة، مبشورة",
-            "1 بصل، مفروم",
+            "4 أقراص عجين إمباناداس",
+            "1 جزرة مبشورة",
+            "1 كوسة مبشورة",
+            "1 بصلة مفرومة ناعماً",
+            "1 فص ثوم مفروم",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (1 غ)",
+            "1/4 ملعقة صغيرة فلفل أسود",
+            "1/4 ملعقة صغيرة بابريكا",
+            "1 ملعقة كبيرة ماء لإغلاق الحواف"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اقلي البصل والجزر والكوسة 5 دقائق.\n" +
-            "2. احشي العجين بالخضار.\n" +
-            "3. اطوِ وأغلق.\n" +
-            "4. اخبز 20 دقيقة.\n" +
-            "5. قدمه ساخناً."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. افرم البصل والثوم ناعماً.\n" +
+            "3. ابشر الجزر والكوسة.\n" +
+            "4. سخّن الزيت في مقلاة على نار متوسطة.\n" +
+            "5. أضف البصل والثوم وقلّب لمدة 3 دقائق.\n" +
+            "6. أضف الجزر والكوسة واطههما 5 دقائق حتى يطرَيا.\n" +
+            "7. أضف الملح والفلفل والبابريكا واترك الحشوة تبرد قليلاً.\n" +
+            "8. ضع ملعقة من الحشوة في وسط كل قرص عجين.\n" +
+            "9. بلّل الحواف بقليل من الماء.\n" +
+            "10. اطوِ العجين على شكل نصف دائرة واضغط بالشوكة لإغلاقه.\n" +
+            "11. ضع الإمباناداس في صينية مغطاة بورق الخبز.\n" +
+            "12. اخبز لمدة 20 دقيقة حتى تكتسب لوناً ذهبياً.\n" +
+            "13. قدّمها ساخنة."
     }
 };
-
-// 6. Poulet à l’ananas (Costa Rica)
 recipesData.plat.poulet_ananas_costarica = {
     country: "amerique",
     countryName: "costarica",
-    image: "images/poulet_ananas_costarica.jpg",
+    image: "images/poulet-ananas-costarica.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "poulet-ananas-costarica",
+            title: "Poulet à l’ananas (Costa Rica) – Recette facile",
+            description: "Savourez le Poulet à l’ananas inspiré du Costa Rica, un plat sucré-salé simple et exotique, parfait pour un repas familial facile.",
+            keywords: [
+                "poulet ananas",
+                "recette poulet costa rica",
+                "cuisine costaricaine",
+                "plat sucre sale",
+                "recette exotique facile",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Poulet à l’ananas (Costa Rica)",
+            "description": "Poulet à l’ananas inspiré du Costa Rica, savoureux mélange sucré-salé aux poivrons et ananas.",
+            "recipeCuisine": "Costa Rica",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT20M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "500 g de blancs de poulet",
+                "1 tasse de morceaux d’ananas",
+                "1 poivron jaune",
+                "1 oignon",
+                "1 gousse d’ail",
+                "2 cuillères à soupe d’huile végétale",
+                "1/2 cuillère à café de sel",
+                "1/4 cuillère à café de poivre"
+            ],
+            "recipeInstructions": [
+                "Couper le poulet en morceaux.",
+                "Émincer l’oignon et le poivron.",
+                "Faire revenir l’oignon et l’ail dans l’huile chaude.",
+                "Ajouter le poulet et cuire jusqu’à coloration.",
+                "Incorporer le poivron puis l’ananas.",
+                "Assaisonner et cuire 5 minutes supplémentaires.",
+                "Servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Poulet à l’ananas (Costa Rica, 4 personnes)",
-        equipment: ["1 poêle", "1 couteau", "1 planche"],
+        title: "Poulet à l’ananas (Costa Rica)",
+        equipment: [
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 bol",
+            "1 spatule"
+        ],
         ingredients: [
-            "500 g blancs de poulet",
-            "1 tasse morceaux d’ananas",
-            "1 poivron jaune, coupé en lanières",
-            "1 oignon, émincé",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "500 g de blancs de poulet coupés en morceaux",
+            "1 tasse de morceaux d’ananas frais ou en conserve égoutté",
+            "1 poivron jaune coupé en lanières",
+            "1 oignon émincé",
+            "1 gousse d’ail hachée",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (1 g)",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire chauffer l’huile dans la poêle.\n" +
-            "2. Ajouter oignon et poivron 5 minutes.\n" +
-            "3. Ajouter poulet et cuire jusqu’à doré.\n" +
-            "4. Ajouter ananas et sel, cuire 5 minutes.\n" +
-            "5. Servir chaud."
+            "1. Couper les blancs de poulet en morceaux réguliers.\n" +
+            "2. Émincer l’oignon, hacher l’ail et couper le poivron en lanières.\n" +
+            "3. Faire chauffer l’huile dans une grande poêle à feu moyen.\n" +
+            "4. Ajouter l’oignon et l’ail et faire revenir 3 minutes.\n" +
+            "5. Incorporer le poulet et cuire 6 à 8 minutes jusqu’à ce qu’il soit doré.\n" +
+            "6. Ajouter le poivron et poursuivre la cuisson 5 minutes.\n" +
+            "7. Ajouter les morceaux d’ananas, le sel et le poivre.\n" +
+            "8. Mélanger délicatement et laisser cuire encore 5 minutes.\n" +
+            "9. Servir chaud, accompagné de riz blanc."
     },
+
     en: {
-        title: "Pineapple Chicken (Costa Rica, Serves 4)",
-        equipment: ["1 pan", "1 knife", "1 cutting board"],
+        title: "Pineapple Chicken (Costa Rica)",
+        equipment: [
+            "1 large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 bowl",
+            "1 spatula"
+        ],
         ingredients: [
-            "500 g chicken breasts",
-            "1 cup pineapple chunks",
-            "1 yellow bell pepper, sliced",
-            "1 onion, sliced",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "500 g chicken breasts cut into pieces",
+            "1 cup pineapple chunks, drained if canned",
+            "1 yellow bell pepper sliced",
+            "1 onion sliced",
+            "1 garlic clove minced",
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (1 g)",
+            "1/4 teaspoon black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in pan.\n" +
-            "2. Add onion and pepper 5 minutes.\n" +
-            "3. Add chicken, cook until golden.\n" +
-            "4. Add pineapple and salt, cook 5 minutes.\n" +
-            "5. Serve hot."
+            "1. Cut the chicken breasts into even pieces.\n" +
+            "2. Slice the onion, mince the garlic, and cut the pepper into strips.\n" +
+            "3. Heat the oil in a large pan over medium heat.\n" +
+            "4. Add the onion and garlic and sauté for 3 minutes.\n" +
+            "5. Add the chicken and cook for 6 to 8 minutes until golden.\n" +
+            "6. Stir in the bell pepper and cook 5 minutes.\n" +
+            "7. Add the pineapple chunks, salt, and pepper.\n" +
+            "8. Mix gently and cook for another 5 minutes.\n" +
+            "9. Serve hot with white rice."
     },
+
     nl: {
-        title: "Ananas Kip (Costa Rica, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank"],
+        title: "Ananaskip (Costa Rica)",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 kom",
+            "1 spatel"
+        ],
         ingredients: [
-            "500 g kipfilet",
-            "1 kop ananasstukjes",
-            "1 gele paprika, in reepjes",
-            "1 ui, gesneden",
+            "500 g kipfilet in stukken",
+            "1 kop ananasstukjes, uitgelekt indien uit blik",
+            "1 gele paprika in reepjes",
+            "1 ui gesneden",
+            "1 teentje knoflook fijngehakt",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (1 g)",
+            "1/4 theelepel zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan.\n" +
-            "2. Voeg ui en paprika 5 minuten toe.\n" +
-            "3. Voeg kip toe, bak goudbruin.\n" +
-            "4. Voeg ananas en zout toe, bak 5 minuten.\n" +
-            "5. Serveer heet."
+            "1. Snijd de kipfilet in gelijke stukken.\n" +
+            "2. Snijd de ui, hak de knoflook en snijd de paprika in reepjes.\n" +
+            "3. Verhit de olie in een grote pan op middelhoog vuur.\n" +
+            "4. Bak de ui en knoflook 3 minuten.\n" +
+            "5. Voeg de kip toe en bak 6 tot 8 minuten goudbruin.\n" +
+            "6. Voeg de paprika toe en bak nog 5 minuten.\n" +
+            "7. Voeg de ananas, zout en peper toe.\n" +
+            "8. Meng voorzichtig en laat nog 5 minuten sudderen.\n" +
+            "9. Serveer warm met witte rijst."
     },
+
     ar: {
-        title: "دجاج بالأناناس (كوستاريكا، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 سكين", "1 لوح تقطيع"],
+        title: "دجاج بالأناناس (كوستاريكا)",
+        equipment: [
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء",
+            "ملعقة مسطحة"
+        ],
         ingredients: [
-            "500 غ صدور دجاج",
-            "1 كوب قطع أناناس",
-            "1 فلفل أصفر، مقطع شرائح",
-            "1 بصل، مقطع شرائح",
+            "500 غ صدور دجاج مقطعة قطع",
+            "1 كوب قطع أناناس مصفاة إذا كانت معلبة",
+            "1 فلفل أصفر مقطع شرائح",
+            "1 بصلة مقطعة",
+            "1 فص ثوم مفروم",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (1 غ)",
+            "1/4 ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت في المقلاة.\n" +
-            "2. أضف البصل والفلفل 5 دقائق.\n" +
-            "3. أضف الدجاج واطبخ حتى يتحمر.\n" +
-            "4. أضف الأناناس والملح، اطبخ 5 دقائق.\n" +
-            "5. قدمه ساخناً."
+            "1. قطّع صدور الدجاج إلى قطع متساوية.\n" +
+            "2. قطّع البصل وافرُم الثوم وقطّع الفلفل إلى شرائح.\n" +
+            "3. سخّن الزيت في مقلاة كبيرة على نار متوسطة.\n" +
+            "4. أضف البصل والثوم وقلّب لمدة 3 دقائق.\n" +
+            "5. أضف الدجاج واطهه لمدة 6 إلى 8 دقائق حتى يتحمر.\n" +
+            "6. أضف الفلفل واطهه 5 دقائق إضافية.\n" +
+            "7. أضف الأناناس والملح والفلفل.\n" +
+            "8. اخلط بلطف واتركه يطهى 5 دقائق أخرى.\n" +
+            "9. قدّمه ساخناً مع الأرز الأبيض."
     }
 };
-// 7. Feijoada végétarienne (Brésil)
 recipesData.plat.feijoada_vegetarienne_bresil = {
     country: "amerique",
     countryName: "bresil",
-    image: "images/feijoada_vegetarienne_bresil.jpg",
+    image: "images/feijoada-vegetarienne-bresil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 60,
+        difficulty: "easy",
+        seo: {
+            slug: "feijoada-vegetarienne-bresil",
+            title: "Feijoada végétarienne (Brésil) – Recette facile",
+            description: "Découvrez la feijoada végétarienne du Brésil, un plat traditionnel riche en saveurs, préparé avec des haricots noirs et des légumes mijotés.",
+            keywords: [
+                "recette feijoada",
+                "feijoada bresil",
+                "cuisine bresilienne",
+                "plat traditionnel bresilien",
+                "recette vegetarienne",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Feijoada végétarienne (Brésil)",
+            "description": "Feijoada végétarienne inspirée du Brésil, un ragoût savoureux de haricots noirs et légumes mijotés.",
+            "recipeCuisine": "Brésil",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT1H",
+            "totalTime": "PT1H15M",
+            "recipeIngredient": [
+                "200 g de haricots noirs secs",
+                "1 oignon haché",
+                "2 gousses d’ail émincées",
+                "1 poivron rouge en dés",
+                "1 carotte en rondelles",
+                "2 tomates coupées en dés",
+                "2 cuillères à soupe d’huile végétale",
+                "1 feuille de laurier",
+                "1 cuillère à café de paprika",
+                "1/2 cuillère à café de cumin",
+                "Sel",
+                "Poivre",
+                "1 litre d’eau"
+            ],
+            "recipeInstructions": [
+                "Faire tremper les haricots noirs 8 heures puis les égoutter.",
+                "Cuire les haricots dans une grande casserole avec de l’eau pendant 45 minutes.",
+                "Faire revenir l’oignon et l’ail dans l’huile.",
+                "Ajouter les légumes et les épices puis cuire 5 minutes.",
+                "Incorporer les haricots cuits et laisser mijoter 15 minutes.",
+                "Servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Feijoada végétarienne (Brésil, 4 personnes)",
-        equipment: ["1 grande casserole", "1 couteau", "1 planche"],
+        title: "Feijoada végétarienne (Brésil)",
+        equipment: [
+            "1 grande casserole",
+            "1 couvercle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 louche"
+        ],
         ingredients: [
-            "200 g haricots noirs secs",
-            "1 poivron rouge, coupé en dés",
-            "1 oignon, haché",
+            "200 g de haricots noirs secs",
+            "1 oignon moyen, haché",
             "2 gousses d’ail, émincées",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "1 poivron rouge, coupé en dés",
+            "1 carotte, coupée en rondelles",
+            "2 tomates mûres, coupées en dés",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1 feuille de laurier",
+            "1 cuillère à café de paprika",
+            "1/2 cuillère à café de cumin",
+            "1 litre d’eau",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Tremper les haricots 8 heures puis cuire 40 minutes.\n" +
-            "2. Faire revenir oignon, ail et poivron 5 minutes.\n" +
-            "3. Ajouter les haricots, sel et cuire 10 minutes.\n" +
-            "4. Servir chaud."
+            "1. La veille ou 8 heures avant, faire tremper les haricots noirs dans un grand volume d’eau froide.\n" +
+            "2. Égoutter et rincer les haricots.\n" +
+            "3. Les placer dans une grande casserole avec 1 litre d’eau et la feuille de laurier.\n" +
+            "4. Porter à ébullition puis laisser cuire à feu moyen pendant environ 45 minutes jusqu’à ce qu’ils soient tendres.\n" +
+            "5. Pendant ce temps, chauffer l’huile dans une poêle ou une casserole.\n" +
+            "6. Ajouter l’oignon et l’ail, faire revenir 3 minutes.\n" +
+            "7. Incorporer le poivron, la carotte et les tomates.\n" +
+            "8. Ajouter le paprika, le cumin, le sel et le poivre.\n" +
+            "9. Laisser cuire 5 à 7 minutes en remuant régulièrement.\n" +
+            "10. Ajouter les haricots cuits avec un peu de leur jus.\n" +
+            "11. Mélanger et laisser mijoter 15 minutes supplémentaires à feu doux.\n" +
+            "12. Rectifier l’assaisonnement et servir bien chaud."
     },
+
     en: {
-        title: "Vegetarian Feijoada (Brazil, Serves 4)",
-        equipment: ["1 large pot", "1 knife", "1 cutting board"],
+        title: "Vegetarian Feijoada (Brazil)",
+        equipment: [
+            "1 large pot",
+            "1 lid",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 strainer",
+            "1 ladle"
+        ],
         ingredients: [
             "200 g dried black beans",
+            "1 medium onion, chopped",
+            "2 garlic cloves, minced",
             "1 red bell pepper, diced",
-            "1 onion, chopped",
-            "2 garlic cloves, sliced",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "1 carrot, sliced",
+            "2 ripe tomatoes, diced",
+            "2 tablespoons vegetable oil (30 ml)",
+            "1 bay leaf",
+            "1 teaspoon paprika",
+            "1/2 teaspoon cumin",
+            "1 liter water",
+            "Salt",
+            "Black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Soak beans 8 hours, then cook 40 minutes.\n" +
-            "2. Sauté onion, garlic, pepper 5 minutes.\n" +
-            "3. Add beans, salt, cook 10 minutes.\n" +
-            "4. Serve hot."
+            "1. Soak the black beans in plenty of cold water for 8 hours.\n" +
+            "2. Drain and rinse the beans.\n" +
+            "3. Place them in a large pot with 1 liter of water and the bay leaf.\n" +
+            "4. Bring to a boil, then cook over medium heat for about 45 minutes until tender.\n" +
+            "5. Heat the oil in a pan.\n" +
+            "6. Add the onion and garlic and sauté for 3 minutes.\n" +
+            "7. Stir in the bell pepper, carrot, and tomatoes.\n" +
+            "8. Add paprika, cumin, salt, and pepper.\n" +
+            "9. Cook for 5 to 7 minutes, stirring regularly.\n" +
+            "10. Add the cooked beans with a little of their cooking liquid.\n" +
+            "11. Simmer for 15 minutes over low heat.\n" +
+            "12. Adjust seasoning and serve hot."
     },
+
     nl: {
-        title: "Vegetarische Feijoada (Brazilië, voor 4 personen)",
-        equipment: ["1 grote pan", "1 mes", "1 snijplank"],
+        title: "Vegetarische Feijoada (Brazilië)",
+        equipment: [
+            "1 grote pan",
+            "1 deksel",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 soeplepel"
+        ],
         ingredients: [
-            "200 g zwarte bonen, gedroogd",
+            "200 g gedroogde zwarte bonen",
+            "1 middelgrote ui, gehakt",
+            "2 teentjes knoflook, fijngehakt",
             "1 rode paprika, in blokjes",
-            "1 ui, gehakt",
-            "2 teentjes knoflook, gesneden",
+            "1 wortel, in plakjes",
+            "2 rijpe tomaten, in blokjes",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 laurierblad",
+            "1 theelepel paprikapoeder",
+            "1/2 theelepel komijn",
+            "1 liter water",
+            "Zout",
+            "Zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Week bonen 8 uur, kook 40 minuten.\n" +
-            "2. Bak ui, knoflook, paprika 5 minuten.\n" +
-            "3. Voeg bonen en zout toe, kook 10 minuten.\n" +
-            "4. Serveer heet."
+            "1. Week de zwarte bonen 8 uur in ruim koud water.\n" +
+            "2. Laat ze uitlekken en spoel af.\n" +
+            "3. Doe ze in een grote pan met 1 liter water en het laurierblad.\n" +
+            "4. Breng aan de kook en laat ongeveer 45 minuten koken tot ze zacht zijn.\n" +
+            "5. Verhit de olie in een pan.\n" +
+            "6. Bak de ui en knoflook 3 minuten.\n" +
+            "7. Voeg paprika, wortel en tomaten toe.\n" +
+            "8. Voeg paprikapoeder, komijn, zout en peper toe.\n" +
+            "9. Bak 5 tot 7 minuten en roer regelmatig.\n" +
+            "10. Voeg de gekookte bonen met wat kookvocht toe.\n" +
+            "11. Laat 15 minuten zachtjes sudderen.\n" +
+            "12. Breng op smaak en serveer warm."
     },
+
     ar: {
-        title: "فيجوادا نباتية (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["1 قدر كبير", "1 سكين", "1 لوح تقطيع"],
+        title: "فيجوادا نباتية (البرازيل)",
+        equipment: [
+            "قدر كبير",
+            "غطاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مصفاة",
+            "مغرفة"
+        ],
         ingredients: [
             "200 غ فاصولياء سوداء جافة",
-            "1 فلفل أحمر، مقطع مكعبات",
-            "1 بصل، مفروم",
-            "2 فص ثوم، مفروم",
+            "بصلة متوسطة مفرومة",
+            "2 فص ثوم مفروم",
+            "1 فلفل أحمر مقطع مكعبات",
+            "1 جزرة مقطعة شرائح",
+            "2 طماطم ناضجة مقطعة مكعبات",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "ورقة غار",
+            "1 ملعقة صغيرة بابريكا",
+            "1/2 ملعقة صغيرة كمون",
+            "1 لتر ماء",
+            "ملح",
+            "فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. انقع الفاصولياء 8 ساعات ثم اطبخ 40 دقيقة.\n" +
-            "2. اقلي البصل والثوم والفلفل 5 دقائق.\n" +
-            "3. أضف الفاصولياء والملح واطبخ 10 دقائق.\n" +
-            "4. قدمه ساخناً."
+            "1. انقع الفاصولياء السوداء في ماء بارد لمدة 8 ساعات.\n" +
+            "2. صفِّها واغسلها جيداً.\n" +
+            "3. ضعها في قدر كبير مع لتر ماء وورقة الغار.\n" +
+            "4. اتركها تغلي ثم اطبخها على نار متوسطة لمدة 45 دقيقة حتى تنضج.\n" +
+            "5. سخّن الزيت في مقلاة.\n" +
+            "6. أضف البصل والثوم وقلّب لمدة 3 دقائق.\n" +
+            "7. أضف الفلفل والجزر والطماطم.\n" +
+            "8. أضف البابريكا والكمون والملح والفلفل.\n" +
+            "9. اطبخ لمدة 5 إلى 7 دقائق مع التحريك.\n" +
+            "10. أضف الفاصولياء المطبوخة مع قليل من مرقها.\n" +
+            "11. اترك المزيج يطهى على نار هادئة 15 دقيقة.\n" +
+            "12. عدّل التتبيل وقدّم الطبق ساخناً."
     }
 };
-
-// 8. Chili sin carne (USA)
 recipesData.plat.chili_sin_carne_usa = {
     country: "amerique",
     countryName: "usa",
-    image: "images/chili_sin_carne_usa.jpg",
-    fr: {
-        title: "Chili sin carne (USA, 4 personnes)",
-        equipment: ["1 casserole", "1 couteau", "1 planche"],
-        ingredients: [
-            "200 g haricots rouges cuits",
-            "1 poivron rouge, coupé en dés",
-            "1 oignon, haché",
-            "2 tomates, coupées en dés",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/2 cuillère à café paprika (1 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire revenir oignon et poivron 5 minutes.\n" +
-            "2. Ajouter tomates et haricots, cuire 10 minutes.\n" +
-            "3. Assaisonner sel et paprika.\n" +
-            "4. Servir chaud."
-    },
-    en: {
-        title: "Chili sin carne (USA, Serves 4)",
-        equipment: ["1 pot", "1 knife", "1 cutting board"],
-        ingredients: [
-            "200 g cooked red beans",
-            "1 red bell pepper, diced",
-            "1 onion, chopped",
-            "2 tomatoes, diced",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/2 tsp paprika (1 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Sauté onion and pepper 5 minutes.\n" +
-            "2. Add tomatoes and beans, cook 10 minutes.\n" +
-            "3. Season with salt and paprika.\n" +
-            "4. Serve hot."
-    },
-    nl: {
-        title: "Chili sin carne (VS, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank"],
-        ingredients: [
-            "200 g gekookte rode bonen",
-            "1 rode paprika, in blokjes",
-            "1 ui, gehakt",
-            "2 tomaten, in blokjes",
-            "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)",
-            "1/2 tl paprika (1 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Bak ui en paprika 5 minuten.\n" +
-            "2. Voeg tomaten en bonen toe, kook 10 minuten.\n" +
-            "3. Breng op smaak met zout en paprika.\n" +
-            "4. Serveer heet."
-    },
-    ar: {
-        title: "فلفل حار بدون لحم (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 سكين", "1 لوح تقطيع"],
-        ingredients: [
-            "200 غ فاصولياء حمراء مطبوخة",
-            "1 فلفل أحمر، مقطع مكعبات",
-            "1 بصل، مفروم",
-            "2 طماطم، مقطعة مكعبات",
-            "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/2 ملعقة صغيرة بابريكا (1 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اقلي البصل والفلفل 5 دقائق.\n" +
-            "2. أضف الطماطم والفاصولياء، اطبخ 10 دقائق.\n" +
-            "3. تبّل بالملح والبابريكا.\n" +
-            "4. قدمه ساخناً."
-    }
-};
+    image: "images/chili-sin-carne-usa.jpg",
 
-// 9. Arepas aux légumes (Venezuela)
-recipesData.plat.arepas_legumes_venezuela = {
-    country: "amerique",
-    countryName: "venezuela",
-    image: "images/arepas_legumes_venezuela.jpg",
-    fr: {
-        title: "Arepas aux légumes (Venezuela, 4 personnes)",
-        equipment: ["1 poêle", "1 bol", "1 couteau", "1 planche"],
-        ingredients: [
-            "250 g farine de maïs",
-            "200 ml eau",
-            "1 poivron rouge, coupé en dés",
-            "1 oignon, haché",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger farine et eau pour former une pâte.\n" +
-            "2. Former des boules et aplatir en galettes.\n" +
-            "3. Cuire les galettes dans la poêle 5 minutes de chaque côté.\n" +
-            "4. Faire revenir oignon et poivron 5 minutes.\n" +
-            "5. Garnir les arepas et servir chaud."
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy",
+        seo: {
+            slug: "chili-sin-carne-usa",
+            title: "Chili sin carne (USA) – Recette facile maison",
+            description: "Préparez un chili sin carne inspiré des USA, un plat familial épicé aux haricots rouges et légumes, simple et savoureux.",
+            keywords: [
+                "recette chili",
+                "chili sin carne usa",
+                "cuisine americaine",
+                "plat traditionnel usa",
+                "recette vegetarienne",
+                "plat familial"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Chili sin carne (USA)",
+            "description": "Chili sin carne inspiré des USA, mijoté avec haricots rouges, tomates et épices.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT30M",
+            "totalTime": "PT45M",
+            "recipeIngredient": [
+                "400 g de haricots rouges cuits",
+                "1 oignon haché",
+                "2 gousses d’ail émincées",
+                "1 poivron rouge en dés",
+                "2 tomates en dés",
+                "2 cuillères à soupe d’huile végétale",
+                "1 cuillère à café de paprika",
+                "1/2 cuillère à café de cumin",
+                "1/2 cuillère à café de piment doux",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": [
+                "Faire revenir l’oignon et l’ail dans l’huile.",
+                "Ajouter le poivron et cuire 5 minutes.",
+                "Incorporer les tomates et les épices.",
+                "Ajouter les haricots rouges.",
+                "Laisser mijoter 20 minutes.",
+                "Servir chaud."
+            ]
+        }
     },
-    en: {
-        title: "Vegetable Arepas (Venezuela, Serves 4)",
-        equipment: ["1 pan", "1 bowl", "1 knife", "1 cutting board"],
-        ingredients: [
-            "250 g corn flour",
-            "200 ml water",
-            "1 red bell pepper, diced",
-            "1 onion, chopped",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Mix flour and water to form dough.\n" +
-            "2. Shape into balls and flatten.\n" +
-            "3. Cook patties in pan 5 minutes each side.\n" +
-            "4. Sauté onion and pepper 5 minutes.\n" +
-            "5. Fill arepas and serve hot."
-    },
-    nl: {
-        title: "Groente Arepas (Venezuela, voor 4 personen)",
-        equipment: ["1 pan", "1 kom", "1 mes", "1 snijplank"],
-        ingredients: [
-            "250 g maïsmeel",
-            "200 ml water",
-            "1 rode paprika, in blokjes",
-            "1 ui, gehakt",
-            "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng meel en water tot deeg.\n" +
-            "2. Vorm balletjes en druk plat.\n" +
-            "3. Bak pannenkoekjes 5 minuten per kant.\n" +
-            "4. Bak ui en paprika 5 minuten.\n" +
-            "5. Vul arepas en serveer heet."
-    },
-    ar: {
-        title: "أريبا بالخضار (فنزويلا، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 وعاء", "1 سكين", "1 لوح تقطيع"],
-        ingredients: [
-            "250 غ دقيق ذرة",
-            "200 مل ماء",
-            "1 فلفل أحمر، مقطع مكعبات",
-            "1 بصل، مفروم",
-            "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط الدقيق والماء لتكوين عجينة.\n" +
-            "2. شكل كرات وافردها.\n" +
-            "3. اطبخ الأقراص في المقلاة 5 دقائق لكل جانب.\n" +
-            "4. اقلي البصل والفلفل 5 دقائق.\n" +
-            "5. احشي الأريبا وقدمها ساخنة."
-    }
-};
 
-// 10. Ceviche de légumes (Pérou)
-recipesData.plat.ceviche_legumes_perou = {
-    country: "amerique",
-    countryName: "perou",
-    image: "images/ceviche_legumes_perou.jpg",
     fr: {
-        title: "Ceviche de légumes (Pérou, 4 personnes)",
-        equipment: ["1 bol", "1 couteau", "1 planche"],
-        ingredients: [
-            "1 concombre, coupé en dés",
-            "2 tomates, coupées en dés",
-            "1 oignon rouge, émincé",
-            "1 poivron, coupé en dés",
-            "2 cuillères à soupe jus de citron (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+        title: "Chili sin carne (USA)",
+        equipment: [
+            "1 grande casserole",
+            "1 couvercle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 louche"
         ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger tous les légumes dans un bol.\n" +
-            "2. Ajouter jus de citron et sel.\n" +
-            "3. Laisser mariner 10 minutes.\n" +
-            "4. Servir frais."
-    },
-    en: {
-        title: "Vegetable Ceviche (Peru, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board"],
         ingredients: [
-            "1 cucumber, diced",
-            "2 tomatoes, diced",
-            "1 red onion, sliced",
-            "1 bell pepper, diced",
-            "2 tbsp lemon juice (30 ml)",
-            "1/2 tsp salt (1 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Mix all vegetables in a bowl.\n" +
-            "2. Add lemon juice and salt.\n" +
-            "3. Let marinate 10 minutes.\n" +
-            "4. Serve chilled."
-    },
-    nl: {
-        title: "Groente Ceviche (Peru, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank"],
-        ingredients: [
-            "1 komkommer, in blokjes",
-            "2 tomaten, in blokjes",
-            "1 rode ui, in dunne plakjes",
-            "1 paprika, in blokjes",
-            "2 eetlepels citroensap (30 ml)",
-            "1/2 tl zout (1 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng alle groenten in een kom.\n" +
-            "2. Voeg citroensap en zout toe.\n" +
-            "3. Laat 10 minuten marineren.\n" +
-            "4. Serveer koel."
-    },
-    ar: {
-        title: "سيفيتشي بالخضار (بيرو، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع"],
-        ingredients: [
-            "1 خيار، مقطع مكعبات",
-            "2 طماطم، مقطعة مكعبات",
-            "1 بصل أحمر، مقطع شرائح",
-            "1 فلفل، مقطع مكعبات",
-            "2 ملعقة كبيرة عصير ليمون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط جميع الخضار في وعاء.\n" +
-            "2. أضف عصير الليمون والملح.\n" +
-            "3. اتركه يتبل 10 دقائق.\n" +
-            "4. قدمه بارداً."
-    }
-};
-// 7. Feijoada végétarienne (Brésil)
-recipesData.plat.feijoada_vegetarienne_bresil = {
-    country: "amerique",
-    countryName: "bresil",
-    image: "images/feijoada_vegetarienne_bresil.jpg",
-    fr: {
-        title: "Feijoada végétarienne (Brésil, 4 personnes)",
-        equipment: ["1 grande casserole", "1 couteau", "1 planche"],
-        ingredients: [
-            "200 g haricots noirs secs",
-            "1 poivron rouge, coupé en dés",
-            "1 oignon, haché",
+            "400 g de haricots rouges cuits et égouttés",
+            "1 oignon moyen, haché",
             "2 gousses d’ail, émincées",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Tremper les haricots 8 heures puis cuire 40 minutes.\n" +
-            "2. Faire revenir oignon, ail et poivron 5 minutes.\n" +
-            "3. Ajouter les haricots, sel et cuire 10 minutes.\n" +
-            "4. Servir chaud."
-    },
-    en: {
-        title: "Vegetarian Feijoada (Brazil, Serves 4)",
-        equipment: ["1 large pot", "1 knife", "1 cutting board"],
-        ingredients: [
-            "200 g dried black beans",
-            "1 red bell pepper, diced",
-            "1 onion, chopped",
-            "2 garlic cloves, sliced",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Soak beans 8 hours, then cook 40 minutes.\n" +
-            "2. Sauté onion, garlic, pepper 5 minutes.\n" +
-            "3. Add beans, salt, cook 10 minutes.\n" +
-            "4. Serve hot."
-    },
-    nl: {
-        title: "Vegetarische Feijoada (Brazilië, voor 4 personen)",
-        equipment: ["1 grote pan", "1 mes", "1 snijplank"],
-        ingredients: [
-            "200 g zwarte bonen, gedroogd",
-            "1 rode paprika, in blokjes",
-            "1 ui, gehakt",
-            "2 teentjes knoflook, gesneden",
-            "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Week bonen 8 uur, kook 40 minuten.\n" +
-            "2. Bak ui, knoflook, paprika 5 minuten.\n" +
-            "3. Voeg bonen en zout toe, kook 10 minuten.\n" +
-            "4. Serveer heet."
-    },
-    ar: {
-        title: "فيجوادا نباتية (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["1 قدر كبير", "1 سكين", "1 لوح تقطيع"],
-        ingredients: [
-            "200 غ فاصولياء سوداء جافة",
-            "1 فلفل أحمر، مقطع مكعبات",
-            "1 بصل، مفروم",
-            "2 فص ثوم، مفروم",
-            "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. انقع الفاصولياء 8 ساعات ثم اطبخ 40 دقيقة.\n" +
-            "2. اقلي البصل والثوم والفلفل 5 دقائق.\n" +
-            "3. أضف الفاصولياء والملح واطبخ 10 دقائق.\n" +
-            "4. قدمه ساخناً."
-    }
-};
-
-// 8. Chili sin carne (USA)
-recipesData.plat.chili_sin_carne_usa = {
-    country: "amerique",
-    countryName: "usa",
-    image: "images/chili_sin_carne_usa.jpg",
-    fr: {
-        title: "Chili sin carne (USA, 4 personnes)",
-        equipment: ["1 casserole", "1 couteau", "1 planche"],
-        ingredients: [
-            "200 g haricots rouges cuits",
             "1 poivron rouge, coupé en dés",
-            "1 oignon, haché",
-            "2 tomates, coupées en dés",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/2 cuillère à café paprika (1 g)"
+            "2 tomates mûres, coupées en dés",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1 cuillère à café de paprika",
+            "1/2 cuillère à café de cumin",
+            "1/2 cuillère à café de piment doux",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire revenir oignon et poivron 5 minutes.\n" +
-            "2. Ajouter tomates et haricots, cuire 10 minutes.\n" +
-            "3. Assaisonner sel et paprika.\n" +
-            "4. Servir chaud."
+            "1. Éplucher et hacher l’oignon et l’ail.\n" +
+            "2. Chauffer l’huile dans une grande casserole à feu moyen.\n" +
+            "3. Faire revenir l’oignon et l’ail pendant 3 minutes.\n" +
+            "4. Ajouter le poivron et cuire encore 5 minutes.\n" +
+            "5. Incorporer les tomates, le paprika, le cumin et le piment doux.\n" +
+            "6. Mélanger et laisser cuire 5 minutes.\n" +
+            "7. Ajouter les haricots rouges égouttés.\n" +
+            "8. Saler, poivrer et mélanger.\n" +
+            "9. Couvrir et laisser mijoter 20 minutes à feu doux.\n" +
+            "10. Rectifier l’assaisonnement et servir bien chaud."
     },
+
     en: {
-        title: "Chili sin carne (USA, Serves 4)",
-        equipment: ["1 pot", "1 knife", "1 cutting board"],
+        title: "Chili sin carne (USA)",
+        equipment: [
+            "1 large pot",
+            "1 lid",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 ladle"
+        ],
         ingredients: [
-            "200 g cooked red beans",
+            "400 g cooked and drained red beans",
+            "1 medium onion, chopped",
+            "2 garlic cloves, minced",
             "1 red bell pepper, diced",
-            "1 onion, chopped",
-            "2 tomatoes, diced",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/2 tsp paprika (1 g)"
+            "2 ripe tomatoes, diced",
+            "2 tablespoons vegetable oil (30 ml)",
+            "1 teaspoon paprika",
+            "1/2 teaspoon cumin",
+            "1/2 teaspoon mild chili powder",
+            "Salt",
+            "Black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Sauté onion and pepper 5 minutes.\n" +
-            "2. Add tomatoes and beans, cook 10 minutes.\n" +
-            "3. Season with salt and paprika.\n" +
-            "4. Serve hot."
+            "1. Peel and chop the onion and garlic.\n" +
+            "2. Heat the oil in a large pot over medium heat.\n" +
+            "3. Sauté the onion and garlic for 3 minutes.\n" +
+            "4. Add the bell pepper and cook for 5 minutes.\n" +
+            "5. Stir in the tomatoes, paprika, cumin and chili powder.\n" +
+            "6. Cook for 5 minutes, stirring occasionally.\n" +
+            "7. Add the drained red beans.\n" +
+            "8. Season with salt and pepper.\n" +
+            "9. Cover and simmer for 20 minutes on low heat.\n" +
+            "10. Adjust seasoning and serve hot."
     },
+
     nl: {
-        title: "Chili sin carne (VS, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank"],
+        title: "Chili sin carne (Verenigde Staten)",
+        equipment: [
+            "1 grote pan",
+            "1 deksel",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 soeplepel"
+        ],
         ingredients: [
-            "200 g gekookte rode bonen",
+            "400 g gekookte en uitgelekte rode bonen",
+            "1 middelgrote ui, gehakt",
+            "2 teentjes knoflook, fijngehakt",
             "1 rode paprika, in blokjes",
-            "1 ui, gehakt",
-            "2 tomaten, in blokjes",
+            "2 rijpe tomaten, in blokjes",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)",
-            "1/2 tl paprika (1 g)"
+            "1 theelepel paprikapoeder",
+            "1/2 theelepel komijn",
+            "1/2 theelepel milde chilipoeder",
+            "Zout",
+            "Zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bak ui en paprika 5 minuten.\n" +
-            "2. Voeg tomaten en bonen toe, kook 10 minuten.\n" +
-            "3. Breng op smaak met zout en paprika.\n" +
-            "4. Serveer heet."
+            "1. Pel en hak de ui en knoflook.\n" +
+            "2. Verhit de olie in een grote pan op middelhoog vuur.\n" +
+            "3. Bak de ui en knoflook 3 minuten.\n" +
+            "4. Voeg de paprika toe en bak 5 minuten.\n" +
+            "5. Voeg tomaten, paprikapoeder, komijn en chilipoeder toe.\n" +
+            "6. Laat 5 minuten koken en roer regelmatig.\n" +
+            "7. Voeg de rode bonen toe.\n" +
+            "8. Breng op smaak met zout en peper.\n" +
+            "9. Laat 20 minuten zachtjes sudderen met deksel.\n" +
+            "10. Serveer warm."
     },
+
     ar: {
-        title: "فلفل حار بدون لحم (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 سكين", "1 لوح تقطيع"],
+        title: "تشيلي بدون لحم (الولايات المتحدة)",
+        equipment: [
+            "قدر كبير",
+            "غطاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مغرفة"
+        ],
         ingredients: [
-            "200 غ فاصولياء حمراء مطبوخة",
-            "1 فلفل أحمر، مقطع مكعبات",
-            "1 بصل، مفروم",
-            "2 طماطم، مقطعة مكعبات",
+            "400 غ فاصولياء حمراء مطبوخة ومصفاة",
+            "بصلة متوسطة مفرومة",
+            "2 فص ثوم مفروم",
+            "1 فلفل أحمر مقطع مكعبات",
+            "2 طماطم ناضجة مقطعة مكعبات",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/2 ملعقة صغيرة بابريكا (1 غ)"
+            "1 ملعقة صغيرة بابريكا",
+            "1/2 ملعقة صغيرة كمون",
+            "1/2 ملعقة صغيرة فلفل حار معتدل",
+            "ملح",
+            "فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اقلي البصل والفلفل 5 دقائق.\n" +
-            "2. أضف الطماطم والفاصولياء، اطبخ 10 دقائق.\n" +
-            "3. تبّل بالملح والبابريكا.\n" +
-            "4. قدمه ساخناً."
+            "1. قشر البصل والثوم وافرمهما.\n" +
+            "2. سخّن الزيت في قدر على نار متوسطة.\n" +
+            "3. أضف البصل والثوم وقلّب 3 دقائق.\n" +
+            "4. أضف الفلفل الأحمر واطبخ 5 دقائق.\n" +
+            "5. أضف الطماطم والبابريكا والكمون والفلفل الحار.\n" +
+            "6. اتركه يطهى 5 دقائق مع التحريك.\n" +
+            "7. أضف الفاصولياء الحمراء.\n" +
+            "8. تبّل بالملح والفلفل.\n" +
+            "9. غطِّ القدر واتركه يطهى 20 دقيقة على نار هادئة.\n" +
+            "10. قدّم الطبق ساخناً."
     }
 };
 
-// 9. Arepas aux légumes (Venezuela)
 recipesData.plat.arepas_legumes_venezuela = {
     country: "amerique",
     countryName: "venezuela",
-    image: "images/arepas_legumes_venezuela.jpg",
+    image: "images/arepas-legumes-venezuela.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "arepas-legumes-venezuela",
+            title: "Arepas aux légumes (Venezuela) – Recette facile",
+            description: "Découvrez les arepas aux légumes du Venezuela, des galettes de maïs dorées garnies de légumes savoureux, idéales en plat familial.",
+            keywords: [
+                "recette arepas",
+                "arepas venezuela",
+                "cuisine venezuelienne",
+                "galette de mais",
+                "recette vegetarienne",
+                "plat traditionnel"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Arepas aux légumes (Venezuela)",
+            "description": "Arepas traditionnelles du Venezuela garnies de légumes sautés.",
+            "recipeCuisine": "Venezuela",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT15M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "250 g de farine de maïs précuite",
+                "300 ml d’eau tiède",
+                "1/2 cuillère à café de sel",
+                "1 poivron rouge en dés",
+                "1 oignon haché",
+                "2 cuillères à soupe d’huile végétale"
+            ],
+            "recipeInstructions": [
+                "Mélanger la farine, l’eau et le sel.",
+                "Former des galettes.",
+                "Cuire 5 minutes de chaque côté.",
+                "Faire revenir les légumes.",
+                "Garnir et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Arepas aux légumes (Venezuela, 4 personnes)",
-        equipment: ["1 poêle", "1 bol", "1 couteau", "1 planche"],
+        title: "Arepas aux légumes (Venezuela)",
+        equipment: [
+            "1 grand bol",
+            "1 cuillère",
+            "1 poêle",
+            "1 spatule",
+            "1 couteau",
+            "1 planche à découper"
+        ],
         ingredients: [
-            "250 g farine de maïs",
-            "200 ml eau",
+            "250 g de farine de maïs précuite",
+            "300 ml d’eau tiède",
+            "1/2 cuillère à café de sel",
             "1 poivron rouge, coupé en dés",
             "1 oignon, haché",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "2 cuillères à soupe d’huile végétale (30 ml)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger farine et eau pour former une pâte.\n" +
-            "2. Former des boules et aplatir en galettes.\n" +
-            "3. Cuire les galettes dans la poêle 5 minutes de chaque côté.\n" +
-            "4. Faire revenir oignon et poivron 5 minutes.\n" +
-            "5. Garnir les arepas et servir chaud."
+            "1. Verser la farine de maïs dans un grand bol.\n" +
+            "2. Ajouter le sel puis l’eau tiède progressivement.\n" +
+            "3. Mélanger jusqu’à obtenir une pâte souple et homogène.\n" +
+            "4. Laisser reposer 5 minutes.\n" +
+            "5. Former 4 galettes épaisses.\n" +
+            "6. Chauffer une poêle légèrement huilée.\n" +
+            "7. Cuire les galettes 5 à 7 minutes de chaque côté jusqu’à ce qu’elles soient dorées.\n" +
+            "8. Dans une autre poêle, faire revenir l’oignon et le poivron 5 minutes.\n" +
+            "9. Ouvrir délicatement les arepas et les garnir de légumes.\n" +
+            "10. Servir chaud."
     },
+
     en: {
-        title: "Vegetable Arepas (Venezuela, Serves 4)",
-        equipment: ["1 pan", "1 bowl", "1 knife", "1 cutting board"],
+        title: "Vegetable Arepas (Venezuela)",
+        equipment: [
+            "1 large bowl",
+            "1 spoon",
+            "1 pan",
+            "1 spatula",
+            "1 knife",
+            "1 cutting board"
+        ],
         ingredients: [
-            "250 g corn flour",
-            "200 ml water",
+            "250 g precooked corn flour",
+            "300 ml warm water",
+            "1/2 teaspoon salt",
             "1 red bell pepper, diced",
             "1 onion, chopped",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "2 tablespoons vegetable oil (30 ml)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mix flour and water to form dough.\n" +
-            "2. Shape into balls and flatten.\n" +
-            "3. Cook patties in pan 5 minutes each side.\n" +
-            "4. Sauté onion and pepper 5 minutes.\n" +
-            "5. Fill arepas and serve hot."
+            "1. Place the corn flour in a large bowl.\n" +
+            "2. Add salt and gradually mix in warm water.\n" +
+            "3. Knead until a soft dough forms.\n" +
+            "4. Let rest for 5 minutes.\n" +
+            "5. Shape into 4 thick patties.\n" +
+            "6. Heat a lightly oiled pan.\n" +
+            "7. Cook the patties for 5 to 7 minutes on each side until golden.\n" +
+            "8. Sauté onion and bell pepper for 5 minutes.\n" +
+            "9. Slice open the arepas and fill with vegetables.\n" +
+            "10. Serve warm."
     },
+
     nl: {
-        title: "Groente Arepas (Venezuela, voor 4 personen)",
-        equipment: ["1 pan", "1 kom", "1 mes", "1 snijplank"],
+        title: "Groente Arepas (Venezuela)",
+        equipment: [
+            "1 grote kom",
+            "1 lepel",
+            "1 pan",
+            "1 spatel",
+            "1 mes",
+            "1 snijplank"
+        ],
         ingredients: [
-            "250 g maïsmeel",
-            "200 ml water",
+            "250 g voorgekookt maïsmeel",
+            "300 ml lauwwarm water",
+            "1/2 theelepel zout",
             "1 rode paprika, in blokjes",
             "1 ui, gehakt",
-            "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "2 eetlepels plantaardige olie (30 ml)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng meel en water tot deeg.\n" +
-            "2. Vorm balletjes en druk plat.\n" +
-            "3. Bak pannenkoekjes 5 minuten per kant.\n" +
-            "4. Bak ui en paprika 5 minuten.\n" +
-            "5. Vul arepas en serveer heet."
+            "1. Doe het maïsmeel in een grote kom.\n" +
+            "2. Voeg zout toe en meng geleidelijk het water erdoor.\n" +
+            "3. Kneed tot een soepel deeg.\n" +
+            "4. Laat 5 minuten rusten.\n" +
+            "5. Vorm 4 dikke schijven.\n" +
+            "6. Verhit een licht ingevette pan.\n" +
+            "7. Bak 5 tot 7 minuten per kant tot goudbruin.\n" +
+            "8. Bak ui en paprika 5 minuten.\n" +
+            "9. Snijd de arepas open en vul met groenten.\n" +
+            "10. Serveer warm."
     },
+
     ar: {
-        title: "أريبا بالخضار (فنزويلا، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 وعاء", "1 سكين", "1 لوح تقطيع"],
+        title: "أريبا بالخضار (فنزويلا)",
+        equipment: [
+            "وعاء كبير",
+            "ملعقة",
+            "مقلاة",
+            "ملعقة مسطحة",
+            "سكين",
+            "لوح تقطيع"
+        ],
         ingredients: [
-            "250 غ دقيق ذرة",
-            "200 مل ماء",
-            "1 فلفل أحمر، مقطع مكعبات",
-            "1 بصل، مفروم",
-            "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "250 غ دقيق ذرة مطبوخ مسبقاً",
+            "300 مل ماء دافئ",
+            "1/2 ملعقة صغيرة ملح",
+            "1 فلفل أحمر مقطع مكعبات",
+            "1 بصل مفروم",
+            "2 ملعقة كبيرة زيت نباتي (30 مل)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط الدقيق والماء لتكوين عجينة.\n" +
-            "2. شكل كرات وافردها.\n" +
-            "3. اطبخ الأقراص في المقلاة 5 دقائق لكل جانب.\n" +
-            "4. اقلي البصل والفلفل 5 دقائق.\n" +
-            "5. احشي الأريبا وقدمها ساخنة."
+            "1. ضع دقيق الذرة في وعاء كبير.\n" +
+            "2. أضف الملح ثم الماء تدريجياً مع الخلط.\n" +
+            "3. اعجن حتى تتكون عجينة متماسكة.\n" +
+            "4. اتركها ترتاح 5 دقائق.\n" +
+            "5. شكّل 4 أقراص سميكة.\n" +
+            "6. سخّن مقلاة مدهونة بقليل من الزيت.\n" +
+            "7. اطبخ الأقراص 5 إلى 7 دقائق لكل جانب حتى تكتسب لوناً ذهبياً.\n" +
+            "8. اقلي البصل والفلفل 5 دقائق.\n" +
+            "9. افتح الأريبا واحشها بالخضار.\n" +
+            "10. قدّمها ساخنة."
     }
 };
-
-// 10. Ceviche de légumes (Pérou)
 recipesData.plat.ceviche_legumes_perou = {
     country: "amerique",
     countryName: "perou",
-    image: "images/ceviche_legumes_perou.jpg",
+    image: "images/ceviche-legumes-perou-plat.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 0,
+        difficulty: "easy",
+        marinationTime: 10,
+        seo: {
+            slug: "ceviche-legumes-perou",
+            title: "Ceviche de légumes (Pérou) – Frais et facile",
+            description: "Savourez un ceviche de légumes inspiré du Pérou, frais et citronné, parfait en entrée légère et colorée.",
+            keywords: [
+                "recette ceviche",
+                "ceviche perou",
+                "cuisine peruvienne",
+                "entree fraiche",
+                "recette vegetarienne",
+                "plat traditionnel"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Ceviche de légumes (Pérou)",
+            "description": "Ceviche de légumes frais mariné au citron inspiré du Pérou.",
+            "recipeCuisine": "Pérou",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT0M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "1 concombre en dés",
+                "2 tomates en dés",
+                "1 oignon rouge émincé",
+                "1 poivron en dés",
+                "2 cuillères à soupe de jus de citron",
+                "1 cuillère à soupe d’huile d’olive",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": [
+                "Couper les légumes.",
+                "Mélanger dans un bol.",
+                "Ajouter citron, huile et assaisonnement.",
+                "Laisser mariner 10 minutes.",
+                "Servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Ceviche de légumes (Pérou, 4 personnes)",
-        equipment: ["1 bol", "1 couteau", "1 planche"],
+        title: "Ceviche de légumes (Pérou)",
+        equipment: [
+            "1 grand bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère",
+            "1 presse-citron"
+        ],
         ingredients: [
             "1 concombre, coupé en dés",
             "2 tomates, coupées en dés",
-            "1 oignon rouge, émincé",
-            "1 poivron, coupé en dés",
-            "2 cuillères à soupe jus de citron (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "1 oignon rouge, émincé finement",
+            "1 poivron jaune ou rouge, coupé en dés",
+            "2 cuillères à soupe de jus de citron (30 ml)",
+            "1 cuillère à soupe d’huile d’olive (15 ml)",
+            "Sel",
+            "Poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger tous les légumes dans un bol.\n" +
-            "2. Ajouter jus de citron et sel.\n" +
-            "3. Laisser mariner 10 minutes.\n" +
-            "4. Servir frais."
+            "==============================\n" +
+            "PRÉPARATION DES LÉGUMES\n" +
+            "==============================\n\n" +
+            "1. Laver soigneusement tous les légumes.\n" +
+            "2. Couper le concombre, les tomates et le poivron en petits dés.\n" +
+            "3. Émincer finement l’oignon rouge.\n\n" +
+            "==============================\n" +
+            "MARINADE ET REPOS\n" +
+            "==============================\n\n" +
+            "4. Mettre tous les légumes dans un grand bol.\n" +
+            "5. Ajouter le jus de citron fraîchement pressé et l’huile d’olive.\n" +
+            "6. Saler et poivrer selon votre goût.\n" +
+            "7. Mélanger délicatement.\n" +
+            "8. Laisser mariner 10 minutes au réfrigérateur.\n" +
+            "9. Servir bien frais."
     },
+
     en: {
-        title: "Vegetable Ceviche (Peru, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board"],
+        title: "Vegetable Ceviche (Peru)",
+        equipment: [
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 spoon",
+            "1 citrus juicer"
+        ],
         ingredients: [
             "1 cucumber, diced",
             "2 tomatoes, diced",
-            "1 red onion, sliced",
-            "1 bell pepper, diced",
-            "2 tbsp lemon juice (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "1 red onion, thinly sliced",
+            "1 yellow or red bell pepper, diced",
+            "2 tablespoons lemon juice (30 ml)",
+            "1 tablespoon olive oil (15 ml)",
+            "Salt",
+            "Black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mix all vegetables in a bowl.\n" +
-            "2. Add lemon juice and salt.\n" +
-            "3. Let marinate 10 minutes.\n" +
-            "4. Serve chilled."
+            "==============================\n" +
+            "VEGETABLE PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Wash all vegetables thoroughly.\n" +
+            "2. Dice the cucumber, tomatoes, and bell pepper.\n" +
+            "3. Thinly slice the red onion.\n\n" +
+            "==============================\n" +
+            "MARINATION AND RESTING\n" +
+            "==============================\n\n" +
+            "4. Place all vegetables in a large bowl.\n" +
+            "5. Add freshly squeezed lemon juice and olive oil.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Toss gently to combine.\n" +
+            "8. Let marinate in the refrigerator for 10 minutes.\n" +
+            "9. Serve chilled."
     },
+
     nl: {
-        title: "Groente Ceviche (Peru, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank"],
+        title: "Groente Ceviche (Peru)",
+        equipment: [
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 lepel",
+            "1 citruspers"
+        ],
         ingredients: [
             "1 komkommer, in blokjes",
             "2 tomaten, in blokjes",
-            "1 rode ui, in dunne plakjes",
-            "1 paprika, in blokjes",
+            "1 rode ui, dun gesneden",
+            "1 gele of rode paprika, in blokjes",
             "2 eetlepels citroensap (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1 eetlepel olijfolie (15 ml)",
+            "Zout",
+            "Zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng alle groenten in een kom.\n" +
-            "2. Voeg citroensap en zout toe.\n" +
-            "3. Laat 10 minuten marineren.\n" +
-            "4. Serveer koel."
+            "==============================\n" +
+            "VOORBEREIDING VAN DE GROENTEN\n" +
+            "==============================\n\n" +
+            "1. Was alle groenten grondig.\n" +
+            "2. Snijd komkommer, tomaten en paprika in kleine blokjes.\n" +
+            "3. Snijd de rode ui in dunne plakjes.\n\n" +
+            "==============================\n" +
+            "MARINEREN EN RUSTEN\n" +
+            "==============================\n\n" +
+            "4. Doe alle groenten in een grote kom.\n" +
+            "5. Voeg vers citroensap en olijfolie toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Meng voorzichtig.\n" +
+            "8. Laat 10 minuten marineren in de koelkast.\n" +
+            "9. Serveer gekoeld."
     },
+
     ar: {
-        title: "سيفيتشي بالخضار (بيرو، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع"],
+        title: "سيفيتشي بالخضار (بيرو)",
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة",
+            "عصارة ليمون"
+        ],
         ingredients: [
-            "1 خيار، مقطع مكعبات",
-            "2 طماطم، مقطعة مكعبات",
-            "1 بصل أحمر، مقطع شرائح",
-            "1 فلفل، مقطع مكعبات",
+            "1 خيار مقطع مكعبات",
+            "2 طماطم مقطعة مكعبات",
+            "1 بصل أحمر مقطع شرائح رفيعة",
+            "1 فلفل أصفر أو أحمر مقطع مكعبات",
             "2 ملعقة كبيرة عصير ليمون (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1 ملعقة كبيرة زيت زيتون (15 مل)",
+            "ملح",
+            "فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط جميع الخضار في وعاء.\n" +
-            "2. أضف عصير الليمون والملح.\n" +
-            "3. اتركه يتبل 10 دقائق.\n" +
-            "4. قدمه بارداً."
+            "==============================\n" +
+            "تحضير الخضار\n" +
+            "==============================\n\n" +
+            "1. اغسل جميع الخضار جيداً.\n" +
+            "2. قطّع الخيار والطماطم والفلفل إلى مكعبات صغيرة.\n" +
+            "3. قطّع البصل الأحمر إلى شرائح رفيعة.\n\n" +
+            "==============================\n" +
+            "التتبيل والراحة\n" +
+            "==============================\n\n" +
+            "4. ضع جميع الخضار في وعاء كبير.\n" +
+            "5. أضف عصير الليمون الطازج وزيت الزيتون.\n" +
+            "6. تبّل بالملح والفلفل.\n" +
+            "7. اخلط برفق.\n" +
+            "8. اتركه يتبل في الثلاجة لمدة 10 دقائق.\n" +
+            "9. قدّمه بارداً."
     }
 };
 recipesData.plat.quinoa_legumes_costa_rica = {
     country: "amerique",
     countryName: "costa_rica",
-    image: "images/quinoa_legumes_costa_rica.jpg",
+    image: "images/quinoa-legumes-costa-rica.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "quinoa-legumes-costa-rica",
+            title: "Quinoa aux légumes (Costa Rica) – Recette facile",
+            description: "Savourez un quinoa aux légumes inspiré du Costa Rica, un plat coloré et équilibré avec maïs doux et poivron, simple et rapide à préparer.",
+            keywords: [
+                "recette quinoa",
+                "quinoa costa rica",
+                "cuisine costa rica",
+                "plat vegetarien",
+                "recette facile",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Quinoa aux légumes (Costa Rica)",
+            "description": "Un plat savoureux du Costa Rica à base de quinoa, maïs et légumes frais.",
+            "recipeCuisine": "Costa Rica",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT20M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "200 g quinoa",
+                "400 ml eau",
+                "1 poivron rouge",
+                "1 oignon",
+                "100 g maïs doux",
+                "2 cuillères à soupe huile végétale",
+                "1/2 cuillère à café sel",
+                "1/2 cuillère à café poivre"
+            ],
+            "recipeInstructions": [
+                "Rincer le quinoa.",
+                "Cuire le quinoa 15 minutes.",
+                "Faire revenir l’oignon et le poivron.",
+                "Ajouter le maïs et le quinoa.",
+                "Assaisonner et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Quinoa aux légumes et maïs (Costa Rica, 4 personnes)",
-        equipment: ["1 casserole", "1 poêle", "1 couteau", "1 planche"],
+        title: "Quinoa aux légumes (Costa Rica)",
+        equipment: [
+            "1 casserole avec couvercle",
+            "1 poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 passoire fine",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "200 g quinoa",
+            "200 g de quinoa",
+            "400 ml d’eau",
             "1 poivron rouge, coupé en dés",
             "1 oignon, haché",
-            "100 g maïs doux",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "100 g de maïs doux",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/2 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Cuire le quinoa selon instructions.\n" +
-            "2. Faire revenir oignon et poivron 5 minutes.\n" +
-            "3. Ajouter maïs et quinoa cuit, mélanger 2 minutes.\n" +
-            "4. Assaisonner et servir chaud."
+            "1. Rincer soigneusement le quinoa sous l’eau froide à l’aide d’une passoire.\n" +
+            "2. Porter 400 ml d’eau à ébullition dans une casserole.\n" +
+            "3. Ajouter le quinoa, couvrir et cuire à feu doux pendant 15 minutes.\n" +
+            "4. Retirer du feu et laisser reposer 5 minutes.\n" +
+            "5. Éplucher et hacher l’oignon.\n" +
+            "6. Couper le poivron en petits dés.\n" +
+            "7. Chauffer l’huile dans une poêle.\n" +
+            "8. Faire revenir l’oignon 2 minutes.\n" +
+            "9. Ajouter le poivron et cuire 5 minutes.\n" +
+            "10. Incorporer le maïs puis mélanger.\n" +
+            "11. Ajouter le quinoa cuit et bien mélanger.\n" +
+            "12. Saler, poivrer et servir chaud."
     },
+
     en: {
-        title: "Quinoa with Vegetables and Corn (Costa Rica, Serves 4)",
-        equipment: ["1 pot", "1 pan", "1 knife", "1 cutting board"],
+        title: "Quinoa with Vegetables (Costa Rica)",
+        equipment: [
+            "1 pot with lid",
+            "1 pan",
+            "1 knife",
+            "1 cutting board",
+            "1 fine strainer",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "200 g quinoa",
+            "400 ml water",
             "1 red bell pepper, diced",
             "1 onion, chopped",
             "100 g sweet corn",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/2 teaspoon black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cook quinoa as directed.\n" +
-            "2. Sauté onion and pepper 5 minutes.\n" +
-            "3. Add corn and cooked quinoa, mix 2 minutes.\n" +
-            "4. Season and serve hot."
+            "1. Rinse the quinoa thoroughly under cold water.\n" +
+            "2. Bring 400 ml of water to a boil in a pot.\n" +
+            "3. Add the quinoa, cover and cook on low heat for 15 minutes.\n" +
+            "4. Remove from heat and let rest for 5 minutes.\n" +
+            "5. Chop the onion and dice the bell pepper.\n" +
+            "6. Heat oil in a pan.\n" +
+            "7. Sauté the onion for 2 minutes.\n" +
+            "8. Add the bell pepper and cook for 5 minutes.\n" +
+            "9. Stir in the sweet corn.\n" +
+            "10. Add the cooked quinoa and mix well.\n" +
+            "11. Season with salt and pepper.\n" +
+            "12. Serve hot."
     },
+
     nl: {
-        title: "Quinoa met groenten en maïs (Costa Rica, voor 4 personen)",
-        equipment: ["1 pan", "1 pan", "1 mes", "1 snijplank"],
+        title: "Quinoa met groenten (Costa Rica)",
+        equipment: [
+            "1 pan met deksel",
+            "1 koekenpan",
+            "1 mes",
+            "1 snijplank",
+            "1 fijne zeef",
+            "1 houten lepel"
+        ],
         ingredients: [
             "200 g quinoa",
+            "400 ml water",
             "1 rode paprika, in blokjes",
             "1 ui, gehakt",
             "100 g zoete maïs",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)",
+            "1/2 theelepel zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Kook quinoa volgens instructies.\n" +
-            "2. Bak ui en paprika 5 minuten.\n" +
-            "3. Voeg maïs en gekookte quinoa toe, meng 2 minuten.\n" +
-            "4. Breng op smaak en serveer heet."
+            "1. Spoel de quinoa goed af onder koud water.\n" +
+            "2. Breng 400 ml water aan de kook.\n" +
+            "3. Voeg de quinoa toe, dek af en kook 15 minuten op laag vuur.\n" +
+            "4. Haal van het vuur en laat 5 minuten rusten.\n" +
+            "5. Snipper de ui en snijd de paprika in blokjes.\n" +
+            "6. Verhit olie in een pan.\n" +
+            "7. Bak de ui 2 minuten.\n" +
+            "8. Voeg paprika toe en bak 5 minuten.\n" +
+            "9. Voeg de maïs toe.\n" +
+            "10. Meng de gekookte quinoa erdoor.\n" +
+            "11. Breng op smaak met zout en peper.\n" +
+            "12. Serveer warm."
     },
+
     ar: {
-        title: "كينوا بالخضار والذرة (كوستاريكا، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 مقلاة", "1 سكين", "1 لوح تقطيع"],
+        title: "كينوا بالخضار (كوستاريكا)",
+        equipment: [
+            "قدر بغطاء",
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "مصفاة دقيقة",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "200 غ كينوا",
-            "1 فلفل أحمر، مقطع مكعبات",
-            "1 بصل، مفروم",
+            "400 مل ماء",
+            "1 فلفل أحمر مقطع مكعبات",
+            "1 بصلة مفرومة",
             "100 غ ذرة حلوة",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/2 ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اطبخ الكينوا حسب التعليمات.\n" +
-            "2. اقلي البصل والفلفل 5 دقائق.\n" +
-            "3. أضف الذرة والكينوا المطبوخ، اخلط 2 دقيقة.\n" +
-            "4. تبّل وقدم ساخناً."
+            "1. اغسل الكينوا جيداً تحت ماء بارد.\n" +
+            "2. اغْلِ 400 مل ماء في قدر.\n" +
+            "3. أضف الكينوا وغطِّ القدر واطبخ 15 دقيقة على نار هادئة.\n" +
+            "4. ارفعه من النار واتركه يرتاح 5 دقائق.\n" +
+            "5. افرم البصل وقطّع الفلفل.\n" +
+            "6. سخّن الزيت في مقلاة.\n" +
+            "7. قلّب البصل دقيقتين.\n" +
+            "8. أضف الفلفل واطبخ 5 دقائق.\n" +
+            "9. أضف الذرة.\n" +
+            "10. أضف الكينوا المطبوخ وامزج جيداً.\n" +
+            "11. تبّل بالملح والفلفل.\n" +
+            "12. قدّم الطبق ساخناً."
     }
 };
 recipesData.plat.enchiladas_legumes_mexique = {
     country: "amerique",
     countryName: "mexique",
-    image: "images/enchiladas_legumes_mexique.jpg",
+    image: "images/enchiladas-legumes-mexique.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "enchiladas-legumes-mexique",
+            title: "Enchiladas aux légumes (Mexique) – Maison",
+            description: "Préparez des enchiladas aux légumes inspirées du Mexique, garnies de maïs et poivron, un plat familial savoureux et facile à réaliser.",
+            keywords: [
+                "recette enchiladas",
+                "enchiladas mexique",
+                "cuisine mexicaine",
+                "plat traditionnel mexique",
+                "recette facile",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Enchiladas aux légumes (Mexique)",
+            "description": "Des enchiladas végétariennes inspirées du Mexique, garnies de légumes et maïs.",
+            "recipeCuisine": "Mexique",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT15M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "8 tortillas de maïs",
+                "1 poivron",
+                "1 oignon",
+                "100 g maïs doux",
+                "200 ml sauce tomate",
+                "2 cuillères à soupe huile végétale",
+                "1/2 cuillère à café sel"
+            ],
+            "recipeInstructions": [
+                "Faire revenir les légumes.",
+                "Garnir les tortillas.",
+                "Rouler et disposer dans un plat.",
+                "Napper de sauce tomate.",
+                "Cuire 15 minutes à 180°C."
+            ]
+        }
+    },
+
     fr: {
-        title: "Enchiladas aux légumes (Mexique, 4 personnes)",
-        equipment: ["1 four", "1 poêle", "1 couteau", "1 planche"],
+        title: "Enchiladas aux légumes (Mexique)",
+        equipment: [
+            "1 four",
+            "1 poêle",
+            "1 plat à gratin",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
             "8 tortillas de maïs",
             "1 poivron, coupé en dés",
             "1 oignon, haché",
-            "100 g maïs doux",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "100 g de maïs doux",
+            "200 ml de sauce tomate",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (3 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire revenir oignon et poivron 5 minutes.\n" +
-            "2. Garnir les tortillas avec légumes et maïs.\n" +
-            "3. Rouler et placer dans plat à four.\n" +
-            "4. Cuire 15 minutes à 180°C.\n" +
-            "5. Servir chaud."
+            "1. Préchauffer le four à 180°C.\n" +
+            "2. Hacher l’oignon et couper le poivron.\n" +
+            "3. Chauffer l’huile dans une poêle.\n" +
+            "4. Faire revenir l’oignon 2 minutes.\n" +
+            "5. Ajouter le poivron et cuire 5 minutes.\n" +
+            "6. Incorporer le maïs et saler.\n" +
+            "7. Garnir chaque tortilla avec les légumes.\n" +
+            "8. Rouler et placer dans un plat à gratin.\n" +
+            "9. Napper de sauce tomate.\n" +
+            "10. Enfourner 15 minutes.\n" +
+            "11. Servir chaud."
     },
+
     en: {
-        title: "Vegetable Enchiladas (Mexico, Serves 4)",
-        equipment: ["1 oven", "1 pan", "1 knife", "1 cutting board"],
+        title: "Vegetable Enchiladas (Mexico)",
+        equipment: [
+            "1 oven",
+            "1 pan",
+            "1 baking dish",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "8 corn tortillas",
             "1 bell pepper, diced",
             "1 onion, chopped",
             "100 g sweet corn",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "200 ml tomato sauce",
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (3 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Sauté onion and pepper 5 minutes.\n" +
-            "2. Fill tortillas with vegetables and corn.\n" +
-            "3. Roll and place in baking dish.\n" +
-            "4. Bake 15 minutes at 180°C.\n" +
-            "5. Serve hot."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Chop the onion and dice the pepper.\n" +
+            "3. Heat oil in a pan.\n" +
+            "4. Sauté the onion for 2 minutes.\n" +
+            "5. Add the bell pepper and cook 5 minutes.\n" +
+            "6. Stir in the sweet corn and salt.\n" +
+            "7. Fill each tortilla with vegetables.\n" +
+            "8. Roll and place in a baking dish.\n" +
+            "9. Pour tomato sauce over.\n" +
+            "10. Bake 15 minutes.\n" +
+            "11. Serve hot."
     },
+
     nl: {
-        title: "Groente Enchiladas (Mexico, voor 4 personen)",
-        equipment: ["1 oven", "1 pan", "1 mes", "1 snijplank"],
+        title: "Groente Enchiladas (Mexico)",
+        equipment: [
+            "1 oven",
+            "1 pan",
+            "1 ovenschaal",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
             "8 maïstortilla's",
             "1 paprika, in blokjes",
             "1 ui, gehakt",
             "100 g zoete maïs",
+            "200 ml tomatensaus",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bak ui en paprika 5 minuten.\n" +
-            "2. Vul tortilla's met groenten en maïs.\n" +
-            "3. Rol op en leg in ovenschaal.\n" +
-            "4. Bak 15 minuten op 180°C.\n" +
-            "5. Serveer heet."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Snipper de ui en snijd de paprika.\n" +
+            "3. Verhit olie in een pan.\n" +
+            "4. Bak de ui 2 minuten.\n" +
+            "5. Voeg paprika toe en bak 5 minuten.\n" +
+            "6. Voeg maïs en zout toe.\n" +
+            "7. Vul elke tortilla met groenten.\n" +
+            "8. Rol op en leg in een ovenschaal.\n" +
+            "9. Giet tomatensaus erover.\n" +
+            "10. Bak 15 minuten.\n" +
+            "11. Serveer warm."
     },
+
     ar: {
-        title: "إنشيلاداس بالخضار (المكسيك، تكفي 4 أشخاص)",
-        equipment: ["1 فرن", "1 مقلاة", "1 سكين", "1 لوح تقطيع"],
+        title: "إنشيلاداس بالخضار (المكسيك)",
+        equipment: [
+            "فرن",
+            "مقلاة",
+            "صينية فرن",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "8 تورتيلا ذرة",
-            "1 فلفل، مقطع مكعبات",
-            "1 بصل، مفروم",
+            "1 فلفل مقطع مكعبات",
+            "1 بصلة مفرومة",
             "100 غ ذرة حلوة",
+            "200 مل صلصة طماطم",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اقلي البصل والفلفل 5 دقائق.\n" +
-            "2. احشو التورتيلا بالخضار والذرة.\n" +
-            "3. لف وضعها في صينية فرن.\n" +
-            "4. اخبز 15 دقيقة على 180°C.\n" +
-            "5. قدمها ساخنة."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. افرم البصل وقطّع الفلفل.\n" +
+            "3. سخّن الزيت في مقلاة.\n" +
+            "4. قلّب البصل دقيقتين.\n" +
+            "5. أضف الفلفل واطبخ 5 دقائق.\n" +
+            "6. أضف الذرة والملح.\n" +
+            "7. احشِ كل تورتيلا بالخضار.\n" +
+            "8. لفها وضعها في صينية فرن.\n" +
+            "9. اسكب صلصة الطماطم فوقها.\n" +
+            "10. اخبز 15 دقيقة.\n" +
+            "11. قدّمها ساخنة."
     }
 };
 recipesData.plat.burritos_legumes_usa = {
     country: "amerique",
     countryName: "usa",
-    image: "images/burritos_legumes_usa.jpg",
+    image: "images/burritos-legumes-usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 10,
+        difficulty: "easy",
+        seo: {
+            slug: "burritos-legumes-usa",
+            title: "Burritos végétariens (USA) – Facile maison",
+            description: "Réalisez des burritos végétariens inspirés des USA, garnis de riz, haricots rouges et légumes, parfaits pour un repas rapide et savoureux.",
+            keywords: [
+                "recette burritos",
+                "burritos usa",
+                "cuisine americaine",
+                "plat vegetarien",
+                "recette facile",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Burritos végétariens (USA)",
+            "description": "Des burritos végétariens inspirés des USA, garnis de riz, haricots rouges et légumes.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT10M",
+            "totalTime": "PT25M",
+            "recipeIngredient": [
+                "4 grandes tortillas",
+                "100 g riz cuit",
+                "100 g haricots rouges cuits",
+                "1 poivron rouge",
+                "1 oignon",
+                "2 cuillères à soupe huile végétale",
+                "1/2 cuillère à café sel"
+            ],
+            "recipeInstructions": [
+                "Faire revenir les légumes.",
+                "Mélanger avec le riz et les haricots.",
+                "Garnir les tortillas.",
+                "Rouler et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Burritos végétariens (USA, 4 personnes)",
-        equipment: ["1 poêle", "1 bol", "1 couteau", "1 planche"],
+        title: "Burritos végétariens (USA)",
+        equipment: [
+            "1 poêle",
+            "1 bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
-            "4 grandes tortillas",
+            "4 grandes tortillas de blé",
+            "100 g de riz cuit",
+            "100 g de haricots rouges cuits et égouttés",
             "1 poivron rouge, coupé en dés",
             "1 oignon, haché",
-            "100 g riz cuit",
-            "50 g haricots rouges cuits",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (3 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire revenir oignon et poivron 5 minutes.\n" +
-            "2. Mélanger avec riz et haricots.\n" +
-            "3. Garnir les tortillas et rouler.\n" +
-            "4. Servir chaud."
+            "1. Hacher l’oignon et couper le poivron.\n" +
+            "2. Chauffer l’huile dans une poêle.\n" +
+            "3. Faire revenir l’oignon 2 minutes.\n" +
+            "4. Ajouter le poivron et cuire 5 minutes.\n" +
+            "5. Incorporer le riz et les haricots rouges.\n" +
+            "6. Saler et mélanger.\n" +
+            "7. Réchauffer les tortillas quelques secondes.\n" +
+            "8. Garnir chaque tortilla du mélange.\n" +
+            "9. Replier les bords puis rouler fermement.\n" +
+            "10. Servir immédiatement."
     },
+
     en: {
-        title: "Vegetarian Burritos (USA, Serves 4)",
-        equipment: ["1 pan", "1 bowl", "1 knife", "1 cutting board"],
+        title: "Vegetarian Burritos (USA)",
+        equipment: [
+            "1 pan",
+            "1 bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
-            "4 large tortillas",
+            "4 large wheat tortillas",
+            "100 g cooked rice",
+            "100 g cooked red beans, drained",
             "1 red bell pepper, diced",
             "1 onion, chopped",
-            "100 g cooked rice",
-            "50 g cooked red beans",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (3 g)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Sauté onion and pepper 5 minutes.\n" +
-            "2. Mix with rice and beans.\n" +
-            "3. Fill tortillas and roll.\n" +
-            "4. Serve hot."
+            "1. Chop the onion and dice the bell pepper.\n" +
+            "2. Heat oil in a pan.\n" +
+            "3. Sauté the onion for 2 minutes.\n" +
+            "4. Add the bell pepper and cook 5 minutes.\n" +
+            "5. Stir in the rice and red beans.\n" +
+            "6. Season with salt and mix well.\n" +
+            "7. Warm the tortillas briefly.\n" +
+            "8. Fill each tortilla with the mixture.\n" +
+            "9. Fold the sides and roll tightly.\n" +
+            "10. Serve immediately."
     },
+
     nl: {
-        title: "Vegetarische Burritos (VS, voor 4 personen)",
-        equipment: ["1 pan", "1 kom", "1 mes", "1 snijplank"],
+        title: "Vegetarische Burritos (Verenigde Staten)",
+        equipment: [
+            "1 pan",
+            "1 kom",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
-            "4 grote tortilla's",
+            "4 grote tarwetortilla's",
+            "100 g gekookte rijst",
+            "100 g gekookte rode bonen, uitgelekt",
             "1 rode paprika, in blokjes",
             "1 ui, gehakt",
-            "100 g gekookte rijst",
-            "50 g gekookte rode bonen",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bak ui en paprika 5 minuten.\n" +
-            "2. Meng met rijst en bonen.\n" +
-            "3. Vul tortilla's en rol op.\n" +
-            "4. Serveer heet."
+            "1. Snipper de ui en snijd de paprika.\n" +
+            "2. Verhit olie in een pan.\n" +
+            "3. Bak de ui 2 minuten.\n" +
+            "4. Voeg paprika toe en bak 5 minuten.\n" +
+            "5. Voeg rijst en bonen toe.\n" +
+            "6. Breng op smaak met zout en meng goed.\n" +
+            "7. Verwarm de tortilla's kort.\n" +
+            "8. Vul elke tortilla met het mengsel.\n" +
+            "9. Vouw de zijkanten naar binnen en rol stevig op.\n" +
+            "10. Serveer direct."
     },
+
     ar: {
-        title: "بوريتو نباتي (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 وعاء", "1 سكين", "1 لوح تقطيع"],
+        title: "بوريتو نباتي (الولايات المتحدة)",
+        equipment: [
+            "مقلاة",
+            "وعاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
         ingredients: [
-            "4 تورتيلا كبيرة",
-            "1 فلفل أحمر، مقطع مكعبات",
-            "1 بصل، مفروم",
+            "4 تورتيلا قمح كبيرة",
             "100 غ أرز مطبوخ",
-            "50 غ فاصولياء حمراء مطبوخة",
+            "100 غ فاصولياء حمراء مطبوخة ومصفاة",
+            "1 فلفل أحمر مقطع مكعبات",
+            "1 بصلة مفرومة",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اقلي البصل والفلفل 5 دقائق.\n" +
-            "2. امزج مع الأرز والفاصولياء.\n" +
-            "3. احشي التورتيلا ولف.\n" +
-            "4. قدمه ساخناً."
+            "1. افرم البصل وقطّع الفلفل.\n" +
+            "2. سخّن الزيت في مقلاة.\n" +
+            "3. قلّب البصل دقيقتين.\n" +
+            "4. أضف الفلفل واطبخ 5 دقائق.\n" +
+            "5. أضف الأرز والفاصولياء.\n" +
+            "6. تبّل بالملح وامزج جيداً.\n" +
+            "7. سخّن التورتيلا قليلاً.\n" +
+            "8. احشِ كل تورتيلا بالخليط.\n" +
+            "9. اطوِ الجوانب ولف بإحكام.\n" +
+            "10. قدّم فوراً."
     }
 };
 recipesData.plat.poulet_legumes_usa = {
     country: "amerique",
     countryName: "usa",
     image: "images/poulet_legumes_usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "poulet-legumes-usa",
+            title: "Poulet aux légumes (États-Unis) – Recette facile",
+            description: "Découvrez comment préparer le Poulet aux légumes, un plat simple et savoureux des États-Unis, idéal pour un repas familial rapide.",
+            keywords: [
+                "recette poulet legumes",
+                "poulet legumes usa",
+                "cuisine etats unis",
+                "recette facile poulet",
+                "plat familial",
+                "cuisine maison rapide"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Poulet aux légumes (États-Unis)",
+            "description": "Un plat simple et coloré de poulet sauté aux légumes inspiré de la cuisine des États-Unis.",
+            "recipeCuisine": "États-Unis",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT15M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "400 g de blancs de poulet",
+                "1 poivron jaune",
+                "1 courgette",
+                "1 carotte",
+                "1 oignon",
+                "2 cuillères à soupe d’huile végétale",
+                "1/2 cuillère à café de sel",
+                "1/4 cuillère à café de poivre"
+            ],
+            "recipeInstructions": [
+                "Couper le poulet et les légumes.",
+                "Faire revenir l’oignon et les légumes dans l’huile.",
+                "Ajouter le poulet et cuire jusqu’à cuisson complète.",
+                "Assaisonner et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Poulet aux légumes sauté (USA, 4 personnes)",
-        equipment: ["1 poêle", "1 couteau", "1 planche"],
+        title: "Poulet aux légumes (États-Unis)",
+        equipment: [
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 spatule en bois",
+            "1 bol"
+        ],
         ingredients: [
-            "400 g blancs de poulet, coupés en morceaux",
+            "400 g de blancs de poulet, coupés en morceaux",
             "1 poivron jaune, coupé en dés",
             "1 courgette, coupée en dés",
-            "1 oignon, haché",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "1 carotte, coupée en fines rondelles",
+            "1 oignon, émincé",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1/4 cuillère à café de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile dans une poêle.\n" +
-            "2. Faire revenir oignon et légumes 5 minutes.\n" +
-            "3. Ajouter le poulet et cuire 10 minutes.\n" +
-            "4. Assaisonner et servir chaud."
+            "1. Couper le poulet en morceaux réguliers.\n" +
+            "2. Laver et découper tous les légumes.\n" +
+            "3. Chauffer l’huile dans une grande poêle à feu moyen.\n" +
+            "4. Ajouter l’oignon et cuire 2 minutes.\n" +
+            "5. Ajouter le poivron, la courgette et la carotte puis cuire 5 minutes en remuant.\n" +
+            "6. Incorporer les morceaux de poulet.\n" +
+            "7. Cuire environ 8 à 10 minutes jusqu’à ce que le poulet soit bien doré et cuit à cœur.\n" +
+            "8. Saler, poivrer et servir immédiatement."
     },
+
     en: {
-        title: "Chicken with Sautéed Vegetables (USA, Serves 4)",
-        equipment: ["1 pan", "1 knife", "1 cutting board"],
+        title: "Chicken with Vegetables (United States)",
+        equipment: [
+            "1 large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spatula",
+            "1 bowl"
+        ],
         ingredients: [
             "400 g chicken breast, cut into pieces",
             "1 yellow bell pepper, diced",
             "1 zucchini, diced",
-            "1 onion, chopped",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "1 carrot, thinly sliced",
+            "1 onion, sliced",
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1/4 teaspoon black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in pan.\n" +
-            "2. Sauté onion and vegetables 5 minutes.\n" +
-            "3. Add chicken, cook 10 minutes.\n" +
-            "4. Season and serve hot."
+            "1. Cut the chicken into even pieces.\n" +
+            "2. Wash and chop all the vegetables.\n" +
+            "3. Heat the oil in a large pan over medium heat.\n" +
+            "4. Add the onion and cook for 2 minutes.\n" +
+            "5. Add the bell pepper, zucchini, and carrot, then cook for 5 minutes while stirring.\n" +
+            "6. Add the chicken pieces.\n" +
+            "7. Cook for 8 to 10 minutes until the chicken is fully cooked and golden.\n" +
+            "8. Season with salt and pepper and serve hot."
     },
+
     nl: {
-        title: "Kip met gebakken groenten (VS, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank"],
+        title: "Kip met groenten (Verenigde Staten)",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten spatel",
+            "1 kom"
+        ],
         ingredients: [
             "400 g kipfilet, in stukjes",
             "1 gele paprika, in blokjes",
             "1 courgette, in blokjes",
-            "1 ui, gehakt",
+            "1 wortel, in dunne plakjes",
+            "1 ui, in reepjes",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)",
+            "1/4 theelepel zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan.\n" +
-            "2. Bak ui en groenten 5 minuten.\n" +
-            "3. Voeg kip toe en kook 10 minuten.\n" +
-            "4. Breng op smaak en serveer heet."
+            "1. Snijd de kip in gelijke stukjes.\n" +
+            "2. Was en snijd alle groenten.\n" +
+            "3. Verhit de olie in een grote pan op middelhoog vuur.\n" +
+            "4. Voeg de ui toe en bak 2 minuten.\n" +
+            "5. Voeg paprika, courgette en wortel toe en bak 5 minuten al roerend.\n" +
+            "6. Voeg de kip toe.\n" +
+            "7. Bak 8 tot 10 minuten tot de kip gaar en goudbruin is.\n" +
+            "8. Breng op smaak met zout en peper en serveer warm."
     },
+
     ar: {
-        title: "دجاج بالخضار المقلي (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 سكين", "1 لوح تقطيع"],
+        title: "دجاج بالخضار (الولايات المتحدة)",
+        equipment: [
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء"
+        ],
         ingredients: [
-            "400 غ صدر دجاج، مقطع قطع",
-            "1 فلفل أصفر، مقطع مكعبات",
-            "1 كوسة، مقطعة مكعبات",
-            "1 بصل، مفروم",
+            "400 غ صدر دجاج مقطع قطع",
+            "1 فلفل أصفر مقطع مكعبات",
+            "1 كوسة مقطعة مكعبات",
+            "1 جزرة مقطعة شرائح رفيعة",
+            "1 بصلة مقطعة شرائح",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "1/4 ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت في المقلاة.\n" +
-            "2. اقلي البصل والخضار 5 دقائق.\n" +
-            "3. أضف الدجاج واطبخ 10 دقائق.\n" +
-            "4. تبّل وقدم ساخناً."
+            "1. قطّع الدجاج إلى قطع متساوية.\n" +
+            "2. اغسل وقطّع جميع الخضار.\n" +
+            "3. سخّن الزيت في مقلاة كبيرة على نار متوسطة.\n" +
+            "4. أضف البصل واطهه لمدة دقيقتين.\n" +
+            "5. أضف الفلفل والكوسة والجزر واطهه لمدة 5 دقائق مع التحريك.\n" +
+            "6. أضف قطع الدجاج.\n" +
+            "7. اطه لمدة 8 إلى 10 دقائق حتى ينضج الدجاج تماماً ويصبح ذهبياً.\n" +
+            "8. تبّل بالملح والفلفل وقدّم ساخناً."
     }
 };
+
 recipesData.plat.moqueca_legumes_bresil = {
     country: "amerique",
     countryName: "bresil",
     image: "images/moqueca_legumes_bresil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "moqueca-legumes-bresil",
+            title: "Moqueca aux légumes (Brésil) – Recette facile",
+            description: "Préparez une Moqueca aux légumes inspirée du Brésil, un plat parfumé au lait de coco, simple et parfait pour un repas convivial.",
+            keywords: [
+                "recette moqueca",
+                "moqueca legumes bresil",
+                "cuisine bresilienne",
+                "plat vegetarien facile",
+                "recette au lait de coco",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Moqueca aux légumes (Brésil)",
+            "description": "Un ragoût de légumes au lait de coco inspiré de la cuisine brésilienne, parfumé et réconfortant.",
+            "recipeCuisine": "Brésil",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT20M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "1 poivron rouge",
+                "1 oignon",
+                "1 courgette",
+                "2 tomates",
+                "200 ml lait de coco",
+                "2 cuillères à soupe huile végétale",
+                "1/2 cuillère à café sel"
+            ],
+            "recipeInstructions": [
+                "Couper les légumes.",
+                "Faire revenir l’oignon et le poivron.",
+                "Ajouter les autres légumes et le lait de coco.",
+                "Laisser mijoter puis servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Moqueca aux légumes (Brésil, 4 personnes)",
-        equipment: ["1 casserole", "1 couteau", "1 planche"],
+        title: "Moqueca aux légumes (Brésil)",
+        equipment: [
+            "1 grande casserole",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 bol"
+        ],
         ingredients: [
             "1 poivron rouge, coupé en lanières",
-            "1 oignon, haché",
+            "1 oignon, émincé",
             "1 courgette, coupée en dés",
             "2 tomates, coupées en dés",
-            "200 ml lait de coco",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "200 ml de lait de coco",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "1 pincée de poivre"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile et faire revenir oignon et poivron 5 minutes.\n" +
-            "2. Ajouter courgette, tomates et lait de coco.\n" +
-            "3. Cuire 10 minutes à feu doux.\n" +
-            "4. Assaisonner et servir chaud."
+            "1. Laver et découper tous les légumes.\n" +
+            "2. Chauffer l’huile dans une grande casserole à feu moyen.\n" +
+            "3. Ajouter l’oignon et le poivron puis cuire 5 minutes.\n" +
+            "4. Ajouter la courgette et les tomates.\n" +
+            "5. Verser le lait de coco et mélanger.\n" +
+            "6. Laisser mijoter 15 minutes à feu doux.\n" +
+            "7. Saler, poivrer et servir chaud."
     },
+
     en: {
-        title: "Vegetable Moqueca (Brazil, Serves 4)",
-        equipment: ["1 pot", "1 knife", "1 cutting board"],
+        title: "Vegetable Moqueca (Brazil)",
+        equipment: [
+            "1 large pot",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 bowl"
+        ],
         ingredients: [
             "1 red bell pepper, sliced",
-            "1 onion, chopped",
+            "1 onion, sliced",
             "1 zucchini, diced",
             "2 tomatoes, diced",
             "200 ml coconut milk",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "1 pinch black pepper"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat oil and sauté onion and pepper 5 minutes.\n" +
-            "2. Add zucchini, tomatoes, and coconut milk.\n" +
-            "3. Cook 10 minutes on low heat.\n" +
-            "4. Season and serve hot."
+            "1. Wash and chop all the vegetables.\n" +
+            "2. Heat the oil in a large pot over medium heat.\n" +
+            "3. Add the onion and bell pepper and cook for 5 minutes.\n" +
+            "4. Add the zucchini and tomatoes.\n" +
+            "5. Pour in the coconut milk and stir.\n" +
+            "6. Simmer for 15 minutes on low heat.\n" +
+            "7. Season and serve hot."
     },
+
     nl: {
-        title: "Groente Moqueca (Brazilië, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank"],
+        title: "Groente Moqueca (Brazilië)",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 kom"
+        ],
         ingredients: [
             "1 rode paprika, in reepjes",
-            "1 ui, gehakt",
+            "1 ui, in reepjes",
             "1 courgette, in blokjes",
             "2 tomaten, in blokjes",
             "200 ml kokosmelk",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)",
+            "1 snuf zwarte peper"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie en bak ui en paprika 5 minuten.\n" +
-            "2. Voeg courgette, tomaten en kokosmelk toe.\n" +
-            "3. Kook 10 minuten op laag vuur.\n" +
-            "4. Breng op smaak en serveer heet."
+            "1. Was en snijd alle groenten.\n" +
+            "2. Verhit de olie in een grote pan op middelhoog vuur.\n" +
+            "3. Voeg ui en paprika toe en bak 5 minuten.\n" +
+            "4. Voeg courgette en tomaten toe.\n" +
+            "5. Giet de kokosmelk erbij en roer goed.\n" +
+            "6. Laat 15 minuten zachtjes sudderen.\n" +
+            "7. Breng op smaak en serveer warm."
     },
+
     ar: {
-        title: "موكيكا بالخضار (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 سكين", "1 لوح تقطيع"],
+        title: "موكيكا بالخضار (البرازيل)",
+        equipment: [
+            "قدر كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء"
+        ],
         ingredients: [
-            "1 فلفل أحمر، مقطع شرائح",
-            "1 بصل، مفروم",
-            "1 كوسة، مقطعة مكعبات",
-            "2 طماطم، مقطعة مكعبات",
+            "1 فلفل أحمر مقطع شرائح",
+            "1 بصلة مقطعة شرائح",
+            "1 كوسة مقطعة مكعبات",
+            "2 طماطم مقطعة مكعبات",
             "200 مل حليب جوز الهند",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "رشة فلفل أسود"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت واقلي البصل والفلفل 5 دقائق.\n" +
-            "2. أضف الكوسة والطماطم وحليب جوز الهند.\n" +
-            "3. اطبخ 10 دقائق على نار هادئة.\n" +
-            "4. تبّل وقدم ساخناً."
-    }
-};
-recipesData.plat.moqueca_legumes_bresil = {
-    country: "amerique",
-    countryName: "bresil",
-    image: "images/moqueca_legumes_bresil.jpg",
-    fr: {
-        title: "Moqueca aux légumes (Brésil, 4 personnes)",
-        equipment: ["1 casserole", "1 couteau", "1 planche"],
-        ingredients: [
-            "1 poivron rouge, coupé en lanières",
-            "1 oignon, haché",
-            "1 courgette, coupée en dés",
-            "2 tomates, coupées en dés",
-            "200 ml lait de coco",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile et faire revenir oignon et poivron 5 minutes.\n" +
-            "2. Ajouter courgette, tomates et lait de coco.\n" +
-            "3. Cuire 10 minutes à feu doux.\n" +
-            "4. Assaisonner et servir chaud."
-    },
-    en: {
-        title: "Vegetable Moqueca (Brazil, Serves 4)",
-        equipment: ["1 pot", "1 knife", "1 cutting board"],
-        ingredients: [
-            "1 red bell pepper, sliced",
-            "1 onion, chopped",
-            "1 zucchini, diced",
-            "2 tomatoes, diced",
-            "200 ml coconut milk",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Heat oil and sauté onion and pepper 5 minutes.\n" +
-            "2. Add zucchini, tomatoes, and coconut milk.\n" +
-            "3. Cook 10 minutes on low heat.\n" +
-            "4. Season and serve hot."
-    },
-    nl: {
-        title: "Groente Moqueca (Brazilië, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank"],
-        ingredients: [
-            "1 rode paprika, in reepjes",
-            "1 ui, gehakt",
-            "1 courgette, in blokjes",
-            "2 tomaten, in blokjes",
-            "200 ml kokosmelk",
-            "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie en bak ui en paprika 5 minuten.\n" +
-            "2. Voeg courgette, tomaten en kokosmelk toe.\n" +
-            "3. Kook 10 minuten op laag vuur.\n" +
-            "4. Breng op smaak en serveer heet."
-    },
-    ar: {
-        title: "موكيكا بالخضار (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 سكين", "1 لوح تقطيع"],
-        ingredients: [
-            "1 فلفل أحمر، مقطع شرائح",
-            "1 بصل، مفروم",
-            "1 كوسة، مقطعة مكعبات",
-            "2 طماطم، مقطعة مكعبات",
-            "200 مل حليب جوز الهند",
-            "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت واقلي البصل والفلفل 5 دقائق.\n" +
-            "2. أضف الكوسة والطماطم وحليب جوز الهند.\n" +
-            "3. اطبخ 10 دقائق على نار هادئة.\n" +
-            "4. تبّل وقدم ساخناً."
+            "1. اغسل وقطّع جميع الخضار.\n" +
+            "2. سخّن الزيت في قدر كبير على نار متوسطة.\n" +
+            "3. أضف البصل والفلفل واطههما 5 دقائق.\n" +
+            "4. أضف الكوسة والطماطم.\n" +
+            "5. اسكب حليب جوز الهند وحرّك جيداً.\n" +
+            "6. اتركه يطهى على نار هادئة لمدة 15 دقيقة.\n" +
+            "7. تبّل وقدّم ساخناً."
     }
 };
 recipesData.plat.arroz_verduras_cuba = {
     country: "amerique",
     countryName: "cuba",
     image: "images/arroz_verduras_cuba.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "arroz-verduras-cuba",
+            title: "Riz aux légumes (Cuba) – Recette facile",
+            description: "Préparez un Riz aux légumes inspiré de Cuba, un plat coloré, simple et savoureux, parfait pour un repas familial rapide.",
+            keywords: [
+                "recette riz legumes",
+                "arroz verduras cuba",
+                "cuisine cubaine",
+                "riz aux legumes facile",
+                "plat familial",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Riz aux légumes (Cuba)",
+            "description": "Un plat cubain simple à base de riz et de légumes mijotés, idéal pour un repas familial équilibré.",
+            "recipeCuisine": "Cuba",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT20M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "200 g riz",
+                "1 poivron rouge",
+                "1 oignon",
+                "1 courgette",
+                "2 cuillères à soupe huile végétale",
+                "1/2 cuillère à café sel",
+                "400 ml eau"
+            ],
+            "recipeInstructions": [
+                "Rincer le riz.",
+                "Faire revenir l’oignon et le poivron.",
+                "Ajouter la courgette et le riz.",
+                "Verser l’eau et cuire jusqu’à absorption.",
+                "Assaisonner et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Riz aux légumes (Cuba, 4 personnes)",
-        equipment: ["1 casserole", "1 couteau", "1 planche"],
+        title: "Riz aux légumes (Cuba)",
+        equipment: [
+            "1 casserole avec couvercle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 passoire",
+            "1 verre doseur"
+        ],
         ingredients: [
-            "200 g riz",
+            "200 g de riz long",
             "1 poivron rouge, coupé en dés",
             "1 oignon, haché",
             "1 courgette, coupée en dés",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1/2 cuillère à café sel (1 g)"
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1/2 cuillère à café de sel (3 g)",
+            "400 ml d’eau"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile et faire revenir l’oignon et poivron 5 minutes.\n" +
-            "2. Ajouter courgette et riz, cuire 15 minutes à feu doux.\n" +
-            "3. Assaisonner et servir chaud."
+            "1. Rincer le riz à l’eau froide à l’aide d’une passoire.\n" +
+            "2. Chauffer l’huile dans une casserole à feu moyen.\n" +
+            "3. Ajouter l’oignon et le poivron puis faire revenir 5 minutes.\n" +
+            "4. Ajouter la courgette et mélanger.\n" +
+            "5. Incorporer le riz et remuer pendant 1 minute.\n" +
+            "6. Verser l’eau et ajouter le sel.\n" +
+            "7. Couvrir et cuire 15 à 18 minutes à feu doux jusqu’à absorption complète.\n" +
+            "8. Égrainer le riz à la fourchette et servir chaud."
     },
+
     en: {
-        title: "Rice with Vegetables (Cuba, Serves 4)",
-        equipment: ["1 pot", "1 knife", "1 cutting board"],
+        title: "Rice with Vegetables (Cuba)",
+        equipment: [
+            "1 pot with lid",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 strainer",
+            "1 measuring cup"
+        ],
         ingredients: [
-            "200 g rice",
+            "200 g long-grain rice",
             "1 red bell pepper, diced",
             "1 onion, chopped",
             "1 zucchini, diced",
-            "2 tbsp vegetable oil (30 ml)",
-            "1/2 tsp salt (1 g)"
+            "2 tablespoons vegetable oil (30 ml)",
+            "1/2 teaspoon salt (3 g)",
+            "400 ml water"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat oil and sauté onion and pepper 5 minutes.\n" +
-            "2. Add zucchini and rice, cook 15 minutes on low heat.\n" +
-            "3. Season and serve hot."
+            "1. Rinse the rice under cold water using a strainer.\n" +
+            "2. Heat the oil in a pot over medium heat.\n" +
+            "3. Add the onion and bell pepper and sauté for 5 minutes.\n" +
+            "4. Add the zucchini and stir.\n" +
+            "5. Add the rice and cook for 1 minute while stirring.\n" +
+            "6. Pour in the water and add salt.\n" +
+            "7. Cover and cook on low heat for 15 to 18 minutes until fully absorbed.\n" +
+            "8. Fluff with a fork and serve hot."
     },
+
     nl: {
-        title: "Rijst met groenten (Cuba, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank"],
+        title: "Rijst met groenten (Cuba)",
+        equipment: [
+            "1 pan met deksel",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 vergiet",
+            "1 maatbeker"
+        ],
         ingredients: [
-            "200 g rijst",
+            "200 g langkorrelrijst",
             "1 rode paprika, in blokjes",
             "1 ui, gehakt",
             "1 courgette, in blokjes",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1/2 tl zout (1 g)"
+            "1/2 theelepel zout (3 g)",
+            "400 ml water"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie en bak ui en paprika 5 minuten.\n" +
-            "2. Voeg courgette en rijst toe, kook 15 minuten op laag vuur.\n" +
-            "3. Breng op smaak en serveer heet."
+            "1. Spoel de rijst onder koud water met een vergiet.\n" +
+            "2. Verhit de olie in een pan op middelhoog vuur.\n" +
+            "3. Voeg ui en paprika toe en bak 5 minuten.\n" +
+            "4. Voeg de courgette toe en roer.\n" +
+            "5. Voeg de rijst toe en bak 1 minuut al roerend.\n" +
+            "6. Giet het water erbij en voeg zout toe.\n" +
+            "7. Laat 15 tot 18 minuten zachtjes koken met deksel tot het water is opgenomen.\n" +
+            "8. Maak los met een vork en serveer warm."
     },
+
     ar: {
-        title: "أرز بالخضار (كوبا، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 سكين", "1 لوح تقطيع"],
+        title: "أرز بالخضار (كوبا)",
+        equipment: [
+            "قدر بغطاء",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مصفاة",
+            "كوب قياس"
+        ],
         ingredients: [
-            "200 غ أرز",
-            "1 فلفل أحمر، مقطع مكعبات",
-            "1 بصل، مفروم",
-            "1 كوسة، مقطعة مكعبات",
+            "200 غ أرز طويل الحبة",
+            "1 فلفل أحمر مقطع مكعبات",
+            "1 بصل مفروم",
+            "1 كوسة مقطعة مكعبات",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)"
+            "1/2 ملعقة صغيرة ملح (3 غ)",
+            "400 مل ماء"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت واقلي البصل والفلفل 5 دقائق.\n" +
-            "2. أضف الكوسة والأرز، واطبخ 15 دقيقة على نار هادئة.\n" +
-            "3. تبّل وقدّم ساخناً."
+            "1. اغسل الأرز جيداً بالماء البارد باستخدام المصفاة.\n" +
+            "2. سخّن الزيت في قدر على نار متوسطة.\n" +
+            "3. أضف البصل والفلفل وقلّب لمدة 5 دقائق.\n" +
+            "4. أضف الكوسة وحرّك جيداً.\n" +
+            "5. أضف الأرز وقلّبه لمدة دقيقة.\n" +
+            "6. اسكب الماء وأضف الملح.\n" +
+            "7. غطِّ القدر واتركه يطهى 15 إلى 18 دقيقة حتى يمتص الماء بالكامل.\n" +
+            "8. حرّك الأرز بالشوكة وقدّم ساخناً."
     }
 };
-recipesData.plat.chili_sin_carne_usa = {
-    country: "amerique",
-    countryName: "usa",
-    image: "images/chili_sin_carne_usa.jpg",
-    fr: {
-        title: "Chili sin carne végétarien (USA, 4 personnes)",
-        equipment: [
-            "1 grande casserole",
-            "1 cuillère en bois",
-            "1 couteau",
-            "1 planche à découper",
-            "1 bol",
-            "1 balance de cuisine"
-        ],
-        ingredients: [
-            "1 oignon (100 g), haché finement",
-            "2 gousses d’ail, écrasées",
-            "1 poivron rouge (120 g), coupé en dés",
-            "2 carottes (200 g), coupées en rondelles",
-            "1 courgette (200 g), coupée en dés",
-            "400 g tomates concassées en boîte",
-            "200 g haricots rouges cuits",
-            "200 ml bouillon de légumes halal",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1 cuillère à café paprika doux (5 g)",
-            "1 cuillère à café cumin en poudre (5 g)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile dans une grande casserole à feu moyen.\n" +
-            "2. Ajouter l’oignon et l’ail, faire revenir 3-4 minutes jusqu’à ce qu’ils deviennent translucides.\n" +
-            "3. Ajouter le poivron, les carottes et la courgette, cuire 5 minutes en remuant.\n" +
-            "4. Ajouter les tomates concassées et le bouillon, porter à ébullition.\n" +
-            "5. Réduire le feu, ajouter paprika, cumin, sel et poivre.\n" +
-            "6. Ajouter les haricots rouges, mélanger et laisser mijoter 15-20 minutes.\n" +
-            "7. Vérifier l’assaisonnement, servir chaud, accompagné de riz ou de pain."
-    },
-    en: {
-        title: "Vegetarian Chili sin Carne (USA, Serves 4)",
-        equipment: [
-            "1 large saucepan",
-            "1 wooden spoon",
-            "1 knife",
-            "1 cutting board",
-            "1 bowl",
-            "1 kitchen scale"
-        ],
-        ingredients: [
-            "1 onion (100 g), finely chopped",
-            "2 garlic cloves, crushed",
-            "1 red bell pepper (120 g), diced",
-            "2 carrots (200 g), sliced",
-            "1 zucchini (200 g), diced",
-            "400 g canned chopped tomatoes",
-            "200 g cooked red beans",
-            "200 ml halal vegetable broth",
-            "2 tbsp vegetable oil (30 ml)",
-            "1 tsp sweet paprika (5 g)",
-            "1 tsp ground cumin (5 g)",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in a large saucepan over medium heat.\n" +
-            "2. Add onion and garlic, sauté 3-4 minutes until translucent.\n" +
-            "3. Add bell pepper, carrots, and zucchini, cook 5 minutes, stirring.\n" +
-            "4. Add chopped tomatoes and broth, bring to a boil.\n" +
-            "5. Reduce heat, add paprika, cumin, salt, and pepper.\n" +
-            "6. Add red beans, mix, and simmer 15-20 minutes.\n" +
-            "7. Check seasoning, serve hot with rice or bread."
-    },
-    nl: {
-        title: "Vegetarische Chili sin Carne (VS, voor 4 personen)",
-        equipment: [
-            "1 grote pan",
-            "1 houten lepel",
-            "1 mes",
-            "1 snijplank",
-            "1 kom",
-            "1 keukenweegschaal"
-        ],
-        ingredients: [
-            "1 ui (100 g), fijngehakt",
-            "2 teentjes knoflook, geperst",
-            "1 rode paprika (120 g), in blokjes",
-            "2 wortels (200 g), in plakjes",
-            "1 courgette (200 g), in blokjes",
-            "400 g tomatenblokjes uit blik",
-            "200 g gekookte rode bonen",
-            "200 ml halal groentebouillon",
-            "2 eetlepels plantaardige olie (30 ml)",
-            "1 tl zoete paprika (5 g)",
-            "1 tl komijnpoeder (5 g)",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in een grote pan op middelhoog vuur.\n" +
-            "2. Voeg ui en knoflook toe, bak 3-4 minuten tot ze doorschijnend zijn.\n" +
-            "3. Voeg paprika, wortels en courgette toe, bak 5 minuten, roer regelmatig.\n" +
-            "4. Voeg tomatenblokjes en bouillon toe, breng aan de kook.\n" +
-            "5. Zet het vuur lager, voeg paprika, komijn, zout en peper toe.\n" +
-            "6. Voeg de rode bonen toe, roer door en laat 15-20 minuten sudderen.\n" +
-            "7. Controleer de smaak, serveer warm met rijst of brood."
-    },
-    ar: {
-        title: "تشالي سين كارني نباتي (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: [
-            "1 قدر كبير",
-            "1 ملعقة خشبية",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 وعاء",
-            "1 ميزان مطبخ"
-        ],
-        ingredients: [
-            "1 بصلة (100 غ)، مفرومة ناعماً",
-            "2 فص ثوم، مهروس",
-            "1 فلفل أحمر (120 غ)، مقطع مكعبات",
-            "2 جزر (200 غ)، مقطع شرائح",
-            "1 كوسة (200 غ)، مقطعة مكعبات",
-            "400 غ طماطم مقطعة معلبة",
-            "200 غ فاصوليا حمراء مطبوخة",
-            "200 مل مرق خضار حلال",
-            "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1 ملعقة صغيرة فلفل حلو (5 غ)",
-            "1 ملعقة صغيرة كمون مطحون (5 غ)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت في قدر كبير على حرارة متوسطة.\n" +
-            "2. أضف البصل والثوم، قلب 3-4 دقائق حتى يصبح شفافاً.\n" +
-            "3. أضف الفلفل والجزر والكوسة، اطبخ 5 دقائق مع التحريك.\n" +
-            "4. أضف الطماطم المعلبة والمرق، واتركه يغلي.\n" +
-            "5. خفف النار، أضف الفلفل الحلو، الكمون، الملح والفلفل.\n" +
-            "6. أضف الفاصوليا الحمراء، قلب واتركه ينضج 15-20 دقيقة.\n" +
-            "7. تحقق من التوابل، قدمه ساخناً مع الأرز أو الخبز."
-    }
-};
-// 1. Brownies aux noix (USA)
+
+
+
+
+
+
+
+
+
+
 recipesData.dessert.brownies_noix_usa = {
     country: "amerique",
     countryName: "usa",
     image: "images/brownies_noix_usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "brownies-aux-noix-usa",
+            title: "Brownies aux noix (USA) – Recette facile maison",
+            description: "Découvrez comment préparer des brownies aux noix, un dessert emblématique des USA, fondant et gourmand, avec une recette simple et rapide.",
+            keywords: [
+                "recette brownies",
+                "brownies noix usa",
+                "dessert americain",
+                "recette facile chocolat",
+                "gateau chocolat maison",
+                "cuisine usa"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Brownies aux noix (USA)",
+            "description": "Brownies aux noix fondants et gourmands, spécialité classique des USA facile à réaliser.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT20M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "100 g de chocolat noir",
+                "80 g de beurre",
+                "100 g de sucre",
+                "2 œufs",
+                "50 g de farine",
+                "50 g de noix hachées",
+                "1 pincée de sel"
+            ],
+            "recipeInstructions": [
+                "Préchauffer le four à 180°C.",
+                "Faire fondre le chocolat avec le beurre.",
+                "Ajouter le sucre puis les œufs un à un.",
+                "Incorporer la farine, le sel et les noix.",
+                "Verser dans un moule chemisé.",
+                "Cuire 20 minutes et laisser refroidir avant de couper."
+            ]
+        }
+    },
+
     fr: {
-        title: "Brownies aux noix (USA, 4 personnes)",
-        equipment: ["1 four", "1 bol", "1 fouet", "1 spatule", "1 plat allant au four"],
+        title: "Brownies aux noix (USA)",
+        equipment: [
+            "1 four",
+            "1 bol résistant à la chaleur",
+            "1 casserole",
+            "1 fouet",
+            "1 spatule",
+            "1 moule carré",
+            "1 papier cuisson",
+            "1 couteau"
+        ],
         ingredients: [
-            "100 g chocolat noir",
-            "80 g beurre",
-            "100 g sucre",
+            "100 g de chocolat noir",
+            "80 g de beurre",
+            "100 g de sucre",
             "2 œufs",
-            "50 g farine",
-            "50 g noix hachées"
+            "50 g de farine",
+            "50 g de noix hachées",
+            "1 pincée de sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Faire fondre le chocolat avec le beurre.\n" +
-            "3. Ajouter le sucre, les œufs, puis la farine et les noix.\n" +
-            "4. Verser dans un plat et cuire 20 minutes.\n" +
-            "5. Laisser refroidir, couper en carrés et servir."
+            "2. Chemiser le moule avec du papier cuisson.\n" +
+            "3. Faire fondre le chocolat et le beurre au bain-marie ou à feu doux.\n" +
+            "4. Dans un bol, ajouter le sucre au mélange fondu et mélanger.\n" +
+            "5. Incorporer les œufs un à un en fouettant.\n" +
+            "6. Ajouter la farine tamisée, le sel et mélanger délicatement.\n" +
+            "7. Incorporer les noix hachées.\n" +
+            "8. Verser la préparation dans le moule et lisser la surface.\n" +
+            "9. Enfourner 20 minutes.\n" +
+            "10. Laisser refroidir avant de découper en carrés."
     },
+
     en: {
-        title: "Walnut Brownies (USA, Serves 4)",
-        equipment: ["1 oven", "1 bowl", "1 whisk", "1 spatula", "1 baking dish"],
+        title: "Walnut Brownies (USA)",
+        equipment: [
+            "1 oven",
+            "1 heatproof bowl",
+            "1 saucepan",
+            "1 whisk",
+            "1 spatula",
+            "1 square baking pan",
+            "parchment paper",
+            "1 knife"
+        ],
         ingredients: [
             "100 g dark chocolate",
             "80 g butter",
             "100 g sugar",
             "2 eggs",
             "50 g flour",
-            "50 g chopped walnuts"
+            "50 g chopped walnuts",
+            "1 pinch salt"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Melt chocolate with butter.\n" +
-            "3. Add sugar, eggs, then flour and walnuts.\n" +
-            "4. Pour into dish and bake 20 minutes.\n" +
-            "5. Let cool, cut into squares and serve."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Line the baking pan with parchment paper.\n" +
+            "3. Melt the chocolate and butter over low heat.\n" +
+            "4. Stir in the sugar until combined.\n" +
+            "5. Add the eggs one at a time, whisking well.\n" +
+            "6. Fold in the flour and salt.\n" +
+            "7. Add the chopped walnuts.\n" +
+            "8. Pour into the pan and smooth the top.\n" +
+            "9. Bake for 20 minutes.\n" +
+            "10. Let cool before cutting into squares."
     },
+
     nl: {
-        title: "Brownies met walnoten (VS, voor 4 personen)",
-        equipment: ["1 oven", "1 kom", "1 garde", "1 spatel", "1 ovenschaal"],
+        title: "Brownies met walnoten (Verenigde Staten)",
+        equipment: [
+            "1 oven",
+            "1 hittebestendige kom",
+            "1 pan",
+            "1 garde",
+            "1 spatel",
+            "1 vierkante bakvorm",
+            "bakpapier",
+            "1 mes"
+        ],
         ingredients: [
             "100 g pure chocolade",
             "80 g boter",
             "100 g suiker",
             "2 eieren",
             "50 g bloem",
-            "50 g gehakte walnoten"
+            "50 g gehakte walnoten",
+            "1 snuf zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Smelt chocolade met boter.\n" +
-            "3. Voeg suiker, eieren, daarna bloem en walnoten toe.\n" +
-            "4. Giet in schaal en bak 20 minuten.\n" +
-            "5. Laat afkoelen, snijd in blokjes en serveer."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Bekleed de bakvorm met bakpapier.\n" +
+            "3. Smelt chocolade en boter op laag vuur.\n" +
+            "4. Meng de suiker erdoor.\n" +
+            "5. Voeg de eieren één voor één toe en klop goed.\n" +
+            "6. Spatel de bloem en het zout erdoor.\n" +
+            "7. Voeg de walnoten toe.\n" +
+            "8. Giet in de vorm en strijk glad.\n" +
+            "9. Bak 20 minuten.\n" +
+            "10. Laat afkoelen en snijd in blokjes."
     },
+
     ar: {
-        title: "براونيز بالجوز (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 فرن", "1 وعاء", "1 خفاقة", "1 ملعقة مسطحة", "1 صينية فرن"],
+        title: "براونيز بالجوز (الولايات المتحدة)",
+        equipment: [
+            "فرن",
+            "وعاء مقاوم للحرارة",
+            "قدر",
+            "خفاقة",
+            "ملعقة مسطحة",
+            "قالب مربع",
+            "ورق خبز",
+            "سكين"
+        ],
         ingredients: [
             "100 غ شوكولاتة داكنة",
             "80 غ زبدة",
             "100 غ سكر",
             "2 بيض",
             "50 غ دقيق",
-            "50 غ جوز مفروم"
+            "50 غ جوز مفروم",
+            "رشة ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الفرن على 180°C.\n" +
-            "2. ذوّب الشوكولاتة مع الزبدة.\n" +
-            "3. أضف السكر، البيض، ثم الدقيق والجوز.\n" +
-            "4. صبّ في الصينية واخبز 20 دقيقة.\n" +
-            "5. اتركه يبرد، قطع مربعات وقدّم."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. بطّن القالب بورق الخبز.\n" +
+            "3. ذوّب الشوكولاتة مع الزبدة على نار هادئة.\n" +
+            "4. أضف السكر وامزج جيداً.\n" +
+            "5. أضف البيض واحدة تلو الأخرى مع الخفق.\n" +
+            "6. أضف الدقيق والملح وامزج برفق.\n" +
+            "7. أضف الجوز المفروم.\n" +
+            "8. اسكب الخليط في القالب وسوِّ السطح.\n" +
+            "9. اخبز لمدة 20 دقيقة.\n" +
+            "10. اتركه يبرد قبل التقطيع إلى مربعات."
     }
 };
-
-// 2. Flan au lait de coco (Cuba)
 recipesData.dessert.flan_coco_cuba = {
     country: "amerique",
     countryName: "cuba",
     image: "images/flan_coco_cuba.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 35,
+        difficulty: "easy",
+        seo: {
+            slug: "flan-lait-coco-cuba",
+            title: "Flan au lait de coco (Cuba) – Dessert facile",
+            description: "Apprenez à préparer un flan au lait de coco, dessert traditionnel de Cuba, onctueux et parfumé, avec une recette simple et savoureuse.",
+            keywords: [
+                "recette flan coco",
+                "flan cuba",
+                "dessert cubain",
+                "flan maison facile",
+                "dessert au lait de coco",
+                "cuisine cuba"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Flan au lait de coco (Cuba)",
+            "description": "Flan au lait de coco onctueux et parfumé, dessert traditionnel de Cuba facile à réaliser.",
+            "recipeCuisine": "Cuba",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT35M",
+            "totalTime": "PT50M",
+            "recipeIngredient": [
+                "400 ml de lait de coco",
+                "100 g de sucre",
+                "3 œufs",
+                "1 cuillère à café d’extrait de vanille",
+                "50 ml d’eau"
+            ],
+            "recipeInstructions": [
+                "Préparer un caramel avec le sucre et l’eau.",
+                "Verser le caramel dans le moule.",
+                "Mélanger le lait de coco, les œufs et la vanille.",
+                "Verser dans le moule.",
+                "Cuire au bain-marie 35 minutes à 180°C.",
+                "Laisser refroidir avant de démouler."
+            ]
+        }
+    },
+
     fr: {
-        title: "Flan au lait de coco (Cuba, 4 personnes)",
-        equipment: ["1 casserole", "1 bol", "1 fouet", "1 moule à flan"],
+        title: "Flan au lait de coco (Cuba)",
+        equipment: [
+            "1 casserole",
+            "1 bol",
+            "1 fouet",
+            "1 moule à flan",
+            "1 grand plat pour bain-marie",
+            "1 four"
+        ],
         ingredients: [
-            "400 ml lait de coco",
-            "100 g sucre",
+            "400 ml de lait de coco",
+            "100 g de sucre",
+            "50 ml d’eau",
             "3 œufs",
-            "1 cuillère à café extrait de vanille"
+            "1 cuillère à café d’extrait de vanille"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger lait de coco, œufs, sucre et vanille.\n" +
-            "3. Verser dans un moule et cuire au bain-marie 35 minutes.\n" +
-            "4. Laisser refroidir et servir."
+            "==============================\n" +
+            "PRÉPARATION DU CARAMEL\n" +
+            "==============================\n\n" +
+            "1. Verser le sucre et l’eau dans une casserole.\n" +
+            "2. Chauffer à feu moyen sans remuer jusqu’à obtention d’un caramel doré.\n" +
+            "3. Verser immédiatement dans le moule et répartir au fond.\n\n" +
+            "==============================\n" +
+            "PRÉPARATION DU FLAN\n" +
+            "==============================\n\n" +
+            "4. Préchauffer le four à 180°C.\n" +
+            "5. Dans un bol, fouetter les œufs.\n" +
+            "6. Ajouter le lait de coco et la vanille.\n" +
+            "7. Mélanger jusqu’à obtenir une préparation homogène.\n" +
+            "8. Verser dans le moule caramélisé.\n" +
+            "9. Placer le moule dans un plat rempli d’eau chaude.\n" +
+            "10. Cuire 35 minutes.\n" +
+            "11. Laisser refroidir avant de démouler."
     },
+
     en: {
-        title: "Coconut Milk Flan (Cuba, Serves 4)",
-        equipment: ["1 pot", "1 bowl", "1 whisk", "1 flan mold"],
+        title: "Coconut Milk Flan (Cuba)",
+        equipment: [
+            "1 saucepan",
+            "1 bowl",
+            "1 whisk",
+            "1 flan mold",
+            "1 large baking dish",
+            "1 oven"
+        ],
         ingredients: [
             "400 ml coconut milk",
             "100 g sugar",
+            "50 ml water",
             "3 eggs",
-            "1 tsp vanilla extract"
+            "1 teaspoon vanilla extract"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Mix coconut milk, eggs, sugar, and vanilla.\n" +
-            "3. Pour into mold and bake in water bath 35 minutes.\n" +
-            "4. Let cool and serve."
+            "==============================\n" +
+            "CARAMEL PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Heat sugar and water in a saucepan until golden caramel forms.\n" +
+            "2. Pour immediately into the mold and spread evenly.\n\n" +
+            "==============================\n" +
+            "FLAN PREPARATION\n" +
+            "==============================\n\n" +
+            "3. Preheat oven to 180°C.\n" +
+            "4. Whisk the eggs in a bowl.\n" +
+            "5. Add coconut milk and vanilla.\n" +
+            "6. Mix until smooth.\n" +
+            "7. Pour into the caramel-lined mold.\n" +
+            "8. Place mold in a water bath.\n" +
+            "9. Bake for 35 minutes.\n" +
+            "10. Let cool before unmolding."
     },
+
     nl: {
-        title: "Kokosmelk Flan (Cuba, voor 4 personen)",
-        equipment: ["1 pan", "1 kom", "1 garde", "1 flanvorm"],
+        title: "Kokosflan (Cuba)",
+        equipment: [
+            "1 pan",
+            "1 kom",
+            "1 garde",
+            "1 flanvorm",
+            "1 grote ovenschaal",
+            "1 oven"
+        ],
         ingredients: [
             "400 ml kokosmelk",
             "100 g suiker",
+            "50 ml water",
             "3 eieren",
-            "1 tl vanille-extract"
+            "1 theelepel vanille-extract"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Meng kokosmelk, eieren, suiker en vanille.\n" +
-            "3. Giet in vorm en bak au bain-marie 35 minuten.\n" +
-            "4. Laat afkoelen en serveer."
+            "==============================\n" +
+            "BEREIDING VAN DE KARAMEL\n" +
+            "==============================\n\n" +
+            "1. Verhit suiker en water tot een goudbruine karamel.\n" +
+            "2. Giet direct in de vorm en verdeel over de bodem.\n\n" +
+            "==============================\n" +
+            "BEREIDING VAN DE FLAN\n" +
+            "==============================\n\n" +
+            "3. Verwarm de oven voor op 180°C.\n" +
+            "4. Klop de eieren los.\n" +
+            "5. Voeg kokosmelk en vanille toe.\n" +
+            "6. Meng tot een glad geheel.\n" +
+            "7. Giet in de vorm.\n" +
+            "8. Zet in een waterbad.\n" +
+            "9. Bak 35 minuten.\n" +
+            "10. Laat afkoelen voor het serveren."
     },
+
     ar: {
-        title: "فلان بحليب جوز الهند (كوبا، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 وعاء", "1 خفاقة", "1 قالب فلان"],
+        title: "فلان بحليب جوز الهند (كوبا)",
+        equipment: [
+            "قدر",
+            "وعاء",
+            "خفاقة",
+            "قالب فلان",
+            "صينية كبيرة للحمام المائي",
+            "فرن"
+        ],
         ingredients: [
             "400 مل حليب جوز الهند",
             "100 غ سكر",
+            "50 مل ماء",
             "3 بيض",
             "1 ملعقة صغيرة فانيليا"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الفرن على 180°C.\n" +
-            "2. اخلط حليب جوز الهند، البيض، السكر والفانيليا.\n" +
-            "3. صبّ في القالب واخبز في حمام مائي 35 دقيقة.\n" +
-            "4. اتركه يبرد وقدّم."
+            "==============================\n" +
+            "تحضير الكراميل\n" +
+            "==============================\n\n" +
+            "1. سخّن السكر مع الماء حتى يصبح كراميل ذهبي.\n" +
+            "2. اسكب الكراميل في القالب ووزّعه في القاع.\n\n" +
+            "==============================\n" +
+            "تحضير الفلان\n" +
+            "==============================\n\n" +
+            "3. سخّن الفرن على 180 درجة مئوية.\n" +
+            "4. اخفق البيض في وعاء.\n" +
+            "5. أضف حليب جوز الهند والفانيليا.\n" +
+            "6. اخلط جيداً.\n" +
+            "7. اسكب الخليط في القالب.\n" +
+            "8. ضع القالب في حمام مائي.\n" +
+            "9. اخبز لمدة 35 دقيقة.\n" +
+            "10. اتركه يبرد قبل التقديم."
     }
 };
 
-// 3. Tapioca pudding à la mangue (Brésil)
+
 recipesData.dessert.tapioca_mangue_bresil = {
     country: "amerique",
     countryName: "bresil",
     image: "images/tapioca_mangue_bresil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 35,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "pudding-tapioca-mangue-bresil",
+            title: "Pudding tapioca mangue (Brésil) – Dessert exotique",
+            description: "Découvrez le pudding de tapioca à la mangue, un dessert traditionnel du Brésil, crémeux et fruité, parfait pour une touche exotique facile.",
+            keywords: [
+                "recette tapioca",
+                "pudding mangue bresil",
+                "dessert bresilien",
+                "tapioca lait coco",
+                "dessert exotique facile",
+                "cuisine bresil"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Pudding de tapioca à la mangue (Brésil)",
+            "description": "Pudding de tapioca crémeux à la mangue, dessert traditionnel du Brésil facile à préparer.",
+            "recipeCuisine": "Brésil",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT35M",
+            "cookTime": "PT15M",
+            "totalTime": "PT50M",
+            "recipeIngredient": [
+                "100 g de perles de tapioca",
+                "400 ml de lait de coco",
+                "2 cuillères à soupe de sucre",
+                "1 mangue coupée en dés"
+            ],
+            "recipeInstructions": [
+                "Faire tremper le tapioca 30 minutes.",
+                "Chauffer le lait de coco avec le sucre.",
+                "Ajouter le tapioca et cuire 10 à 15 minutes.",
+                "Laisser épaissir.",
+                "Servir avec la mangue en dés."
+            ]
+        }
+    },
+
     fr: {
-        title: "Pudding de tapioca à la mangue (Brésil, 4 personnes)",
-        equipment: ["1 casserole", "1 bol", "1 cuillère"],
+        title: "Pudding de tapioca à la mangue (Brésil)",
+        equipment: [
+            "1 casserole",
+            "1 bol",
+            "1 cuillère en bois",
+            "1 passoire",
+            "4 verrines"
+        ],
         ingredients: [
-            "100 g perles de tapioca",
-            "400 ml lait de coco",
-            "2 cuillères à soupe sucre (30 g)",
-            "1 mangue, coupée en dés"
+            "100 g de perles de tapioca",
+            "400 ml de lait de coco",
+            "2 cuillères à soupe de sucre",
+            "1 mangue mûre coupée en dés"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire tremper les perles de tapioca 30 minutes.\n" +
-            "2. Chauffer le lait de coco avec le sucre, ajouter le tapioca.\n" +
-            "3. Cuire 10 minutes en remuant.\n" +
-            "4. Servir avec mangue en dés."
+            "1. Faire tremper les perles de tapioca dans de l’eau froide pendant 30 minutes.\n" +
+            "2. Égoutter à l’aide d’une passoire.\n" +
+            "3. Verser le lait de coco dans une casserole et ajouter le sucre.\n" +
+            "4. Chauffer à feu moyen.\n" +
+            "5. Ajouter le tapioca et cuire 10 à 15 minutes en remuant jusqu’à épaississement.\n" +
+            "6. Répartir dans des verrines.\n" +
+            "7. Laisser tiédir puis ajouter les dés de mangue.\n" +
+            "8. Servir frais."
     },
+
     en: {
-        title: "Mango Tapioca Pudding (Brazil, Serves 4)",
-        equipment: ["1 pot", "1 bowl", "1 spoon"],
+        title: "Mango Tapioca Pudding (Brazil)",
+        equipment: [
+            "1 saucepan",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 strainer",
+            "4 serving glasses"
+        ],
         ingredients: [
             "100 g tapioca pearls",
             "400 ml coconut milk",
-            "2 tbsp sugar (30 g)",
-            "1 mango, diced"
+            "2 tablespoons sugar",
+            "1 ripe mango diced"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Soak tapioca pearls 30 minutes.\n" +
-            "2. Heat coconut milk with sugar, add tapioca.\n" +
-            "3. Cook 10 minutes stirring.\n" +
-            "4. Serve with diced mango."
+            "1. Soak tapioca pearls in cold water for 30 minutes.\n" +
+            "2. Drain well.\n" +
+            "3. Heat coconut milk with sugar.\n" +
+            "4. Add tapioca and cook 10–15 minutes until thick.\n" +
+            "5. Spoon into glasses.\n" +
+            "6. Let cool slightly and top with diced mango.\n" +
+            "7. Serve chilled."
     },
+
     nl: {
-        title: "Tapiocapudding met mango (Brazilië, voor 4 personen)",
-        equipment: ["1 pan", "1 kom", "1 lepel"],
+        title: "Tapiocapudding met mango (Brazilië)",
+        equipment: [
+            "1 pan",
+            "1 kom",
+            "1 houten lepel",
+            "1 vergiet",
+            "4 glaasjes"
+        ],
         ingredients: [
             "100 g tapiocaparels",
             "400 ml kokosmelk",
-            "2 eetlepels suiker (30 g)",
-            "1 mango, in blokjes"
+            "2 eetlepels suiker",
+            "1 rijpe mango in blokjes"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Laat tapiocaparels 30 minuten weken.\n" +
-            "2. Verhit kokosmelk met suiker, voeg tapioca toe.\n" +
-            "3. Kook 10 minuten al roerend.\n" +
-            "4. Serveer met mango in blokjes."
+            "1. Week de tapiocaparels 30 minuten in koud water.\n" +
+            "2. Laat uitlekken.\n" +
+            "3. Verhit kokosmelk met suiker.\n" +
+            "4. Voeg tapioca toe en kook 10–15 minuten tot het indikt.\n" +
+            "5. Verdeel over glaasjes.\n" +
+            "6. Laat iets afkoelen en voeg mango toe.\n" +
+            "7. Serveer gekoeld."
     },
+
     ar: {
-        title: "بودينغ التابيوكا بالمانجو (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 وعاء", "1 ملعقة"],
+        title: "بودينغ التابيوكا بالمانجو (البرازيل)",
+        equipment: [
+            "قدر",
+            "وعاء",
+            "ملعقة خشبية",
+            "مصفاة",
+            "4 أكواب تقديم"
+        ],
         ingredients: [
             "100 غ حبيبات تابيوكا",
             "400 مل حليب جوز الهند",
-            "2 ملعقة كبيرة سكر (30 غ)",
-            "1 مانجو، مقطعة مكعبات"
+            "2 ملعقة كبيرة سكر",
+            "1 مانجو ناضجة مقطعة مكعبات"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. انقع حبيبات التابيوكا 30 دقيقة.\n" +
-            "2. سخّن حليب جوز الهند مع السكر، أضف التابيوكا.\n" +
-            "3. اطبخ 10 دقائق مع التحريك.\n" +
-            "4. قدّم مع المانجو المقطّع مكعبات."
+            "1. انقع حبيبات التابيوكا في ماء بارد لمدة 30 دقيقة.\n" +
+            "2. صفّها جيداً.\n" +
+            "3. سخّن حليب جوز الهند مع السكر.\n" +
+            "4. أضف التابيوكا واطبخ 10 إلى 15 دقيقة حتى يثخن القوام.\n" +
+            "5. وزّع في أكواب التقديم.\n" +
+            "6. اتركه يبرد قليلاً ثم أضف المانجو.\n" +
+            "7. قدّم بارداً."
     }
 };
-// 4. Churros au sucre (Mexique)
+recipesData.dessert.pastelitos_pommes_cuba = {
+    country: "amerique",
+    countryName: "cuba",
+    image: "images/pastelitos_pommes_cuba.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "pastelitos-pommes-cuba",
+            title: "Pastelitos aux pommes (Cuba) – Recette facile",
+            description: "Préparez des pastelitos aux pommes, une douceur traditionnelle de Cuba, croustillante et parfumée à la cannelle, idéale pour le dessert.",
+            keywords: [
+                "recette pastelitos",
+                "pastelitos cuba",
+                "dessert cubain",
+                "feuillete aux pommes",
+                "recette facile",
+                "patisserie cubaine"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Pastelitos aux pommes (Cuba)",
+            "description": "Pastelitos aux pommes croustillants et parfumés à la cannelle, spécialité sucrée traditionnelle de Cuba.",
+            "recipeCuisine": "Cuba",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT20M",
+            "totalTime": "PT40M",
+            "recipeIngredient": [
+                "250 g de pâte feuilletée",
+                "2 pommes coupées en petits dés",
+                "30 g de sucre",
+                "1/2 cuillère à café de cannelle",
+                "1 jaune d’œuf",
+                "1 cuillère à soupe de lait"
+            ],
+            "recipeInstructions": [
+                "Préchauffer le four à 200°C.",
+                "Étaler la pâte et découper en carrés.",
+                "Mélanger les pommes avec le sucre et la cannelle.",
+                "Déposer la garniture au centre de chaque carré.",
+                "Replier la pâte et sceller les bords.",
+                "Badigeonner de jaune d’œuf mélangé au lait.",
+                "Cuire 15 à 20 minutes jusqu’à coloration dorée."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Pastelitos aux pommes (Cuba)",
+        equipment: [
+            "1 four",
+            "1 plaque de cuisson",
+            "Papier cuisson",
+            "1 rouleau à pâtisserie",
+            "1 couteau",
+            "1 planche à découper",
+            "1 bol",
+            "1 pinceau de cuisine"
+        ],
+        ingredients: [
+            "250 g de pâte feuilletée",
+            "2 pommes coupées en petits dés",
+            "2 cuillères à soupe de sucre (30 g)",
+            "1/2 cuillère à café de cannelle",
+            "1 jaune d’œuf",
+            "1 cuillère à soupe de lait"
+        ],
+        preparation:
+            "1. Préchauffer le four à 200°C.\n" +
+            "2. Éplucher les pommes et les couper en petits dés.\n" +
+            "3. Mélanger les pommes avec le sucre et la cannelle dans un bol.\n" +
+            "4. Étaler la pâte feuilletée sur un plan de travail fariné.\n" +
+            "5. Découper en carrés de taille égale.\n" +
+            "6. Déposer une cuillère de garniture au centre de chaque carré.\n" +
+            "7. Replier la pâte en triangle ou en rectangle et bien sceller les bords.\n" +
+            "8. Mélanger le jaune d’œuf avec le lait et badigeonner les pastelitos.\n" +
+            "9. Déposer sur une plaque recouverte de papier cuisson.\n" +
+            "10. Cuire 15 à 20 minutes jusqu’à ce qu’ils soient bien dorés.\n" +
+            "11. Laisser tiédir avant de servir."
+    },
+
+    en: {
+        title: "Apple Pastelitos (Cuba)",
+        equipment: [
+            "1 oven",
+            "1 baking tray",
+            "Baking paper",
+            "1 rolling pin",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "1 pastry brush"
+        ],
+        ingredients: [
+            "250 g puff pastry",
+            "2 apples, diced",
+            "2 tablespoons sugar (30 g)",
+            "1/2 teaspoon cinnamon",
+            "1 egg yolk",
+            "1 tablespoon milk"
+        ],
+        preparation:
+            "1. Preheat the oven to 200°C.\n" +
+            "2. Peel and dice the apples.\n" +
+            "3. Mix apples with sugar and cinnamon in a bowl.\n" +
+            "4. Roll out the puff pastry on a floured surface.\n" +
+            "5. Cut into equal squares.\n" +
+            "6. Place a spoonful of filling in the center of each square.\n" +
+            "7. Fold into triangles or rectangles and seal the edges well.\n" +
+            "8. Mix egg yolk with milk and brush over the pastries.\n" +
+            "9. Place on a baking tray lined with baking paper.\n" +
+            "10. Bake for 15 to 20 minutes until golden brown.\n" +
+            "11. Let cool slightly before serving."
+    },
+
+    nl: {
+        title: "Appel Pastelitos (Cuba)",
+        equipment: [
+            "1 oven",
+            "1 bakplaat",
+            "Bakpapier",
+            "1 deegroller",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "1 keukenkwast"
+        ],
+        ingredients: [
+            "250 g bladerdeeg",
+            "2 appels in blokjes",
+            "2 eetlepels suiker (30 g)",
+            "1/2 theelepel kaneel",
+            "1 eidooier",
+            "1 eetlepel melk"
+        ],
+        preparation:
+            "1. Verwarm de oven voor op 200°C.\n" +
+            "2. Schil de appels en snijd ze in kleine blokjes.\n" +
+            "3. Meng de appels met suiker en kaneel in een kom.\n" +
+            "4. Rol het bladerdeeg uit op een met bloem bestoven werkvlak.\n" +
+            "5. Snijd in gelijke vierkanten.\n" +
+            "6. Leg een lepel vulling in het midden van elk vierkant.\n" +
+            "7. Vouw dicht en druk de randen goed aan.\n" +
+            "8. Meng de eidooier met melk en bestrijk de bovenkant.\n" +
+            "9. Leg op een bakplaat met bakpapier.\n" +
+            "10. Bak 15 tot 20 minuten tot goudbruin.\n" +
+            "11. Laat iets afkoelen voor het serveren."
+    },
+
+    ar: {
+        title: "باسطليتوس بالتفاح (كوبا)",
+        equipment: [
+            "فرن",
+            "صينية خبز",
+            "ورق خبز",
+            "نشابة",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "فرشاة مطبخ"
+        ],
+        ingredients: [
+            "250 غ عجينة مورقة",
+            "2 تفاح مقطع مكعبات صغيرة",
+            "2 ملعقة كبيرة سكر (30 غ)",
+            "1/2 ملعقة صغيرة قرفة",
+            "صفار بيضة",
+            "1 ملعقة كبيرة حليب"
+        ],
+        preparation:
+            "1. سخّن الفرن على 200 درجة مئوية.\n" +
+            "2. قشّر التفاح وقطعه مكعبات صغيرة.\n" +
+            "3. اخلط التفاح مع السكر والقرفة في وعاء.\n" +
+            "4. افرد العجينة على سطح مرشوش بالدقيق.\n" +
+            "5. قطعها إلى مربعات متساوية.\n" +
+            "6. ضع ملعقة من الحشوة في وسط كل مربع.\n" +
+            "7. اطوِ العجينة وأغلق الحواف جيداً.\n" +
+            "8. اخلط صفار البيض مع الحليب وادهن الوجه.\n" +
+            "9. ضعها في صينية مبطنة بورق الخبز.\n" +
+            "10. اخبز لمدة 15 إلى 20 دقيقة حتى يصبح لونها ذهبياً.\n" +
+            "11. اتركها تبرد قليلاً قبل التقديم."
+    }
+};
 recipesData.dessert.churros_sucre_mexique = {
     country: "amerique",
     countryName: "mexique",
     image: "images/churros_sucre_mexique.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "churros-sucre-mexique",
+            title: "Churros au sucre (Mexique) – Recette facile",
+            description: "Découvrez comment préparer les churros au sucre, une spécialité traditionnelle du Mexique, croustillante à l’extérieur et moelleuse à l’intérieur.",
+            keywords: [
+                "recette churros",
+                "churros mexique",
+                "dessert mexicain",
+                "recette facile",
+                "patisserie traditionnelle",
+                "cuisine mexicaine"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Churros au sucre (Mexique)",
+            "description": "Churros au sucre croustillants et dorés, spécialité populaire du Mexique.",
+            "recipeCuisine": "Mexique",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT15M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "125 g de farine",
+                "250 ml d’eau",
+                "30 g de sucre",
+                "15 ml d’huile",
+                "1 pincée de sel",
+                "Huile pour friture",
+                "Sucre pour enrobage"
+            ],
+            "recipeInstructions": [
+                "Porter l’eau, l’huile, le sel et le sucre à ébullition.",
+                "Hors du feu, ajouter la farine et mélanger jusqu’à obtenir une pâte homogène.",
+                "Mettre la pâte dans une poche à douille.",
+                "Former des bâtonnets directement dans l’huile chaude.",
+                "Frire jusqu’à coloration dorée.",
+                "Égoutter et rouler dans le sucre.",
+                "Servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Churros au sucre (Mexique, 4 personnes)",
-        equipment: ["1 casserole", "1 poche à douille", "1 fouet", "1 bol"],
+        title: "Churros au sucre (Mexique)",
+        equipment: [
+            "1 casserole",
+            "1 cuillère en bois",
+            "1 poche à douille avec embout étoilé",
+            "1 grande poêle ou friteuse",
+            "1 écumoire",
+            "1 papier absorbant",
+            "1 bol",
+            "1 fouet"
+        ],
         ingredients: [
-            "125 g farine",
-            "250 ml eau",
-            "2 cuillères à soupe sucre (30 g)",
-            "1 cuillère à soupe huile (15 ml)",
+            "125 g de farine",
+            "250 ml d’eau",
+            "2 cuillères à soupe de sucre (30 g)",
+            "1 cuillère à soupe d’huile (15 ml)",
             "1 pincée de sel",
+            "Huile pour friture",
             "Sucre pour enrobage"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Porter l’eau, l’huile, le sel et le sucre à ébullition.\n" +
-            "2. Hors du feu, ajouter la farine et mélanger.\n" +
-            "3. Mettre dans une poche à douille et former des bâtonnets.\n" +
-            "4. Frire dans l’huile chaude jusqu’à doré.\n" +
-            "5. Rouler dans le sucre et servir chaud."
+            "1. Verser l’eau dans une casserole et ajouter l’huile, le sel et le sucre.\n" +
+            "2. Porter à ébullition à feu moyen.\n" +
+            "3. Retirer du feu et ajouter immédiatement la farine.\n" +
+            "4. Mélanger énergiquement avec une cuillère en bois jusqu’à obtenir une pâte lisse et homogène.\n" +
+            "5. Laisser tiédir 5 minutes.\n" +
+            "6. Chauffer l’huile dans une grande poêle ou friteuse.\n" +
+            "7. Mettre la pâte dans une poche à douille munie d’un embout étoilé.\n" +
+            "8. Former des bâtonnets directement dans l’huile chaude.\n" +
+            "9. Frire 2 à 3 minutes de chaque côté jusqu’à ce qu’ils soient bien dorés.\n" +
+            "10. Égoutter sur du papier absorbant.\n" +
+            "11. Rouler immédiatement dans le sucre.\n" +
+            "12. Servir chaud."
     },
+
     en: {
-        title: "Sugar Churros (Mexico, Serves 4)",
-        equipment: ["1 pot", "1 piping bag", "1 whisk", "1 bowl"],
+        title: "Sugar Churros (Mexico)",
+        equipment: [
+            "1 saucepan",
+            "1 wooden spoon",
+            "1 piping bag with star tip",
+            "1 deep pan or fryer",
+            "1 slotted spoon",
+            "Paper towels",
+            "1 bowl",
+            "1 whisk"
+        ],
         ingredients: [
             "125 g flour",
             "250 ml water",
-            "2 tbsp sugar (30 g)",
-            "1 tbsp oil (15 ml)",
+            "2 tablespoons sugar (30 g)",
+            "1 tablespoon oil (15 ml)",
             "Pinch of salt",
+            "Oil for frying",
             "Sugar for coating"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Bring water, oil, salt, and sugar to a boil.\n" +
-            "2. Remove from heat, add flour and mix.\n" +
-            "3. Pipe batter into sticks.\n" +
-            "4. Fry in hot oil until golden.\n" +
-            "5. Roll in sugar and serve hot."
+            "1. Pour the water into a saucepan and add oil, salt and sugar.\n" +
+            "2. Bring to a boil over medium heat.\n" +
+            "3. Remove from heat and immediately add the flour.\n" +
+            "4. Stir vigorously until a smooth dough forms.\n" +
+            "5. Let cool for 5 minutes.\n" +
+            "6. Heat oil in a deep pan or fryer.\n" +
+            "7. Transfer the dough to a piping bag fitted with a star tip.\n" +
+            "8. Pipe sticks directly into the hot oil.\n" +
+            "9. Fry 2 to 3 minutes per side until golden brown.\n" +
+            "10. Drain on paper towels.\n" +
+            "11. Roll in sugar while still warm.\n" +
+            "12. Serve hot."
     },
+
     nl: {
-        title: "Churros met suiker (Mexico, voor 4 personen)",
-        equipment: ["1 pan", "1 spuitzak", "1 garde", "1 kom"],
+        title: "Churros met suiker (Mexico)",
+        equipment: [
+            "1 steelpan",
+            "1 houten lepel",
+            "1 spuitzak met stervormige tip",
+            "1 diepe pan of friteuse",
+            "1 schuimspaan",
+            "Keukenpapier",
+            "1 kom",
+            "1 garde"
+        ],
         ingredients: [
             "125 g bloem",
             "250 ml water",
             "2 eetlepels suiker (30 g)",
             "1 eetlepel olie (15 ml)",
             "Snufje zout",
+            "Olie om te frituren",
             "Suiker voor coating"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Breng water, olie, zout en suiker aan de kook.\n" +
-            "2. Haal van het vuur, voeg bloem toe en meng.\n" +
-            "3. Doe in spuitzak en vorm stokjes.\n" +
-            "4. Bak in hete olie tot goudbruin.\n" +
-            "5. Rol in suiker en serveer warm."
+            "1. Giet het water in een pan en voeg olie, zout en suiker toe.\n" +
+            "2. Breng aan de kook op middelhoog vuur.\n" +
+            "3. Haal van het vuur en voeg direct de bloem toe.\n" +
+            "4. Roer krachtig tot een glad deeg ontstaat.\n" +
+            "5. Laat 5 minuten afkoelen.\n" +
+            "6. Verhit olie in een diepe pan of friteuse.\n" +
+            "7. Doe het deeg in een spuitzak met stervormige tip.\n" +
+            "8. Spuit staafjes direct in de hete olie.\n" +
+            "9. Frituur 2 tot 3 minuten per kant tot goudbruin.\n" +
+            "10. Laat uitlekken op keukenpapier.\n" +
+            "11. Rol direct door de suiker.\n" +
+            "12. Serveer warm."
     },
+
     ar: {
-        title: "تشوروز بالسكر (المكسيك، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 كيس حلواني", "1 خفاقة", "1 وعاء"],
+        title: "تشوروز بالسكر (المكسيك)",
+        equipment: [
+            "قدر",
+            "ملعقة خشبية",
+            "كيس حلواني برأس نجمي",
+            "مقلاة عميقة أو قلاية",
+            "ملعقة مثقبة",
+            "ورق مطبخ",
+            "وعاء",
+            "خفاقة"
+        ],
         ingredients: [
             "125 غ دقيق",
             "250 مل ماء",
             "2 ملعقة كبيرة سكر (30 غ)",
             "1 ملعقة كبيرة زيت (15 مل)",
             "رشة ملح",
+            "زيت للقلي",
             "سكر للتغليف"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اغلي الماء والزيت والملح والسكر.\n" +
-            "2. ارفع عن النار، أضف الدقيق وامزج.\n" +
-            "3. ضع العجينة في كيس حلواني وشكّل أصابع.\n" +
-            "4. اقلي في الزيت الساخن حتى يصبح ذهبي اللون.\n" +
-            "5. غطّ بالسكر وقدّم ساخناً."
+            "1. ضع الماء في قدر وأضف الزيت والملح والسكر.\n" +
+            "2. اتركه حتى يغلي على نار متوسطة.\n" +
+            "3. ارفع القدر عن النار وأضف الدقيق فوراً.\n" +
+            "4. اخلط جيداً حتى تتشكل عجينة ناعمة.\n" +
+            "5. اتركها تبرد لمدة 5 دقائق.\n" +
+            "6. سخّن الزيت في مقلاة عميقة.\n" +
+            "7. ضع العجينة في كيس حلواني برأس نجمي.\n" +
+            "8. شكّل أصابع مباشرة في الزيت الساخن.\n" +
+            "9. اقلي لمدة 2 إلى 3 دقائق لكل جانب حتى يصبح لونها ذهبياً.\n" +
+            "10. ارفعها وضعها على ورق مطبخ.\n" +
+            "11. غطّها بالسكر وهي ساخنة.\n" +
+            "12. قدّمها ساخنة."
     }
 };
 
-// 5. Brigadeiro (Brésil)
+
 recipesData.dessert.brigadeiro_bresil = {
     country: "amerique",
     countryName: "bresil",
     image: "images/brigadeiro_bresil.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "brigadeiro-chocolat-bresil",
+            title: "Brigadeiro au chocolat (Brésil) – Recette facile",
+            description: "Apprenez à préparer le brigadeiro au chocolat, une douceur traditionnelle du Brésil, fondante et parfaite pour toutes les occasions.",
+            keywords: [
+                "recette brigadeiro",
+                "brigadeiro bresil",
+                "dessert bresilien",
+                "chocolat bresil",
+                "recette facile",
+                "confiserie traditionnelle"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Brigadeiro au chocolat (Brésil)",
+            "description": "Brigadeiro au chocolat fondant, spécialité sucrée traditionnelle du Brésil.",
+            "recipeCuisine": "Brésil",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT15M",
+            "totalTime": "PT25M",
+            "recipeIngredient": [
+                "395 g de lait concentré sucré",
+                "2 cuillères à soupe de cacao en poudre",
+                "1 cuillère à soupe de beurre",
+                "Chocolat râpé pour enrobage"
+            ],
+            "recipeInstructions": [
+                "Mélanger le lait concentré, le cacao et le beurre dans une casserole.",
+                "Cuire à feu doux en remuant jusqu’à épaississement.",
+                "Laisser refroidir.",
+                "Former des boules.",
+                "Rouler dans le chocolat râpé.",
+                "Servir."
+            ]
+        }
+    },
+
     fr: {
-        title: "Brigadeiro au chocolat (Brésil, 4 personnes)",
-        equipment: ["1 casserole", "1 cuillère en bois", "1 bol"],
+        title: "Brigadeiro au chocolat (Brésil)",
+        equipment: [
+            "1 casserole",
+            "1 cuillère en bois",
+            "1 spatule",
+            "1 bol",
+            "Papier cuisson"
+        ],
         ingredients: [
             "1 boîte de lait concentré sucré (395 g)",
-            "2 cuillères à soupe cacao en poudre",
-            "1 cuillère à soupe beurre",
+            "2 cuillères à soupe de cacao en poudre",
+            "1 cuillère à soupe de beurre",
             "Chocolat râpé pour enrobage"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Dans une casserole, mélanger le lait concentré, cacao et beurre.\n" +
-            "2. Cuire à feu doux en remuant jusqu’à épaississement.\n" +
-            "3. Laisser refroidir, former des boules et rouler dans le chocolat râpé.\n" +
-            "4. Servir."
+            "1. Verser le lait concentré sucré dans une casserole.\n" +
+            "2. Ajouter le cacao en poudre et le beurre.\n" +
+            "3. Mélanger soigneusement.\n" +
+            "4. Cuire à feu doux en remuant constamment pendant environ 10 à 15 minutes jusqu’à épaississement.\n" +
+            "5. Lorsque la préparation se détache des parois, retirer du feu.\n" +
+            "6. Laisser refroidir complètement.\n" +
+            "7. Former des petites boules avec les mains légèrement beurrées.\n" +
+            "8. Rouler dans le chocolat râpé.\n" +
+            "9. Déposer sur du papier cuisson.\n" +
+            "10. Servir à température ambiante."
     },
+
     en: {
-        title: "Chocolate Brigadeiro (Brazil, Serves 4)",
-        equipment: ["1 pot", "1 wooden spoon", "1 bowl"],
+        title: "Chocolate Brigadeiro (Brazil)",
+        equipment: [
+            "1 saucepan",
+            "1 wooden spoon",
+            "1 spatula",
+            "1 bowl",
+            "Baking paper"
+        ],
         ingredients: [
             "1 can sweetened condensed milk (395 g)",
-            "2 tbsp cocoa powder",
-            "1 tbsp butter",
+            "2 tablespoons cocoa powder",
+            "1 tablespoon butter",
             "Grated chocolate for coating"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. In a pot, mix condensed milk, cocoa, and butter.\n" +
-            "2. Cook on low heat while stirring until thick.\n" +
-            "3. Let cool, form balls and roll in grated chocolate.\n" +
-            "4. Serve."
+            "1. Pour the condensed milk into a saucepan.\n" +
+            "2. Add cocoa powder and butter.\n" +
+            "3. Mix well.\n" +
+            "4. Cook over low heat, stirring constantly for 10 to 15 minutes until thick.\n" +
+            "5. When the mixture pulls away from the sides, remove from heat.\n" +
+            "6. Let cool completely.\n" +
+            "7. Shape into small balls with lightly buttered hands.\n" +
+            "8. Roll in grated chocolate.\n" +
+            "9. Place on baking paper.\n" +
+            "10. Serve at room temperature."
     },
+
     nl: {
-        title: "Chocolade Brigadeiro (Brazilië, voor 4 personen)",
-        equipment: ["1 pan", "1 houten lepel", "1 kom"],
+        title: "Chocolade Brigadeiro (Brazilië)",
+        equipment: [
+            "1 pan",
+            "1 houten lepel",
+            "1 spatel",
+            "1 kom",
+            "Bakpapier"
+        ],
         ingredients: [
             "1 blik gezoete gecondenseerde melk (395 g)",
             "2 eetlepels cacaopoeder",
@@ -68312,15 +70046,27 @@ recipesData.dessert.brigadeiro_bresil = {
             "Geraspte chocolade voor coating"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng gecondenseerde melk, cacao en boter in pan.\n" +
-            "2. Kook op laag vuur onder voortdurend roeren tot dik.\n" +
-            "3. Laat afkoelen, vorm balletjes en rol in geraspte chocolade.\n" +
-            "4. Serveer."
+            "1. Giet de gecondenseerde melk in een pan.\n" +
+            "2. Voeg cacaopoeder en boter toe.\n" +
+            "3. Meng goed.\n" +
+            "4. Kook op laag vuur en roer constant gedurende 10 tot 15 minuten tot het dik wordt.\n" +
+            "5. Haal van het vuur wanneer het mengsel loskomt van de pan.\n" +
+            "6. Laat volledig afkoelen.\n" +
+            "7. Vorm kleine balletjes met licht ingevette handen.\n" +
+            "8. Rol door geraspte chocolade.\n" +
+            "9. Leg op bakpapier.\n" +
+            "10. Serveer op kamertemperatuur."
     },
+
     ar: {
-        title: "بريغاديرو بالشوكولاتة (البرازيل، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 ملعقة خشبية", "1 وعاء"],
+        title: "بريغاديرو بالشوكولاتة (البرازيل)",
+        equipment: [
+            "قدر",
+            "ملعقة خشبية",
+            "ملعقة مسطحة",
+            "وعاء",
+            "ورق خبز"
+        ],
         ingredients: [
             "1 علبة حليب مكثف محلى (395 غ)",
             "2 ملعقة كبيرة كاكاو بودرة",
@@ -68328,413 +70074,712 @@ recipesData.dessert.brigadeiro_bresil = {
             "شوكولاتة مبشورة للتغليف"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. في قدر، اخلط الحليب المكثف والكاكاو والزبدة.\n" +
-            "2. اطبخ على نار هادئة مع التحريك حتى يصبح سميكاً.\n" +
-            "3. اتركه يبرد، شكل كرات واغطها بالشوكولاتة المبشورة.\n" +
-            "4. قدمها."
+            "1. ضع الحليب المكثف في قدر.\n" +
+            "2. أضف الكاكاو والزبدة.\n" +
+            "3. اخلط جيداً.\n" +
+            "4. اطبخ على نار هادئة مع التحريك المستمر لمدة 10 إلى 15 دقيقة حتى يصبح الخليط سميكاً.\n" +
+            "5. عندما يبدأ بالابتعاد عن جوانب القدر ارفعه من النار.\n" +
+            "6. اتركه يبرد تماماً.\n" +
+            "7. شكّل كرات صغيرة بيدين مدهونتين بقليل من الزبدة.\n" +
+            "8. غطّها بالشوكولاتة المبشورة.\n" +
+            "9. ضعها على ورق الخبز.\n" +
+            "10. قدّمها في درجة حرارة الغرفة."
     }
 };
-
-// 6. Pastelitos aux pommes (Cuba)
-recipesData.dessert.pastelitos_pommes_cuba = {
-    country: "amerique",
-    countryName: "cuba",
-    image: "images/pastelitos_pommes_cuba.jpg",
-    fr: {
-        title: "Pastelitos aux pommes (Cuba, 4 personnes)",
-        equipment: ["1 four", "1 rouleau à pâtisserie", "1 bol"],
-        ingredients: [
-            "250 g pâte feuilletée",
-            "2 pommes, coupées en petits dés",
-            "2 cuillères à soupe sucre (30 g)",
-            "1/2 cuillère à café cannelle"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préchauffer le four à 200°C.\n" +
-            "2. Étaler la pâte et découper en carrés.\n" +
-            "3. Mélanger les pommes avec sucre et cannelle, déposer au centre de chaque carré.\n" +
-            "4. Replier et sceller les bords.\n" +
-            "5. Cuire 15-20 minutes jusqu’à doré."
-    },
-    en: {
-        title: "Apple Pastelitos (Cuba, Serves 4)",
-        equipment: ["1 oven", "1 rolling pin", "1 bowl"],
-        ingredients: [
-            "250 g puff pastry",
-            "2 apples, diced",
-            "2 tbsp sugar (30 g)",
-            "1/2 tsp cinnamon"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 200°C.\n" +
-            "2. Roll out pastry and cut into squares.\n" +
-            "3. Mix apples with sugar and cinnamon, place in center of each square.\n" +
-            "4. Fold and seal edges.\n" +
-            "5. Bake 15-20 minutes until golden."
-    },
-    nl: {
-        title: "Appel Pastelitos (Cuba, voor 4 personen)",
-        equipment: ["1 oven", "1 deegroller", "1 kom"],
-        ingredients: [
-            "250 g bladerdeeg",
-            "2 appels, in blokjes",
-            "2 eetlepels suiker (30 g)",
-            "1/2 tl kaneel"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 200°C.\n" +
-            "2. Rol deeg uit en snijd in vierkanten.\n" +
-            "3. Meng appels met suiker en kaneel, leg in het midden.\n" +
-            "4. Vouw en sluit randen.\n" +
-            "5. Bak 15-20 minuten tot goudbruin."
-    },
-    ar: {
-        title: "باسطليتوس بالتفاح (كوبا، تكفي 4 أشخاص)",
-        equipment: ["1 فرن", "1 نشابة", "1 وعاء"],
-        ingredients: [
-            "250 غ عجينة معجنات",
-            "2 تفاح، مقطع مكعبات",
-            "2 ملعقة كبيرة سكر (30 غ)",
-            "1/2 ملعقة صغيرة قرفة"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الفرن على 200°C.\n" +
-            "2. افرد العجينة وقطعها مربعات.\n" +
-            "3. اخلط التفاح مع السكر والقرفة، ضع في وسط كل مربع.\n" +
-            "4. اطوِ وأغلق الحواف.\n" +
-            "5. اخبز 15-20 دقيقة حتى يصبح ذهبي اللون."
-    }
-};
-
-// 7. Gâteau au miel et noix (USA)
 recipesData.dessert.gateau_miel_noix_usa = {
     country: "amerique",
     countryName: "usa",
     image: "images/gateau_miel_noix_usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy",
+        seo: {
+            slug: "gateau-miel-noix-usa",
+            title: "Gâteau au miel et noix (USA) – Recette facile",
+            description: "Découvrez comment préparer un gâteau au miel et noix inspiré des USA, moelleux et simple à réaliser pour un dessert gourmand.",
+            keywords: [
+                "recette gateau miel noix",
+                "gateau miel noix usa",
+                "dessert americain",
+                "recette facile",
+                "gouter maison",
+                "cuisine usa"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Gâteau au miel et noix (USA)",
+            "description": "Un gâteau moelleux au miel et aux noix, facile à préparer et parfait pour un dessert gourmand.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT30M",
+            "totalTime": "PT45M",
+            "recipeIngredient": [
+                "150 g de farine",
+                "100 g de sucre",
+                "2 œufs",
+                "80 g de beurre fondu",
+                "3 cuillères à soupe de miel",
+                "50 g de noix hachées",
+                "1 sachet de levure chimique",
+                "1 pincée de sel"
+            ],
+            "recipeInstructions": [
+                "Préchauffer le four à 180°C.",
+                "Fouetter les œufs et le sucre.",
+                "Ajouter le beurre fondu et le miel.",
+                "Incorporer farine, levure, sel et noix.",
+                "Verser dans un moule.",
+                "Cuire 30 minutes et laisser refroidir."
+            ]
+        }
+    },
+
     fr: {
-        title: "Gâteau au miel et noix (USA, 4 personnes)",
-        equipment: ["1 bol", "1 fouet", "1 moule à gâteau", "1 four"],
+        title: "Gâteau au miel et noix (USA)",
+        equipment: [
+            "1 saladier",
+            "1 fouet",
+            "1 spatule",
+            "1 moule à gâteau",
+            "1 balance de cuisine",
+            "1 four"
+        ],
         ingredients: [
-            "150 g farine",
-            "100 g sucre",
+            "150 g de farine",
+            "100 g de sucre",
             "2 œufs",
-            "50 g beurre fondu",
-            "2 cuillères à soupe miel",
-            "50 g noix hachées"
+            "80 g de beurre fondu",
+            "3 cuillères à soupe de miel",
+            "50 g de noix hachées",
+            "1 sachet de levure chimique",
+            "1 pincée de sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger œufs, sucre et beurre fondu.\n" +
-            "3. Ajouter farine, miel et noix.\n" +
-            "4. Verser dans moule et cuire 25 minutes.\n" +
-            "5. Laisser refroidir et servir."
+            "2. Fouetter les œufs avec le sucre.\n" +
+            "3. Ajouter le beurre fondu et le miel.\n" +
+            "4. Incorporer la farine, la levure, le sel et les noix.\n" +
+            "5. Verser dans un moule beurré.\n" +
+            "6. Cuire 30 minutes.\n" +
+            "7. Laisser refroidir avant de servir."
     },
+
     en: {
-        title: "Honey Walnut Cake (USA, Serves 4)",
-        equipment: ["1 bowl", "1 whisk", "1 cake mold", "1 oven"],
+        title: "Honey Walnut Cake (USA)",
+        equipment: [
+            "1 mixing bowl",
+            "1 whisk",
+            "1 spatula",
+            "1 cake pan",
+            "1 kitchen scale",
+            "1 oven"
+        ],
         ingredients: [
             "150 g flour",
             "100 g sugar",
             "2 eggs",
-            "50 g melted butter",
-            "2 tbsp honey",
-            "50 g chopped walnuts"
+            "80 g melted butter",
+            "3 tablespoons honey",
+            "50 g chopped walnuts",
+            "1 packet baking powder",
+            "1 pinch salt"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
-            "2. Mix eggs, sugar and melted butter.\n" +
-            "3. Add flour, honey and walnuts.\n" +
-            "4. Pour into mold and bake 25 minutes.\n" +
-            "5. Let cool and serve."
+            "2. Whisk eggs and sugar.\n" +
+            "3. Add melted butter and honey.\n" +
+            "4. Stir in flour, baking powder, salt and walnuts.\n" +
+            "5. Pour into greased pan.\n" +
+            "6. Bake 30 minutes.\n" +
+            "7. Let cool before serving."
     },
+
     nl: {
-        title: "Honing-walnootcake (VS, voor 4 personen)",
-        equipment: ["1 kom", "1 garde", "1 cakevorm", "1 oven"],
+        title: "Honing-walnootcake (Verenigde Staten)",
+        equipment: [
+            "1 mengkom",
+            "1 garde",
+            "1 spatel",
+            "1 cakevorm",
+            "1 keukenweegschaal",
+            "1 oven"
+        ],
         ingredients: [
             "150 g bloem",
             "100 g suiker",
             "2 eieren",
-            "50 g gesmolten boter",
-            "2 eetlepels honing",
-            "50 g gehakte walnoten"
+            "80 g gesmolten boter",
+            "3 eetlepels honing",
+            "50 g gehakte walnoten",
+            "1 zakje bakpoeder",
+            "1 snufje zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm oven voor op 180°C.\n" +
-            "2. Meng eieren, suiker en gesmolten boter.\n" +
-            "3. Voeg bloem, honing en walnoten toe.\n" +
-            "4. Giet in vorm en bak 25 minuten.\n" +
-            "5. Laat afkoelen en serveer."
+            "2. Klop eieren en suiker.\n" +
+            "3. Voeg boter en honing toe.\n" +
+            "4. Meng bloem, bakpoeder, zout en walnoten erdoor.\n" +
+            "5. Giet in ingevette vorm.\n" +
+            "6. Bak 30 minuten.\n" +
+            "7. Laat afkoelen."
     },
+
     ar: {
-        title: "كعكة بالعسل والجوز (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 خفاقة", "1 قالب كعك", "1 فرن"],
+        title: "كعكة بالعسل والجوز (الولايات المتحدة)",
+        equipment: [
+            "وعاء خلط",
+            "خفاقة",
+            "ملعقة مطاطية",
+            "قالب كعك",
+            "ميزان مطبخ",
+            "فرن"
+        ],
         ingredients: [
             "150 غ دقيق",
             "100 غ سكر",
             "2 بيض",
-            "50 غ زبدة مذابة",
-            "2 ملعقة كبيرة عسل",
-            "50 غ جوز مفروم"
+            "80 غ زبدة مذابة",
+            "3 ملاعق كبيرة عسل",
+            "50 غ جوز مفروم",
+            "كيس بيكنج باودر",
+            "رشة ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الفرن على 180°C.\n" +
-            "2. اخلط البيض، السكر والزبدة المذابة.\n" +
-            "3. أضف الدقيق، العسل والجوز.\n" +
-            "4. صب في القالب واخبز 25 دقيقة.\n" +
-            "5. اتركه يبرد وقدّم."
+            "1. سخّن الفرن على 180 درجة.\n" +
+            "2. اخفق البيض مع السكر.\n" +
+            "3. أضف الزبدة والعسل.\n" +
+            "4. أضف الدقيق والبيكنج باودر والملح والجوز.\n" +
+            "5. صب في قالب مدهون.\n" +
+            "6. اخبز 30 دقيقة.\n" +
+            "7. اتركها تبرد قبل التقديم."
     }
 };
-// 8. Key Lime Pie (USA)
+
 recipesData.dessert.key_lime_pie_usa = {
     country: "amerique",
     countryName: "usa",
     image: "images/key_lime_pie_usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "medium",
+        seo: {
+            slug: "key-lime-pie-usa",
+            title: "Key Lime Pie (USA) – Tarte facile et fraîche",
+            description: "Apprenez à préparer la célèbre Key Lime Pie des USA, une tarte fraîche et acidulée idéale pour un dessert léger et gourmand.",
+            keywords: [
+                "key lime pie recette",
+                "tarte citron vert usa",
+                "dessert americain",
+                "recette facile tarte",
+                "patisserie usa",
+                "dessert maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Key Lime Pie (USA)",
+            "description": "Une tarte américaine au citron vert, fraîche et légèrement acidulée.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT20M",
+            "totalTime": "PT40M",
+            "recipeIngredient": [
+                "200 g biscuits émiettés",
+                "80 g beurre fondu",
+                "3 jaunes d'œufs",
+                "200 ml jus de citron vert",
+                "120 g lait concentré sucré",
+                "Zeste de citron vert"
+            ],
+            "recipeInstructions": [
+                "Mélanger biscuits et beurre et presser dans un moule.",
+                "Mélanger jaunes, lait concentré et jus de citron.",
+                "Verser sur la base.",
+                "Cuire 20 minutes à 160°C.",
+                "Laisser refroidir avant de servir."
+            ]
+        }
+    },
+
     fr: {
-        title: "Key Lime Pie (USA, 4 personnes)",
-        equipment: ["1 bol", "1 fouet", "1 moule à tarte", "1 four"],
+        title: "Key Lime Pie (USA)",
+        equipment: [
+            "1 saladier",
+            "1 fouet",
+            "1 spatule",
+            "1 moule à tarte",
+            "1 four",
+            "1 zesteur"
+        ],
         ingredients: [
-            "200 g biscuits émiettés",
-            "50 g beurre fondu",
+            "200 g de biscuits émiettés",
+            "80 g de beurre fondu",
             "3 jaunes d'œufs",
-            "200 ml jus de citron vert",
-            "100 g sucre",
-            "100 ml crème fraîche"
+            "200 ml de jus de citron vert",
+            "120 g de lait concentré sucré",
+            "Zeste d’un citron vert"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger biscuits et beurre, tapisser un moule.\n" +
-            "2. Fouetter jaunes d'œufs, sucre et jus de citron.\n" +
-            "3. Verser sur la base de biscuits.\n" +
-            "4. Cuire 15-20 minutes à 160°C.\n" +
-            "5. Laisser refroidir, ajouter crème et servir."
+            "1. Mélanger les biscuits et le beurre fondu.\n" +
+            "2. Tasser dans un moule à tarte.\n" +
+            "3. Fouetter les jaunes d'œufs avec le lait concentré.\n" +
+            "4. Ajouter le jus et le zeste.\n" +
+            "5. Verser sur la base.\n" +
+            "6. Cuire 20 minutes à 160°C.\n" +
+            "7. Laisser refroidir complètement avant de servir."
     },
+
     en: {
-        title: "Key Lime Pie (USA, Serves 4)",
-        equipment: ["1 bowl", "1 whisk", "1 tart pan", "1 oven"],
+        title: "Key Lime Pie (USA)",
+        equipment: [
+            "1 mixing bowl",
+            "1 whisk",
+            "1 spatula",
+            "1 tart pan",
+            "1 oven",
+            "1 zester"
+        ],
         ingredients: [
             "200 g crushed biscuits",
-            "50 g melted butter",
+            "80 g melted butter",
             "3 egg yolks",
             "200 ml lime juice",
-            "100 g sugar",
-            "100 ml cream"
+            "120 g sweetened condensed milk",
+            "Lime zest"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mix biscuits and butter, press into pan.\n" +
-            "2. Whisk egg yolks, sugar, and lime juice.\n" +
-            "3. Pour over biscuit base.\n" +
-            "4. Bake 15-20 minutes at 160°C.\n" +
-            "5. Let cool, add cream, and serve."
+            "1. Mix biscuits and butter.\n" +
+            "2. Press into tart pan.\n" +
+            "3. Whisk yolks and condensed milk.\n" +
+            "4. Add lime juice and zest.\n" +
+            "5. Pour over crust.\n" +
+            "6. Bake 20 minutes at 160°C.\n" +
+            "7. Cool completely before serving."
     },
+
     nl: {
-        title: "Key Lime Pie (VS, voor 4 personen)",
-        equipment: ["1 kom", "1 garde", "1 taartvorm", "1 oven"],
+        title: "Key Lime Pie (Verenigde Staten)",
+        equipment: [
+            "1 mengkom",
+            "1 garde",
+            "1 spatel",
+            "1 taartvorm",
+            "1 oven",
+            "1 rasp"
+        ],
         ingredients: [
             "200 g verkruimelde koekjes",
-            "50 g gesmolten boter",
+            "80 g gesmolten boter",
             "3 eidooiers",
             "200 ml limoensap",
-            "100 g suiker",
-            "100 ml room"
+            "120 g gezoete gecondenseerde melk",
+            "Limoenschil"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng koekjes en boter, druk in vorm.\n" +
-            "2. Klop eidooiers, suiker en limoensap.\n" +
-            "3. Giet over koekjesbodem.\n" +
-            "4. Bak 15-20 minuten op 160°C.\n" +
-            "5. Laat afkoelen, voeg room toe en serveer."
+            "1. Meng koekjes en boter.\n" +
+            "2. Druk in taartvorm.\n" +
+            "3. Klop dooiers met gecondenseerde melk.\n" +
+            "4. Voeg limoensap en rasp toe.\n" +
+            "5. Giet over bodem.\n" +
+            "6. Bak 20 minuten op 160°C.\n" +
+            "7. Laat volledig afkoelen."
     },
+
     ar: {
-        title: "فطيرة كاي لايم (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 خفاقة", "1 قالب فطيرة", "1 فرن"],
+        title: "فطيرة كاي لايم (الولايات المتحدة)",
+        equipment: [
+            "وعاء خلط",
+            "خفاقة",
+            "ملعقة مطاطية",
+            "قالب فطيرة",
+            "فرن",
+            "مبشرة"
+        ],
         ingredients: [
             "200 غ بسكويت مفتت",
-            "50 غ زبدة مذابة",
+            "80 غ زبدة مذابة",
             "3 صفار بيض",
             "200 مل عصير ليمون أخضر",
-            "100 غ سكر",
-            "100 مل كريمة"
+            "120 غ حليب مكثف محلى",
+            "برش ليمون أخضر"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط البسكويت والزبدة واضغط في القالب.\n" +
-            "2. اخفق صفار البيض والسكر وعصير الليمون.\n" +
-            "3. صب الخليط فوق قاعدة البسكويت.\n" +
-            "4. اخبز 15-20 دقيقة على 160°C.\n" +
-            "5. اتركه يبرد، أضف الكريمة وقدّم."
+            "1. اخلط البسكويت مع الزبدة.\n" +
+            "2. اضغطه في قالب الفطيرة.\n" +
+            "3. اخفق صفار البيض مع الحليب المكثف.\n" +
+            "4. أضف عصير وبرش الليمون.\n" +
+            "5. صب فوق القاعدة.\n" +
+            "6. اخبز 20 دقيقة على 160 درجة.\n" +
+            "7. اتركها تبرد تماماً قبل التقديم."
     }
 };
 
-// 9. Bananas Foster (USA)
 recipesData.dessert.bananas_foster_usa = {
     country: "amerique",
     countryName: "usa",
     image: "images/bananas_foster_usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy",
+        seo: {
+            slug: "bananas-foster-usa",
+            title: "Bananas Foster (USA) – Dessert chaud facile",
+            description: "Préparez les Bananas Foster des USA, un dessert chaud aux bananes caramélisées, simple et rapide à réaliser à la maison.",
+            keywords: [
+                "bananas foster recette",
+                "dessert banane usa",
+                "dessert chaud facile",
+                "recette americaine",
+                "banane caramélisée",
+                "dessert maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Bananas Foster (USA)",
+            "description": "Un dessert américain aux bananes caramélisées, chaud et gourmand.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT10M",
+            "totalTime": "PT20M",
+            "recipeIngredient": [
+                "4 bananes mûres",
+                "60 g beurre",
+                "60 g sucre brun",
+                "1 cuillère à café cannelle",
+                "50 ml jus d’orange",
+                "1 cuillère à soupe miel"
+            ],
+            "recipeInstructions": [
+                "Faire fondre beurre et sucre.",
+                "Ajouter les bananes.",
+                "Saupoudrer de cannelle.",
+                "Ajouter jus d’orange et miel.",
+                "Cuire quelques minutes et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Bananas Foster (USA, 4 personnes)",
-        equipment: ["1 poêle", "1 cuillère en bois", "1 bol"],
+        title: "Bananas Foster (USA)",
+        equipment: [
+            "1 poêle",
+            "1 spatule",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
         ingredients: [
             "4 bananes mûres",
-            "50 g beurre",
-            "50 g sucre brun",
-            "1 cuillère à café cannelle",
-            "50 ml jus d’orange"
+            "60 g de beurre",
+            "60 g de sucre brun",
+            "1 cuillère à café de cannelle",
+            "50 ml de jus d’orange",
+            "1 cuillère à soupe de miel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Couper les bananes en rondelles.\n" +
-            "2. Faire fondre beurre et sucre dans une poêle.\n" +
-            "3. Ajouter cannelle et bananes, cuire 2-3 minutes.\n" +
-            "4. Ajouter jus d’orange et cuire encore 1-2 minutes.\n" +
-            "5. Servir chaud."
+            "1. Couper les bananes en deux dans la longueur.\n" +
+            "2. Faire fondre le beurre avec le sucre dans une poêle.\n" +
+            "3. Ajouter les bananes et les faire caraméliser 2 à 3 minutes.\n" +
+            "4. Saupoudrer de cannelle.\n" +
+            "5. Verser le jus d’orange et le miel.\n" +
+            "6. Laisser épaissir légèrement.\n" +
+            "7. Servir immédiatement."
     },
+
     en: {
-        title: "Bananas Foster (USA, Serves 4)",
-        equipment: ["1 pan", "1 wooden spoon", "1 bowl"],
+        title: "Bananas Foster (USA)",
+        equipment: [
+            "1 pan",
+            "1 spatula",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "4 ripe bananas",
-            "50 g butter",
-            "50 g brown sugar",
-            "1 tsp cinnamon",
-            "50 ml orange juice"
+            "60 g butter",
+            "60 g brown sugar",
+            "1 teaspoon cinnamon",
+            "50 ml orange juice",
+            "1 tablespoon honey"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Slice bananas.\n" +
-            "2. Melt butter and sugar in pan.\n" +
-            "3. Add cinnamon and bananas, cook 2-3 min.\n" +
-            "4. Add orange juice, cook 1-2 more min.\n" +
-            "5. Serve hot."
+            "1. Slice bananas lengthwise.\n" +
+            "2. Melt butter and sugar in a pan.\n" +
+            "3. Add bananas and cook 2–3 minutes.\n" +
+            "4. Sprinkle with cinnamon.\n" +
+            "5. Add orange juice and honey.\n" +
+            "6. Let sauce thicken slightly.\n" +
+            "7. Serve immediately."
     },
+
     nl: {
-        title: "Bananas Foster (VS, voor 4 personen)",
-        equipment: ["1 pan", "1 houten lepel", "1 kom"],
+        title: "Bananas Foster (Verenigde Staten)",
+        equipment: [
+            "1 pan",
+            "1 spatel",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
         ingredients: [
             "4 rijpe bananen",
-            "50 g boter",
-            "50 g bruine suiker",
-            "1 tl kaneel",
-            "50 ml sinaasappelsap"
+            "60 g boter",
+            "60 g bruine suiker",
+            "1 theelepel kaneel",
+            "50 ml sinaasappelsap",
+            "1 eetlepel honing"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Snijd bananen in plakjes.\n" +
-            "2. Smelt boter en suiker in pan.\n" +
-            "3. Voeg kaneel en bananen toe, 2-3 min bakken.\n" +
-            "4. Voeg sinaasappelsap toe, bak nog 1-2 min.\n" +
-            "5. Serveer warm."
+            "1. Snijd bananen in de lengte doormidden.\n" +
+            "2. Smelt boter en suiker in een pan.\n" +
+            "3. Voeg bananen toe en bak 2–3 minuten.\n" +
+            "4. Bestrooi met kaneel.\n" +
+            "5. Voeg sinaasappelsap en honing toe.\n" +
+            "6. Laat de saus iets indikken.\n" +
+            "7. Serveer direct."
     },
+
     ar: {
-        title: "موز فوستر (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 ملعقة خشبية", "1 وعاء"],
+        title: "موز فوستر (الولايات المتحدة)",
+        equipment: [
+            "مقلاة",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة"
+        ],
         ingredients: [
             "4 موز ناضج",
-            "50 غ زبدة",
-            "50 غ سكر بني",
-            "1 ملعقة صغيرة قرفة",
-            "50 مل عصير برتقال"
+            "60 غ زبدة",
+            "60 غ سكر بني",
+            "ملعقة صغيرة قرفة",
+            "50 مل عصير برتقال",
+            "ملعقة كبيرة عسل"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. قطع الموز إلى شرائح.\n" +
-            "2. ذوّب الزبدة والسكر في المقلاة.\n" +
-            "3. أضف القرفة والموز، اطبخ 2-3 دقائق.\n" +
-            "4. أضف عصير البرتقال، اطبخ 1-2 دقيقة أخرى.\n" +
-            "5. قدّم ساخناً."
+            "1. اقطع الموز بالطول.\n" +
+            "2. ذوّب الزبدة مع السكر في المقلاة.\n" +
+            "3. أضف الموز واطهه 2–3 دقائق.\n" +
+            "4. رش القرفة.\n" +
+            "5. أضف عصير البرتقال والعسل.\n" +
+            "6. اترك الصلصة تتكاثف قليلاً.\n" +
+            "7. قدّم فوراً."
     }
 };
-
-// 10. Pavé au chocolat et cacahuètes (USA)
 recipesData.dessert.choco_peanut_bar_usa = {
     country: "amerique",
     countryName: "usa",
-    image: "images/choco_peanut_bar_usa.jpg",
+    image: "images/choco-peanut-bar-usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "pave-chocolat-cacahuetes-usa",
+            title: "Pavé chocolat cacahuètes (USA) – Facile",
+            description: "Découvrez le pavé au chocolat et cacahuètes, un dessert gourmand venu des États-Unis, simple à préparer et parfait pour les amateurs de chocolat.",
+            keywords: [
+                "recette pavé chocolat",
+                "pavé chocolat usa",
+                "dessert américain",
+                "recette facile chocolat",
+                "gâteau chocolat maison",
+                "cuisine usa dessert"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Pavé au chocolat et cacahuètes (USA)",
+            "description": "Un pavé fondant au chocolat et cacahuètes, inspiré des desserts américains, facile et gourmand.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT20M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "150 g de chocolat noir",
+                "80 g de beurre",
+                "80 g de sucre",
+                "60 g de cacahuètes grillées non salées hachées",
+                "2 œufs",
+                "60 g de farine",
+                "1 pincée de sel"
+            ],
+            "recipeInstructions": [
+                "Préchauffer le four à 180°C.",
+                "Faire fondre le chocolat et le beurre au bain-marie.",
+                "Ajouter le sucre puis les œufs et mélanger.",
+                "Incorporer la farine, le sel et les cacahuètes.",
+                "Verser dans un moule chemisé.",
+                "Cuire 18 à 20 minutes.",
+                "Laisser refroidir avant de couper en carrés."
+            ]
+        }
+    },
+
     fr: {
-        title: "Pavé au chocolat et cacahuètes (USA, 4 personnes)",
-        equipment: ["1 bol", "1 fouet", "1 moule", "1 four"],
+        title: "Pavé au chocolat et cacahuètes (États-Unis)",
+        equipment: [
+            "1 saladier",
+            "1 casserole",
+            "1 spatule",
+            "1 fouet",
+            "1 moule carré (20x20 cm)",
+            "1 papier sulfurisé",
+            "1 four",
+            "1 grille de refroidissement",
+            "1 couteau"
+        ],
         ingredients: [
-            "150 g chocolat noir",
-            "50 g beurre",
-            "50 g sucre",
-            "50 g cacahuètes hachées",
-            "2 œufs"
+            "150 g de chocolat noir",
+            "80 g de beurre",
+            "80 g de sucre",
+            "60 g de cacahuètes grillées non salées hachées",
+            "2 œufs",
+            "60 g de farine",
+            "1 pincée de sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Faire fondre chocolat et beurre.\n" +
-            "3. Ajouter sucre et œufs, mélanger.\n" +
-            "4. Incorporer les cacahuètes.\n" +
-            "5. Verser dans moule et cuire 15-20 minutes.\n" +
-            "6. Laisser refroidir et couper en carrés."
+            "2. Chemiser le moule avec du papier sulfurisé.\n" +
+            "3. Faire fondre le chocolat et le beurre au bain-marie ou à feu doux.\n" +
+            "4. Hors du feu, ajouter le sucre et mélanger.\n" +
+            "5. Incorporer les œufs un à un en fouettant.\n" +
+            "6. Ajouter la farine, le sel et mélanger jusqu’à obtention d’une pâte lisse.\n" +
+            "7. Incorporer les cacahuètes hachées.\n" +
+            "8. Verser la préparation dans le moule et lisser la surface.\n" +
+            "9. Cuire 18 à 20 minutes.\n" +
+            "10. Laisser refroidir sur une grille avant de découper en carrés."
     },
+
     en: {
-        title: "Chocolate Peanut Bar (USA, Serves 4)",
-        equipment: ["1 bowl", "1 whisk", "1 mold", "1 oven"],
+        title: "Chocolate Peanut Bar (United States)",
+        equipment: [
+            "1 mixing bowl",
+            "1 saucepan",
+            "1 spatula",
+            "1 whisk",
+            "1 square pan (20x20 cm)",
+            "1 parchment paper",
+            "1 oven",
+            "1 cooling rack",
+            "1 knife"
+        ],
         ingredients: [
             "150 g dark chocolate",
-            "50 g butter",
-            "50 g sugar",
-            "50 g chopped peanuts",
-            "2 eggs"
+            "80 g butter",
+            "80 g sugar",
+            "60 g roasted unsalted peanuts, chopped",
+            "2 eggs",
+            "60 g flour",
+            "1 pinch of salt"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Melt chocolate and butter.\n" +
-            "3. Add sugar and eggs, mix.\n" +
-            "4. Fold in peanuts.\n" +
-            "5. Pour into mold and bake 15-20 min.\n" +
-            "6. Let cool and cut into squares."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Line the pan with parchment paper.\n" +
+            "3. Melt the chocolate and butter over low heat.\n" +
+            "4. Remove from heat and stir in the sugar.\n" +
+            "5. Add the eggs one at a time, whisking well.\n" +
+            "6. Mix in the flour and salt until smooth.\n" +
+            "7. Fold in the chopped peanuts.\n" +
+            "8. Pour the batter into the pan and smooth the top.\n" +
+            "9. Bake for 18–20 minutes.\n" +
+            "10. Let cool on a rack before cutting into squares."
     },
+
     nl: {
-        title: "Chocolade Pindareep (VS, voor 4 personen)",
-        equipment: ["1 kom", "1 garde", "1 vorm", "1 oven"],
+        title: "Chocolade pindareep (Verenigde Staten)",
+        equipment: [
+            "1 mengkom",
+            "1 steelpan",
+            "1 spatel",
+            "1 garde",
+            "1 vierkante bakvorm (20x20 cm)",
+            "1 bakpapier",
+            "1 oven",
+            "1 rooster",
+            "1 mes"
+        ],
         ingredients: [
             "150 g pure chocolade",
-            "50 g boter",
-            "50 g suiker",
-            "50 g gehakte pinda's",
-            "2 eieren"
+            "80 g boter",
+            "80 g suiker",
+            "60 g geroosterde ongezouten pinda's, gehakt",
+            "2 eieren",
+            "60 g bloem",
+            "1 snufje zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Smelt chocolade en boter.\n" +
-            "3. Voeg suiker en eieren toe, meng.\n" +
-            "4. Voeg pinda's toe.\n" +
-            "5. Giet in vorm en bak 15-20 min.\n" +
-            "6. Laat afkoelen en snijd in blokjes."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Bekleed de bakvorm met bakpapier.\n" +
+            "3. Smelt chocolade en boter op laag vuur.\n" +
+            "4. Haal van het vuur en meng de suiker erdoor.\n" +
+            "5. Voeg de eieren één voor één toe en klop goed.\n" +
+            "6. Meng bloem en zout erdoor tot een glad beslag.\n" +
+            "7. Voeg de gehakte pinda's toe.\n" +
+            "8. Giet het beslag in de vorm en strijk glad.\n" +
+            "9. Bak 18–20 minuten.\n" +
+            "10. Laat afkoelen op een rooster en snijd in blokjes."
     },
+
     ar: {
-        title: "قطع الشوكولاتة والفول السوداني (الولايات المتحدة، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 خفاقة", "1 قالب", "1 فرن"],
+        title: "مربعات الشوكولاتة والفول السوداني (الولايات المتحدة)",
+        equipment: [
+            "وعاء خلط",
+            "قدر صغير",
+            "ملعقة مطاطية",
+            "مضرب يدوي",
+            "قالب مربع (20×20 سم)",
+            "ورق زبدة",
+            "فرن",
+            "شبكة تبريد",
+            "سكين"
+        ],
         ingredients: [
             "150 غ شوكولاتة داكنة",
-            "50 غ زبدة",
-            "50 غ سكر",
-            "50 غ فول سوداني مفروم",
-            "2 بيض"
+            "80 غ زبدة",
+            "80 غ سكر",
+            "60 غ فول سوداني محمص غير مملح ومفروم",
+            "2 بيض",
+            "60 غ دقيق",
+            "رشة ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الفرن على 180°C.\n" +
-            "2. ذوّب الشوكولاتة والزبدة.\n" +
-            "3. أضف السكر والبيض، وامزج.\n" +
-            "4. أضف الفول السوداني.\n" +
-            "5. صب في القالب واخبز 15-20 دقيقة.\n" +
-            "6. اتركه يبرد وقطّع إلى مربعات."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. غطِّ القالب بورق الزبدة.\n" +
+            "3. ذوّب الشوكولاتة والزبدة على نار هادئة.\n" +
+            "4. ارفعها عن النار وأضف السكر واخلط جيداً.\n" +
+            "5. أضف البيض واحدة تلو الأخرى مع الخفق.\n" +
+            "6. أضف الدقيق والملح واخلط حتى يصبح الخليط ناعماً.\n" +
+            "7. أضف الفول السوداني المفروم.\n" +
+            "8. اسكب الخليط في القالب وسوِّ السطح.\n" +
+            "9. اخبز لمدة 18 إلى 20 دقيقة.\n" +
+            "10. اتركه يبرد ثم قطّعه إلى مربعات."
     }
 };
 
@@ -68742,269 +70787,421 @@ recipesData.dessert.choco_peanut_bar_usa = {
 recipesData.dessert.brownies_usa = {
     country: "amerique",
     countryName: "usa",
-    image: "images/brownies_usa.jpg",
+    image: "images/brownies-usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy",
+        seo: {
+            slug: "brownies-chocolat-usa",
+            title: "Brownies chocolat (USA) – Recette facile",
+            description: "Préparez de délicieux brownies au chocolat inspirés des États-Unis, fondants et faciles à réaliser pour un dessert maison irrésistible.",
+            keywords: [
+                "recette brownies",
+                "brownies usa",
+                "dessert américain chocolat",
+                "brownies faciles",
+                "gâteau chocolat usa",
+                "recette dessert maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Brownies au chocolat (USA)",
+            "description": "Des brownies au chocolat fondants, inspirés des États-Unis, faciles à préparer à la maison.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT30M",
+            "totalTime": "PT45M",
+            "recipeIngredient": [
+                "150 g farine",
+                "50 g cacao en poudre",
+                "150 g sucre",
+                "80 ml huile végétale",
+                "100 ml lait",
+                "2 œufs",
+                "1 cuillère à café extrait de vanille",
+                "1/2 cuillère à café levure chimique",
+                "1 pincée de sel"
+            ],
+            "recipeInstructions": [
+                "Préchauffer le four à 180°C.",
+                "Mélanger les ingrédients secs.",
+                "Ajouter les ingrédients liquides.",
+                "Verser dans un moule chemisé.",
+                "Cuire 25 à 30 minutes.",
+                "Laisser refroidir et couper en carrés."
+            ]
+        }
+    },
+
     fr: {
-        title: "Brownies au chocolat vegan (USA, 4 personnes)",
+        title: "Brownies au chocolat (États-Unis)",
         equipment: [
-            "1 bol moyen",
+            "1 saladier",
             "1 fouet",
             "1 spatule",
             "1 balance de cuisine",
             "1 moule carré (20x20 cm)",
             "1 papier sulfurisé",
-            "1 four"
+            "1 four",
+            "1 grille de refroidissement",
+            "1 couteau"
         ],
         ingredients: [
-            "150 g farine de blé",
-            "50 g poudre de cacao non sucrée",
-            "150 g sucre de canne",
-            "1/2 cuillère à café sel (1 g)",
-            "1/2 cuillère à café levure chimique (2 g)",
-            "80 ml huile végétale",
-            "100 ml lait végétal (amande ou soja)",
-            "1 cuillère à café extrait de vanille (5 ml)"
+            "150 g de farine",
+            "50 g de cacao en poudre non sucré",
+            "150 g de sucre",
+            "80 ml d’huile végétale",
+            "100 ml de lait",
+            "2 œufs",
+            "1 cuillère à café d’extrait de vanille",
+            "1/2 cuillère à café de levure chimique",
+            "1 pincée de sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préchauffer le four à 180°C.\n" +
-            "2. Chemiser le moule carré avec du papier sulfurisé.\n" +
-            "3. Dans un bol, mélanger la farine, le cacao, le sucre, le sel et la levure.\n" +
-            "4. Ajouter l’huile, le lait végétal et l’extrait de vanille, mélanger jusqu’à obtention d’une pâte homogène.\n" +
-            "5. Verser la pâte dans le moule et lisser la surface.\n" +
-            "6. Cuire au four pendant 25-30 minutes.\n" +
-            "7. Laisser refroidir avant de découper en carrés et servir."
+            "2. Chemiser le moule avec du papier sulfurisé.\n" +
+            "3. Dans un saladier, mélanger la farine, le cacao, la levure et le sel.\n" +
+            "4. Ajouter le sucre et mélanger.\n" +
+            "5. Incorporer les œufs, le lait, l’huile et la vanille.\n" +
+            "6. Mélanger jusqu’à obtention d’une pâte homogène.\n" +
+            "7. Verser dans le moule et lisser la surface.\n" +
+            "8. Cuire 25 à 30 minutes.\n" +
+            "9. Laisser refroidir avant de découper en carrés."
     },
+
     en: {
-        title: "Vegan Chocolate Brownies (USA, Serves 4)",
+        title: "Chocolate Brownies (United States)",
         equipment: [
-            "1 medium bowl",
+            "1 mixing bowl",
             "1 whisk",
             "1 spatula",
             "1 kitchen scale",
             "1 square baking pan (20x20 cm)",
             "1 parchment paper",
-            "1 oven"
+            "1 oven",
+            "1 cooling rack",
+            "1 knife"
         ],
         ingredients: [
-            "150 g wheat flour",
+            "150 g flour",
             "50 g unsweetened cocoa powder",
-            "150 g cane sugar",
-            "1/2 tsp salt (1 g)",
-            "1/2 tsp baking powder (2 g)",
+            "150 g sugar",
             "80 ml vegetable oil",
-            "100 ml plant milk (almond or soy)",
-            "1 tsp vanilla extract (5 ml)"
+            "100 ml milk",
+            "2 eggs",
+            "1 teaspoon vanilla extract",
+            "1/2 teaspoon baking powder",
+            "1 pinch salt"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Preheat oven to 180°C.\n" +
-            "2. Line square pan with parchment paper.\n" +
-            "3. In a bowl, mix flour, cocoa, sugar, salt, and baking powder.\n" +
-            "4. Add oil, plant milk, and vanilla extract, stir until smooth.\n" +
-            "5. Pour batter into pan and smooth top.\n" +
-            "6. Bake 25-30 minutes.\n" +
-            "7. Let cool before cutting into squares and serving."
+            "2. Line the baking pan with parchment paper.\n" +
+            "3. Mix flour, cocoa powder, baking powder and salt.\n" +
+            "4. Stir in sugar.\n" +
+            "5. Add eggs, milk, oil and vanilla.\n" +
+            "6. Mix until smooth.\n" +
+            "7. Pour into the pan and level the top.\n" +
+            "8. Bake for 25–30 minutes.\n" +
+            "9. Let cool before cutting into squares."
     },
+
     nl: {
-        title: "Vegan Chocolade Brownies (VS, voor 4 personen)",
+        title: "Chocolade brownies (Verenigde Staten)",
         equipment: [
-            "1 middelgrote kom",
+            "1 mengkom",
             "1 garde",
             "1 spatel",
             "1 keukenweegschaal",
             "1 vierkante bakvorm (20x20 cm)",
             "1 bakpapier",
-            "1 oven"
+            "1 oven",
+            "1 rooster",
+            "1 mes"
         ],
         ingredients: [
-            "150 g tarwebloem",
+            "150 g bloem",
             "50 g ongezoet cacaopoeder",
-            "150 g rietsuiker",
-            "1/2 tl zout (1 g)",
-            "1/2 tl bakpoeder (2 g)",
+            "150 g suiker",
             "80 ml plantaardige olie",
-            "100 ml plantaardige melk (amandel of soja)",
-            "1 tl vanille-extract (5 ml)"
+            "100 ml melk",
+            "2 eieren",
+            "1 theelepel vanille-extract",
+            "1/2 theelepel bakpoeder",
+            "1 snufje zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Verwarm de oven voor op 180°C.\n" +
-            "2. Bekleed de vierkante bakvorm met bakpapier.\n" +
-            "3. Meng in een kom bloem, cacao, suiker, zout en bakpoeder.\n" +
-            "4. Voeg olie, plantaardige melk en vanille-extract toe, roer tot een glad beslag.\n" +
-            "5. Giet beslag in de vorm en strijk de bovenkant glad.\n" +
-            "6. Bak 25-30 minuten.\n" +
-            "7. Laat afkoelen voor het snijden in vierkantjes en serveren."
+            "2. Bekleed de bakvorm met bakpapier.\n" +
+            "3. Meng bloem, cacao, bakpoeder en zout.\n" +
+            "4. Roer de suiker erdoor.\n" +
+            "5. Voeg eieren, melk, olie en vanille toe.\n" +
+            "6. Meng tot een glad beslag.\n" +
+            "7. Giet in de vorm en strijk glad.\n" +
+            "8. Bak 25–30 minuten.\n" +
+            "9. Laat afkoelen en snijd in blokjes."
     },
+
     ar: {
-        title: "براونيز الشوكولاتة النباتي (الولايات المتحدة، تكفي 4 أشخاص)",
+        title: "براونيز الشوكولاتة (الولايات المتحدة)",
         equipment: [
-            "1 وعاء متوسط",
-            "1 مضرب يدوي",
-            "1 ملعقة مطاطية",
-            "1 ميزان مطبخ",
-            "1 صينية مربعة (20x20 سم)",
-            "1 ورق زبدة",
-            "1 فرن"
+            "وعاء خلط",
+            "مضرب يدوي",
+            "ملعقة مطاطية",
+            "ميزان مطبخ",
+            "قالب مربع (20×20 سم)",
+            "ورق زبدة",
+            "فرن",
+            "شبكة تبريد",
+            "سكين"
         ],
         ingredients: [
-            "150 غ دقيق القمح",
-            "50 غ مسحوق الكاكاو غير المحلى",
-            "150 غ سكر قصب",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/2 ملعقة صغيرة بيكنغ باودر (2 غ)",
+            "150 غ دقيق",
+            "50 غ مسحوق كاكاو غير محلى",
+            "150 غ سكر",
             "80 مل زيت نباتي",
-            "100 مل حليب نباتي (لوز أو صويا)",
-            "1 ملعقة صغيرة خلاصة الفانيليا (5 مل)"
+            "100 مل حليب",
+            "2 بيض",
+            "1 ملعقة صغيرة خلاصة فانيليا",
+            "1/2 ملعقة صغيرة بيكنغ باودر",
+            "رشة ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الفرن على 180°م.\n" +
-            "2. غطِ صينية مربعة بورق الزبدة.\n" +
-            "3. في وعاء، اخلط الدقيق، الكاكاو، السكر، الملح والبيكنغ باودر.\n" +
-            "4. أضف الزيت، الحليب النباتي، وخلاصة الفانيليا، واخلط حتى يصبح العجين ناعماً.\n" +
-            "5. اسكب العجين في الصينية وافرده بالتساوي.\n" +
-            "6. اخبزه 25-30 دقيقة.\n" +
-            "7. اتركه ليبرد قبل تقطيعه إلى مربعات وتقديمه."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. غطِّ القالب بورق الزبدة.\n" +
+            "3. اخلط الدقيق والكاكاو والبيكنغ باودر والملح.\n" +
+            "4. أضف السكر وامزج.\n" +
+            "5. أضف البيض والحليب والزيت والفانيليا.\n" +
+            "6. اخلط حتى يصبح الخليط متجانساً.\n" +
+            "7. اسكب في القالب وسوِّ السطح.\n" +
+            "8. اخبز لمدة 25–30 دقيقة.\n" +
+            "9. اتركه يبرد قبل التقطيع إلى مربعات."
     }
 };
 recipesData.patisserie.cookies_usa = {
     country: "amerique",
     countryName: "usa",
-    image: "images/cookies_usa.jpg",
+    image: "images/cookies-usa.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "cookies-pepites-chocolat-usa",
+            title: "Cookies pépites chocolat (USA) – Facile",
+            description: "Préparez de délicieux cookies aux pépites de chocolat inspirés des États-Unis, croustillants à l’extérieur et moelleux à l’intérieur.",
+            keywords: [
+                "recette cookies",
+                "cookies usa",
+                "cookies pepites chocolat",
+                "dessert americain",
+                "biscuit maison facile",
+                "patisserie usa"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Cookies aux pépites de chocolat (USA)",
+            "description": "Des cookies aux pépites de chocolat inspirés des États-Unis, simples à préparer et parfaits pour un goûter gourmand.",
+            "recipeCuisine": "USA",
+            "recipeCategory": "Dessert",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT15M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "180 g farine de blé",
+                "100 g sucre de canne",
+                "80 g beurre mou",
+                "1 œuf",
+                "1 cuillère à café extrait de vanille",
+                "1/2 cuillère à café levure chimique",
+                "1 pincée de sel",
+                "100 g pépites de chocolat noir"
+            ],
+            "recipeInstructions": [
+                "Préchauffer le four à 180°C.",
+                "Mélanger beurre et sucre.",
+                "Ajouter l’œuf et la vanille.",
+                "Incorporer farine, levure et sel.",
+                "Ajouter les pépites de chocolat.",
+                "Former des boules et les déposer sur une plaque.",
+                "Cuire 12 à 15 minutes."
+            ]
+        }
+    },
+
     fr: {
-        title: "Cookies aux pépites de chocolat vegan (USA, 4 personnes)",
+        title: "Cookies aux pépites de chocolat (États-Unis)",
         equipment: [
-            "1 bol moyen",
+            "1 saladier",
             "1 fouet",
             "1 spatule",
             "1 balance de cuisine",
             "1 plaque de cuisson",
             "1 papier sulfurisé",
             "1 four",
-            "1 cuillère à soupe"
+            "1 cuillère à soupe",
+            "1 grille de refroidissement"
         ],
         ingredients: [
-            "150 g farine de blé",
-            "80 g sucre de canne",
-            "50 g huile de coco fondue",
-            "50 ml lait végétal (amande ou soja)",
-            "1/2 cuillère à café levure chimique (2 g)",
-            "1/4 cuillère à café sel (0,5 g)",
-            "50 g pépites de chocolat noir vegan"
+            "180 g de farine de blé",
+            "100 g de sucre de canne",
+            "80 g de beurre mou",
+            "1 œuf",
+            "1 cuillère à café d’extrait de vanille",
+            "1/2 cuillère à café de levure chimique",
+            "1 pincée de sel",
+            "100 g de pépites de chocolat noir"
         ],
         preparation:
-            "Recette pour 4 personnes (environ 12 cookies).\n" +
             "1. Préchauffer le four à 180°C.\n" +
             "2. Chemiser la plaque de cuisson avec du papier sulfurisé.\n" +
-            "3. Dans un bol, mélanger la farine, le sucre, la levure et le sel.\n" +
-            "4. Ajouter l’huile de coco fondue et le lait végétal, mélanger jusqu’à obtenir une pâte homogène.\n" +
-            "5. Incorporer les pépites de chocolat.\n" +
-            "6. Former des boules de pâte avec une cuillère à soupe et les disposer sur la plaque en les espaçant.\n" +
-            "7. Aplatir légèrement chaque boule avec le dos de la cuillère.\n" +
-            "8. Cuire 12-15 minutes jusqu’à ce que les bords soient dorés.\n" +
-            "9. Laisser refroidir quelques minutes avant de déguster."
+            "3. Dans un saladier, mélanger le beurre mou et le sucre jusqu’à obtenir une texture crémeuse.\n" +
+            "4. Ajouter l’œuf et l’extrait de vanille, puis mélanger.\n" +
+            "5. Incorporer la farine, la levure et le sel.\n" +
+            "6. Mélanger jusqu’à obtention d’une pâte homogène.\n" +
+            "7. Ajouter les pépites de chocolat et mélanger délicatement.\n" +
+            "8. Former des boules de pâte à l’aide d’une cuillère et les déposer sur la plaque en les espaçant.\n" +
+            "9. Aplatir légèrement chaque boule.\n" +
+            "10. Cuire 12 à 15 minutes jusqu’à ce que les bords soient dorés.\n" +
+            "11. Laisser refroidir sur une grille avant de servir."
     },
+
     en: {
-        title: "Vegan Chocolate Chip Cookies (USA, Serves 4)",
+        title: "Chocolate Chip Cookies (United States)",
         equipment: [
-            "1 medium bowl",
+            "1 mixing bowl",
             "1 whisk",
             "1 spatula",
             "1 kitchen scale",
             "1 baking tray",
             "1 parchment paper",
             "1 oven",
-            "1 tablespoon"
+            "1 tablespoon",
+            "1 cooling rack"
         ],
         ingredients: [
-            "150 g wheat flour",
-            "80 g cane sugar",
-            "50 g melted coconut oil",
-            "50 ml plant milk (almond or soy)",
-            "1/2 tsp baking powder (2 g)",
-            "1/4 tsp salt (0.5 g)",
-            "50 g vegan dark chocolate chips"
+            "180 g wheat flour",
+            "100 g cane sugar",
+            "80 g softened butter",
+            "1 egg",
+            "1 teaspoon vanilla extract",
+            "1/2 teaspoon baking powder",
+            "1 pinch salt",
+            "100 g dark chocolate chips"
         ],
         preparation:
-            "Serves 4 (about 12 cookies).\n" +
-            "1. Preheat oven to 180°C.\n" +
-            "2. Line baking tray with parchment paper.\n" +
-            "3. In a bowl, mix flour, sugar, baking powder, and salt.\n" +
-            "4. Add melted coconut oil and plant milk, mix until smooth dough.\n" +
-            "5. Fold in chocolate chips.\n" +
-            "6. Form tablespoon-sized balls of dough and place on tray, spaced apart.\n" +
-            "7. Flatten each ball slightly with back of spoon.\n" +
-            "8. Bake 12-15 minutes until edges are golden.\n" +
-            "9. Let cool a few minutes before enjoying."
+            "1. Preheat the oven to 180°C.\n" +
+            "2. Line the baking tray with parchment paper.\n" +
+            "3. Cream the softened butter and sugar together.\n" +
+            "4. Add the egg and vanilla extract, mix well.\n" +
+            "5. Stir in flour, baking powder, and salt.\n" +
+            "6. Mix until a smooth dough forms.\n" +
+            "7. Fold in the chocolate chips.\n" +
+            "8. Shape tablespoon-sized balls and place them on the tray, spaced apart.\n" +
+            "9. Flatten slightly with the back of a spoon.\n" +
+            "10. Bake for 12–15 minutes until golden at the edges.\n" +
+            "11. Let cool on a rack before serving."
     },
+
     nl: {
-        title: "Vegan Chocoladechip Cookies (VS, voor 4 personen)",
+        title: "Chocoladechip cookies (Verenigde Staten)",
         equipment: [
-            "1 middelgrote kom",
+            "1 mengkom",
             "1 garde",
             "1 spatel",
             "1 keukenweegschaal",
             "1 bakplaat",
             "1 bakpapier",
             "1 oven",
-            "1 eetlepel"
+            "1 eetlepel",
+            "1 rooster"
         ],
         ingredients: [
-            "150 g tarwebloem",
-            "80 g rietsuiker",
-            "50 g gesmolten kokosolie",
-            "50 ml plantaardige melk (amandel of soja)",
-            "1/2 tl bakpoeder (2 g)",
-            "1/4 tl zout (0,5 g)",
-            "50 g vegan pure chocolade chips"
+            "180 g tarwebloem",
+            "100 g rietsuiker",
+            "80 g zachte boter",
+            "1 ei",
+            "1 theelepel vanille-extract",
+            "1/2 theelepel bakpoeder",
+            "1 snufje zout",
+            "100 g pure chocoladechips"
         ],
         preparation:
-            "Voor 4 personen (ongeveer 12 cookies).\n" +
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Bekleed bakplaat met bakpapier.\n" +
-            "3. Meng in een kom bloem, suiker, bakpoeder en zout.\n" +
-            "4. Voeg gesmolten kokosolie en plantaardige melk toe, meng tot een glad deeg.\n" +
-            "5. Spatel chocoladechips erdoor.\n" +
-            "6. Vorm eetlepelgrote balletjes en leg ze op de bakplaat, met ruimte ertussen.\n" +
-            "7. Druk elk bolletje lichtjes plat met achterkant van lepel.\n" +
-            "8. Bak 12-15 minuten tot de randen goudbruin zijn.\n" +
-            "9. Laat enkele minuten afkoelen voor het serveren."
+            "1. Verwarm de oven voor op 180°C.\n" +
+            "2. Bekleed de bakplaat met bakpapier.\n" +
+            "3. Klop de zachte boter en suiker romig.\n" +
+            "4. Voeg het ei en vanille-extract toe en meng goed.\n" +
+            "5. Voeg bloem, bakpoeder en zout toe.\n" +
+            "6. Meng tot een glad deeg.\n" +
+            "7. Spatel de chocoladechips erdoor.\n" +
+            "8. Vorm eetlepelgrote bolletjes en leg ze op de bakplaat met ruimte ertussen.\n" +
+            "9. Druk lichtjes plat met de achterkant van een lepel.\n" +
+            "10. Bak 12–15 minuten tot de randen goudbruin zijn.\n" +
+            "11. Laat afkoelen op een rooster voor het serveren."
     },
+
     ar: {
-        title: "كوكيز برقائق الشوكولاتة النباتي (الولايات المتحدة، تكفي 4 أشخاص)",
+        title: "كوكيز برقائق الشوكولاتة (الولايات المتحدة)",
         equipment: [
-            "1 وعاء متوسط",
-            "1 مضرب يدوي",
-            "1 ملعقة مطاطية",
-            "1 ميزان مطبخ",
-            "1 صينية خبز",
-            "1 ورق زبدة",
-            "1 فرن",
-            "1 ملعقة كبيرة"
+            "وعاء خلط",
+            "مضرب يدوي",
+            "ملعقة مطاطية",
+            "ميزان مطبخ",
+            "صينية خبز",
+            "ورق زبدة",
+            "فرن",
+            "ملعقة كبيرة",
+            "شبكة تبريد"
         ],
         ingredients: [
-            "150 غ دقيق القمح",
-            "80 غ سكر قصب",
-            "50 غ زيت جوز الهند مذاب",
-            "50 مل حليب نباتي (لوز أو صويا)",
-            "1/2 ملعقة صغيرة بيكنغ باودر (2 غ)",
-            "1/4 ملعقة صغيرة ملح (0.5 غ)",
-            "50 غ رقائق شوكولاتة داكنة نباتية"
+            "180 غ دقيق قمح",
+            "100 غ سكر قصب",
+            "80 غ زبدة لينة",
+            "1 بيضة",
+            "1 ملعقة صغيرة خلاصة فانيليا",
+            "1/2 ملعقة صغيرة بيكنغ باودر",
+            "رشة ملح",
+            "100 غ رقائق شوكولاتة داكنة"
         ],
         preparation:
-            "تكفي 4 أشخاص (حوالي 12 كوكي).\n" +
-            "1. سخن الفرن على 180°م.\n" +
-            "2. غطِ صينية الخبز بورق الزبدة.\n" +
-            "3. في وعاء، اخلط الدقيق، السكر، البيكنغ باودر والملح.\n" +
-            "4. أضف زيت جوز الهند المذاب والحليب النباتي، واخلط حتى يصبح العجين ناعماً.\n" +
-            "5. أضف رقائق الشوكولاتة.\n" +
-            "6. شكّل كرات بعجين بحجم ملعقة كبيرة وضعها على الصينية مع ترك مسافة بينها.\n" +
-            "7. اضغط قليلاً على كل كرة بظهر الملعقة.\n" +
-            "8. اخبز 12-15 دقيقة حتى تصبح الحواف ذهبية.\n" +
-            "9. اتركها تبرد قليلاً قبل التقديم."
+            "1. سخّن الفرن على 180 درجة مئوية.\n" +
+            "2. غطِّ صينية الخبز بورق الزبدة.\n" +
+            "3. اخفق الزبدة اللينة مع السكر حتى يصبح الخليط كريميّاً.\n" +
+            "4. أضف البيضة وخلاصة الفانيليا واخلط جيداً.\n" +
+            "5. أضف الدقيق والبيكنغ باودر والملح.\n" +
+            "6. اخلط حتى تحصل على عجينة متجانسة.\n" +
+            "7. أضف رقائق الشوكولاتة وامزج برفق.\n" +
+            "8. شكّل كرات بحجم ملعقة كبيرة وضعها على الصينية مع ترك مسافة بينها.\n" +
+            "9. اضغط عليها قليلاً بظهر الملعقة.\n" +
+            "10. اخبز لمدة 12–15 دقيقة حتى تصبح الحواف ذهبية.\n" +
+            "11. اتركها تبرد على شبكة قبل التقديم."
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 1. Gyoza aux légumes (Japon)
 recipesData.entree.gyoza_legumes_japan = {
     country: "asie",
