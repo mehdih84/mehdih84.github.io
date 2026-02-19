@@ -71198,1430 +71198,1537 @@ recipesData.patisserie.cookies_usa = {
 
 
 
-
-
-
-
-// 1. Gyoza aux légumes (Japon)
-recipesData.entree.gyoza_legumes_japan = {
+recipesData.entree.gyoza_legumes_japon = {
     country: "asie",
     countryName: "japon",
-    image: "images/gyoza_legumes_japan.jpg",
+    image: "images/gyoza-legumes-japon.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 10,
+        difficulty: "medium",
+        seo: {
+            slug: "gyoza-legumes-japon",
+            title: "Gyoza aux légumes (Japon) – Recette facile",
+            description: "Découvrez comment préparer les gyoza aux légumes, une spécialité traditionnelle du Japon, croustillante et savoureuse, facile à réaliser à la maison.",
+            keywords: [
+                "recette gyoza",
+                "gyoza legumes japon",
+                "cuisine japonaise",
+                "entree japonaise",
+                "recette facile",
+                "plat traditionnel japonais"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Gyoza aux légumes (Japon)",
+            "description": "Délicieux gyoza aux légumes croustillants et fondants, inspirés de la cuisine traditionnelle japonaise.",
+            "recipeCuisine": "Japon",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT25M",
+            "cookTime": "PT10M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "16 feuilles de pâte à gyoza",
+                "200 g de chou chinois finement haché",
+                "80 g de carottes râpées",
+                "2 oignons nouveaux émincés",
+                "1 gousse d’ail hachée",
+                "1 cuillère à café de gingembre frais râpé",
+                "1 cuillère à soupe de sauce soja",
+                "1 cuillère à café d’huile de sésame",
+                "1 cuillère à soupe d’huile végétale",
+                "60 ml d’eau"
+            ],
+            "recipeInstructions": [
+                "Mélanger le chou, les carottes, les oignons nouveaux, l’ail et le gingembre.",
+                "Ajouter la sauce soja et l’huile de sésame puis mélanger.",
+                "Déposer une cuillère de farce au centre de chaque pâte.",
+                "Humidifier les bords et plier en demi-lune en scellant bien.",
+                "Faire dorer les gyoza dans une poêle huilée.",
+                "Ajouter l’eau, couvrir et cuire à la vapeur 5 minutes.",
+                "Découvrir et laisser évaporer l’eau avant de servir."
+            ]
+        }
+    },
+
     fr: {
-        title: "Gyoza aux légumes (Japon, 4 personnes)",
-        equipment: ["1 poêle antiadhésive", "1 bol", "1 couteau", "1 planche à découper", "1 cuillère à soupe"],
+        title: "Gyoza aux légumes (Japon)",
+        equipment: [
+            "1 poêle antiadhésive avec couvercle",
+            "1 grand bol",
+            "1 petit bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère à café",
+            "1 râpe fine",
+            "1 pince de cuisine"
+        ],
         ingredients: [
-            "200 g chou chinois finement haché",
-            "50 g carottes râpées",
-            "8 feuilles de pâte à gyoza",
-            "1 cuillère à café huile végétale",
-            "1 cuillère à café sauce soja"
+            "16 feuilles de pâte à gyoza",
+            "200 g de chou chinois finement haché",
+            "80 g de carottes râpées",
+            "2 oignons nouveaux finement émincés",
+            "1 gousse d’ail hachée",
+            "1 cuillère à café de gingembre frais râpé",
+            "1 cuillère à soupe de sauce soja",
+            "1 cuillère à café d’huile de sésame",
+            "1 cuillère à soupe d’huile végétale",
+            "60 ml d’eau"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préparer les légumes : hacher finement le chou chinois et râper les carottes.\n" +
-            "2. Dans un bol, mélanger le chou et les carottes.\n" +
-            "3. Ajouter 1 cuillère à café de sauce soja et bien mélanger.\n" +
-            "4. Prendre une feuille de pâte à gyoza, déposer 1 cuillère à café du mélange au centre.\n" +
-            "5. Humidifier légèrement les bords de la pâte avec de l'eau et plier en demi-lune, en pressant pour fermer.\n" +
-            "6. Répéter pour toutes les feuilles.\n" +
-            "7. Chauffer 1 cuillère à café d'huile végétale dans une poêle antiadhésive à feu moyen (environ 5 min).\n" +
-            "8. Placer les gyozas dans la poêle et cuire 2-3 min jusqu'à ce que le dessous soit doré.\n" +
-            "9. Ajouter 50 ml d’eau, couvrir immédiatement avec un couvercle et laisser cuire à la vapeur 5 min.\n" +
-            "10. Retirer le couvercle et cuire encore 1 min pour évaporer l’excès d’eau.\n" +
-            "11. Servir chaud avec un peu de sauce soja."
+            "1. Hacher finement le chou chinois et le presser légèrement pour retirer l’excès d’eau.\n" +
+            "2. Placer le chou dans un grand bol.\n" +
+            "3. Ajouter les carottes râpées, les oignons nouveaux, l’ail et le gingembre.\n" +
+            "4. Incorporer la sauce soja et l’huile de sésame puis mélanger soigneusement.\n" +
+            "5. Déposer une cuillère à café bien remplie de farce au centre de chaque feuille.\n" +
+            "6. Humidifier légèrement les bords avec un peu d’eau.\n" +
+            "7. Plier en demi-lune et pincer les bords pour bien sceller.\n" +
+            "8. Chauffer l’huile végétale dans la poêle à feu moyen.\n" +
+            "9. Disposer les gyoza côte à côte sans les superposer.\n" +
+            "10. Laisser dorer 2 à 3 minutes jusqu’à ce que le dessous soit croustillant.\n" +
+            "11. Verser délicatement 60 ml d’eau, couvrir immédiatement.\n" +
+            "12. Laisser cuire à la vapeur 5 minutes.\n" +
+            "13. Retirer le couvercle et laisser l’eau s’évaporer complètement.\n" +
+            "14. Servir chaud avec un peu de sauce soja."
     },
+
     en: {
-        title: "Vegetable Gyoza (Japan, Serves 4)",
-        equipment: ["1 non-stick pan", "1 bowl", "1 knife", "1 cutting board", "1 tablespoon"],
+        title: "Vegetable Gyoza (Japan)",
+        equipment: [
+            "1 non-stick pan with lid",
+            "1 large bowl",
+            "1 small bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 teaspoon",
+            "1 fine grater",
+            "1 kitchen tongs"
+        ],
         ingredients: [
-            "200 g chopped Chinese cabbage",
-            "50 g grated carrots",
-            "8 gyoza wrappers",
-            "1 tsp vegetable oil",
-            "1 tsp soy sauce"
+            "16 gyoza wrappers",
+            "200 g finely chopped Chinese cabbage",
+            "80 g grated carrots",
+            "2 spring onions finely sliced",
+            "1 garlic clove minced",
+            "1 teaspoon freshly grated ginger",
+            "1 tablespoon soy sauce",
+            "1 teaspoon sesame oil",
+            "1 tablespoon vegetable oil",
+            "60 ml water"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Prepare vegetables: finely chop cabbage and grate carrots.\n" +
-            "2. In a bowl, mix cabbage and carrots.\n" +
-            "3. Add 1 tsp soy sauce and mix well.\n" +
-            "4. Take a gyoza wrapper, place 1 tsp of filling in the center.\n" +
-            "5. Lightly wet the edges with water and fold in half, pressing to seal.\n" +
-            "6. Repeat for all wrappers.\n" +
-            "7. Heat 1 tsp vegetable oil in a non-stick pan over medium heat (approx. 5 min).\n" +
-            "8. Place gyozas in the pan and cook 2-3 min until the bottom is golden.\n" +
-            "9. Add 50 ml water, immediately cover with lid, steam 5 min.\n" +
-            "10. Remove lid and cook 1 more min to evaporate excess water.\n" +
-            "11. Serve hot with soy sauce."
+            "1. Finely chop the cabbage and gently squeeze out excess moisture.\n" +
+            "2. Place the cabbage in a large bowl.\n" +
+            "3. Add grated carrots, spring onions, garlic and ginger.\n" +
+            "4. Mix in soy sauce and sesame oil thoroughly.\n" +
+            "5. Place a teaspoon of filling in the center of each wrapper.\n" +
+            "6. Lightly moisten the edges with water.\n" +
+            "7. Fold into a half-moon and press firmly to seal.\n" +
+            "8. Heat vegetable oil in the pan over medium heat.\n" +
+            "9. Arrange the gyoza without overlapping.\n" +
+            "10. Cook 2–3 minutes until the base is golden.\n" +
+            "11. Carefully add 60 ml water and cover immediately.\n" +
+            "12. Steam for 5 minutes.\n" +
+            "13. Remove the lid and let excess water evaporate.\n" +
+            "14. Serve hot with soy sauce."
     },
+
     nl: {
-        title: "Groente Gyoza (Japan, voor 4 personen)",
-        equipment: ["1 anti-aanbakpan", "1 kom", "1 mes", "1 snijplank", "1 eetlepel"],
+        title: "Groente Gyoza (Japan)",
+        equipment: [
+            "1 anti-aanbakpan met deksel",
+            "1 grote kom",
+            "1 kleine kom",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 theelepel",
+            "1 fijne rasp",
+            "1 keukentang"
+        ],
         ingredients: [
-            "200 g gesneden Chinese kool",
-            "50 g geraspte wortel",
-            "8 gyoza vellen",
-            "1 tl plantaardige olie",
-            "1 tl sojasaus"
+            "16 gyoza vellen",
+            "200 g fijngehakte Chinese kool",
+            "80 g geraspte wortel",
+            "2 lente-uitjes fijn gesneden",
+            "1 teentje knoflook fijngehakt",
+            "1 theelepel vers geraspte gember",
+            "1 eetlepel sojasaus",
+            "1 theelepel sesamolie",
+            "1 eetlepel plantaardige olie",
+            "60 ml water"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bereid de groenten: fijnhakken van kool en raspen van wortel.\n" +
-            "2. Meng kool en wortel in een kom.\n" +
-            "3. Voeg 1 tl sojasaus toe en meng goed.\n" +
-            "4. Neem een gyoza vel, plaats 1 tl vulling in het midden.\n" +
-            "5. Maak de randen licht vochtig met water en vouw dubbel, druk om te sluiten.\n" +
-            "6. Herhaal voor alle vellen.\n" +
-            "7. Verhit 1 tl olie in een anti-aanbakpan op middelhoog vuur (ongeveer 5 min).\n" +
-            "8. Leg gyoza's in de pan en bak 2-3 min tot de onderkant goudbruin is.\n" +
-            "9. Voeg 50 ml water toe, dek af met deksel en stoom 5 min.\n" +
-            "10. Verwijder de deksel en bak nog 1 min om overtollig water te verdampen.\n" +
-            "11. Serveer warm met sojasaus."
+            "1. Hak de kool fijn en knijp overtollig vocht eruit.\n" +
+            "2. Doe de kool in een grote kom.\n" +
+            "3. Voeg wortel, lente-ui, knoflook en gember toe.\n" +
+            "4. Meng met sojasaus en sesamolie.\n" +
+            "5. Leg een theelepel vulling in het midden van elk vel.\n" +
+            "6. Maak de randen licht vochtig met water.\n" +
+            "7. Vouw dubbel en druk goed dicht.\n" +
+            "8. Verhit de olie in de pan op middelhoog vuur.\n" +
+            "9. Leg de gyoza naast elkaar zonder overlap.\n" +
+            "10. Bak 2–3 minuten tot de onderkant goudbruin is.\n" +
+            "11. Voeg 60 ml water toe en dek direct af.\n" +
+            "12. Stoom 5 minuten.\n" +
+            "13. Verwijder de deksel en laat het water verdampen.\n" +
+            "14. Serveer warm met sojasaus."
     },
+
     ar: {
-        title: "جيوزا بالخضار (اليابان، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة غير لاصقة", "1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة كبيرة"],
+        title: "جيوزا بالخضار (اليابان)",
+        equipment: [
+            "مقلاة غير لاصقة مع غطاء",
+            "وعاء كبير",
+            "وعاء صغير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة",
+            "مبشرة ناعمة",
+            "ملقط مطبخ"
+        ],
         ingredients: [
+            "16 ورقة عجين جيوزا",
             "200 غ كرنب صيني مفروم ناعماً",
-            "50 غ جزر مبشور",
-            "8 ورقات عجين جيوزا",
-            "1 ملعقة صغيرة زيت نباتي",
-            "1 ملعقة صغيرة صوص الصويا"
+            "80 غ جزر مبشور",
+            "2 بصل أخضر مفروم",
+            "فص ثوم مفروم",
+            "ملعقة صغيرة زنجبيل طازج مبشور",
+            "ملعقة كبيرة صلصة الصويا",
+            "ملعقة صغيرة زيت سمسم",
+            "ملعقة كبيرة زيت نباتي",
+            "60 مل ماء"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضر الخضار: فرّم الكرنب وجزّر الجزر.\n" +
-            "2. في وعاء، اخلط الكرنب والجزر.\n" +
-            "3. أضف 1 ملعقة صغيرة صوص الصويا واخلط جيداً.\n" +
-            "4. خذ ورقة عجين، ضع 1 ملعقة صغيرة من الحشوة في الوسط.\n" +
-            "5. بلل الحواف قليلاً بالماء واطوِ نصف دائرة، اضغط للإغلاق.\n" +
-            "6. كرر لجميع الأوراق.\n" +
-            "7. سخّن 1 ملعقة صغيرة زيت نباتي في مقلاة غير لاصقة على نار متوسطة (حوالي 5 دقائق).\n" +
-            "8. ضع الجيوزا في المقلاة واطبخ 2-3 دقائق حتى يصبح القاع ذهبي.\n" +
-            "9. أضف 50 مل ماء، غطِ المقلاة فوراً واتركها على البخار 5 دقائق.\n" +
-            "10. أزل الغطاء واطبخ دقيقة إضافية لتتبخر المياه الزائدة.\n" +
-            "11. قدم ساخناً مع صوص الصويا."
+            "1. افرم الكرنب ناعماً واعصره قليلاً للتخلص من الماء الزائد.\n" +
+            "2. ضعه في وعاء كبير.\n" +
+            "3. أضف الجزر والبصل الأخضر والثوم والزنجبيل.\n" +
+            "4. أضف صلصة الصويا وزيت السمسم وامزج جيداً.\n" +
+            "5. ضع ملعقة صغيرة من الحشوة في وسط كل ورقة.\n" +
+            "6. بلل الحواف بقليل من الماء.\n" +
+            "7. اطوِ العجين على شكل نصف دائرة واضغط جيداً للإغلاق.\n" +
+            "8. سخّن الزيت في المقلاة على نار متوسطة.\n" +
+            "9. رصّ الجيوزا دون تداخل.\n" +
+            "10. اطهها 2–3 دقائق حتى يصبح القاع ذهبياً.\n" +
+            "11. أضف 60 مل ماء وغطِّ المقلاة فوراً.\n" +
+            "12. اتركها تطهى على البخار لمدة 5 دقائق.\n" +
+            "13. أزل الغطاء واترك الماء يتبخر تماماً.\n" +
+            "14. قدّمها ساخنة مع صلصة الصويا."
     }
 };
-// 2. Nem vietnamiens aux légumes (Vietnam)
 recipesData.entree.nem_legumes_vietnam = {
     country: "asie",
     countryName: "vietnam",
-    image: "images/nem_legumes_vietnam.jpg",
+    image: "images/nem-legumes-vietnam.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 30,
+        cookTime: 10,
+        difficulty: "medium",
+        seo: {
+            slug: "nem-legumes-vietnam",
+            title: "Nem aux légumes (Vietnam) – Recette croustillante",
+            description: "Préparez de délicieux nems aux légumes, spécialité traditionnelle du Vietnam, croustillants et savoureux, faciles à réaliser à la maison.",
+            keywords: [
+                "recette nem",
+                "nem legumes vietnam",
+                "cuisine vietnamienne",
+                "entree vietnam",
+                "recette facile asiatique",
+                "rouleaux frits maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Nem aux légumes (Vietnam)",
+            "description": "Nems vietnamiens aux légumes croustillants, inspirés de la tradition culinaire du Vietnam.",
+            "recipeCuisine": "Vietnam",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT30M",
+            "cookTime": "PT10M",
+            "totalTime": "PT40M",
+            "recipeIngredient": [
+                "12 feuilles de riz",
+                "100 g vermicelles de riz",
+                "80 g carottes râpées",
+                "80 g chou finement haché",
+                "50 g pousses de soja",
+                "2 oignons nouveaux émincés",
+                "1 cuillère à soupe sauce soja",
+                "1 cuillère à café huile de sésame",
+                "200 ml huile végétale pour friture"
+            ],
+            "recipeInstructions": [
+                "Cuire les vermicelles puis les égoutter.",
+                "Mélanger vermicelles, légumes et assaisonnement.",
+                "Ramollir les feuilles de riz dans l’eau tiède.",
+                "Garnir et rouler fermement.",
+                "Frire jusqu’à coloration dorée.",
+                "Égoutter et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Nem vietnamiens aux légumes (Vietnam, 4 personnes)",
-        equipment: ["1 poêle", "1 bol", "1 couteau", "1 planche à découper", "1 cuillère à soupe"],
+        title: "Nem aux légumes (Vietnam)",
+        equipment: [
+            "1 grande poêle profonde ou sauteuse",
+            "1 casserole",
+            "1 grand bol",
+            "1 assiette creuse",
+            "1 couteau",
+            "1 planche à découper",
+            "1 passoire",
+            "1 cuillère à soupe",
+            "1 pince de cuisine",
+            "Papier absorbant"
+        ],
         ingredients: [
+            "12 feuilles de riz",
             "100 g vermicelles de riz",
-            "50 g carottes râpées",
-            "50 g chou finement haché",
-            "8 feuilles de riz",
-            "1 cuillère à café huile végétale",
-            "1 cuillère à soupe sauce soja"
+            "80 g carottes râpées",
+            "80 g chou finement haché",
+            "50 g pousses de soja",
+            "2 oignons nouveaux finement émincés",
+            "1 cuillère à soupe sauce soja",
+            "1 cuillère à café huile de sésame",
+            "200 ml huile végétale pour friture"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire cuire les vermicelles de riz selon instructions du paquet (en général 3-4 min dans l’eau bouillante), égoutter et laisser refroidir.\n" +
-            "2. Mélanger dans un bol les vermicelles avec le chou et les carottes.\n" +
-            "3. Ajouter 1 cuillère à soupe de sauce soja et bien mélanger.\n" +
-            "4. Tremper une feuille de riz dans l’eau tiède 5 secondes pour la ramollir.\n" +
-            "5. Déposer au centre 1 cuillère à soupe du mélange et plier en rouleau.\n" +
-            "6. Répéter pour toutes les feuilles.\n" +
-            "7. Chauffer 1 cuillère à café d’huile dans une poêle à feu moyen.\n" +
-            "8. Cuire les nems 2-3 minutes de chaque côté jusqu’à ce qu’ils soient dorés.\n" +
-            "9. Servir chaud avec sauce soja ou sauce aux cacahuètes."
+            "1. Faire bouillir de l’eau dans une casserole.\n" +
+            "2. Cuire les vermicelles 3 à 4 minutes puis les égoutter et les couper grossièrement.\n" +
+            "3. Dans un grand bol, mélanger les vermicelles, les carottes, le chou, les pousses de soja et les oignons nouveaux.\n" +
+            "4. Ajouter la sauce soja et l’huile de sésame puis bien mélanger.\n" +
+            "5. Verser de l’eau tiède dans une assiette creuse.\n" +
+            "6. Tremper rapidement une feuille de riz jusqu’à ce qu’elle devienne souple.\n" +
+            "7. Déposer une cuillère à soupe de farce au centre.\n" +
+            "8. Replier les côtés puis rouler fermement pour former un nem.\n" +
+            "9. Répéter l’opération pour toutes les feuilles.\n" +
+            "10. Chauffer l’huile dans une poêle profonde à feu moyen.\n" +
+            "11. Faire frire les nems 3 à 4 minutes de chaque côté jusqu’à ce qu’ils soient bien dorés.\n" +
+            "12. Égoutter sur du papier absorbant.\n" +
+            "13. Servir chaud avec une sauce soja ou une sauce aux cacahuètes."
     },
+
     en: {
-        title: "Vietnamese Vegetable Spring Rolls (Vietnam, Serves 4)",
-        equipment: ["1 pan", "1 bowl", "1 knife", "1 cutting board", "1 tablespoon"],
+        title: "Vegetable Nem (Vietnam)",
+        equipment: [
+            "1 deep frying pan or skillet",
+            "1 saucepan",
+            "1 large bowl",
+            "1 shallow dish",
+            "1 knife",
+            "1 cutting board",
+            "1 strainer",
+            "1 tablespoon",
+            "1 kitchen tongs",
+            "Paper towels"
+        ],
         ingredients: [
+            "12 rice paper sheets",
             "100 g rice vermicelli",
-            "50 g grated carrots",
-            "50 g finely chopped cabbage",
-            "8 rice paper sheets",
-            "1 tsp vegetable oil",
-            "1 tbsp soy sauce"
+            "80 g grated carrots",
+            "80 g finely chopped cabbage",
+            "50 g bean sprouts",
+            "2 spring onions finely sliced",
+            "1 tablespoon soy sauce",
+            "1 teaspoon sesame oil",
+            "200 ml vegetable oil for frying"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Cook vermicelli according to package instructions (usually 3-4 min in boiling water), drain and let cool.\n" +
-            "2. Mix vermicelli with cabbage and carrots in a bowl.\n" +
-            "3. Add 1 tbsp soy sauce and mix well.\n" +
-            "4. Dip a rice paper sheet in warm water for 5 seconds to soften.\n" +
-            "5. Place 1 tbsp filling in the center and roll.\n" +
-            "6. Repeat for all sheets.\n" +
-            "7. Heat 1 tsp oil in a pan over medium heat.\n" +
-            "8. Cook spring rolls 2-3 min each side until golden.\n" +
-            "9. Serve hot with soy sauce or peanut sauce."
+            "1. Bring water to a boil in a saucepan.\n" +
+            "2. Cook vermicelli for 3–4 minutes, drain and roughly chop.\n" +
+            "3. In a large bowl, mix vermicelli with carrots, cabbage, bean sprouts and spring onions.\n" +
+            "4. Add soy sauce and sesame oil and combine well.\n" +
+            "5. Pour warm water into a shallow dish.\n" +
+            "6. Dip one rice paper sheet briefly until soft.\n" +
+            "7. Place one tablespoon of filling in the center.\n" +
+            "8. Fold sides inward and roll tightly.\n" +
+            "9. Repeat with remaining sheets.\n" +
+            "10. Heat oil in a deep pan over medium heat.\n" +
+            "11. Fry spring rolls 3–4 minutes per side until golden.\n" +
+            "12. Drain on paper towels.\n" +
+            "13. Serve hot with soy sauce or peanut sauce."
     },
+
     nl: {
-        title: "Vietnamese Groente Loempia's (Vietnam, voor 4 personen)",
-        equipment: ["1 pan", "1 kom", "1 mes", "1 snijplank", "1 eetlepel"],
+        title: "Groente Nem (Vietnam)",
+        equipment: [
+            "1 diepe koekenpan",
+            "1 steelpan",
+            "1 grote kom",
+            "1 diep bord",
+            "1 mes",
+            "1 snijplank",
+            "1 vergiet",
+            "1 eetlepel",
+            "1 keukentang",
+            "Keukenpapier"
+        ],
         ingredients: [
+            "12 rijstvellen",
             "100 g rijstvermicelli",
-            "50 g geraspte wortel",
-            "50 g fijngehakte kool",
-            "8 rijstvellen",
-            "1 tl plantaardige olie",
-            "1 el sojasaus"
+            "80 g geraspte wortel",
+            "80 g fijngehakte kool",
+            "50 g taugé",
+            "2 lente-uitjes fijn gesneden",
+            "1 eetlepel sojasaus",
+            "1 theelepel sesamolie",
+            "200 ml plantaardige olie om te frituren"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Kook de vermicelli volgens de verpakking (meestal 3-4 min in kokend water), afgieten en laten afkoelen.\n" +
-            "2. Meng vermicelli met kool en wortel in een kom.\n" +
-            "3. Voeg 1 el sojasaus toe en meng goed.\n" +
-            "4. Dompel een rijstvel 5 seconden in warm water om zacht te worden.\n" +
-            "5. Plaats 1 el vulling in het midden en rol op.\n" +
-            "6. Herhaal voor alle vellen.\n" +
-            "7. Verhit 1 tl olie in een pan op middelhoog vuur.\n" +
-            "8. Bak de loempia's 2-3 min aan elke kant tot goudbruin.\n" +
-            "9. Serveer warm met sojasaus of pindasaus."
+            "1. Breng water aan de kook in een pan.\n" +
+            "2. Kook de vermicelli 3–4 minuten, giet af en hak grof.\n" +
+            "3. Meng vermicelli met wortel, kool, taugé en lente-ui.\n" +
+            "4. Voeg sojasaus en sesamolie toe en meng goed.\n" +
+            "5. Doe warm water in een diep bord.\n" +
+            "6. Dompel een rijstvel kort onder tot het zacht is.\n" +
+            "7. Leg een eetlepel vulling in het midden.\n" +
+            "8. Vouw de zijkanten naar binnen en rol stevig op.\n" +
+            "9. Herhaal voor alle vellen.\n" +
+            "10. Verhit olie in een diepe pan op middelhoog vuur.\n" +
+            "11. Frituur 3–4 minuten per kant tot goudbruin.\n" +
+            "12. Laat uitlekken op keukenpapier.\n" +
+            "13. Serveer warm met sojasaus of pindasaus."
     },
+
     ar: {
-        title: "نم بالخضار الفيتنامي (فيتنام، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة كبيرة"],
+        title: "نم بالخضار (فيتنام)",
+        equipment: [
+            "مقلاة عميقة",
+            "قدر صغير",
+            "وعاء كبير",
+            "طبق عميق",
+            "سكين",
+            "لوح تقطيع",
+            "مصفاة",
+            "ملعقة كبيرة",
+            "ملقط مطبخ",
+            "ورق مطبخ"
+        ],
         ingredients: [
+            "12 ورقة أرز",
             "100 غ شعيرية الأرز",
-            "50 غ جزر مبشور",
-            "50 غ كرنب مفروم ناعماً",
-            "8 أوراق أرز",
-            "1 ملعقة صغيرة زيت نباتي",
-            "1 ملعقة كبيرة صوص الصويا"
+            "80 غ جزر مبشور",
+            "80 غ كرنب مفروم ناعماً",
+            "50 غ براعم الصويا",
+            "2 بصل أخضر مفروم",
+            "ملعقة كبيرة صلصة الصويا",
+            "ملعقة صغيرة زيت السمسم",
+            "200 مل زيت نباتي للقلي"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اطبخ الشعيرية حسب تعليمات العبوة (عادة 3-4 دقائق في ماء مغلي)، صفيها واتركها تبرد.\n" +
-            "2. امزج الشعيرية مع الكرنب والجزر في وعاء.\n" +
-            "3. أضف 1 ملعقة كبيرة صوص الصويا وامزج جيداً.\n" +
-            "4. اغمس ورقة أرز في ماء دافئ لمدة 5 ثوان لتليينها.\n" +
-            "5. ضع 1 ملعقة كبيرة من الحشوة في الوسط ولفّها.\n" +
-            "6. كرر لجميع الأوراق.\n" +
-            "7. سخّن 1 ملعقة صغيرة زيت في مقلاة على نار متوسطة.\n" +
-            "8. اطبخ النم 2-3 دقائق لكل جانب حتى يصبح ذهبي.\n" +
-            "9. قدمه ساخناً مع صوص الصويا أو صوص الفول السوداني."
+            "1. اغْلِ الماء في قدر.\n" +
+            "2. اطبخ الشعيرية 3–4 دقائق ثم صفّها وقطّعها قليلاً.\n" +
+            "3. امزج الشعيرية مع الجزر والكرنب وبراعم الصويا والبصل الأخضر.\n" +
+            "4. أضف صلصة الصويا وزيت السمسم وامزج جيداً.\n" +
+            "5. ضع ماء دافئ في طبق عميق.\n" +
+            "6. اغمس ورقة الأرز سريعاً حتى تصبح لينة.\n" +
+            "7. ضع ملعقة كبيرة من الحشوة في الوسط.\n" +
+            "8. اطوِ الجوانب ولفّ بإحكام.\n" +
+            "9. كرر مع باقي الأوراق.\n" +
+            "10. سخّن الزيت في مقلاة عميقة على نار متوسطة.\n" +
+            "11. اقْلِ النم 3–4 دقائق لكل جانب حتى يصبح ذهبياً.\n" +
+            "12. صفِّه على ورق المطبخ.\n" +
+            "13. قدّمه ساخناً مع صلصة الصويا أو صلصة الفول السوداني."
     }
 };
-
-// 3. Salade de papaye verte (Thaïlande)
 recipesData.entree.salade_papaye_thai = {
     country: "asie",
     countryName: "thailande",
-    image: "images/salade_papaye_thai.jpg",
+    image: "images/salade-papaye-thai.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-papaye-thailande",
+            title: "Salade de papaye (Thaïlande) – Recette fraîche",
+            description: "Découvrez la salade de papaye verte, spécialité traditionnelle de Thaïlande, fraîche, croquante et facile à préparer à la maison.",
+            keywords: [
+                "recette salade papaye",
+                "papaye verte thailande",
+                "cuisine thailandaise",
+                "entree asiatique",
+                "recette facile",
+                "salade exotique"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade de papaye verte (Thaïlande)",
+            "description": "Salade thaïlandaise fraîche et croquante à base de papaye verte et légumes.",
+            "recipeCuisine": "Thaïlande",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT0M",
+            "totalTime": "PT20M",
+            "recipeIngredient": [
+                "200 g papaye verte râpée",
+                "80 g carottes râpées",
+                "10 tomates cerises",
+                "2 cuillères à soupe jus de citron vert",
+                "1 cuillère à café sucre",
+                "1 cuillère à soupe sauce soja",
+                "1 cuillère à soupe huile végétale",
+                "1 piment rouge émincé"
+            ],
+            "recipeInstructions": [
+                "Râper la papaye et les carottes.",
+                "Couper les tomates.",
+                "Mélanger tous les légumes.",
+                "Ajouter l’assaisonnement.",
+                "Réfrigérer avant de servir."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade de papaye verte (Thaïlande, 4 personnes)",
-        equipment: ["1 saladier", "1 couteau", "1 planche à découper", "1 râpe", "1 cuillère à soupe"],
+        title: "Salade de papaye verte (Thaïlande)",
+        equipment: [
+            "1 grand saladier",
+            "1 couteau",
+            "1 planche à découper",
+            "1 râpe",
+            "1 cuillère à soupe",
+            "1 cuillère à café",
+            "1 presse-agrumes",
+            "1 cuillère en bois"
+        ],
         ingredients: [
             "200 g papaye verte râpée",
-            "50 g carottes râpées",
+            "80 g carottes râpées",
             "10 tomates cerises coupées en deux",
-            "1 cuillère à soupe jus de citron",
+            "2 cuillères à soupe jus de citron vert",
             "1 cuillère à café sucre",
             "1 cuillère à soupe sauce soja",
-            "1 piment rouge finement haché (facultatif)"
+            "1 cuillère à soupe huile végétale",
+            "1 petit piment rouge finement émincé (facultatif)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Râper la papaye verte et les carottes.\n" +
-            "2. Couper les tomates cerises en deux.\n" +
-            "3. Dans un saladier, mélanger papaye, carottes et tomates.\n" +
-            "4. Ajouter le jus de citron, le sucre, la sauce soja et le piment.\n" +
-            "5. Mélanger délicatement pour bien enrober tous les ingrédients.\n" +
-            "6. Réfrigérer 10 minutes avant de servir pour plus de saveur.\n" +
-            "7. Servir frais."
+            "1. Éplucher et râper finement la papaye verte.\n" +
+            "2. Râper les carottes.\n" +
+            "3. Couper les tomates cerises en deux.\n" +
+            "4. Placer tous les légumes dans un grand saladier.\n" +
+            "5. Dans un petit bol, mélanger le jus de citron vert, le sucre, la sauce soja et l’huile.\n" +
+            "6. Verser la sauce sur les légumes.\n" +
+            "7. Ajouter le piment si désiré.\n" +
+            "8. Mélanger délicatement pour bien enrober.\n" +
+            "9. Réfrigérer 10 minutes avant de servir.\n" +
+            "10. Servir bien frais."
     },
+
     en: {
-        title: "Green Papaya Salad (Thailand, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 grater", "1 tablespoon"],
+        title: "Green Papaya Salad (Thailand)",
+        equipment: [
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 grater",
+            "1 tablespoon",
+            "1 teaspoon",
+            "1 citrus juicer",
+            "1 wooden spoon"
+        ],
         ingredients: [
             "200 g grated green papaya",
-            "50 g grated carrots",
-            "10 cherry tomatoes, halved",
-            "1 tbsp lemon juice",
-            "1 tsp sugar",
-            "1 tbsp soy sauce",
-            "1 finely chopped red chili (optional)"
+            "80 g grated carrots",
+            "10 cherry tomatoes halved",
+            "2 tablespoons lime juice",
+            "1 teaspoon sugar",
+            "1 tablespoon soy sauce",
+            "1 tablespoon vegetable oil",
+            "1 small red chili finely sliced (optional)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Grate the green papaya and carrots.\n" +
-            "2. Halve the cherry tomatoes.\n" +
-            "3. In a bowl, mix papaya, carrots, and tomatoes.\n" +
-            "4. Add lemon juice, sugar, soy sauce, and chili.\n" +
-            "5. Gently toss to coat all ingredients.\n" +
-            "6. Chill 10 min before serving for better flavor.\n" +
-            "7. Serve cold."
+            "1. Peel and finely grate the green papaya.\n" +
+            "2. Grate the carrots.\n" +
+            "3. Halve the cherry tomatoes.\n" +
+            "4. Place all vegetables in a large bowl.\n" +
+            "5. In a small bowl mix lime juice, sugar, soy sauce and oil.\n" +
+            "6. Pour the dressing over the vegetables.\n" +
+            "7. Add chili if desired.\n" +
+            "8. Gently toss to combine.\n" +
+            "9. Chill for 10 minutes before serving.\n" +
+            "10. Serve fresh."
     },
+
     nl: {
-        title: "Groene Papajasalade (Thailand, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 rasp", "1 eetlepel"],
+        title: "Groene Papajasalade (Thailand)",
+        equipment: [
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 rasp",
+            "1 eetlepel",
+            "1 theelepel",
+            "1 citruspers",
+            "1 houten lepel"
+        ],
         ingredients: [
             "200 g geraspte groene papaja",
-            "50 g geraspte wortel",
-            "10 cherrytomaten, gehalveerd",
-            "1 el citroensap",
-            "1 tl suiker",
-            "1 el sojasaus",
-            "1 fijngehakte rode chili (optioneel)"
+            "80 g geraspte wortel",
+            "10 cherrytomaten gehalveerd",
+            "2 eetlepels limoensap",
+            "1 theelepel suiker",
+            "1 eetlepel sojasaus",
+            "1 eetlepel plantaardige olie",
+            "1 kleine rode chili fijn gesneden (optioneel)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Rasp de groene papaja en wortel.\n" +
-            "2. Halveer de cherrytomaten.\n" +
-            "3. Meng in een kom papaja, wortel en tomaten.\n" +
-            "4. Voeg citroensap, suiker, sojasaus en chili toe.\n" +
-            "5. Meng voorzichtig om alle ingrediënten te bedekken.\n" +
-            "6. Koel 10 min voor het serveren voor betere smaak.\n" +
-            "7. Serveer koud."
+            "1. Schil en rasp de groene papaja fijn.\n" +
+            "2. Rasp de wortel.\n" +
+            "3. Halveer de cherrytomaten.\n" +
+            "4. Doe alle groenten in een grote kom.\n" +
+            "5. Meng limoensap, suiker, sojasaus en olie in een aparte kom.\n" +
+            "6. Giet de dressing over de groenten.\n" +
+            "7. Voeg chili toe indien gewenst.\n" +
+            "8. Meng voorzichtig.\n" +
+            "9. Laat 10 minuten koelen in de koelkast.\n" +
+            "10. Serveer fris."
     },
+
     ar: {
-        title: "سلطة البابايا الخضراء (تايلاند، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 مبشرة", "1 ملعقة كبيرة"],
+        title: "سلطة البابايا الخضراء (تايلاند)",
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "مبشرة",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة",
+            "عصارة حمضيات",
+            "ملعقة خشبية"
+        ],
         ingredients: [
             "200 غ بابايا خضراء مبشورة",
-            "50 غ جزر مبشور",
-            "10 طماطم كرزية مقطعة إلى نصفين",
-            "1 ملعقة كبيرة عصير ليمون",
+            "80 غ جزر مبشور",
+            "10 طماطم كرزية مقطعة نصفين",
+            "2 ملعقة كبيرة عصير ليمون أخضر",
             "1 ملعقة صغيرة سكر",
-            "1 ملعقة كبيرة صوص الصويا",
-            "1 فلفل أحمر مفروم ناعماً (اختياري)"
+            "1 ملعقة كبيرة صلصة الصويا",
+            "1 ملعقة كبيرة زيت نباتي",
+            "1 فلفل أحمر صغير مفروم (اختياري)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. ابشر البابايا الخضراء والجزر.\n" +
-            "2. قطع الطماطم الكرزية إلى نصفين.\n" +
-            "3. في وعاء، اخلط البابايا والجزر والطماطم.\n" +
-            "4. أضف عصير الليمون والسكر وصوص الصويا والفلفل.\n" +
-            "5. قلب المكونات برفق لتغليفها جميعاً.\n" +
-            "6. ضعها في الثلاجة 10 دقائق قبل التقديم لتحسين النكهة.\n" +
-            "7. قدمها باردة."
+            "1. قشّر البابايا الخضراء وابشرها ناعماً.\n" +
+            "2. ابشر الجزر.\n" +
+            "3. قطّع الطماطم الكرزية إلى نصفين.\n" +
+            "4. ضع جميع الخضار في وعاء كبير.\n" +
+            "5. في وعاء صغير اخلط عصير الليمون والسكر وصلصة الصويا والزيت.\n" +
+            "6. اسكب الصلصة فوق الخضار.\n" +
+            "7. أضف الفلفل إذا رغبت.\n" +
+            "8. اخلط برفق.\n" +
+            "9. ضعها في الثلاجة لمدة 10 دقائق.\n" +
+            "10. قدّمها باردة."
     }
 };
-
-// 4. Samoussas aux légumes (Inde)
 recipesData.entree.samoussas_legumes_india = {
     country: "asie",
     countryName: "inde",
-    image: "images/samoussas_legumes_india.jpg",
+    image: "images/samoussas-legumes-india.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 30,
+        cookTime: 15,
+        difficulty: "medium",
+        seo: {
+            slug: "samoussas-legumes-inde",
+            title: "Samoussas aux légumes (Inde) – Recette facile",
+            description: "Réalisez de savoureux samoussas aux légumes, spécialité traditionnelle d’Inde, croustillants et parfumés, parfaits en entrée.",
+            keywords: [
+                "recette samoussa",
+                "samoussa legumes inde",
+                "cuisine indienne",
+                "entree indienne",
+                "recette facile",
+                "beignets indiens"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Samoussas aux légumes (Inde)",
+            "description": "Samoussas indiens croustillants garnis de légumes épicés.",
+            "recipeCuisine": "Inde",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT30M",
+            "cookTime": "PT15M",
+            "totalTime": "PT45M",
+            "recipeIngredient": [
+                "2 pommes de terre",
+                "80 g petits pois",
+                "80 g carottes",
+                "1 oignon",
+                "1 cuillère à café curry",
+                "1/2 cuillère à café cumin",
+                "8 feuilles de pâte à samoussa",
+                "200 ml huile végétale"
+            ],
+            "recipeInstructions": [
+                "Cuire les légumes.",
+                "Ajouter les épices.",
+                "Farcir les feuilles.",
+                "Plier en triangle.",
+                "Frire jusqu’à doré."
+            ]
+        }
+    },
+
     fr: {
-        title: "Samoussas aux légumes (Inde, 4 personnes)",
-        equipment: ["1 poêle", "1 bol", "1 couteau", "1 planche à découper", "1 cuillère à soupe"],
+        title: "Samoussas aux légumes (Inde)",
+        equipment: [
+            "1 poêle",
+            "1 casserole",
+            "1 grand bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère à café",
+            "1 pince de cuisine",
+            "Papier absorbant"
+        ],
         ingredients: [
-            "100 g pommes de terre, coupées en dés",
-            "50 g petits pois",
-            "50 g carottes, coupées en dés",
+            "2 pommes de terre moyennes coupées en petits dés",
+            "80 g petits pois",
+            "80 g carottes coupées en petits dés",
+            "1 petit oignon finement haché",
+            "1 cuillère à café curry doux",
+            "1/2 cuillère à café cumin moulu",
+            "1 cuillère à soupe huile végétale",
             "8 feuilles de pâte à samoussa",
-            "1 cuillère à café huile végétale",
-            "1 cuillère à café curry doux"
+            "200 ml huile végétale pour friture",
+            "Sel"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire chauffer 1 cuillère à café d’huile dans une poêle à feu moyen.\n" +
-            "2. Ajouter les pommes de terre, les carottes et les petits pois, cuire 5 minutes en remuant.\n" +
-            "3. Ajouter le curry doux et mélanger.\n" +
-            "4. Laisser cuire encore 5 minutes jusqu’à ce que les légumes soient tendres.\n" +
-            "5. Retirer du feu et laisser refroidir légèrement.\n" +
-            "6. Remplir chaque feuille de samoussa avec 1 cuillère à soupe du mélange.\n" +
-            "7. Plier et sceller les samoussas.\n" +
-            "8. Chauffer 1 cuillère à café d’huile dans une poêle antiadhésive et cuire les samoussas 3-4 minutes de chaque côté jusqu’à doré.\n" +
-            "9. Servir chaud."
+            "1. Faire bouillir les dés de pommes de terre 8 minutes puis égoutter.\n" +
+            "2. Chauffer 1 cuillère à soupe d’huile dans une poêle.\n" +
+            "3. Ajouter l’oignon et faire revenir 2 minutes.\n" +
+            "4. Ajouter les carottes et les petits pois.\n" +
+            "5. Incorporer les pommes de terre.\n" +
+            "6. Ajouter le curry, le cumin et le sel.\n" +
+            "7. Cuire 5 minutes en mélangeant.\n" +
+            "8. Laisser refroidir légèrement.\n" +
+            "9. Déposer une cuillère de farce sur chaque feuille.\n" +
+            "10. Plier en triangle et sceller avec un peu d’eau.\n" +
+            "11. Chauffer l’huile de friture à feu moyen.\n" +
+            "12. Frire les samoussas 3 à 4 minutes de chaque côté.\n" +
+            "13. Égoutter sur papier absorbant.\n" +
+            "14. Servir chaud."
     },
+
     en: {
-        title: "Vegetable Samosas (India, Serves 4)",
-        equipment: ["1 pan", "1 bowl", "1 knife", "1 cutting board", "1 tablespoon"],
+        title: "Vegetable Samosas (India)",
+        equipment: [
+            "1 pan",
+            "1 saucepan",
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 teaspoon",
+            "1 kitchen tongs",
+            "Paper towels"
+        ],
         ingredients: [
-            "100 g potatoes, diced",
-            "50 g peas",
-            "50 g carrots, diced",
+            "2 medium potatoes diced",
+            "80 g peas",
+            "80 g carrots diced",
+            "1 small onion finely chopped",
+            "1 teaspoon mild curry",
+            "1/2 teaspoon ground cumin",
+            "1 tablespoon vegetable oil",
             "8 samosa pastry sheets",
-            "1 tsp vegetable oil",
-            "1 tsp mild curry"
+            "200 ml vegetable oil for frying",
+            "Salt"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat 1 tsp oil in a pan over medium heat.\n" +
-            "2. Add potatoes, carrots, and peas, cook 5 min, stirring.\n" +
-            "3. Add mild curry and mix.\n" +
-            "4. Cook 5 more min until vegetables are tender.\n" +
-            "5. Remove from heat and let cool slightly.\n" +
-            "6. Fill each samosa sheet with 1 tbsp filling.\n" +
-            "7. Fold and seal samosas.\n" +
-            "8. Heat 1 tsp oil in a non-stick pan and cook samosas 3-4 min each side until golden.\n" +
-            "9. Serve hot."
+            "1. Boil potato cubes for 8 minutes and drain.\n" +
+            "2. Heat oil in a pan.\n" +
+            "3. Sauté onion for 2 minutes.\n" +
+            "4. Add carrots and peas.\n" +
+            "5. Stir in potatoes.\n" +
+            "6. Add curry, cumin and salt.\n" +
+            "7. Cook 5 minutes while stirring.\n" +
+            "8. Let cool slightly.\n" +
+            "9. Place filling on each pastry sheet.\n" +
+            "10. Fold into triangles and seal with water.\n" +
+            "11. Heat frying oil.\n" +
+            "12. Fry 3–4 minutes per side until golden.\n" +
+            "13. Drain on paper towels.\n" +
+            "14. Serve hot."
     },
+
     nl: {
-        title: "Groente Samoerassen (India, voor 4 personen)",
-        equipment: ["1 pan", "1 kom", "1 mes", "1 snijplank", "1 eetlepel"],
+        title: "Groente Samoessa's (India)",
+        equipment: [
+            "1 pan",
+            "1 steelpan",
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 theelepel",
+            "1 keukentang",
+            "Keukenpapier"
+        ],
         ingredients: [
-            "100 g aardappelen, in blokjes",
-            "50 g doperwten",
-            "50 g wortelen, in blokjes",
+            "2 middelgrote aardappelen in blokjes",
+            "80 g doperwten",
+            "80 g wortelen in blokjes",
+            "1 kleine ui fijngehakt",
+            "1 theelepel milde kerrie",
+            "1/2 theelepel komijnpoeder",
+            "1 eetlepel plantaardige olie",
             "8 samosa deegvellen",
-            "1 tl plantaardige olie",
-            "1 tl milde kerrie"
+            "200 ml plantaardige olie om te frituren",
+            "Zout"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit 1 tl olie in een pan op middelhoog vuur.\n" +
-            "2. Voeg aardappelen, wortelen en doperwten toe, bak 5 minuten al roerend.\n" +
-            "3. Voeg milde kerrie toe en meng.\n" +
-            "4. Bak nog 5 minuten tot de groenten zacht zijn.\n" +
-            "5. Haal van het vuur en laat iets afkoelen.\n" +
-            "6. Vul elk samosa vel met 1 el vulling.\n" +
-            "7. Vouw en sluit de samosa's.\n" +
-            "8. Verhit 1 tl olie in een anti-aanbakpan en bak de samosa's 3-4 min aan elke kant tot goudbruin.\n" +
-            "9. Serveer warm."
+            "1. Kook de aardappelblokjes 8 minuten en giet af.\n" +
+            "2. Verhit olie in een pan.\n" +
+            "3. Fruit de ui 2 minuten.\n" +
+            "4. Voeg wortel en doperwten toe.\n" +
+            "5. Meng de aardappelen erdoor.\n" +
+            "6. Voeg kerrie, komijn en zout toe.\n" +
+            "7. Bak 5 minuten al roerend.\n" +
+            "8. Laat iets afkoelen.\n" +
+            "9. Leg vulling op elk deegvel.\n" +
+            "10. Vouw tot een driehoek en sluit met water.\n" +
+            "11. Verhit frituurolie.\n" +
+            "12. Frituur 3–4 minuten per kant tot goudbruin.\n" +
+            "13. Laat uitlekken op keukenpapier.\n" +
+            "14. Serveer warm."
     },
+
     ar: {
-        title: "سمبوسة بالخضار (الهند، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة كبيرة"],
+        title: "سمبوسة بالخضار (الهند)",
+        equipment: [
+            "مقلاة",
+            "قدر صغير",
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة",
+            "ملقط مطبخ",
+            "ورق مطبخ"
+        ],
         ingredients: [
-            "100 غ بطاطس مقطعة مكعبات",
-            "50 غ بازلاء",
-            "50 غ جزر مقطعة مكعبات",
+            "2 حبة بطاطس متوسطة مقطعة مكعبات",
+            "80 غ بازلاء",
+            "80 غ جزر مقطع مكعبات",
+            "بصلة صغيرة مفرومة",
+            "ملعقة صغيرة كاري خفيف",
+            "نصف ملعقة صغيرة كمون مطحون",
+            "ملعقة كبيرة زيت نباتي",
             "8 أوراق عجين سمبوسة",
-            "1 ملعقة صغيرة زيت نباتي",
-            "1 ملعقة صغيرة كاري خفيف"
+            "200 مل زيت نباتي للقلي",
+            "ملح"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن 1 ملعقة صغيرة زيت في مقلاة على نار متوسطة.\n" +
-            "2. أضف البطاطس والجزر والبازلاء، واطبخ 5 دقائق مع التحريك.\n" +
-            "3. أضف الكاري الخفيف واخلط.\n" +
-            "4. اطبخ 5 دقائق إضافية حتى تصبح الخضار طرية.\n" +
-            "5. ارفع المقلاة عن النار واتركها تبرد قليلاً.\n" +
-            "6. ضع 1 ملعقة كبيرة من الحشوة في كل ورقة سمبوسة.\n" +
-            "7. اطوِ وأغلق السمبوسة.\n" +
-            "8. سخّن 1 ملعقة صغيرة زيت في مقلاة غير لاصقة واطبخ السمبوسة 3-4 دقائق لكل جانب حتى تصبح ذهبية.\n" +
-            "9. قدمها ساخنة."
+            "1. اسلق مكعبات البطاطس 8 دقائق ثم صفِّها.\n" +
+            "2. سخّن الزيت في مقلاة.\n" +
+            "3. أضف البصل وقلّبه دقيقتين.\n" +
+            "4. أضف الجزر والبازلاء.\n" +
+            "5. أضف البطاطس.\n" +
+            "6. أضف الكاري والكمون والملح.\n" +
+            "7. اطبخ 5 دقائق مع التحريك.\n" +
+            "8. اترك الحشوة تبرد قليلاً.\n" +
+            "9. ضع الحشوة في كل ورقة.\n" +
+            "10. اطوِ على شكل مثلث وأغلق بالماء.\n" +
+            "11. سخّن زيت القلي.\n" +
+            "12. اقْلِ السمبوسة 3–4 دقائق لكل جانب حتى تصبح ذهبية.\n" +
+            "13. صفِّها على ورق المطبخ.\n" +
+            "14. قدّمها ساخنة."
     }
 };
-
-// 5. Salade wakame (Japon)
 recipesData.entree.salade_wakame_japan = {
     country: "asie",
     countryName: "japon",
-    image: "images/salade_wakame_japan.jpg",
+    image: "images/salade-wakame-japon.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "salade-wakame-japon",
+            title: "Salade wakame (Japon) – Recette facile et authentique",
+            description: "Découvrez comment préparer la salade wakame, une spécialité traditionnelle du Japon, fraîche, légère et simple à réaliser à la maison.",
+            keywords: [
+                "recette salade wakame",
+                "salade wakame japon",
+                "cuisine japonaise",
+                "recette entree japonaise",
+                "plat traditionnel japon",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Salade wakame (Japon)",
+            "description": "Salade wakame japonaise fraîche et légère à base d’algues et de concombre.",
+            "recipeCuisine": "Japon",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT0M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "50 g d’algues wakame séchées",
+                "1 concombre",
+                "1 cuillère à soupe sauce soja",
+                "1 cuillère à soupe jus de citron",
+                "1 cuillère à café huile de sésame",
+                "1 cuillère à café graines de sésame"
+            ],
+            "recipeInstructions": [
+                "Réhydrater les algues wakame dans de l’eau froide 10 minutes.",
+                "Égoutter et couper en morceaux.",
+                "Couper le concombre en fines rondelles.",
+                "Mélanger les algues et le concombre.",
+                "Ajouter sauce soja, jus de citron et huile de sésame.",
+                "Parsemer de graines de sésame et servir frais."
+            ]
+        }
+    },
+
     fr: {
-        title: "Salade wakame (Japon, 4 personnes)",
-        equipment: ["1 bol", "1 couteau", "1 planche à découper", "1 cuillère à soupe"],
+        title: "Salade wakame (Japon)",
+        equipment: [
+            "1 bol",
+            "1 petit bol",
+            "1 passoire",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère à café"
+        ],
         ingredients: [
-            "50 g algues wakame séchées",
-            "1 concombre, coupé en fines rondelles",
-            "1 cuillère à soupe sauce soja",
-            "1 cuillère à café graines de sésame",
-            "1 cuillère à café huile de sésame"
+            "50 g d’algues wakame séchées",
+            "1 concombre moyen",
+            "1 cuillère à soupe de sauce soja",
+            "1 cuillère à soupe de jus de citron",
+            "1 cuillère à café d’huile de sésame",
+            "1 cuillère à café de graines de sésame",
+            "Eau froide pour trempage"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Tremper les algues wakame séchées dans 100 ml d’eau froide pendant 10 minutes.\n" +
-            "2. Égoutter et couper les algues en morceaux de 2 cm.\n" +
-            "3. Couper le concombre en fines rondelles.\n" +
-            "4. Dans un bol, mélanger les algues et le concombre.\n" +
-            "5. Ajouter la sauce soja, l’huile de sésame et les graines de sésame.\n" +
-            "6. Mélanger délicatement.\n" +
-            "7. Réfrigérer 10 minutes avant de servir.\n" +
-            "8. Servir frais."
+            "1. Mettre les algues wakame dans un bol et couvrir d’eau froide. Laisser tremper 10 minutes jusqu’à ce qu’elles gonflent.\n" +
+            "2. Égoutter soigneusement à l’aide d’une passoire puis presser légèrement pour retirer l’excès d’eau.\n" +
+            "3. Couper les algues en morceaux d’environ 2 cm.\n" +
+            "4. Laver le concombre et le couper en fines rondelles.\n" +
+            "5. Dans un saladier, mélanger les algues et le concombre.\n" +
+            "6. Ajouter la sauce soja, le jus de citron et l’huile de sésame.\n" +
+            "7. Mélanger délicatement pour bien enrober les ingrédients.\n" +
+            "8. Parsemer de graines de sésame et placer au frais 5 à 10 minutes avant de servir."
     },
+
     en: {
-        title: "Wakame Salad (Japan, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 tablespoon"],
+        title: "Wakame Salad (Japan)",
+        equipment: [
+            "1 bowl",
+            "1 small bowl",
+            "1 strainer",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 teaspoon"
+        ],
         ingredients: [
             "50 g dried wakame seaweed",
-            "1 cucumber, thinly sliced",
-            "1 tbsp soy sauce",
-            "1 tsp sesame seeds",
-            "1 tsp sesame oil"
+            "1 medium cucumber",
+            "1 tablespoon soy sauce",
+            "1 tablespoon lemon juice",
+            "1 teaspoon sesame oil",
+            "1 teaspoon sesame seeds",
+            "Cold water for soaking"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Soak dried wakame in 100 ml cold water for 10 minutes.\n" +
-            "2. Drain and cut into 2 cm pieces.\n" +
-            "3. Slice the cucumber thinly.\n" +
-            "4. In a bowl, mix wakame and cucumber.\n" +
-            "5. Add soy sauce, sesame oil, and sesame seeds.\n" +
-            "6. Toss gently.\n" +
-            "7. Chill 10 min before serving.\n" +
-            "8. Serve cold."
+            "1. Place the dried wakame in a bowl and cover with cold water. Soak for 10 minutes until expanded.\n" +
+            "2. Drain well using a strainer and gently squeeze out excess water.\n" +
+            "3. Cut the wakame into bite-size pieces.\n" +
+            "4. Wash and thinly slice the cucumber.\n" +
+            "5. In a salad bowl, combine wakame and cucumber.\n" +
+            "6. Add soy sauce, lemon juice, and sesame oil.\n" +
+            "7. Toss gently to coat evenly.\n" +
+            "8. Sprinkle with sesame seeds and chill for 5 to 10 minutes before serving."
     },
+
     nl: {
-        title: "Wakame Salade (Japan, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 eetlepel"],
+        title: "Wakame salade (Japan)",
+        equipment: [
+            "1 kom",
+            "1 kleine kom",
+            "1 vergiet",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 theelepel"
+        ],
         ingredients: [
             "50 g gedroogde wakame zeewier",
-            "1 komkommer, in dunne plakjes",
-            "1 el sojasaus",
-            "1 tl sesamzaadjes",
-            "1 tl sesamolie"
+            "1 middelgrote komkommer",
+            "1 eetlepel sojasaus",
+            "1 eetlepel citroensap",
+            "1 theelepel sesamolie",
+            "1 theelepel sesamzaadjes",
+            "Koud water om te weken"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Week het gedroogde wakame in 100 ml koud water gedurende 10 minuten.\n" +
-            "2. Giet af en snijd in stukken van 2 cm.\n" +
-            "3. Snijd de komkommer in dunne plakjes.\n" +
-            "4. Meng wakame en komkommer in een kom.\n" +
-            "5. Voeg sojasaus, sesamolie en sesamzaadjes toe.\n" +
-            "6. Meng voorzichtig.\n" +
-            "7. Koel 10 minuten voor het serveren.\n" +
-            "8. Serveer koud."
+            "1. Doe de wakame in een kom en bedek met koud water. Laat 10 minuten weken tot het uitzet.\n" +
+            "2. Giet af in een vergiet en knijp voorzichtig het overtollige water eruit.\n" +
+            "3. Snijd de wakame in hapklare stukken.\n" +
+            "4. Was en snijd de komkommer in dunne plakjes.\n" +
+            "5. Meng wakame en komkommer in een kom.\n" +
+            "6. Voeg sojasaus, citroensap en sesamolie toe.\n" +
+            "7. Meng voorzichtig zodat alles goed bedekt is.\n" +
+            "8. Bestrooi met sesamzaadjes en zet 5 tot 10 minuten koel voor het serveren."
     },
+
     ar: {
-        title: "سلطة الواكاميه (اليابان، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 ملعقة كبيرة"],
+        title: "سلطة الواكاميه (اليابان)",
+        equipment: [
+            "وعاء",
+            "وعاء صغير",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة"
+        ],
         ingredients: [
-            "50 غ أعشاب الواكاميه المجففة",
-            "1 خيار، مقطع شرائح رفيعة",
-            "1 ملعقة كبيرة صوص الصويا",
-            "1 ملعقة صغيرة بذور السمسم",
-            "1 ملعقة صغيرة زيت سمسم"
+            "50 غ أعشاب واكاميه مجففة",
+            "1 خيار متوسط",
+            "ملعقة كبيرة صلصة صويا",
+            "ملعقة كبيرة عصير ليمون",
+            "ملعقة صغيرة زيت سمسم",
+            "ملعقة صغيرة بذور سمسم",
+            "ماء بارد للنقع"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. انقع الأعشاب المجففة في 100 مل ماء بارد لمدة 10 دقائق.\n" +
-            "2. صفيها وقطعها إلى قطع 2 سم.\n" +
-            "3. قطع الخيار إلى شرائح رفيعة.\n" +
-            "4. في وعاء، اخلط الواكاميه مع الخيار.\n" +
-            "5. أضف صوص الصويا، زيت السمسم وبذور السمسم.\n" +
-            "6. قلب المزيج برفق.\n" +
-            "7. ضعها في الثلاجة 10 دقائق قبل التقديم.\n" +
-            "8. قدمها باردة."
+            "1. ضع أعشاب الواكاميه في وعاء وغطها بالماء البارد واتركها 10 دقائق حتى تنتفخ.\n" +
+            "2. صفها جيداً في مصفاة واضغط برفق لإزالة الماء الزائد.\n" +
+            "3. قطعها إلى قطع صغيرة مناسبة.\n" +
+            "4. اغسل الخيار وقطعه إلى شرائح رفيعة.\n" +
+            "5. امزج الواكاميه مع الخيار في وعاء.\n" +
+            "6. أضف صلصة الصويا وعصير الليمون وزيت السمسم.\n" +
+            "7. قلب المكونات برفق حتى تمتزج جيداً.\n" +
+            "8. رش بذور السمسم وضعها في الثلاجة من 5 إلى 10 دقائق قبل التقديم."
     }
 };
+
 recipesData.entree.pakora_legumes_inde = {
     country: "asie",
     countryName: "inde",
-    image: "images/pakora_legumes_inde.jpg",
+    image: "images/pakora-legumes-inde.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "pakora-legumes-inde",
+            title: "Pakora aux légumes (Inde) – Recette facile et croustillante",
+            description: "Découvrez comment préparer les pakoras aux légumes, une spécialité traditionnelle de l’Inde, croustillante et savoureuse, parfaite en entrée.",
+            keywords: [
+                "recette pakora",
+                "pakora legumes inde",
+                "cuisine indienne",
+                "entree indienne facile",
+                "beignets indiens",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Pakora aux légumes (Inde)",
+            "description": "Beignets de légumes croustillants typiques de la cuisine indienne.",
+            "recipeCuisine": "Inde",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT15M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "1 pomme de terre râpée",
+                "1 carotte râpée",
+                "1 poignée d’épinards hachés",
+                "100 g farine de pois chiches",
+                "1 cuillère à café cumin",
+                "1 cuillère à café curcuma",
+                "Sel",
+                "Eau",
+                "Huile végétale"
+            ],
+            "recipeInstructions": [
+                "Mélanger les légumes râpés.",
+                "Ajouter farine et épices.",
+                "Incorporer de l’eau pour former une pâte épaisse.",
+                "Chauffer l’huile.",
+                "Frire des petites portions jusqu’à doré.",
+                "Égoutter et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Pakora aux légumes (Inde, 4 personnes)",
-        equipment: ["1 bol", "1 couteau", "1 planche à découper", "1 poêle", "1 cuillère à soupe"],
+        title: "Pakora aux légumes (Inde)",
+        equipment: [
+            "1 grand bol",
+            "1 couteau",
+            "1 planche à découper",
+            "1 râpe",
+            "1 poêle profonde",
+            "1 écumoire",
+            "1 cuillère à soupe",
+            "Papier absorbant"
+        ],
         ingredients: [
-            "50 g pommes de terre, râpées",
-            "50 g carottes, râpées",
-            "50 g épinards hachés",
-            "50 g farine de pois chiches",
-            "1 cuillère à café cumin moulu",
-            "1 cuillère à café curcuma",
-            "1 cuillère à café sel",
-            "100 ml eau",
-            "huile végétale pour friture"
+            "1 pomme de terre moyenne râpée",
+            "1 carotte râpée",
+            "1 petite poignée d’épinards frais hachés",
+            "100 g de farine de pois chiches",
+            "1 cuillère à café de cumin moulu",
+            "1 cuillère à café de curcuma",
+            "1/2 cuillère à café de sel",
+            "Environ 120 ml d’eau",
+            "Huile végétale pour friture"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Mélanger pommes de terre, carottes, épinards dans un bol.\n" +
-            "2. Ajouter farine de pois chiches, cumin, curcuma et sel.\n" +
-            "3. Ajouter l’eau progressivement pour obtenir une pâte épaisse.\n" +
-            "4. Chauffer l’huile dans une poêle à feu moyen.\n" +
-            "5. Déposer des cuillères de pâte dans l’huile chaude.\n" +
-            "6. Cuire 3-4 minutes de chaque côté jusqu’à doré.\n" +
-            "7. Égoutter sur papier absorbant.\n" +
-            "8. Servir chaud."
+            "1. Râper la pomme de terre et la carotte puis hacher finement les épinards.\n" +
+            "2. Mettre les légumes dans un grand bol.\n" +
+            "3. Ajouter la farine de pois chiches, le cumin, le curcuma et le sel.\n" +
+            "4. Mélanger puis verser l’eau progressivement jusqu’à obtenir une pâte épaisse et homogène.\n" +
+            "5. Chauffer l’huile dans une poêle profonde à feu moyen.\n" +
+            "6. Déposer des petites cuillères de pâte dans l’huile chaude.\n" +
+            "7. Faire frire 3 à 4 minutes de chaque côté jusqu’à coloration dorée.\n" +
+            "8. Retirer avec une écumoire et déposer sur du papier absorbant.\n" +
+            "9. Servir chaud."
     },
+
     en: {
-        title: "Vegetable Pakora (India, Serves 4)",
-        equipment: ["1 bowl", "1 knife", "1 cutting board", "1 pan", "1 tablespoon"],
+        title: "Vegetable Pakora (India)",
+        equipment: [
+            "1 large bowl",
+            "1 knife",
+            "1 cutting board",
+            "1 grater",
+            "1 deep pan",
+            "1 slotted spoon",
+            "1 tablespoon",
+            "Paper towels"
+        ],
         ingredients: [
-            "50 g grated potatoes",
-            "50 g grated carrots",
-            "50 g chopped spinach",
-            "50 g chickpea flour",
-            "1 tsp ground cumin",
-            "1 tsp turmeric",
-            "1 tsp salt",
-            "100 ml water",
-            "vegetable oil for frying"
+            "1 medium potato, grated",
+            "1 grated carrot",
+            "1 small handful chopped spinach",
+            "100 g chickpea flour",
+            "1 teaspoon ground cumin",
+            "1 teaspoon turmeric",
+            "1/2 teaspoon salt",
+            "About 120 ml water",
+            "Vegetable oil for frying"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Mix potatoes, carrots, and spinach in a bowl.\n" +
-            "2. Add chickpea flour, cumin, turmeric, and salt.\n" +
-            "3. Gradually add water to make a thick batter.\n" +
-            "4. Heat oil in a pan over medium heat.\n" +
-            "5. Drop spoonfuls of batter into hot oil.\n" +
-            "6. Fry 3-4 min each side until golden.\n" +
-            "7. Drain on paper towels.\n" +
-            "8. Serve hot."
+            "1. Grate the potato and carrot and finely chop the spinach.\n" +
+            "2. Place the vegetables in a large bowl.\n" +
+            "3. Add chickpea flour, cumin, turmeric, and salt.\n" +
+            "4. Gradually add water to form a thick batter.\n" +
+            "5. Heat oil in a deep pan over medium heat.\n" +
+            "6. Drop small spoonfuls of batter into hot oil.\n" +
+            "7. Fry 3 to 4 minutes per side until golden.\n" +
+            "8. Remove with a slotted spoon and drain on paper towels.\n" +
+            "9. Serve hot."
     },
+
     nl: {
-        title: "Groente Pakora (India, voor 4 personen)",
-        equipment: ["1 kom", "1 mes", "1 snijplank", "1 pan", "1 eetlepel"],
+        title: "Groente pakora (India)",
+        equipment: [
+            "1 grote kom",
+            "1 mes",
+            "1 snijplank",
+            "1 rasp",
+            "1 diepe pan",
+            "1 schuimspaan",
+            "1 eetlepel",
+            "Keukenpapier"
+        ],
         ingredients: [
-            "50 g geraspte aardappelen",
-            "50 g geraspte wortel",
-            "50 g gehakte spinazie",
-            "50 g kikkererwtenmeel",
-            "1 tl komijnpoeder",
-            "1 tl kurkuma",
-            "1 tl zout",
-            "100 ml water",
-            "plantaardige olie voor frituren"
+            "1 middelgrote aardappel geraspt",
+            "1 geraspte wortel",
+            "1 handje gehakte spinazie",
+            "100 g kikkererwtenmeel",
+            "1 theelepel komijn",
+            "1 theelepel kurkuma",
+            "1/2 theelepel zout",
+            "Ongeveer 120 ml water",
+            "Plantaardige olie om te frituren"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng aardappelen, wortel en spinazie in een kom.\n" +
-            "2. Voeg kikkererwtenmeel, komijn, kurkuma en zout toe.\n" +
-            "3. Voeg geleidelijk water toe tot een dik beslag.\n" +
-            "4. Verhit olie in een pan op middelhoog vuur.\n" +
-            "5. Schep lepels van het beslag in de hete olie.\n" +
-            "6. Bak 3-4 min aan elke kant tot goudbruin.\n" +
-            "7. Laat uitlekken op keukenpapier.\n" +
-            "8. Serveer warm."
+            "1. Rasp de aardappel en wortel en hak de spinazie fijn.\n" +
+            "2. Doe alles in een grote kom.\n" +
+            "3. Voeg kikkererwtenmeel en kruiden toe.\n" +
+            "4. Voeg geleidelijk water toe tot een dik beslag ontstaat.\n" +
+            "5. Verhit olie in een diepe pan.\n" +
+            "6. Schep kleine porties beslag in de hete olie.\n" +
+            "7. Bak 3 tot 4 minuten per kant tot goudbruin.\n" +
+            "8. Laat uitlekken op keukenpapier.\n" +
+            "9. Serveer warm."
     },
+
     ar: {
-        title: "باكورا بالخضار (الهند، تكفي 4 أشخاص)",
-        equipment: ["1 وعاء", "1 سكين", "1 لوح تقطيع", "1 مقلاة", "1 ملعقة كبيرة"],
+        title: "باكورا بالخضار (الهند)",
+        equipment: [
+            "وعاء كبير",
+            "سكين",
+            "لوح تقطيع",
+            "مبشرة",
+            "مقلاة عميقة",
+            "ملعقة مثقبة",
+            "ملعقة كبيرة",
+            "ورق مطبخ"
+        ],
         ingredients: [
-            "50 غ بطاطس مبشورة",
-            "50 غ جزر مبشور",
-            "50 غ سبانخ مفرومة",
-            "50 غ دقيق حمص",
-            "1 ملعقة صغيرة كمون مطحون",
-            "1 ملعقة صغيرة كركم",
-            "1 ملعقة صغيرة ملح",
-            "100 مل ماء",
+            "1 بطاطس متوسطة مبشورة",
+            "1 جزرة مبشورة",
+            "قبضة سبانخ مفرومة",
+            "100 غ دقيق حمص",
+            "ملعقة صغيرة كمون",
+            "ملعقة صغيرة كركم",
+            "نصف ملعقة صغيرة ملح",
+            "حوالي 120 مل ماء",
             "زيت نباتي للقلي"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اخلط البطاطس والجزر والسبانخ في وعاء.\n" +
-            "2. أضف دقيق الحمص، الكمون، الكركم والملح.\n" +
-            "3. أضف الماء تدريجياً للحصول على عجينة سميكة.\n" +
-            "4. سخّن الزيت في مقلاة على نار متوسطة.\n" +
-            "5. ضع ملاعق من العجينة في الزيت الساخن.\n" +
-            "6. اقلي 3-4 دقائق لكل جانب حتى يصبح ذهبي.\n" +
-            "7. صفي على ورق مطبخ.\n" +
-            "8. قدمها ساخنة."
+            "1. ابشر البطاطس والجزر وافرُم السبانخ جيداً.\n" +
+            "2. ضع الخضار في وعاء كبير.\n" +
+            "3. أضف دقيق الحمص والتوابل والملح.\n" +
+            "4. أضف الماء تدريجياً حتى تتكون عجينة سميكة.\n" +
+            "5. سخّن الزيت في مقلاة عميقة.\n" +
+            "6. ضع ملاعق صغيرة من العجينة في الزيت الساخن.\n" +
+            "7. اقلي لمدة 3 إلى 4 دقائق لكل جانب حتى يصبح لونها ذهبياً.\n" +
+            "8. ارفعها بملعقة مثقبة وضعها على ورق مطبخ.\n" +
+            "9. قدمها ساخنة."
     }
 };
 recipesData.entree.soupe_miso_japon = {
     country: "asie",
     countryName: "japon",
-    image: "images/soupe_miso_japon.jpg",
+    image: "images/soupe-miso-japon.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 10,
+        difficulty: "easy",
+        seo: {
+            slug: "soupe-miso-japon",
+            title: "Soupe miso (Japon) – Recette facile et authentique",
+            description: "Découvrez comment préparer la soupe miso, une spécialité traditionnelle du Japon, légère, savoureuse et simple à réaliser à la maison.",
+            keywords: [
+                "recette soupe miso",
+                "soupe miso japon",
+                "cuisine japonaise",
+                "recette facile",
+                "soupe traditionnelle",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Soupe miso (Japon)",
+            "description": "Soupe miso japonaise légère et savoureuse, préparée avec tofu, champignons et épinards.",
+            "recipeCuisine": "Japon",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT10M",
+            "totalTime": "PT20M",
+            "recipeIngredient": [
+                "800 ml d’eau",
+                "1 cube de bouillon de légumes",
+                "3 cuillères à soupe de pâte miso",
+                "100 g de tofu ferme",
+                "80 g de champignons shiitake",
+                "60 g d’épinards frais",
+                "1 cuillère à café de sauce soja",
+                "1 oignon nouveau",
+                "1 feuille d’algue séchée (facultatif)"
+            ],
+            "recipeInstructions": [
+                "Porter l’eau à ébullition et ajouter le cube de bouillon.",
+                "Ajouter les champignons et cuire 3 minutes.",
+                "Incorporer le tofu et cuire 2 minutes supplémentaires.",
+                "Dissoudre la pâte miso dans un peu de bouillon chaud hors du feu.",
+                "Remettre le miso dans la casserole sans faire bouillir.",
+                "Ajouter les épinards, la sauce soja et l’oignon nouveau émincé.",
+                "Servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Soupe miso aux légumes (Japon, 4 personnes)",
-        equipment: ["1 casserole", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
+        title: "Soupe miso (Japon)",
+        equipment: [
+            "1 casserole moyenne",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper",
+            "1 louche",
+            "1 petit bol"
+        ],
         ingredients: [
-            "800 ml bouillon d’eau",
-            "3 cuillères à soupe pâte miso",
-            "50 g tofu ferme, coupé en dés",
-            "50 g champignons shiitake, tranchés",
-            "50 g épinards frais",
-            "1 cuillère à café sauce soja"
+            "800 ml d’eau",
+            "1 cube de bouillon de légumes",
+            "3 cuillères à soupe de pâte miso",
+            "100 g de tofu ferme coupé en dés",
+            "80 g de champignons shiitake émincés",
+            "60 g d’épinards frais",
+            "1 cuillère à café de sauce soja",
+            "1 oignon nouveau finement émincé",
+            "1 petite feuille d’algue séchée (facultatif)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer le bouillon dans une casserole à feu moyen.\n" +
-            "2. Ajouter les champignons et cuire 3 minutes.\n" +
-            "3. Ajouter le tofu et cuire 2 minutes.\n" +
-            "4. Retirer du feu et dissoudre la pâte miso dans un peu de bouillon chaud.\n" +
-            "5. Ajouter le miso dissous dans la casserole.\n" +
-            "6. Ajouter les épinards et la sauce soja.\n" +
-            "7. Mélanger délicatement et servir chaud."
+            "1. Porter l’eau à ébullition dans une casserole puis ajouter le cube de bouillon.\n" +
+            "2. Ajouter les champignons shiitake et laisser cuire 3 minutes à feu moyen.\n" +
+            "3. Incorporer les dés de tofu et poursuivre la cuisson 2 minutes.\n" +
+            "4. Prélever une louche de bouillon chaud, le verser dans un bol et y dissoudre la pâte miso.\n" +
+            "5. Retirer la casserole du feu et ajouter le miso dissous sans faire bouillir.\n" +
+            "6. Ajouter les épinards, la sauce soja et l’oignon nouveau.\n" +
+            "7. Mélanger délicatement et servir immédiatement bien chaud."
     },
+
     en: {
-        title: "Miso Soup with Vegetables (Japan, Serves 4)",
-        equipment: ["1 saucepan", "1 wooden spoon", "1 knife", "1 cutting board"],
+        title: "Miso Soup (Japan)",
+        equipment: [
+            "1 medium saucepan",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 ladle",
+            "1 small bowl"
+        ],
         ingredients: [
-            "800 ml water broth",
-            "3 tbsp miso paste",
-            "50 g firm tofu, diced",
-            "50 g shiitake mushrooms, sliced",
-            "50 g fresh spinach",
-            "1 tsp soy sauce"
+            "800 ml water",
+            "1 vegetable stock cube",
+            "3 tablespoons miso paste",
+            "100 g firm tofu, diced",
+            "80 g shiitake mushrooms, sliced",
+            "60 g fresh spinach",
+            "1 teaspoon soy sauce",
+            "1 spring onion, finely sliced",
+            "1 small dried seaweed sheet (optional)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat broth in saucepan over medium heat.\n" +
-            "2. Add mushrooms and cook 3 minutes.\n" +
-            "3. Add tofu and cook 2 minutes.\n" +
-            "4. Remove from heat and dissolve miso paste in a bit of hot broth.\n" +
-            "5. Add dissolved miso to saucepan.\n" +
-            "6. Add spinach and soy sauce.\n" +
-            "7. Stir gently and serve hot."
+            "1. Bring the water to a boil in a saucepan and add the vegetable stock cube.\n" +
+            "2. Add the shiitake mushrooms and cook for 3 minutes over medium heat.\n" +
+            "3. Add the diced tofu and cook for 2 more minutes.\n" +
+            "4. Ladle a small amount of hot broth into a bowl and dissolve the miso paste.\n" +
+            "5. Remove the saucepan from heat and stir in the dissolved miso without boiling.\n" +
+            "6. Add the spinach, soy sauce, and sliced spring onion.\n" +
+            "7. Stir gently and serve immediately while hot."
     },
+
     nl: {
-        title: "Miso soep met groenten (Japan, voor 4 personen)",
-        equipment: ["1 pan", "1 houten lepel", "1 mes", "1 snijplank"],
+        title: "Miso soep (Japan)",
+        equipment: [
+            "1 middelgrote pan",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 soeplepel",
+            "1 kleine kom"
+        ],
         ingredients: [
-            "800 ml waterbouillon",
-            "3 el misopasta",
-            "50 g stevige tofu, in blokjes",
-            "50 g shiitake champignons, in plakjes",
-            "50 g verse spinazie",
-            "1 tl sojasaus"
+            "800 ml water",
+            "1 groentebouillonblokje",
+            "3 eetlepels misopasta",
+            "100 g stevige tofu in blokjes",
+            "80 g shiitake paddenstoelen in plakjes",
+            "60 g verse spinazie",
+            "1 theelepel sojasaus",
+            "1 lente-ui fijn gesneden",
+            "1 klein vel gedroogd zeewier (optioneel)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verwarm bouillon in pan op middelhoog vuur.\n" +
-            "2. Voeg champignons toe en kook 3 minuten.\n" +
-            "3. Voeg tofu toe en kook 2 minuten.\n" +
-            "4. Haal van het vuur en los misopasta op in wat hete bouillon.\n" +
-            "5. Voeg opgeloste miso toe aan de pan.\n" +
-            "6. Voeg spinazie en sojasaus toe.\n" +
-            "7. Roer voorzichtig en serveer warm."
+            "1. Breng het water aan de kook in een pan en voeg het bouillonblokje toe.\n" +
+            "2. Voeg de shiitake toe en kook 3 minuten op middelhoog vuur.\n" +
+            "3. Voeg de tofu toe en kook nog 2 minuten.\n" +
+            "4. Schep wat hete bouillon in een kom en los de misopasta hierin op.\n" +
+            "5. Haal de pan van het vuur en roer de opgeloste miso erdoor zonder te laten koken.\n" +
+            "6. Voeg de spinazie, sojasaus en lente-ui toe.\n" +
+            "7. Roer voorzichtig en serveer direct warm."
     },
+
     ar: {
-        title: "حساء الميسو بالخضار (اليابان، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 ملعقة خشبية", "1 سكين", "1 لوح تقطيع"],
+        title: "حساء الميسو (اليابان)",
+        equipment: [
+            "قدر متوسط",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "مغرفة",
+            "وعاء صغير"
+        ],
         ingredients: [
-            "800 مل مرق ماء",
+            "800 مل ماء",
+            "مكعب مرق خضار",
             "3 ملاعق كبيرة معجون ميسو",
-            "50 غ توفو صلب، مقطع مكعبات",
-            "50 غ فطر شيتاكي، مقطع شرائح",
-            "50 غ سبانخ طازجة",
-            "1 ملعقة صغيرة صويا صوص"
+            "100 غ توفو صلب مقطع مكعبات",
+            "80 غ فطر شيتاكي مقطع شرائح",
+            "60 غ سبانخ طازجة",
+            "ملعقة صغيرة صلصة صويا",
+            "بصلة خضراء مفرومة ناعماً",
+            "قطعة صغيرة من طحالب مجففة (اختياري)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن المرق في قدر على نار متوسطة.\n" +
-            "2. أضف الفطر واطبخ 3 دقائق.\n" +
-            "3. أضف التوفو واطبخ 2 دقيقة.\n" +
-            "4. ارفع القدر عن النار وذوّب معجون الميسو في قليل من المرق الساخن.\n" +
-            "5. أضف الميسو المذاب إلى القدر.\n" +
-            "6. أضف السبانخ والصويا صوص.\n" +
-            "7. حرك برفق وقدم ساخناً."
-    }
-};
-// 1. Poulet au curry doux (Thaïlande)
-recipesData.plat.poulet_curry_thailande = {
-    country: "asie",
-    countryName: "thailande",
-    image: "images/poulet_curry_thailande.jpg",
-    fr: {
-        title: "Poulet au curry doux (Thaïlande, 4 personnes)",
-        equipment: ["1 grande poêle", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "400 g filets de poulet, coupés en morceaux",
-            "1 oignon, émincé",
-            "1 poivron rouge, coupé en lanières",
-            "200 ml lait de coco",
-            "2 cuillères à soupe pâte de curry doux",
-            "1 cuillère à soupe huile végétale",
-            "1 cuillère à café sel",
-            "100 g riz cuit pour servir"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile dans la poêle à feu moyen.\n" +
-            "2. Ajouter l’oignon et cuire 3 minutes jusqu’à translucide.\n" +
-            "3. Ajouter le poulet et cuire 5 minutes en remuant.\n" +
-            "4. Ajouter le poivron et cuire 2 minutes.\n" +
-            "5. Ajouter la pâte de curry et bien mélanger.\n" +
-            "6. Verser le lait de coco, mélanger et laisser mijoter 10 minutes.\n" +
-            "7. Saler selon goût.\n" +
-            "8. Servir chaud avec le riz."
-    },
-    en: {
-        title: "Mild Chicken Curry (Thailand, Serves 4)",
-        equipment: ["1 large pan", "1 wooden spoon", "1 knife", "1 cutting board"],
-        ingredients: [
-            "400 g chicken fillets, cut into pieces",
-            "1 onion, sliced",
-            "1 red bell pepper, sliced",
-            "200 ml coconut milk",
-            "2 tbsp mild curry paste",
-            "1 tbsp vegetable oil",
-            "1 tsp salt",
-            "100 g cooked rice to serve"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in pan over medium heat.\n" +
-            "2. Add onion, cook 3 minutes until translucent.\n" +
-            "3. Add chicken, cook 5 minutes while stirring.\n" +
-            "4. Add bell pepper, cook 2 minutes.\n" +
-            "5. Add curry paste and mix well.\n" +
-            "6. Pour coconut milk, stir and simmer 10 minutes.\n" +
-            "7. Season with salt.\n" +
-            "8. Serve hot with rice."
-    },
-    nl: {
-        title: "Milde kipcurry (Thailand, voor 4 personen)",
-        equipment: ["1 grote pan", "1 houten lepel", "1 mes", "1 snijplank"],
-        ingredients: [
-            "400 g kipfilet, in stukken",
-            "1 ui, gesneden",
-            "1 rode paprika, in reepjes",
-            "200 ml kokosmelk",
-            "2 el milde currypasta",
-            "1 el plantaardige olie",
-            "1 tl zout",
-            "100 g gekookte rijst om te serveren"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan op middelhoog vuur.\n" +
-            "2. Voeg ui toe, bak 3 minuten tot glazig.\n" +
-            "3. Voeg kip toe, bak 5 minuten al roerend.\n" +
-            "4. Voeg paprika toe, bak 2 minuten.\n" +
-            "5. Voeg currypasta toe en meng goed.\n" +
-            "6. Voeg kokosmelk toe, roer en laat 10 minuten sudderen.\n" +
-            "7. Breng op smaak met zout.\n" +
-            "8. Serveer warm met rijst."
-    },
-    ar: {
-        title: "دجاج بالكاري الخفيف (تايلاند، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة كبيرة", "1 ملعقة خشبية", "1 سكين", "1 لوح تقطيع"],
-        ingredients: [
-            "400 غ صدور دجاج مقطعة",
-            "1 بصل، مقطع شرائح",
-            "1 فلفل أحمر، مقطع شرائح",
-            "200 مل حليب جوز الهند",
-            "2 ملعقة كبيرة معجون كاري خفيف",
-            "1 ملعقة كبيرة زيت نباتي",
-            "1 ملعقة صغيرة ملح",
-            "100 غ أرز مطبوخ للتقديم"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الزيت في المقلاة على نار متوسطة.\n" +
-            "2. أضف البصل واطبخ 3 دقائق حتى يذبل.\n" +
-            "3. أضف الدجاج واطبخ 5 دقائق مع التحريك.\n" +
-            "4. أضف الفلفل واطبخ 2 دقيقة.\n" +
-            "5. أضف معجون الكاري وامزج جيداً.\n" +
-            "6. أضف حليب جوز الهند، حرك واتركه ينضج 10 دقائق.\n" +
-            "7. ضع الملح حسب الرغبة.\n" +
-            "8. قدم ساخناً مع الأرز."
-    }
-};
-// 2. Nouilles sautées aux légumes (Chine)
-recipesData.plat.nouilles_legumes_chine = {
-    country: "asie",
-    countryName: "chine",
-    image: "images/nouilles_legumes_chine.jpg",
-    fr: {
-        title: "Nouilles sautées aux légumes (Chine, 4 personnes)",
-        equipment: ["1 wok ou grande poêle", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "250 g nouilles chinoises",
-            "1 carotte, coupée en fines lamelles",
-            "1 poivron rouge, coupé en lanières",
-            "100 g brocoli, en petits bouquets",
-            "2 cuillères à soupe sauce soja",
-            "1 cuillère à soupe huile de sésame",
-            "1 cuillère à café sel"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faire cuire les nouilles selon les instructions du paquet et égoutter.\n" +
-            "2. Chauffer l’huile de sésame dans le wok à feu moyen.\n" +
-            "3. Ajouter la carotte et le poivron, cuire 3 minutes.\n" +
-            "4. Ajouter le brocoli et cuire 2 minutes.\n" +
-            "5. Ajouter les nouilles cuites et la sauce soja.\n" +
-            "6. Mélanger pendant 2-3 minutes jusqu’à ce que tout soit bien chaud.\n" +
-            "7. Saler selon goût et servir chaud."
-    },
-    en: {
-        title: "Stir-Fried Vegetable Noodles (China, Serves 4)",
-        equipment: ["1 wok or large pan", "1 wooden spoon", "1 knife", "1 cutting board"],
-        ingredients: [
-            "250 g Chinese noodles",
-            "1 carrot, thinly sliced",
-            "1 red bell pepper, sliced",
-            "100 g broccoli florets",
-            "2 tbsp soy sauce",
-            "1 tbsp sesame oil",
-            "1 tsp salt"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Cook noodles according to package instructions and drain.\n" +
-            "2. Heat sesame oil in wok over medium heat.\n" +
-            "3. Add carrot and bell pepper, cook 3 minutes.\n" +
-            "4. Add broccoli, cook 2 minutes.\n" +
-            "5. Add cooked noodles and soy sauce.\n" +
-            "6. Stir 2-3 minutes until heated through.\n" +
-            "7. Season with salt and serve hot."
-    },
-    nl: {
-        title: "Gebakken noedels met groenten (China, voor 4 personen)",
-        equipment: ["1 wok of grote pan", "1 houten lepel", "1 mes", "1 snijplank"],
-        ingredients: [
-            "250 g Chinese noedels",
-            "1 wortel, in dunne reepjes",
-            "1 rode paprika, in reepjes",
-            "100 g broccoli, in kleine roosjes",
-            "2 el sojasaus",
-            "1 el sesamolie",
-            "1 tl zout"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Kook de noedels volgens de aanwijzingen op de verpakking en giet af.\n" +
-            "2. Verhit sesamolie in wok op middelhoog vuur.\n" +
-            "3. Voeg wortel en paprika toe, bak 3 minuten.\n" +
-            "4. Voeg broccoli toe, bak 2 minuten.\n" +
-            "5. Voeg gekookte noedels en sojasaus toe.\n" +
-            "6. Roer 2-3 minuten tot alles goed verwarmd is.\n" +
-            "7. Breng op smaak met zout en serveer warm."
-    },
-    ar: {
-        title: "نودلز مقلي بالخضار (الصين، تكفي 4 أشخاص)",
-        equipment: ["1 ووك أو مقلاة كبيرة", "1 ملعقة خشبية", "1 سكين", "1 لوح تقطيع"],
-        ingredients: [
-            "250 غ نودلز صينية",
-            "1 جزرة، مقطعة شرائح رفيعة",
-            "1 فلفل أحمر، مقطع شرائح",
-            "100 غ بروكلي، مقطع زهرات صغيرة",
-            "2 ملعقة كبيرة صويا صوص",
-            "1 ملعقة كبيرة زيت سمسم",
-            "1 ملعقة صغيرة ملح"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اطبخ النودلز حسب التعليمات وصفيها.\n" +
-            "2. سخن زيت السمسم في المقلاة على نار متوسطة.\n" +
-            "3. أضف الجزرة والفلفل، اطبخ 3 دقائق.\n" +
-            "4. أضف البروكلي واطبخ 2 دقيقة.\n" +
-            "5. أضف النودلز المطبوخة وصلصة الصويا.\n" +
-            "6. قلب 2-3 دقائق حتى تسخن جميع المكونات.\n" +
-            "7. ضع الملح حسب الرغبة وقدّم ساخناً."
-    }
-};
-// 4. Bibimbap végétarien (Corée)
-recipesData.plat.bibimbap_coree = {
-    country: "asie",
-    countryName: "coree",
-    image: "images/bibimbap_coree.jpg",
-    fr: {
-        title: "Bibimbap végétarien (Corée, 4 personnes)",
-        equipment: ["1 grande poêle", "1 casserole", "1 bol", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "200 g riz blanc",
-            "100 g épinards frais",
-            "1 carotte, coupée en julienne",
-            "100 g champignons shiitake, tranchés",
-            "1 courgette, coupée en fines lamelles",
-            "2 cuillères à soupe sauce soja",
-            "1 cuillère à soupe huile de sésame",
-            "1 cuillère à café sel"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Cuire le riz blanc dans une casserole avec 400 ml d’eau jusqu’à absorption complète.\n" +
-            "2. Dans une grande poêle, chauffer la moitié de l’huile de sésame.\n" +
-            "3. Sauter les carottes 2 minutes, réserver.\n" +
-            "4. Sauter les champignons 2 minutes, réserver.\n" +
-            "5. Sauter la courgette 1 minute, réserver.\n" +
-            "6. Sauter les épinards 1 minute avec un peu de sel.\n" +
-            "7. Dans un grand bol, disposer le riz, puis chaque légume en sections.\n" +
-            "8. Ajouter sauce soja et le reste de l’huile de sésame sur le dessus.\n" +
-            "9. Mélanger avant de manger et servir chaud."
-    },
-    en: {
-        title: "Vegetarian Bibimbap (Korea, Serves 4)",
-        equipment: ["1 large pan", "1 saucepan", "1 bowl", "1 wooden spoon", "1 knife", "1 cutting board"],
-        ingredients: [
-            "200 g white rice",
-            "100 g fresh spinach",
-            "1 carrot, julienned",
-            "100 g shiitake mushrooms, sliced",
-            "1 zucchini, thinly sliced",
-            "2 tbsp soy sauce",
-            "1 tbsp sesame oil",
-            "1 tsp salt"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Cook white rice with 400 ml water until fully absorbed.\n" +
-            "2. Heat half the sesame oil in a large pan.\n" +
-            "3. Sauté carrots 2 minutes, set aside.\n" +
-            "4. Sauté mushrooms 2 minutes, set aside.\n" +
-            "5. Sauté zucchini 1 minute, set aside.\n" +
-            "6. Sauté spinach 1 minute with a pinch of salt.\n" +
-            "7. In a large bowl, place rice, then vegetables in sections.\n" +
-            "8. Add soy sauce and remaining sesame oil on top.\n" +
-            "9. Mix before eating and serve hot."
-    },
-    nl: {
-        title: "Vegetarische Bibimbap (Korea, voor 4 personen)",
-        equipment: ["1 grote pan", "1 pan", "1 kom", "1 houten lepel", "1 mes", "1 snijplank"],
-        ingredients: [
-            "200 g witte rijst",
-            "100 g verse spinazie",
-            "1 wortel, julienne gesneden",
-            "100 g shiitake champignons, gesneden",
-            "1 courgette, dun gesneden",
-            "2 el sojasaus",
-            "1 el sesamolie",
-            "1 tl zout"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Kook de witte rijst met 400 ml water tot volledig opgenomen.\n" +
-            "2. Verhit de helft van de sesamolie in een grote pan.\n" +
-            "3. Bak wortels 2 minuten, zet apart.\n" +
-            "4. Bak champignons 2 minuten, zet apart.\n" +
-            "5. Bak courgette 1 minuut, zet apart.\n" +
-            "6. Bak spinazie 1 minuut met een snufje zout.\n" +
-            "7. Doe rijst in een grote kom, leg de groenten in secties.\n" +
-            "8. Voeg sojasaus en resterende sesamolie toe.\n" +
-            "9. Meng voor het eten en serveer warm."
-    },
-    ar: {
-        title: "بيبمباب نباتي (كوريا، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة كبيرة", "1 قدر", "1 وعاء", "1 ملعقة خشبية", "1 سكين", "1 لوح تقطيع"],
-        ingredients: [
-            "200 غ أرز أبيض",
-            "100 غ سبانخ طازجة",
-            "1 جزرة، مقطعة شرائح رفيعة",
-            "100 غ فطر شيتاكي، مقطع شرائح",
-            "1 كوسة، مقطعة شرائح رفيعة",
-            "2 ملعقة كبيرة صويا صوص",
-            "1 ملعقة كبيرة زيت سمسم",
-            "1 ملعقة صغيرة ملح"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اطبخ الأرز الأبيض مع 400 مل ماء حتى يمتص بالكامل.\n" +
-            "2. سخن نصف زيت السمسم في مقلاة كبيرة.\n" +
-            "3. اقلي الجزرة 2 دقائق، ضعها جانباً.\n" +
-            "4. اقلي الفطر 2 دقائق، ضعها جانباً.\n" +
-            "5. اقلي الكوسة 1 دقيقة، ضعها جانباً.\n" +
-            "6. اقلي السبانخ 1 دقيقة مع قليل من الملح.\n" +
-            "7. ضع الأرز في وعاء كبير، ورتب الخضار في أقسام.\n" +
-            "8. أضف صويا صوص وبقية زيت السمسم على الوجه.\n" +
-            "9. اخلط قبل التقديم وقدّم ساخناً."
-    }
-};
-
-// 5. Curry de légumes (Inde)
-recipesData.plat.curry_legumes_inde = {
-    country: "asie",
-    countryName: "inde",
-    image: "images/curry_legumes_inde.jpg",
-    fr: {
-        title: "Curry de légumes (Inde, 4 personnes)",
-        equipment: ["1 casserole", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
-        ingredients: [
-            "200 g pommes de terre, coupées en cubes",
-            "100 g carottes, coupées en rondelles",
-            "100 g pois verts",
-            "1 oignon, haché finement",
-            "2 cuillères à soupe huile végétale",
-            "1 cuillère à soupe pâte de curry doux",
-            "200 ml lait de coco",
-            "1 cuillère à café sel"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile dans une casserole à feu moyen.\n" +
-            "2. Ajouter l’oignon et cuire 3 minutes jusqu’à translucide.\n" +
-            "3. Ajouter pâte de curry et mélanger 1 minute.\n" +
-            "4. Ajouter pommes de terre et carottes, cuire 5 minutes en remuant.\n" +
-            "5. Ajouter les pois verts et lait de coco.\n" +
-            "6. Couvrir et laisser mijoter 15-20 minutes jusqu’à tendreté.\n" +
-            "7. Saler selon goût et servir chaud avec du riz."
-    },
-    en: {
-        title: "Vegetable Curry (India, Serves 4)",
-        equipment: ["1 saucepan", "1 wooden spoon", "1 knife", "1 cutting board"],
-        ingredients: [
-            "200 g potatoes, cubed",
-            "100 g carrots, sliced",
-            "100 g green peas",
-            "1 onion, finely chopped",
-            "2 tbsp vegetable oil",
-            "1 tbsp mild curry paste",
-            "200 ml coconut milk",
-            "1 tsp salt"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in saucepan over medium heat.\n" +
-            "2. Add onion, cook 3 minutes until translucent.\n" +
-            "3. Add curry paste, stir 1 minute.\n" +
-            "4. Add potatoes and carrots, cook 5 minutes stirring.\n" +
-            "5. Add green peas and coconut milk.\n" +
-            "6. Cover and simmer 15-20 minutes until tender.\n" +
-            "7. Season with salt and serve hot with rice."
-    },
-    nl: {
-        title: "Groentencurry (India, voor 4 personen)",
-        equipment: ["1 pan", "1 houten lepel", "1 mes", "1 snijplank"],
-        ingredients: [
-            "200 g aardappelen, in blokjes",
-            "100 g wortels, in plakjes",
-            "100 g groene erwten",
-            "1 ui, fijngehakt",
-            "2 el plantaardige olie",
-            "1 el milde currypasta",
-            "200 ml kokosmelk",
-            "1 tl zout"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan op middelhoog vuur.\n" +
-            "2. Voeg ui toe, bak 3 minuten tot glazig.\n" +
-            "3. Voeg currypasta toe, roer 1 minuut.\n" +
-            "4. Voeg aardappelen en wortels toe, bak 5 minuten terwijl je roert.\n" +
-            "5. Voeg groene erwten en kokosmelk toe.\n" +
-            "6. Dek af en laat 15-20 minuten sudderen tot gaar.\n" +
-            "7. Breng op smaak met zout en serveer met rijst."
-    },
-    ar: {
-        title: "كاري الخضار (الهند، تكفي 4 أشخاص)",
-        equipment: ["1 قدر", "1 ملعقة خشبية", "1 سكين", "1 لوح تقطيع"],
-        ingredients: [
-            "200 غ بطاطس، مقطعة مكعبات",
-            "100 غ جزر، مقطع شرائح",
-            "100 غ بازلاء خضراء",
-            "1 بصل، مفروم ناعماً",
-            "2 ملعقة كبيرة زيت نباتي",
-            "1 ملعقة كبيرة معجون كاري خفيف",
-            "200 مل حليب جوز الهند",
-            "1 ملعقة صغيرة ملح"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت في قدر على نار متوسطة.\n" +
-            "2. أضف البصل واطبخه 3 دقائق حتى يصبح شفاف.\n" +
-            "3. أضف معجون الكاري وقلّب 1 دقيقة.\n" +
-            "4. أضف البطاطس والجزر واطبخ 5 دقائق مع التحريك.\n" +
-            "5. أضف البازلاء وحليب جوز الهند.\n" +
-            "6. غطِّ واتركه ينضج 15-20 دقيقة حتى تصبح الخضار طرية.\n" +
-            "7. ضع الملح حسب الرغبة وقدّم مع الأرز."
-    }
-};
-recipesData.plat.pho_vietnam = {
-    country: "asie",
-    countryName: "vietnam",
-    image: "images/pho_vietnam.jpg",
-    fr: {
-        title: "Pho végétarien (Vietnam, 4 personnes)",
-        equipment: ["1 grande casserole", "1 couteau", "1 planche à découper", "1 louche", "1 bol"],
-        ingredients: [
-            "200 g nouilles de riz",
-            "1 carotte, en fines lamelles",
-            "100 g champignons shiitake, tranchés",
-            "1 oignon, coupé en rondelles",
-            "1 bouquet de coriandre",
-            "1 litre bouillon de légumes",
-            "2 cuillères à soupe sauce soja",
-            "1 cuillère à café sel"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer le bouillon de légumes dans une grande casserole.\n" +
-            "2. Ajouter l’oignon et porter à ébullition 5 minutes.\n" +
-            "3. Ajouter carottes et champignons, cuire 5 minutes.\n" +
-            "4. Pendant ce temps, cuire les nouilles de riz selon les instructions du paquet.\n" +
-            "5. Ajouter sauce soja et sel dans le bouillon.\n" +
-            "6. Répartir les nouilles dans 4 bols, verser le bouillon et légumes dessus.\n" +
-            "7. Garnir de coriandre fraîche et servir chaud."
-    },
-    en: {
-        title: "Vegetarian Pho (Vietnam, Serves 4)",
-        equipment: ["1 large pot", "1 knife", "1 cutting board", "1 ladle", "1 bowl"],
-        ingredients: [
-            "200 g rice noodles",
-            "1 carrot, thinly sliced",
-            "100 g shiitake mushrooms, sliced",
-            "1 onion, sliced",
-            "1 bunch coriander",
-            "1 liter vegetable broth",
-            "2 tbsp soy sauce",
-            "1 tsp salt"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Heat vegetable broth in a large pot.\n" +
-            "2. Add onion and bring to a boil for 5 minutes.\n" +
-            "3. Add carrots and mushrooms, cook 5 minutes.\n" +
-            "4. Meanwhile, cook rice noodles according to package instructions.\n" +
-            "5. Add soy sauce and salt to the broth.\n" +
-            "6. Divide noodles into 4 bowls, pour broth and vegetables over them.\n" +
-            "7. Garnish with fresh coriander and serve hot."
-    },
-    nl: {
-        title: "Vegetarische Pho (Vietnam, voor 4 personen)",
-        equipment: ["1 grote pan", "1 mes", "1 snijplank", "1 pollepel", "1 kom"],
-        ingredients: [
-            "200 g rijstnoedels",
-            "1 wortel, dun gesneden",
-            "100 g shiitake champignons, gesneden",
-            "1 ui, in ringen",
-            "1 bos koriander",
-            "1 liter groentebouillon",
-            "2 el sojasaus",
-            "1 tl zout"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit de groentebouillon in een grote pan.\n" +
-            "2. Voeg ui toe en breng 5 minuten aan de kook.\n" +
-            "3. Voeg wortels en champignons toe, kook 5 minuten.\n" +
-            "4. Kook ondertussen de rijstnoedels volgens de verpakking.\n" +
-            "5. Voeg sojasaus en zout toe aan de bouillon.\n" +
-            "6. Verdeel de noedels over 4 kommen, giet bouillon en groenten erop.\n" +
-            "7. Garneer met verse koriander en serveer warm."
-    },
-    ar: {
-        title: "فو نباتي (فيتنام، تكفي 4 أشخاص)",
-        equipment: ["1 قدر كبير", "1 سكين", "1 لوح تقطيع", "1 مغرفة", "1 وعاء"],
-        ingredients: [
-            "200 غ نودلز أرز",
-            "1 جزرة، شرائح رفيعة",
-            "100 غ فطر شيتاكي، شرائح",
-            "1 بصل، مقطع شرائح",
-            "1 ربطة كزبرة",
-            "1 لتر مرق خضار",
-            "2 ملعقة كبيرة صويا صوص",
-            "1 ملعقة صغيرة ملح"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن مرق الخضار في قدر كبير.\n" +
-            "2. أضف البصل واتركه يغلي 5 دقائق.\n" +
-            "3. أضف الجزرة والفطر، اطبخ 5 دقائق.\n" +
-            "4. اطبخ النودلز حسب تعليمات العبوة.\n" +
-            "5. أضف الصويا صوص والملح إلى المرق.\n" +
-            "6. ضع النودلز في 4 أوعية، واسكب المرق والخضار فوقها.\n" +
-            "7. زيّن بالكزبرة الطازجة وقدّم ساخناً."
-    }
-};
-
-// 7. Shawarma de légumes (Dubai)
-recipesData.plat.shawarma_legumes_dubai = {
-    country: "asie",
-    countryName: "dubai",
-    image: "images/shawarma_legumes_dubai.jpg",
-    fr: {
-        title: "Shawarma de légumes (Dubai, 4 personnes)",
-        equipment: ["1 poêle", "1 couteau", "1 planche à découper", "1 bol"],
-        ingredients: [
-            "4 pains pita",
-            "1 courgette, en lamelles",
-            "1 poivron rouge, en lamelles",
-            "1 oignon, en fines rondelles",
-            "2 cuillères à soupe huile d’olive",
-            "1 cuillère à soupe paprika",
-            "1 cuillère à café sel",
-            "100 ml sauce yaourt nature"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile dans une poêle à feu moyen.\n" +
-            "2. Ajouter oignon et poivron, cuire 3 minutes.\n" +
-            "3. Ajouter courgette, paprika et sel, cuire 5 minutes jusqu’à tendreté.\n" +
-            "4. Réchauffer les pains pita 1 minute.\n" +
-            "5. Garnir chaque pain avec le mélange de légumes.\n" +
-            "6. Ajouter un filet de sauce yaourt et servir chaud."
-    },
-    en: {
-        title: "Vegetable Shawarma (Dubai, Serves 4)",
-        equipment: ["1 pan", "1 knife", "1 cutting board", "1 bowl"],
-        ingredients: [
-            "4 pita breads",
-            "1 zucchini, sliced",
-            "1 red bell pepper, sliced",
-            "1 onion, thinly sliced",
-            "2 tbsp olive oil",
-            "1 tbsp paprika",
-            "1 tsp salt",
-            "100 ml plain yogurt sauce"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in a pan over medium heat.\n" +
-            "2. Add onion and bell pepper, cook 3 minutes.\n" +
-            "3. Add zucchini, paprika and salt, cook 5 minutes until tender.\n" +
-            "4. Warm pita breads 1 minute.\n" +
-            "5. Fill each bread with vegetable mix.\n" +
-            "6. Drizzle yogurt sauce and serve hot."
-    },
-    nl: {
-        title: "Groenteshawarma (Dubai, voor 4 personen)",
-        equipment: ["1 pan", "1 mes", "1 snijplank", "1 kom"],
-        ingredients: [
-            "4 pita broodjes",
-            "1 courgette, in plakjes",
-            "1 rode paprika, in plakjes",
-            "1 ui, dun gesneden",
-            "2 el olijfolie",
-            "1 el paprika",
-            "1 tl zout",
-            "100 ml yoghurtsaus"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan op middelhoog vuur.\n" +
-            "2. Voeg ui en paprika toe, bak 3 minuten.\n" +
-            "3. Voeg courgette, paprika en zout toe, bak 5 minuten tot zacht.\n" +
-            "4. Verwarm pita broodjes 1 minuut.\n" +
-            "5. Vul elk broodje met groentemix.\n" +
-            "6. Besprenkel met yoghurtsaus en serveer warm."
-    },
-    ar: {
-        title: "شاورما خضار (دبي، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة", "1 سكين", "1 لوح تقطيع", "1 وعاء"],
-        ingredients: [
-            "4 أرغفة بيتا",
-            "1 كوسة، شرائح",
-            "1 فلفل أحمر، شرائح",
-            "1 بصل، شرائح رفيعة",
-            "2 ملعقة كبيرة زيت زيتون",
-            "1 ملعقة كبيرة بابريكا",
-            "1 ملعقة صغيرة ملح",
-            "100 مل صلصة زبادي طبيعية"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الزيت في مقلاة على نار متوسطة.\n" +
-            "2. أضف البصل والفلفل، اطبخ 3 دقائق.\n" +
-            "3. أضف الكوسة والبابريكا والملح، اطبخ 5 دقائق حتى تصبح طرية.\n" +
-            "4. سخّن أرغفة البيتا 1 دقيقة.\n" +
-            "5. احشو كل رغيف بخليط الخضار.\n" +
-            "6. أضف صلصة الزبادي وقدّم ساخناً."
-    }
-};
-
-// 8. Nasi Goreng végétarien (Malaisie)
-recipesData.plat.nasi_goreng_malaisie = {
-    country: "asie",
-    countryName: "malaisie",
-    image: "images/nasi_goreng_malaisie.jpg",
-    fr: {
-        title: "Nasi Goreng végétarien (Malaisie, 4 personnes)",
-        equipment: ["1 poêle grande", "1 cuillère en bois", "1 couteau", "1 planche à découper", "1 bol"],
-        ingredients: [
-            "200 g riz cuit",
-            "1 carotte, coupée en petits dés",
-            "100 g petits pois",
-            "1 oignon, haché",
-            "2 cuillères à soupe sauce soja",
-            "1 cuillère à soupe huile végétale",
-            "1 cuillère à café sel"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffer l’huile dans la poêle à feu moyen.\n" +
-            "2. Ajouter l’oignon et cuire 3 minutes jusqu’à translucide.\n" +
-            "3. Ajouter carotte et petits pois, cuire 5 minutes en remuant.\n" +
-            "4. Ajouter le riz cuit et sauce soja, bien mélanger.\n" +
-            "5. Cuire encore 3-4 minutes en remuant.\n" +
-            "6. Saler selon goût et servir chaud."
-    },
-    en: {
-        title: "Vegetarian Nasi Goreng (Malaysia, Serves 4)",
-        equipment: ["1 large pan", "1 wooden spoon", "1 knife", "1 cutting board", "1 bowl"],
-        ingredients: [
-            "200 g cooked rice",
-            "1 carrot, diced",
-            "100 g peas",
-            "1 onion, chopped",
-            "2 tbsp soy sauce",
-            "1 tbsp vegetable oil",
-            "1 tsp salt"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in pan over medium heat.\n" +
-            "2. Add onion and cook 3 minutes until translucent.\n" +
-            "3. Add carrot and peas, cook 5 minutes stirring.\n" +
-            "4. Add cooked rice and soy sauce, mix well.\n" +
-            "5. Cook 3-4 more minutes stirring.\n" +
-            "6. Season with salt and serve hot."
-    },
-    nl: {
-        title: "Vegetarische Nasi Goreng (Maleisië, voor 4 personen)",
-        equipment: ["1 grote pan", "1 houten lepel", "1 mes", "1 snijplank", "1 kom"],
-        ingredients: [
-            "200 g gekookte rijst",
-            "1 wortel, in blokjes",
-            "100 g erwten",
-            "1 ui, gehakt",
-            "2 el sojasaus",
-            "1 el plantaardige olie",
-            "1 tl zout"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in pan op middelhoog vuur.\n" +
-            "2. Voeg ui toe en bak 3 minuten tot glazig.\n" +
-            "3. Voeg wortel en erwten toe, bak 5 minuten roerend.\n" +
-            "4. Voeg gekookte rijst en sojasaus toe, meng goed.\n" +
-            "5. Bak nog 3-4 minuten roerend.\n" +
-            "6. Breng op smaak met zout en serveer warm."
-    },
-    ar: {
-        title: "ناسي جورينغ نباتي (ماليزيا، تكفي 4 أشخاص)",
-        equipment: ["1 مقلاة كبيرة", "1 ملعقة خشبية", "1 سكين", "1 لوح تقطيع", "1 وعاء"],
-        ingredients: [
-            "200 غ أرز مطبوخ",
-            "1 جزرة، مقطعة مكعبات",
-            "100 غ بازلاء",
-            "1 بصل، مفروم",
-            "2 ملعقة كبيرة صويا صوص",
-            "1 ملعقة كبيرة زيت نباتي",
-            "1 ملعقة صغيرة ملح"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخّن الزيت في المقلاة على نار متوسطة.\n" +
-            "2. أضف البصل واطبخه 3 دقائق حتى يصبح شفافاً.\n" +
-            "3. أضف الجزرة والبازلاء، اطبخ 5 دقائق مع التحريك.\n" +
-            "4. أضف الأرز المطبوخ والصويا صوص، اخلط جيداً.\n" +
-            "5. اطبخ 3-4 دقائق إضافية مع التحريك.\n" +
-            "6. ضع الملح حسب الرغبة وقدّم ساخناً."
+            "1. اغْلِ الماء في قدر ثم أضف مكعب مرق الخضار.\n" +
+            "2. أضف فطر الشيتاكي واتركه يطهى لمدة 3 دقائق على نار متوسطة.\n" +
+            "3. أضف مكعبات التوفو واطه لمدة دقيقتين إضافيتين.\n" +
+            "4. خذ مغرفة من المرق الساخن وضعها في وعاء صغير وذوّب فيها معجون الميسو.\n" +
+            "5. ارفع القدر عن النار وأضف الميسو المذاب دون غليانه.\n" +
+            "6. أضف السبانخ وصلصة الصويا والبصل الأخضر.\n" +
+            "7. حرّك بلطف وقدّم الحساء ساخناً."
     }
 };
 recipesData.entree.pad_thai_thailand = {
     country: "asie",
     countryName: "thailande",
     image: "images/pad_thai_thailand.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "pad-thai-thailande",
+            title: "Pad Thai (Thaïlande) – Recette facile et authentique",
+            description: "Découvrez comment préparer le Pad Thai, un grand classique de la cuisine thaïlandaise, avec des ingrédients simples et une préparation rapide.",
+            keywords: [
+                "recette pad thai",
+                "pad thai thailande",
+                "cuisine thailandaise",
+                "recette facile asiatique",
+                "plat traditionnel thailandais",
+                "nouilles de riz crevettes"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Pad Thai (Thaïlande)",
+            "description": "Le Pad Thai est un plat thaïlandais emblématique à base de nouilles de riz sautées aux crevettes, œufs et cacahuètes.",
+            "recipeCuisine": "Thaïlande",
+            "recipeCategory": "Entrée",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT15M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "200 g de nouilles de riz",
+                "150 g de crevettes décortiquées",
+                "2 œufs",
+                "2 cuillères à soupe d’huile végétale",
+                "2 gousses d’ail hachées",
+                "1 oignon émincé",
+                "50 g de pousses de soja",
+                "2 cuillères à soupe de sauce soja",
+                "1 cuillère à soupe de sucre",
+                "1 cuillère à soupe de jus de citron",
+                "2 cuillères à soupe de cacahuètes concassées",
+                "Coriandre fraîche",
+                "Sel"
+            ],
+            "recipeInstructions": [
+                "Cuire les nouilles de riz dans l’eau bouillante puis les égoutter.",
+                "Faire revenir l’ail et l’oignon dans l’huile chaude.",
+                "Ajouter les crevettes et cuire jusqu’à ce qu’elles soient roses.",
+                "Brouiller les œufs dans la poêle.",
+                "Incorporer les nouilles, la sauce soja, le sucre et le jus de citron.",
+                "Ajouter les pousses de soja et mélanger.",
+                "Servir chaud avec cacahuètes et coriandre."
+            ]
+        }
+    },
+
     fr: {
-        title: "Pad Thai (Thaïlande, 4 personnes)",
+        title: "Pad Thai (Thaïlande)",
         equipment: [
             "1 grande poêle ou wok",
             "1 casserole",
+            "1 passoire",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois",
-            "1 bol",
-            "1 passoire"
+            "1 bol"
         ],
         ingredients: [
-            "200 g nouilles de riz",
-            "150 g crevettes décortiquées",
+            "200 g de nouilles de riz",
+            "150 g de crevettes décortiquées",
             "2 œufs",
-            "2 cuillères à soupe huile végétale (30 ml)",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
             "2 gousses d’ail, hachées finement",
-            "1 oignon, coupé en fines lamelles",
-            "50 g pousses de soja",
-            "2 cuillères à soupe sauce soja (30 ml)",
-            "1 cuillère à soupe sucre (15 g)",
-            "1 cuillère à soupe jus de citron (15 ml)",
-            "2 cuillères à soupe cacahuètes concassées (20 g)",
-            "1 branche de coriandre fraîche pour servir",
-            "1/2 cuillère à café sel (1 g)"
+            "1 oignon, émincé",
+            "50 g de pousses de soja",
+            "2 cuillères à soupe de sauce soja (30 ml)",
+            "1 cuillère à soupe de sucre (15 g)",
+            "1 cuillère à soupe de jus de citron frais (15 ml)",
+            "2 cuillères à soupe de cacahuètes concassées (20 g)",
+            "1 petite poignée de coriandre fraîche",
+            "1/2 cuillère à café de sel (1 g)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Faites chauffer une casserole d’eau et portez-la à ébullition.\n" +
-            "2. Plongez les nouilles de riz dans l’eau bouillante et laissez cuire 5 à 7 minutes selon les indications du paquet.\n" +
-            "3. Égouttez les nouilles dans une passoire et réservez.\n" +
-            "4. Faites chauffer 2 cuillères à soupe d’huile dans une grande poêle ou wok à feu moyen.\n" +
-            "5. Ajoutez l’ail haché et faites-le revenir 1 minute jusqu’à ce qu’il dégage son parfum.\n" +
-            "6. Ajoutez l’oignon en lamelles et faites-le sauter 2 à 3 minutes jusqu’à ce qu’il devienne translucide.\n" +
-            "7. Ajoutez les crevettes et faites cuire 3 à 4 minutes jusqu’à ce qu’elles deviennent roses.\n" +
-            "8. Poussez les ingrédients sur le côté de la poêle et cassez les œufs dans l’espace vide.\n" +
-            "9. Remuez doucement pour brouiller les œufs, puis mélangez-les avec le reste des ingrédients.\n" +
-            "10. Ajoutez les nouilles cuites, la sauce soja, le sucre et le jus de citron.\n" +
-            "11. Mélangez bien pendant 2 à 3 minutes pour que les nouilles absorbent la sauce.\n" +
-            "12. Ajoutez les pousses de soja et mélangez rapidement pendant 1 minute.\n" +
-            "13. Goûtez et ajustez le sel si nécessaire.\n" +
-            "14. Servez chaud, parsemez de cacahuètes concassées et de coriandre fraîche."
+            "1. Porter une casserole d’eau à ébullition.\n" +
+            "2. Plonger les nouilles de riz dans l’eau bouillante et cuire 5 à 7 minutes selon les indications du paquet.\n" +
+            "3. Égoutter soigneusement les nouilles et réserver.\n" +
+            "4. Chauffer l’huile dans une grande poêle ou un wok à feu moyen.\n" +
+            "5. Ajouter l’ail haché et faire revenir 1 minute.\n" +
+            "6. Incorporer l’oignon émincé et cuire 2 à 3 minutes jusqu’à ce qu’il devienne translucide.\n" +
+            "7. Ajouter les crevettes et cuire 3 à 4 minutes jusqu’à ce qu’elles soient bien rosées.\n" +
+            "8. Pousser les ingrédients sur le côté et casser les œufs dans la poêle.\n" +
+            "9. Brouiller les œufs puis les mélanger avec le reste.\n" +
+            "10. Ajouter les nouilles, la sauce soja, le sucre et le jus de citron.\n" +
+            "11. Mélanger 2 à 3 minutes pour bien enrober les nouilles.\n" +
+            "12. Incorporer les pousses de soja et cuire encore 1 minute.\n" +
+            "13. Rectifier l’assaisonnement en sel.\n" +
+            "14. Servir chaud, parsemé de cacahuètes et de coriandre fraîche."
     },
+
     en: {
-        title: "Pad Thai (Thailand, Serves 4)",
+        title: "Pad Thai (Thailand)",
         equipment: [
             "1 large pan or wok",
             "1 saucepan",
+            "1 strainer",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
-            "1 bowl",
-            "1 strainer"
+            "1 bowl"
         ],
         ingredients: [
             "200 g rice noodles",
@@ -72629,42 +72736,42 @@ recipesData.entree.pad_thai_thailand = {
             "2 eggs",
             "2 tbsp vegetable oil (30 ml)",
             "2 garlic cloves, finely chopped",
-            "1 onion, sliced thinly",
+            "1 onion, sliced",
             "50 g bean sprouts",
             "2 tbsp soy sauce (30 ml)",
             "1 tbsp sugar (15 g)",
-            "1 tbsp lemon juice (15 ml)",
+            "1 tbsp fresh lemon juice (15 ml)",
             "2 tbsp crushed peanuts (20 g)",
-            "1 sprig fresh coriander for serving",
+            "Fresh coriander",
             "1/2 tsp salt (1 g)"
         ],
         preparation:
-            "Serves 4.\n" +
             "1. Bring a saucepan of water to a boil.\n" +
-            "2. Add rice noodles and cook 5–7 minutes according to package instructions.\n" +
-            "3. Drain noodles in a strainer and set aside.\n" +
-            "4. Heat 2 tbsp oil in a large pan or wok over medium heat.\n" +
-            "5. Add chopped garlic and sauté for 1 minute until fragrant.\n" +
-            "6. Add sliced onion and sauté 2–3 minutes until translucent.\n" +
+            "2. Cook the rice noodles for 5–7 minutes according to package instructions.\n" +
+            "3. Drain well and set aside.\n" +
+            "4. Heat oil in a large pan or wok over medium heat.\n" +
+            "5. Sauté garlic for 1 minute.\n" +
+            "6. Add onion and cook 2–3 minutes until translucent.\n" +
             "7. Add shrimp and cook 3–4 minutes until pink.\n" +
-            "8. Push ingredients to the side of the pan and crack eggs into the empty space.\n" +
-            "9. Stir gently to scramble eggs, then mix with other ingredients.\n" +
-            "10. Add cooked noodles, soy sauce, sugar, and lemon juice.\n" +
-            "11. Stir well for 2–3 minutes until noodles absorb the sauce.\n" +
-            "12. Add bean sprouts and stir quickly for 1 minute.\n" +
-            "13. Taste and adjust salt if needed.\n" +
-            "14. Serve hot, topped with crushed peanuts and fresh coriander."
+            "8. Push ingredients aside and crack eggs into the pan.\n" +
+            "9. Scramble the eggs, then mix with the rest.\n" +
+            "10. Add noodles, soy sauce, sugar and lemon juice.\n" +
+            "11. Stir for 2–3 minutes until evenly coated.\n" +
+            "12. Add bean sprouts and cook 1 more minute.\n" +
+            "13. Adjust salt if needed.\n" +
+            "14. Serve hot topped with peanuts and fresh coriander."
     },
+
     nl: {
-        title: "Pad Thai (Thailand, voor 4 personen)",
+        title: "Pad Thai (Thailand)",
         equipment: [
             "1 grote pan of wok",
             "1 steelpan",
+            "1 vergiet",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
-            "1 kom",
-            "1 vergiet"
+            "1 kom"
         ],
         ingredients: [
             "200 g rijstnoedels",
@@ -72672,717 +72779,2433 @@ recipesData.entree.pad_thai_thailand = {
             "2 eieren",
             "2 eetlepels plantaardige olie (30 ml)",
             "2 teentjes knoflook, fijngehakt",
-            "1 ui, in dunne reepjes",
+            "1 ui, in plakjes",
             "50 g taugé",
             "2 eetlepels sojasaus (30 ml)",
             "1 eetlepel suiker (15 g)",
-            "1 eetlepel citroensap (15 ml)",
+            "1 eetlepel vers citroensap (15 ml)",
             "2 eetlepels gehakte pinda's (20 g)",
-            "1 takje verse koriander voor garnering",
-            "1/2 tl zout (1 g)"
+            "Verse koriander",
+            "1/2 theelepel zout (1 g)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
             "1. Breng een steelpan met water aan de kook.\n" +
-            "2. Voeg de rijstnoedels toe en kook 5–7 minuten volgens de aanwijzingen op de verpakking.\n" +
-            "3. Giet de noedels af in een vergiet en zet opzij.\n" +
-            "4. Verhit 2 eetlepels olie in een grote pan of wok op middelhoog vuur.\n" +
-            "5. Voeg de gehakte knoflook toe en bak 1 minuut tot het geurig is.\n" +
-            "6. Voeg de gesneden ui toe en bak 2–3 minuten tot ze glazig zijn.\n" +
-            "7. Voeg garnalen toe en bak 3–4 minuten tot ze roze zijn.\n" +
-            "8. Schuif de ingrediënten naar één kant van de pan en breek de eieren in de lege ruimte.\n" +
-            "9. Roer zachtjes om de eieren te roerbakken en meng daarna met de rest.\n" +
-            "10. Voeg de gekookte noedels, sojasaus, suiker en citroensap toe.\n" +
-            "11. Meng goed 2–3 minuten zodat de noedels de saus opnemen.\n" +
-            "12. Voeg taugé toe en roer snel 1 minuut.\n" +
-            "13. Proef en voeg indien nodig zout toe.\n" +
-            "14. Serveer warm, bestrooid met gehakte pinda's en verse koriander."
+            "2. Kook de rijstnoedels 5–7 minuten volgens de verpakking.\n" +
+            "3. Giet af en zet opzij.\n" +
+            "4. Verhit olie in een grote pan of wok op middelhoog vuur.\n" +
+            "5. Bak de knoflook 1 minuut.\n" +
+            "6. Voeg de ui toe en bak 2–3 minuten.\n" +
+            "7. Voeg de garnalen toe en bak 3–4 minuten tot ze roze zijn.\n" +
+            "8. Schuif alles opzij en breek de eieren in de pan.\n" +
+            "9. Roer tot roerei en meng met de rest.\n" +
+            "10. Voeg noedels, sojasaus, suiker en citroensap toe.\n" +
+            "11. Roer 2–3 minuten goed door.\n" +
+            "12. Voeg taugé toe en bak nog 1 minuut.\n" +
+            "13. Breng op smaak met zout.\n" +
+            "14. Serveer warm met pinda's en koriander."
     },
+
     ar: {
-        title: "باد تاي (تايلاند، تكفي 4 أشخاص)",
+        title: "باد تاي (تايلاند)",
         equipment: [
-            "1 مقلاة كبيرة أو ووك",
-            "1 قدر",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية",
-            "1 وعاء",
-            "1 مصفاة"
+            "مقلاة كبيرة أو ووك",
+            "قدر",
+            "مصفاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء"
         ],
         ingredients: [
             "200 غ نودلز أرز",
             "150 غ روبيان مقشر",
             "2 بيض",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "2 فص ثوم، مفروم ناعماً",
-            "1 بصلة، مقطعة شرائح رفيعة",
-            "50 غ براعم الفاصوليا",
+            "2 فص ثوم مفروم",
+            "1 بصلة مقطعة شرائح",
+            "50 غ براعم فاصوليا",
             "2 ملعقة كبيرة صلصة صويا (30 مل)",
             "1 ملعقة كبيرة سكر (15 غ)",
-            "1 ملعقة كبيرة عصير ليمون (15 مل)",
+            "1 ملعقة كبيرة عصير ليمون طازج (15 مل)",
             "2 ملعقة كبيرة فول سوداني مطحون (20 غ)",
-            "1 غصن كزبرة طازجة للتزيين",
+            "كزبرة طازجة",
             "1/2 ملعقة صغيرة ملح (1 غ)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اغلي قدر من الماء.\n" +
-            "2. أضف نودلز الأرز واطبخ 5–7 دقائق حسب تعليمات العبوة.\n" +
-            "3. صفِ النودلز في مصفاة وضعها جانباً.\n" +
-            "4. سخّن 2 ملعقة كبيرة زيت في مقلاة كبيرة أو ووك على نار متوسطة.\n" +
-            "5. أضف الثوم المفروم وقلبه دقيقة واحدة حتى تفوح رائحته.\n" +
-            "6. أضف البصل المقطع وقلبه 2–3 دقائق حتى يصبح شفافاً.\n" +
-            "7. أضف الروبيان واطبخه 3–4 دقائق حتى يتحول لونه إلى الوردي.\n" +
-            "8. ادفع المكونات إلى جانب المقلاة وأكسر البيض في المساحة الفارغة.\n" +
-            "9. قلب البيض بلطف حتى يتجانس مع بقية المكونات.\n" +
-            "10. أضف النودلز المطبوخة وصلصة الصويا والسكر وعصير الليمون.\n" +
-            "11. قلب جيداً 2–3 دقائق حتى تمتص النودلز الصلصة.\n" +
-            "12. أضف براعم الفاصوليا وحرك سريعاً دقيقة واحدة.\n" +
-            "13. تذوق وأضف الملح إذا لزم الأمر.\n" +
-            "14. قدمه ساخناً، وزينه بالفول السوداني والكزبرة الطازجة."
+            "1. اغلي قدراً من الماء.\n" +
+            "2. اطبخ نودلز الأرز لمدة 5–7 دقائق حسب التعليمات ثم صفِّها.\n" +
+            "3. سخّن الزيت في مقلاة كبيرة على نار متوسطة.\n" +
+            "4. أضف الثوم وقلّبه دقيقة واحدة.\n" +
+            "5. أضف البصل واطبخه 2–3 دقائق.\n" +
+            "6. أضف الروبيان واطبخه 3–4 دقائق حتى يصبح وردياً.\n" +
+            "7. ادفع المكونات جانباً واكسر البيض في المقلاة.\n" +
+            "8. حرّك البيض حتى ينضج ثم اخلطه مع البقية.\n" +
+            "9. أضف النودلز وصلصة الصويا والسكر وعصير الليمون.\n" +
+            "10. حرّك جيداً لمدة 2–3 دقائق.\n" +
+            "11. أضف براعم الفاصوليا واطبخ دقيقة إضافية.\n" +
+            "12. عدّل الملح حسب الحاجة.\n" +
+            "13. قدّم الطبق ساخناً مع الفول السوداني والكزبرة."
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+recipesData.plat.poulet_curry_thailande = {
+    country: "asie",
+    countryName: "thailande",
+    image: "images/poulet_curry_thailande.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "poulet-curry-thailande",
+            title: "Poulet au curry (Thaïlande) – Facile et parfumé",
+            description: "Découvrez le poulet au curry, un plat traditionnel de Thaïlande, parfumé au lait de coco et simple à préparer à la maison.",
+            keywords: [
+                "recette poulet curry",
+                "poulet curry thailande",
+                "cuisine thailandaise",
+                "plat traditionnel thailande",
+                "recette facile poulet",
+                "curry au lait de coco",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Poulet au curry (Thaïlande)",
+            "description": "Savoureux poulet au curry thaïlandais au lait de coco, facile à préparer et idéal pour un repas parfumé en famille.",
+            "recipeCuisine": "Thaïlande",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT20M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "400 g de filets de poulet",
+                "1 oignon",
+                "1 poivron rouge",
+                "200 ml de lait de coco",
+                "2 cuillères à soupe de pâte de curry doux",
+                "1 cuillère à soupe d’huile végétale",
+                "1 cuillère à café de sel",
+                "250 g de riz basmati",
+                "500 ml d’eau"
+            ],
+            "recipeInstructions": [
+                "Rincer le riz.",
+                "Cuire le riz dans l’eau jusqu’à absorption.",
+                "Faire revenir l’oignon dans l’huile.",
+                "Ajouter le poulet et cuire quelques minutes.",
+                "Incorporer le poivron et la pâte de curry.",
+                "Verser le lait de coco et laisser mijoter.",
+                "Assaisonner et servir avec le riz."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Poulet au curry (Thaïlande)",
+        equipment: [
+            "1 grande poêle ou sauteuse",
+            "1 casserole moyenne",
+            "1 couvercle",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper",
+            "1 verre doseur",
+            "1 passoire",
+            "1 fourchette",
+            "1 plat de service ou grande casserole"
+        ],
+        ingredients: [
+            "400 g de filets de poulet coupés en morceaux",
+            "1 oignon émincé",
+            "1 poivron rouge coupé en lanières",
+            "200 ml de lait de coco",
+            "2 cuillères à soupe de pâte de curry doux",
+            "1 cuillère à soupe d’huile végétale",
+            "1 cuillère à café de sel",
+            "250 g de riz basmati",
+            "500 ml d’eau"
+        ],
+        preparation:
+            "1. Rincer le riz à l’eau froide dans une passoire.\n" +
+            "2. Verser le riz et 500 ml d’eau dans une casserole, couvrir et cuire 10 à 12 minutes jusqu’à absorption complète.\n" +
+            "3. Pendant ce temps, chauffer l’huile dans une grande poêle à feu moyen.\n" +
+            "4. Ajouter l’oignon et faire revenir 3 minutes jusqu’à ce qu’il devienne translucide.\n" +
+            "5. Ajouter les morceaux de poulet et cuire 5 minutes en remuant régulièrement.\n" +
+            "6. Incorporer le poivron rouge et poursuivre la cuisson 2 minutes.\n" +
+            "7. Ajouter la pâte de curry et bien mélanger pour enrober le poulet.\n" +
+            "8. Verser le lait de coco, mélanger et laisser mijoter 10 minutes à feu doux.\n" +
+            "9. Saler selon votre goût.\n" +
+            "10. Égoutter le riz si nécessaire et l’aérer à la fourchette.\n" +
+            "11. Servir le poulet au curry bien chaud accompagné de riz.\n\n" +
+            "==============================\n" +
+            "MON EXPÉRIENCE PERSONNELLE\n" +
+            "==============================\n\n" +
+            "Cette recette est un plat que j’aime particulièrement manger. Je le connaissais seulement de nom au début et un jour, je l’ai trouvé à la carte d’un restaurant. Puis j’ai fait des recherches pour le préparer à la maison.\n" +
+            "Au début, avec des boîtes de sauce toutes faites, c’était déjà bon. Mais en vérité, lorsque je l’ai fait 100 % maison, ce n’était pas comparable du tout, bien meilleur.\n" +
+            "Après, selon vos choix, vous pouvez séparer le poulet et la sauce du riz ou, comme moi, mélanger le tout directement dans un plat ou une casserole afin que le riz soit bien imbibé de sauce.\n" +
+            "Je peux également vous conseiller, si vous n’avez pas toujours le temps de cuisiner, d’en faire de grandes quantités et de les séparer dans des boîtes pour les mettre au surgélateur. Cela se réchauffe bien au micro-ondes et ne perd pas trop de son goût."
+    },
+
+    en: {
+        title: "Chicken Curry (Thailand)",
+        equipment: [
+            "1 large pan or sauté pan",
+            "1 medium saucepan",
+            "1 lid",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 measuring cup",
+            "1 strainer",
+            "1 fork",
+            "1 serving dish or large pot"
+        ],
+        ingredients: [
+            "400 g chicken fillets cut into pieces",
+            "1 onion sliced",
+            "1 red bell pepper sliced",
+            "200 ml coconut milk",
+            "2 tablespoons mild curry paste",
+            "1 tablespoon vegetable oil",
+            "1 teaspoon salt",
+            "250 g basmati rice",
+            "500 ml water"
+        ],
+        preparation:
+            "1. Rinse the rice under cold water using a strainer.\n" +
+            "2. Place rice and 500 ml water in a saucepan, cover and cook for 10 to 12 minutes until fully absorbed.\n" +
+            "3. Meanwhile, heat oil in a large pan over medium heat.\n" +
+            "4. Add the onion and cook for 3 minutes until translucent.\n" +
+            "5. Add the chicken pieces and cook for 5 minutes while stirring.\n" +
+            "6. Add the red bell pepper and cook for 2 minutes.\n" +
+            "7. Stir in the curry paste and mix well to coat the chicken.\n" +
+            "8. Pour in the coconut milk and simmer gently for 10 minutes.\n" +
+            "9. Season with salt to taste.\n" +
+            "10. Fluff the rice with a fork.\n" +
+            "11. Serve the chicken curry hot with rice.\n\n" +
+            "==============================\n" +
+            "PERSONAL EXPERIENCE\n" +
+            "==============================\n\n" +
+            "This recipe is a dish I particularly enjoy eating. At first, I only knew it by name, and one day I found it on a restaurant menu. Then I did some research to prepare it at home.\n" +
+            "At the beginning, using ready-made sauce boxes, it was already good. But honestly, when I made it 100% homemade, it was not comparable at all, much better.\n" +
+            "Depending on your preference, you can separate the chicken and sauce from the rice or, like me, mix everything together in one dish or pot so the rice absorbs all the sauce.\n" +
+            "If you do not always have time to cook, you can also prepare larger quantities and divide them into containers for the freezer. It reheats well in the microwave and does not lose much of its flavor."
+    },
+
+    nl: {
+        title: "Kipcurry (Thailand)",
+        equipment: [
+            "1 grote pan of sauteerpan",
+            "1 middelgrote kookpan",
+            "1 deksel",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 maatbeker",
+            "1 vergiet",
+            "1 vork",
+            "1 serveerschaal of grote pan"
+        ],
+        ingredients: [
+            "400 g kipfilet in stukken",
+            "1 ui gesneden",
+            "1 rode paprika in reepjes",
+            "200 ml kokosmelk",
+            "2 eetlepels milde currypasta",
+            "1 eetlepel plantaardige olie",
+            "1 theelepel zout",
+            "250 g basmatirijst",
+            "500 ml water"
+        ],
+        preparation:
+            "1. Spoel de rijst onder koud water in een vergiet.\n" +
+            "2. Kook de rijst met 500 ml water tot het water volledig is opgenomen.\n" +
+            "3. Verhit de olie in een pan en bak de ui.\n" +
+            "4. Voeg de kip toe en bak enkele minuten.\n" +
+            "5. Voeg paprika en currypasta toe.\n" +
+            "6. Giet de kokosmelk erbij en laat sudderen.\n" +
+            "7. Breng op smaak en serveer met rijst.\n\n" +
+            "==============================\n" +
+            "MIJN PERSOONLIJKE ERVARING\n" +
+            "==============================\n\n" +
+            "Dit recept is een gerecht dat ik bijzonder graag eet. In het begin kende ik het alleen van naam en op een dag vond ik het op de menukaart van een restaurant. Daarna heb ik onderzoek gedaan om het thuis te maken.\n" +
+            "In het begin gebruikte ik kant-en-klare sauzen en dat was al lekker. Maar toen ik het volledig zelf maakte, was het helemaal niet te vergelijken, veel beter.\n" +
+            "Afhankelijk van je voorkeur kun je de kip en saus apart van de rijst serveren of, zoals ik doe, alles samen mengen zodat de rijst alle saus goed opneemt.\n" +
+            "Als je niet altijd tijd hebt om te koken, kun je ook grotere hoeveelheden maken en deze in bakjes invriezen. Het warmt goed op in de magnetron en verliest weinig smaak."
+    },
+
+    ar: {
+        title: "دجاج بالكاري (تايلاند)",
+        equipment: [
+            "مقلاة كبيرة أو قدر عميق",
+            "قدر متوسط",
+            "غطاء",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "كوب قياس",
+            "مصفاة",
+            "شوكة",
+            "طبق تقديم أو قدر كبير"
+        ],
+        ingredients: [
+            "400 غ صدور دجاج مقطعة",
+            "1 بصلة مقطعة شرائح",
+            "1 فلفل أحمر مقطع شرائح",
+            "200 مل حليب جوز الهند",
+            "2 ملعقة كبيرة معجون كاري خفيف",
+            "1 ملعقة كبيرة زيت نباتي",
+            "1 ملعقة صغيرة ملح",
+            "250 غ أرز بسمتي",
+            "500 مل ماء"
+        ],
+        preparation:
+            "1. اغسل الأرز بالماء البارد باستخدام مصفاة.\n" +
+            "2. اطبخ الأرز مع الماء حتى يتشربه بالكامل.\n" +
+            "3. سخّن الزيت في المقلاة وأضف البصل.\n" +
+            "4. أضف الدجاج واطهه لبضع دقائق.\n" +
+            "5. أضف الفلفل ومعجون الكاري.\n" +
+            "6. اسكب حليب جوز الهند واتركه على نار هادئة.\n" +
+            "7. تبّل حسب الرغبة وقدّم مع الأرز.\n\n" +
+            "==============================\n" +
+            "تجربتي الشخصية\n" +
+            "==============================\n\n" +
+            "هذه الوصفة من الأطباق التي أحب تناولها كثيراً. في البداية كنت أعرفها بالاسم فقط، وفي أحد الأيام وجدتها في قائمة أحد المطاعم. بعدها بحثت عن طريقة تحضيرها في المنزل.\n" +
+            "في البداية استخدمت صلصات جاهزة وكان الطعم جيداً، لكن عندما حضرتها بالكامل في البيت كانت النتيجة مختلفة تماماً وأفضل بكثير.\n" +
+            "حسب رغبتكم يمكن تقديم الدجاج والصلصة بجانب الأرز أو خلط كل شيء معاً في طبق واحد حتى يتشرب الأرز الصلصة جيداً.\n" +
+            "وإذا لم يكن لديكم وقت دائماً للطهي، يمكنكم تحضير كمية أكبر وتقسيمها في علب ووضعها في المجمد. يمكن تسخينها في الميكروويف دون أن تفقد الكثير من نكهتها."
+    }
+};
+recipesData.plat.nouilles_legumes_chine = {
+    country: "asie",
+    countryName: "chine",
+    image: "images/nouilles_legumes_chine.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "nouilles-legumes-chine",
+            title: "Nouilles aux légumes (Chine) – Recette facile",
+            description: "Préparez des nouilles sautées aux légumes inspirées de la cuisine chinoise, un plat simple, rapide et savoureux pour toute la famille.",
+            keywords: [
+                "recette nouilles legumes",
+                "nouilles chine",
+                "cuisine chinoise",
+                "plat asiatique facile",
+                "nouilles sautees maison",
+                "recette vegetarienne chine"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Nouilles aux légumes (Chine)",
+            "description": "Nouilles sautées aux légumes croquants, inspirées de la cuisine chinoise et faciles à préparer.",
+            "recipeCuisine": "Chine",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT15M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "250 g de nouilles chinoises",
+                "1 carotte",
+                "1 poivron rouge",
+                "100 g de brocoli",
+                "2 cuillères à soupe de sauce soja",
+                "1 cuillère à soupe d’huile de sésame",
+                "1 cuillère à soupe d’huile végétale",
+                "1 gousse d’ail",
+                "1 cuillère à café de sel"
+            ],
+            "recipeInstructions": [
+                "Cuire les nouilles et les égoutter.",
+                "Couper les légumes en fines lamelles.",
+                "Faire chauffer l’huile dans un wok.",
+                "Faire revenir l’ail et les légumes.",
+                "Ajouter les nouilles et la sauce soja.",
+                "Sauter quelques minutes et servir chaud."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Nouilles aux légumes (Chine)",
+        equipment: [
+            "1 wok ou grande poêle",
+            "1 casserole moyenne",
+            "1 passoire",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper",
+            "1 bol",
+            "1 pince"
+        ],
+        ingredients: [
+            "250 g de nouilles chinoises",
+            "1 carotte coupée en fines lamelles",
+            "1 poivron rouge coupé en lanières",
+            "100 g de brocoli en petits bouquets",
+            "2 cuillères à soupe de sauce soja",
+            "1 cuillère à soupe d’huile de sésame",
+            "1 cuillère à soupe d’huile végétale",
+            "1 gousse d’ail hachée",
+            "1 cuillère à café de sel"
+        ],
+        preparation:
+            "1. Porter une casserole d’eau à ébullition et cuire les nouilles selon les indications du paquet.\n" +
+            "2. Égoutter les nouilles dans une passoire et réserver.\n" +
+            "3. Chauffer l’huile végétale dans un wok à feu moyen.\n" +
+            "4. Ajouter l’ail haché et faire revenir 30 secondes.\n" +
+            "5. Incorporer la carotte et le poivron, cuire 3 minutes en remuant.\n" +
+            "6. Ajouter le brocoli et poursuivre la cuisson 2 minutes pour garder les légumes croquants.\n" +
+            "7. Ajouter les nouilles cuites dans le wok.\n" +
+            "8. Verser la sauce soja et l’huile de sésame.\n" +
+            "9. Mélanger délicatement pendant 2 à 3 minutes jusqu’à ce que tout soit bien chaud.\n" +
+            "10. Saler selon votre goût et servir immédiatement.\n\n" +
+            "==============================\n" +
+            "MON AVIS PERSONNEL\n" +
+            "==============================\n\n" +
+            "Qui ne connaît pas les nouilles instantanées avec leur publicité qui reste dans la tête ?\n" +
+            "Pour en avoir déjà goûté, je peux vous dire que ce n’est ni très bon au goût ni idéal pour la santé. Rien n’est vraiment frais : surtout des épices en poudre et des morceaux de légumes séchés.\n" +
+            "Quoi qu’il en soit, ce n’est pas très long à préparer soi-même avec de vrais légumes frais.\n" +
+            "Et vous verrez, après cela, vous ne voudrez plus d’autres nouilles que les vôtres."
+    },
+
+    en: {
+        title: "Vegetable Noodles (China)",
+        equipment: [
+            "1 wok or large pan",
+            "1 medium saucepan",
+            "1 strainer",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "1 kitchen tongs"
+        ],
+        ingredients: [
+            "250 g Chinese noodles",
+            "1 carrot thinly sliced",
+            "1 red bell pepper sliced",
+            "100 g broccoli florets",
+            "2 tablespoons soy sauce",
+            "1 tablespoon sesame oil",
+            "1 tablespoon vegetable oil",
+            "1 garlic clove minced",
+            "1 teaspoon salt"
+        ],
+        preparation:
+            "1. Bring a pot of water to a boil and cook the noodles according to package instructions.\n" +
+            "2. Drain the noodles using a strainer and set aside.\n" +
+            "3. Heat vegetable oil in a wok over medium heat.\n" +
+            "4. Add minced garlic and sauté for 30 seconds.\n" +
+            "5. Add carrot and bell pepper, cook for 3 minutes while stirring.\n" +
+            "6. Add broccoli and cook for 2 minutes to keep it slightly crisp.\n" +
+            "7. Add the cooked noodles to the wok.\n" +
+            "8. Pour in soy sauce and sesame oil.\n" +
+            "9. Stir gently for 2 to 3 minutes until heated through.\n" +
+            "10. Season with salt and serve immediately.\n\n" +
+            "==============================\n" +
+            "PERSONAL NOTE\n" +
+            "==============================\n\n" +
+            "Who does not know instant noodles with their catchy advertisements?\n" +
+            "Having already tasted them, I can say they are neither very tasty nor really good for your health. Nothing is truly fresh, mostly powdered spices and dried vegetable pieces.\n" +
+            "In any case, it does not take long to prepare them yourself with real fresh vegetables.\n" +
+            "And you will see, after that, you will not want any noodles other than your own."
+    },
+
+    nl: {
+        title: "Noedels met groenten (China)",
+        equipment: [
+            "1 wok of grote pan",
+            "1 middelgrote kookpan",
+            "1 vergiet",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "1 tang"
+        ],
+        ingredients: [
+            "250 g Chinese noedels",
+            "1 wortel in dunne reepjes",
+            "1 rode paprika in reepjes",
+            "100 g broccoli in kleine roosjes",
+            "2 eetlepels sojasaus",
+            "1 eetlepel sesamolie",
+            "1 eetlepel plantaardige olie",
+            "1 teentje knoflook fijngehakt",
+            "1 theelepel zout"
+        ],
+        preparation:
+            "1. Breng een pan met water aan de kook en kook de noedels volgens de verpakking.\n" +
+            "2. Giet de noedels af in een vergiet en zet apart.\n" +
+            "3. Verhit de plantaardige olie in een wok op middelhoog vuur.\n" +
+            "4. Voeg de knoflook toe en bak 30 seconden.\n" +
+            "5. Voeg wortel en paprika toe en bak 3 minuten al roerend.\n" +
+            "6. Voeg broccoli toe en bak nog 2 minuten zodat de groenten knapperig blijven.\n" +
+            "7. Voeg de gekookte noedels toe aan de wok.\n" +
+            "8. Giet de sojasaus en sesamolie erbij.\n" +
+            "9. Roer 2 tot 3 minuten tot alles goed warm is.\n" +
+            "10. Breng op smaak met zout en serveer direct.\n\n" +
+            "==============================\n" +
+            "MIJN MENING\n" +
+            "==============================\n\n" +
+            "Wie kent de instant noedels niet met hun reclame die in je hoofd blijft hangen?\n" +
+            "Omdat ik ze al heb geproefd, kan ik zeggen dat ze niet echt lekker zijn en ook niet goed voor de gezondheid. Niets is echt vers, vooral poederkruiden en gedroogde stukjes groente.\n" +
+            "Hoe dan ook, het kost niet veel tijd om ze zelf te bereiden met echte verse groenten.\n" +
+            "En je zult merken dat je daarna geen andere noedels meer wilt dan je eigen."
+    },
+
+    ar: {
+        title: "نودلز بالخضار (الصين)",
+        equipment: [
+            "مقلاة ووك أو مقلاة كبيرة",
+            "قدر متوسط",
+            "مصفاة",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "ملقط مطبخ"
+        ],
+        ingredients: [
+            "250 غ نودلز صينية",
+            "1 جزرة مقطعة شرائح رفيعة",
+            "1 فلفل أحمر مقطع شرائح",
+            "100 غ بروكلي مقطع زهرات صغيرة",
+            "2 ملعقة كبيرة صلصة صويا",
+            "1 ملعقة كبيرة زيت سمسم",
+            "1 ملعقة كبيرة زيت نباتي",
+            "1 فص ثوم مفروم",
+            "1 ملعقة صغيرة ملح"
+        ],
+        preparation:
+            "1. اغْلِ قدراً من الماء واطبخ النودلز حسب التعليمات.\n" +
+            "2. صفِّ النودلز باستخدام مصفاة واتركها جانباً.\n" +
+            "3. سخّن الزيت النباتي في مقلاة ووك على نار متوسطة.\n" +
+            "4. أضف الثوم وقلّبه لمدة 30 ثانية.\n" +
+            "5. أضف الجزر والفلفل واطبخ 3 دقائق مع التحريك.\n" +
+            "6. أضف البروكلي واطبخ دقيقتين ليبقى مقرمشاً.\n" +
+            "7. أضف النودلز المطبوخة إلى المقلاة.\n" +
+            "8. أضف صلصة الصويا وزيت السمسم.\n" +
+            "9. قلّب لمدة 2 إلى 3 دقائق حتى تسخن جميع المكونات.\n" +
+            "10. أضف الملح حسب الرغبة وقدّم مباشرة.\n\n" +
+            "==============================\n" +
+            "رأيي الشخصي\n" +
+            "==============================\n\n" +
+            "من منا لا يعرف النودلز الجاهزة مع إعلاناتها التي تبقى في الذاكرة؟\n" +
+            "بعد أن جربتها سابقاً أستطيع القول إنها ليست لذيذة جداً ولا مفيدة للصحة. لا شيء فيها طازج، فقط توابل مطحونة وقطع خضار مجففة.\n" +
+            "على أي حال، لا يستغرق تحضيرها في المنزل وقتاً طويلاً باستخدام خضار طازجة حقيقية.\n" +
+            "وسترون أنه بعد ذلك لن ترغبوا في تناول أي نودلز غير التي تحضرونها بأنفسكم."
+    }
+};
+
+
+
+recipesData.plat.bibimbap_coree = {
+    country: "asie",
+    countryName: "coree",
+    image: "images/bibimbap_coree.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 20,
+        difficulty: "medium",
+        seo: {
+            slug: "bibimbap-coree",
+            title: "Bibimbap (Corée) – Recette authentique",
+            description: "Découvrez le bibimbap coréen, un bol de riz garni de légumes savoureux, simple à préparer et inspiré de la cuisine traditionnelle coréenne.",
+            keywords: [
+                "recette bibimbap",
+                "bibimbap coree",
+                "cuisine coreenne",
+                "plat traditionnel coree",
+                "recette asiatique facile",
+                "riz aux legumes coree"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Bibimbap (Corée)",
+            "description": "Bibimbap coréen composé de riz et de légumes sautés, un plat coloré et équilibré facile à préparer.",
+            "recipeCuisine": "Corée",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT20M",
+            "totalTime": "PT40M",
+            "recipeIngredient": [
+                "200 g de riz blanc",
+                "100 g d’épinards frais",
+                "1 carotte",
+                "100 g de champignons shiitake",
+                "1 courgette",
+                "2 cuillères à soupe de sauce soja",
+                "1 cuillère à soupe d’huile de sésame",
+                "1 cuillère à soupe d’huile végétale",
+                "1 cuillère à café de sel",
+                "400 ml d’eau"
+            ],
+            "recipeInstructions": [
+                "Cuire le riz avec l’eau jusqu’à absorption.",
+                "Couper les légumes en fines lamelles.",
+                "Sauter séparément chaque légume dans une poêle.",
+                "Assaisonner légèrement avec du sel.",
+                "Disposer le riz dans un grand bol.",
+                "Ajouter les légumes en sections sur le riz.",
+                "Verser la sauce soja et l’huile de sésame.",
+                "Mélanger avant de servir."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Bibimbap (Corée)",
+        equipment: [
+            "1 grande poêle",
+            "1 casserole moyenne",
+            "1 couvercle",
+            "1 grand bol de service",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper",
+            "1 passoire",
+            "1 verre doseur",
+            "1 spatule"
+        ],
+        ingredients: [
+            "200 g de riz blanc",
+            "400 ml d’eau",
+            "100 g d’épinards frais",
+            "1 carotte coupée en julienne",
+            "100 g de champignons shiitake tranchés",
+            "1 courgette coupée en fines lamelles",
+            "2 cuillères à soupe de sauce soja",
+            "1 cuillère à soupe d’huile de sésame",
+            "1 cuillère à soupe d’huile végétale",
+            "1 cuillère à café de sel"
+        ],
+        preparation:
+            "1. Rincer le riz à l’eau froide dans une passoire.\n" +
+            "2. Mettre le riz et 400 ml d’eau dans une casserole, couvrir et cuire 12 à 15 minutes jusqu’à absorption complète.\n" +
+            "3. Laisser reposer 5 minutes à couvert puis égrainer à la fourchette.\n" +
+            "4. Chauffer un peu d’huile végétale dans une grande poêle.\n" +
+            "5. Sauter les carottes 2 minutes puis réserver.\n" +
+            "6. Sauter les champignons 2 à 3 minutes puis réserver.\n" +
+            "7. Sauter la courgette 1 à 2 minutes puis réserver.\n" +
+            "8. Terminer par les épinards, cuire 1 minute avec une pincée de sel.\n" +
+            "9. Déposer le riz chaud dans un grand bol.\n" +
+            "10. Disposer les légumes en sections harmonieuses sur le riz.\n" +
+            "11. Arroser de sauce soja et d’huile de sésame.\n" +
+            "12. Mélanger juste avant de déguster et servir chaud."
+    },
+
+    en: {
+        title: "Bibimbap (Korea)",
+        equipment: [
+            "1 large pan",
+            "1 medium saucepan",
+            "1 lid",
+            "1 large serving bowl",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 strainer",
+            "1 measuring cup",
+            "1 spatula"
+        ],
+        ingredients: [
+            "200 g white rice",
+            "400 ml water",
+            "100 g fresh spinach",
+            "1 carrot julienned",
+            "100 g shiitake mushrooms sliced",
+            "1 zucchini thinly sliced",
+            "2 tablespoons soy sauce",
+            "1 tablespoon sesame oil",
+            "1 tablespoon vegetable oil",
+            "1 teaspoon salt"
+        ],
+        preparation:
+            "1. Rinse the rice under cold water using a strainer.\n" +
+            "2. Place rice and 400 ml water in a saucepan, cover and cook for 12 to 15 minutes until fully absorbed.\n" +
+            "3. Let it rest covered for 5 minutes, then fluff with a fork.\n" +
+            "4. Heat vegetable oil in a large pan.\n" +
+            "5. Sauté the carrots for 2 minutes and set aside.\n" +
+            "6. Sauté the mushrooms for 2 to 3 minutes and set aside.\n" +
+            "7. Sauté the zucchini for 1 to 2 minutes and set aside.\n" +
+            "8. Finally sauté the spinach for 1 minute with a pinch of salt.\n" +
+            "9. Place the hot rice in a large bowl.\n" +
+            "10. Arrange the vegetables in sections over the rice.\n" +
+            "11. Drizzle with soy sauce and sesame oil.\n" +
+            "12. Mix before serving and enjoy hot."
+    },
+
+    nl: {
+        title: "Bibimbap (Korea)",
+        equipment: [
+            "1 grote pan",
+            "1 middelgrote kookpan",
+            "1 deksel",
+            "1 grote serveerkom",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 vergiet",
+            "1 maatbeker",
+            "1 spatel"
+        ],
+        ingredients: [
+            "200 g witte rijst",
+            "400 ml water",
+            "100 g verse spinazie",
+            "1 wortel in julienne",
+            "100 g shiitake champignons in plakjes",
+            "1 courgette dun gesneden",
+            "2 eetlepels sojasaus",
+            "1 eetlepel sesamolie",
+            "1 eetlepel plantaardige olie",
+            "1 theelepel zout"
+        ],
+        preparation:
+            "1. Spoel de rijst onder koud water in een vergiet.\n" +
+            "2. Doe de rijst met 400 ml water in een pan, dek af en kook 12 tot 15 minuten tot het water is opgenomen.\n" +
+            "3. Laat 5 minuten rusten en maak los met een vork.\n" +
+            "4. Verhit plantaardige olie in een grote pan.\n" +
+            "5. Bak de wortel 2 minuten en zet apart.\n" +
+            "6. Bak de champignons 2 tot 3 minuten en zet apart.\n" +
+            "7. Bak de courgette 1 tot 2 minuten en zet apart.\n" +
+            "8. Bak als laatste de spinazie 1 minuut met een snufje zout.\n" +
+            "9. Doe de warme rijst in een grote kom.\n" +
+            "10. Leg de groenten in aparte secties bovenop de rijst.\n" +
+            "11. Besprenkel met sojasaus en sesamolie.\n" +
+            "12. Meng voor het serveren en serveer warm."
+    },
+
+    ar: {
+        title: "بيبمباب (كوريا)",
+        equipment: [
+            "مقلاة كبيرة",
+            "قدر متوسط",
+            "غطاء",
+            "وعاء تقديم كبير",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "مصفاة",
+            "كوب قياس",
+            "ملعقة مسطحة"
+        ],
+        ingredients: [
+            "200 غ أرز أبيض",
+            "400 مل ماء",
+            "100 غ سبانخ طازجة",
+            "1 جزرة مقطعة شرائح رفيعة",
+            "100 غ فطر شيتاكي مقطع شرائح",
+            "1 كوسة مقطعة شرائح رفيعة",
+            "2 ملعقة كبيرة صلصة صويا",
+            "1 ملعقة كبيرة زيت سمسم",
+            "1 ملعقة كبيرة زيت نباتي",
+            "1 ملعقة صغيرة ملح"
+        ],
+        preparation:
+            "1. اغسل الأرز بالماء البارد باستخدام مصفاة.\n" +
+            "2. ضع الأرز مع 400 مل ماء في قدر وغطّه واتركه يطهى 12 إلى 15 دقيقة حتى يتشرب الماء.\n" +
+            "3. اتركه مغطى 5 دقائق ثم حرّكه بالشوكة.\n" +
+            "4. سخّن الزيت النباتي في مقلاة كبيرة.\n" +
+            "5. اقْلِ الجزر لمدة دقيقتين وضعه جانباً.\n" +
+            "6. اقْلِ الفطر 2 إلى 3 دقائق وضعه جانباً.\n" +
+            "7. اقْلِ الكوسة 1 إلى 2 دقيقة وضعها جانباً.\n" +
+            "8. اقْلِ السبانخ دقيقة واحدة مع رشة ملح.\n" +
+            "9. ضع الأرز الساخن في وعاء كبير.\n" +
+            "10. رتّب الخضار فوق الأرز في أقسام منفصلة.\n" +
+            "11. أضف صلصة الصويا وزيت السمسم.\n" +
+            "12. اخلط قبل التقديم وقدّم ساخناً."
+    }
+};
+recipesData.plat.curry_legumes_inde = {
+    country: "asie",
+    countryName: "inde",
+    image: "images/curry_legumes_inde.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy",
+        seo: {
+            slug: "curry-legumes-inde",
+            title: "Curry de légumes (Inde) – Recette facile",
+            description: "Découvrez le curry de légumes indien, un plat parfumé et réconfortant, simple à préparer avec des ingrédients du quotidien.",
+            keywords: [
+                "recette curry legumes",
+                "curry legumes inde",
+                "cuisine indienne",
+                "plat vegetarien inde",
+                "recette facile curry",
+                "curry maison legumes"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Curry de légumes (Inde)",
+            "description": "Curry de légumes inspiré de la cuisine indienne, crémeux au lait de coco et riche en saveurs.",
+            "recipeCuisine": "Inde",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT25M",
+            "totalTime": "PT40M",
+            "recipeIngredient": [
+                "200 g de pommes de terre",
+                "100 g de carottes",
+                "100 g de pois verts",
+                "1 oignon",
+                "2 cuillères à soupe d’huile végétale",
+                "1 cuillère à soupe de pâte de curry doux",
+                "200 ml de lait de coco",
+                "1 cuillère à café de sel",
+                "250 g de riz basmati",
+                "500 ml d’eau"
+            ],
+            "recipeInstructions": [
+                "Couper les légumes en morceaux.",
+                "Faire revenir l’oignon dans l’huile.",
+                "Ajouter la pâte de curry et mélanger.",
+                "Incorporer les légumes et cuire quelques minutes.",
+                "Ajouter le lait de coco et laisser mijoter.",
+                "Cuire le riz séparément.",
+                "Servir le curry chaud avec le riz."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Curry de légumes (Inde)",
+        equipment: [
+            "1 grande casserole",
+            "1 casserole moyenne",
+            "1 couvercle",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper",
+            "1 verre doseur",
+            "1 passoire",
+            "1 fourchette"
+        ],
+        ingredients: [
+            "200 g de pommes de terre coupées en cubes",
+            "100 g de carottes coupées en rondelles",
+            "100 g de pois verts",
+            "1 oignon finement haché",
+            "2 cuillères à soupe d’huile végétale",
+            "1 cuillère à soupe de pâte de curry doux",
+            "200 ml de lait de coco",
+            "1 cuillère à café de sel",
+            "250 g de riz basmati",
+            "500 ml d’eau"
+        ],
+        preparation:
+            "1. Rincer le riz à l’eau froide dans une passoire.\n" +
+            "2. Mettre le riz et 500 ml d’eau dans une casserole, couvrir et cuire 10 à 12 minutes jusqu’à absorption complète.\n" +
+            "3. Chauffer l’huile dans une grande casserole à feu moyen.\n" +
+            "4. Ajouter l’oignon et cuire 3 minutes jusqu’à ce qu’il devienne translucide.\n" +
+            "5. Ajouter la pâte de curry et mélanger pendant 1 minute pour libérer les arômes.\n" +
+            "6. Incorporer les pommes de terre et les carottes, cuire 5 minutes en remuant.\n" +
+            "7. Ajouter les pois verts puis verser le lait de coco.\n" +
+            "8. Couvrir et laisser mijoter 15 à 20 minutes jusqu’à ce que les légumes soient tendres.\n" +
+            "9. Saler selon votre goût.\n" +
+            "10. Égoutter le riz si nécessaire et l’aérer à la fourchette.\n" +
+            "11. Servir le curry de légumes bien chaud accompagné de riz."
+    },
+
+    en: {
+        title: "Vegetable Curry (India)",
+        equipment: [
+            "1 large saucepan",
+            "1 medium saucepan",
+            "1 lid",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 measuring cup",
+            "1 strainer",
+            "1 fork"
+        ],
+        ingredients: [
+            "200 g potatoes cubed",
+            "100 g carrots sliced",
+            "100 g green peas",
+            "1 onion finely chopped",
+            "2 tablespoons vegetable oil",
+            "1 tablespoon mild curry paste",
+            "200 ml coconut milk",
+            "1 teaspoon salt",
+            "250 g basmati rice",
+            "500 ml water"
+        ],
+        preparation:
+            "1. Rinse the rice under cold water using a strainer.\n" +
+            "2. Place rice and 500 ml water in a saucepan, cover and cook for 10 to 12 minutes until fully absorbed.\n" +
+            "3. Heat oil in a large saucepan over medium heat.\n" +
+            "4. Add onion and cook for 3 minutes until translucent.\n" +
+            "5. Stir in the curry paste and cook for 1 minute.\n" +
+            "6. Add potatoes and carrots, cook for 5 minutes while stirring.\n" +
+            "7. Add green peas and pour in coconut milk.\n" +
+            "8. Cover and simmer for 15 to 20 minutes until vegetables are tender.\n" +
+            "9. Season with salt to taste.\n" +
+            "10. Fluff the rice with a fork.\n" +
+            "11. Serve the vegetable curry hot with rice."
+    },
+
+    nl: {
+        title: "Groentencurry (India)",
+        equipment: [
+            "1 grote pan",
+            "1 middelgrote kookpan",
+            "1 deksel",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 maatbeker",
+            "1 vergiet",
+            "1 vork"
+        ],
+        ingredients: [
+            "200 g aardappelen in blokjes",
+            "100 g wortels in plakjes",
+            "100 g groene erwten",
+            "1 ui fijngehakt",
+            "2 eetlepels plantaardige olie",
+            "1 eetlepel milde currypasta",
+            "200 ml kokosmelk",
+            "1 theelepel zout",
+            "250 g basmatirijst",
+            "500 ml water"
+        ],
+        preparation:
+            "1. Spoel de rijst onder koud water in een vergiet.\n" +
+            "2. Doe de rijst met 500 ml water in een pan, dek af en kook 10 tot 12 minuten tot het water is opgenomen.\n" +
+            "3. Verhit de olie in een grote pan op middelhoog vuur.\n" +
+            "4. Voeg de ui toe en bak 3 minuten tot glazig.\n" +
+            "5. Voeg de currypasta toe en roer 1 minuut.\n" +
+            "6. Voeg aardappelen en wortels toe en bak 5 minuten al roerend.\n" +
+            "7. Voeg de erwten en kokosmelk toe.\n" +
+            "8. Dek af en laat 15 tot 20 minuten sudderen tot de groenten gaar zijn.\n" +
+            "9. Breng op smaak met zout.\n" +
+            "10. Maak de rijst los met een vork.\n" +
+            "11. Serveer de groentencurry warm met rijst."
+    },
+
+    ar: {
+        title: "كاري الخضار (الهند)",
+        equipment: [
+            "قدر كبير",
+            "قدر متوسط",
+            "غطاء",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "كوب قياس",
+            "مصفاة",
+            "شوكة"
+        ],
+        ingredients: [
+            "200 غ بطاطس مقطعة مكعبات",
+            "100 غ جزر مقطع شرائح",
+            "100 غ بازلاء خضراء",
+            "1 بصلة مفرومة ناعماً",
+            "2 ملعقة كبيرة زيت نباتي",
+            "1 ملعقة كبيرة معجون كاري خفيف",
+            "200 مل حليب جوز الهند",
+            "1 ملعقة صغيرة ملح",
+            "250 غ أرز بسمتي",
+            "500 مل ماء"
+        ],
+        preparation:
+            "1. اغسل الأرز بالماء البارد باستخدام مصفاة.\n" +
+            "2. ضع الأرز مع 500 مل ماء في قدر وغطّه واتركه يطهى 10 إلى 12 دقيقة حتى يتشرب الماء.\n" +
+            "3. سخّن الزيت في قدر كبير على نار متوسطة.\n" +
+            "4. أضف البصل واطبخه 3 دقائق حتى يصبح شفافاً.\n" +
+            "5. أضف معجون الكاري وحرّك لمدة دقيقة.\n" +
+            "6. أضف البطاطس والجزر واطبخ 5 دقائق مع التحريك.\n" +
+            "7. أضف البازلاء ثم اسكب حليب جوز الهند.\n" +
+            "8. غطِّ القدر واتركه ينضج 15 إلى 20 دقيقة حتى تصبح الخضار طرية.\n" +
+            "9. أضف الملح حسب الرغبة.\n" +
+            "10. حرّك الأرز بالشوكة لتفكيكه.\n" +
+            "11. قدّم كاري الخضار ساخناً مع الأرز."
+    }
+};
+recipesData.plat.pho_vietnam = {
+    country: "asie",
+    countryName: "vietnam",
+    image: "images/pho_vietnam.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 30,
+        difficulty: "easy",
+        seo: {
+            slug: "pho-vietnam",
+            title: "Pho (Vietnam) – Recette facile et authentique",
+            description: "Découvrez comment préparer le Pho, une soupe traditionnelle du Vietnam aux saveurs parfumées, avec des ingrédients simples et faciles à trouver.",
+            keywords: [
+                "recette pho",
+                "pho vietnam",
+                "soupe vietnamienne",
+                "cuisine vietnam",
+                "recette facile",
+                "plat traditionnel asiatique"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Pho (Vietnam)",
+            "description": "Soupe traditionnelle vietnamienne à base de nouilles de riz et de bouillon parfumé.",
+            "recipeCuisine": "Vietnam",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT30M",
+            "totalTime": "PT50M",
+            "recipeIngredient": [
+                "200 g de nouilles de riz",
+                "1 litre de bouillon de légumes",
+                "1 litre d’eau",
+                "1 carotte en fines lamelles",
+                "100 g de champignons shiitake émincés",
+                "1 oignon émincé",
+                "2 gousses d’ail écrasées",
+                "1 morceau de gingembre frais (2 cm) tranché",
+                "2 cuillères à soupe de sauce soja",
+                "1 cuillère à café de sel",
+                "1 bouquet de coriandre fraîche",
+                "1 citron vert coupé en quartiers"
+            ],
+            "recipeInstructions": [
+                "Faire griller légèrement l’oignon, l’ail et le gingembre dans la casserole.",
+                "Ajouter le bouillon et l’eau puis porter à ébullition.",
+                "Ajouter les carottes et les champignons puis laisser mijoter 15 minutes.",
+                "Cuire les nouilles de riz séparément selon les instructions du paquet.",
+                "Assaisonner le bouillon avec la sauce soja et le sel.",
+                "Répartir les nouilles dans des bols et verser le bouillon chaud avec les légumes.",
+                "Garnir de coriandre fraîche et servir avec du citron vert."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Pho (Vietnam)",
+        equipment: [
+            "1 grande casserole",
+            "1 casserole moyenne",
+            "1 couteau",
+            "1 planche à découper",
+            "1 louche",
+            "1 passoire",
+            "4 bols de service"
+        ],
+        ingredients: [
+            "200 g de nouilles de riz",
+            "1 litre de bouillon de légumes",
+            "1 litre d’eau",
+            "1 carotte, en fines lamelles",
+            "100 g de champignons shiitake, tranchés",
+            "1 oignon, émincé",
+            "2 gousses d’ail, écrasées",
+            "1 morceau de gingembre frais (2 cm), tranché",
+            "2 cuillères à soupe de sauce soja",
+            "1 cuillère à café de sel",
+            "1 bouquet de coriandre fraîche",
+            "1 citron vert, coupé en quartiers"
+        ],
+        preparation:
+            "1. Éplucher l’oignon, l’ail et le gingembre. Les émincer finement.\n" +
+            "2. Chauffer une grande casserole à feu moyen et faire revenir à sec l’oignon, l’ail et le gingembre pendant 2 minutes pour libérer les arômes.\n" +
+            "3. Verser le bouillon de légumes et l’eau. Porter à ébullition.\n" +
+            "4. Ajouter les carottes et les champignons. Laisser mijoter 15 minutes.\n" +
+            "5. Pendant ce temps, cuire les nouilles de riz dans une casserole d’eau chaude selon les indications du paquet puis les égoutter.\n" +
+            "6. Ajouter la sauce soja et le sel dans le bouillon. Goûter et ajuster si nécessaire.\n" +
+            "7. Répartir les nouilles dans les bols.\n" +
+            "8. Verser le bouillon bien chaud avec les légumes par-dessus.\n" +
+            "9. Parsemer de coriandre fraîche et servir immédiatement avec des quartiers de citron vert."
+    },
+
+    en: {
+        title: "Pho (Vietnam)",
+        equipment: [
+            "1 large pot",
+            "1 medium saucepan",
+            "1 knife",
+            "1 cutting board",
+            "1 ladle",
+            "1 strainer",
+            "4 serving bowls"
+        ],
+        ingredients: [
+            "200 g rice noodles",
+            "1 liter vegetable broth",
+            "1 liter water",
+            "1 carrot, thinly sliced",
+            "100 g shiitake mushrooms, sliced",
+            "1 onion, sliced",
+            "2 garlic cloves, crushed",
+            "1 small piece fresh ginger (2 cm), sliced",
+            "2 tablespoons soy sauce",
+            "1 teaspoon salt",
+            "1 bunch fresh coriander",
+            "1 lime, cut into wedges"
+        ],
+        preparation:
+            "1. Peel and slice the onion, garlic, and ginger.\n" +
+            "2. Heat a large pot over medium heat and lightly toast the onion, garlic, and ginger for 2 minutes to release flavors.\n" +
+            "3. Pour in the vegetable broth and water. Bring to a boil.\n" +
+            "4. Add carrots and mushrooms. Simmer for 15 minutes.\n" +
+            "5. Meanwhile, cook the rice noodles in hot water according to package instructions, then drain.\n" +
+            "6. Season the broth with soy sauce and salt. Adjust to taste.\n" +
+            "7. Divide the noodles into bowls.\n" +
+            "8. Pour the hot broth and vegetables over the noodles.\n" +
+            "9. Top with fresh coriander and serve immediately with lime wedges."
+    },
+
+    nl: {
+        title: "Pho (Vietnam)",
+        equipment: [
+            "1 grote pan",
+            "1 middelgrote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 pollepel",
+            "1 vergiet",
+            "4 serveerkommen"
+        ],
+        ingredients: [
+            "200 g rijstnoedels",
+            "1 liter groentebouillon",
+            "1 liter water",
+            "1 wortel, dun gesneden",
+            "100 g shiitake champignons, gesneden",
+            "1 ui, gesneden",
+            "2 teentjes knoflook, geperst",
+            "1 stukje verse gember (2 cm), gesneden",
+            "2 eetlepels sojasaus",
+            "1 theelepel zout",
+            "1 bos verse koriander",
+            "1 limoen, in partjes"
+        ],
+        preparation:
+            "1. Schil en snijd de ui, knoflook en gember.\n" +
+            "2. Verhit een grote pan op middelhoog vuur en rooster de ui, knoflook en gember kort om de aroma’s vrij te maken.\n" +
+            "3. Voeg de groentebouillon en het water toe en breng aan de kook.\n" +
+            "4. Voeg wortel en champignons toe en laat 15 minuten zachtjes koken.\n" +
+            "5. Kook ondertussen de rijstnoedels volgens de aanwijzingen en giet af.\n" +
+            "6. Breng de bouillon op smaak met sojasaus en zout.\n" +
+            "7. Verdeel de noedels over de kommen.\n" +
+            "8. Giet de hete bouillon met groenten erover.\n" +
+            "9. Garneer met koriander en serveer met limoenpartjes."
+    },
+
+    ar: {
+        title: "فو (فيتنام)",
+        equipment: [
+            "قدر كبير",
+            "قدر متوسط",
+            "سكين",
+            "لوح تقطيع",
+            "مغرفة",
+            "مصفاة",
+            "4 أوعية تقديم"
+        ],
+        ingredients: [
+            "200 غ نودلز أرز",
+            "1 لتر مرق خضار",
+            "1 لتر ماء",
+            "1 جزرة مقطعة شرائح رفيعة",
+            "100 غ فطر شيتاكي شرائح",
+            "1 بصلة مقطعة",
+            "2 فص ثوم مهروس",
+            "قطعة زنجبيل طازج (2 سم) شرائح",
+            "2 ملعقة كبيرة صلصة صويا",
+            "1 ملعقة صغيرة ملح",
+            "حزمة كزبرة طازجة",
+            "1 ليمونة مقطعة أرباع"
+        ],
+        preparation:
+            "1. قشّر البصل والثوم والزنجبيل وقطّعها شرائح.\n" +
+            "2. سخّن قدراً كبيراً على نار متوسطة وحمّص البصل والثوم والزنجبيل لمدة دقيقتين لإبراز النكهة.\n" +
+            "3. أضف مرق الخضار والماء واتركه يغلي.\n" +
+            "4. أضف الجزر والفطر واتركه يطهى 15 دقيقة على نار هادئة.\n" +
+            "5. اطبخ نودلز الأرز حسب التعليمات ثم صفّها.\n" +
+            "6. أضف صلصة الصويا والملح إلى المرق وعدّل المذاق.\n" +
+            "7. وزّع النودلز في الأوعية.\n" +
+            "8. اسكب المرق الساخن مع الخضار فوقها.\n" +
+            "9. زيّن بالكزبرة الطازجة وقدّم مع أرباع الليمون."
+    }
+};
+recipesData.plat.shawarma_legumes_dubai = {
+    country: "asie",
+    countryName: "emirats arabes unis",
+    image: "images/shawarma_legumes_dubai.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "shawarma-legumes-emirats-arabes-unis",
+            title: "Shawarma de légumes (Émirats arabes unis) – Recette facile",
+            description: "Découvrez comment préparer un shawarma de légumes inspiré des Émirats arabes unis, garni de légumes savoureux et d’une sauce onctueuse maison.",
+            keywords: [
+                "recette shawarma",
+                "shawarma legumes emirats arabes unis",
+                "cuisine emiratie",
+                "shawarma vegetarien",
+                "recette facile",
+                "street food moyen orient"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Shawarma de légumes (Émirats arabes unis)",
+            "description": "Pain pita garni de légumes sautés et sauce au yaourt parfumée.",
+            "recipeCuisine": "Émirats arabes unis",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT15M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "4 pains pita",
+                "1 courgette en lamelles",
+                "1 poivron rouge en lamelles",
+                "1 poivron jaune en lamelles",
+                "1 oignon en fines rondelles",
+                "2 cuillères à soupe d’huile d’olive",
+                "1 cuillère à soupe de paprika",
+                "1/2 cuillère à café de cumin",
+                "1 cuillère à café de sel",
+                "100 ml de yaourt nature",
+                "1 cuillère à soupe de jus de citron",
+                "1 petite gousse d’ail râpée"
+            ],
+            "recipeInstructions": [
+                "Couper tous les légumes en fines lamelles.",
+                "Faire chauffer l’huile dans une poêle et faire revenir l’oignon.",
+                "Ajouter les poivrons et la courgette puis cuire jusqu’à tendreté.",
+                "Ajouter paprika, cumin et sel puis mélanger.",
+                "Mélanger le yaourt, le jus de citron et l’ail pour la sauce.",
+                "Réchauffer les pains pita.",
+                "Garnir avec les légumes et napper de sauce avant de servir."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Shawarma de légumes (Émirats arabes unis)",
+        equipment: [
+            "1 grande poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 bol",
+            "1 cuillère",
+            "1 spatule",
+            "1 presse-ail"
+        ],
+        ingredients: [
+            "4 pains pita",
+            "1 courgette, en lamelles",
+            "1 poivron rouge, en lamelles",
+            "1 poivron jaune, en lamelles",
+            "1 oignon, en fines rondelles",
+            "2 cuillères à soupe d’huile d’olive",
+            "1 cuillère à soupe de paprika",
+            "1/2 cuillère à café de cumin",
+            "1 cuillère à café de sel",
+            "100 ml de yaourt nature",
+            "1 cuillère à soupe de jus de citron",
+            "1 petite gousse d’ail, râpée"
+        ],
+        preparation:
+            "1. Laver et couper tous les légumes en fines lamelles régulières.\n" +
+            "2. Chauffer l’huile d’olive dans une grande poêle à feu moyen.\n" +
+            "3. Ajouter l’oignon et faire revenir 2 à 3 minutes jusqu’à ce qu’il devienne fondant.\n" +
+            "4. Ajouter les poivrons et la courgette. Cuire 6 à 8 minutes en remuant régulièrement.\n" +
+            "5. Incorporer le paprika, le cumin et le sel. Mélanger soigneusement.\n" +
+            "6. Dans un bol, mélanger le yaourt, le jus de citron et l’ail râpé pour préparer la sauce.\n" +
+            "7. Réchauffer les pains pita quelques secondes dans une poêle ou au four.\n" +
+            "8. Garnir chaque pain de légumes chauds.\n" +
+            "9. Ajouter un filet de sauce au yaourt et servir immédiatement."
+    },
+
+    en: {
+        title: "Vegetable Shawarma (United Arab Emirates)",
+        equipment: [
+            "1 large pan",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl",
+            "1 spoon",
+            "1 spatula",
+            "1 garlic press"
+        ],
+        ingredients: [
+            "4 pita breads",
+            "1 zucchini, sliced",
+            "1 red bell pepper, sliced",
+            "1 yellow bell pepper, sliced",
+            "1 onion, thinly sliced",
+            "2 tablespoons olive oil",
+            "1 tablespoon paprika",
+            "1/2 teaspoon cumin",
+            "1 teaspoon salt",
+            "100 ml plain yogurt",
+            "1 tablespoon lemon juice",
+            "1 small garlic clove, grated"
+        ],
+        preparation:
+            "1. Wash and slice all vegetables into thin strips.\n" +
+            "2. Heat olive oil in a large pan over medium heat.\n" +
+            "3. Add onion and cook for 2–3 minutes until soft.\n" +
+            "4. Add bell peppers and zucchini. Cook for 6–8 minutes, stirring regularly.\n" +
+            "5. Stir in paprika, cumin, and salt.\n" +
+            "6. In a bowl, mix yogurt, lemon juice, and grated garlic to prepare the sauce.\n" +
+            "7. Warm the pita breads briefly in a pan or oven.\n" +
+            "8. Fill each bread with the hot vegetables.\n" +
+            "9. Drizzle with yogurt sauce and serve immediately."
+    },
+
+    nl: {
+        title: "Groenteshawarma (Verenigde Arabische Emiraten)",
+        equipment: [
+            "1 grote pan",
+            "1 mes",
+            "1 snijplank",
+            "1 kom",
+            "1 lepel",
+            "1 spatel",
+            "1 knoflookpers"
+        ],
+        ingredients: [
+            "4 pitabroodjes",
+            "1 courgette, in reepjes",
+            "1 rode paprika, in reepjes",
+            "1 gele paprika, in reepjes",
+            "1 ui, dun gesneden",
+            "2 eetlepels olijfolie",
+            "1 eetlepel paprikapoeder",
+            "1/2 theelepel komijn",
+            "1 theelepel zout",
+            "100 ml natuuryoghurt",
+            "1 eetlepel citroensap",
+            "1 klein teentje knoflook, geraspt"
+        ],
+        preparation:
+            "1. Was en snijd alle groenten in dunne reepjes.\n" +
+            "2. Verhit de olijfolie in een grote pan op middelhoog vuur.\n" +
+            "3. Voeg de ui toe en bak 2–3 minuten tot zacht.\n" +
+            "4. Voeg paprika en courgette toe en bak 6–8 minuten.\n" +
+            "5. Voeg paprikapoeder, komijn en zout toe en meng goed.\n" +
+            "6. Meng yoghurt, citroensap en knoflook in een kom voor de saus.\n" +
+            "7. Verwarm de pitabroodjes kort.\n" +
+            "8. Vul met de warme groenten.\n" +
+            "9. Besprenkel met yoghurtsaus en serveer direct."
+    },
+
+    ar: {
+        title: "شاورما خضار (الإمارات العربية المتحدة)",
+        equipment: [
+            "مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء",
+            "ملعقة",
+            "ملعقة مسطحة",
+            "عصارة ثوم"
+        ],
+        ingredients: [
+            "4 أرغفة بيتا",
+            "1 كوسة شرائح",
+            "1 فلفل أحمر شرائح",
+            "1 فلفل أصفر شرائح",
+            "1 بصل شرائح رفيعة",
+            "2 ملعقة كبيرة زيت زيتون",
+            "1 ملعقة كبيرة بابريكا",
+            "نصف ملعقة صغيرة كمون",
+            "1 ملعقة صغيرة ملح",
+            "100 مل زبادي طبيعي",
+            "1 ملعقة كبيرة عصير ليمون",
+            "1 فص ثوم مبشور"
+        ],
+        preparation:
+            "1. اغسل الخضار وقطّعها إلى شرائح رفيعة.\n" +
+            "2. سخّن زيت الزيتون في مقلاة كبيرة على نار متوسطة.\n" +
+            "3. أضف البصل واطهه لمدة 2 إلى 3 دقائق حتى يلين.\n" +
+            "4. أضف الفلفل والكوسة واطبخ 6 إلى 8 دقائق مع التحريك.\n" +
+            "5. أضف البابريكا والكمون والملح وامزج جيداً.\n" +
+            "6. اخلط الزبادي مع عصير الليمون والثوم لتحضير الصلصة.\n" +
+            "7. سخّن خبز البيتا قليلاً.\n" +
+            "8. احشِ الخبز بالخضار الساخنة.\n" +
+            "9. أضف صلصة الزبادي وقدّم فوراً."
+    }
+};
+recipesData.plat.nasi_goreng_malaisie = {
+    country: "asie",
+    countryName: "malaisie",
+    image: "images/nasi_goreng_malaisie.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "nasi-goreng-malaisie",
+            title: "Nasi Goreng (Malaisie) – Recette facile maison",
+            description: "Apprenez à préparer le Nasi Goreng, un plat emblématique de Malaisie à base de riz sauté parfumé et légumes savoureux.",
+            keywords: [
+                "recette nasi goreng",
+                "nasi goreng malaisie",
+                "riz saute malaisien",
+                "cuisine malaisie",
+                "recette facile",
+                "plat asiatique traditionnel"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Nasi Goreng (Malaisie)",
+            "description": "Riz sauté traditionnel malaisien aux légumes et sauce soja.",
+            "recipeCuisine": "Malaisie",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT15M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "300 g de riz cuit refroidi",
+                "1 carotte en petits dés",
+                "100 g de petits pois",
+                "1 oignon haché",
+                "1 gousse d’ail hachée",
+                "2 cuillères à soupe de sauce soja",
+                "1 cuillère à soupe d’huile végétale",
+                "1 cuillère à café de sel"
+            ],
+            "recipeInstructions": [
+                "Chauffer l’huile dans une grande poêle.",
+                "Faire revenir l’oignon et l’ail.",
+                "Ajouter la carotte et les petits pois puis cuire quelques minutes.",
+                "Incorporer le riz froid et bien mélanger.",
+                "Ajouter la sauce soja et le sel.",
+                "Faire sauter quelques minutes et servir chaud."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Nasi Goreng (Malaisie)",
+        equipment: [
+            "1 grande poêle ou wok",
+            "1 cuillère en bois",
+            "1 couteau",
+            "1 planche à découper",
+            "1 bol"
+        ],
+        ingredients: [
+            "300 g de riz cuit refroidi",
+            "1 carotte, coupée en petits dés",
+            "100 g de petits pois",
+            "1 oignon, haché",
+            "1 gousse d’ail, hachée",
+            "2 cuillères à soupe de sauce soja",
+            "1 cuillère à soupe d’huile végétale",
+            "1 cuillère à café de sel"
+        ],
+        preparation:
+            "1. Chauffer l’huile dans une grande poêle ou un wok à feu moyen.\n" +
+            "2. Ajouter l’oignon et l’ail puis faire revenir 2 à 3 minutes.\n" +
+            "3. Incorporer la carotte et les petits pois. Cuire 5 minutes en remuant.\n" +
+            "4. Ajouter le riz froid en séparant bien les grains.\n" +
+            "5. Verser la sauce soja et mélanger soigneusement.\n" +
+            "6. Faire sauter 3 à 4 minutes supplémentaires.\n" +
+            "7. Rectifier l’assaisonnement avec le sel si nécessaire.\n" +
+            "8. Servir bien chaud."
+    },
+
+    en: {
+        title: "Nasi Goreng (Malaysia)",
+        equipment: [
+            "1 large pan or wok",
+            "1 wooden spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 bowl"
+        ],
+        ingredients: [
+            "300 g cooked chilled rice",
+            "1 carrot, diced",
+            "100 g peas",
+            "1 onion, chopped",
+            "1 garlic clove, chopped",
+            "2 tablespoons soy sauce",
+            "1 tablespoon vegetable oil",
+            "1 teaspoon salt"
+        ],
+        preparation:
+            "1. Heat oil in a large pan or wok over medium heat.\n" +
+            "2. Add onion and garlic, cook for 2–3 minutes.\n" +
+            "3. Add carrot and peas, cook for 5 minutes while stirring.\n" +
+            "4. Add the chilled rice and separate the grains.\n" +
+            "5. Pour in soy sauce and mix well.\n" +
+            "6. Stir-fry for another 3–4 minutes.\n" +
+            "7. Adjust seasoning with salt if needed.\n" +
+            "8. Serve hot."
+    },
+
+    nl: {
+        title: "Nasi Goreng (Maleisië)",
+        equipment: [
+            "1 grote pan of wok",
+            "1 houten lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 kom"
+        ],
+        ingredients: [
+            "300 g gekookte afgekoelde rijst",
+            "1 wortel, in blokjes",
+            "100 g erwten",
+            "1 ui, gehakt",
+            "1 teentje knoflook, gehakt",
+            "2 eetlepels sojasaus",
+            "1 eetlepel plantaardige olie",
+            "1 theelepel zout"
+        ],
+        preparation:
+            "1. Verhit de olie in een grote pan of wok op middelhoog vuur.\n" +
+            "2. Voeg ui en knoflook toe en bak 2–3 minuten.\n" +
+            "3. Voeg wortel en erwten toe en bak 5 minuten.\n" +
+            "4. Voeg de afgekoelde rijst toe en maak de korrels los.\n" +
+            "5. Voeg sojasaus toe en meng goed.\n" +
+            "6. Roerbak nog 3–4 minuten.\n" +
+            "7. Breng op smaak met zout indien nodig.\n" +
+            "8. Serveer warm."
+    },
+
+    ar: {
+        title: "ناسي جورينغ (ماليزيا)",
+        equipment: [
+            "مقلاة كبيرة أو ووك",
+            "ملعقة خشبية",
+            "سكين",
+            "لوح تقطيع",
+            "وعاء"
+        ],
+        ingredients: [
+            "300 غ أرز مطبوخ ومبرّد",
+            "1 جزرة مكعبات صغيرة",
+            "100 غ بازلاء",
+            "1 بصل مفروم",
+            "1 فص ثوم مفروم",
+            "2 ملعقة كبيرة صلصة صويا",
+            "1 ملعقة كبيرة زيت نباتي",
+            "1 ملعقة صغيرة ملح"
+        ],
+        preparation:
+            "1. سخّن الزيت في مقلاة كبيرة أو ووك على نار متوسطة.\n" +
+            "2. أضف البصل والثوم واطههما لمدة 2 إلى 3 دقائق.\n" +
+            "3. أضف الجزر والبازلاء واطبخ 5 دقائق مع التحريك.\n" +
+            "4. أضف الأرز المبرّد وحرّكه لتفكيك الحبوب.\n" +
+            "5. أضف صلصة الصويا وامزج جيداً.\n" +
+            "6. استمر في التقليب 3 إلى 4 دقائق إضافية.\n" +
+            "7. عدّل الملح حسب الحاجة.\n" +
+            "8. قدّم ساخناً."
     }
 };
 recipesData.plat.poulet_curry_inde = {
     country: "asie",
     countryName: "inde",
-    image: "images/poulet_curry_inde.jpg",
+    image: "images/poulet-curry-inde.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 25,
+        difficulty: "easy",
+        seo: {
+            slug: "poulet-curry-inde",
+            title: "Poulet Curry (Inde) – Recette facile et authentique",
+            description: "Découvrez comment préparer le Poulet Curry, une spécialité traditionnelle de l’Inde, avec des épices parfumées et une sauce onctueuse au lait de coco.",
+            keywords: [
+                "recette poulet curry",
+                "poulet curry inde",
+                "cuisine indienne",
+                "plat traditionnel inde",
+                "recette facile poulet",
+                "curry maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Poulet Curry (Inde)",
+            "description": "Le Poulet Curry est un plat indien parfumé aux épices et au lait de coco, simple à préparer et riche en saveurs.",
+            "recipeCuisine": "Inde",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT25M",
+            "totalTime": "PT40M",
+            "recipeIngredient": [
+                "500 g de blancs de poulet",
+                "2 cuillères à soupe d’huile végétale",
+                "1 oignon",
+                "2 gousses d’ail",
+                "2 cm de gingembre frais",
+                "2 tomates",
+                "200 ml de lait de coco",
+                "1 cuillère à soupe de poudre de curry",
+                "1/2 cuillère à café de curcuma",
+                "1/2 cuillère à café de sel",
+                "1 pincée de poivre",
+                "Coriandre fraîche"
+            ],
+            "recipeInstructions": [
+                "Faire revenir l’oignon dans l’huile chaude.",
+                "Ajouter l’ail et le gingembre puis cuire 1 minute.",
+                "Incorporer le poulet et le faire dorer.",
+                "Ajouter les tomates et les épices.",
+                "Verser le lait de coco et laisser mijoter 15 minutes.",
+                "Servir chaud avec de la coriandre fraîche."
+            ]
+        }
+    },
+
     fr: {
-        title: "Poulet Curry (Inde, 4 personnes)",
+        title: "Poulet Curry (Inde)",
         equipment: [
             "1 grande poêle ou wok",
             "1 casserole",
-            "1 couteau",
+            "1 couteau bien aiguisé",
             "1 planche à découper",
             "1 cuillère en bois",
             "1 bol",
-            "1 verre doseur"
+            "1 verre doseur",
+            "1 râpe fine",
+            "1 couvercle"
         ],
         ingredients: [
             "500 g de blancs de poulet, coupés en morceaux",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1 oignon, émincé",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1 oignon moyen, émincé finement",
             "2 gousses d’ail, hachées finement",
             "1 morceau de gingembre frais (2 cm), râpé",
             "2 tomates moyennes, coupées en dés",
-            "200 ml lait de coco",
-            "1 cuillère à soupe poudre de curry doux (15 g)",
-            "1/2 cuillère à café curcuma (1 g)",
-            "1/2 cuillère à café sel (1 g)",
-            "1 pincée de poivre (0.5 g)",
+            "200 ml de lait de coco",
+            "1 cuillère à soupe de poudre de curry doux (15 g)",
+            "1/2 cuillère à café de curcuma (1 g)",
+            "1/2 cuillère à café de sel (1 g)",
+            "1 pincée de poivre (0,5 g)",
             "Quelques feuilles de coriandre fraîche pour garnir"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Chauffez l’huile dans une grande poêle à feu moyen.\n" +
-            "2. Ajoutez l’oignon émincé et faites-le revenir 3 à 4 minutes jusqu’à ce qu’il devienne translucide.\n" +
-            "3. Ajoutez l’ail et le gingembre râpé, mélangez 1 minute.\n" +
-            "4. Ajoutez les morceaux de poulet et faites-les cuire 5 à 6 minutes jusqu’à ce qu’ils soient légèrement dorés.\n" +
-            "5. Incorporez les tomates en dés et faites cuire 2 minutes jusqu’à ce qu’elles deviennent tendres.\n" +
-            "6. Ajoutez la poudre de curry, le curcuma, le sel et le poivre. Mélangez bien pour enrober le poulet.\n" +
-            "7. Versez le lait de coco, mélangez, puis baissez le feu à doux.\n" +
-            "8. Couvrez et laissez mijoter 15 minutes en remuant de temps en temps.\n" +
-            "9. Vérifiez la cuisson du poulet. Si la sauce est trop liquide, retirez le couvercle et laissez réduire 3 à 5 minutes.\n" +
-            "10. Servez chaud, garni de feuilles de coriandre fraîche."
+            "1. Préparer tous les ingrédients : émincer l’oignon, hacher l’ail, râper le gingembre et couper les tomates en dés.\n" +
+            "2. Chauffer l’huile dans une grande poêle à feu moyen.\n" +
+            "3. Ajouter l’oignon et faire revenir 3 à 4 minutes jusqu’à ce qu’il devienne translucide.\n" +
+            "4. Incorporer l’ail et le gingembre râpé, puis mélanger pendant 1 minute.\n" +
+            "5. Ajouter les morceaux de poulet et les faire dorer 5 à 6 minutes.\n" +
+            "6. Ajouter les tomates en dés et cuire 2 à 3 minutes.\n" +
+            "7. Ajouter le curry, le curcuma, le sel et le poivre. Bien mélanger.\n" +
+            "8. Verser le lait de coco et remuer.\n" +
+            "9. Couvrir et laisser mijoter à feu doux pendant 15 minutes.\n" +
+            "10. Découvrir et laisser réduire légèrement si nécessaire.\n" +
+            "11. Servir chaud avec de la coriandre fraîche.\n\n" +
+            "==============================\n" +
+            "INFORMATIONS COMPLÉMENTAIRES\n" +
+            "==============================\n\n" +
+            "Ce Poulet Curry indien est différent du curry thaïlandais par ses épices et sa base aromatique, mais le principe reste similaire : laisser mijoter doucement afin que toutes les saveurs se mélangent parfaitement. Comme beaucoup de plats mijotés, il est encore meilleur le lendemain. Il peut également être surgélé dans un récipient hermétique pour un repas pratique et savoureux."
     },
+
     en: {
-        title: "Chicken Curry (India, Serves 4)",
+        title: "Chicken Curry (India)",
         equipment: [
             "1 large pan or wok",
             "1 saucepan",
-            "1 knife",
+            "1 sharp knife",
             "1 cutting board",
             "1 wooden spoon",
             "1 bowl",
-            "1 measuring cup"
+            "1 measuring cup",
+            "1 fine grater",
+            "1 lid"
         ],
         ingredients: [
             "500 g chicken breast, cut into pieces",
-            "2 tbsp vegetable oil (30 ml)",
-            "1 onion, sliced",
+            "2 tablespoons vegetable oil (30 ml)",
+            "1 medium onion, finely sliced",
             "2 garlic cloves, finely chopped",
             "2 cm fresh ginger, grated",
             "2 medium tomatoes, diced",
             "200 ml coconut milk",
-            "1 tbsp mild curry powder (15 g)",
-            "1/2 tsp turmeric (1 g)",
-            "1/2 tsp salt (1 g)",
+            "1 tablespoon mild curry powder (15 g)",
+            "1/2 teaspoon turmeric (1 g)",
+            "1/2 teaspoon salt (1 g)",
             "A pinch of pepper (0.5 g)",
             "Fresh coriander leaves for garnish"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Heat oil in a large pan over medium heat.\n" +
-            "2. Add sliced onion and sauté 3–4 minutes until translucent.\n" +
-            "3. Add garlic and grated ginger, cook 1 minute.\n" +
-            "4. Add chicken pieces and cook 5–6 minutes until lightly browned.\n" +
-            "5. Add diced tomatoes and cook 2 minutes until soft.\n" +
-            "6. Stir in curry powder, turmeric, salt, and pepper. Mix well to coat the chicken.\n" +
-            "7. Pour in coconut milk, mix, reduce heat to low.\n" +
-            "8. Cover and simmer 15 minutes, stirring occasionally.\n" +
-            "9. Check chicken is fully cooked. If sauce is too thin, remove lid and simmer 3–5 more minutes.\n" +
-            "10. Serve hot, garnished with fresh coriander leaves."
+            "1. Prepare all ingredients: slice the onion, chop the garlic, grate the ginger and dice the tomatoes.\n" +
+            "2. Heat the oil in a large pan over medium heat.\n" +
+            "3. Add the onion and sauté for 3–4 minutes until translucent.\n" +
+            "4. Stir in the garlic and ginger and cook for 1 minute.\n" +
+            "5. Add the chicken and cook for 5–6 minutes until lightly browned.\n" +
+            "6. Add the tomatoes and cook for 2–3 minutes.\n" +
+            "7. Add curry powder, turmeric, salt and pepper. Mix well.\n" +
+            "8. Pour in the coconut milk and stir.\n" +
+            "9. Cover and simmer for 15 minutes.\n" +
+            "10. Remove the lid and reduce slightly if needed.\n" +
+            "11. Serve hot with fresh coriander.\n\n" +
+            "==============================\n" +
+            "ADDITIONAL INFORMATION\n" +
+            "==============================\n\n" +
+            "This Indian Chicken Curry differs from Thai curry in its spice blend and aromatic base, yet the principle remains the same: slow cooking allows the flavors to blend perfectly. Like many simmered dishes, it tastes even better the next day. It can also be frozen in an airtight container for later use."
     },
+
     nl: {
-        title: "Kip Curry (India, voor 4 personen)",
+        title: "Kip Curry (India)",
         equipment: [
             "1 grote pan of wok",
             "1 steelpan",
-            "1 mes",
+            "1 scherp mes",
             "1 snijplank",
             "1 houten lepel",
             "1 kom",
-            "1 maatbeker"
+            "1 maatbeker",
+            "1 fijne rasp",
+            "1 deksel"
         ],
         ingredients: [
-            "500 g kipfilet, in stukjes",
+            "500 g kipfilet, in stukjes gesneden",
             "2 eetlepels plantaardige olie (30 ml)",
-            "1 ui, gesneden",
+            "1 middelgrote ui, fijngesneden",
             "2 teentjes knoflook, fijngehakt",
             "2 cm verse gember, geraspt",
             "2 middelgrote tomaten, in blokjes",
             "200 ml kokosmelk",
             "1 eetlepel milde currypoeder (15 g)",
-            "1/2 tl kurkuma (1 g)",
-            "1/2 tl zout (1 g)",
+            "1/2 theelepel kurkuma (1 g)",
+            "1/2 theelepel zout (1 g)",
             "Snufje peper (0,5 g)",
-            "Verse korianderblaadjes voor garnering"
+            "Verse korianderblaadjes ter garnering"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Verhit olie in een grote pan op middelhoog vuur.\n" +
-            "2. Voeg gesneden ui toe en bak 3–4 minuten tot glazig.\n" +
-            "3. Voeg knoflook en geraspte gember toe, bak 1 minuut.\n" +
-            "4. Voeg kipstukjes toe en bak 5–6 minuten tot lichtbruin.\n" +
-            "5. Voeg tomatenblokjes toe en bak 2 minuten tot zacht.\n" +
-            "6. Voeg currypoeder, kurkuma, zout en peper toe. Meng goed zodat de kip bedekt is.\n" +
-            "7. Voeg kokosmelk toe, meng en zet vuur laag.\n" +
-            "8. Dek af en laat 15 minuten sudderen, af en toe roeren.\n" +
-            "9. Controleer of de kip volledig gaar is. Indien saus te dun is, laat 3–5 minuten zonder deksel inkoken.\n" +
-            "10. Serveer heet, gegarneerd met verse koriander."
+            "1. Bereid alle ingrediënten.\n" +
+            "2. Verhit de olie in een pan.\n" +
+            "3. Bak de ui tot glazig.\n" +
+            "4. Voeg knoflook en gember toe.\n" +
+            "5. Voeg de kip toe en bak goudbruin.\n" +
+            "6. Voeg de tomaten toe.\n" +
+            "7. Voeg kruiden, zout en peper toe.\n" +
+            "8. Giet de kokosmelk erbij.\n" +
+            "9. Laat 15 minuten sudderen met deksel.\n" +
+            "10. Laat indien nodig inkoken zonder deksel.\n" +
+            "11. Serveer warm.\n\n" +
+            "==============================\n" +
+            "EXTRA INFORMATIE\n" +
+            "==============================\n\n" +
+            "Deze Indiase kipcurry verschilt van Thaise curry door de gebruikte kruiden, maar het principe blijft hetzelfde: langzaam laten sudderen zodat alle smaken goed mengen. Zoals veel stoofgerechten smaakt hij de volgende dag nog beter. Je kunt hem ook invriezen in een luchtdichte verpakking."
     },
+
     ar: {
-        title: "كاري الدجاج (الهند، تكفي 4 أشخاص)",
+        title: "كاري الدجاج (الهند)",
         equipment: [
-            "1 مقلاة كبيرة أو ووك",
-            "1 قدر",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية",
-            "1 وعاء",
-            "1 كوب قياس"
+            "مقلاة كبيرة أو ووك",
+            "قدر",
+            "سكين حاد",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء",
+            "كوب قياس",
+            "مبشرة ناعمة",
+            "غطاء"
         ],
         ingredients: [
-            "500 غ صدور دجاج، مقطعة قطع",
+            "500 غ صدور دجاج مقطعة",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1 بصلة، مقطعة شرائح",
-            "2 فص ثوم، مفروم ناعماً",
-            "2 سم زنجبيل طازج، مبشور",
-            "2 طماطم متوسطة، مقطعة مكعبات",
+            "1 بصلة مفرومة",
+            "2 فص ثوم مفروم",
+            "2 سم زنجبيل مبشور",
+            "2 طماطم مقطعة",
             "200 مل حليب جوز الهند",
-            "1 ملعقة كبيرة مسحوق كاري خفيف (15 غ)",
-            "1/2 ملعقة صغيرة كركم (1 غ)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "رشة فلفل (0.5 غ)",
-            "أوراق كزبرة طازجة للتزيين"
+            "1 ملعقة كبيرة مسحوق كاري",
+            "1/2 ملعقة صغيرة كركم",
+            "1/2 ملعقة صغيرة ملح",
+            "رشة فلفل",
+            "كزبرة طازجة"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. سخن الزيت في مقلاة كبيرة على نار متوسطة.\n" +
-            "2. أضف البصل المقطع وحمّره 3–4 دقائق حتى يصبح شفافاً.\n" +
-            "3. أضف الثوم والزنجبيل المبشور، واطبخه دقيقة واحدة.\n" +
-            "4. أضف قطع الدجاج واطبخ 5–6 دقائق حتى يتحمر قليلاً.\n" +
-            "5. أضف الطماطم المقطعة واطبخ 2 دقيقة حتى تصبح طرية.\n" +
-            "6. أضف مسحوق الكاري والكركم والملح والفلفل، وامزج جيداً لتغليف الدجاج.\n" +
-            "7. أضف حليب جوز الهند، وقلّب، ثم خفّف النار.\n" +
-            "8. غطِ المقلاة واتركه على نار هادئة 15 دقيقة مع التحريك بين الحين والآخر.\n" +
-            "9. تأكد من نضج الدجاج بالكامل. إذا كانت الصلصة سائلة جداً، اتركها تغلي 3–5 دقائق بدون الغطاء.\n" +
-            "10. قدمها ساخنة وزينها بأوراق الكزبرة الطازجة."
+            "1. حضّر المكونات.\n" +
+            "2. سخّن الزيت.\n" +
+            "3. أضف البصل حتى يذبل.\n" +
+            "4. أضف الثوم والزنجبيل.\n" +
+            "5. أضف الدجاج حتى يتحمر.\n" +
+            "6. أضف الطماطم.\n" +
+            "7. أضف التوابل والملح والفلفل.\n" +
+            "8. أضف حليب جوز الهند.\n" +
+            "9. اتركه يطهى 15 دقيقة مع الغطاء.\n" +
+            "10. اتركه يتكاثف بدون غطاء إذا لزم الأمر.\n" +
+            "11. قدّم ساخناً.\n\n" +
+            "==============================\n" +
+            "معلومات إضافية\n" +
+            "==============================\n\n" +
+            "يختلف كاري الدجاج الهندي عن الكاري التايلاندي في نوع التوابل، لكن المبدأ واحد وهو الطهي البطيء حتى تمتزج النكهات جيداً. يكون ألذ في اليوم التالي ويمكن تجميده في وعاء محكم الإغلاق."
     }
 };
 recipesData.plat.poulet_tikka_masala = {
     country: "asie",
     countryName: "inde",
     image: "images/poulet_tikka_masala.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        marinationTime: 30,
+        cookTime: 25,
+        difficulty: "medium",
+        seo: {
+            slug: "poulet-tikka-masala-inde",
+            title: "Poulet Tikka Masala (Inde) – Recette authentique",
+            description: "Découvrez le Poulet Tikka Masala, une spécialité emblématique de l’Inde, en version douce ou épicée selon vos envies.",
+            keywords: [
+                "recette poulet tikka masala",
+                "poulet tikka masala inde",
+                "cuisine indienne",
+                "plat traditionnel inde",
+                "recette poulet epice",
+                "tikka masala maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Poulet Tikka Masala (Inde)",
+            "description": "Le Poulet Tikka Masala est un plat indien savoureux à base de poulet mariné et sauce crémeuse aux épices.",
+            "recipeCuisine": "Inde",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT25M",
+            "totalTime": "PT45M",
+            "recipeIngredient": [
+                "500 g de blancs de poulet",
+                "2 cuillères à soupe de yaourt nature",
+                "1 cuillère à soupe de jus de citron",
+                "1 cuillère à café de paprika doux",
+                "1 cuillère à café de curry",
+                "1/2 cuillère à café de curcuma",
+                "2 cuillères à soupe d’huile végétale",
+                "1 oignon",
+                "2 gousses d’ail",
+                "2 cm de gingembre",
+                "2 tomates",
+                "150 ml de crème",
+                "Sel",
+                "Piment en poudre (facultatif)",
+                "Riz basmati (facultatif)",
+                "Pommes de terre ou frites (facultatif)"
+            ],
+            "recipeInstructions": [
+                "Préparer la marinade douce ou épicée.",
+                "Laisser mariner 30 minutes.",
+                "Faire revenir l’oignon, l’ail et le gingembre.",
+                "Ajouter le poulet puis les tomates.",
+                "Incorporer la crème et laisser mijoter.",
+                "Servir chaud avec du riz ou des frites selon préférence."
+            ]
+        }
+    },
+
     fr: {
-        title: "Poulet Tikka Masala (Inde, 4 personnes)",
+        title: "Poulet Tikka Masala (Inde)",
         equipment: [
             "1 grande poêle ou wok",
             "1 bol pour marinade",
-            "1 couteau",
+            "1 couteau bien aiguisé",
             "1 planche à découper",
             "1 cuillère en bois",
             "1 fouet ou fourchette",
-            "1 verre doseur"
+            "1 verre doseur",
+            "1 râpe fine",
+            "1 couvercle",
+            "1 casserole (si préparation du riz)",
+            "1 passoire"
         ],
         ingredients: [
             "500 g de blancs de poulet, coupés en morceaux",
-            "2 cuillères à soupe yaourt nature",
-            "1 cuillère à soupe jus de citron (15 ml)",
-            "1 cuillère à café poudre de paprika doux (2 g)",
-            "1 cuillère à café poudre de curry (5 g)",
-            "1/2 cuillère à café curcuma (1 g)",
-            "1/2 cuillère à café sel (1 g)",
-            "2 cuillères à soupe huile végétale (30 ml)",
+            "2 cuillères à soupe de yaourt nature",
+            "1 cuillère à soupe de jus de citron (15 ml)",
+            "1 cuillère à café de paprika doux (2 g)",
+            "1 cuillère à café de poudre de curry (5 g)",
+            "1/2 cuillère à café de curcuma (1 g)",
+            "1/2 cuillère à café de sel (1 g)",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
             "1 oignon, émincé",
-            "2 gousses d’ail, hachées finement",
-            "1 morceau de gingembre frais (2 cm), râpé",
+            "2 gousses d’ail, hachées",
+            "2 cm de gingembre frais, râpé",
             "2 tomates moyennes, coupées en dés",
-            "150 ml crème de cuisson ou crème légère",
-            "Quelques feuilles de coriandre fraîche pour garnir"
+            "150 ml de crème de cuisson",
+            "1/2 à 1 cuillère à café de piment fort en poudre (facultatif)",
+            "1/2 cuillère à café de piment de Cayenne (facultatif)",
+            "1 petit piment rouge frais finement haché (facultatif)",
+            "Quelques feuilles de coriandre fraîche",
+            "Riz basmati (facultatif, en accompagnement)",
+            "Pommes de terre ou frites (facultatif, en accompagnement)"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Dans un bol, mélangez le yaourt, le jus de citron, le paprika, curry, curcuma et sel.\n" +
-            "2. Ajoutez les morceaux de poulet dans ce mélange et laissez mariner 30 minutes minimum.\n" +
-            "3. Chauffez l’huile dans une grande poêle à feu moyen.\n" +
-            "4. Ajoutez l’oignon émincé et faites-le revenir 3–4 minutes jusqu’à ce qu’il soit translucide.\n" +
-            "5. Ajoutez l’ail et le gingembre, mélangez 1 minute.\n" +
-            "6. Ajoutez le poulet mariné, faites cuire 6–7 minutes jusqu’à légère coloration.\n" +
-            "7. Ajoutez les tomates en dés, mélangez bien, puis couvrez et laissez mijoter 10 minutes.\n" +
-            "8. Incorporez la crème, mélangez doucement et laissez cuire encore 5 minutes à feu doux.\n" +
-            "9. Vérifiez la cuisson du poulet et l’onctuosité de la sauce.\n" +
-            "10. Servez chaud, garni de feuilles de coriandre fraîche."
+            "==============================\n" +
+            "PRÉPARATION DE LA MARINADE\n" +
+            "==============================\n\n" +
+            "VERSION NON ÉPICÉE\n" +
+            "1. Mélanger le yaourt, le jus de citron, le paprika doux, le curry, le curcuma et le sel.\n" +
+            "2. Ajouter le poulet et bien enrober.\n" +
+            "3. Couvrir et laisser mariner 30 minutes au frais.\n\n" +
+            "VERSION ÉPICÉE\n" +
+            "1. Mélanger le yaourt, le jus de citron, le paprika, le curry, le curcuma et le sel.\n" +
+            "2. Ajouter le piment fort en poudre, le piment de Cayenne et le piment rouge frais haché.\n" +
+            "3. Goûter la marinade et ajuster si nécessaire selon l’intensité souhaitée.\n" +
+            "4. Ajouter le poulet et bien l’enrober.\n" +
+            "5. Couvrir et laisser mariner 30 minutes minimum.\n\n" +
+            "==============================\n" +
+            "CUISSON\n" +
+            "==============================\n\n" +
+            "1. Chauffer l’huile dans une grande poêle à feu moyen.\n" +
+            "2. Faire revenir l’oignon 3 à 4 minutes jusqu’à ce qu’il soit translucide.\n" +
+            "3. Ajouter l’ail et le gingembre, cuire 1 minute.\n" +
+            "4. Ajouter le poulet mariné (version douce ou épicée) et cuire 6 à 7 minutes.\n" +
+            "5. Ajouter les tomates, couvrir et laisser mijoter 10 minutes.\n" +
+            "6. Incorporer la crème et laisser cuire encore 5 minutes à feu doux.\n" +
+            "7. Pour une version encore plus relevée, ajouter une pincée supplémentaire de piment en fin de cuisson.\n" +
+            "8. Servir chaud avec de la coriandre fraîche.\n\n" +
+            "==============================\n" +
+            "INFORMATIONS COMPLÉMENTAIRES\n" +
+            "==============================\n\n" +
+            "Le poulet tikka fait partie aussi de mes plats favoris. Je vous ai proposé deux versions : une version épicée pour celles et ceux qui aiment quand ça pique, et une version non épicée pour les autres. À l’origine, ce plat est généralement très relevé, mais c’est à vous d’adapter la dose d’épices selon vos préférences. Ce plat se conserve très bien au surgélateur si vous souhaitez en préparer à l’avance.\n\n" +
+            "Ce plat peut être accompagné de riz basmati, de pommes de terre ou de frites. Personnellement, je l’accompagne de riz et je mélange le tout directement dans la casserole pour que le riz s’imprègne parfaitement de la sauce."
     },
+
     en: {
-        title: "Chicken Tikka Masala (India, Serves 4)",
+        title: "Chicken Tikka Masala (India)",
         equipment: [
             "1 large pan or wok",
             "1 bowl for marinade",
-            "1 knife",
+            "1 sharp knife",
             "1 cutting board",
             "1 wooden spoon",
             "1 whisk or fork",
-            "1 measuring cup"
+            "1 measuring cup",
+            "1 fine grater",
+            "1 lid",
+            "1 saucepan (if preparing rice)",
+            "1 strainer"
         ],
         ingredients: [
             "500 g chicken breast, cut into pieces",
-            "2 tbsp plain yogurt",
-            "1 tbsp lemon juice (15 ml)",
-            "1 tsp mild paprika (2 g)",
-            "1 tsp curry powder (5 g)",
-            "1/2 tsp turmeric (1 g)",
-            "1/2 tsp salt (1 g)",
-            "2 tbsp vegetable oil (30 ml)",
+            "2 tablespoons plain yogurt",
+            "1 tablespoon lemon juice",
+            "1 teaspoon paprika",
+            "1 teaspoon curry powder",
+            "1/2 teaspoon turmeric",
+            "1/2 teaspoon salt",
+            "2 tablespoons vegetable oil",
             "1 onion, sliced",
-            "2 garlic cloves, finely chopped",
+            "2 garlic cloves, minced",
             "2 cm fresh ginger, grated",
-            "2 medium tomatoes, diced",
-            "150 ml cooking cream or light cream",
-            "Fresh coriander leaves for garnish"
+            "2 tomatoes, diced",
+            "150 ml cooking cream",
+            "Hot chili powder (optional)",
+            "Cayenne pepper (optional)",
+            "Fresh red chili (optional)",
+            "Fresh coriander",
+            "Basmati rice (optional, for serving)",
+            "Potatoes or fries (optional, for serving)"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. In a bowl, mix yogurt, lemon juice, paprika, curry, turmeric, and salt.\n" +
-            "2. Add chicken pieces to the mixture and marinate at least 30 minutes.\n" +
-            "3. Heat oil in a large pan over medium heat.\n" +
-            "4. Add sliced onion and sauté 3–4 minutes until translucent.\n" +
-            "5. Add garlic and ginger, cook 1 minute.\n" +
-            "6. Add marinated chicken, cook 6–7 minutes until slightly browned.\n" +
-            "7. Add diced tomatoes, mix well, cover and simmer 10 minutes.\n" +
-            "8. Stir in cream, mix gently and cook 5 more minutes on low heat.\n" +
-            "9. Check chicken is cooked and sauce is creamy.\n" +
-            "10. Serve hot, garnished with fresh coriander leaves."
+            "==============================\n" +
+            "MARINADE PREPARATION\n" +
+            "==============================\n\n" +
+            "MILD VERSION\n" +
+            "1. Mix yogurt, lemon juice, paprika, curry powder, turmeric and salt.\n" +
+            "2. Add the chicken and coat well.\n" +
+            "3. Cover and marinate for 30 minutes in the refrigerator.\n\n" +
+            "SPICY VERSION\n" +
+            "1. Mix yogurt, lemon juice, paprika, curry powder, turmeric and salt.\n" +
+            "2. Add chili powder, cayenne and fresh red chili.\n" +
+            "3. Adjust the heat level to your taste.\n" +
+            "4. Add the chicken and coat thoroughly.\n" +
+            "5. Cover and marinate for at least 30 minutes.\n\n" +
+            "==============================\n" +
+            "COOKING\n" +
+            "==============================\n\n" +
+            "1. Heat the oil in a large pan over medium heat.\n" +
+            "2. Sauté the onion for 3 to 4 minutes until soft.\n" +
+            "3. Add garlic and ginger and cook for 1 minute.\n" +
+            "4. Add the marinated chicken and cook for 6 to 7 minutes.\n" +
+            "5. Add the tomatoes, cover and simmer for 10 minutes.\n" +
+            "6. Stir in the cream and cook for another 5 minutes on low heat.\n" +
+            "7. For an extra spicy version, add a pinch of chili at the end.\n" +
+            "8. Serve hot with fresh coriander.\n\n" +
+            "==============================\n" +
+            "ADDITIONAL INFORMATION\n" +
+            "==============================\n\n" +
+            "Chicken Tikka Masala is one of my favorite dishes. I offered two versions: a spicy one for those who enjoy heat, and a mild one for others. Traditionally, this dish is quite spicy, but you can adjust the spices to your preference. It freezes very well if you want to prepare it in advance.\n\n" +
+            "This dish can be served with basmati rice, potatoes or fries. Personally, I serve it with rice and mix everything directly in the pan so the rice absorbs all the sauce."
     },
+
     nl: {
-        title: "Kip Tikka Masala (India, voor 4 personen)",
+        title: "Kip Tikka Masala (India)",
         equipment: [
             "1 grote pan of wok",
             "1 kom voor marinade",
-            "1 mes",
+            "1 scherp mes",
             "1 snijplank",
             "1 houten lepel",
             "1 garde of vork",
-            "1 maatbeker"
+            "1 maatbeker",
+            "1 fijne rasp",
+            "1 deksel",
+            "1 kookpan (voor rijst)",
+            "1 vergiet"
         ],
         ingredients: [
             "500 g kipfilet, in stukjes",
-            "2 eetlepels yoghurt naturel",
-            "1 eetlepel citroensap (15 ml)",
-            "1 tl milde paprika (2 g)",
-            "1 tl currypoeder (5 g)",
-            "1/2 tl kurkuma (1 g)",
-            "1/2 tl zout (1 g)",
-            "2 eetlepels plantaardige olie (30 ml)",
+            "2 eetlepels natuuryoghurt",
+            "1 eetlepel citroensap",
+            "1 theelepel paprika",
+            "1 theelepel currypoeder",
+            "1/2 theelepel kurkuma",
+            "1/2 theelepel zout",
+            "2 eetlepels plantaardige olie",
             "1 ui, gesneden",
             "2 teentjes knoflook, fijngehakt",
             "2 cm verse gember, geraspt",
-            "2 middelgrote tomaten, in blokjes",
-            "150 ml kookroom of lichte room",
-            "Verse korianderblaadjes voor garnering"
+            "2 tomaten, in blokjes",
+            "150 ml kookroom",
+            "Chilipoeder (optioneel)",
+            "Cayennepeper (optioneel)",
+            "Verse rode peper (optioneel)",
+            "Verse koriander",
+            "Basmati rijst (optioneel, om te serveren)",
+            "Aardappelen of frietjes (optioneel, om te serveren)"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Meng in een kom yoghurt, citroensap, paprika, curry, kurkuma en zout.\n" +
-            "2. Voeg kipstukjes toe en marineer minimaal 30 minuten.\n" +
-            "3. Verhit olie in een grote pan op middelhoog vuur.\n" +
-            "4. Voeg gesneden ui toe en bak 3–4 minuten tot glazig.\n" +
-            "5. Voeg knoflook en gember toe, bak 1 minuut.\n" +
-            "6. Voeg gemarineerde kip toe en bak 6–7 minuten tot lichtbruin.\n" +
-            "7. Voeg tomatenblokjes toe, meng goed, dek af en laat 10 minuten sudderen.\n" +
-            "8. Voeg room toe, meng voorzichtig en kook nog 5 minuten op laag vuur.\n" +
-            "9. Controleer of de kip gaar is en de saus romig.\n" +
-            "10. Serveer heet, gegarneerd met verse koriander."
+            "==============================\n" +
+            "BEREIDING VAN DE MARINADE\n" +
+            "==============================\n\n" +
+            "MILDE VERSIE\n" +
+            "1. Meng yoghurt, citroensap, paprika, currypoeder, kurkuma en zout.\n" +
+            "2. Voeg de kip toe en meng goed.\n" +
+            "3. Dek af en laat 30 minuten marineren in de koelkast.\n\n" +
+            "PITTIGE VERSIE\n" +
+            "1. Meng yoghurt, citroensap, paprika, currypoeder, kurkuma en zout.\n" +
+            "2. Voeg chilipoeder, cayennepeper en verse rode peper toe.\n" +
+            "3. Pas de pittigheid aan naar smaak.\n" +
+            "4. Voeg de kip toe en meng goed.\n" +
+            "5. Laat minimaal 30 minuten marineren.\n\n" +
+            "==============================\n" +
+            "BEREIDING\n" +
+            "==============================\n\n" +
+            "1. Verhit de olie in een grote pan op middelhoog vuur.\n" +
+            "2. Bak de ui 3 tot 4 minuten.\n" +
+            "3. Voeg knoflook en gember toe en bak 1 minuut.\n" +
+            "4. Voeg de gemarineerde kip toe en bak 6 tot 7 minuten.\n" +
+            "5. Voeg de tomaten toe, dek af en laat 10 minuten sudderen.\n" +
+            "6. Voeg de room toe en laat nog 5 minuten zachtjes koken.\n" +
+            "7. Voeg eventueel extra chili toe voor meer pit.\n" +
+            "8. Serveer warm met verse koriander.\n\n" +
+            "==============================\n" +
+            "EXTRA INFORMATIE\n" +
+            "==============================\n\n" +
+            "Kip Tikka Masala is ook een van mijn favoriete gerechten. Ik heb twee versies voorgesteld: een pittige versie voor wie van scherp houdt en een milde versie voor anderen. Oorspronkelijk is dit gerecht vrij pittig, maar je kunt de kruiden aanpassen naar eigen smaak. Het gerecht kan ook goed worden ingevroren.\n\n" +
+            "Serveer met basmati rijst, aardappelen of frietjes. Persoonlijk meng ik het met rijst in de pan zodat de rijst alle saus goed opneemt."
     },
+
     ar: {
-        title: "دجاج تيكا ماسالا (الهند، تكفي 4 أشخاص)",
+        title: "دجاج تيكا ماسالا (الهند)",
         equipment: [
-            "1 مقلاة كبيرة أو ووك",
-            "1 وعاء للخلط",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية",
-            "1 مضرب أو شوكة",
-            "1 كوب قياس"
+            "مقلاة كبيرة أو ووك",
+            "وعاء للتتبيلة",
+            "سكين حاد",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "مضرب أو شوكة",
+            "كوب قياس",
+            "مبشرة ناعمة",
+            "غطاء",
+            "قدر لسلق الأرز",
+            "مصفاة"
         ],
         ingredients: [
-            "500 غ صدور دجاج، مقطعة قطع",
+            "500 غ صدور دجاج مقطعة",
             "2 ملعقة كبيرة زبادي طبيعي",
-            "1 ملعقة كبيرة عصير ليمون (15 مل)",
-            "1 ملعقة صغيرة فلفل حلو خفيف (2 غ)",
-            "1 ملعقة صغيرة مسحوق كاري (5 غ)",
-            "1/2 ملعقة صغيرة كركم (1 غ)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1 بصلة، مقطعة شرائح",
-            "2 فص ثوم، مفروم ناعماً",
-            "2 سم زنجبيل طازج، مبشور",
-            "2 طماطم متوسطة، مقطعة مكعبات",
-            "150 مل كريمة طبخ أو كريمة خفيفة",
-            "أوراق كزبرة طازجة للتزيين"
+            "1 ملعقة كبيرة عصير ليمون",
+            "1 ملعقة صغيرة بابريكا",
+            "1 ملعقة صغيرة كاري",
+            "1/2 ملعقة صغيرة كركم",
+            "1/2 ملعقة صغيرة ملح",
+            "2 ملعقة كبيرة زيت نباتي",
+            "1 بصلة مفرومة",
+            "2 فص ثوم مفروم",
+            "2 سم زنجبيل طازج مبشور",
+            "2 حبة طماطم مقطعة",
+            "150 مل كريمة طبخ",
+            "فلفل حار مطحون (اختياري)",
+            "فلفل كايين (اختياري)",
+            "فلفل أحمر طازج (اختياري)",
+            "كزبرة طازجة",
+            "أرز بسمتي (اختياري للتقديم)",
+            "بطاطس أو بطاطس مقلية (اختياري للتقديم)"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. في وعاء، اخلط الزبادي وعصير الليمون والفلفل الحلو ومسحوق الكاري والكركم والملح.\n" +
-            "2. أضف قطع الدجاج إلى الخليط واتركها تتبل لمدة 30 دقيقة على الأقل.\n" +
-            "3. سخن الزيت في مقلاة كبيرة على نار متوسطة.\n" +
-            "4. أضف البصل المقطع واطبخه 3–4 دقائق حتى يصبح شفافاً.\n" +
-            "5. أضف الثوم والزنجبيل، واطبخه دقيقة واحدة.\n" +
-            "6. أضف الدجاج المتبل، واطبخه 6–7 دقائق حتى يتحمر قليلاً.\n" +
-            "7. أضف الطماطم المقطعة، اخلط جيداً، غطِ المقلاة واتركه 10 دقائق على نار هادئة.\n" +
-            "8. أضف الكريمة، وامزج بلطف، واطبخ 5 دقائق أخرى على نار هادئة.\n" +
-            "9. تحقق من نضج الدجاج وكثافة الصلصة.\n" +
-            "10. قدمه ساخناً وزينه بأوراق الكزبرة الطازجة."
+            "==============================\n" +
+            "تحضير التتبيلة\n" +
+            "==============================\n\n" +
+            "النسخة الخفيفة\n" +
+            "1. اخلط الزبادي وعصير الليمون والبابريكا والكاري والكركم والملح.\n" +
+            "2. أضف الدجاج وامزج جيداً.\n" +
+            "3. غطِّه واتركه يتبل لمدة 30 دقيقة في الثلاجة.\n\n" +
+            "النسخة الحارة\n" +
+            "1. اخلط الزبادي وعصير الليمون والبابريكا والكاري والكركم والملح.\n" +
+            "2. أضف الفلفل الحار وفلفل الكايين والفلفل الأحمر الطازج.\n" +
+            "3. عدّل درجة الحرارة حسب الرغبة.\n" +
+            "4. أضف الدجاج وامزج جيداً.\n" +
+            "5. اتركه يتبل لمدة 30 دقيقة على الأقل.\n\n" +
+            "==============================\n" +
+            "الطهي\n" +
+            "==============================\n\n" +
+            "1. سخّن الزيت في مقلاة كبيرة على نار متوسطة.\n" +
+            "2. أضف البصل واطهه لمدة 3 إلى 4 دقائق.\n" +
+            "3. أضف الثوم والزنجبيل واطهه دقيقة واحدة.\n" +
+            "4. أضف الدجاج المتبل واطهه لمدة 6 إلى 7 دقائق.\n" +
+            "5. أضف الطماطم وغطِّ المقلاة واتركه يطهى 10 دقائق.\n" +
+            "6. أضف الكريمة واتركه يطهى 5 دقائق إضافية على نار هادئة.\n" +
+            "7. أضف القليل من الفلفل الحار إذا رغبت بنكهة أقوى.\n" +
+            "8. قدّم الطبق ساخناً مع الكزبرة الطازجة.\n\n" +
+            "==============================\n" +
+            "معلومات إضافية\n" +
+            "==============================\n\n" +
+            "يُعتبر دجاج تيكا ماسالا من أطباقي المفضلة. قدمت لكم نسختين: نسخة حارة لعشاق النكهة القوية ونسخة خفيفة لمن يفضل طعماً أقل حرارة. في الأصل يكون هذا الطبق غنياً بالتوابل، ويمكنكم تعديل الكمية حسب الذوق. يمكن حفظه في المجمد بسهولة.\n\n" +
+            "يمكن تقديم الطبق مع أرز بسمتي أو بطاطس أو بطاطس مقلية. شخصياً أقدمه مع الأرز وأخلط جميع المكونات في المقلاة حتى يتشرب الأرز الصلصة جيداً."
     }
 };
 recipesData.plat.riz_saute_scampi = {
     country: "asie",
     countryName: "chine",
-    image: "images/riz_saute_scampi.jpg",
+    image: "images/riz-saute-scampi-2.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "riz-saute-scampi-chine",
+            title: "Riz sauté aux scampi (Chine) – Recette facile",
+            description: "Préparez un délicieux riz sauté aux scampi, spécialité inspirée de la cuisine chinoise, simple, rapide et pleine de saveurs.",
+            keywords: [
+                "riz saute scampi",
+                "riz chinois aux crevettes",
+                "cuisine chinoise maison",
+                "recette riz facile",
+                "plat asiatique rapide",
+                "riz saute aux fruits de mer"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Riz sauté aux scampi (Chine)",
+            "description": "Un riz sauté aux scampi inspiré de la cuisine chinoise, rapide à préparer et parfait pour un repas complet et savoureux.",
+            "recipeCuisine": "Chine",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT15M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "250 g de riz blanc cuit",
+                "150 g de scampi décortiqués",
+                "100 g de légumes en dés",
+                "50 g de maïs",
+                "50 g de champignons",
+                "2 œufs",
+                "2 cuillères à soupe d’huile végétale",
+                "1 gousse d’ail",
+                "2 cuillères à soupe de sauce soja",
+                "Sel",
+                "Poivre",
+                "1 oignon nouveau"
+            ],
+            "recipeInstructions": [
+                "Préparer et découper tous les ingrédients.",
+                "Cuire les œufs en omelette fine puis réserver.",
+                "Faire revenir l’ail et les scampi.",
+                "Ajouter les légumes puis le riz.",
+                "Assaisonner avec la sauce soja.",
+                "Incorporer les œufs et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Riz sauté aux scampi (Chine, 4 personnes)",
+        title: "Riz sauté aux scampi (Chine)",
         equipment: [
             "1 wok ou grande poêle",
-            "1 couteau",
+            "1 couteau bien aiguisé",
             "1 planche à découper",
-            "1 cuillère en bois",
+            "1 cuillère en bois ou spatule",
             "1 bol pour chaque ingrédient",
-            "1 verre doseur"
+            "1 verre doseur",
+            "1 fouet ou fourchette",
+            "1 assiette pour réserver l’omelette"
         ],
         ingredients: [
-            "250 g riz blanc cuit (idéalement cuit la veille)",
-            "150 g scampi décortiqués",
-            "100 g mélange de légumes (carotte, poivron, haricots verts) coupés en petits dés",
-            "50 g maïs doux",
-            "50 g champignons émincés",
+            "250 g de riz blanc cuit (idéalement cuit la veille et bien refroidi)",
+            "150 g de scampi décortiqués",
+            "100 g de mélange de légumes (carotte, poivron, haricots verts) coupés en petits dés",
+            "50 g de maïs doux",
+            "50 g de champignons émincés",
             "2 œufs",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1 gousse d’ail hachée",
-            "2 cuillères à soupe sauce soja légère (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)",
+            "2 cuillères à soupe d’huile végétale (30 ml)",
+            "1 gousse d’ail hachée finement",
+            "2 cuillères à soupe de sauce soja légère (30 ml)",
+            "1/2 cuillère à café de sel (1 g)",
+            "1/4 cuillère à café de poivre (0,5 g)",
             "1 oignon nouveau ciselé pour la garniture"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préparez tous les ingrédients : coupez légumes et champignons, battez les œufs.\n" +
-            "2. Chauffez 1 cuillère à soupe d’huile dans le wok à feu moyen-élevé.\n" +
-            "3. Faites cuire les œufs comme une fine omelette, retirez et réservez.\n" +
-            "4. Ajoutez l’huile restante et faites revenir l’ail 30 secondes.\n" +
-            "5. Ajoutez les scampi, faites sauter 3–4 minutes jusqu’à cuisson complète.\n" +
-            "6. Ajoutez légumes, champignons et maïs, continuez 3–4 minutes.\n" +
-            "7. Ajoutez le riz, mélangez pour séparer les grains.\n" +
-            "8. Ajoutez sauce soja, sel et poivre, mélangez 2 minutes.\n" +
-            "9. Incorporez les œufs, mélangez délicatement.\n" +
-            "10. Servez chaud, garnissez avec l’oignon nouveau."
+            "1. Préparer tous les ingrédients : couper les légumes, émincer les champignons, hacher l’ail et battre les œufs.\n" +
+            "2. Chauffer 1 cuillère à soupe d’huile dans le wok à feu moyen-élevé.\n" +
+            "3. Verser les œufs battus et cuire une fine omelette. Retirer, couper en lamelles et réserver.\n" +
+            "4. Ajouter l’huile restante dans le wok.\n" +
+            "5. Faire revenir l’ail 30 secondes sans le brûler.\n" +
+            "6. Ajouter les scampi et les faire sauter 3 à 4 minutes jusqu’à cuisson complète.\n" +
+            "7. Incorporer les légumes, les champignons et le maïs. Faire sauter 3 à 4 minutes en remuant.\n" +
+            "8. Ajouter le riz froid et mélanger pour bien séparer les grains.\n" +
+            "9. Verser la sauce soja, ajouter le sel et le poivre. Mélanger 2 minutes.\n" +
+            "10. Ajouter les lamelles d’omelette et mélanger délicatement.\n" +
+            "11. Servir bien chaud, garni d’oignon nouveau."
     },
+
     en: {
-        title: "Stir-Fried Rice with Scampi (China, Serves 4)",
+        title: "Stir-Fried Rice with Scampi (China)",
         equipment: [
             "1 wok or large pan",
-            "1 knife",
+            "1 sharp knife",
             "1 cutting board",
-            "1 wooden spoon",
+            "1 wooden spoon or spatula",
             "1 bowl for each ingredient",
-            "1 measuring cup"
+            "1 measuring cup",
+            "1 whisk or fork",
+            "1 plate for the omelette"
         ],
         ingredients: [
-            "250 g cooked white rice (preferably from the day before)",
+            "250 g cooked white rice (preferably chilled from the day before)",
             "150 g peeled scampi",
-            "100 g mixed vegetables (carrot, bell pepper, green beans), diced",
+            "100 g mixed vegetables, diced",
             "50 g sweet corn",
             "50 g mushrooms, sliced",
             "2 eggs",
             "2 tbsp vegetable oil (30 ml)",
-            "1 garlic clove, chopped",
+            "1 garlic clove, finely chopped",
             "2 tbsp light soy sauce (30 ml)",
             "1/2 tsp salt (1 g)",
             "1/4 tsp pepper (0.5 g)",
             "1 spring onion, chopped for garnish"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Prepare all ingredients: chop vegetables and mushrooms, beat the eggs.\n" +
-            "2. Heat 1 tbsp oil in wok over medium-high heat.\n" +
-            "3. Cook eggs as a thin omelette, remove and set aside.\n" +
-            "4. Add remaining oil, sauté garlic 30 seconds.\n" +
-            "5. Add scampi, stir-fry 3–4 minutes until fully cooked.\n" +
-            "6. Add vegetables, mushrooms, and corn, stir 3–4 minutes.\n" +
-            "7. Add rice, mix to separate grains.\n" +
-            "8. Add soy sauce, salt, and pepper, stir 2 minutes.\n" +
-            "9. Fold in cooked eggs gently.\n" +
-            "10. Serve hot, garnish with spring onion."
+            "1. Prepare all ingredients and beat the eggs.\n" +
+            "2. Heat 1 tbsp oil in a wok over medium-high heat.\n" +
+            "3. Cook the eggs into a thin omelette, slice and set aside.\n" +
+            "4. Add remaining oil and sauté garlic for 30 seconds.\n" +
+            "5. Add scampi and stir-fry 3–4 minutes.\n" +
+            "6. Add vegetables and mushrooms, cook 3–4 minutes.\n" +
+            "7. Add rice and separate the grains.\n" +
+            "8. Stir in soy sauce, salt and pepper.\n" +
+            "9. Fold in the sliced omelette.\n" +
+            "10. Serve hot with spring onion."
     },
+
     nl: {
-        title: "Gebakken rijst met scampi (China, voor 4 personen)",
+        title: "Gebakken rijst met scampi (China)",
         equipment: [
             "1 wok of grote pan",
-            "1 mes",
+            "1 scherp mes",
             "1 snijplank",
-            "1 houten lepel",
+            "1 houten lepel of spatel",
             "1 kom voor elk ingrediënt",
-            "1 maatbeker"
+            "1 maatbeker",
+            "1 garde of vork",
+            "1 bord voor de omelet"
         ],
         ingredients: [
             "250 g gekookte witte rijst (bij voorkeur van de vorige dag)",
             "150 g gepelde scampi",
-            "100 g gemengde groenten (wortel, paprika, sperziebonen), in blokjes",
+            "100 g gemengde groenten in blokjes",
             "50 g maïs",
-            "50 g champignons, in plakjes",
+            "50 g champignons in plakjes",
             "2 eieren",
             "2 eetlepels plantaardige olie (30 ml)",
             "1 teentje knoflook, fijngehakt",
             "2 eetlepels lichte sojasaus (30 ml)",
             "1/2 tl zout (1 g)",
             "1/4 tl peper (0,5 g)",
-            "1 lente-ui, gesneden voor garnering"
+            "1 lente-ui voor garnering"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bereid alle ingrediënten: snijd groenten en champignons, klop de eieren.\n" +
-            "2. Verhit 1 eetlepel olie in wok op middelhoog vuur.\n" +
-            "3. Bak de eieren als een dunne omelet, haal eruit en zet opzij.\n" +
-            "4. Voeg resterende olie toe, fruit knoflook 30 seconden.\n" +
-            "5. Voeg scampi toe, bak 3–4 minuten tot volledig gaar.\n" +
-            "6. Voeg groenten, champignons en maïs toe, bak 3–4 minuten.\n" +
-            "7. Voeg rijst toe, meng om de korrels los te maken.\n" +
-            "8. Voeg sojasaus, zout en peper toe, meng 2 minuten.\n" +
-            "9. Voeg de eieren voorzichtig toe.\n" +
-            "10. Serveer warm, garneer met lente-ui."
+            "1. Bereid alle ingrediënten en klop de eieren.\n" +
+            "2. Bak een dunne omelet en zet apart.\n" +
+            "3. Bak knoflook en scampi.\n" +
+            "4. Voeg groenten toe en bak kort.\n" +
+            "5. Voeg rijst toe en meng goed.\n" +
+            "6. Breng op smaak met sojasaus, zout en peper.\n" +
+            "7. Voeg de omelet toe en meng voorzichtig.\n" +
+            "8. Serveer warm."
     },
+
     ar: {
-        title: "أرز مقلي بالروبيان (الصين، تكفي 4 أشخاص)",
+        title: "أرز مقلي بالروبيان (الصين)",
         equipment: [
-            "1 ووك أو مقلاة كبيرة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية",
-            "1 وعاء لكل مكوّن",
-            "1 كوب قياس"
+            "ووك أو مقلاة كبيرة",
+            "سكين حاد",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء لكل مكوّن",
+            "كوب قياس",
+            "شوكة أو مضرب",
+            "طبق لحفظ الأومليت"
         ],
         ingredients: [
-            "250 غ أرز أبيض مطبوخ (يفضل من اليوم السابق)",
+            "250 غ أرز أبيض مطبوخ وبارد",
             "150 غ روبيان مقشر",
-            "100 غ خضار مشكلة (جزر، فلفل، فاصوليا خضراء) مقطعة مكعبات",
-            "50 غ ذرة حلوة",
-            "50 غ فطر مقطع شرائح",
+            "100 غ خضار مشكلة مقطعة",
+            "50 غ ذرة",
+            "50 غ فطر شرائح",
             "2 بيض",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
             "1 فص ثوم مفروم",
-            "2 ملعقة كبيرة صلصة الصويا الخفيفة (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)",
-            "1 بصلة خضراء مفرومة للتزيين"
+            "2 ملعقة كبيرة صلصة صويا (30 مل)",
+            "1/2 ملعقة صغيرة ملح",
+            "1/4 ملعقة صغيرة فلفل",
+            "بصل أخضر للتزيين"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضّر جميع المكونات: قطع الخضار والفطر واخفِق البيض.\n" +
-            "2. سخّن 1 ملعقة كبيرة زيت في الووك على نار متوسطة-عالية.\n" +
-            "3. اطبخ البيض كأومليت رقيقة، أخرجه وضعه جانباً.\n" +
-            "4. أضف الزيت المتبقي، قلب الثوم 30 ثانية.\n" +
-            "5. أضف الروبيان، اقليه 3–4 دقائق حتى ينضج.\n" +
-            "6. أضف الخضار والفطر والذرة، اقلب 3–4 دقائق.\n" +
-            "7. أضف الأرز وامزجه لتفريق الحبوب.\n" +
-            "8. أضف صلصة الصويا، الملح والفلفل، قلب 2 دقيقة.\n" +
-            "9. أدمج البيض المطبوخ بلطف.\n" +
-            "10. قدم الطبق ساخناً وزينه بالبصل الأخضر."
-    }
-};
-recipesData.plat.riz_saute_scampi = {
-    country: "asie",
-    countryName: "chine",
-    image: "images/riz_saute_scampi.jpg",
-    fr: {
-        title: "Riz sauté aux scampi (Chine, 4 personnes)",
-        equipment: [
-            "1 wok ou grande poêle",
-            "1 couteau",
-            "1 planche à découper",
-            "1 cuillère en bois",
-            "1 bol pour chaque ingrédient",
-            "1 verre doseur"
-        ],
-        ingredients: [
-            "250 g riz blanc cuit (idéalement cuit la veille)",
-            "150 g scampi décortiqués",
-            "100 g mélange de légumes (carotte, poivron, haricots verts) coupés en petits dés",
-            "50 g maïs doux",
-            "50 g champignons émincés",
-            "2 œufs",
-            "2 cuillères à soupe huile végétale (30 ml)",
-            "1 gousse d’ail hachée",
-            "2 cuillères à soupe sauce soja légère (30 ml)",
-            "1/2 cuillère à café sel (1 g)",
-            "1/4 cuillère à café poivre (0.5 g)",
-            "1 oignon nouveau ciselé pour la garniture"
-        ],
-        preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préparez tous les ingrédients : coupez légumes et champignons, battez les œufs.\n" +
-            "2. Chauffez 1 cuillère à soupe d’huile dans le wok à feu moyen-élevé.\n" +
-            "3. Faites cuire les œufs comme une fine omelette, retirez et réservez.\n" +
-            "4. Ajoutez l’huile restante et faites revenir l’ail 30 secondes.\n" +
-            "5. Ajoutez les scampi, faites sauter 3–4 minutes jusqu’à cuisson complète.\n" +
-            "6. Ajoutez légumes, champignons et maïs, continuez 3–4 minutes.\n" +
-            "7. Ajoutez le riz, mélangez pour séparer les grains.\n" +
-            "8. Ajoutez sauce soja, sel et poivre, mélangez 2 minutes.\n" +
-            "9. Incorporez les œufs, mélangez délicatement.\n" +
-            "10. Servez chaud, garnissez avec l’oignon nouveau."
-    },
-    en: {
-        title: "Stir-Fried Rice with Scampi (China, Serves 4)",
-        equipment: [
-            "1 wok or large pan",
-            "1 knife",
-            "1 cutting board",
-            "1 wooden spoon",
-            "1 bowl for each ingredient",
-            "1 measuring cup"
-        ],
-        ingredients: [
-            "250 g cooked white rice (preferably from the day before)",
-            "150 g peeled scampi",
-            "100 g mixed vegetables (carrot, bell pepper, green beans), diced",
-            "50 g sweet corn",
-            "50 g mushrooms, sliced",
-            "2 eggs",
-            "2 tbsp vegetable oil (30 ml)",
-            "1 garlic clove, chopped",
-            "2 tbsp light soy sauce (30 ml)",
-            "1/2 tsp salt (1 g)",
-            "1/4 tsp pepper (0.5 g)",
-            "1 spring onion, chopped for garnish"
-        ],
-        preparation:
-            "Serves 4.\n" +
-            "1. Prepare all ingredients: chop vegetables and mushrooms, beat the eggs.\n" +
-            "2. Heat 1 tbsp oil in wok over medium-high heat.\n" +
-            "3. Cook eggs as a thin omelette, remove and set aside.\n" +
-            "4. Add remaining oil, sauté garlic 30 seconds.\n" +
-            "5. Add scampi, stir-fry 3–4 minutes until fully cooked.\n" +
-            "6. Add vegetables, mushrooms, and corn, stir 3–4 minutes.\n" +
-            "7. Add rice, mix to separate grains.\n" +
-            "8. Add soy sauce, salt, and pepper, stir 2 minutes.\n" +
-            "9. Fold in cooked eggs gently.\n" +
-            "10. Serve hot, garnish with spring onion."
-    },
-    nl: {
-        title: "Gebakken rijst met scampi (China, voor 4 personen)",
-        equipment: [
-            "1 wok of grote pan",
-            "1 mes",
-            "1 snijplank",
-            "1 houten lepel",
-            "1 kom voor elk ingrediënt",
-            "1 maatbeker"
-        ],
-        ingredients: [
-            "250 g gekookte witte rijst (bij voorkeur van de vorige dag)",
-            "150 g gepelde scampi",
-            "100 g gemengde groenten (wortel, paprika, sperziebonen), in blokjes",
-            "50 g maïs",
-            "50 g champignons, in plakjes",
-            "2 eieren",
-            "2 eetlepels plantaardige olie (30 ml)",
-            "1 teentje knoflook, fijngehakt",
-            "2 eetlepels lichte sojasaus (30 ml)",
-            "1/2 tl zout (1 g)",
-            "1/4 tl peper (0,5 g)",
-            "1 lente-ui, gesneden voor garnering"
-        ],
-        preparation:
-            "Voor 4 personen.\n" +
-            "1. Bereid alle ingrediënten: snijd groenten en champignons, klop de eieren.\n" +
-            "2. Verhit 1 eetlepel olie in wok op middelhoog vuur.\n" +
-            "3. Bak de eieren als een dunne omelet, haal eruit en zet opzij.\n" +
-            "4. Voeg resterende olie toe, fruit knoflook 30 seconden.\n" +
-            "5. Voeg scampi toe, bak 3–4 minuten tot volledig gaar.\n" +
-            "6. Voeg groenten, champignons en maïs toe, bak 3–4 minuten.\n" +
-            "7. Voeg rijst toe, meng om de korrels los te maken.\n" +
-            "8. Voeg sojasaus, zout en peper toe, meng 2 minuten.\n" +
-            "9. Voeg de eieren voorzichtig toe.\n" +
-            "10. Serveer warm, garneer met lente-ui."
-    },
-    ar: {
-        title: "أرز مقلي بالروبيان (الصين، تكفي 4 أشخاص)",
-        equipment: [
-            "1 ووك أو مقلاة كبيرة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية",
-            "1 وعاء لكل مكوّن",
-            "1 كوب قياس"
-        ],
-        ingredients: [
-            "250 غ أرز أبيض مطبوخ (يفضل من اليوم السابق)",
-            "150 غ روبيان مقشر",
-            "100 غ خضار مشكلة (جزر، فلفل، فاصوليا خضراء) مقطعة مكعبات",
-            "50 غ ذرة حلوة",
-            "50 غ فطر مقطع شرائح",
-            "2 بيض",
-            "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "1 فص ثوم مفروم",
-            "2 ملعقة كبيرة صلصة الصويا الخفيفة (30 مل)",
-            "1/2 ملعقة صغيرة ملح (1 غ)",
-            "1/4 ملعقة صغيرة فلفل (0.5 غ)",
-            "1 بصلة خضراء مفرومة للتزيين"
-        ],
-        preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضّر جميع المكونات: قطع الخضار والفطر واخفِق البيض.\n" +
-            "2. سخّن 1 ملعقة كبيرة زيت في الووك على نار متوسطة-عالية.\n" +
-            "3. اطبخ البيض كأومليت رقيقة، أخرجه وضعه جانباً.\n" +
-            "4. أضف الزيت المتبقي، قلب الثوم 30 ثانية.\n" +
-            "5. أضف الروبيان، اقليه 3–4 دقائق حتى ينضج.\n" +
-            "6. أضف الخضار والفطر والذرة، اقلب 3–4 دقائق.\n" +
-            "7. أضف الأرز وامزجه لتفريق الحبوب.\n" +
-            "8. أضف صلصة الصويا، الملح والفلفل، قلب 2 دقيقة.\n" +
-            "9. أدمج البيض المطبوخ بلطف.\n" +
-            "10. قدم الطبق ساخناً وزينه بالبصل الأخضر."
+            "1. حضّر جميع المكونات واخفق البيض.\n" +
+            "2. اطبخ البيض كأومليت رقيقة ثم قطّعها واحتفظ بها.\n" +
+            "3. اقْلِ الثوم ثم أضف الروبيان.\n" +
+            "4. أضف الخضار والفطر وقلّب جيداً.\n" +
+            "5. أضف الأرز وامزجه حتى تتفكك الحبوب.\n" +
+            "6. أضف صلصة الصويا والملح والفلفل.\n" +
+            "7. أضف الأومليت وامزج بلطف.\n" +
+            "8. قدّم الطبق ساخناً."
     }
 };
 recipesData.plat.riz_saute_poulet = {
     country: "asie",
     countryName: "chine",
     image: "images/riz_saute_poulet.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "riz-saute-poulet-chine",
+            title: "Riz sauté au poulet (Chine) – Recette facile",
+            description: "Découvrez le riz sauté au poulet, un classique de la cuisine chinoise, simple, rapide et parfait pour un repas familial savoureux.",
+            keywords: [
+                "riz saute poulet",
+                "riz saute poulet chine",
+                "cuisine chinoise",
+                "recette riz facile",
+                "plat asiatique maison",
+                "riz frit au poulet"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Riz sauté au poulet (Chine)",
+            "description": "Un riz sauté au poulet savoureux inspiré de la cuisine chinoise, idéal pour utiliser du riz cuit de la veille.",
+            "recipeCuisine": "Chine",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT15M",
+            "cookTime": "PT15M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "250 g de riz blanc cuit",
+                "150 g de blanc de poulet",
+                "100 g de légumes mélangés",
+                "50 g de champignons",
+                "2 œufs",
+                "2 cuillères à soupe d’huile végétale",
+                "1 gousse d’ail",
+                "2 cuillères à soupe de sauce soja",
+                "Sel",
+                "Poivre",
+                "1 oignon nouveau"
+            ],
+            "recipeInstructions": [
+                "Préparer tous les ingrédients.",
+                "Cuire les œufs en fine omelette et réserver.",
+                "Faire revenir l’ail et le poulet.",
+                "Ajouter les légumes et cuire quelques minutes.",
+                "Incorporer le riz et assaisonner.",
+                "Ajouter les œufs et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Riz sauté au poulet (Chine, 4 personnes)",
+        title: "Riz sauté au poulet (Chine)",
         equipment: [
             "1 wok ou grande poêle",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois",
             "1 bol pour chaque ingrédient",
-            "1 verre doseur"
+            "1 verre doseur",
+            "1 fouet ou fourchette pour battre les œufs"
         ],
         ingredients: [
             "250 g riz blanc cuit (idéalement cuit la veille)",
@@ -73398,27 +75221,28 @@ recipesData.plat.riz_saute_poulet = {
             "1 oignon nouveau ciselé pour la garniture"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Préparez tous les ingrédients : coupez légumes et champignons, battez les œufs, tranchez le poulet finement.\n" +
+            "1. Préparez tous les ingrédients : coupez les légumes et les champignons, battez les œufs et tranchez finement le poulet.\n" +
             "2. Chauffez 1 cuillère à soupe d’huile dans le wok à feu moyen-élevé.\n" +
-            "3. Faites cuire les œufs comme une fine omelette, retirez et réservez.\n" +
-            "4. Ajoutez l’huile restante et faites revenir l’ail 30 secondes.\n" +
-            "5. Ajoutez le poulet, faites sauter 4–5 minutes jusqu’à cuisson complète.\n" +
-            "6. Ajoutez légumes et champignons, continuez 3–4 minutes.\n" +
-            "7. Ajoutez le riz, mélangez pour séparer les grains.\n" +
-            "8. Ajoutez sauce soja, sel et poivre, mélangez 2 minutes.\n" +
-            "9. Incorporez les œufs, mélangez délicatement.\n" +
-            "10. Servez chaud, garnissez avec l’oignon nouveau."
+            "3. Faites cuire les œufs comme une fine omelette, retirez-la puis coupez-la en lanières. Réservez.\n" +
+            "4. Ajoutez l’huile restante et faites revenir l’ail pendant 30 secondes.\n" +
+            "5. Ajoutez le poulet et faites-le sauter 4 à 5 minutes jusqu’à cuisson complète.\n" +
+            "6. Incorporez les légumes et les champignons, poursuivez la cuisson 3 à 4 minutes.\n" +
+            "7. Ajoutez le riz et mélangez bien pour séparer les grains.\n" +
+            "8. Versez la sauce soja, ajoutez le sel et le poivre, mélangez pendant 2 minutes.\n" +
+            "9. Incorporez les lanières d’omelette et mélangez délicatement.\n" +
+            "10. Servez chaud et parsemez d’oignon nouveau."
     },
+
     en: {
-        title: "Stir-Fried Rice with Chicken (China, Serves 4)",
+        title: "Stir-Fried Rice with Chicken (China)",
         equipment: [
             "1 wok or large pan",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
             "1 bowl for each ingredient",
-            "1 measuring cup"
+            "1 measuring cup",
+            "1 whisk or fork for beating eggs"
         ],
         ingredients: [
             "250 g cooked white rice (preferably from the day before)",
@@ -73434,27 +75258,28 @@ recipesData.plat.riz_saute_poulet = {
             "1 spring onion, chopped for garnish"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Prepare all ingredients: chop vegetables and mushrooms, beat eggs, slice chicken thinly.\n" +
-            "2. Heat 1 tbsp oil in wok over medium-high heat.\n" +
-            "3. Cook eggs as a thin omelette, remove and set aside.\n" +
-            "4. Add remaining oil, sauté garlic 30 seconds.\n" +
-            "5. Add chicken, stir-fry 4–5 minutes until fully cooked.\n" +
-            "6. Add vegetables and mushrooms, stir 3–4 minutes.\n" +
-            "7. Add rice, mix to separate grains.\n" +
-            "8. Add soy sauce, salt, and pepper, stir 2 minutes.\n" +
-            "9. Fold in eggs gently.\n" +
-            "10. Serve hot, garnish with spring onion."
+            "1. Prepare all ingredients: chop vegetables and mushrooms, beat the eggs, and slice the chicken thinly.\n" +
+            "2. Heat 1 tablespoon of oil in the wok over medium-high heat.\n" +
+            "3. Cook the eggs as a thin omelette, remove it, slice into strips and set aside.\n" +
+            "4. Add the remaining oil and sauté the garlic for 30 seconds.\n" +
+            "5. Add the chicken and stir-fry for 4 to 5 minutes until fully cooked.\n" +
+            "6. Add vegetables and mushrooms, cook for another 3 to 4 minutes.\n" +
+            "7. Add the rice and mix well to separate the grains.\n" +
+            "8. Stir in soy sauce, salt and pepper, cook for 2 minutes.\n" +
+            "9. Gently fold in the egg strips.\n" +
+            "10. Serve hot and garnish with spring onion."
     },
+
     nl: {
-        title: "Gebakken rijst met kip (China, voor 4 personen)",
+        title: "Gebakken rijst met kip (China)",
         equipment: [
             "1 wok of grote pan",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
             "1 kom voor elk ingrediënt",
-            "1 maatbeker"
+            "1 maatbeker",
+            "1 garde of vork om eieren te kloppen"
         ],
         ingredients: [
             "250 g gekookte witte rijst (bij voorkeur van de vorige dag)",
@@ -73470,27 +75295,28 @@ recipesData.plat.riz_saute_poulet = {
             "1 lente-ui, gesneden voor garnering"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bereid alle ingrediënten: snijd groenten en champignons, klop eieren, snijd kip dun.\n" +
-            "2. Verhit 1 eetlepel olie in wok op middelhoog vuur.\n" +
-            "3. Bak de eieren als een dunne omelet, haal eruit en zet opzij.\n" +
-            "4. Voeg resterende olie toe, fruit knoflook 30 seconden.\n" +
-            "5. Voeg kip toe, bak 4–5 minuten tot gaar.\n" +
-            "6. Voeg groenten en champignons toe, bak 3–4 minuten.\n" +
-            "7. Voeg rijst toe, meng om de korrels los te maken.\n" +
-            "8. Voeg sojasaus, zout en peper toe, meng 2 minuten.\n" +
-            "9. Voeg de eieren voorzichtig toe.\n" +
-            "10. Serveer warm, garneer met lente-ui."
+            "1. Bereid alle ingrediënten: snijd groenten en champignons, klop de eieren en snijd de kip dun.\n" +
+            "2. Verhit 1 eetlepel olie in de wok op middelhoog vuur.\n" +
+            "3. Bak de eieren als een dunne omelet, snijd in reepjes en zet apart.\n" +
+            "4. Voeg de resterende olie toe en fruit de knoflook 30 seconden.\n" +
+            "5. Voeg de kip toe en bak 4 tot 5 minuten tot gaar.\n" +
+            "6. Voeg groenten en champignons toe en bak nog 3 tot 4 minuten.\n" +
+            "7. Voeg de rijst toe en meng zodat de korrels loskomen.\n" +
+            "8. Voeg sojasaus, zout en peper toe en bak 2 minuten.\n" +
+            "9. Meng de reepjes omelet er voorzichtig door.\n" +
+            "10. Serveer warm en garneer met lente-ui."
     },
+
     ar: {
-        title: "أرز مقلي بالدجاج (الصين، تكفي 4 أشخاص)",
+        title: "أرز مقلي بالدجاج (الصين)",
         equipment: [
-            "1 ووك أو مقلاة كبيرة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية",
-            "1 وعاء لكل مكوّن",
-            "1 كوب قياس"
+            "ووك أو مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء لكل مكوّن",
+            "كوب قياس",
+            "مضرب أو شوكة لخفق البيض"
         ],
         ingredients: [
             "250 غ أرز أبيض مطبوخ (يفضل من اليوم السابق)",
@@ -73500,39 +75326,95 @@ recipesData.plat.riz_saute_poulet = {
             "2 بيض",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
             "1 فص ثوم مفروم",
-            "2 ملعقة كبيرة صلصة الصويا الخفيفة (30 مل)",
+            "2 ملعقة كبيرة صلصة صويا خفيفة (30 مل)",
             "1/2 ملعقة صغيرة ملح (1 غ)",
             "1/4 ملعقة صغيرة فلفل (0.5 غ)",
             "1 بصلة خضراء مفرومة للتزيين"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضّر جميع المكونات: قطع الخضار والفطر واخفِق البيض وقطع الدجاج إلى شرائح رقيقة.\n" +
-            "2. سخّن 1 ملعقة كبيرة زيت في الووك على نار متوسطة-عالية.\n" +
-            "3. اطبخ البيض كأومليت رقيقة، أخرجه وضعه جانباً.\n" +
-            "4. أضف الزيت المتبقي، قلب الثوم 30 ثانية.\n" +
-            "5. أضف الدجاج، اقليه 4–5 دقائق حتى ينضج.\n" +
-            "6. أضف الخضار والفطر، اقلب 3–4 دقائق.\n" +
-            "7. أضف الأرز وامزجه لتفريق الحبوب.\n" +
-            "8. أضف صلصة الصويا، الملح والفلفل، قلب 2 دقيقة.\n" +
-            "9. أدمج البيض المطبوخ بلطف.\n" +
-            "10. قدم الطبق ساخناً وزينه بالبصل الأخضر."
+            "1. حضّر جميع المكونات: قطّع الخضار والفطر، اخفق البيض، وقطّع الدجاج إلى شرائح رقيقة.\n" +
+            "2. سخّن ملعقة كبيرة من الزيت في الووك على نار متوسطة إلى عالية.\n" +
+            "3. اطهِ البيض كأومليت رقيقة، قطّعها إلى شرائح وضعها جانباً.\n" +
+            "4. أضف الزيت المتبقي وقلّب الثوم لمدة 30 ثانية.\n" +
+            "5. أضف الدجاج وقلّه لمدة 4 إلى 5 دقائق حتى ينضج تماماً.\n" +
+            "6. أضف الخضار والفطر واطههما لمدة 3 إلى 4 دقائق.\n" +
+            "7. أضف الأرز وامزج جيداً لتفريق الحبوب.\n" +
+            "8. أضف صلصة الصويا والملح والفلفل وقلّب لمدة دقيقتين.\n" +
+            "9. أضف شرائح الأومليت وامزج بلطف.\n" +
+            "10. قدّم الطبق ساخناً وزيّنه بالبصل الأخضر."
     }
 };
-
 recipesData.plat.riz_saute = {
     country: "asie",
     countryName: "chine",
     image: "images/riz_saute.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 20,
+        cookTime: 15,
+        difficulty: "medium",
+        seo: {
+            slug: "riz-saute-scampi-poulet-boeuf-chine",
+            title: "Riz sauté scampi poulet bœuf (Chine) – Complet",
+            description: "Savourez un riz sauté complet à la chinoise avec scampi, poulet, bœuf et légumes, idéal pour un repas généreux et équilibré.",
+            keywords: [
+                "riz saute scampi poulet boeuf",
+                "riz saute chine",
+                "cuisine chinoise",
+                "riz frit maison",
+                "plat asiatique complet",
+                "recette riz legumes viande"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Riz sauté aux scampi, poulet, bœuf et légumes (Chine)",
+            "description": "Un riz sauté généreux inspiré de la cuisine chinoise avec scampi, poulet, bœuf et légumes croquants.",
+            "recipeCuisine": "Chine",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT20M",
+            "cookTime": "PT15M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "200 g riz blanc cuit",
+                "150 g scampi décortiqués",
+                "150 g filet de poulet",
+                "150 g bœuf en lanières",
+                "1 carotte",
+                "1 poivron rouge",
+                "100 g petits pois",
+                "2 œufs",
+                "2 cuillères à soupe huile végétale",
+                "2 gousses d’ail",
+                "2 cuillères à soupe sauce soja",
+                "Sel",
+                "Poivre",
+                "1 oignon nouveau"
+            ],
+            "recipeInstructions": [
+                "Préparer tous les ingrédients.",
+                "Cuire les œufs en omelette fine et réserver.",
+                "Faire revenir l’ail puis les viandes et scampi.",
+                "Ajouter les légumes et cuire quelques minutes.",
+                "Incorporer le riz et assaisonner.",
+                "Ajouter les œufs et servir chaud."
+            ]
+        }
+    },
+
     fr: {
-        title: "Riz sauté aux scampi, poulet, bœuf et légumes (Chine, 4 personnes)",
+        title: "Riz sauté aux scampi, poulet, bœuf et légumes (Chine)",
         equipment: [
             "1 wok ou grande poêle",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois",
             "1 bol pour ingrédients séparés",
-            "1 verre doseur"
+            "1 verre doseur",
+            "1 fouet ou fourchette pour battre les œufs"
         ],
         ingredients: [
             "200 g riz blanc cuit (préférablement cuit la veille et refroidi)",
@@ -73551,33 +75433,34 @@ recipesData.plat.riz_saute = {
             "1 oignon nouveau, ciselé pour la garniture"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
             "1. Préparez tous les ingrédients : découpez légumes et viandes, battez les œufs.\n" +
             "2. Chauffez 1 cuillère à soupe d’huile dans le wok à feu moyen-élevé.\n" +
-            "3. Ajoutez les œufs battus et faites-les cuire comme une omelette fine, retirez et réservez.\n" +
+            "3. Ajoutez les œufs battus et faites-les cuire comme une omelette fine, retirez et coupez en lanières.\n" +
             "4. Ajoutez l’autre cuillère d’huile, faites revenir l’ail 30 secondes.\n" +
-            "5. Ajoutez le poulet, le bœuf et les scampi, faites sauter 4–5 minutes jusqu’à cuisson presque complète.\n" +
+            "5. Ajoutez le poulet, le bœuf et les scampi, faites sauter 4 à 5 minutes jusqu’à cuisson presque complète.\n" +
             "6. Ajoutez carotte, poivron et petits pois, continuez la cuisson 3 minutes.\n" +
             "7. Ajoutez le riz cuit, mélangez bien pour que les grains se séparent.\n" +
             "8. Ajoutez la sauce soja, le sel et le poivre, mélangez 2 minutes.\n" +
-            "9. Incorporez les œufs cuits, mélangez doucement.\n" +
+            "9. Incorporez les lanières d’omelette, mélangez doucement.\n" +
             "10. Servez chaud, garni d’oignons nouveaux ciselés."
     },
+
     en: {
-        title: "Stir-Fried Rice with Scampi, Chicken, Beef, and Vegetables (China, Serves 4)",
+        title: "Stir-Fried Rice with Scampi, Chicken, Beef and Vegetables (China)",
         equipment: [
             "1 wok or large pan",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
             "1 bowl for separate ingredients",
-            "1 measuring cup"
+            "1 measuring cup",
+            "1 whisk or fork for beating eggs"
         ],
         ingredients: [
             "200 g cooked white rice (preferably cooked the day before and cooled)",
             "150 g peeled scampi",
-            "150 g chicken breast, diced",
-            "150 g beef, cut into thin strips",
+            "150 g diced chicken breast",
+            "150 g beef cut into thin strips",
             "1 carrot, diced",
             "1 red bell pepper, diced",
             "100 g frozen peas",
@@ -73590,27 +75473,28 @@ recipesData.plat.riz_saute = {
             "1 spring onion, chopped for garnish"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Prepare all ingredients: chop vegetables and meat, beat the eggs.\n" +
-            "2. Heat 1 tbsp oil in the wok over medium-high heat.\n" +
-            "3. Add beaten eggs and cook like a thin omelette, remove and set aside.\n" +
-            "4. Add the remaining oil, sauté garlic 30 seconds.\n" +
-            "5. Add chicken, beef, and scampi, stir-fry 4–5 minutes until almost cooked.\n" +
-            "6. Add carrot, bell pepper, and peas, continue cooking 3 minutes.\n" +
-            "7. Add cooked rice, mix well to separate grains.\n" +
-            "8. Add soy sauce, salt, and pepper, stir 2 minutes.\n" +
-            "9. Fold in the cooked eggs gently.\n" +
+            "1. Prepare all ingredients: chop vegetables and meats, beat the eggs.\n" +
+            "2. Heat 1 tablespoon of oil in the wok over medium-high heat.\n" +
+            "3. Add beaten eggs and cook as a thin omelette, remove and slice into strips.\n" +
+            "4. Add remaining oil and sauté garlic for 30 seconds.\n" +
+            "5. Add chicken, beef and scampi, stir-fry for 4 to 5 minutes until almost cooked.\n" +
+            "6. Add carrot, bell pepper and peas, cook for 3 more minutes.\n" +
+            "7. Add cooked rice and mix well to separate grains.\n" +
+            "8. Stir in soy sauce, salt and pepper, cook 2 minutes.\n" +
+            "9. Gently fold in the egg strips.\n" +
             "10. Serve hot, garnished with chopped spring onion."
     },
+
     nl: {
-        title: "Gebakken rijst met scampi, kip, rundvlees en groenten (China, voor 4 personen)",
+        title: "Gebakken rijst met scampi, kip, rundvlees en groenten (China)",
         equipment: [
             "1 wok of grote pan",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
             "1 kom voor aparte ingrediënten",
-            "1 maatbeker"
+            "1 maatbeker",
+            "1 garde of vork om eieren te kloppen"
         ],
         ingredients: [
             "200 g gekookte witte rijst (bij voorkeur van de vorige dag en afgekoeld)",
@@ -73629,67 +75513,122 @@ recipesData.plat.riz_saute = {
             "1 lente-ui, gesneden voor garnering"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Bereid alle ingrediënten voor: snijd groenten en vlees, klop de eieren.\n" +
+            "1. Bereid alle ingrediënten: snijd groenten en vlees, klop de eieren.\n" +
             "2. Verhit 1 eetlepel olie in de wok op middelhoog vuur.\n" +
-            "3. Voeg de geklopte eieren toe en bak als een dunne omelet, verwijder en zet opzij.\n" +
-            "4. Voeg de resterende olie toe, fruit knoflook 30 seconden.\n" +
-            "5. Voeg kip, rundvlees en scampi toe, bak 4–5 minuten tot bijna gaar.\n" +
-            "6. Voeg wortel, paprika en erwten toe, bak nog 3 minuten.\n" +
-            "7. Voeg gekookte rijst toe, meng goed zodat de korrels loskomen.\n" +
-            "8. Voeg sojasaus, zout en peper toe, meng 2 minuten.\n" +
-            "9. Voeg de gekookte eieren voorzichtig toe.\n" +
-            "10. Serveer warm, gegarneerd met gesneden lente-ui."
+            "3. Voeg de geklopte eieren toe en bak als een dunne omelet, snijd in reepjes en zet opzij.\n" +
+            "4. Voeg de resterende olie toe en fruit knoflook 30 seconden.\n" +
+            "5. Voeg kip, rundvlees en scampi toe en bak 4 tot 5 minuten tot bijna gaar.\n" +
+            "6. Voeg wortel, paprika en erwten toe en bak nog 3 minuten.\n" +
+            "7. Voeg gekookte rijst toe en meng zodat de korrels loskomen.\n" +
+            "8. Voeg sojasaus, zout en peper toe en bak 2 minuten.\n" +
+            "9. Meng de reepjes omelet er voorzichtig door.\n" +
+            "10. Serveer warm, gegarneerd met lente-ui."
     },
+
     ar: {
-        title: "أرز مقلي بالروبيان والدجاج ولحم البقر والخضار (الصين، تكفي 4 أشخاص)",
+        title: "أرز مقلي بالروبيان والدجاج ولحم البقر والخضار (الصين)",
         equipment: [
-            "1 ووك أو مقلاة كبيرة",
-            "1 سكين",
-            "1 لوح تقطيع",
-            "1 ملعقة خشبية",
-            "1 وعاء للمكونات المنفصلة",
-            "1 كوب قياس"
+            "ووك أو مقلاة كبيرة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء للمكونات المنفصلة",
+            "كوب قياس",
+            "مضرب أو شوكة لخفق البيض"
         ],
         ingredients: [
             "200 غ أرز أبيض مطبوخ (يفضل مطبوخ مسبقًا ومبرد)",
             "150 غ روبيان مقشر",
-            "150 غ صدور دجاج، مقطعة مكعبات",
-            "150 غ لحم بقر، مقطع شرائح رفيعة",
-            "1 جزرة، مقطعة مكعبات",
-            "1 فلفل أحمر، مقطع مكعبات",
+            "150 غ صدور دجاج مقطعة مكعبات",
+            "150 غ لحم بقر مقطع شرائح رفيعة",
+            "1 جزرة مقطعة مكعبات",
+            "1 فلفل أحمر مقطع مكعبات",
             "100 غ بازلاء مجمدة",
             "2 بيض",
             "2 ملعقة كبيرة زيت نباتي (30 مل)",
-            "2 فص ثوم، مفروم ناعماً",
-            "2 ملعقة كبيرة صلصة الصويا الخفيفة (30 مل)",
+            "2 فص ثوم مفروم ناعماً",
+            "2 ملعقة كبيرة صلصة صويا خفيفة (30 مل)",
             "1 ملعقة صغيرة ملح (2 غ)",
             "1/2 ملعقة صغيرة فلفل (1 غ)",
-            "1 بصلة خضراء، مفرومة للتزيين"
+            "1 بصلة خضراء مفرومة للتزيين"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. حضّر جميع المكونات: قطع الخضار واللحوم، اخفق البيض.\n" +
-            "2. سخّن 1 ملعقة كبيرة من الزيت في الووك على نار متوسطة-عالية.\n" +
-            "3. أضف البيض المخفوق واطبخه كأومليت رقيقة، أخرجه وضعه جانباً.\n" +
-            "4. أضف الزيت المتبقي، وقلب الثوم 30 ثانية.\n" +
-            "5. أضف الدجاج، اللحم البقري والروبيان، واقلِ 4–5 دقائق حتى يقترب من النضج.\n" +
-            "6. أضف الجزرة، الفلفل والبازلاء، واستمر بالتحريك 3 دقائق.\n" +
-            "7. أضف الأرز المطبوخ، وامزجه جيداً لتفريق الحبوب.\n" +
-            "8. أضف صلصة الصويا، الملح والفلفل، واخلط 2 دقيقة.\n" +
-            "9. أدمج البيض المطبوخ بلطف.\n" +
-            "10. قدّم الطبق ساخناً، وزينه بالبصل الأخضر المفروم."
+            "1. حضّر جميع المكونات: قطّع الخضار واللحوم واخفق البيض.\n" +
+            "2. سخّن ملعقة كبيرة من الزيت في الووك على نار متوسطة-عالية.\n" +
+            "3. أضف البيض المخفوق واطبخه كأومليت رقيقة ثم قطّعه إلى شرائح وضعه جانباً.\n" +
+            "4. أضف الزيت المتبقي وقلّب الثوم لمدة 30 ثانية.\n" +
+            "5. أضف الدجاج ولحم البقر والروبيان وقلّب لمدة 4 إلى 5 دقائق حتى يقترب من النضج.\n" +
+            "6. أضف الجزرة والفلفل والبازلاء واطههما لمدة 3 دقائق.\n" +
+            "7. أضف الأرز وامزجه جيداً لتفريق الحبوب.\n" +
+            "8. أضف صلصة الصويا والملح والفلفل وقلّب لمدة دقيقتين.\n" +
+            "9. أدمج شرائح الأومليت بلطف.\n" +
+            "10. قدّم الطبق ساخناً وزيّنه بالبصل الأخضر."
     }
 };
-
-// 3. Sushi végétarien (Japon)
 recipesData.plat.sushi_vegetarien_japon = {
     country: "asie",
     countryName: "japon",
     image: "images/sushi_vegetarien_japon.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "medium",
+        seo: {
+            slug: "sushi-vegetarien-japon",
+            title: "Sushi végétarien (Japon) – Recette maison",
+            description: "Préparez des sushi végétariens japonais avec du riz vinaigré, des légumes frais et des feuilles de nori, parfaits pour un repas léger et savoureux.",
+            keywords: [
+                "sushi vegetarien",
+                "sushi vegetarien japon",
+                "cuisine japonaise",
+                "recette sushi maison",
+                "maki legumes",
+                "plat asiatique vegetarien"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Sushi végétarien (Japon)",
+            "description": "Des sushi végétariens japonais garnis de légumes frais et de riz vinaigré, simples et savoureux.",
+            "recipeCuisine": "Japon",
+            "recipeCategory": "Plat",
+            "recipeYield": "4 portions",
+            "prepTime": "PT25M",
+            "cookTime": "PT15M",
+            "totalTime": "PT40M",
+            "recipeIngredient": [
+                "200 g riz à sushi",
+                "250 ml eau",
+                "4 feuilles nori",
+                "1 carotte",
+                "1 concombre",
+                "1 avocat",
+                "2 cuillères à soupe sauce soja"
+            ],
+            "recipeInstructions": [
+                "Rincer le riz jusqu’à ce que l’eau soit claire.",
+                "Cuire le riz puis le laisser tiédir.",
+                "Étaler le riz sur la feuille de nori.",
+                "Ajouter les légumes.",
+                "Rouler fermement et couper en morceaux.",
+                "Servir avec sauce soja."
+            ]
+        }
+    },
+
     fr: {
-        title: "Sushi végétarien (Japon, 4 personnes)",
-        equipment: ["1 tapis à sushi", "1 couteau", "1 bol", "1 cuillère"],
+        title: "Sushi végétarien (Japon)",
+        equipment: [
+            "1 tapis à sushi",
+            "1 couteau bien aiguisé",
+            "1 casserole avec couvercle",
+            "1 bol",
+            "1 cuillère en bois",
+            "1 passoire fine"
+        ],
         ingredients: [
             "200 g riz à sushi",
             "250 ml eau",
@@ -73700,18 +75639,27 @@ recipesData.plat.sushi_vegetarien_japon = {
             "2 cuillères à soupe sauce soja"
         ],
         preparation:
-            "Recette pour 4 personnes.\n" +
-            "1. Rincer le riz plusieurs fois jusqu’à eau claire.\n" +
-            "2. Cuire le riz avec 250 ml d’eau jusqu’à absorption complète.\n" +
-            "3. Étaler le riz sur les feuilles de nori en laissant 1 cm vide en haut.\n" +
-            "4. Placer carotte, concombre et avocat sur le riz.\n" +
-            "5. Rouler fermement avec le tapis.\n" +
-            "6. Couper en 6 à 8 morceaux.\n" +
-            "7. Servir avec sauce soja."
+            "1. Rincer le riz plusieurs fois jusqu’à ce que l’eau soit claire.\n" +
+            "2. Égoutter puis cuire le riz avec 250 ml d’eau à couvert jusqu’à absorption complète.\n" +
+            "3. Laisser tiédir quelques minutes.\n" +
+            "4. Déposer une feuille de nori sur le tapis à sushi.\n" +
+            "5. Étaler une fine couche de riz en laissant 1 cm vide en haut.\n" +
+            "6. Placer la carotte, le concombre et l’avocat au centre.\n" +
+            "7. Rouler fermement à l’aide du tapis.\n" +
+            "8. Couper en 6 à 8 morceaux avec un couteau humide.\n" +
+            "9. Servir avec la sauce soja."
     },
+
     en: {
-        title: "Vegetarian Sushi (Japan, Serves 4)",
-        equipment: ["1 sushi mat", "1 knife", "1 bowl", "1 spoon"],
+        title: "Vegetarian Sushi (Japan)",
+        equipment: [
+            "1 sushi mat",
+            "1 sharp knife",
+            "1 saucepan with lid",
+            "1 bowl",
+            "1 wooden spoon",
+            "1 fine strainer"
+        ],
         ingredients: [
             "200 g sushi rice",
             "250 ml water",
@@ -73719,63 +75667,85 @@ recipesData.plat.sushi_vegetarien_japon = {
             "1 carrot, julienned",
             "1 cucumber, thinly sliced",
             "1 avocado, sliced",
-            "2 tbsp soy sauce"
+            "2 tablespoons soy sauce"
         ],
         preparation:
-            "Serves 4.\n" +
-            "1. Rinse rice until water runs clear.\n" +
-            "2. Cook rice with 250 ml water until fully absorbed.\n" +
-            "3. Spread rice on nori sheets leaving 1 cm at top.\n" +
-            "4. Place carrot, cucumber, avocado on rice.\n" +
-            "5. Roll tightly with mat.\n" +
-            "6. Cut into 6-8 pieces.\n" +
-            "7. Serve with soy sauce."
+            "1. Rinse the rice several times until the water runs clear.\n" +
+            "2. Drain and cook the rice with 250 ml of water covered until fully absorbed.\n" +
+            "3. Let it cool slightly.\n" +
+            "4. Place a nori sheet on the sushi mat.\n" +
+            "5. Spread a thin layer of rice leaving 1 cm at the top.\n" +
+            "6. Arrange carrot, cucumber and avocado in the center.\n" +
+            "7. Roll tightly using the mat.\n" +
+            "8. Cut into 6 to 8 pieces with a damp knife.\n" +
+            "9. Serve with soy sauce."
     },
+
     nl: {
-        title: "Vegetarische sushi (Japan, voor 4 personen)",
-        equipment: ["1 sushimat", "1 mes", "1 kom", "1 lepel"],
+        title: "Vegetarische sushi (Japan)",
+        equipment: [
+            "1 sushimat",
+            "1 scherp mes",
+            "1 kookpan met deksel",
+            "1 kom",
+            "1 houten lepel",
+            "1 fijne zeef"
+        ],
         ingredients: [
             "200 g sushirijst",
             "250 ml water",
-            "4 nori vellen",
+            "4 norivellen",
             "1 wortel, in julienne",
             "1 komkommer, in dunne reepjes",
             "1 avocado, in plakjes",
-            "2 el sojasaus"
+            "2 eetlepels sojasaus"
         ],
         preparation:
-            "Voor 4 personen.\n" +
-            "1. Spoel de rijst tot het water helder is.\n" +
-            "2. Kook de rijst met 250 ml water tot volledig opgenomen.\n" +
-            "3. Spreid de rijst op nori vellen, laat 1 cm boven vrij.\n" +
-            "4. Leg wortel, komkommer en avocado op de rijst.\n" +
-            "5. Rol stevig met mat.\n" +
-            "6. Snijd in 6-8 stukken.\n" +
-            "7. Serveer met sojasaus."
+            "1. Spoel de rijst meerdere keren tot het water helder is.\n" +
+            "2. Laat uitlekken en kook met 250 ml water met deksel tot het water is opgenomen.\n" +
+            "3. Laat iets afkoelen.\n" +
+            "4. Leg een norivel op de sushimat.\n" +
+            "5. Verdeel een dunne laag rijst en laat bovenaan 1 cm vrij.\n" +
+            "6. Leg wortel, komkommer en avocado in het midden.\n" +
+            "7. Rol stevig op met behulp van de mat.\n" +
+            "8. Snijd in 6 tot 8 stukken met een vochtig mes.\n" +
+            "9. Serveer met sojasaus."
     },
+
     ar: {
-        title: "سوشي نباتي (اليابان، تكفي 4 أشخاص)",
-        equipment: ["1 حصيرة سوشي", "1 سكين", "1 وعاء", "1 ملعقة"],
+        title: "سوشي نباتي (اليابان)",
+        equipment: [
+            "حصيرة سوشي",
+            "سكين حاد",
+            "قدر بغطاء",
+            "وعاء",
+            "ملعقة خشبية",
+            "مصفاة دقيقة"
+        ],
         ingredients: [
             "200 غ أرز سوشي",
             "250 مل ماء",
             "4 أوراق نوري",
-            "1 جزرة، مقطعة شرائح رفيعة",
-            "1 خيار، مقطع شرائح رفيعة",
-            "1 أفوكادو، مقطع شرائح",
-            "2 ملعقة كبيرة صويا صوص"
+            "1 جزرة مقطعة شرائح رفيعة",
+            "1 خيار مقطع شرائح رفيعة",
+            "1 أفوكادو مقطع شرائح",
+            "2 ملعقة كبيرة صلصة صويا"
         ],
         preparation:
-            "تكفي 4 أشخاص.\n" +
-            "1. اغسل الأرز حتى يصبح الماء صافياً.\n" +
-            "2. اطبخ الأرز مع 250 مل ماء حتى يمتص بالكامل.\n" +
-            "3. افرد الأرز على أوراق النوري مع ترك 1 سم فارغ أعلى.\n" +
-            "4. ضع الجزرة والخيار والأفوكادو على الأرز.\n" +
-            "5. لف بإحكام باستخدام الحصيرة.\n" +
-            "6. قطع إلى 6-8 قطع.\n" +
-            "7. قدمه مع صويا صوص."
+            "1. اغسل الأرز عدة مرات حتى يصبح الماء صافياً.\n" +
+            "2. صفِّ الأرز واطهه مع 250 مل ماء حتى يمتص الماء بالكامل.\n" +
+            "3. اتركه يبرد قليلاً.\n" +
+            "4. ضع ورقة نوري على حصيرة السوشي.\n" +
+            "5. افرد طبقة رقيقة من الأرز مع ترك 1 سم فارغ في الأعلى.\n" +
+            "6. ضع الجزر والخيار والأفوكادو في المنتصف.\n" +
+            "7. لف بإحكام باستخدام الحصيرة.\n" +
+            "8. قطّع إلى 6 إلى 8 قطع باستخدام سكين مبلل.\n" +
+            "9. قدّم مع صلصة الصويا."
     }
 };
+
+
+
 
 
 
