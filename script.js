@@ -6,6 +6,11 @@ const translations = {
     fr: {
         title: "Cuisine du Monde Halal",
         partners: "Liens partenaires",
+        nav_home: "Accueil",
+        nav_about: "À propos",
+        nav_privacy: "Politique de confidentialité",
+        nav_contact: "Contact",
+
         shop: "Boutique",
         shop_category: "Choisir une catégorie",
         amazon: "Amazon",
@@ -50,12 +55,30 @@ const translations = {
         pancakes: "crêpes",
         pieces: "pièces"
 },
-        legal: "Ce site contient des liens d’affiliation. En tant que partenaire, je peux percevoir une commission sans coût supplémentaire pour vous. Le site n’est pas responsable des achats effectués sur les plateformes partenaires."
-      },
+        legal: "Ce site contient des liens d’affiliation. En tant que partenaire, je peux percevoir une commission sans coût supplémentaire pour vous. Le site n’est pas responsable des achats effectués sur les plateformes partenaires.",
+        
+        about_title: "Qui suis-je ?",
+        about_intro: "Salam Aleykoum, bonjour et bienvenue.",
+        about_who: "Je m’appelle Mehdi. Je ne suis pas chef cuisinier de profession. Après plusieurs années dans le jardinage puis la sécurité, je travaille aujourd’hui comme chauffeur de bus.",
+        about_story: "Comme beaucoup de personnes, j’ai toujours aimé bien manger sans être un expert en cuisine. Avec le temps, et surtout grâce à ma femme, j’ai appris à préparer des plats simples et à prendre plaisir à cuisiner pour ma famille.",
+        about_origin: "Cuisine du Monde Halal est né d’un besoin personnel : trouver des recettes variées et accessibles en version halal.",
+        about_launch: "Le site a été lancé en 2026 avec la volonté de partager une cuisine halal accessible à tous.",
+        about_goal: "L’objectif du site est simple : proposer des recettes du monde entier en version halal, faciles à réaliser et adaptées au quotidien.",
+        about_audience: "Le site s’adresse en priorité aux familles musulmanes, mais aussi à toute personne souhaitant cuisiner simplement et découvrir de nouvelles saveurs.",
+        about_free: "Le site est gratuit et le restera. Certains liens présents dans la rubrique boutique sont affiliés.",
+        about_contact: "Pour toute question, vous pouvez me contacter via la page contact du site.",
+        about_signature: "Besahtkom ! — Mehdi",
 
+      },
+ 
     en: {
         title: "Halal World Cuisine",
         partners: "Partner links",
+        nav_home: "Home",
+        nav_about: "About",
+        nav_privacy: "Privacy Policy",
+        nav_contact: "Contact",
+
         shop: "Shop",
         shop_category: "Choose a category",
         amazon: "Amazon",
@@ -99,13 +122,30 @@ const translations = {
         pancakes: "pancakes",
         pieces: "pieces"
 },
-        legal: "This site contains affiliate links. As a partner, I may earn a commission at no extra cost to you. The site is not responsible for purchases made on partner platforms."
+        legal: "This site contains affiliate links. As a partner, I may earn a commission at no extra cost to you. The site is not responsible for purchases made on partner platforms.",
+        about_title: "About me",
+        about_intro: "Salam Aleykoum and welcome.",
+        about_who: "My name is Mehdi. I am not a professional chef. After working for many years in gardening and security, I now work as a bus driver.",
+        about_story: "Like many people, I have always loved good food without being an expert cook. Over time, and especially thanks to my wife, I learned to prepare simple meals and enjoy cooking for my family.",
+        about_origin: "Cuisine du Monde Halal was born from a personal need: finding varied and accessible halal recipes.",
+        about_launch: "The website was launched in 2026 to share halal cooking accessible to everyone.",
+        about_goal: "The goal is simple: to offer halal recipes from around the world, easy to prepare and suitable for daily life.",
+        about_audience: "The site is primarily intended for Muslim families, but also for anyone who wants to cook simply and discover new flavors.",
+        about_free: "The site is free and will remain so. Some links in the shop section are affiliate links.",
+        about_contact: "If you have any questions, you can contact me via the contact page.",
+        about_signature: "Besahtkom! — Mehdi",
+
        
  },
 
     ar: {
         title: "مطبخ العالم الحلال",
         partners: "روابط الشركاء",
+        nav_home: "الرئيسية",
+        nav_about: "حول",
+        nav_privacy: "سياسة الخصوصية",
+        nav_contact: "اتصل بنا",
+
         shop: "المتجر",
         shop_category: "اختر فئة",
         amazon: "أمازون",
@@ -150,13 +190,30 @@ const translations = {
         pancakes: "فطيرة",
         pieces: "قطع"
 },
-        legal: "يحتوي هذا الموقع على روابط تابعة. قد أحصل على عمولة دون أي تكلفة إضافية عليك. الموقع غير مسؤول عن المشتريات من المنصات الشريكة."
+        legal: "يحتوي هذا الموقع على روابط تابعة. قد أحصل على عمولة دون أي تكلفة إضافية عليك. الموقع غير مسؤول عن المشتريات من المنصات الشريكة.",
+        about_title: "من أنا",
+        about_intro: "السلام عليكم ومرحباً بكم.",
+        about_who: "اسمي مهدي. لست طاهياً محترفاً. بعد سنوات من العمل في البستنة والأمن، أعمل اليوم سائق حافلة.",
+        about_story: "مثل كثير من الناس أحب الطعام الجيد دون أن أكون خبيراً. مع الوقت وبفضل زوجتي تعلمت إعداد وجبات بسيطة.",
+        about_origin: "نشأ موقع مطبخ العالم الحلال من حاجة شخصية للعثور على وصفات حلال سهلة ومتنوعة.",
+        about_launch: "تم إطلاق الموقع في عام 2026 لمشاركة وصفات حلال سهلة للجميع.",
+        about_goal: "الهدف بسيط: تقديم وصفات حلال من مختلف مطابخ العالم سهلة التحضير.",
+        about_audience: "الموقع موجّه للعائلات المسلمة ولكل من يرغب في الطهي بسهولة واكتشاف نكهات جديدة.",
+        about_free: "الموقع مجاني وسيبقى كذلك. بعض الروابط هي روابط تسويق بالعمولة.",
+        about_contact: "لأي استفسار يمكنكم التواصل عبر صفحة الاتصال.",
+        about_signature: "بصحتكم — مهدي",
+
       
 },
 
     nl: {
         title: "Halal Wereldkeuken",
         partners: "Partnerlinks",
+        nav_home: "Home",
+        nav_about: "Over",
+        nav_privacy: "Privacybeleid",
+        nav_contact: "Contact",
+
         shop: "Winkel",
         shop_category: "Kies een categorie",
         amazon: "Amazon",
@@ -201,10 +258,20 @@ const translations = {
         pancakes: "pannenkoeken",
         pieces: "stuks"
 },
-        legal: "Deze site bevat affiliate links. Als partner kan ik een commissie verdienen zonder extra kosten voor u. De site is niet verantwoordelijk voor aankopen op partnerplatforms."
-      
+        legal: "Deze site bevat affiliate links. Als partner kan ik een commissie verdienen zonder extra kosten voor u. De site is niet verantwoordelijk voor aankopen op partnerplatforms.",
+        about_title: "Over mij",
+        about_intro: "Salam Aleykoum en welkom.",
+        about_who: "Mijn naam is Mehdi. Ik ben geen professionele chef. Na jaren in tuinbouw en beveiliging werk ik vandaag als buschauffeur.",
+        about_story: "Zoals veel mensen hou ik van lekker eten zonder expert te zijn. Met de tijd en dankzij mijn vrouw leerde ik eenvoudige maaltijden bereiden.",
+        about_origin: "Cuisine du Monde Halal ontstond uit een persoonlijke behoefte: toegankelijke halal recepten vinden.",
+        about_launch: "De website werd gelanceerd in 2026 om halal koken toegankelijk te maken.",
+        about_goal: "Het doel is eenvoudig: halal recepten uit de hele wereld aanbieden die makkelijk te bereiden zijn.",
+        about_audience: "De website richt zich vooral op moslimgezinnen maar ook op iedereen die eenvoudig wil koken.",
+        about_free: "De website is gratis en blijft dat. Sommige links zijn affiliate links.",
+        about_contact: "Voor vragen kunt u contact opnemen via de contactpagina.",
+        about_signature: "Besahtkom! — Mehdi",
 
-    }
+  },    
 };
 const homeIntro = {
 
