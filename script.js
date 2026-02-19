@@ -76107,8 +76107,7 @@ metaDiv.innerHTML = `
     homeImage.classList.add("hidden");
     recipeContainer.classList.remove("hidden");
     document.getElementById("home-intro").classList.add("hidden");
-    // corrige les titres restés dans l’ancienne langue
-applyTranslations(currentLang);
+
 
 
 }
