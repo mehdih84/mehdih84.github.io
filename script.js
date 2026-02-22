@@ -11650,12 +11650,20 @@ recipesData.plat.soupeTomateBoulettesMehdi = {
             "16. Season to taste.\n" +
             "17. Add vermicelli if desired.\n" +
             "18. Cook according to package instructions.\n" +
-            "19. Serve hot with croutons or toasted bread.\n"
+            "19. Serve hot with croutons or toasted bread.\n\n" +
+
+            "==============================\n" +
+            "TIPS AND ADVICE\n" +
+            "==============================\n\n" +
+            "This soup is a classic in Belgian family kitchens.\n" +
+            "The meatballs cook directly in the broth, keeping them tender and flavorful.\n\n" +
+            "Vermicelli adds a heartier texture, while croutons bring a pleasant crunch.\n\n" +
+            "Perfect for cold days, this soup is nourishing, economical and very easy to prepare."
     },
 
     nl: {
         title: "Tomatensoep met gehaktballetjes — Mehdi’s versie",
-        description: "Mijn grootmoeder maakte deze soep af en toe. Dit is mijn versie, omdat ik haar recept nooit heb kunnen vragen. Ik voeg graag vermicelli en croutons toe voor extra textuur. Perfect om op te warmen tijdens koude dagen.",
+        description: "Mijn grootmoeder maakte deze soep af en toe. Dit is mijn versie omdat ik haar recept nooit heb kunnen vragen. Ik voeg graag vermicelli en croutons toe voor extra textuur. Perfect om op te warmen tijdens koude dagen.",
 
         equipment: [
             "1 grote pan",
@@ -11698,7 +11706,15 @@ recipesData.plat.soupeTomateBoulettesMehdi = {
             "16. Breng op smaak.\n" +
             "17. Voeg vermicelli toe indien gewenst.\n" +
             "18. Kook volgens verpakking.\n" +
-            "19. Serveer warm met croutons.\n"
+            "19. Serveer warm met croutons.\n\n" +
+
+            "==============================\n" +
+            "TIPS EN ADVIES\n" +
+            "==============================\n\n" +
+            "Deze soep is een klassieker in Belgische familiekeukens.\n" +
+            "De gehaktballetjes garen rechtstreeks in de bouillon en blijven zo mals en smaakvol.\n\n" +
+            "Vermicelli zorgt voor een stevigere textuur, terwijl croutons een knapperige toets toevoegen.\n\n" +
+            "Perfect voor koude dagen: voedzaam, voordelig en zeer eenvoudig te bereiden."
     },
 
     ar: {
@@ -11746,7 +11762,15 @@ recipesData.plat.soupeTomateBoulettesMehdi = {
             "16. أضف الملح والتوابل.\n" +
             "17. أضف الشعيرية عند الرغبة.\n" +
             "18. اطبخ حسب التعليمات.\n" +
-            "19. قدّم ساخناً مع الخبز المحمص.\n"
+            "19. قدّم ساخناً مع الخبز المحمص.\n\n" +
+
+            "==============================\n" +
+            "نصائح وإرشادات\n" +
+            "==============================\n\n" +
+            "تُعد هذه الشوربة من الأطباق الكلاسيكية في المطابخ العائلية البلجيكية.\n" +
+            "تُطهى كرات اللحم مباشرة في المرق، مما يجعلها طرية وغنية بالنكهة.\n\n" +
+            "تضيف الشعيرية قوامًا أكثر كثافة، بينما تضيف قطع الخبز المحمصة قرمشة لطيفة.\n\n" +
+            "مثالية للأيام الباردة، فهي مغذية واقتصادية وسهلة التحضير."
     }
 };
 recipesData.plat.stoofvleesPoulet = {
@@ -12306,7 +12330,26 @@ recipesData.plat.moulesFrites = {
             "17. Sprinkle fresh parsley.\n" +
             "18. Serve in a deep plate with the broth.\n" +
             "19. The broth can be enjoyed as a soup.\n" +
-            "20. Serve with crispy fries.\n"
+            "20. Serve with crispy fries.\n\n" +
+
+            "==============================\n" +
+            "INFORMATION AND TIPS\n" +
+            "==============================\n\n" +
+
+            "Mussels and fries are an emblematic dish of Belgium and the North Sea coast.\n" +
+            "This small shellfish lives in clusters attached to rocks and remains closed in nature.\n" +
+            "It only opens during cooking to reveal its full flavor.\n\n" +
+
+            "Although they may seem unappetizing at first glance, mussels are a true delight for both children and adults.\n\n" +
+
+            "To eat them easily, start by opening one and keep the two shells attached.\n" +
+            "You can then use it like tongs to pick up the others without getting your fingers dirty.\n\n" +
+
+            "Provide a large bowl to discard the empty shells: they quickly take up space on the plate.\n\n" +
+
+            "⚠️ If a mussel remains closed after cooking, discard it: it may be unsafe to eat.\n\n" +
+
+            "👉 For an even more flavorful version, try the mussels with vegetables recipe.\n"
     },
 
     nl: {
@@ -12354,7 +12397,26 @@ recipesData.plat.moulesFrites = {
             "17. Bestrooi met peterselie.\n" +
             "18. Serveer in een diep bord met het kookvocht.\n" +
             "19. Het vocht kan als soep worden gedronken.\n" +
-            "20. Serveer met frieten.\n"
+            "20. Serveer met frieten.\n\n" +
+
+            "==============================\n" +
+            "INFORMATIE EN TIPS\n" +
+            "==============================\n\n" +
+
+            "Mosselen met friet zijn een emblematisch gerecht uit België en de kust van de Noordzee.\n" +
+            "Dit kleine schelpdier leeft in groepen die aan rotsen vastzitten en blijft in de natuur gesloten.\n" +
+            "Pas tijdens het koken opent het zich en onthult het zijn volle smaak.\n\n" +
+
+            "Hoewel ze op het eerste gezicht misschien niet erg smakelijk lijken, zijn mosselen een echte delicatesse voor jong en oud.\n\n" +
+
+            "Om ze gemakkelijk te eten, begin met er één te openen en houd de twee schelpen aan elkaar vast.\n" +
+            "Je kunt deze vervolgens gebruiken als een tang om de andere op te pakken zonder je vingers vuil te maken.\n\n" +
+
+            "Voorzie een grote kom voor de lege schelpen: ze nemen snel veel plaats in op het bord.\n\n" +
+
+            "⚠️ Blijft een mossel na het koken gesloten, gooi ze dan weg: ze kan onveilig zijn om te eten.\n\n" +
+
+            "👉 Probeer voor een nog smaakvollere versie het recept van mosselen met groenten.\n"
     },
 
     ar: {
@@ -12402,10 +12464,28 @@ recipesData.plat.moulesFrites = {
             "17. رش البقدونس.\n" +
             "18. قدّم مع المرق.\n" +
             "19. يمكن شرب المرق كحساء.\n" +
-            "20. قدّم مع البطاطس المقلية.\n"
+            "20. قدّم مع البطاطس المقلية.\n\n" +
+
+            "==============================\n" +
+            "معلومات ونصائح\n" +
+            "==============================\n\n" +
+
+            "تُعدّ بلح البحر مع البطاطس المقلية طبقًا رمزيًا في بلجيكا وعلى سواحل بحر الشمال.\n" +
+            "يعيش هذا الكائن البحري الصغير في مجموعات ملتصقة بالصخور ويظل مغلقًا في الطبيعة.\n" +
+            "ولا ينفتح إلا أثناء الطهي ليكشف عن نكهته الكاملة.\n\n" +
+
+            "ورغم أنها قد تبدو غير شهية للوهلة الأولى، فإن بلح البحر يعدّ طعامًا لذيذًا يعشقه الصغار والكبار.\n\n" +
+
+            "لتناوله بسهولة، ابدأ بفتح واحدة واحتفظ بنصفي القوقعة متصلين.\n" +
+            "يمكنك استخدامها بعد ذلك كملقط لالتقاط البقية دون اتساخ يديك.\n\n" +
+
+            "جهّز وعاءً كبيرًا لوضع القواقع الفارغة، فهي تشغل مساحة كبيرة في الطبق.\n\n" +
+
+            "⚠️ إذا بقيت أي حبة بلح بحر مغلقة بعد الطهي فتخلص منها، فقد تكون غير صالحة للأكل.\n\n" +
+
+            "👉 لمذاق أكثر غنى، جرّب وصفة بلح البحر مع الخضار.\n"
     }
 };
-
 
 recipesData.plat.carbonadeVlaamse = {
     country: "belgique",
@@ -12844,6 +12924,17 @@ recipesData.plat.fritesBelges = {
 "11. Égoutter et saler.\n\n" +
 
 "==============================\n" +
+"VERSION AIRFRYER (DOUBLE CUISSON)\n" +
+"==============================\n\n" +
+"1. Préchauffer l’Airfryer à 160°C.\n" +
+"2. Mélanger les frites avec une cuillère d’huile.\n" +
+"3. Cuire 10 minutes.\n" +
+"4. Laisser reposer 5 à 10 minutes.\n" +
+"5. Augmenter la température à 200°C.\n" +
+"6. Cuire encore 8 à 12 minutes jusqu’à croustillant.\n" +
+"7. Saler et servir chaud.\n\n" +
+
+"==============================\n" +
 "INFORMATIONS ET CONSEILS\n" +
 "==============================\n\n" +
 "La frite, connue comme étant belge, fait pourtant débat. Une tradition situe son origine vers 1680 dans la vallée de la Meuse, tandis que certains historiens évoquent des pommes de terre frites vendues à Paris à la fin du XVIIIᵉ siècle. Ceci étant dit, même si je ne suis peut-être pas totalement objectif, la frite moderne est devenue un véritable symbole culinaire de la Belgique… et il faut bien l’avouer : elle y est souvent meilleure 😊.\n\n" +
@@ -12889,6 +12980,17 @@ recipesData.plat.fritesBelges = {
 "9. Heat fat to 175°C.\n" +
 "10. Fry until golden.\n" +
 "11. Drain and salt.\n\n" +
+
+"==============================\n" +
+"AIRFRYER METHOD (DOUBLE COOKING)\n" +
+"==============================\n\n" +
+"1. Preheat Airfryer to 160°C.\n" +
+"2. Toss fries with a spoon of oil.\n" +
+"3. Cook for 10 minutes.\n" +
+"4. Let rest 5–10 minutes.\n" +
+"5. Increase temperature to 200°C.\n" +
+"6. Cook 8–12 more minutes until crispy.\n" +
+"7. Salt and serve hot.\n\n" +
 
 "==============================\n" +
 "INFORMATION AND TIPS\n" +
@@ -12938,6 +13040,17 @@ recipesData.plat.fritesBelges = {
 "11. Zout toevoegen.\n\n" +
 
 "==============================\n" +
+"AIRFRYER METHODE (DUBBELE BAKMETHODE)\n" +
+"==============================\n\n" +
+"1. Verwarm de Airfryer voor op 160°C.\n" +
+"2. Meng de frieten met een lepel olie.\n" +
+"3. Bak 10 minuten.\n" +
+"4. Laat 5–10 minuten rusten.\n" +
+"5. Verhoog de temperatuur tot 200°C.\n" +
+"6. Bak nog 8–12 minuten tot knapperig.\n" +
+"7. Zout toevoegen en warm serveren.\n\n" +
+
+"==============================\n" +
 "INFORMATIE EN TIPS\n" +
 "==============================\n\n" +
 "Frieten worden sterk met België geassocieerd, hoewel gefrituurde aardappelen ook in Parijs werden verkocht aan het einde van de 18e eeuw. Vandaag zijn Belgische frieten een echt nationaal symbool 😊.\n\n" +
@@ -12983,6 +13096,17 @@ recipesData.plat.fritesBelges = {
 "9. سخّن الدهن إلى 175°C.\n" +
 "10. اقلي حتى تصبح ذهبية.\n" +
 "11. أضف الملح.\n\n" +
+
+"==============================\n" +
+"طريقة القلاية الهوائية (القلي المزدوج)\n" +
+"==============================\n\n" +
+"1. سخّن جهاز Airfryer إلى 160°C.\n" +
+"2. اخلط البطاطس بملعقة من الزيت.\n" +
+"3. اطهِ لمدة 10 دقائق.\n" +
+"4. اتركها لترتاح 5 إلى 10 دقائق.\n" +
+"5. ارفع الحرارة إلى 200°C.\n" +
+"6. اطهِ 8 إلى 12 دقيقة إضافية حتى تصبح مقرمشة.\n" +
+"7. أضف الملح وقدّم ساخناً.\n\n" +
 
 "==============================\n" +
 "معلومات ونصائح\n" +
@@ -13555,6 +13679,9 @@ recipesData.plat.moulesFritesLegumes = {
             "pepper"
         ],
         preparation:
+"==============================\n" +
+"PREPARATION\n" +
+"==============================\n\n" +
 "1. Dissolve the stock cube in a glass of warm water.\n" +
 "2. Slice the vegetables.\n" +
 "3. Heat oil and sauté vegetables.\n" +
@@ -13563,7 +13690,21 @@ recipesData.plat.moulesFritesLegumes = {
 "6. Cover immediately.\n" +
 "7. Cook 8–10 minutes without stirring.\n" +
 "8. Shake pot gently at the end if needed.\n" +
-"9. Check mussels are open and serve with broth and fries.\n"
+"9. Check mussels are open and serve with broth and fries.\n\n" +
+
+"==============================\n" +
+"INFORMATION AND TIPS\n" +
+"==============================\n\n" +
+"Mussels are a traditional Belgian dish from the North Sea coast.\n" +
+"This small shellfish lives in clusters attached to rocks and remains closed in nature.\n" +
+"It opens only during cooking, revealing its full flavor.\n\n" +
+"And of course, what would a Belgian dish be without fries? 😊\n\n" +
+"The classic base includes celery, onion and garlic. I like adding carrot and leek.\n" +
+"Recently, on a friend’s advice, I started adding a vegetable stock cube — the flavor becomes even richer.\n\n" +
+"The remaining broth is delicious: I dip my fries in it and finish it like a soup.\n\n" +
+"To eat easily, use an empty shell as tongs.\n" +
+"Provide a large bowl for empty shells.\n\n" +
+"⚠️ If a mussel remains closed after cooking, discard it."
     },
 
     nl: {
@@ -13584,14 +13725,31 @@ recipesData.plat.moulesFritesLegumes = {
             "peper"
         ],
         preparation:
+"==============================\n" +
+"BEREIDING\n" +
+"==============================\n\n" +
 "1. Los het bouillonblokje op in warm water.\n" +
 "2. Snijd de groenten.\n" +
-"3. Bak groenten kort.\n" +
+"3. Bak de groenten kort.\n" +
 "4. Voeg bouillon toe.\n" +
 "5. Voeg mosselen toe en meng één keer.\n" +
 "6. Dek af en kook 8–10 min zonder roeren.\n" +
-"7. Schud pan licht.\n" +
-"8. Controleer geopende mosselen en serveer.\n"
+"7. Schud de pan licht.\n" +
+"8. Controleer geopende mosselen en serveer.\n\n" +
+
+"==============================\n" +
+"INFORMATIE EN TIPS\n" +
+"==============================\n\n" +
+"Mosselen zijn een typisch Belgisch gerecht van de Noordzeekust.\n" +
+"Dit kleine schelpdier leeft in groepen die aan rotsen vastzitten en blijft in de natuur gesloten.\n" +
+"Pas tijdens het koken opent het zich en onthult het zijn volle smaak.\n\n" +
+"En natuurlijk, wat is een Belgisch gerecht zonder frieten? 😊\n\n" +
+"De klassieke basis bestaat uit selderij, ui en knoflook. Ik voeg graag wortel en prei toe.\n" +
+"Op aanraden van een vriend voeg ik tegenwoordig een groentebouillonblokje toe — de smaak wordt nog rijker.\n\n" +
+"De overgebleven bouillon is heerlijk: ik dip er mijn frieten in en drink de rest als soep.\n\n" +
+"Gebruik een lege schelp als tang om gemakkelijk te eten.\n" +
+"Voorzie een grote kom voor de lege schelpen.\n\n" +
+"⚠️ Blijft een mossel na het koken gesloten, gooi ze dan weg."
     },
 
     ar: {
@@ -13612,6 +13770,9 @@ recipesData.plat.moulesFritesLegumes = {
             "فلفل"
         ],
         preparation:
+"==============================\n" +
+"طريقة التحضير\n" +
+"==============================\n\n" +
 "1. أذب مكعب المرق في كوب ماء دافئ.\n" +
 "2. قطّع الخضار.\n" +
 "3. اقلي الخضار قليلاً.\n" +
@@ -13619,7 +13780,21 @@ recipesData.plat.moulesFritesLegumes = {
 "5. أضف بلح البحر وحرّك مرة واحدة.\n" +
 "6. غطِّ القدر واطبخ 8–10 دقائق دون تحريك.\n" +
 "7. حرّك القدر برفق.\n" +
-"8. تأكد من فتح القواقع وقدّم.\n"
+"8. تأكد من فتح القواقع وقدّم.\n\n" +
+
+"==============================\n" +
+"معلومات ونصائح\n" +
+"==============================\n\n" +
+"يُعد بلح البحر طبقًا تقليديًا في بلجيكا وعلى سواحل بحر الشمال.\n" +
+"يعيش هذا الكائن البحري في مجموعات ملتصقة بالصخور ويظل مغلقًا في الطبيعة.\n" +
+"ولا ينفتح إلا أثناء الطهي ليكشف عن نكهته الكاملة.\n\n" +
+"وبالطبع، ما هو الطبق البلجيكي دون البطاطس المقلية؟ 😊\n\n" +
+"القاعدة الكلاسيكية تشمل الكرفس والبصل والثوم، وأحب إضافة الجزر والكراث.\n" +
+"مؤخرًا، وبنصيحة صديق، بدأت أضيف مكعب مرق خضار، مما يمنح نكهة أغنى.\n\n" +
+"المرق المتبقي لذيذ جدًا: يمكن غمس البطاطس فيه أو شربه كحساء.\n\n" +
+"لتناوله بسهولة، استخدم قوقعة فارغة كملقط.\n" +
+"جهّز وعاءً كبيرًا للقواقع الفارغة.\n\n" +
+"⚠️ إذا بقيت أي قوقعة مغلقة بعد الطهي فتخلص منها."
     }
 };
 
@@ -75818,7 +75993,1288 @@ recipesData.plat.sushi_vegetarien_japon = {
 
 
 
-recipesData.sauce = {};
+
+
+
+
+recipesData.sauce = recipesData.sauce || {};
+recipesData.sauce.mayonnaise = {
+    country: "all",
+    image: "images/sauce-mayonnaise.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-mayonnaise-international",
+            title: "Sauce Mayonnaise – Recette facile et maison",
+            description: "Découvrez comment préparer la sauce mayonnaise, une sauce froide onctueuse et incontournable de la cuisine internationale, simple et rapide à réaliser.",
+            keywords: [
+                "recette mayonnaise",
+                "sauce mayonnaise maison",
+                "sauce froide facile",
+                "mayonnaise traditionnelle",
+                "recette sauce rapide",
+                "cuisine internationale"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Sauce Mayonnaise",
+            "description": "La sauce mayonnaise est une sauce froide onctueuse idéale pour accompagner viandes, légumes, sandwichs et salades.",
+            "recipeCuisine": "International",
+            "recipeCategory": "Sauce",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT0M",
+            "totalTime": "PT10M",
+            "recipeIngredient": [
+                "1 jaune d'œuf frais",
+                "1 cuillère à café de moutarde",
+                "150 ml d’huile végétale neutre",
+                "1 cuillère à soupe de jus de citron",
+                "1 pincée de sel",
+                "1 pincée de poivre"
+            ],
+            "recipeInstructions": [
+                "Mettre le jaune d'œuf et la moutarde dans un bol.",
+                "Ajouter l’huile progressivement en fouettant.",
+                "Continuer jusqu’à épaississement.",
+                "Ajouter le jus de citron.",
+                "Assaisonner et mélanger."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Sauce Mayonnaise",
+        equipment: [
+            "1 bol",
+            "1 fouet",
+            "1 verre doseur",
+            "1 cuillère à soupe",
+            "1 cuillère à café",
+            "1 spatule"
+        ],
+        ingredients: [
+            "1 jaune d'œuf frais à température ambiante",
+            "1 cuillère à café de moutarde",
+            "150 ml d’huile végétale neutre",
+            "1 cuillère à soupe de jus de citron frais",
+            "1 pincée de sel",
+            "1 pincée de poivre"
+        ],
+        preparation:
+            "1. Déposer le jaune d'œuf dans un bol.\n" +
+            "2. Ajouter la moutarde et mélanger au fouet.\n" +
+            "3. Verser l’huile très progressivement en filet tout en fouettant sans arrêt.\n" +
+            "4. Continuer jusqu’à obtenir une texture épaisse et homogène.\n" +
+            "5. Ajouter le jus de citron.\n" +
+            "6. Saler et poivrer selon votre goût.\n" +
+            "7. Mélanger une dernière fois jusqu’à ce que la sauce soit bien lisse.\n" +
+            "8. Conserver au frais et consommer rapidement.\n\n" +
+            "==============================\n" +
+            "À PROPOS DE CETTE SAUCE\n" +
+            "==============================\n\n" +
+            "La sauce mayonnaise est un grand classique que l’on retrouve dans les snacks classiques et les friteries. Facile et rapide à préparer, elle accompagne parfaitement les légumes, les viandes grillées, les sandwichs et les frites.\n\n" +
+            "Pour éviter du texte répétitif et inutile sur le site, les sauces andalouse, algérienne et andalouse blanche sont basées sur le même type de sauce. Elles peuvent être utilisées de la même manière pour accompagner viandes, burgers, sandwiches et plats servis avec des pommes de terre."
+    },
+
+    en: {
+        title: "Mayonnaise Sauce",
+        equipment: [
+            "1 bowl",
+            "1 whisk",
+            "1 measuring cup",
+            "1 tablespoon",
+            "1 teaspoon",
+            "1 spatula"
+        ],
+        ingredients: [
+            "1 fresh egg yolk at room temperature",
+            "1 teaspoon mustard",
+            "150 ml neutral vegetable oil",
+            "1 tablespoon fresh lemon juice",
+            "A pinch of salt",
+            "A pinch of pepper"
+        ],
+        preparation:
+            "1. Place the egg yolk in a bowl.\n" +
+            "2. Add the mustard and whisk together.\n" +
+            "3. Slowly pour in the oil in a thin stream while whisking continuously.\n" +
+            "4. Continue whisking until thick and creamy.\n" +
+            "5. Add the lemon juice.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Mix again until smooth and well combined.\n" +
+            "8. Refrigerate and use shortly after preparation.\n\n" +
+            "==============================\n" +
+            "ABOUT THIS SAUCE\n" +
+            "==============================\n\n" +
+            "Mayonnaise sauce is a classic commonly found in traditional snack bars and fast food spots. Simple and quick to prepare, it pairs perfectly with vegetables, grilled meats, sandwiches and fries.\n\n" +
+            "To avoid repetitive and unnecessary text across the website, Andalouse sauce, Algerian sauce and white Andalouse sauce are based on the same type of sauce. They can be used in the same way to accompany meats, burgers, sandwiches and dishes served with potatoes."
+    },
+
+    nl: {
+        title: "Mayonaisesaus",
+        equipment: [
+            "1 kom",
+            "1 garde",
+            "1 maatbeker",
+            "1 eetlepel",
+            "1 theelepel",
+            "1 spatel"
+        ],
+        ingredients: [
+            "1 verse eidooier op kamertemperatuur",
+            "1 theelepel mosterd",
+            "150 ml neutrale plantaardige olie",
+            "1 eetlepel vers citroensap",
+            "Een snufje zout",
+            "Een snufje peper"
+        ],
+        preparation:
+            "1. Doe de eidooier in een kom.\n" +
+            "2. Voeg de mosterd toe en klop goed.\n" +
+            "3. Giet de olie langzaam in een dun straaltje terwijl je blijft kloppen.\n" +
+            "4. Blijf kloppen tot de saus dik en romig wordt.\n" +
+            "5. Voeg het citroensap toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Meng opnieuw tot een gladde saus.\n" +
+            "8. Bewaar gekoeld en gebruik snel.\n\n" +
+            "==============================\n" +
+            "OVER DEZE SAUS\n" +
+            "==============================\n\n" +
+            "Mayonaisesaus is een klassieker die je vaak terugvindt in traditionele snackbars. Deze koude saus is eenvoudig en snel te maken en past perfect bij groenten, gegrild vlees, sandwiches en friet.\n\n" +
+            "Om herhalende en overbodige teksten op de website te vermijden, zijn andalousesaus, Algerijnse saus en witte andalousesaus gebaseerd op hetzelfde type saus. Ze kunnen op dezelfde manier worden gebruikt bij vlees, burgers, sandwiches en gerechten met aardappelen."
+    },
+
+    ar: {
+        title: "صلصة المايونيز",
+        equipment: [
+            "وعاء",
+            "مضرب يدوي",
+            "كوب قياس",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة",
+            "ملعقة مسطحة"
+        ],
+        ingredients: [
+            "صفار بيضة طازجة بدرجة حرارة الغرفة",
+            "ملعقة صغيرة خردل",
+            "150 مل زيت نباتي محايد",
+            "ملعقة كبيرة عصير ليمون طازج",
+            "رشة ملح",
+            "رشة فلفل"
+        ],
+        preparation:
+            "1. ضع صفار البيض في وعاء.\n" +
+            "2. أضف الخردل واخلط جيداً بالمضرب.\n" +
+            "3. أضف الزيت تدريجياً على شكل خيط رفيع مع الخفق المستمر.\n" +
+            "4. استمر في الخفق حتى تصبح الصلصة كثيفة ومتجانسة.\n" +
+            "5. أضف عصير الليمون.\n" +
+            "6. أضف الملح والفلفل حسب الرغبة.\n" +
+            "7. اخلط مرة أخيرة حتى تصبح ناعمة تماماً.\n" +
+            "8. احفظها في الثلاجة واستعملها خلال وقت قصير.\n\n" +
+            "==============================\n" +
+            "نبذة عن هذه الصلصة\n" +
+            "==============================\n\n" +
+            "تُعد صلصة المايونيز من الصلصات الكلاسيكية التي نجدها في محلات الوجبات السريعة التقليدية. تحضيرها سهل وسريع، وتناسب الخضار واللحوم المشوية والسندويشات والبطاطس المقلية.\n\n" +
+            "ولتفادي تكرار النصوص على الموقع، فإن صلصات الأندلسية والجزائرية والأندلسية البيضاء تعتمد على نفس النوع من الصلصة. ويمكن استخدامها بالطريقة نفسها لمرافقة اللحوم والبرغر والسندويشات والأطباق المقدمة مع البطاطس."
+    }
+};
+recipesData.sauce.sauceAndalouse = {
+    country: "all",
+    image: "images/sauce-andalouse.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-andalouse",
+            title: "Sauce Andalouse – Recette facile et maison",
+            description: "Préparez une sauce andalouse onctueuse et légèrement relevée, idéale pour accompagner frites, grillades et sandwichs.",
+            keywords: [
+                "recette sauce andalouse",
+                "sauce andalouse maison",
+                "sauce pour frites",
+                "sauce facile",
+                "sauce froide",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Sauce Andalouse",
+            "description": "La sauce andalouse est une sauce froide onctueuse et légèrement épicée parfaite pour accompagner frites et viandes grillées.",
+            "recipeCuisine": "International",
+            "recipeCategory": "sauce",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT0M",
+            "totalTime": "PT10M",
+            "recipeIngredient": [
+                "150 g mayonnaise",
+                "1 cuillère à soupe ketchup",
+                "1 cuillère à soupe poivron rouge finement haché",
+                "1 cuillère à café jus de citron",
+                "1 pincée paprika",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": [
+                "Mettre la mayonnaise dans un bol.",
+                "Ajouter le ketchup et mélanger.",
+                "Incorporer le poivron finement haché.",
+                "Ajouter le jus de citron et le paprika.",
+                "Saler, poivrer et mélanger jusqu’à consistance homogène."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Sauce Andalouse",
+        equipment: [
+            "1 bol",
+            "1 cuillère",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère à café"
+        ],
+        ingredients: [
+            "150 g de mayonnaise",
+            "1 cuillère à soupe de ketchup",
+            "1 cuillère à soupe de poivron rouge très finement haché",
+            "1 cuillère à café de jus de citron",
+            "1 pincée de paprika",
+            "1 pincée de sel",
+            "1 pincée de poivre"
+        ],
+        preparation:
+            "1. Laver le poivron, retirer les graines puis le hacher très finement.\n" +
+            "2. Déposer la mayonnaise dans un bol.\n" +
+            "3. Ajouter le ketchup et mélanger jusqu’à obtenir une base homogène.\n" +
+            "4. Incorporer le poivron haché.\n" +
+            "5. Ajouter le jus de citron et le paprika.\n" +
+            "6. Saler et poivrer selon votre goût.\n" +
+            "7. Mélanger soigneusement.\n" +
+            "8. Réserver au frais au moins 30 minutes avant de servir pour développer les saveurs."
+    },
+
+    en: {
+        title: "Andalouse Sauce",
+        equipment: [
+            "1 bowl",
+            "1 spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 teaspoon"
+        ],
+        ingredients: [
+            "150 g mayonnaise",
+            "1 tablespoon ketchup",
+            "1 tablespoon very finely chopped red bell pepper",
+            "1 teaspoon lemon juice",
+            "A pinch of paprika",
+            "A pinch of salt",
+            "A pinch of pepper"
+        ],
+        preparation:
+            "1. Wash the bell pepper, remove the seeds and finely chop it.\n" +
+            "2. Place the mayonnaise in a bowl.\n" +
+            "3. Add the ketchup and mix until smooth.\n" +
+            "4. Stir in the chopped bell pepper.\n" +
+            "5. Add the lemon juice and paprika.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Mix well until fully combined.\n" +
+            "8. Refrigerate for at least 30 minutes before serving to enhance the flavor."
+    },
+
+    nl: {
+        title: "Andalousesaus",
+        equipment: [
+            "1 kom",
+            "1 lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 theelepel"
+        ],
+        ingredients: [
+            "150 g mayonaise",
+            "1 eetlepel ketchup",
+            "1 eetlepel zeer fijngehakte rode paprika",
+            "1 theelepel citroensap",
+            "Een snufje paprikapoeder",
+            "Een snufje zout",
+            "Een snufje peper"
+        ],
+        preparation:
+            "1. Was de paprika, verwijder de zaadjes en hak zeer fijn.\n" +
+            "2. Doe de mayonaise in een kom.\n" +
+            "3. Voeg de ketchup toe en meng goed.\n" +
+            "4. Voeg de fijngehakte paprika toe.\n" +
+            "5. Voeg het citroensap en paprikapoeder toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Meng alles goed door elkaar.\n" +
+            "8. Zet minstens 30 minuten in de koelkast voor het serveren."
+    },
+
+    ar: {
+        title: "صلصة أندلسية",
+        equipment: [
+            "وعاء",
+            "ملعقة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة"
+        ],
+        ingredients: [
+            "150 غ مايونيز",
+            "ملعقة كبيرة كاتشب",
+            "ملعقة كبيرة فلفل أحمر مفروم ناعماً جداً",
+            "ملعقة صغيرة عصير ليمون",
+            "رشة بابريكا",
+            "رشة ملح",
+            "رشة فلفل"
+        ],
+        preparation:
+            "1. اغسل الفلفل الأحمر وأزل البذور ثم افرمه ناعماً جداً.\n" +
+            "2. ضع المايونيز في وعاء.\n" +
+            "3. أضف الكاتشب واخلط جيداً حتى يصبح المزيج متجانساً.\n" +
+            "4. أضف الفلفل المفروم.\n" +
+            "5. أضف عصير الليمون والبابريكا.\n" +
+            "6. أضف الملح والفلفل حسب الذوق.\n" +
+            "7. اخلط جيداً.\n" +
+            "8. ضع الصلصة في الثلاجة لمدة 30 دقيقة قبل التقديم."
+    }
+};
+recipesData.sauce.sauceAlgerienne = {
+    country: "all",
+    image: "images/sauce-algerienne.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-algerienne",
+            title: "Sauce Algérienne – Recette facile et maison",
+            description: "Découvrez comment préparer une sauce algérienne onctueuse et légèrement relevée, parfaite pour accompagner frites, sandwichs et grillades.",
+            keywords: [
+                "recette sauce algerienne",
+                "sauce algerienne maison",
+                "sauce pour frites",
+                "sauce sandwich",
+                "sauce facile",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Sauce Algérienne",
+            "description": "La sauce algérienne est une sauce froide crémeuse et légèrement épicée idéale pour accompagner frites et viandes grillées.",
+            "recipeCuisine": "International",
+            "recipeCategory": "sauce",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT0M",
+            "totalTime": "PT10M",
+            "recipeIngredient": [
+                "150 g mayonnaise",
+                "1 cuillère à soupe ketchup",
+                "1 cuillère à soupe concentré de tomate",
+                "1 cuillère à soupe oignon très finement haché",
+                "1 cuillère à café jus de citron",
+                "1 pincée paprika",
+                "1 pincée piment doux",
+                "Sel"
+            ],
+            "recipeInstructions": [
+                "Mettre la mayonnaise dans un bol.",
+                "Ajouter le ketchup et le concentré de tomate.",
+                "Incorporer l’oignon très finement haché.",
+                "Ajouter le jus de citron et les épices.",
+                "Saler et mélanger jusqu’à consistance homogène."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Sauce Algérienne",
+        equipment: [
+            "1 bol",
+            "1 cuillère",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère à café"
+        ],
+        ingredients: [
+            "150 g de mayonnaise",
+            "1 cuillère à soupe de ketchup",
+            "1 cuillère à soupe de concentré de tomate",
+            "1 cuillère à soupe d’oignon très finement haché",
+            "1 cuillère à café de jus de citron",
+            "1 pincée de paprika",
+            "1 pincée de piment doux",
+            "1 pincée de sel"
+        ],
+        preparation:
+            "1. Éplucher l’oignon et le hacher très finement.\n" +
+            "2. Déposer la mayonnaise dans un bol.\n" +
+            "3. Ajouter le ketchup et le concentré de tomate puis mélanger.\n" +
+            "4. Incorporer l’oignon haché.\n" +
+            "5. Ajouter le jus de citron, le paprika et le piment doux.\n" +
+            "6. Saler légèrement.\n" +
+            "7. Mélanger soigneusement jusqu’à obtenir une sauce homogène.\n" +
+            "8. Réserver au frais au moins 30 minutes avant de servir."
+    },
+
+    en: {
+        title: "Algerian Sauce",
+        equipment: [
+            "1 bowl",
+            "1 spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 teaspoon"
+        ],
+        ingredients: [
+            "150 g mayonnaise",
+            "1 tablespoon ketchup",
+            "1 tablespoon tomato paste",
+            "1 tablespoon very finely chopped onion",
+            "1 teaspoon lemon juice",
+            "A pinch of paprika",
+            "A pinch of mild chili powder",
+            "A pinch of salt"
+        ],
+        preparation:
+            "1. Peel and very finely chop the onion.\n" +
+            "2. Place the mayonnaise in a bowl.\n" +
+            "3. Add the ketchup and tomato paste, then mix well.\n" +
+            "4. Stir in the chopped onion.\n" +
+            "5. Add the lemon juice, paprika and mild chili powder.\n" +
+            "6. Season lightly with salt.\n" +
+            "7. Mix thoroughly until smooth.\n" +
+            "8. Refrigerate for at least 30 minutes before serving."
+    },
+
+    nl: {
+        title: "Algerijnse saus",
+        equipment: [
+            "1 kom",
+            "1 lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 theelepel"
+        ],
+        ingredients: [
+            "150 g mayonaise",
+            "1 eetlepel ketchup",
+            "1 eetlepel tomatenpuree",
+            "1 eetlepel zeer fijngehakte ui",
+            "1 theelepel citroensap",
+            "Een snufje paprikapoeder",
+            "Een snufje mild chilipoeder",
+            "Een snufje zout"
+        ],
+        preparation:
+            "1. Pel en hak de ui zeer fijn.\n" +
+            "2. Doe de mayonaise in een kom.\n" +
+            "3. Voeg ketchup en tomatenpuree toe en meng goed.\n" +
+            "4. Voeg de fijngehakte ui toe.\n" +
+            "5. Voeg citroensap, paprikapoeder en chilipoeder toe.\n" +
+            "6. Breng licht op smaak met zout.\n" +
+            "7. Meng alles goed tot een gladde saus.\n" +
+            "8. Zet minstens 30 minuten in de koelkast voor het serveren."
+    },
+
+    ar: {
+        title: "صلصة جزائرية",
+        equipment: [
+            "وعاء",
+            "ملعقة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة"
+        ],
+        ingredients: [
+            "150 غ مايونيز",
+            "ملعقة كبيرة كاتشب",
+            "ملعقة كبيرة معجون طماطم",
+            "ملعقة كبيرة بصل مفروم ناعماً جداً",
+            "ملعقة صغيرة عصير ليمون",
+            "رشة بابريكا",
+            "رشة فلفل حلو مطحون",
+            "رشة ملح"
+        ],
+        preparation:
+            "1. قشّر البصل وافرمه ناعماً جداً.\n" +
+            "2. ضع المايونيز في وعاء.\n" +
+            "3. أضف الكاتشب ومعجون الطماطم واخلط جيداً.\n" +
+            "4. أضف البصل المفروم.\n" +
+            "5. أضف عصير الليمون والبابريكا والفلفل الحلو.\n" +
+            "6. أضف الملح حسب الذوق.\n" +
+            "7. اخلط جيداً حتى تصبح الصلصة متجانسة.\n" +
+            "8. ضعها في الثلاجة لمدة 30 دقيقة قبل التقديم."
+    }
+};
+
+recipesData.sauce.sauceAndalouseBlanche = {
+    country: "all",
+    image: "images/sauce-andalouse-blanche.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-andalouse-blanche",
+            title: "Sauce Andalouse Blanche – Recette facile maison",
+            description: "Préparez une sauce andalouse blanche onctueuse et légèrement relevée, parfaite pour accompagner frites, sandwichs et grillades.",
+            keywords: [
+                "recette sauce andalouse blanche",
+                "sauce andalouse blanche maison",
+                "sauce blanche pour frites",
+                "sauce sandwich facile",
+                "sauce froide maison",
+                "cuisine rapide"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Sauce Andalouse Blanche",
+            "description": "La sauce andalouse blanche est une sauce froide crémeuse et légèrement épicée idéale pour accompagner frites et viandes grillées.",
+            "recipeCuisine": "International",
+            "recipeCategory": "sauce",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT0M",
+            "totalTime": "PT10M",
+            "recipeIngredient": [
+                "150 g mayonnaise",
+                "1 cuillère à soupe yaourt nature",
+                "1 cuillère à soupe poivron rouge très finement haché",
+                "1 cuillère à café jus de citron",
+                "1 pincée paprika",
+                "1 pincée ail en poudre",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": [
+                "Mettre la mayonnaise dans un bol.",
+                "Ajouter le yaourt nature et mélanger.",
+                "Incorporer le poivron très finement haché.",
+                "Ajouter le jus de citron et les épices.",
+                "Saler, poivrer et mélanger jusqu’à consistance homogène."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Sauce Andalouse Blanche",
+        equipment: [
+            "1 bol",
+            "1 cuillère",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère à soupe",
+            "1 cuillère à café"
+        ],
+        ingredients: [
+            "150 g de mayonnaise",
+            "1 cuillère à soupe de yaourt nature",
+            "1 cuillère à soupe de poivron rouge très finement haché",
+            "1 cuillère à café de jus de citron",
+            "1 pincée de paprika",
+            "1 pincée d’ail en poudre",
+            "1 pincée de sel",
+            "1 pincée de poivre"
+        ],
+        preparation:
+            "1. Laver le poivron, retirer les graines puis le hacher très finement.\n" +
+            "2. Déposer la mayonnaise dans un bol.\n" +
+            "3. Ajouter le yaourt nature et mélanger jusqu’à obtenir une texture lisse.\n" +
+            "4. Incorporer le poivron haché.\n" +
+            "5. Ajouter le jus de citron, le paprika et l’ail en poudre.\n" +
+            "6. Saler et poivrer selon votre goût.\n" +
+            "7. Mélanger soigneusement jusqu’à obtenir une sauce homogène.\n" +
+            "8. Réserver au frais au moins 30 minutes avant de servir."
+    },
+
+    en: {
+        title: "White Andalouse Sauce",
+        equipment: [
+            "1 bowl",
+            "1 spoon",
+            "1 knife",
+            "1 cutting board",
+            "1 tablespoon",
+            "1 teaspoon"
+        ],
+        ingredients: [
+            "150 g mayonnaise",
+            "1 tablespoon plain yogurt",
+            "1 tablespoon very finely chopped red bell pepper",
+            "1 teaspoon lemon juice",
+            "A pinch of paprika",
+            "A pinch of garlic powder",
+            "A pinch of salt",
+            "A pinch of pepper"
+        ],
+        preparation:
+            "1. Wash the bell pepper, remove the seeds and finely chop it.\n" +
+            "2. Place the mayonnaise in a bowl.\n" +
+            "3. Add the plain yogurt and mix until smooth.\n" +
+            "4. Stir in the chopped bell pepper.\n" +
+            "5. Add the lemon juice, paprika and garlic powder.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Mix thoroughly until well combined.\n" +
+            "8. Refrigerate for at least 30 minutes before serving."
+    },
+
+    nl: {
+        title: "Witte Andalousesaus",
+        equipment: [
+            "1 kom",
+            "1 lepel",
+            "1 mes",
+            "1 snijplank",
+            "1 eetlepel",
+            "1 theelepel"
+        ],
+        ingredients: [
+            "150 g mayonaise",
+            "1 eetlepel natuuryoghurt",
+            "1 eetlepel zeer fijngehakte rode paprika",
+            "1 theelepel citroensap",
+            "Een snufje paprikapoeder",
+            "Een snufje knoflookpoeder",
+            "Een snufje zout",
+            "Een snufje peper"
+        ],
+        preparation:
+            "1. Was de paprika, verwijder de zaadjes en hak zeer fijn.\n" +
+            "2. Doe de mayonaise in een kom.\n" +
+            "3. Voeg de yoghurt toe en meng tot een glad geheel.\n" +
+            "4. Voeg de fijngehakte paprika toe.\n" +
+            "5. Voeg citroensap, paprikapoeder en knoflookpoeder toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Meng alles goed door elkaar.\n" +
+            "8. Zet minstens 30 minuten in de koelkast voor het serveren."
+    },
+
+    ar: {
+        title: "صلصة أندلسية بيضاء",
+        equipment: [
+            "وعاء",
+            "ملعقة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة"
+        ],
+        ingredients: [
+            "150 غ مايونيز",
+            "ملعقة كبيرة زبادي طبيعي",
+            "ملعقة كبيرة فلفل أحمر مفروم ناعماً جداً",
+            "ملعقة صغيرة عصير ليمون",
+            "رشة بابريكا",
+            "رشة ثوم مطحون",
+            "رشة ملح",
+            "رشة فلفل"
+        ],
+        preparation:
+            "1. اغسل الفلفل الأحمر وأزل البذور ثم افرمه ناعماً جداً.\n" +
+            "2. ضع المايونيز في وعاء.\n" +
+            "3. أضف الزبادي واخلط جيداً حتى تصبح القوام ناعماً.\n" +
+            "4. أضف الفلفل المفروم.\n" +
+            "5. أضف عصير الليمون والبابريكا والثوم المطحون.\n" +
+            "6. أضف الملح والفلفل حسب الذوق.\n" +
+            "7. اخلط جيداً حتى تتجانس المكونات.\n" +
+            "8. ضعها في الثلاجة لمدة 30 دقيقة قبل التقديم."
+    }
+};
+
+recipesData.sauce.sauceCocktail = {
+    country: "all",
+    image: "images/sauce-cocktail.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 0,
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-cocktail",
+            title: "Sauce Cocktail – Recette facile et maison",
+            description: "Préparez une sauce cocktail onctueuse et légèrement relevée, parfaite pour accompagner crevettes, viandes, frites et apéritifs.",
+            keywords: [
+                "recette sauce cocktail",
+                "sauce cocktail maison",
+                "sauce pour crevettes",
+                "sauce pour aperitif",
+                "sauce froide facile",
+                "recette rapide"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Sauce Cocktail",
+            "description": "La sauce cocktail est une sauce froide crémeuse et légèrement relevée idéale pour accompagner crevettes, viandes et apéritifs.",
+            "recipeCuisine": "International",
+            "recipeCategory": "Sauce",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT0M",
+            "totalTime": "PT10M",
+            "recipeIngredient": [
+                "150 g mayonnaise",
+                "1 cuillère à soupe ketchup",
+                "1 cuillère à café jus de citron",
+                "1 cuillère à café sauce tomate",
+                "1 pincée paprika",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": [
+                "Mettre la mayonnaise dans un bol.",
+                "Ajouter le ketchup et la sauce tomate.",
+                "Incorporer le jus de citron.",
+                "Ajouter le paprika.",
+                "Saler, poivrer et mélanger jusqu’à consistance homogène."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Sauce Cocktail",
+        equipment: [
+            "1 bol",
+            "1 cuillère",
+            "1 cuillère à soupe",
+            "1 cuillère à café",
+            "1 spatule"
+        ],
+        ingredients: [
+            "150 g de mayonnaise",
+            "1 cuillère à soupe de ketchup",
+            "1 cuillère à café de jus de citron",
+            "1 cuillère à café de sauce tomate",
+            "1 pincée de paprika",
+            "1 pincée de sel",
+            "1 pincée de poivre"
+        ],
+        preparation:
+            "1. Déposer la mayonnaise dans un bol.\n" +
+            "2. Ajouter le ketchup et la sauce tomate.\n" +
+            "3. Mélanger jusqu’à obtenir une base homogène.\n" +
+            "4. Incorporer le jus de citron.\n" +
+            "5. Ajouter le paprika.\n" +
+            "6. Saler et poivrer selon votre goût.\n" +
+            "7. Mélanger soigneusement.\n" +
+            "8. Réserver au frais au moins 20 minutes avant de servir.\n\n" +
+            "==============================\n" +
+            "À PROPOS DE CETTE SAUCE\n" +
+            "==============================\n\n" +
+            "La sauce cocktail peut être utilisée de la même manière que la mayonnaise pour accompagner viandes, sandwichs, burgers ou frites. Elle apporte une touche légèrement relevée et plus parfumée à vos plats.\n\n" +
+            "Elle porte bien son nom car elle est aussi parfaite pour vos apéritifs. Servez-la en sauce pour tremper des bâtonnets de carotte, des légumes croquants ou encore des bâtonnets de poisson pour un moment convivial et gourmand."
+    },
+
+    en: {
+        title: "Cocktail Sauce",
+        equipment: [
+            "1 bowl",
+            "1 spoon",
+            "1 tablespoon",
+            "1 teaspoon",
+            "1 spatula"
+        ],
+        ingredients: [
+            "150 g mayonnaise",
+            "1 tablespoon ketchup",
+            "1 teaspoon lemon juice",
+            "1 teaspoon tomato sauce",
+            "A pinch of paprika",
+            "A pinch of salt",
+            "A pinch of pepper"
+        ],
+        preparation:
+            "1. Place the mayonnaise in a bowl.\n" +
+            "2. Add the ketchup and tomato sauce.\n" +
+            "3. Mix until smooth.\n" +
+            "4. Stir in the lemon juice.\n" +
+            "5. Add the paprika.\n" +
+            "6. Season with salt and pepper.\n" +
+            "7. Mix well until fully combined.\n" +
+            "8. Refrigerate for at least 20 minutes before serving.\n\n" +
+            "==============================\n" +
+            "ABOUT THIS SAUCE\n" +
+            "==============================\n\n" +
+            "Cocktail sauce can be used just like mayonnaise to accompany meats, sandwiches, burgers or fries. It adds a slightly tangy and flavorful touch to your dishes.\n\n" +
+            "It truly lives up to its name, as it is also perfect for appetizers. Serve it as a dipping sauce for carrot sticks, crunchy vegetables or fish sticks for a friendly and tasty snack."
+    },
+
+    nl: {
+        title: "Cocktailsaus",
+        equipment: [
+            "1 kom",
+            "1 lepel",
+            "1 eetlepel",
+            "1 theelepel",
+            "1 spatel"
+        ],
+        ingredients: [
+            "150 g mayonaise",
+            "1 eetlepel ketchup",
+            "1 theelepel citroensap",
+            "1 theelepel tomatensaus",
+            "Een snufje paprikapoeder",
+            "Een snufje zout",
+            "Een snufje peper"
+        ],
+        preparation:
+            "1. Doe de mayonaise in een kom.\n" +
+            "2. Voeg ketchup en tomatensaus toe.\n" +
+            "3. Meng tot een glad geheel.\n" +
+            "4. Voeg het citroensap toe.\n" +
+            "5. Voeg paprikapoeder toe.\n" +
+            "6. Breng op smaak met zout en peper.\n" +
+            "7. Meng alles goed door elkaar.\n" +
+            "8. Zet minstens 20 minuten in de koelkast voor het serveren.\n\n" +
+            "==============================\n" +
+            "OVER DEZE SAUS\n" +
+            "==============================\n\n" +
+            "Cocktailsaus kan net zoals mayonaise gebruikt worden bij vlees, sandwiches, burgers of friet. Ze geeft een licht pittige en smaakvolle toets aan je gerechten.\n\n" +
+            "De naam past perfect, want deze saus is ook ideaal voor hapjes en aperitieven. Serveer ze als dipsaus bij wortelstaafjes, knapperige groenten of vissticks voor een gezellige en smakelijke snack."
+    },
+
+    ar: {
+        title: "صلصة كوكتيل",
+        equipment: [
+            "وعاء",
+            "ملعقة",
+            "ملعقة كبيرة",
+            "ملعقة صغيرة",
+            "ملعقة مسطحة"
+        ],
+        ingredients: [
+            "150 غ مايونيز",
+            "ملعقة كبيرة كاتشب",
+            "ملعقة صغيرة عصير ليمون",
+            "ملعقة صغيرة صلصة طماطم",
+            "رشة بابريكا",
+            "رشة ملح",
+            "رشة فلفل"
+        ],
+        preparation:
+            "1. ضع المايونيز في وعاء.\n" +
+            "2. أضف الكاتشب وصلصة الطماطم.\n" +
+            "3. اخلط جيداً حتى يصبح المزيج متجانساً.\n" +
+            "4. أضف عصير الليمون.\n" +
+            "5. أضف البابريكا.\n" +
+            "6. أضف الملح والفلفل حسب الذوق.\n" +
+            "7. اخلط جيداً.\n" +
+            "8. ضعها في الثلاجة لمدة 20 دقيقة قبل التقديم.\n\n" +
+            "==============================\n" +
+            "نبذة عن هذه الصلصة\n" +
+            "==============================\n\n" +
+            "يمكن استخدام صلصة الكوكتيل مثل المايونيز لمرافقة اللحوم والسندويشات والبرغر والبطاطس المقلية، فهي تضيف نكهة مميزة ولمسة خفيفة من الحموضة إلى أطباقك.\n\n" +
+            "وهي تحمل اسمها بجدارة، إذ تُعد مثالية أيضاً للمقبلات. يمكن تقديمها كصلصة للتغميس مع أعواد الجزر أو الخضار المقرمشة أو أصابع السمك في جلسات خفيفة ولذيذة."
+    }
+};
+recipesData.sauce.sauceChampignonCreme = {
+    country: "all",
+    image: "images/sauce-champignon-creme.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 15,
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-champignon-creme",
+            title: "Sauce Champignon Crème – Recette facile maison",
+            description: "Préparez une sauce champignon crème onctueuse et savoureuse, parfaite pour napper un steak ou accompagner des plats avec frites et pommes de terre.",
+            keywords: [
+                "recette sauce champignon creme",
+                "sauce champignon maison",
+                "sauce pour steak",
+                "sauce pour viande",
+                "sauce pour frites",
+                "recette sauce facile",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Sauce Champignon Crème",
+            "description": "Une sauce champignon crème onctueuse et savoureuse, idéale pour napper un steak ou accompagner viandes et plats servis avec frites ou pommes de terre.",
+            "recipeCuisine": "International",
+            "recipeCategory": "Sauce",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT15M",
+            "totalTime": "PT25M",
+            "recipeIngredient": [
+                "250 g champignons de Paris",
+                "1 échalote",
+                "20 g beurre",
+                "200 ml crème liquide",
+                "100 ml bouillon",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": [
+                "Nettoyer et couper les champignons.",
+                "Faire revenir l’échalote dans le beurre.",
+                "Ajouter les champignons et cuire jusqu’à évaporation de l’eau.",
+                "Verser le bouillon et laisser réduire.",
+                "Ajouter la crème et laisser épaissir.",
+                "Assaisonner et servir chaud."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Sauce Champignon Crème",
+        equipment: [
+            "1 poêle",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 verre doseur"
+        ],
+        ingredients: [
+            "250 g de champignons de Paris",
+            "1 échalote finement hachée",
+            "20 g de beurre",
+            "200 ml de crème liquide",
+            "100 ml de bouillon",
+            "1 pincée de sel",
+            "1 pincée de poivre"
+        ],
+        preparation:
+            "1. Nettoyer les champignons et les couper en fines lamelles.\n" +
+            "2. Éplucher et hacher finement l’échalote.\n" +
+            "3. Faire fondre le beurre dans une poêle à feu moyen.\n" +
+            "4. Ajouter l’échalote et faire revenir 2 minutes.\n" +
+            "5. Ajouter les champignons et cuire 5 à 7 minutes jusqu’à évaporation de leur eau.\n" +
+            "6. Verser le bouillon et laisser réduire légèrement 3 minutes.\n" +
+            "7. Ajouter la crème liquide.\n" +
+            "8. Laisser mijoter à feu doux environ 5 minutes jusqu’à épaississement.\n" +
+            "9. Saler et poivrer selon votre goût.\n" +
+            "10. Servir chaud pour napper un steak ou accompagner des viandes grillées, des frites ou des pommes de terre.\n\n" +
+            "==============================\n" +
+            "À PROPOS DE CETTE SAUCE\n" +
+            "==============================\n\n" +
+            "La sauce champignon crème est une sauce délicieuse et généreuse, parfaite pour napper un steak ou toute autre viande. Son goût doux et sa texture onctueuse accompagnent idéalement les plats servis avec des frites ou des pommes de terre, apportant une touche gourmande à vos plats."
+    },
+
+    en: {
+        title: "Creamy Mushroom Sauce",
+        equipment: [
+            "1 frying pan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 measuring cup"
+        ],
+        ingredients: [
+            "250 g button mushrooms",
+            "1 finely chopped shallot",
+            "20 g butter",
+            "200 ml cream",
+            "100 ml stock",
+            "A pinch of salt",
+            "A pinch of pepper"
+        ],
+        preparation:
+            "1. Clean and slice the mushrooms.\n" +
+            "2. Peel and finely chop the shallot.\n" +
+            "3. Melt the butter in a frying pan over medium heat.\n" +
+            "4. Add the shallot and sauté for 2 minutes.\n" +
+            "5. Add the mushrooms and cook for 5 to 7 minutes until their moisture evaporates.\n" +
+            "6. Pour in the stock and let it reduce slightly for 3 minutes.\n" +
+            "7. Add the cream.\n" +
+            "8. Simmer over low heat for about 5 minutes until thickened.\n" +
+            "9. Season with salt and pepper.\n" +
+            "10. Serve hot over a steak or alongside grilled meats, fries, or potatoes.\n\n" +
+            "==============================\n" +
+            "ABOUT THIS SAUCE\n" +
+            "==============================\n\n" +
+            "Creamy mushroom sauce is a rich and flavorful sauce, perfect for pouring over a steak or any type of meat. Its smooth texture and delicate taste pair wonderfully with dishes served with fries or potatoes, adding a delicious gourmet touch to your dishes."
+    },
+
+    nl: {
+        title: "Romige Champignonsaus",
+        equipment: [
+            "1 pan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 maatbeker"
+        ],
+        ingredients: [
+            "250 g champignons",
+            "1 fijngesneden sjalot",
+            "20 g boter",
+            "200 ml room",
+            "100 ml bouillon",
+            "Een snufje zout",
+            "Een snufje peper"
+        ],
+        preparation:
+            "1. Maak de champignons schoon en snijd ze in plakjes.\n" +
+            "2. Pel en snipper de sjalot fijn.\n" +
+            "3. Smelt de boter in een pan op middelhoog vuur.\n" +
+            "4. Voeg de sjalot toe en bak 2 minuten.\n" +
+            "5. Voeg de champignons toe en bak 5 tot 7 minuten tot het vocht verdampt is.\n" +
+            "6. Giet de bouillon erbij en laat 3 minuten inkoken.\n" +
+            "7. Voeg de room toe.\n" +
+            "8. Laat 5 minuten zachtjes koken tot de saus indikt.\n" +
+            "9. Breng op smaak met zout en peper.\n" +
+            "10. Serveer warm over een steak of bij gegrild vlees, friet of aardappelen.\n\n" +
+            "==============================\n" +
+            "OVER DEZE SAUS\n" +
+            "==============================\n\n" +
+            "Romige champignonsaus is een heerlijke en volle saus die perfect is om over een steak of ander vlees te schenken. De zachte smaak en romige structuur passen uitstekend bij gerechten met friet of aardappelen en geven een smaakvolle, gastronomische toets aan je gerechten."
+    },
+
+    ar: {
+        title: "صلصة الفطر بالكريمة",
+        equipment: [
+            "مقلاة",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "كوب قياس"
+        ],
+        ingredients: [
+            "250 غ فطر طازج",
+            "حبة شالوت مفرومة ناعماً",
+            "20 غ زبدة",
+            "200 مل كريمة سائلة",
+            "100 مل مرق",
+            "رشة ملح",
+            "رشة فلفل"
+        ],
+        preparation:
+            "1. نظف الفطر وقطّعه إلى شرائح.\n" +
+            "2. قشّر الشالوت وافرمه ناعماً.\n" +
+            "3. ذوّب الزبدة في مقلاة على نار متوسطة.\n" +
+            "4. أضف الشالوت وقلّبه لمدة دقيقتين.\n" +
+            "5. أضف الفطر واطهه لمدة 5 إلى 7 دقائق حتى يتبخر ماؤه.\n" +
+            "6. أضف المرق واتركه يغلي قليلاً لمدة 3 دقائق.\n" +
+            "7. أضف الكريمة.\n" +
+            "8. اترك الصلصة على نار هادئة لمدة 5 دقائق حتى تتكاثف.\n" +
+            "9. أضف الملح والفلفل حسب الذوق.\n" +
+            "10. قدّمها ساخنة فوق شريحة لحم أو مع اللحوم المشوية والبطاطس أو البطاطس المقلية.\n\n" +
+            "==============================\n" +
+            "نبذة عن هذه الصلصة\n" +
+            "==============================\n\n" +
+            "صلصة الفطر بالكريمة صلصة لذيذة وغنية، مثالية لتغطية شريحة لحم أو أي نوع من اللحوم. قوامها الكريمي وطعمها المتوازن يجعلانها مرافقة رائعة للأطباق المقدمة مع البطاطس أو البطاطس المقلية، وتضيف لمسة شهية إلى أطباقك."
+    }
+};
+recipesData.sauce.sauceFromagere = {
+    country: "all",
+    image: "images/sauce-fromagere.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 5,
+        cookTime: 10,
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-fromagere",
+            title: "Sauce fromagère – Recette facile et onctueuse",
+            description: "Découvrez comment préparer une sauce fromagère onctueuse et facile, parfaite pour accompagner viandes panées, pâtes et pommes de terre.",
+            keywords: [
+                "recette sauce fromagere",
+                "sauce fromagere facile",
+                "sauce pour viande panee",
+                "sauce au fromage maison",
+                "sauce pour pates",
+                "recette sauce rapide"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Sauce fromagère",
+            "recipeCategory": "Sauce",
+            "recipeYield": "4 portions",
+            "prepTime": "PT5M",
+            "cookTime": "PT10M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "30 g de beurre",
+                "30 g de farine",
+                "40 cl de lait",
+                "150 g de fromage râpé (emmental ou cheddar)",
+                "1 pincée de noix de muscade",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": [
+                "Faire fondre le beurre dans une casserole.",
+                "Ajouter la farine et mélanger pour former un roux.",
+                "Verser le lait progressivement en fouettant.",
+                "Cuire jusqu’à épaississement.",
+                "Ajouter le fromage râpé et mélanger jusqu’à fonte complète.",
+                "Assaisonner et servir chaud."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Sauce fromagère",
+        equipment: [
+            "1 casserole",
+            "1 fouet",
+            "1 cuillère en bois",
+            "1 balance de cuisine"
+        ],
+        ingredients: [
+            "30 g de beurre",
+            "30 g de farine",
+            "40 cl de lait",
+            "150 g de fromage râpé (emmental ou cheddar)",
+            "1 pincée de noix de muscade",
+            "Sel",
+            "Poivre"
+        ],
+        preparation:
+            "1. Faire fondre le beurre dans une casserole à feu moyen.\n" +
+            "2. Ajouter la farine et mélanger immédiatement pour obtenir un roux lisse.\n" +
+            "3. Verser le lait progressivement tout en fouettant pour éviter les grumeaux.\n" +
+            "4. Laisser cuire 5 à 7 minutes jusqu’à épaississement.\n" +
+            "5. Ajouter le fromage râpé et mélanger jusqu’à ce qu’il soit totalement fondu.\n" +
+            "6. Assaisonner avec la noix de muscade, le sel et le poivre.\n" +
+            "7. Servir chaud pour accompagner des viandes panées, nuggets, pâtes ou légumes frits.\n\n" +
+            "==============================\n" +
+            "À PROPOS DE CETTE SAUCE\n" +
+            "==============================\n\n" +
+            "Cette délicieuse sauce fromagère, je l’ai découverte dans un restaurant en accompagnement d’une viande de poulet pané servie avec des pâtes et des pommes de terre en tranches rissolées. L’association était tout simplement irrésistible.\n\n" +
+            "Onctueuse et généreuse, elle sublime aussi bien les viandes que les plats de pâtes ou les pommes de terre dorées à la poêle. C’est une sauce simple mais absolument délicieuse."
+    },
+
+    en: {
+        title: "Cheese Sauce",
+        equipment: [
+            "1 saucepan",
+            "1 whisk",
+            "1 wooden spoon",
+            "1 kitchen scale"
+        ],
+        ingredients: [
+            "30 g butter",
+            "30 g flour",
+            "400 ml milk",
+            "150 g grated cheese (emmental or cheddar)",
+            "1 pinch nutmeg",
+            "Salt",
+            "Black pepper"
+        ],
+        preparation:
+            "1. Melt the butter in a saucepan over medium heat.\n" +
+            "2. Add the flour and stir immediately to form a smooth roux.\n" +
+            "3. Gradually pour in the milk while whisking to avoid lumps.\n" +
+            "4. Cook for 5 to 7 minutes until thickened.\n" +
+            "5. Add the grated cheese and stir until fully melted.\n" +
+            "6. Season with nutmeg, salt and pepper.\n" +
+            "7. Serve hot with breaded meat, pasta or fried vegetables.\n\n" +
+            "==============================\n" +
+            "ABOUT THIS SAUCE\n" +
+            "==============================\n\n" +
+            "I discovered this delicious cheese sauce in a restaurant where it was served with breaded chicken, pasta and sliced pan-fried potatoes. The combination was simply irresistible.\n\n" +
+            "Creamy and rich, it enhances meats, pasta dishes and golden potatoes. It is a simple sauce, yet absolutely delicious."
+    },
+
+    nl: {
+        title: "Kaassaus",
+        equipment: [
+            "1 steelpan",
+            "1 garde",
+            "1 houten lepel",
+            "1 keukenweegschaal"
+        ],
+        ingredients: [
+            "30 g boter",
+            "30 g bloem",
+            "400 ml melk",
+            "150 g geraspte kaas (emmental of cheddar)",
+            "1 snufje nootmuskaat",
+            "Zout",
+            "Peper"
+        ],
+        preparation:
+            "1. Smelt de boter in een steelpan op middelhoog vuur.\n" +
+            "2. Voeg de bloem toe en roer direct tot een gladde roux.\n" +
+            "3. Giet de melk geleidelijk erbij terwijl je klopt om klontjes te voorkomen.\n" +
+            "4. Laat 5 tot 7 minuten koken tot de saus indikt.\n" +
+            "5. Voeg de geraspte kaas toe en roer tot deze volledig gesmolten is.\n" +
+            "6. Breng op smaak met nootmuskaat, zout en peper.\n" +
+            "7. Serveer warm bij gepaneerd vlees, pasta of gebakken groenten.\n\n" +
+            "==============================\n" +
+            "OVER DEZE SAUS\n" +
+            "==============================\n\n" +
+            "Ik ontdekte deze heerlijke kaassaus in een restaurant waar ze werd geserveerd met gepaneerde kip, pasta en in plakjes gebakken aardappelen. De combinatie was echt overheerlijk.\n\n" +
+            "Romig en vol van smaak, past deze saus perfect bij vlees, pastagerechten en goudbruin gebakken aardappelen. Een eenvoudige maar bijzonder smakelijke saus."
+    },
+
+    ar: {
+        title: "صلصة الجبن",
+        equipment: [
+            "قدر صغير",
+            "مضرب يدوي",
+            "ملعقة خشبية",
+            "ميزان مطبخ"
+        ],
+        ingredients: [
+            "30 غ زبدة",
+            "30 غ دقيق",
+            "400 مل حليب",
+            "150 غ جبن مبشور",
+            "رشة جوزة الطيب",
+            "ملح",
+            "فلفل أسود"
+        ],
+        preparation:
+            "1. ذوّب الزبدة في قدر على نار متوسطة.\n" +
+            "2. أضف الدقيق وحرّك حتى تحصل على خليط ناعم.\n" +
+            "3. أضف الحليب تدريجياً مع الخفق لتجنب التكتلات.\n" +
+            "4. اطهِ لمدة 5 إلى 7 دقائق حتى يثخن القوام.\n" +
+            "5. أضف الجبن المبشور وحرّك حتى يذوب تماماً.\n" +
+            "6. تبّل بجوزة الطيب والملح والفلفل.\n" +
+            "7. قدّمها ساخنة مع اللحوم المقرمشة أو المعكرونة أو الخضار المقلية.\n\n" +
+            "==============================\n" +
+            "نبذة عن هذه الصلصة\n" +
+            "==============================\n\n" +
+            "اكتشفت هذه الصلصة اللذيذة في أحد المطاعم حيث قُدمت مع دجاج بانيه ومعكرونة وشرائح بطاطس محمّرة في المقلاة. كان المزيج شهياً للغاية.\n\n" +
+            "بقوامها الكريمي ونكهتها الغنية، تناسب هذه الصلصة اللحوم والمعكرونة والبطاطس الذهبية، وهي صلصة بسيطة لكنها لذيذة جداً."
+    }
+};
+
 recipesData.sauce.saucePoivre = {
     country: "all",
     image: "images/sauce-poivre.jpg",
@@ -75827,8 +77283,50 @@ recipesData.sauce.saucePoivre = {
         servings: 4,
         prepTime: 5,
         cookTime: 10,
-        difficulty: "easy"
-    },
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-poivre",
+            title: "Sauce au poivre – Recette facile et maison",
+            description: "Découvrez comment préparer une sauce au poivre crémeuse, idéale pour accompagner viande rouge, steak et plats savoureux.",
+            keywords: [
+                "recette sauce poivre",
+                "sauce au poivre maison",
+                "sauce pour viande rouge",
+                "sauce poivre champignon",
+                "sauce facile",
+                "recette rapide"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Sauce au poivre",
+            "description": "La sauce au poivre est une sauce chaude crémeuse et relevée idéale pour accompagner les viandes rouges.",
+            "recipeCuisine": "International",
+            "recipeCategory": "Sauce",
+            "recipeYield": "4 portions",
+            "prepTime": "PT5M",
+            "cookTime": "PT10M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "20 g beurre",
+                "1 échalote",
+                "1 cuillère à café poivre noir concassé",
+                "100 ml crème",
+                "50 ml bouillon",
+                "150 g champignons émincés",
+                "Sel"
+            ],
+            "recipeInstructions": [
+                "Faire fondre le beurre.",
+                "Ajouter l’échalote et faire revenir.",
+                "Incorporer le poivre puis le bouillon.",
+                "Laisser réduire légèrement.",
+                "Ajouter la crème et laisser épaissir.",
+                "Pour la version aux champignons, ajouter les champignons et cuire quelques minutes supplémentaires."
+            ]
+        }
+    },  
 
     fr: {
         title: "Sauce au poivre",
@@ -75836,38 +77334,90 @@ recipesData.sauce.saucePoivre = {
             "1 poêle",
             "1 cuillère en bois",
             "1 couteau",
-            "1 planche à découper"
+            "1 planche à découper",
+            "1 verre doseur"
         ],
         ingredients: [
-            "20 g beurre",
-            "1 échalote",
-            "1 c. à c. poivre noir concassé",
-            "100 ml crème fraîche",
-            "50 ml bouillon",
-            "Sel"
+            "20 g de beurre",
+            "1 échalote finement hachée",
+            "1 cuillère à café de poivre noir concassé",
+            "100 ml de crème liquide",
+            "50 ml de bouillon",
+            "150 g de champignons émincés",
+            "1 pincée de sel"
         ],
         preparation:
-            "Faire fondre le beurre dans une poêle. Ajouter l’échalote finement hachée et faire revenir 2 minutes. Incorporer le poivre concassé, puis le bouillon. Laisser réduire légèrement. Ajouter la crème, mélanger et laisser épaissir 5 minutes à feu doux. Saler si nécessaire."
+            "==============================\n" +
+            "VERSION SAUCE POIVRE NATURE\n" +
+            "==============================\n\n" +
+            "1. Éplucher et hacher finement l’échalote.\n" +
+            "2. Faire fondre le beurre dans une poêle à feu moyen.\n" +
+            "3. Ajouter l’échalote et faire revenir 2 minutes en remuant.\n" +
+            "4. Incorporer le poivre concassé et mélanger.\n" +
+            "5. Verser le bouillon et laisser réduire légèrement 2 à 3 minutes.\n" +
+            "6. Ajouter la crème liquide.\n" +
+            "7. Laisser épaissir à feu doux pendant environ 5 minutes.\n" +
+            "8. Saler si nécessaire et servir chaud.\n\n" +
+            "==============================\n" +
+            "VERSION SAUCE POIVRE CHAMPIGNONS\n" +
+            "==============================\n\n" +
+            "9. Suivre les étapes 1 à 3 de la version nature.\n" +
+            "10. Ajouter les champignons émincés et les faire revenir 4 à 5 minutes jusqu’à ce qu’ils soient tendres.\n" +
+            "11. Incorporer le poivre concassé puis verser le bouillon.\n" +
+            "12. Laisser réduire légèrement.\n" +
+            "13. Ajouter la crème et laisser épaissir 5 minutes.\n" +
+            "14. Ajuster le sel et servir chaud.\n\n" +
+            "==============================\n" +
+            "À PROPOS DE CETTE SAUCE\n" +
+            "==============================\n\n" +
+            "La sauce au poivre est délicieuse en accompagnement de viande rouge, notamment un steak bien saisi. Son goût relevé séduit les amateurs de saveurs intenses.\n\n" +
+            "Pour encore plus de gourmandise, il est possible de la préparer en version poivre champignons. Cette variante apporte une texture supplémentaire et un goût plus profond, parfaite pour varier les plaisirs."
     },
 
     en: {
-        title: "Pepper sauce",
+        title: "Pepper Sauce",
         equipment: [
             "1 frying pan",
             "1 wooden spoon",
             "1 knife",
-            "1 cutting board"
+            "1 cutting board",
+            "1 measuring cup"
         ],
         ingredients: [
             "20 g butter",
-            "1 shallot",
-            "1 tsp crushed black pepper",
+            "1 finely chopped shallot",
+            "1 teaspoon crushed black pepper",
             "100 ml cream",
             "50 ml stock",
-            "Salt"
+            "150 g sliced mushrooms",
+            "A pinch of salt"
         ],
         preparation:
-            "Melt the butter in a pan. Add the finely chopped shallot and sauté for 2 minutes. Add the crushed pepper, then the stock. Let it reduce slightly. Add the cream, stir, and simmer over low heat for 5 minutes until thickened. Season with salt if needed."
+            "==============================\n" +
+            "CLASSIC PEPPER SAUCE\n" +
+            "==============================\n\n" +
+            "1. Peel and finely chop the shallot.\n" +
+            "2. Melt the butter in a frying pan over medium heat.\n" +
+            "3. Add the shallot and sauté for 2 minutes.\n" +
+            "4. Stir in the crushed pepper.\n" +
+            "5. Pour in the stock and let it reduce slightly for 2 to 3 minutes.\n" +
+            "6. Add the cream.\n" +
+            "7. Simmer over low heat for about 5 minutes until thickened.\n" +
+            "8. Season with salt if needed and serve hot.\n\n" +
+            "==============================\n" +
+            "PEPPER MUSHROOM SAUCE\n" +
+            "==============================\n\n" +
+            "9. Follow steps 1 to 3 from the classic version.\n" +
+            "10. Add the sliced mushrooms and cook for 4 to 5 minutes until tender.\n" +
+            "11. Stir in the crushed pepper and pour in the stock.\n" +
+            "12. Let it reduce slightly.\n" +
+            "13. Add the cream and simmer for 5 minutes until thickened.\n" +
+            "14. Adjust seasoning and serve hot.\n\n" +
+            "==============================\n" +
+            "ABOUT THIS SAUCE\n" +
+            "==============================\n\n" +
+            "Pepper sauce is delicious with red meat, especially a well-seared steak. Its bold flavor is perfect for those who enjoy strong and spicy notes.\n\n" +
+            "For extra richness, you can also prepare it as a pepper mushroom version. This variation adds texture and depth, offering a tasty alternative."
     },
 
     nl: {
@@ -75876,18 +77426,44 @@ recipesData.sauce.saucePoivre = {
             "1 pan",
             "1 houten lepel",
             "1 mes",
-            "1 snijplank"
+            "1 snijplank",
+            "1 maatbeker"
         ],
         ingredients: [
             "20 g boter",
-            "1 sjalot",
-            "1 tl grof gemalen zwarte peper",
+            "1 fijngesneden sjalot",
+            "1 theelepel grof gemalen zwarte peper",
             "100 ml room",
             "50 ml bouillon",
-            "Zout"
+            "150 g gesneden champignons",
+            "Een snufje zout"
         ],
         preparation:
-            "Smelt de boter in een pan. Voeg de fijngesneden sjalot toe en bak 2 minuten. Voeg de peper toe, daarna de bouillon. Laat licht inkoken. Voeg de room toe, roer en laat 5 minuten zachtjes koken tot de saus indikt. Breng eventueel op smaak met zout."
+            "==============================\n" +
+            "KLASSIEKE PEPERSAUS\n" +
+            "==============================\n\n" +
+            "1. Pel en snipper de sjalot fijn.\n" +
+            "2. Smelt de boter in een pan op middelhoog vuur.\n" +
+            "3. Voeg de sjalot toe en bak 2 minuten.\n" +
+            "4. Voeg de peper toe en roer goed.\n" +
+            "5. Giet de bouillon erbij en laat 2 tot 3 minuten inkoken.\n" +
+            "6. Voeg de room toe.\n" +
+            "7. Laat 5 minuten zachtjes koken tot de saus indikt.\n" +
+            "8. Breng op smaak met zout en serveer warm.\n\n" +
+            "==============================\n" +
+            "PEPERSAUS MET CHAMPIGNONS\n" +
+            "==============================\n\n" +
+            "9. Volg stap 1 tot 3 van de klassieke versie.\n" +
+            "10. Voeg de champignons toe en bak 4 tot 5 minuten tot ze zacht zijn.\n" +
+            "11. Voeg de peper en bouillon toe.\n" +
+            "12. Laat licht inkoken.\n" +
+            "13. Voeg de room toe en laat 5 minuten sudderen.\n" +
+            "14. Breng op smaak en serveer warm.\n\n" +
+            "==============================\n" +
+            "OVER DEZE SAUS\n" +
+            "==============================\n\n" +
+            "Pepersaus is heerlijk bij rood vlees, vooral bij een goed gebakken steak. De pittige smaak is perfect voor liefhebbers van krachtige smaken.\n\n" +
+            "Voor extra variatie kun je ook kiezen voor de versie met champignons. Deze geeft extra textuur en een diepere smaak."
     },
 
     ar: {
@@ -75896,22 +77472,641 @@ recipesData.sauce.saucePoivre = {
             "مقلاة",
             "ملعقة خشبية",
             "سكين",
-            "لوح تقطيع"
+            "لوح تقطيع",
+            "كوب قياس"
         ],
         ingredients: [
             "20 غ زبدة",
-            "حبة شالوت",
+            "حبة شالوت مفرومة ناعماً",
             "ملعقة صغيرة فلفل أسود مجروش",
-            "100 مل كريمة",
+            "100 مل كريمة سائلة",
             "50 مل مرق",
-            "ملح"
+            "150 غ فطر مقطع",
+            "رشة ملح"
         ],
         preparation:
-            "تُذاب الزبدة في مقلاة، ثم يُضاف الشالوت المفروم ويُقلى لمدة دقيقتين. يُضاف الفلفل ثم المرق ويُترك ليغلي قليلاً. تُضاف الكريمة ويُحرّك الخليط ويُترك على نار هادئة 5 دقائق حتى يتكاثف. يُملّح حسب الذوق."
+            "==============================\n" +
+            "صلصة الفلفل الكلاسيكية\n" +
+            "==============================\n\n" +
+            "1. قشّر الشالوت وافرمه ناعماً.\n" +
+            "2. ذوّب الزبدة في مقلاة على نار متوسطة.\n" +
+            "3. أضف الشالوت وقلّبه لمدة دقيقتين.\n" +
+            "4. أضف الفلفل المجروش وحرّك جيداً.\n" +
+            "5. أضف المرق واتركه يغلي قليلاً لمدة 2 إلى 3 دقائق.\n" +
+            "6. أضف الكريمة السائلة.\n" +
+            "7. اترك الصلصة على نار هادئة لمدة 5 دقائق حتى تتكاثف.\n" +
+            "8. أضف الملح حسب الذوق وقدّمها ساخنة.\n\n" +
+            "==============================\n" +
+            "صلصة الفلفل مع الفطر\n" +
+            "==============================\n\n" +
+            "9. اتبع الخطوات من 1 إلى 3 من النسخة الكلاسيكية.\n" +
+            "10. أضف الفطر واطهه لمدة 4 إلى 5 دقائق حتى يلين.\n" +
+            "11. أضف الفلفل ثم المرق.\n" +
+            "12. اتركه يتقلص قليلاً.\n" +
+            "13. أضف الكريمة واتركها تتكاثف لمدة 5 دقائق.\n" +
+            "14. عدّل الملح وقدّمها ساخنة.\n\n" +
+            "==============================\n" +
+            "نبذة عن هذه الصلصة\n" +
+            "==============================\n\n" +
+            "تُعد صلصة الفلفل مثالية مع اللحوم الحمراء، خصوصاً شريحة اللحم المشوية جيداً. نكهتها القوية تناسب محبي الطعم الحار والمميز.\n\n" +
+            "ولتنويع المذاق يمكن تحضيرها مع الفطر، حيث تضيف هذه النسخة قواماً أغنى ونكهة أعمق."
     }
 };
+recipesData.sauce.sauceBouillonViandeRouge = {
+    country: "all",
+    image: "images/sauce-bouillon-viande-rouge.jpg",
 
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 20,
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-bouillon-viande-rouge",
+            title: "Sauce bouillon pour viande rouge – Recette maison savoureuse",
+            description: "Préparez une sauce façon bouillon riche et parfumée pour accompagner vos viandes rouges grillées avec une recette simple et pleine de goût.",
+            keywords: [
+                "recette sauce bouillon",
+                "sauce viande rouge maison",
+                "sauce brune facile",
+                "accompagnement viande",
+                "sauce traditionnelle",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            name: "Sauce bouillon pour viande rouge",
+            recipeCategory: "Sauce",
+            recipeYield: "4 portions",
+            prepTime: "PT10M",
+            cookTime: "PT20M",
+            totalTime: "PT30M",
+            recipeIngredient: [
+                "1 oignon émincé",
+                "1 carotte coupée en petits dés",
+                "1 gousse d’ail hachée",
+                "1 cuillère à soupe d’huile d’olive",
+                "300 ml de bouillon de bœuf",
+                "1 cuillère à soupe de concentré de tomate",
+                "1 feuille de laurier",
+                "1/2 cuillère à café de thym",
+                "1 cuillère à café de maïzena",
+                "2 cuillères à soupe d’eau",
+                "Sel et poivre"
+            ],
+            recipeInstructions: [
+                "Faire revenir l’oignon, la carotte et l’ail dans l’huile d’olive.",
+                "Ajouter le concentré de tomate et mélanger.",
+                "Verser le bouillon de bœuf et ajouter les herbes.",
+                "Laisser mijoter 15 minutes.",
+                "Diluer la maïzena dans l’eau et incorporer pour épaissir.",
+                "Saler, poivrer et servir chaud."
+            ]
+        }
+    },
 
+    fr: {
+        title: "Sauce bouillon pour viande rouge",
+        equipment: [
+            "1 casserole moyenne",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois",
+            "1 petit bol"
+        ],
+        ingredients: [
+            "1 oignon émincé",
+            "1 carotte coupée en petits dés",
+            "1 gousse d’ail hachée",
+            "1 cuillère à soupe d’huile d’olive",
+            "300 ml de bouillon de bœuf",
+            "1 cuillère à soupe de concentré de tomate",
+            "1 feuille de laurier",
+            "1/2 cuillère à café de thym",
+            "1 cuillère à café de maïzena",
+            "2 cuillères à soupe d’eau",
+            "Sel et poivre"
+        ],
+        preparation:
+            "1. Émincer l’oignon et couper la carotte en petits dés.\n" +
+            "2. Chauffer l’huile d’olive dans une casserole à feu moyen.\n" +
+            "3. Ajouter l’oignon, la carotte et l’ail puis faire revenir 5 minutes.\n" +
+            "4. Incorporer le concentré de tomate et mélanger 1 minute.\n" +
+            "5. Verser le bouillon de bœuf.\n" +
+            "6. Ajouter le laurier et le thym.\n" +
+            "7. Laisser mijoter 15 minutes à feu doux.\n" +
+            "8. Diluer la maïzena dans l’eau puis l’ajouter à la sauce.\n" +
+            "9. Mélanger jusqu’à léger épaississement.\n" +
+            "10. Saler et poivrer selon le goût.\n" +
+            "11. Servir chaud sur une viande rouge grillée.\n\n" +
+            "==============================\n" +
+            "À PROPOS DE CETTE SAUCE\n" +
+            "==============================\n\n" +
+            "Cette sauce façon bouillon est assez simple à préparer mais elle fait toute la différence dans l’assiette. Elle apporte une belle profondeur de goût sans masquer la saveur naturelle de la viande rouge.\n\n" +
+            "Parfaite pour un steak, une côte de bœuf ou des grillades, elle ajoutera une touche de gourmandise et de caractère à vos viandes rouges."
+    },
+
+    en: {
+        title: "Broth-Style Sauce for Red Meat",
+        equipment: [
+            "1 medium saucepan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon",
+            "1 small bowl"
+        ],
+        ingredients: [
+            "1 sliced onion",
+            "1 carrot diced",
+            "1 garlic clove minced",
+            "1 tablespoon olive oil",
+            "300 ml beef broth",
+            "1 tablespoon tomato paste",
+            "1 bay leaf",
+            "1/2 teaspoon thyme",
+            "1 teaspoon cornstarch",
+            "2 tablespoons water",
+            "Salt and pepper"
+        ],
+        preparation:
+            "1. Slice the onion and dice the carrot.\n" +
+            "2. Heat olive oil in a saucepan over medium heat.\n" +
+            "3. Add onion, carrot and garlic and sauté for 5 minutes.\n" +
+            "4. Stir in the tomato paste for 1 minute.\n" +
+            "5. Pour in the beef broth.\n" +
+            "6. Add bay leaf and thyme.\n" +
+            "7. Simmer gently for 15 minutes.\n" +
+            "8. Mix cornstarch with water and add to the sauce.\n" +
+            "9. Stir until slightly thickened.\n" +
+            "10. Season with salt and pepper.\n" +
+            "11. Serve hot over grilled red meat.\n\n" +
+            "==============================\n" +
+            "ABOUT THIS SAUCE\n" +
+            "==============================\n\n" +
+            "This broth-style sauce is simple yet full of flavor. It enhances red meat without overpowering its natural taste.\n\n" +
+            "Perfect for steak or grilled beef, it adds a delicious and gourmet touch to your red meat dishes."
+    },
+
+    nl: {
+        title: "Bouillonachtige saus voor rood vlees",
+        equipment: [
+            "1 middelgrote steelpan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel",
+            "1 klein kommetje"
+        ],
+        ingredients: [
+            "1 ui in plakjes",
+            "1 wortel in blokjes",
+            "1 teentje knoflook fijngehakt",
+            "1 eetlepel olijfolie",
+            "300 ml runderbouillon",
+            "1 eetlepel tomatenpuree",
+            "1 laurierblad",
+            "1/2 theelepel tijm",
+            "1 theelepel maïzena",
+            "2 eetlepels water",
+            "Zout en peper"
+        ],
+        preparation:
+            "1. Snijd de ui en wortel.\n" +
+            "2. Verhit de olijfolie in een steelpan.\n" +
+            "3. Voeg ui, wortel en knoflook toe en bak 5 minuten.\n" +
+            "4. Voeg tomatenpuree toe en roer 1 minuut.\n" +
+            "5. Giet de runderbouillon erbij.\n" +
+            "6. Voeg laurier en tijm toe.\n" +
+            "7. Laat 15 minuten zachtjes koken.\n" +
+            "8. Meng maïzena met water en voeg toe.\n" +
+            "9. Roer tot de saus licht indikt.\n" +
+            "10. Breng op smaak met zout en peper.\n" +
+            "11. Serveer warm bij gegrild rood vlees.\n\n" +
+            "==============================\n" +
+            "OVER DEZE SAUS\n" +
+            "==============================\n\n" +
+            "Deze eenvoudige bouillonsaus geeft extra smaak aan rood vlees zonder het te overheersen.\n\n" +
+            "Ideaal bij een steak of gegrild rundvlees en zorgt voor een heerlijke, smaakvolle toets aan je gerechten."
+    },
+
+    ar: {
+        title: "صلصة مرق للحوم الحمراء",
+        equipment: [
+            "قدر متوسط",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية",
+            "وعاء صغير"
+        ],
+        ingredients: [
+            "بصلة مقطعة شرائح",
+            "جزرة مقطعة مكعبات صغيرة",
+            "فص ثوم مفروم",
+            "ملعقة كبيرة زيت زيتون",
+            "300 مل مرق لحم بقري",
+            "ملعقة كبيرة معجون طماطم",
+            "ورقة غار",
+            "نصف ملعقة صغيرة زعتر",
+            "ملعقة صغيرة نشا",
+            "ملعقتان كبيرتان ماء",
+            "ملح وفلفل"
+        ],
+        preparation:
+            "1. قطّع البصل والجزر.\n" +
+            "2. سخّن زيت الزيتون في قدر على نار متوسطة.\n" +
+            "3. أضف البصل والجزر والثوم وقلّب لمدة 5 دقائق.\n" +
+            "4. أضف معجون الطماطم وحرّك دقيقة.\n" +
+            "5. أضف مرق اللحم.\n" +
+            "6. أضف ورقة الغار والزعتر.\n" +
+            "7. اتركه يطهى على نار هادئة لمدة 15 دقيقة.\n" +
+            "8. اخلط النشا مع الماء ثم أضفه إلى الصلصة.\n" +
+            "9. حرّك حتى تتكاثف قليلاً.\n" +
+            "10. أضف الملح والفلفل حسب الذوق.\n" +
+            "11. قدّمها ساخنة مع اللحم المشوي.\n\n" +
+            "==============================\n" +
+            "نبذة عن هذه الصلصة\n" +
+            "==============================\n\n" +
+            "هذه الصلصة البسيطة بطريقة المرق تضيف نكهة غنية للحوم الحمراء دون أن تطغى على طعمها الأصلي.\n\n" +
+            "مثالية مع شرائح اللحم أو المشويات، وتمنح طبقك لمسة شهية ومميزة."
+    }
+};
+recipesData.sauce.sauceAilMaison = {
+    country: "all",
+    image: "images/sauce-ail-maison.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 5,
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-ail-maison",
+            title: "Sauce à l’ail maison – Recette facile et savoureuse",
+            description: "Découvrez comment préparer une sauce à l’ail maison onctueuse et parfumée, idéale pour accompagner viandes, grillades et plats traditionnels.",
+            keywords: [
+                "recette sauce ail",
+                "sauce ail maison",
+                "sauce pour grillades",
+                "accompagnement viande",
+                "sauce facile",
+                "cuisine maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            name: "Sauce à l’ail maison",
+            recipeCategory: "Sauce",
+            recipeYield: "4 portions",
+            prepTime: "PT10M",
+            cookTime: "PT5M",
+            totalTime: "PT15M",
+            recipeIngredient: [
+                "4 gousses d’ail",
+                "200 ml de crème fraîche",
+                "1 cuillère à soupe de beurre",
+                "1 cuillère à soupe d’huile d’olive",
+                "1 cuillère à soupe de jus de citron",
+                "Sel",
+                "Poivre"
+            ],
+            recipeInstructions: [
+                "Hacher finement l’ail.",
+                "Faire fondre le beurre avec l’huile d’olive.",
+                "Ajouter l’ail et cuire 2 minutes.",
+                "Incorporer la crème fraîche.",
+                "Ajouter le jus de citron.",
+                "Assaisonner et servir chaud."
+            ]
+        }
+    },
+
+    fr: {
+        title: "Sauce à l’ail maison",
+        equipment: [
+            "1 petite casserole",
+            "1 couteau",
+            "1 planche à découper",
+            "1 cuillère en bois"
+        ],
+        ingredients: [
+            "4 gousses d’ail",
+            "200 ml de crème fraîche",
+            "1 cuillère à soupe de beurre",
+            "1 cuillère à soupe d’huile d’olive",
+            "1 cuillère à soupe de jus de citron",
+            "Sel",
+            "Poivre"
+        ],
+        preparation:
+            "1. Éplucher et hacher très finement les gousses d’ail.\n" +
+            "2. Faire fondre le beurre avec l’huile d’olive dans une casserole à feu doux.\n" +
+            "3. Ajouter l’ail et cuire 2 minutes sans le laisser colorer.\n" +
+            "4. Verser la crème fraîche et mélanger.\n" +
+            "5. Laisser mijoter 3 minutes à feu doux.\n" +
+            "6. Ajouter le jus de citron.\n" +
+            "7. Saler et poivrer selon le goût.\n" +
+            "8. Servir chaud avec des viandes grillées ou rôties.\n\n" +
+            "==============================\n" +
+            "À PROPOS DE CETTE SAUCE\n" +
+            "==============================\n\n" +
+            "La sauce à l’ail maison est une sauce simple mais pleine de caractère. Elle sert à relever et à apporter une touche crémeuse et parfumée à de nombreux plats.\n\n" +
+            "Elle accompagne parfaitement les viandes grillées, les brochettes, les steaks ou encore les pommes de terre rôties. Vous pouvez la servir chaude directement nappée sur la viande ou à part dans un petit bol pour que chacun puisse se servir selon son goût."
+    },
+
+    en: {
+        title: "Homemade Garlic Sauce",
+        equipment: [
+            "1 small saucepan",
+            "1 knife",
+            "1 cutting board",
+            "1 wooden spoon"
+        ],
+        ingredients: [
+            "4 garlic cloves",
+            "200 ml heavy cream",
+            "1 tablespoon butter",
+            "1 tablespoon olive oil",
+            "1 tablespoon lemon juice",
+            "Salt",
+            "Pepper"
+        ],
+        preparation:
+            "1. Peel and finely chop the garlic cloves.\n" +
+            "2. Melt the butter with olive oil in a saucepan over low heat.\n" +
+            "3. Add the garlic and cook for 2 minutes without browning.\n" +
+            "4. Pour in the cream and stir.\n" +
+            "5. Simmer gently for 3 minutes.\n" +
+            "6. Add lemon juice.\n" +
+            "7. Season with salt and pepper.\n" +
+            "8. Serve hot with grilled or roasted meat.\n\n" +
+            "==============================\n" +
+            "ABOUT THIS SAUCE\n" +
+            "==============================\n\n" +
+            "Homemade garlic sauce is simple yet full of flavor. It is used to enhance dishes with a creamy and aromatic touch.\n\n" +
+            "It pairs perfectly with grilled meats, skewers, steaks and roasted potatoes. You can serve it hot poured over the meat or on the side in a small bowl so everyone can add as much as they like."
+    },
+
+    nl: {
+        title: "Huisgemaakte knoflooksaus",
+        equipment: [
+            "1 kleine steelpan",
+            "1 mes",
+            "1 snijplank",
+            "1 houten lepel"
+        ],
+        ingredients: [
+            "4 teentjes knoflook",
+            "200 ml room",
+            "1 eetlepel boter",
+            "1 eetlepel olijfolie",
+            "1 eetlepel citroensap",
+            "Zout",
+            "Peper"
+        ],
+        preparation:
+            "1. Pel en hak de knoflook fijn.\n" +
+            "2. Smelt de boter met de olijfolie op laag vuur.\n" +
+            "3. Voeg de knoflook toe en bak 2 minuten zonder te bruinen.\n" +
+            "4. Voeg de room toe en roer goed.\n" +
+            "5. Laat 3 minuten zachtjes sudderen.\n" +
+            "6. Voeg citroensap toe.\n" +
+            "7. Breng op smaak met zout en peper.\n" +
+            "8. Serveer warm bij gegrild of geroosterd vlees.\n\n" +
+            "==============================\n" +
+            "OVER DEZE SAUS\n" +
+            "==============================\n\n" +
+            "Deze huisgemaakte knoflooksaus is eenvoudig maar vol smaak. Ze wordt gebruikt om gerechten extra romigheid en aroma te geven.\n\n" +
+            "Perfect bij gegrild vlees, spiesjes, steaks en geroosterde aardappelen. Je kunt ze warm over het vlees schenken of apart serveren in een kommetje zodat iedereen zelf kan doseren."
+    },
+
+    ar: {
+        title: "صلصة الثوم المنزلية",
+        equipment: [
+            "قدر صغير",
+            "سكين",
+            "لوح تقطيع",
+            "ملعقة خشبية"
+        ],
+        ingredients: [
+            "4 فصوص ثوم",
+            "200 مل كريمة طهي",
+            "ملعقة كبيرة زبدة",
+            "ملعقة كبيرة زيت زيتون",
+            "ملعقة كبيرة عصير ليمون",
+            "ملح",
+            "فلفل"
+        ],
+        preparation:
+            "1. قشّر الثوم وافرمه ناعماً.\n" +
+            "2. ذوّب الزبدة مع زيت الزيتون على نار هادئة.\n" +
+            "3. أضف الثوم واطهه لمدة دقيقتين دون أن يتحمر.\n" +
+            "4. أضف الكريمة وحرّك جيداً.\n" +
+            "5. اتركه يطهى 3 دقائق على نار هادئة.\n" +
+            "6. أضف عصير الليمون.\n" +
+            "7. أضف الملح والفلفل حسب الذوق.\n" +
+            "8. قدّمها ساخنة مع اللحوم المشوية أو المحمّرة.\n\n" +
+            "==============================\n" +
+            "نبذة عن هذه الصلصة\n" +
+            "==============================\n\n" +
+            "صلصة الثوم المنزلية بسيطة لكنها غنية بالنكهة، وتُستخدم لإضافة لمسة كريمية وعطرية إلى الأطباق.\n\n" +
+            "تتناسب بشكل مثالي مع اللحوم المشوية والأسياخ وشرائح اللحم والبطاطس المحمّرة. يمكن تقديمها ساخنة فوق الطبق مباشرة أو في وعاء جانبي ليضيف كل شخص الكمية التي يفضلها."
+    }
+};
+recipesData.sauce.sauceCitronHerbes = {
+    country: "all",
+    image: "images/sauce-citron-herbes.jpg",
+
+    meta: {
+        servings: 4,
+        prepTime: 10,
+        cookTime: 5,
+        difficulty: "easy",
+        seo: {
+            slug: "sauce-citron-herbes-maison",
+            title: "Sauce citron et herbes – Recette facile maison",
+            description: "Préparez une sauce citron et herbes maison, fraîche et légère, idéale pour sublimer vos plats de poisson grillé, vapeur ou au four.",
+            keywords: [
+                "recette sauce citron",
+                "sauce pour poisson",
+                "sauce maison facile",
+                "sauce herbes fraiches",
+                "accompagnement poisson",
+                "sauce rapide"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Sauce citron et herbes",
+            "recipeCategory": "Sauce",
+            "recipeYield": "4 portions",
+            "prepTime": "PT10M",
+            "cookTime": "PT5M",
+            "totalTime": "PT15M",
+            "recipeIngredient": [
+                "1 citron (jus et zeste)",
+                "1 gousse d’ail",
+                "1 petit bouquet de persil frais",
+                "1 cuillère à soupe de coriandre fraîche",
+                "4 cuillères à soupe d’huile d’olive",
+                "2 cuillères à soupe de crème fraîche",
+                "Sel",
+                "Poivre"
+            ],
+            "recipeInstructions": "Mélanger le jus et le zeste de citron avec l’ail, les herbes, l’huile d’olive et la crème. Assaisonner, mélanger jusqu’à texture homogène et laisser reposer avant de servir."
+        }
+    },
+
+    fr: {
+        title: "Sauce citron et herbes",
+        equipment: [
+            "1 bol",
+            "1 fouet ou fourchette",
+            "1 couteau",
+            "1 planche à découper",
+            "1 râpe fine"
+        ],
+        ingredients: [
+            "1 citron (jus et zeste)",
+            "1 gousse d’ail finement hachée",
+            "1 petit bouquet de persil frais haché",
+            "1 cuillère à soupe de coriandre fraîche hachée",
+            "4 cuillères à soupe d’huile d’olive",
+            "2 cuillères à soupe de crème fraîche",
+            "Sel",
+            "Poivre"
+        ],
+        preparation:
+            "1. Laver soigneusement le citron puis râper finement le zeste.\n" +
+            "2. Presser le citron pour en extraire tout le jus.\n" +
+            "3. Hacher très finement l’ail, le persil et la coriandre.\n" +
+            "4. Dans un bol, mélanger le jus de citron, le zeste et l’ail.\n" +
+            "5. Ajouter l’huile d’olive en fouettant légèrement.\n" +
+            "6. Incorporer la crème fraîche pour apporter de l’onctuosité.\n" +
+            "7. Ajouter les herbes hachées.\n" +
+            "8. Saler et poivrer selon votre goût.\n" +
+            "9. Mélanger jusqu’à obtenir une sauce lisse et homogène.\n" +
+            "10. Laisser reposer 5 minutes avant de servir afin que les saveurs se développent.\n\n" +
+            "==============================\n" +
+            "À PROPOS DE CETTE SAUCE\n" +
+            "==============================\n\n" +
+            "Cette petite sauce délicieuse est idéale pour accompagner tous vos plats de poisson. Elle apporte fraîcheur, légèreté et une touche parfumée qui relève parfaitement un filet grillé ou cuit au four.\n\n" +
+            "Pour les plus gourmands comme moi, elle transforme un simple poisson en un plat encore plus savoureux et généreux."
+    },
+
+    en: {
+        title: "Lemon and Herb Sauce",
+        equipment: [
+            "1 bowl",
+            "1 whisk or fork",
+            "1 knife",
+            "1 cutting board",
+            "1 fine grater"
+        ],
+        ingredients: [
+            "1 lemon (juice and zest)",
+            "1 garlic clove, finely chopped",
+            "1 small bunch fresh parsley, chopped",
+            "1 tablespoon fresh coriander, chopped",
+            "4 tablespoons olive oil",
+            "2 tablespoons fresh cream",
+            "Salt",
+            "Pepper"
+        ],
+        preparation:
+            "1. Wash the lemon thoroughly and finely grate the zest.\n" +
+            "2. Squeeze the lemon to extract all the juice.\n" +
+            "3. Finely chop the garlic, parsley, and coriander.\n" +
+            "4. In a bowl, mix the lemon juice, zest, and garlic.\n" +
+            "5. Add the olive oil while whisking gently.\n" +
+            "6. Stir in the fresh cream for a smooth texture.\n" +
+            "7. Add the chopped herbs.\n" +
+            "8. Season with salt and pepper to taste.\n" +
+            "9. Mix until smooth and well combined.\n" +
+            "10. Let it rest for 5 minutes before serving to enhance the flavors.\n\n" +
+            "==============================\n" +
+            "ABOUT THIS SAUCE\n" +
+            "==============================\n\n" +
+            "This small but delicious sauce pairs wonderfully with all kinds of fish dishes. It brings freshness and aroma that perfectly complement grilled, baked or steamed fish.\n\n" +
+            "For food lovers like me, it turns a simple piece of fish into an even more flavorful and satisfying meal."
+    },
+
+    nl: {
+        title: "Citroen- en kruidensaus",
+        equipment: [
+            "1 kom",
+            "1 garde of vork",
+            "1 mes",
+            "1 snijplank",
+            "1 fijne rasp"
+        ],
+        ingredients: [
+            "1 citroen (sap en rasp)",
+            "1 teentje knoflook, fijngehakt",
+            "1 klein bosje verse peterselie, gehakt",
+            "1 eetlepel verse koriander, gehakt",
+            "4 eetlepels olijfolie",
+            "2 eetlepels room",
+            "Zout",
+            "Peper"
+        ],
+        preparation:
+            "1. Was de citroen goed en rasp de schil fijn.\n" +
+            "2. Pers de citroen volledig uit.\n" +
+            "3. Hak de knoflook, peterselie en koriander fijn.\n" +
+            "4. Meng in een kom het citroensap, de rasp en de knoflook.\n" +
+            "5. Voeg al kloppend de olijfolie toe.\n" +
+            "6. Roer de room erdoor voor een romige textuur.\n" +
+            "7. Voeg de gehakte kruiden toe.\n" +
+            "8. Breng op smaak met zout en peper.\n" +
+            "9. Meng tot een gladde en egale saus.\n" +
+            "10. Laat 5 minuten rusten voor het serveren.\n\n" +
+            "==============================\n" +
+            "OVER DEZE SAUS\n" +
+            "==============================\n\n" +
+            "Deze heerlijke saus is perfect bij allerlei visgerechten. Ze zorgt voor frisheid en een aromatische toets bij gegrilde of gebakken vis.\n\n" +
+            "Voor echte liefhebbers zoals ik maakt ze van een eenvoudig stuk vis een extra smakelijk en verfijnd gerecht."
+    },
+
+    ar: {
+        title: "صلصة الليمون والأعشاب",
+        equipment: [
+            "وعاء",
+            "مضرب يدوي أو شوكة",
+            "سكين",
+            "لوح تقطيع",
+            "مبشرة ناعمة"
+        ],
+        ingredients: [
+            "حبة ليمون (العصير والقشر المبشور)",
+            "فص ثوم مفروم ناعماً",
+            "حزمة صغيرة بقدونس مفروم",
+            "ملعقة كبيرة كزبرة طازجة مفرومة",
+            "4 ملاعق كبيرة زيت زيتون",
+            "2 ملاعق كبيرة كريمة طازجة",
+            "ملح",
+            "فلفل"
+        ],
+        preparation:
+            "1. اغسل الليمون جيداً وابشر القشر ناعماً.\n" +
+            "2. اعصر الليمون لاستخراج العصير كاملاً.\n" +
+            "3. افرم الثوم والبقدونس والكزبرة فرماً ناعماً.\n" +
+            "4. في وعاء اخلط عصير الليمون مع القشر والثوم.\n" +
+            "5. أضف زيت الزيتون مع الخفق الخفيف.\n" +
+            "6. أضف الكريمة للحصول على قوام ناعم.\n" +
+            "7. أضف الأعشاب المفرومة.\n" +
+            "8. تبّل بالملح والفلفل حسب الذوق.\n" +
+            "9. اخلط جيداً حتى تصبح الصلصة متجانسة.\n" +
+            "10. اتركها ترتاح لمدة 5 دقائق قبل التقديم.\n\n" +
+            "==============================\n" +
+            "نبذة عن هذه الصلصة\n" +
+            "==============================\n\n" +
+            "هذه الصلصة اللذيذة مناسبة جداً لمرافقة أطباق السمك بمختلف طرق طهيه. تضيف نكهة منعشة ومتوازنة تعزز طعم السمك دون أن تطغى عليه.\n\n" +
+            "ولعشاق الطعام مثلي، تجعل هذه الصلصة طبق السمك أكثر غنىً وشهية."
+    }
+};
 
 /* =========================
    GESTION DE LA LANGUE & FILTRES
