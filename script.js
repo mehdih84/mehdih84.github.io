@@ -10,7 +10,7 @@ const translations = {
         nav_about: "À propos",
         nav_privacy: "Politique de confidentialité",
         nav_contact: "Contact",
-
+        nav_products: "Produits locaux",
         shop: "Boutique",
         shop_category: "Choisir une catégorie",
         amazon: "Amazon",
@@ -78,7 +78,7 @@ const translations = {
         nav_about: "About",
         nav_privacy: "Privacy Policy",
         nav_contact: "Contact",
-
+        nav_products: "Local products",
         shop: "Shop",
         shop_category: "Choose a category",
         amazon: "Amazon",
@@ -134,9 +134,79 @@ const translations = {
         about_free: "The site is free and will remain so. Some links in the shop section are affiliate links.",
         about_contact: "If you have any questions, you can contact me via the contact page.",
         about_signature: "Besahtkom! — Mehdi",
+        nav_products: "Local products",
 
-       
- },
+        backToRecipes: "← Back to recipes",
+        recettePageTitle: "Authentic halal cuisine and Belgian local products",
+        recetteIntro: "Passionate about cooking and living in Belgium, I attach great importance to the quality of ingredients used daily. Halal cuisine is not limited to a method of slaughter; it also relies on purity, quality, and the origin of products.",
+        elevageAssiette: "From farm to plate",
+        elevageTexte1: "Choosing suitable breeds does not only provide fresh eggs or quality meat; it directly influences the taste and nutritional value of meals prepared at home.",
+        elevageTexte2: "Eggs from hens raised in good conditions offer richer yolks, ideal for baking, homemade sauces, and traditional dishes. Likewise, slowly raised poultry develops firmer and more flavorful meat, perfect for family recipes.",
+        origineProduits: "Understanding the origin of products allows you to cook in a more authentic, healthy, and tradition-respecting way.",
+        patrimoineBelge: "Belgium has a rich agricultural heritage that makes it possible to cook with high-quality local meats and poultry. Using local products not only supports regional farmers but also provides unmatched freshness and flavor.",
+        bbbCaption: "Belgian Blue cattle raised locally.",
+        bbbTitle: "Belgian Blue: exceptional beef",
+        bbbText1: "The Belgian Blue is a cattle breed developed in Belgium in the 19th century and improved after the 1950s through genetic selection aimed at enhancing meat quality.",
+        bbbText2: "Its distinctive feature is its naturally developed musculature, often called 'double muscling'. This characteristic produces lean, tender meat with a particularly refined flavor.",
+        bbbList1: "lean meat rich in protein",
+        bbbList2: "very tender texture",
+        bbbList3: "delicate flavor",
+        bbbList4: "ideal for grilling and slow cooking",
+        limousinTitle: "Limousin beef raised in Belgium",
+        limousinCaption: "Limousin cattle raised in Belgium.",
+        limousinText: "Originally from the Limousin region in France, this breed is also raised in Belgium. It is known for its lightly marbled meat, offering richer flavor and excellent juiciness.",
+        limousinList1: "rich and authentic flavor",
+        limousinList2: "tender and juicy meat",
+        limousinList3: "ideal for roasts, grilling and slow cooking",
+        agneauTitle: "Lamb raised in Belgium",
+        texelCaption: "Texel sheep, valued for the quality of its meat.",
+        texelText: "Lamb holds an important place in traditional halal cuisine. In Belgium, the Texel breed is particularly appreciated for the quality of its meat, known for its tenderness and finesse.",
+        texelList1: "lean and flavorful meat",
+        texelList2: "tender texture",
+        texelList3: "delicate taste",
+        texelList4: "ideal for tagines and slow-cooked dishes",
+        suffolkCaption: "Suffolk sheep, a robust breed with flavorful meat.",
+        suffolkText: "Other breeds such as Suffolk are also raised in Europe and appreciated for their aromatic meat and melting texture, perfect for family recipes and traditional dishes.",
+        coucouTitle: "Mechelen Cuckoo: Belgian poultry pride",
+        coucouCaption: "Mechelen Cuckoo chicken, a traditional Belgian breed.",
+        coucouText: "Originating from the Mechelen region, the Mechelen Cuckoo is a historic Belgian breed renowned for the exceptional quality of its meat. Its slower growth produces firm, flavorful meat highly valued in gastronomy.",
+        coucouList1: "firm texture and rich flavor",
+        coucouList2: "gastronomic quality",
+        coucouList3: "traditional farming",
+        otherChickensTitle: "Other chickens raised in Belgium",
+        sussexTitle: "Sussex",
+        sussexCaption: "Sussex chicken, valued for both eggs and meat.",
+        sussexText: "Rustic and easy to raise, the Sussex is an excellent dual-purpose chicken. It provides flavorful meat while also being a very good egg layer, making it ideal for family farming.",
+        plymouthTitle: "Plymouth Rock",
+        plymouthCaption: "Plymouth Rock chicken, a hardy and productive breed.",
+        plymouthText: "Very popular among small-scale farmers, the Plymouth Rock is hardy, productive, and provides both quality meat and flavorful eggs.",
+        chooseHensTitle: "Choosing chickens according to your needs",
+        chooseHensIntro: "Before starting a small flock, it is important to know what you are looking for. Some breeds are raised for their beauty, others for egg production, and others for meat.",
+        ornamentalHensTitle: "Ornamental chickens",
+        ornamentalHensText: "Ornamental chickens are chosen for their beauty and originality. They add a decorative touch to the garden and are often appreciated by children.",
+        layingHensTitle: "Laying hens",
+        layingHensText: "Some breeds are specially selected for their ability to lay many eggs throughout the year. They are ideal for families wanting a regular supply of fresh eggs.",
+        meatHensTitle: "Meat or dual-purpose chickens",
+        meatHensText1: "It is perfectly possible to keep several chicken breeds together. They generally coexist well and allow you to benefit from the qualities of each variety.",
+        meatHensText2: "To ensure good health, it is important to provide enough space for each chicken to prevent stress and disease spread. A closed shelter at night is also recommended.",
+        meatHensText3: "If you plan to introduce a rooster, check local regulations and required distances from neighbors.",
+        padoueCaption: "Dutch Padovana chicken, appreciated for its unique appearance.",
+        silkieCaption: "Silkie chicken, gentle and loved by children.",
+        layingHensCaption: "Laying hens raised for regular egg production.",
+        dualPurposeText: "Some breeds offer a good balance between egg production and meat quality. The Sussex, for example, is known for its regular laying and flavorful meat. These breeds are ideal for sustainable home farming.",
+        whyRaiseChickensTitle: "Why raise your own chickens?",
+        gardenChickensCaption: "Keeping a few chickens provides fresh eggs every day.",
+        gardenChickensText1: "For people with a small garden, raising a few chickens can be a simple and economical solution. They consume food scraps, require only grain supplements, and begin laying eggs after a few months.",
+        benefitEggs: "production of fresh and nutritious eggs",
+        benefitWaste: "reduction of food waste",
+        benefitCost: "low maintenance cost",
+        benefitMeat: "healthy local meat",
+        gardenChickensText2: "It is also an excellent educational activity for children. Caring for animals teaches responsibility, respect for living beings, and connection with nature, under adult supervision.",
+        responsibleHalalTitle: "Authentic and responsible halal cuisine",
+        responsibleHalalText: "Choosing local and quality products allows you to prepare halal meals that are flavorful, balanced, and respectful of traditions. By favoring short supply chains and responsible farming, everyone can contribute to healthier and more sustainable eating.",
+        footerLocalProducts: "© 2026 Cuisine du Monde Halal — Local Belgian products and authentic halal cuisine.",
+
+    },
 
     ar: {
         title: "مطبخ العالم الحلال",
@@ -145,7 +215,7 @@ const translations = {
         nav_about: "حول",
         nav_privacy: "سياسة الخصوصية",
         nav_contact: "اتصل بنا",
-
+        nav_products: "المنتجات المحلية",
         shop: "المتجر",
         shop_category: "اختر فئة",
         amazon: "أمازون",
@@ -202,9 +272,79 @@ const translations = {
         about_free: "الموقع مجاني وسيبقى كذلك. بعض الروابط هي روابط تسويق بالعمولة.",
         about_contact: "لأي استفسار يمكنكم التواصل عبر صفحة الاتصال.",
         about_signature: "بصحتكم — مهدي",
+        nav_products: "المنتجات المحلية",
 
-      
-},
+        backToRecipes: "← العودة إلى الوصفات",
+        recettePageTitle: "المطبخ الحلال الأصيل والمنتجات المحلية البلجيكية",
+        recetteIntro: "بصفتي شغوفًا بالطهي وأعيش في بلجيكا، أولي أهمية كبيرة لجودة المكونات المستخدمة يوميًا. لا يقتصر المطبخ الحلال على طريقة الذبح فقط، بل يعتمد أيضًا على النقاء والجودة ومصدر المنتجات.",
+        elevageAssiette: "من المزرعة إلى المائدة",
+        elevageTexte1: "اختيار السلالات المناسبة لا يوفر البيض الطازج أو اللحوم عالية الجودة فقط، بل يؤثر مباشرة على الطعم والقيمة الغذائية للوجبات المحضرة في المنزل.",
+        elevageTexte2: "بيض الدجاج المُربّى في ظروف جيدة يكون أكثر غنىً وصفاراً، وهو مثالي للحلويات والصلصات المنزلية والأطباق التقليدية. كما أن تربية الدواجن ببطء تمنح لحماً أكثر تماسكاً ونكهة، مما يجعله مثالياً للوصفات العائلية.",
+        origineProduits: "فهم مصدر المنتجات يسمح بالطهي بطريقة أكثر أصالة وصحة واحتراماً للتقاليد الغذائية.",
+        patrimoineBelge: "تتمتع بلجيكا بتراث زراعي غني يتيح الطهي باستخدام لحوم ودواجن محلية عالية الجودة. استخدام المنتجات المحلية يدعم المربين في المنطقة ويوفر نضارة ونكهة لا مثيل لهما.",
+        bbbCaption: "أبقار الأزرق البلجيكي مُربّاة محليًا.",
+        bbbTitle: "الأزرق البلجيكي: لحم بقري استثنائي",
+        bbbText1: "الأزرق البلجيكي هو سلالة أبقار طُوّرت في بلجيكا في القرن التاسع عشر، وتم تحسينها بعد خمسينيات القرن الماضي عبر الانتقاء الجيني بهدف تحسين جودة اللحم.",
+        bbbText2: "تتميز هذه السلالة بعضلاتها الطبيعية المتطورة، والتي تُعرف غالبًا باسم «العضلات المزدوجة». تمنح هذه الخاصية لحماً طرياً قليل الدهون وذو نكهة مميزة.",
+        bbbList1: "لحم قليل الدهون وغني بالبروتين",
+        bbbList2: "قوام طري جداً",
+        bbbList3: "نكهة دقيقة",
+        bbbList4: "مثالي للشواء والطهي البطيء",
+        limousinTitle: "لحم ليموزين المُربّى في بلجيكا",
+        limousinCaption: "أبقار ليموزين مُربّاة في بلجيكا.",
+        limousinText: "تنحدر هذه السلالة من منطقة ليموزان في فرنسا ويتم تربيتها أيضاً في بلجيكا. تشتهر بلحمها المتداخل قليلاً بالدهن والذي يمنح نكهة غنية وعصارة ممتازة.",
+        limousinList1: "نكهة غنية وأصيلة",
+        limousinList2: "لحم طري وعصاري",
+        limousinList3: "مثالي للشواء والتحمير والطهي البطيء",
+        agneauTitle: "لحم الضأن المُربّى في بلجيكا",
+        texelCaption: "خروف تيكسل، معروف بجودة لحمه.",
+        texelText: "يحتل لحم الضأن مكانة مهمة في المطبخ الحلال التقليدي. في بلجيكا، تُقدَّر سلالة تيكسل بشكل خاص لجودة لحمها المعروف بطراوته ودقته.",
+        texelList1: "لحم قليل الدهون وغني بالنكهة",
+        texelList2: "قوام طري",
+        texelList3: "مذاق رقيق",
+        texelList4: "مثالي للطواجن والطهي البطيء",
+        suffolkCaption: "خروف سوفولك، سلالة قوية بلحم غني بالنكهة.",
+        suffolkText: "تُربّى سلالات أخرى مثل سوفولك في أوروبا أيضاً وتُقدَّر للحومها العطرية وقوامها الطري، وهي مثالية للوصفات العائلية والأطباق التقليدية.",
+        coucouTitle: "دجاج ميخلن كوكو: فخر الدواجن البلجيكية",
+        coucouCaption: "دجاج ميخلن كوكو، سلالة بلجيكية تقليدية.",
+        coucouText: "ينحدر دجاج ميخلن كوكو من منطقة ميخلن، وهو سلالة بلجيكية تاريخية معروفة بجودة لحمها الاستثنائية. نموه الأبطأ يمنح لحماً متماسكاً وغنياً بالنكهة يحظى بتقدير كبير في فن الطهي.",
+        coucouList1: "قوام متماسك ونكهة غنية",
+        coucouList2: "جودة عالية للطهي",
+        coucouList3: "تربية تقليدية",
+        otherChickensTitle: "سلالات دجاج أخرى تُربّى في بلجيكا",
+        sussexTitle: "ساسكس",
+        sussexCaption: "دجاج ساسكس، معروف بإنتاج البيض واللحم.",
+        sussexText: "تُعد دجاجة ساسكس قوية وسهلة التربية، وهي سلالة متعددة الاستخدامات. توفر لحماً لذيذاً وتُعد أيضاً من الدجاجات الجيدة في إنتاج البيض، مما يجعلها مثالية للتربية العائلية.",
+        plymouthTitle: "بليموث روك",
+        plymouthCaption: "دجاج بليموث روك، سلالة قوية ومنتجة.",
+        plymouthText: "تحظى دجاجة بليموث روك بشعبية كبيرة لدى المربين الهواة، فهي قوية ومنتجة وتوفر لحماً عالي الجودة وبيضاً لذيذاً.",
+        chooseHensTitle: "اختيار الدجاج حسب احتياجاتك",
+        chooseHensIntro: "قبل البدء في تربية عدد صغير من الدجاج، من المهم معرفة ما تبحث عنه. فبعض السلالات تُربّى لجمالها، وأخرى لإنتاج البيض، وأخرى من أجل اللحم.",
+        ornamentalHensTitle: "دجاج الزينة",
+        ornamentalHensText: "يتم اختيار دجاج الزينة لجماله وتميزه. يضيف لمسة جمالية للحديقة وغالبًا ما يحبه الأطفال.",
+        layingHensTitle: "الدجاج البيّاض",
+        layingHensText: "بعض السلالات مختارة خصيصًا لقدرتها على إنتاج عدد كبير من البيض طوال العام. وهي مثالية للعائلات التي ترغب في إمداد منتظم من البيض الطازج.",
+        meatHensTitle: "دجاج اللحم أو متعدد الاستخدام",
+        meatHensText1: "من الممكن تربية عدة سلالات من الدجاج معًا، فهي تتعايش بشكل جيد وتتيح الاستفادة من مزايا كل سلالة.",
+        meatHensText2: "لضمان صحة جيدة، يجب توفير مساحة كافية لكل دجاجة لتجنب التوتر وانتشار الأمراض. كما يُنصح بتوفير مأوى مغلق ليلاً.",
+        meatHensText3: "إذا كنت تنوي إدخال ديك، فمن المستحسن الاطلاع على القوانين المحلية والمسافات المطلوبة عن الجيران.",
+        padoueCaption: "دجاج بادوفا الهولندي، معروف بمظهره الفريد.",
+        silkieCaption: "دجاج السلكي، لطيف ومحبوب لدى الأطفال.",
+        layingHensCaption: "دجاج بيّاض يُربّى لإنتاج البيض بانتظام.",
+        dualPurposeText: "توفّر بعض السلالات توازناً جيداً بين إنتاج البيض وجودة اللحم. تُعرف سلالة ساسكس، على سبيل المثال، بانتظام وضع البيض ولحمها اللذيذ. هذه السلالات مثالية لتربية منزلية مستدامة.",
+        whyRaiseChickensTitle: "لماذا تربية الدجاج في المنزل؟",
+        gardenChickensCaption: "تربية بضع دجاجات توفر بيضاً طازجاً كل يوم.",
+        gardenChickensText1: "بالنسبة للأشخاص الذين يملكون مساحة صغيرة، يمكن أن تكون تربية بعض الدجاج حلاً بسيطاً واقتصادياً. فهي تستهلك بقايا الطعام، وتحتاج فقط إلى مكمل من الحبوب، وتبدأ بوضع البيض بعد بضعة أشهر.",
+        benefitEggs: "إنتاج بيض طازج ومغذٍ",
+        benefitWaste: "تقليل هدر الطعام",
+        benefitCost: "تكلفة صيانة منخفضة",
+        benefitMeat: "لحم صحي ومحلي",
+        gardenChickensText2: "كما أنها نشاط تعليمي ممتاز للأطفال، إذ تعلمهم المسؤولية واحترام الكائنات الحية والارتباط بالطبيعة تحت إشراف البالغين.",
+        responsibleHalalTitle: "مطبخ حلال أصيل ومسؤول",
+        responsibleHalalText: "اختيار منتجات محلية عالية الجودة يتيح إعداد وجبات حلال لذيذة ومتوازنة تحترم التقاليد. ومن خلال دعم سلاسل التوريد القصيرة وتربية المواشي المسؤولة، يمكن للجميع المساهمة في نظام غذائي أكثر صحة واستدامة.",
+        footerLocalProducts: "© 2026 مطبخ العالم الحلال — منتجات بلجيكية محلية ومطبخ حلال أصيل.",
+    
+    },
 
     nl: {
         title: "Halal Wereldkeuken",
@@ -213,7 +353,7 @@ const translations = {
         nav_about: "Over",
         nav_privacy: "Privacybeleid",
         nav_contact: "Contact",
-
+        nav_products: "Lokale producten",
         shop: "Winkel",
         shop_category: "Kies een categorie",
         amazon: "Amazon",
@@ -270,8 +410,79 @@ const translations = {
         about_free: "De website is gratis en blijft dat. Sommige links zijn affiliate links.",
         about_contact: "Voor vragen kunt u contact opnemen via de contactpagina.",
         about_signature: "Besahtkom! — Mehdi",
-
-  },    
+        nav_products: "Lokale producten",
+    
+        backToRecipes: "← Terug naar recepten",
+        recettePageTitle: "Authentieke halal keuken en Belgische streekproducten",
+        recetteIntro: "Als kookliefhebber en inwoner van België hecht ik veel belang aan de kwaliteit van ingrediënten die dagelijks worden gebruikt. Halal koken beperkt zich niet tot een slachtmethode; het draait ook om zuiverheid, kwaliteit en herkomst van producten.",
+        elevageAssiette: "Van boerderij tot bord",
+        elevageTexte1: "Geschikte rassen kiezen levert niet alleen verse eieren of kwaliteitsvlees op; het beïnvloedt rechtstreeks de smaak en voedingswaarde van maaltijden die thuis worden bereid.",
+        elevageTexte2: "Eieren van kippen die in goede omstandigheden worden gehouden hebben rijkere dooiers, ideaal voor gebak, zelfgemaakte sauzen en traditionele gerechten. Evenzo ontwikkelt langzaam opgegroeid pluimvee steviger en smaakvoller vlees, perfect voor familierecepten.",
+        origineProduits: "De herkomst van producten begrijpen maakt het mogelijk om authentieker, gezonder en met respect voor culinaire tradities te koken.",
+        patrimoineBelge: "België beschikt over een rijk landbouwkundig erfgoed dat het mogelijk maakt te koken met lokaal vlees en gevogelte van uitstekende kwaliteit. Lokale producten ondersteunen de boeren uit de regio en bieden een ongeëvenaarde versheid en smaak.",
+        bbbCaption: "Belgisch Witblauw rund lokaal gefokt.",
+        bbbTitle: "Belgisch Witblauw: uitzonderlijk rundvlees",
+        bbbText1: "Het Belgisch Witblauw is een runderras dat in de 19e eeuw in België werd ontwikkeld en na de jaren 1950 werd verbeterd via genetische selectie om de vleeskwaliteit te verbeteren.",
+        bbbText2: "Het onderscheidt zich door zijn natuurlijk ontwikkelde spiermassa, vaak ‘dubbele bespiering’ genoemd. Dit zorgt voor mager, mals vlees met een bijzonder verfijnde smaak.",
+        bbbList1: "mager vlees rijk aan eiwitten",
+        bbbList2: "zeer malse textuur",
+        bbbList3: "fijne smaak",
+        bbbList4: "ideaal voor grillen en stoofgerechten",
+        limousinTitle: "Limousin rundvlees gefokt in België",
+        limousinCaption: "Limousin rund gefokt in België.",
+        limousinText: "Afkomstig uit de Limousin-regio in Frankrijk wordt dit ras ook in België gefokt. Het staat bekend om zijn licht gemarmerde vlees met een rijke smaak en sappigheid.",
+        limousinList1: "rijke en authentieke smaak",
+        limousinList2: "mals en sappig vlees",
+        limousinList3: "ideaal voor braadstukken, grillen en stoofgerechten",
+        agneauTitle: "Lam uit België",
+        texelCaption: "Texel schaap, gewaardeerd om de kwaliteit van het vlees.",
+        texelText: "Lam speelt een belangrijke rol in de traditionele halalkeuken. In België wordt het Texelras bijzonder gewaardeerd om de kwaliteit van het vlees, bekend om zijn malsheid en finesse.",
+        texelList1: "mager en smaakvol vlees",
+        texelList2: "malse textuur",
+        texelList3: "fijne smaak",
+        texelList4: "ideaal voor tajines en stoofgerechten",
+        suffolkCaption: "Suffolk schaap, een robuust ras met smaakvol vlees.",
+        suffolkText: "Andere rassen zoals Suffolk worden ook in Europa gefokt en gewaardeerd om hun aromatische vlees en zachte textuur, perfect voor familiegerechten en traditionele recepten.",
+        coucouTitle: "Mechelse Koekoek: Belgische trots",
+        coucouCaption: "Mechelse Koekoek kip, een traditioneel Belgisch ras.",
+        coucouText: "Afkomstig uit de regio Mechelen is de Mechelse Koekoek een historisch Belgisch ras dat bekendstaat om de uitzonderlijke kwaliteit van zijn vlees. De langzamere groei zorgt voor stevig en smaakvol vlees dat zeer gewaardeerd wordt in de gastronomie.",
+        coucouList1: "stevige textuur en rijke smaak",
+        coucouList2: "gastronomische kwaliteit",
+        coucouList3: "traditionele kweek",
+        otherChickensTitle: "Andere kippenrassen gefokt in België",
+        sussexTitle: "Sussex",
+        sussexCaption: "Sussex kip, gewaardeerd voor eieren en vlees.",
+        sussexText: "De Sussex is robuust en gemakkelijk te houden en is een uitstekende dubbeldoelkip. Ze levert smakelijk vlees en legt bovendien veel eieren, ideaal voor een familiale kweek.",
+        plymouthTitle: "Plymouth Rock",
+        plymouthCaption: "Plymouth Rock kip, een robuust en productief ras.",
+        plymouthText: "Zeer populair bij hobbyfokkers. De Plymouth Rock is sterk, productief en levert zowel kwaliteitsvlees als smakelijke eieren.",
+        chooseHensTitle: "Kippen kiezen volgens uw behoeften",
+        chooseHensIntro: "Voordat u een kleine kippenkudde start, is het belangrijk te weten wat u zoekt. Sommige rassen worden gehouden voor hun schoonheid, andere voor eierproductie en weer andere voor vlees.",
+        ornamentalHensTitle: "Sierkippen",
+        ornamentalHensText: "Sierkippen worden gekozen om hun schoonheid en originaliteit. Ze geven een decoratieve toets aan de tuin en worden vaak door kinderen gewaardeerd.",
+        layingHensTitle: "Legkippen",
+        layingHensText: "Sommige rassen zijn speciaal geselecteerd voor hun vermogen om het hele jaar door veel eieren te leggen. Ze zijn ideaal voor gezinnen die een regelmatige productie van verse eieren wensen.",
+        meatHensTitle: "Vlees- of dubbeldoelkippen",
+        meatHensText1: "Het is perfect mogelijk meerdere kippenrassen samen te houden. Ze leven meestal goed samen en laten u profiteren van de kwaliteiten van elk ras.",
+        meatHensText2: "Voor een goede gezondheid is het belangrijk voldoende ruimte te voorzien om stress en ziekten te voorkomen. Een gesloten nachthok wordt aanbevolen.",
+        meatHensText3: "Als u een haan wilt toevoegen, informeer dan naar de lokale regelgeving en afstanden tot buren.",
+        padoueCaption: "Nederlandse Padovana kip, gewaardeerd om haar unieke uiterlijk.",
+        silkieCaption: "Zijdehoen, zacht en geliefd bij kinderen.",
+        layingHensCaption: "Legkippen gehouden voor een regelmatige eiproductie.",
+        dualPurposeText: "Sommige rassen bieden een goede balans tussen eierproductie en vleeskwaliteit. De Sussex staat bijvoorbeeld bekend om haar regelmatige leg en smakelijk vlees. Deze rassen zijn ideaal voor een duurzame thuisfok.",
+        whyRaiseChickensTitle: "Waarom je eigen kippen houden?",
+        gardenChickensCaption: "Een paar kippen houden levert elke dag verse eieren op.",
+        gardenChickensText1: "Voor mensen met een kleine tuin kan het houden van enkele kippen een eenvoudige en economische oplossing zijn. Ze eten voedselresten, hebben slechts een aanvulling van graan nodig en beginnen na enkele maanden eieren te leggen.",
+        benefitEggs: "productie van verse en voedzame eieren",
+        benefitWaste: "vermindering van voedselafval",
+        benefitCost: "lage onderhoudskosten",
+        benefitMeat: "gezond lokaal vlees",
+        gardenChickensText2: "Het is ook een uitstekende educatieve activiteit voor kinderen. Het verzorgen van dieren leert verantwoordelijkheid, respect voor het leven en verbondenheid met de natuur.",
+        responsibleHalalTitle: "Authentieke en verantwoorde halalkeuken",
+        responsibleHalalText: "Door lokale kwaliteitsproducten te kiezen, kunt u halalmaaltijden bereiden die smakelijk, evenwichtig en trouw aan tradities zijn. Door korte ketens en verantwoorde veeteelt te ondersteunen, draagt iedereen bij aan een gezondere en duurzamere voeding.",
+        footerLocalProducts: "© 2026 Cuisine du Monde Halal — Lokale Belgische producten en authentieke halalkeuken.",
+    
+    },    
 };
 const homeIntro = {
 
@@ -9785,16 +9996,49 @@ recipesData.entree.soupePoireaux = {
     country: "belgique",
     image: "images/soupe-poireaux.jpg",
 
-  meta: {
-    servings: 4,
-    prepTime: 15,
-    cookTime: 30,
-    difficulty: "easy"
-},
-
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy",
+        seo: {
+            slug: "soupe-poireaux-pommes-terre-belgique",
+            title: "Soupe de poireaux (Belgique) – Recette facile",
+            description: "Découvrez la soupe de poireaux belge, une entrée traditionnelle et réconfortante à base de légumes simples, parfaite pour un repas familial chaleureux.",
+            keywords: [
+                "recette soupe poireaux",
+                "soupe poireaux belgique",
+                "cuisine belge traditionnelle",
+                "entree facile",
+                "soupe maison",
+                "recette pommes de terre"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            name: "Soupe de poireaux (Belgique)",
+            recipeCategory: "Entrée",
+            recipeYield: "4 portions",
+            prepTime: "PT15M",
+            cookTime: "PT30M",
+            totalTime: "PT45M",
+            recipeIngredient: [
+                "3 poireaux moyens",
+                "3 pommes de terre moyennes",
+                "1 oignon moyen",
+                "2 cuillères à soupe d’huile d’olive",
+                "1 litre d’eau",
+                "1 cube de bouillon de légumes",
+                "1 cuillère à café de sel",
+                "1/2 cuillère à café de poivre"
+            ],
+            recipeInstructions: "Faire revenir l’oignon, ajouter les poireaux et les pommes de terre, couvrir d’eau avec le bouillon, cuire 25 minutes puis mixer jusqu’à texture lisse."
+        }
+    },
 
     fr: {
-        title: "Soupe de poireaux et pommes de terre",
+        title: "Soupe de poireaux (Belgique)",
         equipment: [
             "1 grande casserole",
             "1 couteau",
@@ -9809,42 +10053,28 @@ recipesData.entree.soupePoireaux = {
             "1 oignon moyen (120 g)",
             "2 cuillères à soupe d’huile d’olive (30 ml)",
             "1 litre d’eau",
-            "1 cube de bouillon de légumes halal",
+            "1 cube de bouillon de légumes",
             "1 cuillère à café de sel (5 g)",
             "1/2 cuillère à café de poivre"
         ],
         preparation:
-            "1. Laver soigneusement les poireaux.\n" +
-            "2. Couper les poireaux en fines rondelles.\n" +
-            "3. Éplucher les pommes de terre.\n" +
-            "4. Couper les pommes de terre en cubes de 2 cm.\n" +
-            "5. Éplucher l’oignon.\n" +
-            "6. Hacher finement l’oignon.\n" +
-            "7. Placer la casserole sur feu moyen.\n" +
-            "8. Ajouter l’huile d’olive.\n" +
-            "9. Attendre 1 minute que l’huile chauffe.\n" +
-            "10. Ajouter l’oignon dans la casserole.\n" +
-            "11. Faire revenir 3 à 4 minutes.\n" +
-            "12. Remuer jusqu’à ce qu’il devienne translucide.\n" +
-            "13. Ajouter les poireaux.\n" +
-            "14. Cuire 5 minutes en remuant.\n" +
-            "15. Ajouter les pommes de terre.\n" +
-            "16. Ajouter le cube de bouillon.\n" +
-            "17. Verser 1 litre d’eau.\n" +
-            "18. Porter à ébullition.\n" +
-            "19. Baisser le feu.\n" +
-            "20. Laisser mijoter 25 minutes.\n" +
-            "21. Retirer du feu.\n" +
-            "22. Mixer la soupe.\n" +
-            "23. Obtenir une texture lisse.\n" +
-            "24. Ajouter le sel.\n" +
-            "25. Ajouter le poivre.\n" +
-            "26. Mélanger.\n" +
-            "27. Servir bien chaud."
+            "1. Laver soigneusement les poireaux et les couper en fines rondelles.\n" +
+            "2. Éplucher les pommes de terre et les couper en cubes de 2 cm.\n" +
+            "3. Éplucher et hacher finement l’oignon.\n" +
+            "4. Chauffer l’huile d’olive dans une grande casserole.\n" +
+            "5. Faire revenir l’oignon 3 à 4 minutes jusqu’à ce qu’il devienne translucide.\n" +
+            "6. Ajouter les poireaux et cuire 5 minutes en remuant.\n" +
+            "7. Incorporer les pommes de terre.\n" +
+            "8. Ajouter le cube de bouillon puis verser l’eau.\n" +
+            "9. Porter à ébullition, puis baisser le feu.\n" +
+            "10. Laisser mijoter 25 minutes.\n" +
+            "11. Mixer jusqu’à obtention d’une texture lisse.\n" +
+            "12. Saler, poivrer et servir bien chaud.\n\n" +
+            "Simple et réconfortante, la soupe de poireaux est un grand classique de la cuisine belge. Préparée avec des légumes du quotidien, elle réchauffe les soirées fraîches et apporte une touche familiale et authentique à votre table."
     },
 
     en: {
-        title: "Leek and Potato Soup",
+        title: "Leek Soup (Belgium)",
         equipment: [
             "1 large pot",
             "1 knife",
@@ -9859,42 +10089,28 @@ recipesData.entree.soupePoireaux = {
             "1 medium onion (120 g)",
             "2 tablespoons olive oil (30 ml)",
             "1 liter water",
-            "1 halal vegetable stock cube",
+            "1 vegetable stock cube",
             "1 teaspoon salt (5 g)",
             "1/2 teaspoon black pepper"
         ],
         preparation:
-            "1. Wash the leeks thoroughly.\n" +
-            "2. Slice the leeks into thin rings.\n" +
-            "3. Peel the potatoes.\n" +
-            "4. Cut the potatoes into 2 cm cubes.\n" +
-            "5. Peel the onion.\n" +
-            "6. Finely chop the onion.\n" +
-            "7. Place the pot over medium heat.\n" +
-            "8. Add the olive oil.\n" +
-            "9. Let it heat for 1 minute.\n" +
-            "10. Add the onion.\n" +
-            "11. Sauté for 3–4 minutes.\n" +
-            "12. Stir until translucent.\n" +
-            "13. Add the leeks.\n" +
-            "14. Cook for 5 minutes while stirring.\n" +
-            "15. Add the potatoes.\n" +
-            "16. Add the stock cube.\n" +
-            "17. Pour in 1 liter of water.\n" +
-            "18. Bring to a boil.\n" +
-            "19. Reduce the heat.\n" +
-            "20. Simmer for 25 minutes.\n" +
-            "21. Remove from heat.\n" +
-            "22. Blend the soup.\n" +
-            "23. Get a smooth texture.\n" +
-            "24. Add salt.\n" +
-            "25. Add pepper.\n" +
-            "26. Stir well.\n" +
-            "27. Serve hot."
+            "1. Wash the leeks thoroughly and slice them into thin rings.\n" +
+            "2. Peel the potatoes and cut them into 2 cm cubes.\n" +
+            "3. Peel and finely chop the onion.\n" +
+            "4. Heat the olive oil in a large pot.\n" +
+            "5. Sauté the onion for 3–4 minutes until translucent.\n" +
+            "6. Add the leeks and cook for 5 minutes while stirring.\n" +
+            "7. Add the potatoes.\n" +
+            "8. Add the stock cube and pour in the water.\n" +
+            "9. Bring to a boil, then reduce the heat.\n" +
+            "10. Simmer for 25 minutes.\n" +
+            "11. Blend until smooth.\n" +
+            "12. Season with salt and pepper and serve hot.\n\n" +
+            "Leek soup is a comforting Belgian classic made with simple, wholesome ingredients. Perfect for chilly evenings, it brings warmth and authentic home-style flavors to your table."
     },
 
     nl: {
-        title: "Prei en aardappelsoep",
+        title: "Preisoep (België)",
         equipment: [
             "1 grote pan",
             "1 mes",
@@ -9909,42 +10125,28 @@ recipesData.entree.soupePoireaux = {
             "1 middelgrote ui (120 g)",
             "2 eetlepels olijfolie (30 ml)",
             "1 liter water",
-            "1 halal groentebouillonblokje",
+            "1 groentebouillonblokje",
             "1 theelepel zout (5 g)",
             "1/2 theelepel zwarte peper"
         ],
         preparation:
-            "1. Was de preien grondig.\n" +
-            "2. Snijd de preien in dunne ringen.\n" +
-            "3. Schil de aardappelen.\n" +
-            "4. Snijd ze in blokjes van 2 cm.\n" +
-            "5. Schil de ui.\n" +
-            "6. Hak de ui fijn.\n" +
-            "7. Zet de pan op middelhoog vuur.\n" +
-            "8. Voeg olijfolie toe.\n" +
-            "9. Laat 1 minuut opwarmen.\n" +
-            "10. Voeg de ui toe.\n" +
-            "11. Bak 3–4 minuten.\n" +
-            "12. Roer tot glazig.\n" +
-            "13. Voeg de prei toe.\n" +
-            "14. Bak 5 minuten al roerend.\n" +
-            "15. Voeg de aardappelen toe.\n" +
-            "16. Voeg het bouillonblokje toe.\n" +
-            "17. Giet 1 liter water erbij.\n" +
-            "18. Breng aan de kook.\n" +
-            "19. Zet het vuur lager.\n" +
-            "20. Laat 25 minuten sudderen.\n" +
-            "21. Haal van het vuur.\n" +
-            "22. Mix de soep.\n" +
-            "23. Maak het glad.\n" +
-            "24. Voeg zout toe.\n" +
-            "25. Voeg peper toe.\n" +
-            "26. Meng goed.\n" +
-            "27. Serveer warm."
+            "1. Was de preien grondig en snijd ze in dunne ringen.\n" +
+            "2. Schil de aardappelen en snijd ze in blokjes van 2 cm.\n" +
+            "3. Schil en snipper de ui fijn.\n" +
+            "4. Verhit de olijfolie in een grote pan.\n" +
+            "5. Bak de ui 3–4 minuten tot hij glazig is.\n" +
+            "6. Voeg de prei toe en bak 5 minuten al roerend.\n" +
+            "7. Voeg de aardappelen toe.\n" +
+            "8. Doe het bouillonblokje en het water erbij.\n" +
+            "9. Breng aan de kook en zet het vuur lager.\n" +
+            "10. Laat 25 minuten sudderen.\n" +
+            "11. Mix de soep glad.\n" +
+            "12. Breng op smaak met zout en peper en serveer warm.\n\n" +
+            "Preisoep is een klassieker uit de Belgische keuken. Met eenvoudige groenten en een romige textuur is dit een verwarmende soep die perfect past bij een gezellig familiediner."
     },
 
     ar: {
-        title: "حساء الكراث والبطاطس",
+        title: "حساء الكراث (بلجيكا)",
         equipment: [
             "قدر كبير",
             "سكين",
@@ -9954,65 +10156,91 @@ recipesData.entree.soupePoireaux = {
             "كوب قياس"
         ],
         ingredients: [
-            "3 كراث متوسطة (450غ)",
-            "3 بطاطس متوسطة (450غ)",
+            "3 حبات كراث متوسطة (450غ)",
+            "3 حبات بطاطس متوسطة (450غ)",
             "بصلة متوسطة (120غ)",
             "2 ملعقة كبيرة زيت زيتون (30مل)",
             "1 لتر ماء",
-            "1 مكعب مرق خضار حلال",
+            "1 مكعب مرق خضار",
             "1 ملعقة صغيرة ملح (5غ)",
             "نصف ملعقة صغيرة فلفل أسود"
         ],
         preparation:
-            "1. اغسل الكراث جيداً.\n" +
-            "2. قطّعه إلى شرائح رفيعة.\n" +
-            "3. قشّر البطاطس.\n" +
-            "4. قطّعها إلى مكعبات 2 سم.\n" +
-            "5. قشّر البصلة.\n" +
-            "6. افرم البصلة ناعماً.\n" +
-            "7. ضع القدر على نار متوسطة.\n" +
-            "8. أضف زيت الزيتون.\n" +
-            "9. انتظر دقيقة حتى يسخن.\n" +
-            "10. أضف البصلة.\n" +
-            "11. قلّب 3–4 دقائق.\n" +
-            "12. حتى تصبح شفافة.\n" +
-            "13. أضف الكراث.\n" +
-            "14. اطبخ 5 دقائق مع التحريك.\n" +
-            "15. أضف البطاطس.\n" +
-            "16. أضف مكعب المرق.\n" +
-            "17. اسكب 1 لتر ماء.\n" +
-            "18. ارفع الحرارة حتى الغليان.\n" +
-            "19. خفف النار.\n" +
-            "20. اتركه يطهى 25 دقيقة.\n" +
-            "21. ارفع القدر من النار.\n" +
-            "22. اخلط الحساء.\n" +
-            "23. حتى يصبح ناعماً.\n" +
-            "24. أضف الملح.\n" +
-            "25. أضف الفلفل.\n" +
-            "26. حرّك جيداً.\n" +
-            "27. قدّم ساخناً."
+            "1. اغسل الكراث جيداً وقطّعه إلى شرائح رفيعة.\n" +
+            "2. قشّر البطاطس وقطّعها إلى مكعبات بحجم 2 سم.\n" +
+            "3. قشّر البصلة وافرُمها ناعماً.\n" +
+            "4. سخّن زيت الزيتون في قدر كبير.\n" +
+            "5. أضف البصلة وقلّب لمدة 3–4 دقائق حتى تذبل.\n" +
+            "6. أضف الكراث واطبخ 5 دقائق مع التحريك.\n" +
+            "7. أضف البطاطس.\n" +
+            "8. أضف مكعب المرق واسكب الماء.\n" +
+            "9. اتركه حتى يغلي ثم خفف النار.\n" +
+            "10. دعه يطهى لمدة 25 دقيقة.\n" +
+            "11. اخلط الحساء حتى يصبح ناعماً.\n" +
+            "12. أضف الملح والفلفل وقدّمه ساخناً.\n\n" +
+            "يُعد حساء الكراث من الأطباق التقليدية في بلجيكا، حيث يتميز ببساطته وطعمه الدافئ. مكوناته المتوفرة في كل منزل تجعله خياراً مثالياً لوجبة خفيفة ومريحة في الأيام الباردة."
     }
 };
 recipesData.entree.croquettesCrevettes = {
     country: "belgique",
     image: "images/croquettes-crevettes.jpg",
 
-  meta: {
-    servings: 4,
-    prepTime: 25,
-    cookTime: 15,
-    difficulty: "medium"
-},
-
+    meta: {
+        servings: 4,
+        prepTime: 25,
+        cookTime: 15,
+        difficulty: "medium",
+        seo: {
+            slug: "croquettes-crevettes-belgique",
+            title: "Croquettes de crevettes (Belgique) – Recette traditionnelle",
+            description: "Découvrez les croquettes de crevettes belges, spécialité emblématique de la côte belge, croustillantes et fondantes, héritées des brasseries du XXe siècle.",
+            keywords: [
+                "recette croquettes crevettes",
+                "croquettes crevettes belgique",
+                "cuisine belge traditionnelle",
+                "entree belge mer du nord",
+                "specialite ostende",
+                "croquettes maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            name: "Croquettes de crevettes (Belgique)",
+            recipeCategory: "Entrée",
+            recipeYield: "4 portions",
+            prepTime: "PT25M",
+            cookTime: "PT15M",
+            totalTime: "PT40M",
+            recipeIngredient: [
+                "200 g de crevettes grises décortiquées",
+                "50 g de beurre",
+                "50 g de farine",
+                "250 ml de lait",
+                "1 cuillère à café de sel",
+                "1/2 cuillère à café de poivre",
+                "1 pincée de noix de muscade",
+                "2 œufs",
+                "50 g de chapelure",
+                "Huile pour friture",
+                "Jus de citron (facultatif)",
+                "Quartiers de citron frais pour le service (facultatif)"
+            ],
+            recipeInstructions: "Préparer une béchamel épaisse, incorporer les crevettes, laisser refroidir, former les croquettes, paner puis frire jusqu’à dorure."
+        }
+    },
 
     fr: {
-        title: "Croquettes de crevettes grises",
+        title: "Croquettes de crevettes (Belgique)",
         equipment: [
-            "1 poêle",
+            "1 casserole",
+            "1 poêle ou friteuse",
             "1 couteau",
             "1 planche à découper",
             "1 cuillère en bois",
-            "1 bol"
+            "1 bol",
+            "1 assiette creuse",
+            "Papier absorbant"
         ],
         ingredients: [
             "200 g de crevettes grises décortiquées",
@@ -10024,89 +10252,106 @@ recipesData.entree.croquettesCrevettes = {
             "1 pincée de noix de muscade",
             "2 œufs",
             "50 g de chapelure",
-            "Huile pour friture"
+            "Huile pour friture",
+            "Jus de citron (facultatif)",
+            "1 citron coupé en quartiers pour le service (facultatif)"
         ],
         preparation:
-            "1. Mettre le beurre dans la poêle.\n" +
-            "2. Faire fondre à feu moyen.\n" +
-            "3. Ajouter la farine.\n" +
-            "4. Mélanger pendant 1 minute.\n" +
-            "5. Verser le lait progressivement.\n" +
-            "6. Remuer constamment.\n" +
-            "7. Obtenir une sauce épaisse.\n" +
-            "8. Ajouter les crevettes.\n" +
-            "9. Ajouter le sel.\n" +
-            "10. Ajouter le poivre.\n" +
-            "11. Ajouter la muscade.\n" +
-            "12. Mélanger.\n" +
-            "13. Retirer du feu.\n" +
-            "14. Laisser refroidir complètement.\n" +
-            "15. Former des croquettes.\n" +
-            "16. Casser les œufs dans un bol.\n" +
-            "17. Tremper les croquettes dans l’œuf.\n" +
-            "18. Les rouler dans la chapelure.\n" +
-            "19. Chauffer l’huile.\n" +
-            "20. Faire frire les croquettes.\n" +
-            "21. Cuire jusqu’à dorure.\n" +
-            "22. Égoutter.\n" +
-            "23. Servir chaud."
+            "==============================\n" +
+            "PRÉPARATION DE LA FARCE\n" +
+            "==============================\n\n" +
+            "1. Faire fondre le beurre dans une casserole à feu moyen.\n" +
+            "2. Ajouter la farine et mélanger pendant 1 minute.\n" +
+            "3. Verser le lait progressivement en remuant constamment.\n" +
+            "4. Cuire jusqu’à obtenir une béchamel bien épaisse.\n" +
+            "5. Incorporer les crevettes, le sel, le poivre et la muscade.\n" +
+            "6. Mélanger puis retirer du feu.\n" +
+            "7. Étaler la préparation dans un plat et laisser refroidir au réfrigérateur au moins 1 heure.\n\n" +
+            "==============================\n" +
+            "FORMATION ET CUISSON\n" +
+            "==============================\n\n" +
+            "8. Former des croquettes ovales avec la préparation froide.\n" +
+            "9. Battre les œufs dans un bol.\n" +
+            "10. Tremper chaque croquette dans l’œuf.\n" +
+            "11. Les rouler dans la chapelure.\n" +
+            "12. Chauffer l’huile à 170°C.\n" +
+            "13. Faire frire jusqu’à belle coloration dorée.\n" +
+            "14. Égoutter sur du papier absorbant.\n" +
+            "15. Servir chaud, accompagné de salade et de quartiers de citron.\n\n" +
+            "==============================\n" +
+            "ORIGINE ET HISTOIRE\n" +
+            "==============================\n\n" +
+            "Les croquettes de crevettes sont une spécialité typiquement belge née sur la côte de la mer du Nord, notamment à Ostende, au début du XXe siècle. Elles se sont développées dans les brasseries et restaurants de bord de mer qui mettaient à l’honneur la crevette grise fraîchement pêchée.\n\n" +
+            "La pêche à la crevette se pratique encore aujourd’hui de manière traditionnelle sur certaines plages belges. Des pêcheurs utilisent des chevaux de trait robustes qui tirent de larges filets à travers l’eau peu profonde. Cette technique ancestrale consiste à avancer lentement dans la mer, les filets raclant le fond sableux pour capturer les crevettes grises, perpétuant ainsi un savoir-faire unique transmis de génération en génération.\n\n" +
+            "Rapidement devenues un classique national, ces croquettes symbolisent le savoir-faire culinaire belge, alliant croustillant parfait et cœur fondant riche en saveur. Pour ajouter un petit bonus gustatif, il est possible d’incorporer quelques gouttes de jus de citron dans la farce ou d’en presser légèrement sur les croquettes au moment du service. Bien souvent, cette entrée est accompagnée d’un peu de salade fraîche et d’un ou deux quartiers de citron afin que chacun puisse ajuster l’acidité selon son goût."
     },
 
     en: {
-        title: "Grey Shrimp Croquettes",
+        title: "Shrimp Croquettes (Belgium)",
         equipment: [
-            "1 frying pan",
+            "1 saucepan",
+            "1 fryer or deep pan",
             "1 knife",
             "1 cutting board",
             "1 wooden spoon",
-            "1 bowl"
+            "1 bowl",
+            "1 shallow plate",
+            "Paper towels"
         ],
         ingredients: [
             "200 g peeled grey shrimp",
             "50 g butter",
             "50 g flour",
             "250 ml milk",
-            "1 tsp salt",
-            "1/2 tsp pepper",
+            "1 teaspoon salt",
+            "1/2 teaspoon pepper",
             "Pinch of nutmeg",
             "2 eggs",
             "50 g breadcrumbs",
-            "Oil for frying"
+            "Oil for frying",
+            "Lemon juice (optional)",
+            "Fresh lemon wedges for serving (optional)"
         ],
         preparation:
-            "1. Place butter in the pan.\n" +
-            "2. Melt over medium heat.\n" +
-            "3. Add the flour.\n" +
-            "4. Stir for 1 minute.\n" +
-            "5. Gradually pour in the milk.\n" +
-            "6. Stir constantly.\n" +
-            "7. Get a thick sauce.\n" +
-            "8. Add the shrimp.\n" +
-            "9. Add salt.\n" +
-            "10. Add pepper.\n" +
-            "11. Add nutmeg.\n" +
-            "12. Mix well.\n" +
-            "13. Remove from heat.\n" +
-            "14. Let cool completely.\n" +
-            "15. Shape into croquettes.\n" +
-            "16. Beat the eggs in a bowl.\n" +
-            "17. Dip croquettes in egg.\n" +
-            "18. Roll in breadcrumbs.\n" +
-            "19. Heat the oil.\n" +
-            "20. Fry the croquettes.\n" +
-            "21. Cook until golden.\n" +
-            "22. Drain excess oil.\n" +
-            "23. Serve hot."
+            "==============================\n" +
+            "FILLING PREPARATION\n" +
+            "==============================\n\n" +
+            "1. Melt the butter in a saucepan over medium heat.\n" +
+            "2. Add the flour and stir for 1 minute.\n" +
+            "3. Gradually pour in the milk while stirring constantly.\n" +
+            "4. Cook until a thick béchamel forms.\n" +
+            "5. Add the shrimp, salt, pepper, and nutmeg.\n" +
+            "6. Mix well and remove from heat.\n" +
+            "7. Chill for at least 1 hour.\n\n" +
+            "==============================\n" +
+            "SHAPING AND FRYING\n" +
+            "==============================\n\n" +
+            "8. Shape into oval croquettes.\n" +
+            "9. Beat the eggs in a bowl.\n" +
+            "10. Dip each croquette into egg.\n" +
+            "11. Coat with breadcrumbs.\n" +
+            "12. Fry until golden brown.\n" +
+            "13. Drain on paper towels.\n" +
+            "14. Serve hot with salad and lemon wedges.\n\n" +
+            "==============================\n" +
+            "ORIGIN AND HISTORY\n" +
+            "==============================\n\n" +
+            "Shrimp croquettes originated along the North Sea coast, especially in Ostend, in the early 20th century, where brasseries showcased freshly caught grey shrimp.\n\n" +
+            "Even today, shrimp fishing is still practiced in a traditional way on some Belgian beaches. Fishermen use strong draft horses to pull wide nets through the shallow sea. Moving slowly across the sandy seabed, the nets collect grey shrimp using a technique passed down through generations.\n\n" +
+            "These croquettes became a national classic, known for their crispy exterior and creamy filling. For extra flavor, a few drops of lemon juice can be added, and they are often served with fresh salad and lemon wedges so everyone can season to taste."
     },
 
     nl: {
-        title: "Grijze garnalenkroketten",
+        title: "Garnalenkroketten (België)",
         equipment: [
-            "1 koekenpan",
+            "1 steelpan",
+            "1 friteuse of diepe pan",
             "1 mes",
             "1 snijplank",
             "1 houten lepel",
-            "1 kom"
+            "1 kom",
+            "1 diep bord",
+            "Keukenpapier"
         ],
         ingredients: [
             "200 g gepelde grijze garnalen",
@@ -10118,42 +10363,42 @@ recipesData.entree.croquettesCrevettes = {
             "Snufje nootmuskaat",
             "2 eieren",
             "50 g paneermeel",
-            "Olie om te frituren"
+            "Olie om te frituren",
+            "Citroensap (optioneel)",
+            "Verse citroenpartjes voor serveren (optioneel)"
         ],
         preparation:
-            "1. Doe de boter in de pan.\n" +
-            "2. Laat smelten op middelhoog vuur.\n" +
-            "3. Voeg de bloem toe.\n" +
-            "4. Roer 1 minuut.\n" +
-            "5. Giet de melk er geleidelijk bij.\n" +
-            "6. Blijf roeren.\n" +
-            "7. Maak een dikke saus.\n" +
-            "8. Voeg de garnalen toe.\n" +
-            "9. Voeg zout toe.\n" +
-            "10. Voeg peper toe.\n" +
-            "11. Voeg nootmuskaat toe.\n" +
-            "12. Meng goed.\n" +
-            "13. Haal van het vuur.\n" +
-            "14. Laat volledig afkoelen.\n" +
-            "15. Vorm kroketten.\n" +
-            "16. Klop de eieren los.\n" +
-            "17. Doop de kroketten in ei.\n" +
-            "18. Rol ze in paneermeel.\n" +
-            "19. Verhit de olie.\n" +
-            "20. Bak de kroketten.\n" +
-            "21. Tot ze goudbruin zijn.\n" +
-            "22. Laat uitlekken.\n" +
-            "23. Serveer warm."
+            "==============================\n" +
+            "BEREIDING VAN DE VULLING\n" +
+            "==============================\n\n" +
+            "1. Smelt de boter in een steelpan.\n" +
+            "2. Voeg de bloem toe en roer.\n" +
+            "3. Giet geleidelijk de melk erbij.\n" +
+            "4. Voeg de garnalen en kruiden toe en laat afkoelen.\n\n" +
+            "==============================\n" +
+            "VORMEN EN FRITUREN\n" +
+            "==============================\n\n" +
+            "5. Vorm kroketten, paneer en frituur.\n" +
+            "6. Serveer warm met salade en citroen.\n\n" +
+            "==============================\n" +
+            "OORSPRONG EN GESCHIEDENIS\n" +
+            "==============================\n\n" +
+            "Garnalenkroketten ontstonden aan de Noordzeekust, vooral in Oostende, begin 20e eeuw.\n\n" +
+            "Tot op vandaag wordt garnalenvisserij op sommige Belgische stranden nog op traditionele wijze uitgevoerd. Vissers gebruiken sterke trekpaarden die brede netten door het ondiepe water trekken. Terwijl ze langzaam over de zandbodem stappen, verzamelen de netten grijze garnalen volgens een eeuwenoude techniek.\n\n" +
+            "Deze kroketten zijn een nationaal icoon geworden. Voor extra smaak kan wat citroensap worden toegevoegd en vaak worden ze geserveerd met salade en citroenpartjes zodat iedereen naar wens kan kruiden."
     },
 
     ar: {
-        title: "كروكيت الروبيان الرمادي",
+        title: "كروكيت الروبيان (بلجيكا)",
         equipment: [
-            "مقلاة",
+            "قدر صغير",
+            "مقلاة عميقة",
             "سكين",
             "لوح تقطيع",
             "ملعقة خشبية",
-            "وعاء"
+            "وعاء",
+            "طبق عميق",
+            "ورق مطبخ"
         ],
         ingredients: [
             "200 غ من الروبيان الرمادي المقشر",
@@ -10165,48 +10410,67 @@ recipesData.entree.croquettesCrevettes = {
             "رشة جوزة الطيب",
             "2 بيض",
             "50 غ بقسماط",
-            "زيت للقلي"
+            "زيت للقلي",
+            "عصير ليمون (اختياري)",
+            "أرباع ليمون طازج للتقديم (اختياري)"
         ],
         preparation:
-            "1. ضع الزبدة في المقلاة.\n" +
-            "2. اتركها تذوب على نار متوسطة.\n" +
-            "3. أضف الدقيق.\n" +
-            "4. حرّك لمدة دقيقة.\n" +
-            "5. أضف الحليب تدريجياً.\n" +
-            "6. حرّك باستمرار.\n" +
-            "7. احصل على صلصة كثيفة.\n" +
-            "8. أضف الروبيان.\n" +
-            "9. أضف الملح.\n" +
-            "10. أضف الفلفل.\n" +
-            "11. أضف جوزة الطيب.\n" +
-            "12. اخلط جيداً.\n" +
-            "13. ارفع من على النار.\n" +
-            "14. اتركه يبرد تماماً.\n" +
-            "15. شكّل الكروكيت.\n" +
-            "16. اخفق البيض في وعاء.\n" +
-            "17. اغمس الكروكيت في البيض.\n" +
-            "18. مرّرها في البقسماط.\n" +
-            "19. سخّن الزيت.\n" +
-            "20. اقلي الكروكيت.\n" +
-            "21. حتى تصبح ذهبية.\n" +
-            "22. صفِّ الزيت الزائد.\n" +
-            "23. قدّم ساخنة."
+            "==============================\n" +
+            "تحضير الحشوة\n" +
+            "==============================\n\n" +
+            "1. أذب الزبدة وأضف الدقيق.\n" +
+            "2. أضف الحليب حتى تتكوّن صلصة سميكة.\n" +
+            "3. أضف الروبيان والبهارات واتركه يبرد.\n\n" +
+            "==============================\n" +
+            "تشكيل وقلي الكروكيت\n" +
+            "==============================\n\n" +
+            "4. شكّل الكروكيت واغمسها في البيض والبقسماط.\n" +
+            "5. اقْلِ حتى تصبح ذهبية اللون وقدّمها مع السلطة والليمون.\n\n" +
+            "==============================\n" +
+            "الأصل والتاريخ\n" +
+            "==============================\n\n" +
+            "ظهرت كروكيت الروبيان في مدن الساحل البلجيكي خاصة أوستند في بداية القرن العشرين.\n\n" +
+            "ولا تزال بعض الشواطئ البلجيكية تشهد طريقة صيد تقليدية فريدة، حيث يستخدم الصيادون خيولاً قوية لجر شباك واسعة عبر المياه الضحلة. تتحرك الخيول ببطء فوق القاع الرملي بينما تجمع الشباك الروبيان الرمادي وفق أسلوب تقليدي متوارث عبر الأجيال.\n\n" +
+            "أصبحت هذه الكروكيت رمزاً وطنياً، ويمكن إضافة بضع قطرات من عصير الليمون لتعزيز النكهة، وغالباً ما تُقدَّم مع سلطة طازجة وأرباع ليمون ليضيف كل شخص الكمية المناسبة حسب ذوقه."
     }
 };
 recipesData.entree.potageLegumes = {
     country: "belgique",
     image: "images/potage-legumes.jpg",
 
-   meta: {
-    servings: 4,
-    prepTime: 15,
-    cookTime: 30,
-    difficulty: "easy"
-},
-
+    meta: {
+        servings: 4,
+        prepTime: 15,
+        cookTime: 30,
+        difficulty: "easy",
+        seo: {
+            slug: "potage-legumes-belgique",
+            title: "Potage de légumes (Belgique) – Recette facile",
+            description: "Découvrez comment préparer le potage de légumes, une soupe traditionnelle de Belgique, simple, économique et parfaite pour un repas léger.",
+            keywords: [
+                "recette potage legumes",
+                "potage legumes belgique",
+                "cuisine belge",
+                "recette soupe facile",
+                "entree traditionnelle",
+                "soupe maison"
+            ]
+        },
+        schema: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            name: "Potage de légumes (Belgique)",
+            recipeCategory: "Entrée",
+            recipeCuisine: "Belgique",
+            recipeYield: "4 portions",
+            prepTime: "PT15M",
+            cookTime: "PT30M",
+            totalTime: "PT45M"
+        }
+    },
 
     fr: {
-        title: "Potage de légumes maison",
+        title: "Potage de légumes (Belgique)",
         equipment: [
             "1 casserole",
             "1 couteau",
@@ -10253,11 +10517,17 @@ recipesData.entree.potageLegumes = {
             "26. Ajouter le sel.\n" +
             "27. Ajouter le poivre.\n" +
             "28. Mélanger.\n" +
-            "29. Servir chaud."
+            "29. Servir chaud.\n\n" +
+            "==============================\n" +
+            "INFORMATIONS & CONSEILS\n" +
+            "==============================\n\n" +
+            "Le potage de légumes est un classique incontournable des cuisines familiales belges. Préparé avec des légumes simples et économiques, il constitue une entrée saine et nourrissante.\n\n" +
+            "Cette soupe peut varier selon les saisons : vous pouvez ajouter courgettes, navets ou chou pour adapter la recette aux légumes disponibles.\n\n" +
+            "Pour plus d’onctuosité, ajoutez une cuillère de crème fraîche au moment du service. Servi avec du pain croustillant, ce potage devient un repas léger et complet."
     },
 
     en: {
-        title: "Homemade Vegetable Soup",
+        title: "Vegetable Soup (Belgium)",
         equipment: [
             "1 pot",
             "1 knife",
@@ -10272,7 +10542,7 @@ recipesData.entree.potageLegumes = {
             "1 celery stalk",
             "1 medium onion (100 g)",
             "1 liter vegetable broth",
-            "2 tbsp olive oil",
+            "2 tablespoons olive oil",
             "Salt and pepper"
         ],
         preparation:
@@ -10300,15 +10570,21 @@ recipesData.entree.potageLegumes = {
             "22. Simmer for 25 minutes.\n" +
             "23. Remove from heat.\n" +
             "24. Blend the soup.\n" +
-            "25. Get a smooth texture.\n" +
+            "25. Blend until smooth.\n" +
             "26. Add salt.\n" +
             "27. Add pepper.\n" +
             "28. Stir well.\n" +
-            "29. Serve hot."
+            "29. Serve hot.\n\n" +
+            "==============================\n" +
+            "INFORMATION & TIPS\n" +
+            "==============================\n\n" +
+            "Vegetable soup is a classic in Belgian family kitchens. Made with simple and affordable vegetables, it is a healthy and nourishing starter.\n\n" +
+            "This soup can vary with the seasons: you can add zucchini, turnips or cabbage depending on available vegetables.\n\n" +
+            "For extra creaminess, add a spoon of fresh cream before serving. Served with crusty bread, this soup becomes a light and complete meal."
     },
 
     nl: {
-        title: "Huisgemaakte groentesoep",
+        title: "Groentesoep (België)",
         equipment: [
             "1 pan",
             "1 mes",
@@ -10321,7 +10597,7 @@ recipesData.entree.potageLegumes = {
             "2 aardappelen (200 g)",
             "1 prei (150 g)",
             "1 selderijstengel",
-            "1 ui (100 g)",
+            "1 middelgrote ui (100 g)",
             "1 liter groentebouillon",
             "2 eetlepels olijfolie",
             "Zout en peper"
@@ -10334,7 +10610,7 @@ recipesData.entree.potageLegumes = {
             "5. Was de prei.\n" +
             "6. Snijd de prei in ringen.\n" +
             "7. Snijd de selderij.\n" +
-            "8. Schil de ui.\n" +
+            "8. Pel de ui.\n" +
             "9. Hak de ui fijn.\n" +
             "10. Zet de pan op middelhoog vuur.\n" +
             "11. Voeg olijfolie toe.\n" +
@@ -10351,15 +10627,21 @@ recipesData.entree.potageLegumes = {
             "22. Laat 25 minuten sudderen.\n" +
             "23. Haal van het vuur.\n" +
             "24. Mix de soep.\n" +
-            "25. Maak het glad.\n" +
+            "25. Mix tot een gladde structuur.\n" +
             "26. Voeg zout toe.\n" +
             "27. Voeg peper toe.\n" +
             "28. Meng goed.\n" +
-            "29. Serveer warm."
+            "29. Serveer warm.\n\n" +
+            "==============================\n" +
+            "INFORMATIE & TIPS\n" +
+            "==============================\n\n" +
+            "Groentesoep is een klassieker in Belgische gezinnen. Met eenvoudige en betaalbare groenten is het een gezonde en voedzame voorgerecht.\n\n" +
+            "Deze soep kan per seizoen verschillen: voeg courgette, raap of kool toe afhankelijk van wat beschikbaar is.\n\n" +
+            "Voor extra romigheid kunt u bij het serveren een lepel room toevoegen. Met knapperig brood wordt deze soep een lichte en volledige maaltijd."
     },
 
     ar: {
-        title: "شوربة خضار منزلية",
+        title: "شوربة الخضار (بلجيكا)",
         equipment: [
             "قدر",
             "سكين",
@@ -10389,7 +10671,7 @@ recipesData.entree.potageLegumes = {
             "9. افرم البصلة.\n" +
             "10. ضع القدر على نار متوسطة.\n" +
             "11. أضف زيت الزيتون.\n" +
-            "12. أضف البصلة.\n" +
+            "12. أضف البصل.\n" +
             "13. قلّب لمدة 5 دقائق.\n" +
             "14. حرّك باستمرار.\n" +
             "15. أضف الجزر.\n" +
@@ -10406,7 +10688,13 @@ recipesData.entree.potageLegumes = {
             "26. أضف الملح.\n" +
             "27. أضف الفلفل.\n" +
             "28. حرّك جيداً.\n" +
-            "29. قدّم ساخنة."
+            "29. قدّم ساخنة.\n\n" +
+            "==============================\n" +
+            "معلومات ونصائح\n" +
+            "==============================\n\n" +
+            "تُعد شوربة الخضار من الأطباق الكلاسيكية في المطابخ العائلية البلجيكية. تُحضَّر بخضروات بسيطة واقتصادية وتُعتبر بداية صحية ومغذية للوجبة.\n\n" +
+            "يمكن تغيير المكونات حسب الموسم، مثل إضافة الكوسة أو اللفت أو الملفوف حسب المتوفر.\n\n" +
+            "للحصول على قوام أكثر نعومة يمكن إضافة ملعقة من الكريمة عند التقديم. ومع الخبز المقرمش تصبح هذه الشوربة وجبة خفيفة ومتكاملة."
     }
 };
 recipesData.entree.saladeLiegeoise = {
@@ -78132,6 +78420,7 @@ let currentCountry = "all";
 /* --------- LANGUE --------- */
 function setLanguage(lang) {
     currentLang = lang;
+    localStorage.setItem("language", lang);   // ✅ IMPORTANT
     document.querySelectorAll("[data-i18n]").forEach(el => {
         const key = el.getAttribute("data-i18n");
         if (translations[lang][key]) el.textContent = translations[lang][key];
